@@ -78,7 +78,7 @@ if available == True:
     document['chinese'] = retrieve_doc(raw_url+language['chinese'])
     # save to file:
     fname = document['english']['title'] + '.json'
-    with open(fname, 'w') as f:
+    with open('../data/'+fname, 'w') as f:
         json.dump(document, f)
 else:
     print('translation is not available')
