@@ -11,8 +11,8 @@ import requests
 import os 
 import json 
 
-os.getcwd()
-os.chdir('/home/johnsonice/Desktop/temp/webScrap')
+#os.getcwd()
+#os.chdir('/home/johnsonice/Desktop/temp/webScrap')
 
 
 #%%
