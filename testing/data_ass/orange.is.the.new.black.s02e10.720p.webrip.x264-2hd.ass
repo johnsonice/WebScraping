@@ -1,0 +1,979 @@
+[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,21,&H00FFFFFF,&HF0000000,&H006C3300,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,5,5,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:14.45,0:01:18.43,Default,,0000,0000,0000,,{\fe134\an2\fn方正准圆_GBK\fs20\c&H24EFFF&\4c&H00000\b1\i0\u0\s0\fscx100\fscy100\fsp0\fr0\bord0\shad1\fad(500,500)\pos(190,278)}《女子监狱》\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}{\fs17\c&HFFFFFF&}第二季第十集
+Dialogue: 0,0:01:36.37,0:01:37.87,Default,,0000,0000,0000,,老天爷\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, my God.
+Dialogue: 0,0:01:39.62,0:01:40.62,Default,,0000,0000,0000,,很差劲对吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Horrible, wasn't it?
+Dialogue: 0,0:01:42.16,0:01:43.21,Default,,0000,0000,0000,,最差劲了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}The worst.
+Dialogue: 0,0:01:45.75,0:01:47.71,Default,,0000,0000,0000,,你这个做得真差劲\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You're really bad at that.
+Dialogue: 0,0:01:50.80,0:01:51.84,Default,,0000,0000,0000,,让我服务你好吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Can I do you?
+Dialogue: 0,0:01:53.80,0:01:55.76,Default,,0000,0000,0000,,你不必问\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You don't have to ask.
+Dialogue: 0,0:01:57.43,0:02:00.43,Default,,0000,0000,0000,,我从来没有过真正地...\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I've never really...
+Dialogue: 0,0:02:04.77,0:02:06.73,Default,,0000,0000,0000,,为女人口交过吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Gone down on a woman before?
+Dialogue: 0,0:02:07.90,0:02:08.94,Default,,0000,0000,0000,,我是说\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I mean...
+Dialogue: 0,0:02:09.94,0:02:10.94,Default,,0000,0000,0000,,没有\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No.
+Dialogue: 0,0:02:12.78,0:02:14.32,Default,,0000,0000,0000,,你算是哪门子的女同啊\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What kind of a lesbian are you?
+Dialogue: 0,0:02:14.41,0:02:16.82,Default,,0000,0000,0000,,摸咪咪的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}The boob-touching kind.
+Dialogue: 0,0:02:16.91,0:02:18.74,Default,,0000,0000,0000,,那好吧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}All right, well...
+Dialogue: 0,0:02:20.33,0:02:22.12,Default,,0000,0000,0000,,你准备好"俯身"一试吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Are you ready to take the plunge...
+Dialogue: 0,0:02:23.12,0:02:24.12,Default,,0000,0000,0000,,可以这样说\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}so to speak?
+Dialogue: 0,0:02:24.21,0:02:25.87,Default,,0000,0000,0000,,你会教我吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Are you gonna coach me through it?
+Dialogue: 0,0:02:25.96,0:02:26.96,Default,,0000,0000,0000,,当然\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah.
+Dialogue: 0,0:02:31.09,0:02:33.67,Default,,0000,0000,0000,,该死\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Shit.
+Dialogue: 0,0:02:39.47,0:02:40.60,Default,,0000,0000,0000,,该死\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Shit.
+Dialogue: 0,0:02:41.64,0:02:42.81,Default,,0000,0000,0000,,阿姆斯特丹现在几点\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What time is it in Amsterdam?
+Dialogue: 0,0:02:42.89,0:02:44.10,Default,,0000,0000,0000,,我不知道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I have no idea.
+Dialogue: 0,0:02:44.18,0:02:46.81,Default,,0000,0000,0000,,等我一下\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Okay, um, give me a second.
+Dialogue: 0,0:02:46.90,0:02:49.11,Default,,0000,0000,0000,,对不起  生意上的事\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm sorry, it's business.
+Dialogue: 0,0:02:49.19,0:02:50.27,Default,,0000,0000,0000,,我马上回来\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'll be right back.
+Dialogue: 0,0:02:52.03,0:02:53.78,Default,,0000,0000,0000,,你要喝杯水吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Do you want a glass of water?
+Dialogue: 0,0:02:53.86,0:02:55.78,Default,,0000,0000,0000,,这也是反应之一吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Is that a part of it?
+Dialogue: 0,0:02:56.99,0:02:57.99,Default,,0000,0000,0000,,脱水\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Hydration?
+Dialogue: 0,0:03:06.16,0:03:07.17,Default,,0000,0000,0000,,搞什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What the...
+Dialogue: 0,0:03:08.17,0:03:09.21,Default,,0000,0000,0000,,艾丽克斯\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Alex!
+Dialogue: 0,0:03:14.55,0:03:15.92,Default,,0000,0000,0000,,老天  你妈的搞什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Jesus! What the fuck?
+Dialogue: 0,0:03:16.01,0:03:17.22,Default,,0000,0000,0000,,住手  西尔维\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Stop, Sylvie!
+Dialogue: 0,0:03:17.30,0:03:19.76,Default,,0000,0000,0000,,-住手  西尔维  妈的  -婊子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Stop it, Sylvie! Shit! - Bitch!
+Dialogue: 0,0:03:19.85,0:03:21.85,Default,,0000,0000,0000,,老天\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Jesus.
+Dialogue: 0,0:03:22.68,0:03:24.31,Default,,0000,0000,0000,,她打我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She... she attacked me.
+Dialogue: 0,0:03:24.39,0:03:26.56,Default,,0000,0000,0000,,-你妈的开什么玩笑  -别这样  帕波\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Are you fucking kidding? - Stop. Piper...
+Dialogue: 0,0:03:26.64,0:03:27.73,Default,,0000,0000,0000,,她就这样闯了进来\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She just broke in here.
+Dialogue: 0,0:03:27.81,0:03:29.35,Default,,0000,0000,0000,,我住在这里\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I live here!
+Dialogue: 0,0:03:31.52,0:03:32.53,Default,,0000,0000,0000,,是的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She does.
+Dialogue: 0,0:03:33.19,0:03:35.57,Default,,0000,0000,0000,,这是我的女友  你这个婊子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That's my girlfriend, you whore.
+Dialogue: 0,0:03:35.65,0:03:36.90,Default,,0000,0000,0000,,不\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No.
+Dialogue: 0,0:03:36.99,0:03:39.07,Default,,0000,0000,0000,,把她赶出去\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Get her the fuck out of here.
+Dialogue: 0,0:03:39.16,0:03:40.05,Default,,0000,0000,0000,,我会的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Okay, I will. I'm gonna get
+Dialogue: 0,0:03:40.05,0:03:41.45,Default,,0000,0000,0000,,我会让她走  然后我们谈谈\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}her out of here and then we're gonna talk.
+Dialogue: 0,0:03:41.53,0:03:43.83,Default,,0000,0000,0000,,我说了  让她滚  立刻\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I said, get her out! Now!
+Dialogue: 0,0:03:43.91,0:03:46.12,Default,,0000,0000,0000,,西尔维  别这样  西尔维\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Sylvie. Come on, Sylvie.
+Dialogue: 0,0:03:47.12,0:03:48.12,Default,,0000,0000,0000,,你的女友\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Your girlfriend?
+Dialogue: 0,0:03:49.54,0:03:52.00,Default,,0000,0000,0000,,很复杂  帕波\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's complicated, Piper.
+Dialogue: 0,0:03:52.09,0:03:53.13,Default,,0000,0000,0000,,真操蛋\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}This is so fucked up.
+Dialogue: 0,0:03:53.21,0:03:54.63,Default,,0000,0000,0000,,对不起  我应该说的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm sorry, I should've said something.
+Dialogue: 0,0:03:54.71,0:03:56.13,Default,,0000,0000,0000,,你以为呢\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You think?
+Dialogue: 0,0:03:56.21,0:03:57.59,Default,,0000,0000,0000,,你受伤了吗  她打伤你了吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Are you hurt? Did she hurt you?
+Dialogue: 0,0:03:57.68,0:03:59.13,Default,,0000,0000,0000,,她揍了我的脸\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She punched me in the face.
+Dialogue: 0,0:03:59.22,0:04:00.59,Default,,0000,0000,0000,,对  很痛\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yes, it hurts.
+Dialogue: 0,0:04:00.68,0:04:02.72,Default,,0000,0000,0000,,妈的  我另一只鞋呢\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Fuck, where is my other shoe?
+Dialogue: 0,0:04:02.81,0:04:05.85,Default,,0000,0000,0000,,我只是  不断见到你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I just... I kept seeing you around and...
+Dialogue: 0,0:04:05.93,0:04:07.81,Default,,0000,0000,0000,,我喜欢你  然后你打来电话\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know, I liked you, and then when you called...
+Dialogue: 0,0:04:07.89,0:04:11.15,Default,,0000,0000,0000,,闭嘴  别说了  你越描越黑\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Okay, stop it. Please don't. You're making it worse.
+Dialogue: 0,0:04:11.23,0:04:12.65,Default,,0000,0000,0000,,给\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Here.
+Dialogue: 0,0:04:12.73,0:04:14.23,Default,,0000,0000,0000,,你找到另一只鞋子了吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Did you find your other shoe?
+Dialogue: 0,0:04:14.32,0:04:15.53,Default,,0000,0000,0000,,算了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Forget it.
+Dialogue: 0,0:04:15.61,0:04:18.45,Default,,0000,0000,0000,,你没鞋怎么走回家\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What? You can't walk home without your shoes.
+Dialogue: 0,0:04:18.53,0:04:20.41,Default,,0000,0000,0000,,你的鞋子很漂亮\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}They're nice shoes.
+Dialogue: 0,0:04:22.07,0:04:24.08,Default,,0000,0000,0000,,马歇尔百货买的  操你妈\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}They're from Marshalls. Fuck you!
+Dialogue: 0,0:04:28.25,0:04:29.25,Default,,0000,0000,0000,,脱衣服\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Strip.
+Dialogue: 0,0:04:29.33,0:04:30.83,Default,,0000,0000,0000,,你也早上好\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Good morning to you, too.
+Dialogue: 0,0:04:30.92,0:04:32.17,Default,,0000,0000,0000,,你喷了香水吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You wearing perfume?
+Dialogue: 0,0:04:32.25,0:04:33.25,Default,,0000,0000,0000,,的确是的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I am, in fact.
+Dialogue: 0,0:04:33.34,0:04:35.50,Default,,0000,0000,0000,,我离开家前喷了点身体喷雾\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I put on a little spritz right before I left the house.
+Dialogue: 0,0:04:35.59,0:04:36.59,Default,,0000,0000,0000,,你鼻子很灵\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You have a good nose.
+Dialogue: 0,0:04:36.67,0:04:39.51,Default,,0000,0000,0000,,我有时会在耳后擦杏仁精\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I put almond extract behind my ears sometimes.
+Dialogue: 0,0:04:39.59,0:04:41.05,Default,,0000,0000,0000,,让我闻起来一股曲奇味\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Makes me smell like a cookie.
+Dialogue: 0,0:04:41.13,0:04:44.01,Default,,0000,0000,0000,,别废话了  下蹲咳嗽\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Anyway, let's get to the squat and cough.
+Dialogue: 0,0:04:44.93,0:04:45.97,Default,,0000,0000,0000,,好的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Okay.
+Dialogue: 0,0:04:53.06,0:04:55.36,Default,,0000,0000,0000,,瞧瞧  她来啦\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, well, there she is.
+Dialogue: 0,0:04:55.44,0:04:57.99,Default,,0000,0000,0000,,-浪子回来了  -是的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- The prodigal daughter returns. - Yep.
+Dialogue: 0,0:04:58.07,0:04:59.15,Default,,0000,0000,0000,,还没到早上8点\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's not even 8:00 A.M.
+Dialogue: 0,0:04:59.15,0:05:01.11,Default,,0000,0000,0000,,我已经被揩了三次油了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And I've already been felt up three times.
+Dialogue: 0,0:05:01.20,0:05:03.12,Default,,0000,0000,0000,,-怎么样  -摸奶头摸得不够\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- How was it? - Not enough nipple play.
+Dialogue: 0,0:05:03.20,0:05:05.03,Default,,0000,0000,0000,,好笑\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Funny.
+Dialogue: 0,0:05:05.12,0:05:07.37,Default,,0000,0000,0000,,这么说你不想谈\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So you don't wanna talk about it?
+Dialogue: 0,0:05:07.45,0:05:09.37,Default,,0000,0000,0000,,我还在慢慢接受中\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm, uh, still processing, you know.
+Dialogue: 0,0:05:09.45,0:05:11.33,Default,,0000,0000,0000,,和老年人尴尬的交谈\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Awkward conversations with old people,
+Dialogue: 0,0:05:11.41,0:05:13.79,Default,,0000,0000,0000,,糟糕的干酪盘  葬礼\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}bad cheese plates, a funeral,
+Dialogue: 0,0:05:13.79,0:05:16.71,Default,,0000,0000,0000,,婚礼  麦芽啤酒\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}a wedding, malt liquor.
+Dialogue: 0,0:05:16.80,0:05:18.84,Default,,0000,0000,0000,,48小时体验一辈子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}A whole lifetime in 48 hours.
+Dialogue: 0,0:05:18.92,0:05:20.30,Default,,0000,0000,0000,,你知道什么感觉很奇怪吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know what was so weird?
+Dialogue: 0,0:05:20.38,0:05:23.09,Default,,0000,0000,0000,,用非塑料的盘子吃东西\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Eating off of plates that weren't plastic.
+Dialogue: 0,0:05:23.18,0:05:24.51,Default,,0000,0000,0000,,感觉好重\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}They felt so heavy.
+Dialogue: 0,0:05:26.01,0:05:29.31,Default,,0000,0000,0000,,你有空闲时间吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Did you by any chance have time?
+Dialogue: 0,0:05:32.98,0:05:33.98,Default,,0000,0000,0000,,我有\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I did.
+Dialogue: 0,0:05:35.48,0:05:36.57,Default,,0000,0000,0000,,我有些不敢问\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm afraid to ask.
+Dialogue: 0,0:05:38.61,0:05:41.61,Default,,0000,0000,0000,,很棒  非常棒\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It was great. It was really great.
+Dialogue: 0,0:05:41.70,0:05:43.41,Default,,0000,0000,0000,,真是皇后区的一处好地方\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And that is such a cute part of Queens.
+Dialogue: 0,0:05:43.41,0:05:44.87,Default,,0000,0000,0000,,我之前没怎么去过\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I've never spent much time there.
+Dialogue: 0,0:05:44.95,0:05:45.95,Default,,0000,0000,0000,,你进去了吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Did you go in?
+Dialogue: 0,0:05:46.66,0:05:48.33,Default,,0000,0000,0000,,时间不长\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}For a minute.
+Dialogue: 0,0:05:48.41,0:05:51.25,Default,,0000,0000,0000,,生意很好  还排了队\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know, it's doing really well. There was even a line.
+Dialogue: 0,0:05:51.33,0:05:52.92,Default,,0000,0000,0000,,你点了什么吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But you ordered something?
+Dialogue: 0,0:05:53.00,0:05:55.92,Default,,0000,0000,0000,,点了  我...\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yes! I, um...
+Dialogue: 0,0:05:56.00,0:05:58.17,Default,,0000,0000,0000,,点了那种甜甜的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}One of those... the sweet...
+Dialogue: 0,0:05:58.25,0:05:59.38,Default,,0000,0000,0000,,-乳酪面包吗  -是的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Vatrushki? - Yes.
+Dialogue: 0,0:05:59.46,0:06:00.80,Default,,0000,0000,0000,,-乳酪面包  -是的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Vatrushki? - Yes.
+Dialogue: 0,0:06:00.88,0:06:03.09,Default,,0000,0000,0000,,我会在夏天用蜜桃泥做\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I do them with peach puree in the summertime.
+Dialogue: 0,0:06:03.18,0:06:04.18,Default,,0000,0000,0000,,太好吃了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Delicious.
+Dialogue: 0,0:06:04.26,0:06:05.80,Default,,0000,0000,0000,,那地方真漂亮  红妈\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's such a beautiful place, Red.
+Dialogue: 0,0:06:10.68,0:06:13.48,Default,,0000,0000,0000,,我明白你为什么为之如此骄傲\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I can really see why you are so proud of it.
+Dialogue: 0,0:06:14.60,0:06:16.35,Default,,0000,0000,0000,,真的谢谢你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Thank you. Really.
+Dialogue: 0,0:06:16.44,0:06:19.78,Default,,0000,0000,0000,,我的儿子们告诉我生意很差\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}My boys had told me business was bad, and, you know,
+Dialogue: 0,0:06:19.86,0:06:22.07,Default,,0000,0000,0000,,在这里  我无能为力\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}from in here, there's nothing I can do.
+Dialogue: 0,0:06:22.99,0:06:25.49,Default,,0000,0000,0000,,感谢上帝有了转机\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Thank God they turned it around.
+Dialogue: 0,0:06:26.53,0:06:28.78,Default,,0000,0000,0000,,你和莱瑞怎么样了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So, how was it with Larry?
+Dialogue: 0,0:06:30.29,0:06:34.29,Default,,0000,0000,0000,,奇怪  伤心  正式分手\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Bizarre, sad, officially over,
+Dialogue: 0,0:06:34.37,0:06:36.96,Default,,0000,0000,0000,,他上了别人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and he fucked someone else.
+Dialogue: 0,0:06:37.04,0:06:38.50,Default,,0000,0000,0000,,他告诉你的吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He told you this?
+Dialogue: 0,0:06:38.59,0:06:43.34,Default,,0000,0000,0000,,在醉酒极度悲伤的性交过程中说的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}In the middle of a drunken, grief-stricken sexual encounter.
+Dialogue: 0,0:06:43.42,0:06:44.63,Default,,0000,0000,0000,,你知道最奇怪的是什么吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But you know what the weirdest thing was?
+Dialogue: 0,0:06:44.72,0:06:47.05,Default,,0000,0000,0000,,我甚至一点也不生气\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I wasn't even mad. At all.
+Dialogue: 0,0:06:47.14,0:06:49.68,Default,,0000,0000,0000,,这也说得通  一报还一报\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It kind of made sense. Tit for tat.
+Dialogue: 0,0:06:49.76,0:06:53.60,Default,,0000,0000,0000,,我们的情况是奶子换奶子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Or, well, tit for tit, as the case may be.
+Dialogue: 0,0:06:53.68,0:06:55.60,Default,,0000,0000,0000,,亲爱的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, honey,
+Dialogue: 0,0:06:55.69,0:06:58.31,Default,,0000,0000,0000,,你心胸比我宽广\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}you're a bigger woman than I am.
+Dialogue: 0,0:06:58.40,0:07:00.23,Default,,0000,0000,0000,,-他上的谁  -我不想知道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Who was it? - I didn't wanna know.
+Dialogue: 0,0:07:00.32,0:07:03.49,Default,,0000,0000,0000,,-少废话  -真的  我不想知道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Oh, bullshit. - No, really, I didn't wanna know.
+Dialogue: 0,0:07:03.57,0:07:05.62,Default,,0000,0000,0000,,他告诉我  是我认识的人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He told me it was someone I know,
+Dialogue: 0,0:07:05.62,0:07:07.87,Default,,0000,0000,0000,,知道是谁只会更糟\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and a name would just make it worse.
+Dialogue: 0,0:07:08.78,0:07:11.58,Default,,0000,0000,0000,,你知道谁最有可能吗  我们的邻居娜塔利\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But you know who it probably was? Our neighbor, Natalie.
+Dialogue: 0,0:07:11.66,0:07:13.66,Default,,0000,0000,0000,,她是瑜伽教练\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She's a Bikram teacher.
+Dialogue: 0,0:07:13.75,0:07:15.29,Default,,0000,0000,0000,,很嗲那种\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She's very touchy-feely,
+Dialogue: 0,0:07:15.37,0:07:17.67,Default,,0000,0000,0000,,总是让我们去免费上课\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}she's always offering us lots of free classes.
+Dialogue: 0,0:07:20.25,0:07:22.71,Default,,0000,0000,0000,,但谁在乎啊  根本不重要\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But who cares? It doesn't matter anyway.
+Dialogue: 0,0:07:22.80,0:07:24.59,Default,,0000,0000,0000,,我们分手了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}We broke up.
+Dialogue: 0,0:07:24.67,0:07:27.09,Default,,0000,0000,0000,,是我先出轨的  不是吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm the one who cheated first, right?
+Dialogue: 0,0:07:29.55,0:07:31.60,Default,,0000,0000,0000,,你有信\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Some mail came for you.
+Dialogue: 0,0:07:37.77,0:07:39.44,Default,,0000,0000,0000,,是沃斯寄来的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's from Vause.
+Dialogue: 0,0:07:40.98,0:07:43.61,Default,,0000,0000,0000,,感谢你为我抽出时间\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And thank you for taking the time for me.
+Dialogue: 0,0:07:44.48,0:07:47.61,Default,,0000,0000,0000,,回头有漂亮的唇彩给你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You will be getting some very nice lip gloss.
+Dialogue: 0,0:07:57.25,0:07:58.64,Default,,0000,0000,0000,,别忘了  女士们\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Don't forget, ladies,
+Dialogue: 0,0:07:58.64,0:08:01.38,Default,,0000,0000,0000,,正常饮食是1500卡路里\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}your usual meal is 1,500 calories.
+Dialogue: 0,0:08:01.46,0:08:03.63,Default,,0000,0000,0000,,不要暴食\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Be aware of overeating.
+Dialogue: 0,0:08:12.14,0:08:14.39,Default,,0000,0000,0000,,有两份华夫饼\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}There's two waffles on there.
+Dialogue: 0,0:08:18.48,0:08:19.60,Default,,0000,0000,0000,,你妈的在做什么
+Dialogue: 0,0:08:19.69,0:08:23.23,Default,,0000,0000,0000,,怎么啦  她们多给烟我抽
+Dialogue: 0,0:08:23.32,0:08:24.82,Default,,0000,0000,0000,,谢谢\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Thank you.
+Dialogue: 0,0:08:34.62,0:08:36.20,Default,,0000,0000,0000,,有话要对我说吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You got something to say to me?
+Dialogue: 0,0:08:36.29,0:08:37.66,Default,,0000,0000,0000,,我的姑娘们需要你的座位\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}My girls need your seat.
+Dialogue: 0,0:08:37.75,0:08:39.87,Default,,0000,0000,0000,,我吃完后  她们就可以坐了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And when I'm done, they can have it.
+Dialogue: 0,0:08:56.18,0:08:57.73,Default,,0000,0000,0000,,吃完了吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Done yet?
+Dialogue: 0,0:09:02.19,0:09:05.07,Default,,0000,0000,0000,,你真是一个无礼的女人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You are a very rude woman.
+Dialogue: 0,0:09:05.15,0:09:06.86,Default,,0000,0000,0000,,人家伤心死了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, you wound me.
+Dialogue: 0,0:09:08.99,0:09:12.07,Default,,0000,0000,0000,,妈的  维  咱在这里屌爆了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yo, damn, Vee! Yo, we like ballers up in here!
+Dialogue: 0,0:09:12.16,0:09:15.12,Default,,0000,0000,0000,,我不是说了吗  你能给别人所需时...\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Didn't I tell y'all? When you got something people want...
+Dialogue: 0,0:09:15.20,0:09:16.37,Default,,0000,0000,0000,,今天早上\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yo, this morning,
+Dialogue: 0,0:09:16.37,0:09:20.16,Default,,0000,0000,0000,,爆牙克莱门蒂诺居然在浴室等我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Underbite Clementino was waiting for me in the bathroom
+Dialogue: 0,0:09:20.25,0:09:22.12,Default,,0000,0000,0000,,给我来个背部按摩\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}to give me a back massage.
+Dialogue: 0,0:09:22.21,0:09:23.75,Default,,0000,0000,0000,,-什么  -背部按摩\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- What? - A back massage!
+Dialogue: 0,0:09:23.83,0:09:27.42,Default,,0000,0000,0000,,感觉我像是圣特鲁佩斯一艘游艇上的碧昂斯\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Like I'm fucking Beyonce in a yacht in Saint-Tropez, okay!
+Dialogue: 0,0:09:31.26,0:09:33.55,Default,,0000,0000,0000,,下雨吧  贱人们\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Make it rain, bitches.
+Dialogue: 0,0:09:35.72,0:09:38.39,Default,,0000,0000,0000,,小卖部女王驾到\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Commissary queen in the hizzy!
+Dialogue: 0,0:09:39.98,0:09:41.64,Default,,0000,0000,0000,,妈的  感觉真好\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Fuck, this feels good.
+Dialogue: 0,0:09:41.73,0:09:43.27,Default,,0000,0000,0000,,我把常那里扫荡了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I cleaned Chang out.
+Dialogue: 0,0:09:43.35,0:09:45.88,Default,,0000,0000,0000,,你什么都买走了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}"You take-a the everything!
+Dialogue: 0,0:09:45.88,0:09:48.69,Default,,0000,0000,0000,,没有东西给其他女士了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Nothing reft for the other ladies."
+Dialogue: 0,0:09:48.78,0:09:52.15,Default,,0000,0000,0000,,我不是说过吗  维会照顾我们的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yo, didn't I tell you that Vee was gonna take care of us?
+Dialogue: 0,0:09:52.24,0:09:55.07,Default,,0000,0000,0000,,制度关着我们  你就得找到应对的办法\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}System work you, you got to find a way to work the system.
+Dialogue: 0,0:09:55.16,0:09:57.62,Default,,0000,0000,0000,,-阿门  -赞美主啊  哈利路亚\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Amen! - Gloria, hallelujah!
+Dialogue: 0,0:09:59.91,0:10:02.62,Default,,0000,0000,0000,,谁给你剪的头发  丹妮塔吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Who cuts your hair? Danita?
+Dialogue: 0,0:10:02.71,0:10:04.04,Default,,0000,0000,0000,,当然不是\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Hell, no!
+Dialogue: 0,0:10:04.12,0:10:06.50,Default,,0000,0000,0000,,我才不会让那个屠夫拿着剪刀接近我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I wouldn't let that butcher near me with a pair of scissors.
+Dialogue: 0,0:10:06.58,0:10:08.21,Default,,0000,0000,0000,,我自己打理的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I do it myself.
+Dialogue: 0,0:10:08.30,0:10:10.55,Default,,0000,0000,0000,,别看后面  一团糟\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Don't look at the back, it's a mess.
+Dialogue: 0,0:10:10.63,0:10:12.51,Default,,0000,0000,0000,,什么大场合\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What's the occasion?
+Dialogue: 0,0:10:12.59,0:10:13.88,Default,,0000,0000,0000,,我儿子来看我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}My son's coming to visit.
+Dialogue: 0,0:10:15.14,0:10:17.01,Default,,0000,0000,0000,,如果他没注意到  你别生气\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, don't be upset if he doesn't notice.
+Dialogue: 0,0:10:17.10,0:10:20.10,Default,,0000,0000,0000,,男孩子蠢死了  他们永远不会注意到这种事\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Boys are stupid. They never notice things like that.
+Dialogue: 0,0:10:20.18,0:10:23.23,Default,,0000,0000,0000,,迈克尔很久没见过我了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Michael hasn't seen me in a long time.
+Dialogue: 0,0:10:23.31,0:10:24.77,Default,,0000,0000,0000,,他从未来过\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He's never come before.
+Dialogue: 0,0:10:25.73,0:10:26.90,Default,,0000,0000,0000,,为什么不来\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Why not?
+Dialogue: 0,0:10:27.94,0:10:29.69,Default,,0000,0000,0000,,他很生气\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He was pissed off.
+Dialogue: 0,0:10:29.77,0:10:31.94,Default,,0000,0000,0000,,或觉得丢人  或两者都有\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Or ashamed. Or both.
+Dialogue: 0,0:10:33.61,0:10:35.28,Default,,0000,0000,0000,,是他举报我的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He turned me in.
+Dialogue: 0,0:10:37.07,0:10:38.25,Default,,0000,0000,0000,,那你打算在探视\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So, you're strangling him
+Dialogue: 0,0:10:38.25,0:10:40.33,Default,,0000,0000,0000,,开始还是结束时掐死他\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}at the beginning of the visit or at the end?
+Dialogue: 0,0:10:40.41,0:10:43.71,Default,,0000,0000,0000,,他只有12岁  非常愤怒\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He was only 12 and angry.
+Dialogue: 0,0:10:43.79,0:10:44.96,Default,,0000,0000,0000,,他经历了太多\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He's been through a lot.
+Dialogue: 0,0:10:45.04,0:10:50.00,Default,,0000,0000,0000,,我会坐好  让他发泄  把怨气全发泄出来\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm gonna sit back, let him vent. You know, get it all out.
+Dialogue: 0,0:10:50.09,0:10:51.75,Default,,0000,0000,0000,,要是我  就踢死他\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, if it were me, I'd kick him to death,
+Dialogue: 0,0:10:51.84,0:10:55.34,Default,,0000,0000,0000,,但我们做父母的方式不同\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}but we all have our own way of parenting.
+Dialogue: 0,0:10:55.43,0:10:58.39,Default,,0000,0000,0000,,甘地这么做来抗议种姓制度\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Gandhi did it to protest the caste system.
+Dialogue: 0,0:10:58.47,0:11:00.85,Default,,0000,0000,0000,,只有这样才能有所改变\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's the only way to make a real difference.
+Dialogue: 0,0:11:00.93,0:11:02.60,Default,,0000,0000,0000,,你就省省吧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You're wasting your breath.
+Dialogue: 0,0:11:02.68,0:11:05.39,Default,,0000,0000,0000,,你无法说服这些人绝食的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You're not gonna convince this crowd not to eat.
+Dialogue: 0,0:11:05.48,0:11:06.98,Default,,0000,0000,0000,,她是对的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She's right.
+Dialogue: 0,0:11:07.06,0:11:10.36,Default,,0000,0000,0000,,这碗麦片味道像大团鼻屎\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I mean, this oatmeal tastes like a bowl of chunky boogers,
+Dialogue: 0,0:11:10.44,0:11:12.65,Default,,0000,0000,0000,,但妈的不吃还不舒服了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}but fuck if it isn't comforting to keep shoveling it in.
+Dialogue: 0,0:11:13.44,0:11:15.82,Default,,0000,0000,0000,,这么说  你们都很满意现状\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So I suppose you're all happy with the way things are going?
+Dialogue: 0,0:11:16.99,0:11:19.91,Default,,0000,0000,0000,,你们觉得这座监狱的现状非常好吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You think the conditions in this prison are perfectly fine?
+Dialogue: 0,0:11:19.99,0:11:21.68,Default,,0000,0000,0000,,联邦政府的钱应该用在\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That federal money should be
+Dialogue: 0,0:11:21.68,0:11:24.75,Default,,0000,0000,0000,,让女人在满是排泄物的隔间里洗澡\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}spent on making women shower in feces-soaked stalls
+Dialogue: 0,0:11:24.83,0:11:27.37,Default,,0000,0000,0000,,而她们反抗时却要遭受身体虐待吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and face physical abuse if they resist?
+Dialogue: 0,0:11:27.46,0:11:29.83,Default,,0000,0000,0000,,来吧  简·方达[影星]  来点香肠\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Come on, Jane Fonda, have a little bit of sausage.
+Dialogue: 0,0:11:29.92,0:11:33.21,Default,,0000,0000,0000,,对  就一小口  你看起来脸色苍白\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah, just a little bite. You look a bit pale.
+Dialogue: 0,0:11:33.30,0:11:34.59,Default,,0000,0000,0000,,已经多少天了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}How many days has it been?
+Dialogue: 0,0:11:34.67,0:11:37.30,Default,,0000,0000,0000,,拜托  别烦她了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Come on, leave her alone.
+Dialogue: 0,0:11:37.38,0:11:38.97,Default,,0000,0000,0000,,修女\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Sister?
+Dialogue: 0,0:11:39.05,0:11:40.93,Default,,0000,0000,0000,,我以为至少你会支持我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I thought you of all people would support me.
+Dialogue: 0,0:11:41.01,0:11:44.31,Default,,0000,0000,0000,,亲爱的  这里又不是关塔那摩监狱\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, honey, it's not Guantanamo.
+Dialogue: 0,0:11:44.39,0:11:45.48,Default,,0000,0000,0000,,就是\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah!
+Dialogue: 0,0:11:46.39,0:11:48.35,Default,,0000,0000,0000,,让一下  苏苏\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah, move over, Soso.
+Dialogue: 0,0:11:49.27,0:11:52.40,Default,,0000,0000,0000,,好吧  我一个人来\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Fine. I'll do it alone.
+Dialogue: 0,0:12:04.74,0:12:07.79,Default,,0000,0000,0000,,你真是太无礼了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That is really disrespectful.
+Dialogue: 0,0:12:09.33,0:12:11.25,Default,,0000,0000,0000,,休假怎么样  给我带T恤了吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}How was furlough? Did you bring me back a T-shirt?
+Dialogue: 0,0:12:13.96,0:12:15.46,Default,,0000,0000,0000,,真他妈的  妹子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Holy shit, dude.
+Dialogue: 0,0:12:15.55,0:12:17.22,Default,,0000,0000,0000,,说什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, what's it say?
+Dialogue: 0,0:12:17.30,0:12:19.18,Default,,0000,0000,0000,,慢着  让我猜猜\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Wait, let me guess.
+Dialogue: 0,0:12:19.26,0:12:21.97,Default,,0000,0000,0000,,美女  抱歉我在芝加哥坑了你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}"Hey, girl, uh, sorry I fucked you over in Chicago.
+Dialogue: 0,0:12:22.05,0:12:24.47,Default,,0000,0000,0000,,那是为你好  我给你舔阴户吧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It was for your own good. Let me lick your pussy."
+Dialogue: 0,0:12:24.56,0:12:26.60,Default,,0000,0000,0000,,可能吧  但我不知道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Probably, but I don't know.
+Dialogue: 0,0:12:28.27,0:12:30.10,Default,,0000,0000,0000,,-我还没看  -什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- I haven't read it. - What?
+Dialogue: 0,0:12:30.19,0:12:33.15,Default,,0000,0000,0000,,老天  你意志真坚定啊\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Man, that's some serious willpower right there.
+Dialogue: 0,0:12:33.23,0:12:34.27,Default,,0000,0000,0000,,你就不好奇吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Aren't you curious?
+Dialogue: 0,0:12:34.36,0:12:36.94,Default,,0000,0000,0000,,我当然好奇  这是第一封我没扔掉的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Of course I'm curious. It's the first one I haven't thrown away.
+Dialogue: 0,0:12:37.03,0:12:38.57,Default,,0000,0000,0000,,那就看呗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So, fucking read it already.
+Dialogue: 0,0:12:38.65,0:12:40.32,Default,,0000,0000,0000,,-我来  -不用不用\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- I'll do it. - No! No, no, no, no, no.
+Dialogue: 0,0:12:40.41,0:12:42.82,Default,,0000,0000,0000,,她就是想要这样\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That is exactly what she wants.
+Dialogue: 0,0:12:42.91,0:12:44.22,Default,,0000,0000,0000,,对  当人们寄信\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yes, that is generally what
+Dialogue: 0,0:12:44.22,0:12:46.79,Default,,0000,0000,0000,,一般就是想让别人看\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}people want when they send a piece of correspondence.
+Dialogue: 0,0:12:46.87,0:12:48.71,Default,,0000,0000,0000,,她会说些什么我想听的话\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What could she possibly say that I want to hear?
+Dialogue: 0,0:12:49.91,0:12:51.04,Default,,0000,0000,0000,,她是个说谎精\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She's a liar.
+Dialogue: 0,0:12:51.12,0:12:53.54,Default,,0000,0000,0000,,从最开始  她就满口谎言\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She's always been a liar. From the very beginning.
+Dialogue: 0,0:12:53.63,0:12:56.34,Default,,0000,0000,0000,,难道不是每个人都对每个人说谎吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Doesn't everyone lie to everyone?
+Dialogue: 0,0:12:58.09,0:13:00.35,Default,,0000,0000,0000,,她知道如果她一直寄信\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She knows that if she keeps sending these,
+Dialogue: 0,0:13:00.35,0:13:01.63,Default,,0000,0000,0000,,最终会打动我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}eventually I will crack,
+Dialogue: 0,0:13:01.72,0:13:03.30,Default,,0000,0000,0000,,然后她会道歉\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and then she'll apologize,
+Dialogue: 0,0:13:03.39,0:13:05.93,Default,,0000,0000,0000,,然后她会满口仁义  让她去死\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and she'll say all the right things, and fuck that!
+Dialogue: 0,0:13:06.01,0:13:08.85,Default,,0000,0000,0000,,但你也不会把信扔掉\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But you're not gonna throw it away either.
+Dialogue: 0,0:13:08.93,0:13:11.73,Default,,0000,0000,0000,,-你想她  -我当然想她\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- You miss her. - Of course I miss her.
+Dialogue: 0,0:13:11.81,0:13:15.44,Default,,0000,0000,0000,,我讨厌她对我的影响力  我真是烦透了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I hate that she has this hold on me. I'm so sick of it.
+Dialogue: 0,0:13:17.61,0:13:19.82,Default,,0000,0000,0000,,麦片味道跟鼻屎一样\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}The oatmeal tastes like snot.
+Dialogue: 0,0:13:19.90,0:13:22.11,Default,,0000,0000,0000,,我要一杯  要一杯\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'll take a... shot. Shot!
+Dialogue: 0,0:13:23.78,0:13:26.45,Default,,0000,0000,0000,,没关系  我要这个\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's all good. Okay, I got this one.
+Dialogue: 0,0:13:27.87,0:13:29.29,Default,,0000,0000,0000,,太差劲了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, that was terrible!
+Dialogue: 0,0:13:56.02,0:13:58.03,Default,,0000,0000,0000,,你怎么来了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What are you doing here?
+Dialogue: 0,0:13:58.11,0:13:59.32,Default,,0000,0000,0000,,我嘛\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, I just, um...
+Dialogue: 0,0:14:00.61,0:14:03.24,Default,,0000,0000,0000,,我听说了艳舞表演\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I heard about the burlesque show.
+Dialogue: 0,0:14:03.32,0:14:05.37,Default,,0000,0000,0000,,-你呢  -我朋友瑞秋是演员之一\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- You? - My friend Rachel's in it.
+Dialogue: 0,0:14:05.45,0:14:07.83,Default,,0000,0000,0000,,她和雷·罗曼诺的木偶一起表演\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She does this routine with a Ray Romano puppet.
+Dialogue: 0,0:14:08.83,0:14:10.41,Default,,0000,0000,0000,,居然相当性感\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's surprisingly sexy.
+Dialogue: 0,0:14:18.84,0:14:22.26,Default,,0000,0000,0000,,那晚的事我很抱歉  帕波\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Look, I'm really sorry about that night, Piper.
+Dialogue: 0,0:14:22.34,0:14:24.43,Default,,0000,0000,0000,,我不是那种做事遮遮掩掩的人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm not a shady person.
+Dialogue: 0,0:14:24.51,0:14:25.93,Default,,0000,0000,0000,,算了  没事的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, come on, don't worry about it.
+Dialogue: 0,0:14:26.01,0:14:28.28,Default,,0000,0000,0000,,我以前没挨过揍\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I mean, I've never been punched before.
+Dialogue: 0,0:14:28.28,0:14:30.56,Default,,0000,0000,0000,,这可能是很好的人生体验\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It was probably a good life experience.
+Dialogue: 0,0:14:34.60,0:14:37.19,Default,,0000,0000,0000,,我说事情很复杂时是认真的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I meant it when I said that things were complicated.
+Dialogue: 0,0:14:38.69,0:14:41.82,Default,,0000,0000,0000,,恋爱关系对我来说是新尝试  我不知道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm new to this whole relationship thing. You know, I don't...
+Dialogue: 0,0:14:42.94,0:14:44.03,Default,,0000,0000,0000,,我不知道规则\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't know the rules.
+Dialogue: 0,0:14:45.20,0:14:47.32,Default,,0000,0000,0000,,这就是问题所在对吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That's the whole problem, isn't it?
+Dialogue: 0,0:14:48.58,0:14:50.29,Default,,0000,0000,0000,,守规矩一点也不好玩\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Rules aren't any fun.
+Dialogue: 0,0:15:03.38,0:15:06.13,Default,,0000,0000,0000,,我不想打扰真爱\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Listen, I don't want to stand in the way of true love.
+Dialogue: 0,0:15:06.22,0:15:08.10,Default,,0000,0000,0000,,如果那位是你未来的妻子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I mean, if that is your future wife out there,
+Dialogue: 0,0:15:08.18,0:15:10.89,Default,,0000,0000,0000,,请务必让我走开\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}by all means, tell me to back off.
+Dialogue: 0,0:15:10.97,0:15:15.56,Default,,0000,0000,0000,,但你追求我  我很喜欢\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But you pursued me, and I liked it.
+Dialogue: 0,0:15:15.64,0:15:16.85,Default,,0000,0000,0000,,我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I've...
+Dialogue: 0,0:15:18.23,0:15:19.31,Default,,0000,0000,0000,,我从未感受过...\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I've never felt...
+Dialogue: 0,0:15:20.86,0:15:22.61,Default,,0000,0000,0000,,我从未觉得自己是个\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know, I've never really thought of myself
+Dialogue: 0,0:15:22.69,0:15:24.74,Default,,0000,0000,0000,,性欲很强的人  但是\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}as a very sexual person, but...
+Dialogue: 0,0:15:26.65,0:15:28.57,Default,,0000,0000,0000,,自从...\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}ever since...
+Dialogue: 0,0:15:33.20,0:15:35.25,Default,,0000,0000,0000,,我想品尝你的味道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I want to taste what you taste like.
+Dialogue: 0,0:16:01.98,0:16:03.70,Default,,0000,0000,0000,,餐厅供应什么  红妈\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What were they serving in there, Red?
+Dialogue: 0,0:16:03.70,0:16:05.49,Default,,0000,0000,0000,,内脏[屈辱]馅饼\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Humble pie?
+Dialogue: 0,0:16:05.57,0:16:07.86,Default,,0000,0000,0000,,鸟肉[大麻]  生奶油[鞭打]老太太\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Crow? Whipped old lady?
+Dialogue: 0,0:16:07.95,0:16:09.16,Default,,0000,0000,0000,,一直在练习双关冷笑话吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Been practicing those?
+Dialogue: 0,0:16:09.24,0:16:11.70,Default,,0000,0000,0000,,自大汉堡  脸上的鸡蛋[耻辱]\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}High horse hamburger? Egg on your face?
+Dialogue: 0,0:16:11.78,0:16:13.68,Default,,0000,0000,0000,,你吃了你的帽子吗[说过的话错了]\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Did you eat your hat?
+Dialogue: 0,0:16:21.50,0:16:22.88,Default,,0000,0000,0000,,-哥们  -嘿\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Hey, bud. - Hey.
+Dialogue: 0,0:16:22.96,0:16:25.21,Default,,0000,0000,0000,,还好不\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}How you doing?
+Dialogue: 0,0:16:25.30,0:16:28.97,Default,,0000,0000,0000,,你那次崩溃后  你那晚哭了没\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Did you cry it out the other night after your little lady meltdown?
+Dialogue: 0,0:16:29.05,0:16:32.01,Default,,0000,0000,0000,,拜托  兄弟  放轻松\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, come on, man, relax. Shit, loosen up.
+Dialogue: 0,0:16:32.09,0:16:35.27,Default,,0000,0000,0000,,就像我妈经常说的  别一脸苦逼样\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's like my mom used to say, "Wipe that puss off your face."
+Dialogue: 0,0:16:32.09,0:16:35.27,Default,,0000,0000,0000,,{\an8}{\fn方正黑体简体\fs18\b1\bord1\shad1\3c&H2F2F2F&}直译为"把阴户从脸上拿开"
+Dialogue: 0,0:16:35.35,0:16:37.89,Default,,0000,0000,0000,,当然那是在我意识到  我喜欢脸贴着阴户前\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}'Course that was before I learned I liked puss on my face.
+Dialogue: 0,0:16:39.73,0:16:41.56,Default,,0000,0000,0000,,又是新的一天  本尼特\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's a new day, Benerino.
+Dialogue: 0,0:16:44.02,0:16:46.90,Default,,0000,0000,0000,,这他妈算什么  《狱中号角》\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What the fuck is this? The Big House Bugle?
+Dialogue: 0,0:16:46.98,0:16:49.24,Default,,0000,0000,0000,,显然你支持这种犯人宣传活动\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Clearly you supported this prisoner propaganda.
+Dialogue: 0,0:16:49.32,0:16:51.49,Default,,0000,0000,0000,,她们为我写了篇不错的封面故事\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}They did a nice cover story on me.
+Dialogue: 0,0:16:51.57,0:16:52.67,Default,,0000,0000,0000,,你们这些白痴\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And none of you morons
+Dialogue: 0,0:16:52.67,0:16:55.08,Default,,0000,0000,0000,,没人看懂漫画里的那只海象是海利吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}caught on that the walrus in the comic is Healy?
+Dialogue: 0,0:16:55.16,0:16:56.58,Default,,0000,0000,0000,,我觉得很搞笑\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I thought it was pretty funny.
+Dialogue: 0,0:16:56.66,0:16:59.66,Default,,0000,0000,0000,,你觉得这只穿高跟鞋\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And who do you think is the pig in high heels
+Dialogue: 0,0:16:59.75,0:17:01.54,Default,,0000,0000,0000,,背着几包钱的猪是谁\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}carrying around the bags of money?
+Dialogue: 0,0:17:02.29,0:17:03.29,Default,,0000,0000,0000,,真难住我了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You got me there.
+Dialogue: 0,0:17:08.05,0:17:09.67,Default,,0000,0000,0000,,这垃圾是谁负责的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Who's in charge of this garbage?
+Dialogue: 0,0:17:09.76,0:17:12.51,Default,,0000,0000,0000,,应该是查普曼  犯人主编\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That would be Chapman. Inmate-in-chief.
+Dialogue: 0,0:17:12.59,0:17:14.05,Default,,0000,0000,0000,,我不想再见到这种烂东西\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't want to see this shit again.
+Dialogue: 0,0:17:14.14,0:17:15.76,Default,,0000,0000,0000,,也许你应该重新考虑下\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You might want to reconsider.
+Dialogue: 0,0:17:15.85,0:17:17.64,Default,,0000,0000,0000,,你会需要全部的新闻宣传\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You can use all the journalistic spin you can get.
+Dialogue: 0,0:17:17.72,0:17:18.81,Default,,0000,0000,0000,,为什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Why?
+Dialogue: 0,0:17:18.89,0:17:22.73,Default,,0000,0000,0000,,你最喜欢的强奸犯警卫表现突出\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Your favorite rapist guard has exceeded all expectations.
+Dialogue: 0,0:17:23.73,0:17:25.36,Default,,0000,0000,0000,,迪亚茨怀孕了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}The Diaz girl is pregnant.
+Dialogue: 0,0:17:26.02,0:17:27.02,Default,,0000,0000,0000,,你确定吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Are you sure?
+Dialogue: 0,0:17:27.98,0:17:29.03,Default,,0000,0000,0000,,今天早上做了检查\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Tested her this morning.
+Dialogue: 0,0:17:29.11,0:17:30.49,Default,,0000,0000,0000,,上帝\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Jesus.
+Dialogue: 0,0:17:30.57,0:17:32.91,Default,,0000,0000,0000,,坏坏的孩子他爸\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Big, bad baby daddy,
+Dialogue: 0,0:17:32.99,0:17:35.07,Default,,0000,0000,0000,,你让他回来的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and you brought him back.
+Dialogue: 0,0:17:35.16,0:17:37.41,Default,,0000,0000,0000,,真他妈的  我得把握住局势\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Fuck me. I gotta get out in front of this.
+Dialogue: 0,0:17:37.49,0:17:40.96,Default,,0000,0000,0000,,不能让门德斯知道这事  等我安排好再说\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Mendez can't know anything until I frame the whole thing.
+Dialogue: 0,0:17:41.04,0:17:42.33,Default,,0000,0000,0000,,你让他继续工作吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You're keeping him at work?
+Dialogue: 0,0:17:42.42,0:17:43.94,Default,,0000,0000,0000,,等我把事情安排好\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Just until I get my ducks in a row.
+Dialogue: 0,0:17:43.94,0:17:45.46,Default,,0000,0000,0000,,这事得正确解决\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}This thing has to be handled right.
+Dialogue: 0,0:17:47.88,0:17:49.80,Default,,0000,0000,0000,,你要我为你保守这个秘密\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You want me to keep this under wraps,
+Dialogue: 0,0:17:49.80,0:17:51.92,Default,,0000,0000,0000,,你就得为我做点事\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}you're gonna have to do something for me.
+Dialogue: 0,0:17:52.01,0:17:53.68,Default,,0000,0000,0000,,什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What?
+Dialogue: 0,0:17:53.76,0:17:55.22,Default,,0000,0000,0000,,到时候\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}When it's time...
+Dialogue: 0,0:17:56.22,0:17:57.76,Default,,0000,0000,0000,,我来炒掉这个杂种\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I get to fire the bastard.
+Dialogue: 0,0:17:59.31,0:18:00.43,Default,,0000,0000,0000,,好\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Fine.
+Dialogue: 0,0:18:02.23,0:18:03.60,Default,,0000,0000,0000,,为什么是俄国人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So, why a Russian?
+Dialogue: 0,0:18:03.69,0:18:06.61,Default,,0000,0000,0000,,我不知道  我只是\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't know. I just...
+Dialogue: 0,0:18:06.69,0:18:08.19,Default,,0000,0000,0000,,我做了些网上调查\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I did some online research,
+Dialogue: 0,0:18:08.28,0:18:10.94,Default,,0000,0000,0000,,发现最受欢迎的邮购网站\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and I found that the top-rated mail order sites
+Dialogue: 0,0:18:11.03,0:18:14.61,Default,,0000,0000,0000,,不是东欧就是东方的  所以\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}were either Eastern European or Oriental, so...
+Dialogue: 0,0:18:14.70,0:18:18.12,Default,,0000,0000,0000,,我觉得和俄国人少些文化障碍\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I figured there'd be less cultural barriers with the Russians.
+Dialogue: 0,0:18:18.20,0:18:21.50,Default,,0000,0000,0000,,有金钱交易吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And there was money exchanged?
+Dialogue: 0,0:18:21.58,0:18:23.16,Default,,0000,0000,0000,,对不起  我对这个不熟\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm sorry, I'm not familiar with...
+Dialogue: 0,0:18:23.25,0:18:25.67,Default,,0000,0000,0000,,我不需要你对我品头论足\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know, I don't... I don't need your judgment, okay?
+Dialogue: 0,0:18:25.75,0:18:27.34,Default,,0000,0000,0000,,因为就所见而言\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}'Cause from the looks of it, you know,
+Dialogue: 0,0:18:27.42,0:18:29.38,Default,,0000,0000,0000,,我想你的爱情生活也不怎么样\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm guessing your love life isn't so hot either.
+Dialogue: 0,0:18:29.46,0:18:33.22,Default,,0000,0000,0000,,也许你把你的经历投射到我身上  山姆\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Perhaps you're projecting your experiences onto me, Sam.
+Dialogue: 0,0:18:33.30,0:18:35.05,Default,,0000,0000,0000,,少说些心理学废话\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Let's cut the fucking psychobabble, okay?
+Dialogue: 0,0:18:35.13,0:18:37.97,Default,,0000,0000,0000,,我的老婆是我买来的  他妈的又怎样\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I have a wife that I paid for. So fucking what?
+Dialogue: 0,0:18:38.05,0:18:40.59,Default,,0000,0000,0000,,我不需要你搬出这些教课书术语\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't need you going around throwing out these textbook
+Dialogue: 0,0:18:40.59,0:18:42.64,Default,,0000,0000,0000,,就像那些有优越感的伪百事通一样\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}terms like some condescending know-it-all.
+Dialogue: 0,0:18:42.73,0:18:45.31,Default,,0000,0000,0000,,我也是靠这个吃饭的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}This is what I do for a living, too.
+Dialogue: 0,0:18:45.40,0:18:46.85,Default,,0000,0000,0000,,我是个辅导员\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm a counselor.
+Dialogue: 0,0:18:47.73,0:18:49.36,Default,,0000,0000,0000,,你为什么来这里\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Why did you come here?
+Dialogue: 0,0:18:49.44,0:18:51.73,Default,,0000,0000,0000,,我他妈的也不知道为什么来这里\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know, I don't fucking know why I came here.
+Dialogue: 0,0:18:51.82,0:18:53.99,Default,,0000,0000,0000,,因为我他妈的不需要你的帮助\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Because I don't need your fucking help.
+Dialogue: 0,0:18:54.07,0:18:56.20,Default,,0000,0000,0000,,因为我才是帮助他人的人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Because I'm the one that's helping people.
+Dialogue: 0,0:18:56.28,0:18:58.16,Default,,0000,0000,0000,,日复一日\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}All day long.
+Dialogue: 0,0:18:58.24,0:18:59.66,Default,,0000,0000,0000,,是吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Do you?
+Dialogue: 0,0:19:00.95,0:19:02.33,Default,,0000,0000,0000,,你真的帮助了他人吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Do you really help people?
+Dialogue: 0,0:19:03.62,0:19:05.67,Default,,0000,0000,0000,,他妈的当然了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You bet your ass I do.
+Dialogue: 0,0:19:07.58,0:19:10.17,Default,,0000,0000,0000,,老天  这些发辫痒死了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Man, these tracks itching something fierce.
+Dialogue: 0,0:19:10.25,0:19:13.59,Default,,0000,0000,0000,,我得把这些给维  让她能散出去给她的人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I gotta get these to Vee so she can get 'em out to her people.
+Dialogue: 0,0:19:13.67,0:19:15.88,Default,,0000,0000,0000,,寄邮票需要多少邮票\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}How many stamps do you need to send stamps?
+Dialogue: 0,0:19:15.97,0:19:17.72,Default,,0000,0000,0000,,你有时间吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yo, you got a second?
+Dialogue: 0,0:19:20.60,0:19:22.18,Default,,0000,0000,0000,,我知道你们在贩毒\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I know y'all are dealing.
+Dialogue: 0,0:19:22.26,0:19:23.81,Default,,0000,0000,0000,,那又如何\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah, so?
+Dialogue: 0,0:19:23.89,0:19:25.64,Default,,0000,0000,0000,,你对我说谎  T\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So, you lied to me, T.
+Dialogue: 0,0:19:25.73,0:19:27.40,Default,,0000,0000,0000,,说得你好像没卖过毒品一样\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Like you never sold drugs.
+Dialogue: 0,0:19:27.48,0:19:28.81,Default,,0000,0000,0000,,我卖的是大麻  不是那些害人的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I sold weed. Not real shit.
+Dialogue: 0,0:19:28.90,0:19:31.52,Default,,0000,0000,0000,,害人到足够把你关在这里了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Real enough to get your ass locked in here.
+Dialogue: 0,0:19:31.61,0:19:33.90,Default,,0000,0000,0000,,别这么假清高\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So don't be acting all high siddity.
+Dialogue: 0,0:19:33.99,0:19:36.19,Default,,0000,0000,0000,,怕你没注意到\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}In case you ain't noticed,
+Dialogue: 0,0:19:36.19,0:19:39.20,Default,,0000,0000,0000,,这里全是罪犯\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}this place is full of criminals.
+Dialogue: 0,0:19:39.28,0:19:40.91,Default,,0000,0000,0000,,我们也是其中两个\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And we're two of 'em.
+Dialogue: 0,0:19:40.99,0:19:43.33,Default,,0000,0000,0000,,加那边的疯子有三个罪犯\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Three, if you include cuckoo over here.
+Dialogue: 0,0:19:43.41,0:19:46.54,Default,,0000,0000,0000,,咱们有钱赚呐\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yo, we's getting paid, man.
+Dialogue: 0,0:19:46.62,0:19:49.54,Default,,0000,0000,0000,,咱们帮万岁  警察去死\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Our crew rules. Fuck the police!
+Dialogue: 0,0:19:49.63,0:19:51.75,Default,,0000,0000,0000,,现在你们全成了黑帮分子吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, what, now you all gangster?
+Dialogue: 0,0:19:51.84,0:19:53.51,Default,,0000,0000,0000,,你们全他妈被洗脑了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Man, y'all are fucking brainwashed.
+Dialogue: 0,0:19:53.59,0:19:55.21,Default,,0000,0000,0000,,你嫉妒了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You're jealous.
+Dialogue: 0,0:19:55.30,0:19:59.22,Default,,0000,0000,0000,,嫉妒什么  你像个欺负人的小混混吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Jealous of what? You acting like a hood rat corner kid?
+Dialogue: 0,0:20:00.05,0:20:02.14,Default,,0000,0000,0000,,你不知道我的出身\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You don't know where I come from.
+Dialogue: 0,0:20:02.22,0:20:06.10,Default,,0000,0000,0000,,我没有老爸在军队  没父母管我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I ain't have no daddy in the army, parents looking out for me,
+Dialogue: 0,0:20:06.18,0:20:09.77,Default,,0000,0000,0000,,没有棉衣  你这个有钱人家的贱人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and a fucking winter coat, you bougie bitch.
+Dialogue: 0,0:20:09.85,0:20:12.27,Default,,0000,0000,0000,,别假装你了解我和我的人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So don't pretend like you know me or my people.
+Dialogue: 0,0:20:13.32,0:20:15.07,Default,,0000,0000,0000,,我以为你不想堕落到如此地步\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I thought you wanted to be better than that.
+Dialogue: 0,0:20:18.03,0:20:19.36,Default,,0000,0000,0000,,滚出我的铺位\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Get the fuck out of my bunk.
+Dialogue: 0,0:20:21.70,0:20:23.12,Default,,0000,0000,0000,,临时检查\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yo, it's a sweep.
+Dialogue: 0,0:20:23.20,0:20:25.04,Default,,0000,0000,0000,,他们临时检查\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}They sweeping.
+Dialogue: 0,0:20:26.04,0:20:27.12,Default,,0000,0000,0000,,快走  女士们\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Let's go, ladies!
+Dialogue: 0,0:20:27.20,0:20:30.21,Default,,0000,0000,0000,,犯人们  立刻离开铺位\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Inmates, outside your bunks, now!
+Dialogue: 0,0:20:30.29,0:20:31.83,Default,,0000,0000,0000,,全部不准动\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Don't move a muscle.
+Dialogue: 0,0:20:32.63,0:20:34.96,Default,,0000,0000,0000,,让我看到你们吞什么藏什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I see you swallow anything or tuck anything away,
+Dialogue: 0,0:20:35.05,0:20:36.55,Default,,0000,0000,0000,,就等着关禁闭吧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}your ass goes to the box.
+Dialogue: 0,0:20:43.05,0:20:45.00,Default,,0000,0000,0000,,我想左边拔得太夸张了对吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I think I did the left side too much. Right?
+Dialogue: 0,0:20:45.00,0:20:46.47,Default,,0000,0000,0000,,眉弯太高了吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}The arch is too high?
+Dialogue: 0,0:20:46.56,0:20:47.49,Default,,0000,0000,0000,,看起来\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Eh, it kind of looks like
+Dialogue: 0,0:20:47.49,0:20:49.02,Default,,0000,0000,0000,,你这人疑神疑鬼的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}you're really skeptical about everything.
+Dialogue: 0,0:20:49.10,0:20:51.15,Default,,0000,0000,0000,,我觉得狡猾的样子挺性感的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I think the leery look is hot, you know?
+Dialogue: 0,0:20:51.23,0:20:52.73,Default,,0000,0000,0000,,-A区宿舍  临时检查  -妈的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- A-Dorm! Sweep time! - Fuck!
+Dialogue: 0,0:20:52.81,0:20:54.98,Default,,0000,0000,0000,,他们会拿走我的唇膏\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}They're gonna take my lipstick.
+Dialogue: 0,0:20:55.07,0:20:57.36,Default,,0000,0000,0000,,临时检查  女士们\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Sweep time, ladies!
+Dialogue: 0,0:20:57.44,0:20:58.45,Default,,0000,0000,0000,,妈的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Fuck!
+Dialogue: 0,0:21:02.66,0:21:04.03,Default,,0000,0000,0000,,真他妈的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Shit! Son of a...
+Dialogue: 0,0:21:08.20,0:21:09.58,Default,,0000,0000,0000,,犯人  出去\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Inmate, outside!
+Dialogue: 0,0:21:18.51,0:21:20.05,Default,,0000,0000,0000,,非法食品  记一笔\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Illegal foodstuffs. That's a shot.
+Dialogue: 0,0:21:20.13,0:21:22.84,Default,,0000,0000,0000,,指甲油  锋利镊子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Nail polish. Sharp tweezers.
+Dialogue: 0,0:21:22.93,0:21:24.43,Default,,0000,0000,0000,,你的通话时间没有了  犯人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}There goes your phone time, inmate.
+Dialogue: 0,0:21:30.10,0:21:31.10,Default,,0000,0000,0000,,中大奖了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Jackpot!
+Dialogue: 0,0:21:31.77,0:21:34.19,Default,,0000,0000,0000,,恐怕这个可不是超强吸引性卫生棉条\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I doubt these are super absorbent, huh?
+Dialogue: 0,0:21:34.27,0:21:36.57,Default,,0000,0000,0000,,这是谁的床铺  沃森\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Whose bunk is this? Watson.
+Dialogue: 0,0:21:38.61,0:21:40.36,Default,,0000,0000,0000,,这些小卷卖多少钱\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}How much these little rollies going for, huh?
+Dialogue: 0,0:21:40.44,0:21:42.07,Default,,0000,0000,0000,,给自己找了点买卖吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Got yourself a little business?
+Dialogue: 0,0:21:42.15,0:21:43.20,Default,,0000,0000,0000,,没有  长官\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No, sir.
+Dialogue: 0,0:21:43.28,0:21:44.62,Default,,0000,0000,0000,,别跟我说什么没有\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Don't you "No, sir" me!
+Dialogue: 0,0:21:44.70,0:21:47.83,Default,,0000,0000,0000,,快把你的黑屁股挪到禁闭室去\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You start marching your pretty black ass to the SHU.
+Dialogue: 0,0:21:47.91,0:21:49.87,Default,,0000,0000,0000,,我知道你有多喜欢那里\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I know how much you love it in there.
+Dialogue: 0,0:21:49.95,0:21:51.41,Default,,0000,0000,0000,,快走\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Move!
+Dialogue: 0,0:21:55.63,0:21:57.46,Default,,0000,0000,0000,,给我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'll take that.
+Dialogue: 0,0:22:13.69,0:22:15.31,Default,,0000,0000,0000,,你收到了我的卡\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You have my card.
+Dialogue: 0,0:22:17.65,0:22:19.82,Default,,0000,0000,0000,,孩子们很可爱对吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Kids are cute, right?
+Dialogue: 0,0:22:20.82,0:22:24.49,Default,,0000,0000,0000,,另一张准备买的卡是一只猫说"你喵完美"\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It was between this or some cats that said, "You're purr-fect!"
+Dialogue: 0,0:22:26.16,0:22:27.16,Default,,0000,0000,0000,,是的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah.
+Dialogue: 0,0:22:28.95,0:22:31.50,Default,,0000,0000,0000,,我的选择是正确的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I made the right choice.
+Dialogue: 0,0:22:37.17,0:22:38.25,Default,,0000,0000,0000,,你看起来不同了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You look so different.
+Dialogue: 0,0:22:38.34,0:22:41.05,Default,,0000,0000,0000,,不知怎的更温柔了  这是好事\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Softer somehow. In a good way.
+Dialogue: 0,0:22:52.81,0:22:54.77,Default,,0000,0000,0000,,我让你留着这个\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm gonna let you keep that.
+Dialogue: 0,0:23:01.73,0:23:03.03,Default,,0000,0000,0000,,没发现\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Clear!
+Dialogue: 0,0:23:06.49,0:23:07.95,Default,,0000,0000,0000,,老天  瞧这一堆\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Jesus, what a haul!
+Dialogue: 0,0:23:08.03,0:23:11.79,Default,,0000,0000,0000,,把这个撕开检查毒品后我就带它回家\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm taking this home after I rip it open to check for drugs.
+Dialogue: 0,0:23:11.87,0:23:13.12,Default,,0000,0000,0000,,好可爱\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's adorable.
+Dialogue: 0,0:23:13.20,0:23:13.94,Default,,0000,0000,0000,,看这些东西\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Look at all this stuff.
+Dialogue: 0,0:23:13.94,0:23:15.29,Default,,0000,0000,0000,,显然是有门路弄进来的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}There are some serious open channels here.
+Dialogue: 0,0:23:15.37,0:23:16.46,Default,,0000,0000,0000,,你闻一下\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Here, smell this, would ya?
+Dialogue: 0,0:23:16.54,0:23:18.54,Default,,0000,0000,0000,,好难闻\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Whoa, that's awful.
+Dialogue: 0,0:23:18.63,0:23:19.63,Default,,0000,0000,0000,,闻一下\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Smell it.
+Dialogue: 0,0:23:19.71,0:23:21.50,Default,,0000,0000,0000,,大便味\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, it smells like poo.
+Dialogue: 0,0:23:21.59,0:23:22.80,Default,,0000,0000,0000,,全闻起来是大便味\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah, it all smells like poo.
+Dialogue: 0,0:23:22.88,0:23:24.38,Default,,0000,0000,0000,,知道这意味着什么吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know what that means?
+Dialogue: 0,0:23:24.47,0:23:26.68,Default,,0000,0000,0000,,全是通过直肠弄进来的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's all coming in through the rectal pipeline.
+Dialogue: 0,0:23:28.05,0:23:31.22,Default,,0000,0000,0000,,下蹲咳嗽检查太松懈了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Someone has been slacking with the squat and cough.
+Dialogue: 0,0:23:32.10,0:23:33.35,Default,,0000,0000,0000,,知道这意味着什么吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know what this means?
+Dialogue: 0,0:23:33.43,0:23:35.81,Default,,0000,0000,0000,,光看已经不够了  得开始捅了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's not enough to look, we gotta start probing.
+Dialogue: 0,0:23:35.89,0:23:37.35,Default,,0000,0000,0000,,不能碰她们  这是违法的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}We can't touch 'em. It's illegal.
+Dialogue: 0,0:23:37.44,0:23:38.77,Default,,0000,0000,0000,,我可不会把胳膊伸过去\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm not sticking my arm up there.
+Dialogue: 0,0:23:38.86,0:23:40.73,Default,,0000,0000,0000,,那么伸手指呢  有什么不行\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What about a finger? What's wrong with that?
+Dialogue: 0,0:23:41.90,0:23:43.07,Default,,0000,0000,0000,,偶尔伸根手指感觉不错啊\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}A finger's nice once in a while.
+Dialogue: 0,0:23:43.15,0:23:45.53,Default,,0000,0000,0000,,只能目测\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Visual inspections only.
+Dialogue: 0,0:23:45.61,0:23:48.20,Default,,0000,0000,0000,,小小的指头  拜托\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Tiny little finger? Come on.
+Dialogue: 0,0:23:48.28,0:23:51.99,Default,,0000,0000,0000,,我不知道你们  但我准备好做英雄了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't know about you all, but I'm ready to be the hero.
+Dialogue: 0,0:23:52.08,0:23:53.83,Default,,0000,0000,0000,,没什么能逃过我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Nothing's getting past me.
+Dialogue: 0,0:23:53.91,0:23:56.50,Default,,0000,0000,0000,,你看的和你想的不一样  就这样了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You didn't see what you thought you saw, end of story.
+Dialogue: 0,0:23:56.58,0:23:59.17,Default,,0000,0000,0000,,-那是什么  -老天  有完没完\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- What was it, then? - Oh, Jesus, really?
+Dialogue: 0,0:23:59.25,0:24:00.92,Default,,0000,0000,0000,,我不会就此罢休的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Look, I'm not gonna leave you alone.
+Dialogue: 0,0:24:01.00,0:24:03.00,Default,,0000,0000,0000,,我什么也没做\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm not doing anything.
+Dialogue: 0,0:24:03.09,0:24:04.46,Default,,0000,0000,0000,,你要和我一起去厕所吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Do you wanna join me in the bathroom?
+Dialogue: 0,0:24:04.55,0:24:06.47,Default,,0000,0000,0000,,我要去那里  去拉屎\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}'Cause that's where I'm headed. To take a dump.
+Dialogue: 0,0:24:06.55,0:24:08.68,Default,,0000,0000,0000,,来吧  你可以把纸折整齐了给我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Come on, you can hand me neatly folded squares of paper
+Dialogue: 0,0:24:08.76,0:24:10.76,Default,,0000,0000,0000,,就好像你是宫廷侍从官  我是亨利八世\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}like you're the groom of the stole and I'm Henry VIII.
+Dialogue: 0,0:24:17.73,0:24:19.94,Default,,0000,0000,0000,,你给你今天的心理状态打几分\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, how would you rate your state of mind today?
+Dialogue: 0,0:24:20.98,0:24:22.23,Default,,0000,0000,0000,,4吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}A four?
+Dialogue: 0,0:24:22.31,0:24:26.36,Default,,0000,0000,0000,,你有没有愤怒的想法  这种想法定期出现吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You having any angry thoughts? They coming up regularly for you?
+Dialogue: 0,0:24:27.61,0:24:31.07,Default,,0000,0000,0000,,你有没有愤怒的想法  这种想法定期出现吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Are you having angry thoughts that are coming up regularly?
+Dialogue: 0,0:24:31.16,0:24:32.57,Default,,0000,0000,0000,,这是投射\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That's projection.
+Dialogue: 0,0:24:32.66,0:24:33.79,Default,,0000,0000,0000,,什么意思\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What does that mean?
+Dialogue: 0,0:24:34.74,0:24:37.04,Default,,0000,0000,0000,,你知道我是靠什么维生吗  我的工作是什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You have any idea what I do for a living? What my job is?
+Dialogue: 0,0:24:37.12,0:24:38.21,Default,,0000,0000,0000,,我当然知道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Of course I do.
+Dialogue: 0,0:24:38.29,0:24:42.63,Default,,0000,0000,0000,,你为那些记过的女士们填写相关文件\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You fill out the paperworks for the ladies that get shots.
+Dialogue: 0,0:24:45.13,0:24:46.71,Default,,0000,0000,0000,,我提供指导\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I provide guidance.
+Dialogue: 0,0:24:47.88,0:24:49.84,Default,,0000,0000,0000,,我就人们的问题提出忠告\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I counsel people with their problems.
+Dialogue: 0,0:24:52.85,0:24:55.72,Default,,0000,0000,0000,,我想创办一个支持小组\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm thinking about starting a support group.
+Dialogue: 0,0:24:55.81,0:24:57.22,Default,,0000,0000,0000,,开展心理治疗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's a therapy thing.
+Dialogue: 0,0:24:58.31,0:25:00.06,Default,,0000,0000,0000,,我觉得对这里的女性有帮助\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I think the women here could really use it.
+Dialogue: 0,0:25:00.14,0:25:02.90,Default,,0000,0000,0000,,这里有些爱生气的贱人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}There are some angry bitches around here.
+Dialogue: 0,0:25:04.07,0:25:05.36,Default,,0000,0000,0000,,但如果没有好处\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But you know that ain't nobody gonna do nothing
+Dialogue: 0,0:25:05.44,0:25:07.40,Default,,0000,0000,0000,,是没人会理的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}without getting something from it.
+Dialogue: 0,0:25:07.48,0:25:09.65,Default,,0000,0000,0000,,她们会有收获的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}They will be getting something.
+Dialogue: 0,0:25:10.74,0:25:12.24,Default,,0000,0000,0000,,对她们的问题有帮助\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Help with their problems.
+Dialogue: 0,0:25:12.32,0:25:16.87,Default,,0000,0000,0000,,不  我是说比如免费甜甜圈  不用干活\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No, I'm talking about, like, free donuts, or days off work.
+Dialogue: 0,0:25:16.95,0:25:20.00,Default,,0000,0000,0000,,我印了些传单\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I've, uh, printed out some flyers.
+Dialogue: 0,0:25:21.50,0:25:23.25,Default,,0000,0000,0000,,我想要你发出去\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'd like you to distribute them.
+Dialogue: 0,0:25:25.21,0:25:26.50,Default,,0000,0000,0000,,好的  海利先生\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}All right, Mr. Healy,
+Dialogue: 0,0:25:26.59,0:25:29.09,Default,,0000,0000,0000,,但我告诉你  没人会来的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}but I'm telling you, no one's gonna come on their own.
+Dialogue: 0,0:25:29.17,0:25:31.84,Default,,0000,0000,0000,,你低估了她们\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You're underestimating them.
+Dialogue: 0,0:25:31.93,0:25:34.47,Default,,0000,0000,0000,,这些女性经历了太多\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}These women have been through a lot.
+Dialogue: 0,0:25:34.55,0:25:35.85,Default,,0000,0000,0000,,她们会来的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}They'll come.
+Dialogue: 0,0:25:47.11,0:25:50.15,Default,,0000,0000,0000,,没想到你们会对文学有兴趣\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Didn't realize y'all had such literary interests.
+Dialogue: 0,0:25:50.24,0:25:52.61,Default,,0000,0000,0000,,我们希望你能给些建议\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah, well, we were hoping you could make a few suggestions.
+Dialogue: 0,0:25:52.70,0:25:55.41,Default,,0000,0000,0000,,因为我听说  你这个人很会提意见\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}'Cause from what I hear, you're quite the little critic.
+Dialogue: 0,0:25:56.37,0:25:57.99,Default,,0000,0000,0000,,-我有些想法  -是吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Yeah, I got some thoughts. - Yeah?
+Dialogue: 0,0:25:58.08,0:25:59.25,Default,,0000,0000,0000,,还有些问题\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah, and some questions.
+Dialogue: 0,0:25:59.33,0:26:01.79,Default,,0000,0000,0000,,你为什么让珍娜被关了禁闭\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Like why you let my girl Janae get dragged off to seg.
+Dialogue: 0,0:26:01.87,0:26:05.13,Default,,0000,0000,0000,,她应该明白不能把违禁品放在铺位上\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, she knew better than to keep contraband in her bunk.
+Dialogue: 0,0:26:06.54,0:26:09.05,Default,,0000,0000,0000,,现在她有许多独处的时间来考虑这个问题\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Guess she got a lot of alone time now to think about it.
+Dialogue: 0,0:26:09.13,0:26:12.05,Default,,0000,0000,0000,,她不会有事的  只要她只想不出声\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She'll be fine, so long as she thinks and doesn't speak.
+Dialogue: 0,0:26:16.51,0:26:18.03,Default,,0000,0000,0000,,你到底入不入伙\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You in or out?
+Dialogue: 0,0:26:18.03,0:26:20.22,Default,,0000,0000,0000,,图书馆对我们来说是个好地方\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}The library is prime real estate for us.
+Dialogue: 0,0:26:22.02,0:26:24.48,Default,,0000,0000,0000,,你有地盘了  别在这里交易\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Look, you got your spot. Deal out of there.
+Dialogue: 0,0:26:24.56,0:26:27.82,Default,,0000,0000,0000,,女囚们扎堆去仓库是说不通的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}There's no reason for the inmates to flow through the warehouse.
+Dialogue: 0,0:26:27.90,0:26:29.82,Default,,0000,0000,0000,,连看看都是不对劲的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}There's no excuse to browse.
+Dialogue: 0,0:26:29.90,0:26:31.74,Default,,0000,0000,0000,,而且  警卫已经嗅到了血腥味\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Plus, the hacks got a taste of blood.
+Dialogue: 0,0:26:31.82,0:26:34.24,Default,,0000,0000,0000,,他们检查所有的工作地点只是时间问题\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's only a matter of time before they sweep all the work sites.
+Dialogue: 0,0:26:36.07,0:26:37.37,Default,,0000,0000,0000,,我不是小混混\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I ain't no corner girl.
+Dialogue: 0,0:26:39.04,0:26:41.16,Default,,0000,0000,0000,,我喜欢这个地点\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I like this spot.
+Dialogue: 0,0:26:42.45,0:26:46.54,Default,,0000,0000,0000,,所以你要么听话  要么要求调职\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So you either get your ass in line or request a transfer.
+Dialogue: 0,0:26:46.63,0:26:48.34,Default,,0000,0000,0000,,我听说电工那边在招人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I hear Electrical is looking.
+Dialogue: 0,0:26:49.59,0:26:51.26,Default,,0000,0000,0000,,明白吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You feel me?
+Dialogue: 0,0:26:53.05,0:26:54.51,Default,,0000,0000,0000,,我哪里也不去\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I ain't going nowhere.
+Dialogue: 0,0:26:55.68,0:26:57.39,Default,,0000,0000,0000,,明白吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You feel me?
+Dialogue: 0,0:27:05.48,0:27:07.73,Default,,0000,0000,0000,,迪亚茨女士  我们只是需要口头确认\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Miss Diaz, we just need verbal confirmation
+Dialogue: 0,0:27:07.81,0:27:11.53,Default,,0000,0000,0000,,门德斯警官强暴了你  你能说出来吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}that Officer Mendez forced himself on you. Can you provide that?
+Dialogue: 0,0:27:11.61,0:27:12.61,Default,,0000,0000,0000,,你没看到吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Didn't you see it?
+Dialogue: 0,0:27:15.49,0:27:17.49,Default,,0000,0000,0000,,这是为了文书工作\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}This is for our paperwork.
+Dialogue: 0,0:27:19.12,0:27:20.99,Default,,0000,0000,0000,,乔  如果你不在这里\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Joe, I think Miss Diaz would be more comfortable
+Dialogue: 0,0:27:21.08,0:27:22.58,Default,,0000,0000,0000,,我想迪亚茨女士会自在些\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}if you weren't in the room.
+Dialogue: 0,0:27:36.09,0:27:38.68,Default,,0000,0000,0000,,有法律规定\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Look, there are laws in place
+Dialogue: 0,0:27:38.76,0:27:42.26,Default,,0000,0000,0000,,犯人与监狱工作人员的性爱是非法的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}which criminalize sex between prisoners and prison staff.
+Dialogue: 0,0:27:42.35,0:27:45.73,Default,,0000,0000,0000,,这意味着工作人员有性爱不当行为时\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Which means that employees who engage in sexual misconduct
+Dialogue: 0,0:27:45.81,0:27:48.69,Default,,0000,0000,0000,,不能将对方同意作为辩护借口\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}cannot claim consent as a defense.
+Dialogue: 0,0:27:48.77,0:27:50.61,Default,,0000,0000,0000,,所以正式来说这是强奸\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So, officially it's a rape,
+Dialogue: 0,0:27:50.61,0:27:53.19,Default,,0000,0000,0000,,没错  我们会这么说\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}yes, and we're all gonna call it that.
+Dialogue: 0,0:27:53.28,0:27:55.40,Default,,0000,0000,0000,,但我需要知道  女人对女人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But I need to know, girl-to-girl...
+Dialogue: 0,0:27:56.24,0:27:57.24,Default,,0000,0000,0000,,是你情我愿的吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}was it consensual?
+Dialogue: 0,0:27:59.45,0:28:02.53,Default,,0000,0000,0000,,我明白  你孤单  你想调调情\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Listen, I get it. You're lonely, you want to flirt a little.
+Dialogue: 0,0:28:02.62,0:28:04.45,Default,,0000,0000,0000,,引起警卫的注意令你觉得很特别\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Attention from a guard makes you feel special.
+Dialogue: 0,0:28:04.54,0:28:07.04,Default,,0000,0000,0000,,仅是那身制服就让人有性趣对吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I mean, those uniforms alone can be a real turn-on, right?
+Dialogue: 0,0:28:08.17,0:28:09.70,Default,,0000,0000,0000,,就咱们之间说清楚\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So, just between us,
+Dialogue: 0,0:28:09.70,0:28:12.46,Default,,0000,0000,0000,,我要知道你是否鼓励了他\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I need to know if you encouraged him.
+Dialogue: 0,0:28:15.97,0:28:17.84,Default,,0000,0000,0000,,-是的  -我想也是\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Yes. - I thought as much.
+Dialogue: 0,0:28:20.05,0:28:22.85,Default,,0000,0000,0000,,你真给我惹了大麻烦  小姑娘\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, you've created quite a headache for me, young lady.
+Dialogue: 0,0:28:22.93,0:28:24.98,Default,,0000,0000,0000,,现在我不仅要对你负责\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And now not only am I responsible for you,
+Dialogue: 0,0:28:24.98,0:28:26.93,Default,,0000,0000,0000,,还要对你肚中的胎负责\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}but for your little spawn of the system.
+Dialogue: 0,0:28:27.02,0:28:28.52,Default,,0000,0000,0000,,所以帮个忙  亲爱的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So, do me a favor, sweetheart,
+Dialogue: 0,0:28:28.60,0:28:31.69,Default,,0000,0000,0000,,从现在开始  把你的双腿闭紧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}from now on, keep your legs closed.
+Dialogue: 0,0:28:33.23,0:28:34.48,Default,,0000,0000,0000,,恭喜你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Congratulations.
+Dialogue: 0,0:28:34.57,0:28:37.44,Default,,0000,0000,0000,,你正式毁了一个男人的生活\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You've officially destroyed a man's life.
+Dialogue: 0,0:28:40.66,0:28:43.91,Default,,0000,0000,0000,,不  你得告诉她  如果银行周日关门\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No, you gotta tell her that if the bank is closed on Sunday,
+Dialogue: 0,0:28:43.99,0:28:46.58,Default,,0000,0000,0000,,那么周一早上给她钱就他妈的没有滞纳金\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}that there's no fucking late fee if you pay her Monday morning.
+Dialogue: 0,0:28:46.66,0:28:48.79,Default,,0000,0000,0000,,-这种屁话不对  -我说了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- That shit's not right. - I did.
+Dialogue: 0,0:28:48.87,0:28:50.00,Default,,0000,0000,0000,,她依然要收你钱吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And she's still trying to charge you?
+Dialogue: 0,0:28:50.08,0:28:51.29,Default,,0000,0000,0000,,是的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Mmm-hmm.
+Dialogue: 0,0:28:51.38,0:28:53.96,Default,,0000,0000,0000,,你要这样做\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Okay, so here's what you gotta do.
+Dialogue: 0,0:28:54.05,0:28:55.25,Default,,0000,0000,0000,,你找根棒球棒\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You get a baseball bat,
+Dialogue: 0,0:28:55.34,0:28:58.72,Default,,0000,0000,0000,,木头的  不要金属的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}the wood kind, not the fucking metal kind,
+Dialogue: 0,0:28:58.80,0:29:01.30,Default,,0000,0000,0000,,一个大垃圾袋\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and a big trash bag,
+Dialogue: 0,0:29:01.39,0:29:04.47,Default,,0000,0000,0000,,黑色的  不要看得透那种\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}the black kind, not the see-through kind...
+Dialogue: 0,0:29:04.56,0:29:07.43,Default,,0000,0000,0000,,迈克尔  你长大了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Michael, you look all grown up.
+Dialogue: 0,0:29:07.52,0:29:09.64,Default,,0000,0000,0000,,你一定长高了有4英寸\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You must have grown, like, 4 inches.
+Dialogue: 0,0:29:09.73,0:29:11.10,Default,,0000,0000,0000,,现在叫迈克了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's "Mike" now.
+Dialogue: 0,0:29:14.44,0:29:16.23,Default,,0000,0000,0000,,看看他的脚\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Now, take a look at his feet.
+Dialogue: 0,0:29:16.32,0:29:19.40,Default,,0000,0000,0000,,我告诉他  他躺下去和站着一样高\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I told him he's as tall lying down as he is standing up.
+Dialogue: 0,0:29:22.86,0:29:25.66,Default,,0000,0000,0000,,你想对我说什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Anything you want to say to me...
+Dialogue: 0,0:29:27.79,0:29:29.54,Default,,0000,0000,0000,,都可以  明白吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}you can say it, okay?
+Dialogue: 0,0:29:35.75,0:29:38.76,Default,,0000,0000,0000,,也许我们应该玩游戏  好吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, you know, maybe we should play a game. Hmm?
+Dialogue: 0,0:29:39.76,0:29:43.51,Default,,0000,0000,0000,,那边小孩用品里有扑克牌  怎么样\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}They got a deck of cards over there by the kids' stuff. Huh?
+Dialogue: 0,0:29:47.39,0:29:50.56,Default,,0000,0000,0000,,在探视室  可以拥抱两次\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}When in the Visitation Room, you're allowed two hugs,
+Dialogue: 0,0:29:50.64,0:29:52.81,Default,,0000,0000,0000,,到达和离开时分别一次\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}one on arrival and one on departure.
+Dialogue: 0,0:29:52.89,0:29:55.61,Default,,0000,0000,0000,,卫生间还没修好\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, they still didn't fix the bathrooms,
+Dialogue: 0,0:29:55.69,0:29:57.82,Default,,0000,0000,0000,,湖边应该建挡土墙\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and they were supposed to put in a retaining wall by the lake,
+Dialogue: 0,0:29:57.90,0:29:59.61,Default,,0000,0000,0000,,但现在只有几包沙袋\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}but there's just a couple of sandbags.
+Dialogue: 0,0:29:59.69,0:30:01.86,Default,,0000,0000,0000,,我查了FCP这个名字  并不存在\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, I ran the name FCP and it doesn't exist.
+Dialogue: 0,0:30:01.95,0:30:03.45,Default,,0000,0000,0000,,查不到这家公司\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No trace of the company.
+Dialogue: 0,0:30:03.53,0:30:04.95,Default,,0000,0000,0000,,你确定在卡车上看到的是这个名字吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You sure that's the name you saw on the truck?
+Dialogue: 0,0:30:05.03,0:30:06.03,Default,,0000,0000,0000,,对  我肯定\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah, I'm positive.
+Dialogue: 0,0:30:06.12,0:30:07.74,Default,,0000,0000,0000,,我猜想\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, my guess is that the
+Dialogue: 0,0:30:07.74,0:30:10.75,Default,,0000,0000,0000,,监狱给合同的公司\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}prison is giving inflated contracts to companies
+Dialogue: 0,0:30:10.83,0:30:13.04,Default,,0000,0000,0000,,要么是空壳公司  要么是菲茨核心的下属公司\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}that are either shells or subsidiaries of FitzCORE,
+Dialogue: 0,0:30:13.12,0:30:14.34,Default,,0000,0000,0000,,菲茨核心将回扣\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and FitzCORE is paying
+Dialogue: 0,0:30:14.34,0:30:16.71,Default,,0000,0000,0000,,给杰森·菲格罗亚的竞选\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}kickbacks into the Jason Figueroa campaign.
+Dialogue: 0,0:30:16.79,0:30:20.80,Default,,0000,0000,0000,,我需要的是发票  我能看出谁在拿钱\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What I need are invoices, so I can see who's getting paid.
+Dialogue: 0,0:30:22.51,0:30:23.80,Default,,0000,0000,0000,,是哦\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Right.
+Dialogue: 0,0:30:24.64,0:30:26.55,Default,,0000,0000,0000,,不如这样\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, what about...
+Dialogue: 0,0:30:26.64,0:30:28.39,Default,,0000,0000,0000,,不如拍些未完成品的照片\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What about photos of all the unfinished work?
+Dialogue: 0,0:30:28.47,0:30:29.72,Default,,0000,0000,0000,,如果我能给你弄部相机\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}If I could get you a camera...
+Dialogue: 0,0:30:29.81,0:30:32.48,Default,,0000,0000,0000,,不  不如你给我弄部苹果手机\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No, why don't you get me an iPhone
+Dialogue: 0,0:30:32.56,0:30:35.10,Default,,0000,0000,0000,,这样我能拍照  还能玩"糖果大爆险"\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}so then I can take pictures and play Candy Crush?
+Dialogue: 0,0:30:35.19,0:30:36.73,Default,,0000,0000,0000,,你疯了吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Are you insane?
+Dialogue: 0,0:30:36.81,0:30:37.81,Default,,0000,0000,0000,,我之前跟你说过了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I told you before,
+Dialogue: 0,0:30:37.90,0:30:40.44,Default,,0000,0000,0000,,我不会以自由为代价  为你的署名文章冒险\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm not risking my freedom for your fucking byline.
+Dialogue: 0,0:30:40.53,0:30:42.36,Default,,0000,0000,0000,,帕波  这个女人是罪犯\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Piper, this woman is a criminal.
+Dialogue: 0,0:30:42.44,0:30:44.32,Default,,0000,0000,0000,,是吗  我也是\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah? Well, so am I.
+Dialogue: 0,0:30:45.28,0:30:46.57,Default,,0000,0000,0000,,要二吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Collecting twos?
+Dialogue: 0,0:30:47.49,0:30:48.49,Default,,0000,0000,0000,,不要\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Nope.
+Dialogue: 0,0:30:51.16,0:30:53.16,Default,,0000,0000,0000,,对我有用\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Better for me.
+Dialogue: 0,0:30:54.79,0:30:55.79,Default,,0000,0000,0000,,你确定吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You sure about that?
+Dialogue: 0,0:31:01.42,0:31:02.92,Default,,0000,0000,0000,,你把我打得落花流水\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You're kicking my ass here.
+Dialogue: 0,0:31:03.01,0:31:05.43,Default,,0000,0000,0000,,对  到我发牌了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yep. My turn to deal.
+Dialogue: 0,0:31:12.35,0:31:13.85,Default,,0000,0000,0000,,谢谢\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Thank you.
+Dialogue: 0,0:31:15.31,0:31:17.94,Default,,0000,0000,0000,,南斯先生  你怎么来了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Mr. Nance, what brings you here?
+Dialogue: 0,0:31:18.02,0:31:20.77,Default,,0000,0000,0000,,菲格罗亚女士  你好吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Miss Figueroa, how are you?
+Dialogue: 0,0:31:20.86,0:31:22.78,Default,,0000,0000,0000,,知道你来我监狱做什么我会更好\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Better once I know what the fuck you're doing in my prison.
+Dialogue: 0,0:31:22.86,0:31:24.86,Default,,0000,0000,0000,,我来探视一位朋友\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I was... visiting a friend.
+Dialogue: 0,0:31:24.95,0:31:26.07,Default,,0000,0000,0000,,那位朋友是谁\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And what friend might that be?
+Dialogue: 0,0:31:26.16,0:31:27.66,Default,,0000,0000,0000,,我给你的办公室打过几个电话\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know, I've called your office a bunch of times.
+Dialogue: 0,0:31:27.74,0:31:29.16,Default,,0000,0000,0000,,是吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Have you?
+Dialogue: 0,0:31:29.24,0:31:32.37,Default,,0000,0000,0000,,我五秒钟就能找出你在谁的探视名单上\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I can find out whose list you're on in five seconds flat,
+Dialogue: 0,0:31:32.45,0:31:34.33,Default,,0000,0000,0000,,没必要玩游戏\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}so there's no need to play games here.
+Dialogue: 0,0:31:35.08,0:31:36.17,Default,,0000,0000,0000,,帕波·查普曼\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Piper Chapman.
+Dialogue: 0,0:31:37.21,0:31:39.25,Default,,0000,0000,0000,,帕波·查普曼  你怎么认识她的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Piper Chapman. And how do you know Piper Chapman?
+Dialogue: 0,0:31:39.34,0:31:41.92,Default,,0000,0000,0000,,我们有共同的朋友\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}We have... mutual friends.
+Dialogue: 0,0:31:56.23,0:31:58.02,Default,,0000,0000,0000,,你看到这烂人了吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You seeing this shit?
+Dialogue: 0,0:31:58.10,0:31:59.90,Default,,0000,0000,0000,,就好像他妈的看上我一样\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I mean, it's like she's got a fucking hit out on me.
+Dialogue: 0,0:31:59.98,0:32:03.98,Default,,0000,0000,0000,,我想她要你的芝士泡芙\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I think she wants some of those cheese puffs you got.
+Dialogue: 0,0:32:04.07,0:32:05.36,Default,,0000,0000,0000,,给她一点吧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Maybe just give her a few.
+Dialogue: 0,0:32:05.44,0:32:08.74,Default,,0000,0000,0000,,一定是这样  她看上我的泡芙了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, yeah, that must be it. She's after my puffs.
+Dialogue: 0,0:32:09.91,0:32:11.76,Default,,0000,0000,0000,,莫里洛  你有探视者\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Morello, you have a visitor.
+Dialogue: 0,0:32:11.76,0:32:13.45,Default,,0000,0000,0000,,到探视室报到  莫里洛\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Report to Visitation, Morello.
+Dialogue: 0,0:32:13.54,0:32:14.87,Default,,0000,0000,0000,,是你啊  妹子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That's you, kid.
+Dialogue: 0,0:32:16.96,0:32:20.33,Default,,0000,0000,0000,,应该没人来看我啊  也许是我的妹妹\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm not expecting anybody. Maybe it's my sister.
+Dialogue: 0,0:32:20.42,0:32:22.71,Default,,0000,0000,0000,,老天  希望没出事  我样子如何\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Jeez, I hope there's nothing wrong. How do I look?
+Dialogue: 0,0:32:23.96,0:32:25.46,Default,,0000,0000,0000,,-漂亮  -好的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Looking hot. - All right.
+Dialogue: 0,0:32:29.89,0:32:31.93,Default,,0000,0000,0000,,你够了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Stop!
+Dialogue: 0,0:32:32.01,0:32:34.14,Default,,0000,0000,0000,,至少进来让我可以看到你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Man, or at least get in here where I can see you.
+Dialogue: 0,0:32:36.39,0:32:38.10,Default,,0000,0000,0000,,你打算做这种无聊事做多久\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}How much longer is this shit gonna go on for?
+Dialogue: 0,0:32:38.19,0:32:39.69,Default,,0000,0000,0000,,你要拿去给红妈\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You need to take it to Red.
+Dialogue: 0,0:32:40.69,0:32:41.69,Default,,0000,0000,0000,,我不知道你在说什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't know what you're talking about.
+Dialogue: 0,0:32:44.78,0:32:46.21,Default,,0000,0000,0000,,你真觉得我会为了嗨一次\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You really think I'm gonna throw
+Dialogue: 0,0:32:46.21,0:32:48.32,Default,,0000,0000,0000,,丢掉两年的戒毒成果吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}away two years of sobriety for one little high?
+Dialogue: 0,0:32:48.40,0:32:51.20,Default,,0000,0000,0000,,我看到崔希娅被装在运尸袋中被运出去\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I saw Tricia get wheeled out of here in a body bag.
+Dialogue: 0,0:32:51.28,0:32:52.87,Default,,0000,0000,0000,,你觉得我有多蠢\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}How stupid do you think I am?
+Dialogue: 0,0:33:09.47,0:33:10.51,Default,,0000,0000,0000,,你好\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, hello. Hi.
+Dialogue: 0,0:33:10.59,0:33:12.01,Default,,0000,0000,0000,,别碰我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Don't you fucking touch me.
+Dialogue: 0,0:33:13.97,0:33:15.31,Default,,0000,0000,0000,,坐下\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Sit down.
+Dialogue: 0,0:33:19.81,0:33:22.94,Default,,0000,0000,0000,,很高兴见到你  我喜欢你的毛衣\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's nice to see you. I like your sweater.
+Dialogue: 0,0:33:23.02,0:33:24.23,Default,,0000,0000,0000,,听我说\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Listen to me.
+Dialogue: 0,0:33:24.32,0:33:25.40,Default,,0000,0000,0000,,我知道你闯进了我家\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I know you broke into my house.
+Dialogue: 0,0:33:25.48,0:33:28.15,Default,,0000,0000,0000,,我不知道你如何做到的  但你做到了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't know how you did it, but you did.
+Dialogue: 0,0:33:28.24,0:33:30.32,Default,,0000,0000,0000,,警察不相信我  但我知道是你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Now, the cops don't believe me, but I know it was you.
+Dialogue: 0,0:33:30.40,0:33:32.24,Default,,0000,0000,0000,,我不明白  你为什么来这里\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't understand. Why did you come here?
+Dialogue: 0,0:33:32.32,0:33:33.78,Default,,0000,0000,0000,,因为我要听你承认\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Because I want to hear you say it.
+Dialogue: 0,0:33:33.87,0:33:36.45,Default,,0000,0000,0000,,-告诉我是你  -我不知道你在说些什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Tell me it was you. - I don't know what you're talking about.
+Dialogue: 0,0:33:36.54,0:33:38.58,Default,,0000,0000,0000,,显然你坐牢这段时间\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So, clearly your time in prison
+Dialogue: 0,0:33:38.66,0:33:42.08,Default,,0000,0000,0000,,并没有让你回归现实  你这个疯子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}has done nothing to bring you back into reality, you psycho.
+Dialogue: 0,0:33:43.17,0:33:44.67,Default,,0000,0000,0000,,我对天发誓\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I swear to God...
+Dialogue: 0,0:33:44.75,0:33:49.42,Default,,0000,0000,0000,,如果你再接近我  或是我的家人我的妻子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}if you come near me, or my family, or my wife again, ever,
+Dialogue: 0,0:33:49.51,0:33:50.59,Default,,0000,0000,0000,,我会杀了你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I will kill you.
+Dialogue: 0,0:33:50.67,0:33:53.89,Default,,0000,0000,0000,,我会用双手  活活掐死你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}With my bare fucking hands, I will choke you until you are dead.
+Dialogue: 0,0:33:55.01,0:33:56.76,Default,,0000,0000,0000,,你能小点声音吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Could you keep your voice down just a little?
+Dialogue: 0,0:33:56.85,0:33:58.77,Default,,0000,0000,0000,,你有病吗  为什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You... Are you out of... Why?
+Dialogue: 0,0:33:58.85,0:33:59.60,Default,,0000,0000,0000,,你让我小点声\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You want me to keep my voice down
+Dialogue: 0,0:33:59.60,0:34:02.19,Default,,0000,0000,0000,,这样你的罪犯朋友不会知道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}so your criminal friends in here won't know that you're a
+Dialogue: 0,0:34:02.19,0:34:04.27,Default,,0000,0000,0000,,你是个疯子  越狱跟踪我吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}mental case who broke out of prison to stalk me?
+Dialogue: 0,0:34:06.86,0:34:07.86,Default,,0000,0000,0000,,是他吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Is that him?
+Dialogue: 0,0:34:10.07,0:34:11.65,Default,,0000,0000,0000,,什么意思\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What is that?
+Dialogue: 0,0:34:11.74,0:34:14.82,Default,,0000,0000,0000,,你要继续玩这种疯子把戏吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Are you trying to keep up this lunatic charade?
+Dialogue: 0,0:34:14.91,0:34:17.53,Default,,0000,0000,0000,,-假装我是你男友吗  -不是\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Pretend that I'm your boyfriend? - No.
+Dialogue: 0,0:34:21.71,0:34:24.04,Default,,0000,0000,0000,,我不认识这个女人  明白吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't know this woman, okay?
+Dialogue: 0,0:34:24.12,0:34:26.59,Default,,0000,0000,0000,,我们约会过一次  就一次\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}We went on one date! One!
+Dialogue: 0,0:34:26.59,0:34:28.17,Default,,0000,0000,0000,,她是个该死的跟踪狂\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She's a fucking stalker!
+Dialogue: 0,0:34:28.25,0:34:30.76,Default,,0000,0000,0000,,先生  请马上离开\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Sir, you need to leave now.
+Dialogue: 0,0:34:30.84,0:34:32.80,Default,,0000,0000,0000,,她是个危险人物\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She's fucking dangerous!
+Dialogue: 0,0:34:32.88,0:34:33.93,Default,,0000,0000,0000,,-马上离开  -她...\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Leave, now. - Hey... She...
+Dialogue: 0,0:34:34.01,0:34:36.89,Default,,0000,0000,0000,,你知道她越狱了吧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know she broke out of here, right?
+Dialogue: 0,0:34:36.97,0:34:38.31,Default,,0000,0000,0000,,她是个疯婊子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She's a psycho bitch!
+Dialogue: 0,0:34:38.39,0:34:39.97,Default,,0000,0000,0000,,-对不起  -快走\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Sorry. - Come on.
+Dialogue: 0,0:34:40.06,0:34:42.52,Default,,0000,0000,0000,,我可不是有罪的那个\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Hey, man, I'm not the criminal here, okay?
+Dialogue: 0,0:35:01.08,0:35:02.08,Default,,0000,0000,0000,,我疯了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm crazy.
+Dialogue: 0,0:35:03.29,0:35:07.88,Default,,0000,0000,0000,,我是个疯子  我真的很有问题\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm a crazy person. There is something really wrong with me.
+Dialogue: 0,0:35:07.96,0:35:10.00,Default,,0000,0000,0000,,我们所有人都有问题\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I mean, there's something wrong with all of us.
+Dialogue: 0,0:35:10.09,0:35:11.63,Default,,0000,0000,0000,,否则我们不会在这里\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Like, otherwise we wouldn't be in here.
+Dialogue: 0,0:35:11.71,0:35:15.51,Default,,0000,0000,0000,,不  我做了坏事\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No, I did something bad.
+Dialogue: 0,0:35:15.59,0:35:16.59,Default,,0000,0000,0000,,非常坏\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Really bad.
+Dialogue: 0,0:35:16.68,0:35:19.68,Default,,0000,0000,0000,,我应该待在医院时\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}When I was supposed to be at the hospital,
+Dialogue: 0,0:35:19.76,0:35:21.88,Default,,0000,0000,0000,,我偷了车\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I stole the van
+Dialogue: 0,0:35:21.88,0:35:25.06,Default,,0000,0000,0000,,去了他奥尔巴尼的家\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and I went to his house in Albany.
+Dialogue: 0,0:35:25.14,0:35:26.60,Default,,0000,0000,0000,,你说真的吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Are you serious?
+Dialogue: 0,0:35:29.23,0:35:31.69,Default,,0000,0000,0000,,你知道如果你被抓的话会有什么后果吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Do you know what could happen if you got caught?
+Dialogue: 0,0:35:31.78,0:35:33.53,Default,,0000,0000,0000,,我想他们会控告你重罪潜逃\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I think they charge you with felony escape.
+Dialogue: 0,0:35:33.61,0:35:34.90,Default,,0000,0000,0000,,刑期延长三倍\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Triple your sentence.
+Dialogue: 0,0:35:34.99,0:35:37.82,Default,,0000,0000,0000,,我知道  相信我  我知道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I know. Believe me, I know.
+Dialogue: 0,0:35:37.91,0:35:41.16,Default,,0000,0000,0000,,别他妈的再这样做了  你这个疯子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, don't fucking do that again, you maniac.
+Dialogue: 0,0:35:41.24,0:35:43.16,Default,,0000,0000,0000,,真的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Seriously.
+Dialogue: 0,0:35:43.24,0:35:46.00,Default,,0000,0000,0000,,你没被抓真是奇迹\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's a miracle that you didn't get caught.
+Dialogue: 0,0:35:47.25,0:35:49.42,Default,,0000,0000,0000,,我只是想见他\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I just wanted to see him.
+Dialogue: 0,0:35:50.84,0:35:55.30,Default,,0000,0000,0000,,但他好恶毒  真的好恶毒\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But he is so mean. I mean, he's really mean.
+Dialogue: 0,0:35:56.38,0:35:59.14,Default,,0000,0000,0000,,他不是我以为的那个人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He's not the man that I thought he was.
+Dialogue: 0,0:36:01.01,0:36:02.43,Default,,0000,0000,0000,,你恨我吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Do you hate me?
+Dialogue: 0,0:36:02.51,0:36:04.64,Default,,0000,0000,0000,,不  我不恨你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No, I don't hate you.
+Dialogue: 0,0:36:05.81,0:36:07.69,Default,,0000,0000,0000,,但每一秒\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, it is getting clearer
+Dialogue: 0,0:36:07.69,0:36:11.02,Default,,0000,0000,0000,,都越来越清楚你是个疯子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}every second that you're totally bat-shit crazy,
+Dialogue: 0,0:36:11.11,0:36:13.48,Default,,0000,0000,0000,,但你是个美丽可人的女生\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}but you're a beautiful, sweet girl.
+Dialogue: 0,0:36:14.94,0:36:18.91,Default,,0000,0000,0000,,别去管这男人了  会有好多人爱你的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Fuck this guy. So many people are gonna love you.
+Dialogue: 0,0:36:18.99,0:36:23.41,Default,,0000,0000,0000,,不  没人会爱我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No. No, nobody's gonna love me.
+Dialogue: 0,0:36:25.00,0:36:26.16,Default,,0000,0000,0000,,我爱\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I do.
+Dialogue: 0,0:36:32.17,0:36:33.67,Default,,0000,0000,0000,,过来\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Come here.
+Dialogue: 0,0:36:41.14,0:36:43.10,Default,,0000,0000,0000,,莱瑞  是我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Hi, Larry. It's me.
+Dialogue: 0,0:36:43.18,0:36:45.27,Default,,0000,0000,0000,,我知道我说过\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Listen, I know that I said
+Dialogue: 0,0:36:45.35,0:36:47.52,Default,,0000,0000,0000,,我不想知道是谁  我的确不想\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I didn't wanna know who it was, and I didn't.
+Dialogue: 0,0:36:47.60,0:36:51.94,Default,,0000,0000,0000,,但在这里  就是会让人产生执念\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But being in here, it just has a way of making you obsess
+Dialogue: 0,0:36:52.02,0:36:55.23,Default,,0000,0000,0000,,感觉有点疯狂\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and feel a little crazy.
+Dialogue: 0,0:36:55.32,0:36:56.49,Default,,0000,0000,0000,,嫉妒\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Jealous.
+Dialogue: 0,0:36:56.57,0:37:00.32,Default,,0000,0000,0000,,我知道这样不公平  但这是我的感觉\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So, I know this is totally unfair, but it's how I feel.
+Dialogue: 0,0:37:00.41,0:37:02.66,Default,,0000,0000,0000,,所以我想如果我知道会好些\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}So I just think it would be better if I knew.
+Dialogue: 0,0:37:02.74,0:37:06.12,Default,,0000,0000,0000,,如果我知道是谁  我就不用再猜了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}If I just knew who it was, and then I could stop guessing.
+Dialogue: 0,0:37:06.20,0:37:09.29,Default,,0000,0000,0000,,你的通话时间到了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Your phone time is up.
+Dialogue: 0,0:37:09.37,0:37:11.37,Default,,0000,0000,0000,,我刚刚...\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I... I'm just...
+Dialogue: 0,0:37:13.54,0:37:15.63,Default,,0000,0000,0000,,再见\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Um, bye.
+Dialogue: 0,0:37:15.71,0:37:17.26,Default,,0000,0000,0000,,这样就对了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That's right.
+Dialogue: 0,0:37:19.84,0:37:20.84,Default,,0000,0000,0000,,走人吧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Move along.
+Dialogue: 0,0:37:20.93,0:37:22.89,Default,,0000,0000,0000,,反正我也讲完了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I was done anyway.
+Dialogue: 0,0:37:25.97,0:37:28.48,Default,,0000,0000,0000,,我不是同性恋  我不是\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm not gay. I'm not.
+Dialogue: 0,0:37:28.56,0:37:29.89,Default,,0000,0000,0000,,我只是在尝试\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm just experimenting.
+Dialogue: 0,0:37:30.98,0:37:31.98,Default,,0000,0000,0000,,我不知道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't know.
+Dialogue: 0,0:37:32.06,0:37:34.82,Default,,0000,0000,0000,,也许一直以来我交往的男人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Maybe all of the guys that I've been with so far
+Dialogue: 0,0:37:34.90,0:37:36.57,Default,,0000,0000,0000,,在床上表现都很差\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}have just been really bad in bed,
+Dialogue: 0,0:37:36.65,0:37:38.99,Default,,0000,0000,0000,,但我告诉你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}but I'm telling you,
+Dialogue: 0,0:37:39.07,0:37:43.49,Default,,0000,0000,0000,,就好像我刚发现性爱应该是什么样子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}it's like I just discovered what sex is supposed to be.
+Dialogue: 0,0:37:43.57,0:37:45.41,Default,,0000,0000,0000,,-但她有女友  -是啊\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- But she has a girlfriend? - Mmm...
+Dialogue: 0,0:37:45.49,0:37:46.83,Default,,0000,0000,0000,,她之前有女友\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She had a girlfriend.
+Dialogue: 0,0:37:46.91,0:37:49.33,Default,,0000,0000,0000,,她们之间有问题  已经结束了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}They were having problems. It's over.
+Dialogue: 0,0:37:49.41,0:37:51.33,Default,,0000,0000,0000,,-肯定吗  -是的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- For sure? - Yeah.
+Dialogue: 0,0:37:51.41,0:37:52.42,Default,,0000,0000,0000,,我不确定  帕波\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't know, Piper.
+Dialogue: 0,0:37:56.75,0:37:58.30,Default,,0000,0000,0000,,是谁\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Who is that?
+Dialogue: 0,0:38:06.47,0:38:10.23,Default,,0000,0000,0000,,我的天  我的天  袋里有屎\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, my God. Oh, my God! There's shit in that bag!
+Dialogue: 0,0:38:10.31,0:38:12.19,Default,,0000,0000,0000,,你居然被骗了  这可是最古老的恶作剧了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You fell for that? That's like the oldest trick in the book.
+Dialogue: 0,0:38:12.27,0:38:14.05,Default,,0000,0000,0000,,什么是最古老的恶作剧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What is the oldest trick in the book?
+Dialogue: 0,0:38:14.05,0:38:16.90,Default,,0000,0000,0000,,屎在袋子里  点起火吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Poop? In a bag? On fire?
+Dialogue: 0,0:38:16.98,0:38:18.69,Default,,0000,0000,0000,,我哥和他的朋友以前经常这样做\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yes, my brother and his friends used to do it.
+Dialogue: 0,0:38:18.78,0:38:20.74,Default,,0000,0000,0000,,真他妈的蠢  纯粹恶作剧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's so fucking stupid. It's a prank.
+Dialogue: 0,0:38:23.32,0:38:24.57,Default,,0000,0000,0000,,老天\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, my God.
+Dialogue: 0,0:38:25.57,0:38:26.91,Default,,0000,0000,0000,,-是她  -谁\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- It's her. - Who?
+Dialogue: 0,0:38:26.99,0:38:29.20,Default,,0000,0000,0000,,-西尔维  艾丽克斯的前女友  -真的吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Sylvia. Alex's ex. - Really?
+Dialogue: 0,0:38:29.29,0:38:31.25,Default,,0000,0000,0000,,她是个疯婆子  她打了我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yes, she's fucking crazy. She attacked me.
+Dialogue: 0,0:38:31.33,0:38:33.79,Default,,0000,0000,0000,,这是她做的  我知道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}This is... This is her, I know it.
+Dialogue: 0,0:38:33.87,0:38:35.79,Default,,0000,0000,0000,,你觉得这是人屎吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Do you think it's human shit?
+Dialogue: 0,0:38:37.09,0:38:40.05,Default,,0000,0000,0000,,不  这是狗屎  对吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No, I mean, this is... This is dog shit, right?
+Dialogue: 0,0:38:40.13,0:38:42.05,Default,,0000,0000,0000,,如果她真的有你说的这样疯\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I mean, if she's really as crazy as you say...
+Dialogue: 0,0:38:43.30,0:38:46.47,Default,,0000,0000,0000,,你不会觉得这是她蹲下拉在袋子里的吧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You don't think that she squatted and pooped in a bag, do you?
+Dialogue: 0,0:38:47.89,0:38:51.56,Default,,0000,0000,0000,,她的意思表达得很清楚了  佩服佩服\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, she did get her point across. I'll give her that much.
+Dialogue: 0,0:38:51.64,0:38:52.85,Default,,0000,0000,0000,,女同都是疯子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Lesbians are insane.
+Dialogue: 0,0:38:54.48,0:38:57.23,Default,,0000,0000,0000,,我不敢相信她对你说这种话  好大的胆子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I can't believe she said that to you. The fucking nerve! Jesus.
+Dialogue: 0,0:38:57.31,0:38:58.52,Default,,0000,0000,0000,,她是对的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}She was right.
+Dialogue: 0,0:38:58.61,0:39:00.86,Default,,0000,0000,0000,,我引诱了他  我们故意陷害他\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I seduced him. We set him up.
+Dialogue: 0,0:39:00.94,0:39:03.07,Default,,0000,0000,0000,,但她不知道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah, but she doesn't know that.
+Dialogue: 0,0:39:03.15,0:39:05.53,Default,,0000,0000,0000,,这样不对  他会坐牢  约翰\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's wrong. He's going to jail, John.
+Dialogue: 0,0:39:05.61,0:39:07.24,Default,,0000,0000,0000,,有其它办法吗  怎样  你想让我...\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What is the alternative? What, you want me to...
+Dialogue: 0,0:39:07.32,0:39:08.51,Default,,0000,0000,0000,,你想让我站出来大声说\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You want me to stand up and shout,
+Dialogue: 0,0:39:08.52,0:39:09.95,Default,,0000,0000,0000,,各位  她肚里是我的宝宝\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}"Hey, everyone, that's my baby in there"?
+Dialogue: 0,0:39:10.04,0:39:11.10,Default,,0000,0000,0000,,在我生活的地方\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know, in my neighborhood,
+Dialogue: 0,0:39:11.10,0:39:12.54,Default,,0000,0000,0000,,真男人会站出来承认自己的孩子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}real men stand up and claim their kids.
+Dialogue: 0,0:39:12.62,0:39:14.62,Default,,0000,0000,0000,,我们不是在你生活的地方  不是吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}We're not in your neighborhood, are we?
+Dialogue: 0,0:39:14.71,0:39:16.25,Default,,0000,0000,0000,,你到底想要我怎样  达娅\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I mean, what the fuck do you want from me, Daya?
+Dialogue: 0,0:39:16.33,0:39:18.54,Default,,0000,0000,0000,,我要你站出来告诉全世界你爱我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I want you to stand up and tell the world that you love me.
+Dialogue: 0,0:39:18.63,0:39:19.71,Default,,0000,0000,0000,,这太疯狂了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That is insane.
+Dialogue: 0,0:39:19.80,0:39:21.55,Default,,0000,0000,0000,,他们会把我推到媒体的峰尖浪口\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}They would cart me off in front of the local news.
+Dialogue: 0,0:39:21.63,0:39:24.09,Default,,0000,0000,0000,,-你想要这样吗  -不  是的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Is that what you want? - No. Yes.
+Dialogue: 0,0:39:24.17,0:39:26.97,Default,,0000,0000,0000,,我不知道我想要什么  只是感觉很糟糕\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't know what I want. It just feels really bad.
+Dialogue: 0,0:39:27.05,0:39:29.30,Default,,0000,0000,0000,,达娅  我会坐牢的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Daya, I would go to jail.
+Dialogue: 0,0:39:30.72,0:39:32.31,Default,,0000,0000,0000,,那样至少我们扯平了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, then at least we'll be even.
+Dialogue: 0,0:39:58.75,0:40:03.05,Default,,0000,0000,0000,,如果你是来嘲笑我的  我可没力气吵\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}If you're here to mock me, I don't have the energy to argue.
+Dialogue: 0,0:40:03.13,0:40:04.80,Default,,0000,0000,0000,,做什么都痛\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Everything hurts.
+Dialogue: 0,0:40:04.88,0:40:06.84,Default,,0000,0000,0000,,我不是来取笑你的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm not here to make fun of you.
+Dialogue: 0,0:40:07.72,0:40:08.89,Default,,0000,0000,0000,,是吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Really?
+Dialogue: 0,0:40:10.18,0:40:13.39,Default,,0000,0000,0000,,我昨天看到一位朋友被拉去关禁闭\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I watched a friend get taken to the SHU yesterday.
+Dialogue: 0,0:40:14.68,0:40:17.02,Default,,0000,0000,0000,,那是她第二次被关禁闭\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That's the second time she's been in there,
+Dialogue: 0,0:40:17.10,0:40:19.40,Default,,0000,0000,0000,,第一次很痛苦\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and the first time was rough.
+Dialogue: 0,0:40:19.48,0:40:22.40,Default,,0000,0000,0000,,我已经厌恶厌倦了警卫把关禁闭\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm sick and tired of the guards using solitary
+Dialogue: 0,0:40:22.48,0:40:25.57,Default,,0000,0000,0000,,当作是罚小孩子站墙角\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}like it's some kind of toddler timeout.
+Dialogue: 0,0:40:26.82,0:40:29.57,Default,,0000,0000,0000,,这些人不是暴力罪犯\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}These are not violent offenders.
+Dialogue: 0,0:40:31.07,0:40:35.00,Default,,0000,0000,0000,,这是不人道的  这是折磨\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's inhumane and it's torture.
+Dialogue: 0,0:40:36.54,0:40:41.29,Default,,0000,0000,0000,,我觉得你这样做  非常非常勇敢\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I think what you're doing is very, very brave.
+Dialogue: 0,0:40:43.96,0:40:46.84,Default,,0000,0000,0000,,你是个真正的维权分子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You are a true activist.
+Dialogue: 0,0:41:03.31,0:41:05.15,Default,,0000,0000,0000,,你把我给你的传单发完了吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Did you hand out all the flyers I gave you?
+Dialogue: 0,0:41:05.23,0:41:07.53,Default,,0000,0000,0000,,当然了  发了  长官\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}'Course I did. Yes, sir.
+Dialogue: 0,0:41:09.24,0:41:10.36,Default,,0000,0000,0000,,但我觉得没人会...\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But I really don't think anybody's gonna...
+Dialogue: 0,0:41:10.45,0:41:12.70,Default,,0000,0000,0000,,我知道  德盖特  我明白\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I know, Doggett. I got it.
+Dialogue: 0,0:41:16.87,0:41:19.04,Default,,0000,0000,0000,,-波丽  -你好\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Hey, Pol! - Hi.
+Dialogue: 0,0:41:19.12,0:41:21.12,Default,,0000,0000,0000,,老天  你好苗条\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, my gosh, you're so skinny.
+Dialogue: 0,0:41:21.21,0:41:23.71,Default,,0000,0000,0000,,你怀孕的肥屁股已经没有了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Your big pregnancy ass is gone!
+Dialogue: 0,0:41:23.79,0:41:25.46,Default,,0000,0000,0000,,我知道\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I know.
+Dialogue: 0,0:41:26.71,0:41:29.72,Default,,0000,0000,0000,,抱歉好久没见了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I am so sorry it's been so long.
+Dialogue: 0,0:41:29.80,0:41:32.22,Default,,0000,0000,0000,,帕波  塞莱斯特的事我很遗憾\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And, Pipe, I'm sorry about Celeste.
+Dialogue: 0,0:41:32.30,0:41:35.18,Default,,0000,0000,0000,,我应该去参加葬礼的  我只是\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I should have been at the funeral. I just...
+Dialogue: 0,0:41:35.26,0:41:38.22,Default,,0000,0000,0000,,我的奶不多  挤奶太痛苦了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm not making that much milk, and pumping is really hard.
+Dialogue: 0,0:41:38.31,0:41:40.69,Default,,0000,0000,0000,,莱瑞说你现在是个二十四孝老妈\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Larry says you've been lost in the baby fog.
+Dialogue: 0,0:41:40.77,0:41:41.77,Default,,0000,0000,0000,,我感觉好糟糕\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I feel horrible.
+Dialogue: 0,0:41:41.85,0:41:43.94,Default,,0000,0000,0000,,你失去了亲人  我应该在你身边的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You lost someone. I should have been there for you.
+Dialogue: 0,0:41:44.02,0:41:45.40,Default,,0000,0000,0000,,真是对不起\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm so, so sorry.
+Dialogue: 0,0:41:45.48,0:41:47.86,Default,,0000,0000,0000,,-我真是太差劲了  -别说了  没关系\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- It was really shitty of me. - Stop, it's fine.
+Dialogue: 0,0:41:47.94,0:41:49.07,Default,,0000,0000,0000,,不  有关系\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's not. It's not fine.
+Dialogue: 0,0:41:49.15,0:41:51.78,Default,,0000,0000,0000,,你需要我我却不在  我是个差劲的朋友\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You needed me and I wasn't there. I've been a really bad friend.
+Dialogue: 0,0:41:51.86,0:41:53.99,Default,,0000,0000,0000,,最差劲的朋友  你不应该有我这样的朋友\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Like, the worst. You don't deserve that.
+Dialogue: 0,0:41:54.99,0:41:56.58,Default,,0000,0000,0000,,你不应该经历这些\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You don't deserve any of this.
+Dialogue: 0,0:41:59.33,0:42:01.37,Default,,0000,0000,0000,,-当妈的感觉如何  -好难\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- How is mommy life? - Hard.
+Dialogue: 0,0:42:01.46,0:42:03.25,Default,,0000,0000,0000,,比任何人讲的都难多了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's so much harder than anyone tells you.
+Dialogue: 0,0:42:03.33,0:42:05.92,Default,,0000,0000,0000,,我觉得我失去理智了  我不再是自己了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I feel like I've lost my mind. I'm not myself.
+Dialogue: 0,0:42:06.00,0:42:07.67,Default,,0000,0000,0000,,-皮特还好吗  -皮特去了阿拉斯加\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Is Pete being good? - Pete took off to Alaska.
+Dialogue: 0,0:42:07.75,0:42:09.67,Default,,0000,0000,0000,,好奇怪  他太烦人了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It was weird and totally horrible of him.
+Dialogue: 0,0:42:09.76,0:42:11.88,Default,,0000,0000,0000,,你经常见莱瑞吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Have you seen Larry a lot?
+Dialogue: 0,0:42:11.97,0:42:14.55,Default,,0000,0000,0000,,没有  为什么问  他说的吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No. Why, did he tell you that?
+Dialogue: 0,0:42:14.64,0:42:16.51,Default,,0000,0000,0000,,只是皮特离开期间\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I mean, just when Pete was gone.
+Dialogue: 0,0:42:16.51,0:42:18.39,Default,,0000,0000,0000,,芬恩的事他帮了我不少\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He helped me a lot with Finn.
+Dialogue: 0,0:42:19.56,0:42:21.31,Default,,0000,0000,0000,,你们还经常通话吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Are you guys still talking a lot?
+Dialogue: 0,0:42:21.39,0:42:23.81,Default,,0000,0000,0000,,我们刚在一起整整48小时\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, we just spent the past 48 hours together.
+Dialogue: 0,0:42:24.81,0:42:25.81,Default,,0000,0000,0000,,怎么样\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}How did that go?
+Dialogue: 0,0:42:26.86,0:42:27.86,Default,,0000,0000,0000,,我们做爱了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}We had sex.
+Dialogue: 0,0:42:27.94,0:42:31.86,Default,,0000,0000,0000,,我们开始了  在给我奶奶守灵时\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, we started to. At my grandmother's wake.
+Dialogue: 0,0:42:31.95,0:42:33.11,Default,,0000,0000,0000,,是吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Really?
+Dialogue: 0,0:42:33.20,0:42:34.74,Default,,0000,0000,0000,,你很惊讶吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Does that surprise you?
+Dialogue: 0,0:42:35.53,0:42:38.70,Default,,0000,0000,0000,,是啊  我以为你和他结束了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Uh, well, yeah, I thought you ended things.
+Dialogue: 0,0:42:38.79,0:42:41.25,Default,,0000,0000,0000,,他曾经是我的未婚夫  波丽  还是有爱的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He was my fiance Polly. There's still a lot of love there.
+Dialogue: 0,0:42:41.33,0:42:42.37,Default,,0000,0000,0000,,当然\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Of course.
+Dialogue: 0,0:42:44.33,0:42:45.71,Default,,0000,0000,0000,,他和别人上过床了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He slept with someone else.
+Dialogue: 0,0:42:46.88,0:42:47.96,Default,,0000,0000,0000,,是吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Really?
+Dialogue: 0,0:42:48.04,0:42:49.42,Default,,0000,0000,0000,,他告诉你了吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Did he tell you that?
+Dialogue: 0,0:42:49.50,0:42:51.09,Default,,0000,0000,0000,,没有  他为什么会告诉我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No, why would he tell me that?
+Dialogue: 0,0:42:52.13,0:42:54.84,Default,,0000,0000,0000,,你们一直有联系\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You two... have been talking.
+Dialogue: 0,0:42:54.93,0:42:56.93,Default,,0000,0000,0000,,你们关系好  他帮你照顾芬恩\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You're close. He's been helping you with Finn.
+Dialogue: 0,0:42:57.01,0:42:58.60,Default,,0000,0000,0000,,我们关系也没那么好\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, we're not that close.
+Dialogue: 0,0:43:01.35,0:43:04.39,Default,,0000,0000,0000,,他跟你怎么说的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Um... what did he tell you?
+Dialogue: 0,0:43:07.77,0:43:09.90,Default,,0000,0000,0000,,是我认识的人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That it was someone I know.
+Dialogue: 0,0:43:13.44,0:43:16.36,Default,,0000,0000,0000,,我想他感觉相当内疚\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I think he was feeling pretty guilty.
+Dialogue: 0,0:43:17.70,0:43:20.74,Default,,0000,0000,0000,,他可能觉得那是一个错误\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He probably felt like it was a mistake.
+Dialogue: 0,0:43:22.91,0:43:24.25,Default,,0000,0000,0000,,他不想伤害你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}He doesn't want to hurt you.
+Dialogue: 0,0:43:25.62,0:43:27.42,Default,,0000,0000,0000,,我相信他不想\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm sure that he doesn't.
+Dialogue: 0,0:43:28.75,0:43:30.67,Default,,0000,0000,0000,,你觉得她会谋杀我吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Do you think she's gonna murder me?
+Dialogue: 0,0:43:30.75,0:43:33.34,Default,,0000,0000,0000,,这个西尔维到底有多不正常\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Just how unstable is this Sylvia person?
+Dialogue: 0,0:43:33.42,0:43:35.63,Default,,0000,0000,0000,,-那是个玩笑  -那不是玩笑\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- It was a joke. - It was not a joke!
+Dialogue: 0,0:43:35.72,0:43:37.39,Default,,0000,0000,0000,,那是个意思很清楚的口信\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It was a very clear message.
+Dialogue: 0,0:43:37.47,0:43:39.39,Default,,0000,0000,0000,,我知道你做了什么  婊子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}"I know what you did, bitch,
+Dialogue: 0,0:43:39.39,0:43:41.43,Default,,0000,0000,0000,,我要你知道我知道了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and I want you to know that I know."
+Dialogue: 0,0:43:42.85,0:43:47.65,Default,,0000,0000,0000,,和你在一起是我的选择\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Look, being with you was my choice.
+Dialogue: 0,0:43:47.73,0:43:49.27,Default,,0000,0000,0000,,我之前不开心\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I wasn't happy.
+Dialogue: 0,0:43:49.36,0:43:51.11,Default,,0000,0000,0000,,然后我利用了这点\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And then I took advantage of that.
+Dialogue: 0,0:43:51.19,0:43:53.36,Default,,0000,0000,0000,,我是个成年人  帕波\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm a grown-up, Piper.
+Dialogue: 0,0:43:53.44,0:43:55.49,Default,,0000,0000,0000,,你觉得她会来找我麻烦吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Do you think that she's gonna come after me?
+Dialogue: 0,0:43:57.24,0:43:58.40,Default,,0000,0000,0000,,我觉得她需要的是\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Look, I think that she needed to
+Dialogue: 0,0:43:58.40,0:44:00.83,Default,,0000,0000,0000,,发泄出来  明白吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}get it out of her system, all right?
+Dialogue: 0,0:44:00.91,0:44:04.62,Default,,0000,0000,0000,,有时候需要大怒一下才能放下\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Sometimes you gotta rage in order to move on.
+Dialogue: 0,0:44:06.29,0:44:08.37,Default,,0000,0000,0000,,你爱过她吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Did you love her?
+Dialogue: 0,0:44:10.46,0:44:11.79,Default,,0000,0000,0000,,没有\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No.
+Dialogue: 0,0:44:13.59,0:44:14.88,Default,,0000,0000,0000,,但我爱你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But I love you.
+Dialogue: 0,0:44:17.68,0:44:18.68,Default,,0000,0000,0000,,真的吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You do?
+Dialogue: 0,0:44:32.27,0:44:34.15,Default,,0000,0000,0000,,这话我可不是随便对每个人说的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I don't say that to everyone.
+Dialogue: 0,0:44:38.49,0:44:40.03,Default,,0000,0000,0000,,你得回应我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You have to say it back.
+Dialogue: 0,0:44:43.20,0:44:45.00,Default,,0000,0000,0000,,我也爱你\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I love you, too.
+Dialogue: 0,0:45:09.85,0:45:11.19,Default,,0000,0000,0000,,你想谈谈吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Do you wanna talk about it?
+Dialogue: 0,0:45:12.36,0:45:13.40,Default,,0000,0000,0000,,不\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No.
+Dialogue: 0,0:45:22.20,0:45:25.29,Default,,0000,0000,0000,,还记得我告诉你  我未婚夫干了别的女人吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Remember I told you that my fiance fucked somebody else?
+Dialogue: 0,0:45:25.37,0:45:26.54,Default,,0000,0000,0000,,是的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah.
+Dialogue: 0,0:45:29.92,0:45:31.92,Default,,0000,0000,0000,,是我最好的朋友\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It was my best friend.
+Dialogue: 0,0:45:36.21,0:45:37.63,Default,,0000,0000,0000,,请让我一个人待下好吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Can I be alone for a minute, please?
+Dialogue: 0,0:45:37.71,0:45:39.22,Default,,0000,0000,0000,,当然  亲爱的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Sure, honey.
+Dialogue: 0,0:45:50.89,0:45:54.77,Default,,0000,0000,0000,,亲爱的  自己喝下毒药是不可能杀死敌人的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Honey, you don't drink poison and wait for it to kill your enemy.
+Dialogue: 0,0:45:56.02,0:45:59.90,Default,,0000,0000,0000,,别再捶墙了  计划复仇吧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Stop hitting walls and plot your revenge.
+Dialogue: 0,0:47:40.34,0:47:42.80,Default,,0000,0000,0000,,妈的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Oh, fuck!
+Dialogue: 0,0:48:16.58,0:48:19.21,Default,,0000,0000,0000,,你他妈的在做什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What the fuck do you think you're doing?
+Dialogue: 0,0:48:20.67,0:48:24.71,Default,,0000,0000,0000,,我想加入你的园艺俱乐部\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know, I think I'd like to join your little gardening club.
+Dialogue: 0,0:48:25.72,0:48:27.80,Default,,0000,0000,0000,,我们不接受新会员\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}We're not accepting new members.
+Dialogue: 0,0:48:29.05,0:48:32.97,Default,,0000,0000,0000,,挖隧道吗  红妈  你以为你是兔八哥啊\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}A tunnel, Red? That is so Bugs Bunny.
+Dialogue: 0,0:48:33.06,0:48:35.85,Default,,0000,0000,0000,,你打算怎么做  出卖我吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}What are you gonna do, turn me in?
+Dialogue: 0,0:48:35.93,0:48:37.56,Default,,0000,0000,0000,,不  我会用上这个\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No, I'm gonna use it.
+Dialogue: 0,0:48:38.69,0:48:40.31,Default,,0000,0000,0000,,你有你自己的门路\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You have your own operation.
+Dialogue: 0,0:48:40.40,0:48:42.44,Default,,0000,0000,0000,,我知道  但这个更好\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah, I know, but this is better.
+Dialogue: 0,0:48:42.52,0:48:46.11,Default,,0000,0000,0000,,更少的人参与  没有不稳定的供货联系\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Fewer people involved and no unstable vendor connections.
+Dialogue: 0,0:48:46.19,0:48:48.32,Default,,0000,0000,0000,,-不可能归你  -不是的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- You're not taking it. - No, no, no, no, no.
+Dialogue: 0,0:48:48.40,0:48:49.84,Default,,0000,0000,0000,,我可不想夺走你的姑娘们的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I wouldn't want to deprive your girls
+Dialogue: 0,0:48:49.84,0:48:52.33,Default,,0000,0000,0000,,屎味的连裤袜\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}of their shit-flavored panty hose.
+Dialogue: 0,0:48:53.41,0:48:54.41,Default,,0000,0000,0000,,我们可以分享\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}We could share.
+Dialogue: 0,0:48:56.00,0:48:58.25,Default,,0000,0000,0000,,你不懂如何分享\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You don't know how to share.
+Dialogue: 0,0:48:58.33,0:49:01.17,Default,,0000,0000,0000,,只会抢夺  只会欺凌弱小\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Just to take and to bully.
+Dialogue: 0,0:49:02.59,0:49:03.92,Default,,0000,0000,0000,,我们曾经做过朋友\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}We used to be friends once.
+Dialogue: 0,0:49:05.92,0:49:08.59,Default,,0000,0000,0000,,我想再和你做朋友\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I want to be friends again, man!
+Dialogue: 0,0:49:09.80,0:49:11.05,Default,,0000,0000,0000,,好个朋友\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Some friend.
+Dialogue: 0,0:49:13.10,0:49:14.97,Default,,0000,0000,0000,,你会考虑下吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Will you think about it, huh?
+Dialogue: 0,0:49:17.10,0:49:20.94,Default,,0000,0000,0000,,你也想想这些年你变了多少好吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And would you think about how much you've changed over the years?
+Dialogue: 0,0:49:22.36,0:49:24.52,Default,,0000,0000,0000,,人会变  红妈\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}People change, Red.
+Dialogue: 0,0:50:42.18,0:50:43.52,Default,,0000,0000,0000,,妮琪\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Nicky.
+Dialogue: 0,0:50:45.44,0:50:47.82,Default,,0000,0000,0000,,你觉得人会变吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Do you think people can change?
+Dialogue: 0,0:50:51.11,0:50:52.57,Default,,0000,0000,0000,,好了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}All right.
+Dialogue: 0,0:50:55.41,0:50:58.49,Default,,0000,0000,0000,,你把这个帮我拿走  因为我会吸\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I need you to take this from me, 'cause I'm gonna do it.
+Dialogue: 0,0:50:59.62,0:51:01.33,Default,,0000,0000,0000,,但我真的真的不想\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And I really, really don't want to.
+Dialogue: 0,0:51:05.04,0:51:06.29,Default,,0000,0000,0000,,谁给你的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Who gave that to you?
+Dialogue: 0,0:51:06.38,0:51:09.04,Default,,0000,0000,0000,,美味姐  维的货\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Taystee. It came from Vee.
+Dialogue: 0,0:51:10.80,0:51:13.38,Default,,0000,0000,0000,,真是对不起  红妈  我让你失望了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm so sorry, Red. I let you down.
+Dialogue: 0,0:51:15.05,0:51:17.01,Default,,0000,0000,0000,,-你没有  -是嘛\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- No, you didn't. - Yeah.
+Dialogue: 0,0:51:18.26,0:51:19.81,Default,,0000,0000,0000,,你拿来了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You brought it here.
+Dialogue: 0,0:51:20.89,0:51:22.10,Default,,0000,0000,0000,,你做得非常好  妮琪\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You did good, Nicky.
+Dialogue: 0,0:51:23.73,0:51:25.02,Default,,0000,0000,0000,,你做到了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You did.
+Dialogue: 0,0:51:42.75,0:51:45.12,Default,,0000,0000,0000,,姑娘  稳着点\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Hey, girl, steady there.
+Dialogue: 0,0:51:46.25,0:51:48.29,Default,,0000,0000,0000,,我很好  我没事\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm fine. I'm good.
+Dialogue: 0,0:51:51.46,0:51:53.88,Default,,0000,0000,0000,,-维  -啥事\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Yo, Vee! - Yeah.
+Dialogue: 0,0:51:53.96,0:51:57.26,Default,,0000,0000,0000,,-操你妈  -妈的  妹子  你喝醉了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Fuck you. - Oh, shit, girl, you blind drunk.
+Dialogue: 0,0:51:57.34,0:52:00.01,Default,,0000,0000,0000,,你要抢走我的工作\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You want to take my fucking job assignment?
+Dialogue: 0,0:52:00.10,0:52:02.81,Default,,0000,0000,0000,,你要抢走我所有的朋友  操你妈\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You want to take all my friends? Well, fuck you!
+Dialogue: 0,0:52:02.89,0:52:05.35,Default,,0000,0000,0000,,在她伤到自己之前  来个人把她弄走吧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Somebody get her out of here before she hurts herself.
+Dialogue: 0,0:52:05.44,0:52:07.31,Default,,0000,0000,0000,,操你妈\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Fuck you!
+Dialogue: 0,0:52:07.40,0:52:08.40,Default,,0000,0000,0000,,妈的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Shit!
+Dialogue: 0,0:52:08.48,0:52:09.65,Default,,0000,0000,0000,,操你妈\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Fuck you!
+Dialogue: 0,0:52:11.07,0:52:13.36,Default,,0000,0000,0000,,-妈的  -你别碰她\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Fuck! - Don't you touch her!
+Dialogue: 0,0:52:13.44,0:52:14.86,Default,,0000,0000,0000,,不不\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No! No! No!
+Dialogue: 0,0:52:25.29,0:52:29.29,Default,,0000,0000,0000,,你不听话就会是这个下场\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That's what you get when you don't listen!
+Dialogue: 0,0:52:29.38,0:52:31.63,Default,,0000,0000,0000,,就会是这个下场\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That's what you get!
+Dialogue: 0,0:52:52.40,0:52:53.44,Default,,0000,0000,0000,,不\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No.
+Dialogue: 0,0:53:23.68,0:53:24.68,Default,,0000,0000,0000,,喂\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Hello?
+Dialogue: 0,0:53:24.76,0:53:28.14,Default,,0000,0000,0000,,利奇菲尔德联邦监狱的女犯打来电话\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}An inmate from Litchfield Federal Prison is attempting to contact you.
+Dialogue: 0,0:53:28.23,0:53:30.85,Default,,0000,0000,0000,,要接听电话  请按一\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}To accept this call, please press "One."
+Dialogue: 0,0:53:33.86,0:53:36.65,Default,,0000,0000,0000,,-卡尔的电话  -内莉  卡尔在吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Cal's phone. - Neri, hey, is Cal there?
+Dialogue: 0,0:53:36.73,0:53:38.12,Default,,0000,0000,0000,,他去树林觅食去了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No, he's out foraging in
+Dialogue: 0,0:53:38.12,0:53:40.78,Default,,0000,0000,0000,,去找吃起来有蔬菜味的蔬菜\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}the forest for greens that taste really green.
+Dialogue: 0,0:53:40.86,0:53:42.53,Default,,0000,0000,0000,,但他可能已经快好了  要我叫他吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But he's probably almost done. Should I go get him?
+Dialogue: 0,0:53:43.53,0:53:44.99,Default,,0000,0000,0000,,也许你能帮我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Actually, maybe you can help me.
+Dialogue: 0,0:53:45.08,0:53:48.20,Default,,0000,0000,0000,,好啊  小姑子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah, sister-in-law!
+Dialogue: 0,0:53:48.29,0:53:49.75,Default,,0000,0000,0000,,什么忙都行\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Whatever you need, dude.
+Dialogue: 0,0:53:49.83,0:53:52.21,Default,,0000,0000,0000,,我需要你帮我一次\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I need you to do me a favor.
+Dialogue: 0,0:53:53.63,0:53:55.09,Default,,0000,0000,0000,,一个大忙\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}It's a big one.
+Dialogue: 0,0:54:16.52,0:54:18.40,Default,,0000,0000,0000,,我活该\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I deserve that.
+Dialogue: 0,0:54:23.74,0:54:24.91,Default,,0000,0000,0000,,-好啦  -嘿\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- All right. - Hey.
+Dialogue: 0,0:54:26.78,0:54:27.95,Default,,0000,0000,0000,,我为你骄傲\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm proud of you.
+Dialogue: 0,0:54:28.04,0:54:30.25,Default,,0000,0000,0000,,那就快滚\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Then get the fuck out of here.
+Dialogue: 0,0:54:34.21,0:54:36.96,Default,,0000,0000,0000,,-什么事  -没什么\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- What was that about? - Nothing.
+Dialogue: 0,0:54:40.51,0:54:43.76,Default,,0000,0000,0000,,你有没有见过一种画面  会烙在你的脑海里的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You ever seen an image that sears itself into your brain?
+Dialogue: 0,0:54:43.84,0:54:45.68,Default,,0000,0000,0000,,就像那部讲驴友的电影\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Like the movie about the hiker guy,
+Dialogue: 0,0:54:45.76,0:54:50.43,Default,,0000,0000,0000,,他用瑞士军刀把自己的胳膊给切断了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}where he cuts off his own arm with a Swiss Army knife?
+Dialogue: 0,0:54:50.52,0:54:53.48,Default,,0000,0000,0000,,那个声音  肌腱\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Yeah, the sound, the tendons...
+Dialogue: 0,0:54:53.56,0:54:54.60,Default,,0000,0000,0000,,妈的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Fuck!
+Dialogue: 0,0:54:55.61,0:54:57.27,Default,,0000,0000,0000,,我真希望自己没看过那部分\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I wish I never watched that part.
+Dialogue: 0,0:54:58.48,0:54:59.78,Default,,0000,0000,0000,,你知道什么让我觉得更恶心吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know what tops that for me?
+Dialogue: 0,0:54:59.86,0:55:03.57,Default,,0000,0000,0000,,什么画面让我忘不掉  在脑海里挥之不去\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know what image I can't unsee, it's still stuck in there,
+Dialogue: 0,0:55:03.65,0:55:07.41,Default,,0000,0000,0000,,一天至少想到一次  让我没胃口吃午饭\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}flickering at least once a day, making me want to lose my lunch?
+Dialogue: 0,0:55:08.70,0:55:10.16,Default,,0000,0000,0000,,不知道  先生\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No, sir.
+Dialogue: 0,0:55:10.24,0:55:13.41,Default,,0000,0000,0000,,你的光屁股  门德斯\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Your bare ass, Mendez.
+Dialogue: 0,0:55:13.50,0:55:16.21,Default,,0000,0000,0000,,你那长疙瘩的苍白屁股\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Your pimply, white ass,
+Dialogue: 0,0:55:16.29,0:55:20.09,Default,,0000,0000,0000,,在扫把拖把间上上下下\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}bouncing up and down between the brooms and the mops,
+Dialogue: 0,0:55:20.17,0:55:22.46,Default,,0000,0000,0000,,撞击那可怜的姑娘\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}ramming into that poor girl.
+Dialogue: 0,0:55:22.55,0:55:26.09,Default,,0000,0000,0000,,一个你本应保护保障她安全的姑娘\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}A girl you were supposed to protect and keep safe.
+Dialogue: 0,0:55:27.26,0:55:29.64,Default,,0000,0000,0000,,你的屁股  像鬼一样缠着我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Your ass, it haunts me.
+Dialogue: 0,0:55:31.02,0:55:32.98,Default,,0000,0000,0000,,抱歉听到这个  先生\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm sorry to hear that, sir.
+Dialogue: 0,0:55:34.06,0:55:36.19,Default,,0000,0000,0000,,我做这行已经25年了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I've been doing this kind of work 25 years.
+Dialogue: 0,0:55:36.27,0:55:41.23,Default,,0000,0000,0000,,就是像你这样的人  给了这份职业一个坏名声\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And it's guys like you that give the whole profession a bad name.
+Dialogue: 0,0:55:42.44,0:55:43.44,Default,,0000,0000,0000,,如果我说了算\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}If it was up to me,
+Dialogue: 0,0:55:43.53,0:55:45.40,Default,,0000,0000,0000,,你永远别再想涉足这个地方\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}you'd never set foot on this property again.
+Dialogue: 0,0:55:45.49,0:55:47.91,Default,,0000,0000,0000,,但考虑到惩教署不提出起诉\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But considering the DOC didn't press charges,
+Dialogue: 0,0:55:47.99,0:55:50.41,Default,,0000,0000,0000,,之前只是我们间的言语之争\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}it was your word against mine...
+Dialogue: 0,0:55:52.62,0:55:54.04,Default,,0000,0000,0000,,直到现在\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}until now.
+Dialogue: 0,0:55:56.29,0:55:58.88,Default,,0000,0000,0000,,我一直在本分工作  先生\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Well, I've been doing my job, sir.
+Dialogue: 0,0:55:58.96,0:56:01.00,Default,,0000,0000,0000,,今天早上就记了15个过了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Just gave out 15 shots this morning.
+Dialogue: 0,0:56:02.55,0:56:03.71,Default,,0000,0000,0000,,你让她怀孕了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You got her pregnant.
+Dialogue: 0,0:56:09.80,0:56:10.81,Default,,0000,0000,0000,,不\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No.
+Dialogue: 0,0:56:12.60,0:56:14.02,Default,,0000,0000,0000,,对她来说很不幸  是的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Sadly for her, yes.
+Dialogue: 0,0:56:14.85,0:56:16.77,Default,,0000,0000,0000,,那个可怜的姑娘怀上了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That poor girl is carrying around
+Dialogue: 0,0:56:16.85,0:56:21.11,Default,,0000,0000,0000,,一个大胡子虐待狂的孽种\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}a sadistic little mustachioed shit inside her.
+Dialogue: 0,0:56:21.65,0:56:24.15,Default,,0000,0000,0000,,-哇  -门德斯\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Whoa. - Mendez...
+Dialogue: 0,0:56:24.23,0:56:26.53,Default,,0000,0000,0000,,你他妈的被炒了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}you're fucking fired.
+Dialogue: 0,0:56:30.03,0:56:31.08,Default,,0000,0000,0000,,我明白  先生\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I understand, sir.
+Dialogue: 0,0:56:35.37,0:56:39.04,Default,,0000,0000,0000,,不  我想你没明白\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}No, I... I don't think you do understand.
+Dialogue: 0,0:56:40.54,0:56:42.42,Default,,0000,0000,0000,,你还被逮捕了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You're also under arrest.
+Dialogue: 0,0:56:44.71,0:56:45.72,Default,,0000,0000,0000,,我们到了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}We're in.
+Dialogue: 0,0:56:45.80,0:56:47.72,Default,,0000,0000,0000,,我来吧\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Let me get that for ya.
+Dialogue: 0,0:56:50.93,0:56:52.39,Default,,0000,0000,0000,,好了  咱们走\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}All right, let's go.
+Dialogue: 0,0:56:55.22,0:56:57.48,Default,,0000,0000,0000,,我们在利奇菲尔德联邦监狱现场报导\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}We're reporting from Litchfield Federal Penitentiary,
+Dialogue: 0,0:56:57.56,0:57:00.48,Default,,0000,0000,0000,,狱警乔治·门德斯被逮捕\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}where the arrest of Correctional Officer George Mendez
+Dialogue: 0,0:57:00.56,0:57:02.98,Default,,0000,0000,0000,,他被起诉性侵犯  逮捕正在进行中\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}on charges of sexual assault is underway.
+Dialogue: 0,0:57:03.07,0:57:04.48,Default,,0000,0000,0000,,她来了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}There she is!
+Dialogue: 0,0:57:04.57,0:57:05.99,Default,,0000,0000,0000,,我旁边是娜塔莉·菲格罗亚\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm here with Natalie Figueroa,
+Dialogue: 0,0:57:06.07,0:57:07.90,Default,,0000,0000,0000,,利奇菲尔德联邦监狱的助理典狱长\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Assistant Warden of Litchfield prison,
+Dialogue: 0,0:57:07.99,0:57:09.41,Default,,0000,0000,0000,,她是杰森·菲格罗亚的妻子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and wife of Jason Figueroa,
+Dialogue: 0,0:57:09.41,0:57:11.62,Default,,0000,0000,0000,,后者现正竞选州参议员\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}who is currently running for state senate.
+Dialogue: 0,0:57:11.70,0:57:12.80,Default,,0000,0000,0000,,菲格罗亚夫人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Miss Figueroa,
+Dialogue: 0,0:57:12.80,0:57:15.79,Default,,0000,0000,0000,,你知道警员中有不当行为存在吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}were you aware of misconduct among your officers?
+Dialogue: 0,0:57:15.87,0:57:17.08,Default,,0000,0000,0000,,在利奇菲尔德\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Here at Litchfield,
+Dialogue: 0,0:57:17.16,0:57:19.13,Default,,0000,0000,0000,,我们对性罪犯者\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}we have a zero-tolerance
+Dialogue: 0,0:57:19.13,0:57:22.50,Default,,0000,0000,0000,,是绝对不会容忍的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}policy when it comes to sexual offenders.
+Dialogue: 0,0:57:24.17,0:57:26.84,Default,,0000,0000,0000,,自《消除监狱强奸法案》颁布以来\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Since the Prison Rape Elimination Act,
+Dialogue: 0,0:57:26.92,0:57:32.09,Default,,0000,0000,0000,,消除恶劣警员便成了我们的任务\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}we have made it our mandate to weed out rogue officers.
+Dialogue: 0,0:57:34.68,0:57:38.77,Default,,0000,0000,0000,,这些无助的女性在我们的照顾下\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}These vulnerable women are under our care,
+Dialogue: 0,0:57:38.85,0:57:42.65,Default,,0000,0000,0000,,我们会尽一切能力去保护她们\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and we do everything in our power to protect them.
+Dialogue: 0,0:57:44.69,0:57:47.69,Default,,0000,0000,0000,,当然  这个世界上依然有坏人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Of course, there are still bad people in this world
+Dialogue: 0,0:57:47.78,0:57:49.90,Default,,0000,0000,0000,,会犯下十恶不赦的罪行\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}who commit heinous crimes,
+Dialogue: 0,0:57:49.99,0:57:51.78,Default,,0000,0000,0000,,不幸的是\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}and it is unfortunate that
+Dialogue: 0,0:57:51.78,0:57:54.83,Default,,0000,0000,0000,,其中一个道德败坏的人  居然在我们这里\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}one of these sickos ended up under our roof.
+Dialogue: 0,0:57:54.91,0:57:59.37,Default,,0000,0000,0000,,但我向你保证  我们会尽一切力量\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}But I assure you, we are doing everything in our power
+Dialogue: 0,0:57:59.45,0:58:02.48,Default,,0000,0000,0000,,照顾这位年轻女性\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}to take care of this young woman,
+Dialogue: 0,0:58:02.48,0:58:05.21,Default,,0000,0000,0000,,她才是真正的受害者\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}who is the real victim here.
+Dialogue: 0,0:58:05.29,0:58:07.76,Default,,0000,0000,0000,,-等我  亲爱的  -快走\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}- Wait for me, baby. - All right, keep it moving.
+Dialogue: 0,0:58:07.84,0:58:10.34,Default,,0000,0000,0000,,知道吗  我不在乎了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You know what? I don't care anymore.
+Dialogue: 0,0:58:11.47,0:58:13.34,Default,,0000,0000,0000,,来吧  逮捕我\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Go ahead, arrest me!
+Dialogue: 0,0:58:13.43,0:58:15.55,Default,,0000,0000,0000,,我爱这个女人\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I love this woman!
+Dialogue: 0,0:58:15.64,0:58:17.56,Default,,0000,0000,0000,,你听到我的话吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}You hear me?
+Dialogue: 0,0:58:17.64,0:58:20.23,Default,,0000,0000,0000,,她怀的是我的宝宝  老子爱死你了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}That is my baby in there, and I fucking love you!
+Dialogue: 0,0:58:21.39,0:58:23.73,Default,,0000,0000,0000,,我要给孩子取名叫斯坦  好吗\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I want to call it Stan, okay?
+Dialogue: 0,0:58:23.81,0:58:25.73,Default,,0000,0000,0000,,别举重东西\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Don't lift anything heavy!
+Dialogue: 0,0:58:25.82,0:58:28.28,Default,,0000,0000,0000,,别吃吞拿鱼  也别吃软芝士\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}And no tuna fish! Or soft cheese.
+Dialogue: 0,0:58:28.36,0:58:29.65,Default,,0000,0000,0000,,我会回来找你的  亲爱的\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm coming back for you, baby!
+Dialogue: 0,0:58:29.65,0:58:31.36,Default,,0000,0000,0000,,我会照顾你的  照顾你们母子\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}I'm gonna take care of you! Both of you!
+Dialogue: 0,0:58:31.45,0:58:33.49,Default,,0000,0000,0000,,快走  这里没你事了\N{\fn方正综艺_GBK\fs14\3c&H2F2F2F&\b0}Let's go. You're done here.
+

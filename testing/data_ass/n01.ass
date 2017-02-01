@@ -1,0 +1,2094 @@
+[Script Info]
+ScriptType: V4.00+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Sans,18,&H00FFFFFF,&H0000FFFF,&H000078B4,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,20,20,20,0
+Style: Blue,AR PL UKai CN,16,&H00FFFFFF,&H0000FFFF,&H000078B4,&H00773301,0,0,0,0,100,100,0,0,1,0,1,2,20,20,10,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:09.80,0:03:11.19,Blue,,0000,0000,0000,,{\i1}库珀探员.{\i0}
+Dialogue: 0,0:03:09.94,0:03:11.34,Default,,0000,0000,0000,,Agent Cooper.
+Dialogue: 0,0:03:11.37,0:03:14.98,Blue,,0000,0000,0000,,{\i1}能听见我说话么? 我是安迪阿.{\i0}
+Dialogue: 0,0:03:11.51,0:03:15.10,Default,,0000,0000,0000,,Can you hear me? It's Andy.
+Dialogue: 0,0:03:15.94,0:03:19.02,Blue,,0000,0000,0000,,{\i1}库珀探员, 我是安迪.{\i0}
+Dialogue: 0,0:03:16.04,0:03:19.14,Default,,0000,0000,0000,,Agent Cooper, it's Andy.
+Dialogue: 0,0:03:19.46,0:03:22.16,Blue,,0000,0000,0000,,{\i1}能听到我说话么?{\i0}
+Dialogue: 0,0:03:19.61,0:03:22.31,Default,,0000,0000,0000,,Can you hear me?
+Dialogue: 0,0:03:22.33,0:03:23.90,Blue,,0000,0000,0000,,{\i1}库珀探员?{\i0}
+Dialogue: 0,0:03:22.48,0:03:24.01,Default,,0000,0000,0000,,Agent Cooper?
+Dialogue: 0,0:03:30.38,0:03:32.04,Blue,,0000,0000,0000,,你好,客房服务.
+Dialogue: 0,0:03:30.52,0:03:32.15,Default,,0000,0000,0000,,Room service.
+Dialogue: 0,0:03:46.96,0:03:49.88,Blue,,0000,0000,0000,,你躺在那下面干嘛呢?
+Dialogue: 0,0:03:47.07,0:03:50.01,Default,,0000,0000,0000,,How are you doing down there?
+Dialogue: 0,0:03:55.28,0:03:57.54,Blue,,0000,0000,0000,,热奶来了.
+Dialogue: 0,0:03:55.42,0:03:57.68,Default,,0000,0000,0000,,Warm milk.
+Dialogue: 0,0:03:57.84,0:03:59.84,Blue,,0000,0000,0000,,{\i1}库珀探员?{\i0}
+Dialogue: 0,0:03:57.98,0:03:59.98,Default,,0000,0000,0000,,Agent Cooper?
+Dialogue: 0,0:04:02.67,0:04:04.94,Blue,,0000,0000,0000,,请你把它放在桌子上,可以么?
+Dialogue: 0,0:04:02.82,0:04:05.05,Default,,0000,0000,0000,,Would you put it on the table, please?
+Dialogue: 0,0:04:05.90,0:04:09.46,Blue,,0000,0000,0000,,- 顺便帮我叫医生?\N- 乐意效劳.
+Dialogue: 0,0:04:06.03,0:04:09.59,Default,,0000,0000,0000,,- And would you call a doctor?\N- Sure.
+Dialogue: 0,0:04:09.64,0:04:12.38,Blue,,0000,0000,0000,,{\i1}你怎样了? 你能听见我么?{\i0}
+Dialogue: 0,0:04:09.80,0:04:12.53,Default,,0000,0000,0000,,Are you aII right? Can you hear me?
+Dialogue: 0,0:04:12.55,0:04:13.99,Blue,,0000,0000,0000,,{\i1}库珀探员.{\i0}
+Dialogue: 0,0:04:12.70,0:04:14.10,Default,,0000,0000,0000,,Agent Cooper.
+Dialogue: 0,0:04:14.16,0:04:15.82,Blue,,0000,0000,0000,,{\i1}库珀探员.{\i0}
+Dialogue: 0,0:04:14.30,0:04:15.93,Default,,0000,0000,0000,,Agent Cooper.
+Dialogue: 0,0:04:15.99,0:04:20.04,Blue,,0000,0000,0000,,{\i1}库珀探员, 我是安迪阿.\N你能听到我说话么?{\i0}
+Dialogue: 0,0:04:16.10,0:04:20.16,Default,,0000,0000,0000,,Agent Cooper, it's Andy.\NCan you hear me?
+Dialogue: 0,0:04:21.39,0:04:23.21,Blue,,0000,0000,0000,,{\i1}你那边出什么事了?{\i0}
+Dialogue: 0,0:04:21.54,0:04:23.37,Default,,0000,0000,0000,,Are you aII right?
+Dialogue: 0,0:04:23.61,0:04:26.57,Blue,,0000,0000,0000,,{\i1}库珀探员. 库珀探员.{\i0}
+Dialogue: 0,0:04:23.74,0:04:26.71,Default,,0000,0000,0000,,Agent Cooper. Agent Cooper.
+Dialogue: 0,0:04:26.74,0:04:28.48,Blue,,0000,0000,0000,,{\i1}库珀探员.{\i0}
+Dialogue: 0,0:04:26.88,0:04:28.61,Default,,0000,0000,0000,,Agent Cooper.
+Dialogue: 0,0:04:28.87,0:04:30.96,Blue,,0000,0000,0000,,{\i1}我是安迪.{\i0}
+Dialogue: 0,0:04:29.02,0:04:31.07,Default,,0000,0000,0000,,It's Andy.
+Dialogue: 0,0:04:32.62,0:04:34.49,Blue,,0000,0000,0000,,{\i1}我是安...--{\i0}
+Dialogue: 0,0:04:32.75,0:04:34.62,Default,,0000,0000,0000,,It's An--
+Dialogue: 0,0:04:41.45,0:04:43.27,Blue,,0000,0000,0000,,我帮你把电话挂了.
+Dialogue: 0,0:04:41.60,0:04:43.43,Default,,0000,0000,0000,,l hung it up for you.
+Dialogue: 0,0:04:48.02,0:04:49.11,Blue,,0000,0000,0000,,什么?
+Dialogue: 0,0:04:48.13,0:04:49.26,Default,,0000,0000,0000,,What's that?
+Dialogue: 0,0:04:50.33,0:04:52.89,Blue,,0000,0000,0000,,帮你把它挂了.
+Dialogue: 0,0:04:50.44,0:04:53.03,Default,,0000,0000,0000,,Hung it up for you.
+Dialogue: 0,0:04:53.59,0:04:56.16,Blue,,0000,0000,0000,,那你叫医生了没?
+Dialogue: 0,0:04:53.74,0:04:56.33,Default,,0000,0000,0000,,Did you call the doctor?
+Dialogue: 0,0:05:01.69,0:05:03.77,Blue,,0000,0000,0000,,医生?
+Dialogue: 0,0:05:01.85,0:05:03.91,Default,,0000,0000,0000,,The doctor?
+Dialogue: 0,0:05:06.56,0:05:08.52,Blue,,0000,0000,0000,,挂了.
+Dialogue: 0,0:05:06.72,0:05:08.65,Default,,0000,0000,0000,,lt's hung up.
+Dialogue: 0,0:05:08.69,0:05:09.82,Blue,,0000,0000,0000,,那个电话.
+Dialogue: 0,0:05:08.86,0:05:09.95,Default,,0000,0000,0000,,The phone.
+Dialogue: 0,0:05:12.61,0:05:14.04,Blue,,0000,0000,0000,,谢谢.
+Dialogue: 0,0:05:12.76,0:05:14.16,Default,,0000,0000,0000,,Thank you.
+Dialogue: 0,0:05:15.39,0:05:16.39,Blue,,0000,0000,0000,,是的.
+Dialogue: 0,0:05:15.50,0:05:16.55,Default,,0000,0000,0000,,Sure.
+Dialogue: 0,0:05:17.35,0:05:19.18,Blue,,0000,0000,0000,,没问题.
+Dialogue: 0,0:05:17.46,0:05:19.30,Default,,0000,0000,0000,,No problem.
+Dialogue: 0,0:05:36.54,0:05:38.46,Blue,,0000,0000,0000,,已经包括小费了吗?
+Dialogue: 0,0:05:36.68,0:05:38.62,Default,,0000,0000,0000,,Does this include a gratuity?
+Dialogue: 0,0:05:40.24,0:05:42.24,Blue,,0000,0000,0000,,是的,先生.
+Dialogue: 0,0:05:40.39,0:05:42.38,Default,,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:05:54.08,0:05:56.69,Blue,,0000,0000,0000,,谢谢,谢谢你这么大方.
+Dialogue: 0,0:05:54.20,0:05:56.83,Default,,0000,0000,0000,,Thank you. Thank you kindly.
+Dialogue: 0,0:06:06.44,0:06:09.66,Blue,,0000,0000,0000,,牛奶要凉了.
+Dialogue: 0,0:06:06.55,0:06:09.81,Default,,0000,0000,0000,,The milk will get cool on you.
+Dialogue: 0,0:06:10.62,0:06:13.92,Blue,,0000,0000,0000,,- 很快就凉了.\N- 好的.
+Dialogue: 0,0:06:10.78,0:06:14.05,Default,,0000,0000,0000,,- Pretty soon.\N- Okay.
+Dialogue: 0,0:06:26.94,0:06:29.20,Blue,,0000,0000,0000,,我听说过你.
+Dialogue: 0,0:06:27.07,0:06:29.33,Default,,0000,0000,0000,,l've heard about you.
+Dialogue: 0,0:07:02.71,0:07:05.49,Blue,,0000,0000,0000,,我听说过你.
+Dialogue: 0,0:07:02.87,0:07:05.60,Default,,0000,0000,0000,,l heard about you.
+Dialogue: 0,0:08:29.44,0:08:33.05,Blue,,0000,0000,0000,,我将给你3个暗示.
+Dialogue: 0,0:08:29.59,0:08:33.18,Default,,0000,0000,0000,,l will tell you three things.
+Dialogue: 0,0:08:35.01,0:08:38.93,Blue,,0000,0000,0000,,如果它们都中了,
+Dialogue: 0,0:08:35.16,0:08:39.10,Default,,0000,0000,0000,,lf l tell them to you\Nand they come true,
+Dialogue: 0,0:08:39.10,0:08:41.37,Blue,,0000,0000,0000,,到时候你会相信我吗?
+Dialogue: 0,0:08:39.27,0:08:41.50,Default,,0000,0000,0000,,then will you believe me?
+Dialogue: 0,0:08:42.76,0:08:44.37,Blue,,0000,0000,0000,,你是谁?
+Dialogue: 0,0:08:42.87,0:08:44.50,Default,,0000,0000,0000,,Who's that?
+Dialogue: 0,0:08:45.02,0:08:48.46,Blue,,0000,0000,0000,,把我当作你的朋友.
+Dialogue: 0,0:08:45.17,0:08:48.61,Default,,0000,0000,0000,,Think of me as a friend.
+Dialogue: 0,0:08:51.38,0:08:53.42,Blue,,0000,0000,0000,,你从哪里来?
+Dialogue: 0,0:08:51.51,0:08:53.57,Default,,0000,0000,0000,,Where do you come from?
+Dialogue: 0,0:08:56.51,0:09:01.60,Blue,,0000,0000,0000,,不要问我从哪里来,\N应该问我将到哪里去?
+Dialogue: 0,0:08:56.65,0:09:01.71,Default,,0000,0000,0000,,The question is,\Nwhere have you gone?
+Dialogue: 0,0:09:03.87,0:09:08.13,Blue,,0000,0000,0000,,这是我要给你的第一个暗示,
+Dialogue: 0,0:09:03.99,0:09:08.29,Default,,0000,0000,0000,,The first thing l will tell you is,
+Dialogue: 0,0:09:08.30,0:09:12.18,Blue,,0000,0000,0000,,一个男人
+Dialogue: 0,0:09:08.46,0:09:12.33,Default,,0000,0000,0000,,there's a man
+Dialogue: 0,0:09:12.35,0:09:15.79,Blue,,0000,0000,0000,,躺在一个微笑的袋子里.
+Dialogue: 0,0:09:12.50,0:09:15.96,Default,,0000,0000,0000,,in a smiling bag.
+Dialogue: 0,0:09:17.27,0:09:20.62,Blue,,0000,0000,0000,,男人躺在一个微笑的袋子里.
+Dialogue: 0,0:09:17.40,0:09:20.74,Default,,0000,0000,0000,,Man in a smiling bag.
+Dialogue: 0,0:09:20.79,0:09:24.45,Blue,,0000,0000,0000,,第二个暗示,
+Dialogue: 0,0:09:20.91,0:09:24.57,Default,,0000,0000,0000,,Second thing is,
+Dialogue: 0,0:09:24.62,0:09:29.45,Blue,,0000,0000,0000,,不要给猫头鹰的外表迷惑了.
+Dialogue: 0,0:09:24.74,0:09:29.61,Default,,0000,0000,0000,,the owls are not what they seem.
+Dialogue: 0,0:09:32.15,0:09:34.85,Blue,,0000,0000,0000,,第三个暗示,
+Dialogue: 0,0:09:32.32,0:09:34.98,Default,,0000,0000,0000,,Third thing is,
+Dialogue: 0,0:09:35.02,0:09:40.29,Blue,,0000,0000,0000,,别给他用药, 他就会指引你.
+Dialogue: 0,0:09:35.15,0:09:40.42,Default,,0000,0000,0000,,without chemicals, he points.
+Dialogue: 0,0:09:41.68,0:09:44.07,Blue,,0000,0000,0000,,你刚刚说的都是什么意思?
+Dialogue: 0,0:09:41.83,0:09:44.23,Default,,0000,0000,0000,,What do these things mean?
+Dialogue: 0,0:09:44.29,0:09:47.82,Blue,,0000,0000,0000,,我只能暗示你这些.
+Dialogue: 0,0:09:44.43,0:09:47.92,Default,,0000,0000,0000,,This is all l am permitted to say.
+Dialogue: 0,0:09:48.65,0:09:50.34,Blue,,0000,0000,0000,,把你的戒指给我.
+Dialogue: 0,0:09:48.77,0:09:50.50,Default,,0000,0000,0000,,Give me your ring.
+Dialogue: 0,0:09:50.52,0:09:56.26,Blue,,0000,0000,0000,,当这些暗示都成真以后\N我会还给你的.
+Dialogue: 0,0:09:50.67,0:09:56.40,Default,,0000,0000,0000,,l will return it to you\Nwhen you find these things to be true.
+Dialogue: 0,0:10:09.93,0:10:11.71,Blue,,0000,0000,0000,,我们想帮助你.
+Dialogue: 0,0:10:10.06,0:10:11.85,Default,,0000,0000,0000,,We want to help you.
+Dialogue: 0,0:10:13.02,0:10:14.80,Blue,,0000,0000,0000,,"我们"是谁?
+Dialogue: 0,0:10:13.16,0:10:14.92,Default,,0000,0000,0000,,Who's ''we''?
+Dialogue: 0,0:10:14.97,0:10:17.37,Blue,,0000,0000,0000,,还有最后一件事.
+Dialogue: 0,0:10:15.09,0:10:17.53,Default,,0000,0000,0000,,One last thing.
+Dialogue: 0,0:10:17.93,0:10:23.50,Blue,,0000,0000,0000,,里欧被锁在亨格力·豪斯里面.
+Dialogue: 0,0:10:18.06,0:10:23.63,Default,,0000,0000,0000,,Leo locked inside hungry horse.
+Dialogue: 0,0:10:23.68,0:10:26.37,Blue,,0000,0000,0000,,线索就在里欧的亨格力·豪斯里面.
+Dialogue: 0,0:10:23.80,0:10:26.53,Default,,0000,0000,0000,,There's a clue at Leo's house.
+Dialogue: 0,0:10:31.47,0:10:34.47,Blue,,0000,0000,0000,,你很快就会得到治疗.
+Dialogue: 0,0:10:31.61,0:10:34.60,Default,,0000,0000,0000,,You will require medical attention.
+Dialogue: 0,0:11:02.37,0:11:04.45,Blue,,0000,0000,0000,,我敲, 我敲, 我敲敲.
+Dialogue: 0,0:11:02.51,0:11:04.60,Default,,0000,0000,0000,,Knock, knock, knock.
+Dialogue: 0,0:11:09.59,0:11:11.11,Blue,,0000,0000,0000,,来呀.
+Dialogue: 0,0:11:09.75,0:11:11.24,Default,,0000,0000,0000,,Come on.
+Dialogue: 0,0:11:11.29,0:11:14.51,Blue,,0000,0000,0000,,让我来看看你这新妞儿.
+Dialogue: 0,0:11:11.42,0:11:14.65,Default,,0000,0000,0000,,Let's have a look at the new girl.
+Dialogue: 0,0:11:18.73,0:11:19.77,Blue,,0000,0000,0000,,噢,辣妹.
+Dialogue: 0,0:11:18.86,0:11:19.92,Default,,0000,0000,0000,,Vixen.
+Dialogue: 0,0:11:20.51,0:11:22.51,Blue,,0000,0000,0000,,本杰明在哪间房?
+Dialogue: 0,0:11:20.66,0:11:22.65,Default,,0000,0000,0000,,What room is Ben in?
+Dialogue: 0,0:11:25.87,0:11:28.74,Blue,,0000,0000,0000,,有小野花的那间.
+Dialogue: 0,0:11:26.00,0:11:28.87,Default,,0000,0000,0000,,The little flower room.
+Dialogue: 0,0:11:28.91,0:11:31.30,Blue,,0000,0000,0000,,- 他为什么要瞒着我?\N- 什么?
+Dialogue: 0,0:11:29.04,0:11:31.47,Default,,0000,0000,0000,,- Why is he holding out on me?\N- What?
+Dialogue: 0,0:11:31.48,0:11:35.74,Blue,,0000,0000,0000,,- 他为什么要瞒着我?\N- 你说什么, 布莱奇?
+Dialogue: 0,0:11:31.64,0:11:35.87,Default,,0000,0000,0000,,- Why is he holding out on me?\N- What's that, Blackie?
+Dialogue: 0,0:11:36.87,0:11:39.31,Blue,,0000,0000,0000,,什么叫「瞒着你」?
+Dialogue: 0,0:11:37.01,0:11:39.48,Default,,0000,0000,0000,,Who's holding out on who?
+Dialogue: 0,0:11:41.88,0:11:43.10,Blue,,0000,0000,0000,,求求你.
+Dialogue: 0,0:11:42.02,0:11:43.24,Default,,0000,0000,0000,,Please.
+Dialogue: 0,0:11:43.49,0:11:46.54,Blue,,0000,0000,0000,,噢, 布莱奇.
+Dialogue: 0,0:11:43.65,0:11:46.68,Default,,0000,0000,0000,,Oh, Blackie.
+Dialogue: 0,0:11:56.89,0:11:59.90,Blue,,0000,0000,0000,,你曾经是那么的漂亮.
+Dialogue: 0,0:11:57.03,0:12:00.02,Default,,0000,0000,0000,,You used to be so pretty.
+Dialogue: 0,0:12:02.64,0:12:05.86,Blue,,0000,0000,0000,,布莱奇, 布莱奇.
+Dialogue: 0,0:12:02.80,0:12:06.00,Default,,0000,0000,0000,,Blackie, Blackie.
+Dialogue: 0,0:12:20.52,0:12:21.92,Blue,,0000,0000,0000,,混蛋.
+Dialogue: 0,0:12:20.69,0:12:22.05,Default,,0000,0000,0000,,Bastard.
+Dialogue: 0,0:12:31.93,0:12:33.40,Blue,,0000,0000,0000,,我想你可以走了.
+Dialogue: 0,0:12:32.07,0:12:33.56,Default,,0000,0000,0000,,l think you should go now.
+Dialogue: 0,0:12:34.41,0:12:37.93,Blue,,0000,0000,0000,,- 真的, 想清楚了?\N- 嗯, 是的. 想的很清楚了.
+Dialogue: 0,0:12:34.53,0:12:38.06,Default,,0000,0000,0000,,- Do you, Prudence?\N- Yes, l do. l really do.
+Dialogue: 0,0:12:40.24,0:12:41.89,Blue,,0000,0000,0000,,那好吧.
+Dialogue: 0,0:12:40.37,0:12:42.03,Default,,0000,0000,0000,,All right.
+Dialogue: 0,0:12:42.20,0:12:44.76,Blue,,0000,0000,0000,,如果你坚持.
+Dialogue: 0,0:12:42.34,0:12:44.90,Default,,0000,0000,0000,,lf you insist.
+Dialogue: 0,0:13:04.65,0:13:06.65,Blue,,0000,0000,0000,,逮到你了.
+Dialogue: 0,0:13:04.83,0:13:06.82,Default,,0000,0000,0000,,Gotcha.
+Dialogue: 0,0:13:08.13,0:13:10.44,Blue,,0000,0000,0000,,我要生气了
+Dialogue: 0,0:13:08.27,0:13:10.57,Default,,0000,0000,0000,,l will huff
+Dialogue: 0,0:13:10.61,0:13:12.92,Blue,,0000,0000,0000,,怒火呼呼的吹,
+Dialogue: 0,0:13:10.74,0:13:13.07,Default,,0000,0000,0000,,and puff,
+Dialogue: 0,0:13:13.09,0:13:17.57,Blue,,0000,0000,0000,,把你的房顶吹翻.
+Dialogue: 0,0:13:13.24,0:13:17.73,Default,,0000,0000,0000,,and blow your house down.
+Dialogue: 0,0:13:17.75,0:13:20.62,Blue,,0000,0000,0000,,噢, 宝贝, 宝贝.
+Dialogue: 0,0:13:17.91,0:13:20.78,Default,,0000,0000,0000,,Oh, my, my.
+Dialogue: 0,0:13:20.80,0:13:24.32,Blue,,0000,0000,0000,,你这个宝贝
+Dialogue: 0,0:13:20.95,0:13:24.44,Default,,0000,0000,0000,,Aren't you something?
+Dialogue: 0,0:13:26.15,0:13:28.85,Blue,,0000,0000,0000,,我今天非的要看看你不可，把你看给逼真.
+Dialogue: 0,0:13:26.29,0:13:28.98,Default,,0000,0000,0000,,l've got to see you. l must see you.
+Dialogue: 0,0:13:29.02,0:13:33.20,Blue,,0000,0000,0000,,走开啦. 好羞人.
+Dialogue: 0,0:13:29.16,0:13:33.32,Default,,0000,0000,0000,,Go away. l'm shy.
+Dialogue: 0,0:13:33.37,0:13:35.85,Blue,,0000,0000,0000,,难道没有人告诉你我是谁吗?
+Dialogue: 0,0:13:33.49,0:13:35.98,Default,,0000,0000,0000,,Didn't they tell you who l was?
+Dialogue: 0,0:13:36.03,0:13:37.85,Blue,,0000,0000,0000,,大老板?
+Dialogue: 0,0:13:36.16,0:13:37.99,Default,,0000,0000,0000,,The owner?
+Dialogue: 0,0:13:38.03,0:13:40.25,Blue,,0000,0000,0000,,完全正确.
+Dialogue: 0,0:13:38.16,0:13:40.39,Default,,0000,0000,0000,,That's right.
+Dialogue: 0,0:13:40.42,0:13:42.86,Blue,,0000,0000,0000,,本, 我是哲.\N出了点状况.
+Dialogue: 0,0:13:40.57,0:13:43.00,Default,,0000,0000,0000,,Ben, it's Jer.\NWe got a situation.
+Dialogue: 0,0:13:43.03,0:13:46.82,Blue,,0000,0000,0000,,- 我这里也出了点状况.\N- 本哥, 别玩了，我们要去「干活」了.
+Dialogue: 0,0:13:43.17,0:13:46.97,Default,,0000,0000,0000,,- So have l.\N- Brother Ben, we got a S-N-A-G.
+Dialogue: 0,0:13:47.00,0:13:50.87,Blue,,0000,0000,0000,,- 阿莱丝, 我这会儿真的要走囉.\N- 快点, 本.
+Dialogue: 0,0:13:47.14,0:13:51.01,Default,,0000,0000,0000,,- Alas, l do have a situation.\N- Come on, Ben.
+Dialogue: 0,0:13:51.04,0:13:52.48,Blue,,0000,0000,0000,,来了, 哲.
+Dialogue: 0,0:13:51.18,0:13:52.61,Default,,0000,0000,0000,,Coming, Jer.
+Dialogue: 0,0:13:52.65,0:13:54.61,Blue,,0000,0000,0000,,我喜欢你.
+Dialogue: 0,0:13:52.78,0:13:54.75,Default,,0000,0000,0000,,l like you.
+Dialogue: 0,0:13:54.79,0:13:58.92,Blue,,0000,0000,0000,,你知道怎样钩引男人.\N这样很重要.
+Dialogue: 0,0:13:54.91,0:13:59.08,Default,,0000,0000,0000,,You know how to interest a man.\NThat's half the battle.
+Dialogue: 0,0:13:59.09,0:14:02.70,Blue,,0000,0000,0000,,下次见,\N下次我们来玩点别的.
+Dialogue: 0,0:13:59.25,0:14:02.88,Default,,0000,0000,0000,,Next time,\Nwe will play a different game.
+Dialogue: 0,0:14:02.92,0:14:05.27,Blue,,0000,0000,0000,,我来订游戏规则.
+Dialogue: 0,0:14:03.09,0:14:05.42,Default,,0000,0000,0000,,l'll make the rules.
+Dialogue: 0,0:14:05.45,0:14:08.80,Blue,,0000,0000,0000,,你会喜欢的. 很好玩的.
+Dialogue: 0,0:14:05.59,0:14:08.96,Default,,0000,0000,0000,,You'll like it. Fun game.
+Dialogue: 0,0:14:09.93,0:14:13.50,Blue,,0000,0000,0000,,我们都会是赢家.
+Dialogue: 0,0:14:10.10,0:14:13.62,Default,,0000,0000,0000,,Everybody wins.
+Dialogue: 0,0:14:51.79,0:14:53.66,Blue,,0000,0000,0000,,戴安.
+Dialogue: 0,0:14:51.94,0:14:53.80,Default,,0000,0000,0000,,Diane.
+Dialogue: 0,0:14:55.58,0:14:58.76,Blue,,0000,0000,0000,,我的录音机在桌子上.
+Dialogue: 0,0:14:55.71,0:14:58.94,Default,,0000,0000,0000,,My recorder is on the table.
+Dialogue: 0,0:14:59.41,0:15:03.15,Blue,,0000,0000,0000,,现在我够不着它.
+Dialogue: 0,0:14:59.55,0:15:03.31,Default,,0000,0000,0000,,l'm unable to reach it at this time.
+Dialogue: 0,0:15:03.76,0:15:07.50,Blue,,0000,0000,0000,,只能希望\N我无意中按过那个
+Dialogue: 0,0:15:03.88,0:15:07.65,Default,,0000,0000,0000,,l can only hope\Nthat l inadvertently pressed
+Dialogue: 0,0:15:07.68,0:15:09.85,Blue,,0000,0000,0000,,声控键.
+Dialogue: 0,0:15:07.82,0:15:10.02,Default,,0000,0000,0000,,the voice activation button.
+Dialogue: 0,0:15:10.64,0:15:13.90,Blue,,0000,0000,0000,,我现在躺在房间的地板上.
+Dialogue: 0,0:15:10.76,0:15:14.02,Default,,0000,0000,0000,,l'm lying on the floor of my room.
+Dialogue: 0,0:15:14.55,0:15:16.21,Blue,,0000,0000,0000,,我中枪了.
+Dialogue: 0,0:15:14.69,0:15:16.36,Default,,0000,0000,0000,,l've been shot.
+Dialogue: 0,0:15:17.30,0:15:21.99,Blue,,0000,0000,0000,,剧痛\N还留了一大滩血.
+Dialogue: 0,0:15:17.46,0:15:22.16,Default,,0000,0000,0000,,There's a great deal of pain\Nand a fair amount of blood.
+Dialogue: 0,0:15:23.69,0:15:27.04,Blue,,0000,0000,0000,,幸好, 从昨晚开始我一直穿着防弹背心,
+Dialogue: 0,0:15:23.84,0:15:27.20,Default,,0000,0000,0000,,Fortunately, l was wearing\Nmy bulletproof vest last night,
+Dialogue: 0,0:15:27.22,0:15:31.44,Blue,,0000,0000,0000,,局里的规定\N执行任务时必须要穿.
+Dialogue: 0,0:15:27.37,0:15:31.57,Default,,0000,0000,0000,,per bureau regulations\Nwhen working undercover.
+Dialogue: 0,0:15:31.61,0:15:34.44,Blue,,0000,0000,0000,,我记得我把背心拉起来了一点,
+Dialogue: 0,0:15:31.74,0:15:34.58,Default,,0000,0000,0000,,l remember folding the vest up,
+Dialogue: 0,0:15:34.62,0:15:37.75,Blue,,0000,0000,0000,,想抓一只木蚤.
+Dialogue: 0,0:15:34.75,0:15:37.88,Default,,0000,0000,0000,,trying to chase down a wood tick.
+Dialogue: 0,0:15:41.23,0:15:44.14,Blue,,0000,0000,0000,,你能想象吗？
+Dialogue: 0,0:15:41.39,0:15:44.29,Default,,0000,0000,0000,,lf you can imagine the impact\Non your chest
+Dialogue: 0,0:15:44.32,0:15:48.06,Blue,,0000,0000,0000,,就像三个保龄球从九米高的地方砸下来一样,
+Dialogue: 0,0:15:44.49,0:15:48.22,Default,,0000,0000,0000,,of three bowling balls dropped\Nfrom a height of about 9 feet,
+Dialogue: 0,0:15:48.24,0:15:52.07,Blue,,0000,0000,0000,,你可能已经开始在想象了吧.
+Dialogue: 0,0:15:48.39,0:15:52.23,Default,,0000,0000,0000,,you might begin\Nto approximate the sensation.
+Dialogue: 0,0:15:55.46,0:15:58.11,Blue,,0000,0000,0000,,仔细想想,
+Dialogue: 0,0:15:55.60,0:15:58.26,Default,,0000,0000,0000,,All things considered,
+Dialogue: 0,0:15:58.33,0:16:03.16,Blue,,0000,0000,0000,,其实中枪\N并不像我一直想象中那么糟糕.
+Dialogue: 0,0:15:58.50,0:16:03.31,Default,,0000,0000,0000,,being shot is not as bad\Nas l always thought it might be.
+Dialogue: 0,0:16:03.56,0:16:06.99,Blue,,0000,0000,0000,,只要你能保持住冷静，\N不要恐惧.
+Dialogue: 0,0:16:03.71,0:16:07.15,Default,,0000,0000,0000,,As long as you can keep\Nthe fear from your mind.
+Dialogue: 0,0:16:08.34,0:16:13.78,Blue,,0000,0000,0000,,但我猜你可能笑我\N「火星人都知道」.
+Dialogue: 0,0:16:08.51,0:16:13.92,Default,,0000,0000,0000,,But l guess you could say that\Nabout almost anything in life.
+Dialogue: 0,0:16:14.30,0:16:18.92,Blue,,0000,0000,0000,,真不像我想象中那么糟\N只要你能保持住冷静，不要恐惧.
+Dialogue: 0,0:16:14.45,0:16:19.05,Default,,0000,0000,0000,,lt's not so bad as long as you can keep\Nthe fear from your mind.
+Dialogue: 0,0:16:30.10,0:16:32.06,Blue,,0000,0000,0000,,噢, 天啊.
+Dialogue: 0,0:16:30.24,0:16:32.17,Default,,0000,0000,0000,,Oh, my God.
+Dialogue: 0,0:16:32.23,0:16:34.67,Blue,,0000,0000,0000,,我的戒指不见了.
+Dialogue: 0,0:16:32.41,0:16:34.81,Default,,0000,0000,0000,,The ring is gone.
+Dialogue: 0,0:16:43.46,0:16:46.03,Blue,,0000,0000,0000,,在这种时候不见了, 太奇怪了,
+Dialogue: 0,0:16:43.62,0:16:46.14,Default,,0000,0000,0000,,At a time like this, curiously,
+Dialogue: 0,0:16:46.20,0:16:49.77,Blue,,0000,0000,0000,,我开始\N为自己感到很遗憾
+Dialogue: 0,0:16:46.32,0:16:49.91,Default,,0000,0000,0000,,you begin to think\Nof the things you regret
+Dialogue: 0,0:16:49.95,0:16:52.38,Blue,,0000,0000,0000,,遗憾那些我错过的事.
+Dialogue: 0,0:16:50.09,0:16:52.56,Default,,0000,0000,0000,,or the things you might miss.
+Dialogue: 0,0:16:54.56,0:16:59.74,Blue,,0000,0000,0000,,我很想...总之, 我希望在有生之年\N能尽量多关心他人，并以礼相待.
+Dialogue: 0,0:16:54.69,0:16:59.86,Default,,0000,0000,0000,,l would like, in general, to treat people\Nwith much more care and respect.
+Dialogue: 0,0:17:00.48,0:17:03.70,Blue,,0000,0000,0000,,我还想去登山，登很高的山.
+Dialogue: 0,0:17:00.63,0:17:03.83,Default,,0000,0000,0000,,l would like to climb a tall hill.
+Dialogue: 0,0:17:03.87,0:17:06.09,Blue,,0000,0000,0000,,也别太高.
+Dialogue: 0,0:17:04.00,0:17:06.27,Default,,0000,0000,0000,,Not too tall.
+Dialogue: 0,0:17:06.27,0:17:08.87,Blue,,0000,0000,0000,,想坐在凉凉的绿草地上.
+Dialogue: 0,0:17:06.44,0:17:09.00,Default,,0000,0000,0000,,Sit in the cool grass.
+Dialogue: 0,0:17:09.05,0:17:11.09,Blue,,0000,0000,0000,,也别太凉
+Dialogue: 0,0:17:09.18,0:17:11.20,Default,,0000,0000,0000,,Not too cool.
+Dialogue: 0,0:17:11.27,0:17:14.36,Blue,,0000,0000,0000,,一边感受洒在脸上的温暖阳光.
+Dialogue: 0,0:17:11.38,0:17:14.51,Default,,0000,0000,0000,,And feel the sun on my face.
+Dialogue: 0,0:17:15.88,0:17:20.71,Blue,,0000,0000,0000,,我还希望可以破了\N灵博格的那个绑票案.
+Dialogue: 0,0:17:16.02,0:17:20.85,Default,,0000,0000,0000,,l wish l could have cracked\Nthe Lindbergh kidnapping case.
+Dialogue: 0,0:17:22.32,0:17:25.72,Blue,,0000,0000,0000,,我真的希望\N和一个美人儿做爱
+Dialogue: 0,0:17:22.49,0:17:25.86,Default,,0000,0000,0000,,l would very much like\Nto make love to a beautiful woman
+Dialogue: 0,0:17:25.89,0:17:29.02,Blue,,0000,0000,0000,,一个我真心爱的美人儿.
+Dialogue: 0,0:17:26.03,0:17:29.15,Default,,0000,0000,0000,,who l had genuine affection for.
+Dialogue: 0,0:17:30.64,0:17:36.03,Blue,,0000,0000,0000,,啊还有, 还用说么?\N我还要去西藏.
+Dialogue: 0,0:17:30.80,0:17:36.17,Default,,0000,0000,0000,,And of course, it goes without saying\Nthat l would like to visit Tibet.
+Dialogue: 0,0:17:36.21,0:17:41.08,Blue,,0000,0000,0000,,我盼望着西藏人民能重获他们的家园\N达赖喇嘛也能重回家乡.
+Dialogue: 0,0:17:36.34,0:17:41.20,Default,,0000,0000,0000,,l wish they could get their country back\Nand the Dalai Lama could return.
+Dialogue: 0,0:17:41.69,0:17:44.39,Blue,,0000,0000,0000,,噢, 太多东西想做了.
+Dialogue: 0,0:17:41.84,0:17:44.54,Default,,0000,0000,0000,,Oh, l would like that very much.
+Dialogue: 0,0:17:47.83,0:17:51.30,Blue,,0000,0000,0000,,总而言之,\N这次是个很有意思的体验.
+Dialogue: 0,0:17:47.98,0:17:51.47,Default,,0000,0000,0000,,All in all,\Na very interesting experience.
+Dialogue: 0,0:17:58.23,0:18:00.18,Blue,,0000,0000,0000,,他们终于来了.
+Dialogue: 0,0:17:58.36,0:18:00.33,Default,,0000,0000,0000,,They're here.
+Dialogue: 0,0:18:06.10,0:18:09.28,Blue,,0000,0000,0000,,我的皮肤好痒.
+Dialogue: 0,0:18:06.23,0:18:09.43,Default,,0000,0000,0000,,My skin was itching.
+Dialogue: 0,0:18:09.89,0:18:13.02,Blue,,0000,0000,0000,,当时有一只木跳蚤在爬.
+Dialogue: 0,0:18:10.04,0:18:13.16,Default,,0000,0000,0000,,Wood tick was crawling.
+Dialogue: 0,0:18:15.11,0:18:17.81,Blue,,0000,0000,0000,,于是我就提起防弹背心.
+Dialogue: 0,0:18:15.24,0:18:17.94,Default,,0000,0000,0000,,l lifted my bulletproof vest.
+Dialogue: 0,0:18:18.29,0:18:19.64,Blue,,0000,0000,0000,,三下重击.
+Dialogue: 0,0:18:18.41,0:18:19.78,Default,,0000,0000,0000,,Three slugs.
+Dialogue: 0,0:18:19.81,0:18:22.29,Blue,,0000,0000,0000,,近距离开枪.
+Dialogue: 0,0:18:19.95,0:18:22.41,Default,,0000,0000,0000,,Point-blank range.
+Dialogue: 0,0:18:22.47,0:18:23.94,Blue,,0000,0000,0000,,你看这个.
+Dialogue: 0,0:18:22.58,0:18:24.07,Default,,0000,0000,0000,,That explains this.
+Dialogue: 0,0:18:27.43,0:18:29.73,Blue,,0000,0000,0000,,倒霉的木跳蚤，给打得稀巴烂.
+Dialogue: 0,0:18:27.55,0:18:29.89,Default,,0000,0000,0000,,Hell of a way to kill a tick.
+Dialogue: 0,0:18:32.78,0:18:34.56,Blue,,0000,0000,0000,,你看到那个持枪歹徒的脸了吗?
+Dialogue: 0,0:18:32.93,0:18:34.72,Default,,0000,0000,0000,,Did you get a look at the gunman?
+Dialogue: 0,0:18:38.87,0:18:43.31,Blue,,0000,0000,0000,,只看到了面具, 和枪口的火光.
+Dialogue: 0,0:18:39.03,0:18:43.43,Default,,0000,0000,0000,,l saw a masked face, muzzle flash.
+Dialogue: 0,0:18:46.10,0:18:51.14,Blue,,0000,0000,0000,,露西, 你最好给库珀探员\N汇报一下今天的情况.
+Dialogue: 0,0:18:46.24,0:18:51.27,Default,,0000,0000,0000,,Lucy, you better bring Agent Cooper\Nup-to-date.
+Dialogue: 0,0:18:54.02,0:18:56.02,Blue,,0000,0000,0000,,里欧·强生中枪了.
+Dialogue: 0,0:18:54.18,0:18:56.17,Default,,0000,0000,0000,,Leo Johnson was shot.
+Dialogue: 0,0:18:56.24,0:18:58.50,Blue,,0000,0000,0000,,雅克·雷诺被勒死了.
+Dialogue: 0,0:18:56.38,0:18:58.65,Default,,0000,0000,0000,,Jacques Renault was strangled.
+Dialogue: 0,0:18:58.67,0:19:02.37,Blue,,0000,0000,0000,,锯木厂被烧燬了.\N雪莉和皮特给浓烟熏倒了.
+Dialogue: 0,0:18:58.82,0:19:02.55,Default,,0000,0000,0000,,The mill burned.\NShelly and Pete got smoke inhalation.
+Dialogue: 0,0:19:02.59,0:19:04.72,Blue,,0000,0000,0000,,凯萨琳和乔西都失了踪.
+Dialogue: 0,0:19:02.76,0:19:04.88,Default,,0000,0000,0000,,Catherine and Josie are missing.
+Dialogue: 0,0:19:04.90,0:19:08.77,Blue,,0000,0000,0000,,纳丁服食过量安眠药\N现在昏迷中.
+Dialogue: 0,0:19:05.06,0:19:08.93,Default,,0000,0000,0000,,Nadine is in a coma\Nfrom taking sleeping pills.
+Dialogue: 0,0:19:12.29,0:19:16.51,Blue,,0000,0000,0000,,- 已经几点了?\N- 早晨7:45了.
+Dialogue: 0,0:19:12.43,0:19:16.70,Default,,0000,0000,0000,,- How long have l been out?\N- lt's 7:45 in the morning.
+Dialogue: 0,0:19:16.73,0:19:18.82,Blue,,0000,0000,0000,,整晚\N暂时都没什么动静
+Dialogue: 0,0:19:16.90,0:19:18.96,Default,,0000,0000,0000,,We haven't had this much action\Nin one night
+Dialogue: 0,0:19:19.00,0:19:21.39,Blue,,0000,0000,0000,,只有59区的角鹿社俱乐部失火了.
+Dialogue: 0,0:19:19.14,0:19:21.57,Default,,0000,0000,0000,,since the Elk's Club fire of '59.
+Dialogue: 0,0:19:22.56,0:19:27.48,Blue,,0000,0000,0000,,哈里, 我们要申请搜查令\N去搜查里欧·强生的房子.
+Dialogue: 0,0:19:22.71,0:19:27.65,Default,,0000,0000,0000,,Harry, we need to get a search warrant\Nfor Leo Johnson's house.
+Dialogue: 0,0:19:27.70,0:19:31.66,Blue,,0000,0000,0000,,不用了. 里欧就在\N自己的客厅中枪的.
+Dialogue: 0,0:19:27.85,0:19:31.81,Default,,0000,0000,0000,,No need. Leo was shot\Nin his own living room.
+Dialogue: 0,0:19:31.83,0:19:35.31,Blue,,0000,0000,0000,,是戴佩提·布伦南发现他的.
+Dialogue: 0,0:19:31.98,0:19:35.44,Default,,0000,0000,0000,,Deputy Brennan found him.
+Dialogue: 0,0:19:39.62,0:19:43.76,Blue,,0000,0000,0000,,- 你那儿都不能去.\N- 医生. 当正义在召唤的时候,
+Dialogue: 0,0:19:39.76,0:19:43.92,Default,,0000,0000,0000,,- You're not going anywhere.\N- Doc. When the will is invoked,
+Dialogue: 0,0:19:43.93,0:19:47.89,Blue,,0000,0000,0000,,身体的复原能力\N会变得非常惊人.
+Dialogue: 0,0:19:44.10,0:19:48.03,Default,,0000,0000,0000,,the recuperative powers of the physical\Nbody are simply extraordinary.
+Dialogue: 0,0:19:54.38,0:19:57.90,Blue,,0000,0000,0000,,只需要给我几个小时\N换衣服.
+Dialogue: 0,0:19:54.51,0:19:58.03,Default,,0000,0000,0000,,Just give me a couple of hours\Nto get dressed.
+Dialogue: 0,0:20:11.44,0:20:15.09,Blue,,0000,0000,0000,,{\i1}我现在正站在\N一大片的贮木场前{\i0}
+Dialogue: 0,0:20:11.56,0:20:15.22,Default,,0000,0000,0000,,I'm standing just in front of\Nwhere a massive Iog-storage area
+Dialogue: 0,0:20:15.26,0:20:17.87,Blue,,0000,0000,0000,,{\i1}帕卡德锯木厂\N被大火烧成一片废墟,{\i0}
+Dialogue: 0,0:20:15.39,0:20:18.02,Default,,0000,0000,0000,,of the Packard Saw MiII\Nburned to the ground,
+Dialogue: 0,0:20:18.05,0:20:20.96,Blue,,0000,0000,0000,,{\i1}消防局的调查员\N在彻底调查后声称这次是一个{\i0}
+Dialogue: 0,0:20:18.20,0:20:21.13,Default,,0000,0000,0000,,under what fire department\Ninvestigators are caIIing
+Dialogue: 0,0:20:21.14,0:20:22.88,Blue,,0000,0000,0000,,{\i1}"神秘事件. "{\i0}
+Dialogue: 0,0:20:21.30,0:20:23.03,Default,,0000,0000,0000,,''mysterious circumstances. ''
+Dialogue: 0,0:20:25.19,0:20:27.97,Blue,,0000,0000,0000,,{\i1}迄今为止, 这是我们能从官方\N所获得的最多消息,{\i0}
+Dialogue: 0,0:20:25.34,0:20:28.14,Default,,0000,0000,0000,,Now, poIice officiaIs have toId me\Nthat they have, as of yet,
+Dialogue: 0,0:20:28.15,0:20:30.54,Blue,,0000,0000,0000,,{\i1}- 波比.\N- 所获证据表明{\i0}
+Dialogue: 0,0:20:28.31,0:20:30.67,Default,,0000,0000,0000,,- Bobby.\N- uncovered no apparent Iink
+Dialogue: 0,0:20:30.71,0:20:32.58,Blue,,0000,0000,0000,,{\i1}这两个事件之间\N似乎没有直接的关系{\i0}
+Dialogue: 0,0:20:30.84,0:20:32.71,Default,,0000,0000,0000,,between these two\NseemingIy unreIated
+Dialogue: 0,0:20:32.76,0:20:34.19,Blue,,0000,0000,0000,,{\i1}- 波比.\N- 很可能只是两个不幸的意外.{\i0}
+Dialogue: 0,0:20:32.88,0:20:34.35,Default,,0000,0000,0000,,- Bobby.\N- tragedies.
+Dialogue: 0,0:20:34.37,0:20:36.67,Blue,,0000,0000,0000,,{\i1}这里是帕卡德锯木厂\N现场为你直播...{\i0}
+Dialogue: 0,0:20:34.51,0:20:36.85,Default,,0000,0000,0000,,Reporting Iive\Nfrom the Packard Saw MiII...
+Dialogue: 0,0:20:36.89,0:20:39.46,Blue,,0000,0000,0000,,库珀, 你不能这样走\N完全不顾自己的身体.
+Dialogue: 0,0:20:37.05,0:20:39.57,Default,,0000,0000,0000,,Cooper, this is totally\Nagainst my recommendations.
+Dialogue: 0,0:20:39.64,0:20:41.16,Blue,,0000,0000,0000,,没事, 医生. 我会小心的.
+Dialogue: 0,0:20:39.79,0:20:41.31,Default,,0000,0000,0000,,lt's all right, doc. Duly noted.
+Dialogue: 0,0:20:41.33,0:20:43.81,Blue,,0000,0000,0000,,你断了两条肋骨,\N好些小软骨还没修复.
+Dialogue: 0,0:20:41.49,0:20:43.98,Default,,0000,0000,0000,,You got two busted ribs,\Nyour cartilage is a mess.
+Dialogue: 0,0:20:43.99,0:20:46.42,Blue,,0000,0000,0000,,天知道还会发生什么事故?
+Dialogue: 0,0:20:44.16,0:20:46.56,Default,,0000,0000,0000,,Who knows what else is wrong?
+Dialogue: 0,0:20:47.69,0:20:49.47,Blue,,0000,0000,0000,,那是谁?
+Dialogue: 0,0:20:47.83,0:20:49.59,Default,,0000,0000,0000,,What's that?
+Dialogue: 0,0:20:50.82,0:20:52.95,Blue,,0000,0000,0000,,雅克·雷诺.
+Dialogue: 0,0:20:51.00,0:20:53.09,Default,,0000,0000,0000,,Jacques Renault.
+Dialogue: 0,0:20:53.13,0:20:55.52,Blue,,0000,0000,0000,,你觉得那个袋子在微笑吗?
+Dialogue: 0,0:20:53.30,0:20:55.67,Default,,0000,0000,0000,,ls that bag smiling?
+Dialogue: 0,0:20:57.09,0:20:59.00,Blue,,0000,0000,0000,,微笑?
+Dialogue: 0,0:20:57.24,0:20:59.17,Default,,0000,0000,0000,,Smiling?
+Dialogue: 0,0:21:00.48,0:21:03.39,Blue,,0000,0000,0000,,都这时候了,还有什么好微笑的?
+Dialogue: 0,0:21:00.61,0:21:03.54,Default,,0000,0000,0000,,What's there to smile about?
+Dialogue: 0,0:22:31.22,0:22:32.35,Blue,,0000,0000,0000,,你想念贝丝吗?
+Dialogue: 0,0:22:31.40,0:22:32.49,Default,,0000,0000,0000,,Do you miss Beth?
+Dialogue: 0,0:22:33.74,0:22:34.83,Blue,,0000,0000,0000,,啊?
+Dialogue: 0,0:22:33.90,0:22:34.96,Default,,0000,0000,0000,,What?
+Dialogue: 0,0:22:37.31,0:22:38.92,Blue,,0000,0000,0000,,你想念你妈妈吗?
+Dialogue: 0,0:22:37.47,0:22:39.03,Default,,0000,0000,0000,,Have you been missing your mom?
+Dialogue: 0,0:22:43.53,0:22:46.23,Blue,,0000,0000,0000,,- 莎拉姨妈?\N- 嗯?
+Dialogue: 0,0:22:43.68,0:22:46.41,Default,,0000,0000,0000,,- Aunt Sarah?\N- Yeah?
+Dialogue: 0,0:22:46.45,0:22:48.75,Blue,,0000,0000,0000,,我昨天晚上作了个怪梦.
+Dialogue: 0,0:22:46.61,0:22:48.91,Default,,0000,0000,0000,,l had the strangest dream last night.
+Dialogue: 0,0:22:50.28,0:22:51.80,Blue,,0000,0000,0000,,什么怪梦?
+Dialogue: 0,0:22:50.45,0:22:51.94,Default,,0000,0000,0000,,About what?
+Dialogue: 0,0:22:55.28,0:22:57.33,Blue,,0000,0000,0000,,梦见了地毯.
+Dialogue: 0,0:22:55.45,0:22:57.48,Default,,0000,0000,0000,,The rug.
+Dialogue: 0,0:22:57.50,0:22:58.54,Blue,,0000,0000,0000,,就在这里.
+Dialogue: 0,0:22:57.66,0:22:58.68,Default,,0000,0000,0000,,Right here.
+Dialogue: 0,0:22:59.33,0:23:02.59,Blue,,0000,0000,0000,,从这里\N我正坐着这里.
+Dialogue: 0,0:22:59.49,0:23:02.72,Default,,0000,0000,0000,,Right from this angle\Nwhere l'm sitting.
+Dialogue: 0,0:23:03.64,0:23:04.90,Blue,,0000,0000,0000,,你梦见到劳拉了?
+Dialogue: 0,0:23:03.80,0:23:05.06,Default,,0000,0000,0000,,Was Laura in it?
+Dialogue: 0,0:23:06.51,0:23:09.29,Blue,,0000,0000,0000,,{\i1}噢,梅尔斯·杜丝和豆斯·杜丝\N还有小绵羊戴维{\i0}
+Dialogue: 0,0:23:06.67,0:23:09.46,Default,,0000,0000,0000,,Oh, Mairzy Doats and Dozy Doats\NAnd IiddIe Iamzy divey
+Dialogue: 0,0:23:09.47,0:23:11.69,Blue,,0000,0000,0000,,{\i1}和小小戴维, 不是吗?{\i0}
+Dialogue: 0,0:23:09.64,0:23:11.83,Default,,0000,0000,0000,,A kiddIey divey too, wouIdn't you?
+Dialogue: 0,0:23:11.86,0:23:14.60,Blue,,0000,0000,0000,,{\i1}噢,梅尔斯·杜丝和豆斯·杜丝\N还有小绵羊戴维{\i0}
+Dialogue: 0,0:23:12.00,0:23:14.73,Default,,0000,0000,0000,,Oh, Mairzy Doats and Dozy Doats\NAnd IiddIe Iamzy divey
+Dialogue: 0,0:23:14.82,0:23:16.69,Blue,,0000,0000,0000,,{\i1}和小小戴维, 不是吗?{\i0}
+Dialogue: 0,0:23:14.97,0:23:16.84,Default,,0000,0000,0000,,A kiddIey divey too, wouIdn't you?
+Dialogue: 0,0:23:16.91,0:23:19.78,Blue,,0000,0000,0000,,{\i1}现在, 来唱首怪歌\N一定很好玩{\i0}
+Dialogue: 0,0:23:17.04,0:23:19.91,Default,,0000,0000,0000,,Now, if the words sound queer\NAnd funny to your ear
+Dialogue: 0,0:23:19.96,0:23:21.83,Blue,,0000,0000,0000,,{\i1}一起扭扭屁股乱唱歌{\i0}
+Dialogue: 0,0:23:20.08,0:23:21.98,Default,,0000,0000,0000,,A IittIe bit jumbIed and jivey
+Dialogue: 0,0:23:22.00,0:23:24.96,Blue,,0000,0000,0000,,{\i1}唱, 「梅尔斯吃燕麦粥」\N她最爱吃燕麦粥{\i0}
+Dialogue: 0,0:23:22.15,0:23:25.08,Default,,0000,0000,0000,,Say, ''Mares eat oats\NAnd does eat oats
+Dialogue: 0,0:23:25.18,0:23:29.88,Blue,,0000,0000,0000,,{\i1}「小绵羊却爱吃常春藤」{\i0}
+Dialogue: 0,0:23:25.32,0:23:30.02,Default,,0000,0000,0000,,And IittIe Iambs eat ivy''
+Dialogue: 0,0:23:30.05,0:23:31.44,Blue,,0000,0000,0000,,利兰?
+Dialogue: 0,0:23:30.19,0:23:31.59,Default,,0000,0000,0000,,Leland?
+Dialogue: 0,0:23:31.62,0:23:35.88,Blue,,0000,0000,0000,,{\i1}噢,梅尔斯·杜丝和豆斯·杜丝\N还有小绵羊戴维{\i0}
+Dialogue: 0,0:23:31.76,0:23:36.02,Default,,0000,0000,0000,,Oh, Mairzy Doats and Dozy Doats\NAnd IiddIe Iamzy divey
+Dialogue: 0,0:23:36.06,0:23:38.63,Blue,,0000,0000,0000,,{\i1}和小小戴维, 不是吗?{\i0}
+Dialogue: 0,0:23:36.20,0:23:38.76,Default,,0000,0000,0000,,A kiddIey divey too, wouIdn't you?
+Dialogue: 0,0:23:38.84,0:23:41.63,Blue,,0000,0000,0000,,{\i1}和小小戴维, 不是吗?{\i0}
+Dialogue: 0,0:23:39.00,0:23:41.76,Default,,0000,0000,0000,,A kiddIey divey too, wouIdn't you?
+Dialogue: 0,0:23:41.80,0:23:47.81,Blue,,0000,0000,0000,,{\i1}还有小小戴维, 不是吗?{\i0}
+Dialogue: 0,0:23:41.97,0:23:47.96,Default,,0000,0000,0000,,A kiddIey divey too, wouIdn't you?
+Dialogue: 0,0:23:50.38,0:23:51.46,Blue,,0000,0000,0000,,早啊, 亲爱的.
+Dialogue: 0,0:23:50.54,0:23:51.60,Default,,0000,0000,0000,,Morning, dears.
+Dialogue: 0,0:23:51.64,0:23:54.03,Blue,,0000,0000,0000,,{\i1}噢,梅尔斯·杜丝和豆斯·杜丝\N还有小绵羊戴维{\i0}
+Dialogue: 0,0:23:51.78,0:23:54.21,Default,,0000,0000,0000,,Oh, Mairzy Doats and Dozy Doats\NAnd IiddIe Iamzy divey
+Dialogue: 0,0:23:54.25,0:23:55.25,Blue,,0000,0000,0000,,噢, 利兰.
+Dialogue: 0,0:23:54.38,0:23:55.40,Default,,0000,0000,0000,,Oh, Leland.
+Dialogue: 0,0:23:55.77,0:23:57.56,Blue,,0000,0000,0000,,利兰姨父的头发都变白了.
+Dialogue: 0,0:23:55.91,0:23:57.71,Default,,0000,0000,0000,,Uncle Leland's hair turned white.
+Dialogue: 0,0:23:58.04,0:24:00.65,Blue,,0000,0000,0000,,利兰, 回来.
+Dialogue: 0,0:23:58.18,0:24:00.78,Default,,0000,0000,0000,,Leland, come back here.
+Dialogue: 0,0:24:21.32,0:24:23.71,Blue,,0000,0000,0000,,噢, 天啊.
+Dialogue: 0,0:24:21.44,0:24:23.87,Default,,0000,0000,0000,,Oh, God.
+Dialogue: 0,0:24:28.50,0:24:30.85,Blue,,0000,0000,0000,,来. 日程表.
+Dialogue: 0,0:24:28.65,0:24:30.98,Default,,0000,0000,0000,,Okay. Agenda.
+Dialogue: 0,0:24:31.02,0:24:32.72,Blue,,0000,0000,0000,,第一.
+Dialogue: 0,0:24:31.15,0:24:32.88,Default,,0000,0000,0000,,One.
+Dialogue: 0,0:24:32.89,0:24:34.68,Blue,,0000,0000,0000,,我要知道凯萨琳现在是死是活.
+Dialogue: 0,0:24:33.05,0:24:34.81,Default,,0000,0000,0000,,l want a location on Catherine.
+Dialogue: 0,0:24:34.85,0:24:38.81,Blue,,0000,0000,0000,,我们装作什么都不知道,\N她来做替罪羊.
+Dialogue: 0,0:24:35.02,0:24:38.96,Default,,0000,0000,0000,,Keep our distance, just make sure\Nshe's ready to take the fall.
+Dialogue: 0,0:24:38.99,0:24:40.29,Blue,,0000,0000,0000,,第二.
+Dialogue: 0,0:24:39.12,0:24:40.46,Default,,0000,0000,0000,,Two.
+Dialogue: 0,0:24:40.47,0:24:42.73,Blue,,0000,0000,0000,,我要知道\N里欧·强生的详细病情
+Dialogue: 0,0:24:40.63,0:24:42.89,Default,,0000,0000,0000,,l want a complete medical\Non Leo Johnson
+Dialogue: 0,0:24:42.90,0:24:44.51,Blue,,0000,0000,0000,,看他到底有没康复的迹象
+Dialogue: 0,0:24:43.06,0:24:44.65,Default,,0000,0000,0000,,and his prospects for recovery
+Dialogue: 0,0:24:44.69,0:24:48.30,Blue,,0000,0000,0000,,我还要汉克·詹宁斯\N好好给我解释
+Dialogue: 0,0:24:44.83,0:24:48.46,Default,,0000,0000,0000,,and a satisfactory explanation\Nfrom Hank Jennings
+Dialogue: 0,0:24:48.47,0:24:52.74,Blue,,0000,0000,0000,,为什么在格斯伍纪念公园的时候\N里欧没有被警察捉去做酒精测验呢
+Dialogue: 0,0:24:48.63,0:24:52.90,Default,,0000,0000,0000,,why Leo isn't being measured\Nfor a plot in Ghostwood Memorial Park.
+Dialogue: 0,0:24:52.91,0:24:55.74,Blue,,0000,0000,0000,,不管怎样，有好开始就已经成功一半了.
+Dialogue: 0,0:24:53.07,0:24:55.90,Default,,0000,0000,0000,,Well begun is half done.
+Dialogue: 0,0:24:55.92,0:24:58.87,Blue,,0000,0000,0000,,{\i1}噢,梅尔斯·杜丝和豆斯·杜丝\N还有小绵羊戴维{\i0}
+Dialogue: 0,0:24:56.07,0:24:59.01,Default,,0000,0000,0000,,Oh, Mairzy Doats and Dozy Doats\NAnd IiddIe Iamzy divey
+Dialogue: 0,0:24:59.05,0:25:01.35,Blue,,0000,0000,0000,,{\i1}还有小小戴维, 不是吗?{\i0}
+Dialogue: 0,0:24:59.18,0:25:01.48,Default,,0000,0000,0000,,A kiddIey divey too, wouIdn't you?
+Dialogue: 0,0:25:01.48,0:25:04.36,Blue,,0000,0000,0000,,{\i1}噢,梅尔斯·杜丝和豆斯·杜丝\N还有小绵羊戴维{\i0}
+Dialogue: 0,0:25:01.65,0:25:04.51,Default,,0000,0000,0000,,Oh, Mairzy Doats and Dozy Doats\NAnd IiddIe Iamzy divey
+Dialogue: 0,0:25:04.53,0:25:06.66,Blue,,0000,0000,0000,,{\i1}还有小小戴维, 不是吗?{\i0}
+Dialogue: 0,0:25:04.68,0:25:06.81,Default,,0000,0000,0000,,A kiddIey divey too, wouIdn't you?
+Dialogue: 0,0:25:06.84,0:25:10.01,Blue,,0000,0000,0000,,{\i1}现在, 来唱首怪歌\N一定很好玩{\i0}
+Dialogue: 0,0:25:06.99,0:25:10.15,Default,,0000,0000,0000,,Now, if the words sound queer\NAnd funny to your ear
+Dialogue: 0,0:25:10.19,0:25:12.62,Blue,,0000,0000,0000,,{\i1}一起扭扭屁股乱唱歌{\i0}
+Dialogue: 0,0:25:10.32,0:25:12.79,Default,,0000,0000,0000,,A IittIe bit jumbIed and jivey
+Dialogue: 0,0:25:12.80,0:25:16.67,Blue,,0000,0000,0000,,{\i1}唱, 「梅尔斯吃燕麦粥」\N她最爱吃燕麦粥{\i0}
+Dialogue: 0,0:25:12.96,0:25:16.83,Default,,0000,0000,0000,,Say, ''Mares eat oats\NAnd does eat oats
+Dialogue: 0,0:25:16.85,0:25:20.94,Blue,,0000,0000,0000,,{\i1}「小绵羊却爱吃常春藤」{\i0}
+Dialogue: 0,0:25:17.00,0:25:21.09,Default,,0000,0000,0000,,And IittIe Iambs eat ivy''
+Dialogue: 0,0:25:23.03,0:25:25.20,Blue,,0000,0000,0000,,我回来了.
+Dialogue: 0,0:25:23.17,0:25:25.33,Default,,0000,0000,0000,,l'm back.
+Dialogue: 0,0:25:25.42,0:25:27.51,Blue,,0000,0000,0000,,整装待发.
+Dialogue: 0,0:25:25.57,0:25:27.66,Default,,0000,0000,0000,,Back and ready.
+Dialogue: 0,0:25:34.99,0:25:36.95,Blue,,0000,0000,0000,,但是子弹是从外面射进来的.
+Dialogue: 0,0:25:35.15,0:25:37.12,Default,,0000,0000,0000,,But the bullet came from outside.
+Dialogue: 0,0:25:39.61,0:25:41.39,Blue,,0000,0000,0000,,你有什么意见?
+Dialogue: 0,0:25:39.79,0:25:41.51,Default,,0000,0000,0000,,How do you figure?
+Dialogue: 0,0:25:42.18,0:25:44.04,Blue,,0000,0000,0000,,警长, 这不是已经很清楚了吗.
+Dialogue: 0,0:25:42.32,0:25:44.19,Default,,0000,0000,0000,,Sheriff, a picture is forming.
+Dialogue: 0,0:25:44.70,0:25:46.92,Blue,,0000,0000,0000,,一把大斧头在沙发上.
+Dialogue: 0,0:25:44.86,0:25:47.05,Default,,0000,0000,0000,,Big ax on the couch.
+Dialogue: 0,0:25:47.09,0:25:50.14,Blue,,0000,0000,0000,,案发当晚\N这些鹅如常飞着.
+Dialogue: 0,0:25:47.23,0:25:50.29,Default,,0000,0000,0000,,These same geese were flying\Nthat evening.
+Dialogue: 0,0:25:50.36,0:25:52.66,Blue,,0000,0000,0000,,里欧当时正\N猛推着某个人.
+Dialogue: 0,0:25:50.50,0:25:52.83,Default,,0000,0000,0000,,Leo was trying to turn someone\Ninto kindling.
+Dialogue: 0,0:25:52.84,0:25:54.62,Blue,,0000,0000,0000,,那个人撞到了电视机, 把它撞歪了.
+Dialogue: 0,0:25:53.00,0:25:54.80,Default,,0000,0000,0000,,That person hit the TV, moved it.
+Dialogue: 0,0:25:54.84,0:25:57.14,Blue,,0000,0000,0000,,你看到这个印了没有\N地毯上的这个.
+Dialogue: 0,0:25:55.00,0:25:57.30,Default,,0000,0000,0000,,You can see the depression\Nin the carpet.
+Dialogue: 0,0:25:58.45,0:25:59.71,Blue,,0000,0000,0000,,雪莉?
+Dialogue: 0,0:25:58.60,0:25:59.87,Default,,0000,0000,0000,,Shelly?
+Dialogue: 0,0:25:59.89,0:26:02.45,Blue,,0000,0000,0000,,雪莉·强生约99磅重\N而且浑身都湿透了.
+Dialogue: 0,0:26:00.04,0:26:02.56,Default,,0000,0000,0000,,Shelly Johnson's about 99 pounds\Nsoaking wet.
+Dialogue: 0,0:26:02.63,0:26:04.32,Blue,,0000,0000,0000,,这是一台大电视.
+Dialogue: 0,0:26:02.74,0:26:04.47,Default,,0000,0000,0000,,This is a big TV.
+Dialogue: 0,0:26:04.50,0:26:06.72,Blue,,0000,0000,0000,,里欧冲上前, 举起斧头.
+Dialogue: 0,0:26:04.64,0:26:06.87,Default,,0000,0000,0000,,Leo advanced, ax raised.
+Dialogue: 0,0:26:06.89,0:26:09.07,Blue,,0000,0000,0000,,然后呢?
+Dialogue: 0,0:26:07.05,0:26:09.21,Default,,0000,0000,0000,,Then what happened?
+Dialogue: 0,0:26:09.24,0:26:13.11,Blue,,0000,0000,0000,,子弹穿过窗户,\N把里欧放到在沙发上.
+Dialogue: 0,0:26:09.38,0:26:13.25,Default,,0000,0000,0000,,Bullet came through the window,\Nknocked Leo back onto the couch.
+Dialogue: 0,0:26:13.33,0:26:16.25,Blue,,0000,0000,0000,,你觉得是雪莉开的枪吗?\N不是她的话，又是谁开的枪呢?
+Dialogue: 0,0:26:13.49,0:26:16.39,Default,,0000,0000,0000,,Do you think it was Shelly\Nwho pulled the trigger?
+Dialogue: 0,0:26:16.42,0:26:20.03,Blue,,0000,0000,0000,,警长, 可以先暂时,\N忽略雪莉吗.
+Dialogue: 0,0:26:16.56,0:26:20.18,Default,,0000,0000,0000,,Sheriff, get your mind off Shelly,\Nfor a moment.
+Dialogue: 0,0:26:20.21,0:26:23.34,Blue,,0000,0000,0000,,我们不会知道雪莉做过什么\N直到我们查出她当晚到底是几点到锯木厂的.
+Dialogue: 0,0:26:20.36,0:26:23.49,Default,,0000,0000,0000,,We won't know about Shelly until we\Nfind out what time she got to the mill.
+Dialogue: 0,0:26:27.17,0:26:29.96,Blue,,0000,0000,0000,,{\i1}有惊喜给大伙儿. 肉欲世界.{\i0}
+Dialogue: 0,0:26:27.33,0:26:30.10,Default,,0000,0000,0000,,Surprise. FIesh WorId.
+Dialogue: 0,0:26:30.13,0:26:32.00,Blue,,0000,0000,0000,,嘿, 第几期?
+Dialogue: 0,0:26:30.27,0:26:32.17,Default,,0000,0000,0000,,Hey, what issue is this?
+Dialogue: 0,0:26:32.18,0:26:34.74,Blue,,0000,0000,0000,,还是没找到可卡因.\N卡车上和这里都没有.
+Dialogue: 0,0:26:32.34,0:26:34.90,Default,,0000,0000,0000,,Still no cocaine.\NHere or in the truck.
+Dialogue: 0,0:26:34.92,0:26:36.48,Blue,,0000,0000,0000,,但我在车上找到这个.
+Dialogue: 0,0:26:35.07,0:26:36.60,Default,,0000,0000,0000,,But l found this in the truck.
+Dialogue: 0,0:26:36.66,0:26:38.62,Blue,,0000,0000,0000,,里欧的抹布.
+Dialogue: 0,0:26:36.78,0:26:38.77,Default,,0000,0000,0000,,Leo's duster.
+Dialogue: 0,0:26:39.40,0:26:42.66,Blue,,0000,0000,0000,,- 汽油味很重.\N- 锯木厂.
+Dialogue: 0,0:26:39.54,0:26:42.78,Default,,0000,0000,0000,,- Reeks of gasoline.\N- The mill.
+Dialogue: 0,0:26:45.63,0:26:46.84,Blue,,0000,0000,0000,,干得好, 豪克.
+Dialogue: 0,0:26:45.75,0:26:47.01,Default,,0000,0000,0000,,Good work, Hawk.
+Dialogue: 0,0:26:54.63,0:26:57.20,Blue,,0000,0000,0000,,哈里, 你看谁来了?
+Dialogue: 0,0:26:54.76,0:26:57.35,Default,,0000,0000,0000,,Harry, do you know who it is?
+Dialogue: 0,0:26:57.38,0:26:59.29,Blue,,0000,0000,0000,,哈里, 你看谁来了?
+Dialogue: 0,0:26:57.53,0:26:59.43,Default,,0000,0000,0000,,Harry, do you know who it is?
+Dialogue: 0,0:26:59.46,0:27:01.25,Blue,,0000,0000,0000,,- 哈里.\N- 外面再喊什么?
+Dialogue: 0,0:26:59.60,0:27:01.40,Default,,0000,0000,0000,,- Harry.\N- What's that?
+Dialogue: 0,0:27:01.47,0:27:04.16,Blue,,0000,0000,0000,,- 哈里, 你看谁来了?\N- 是安迪再喊.
+Dialogue: 0,0:27:01.60,0:27:04.30,Default,,0000,0000,0000,,- Harry, do you know who it is?\N- lt's Andy.
+Dialogue: 0,0:27:04.34,0:27:06.12,Blue,,0000,0000,0000,,他看起来\N好像很不高兴.
+Dialogue: 0,0:27:04.47,0:27:06.27,Default,,0000,0000,0000,,He seems pretty upset\Nabout something.
+Dialogue: 0,0:27:06.34,0:27:10.08,Blue,,0000,0000,0000,,哈里, 是罗森菲尔德探员.
+Dialogue: 0,0:27:06.47,0:27:10.24,Default,,0000,0000,0000,,Harry, it's Agent Rosenflower.
+Dialogue: 0,0:27:25.62,0:27:26.79,Blue,,0000,0000,0000,,安迪, 你没事吧?
+Dialogue: 0,0:27:25.76,0:27:26.95,Default,,0000,0000,0000,,Andy, are you all right?
+Dialogue: 0,0:27:30.45,0:27:32.10,Blue,,0000,0000,0000,,嘿, 安迪.
+Dialogue: 0,0:27:30.60,0:27:32.26,Default,,0000,0000,0000,,Hey, Andy.
+Dialogue: 0,0:27:32.28,0:27:33.75,Blue,,0000,0000,0000,,你怎样啦?
+Dialogue: 0,0:27:32.43,0:27:33.90,Default,,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:27:50.81,0:27:53.95,Blue,,0000,0000,0000,,又一个执法史上\N值得纪念的时刻.
+Dialogue: 0,0:27:50.95,0:27:54.11,Default,,0000,0000,0000,,And it's another great moment\Nin law enforcement history.
+Dialogue: 0,0:28:10.92,0:28:12.66,Blue,,0000,0000,0000,,嘿, 艾伯特.
+Dialogue: 0,0:28:11.04,0:28:12.80,Default,,0000,0000,0000,,Hey, Albert.
+Dialogue: 0,0:28:13.84,0:28:16.71,Blue,,0000,0000,0000,,你的到来似乎还是\N有那么一点贡献的.
+Dialogue: 0,0:28:13.97,0:28:16.84,Default,,0000,0000,0000,,Looks like you were more right\Nthan you know.
+Dialogue: 0,0:28:20.71,0:28:24.28,Blue,,0000,0000,0000,,一双新靴子\N还有一大包可卡因.
+Dialogue: 0,0:28:20.85,0:28:24.44,Default,,0000,0000,0000,,Looks like a new pair of boots\Nand a lot of cocaine.
+Dialogue: 0,0:28:29.15,0:28:30.81,Blue,,0000,0000,0000,,安迪.
+Dialogue: 0,0:28:29.32,0:28:30.98,Default,,0000,0000,0000,,Andy.
+Dialogue: 0,0:28:33.90,0:28:35.42,Blue,,0000,0000,0000,,干得好.
+Dialogue: 0,0:28:34.03,0:28:35.55,Default,,0000,0000,0000,,Good work.
+Dialogue: 0,0:28:52.13,0:28:55.61,Blue,,0000,0000,0000,,馅饼太赞了!
+Dialogue: 0,0:28:52.31,0:28:55.77,Default,,0000,0000,0000,,Hot damn that pie is good!
+Dialogue: 0,0:29:14.59,0:29:16.89,Blue,,0000,0000,0000,,这是劳拉的眼镜\N你想要的那副.
+Dialogue: 0,0:29:14.73,0:29:17.07,Default,,0000,0000,0000,,Here's Laura's glasses\Nthat you wanted.
+Dialogue: 0,0:29:20.55,0:29:21.94,Blue,,0000,0000,0000,,谢谢.
+Dialogue: 0,0:29:20.71,0:29:22.07,Default,,0000,0000,0000,,Thanks.
+Dialogue: 0,0:29:50.05,0:29:51.88,Blue,,0000,0000,0000,,谢谢.
+Dialogue: 0,0:29:50.20,0:29:52.03,Default,,0000,0000,0000,,Thanks.
+Dialogue: 0,0:29:59.28,0:30:03.15,Blue,,0000,0000,0000,,唐娜, 你看这副眼镜\N我正带着的?
+Dialogue: 0,0:29:59.44,0:30:03.28,Default,,0000,0000,0000,,Donna, do you see these glasses\Nthat l'm wearing?
+Dialogue: 0,0:30:03.28,0:30:04.81,Blue,,0000,0000,0000,,嗯.
+Dialogue: 0,0:30:03.45,0:30:04.94,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:30:13.03,0:30:14.12,Blue,,0000,0000,0000,,我讨厌它.
+Dialogue: 0,0:30:13.16,0:30:14.28,Default,,0000,0000,0000,,l hate them.
+Dialogue: 0,0:30:15.12,0:30:18.43,Blue,,0000,0000,0000,,我再也不会带了.
+Dialogue: 0,0:30:15.26,0:30:18.59,Default,,0000,0000,0000,,l'm never wearing these again.
+Dialogue: 0,0:30:21.82,0:30:22.87,Blue,,0000,0000,0000,,好的.
+Dialogue: 0,0:30:21.97,0:30:22.99,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,0:30:29.79,0:30:32.27,Blue,,0000,0000,0000,,詹姆斯真的给抓起来了?
+Dialogue: 0,0:30:29.94,0:30:32.43,Default,,0000,0000,0000,,ls it true about James?
+Dialogue: 0,0:30:38.97,0:30:40.40,Blue,,0000,0000,0000,,他昨晚整晚都呆在监狱里.
+Dialogue: 0,0:30:39.12,0:30:40.58,Default,,0000,0000,0000,,He spent the night in jail.
+Dialogue: 0,0:30:42.06,0:30:44.15,Blue,,0000,0000,0000,,你觉得\N是我们害他给抓的吗?
+Dialogue: 0,0:30:42.19,0:30:44.28,Default,,0000,0000,0000,,Do you think\Nit's because of what we did?
+Dialogue: 0,0:30:45.76,0:30:48.11,Blue,,0000,0000,0000,,你看, 如果我们什么都不做\N就什么都不会知道了.
+Dialogue: 0,0:30:45.92,0:30:48.26,Default,,0000,0000,0000,,Look, we don't know\Nif we did anything.
+Dialogue: 0,0:30:48.28,0:30:51.98,Blue,,0000,0000,0000,,我爸说杰柯比是给人袭击\N才送进医院的.
+Dialogue: 0,0:30:48.43,0:30:52.12,Default,,0000,0000,0000,,My dad said Jacoby got sick\Nbecause he was attacked.
+Dialogue: 0,0:30:52.15,0:30:54.16,Blue,,0000,0000,0000,,我们只是给他寄了一盒录像带而已.
+Dialogue: 0,0:30:52.30,0:30:54.29,Default,,0000,0000,0000,,All we did was send him a tape.
+Dialogue: 0,0:30:54.90,0:30:58.12,Blue,,0000,0000,0000,,但是，如果不是我们骗他出来\N他可能也不会受伤.
+Dialogue: 0,0:30:55.03,0:30:58.26,Default,,0000,0000,0000,,Maybe he wouldn't have been attacked\Nif we hadn't.
+Dialogue: 0,0:30:58.34,0:31:01.03,Blue,,0000,0000,0000,,可能. 你怎么不想想可能你今天不洗头\N明天太阳还升不起来呢.
+Dialogue: 0,0:30:58.47,0:31:01.17,Default,,0000,0000,0000,,Maybe. Maybe the sun won't come\Nup tomorrow if you wash your hair.
+Dialogue: 0,0:31:01.21,0:31:04.30,Blue,,0000,0000,0000,,别老是有这些让人抓狂的念头\N干了就干了，没什么好后悔的.
+Dialogue: 0,0:31:01.34,0:31:04.43,Default,,0000,0000,0000,,Think like that and you're gonna\Ngo crazy. What's done is done.
+Dialogue: 0,0:31:06.82,0:31:08.95,Blue,,0000,0000,0000,,现在唯一能让我们\N摆脱困境的办法
+Dialogue: 0,0:31:06.98,0:31:09.11,Default,,0000,0000,0000,,The only way this won't come back\Nto haunt us
+Dialogue: 0,0:31:09.13,0:31:11.91,Blue,,0000,0000,0000,,就是什么都别说\N尤其是那天晚上的事.
+Dialogue: 0,0:31:09.28,0:31:12.05,Default,,0000,0000,0000,,is if we keep quiet\Nabout what happened last night.
+Dialogue: 0,0:31:13.74,0:31:17.13,Blue,,0000,0000,0000,,我敢向你保证\N詹姆斯也会这样做的.
+Dialogue: 0,0:31:13.92,0:31:17.29,Default,,0000,0000,0000,,l can assure you\NJames is doing the same thing.
+Dialogue: 0,0:31:21.92,0:31:22.96,Blue,,0000,0000,0000,,明白了吗?
+Dialogue: 0,0:31:22.06,0:31:23.12,Default,,0000,0000,0000,,Get the picture?
+Dialogue: 0,0:31:24.49,0:31:26.23,Blue,,0000,0000,0000,,一清二楚.
+Dialogue: 0,0:31:24.66,0:31:26.36,Default,,0000,0000,0000,,Loud and clear.
+Dialogue: 0,0:31:32.89,0:31:36.98,Blue,,0000,0000,0000,,利兰姨父的头发一夜之间全白了.
+Dialogue: 0,0:31:33.04,0:31:37.13,Default,,0000,0000,0000,,Uncle Leland's hair turned white.
+Dialogue: 0,0:31:39.90,0:31:41.50,Blue,,0000,0000,0000,,真的?
+Dialogue: 0,0:31:40.05,0:31:41.67,Default,,0000,0000,0000,,Really?
+Dialogue: 0,0:31:42.85,0:31:44.85,Blue,,0000,0000,0000,,白的像鬼一样.
+Dialogue: 0,0:31:43.01,0:31:45.01,Default,,0000,0000,0000,,White as a sheet.
+Dialogue: 0,0:31:47.64,0:31:48.73,Blue,,0000,0000,0000,,太怪异了.
+Dialogue: 0,0:31:47.82,0:31:48.88,Default,,0000,0000,0000,,Weird.
+Dialogue: 0,0:31:51.43,0:31:53.69,Blue,,0000,0000,0000,,唐娜, 有你的信.
+Dialogue: 0,0:31:51.56,0:31:53.85,Default,,0000,0000,0000,,Donna, l have something for you.
+Dialogue: 0,0:31:54.00,0:31:56.65,Blue,,0000,0000,0000,,昨天\N邮寄来「双食餐厅」这里的.
+Dialogue: 0,0:31:54.16,0:31:56.82,Default,,0000,0000,0000,,Came here to the Double R\Nyesterday.
+Dialogue: 0,0:31:58.04,0:31:59.91,Blue,,0000,0000,0000,,谢谢, 诺玛.
+Dialogue: 0,0:31:58.20,0:32:00.06,Default,,0000,0000,0000,,Thanks, Norma.
+Dialogue: 0,0:32:12.93,0:32:15.45,Blue,,0000,0000,0000,,- 天啊.\N- 怎么了?
+Dialogue: 0,0:32:13.08,0:32:15.60,Default,,0000,0000,0000,,- God.\N- What is it?
+Dialogue: 0,0:32:22.41,0:32:26.07,Blue,,0000,0000,0000,,"借上门送餐服务的机会去调查."
+Dialogue: 0,0:32:22.55,0:32:26.22,Default,,0000,0000,0000,,''Look into the Meals on Wheels.''
+Dialogue: 0,0:32:59.36,0:33:01.45,Blue,,0000,0000,0000,,我怎样才能尽量讲的简单点呢, 库珀?
+Dialogue: 0,0:32:59.52,0:33:01.58,Default,,0000,0000,0000,,How simple can l make it, Cooper?
+Dialogue: 0,0:33:01.62,0:33:04.01,Blue,,0000,0000,0000,,联邦探员查案，\N联邦探员中枪.
+Dialogue: 0,0:33:01.76,0:33:04.16,Default,,0000,0000,0000,,FBl agent gets shot,\NFBl agent investigates.
+Dialogue: 0,0:33:04.19,0:33:08.15,Blue,,0000,0000,0000,,而我刚好就在附近, 我西雅图的实验室里,\N之前又插手过这件案子.
+Dialogue: 0,0:33:04.33,0:33:08.29,Default,,0000,0000,0000,,l'm in proximity, work in the Seattle lab,\Nl'm familiar with the underlying case.
+Dialogue: 0,0:33:08.32,0:33:09.98,Blue,,0000,0000,0000,,- 疼吗?\N- 嗯.
+Dialogue: 0,0:33:08.47,0:33:10.13,Default,,0000,0000,0000,,- Does that hurt?\N- Yes.
+Dialogue: 0,0:33:10.15,0:33:13.89,Blue,,0000,0000,0000,,艾伯特, 重点是, 你在这里\N是绝对不受当地人欢迎的.
+Dialogue: 0,0:33:10.30,0:33:14.07,Default,,0000,0000,0000,,Albert, the point is, you're not gonna\Nwin any local popularity contests.
+Dialogue: 0,0:33:14.11,0:33:17.55,Blue,,0000,0000,0000,,不, 重点是\N我们的头，戈登·库尔派我回来的.
+Dialogue: 0,0:33:14.27,0:33:17.67,Default,,0000,0000,0000,,No, the point is\NGordon Cole ordered me back here.
+Dialogue: 0,0:33:19.81,0:33:21.29,Blue,,0000,0000,0000,,吸气.
+Dialogue: 0,0:33:19.98,0:33:21.45,Default,,0000,0000,0000,,Breathe.
+Dialogue: 0,0:33:24.99,0:33:26.56,Blue,,0000,0000,0000,,再来.
+Dialogue: 0,0:33:25.15,0:33:26.67,Default,,0000,0000,0000,,Again.
+Dialogue: 0,0:33:28.87,0:33:30.47,Blue,,0000,0000,0000,,好.
+Dialogue: 0,0:33:29.05,0:33:30.61,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,0:33:31.26,0:33:34.91,Blue,,0000,0000,0000,,开枪打你的人是个右撇子\N约5尺6寸到 5尺10寸高,
+Dialogue: 0,0:33:31.42,0:33:35.09,Default,,0000,0000,0000,,You were shot by a right-handed\Nperson, 5'6'' to 5'1 0'' tall,
+Dialogue: 0,0:33:35.13,0:33:38.13,Blue,,0000,0000,0000,,在3英尺范围内对你开枪.\N今天下午我会去测量弹道.
+Dialogue: 0,0:33:35.29,0:33:38.29,Default,,0000,0000,0000,,at a distance of less than 3 feet.\Nl'll have ballistics this afternoon.
+Dialogue: 0,0:33:38.35,0:33:40.70,Blue,,0000,0000,0000,,- 还有什么疑问吗?\N- 嗯.
+Dialogue: 0,0:33:38.50,0:33:40.86,Default,,0000,0000,0000,,- You're still blank on the other details?\N- Yes.
+Dialogue: 0,0:33:40.96,0:33:43.14,Blue,,0000,0000,0000,,你当时干嘛\N把背心那样子卷起来?
+Dialogue: 0,0:33:41.13,0:33:43.29,Default,,0000,0000,0000,,What was your vest doing\Nriding up like that?
+Dialogue: 0,0:33:43.71,0:33:44.84,Blue,,0000,0000,0000,,木跳蚤.
+Dialogue: 0,0:33:43.84,0:33:45.00,Default,,0000,0000,0000,,Wood tick.
+Dialogue: 0,0:33:46.75,0:33:49.75,Blue,,0000,0000,0000,,同时, 你的一号疑犯\N被勒死在病床上,
+Dialogue: 0,0:33:46.87,0:33:49.93,Default,,0000,0000,0000,,Meanwhile, one of your principal\Nsuspects is killed in his hospital bed,
+Dialogue: 0,0:33:49.93,0:33:51.75,Blue,,0000,0000,0000,,另一个则差点在客厅里被枪杀.
+Dialogue: 0,0:33:50.11,0:33:51.94,Default,,0000,0000,0000,,the other is shot in his living room.
+Dialogue: 0,0:33:51.93,0:33:54.28,Blue,,0000,0000,0000,,执行私刑?\N还是在充梁山好汉?
+Dialogue: 0,0:33:52.11,0:33:54.44,Default,,0000,0000,0000,,Vigilante justice\Nor just clean country living?
+Dialogue: 0,0:33:54.98,0:33:58.33,Blue,,0000,0000,0000,,艾伯特, 真搞不懂你这孬态度\N到底从哪儿学回来的?
+Dialogue: 0,0:33:55.15,0:33:58.48,Default,,0000,0000,0000,,Albert, where does this attitude of\Ngeneral unpleasantness come from?
+Dialogue: 0,0:33:58.54,0:34:00.33,Blue,,0000,0000,0000,,我一定要回答你吗.
+Dialogue: 0,0:33:58.68,0:34:00.48,Default,,0000,0000,0000,,l'll have to get back to you on that.
+Dialogue: 0,0:34:00.50,0:34:02.63,Blue,,0000,0000,0000,,如果你不想定期\N变熊猫眼,
+Dialogue: 0,0:34:00.65,0:34:02.78,Default,,0000,0000,0000,,lf you don't want two black eyes\Non a regular basis,
+Dialogue: 0,0:34:02.81,0:34:05.64,Blue,,0000,0000,0000,,我劝你平心静气\N过好这期田园生活.
+Dialogue: 0,0:34:02.95,0:34:05.79,Default,,0000,0000,0000,,l suggest you make\Nsome kind of peace with rural life.
+Dialogue: 0,0:34:05.86,0:34:09.25,Blue,,0000,0000,0000,,好极了. 跳完土风舞,\N再来一程灰头土脸的肥料车旅行，不是吗.
+Dialogue: 0,0:34:05.99,0:34:09.39,Default,,0000,0000,0000,,Great. After the square dance,\Nmaybe we can all take a hayride.
+Dialogue: 0,0:34:10.51,0:34:12.03,Blue,,0000,0000,0000,,进来.
+Dialogue: 0,0:34:10.66,0:34:12.19,Default,,0000,0000,0000,,Come in.
+Dialogue: 0,0:34:14.60,0:34:16.43,Blue,,0000,0000,0000,,安迪, 鼻子的伤好点了吗?
+Dialogue: 0,0:34:14.73,0:34:16.60,Default,,0000,0000,0000,,Andy, how's the nose?
+Dialogue: 0,0:34:16.91,0:34:19.65,Blue,,0000,0000,0000,,还好没留疤痕,\N只是喷了一鼻子血.
+Dialogue: 0,0:34:17.10,0:34:19.80,Default,,0000,0000,0000,,Not a mark on it,\Nonly blood squirted out.
+Dialogue: 0,0:34:20.04,0:34:21.61,Blue,,0000,0000,0000,,他的狗碗放哪了? 赶快拿来接血.
+Dialogue: 0,0:34:20.21,0:34:21.73,Default,,0000,0000,0000,,Where do they keep his water dish?
+Dialogue: 0,0:34:23.22,0:34:24.30,Blue,,0000,0000,0000,,艾伯特.
+Dialogue: 0,0:34:23.38,0:34:24.47,Default,,0000,0000,0000,,Albert.
+Dialogue: 0,0:34:25.00,0:34:27.57,Blue,,0000,0000,0000,,库珀探员, 猜猜看.
+Dialogue: 0,0:34:25.18,0:34:27.70,Default,,0000,0000,0000,,Agent Cooper, guess what.
+Dialogue: 0,0:34:27.75,0:34:30.35,Blue,,0000,0000,0000,,你今天上午给我的谜语\N我已经解开了.
+Dialogue: 0,0:34:27.88,0:34:30.51,Default,,0000,0000,0000,,l have the answer to the riddle\Nthat you told me this morning.
+Dialogue: 0,0:34:30.57,0:34:32.84,Blue,,0000,0000,0000,,我打电话去亨格力·豪斯监狱, 蒙大拿州.
+Dialogue: 0,0:34:30.72,0:34:33.01,Default,,0000,0000,0000,,l called Hungry Horse, Montana.
+Dialogue: 0,0:34:33.01,0:34:34.88,Blue,,0000,0000,0000,,关键词是"锁".
+Dialogue: 0,0:34:33.18,0:34:35.05,Default,,0000,0000,0000,,The word ''locked.''
+Dialogue: 0,0:34:35.06,0:34:39.89,Blue,,0000,0000,0000,,里欧·强生曾经在\N蒙大拿州的亨格力·豪斯监狱被关押过.
+Dialogue: 0,0:34:35.22,0:34:40.02,Default,,0000,0000,0000,,Leo Johnson was locked in a jail\Nin Hungry Horse, Montana.
+Dialogue: 0,0:34:40.37,0:34:42.32,Blue,,0000,0000,0000,,几时, 安迪?
+Dialogue: 0,0:34:40.53,0:34:42.49,Default,,0000,0000,0000,,When, Andy?
+Dialogue: 0,0:34:50.81,0:34:54.46,Blue,,0000,0000,0000,,"1988年2月9日."
+Dialogue: 0,0:34:50.94,0:34:54.63,Default,,0000,0000,0000,,''February 9, 1 988.''
+Dialogue: 0,0:34:57.12,0:34:59.03,Blue,,0000,0000,0000,,特里萨·班克斯.
+Dialogue: 0,0:34:57.28,0:34:59.21,Default,,0000,0000,0000,,Teresa Banks.
+Dialogue: 0,0:34:59.99,0:35:04.78,Blue,,0000,0000,0000,,那看来特里萨·班克斯被谋杀的那晚\N里欧·强生有不在场证据.
+Dialogue: 0,0:35:00.15,0:35:04.95,Default,,0000,0000,0000,,Looks like Leo has an alibi for the night\NTeresa Banks was murdered.
+Dialogue: 0,0:35:06.56,0:35:08.48,Blue,,0000,0000,0000,,做得好, 安迪.
+Dialogue: 0,0:35:06.72,0:35:08.65,Default,,0000,0000,0000,,Good work, Andy.
+Dialogue: 0,0:35:08.87,0:35:10.17,Blue,,0000,0000,0000,,呵呵.
+Dialogue: 0,0:35:09.02,0:35:10.35,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:35:37.81,0:35:39.59,Blue,,0000,0000,0000,,打扰一下.
+Dialogue: 0,0:35:37.95,0:35:39.75,Default,,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:35:41.51,0:35:45.51,Blue,,0000,0000,0000,,- 请问杜鲁门警长在么?\N- 他在, 但是他现在正忙着呢.
+Dialogue: 0,0:35:41.69,0:35:45.68,Default,,0000,0000,0000,,- ls Sheriff Truman here?\N- He is, but he is busy at the moment.
+Dialogue: 0,0:35:47.08,0:35:49.04,Blue,,0000,0000,0000,,有什么可以帮助你吗?
+Dialogue: 0,0:35:47.23,0:35:49.19,Default,,0000,0000,0000,,May l help you?
+Dialogue: 0,0:35:51.13,0:35:54.21,Blue,,0000,0000,0000,,我之前没有预约.
+Dialogue: 0,0:35:51.26,0:35:54.39,Default,,0000,0000,0000,,l'm afraid l don't have an appointment.
+Dialogue: 0,0:35:54.39,0:35:57.04,Blue,,0000,0000,0000,,警长只是叫我
+Dialogue: 0,0:35:54.57,0:35:57.16,Default,,0000,0000,0000,,The sheriff asked me to stop by
+Dialogue: 0,0:35:57.17,0:35:59.26,Blue,,0000,0000,0000,,有空的来走走.
+Dialogue: 0,0:35:57.34,0:35:59.43,Default,,0000,0000,0000,,at my convenience.
+Dialogue: 0,0:35:59.44,0:36:01.26,Blue,,0000,0000,0000,,今天刚好路过.
+Dialogue: 0,0:35:59.60,0:36:01.44,Default,,0000,0000,0000,,This is the first convenient moment.
+Dialogue: 0,0:36:02.83,0:36:05.14,Blue,,0000,0000,0000,,那有什么事吗?
+Dialogue: 0,0:36:02.97,0:36:05.31,Default,,0000,0000,0000,,May l ask what this is regarding?
+Dialogue: 0,0:36:07.23,0:36:11.10,Blue,,0000,0000,0000,,我来向他推销鞋.
+Dialogue: 0,0:36:07.41,0:36:11.25,Default,,0000,0000,0000,,l'm here to sell him some shoes.
+Dialogue: 0,0:36:24.90,0:36:26.81,Blue,,0000,0000,0000,,鞋?
+Dialogue: 0,0:36:25.03,0:36:26.96,Default,,0000,0000,0000,,Shoes?
+Dialogue: 0,0:36:29.12,0:36:32.03,Blue,,0000,0000,0000,,{\i1}妈妈来送\N牛奶和曲奇了.{\i0}
+Dialogue: 0,0:36:29.27,0:36:32.17,Default,,0000,0000,0000,,Here comes Mom\Nwith miIk and cookies.
+Dialogue: 0,0:36:32.21,0:36:33.90,Blue,,0000,0000,0000,,{\i1}再说吧, 劳伦斯.{\i0}
+Dialogue: 0,0:36:32.34,0:36:34.03,Default,,0000,0000,0000,,Later, Lawrence.
+Dialogue: 0,0:36:34.08,0:36:35.69,Blue,,0000,0000,0000,,{\i1}再见.{\i0}
+Dialogue: 0,0:36:34.24,0:36:35.83,Default,,0000,0000,0000,,Bye-bye.
+Dialogue: 0,0:36:39.65,0:36:41.82,Blue,,0000,0000,0000,,你是从杰柯比医生那里\N拿到这盒录音带的?
+Dialogue: 0,0:36:39.81,0:36:41.97,Default,,0000,0000,0000,,You got this tape\Nfrom Dr. Jacoby's office?
+Dialogue: 0,0:36:42.00,0:36:43.17,Blue,,0000,0000,0000,,是的.
+Dialogue: 0,0:36:42.15,0:36:43.31,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:36:43.31,0:36:45.57,Blue,,0000,0000,0000,,你这是强行入侵他人住宅, 知道吗，詹姆斯.
+Dialogue: 0,0:36:43.48,0:36:45.71,Default,,0000,0000,0000,,That's breaking and entering, James.
+Dialogue: 0,0:36:45.74,0:36:47.00,Blue,,0000,0000,0000,,当时门是开着的.
+Dialogue: 0,0:36:45.88,0:36:47.18,Default,,0000,0000,0000,,The door was open.
+Dialogue: 0,0:36:47.22,0:36:49.22,Blue,,0000,0000,0000,,那你怎么知道\N杰柯比不在屋里?
+Dialogue: 0,0:36:47.35,0:36:49.38,Default,,0000,0000,0000,,How did you know\NJacoby wouldn't be there?
+Dialogue: 0,0:36:49.40,0:36:51.70,Blue,,0000,0000,0000,,我敲门了, 没人在.
+Dialogue: 0,0:36:49.55,0:36:51.85,Default,,0000,0000,0000,,l knocked, nobody answered.
+Dialogue: 0,0:36:53.10,0:36:55.66,Blue,,0000,0000,0000,,- 你一个人?\N- 是.
+Dialogue: 0,0:36:53.26,0:36:55.82,Default,,0000,0000,0000,,- You were alone?\N- Yeah.
+Dialogue: 0,0:36:58.49,0:37:01.28,Blue,,0000,0000,0000,,好吧. 我知道了\N你只是想帮忙,
+Dialogue: 0,0:36:58.66,0:37:01.46,Default,,0000,0000,0000,,Okay. l know\Nyou were trying to help,
+Dialogue: 0,0:37:01.45,0:37:04.06,Blue,,0000,0000,0000,,但是别人\N不这样认为.
+Dialogue: 0,0:37:01.63,0:37:04.19,Default,,0000,0000,0000,,but there's some people\Nwho might not see it that way.
+Dialogue: 0,0:37:04.28,0:37:07.19,Blue,,0000,0000,0000,,尤其是你的油箱里\N藏着3盎司可卡因.
+Dialogue: 0,0:37:04.40,0:37:07.34,Default,,0000,0000,0000,,Especially with 3 ounces of cocaine\Nin your gas tank.
+Dialogue: 0,0:37:07.37,0:37:09.20,Blue,,0000,0000,0000,,你知道不是我藏的.
+Dialogue: 0,0:37:07.54,0:37:09.37,Default,,0000,0000,0000,,You know l didn't put that there.
+Dialogue: 0,0:37:09.37,0:37:11.76,Blue,,0000,0000,0000,,我想还有可能使\N麦克和波比.
+Dialogue: 0,0:37:09.54,0:37:11.91,Default,,0000,0000,0000,,l think it was probably\NMike and Bobby.
+Dialogue: 0,0:37:12.33,0:37:13.94,Blue,,0000,0000,0000,,- 是的.\N- 哈里,
+Dialogue: 0,0:37:12.48,0:37:14.07,Default,,0000,0000,0000,,- Yeah.\N- Harry,
+Dialogue: 0,0:37:14.16,0:37:16.73,Blue,,0000,0000,0000,,劳拉在录音带里\N提到了一个神秘人.
+Dialogue: 0,0:37:14.31,0:37:16.87,Default,,0000,0000,0000,,Laura talks on her tape\Nabout a mystery man.
+Dialogue: 0,0:37:16.94,0:37:19.51,Blue,,0000,0000,0000,,一辆红色跑车. 里欧·强生.
+Dialogue: 0,0:37:17.08,0:37:19.68,Default,,0000,0000,0000,,A red Corvette. Leo Johnson.
+Dialogue: 0,0:37:19.73,0:37:22.21,Blue,,0000,0000,0000,,我想有可能是另外一个人.\N不是雅克·雷诺.
+Dialogue: 0,0:37:19.88,0:37:22.38,Default,,0000,0000,0000,,l think it was somebody else.\NNot Jacques Renault either.
+Dialogue: 0,0:37:22.91,0:37:25.21,Blue,,0000,0000,0000,,- 为什么这样说?\N- 我之前一直没有联想到
+Dialogue: 0,0:37:23.05,0:37:25.39,Default,,0000,0000,0000,,- Why do you say that?\N- l never put it together
+Dialogue: 0,0:37:25.43,0:37:29.17,Blue,,0000,0000,0000,,直到我听到她在录音带里说,\N"这个人点燃了我的生命之火."
+Dialogue: 0,0:37:25.56,0:37:29.32,Default,,0000,0000,0000,,until l heard the tape. Where she says,\N''This guy can really light my fire.''
+Dialogue: 0,0:37:29.87,0:37:34.05,Blue,,0000,0000,0000,,好, 我还记得一个晚上\N我们又开始见面了.
+Dialogue: 0,0:37:30.03,0:37:34.19,Default,,0000,0000,0000,,Well, l remember this one night when\Nwe first started seeing each other.
+Dialogue: 0,0:37:34.22,0:37:35.83,Blue,,0000,0000,0000,,她磕了药.
+Dialogue: 0,0:37:34.37,0:37:35.99,Default,,0000,0000,0000,,She was still doing drugs then.
+Dialogue: 0,0:37:36.48,0:37:40.96,Blue,,0000,0000,0000,,然后, 我们到了树林里\N她开始在那里胡念一些恐怖的诗,
+Dialogue: 0,0:37:36.67,0:37:41.11,Default,,0000,0000,0000,,Well, we were in the woods and\Nshe started saying this scary poem,
+Dialogue: 0,0:37:41.14,0:37:43.36,Blue,,0000,0000,0000,,一次又一次的, 提到火.
+Dialogue: 0,0:37:41.31,0:37:43.54,Default,,0000,0000,0000,,over and over, about fire.
+Dialogue: 0,0:37:44.14,0:37:45.45,Blue,,0000,0000,0000,,然后她说,
+Dialogue: 0,0:37:44.31,0:37:45.61,Default,,0000,0000,0000,,And then she said,
+Dialogue: 0,0:37:45.67,0:37:48.45,Blue,,0000,0000,0000,,"你要和我一起玩火吗,\N小男生?"
+Dialogue: 0,0:37:45.84,0:37:48.57,Default,,0000,0000,0000,,''Would you like to play with fire,\Nlittle boy?''
+Dialogue: 0,0:37:48.58,0:37:51.19,Blue,,0000,0000,0000,,"你要和鲍勃一起玩吗?"
+Dialogue: 0,0:37:48.75,0:37:51.34,Default,,0000,0000,0000,,''Would you like to play with Bob?''
+Dialogue: 0,0:37:51.54,0:37:54.41,Blue,,0000,0000,0000,,"你要和鲍勃一起玩吗?"
+Dialogue: 0,0:37:51.72,0:37:54.58,Default,,0000,0000,0000,,''Would you like to play with Bob?''
+Dialogue: 0,0:37:56.85,0:37:59.98,Blue,,0000,0000,0000,,- 那是什么意思?\N- 我不知道.
+Dialogue: 0,0:37:57.02,0:38:00.12,Default,,0000,0000,0000,,- What did she mean by that?\N- l don't know.
+Dialogue: 0,0:38:00.16,0:38:02.90,Blue,,0000,0000,0000,,劳拉那晚说了好多胡话.
+Dialogue: 0,0:38:00.33,0:38:03.06,Default,,0000,0000,0000,,Laura said a lot of nutty stuff.
+Dialogue: 0,0:38:03.77,0:38:06.64,Blue,,0000,0000,0000,,很多时候,\N线索就是这样从你身边溜走了.
+Dialogue: 0,0:38:03.93,0:38:06.83,Default,,0000,0000,0000,,Half the time,\Nit just went right by you.
+Dialogue: 0,0:38:07.08,0:38:08.38,Blue,,0000,0000,0000,,就这样, 动不了了.
+Dialogue: 0,0:38:07.23,0:38:08.56,Default,,0000,0000,0000,,This stuck, though.
+Dialogue: 0,0:38:15.69,0:38:17.26,Blue,,0000,0000,0000,,詹姆斯, 我就直说了.
+Dialogue: 0,0:38:15.87,0:38:17.40,Default,,0000,0000,0000,,James, l'll get right to the point.
+Dialogue: 0,0:38:17.44,0:38:20.31,Blue,,0000,0000,0000,,我知道劳拉·帕尔默的另一半项链\N在你那里.
+Dialogue: 0,0:38:17.58,0:38:20.44,Default,,0000,0000,0000,,l know you have the other half\Nof Laura Palmer's necklace.
+Dialogue: 0,0:38:20.48,0:38:23.05,Blue,,0000,0000,0000,,我要. 你把它交出来吧.
+Dialogue: 0,0:38:20.61,0:38:23.21,Default,,0000,0000,0000,,l want it. Give it to me.
+Dialogue: 0,0:38:24.49,0:38:26.05,Blue,,0000,0000,0000,,怎么回事?
+Dialogue: 0,0:38:24.62,0:38:26.21,Default,,0000,0000,0000,,How?
+Dialogue: 0,0:38:28.36,0:38:31.23,Blue,,0000,0000,0000,,好, 这是在杰柯比那里找到的.
+Dialogue: 0,0:38:28.49,0:38:31.39,Default,,0000,0000,0000,,Well, this was in Jacoby's office.
+Dialogue: 0,0:38:35.41,0:38:37.67,Blue,,0000,0000,0000,,藏在一个空椰壳里.
+Dialogue: 0,0:38:35.56,0:38:37.86,Default,,0000,0000,0000,,lt was in a coconut.
+Dialogue: 0,0:38:38.72,0:38:40.45,Blue,,0000,0000,0000,,椰壳?
+Dialogue: 0,0:38:38.90,0:38:40.59,Default,,0000,0000,0000,,A coconut?
+Dialogue: 0,0:38:42.72,0:38:45.59,Blue,,0000,0000,0000,,豪克, 先把詹姆斯送回牢房里.
+Dialogue: 0,0:38:42.90,0:38:45.77,Default,,0000,0000,0000,,Hawk, take James back to his cell.
+Dialogue: 0,0:38:49.16,0:38:50.72,Blue,,0000,0000,0000,,杰柯比?
+Dialogue: 0,0:38:49.31,0:38:50.90,Default,,0000,0000,0000,,Jacoby?
+Dialogue: 0,0:38:50.90,0:38:54.29,Blue,,0000,0000,0000,,你怎么知道\N项链在他那里?
+Dialogue: 0,0:38:51.08,0:38:54.44,Default,,0000,0000,0000,,How did you know\Nhe had the necklace?
+Dialogue: 0,0:38:54.47,0:38:56.73,Blue,,0000,0000,0000,,劳拉和詹姆斯曾经是一对的.
+Dialogue: 0,0:38:54.61,0:38:56.91,Default,,0000,0000,0000,,Laura and James were in love.
+Dialogue: 0,0:38:56.91,0:38:59.60,Blue,,0000,0000,0000,,我就推测另一半项链\N或许就在他那里,
+Dialogue: 0,0:38:57.08,0:38:59.78,Default,,0000,0000,0000,,l figured he had to have\Nthe other half of the necklace,
+Dialogue: 0,0:38:59.78,0:39:01.17,Blue,,0000,0000,0000,,但是如果他怀有那一半,
+Dialogue: 0,0:38:59.95,0:39:01.32,Default,,0000,0000,0000,,but if he had the other half,
+Dialogue: 0,0:39:01.35,0:39:04.30,Blue,,0000,0000,0000,,他为什么不给我们\N帮助破案呢.
+Dialogue: 0,0:39:01.49,0:39:04.46,Default,,0000,0000,0000,,he would have given it to us\Nto help with the case.
+Dialogue: 0,0:39:05.30,0:39:06.52,Blue,,0000,0000,0000,,忽然，我茅塞顿开.
+Dialogue: 0,0:39:05.46,0:39:06.68,Default,,0000,0000,0000,,Then it dawned on me.
+Dialogue: 0,0:39:06.70,0:39:10.09,Blue,,0000,0000,0000,,肯定有些什么人或事\N在威胁着他.
+Dialogue: 0,0:39:06.89,0:39:10.26,Default,,0000,0000,0000,,Something or someone\Nfrightened him off.
+Dialogue: 0,0:39:10.27,0:39:12.92,Blue,,0000,0000,0000,,所以他不能交出来,\N于是我就问他拿了.
+Dialogue: 0,0:39:10.43,0:39:13.09,Default,,0000,0000,0000,,He had to have it,\Nso l asked him for it.
+Dialogue: 0,0:39:13.49,0:39:15.36,Blue,,0000,0000,0000,,杰柯比?
+Dialogue: 0,0:39:13.63,0:39:15.50,Default,,0000,0000,0000,,Jacoby?
+Dialogue: 0,0:39:16.40,0:39:20.40,Blue,,0000,0000,0000,,我从来没料到\N他和这个案子有什么关系.
+Dialogue: 0,0:39:16.53,0:39:20.53,Default,,0000,0000,0000,,l didn't figure he had anything\Nto do with this at all.
+Dialogue: 0,0:39:21.76,0:39:24.54,Blue,,0000,0000,0000,,有些时候真得靠碰碰运气.
+Dialogue: 0,0:39:21.94,0:39:24.70,Default,,0000,0000,0000,,Sometimes you just get lucky.
+Dialogue: 0,0:39:49.13,0:39:50.61,Blue,,0000,0000,0000,,唐娜?
+Dialogue: 0,0:39:49.30,0:39:50.79,Default,,0000,0000,0000,,Donna?
+Dialogue: 0,0:39:52.35,0:39:54.17,Blue,,0000,0000,0000,,嗨, 露西.
+Dialogue: 0,0:39:52.50,0:39:54.33,Default,,0000,0000,0000,,Hi, Lucy.
+Dialogue: 0,0:39:58.75,0:40:01.05,Blue,,0000,0000,0000,,我来看詹姆斯.
+Dialogue: 0,0:39:58.88,0:40:01.21,Default,,0000,0000,0000,,l'm here to see James.
+Dialogue: 0,0:40:33.39,0:40:35.12,Blue,,0000,0000,0000,,你好吗?
+Dialogue: 0,0:40:33.54,0:40:35.27,Default,,0000,0000,0000,,How are you doing?
+Dialogue: 0,0:40:37.00,0:40:38.87,Blue,,0000,0000,0000,,你告诉他们什么了?
+Dialogue: 0,0:40:37.18,0:40:39.05,Default,,0000,0000,0000,,Did you tell them anything?
+Dialogue: 0,0:40:39.39,0:40:42.13,Blue,,0000,0000,0000,,他们还没问我呢.
+Dialogue: 0,0:40:39.55,0:40:42.28,Default,,0000,0000,0000,,They haven't asked me anything.
+Dialogue: 0,0:40:45.14,0:40:47.09,Blue,,0000,0000,0000,,你什么时候开始抽起烟了?
+Dialogue: 0,0:40:45.29,0:40:47.26,Default,,0000,0000,0000,,When did you start smoking?
+Dialogue: 0,0:40:50.62,0:40:53.31,Blue,,0000,0000,0000,,我偶尔就抽抽.
+Dialogue: 0,0:40:50.76,0:40:53.49,Default,,0000,0000,0000,,l smoke every once in a while.
+Dialogue: 0,0:40:54.97,0:40:56.75,Blue,,0000,0000,0000,,有助于缓解紧张.
+Dialogue: 0,0:40:55.10,0:40:56.93,Default,,0000,0000,0000,,Helps relieve tension.
+Dialogue: 0,0:40:57.89,0:40:59.84,Blue,,0000,0000,0000,,你什么时候开始变紧张了?
+Dialogue: 0,0:40:58.04,0:41:00.03,Default,,0000,0000,0000,,When did you get so tense?
+Dialogue: 0,0:41:00.93,0:41:03.19,Blue,,0000,0000,0000,,我开始抽烟的时候.
+Dialogue: 0,0:41:01.07,0:41:03.37,Default,,0000,0000,0000,,When l started smoking.
+Dialogue: 0,0:41:05.42,0:41:06.98,Blue,,0000,0000,0000,,你告诉他们什么了吗?
+Dialogue: 0,0:41:05.58,0:41:07.13,Default,,0000,0000,0000,,Did you tell them anything?
+Dialogue: 0,0:41:08.16,0:41:10.24,Blue,,0000,0000,0000,,我没说你\N和马迪的事.
+Dialogue: 0,0:41:08.31,0:41:10.41,Default,,0000,0000,0000,,l didn't tell them\Nabout you or Maddy.
+Dialogue: 0,0:41:11.25,0:41:13.29,Blue,,0000,0000,0000,,他们认为是里欧杀了劳拉?
+Dialogue: 0,0:41:11.42,0:41:13.44,Default,,0000,0000,0000,,Do they think Leo killed Laura?
+Dialogue: 0,0:41:13.81,0:41:16.03,Blue,,0000,0000,0000,,我不知道他们怎么想.
+Dialogue: 0,0:41:13.95,0:41:16.22,Default,,0000,0000,0000,,l don't know what they think.
+Dialogue: 0,0:41:16.60,0:41:17.73,Blue,,0000,0000,0000,,马迪呢?
+Dialogue: 0,0:41:16.75,0:41:17.88,Default,,0000,0000,0000,,How is Maddy?
+Dialogue: 0,0:41:22.30,0:41:23.95,Blue,,0000,0000,0000,,她没事吧.
+Dialogue: 0,0:41:22.46,0:41:24.09,Default,,0000,0000,0000,,She's fine.
+Dialogue: 0,0:41:25.56,0:41:27.87,Blue,,0000,0000,0000,,她也什么都没说.
+Dialogue: 0,0:41:25.73,0:41:28.06,Default,,0000,0000,0000,,She hasn't said anything either.
+Dialogue: 0,0:41:35.49,0:41:37.22,Blue,,0000,0000,0000,,你想吻我吗?
+Dialogue: 0,0:41:35.64,0:41:37.40,Default,,0000,0000,0000,,So don't you wanna kiss me?
+Dialogue: 0,0:41:49.15,0:41:50.19,Blue,,0000,0000,0000,,你怎么了?
+Dialogue: 0,0:41:49.32,0:41:50.34,Default,,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:41:50.80,0:41:52.63,Blue,,0000,0000,0000,,没怎么.
+Dialogue: 0,0:41:50.96,0:41:52.79,Default,,0000,0000,0000,,Nothing's wrong.
+Dialogue: 0,0:42:04.03,0:42:07.21,Blue,,0000,0000,0000,,就想要你\N不行吗?
+Dialogue: 0,0:42:04.17,0:42:07.37,Default,,0000,0000,0000,,Or is it just not okay\Nfor me to want you?
+Dialogue: 0,0:42:11.52,0:42:14.26,Blue,,0000,0000,0000,,快点出来, 詹姆斯.
+Dialogue: 0,0:42:11.68,0:42:14.44,Default,,0000,0000,0000,,Get out soon, James.
+Dialogue: 0,0:42:50.56,0:42:52.12,Blue,,0000,0000,0000,,露西.
+Dialogue: 0,0:42:50.72,0:42:52.31,Default,,0000,0000,0000,,Lucy.
+Dialogue: 0,0:42:53.25,0:42:54.86,Blue,,0000,0000,0000,,安迪.
+Dialogue: 0,0:42:53.38,0:42:55.01,Default,,0000,0000,0000,,Andy.
+Dialogue: 0,0:42:57.65,0:42:59.91,Blue,,0000,0000,0000,,{\i1}盒子里面的\N是每一期的 肉欲世界{\i0}
+Dialogue: 0,0:42:57.82,0:43:00.05,Default,,0000,0000,0000,,ln these boxes\Nis every edition of FIesh WorId
+Dialogue: 0,0:43:00.09,0:43:02.96,Blue,,0000,0000,0000,,过往3年的出版都在这儿了.
+Dialogue: 0,0:43:00.22,0:43:03.09,Default,,0000,0000,0000,,published for the past three years.
+Dialogue: 0,0:43:03.13,0:43:05.74,Blue,,0000,0000,0000,,这是特里萨·班克斯的照片,\N第一个受害者,
+Dialogue: 0,0:43:03.26,0:43:05.89,Default,,0000,0000,0000,,This is a picture of Teresa Banks,\Nthe first victim,
+Dialogue: 0,0:43:05.92,0:43:09.40,Blue,,0000,0000,0000,,一年前在南部地区\N遇害了.
+Dialogue: 0,0:43:06.06,0:43:09.56,Default,,0000,0000,0000,,who was found murdered a year ago\Nin the southern part of the state.
+Dialogue: 0,0:43:09.57,0:43:13.10,Blue,,0000,0000,0000,,现在，劳拉和朗尼特的照片\N出现过在杂志的一个广告栏里.
+Dialogue: 0,0:43:09.73,0:43:13.23,Default,,0000,0000,0000,,Now, Laura and Ronette's photographs\Nappeared in ads in the magazines.
+Dialogue: 0,0:43:13.27,0:43:17.58,Blue,,0000,0000,0000,,你想我们找出\N特里萨·班克斯的照片.
+Dialogue: 0,0:43:13.40,0:43:17.74,Default,,0000,0000,0000,,You want us to look for a picture\Nof Teresa Banks.
+Dialogue: 0,0:43:17.75,0:43:19.97,Blue,,0000,0000,0000,,安迪, 你脑袋转的真快.
+Dialogue: 0,0:43:17.91,0:43:20.10,Default,,0000,0000,0000,,Andy, you're way ahead of me.
+Dialogue: 0,0:43:20.15,0:43:23.24,Blue,,0000,0000,0000,,露西, 我和杜鲁门警长\N去医院.
+Dialogue: 0,0:43:20.28,0:43:23.41,Default,,0000,0000,0000,,Lucy, Sheriff Truman and l\Nwill be at the hospital.
+Dialogue: 0,0:43:23.41,0:43:25.15,Blue,,0000,0000,0000,,你们好好表现吧.
+Dialogue: 0,0:43:23.58,0:43:25.34,Default,,0000,0000,0000,,Behave yourselves.
+Dialogue: 0,0:43:27.81,0:43:30.76,Blue,,0000,0000,0000,,{\i1}黛安, 刚刚收到\N肉欲世界.的杂志 做得好.{\i0}
+Dialogue: 0,0:43:27.95,0:43:30.92,Default,,0000,0000,0000,,Diane, just received the back issues\Nof FIesh WorId. Good work.
+Dialogue: 0,0:43:30.94,0:43:32.68,Blue,,0000,0000,0000,,杂志社依法合作\N真让我高兴,
+Dialogue: 0,0:43:31.09,0:43:32.85,Default,,0000,0000,0000,,lt's nice to see some cooperation\Nwith the law,
+Dialogue: 0,0:43:32.86,0:43:35.90,Blue,,0000,0000,0000,,特别是一家以\N猎食人性弱点为生的公司.
+Dialogue: 0,0:43:33.02,0:43:36.05,Default,,0000,0000,0000,,especially from a company\Nthat preys on human weaknesses.
+Dialogue: 0,0:43:38.47,0:43:44.47,Blue,,0000,0000,0000,,露西, 和你一起看这些\N我真是好别扭，太不好意思了.
+Dialogue: 0,0:43:38.66,0:43:44.62,Default,,0000,0000,0000,,Lucy, l sure feel uncomfortable\Nbeing in this situation with you.
+Dialogue: 0,0:43:44.65,0:43:48.30,Blue,,0000,0000,0000,,什么不好意思? 给点专业精神好不好.
+Dialogue: 0,0:43:44.80,0:43:48.47,Default,,0000,0000,0000,,Why? We're both professionals.
+Dialogue: 0,0:43:58.18,0:44:00.79,Blue,,0000,0000,0000,,还需要给他开点药吗?
+Dialogue: 0,0:43:58.32,0:44:00.94,Default,,0000,0000,0000,,ls he on something?
+Dialogue: 0,0:44:01.27,0:44:03.66,Blue,,0000,0000,0000,,只有你能决定.
+Dialogue: 0,0:44:01.42,0:44:03.82,Default,,0000,0000,0000,,Only what you prescribed.
+Dialogue: 0,0:44:08.45,0:44:12.19,Blue,,0000,0000,0000,,我认为至少\N他吃了一点点东西.
+Dialogue: 0,0:44:08.63,0:44:12.32,Default,,0000,0000,0000,,l think he did take\Na little bit of his food.
+Dialogue: 0,0:44:12.37,0:44:14.85,Blue,,0000,0000,0000,,我的天啊, 可能吗?
+Dialogue: 0,0:44:12.50,0:44:14.99,Default,,0000,0000,0000,,My God, could that be it?
+Dialogue: 0,0:44:25.51,0:44:27.51,Blue,,0000,0000,0000,,库珀探员.
+Dialogue: 0,0:44:25.64,0:44:27.67,Default,,0000,0000,0000,,Agent Cooper.
+Dialogue: 0,0:44:27.69,0:44:29.34,Blue,,0000,0000,0000,,你好好跟心理医生说说
+Dialogue: 0,0:44:27.85,0:44:29.47,Default,,0000,0000,0000,,Why don't you tell the psychiatrist
+Dialogue: 0,0:44:29.52,0:44:32.87,Blue,,0000,0000,0000,,你断了2条肋骨\N还有那些裂了的小软骨.
+Dialogue: 0,0:44:29.65,0:44:33.01,Default,,0000,0000,0000,,about your broken ribs\Nand torn cartilage.
+Dialogue: 0,0:44:37.22,0:44:38.83,Blue,,0000,0000,0000,,好, 好, 好.
+Dialogue: 0,0:44:37.36,0:44:38.98,Default,,0000,0000,0000,,Well, well, well.
+Dialogue: 0,0:44:42.75,0:44:44.01,Blue,,0000,0000,0000,,告诉我你发生什么事了?
+Dialogue: 0,0:44:42.93,0:44:44.16,Default,,0000,0000,0000,,What happened to you?
+Dialogue: 0,0:44:45.71,0:44:50.53,Blue,,0000,0000,0000,,少跟我来那些胡扯, 骗人的小把戏\N或者来那些故作高深的心理学术语.
+Dialogue: 0,0:44:45.86,0:44:50.70,Default,,0000,0000,0000,,l don't want any baloney, magic tricks\Nor psychological mumbo jumbo.
+Dialogue: 0,0:44:50.71,0:44:53.93,Blue,,0000,0000,0000,,我只是要你告诉我\N你怎么会有这个的?
+Dialogue: 0,0:44:50.87,0:44:54.10,Default,,0000,0000,0000,,l want you to tell us\Nhow you came into possession of this
+Dialogue: 0,0:44:54.37,0:44:58.89,Blue,,0000,0000,0000,,还是你要我以妨碍司法公正罪\N让你蹲大牢.
+Dialogue: 0,0:44:54.51,0:44:59.03,Default,,0000,0000,0000,,or l am gonna have to place you\Nunder arrest for obstruction of justice.
+Dialogue: 0,0:45:07.38,0:45:08.77,Blue,,0000,0000,0000,,别, 我告诉你.
+Dialogue: 0,0:45:07.52,0:45:08.95,Default,,0000,0000,0000,,Look, l told you.
+Dialogue: 0,0:45:08.94,0:45:12.73,Blue,,0000,0000,0000,,劳拉死后的第二晚,\N我跟踪了一辆红色跑车.
+Dialogue: 0,0:45:09.12,0:45:12.89,Default,,0000,0000,0000,,The night after Laura died,\Nl followed a man in a red Corvette.
+Dialogue: 0,0:45:13.08,0:45:14.60,Blue,,0000,0000,0000,,里欧·强生.
+Dialogue: 0,0:45:13.26,0:45:14.78,Default,,0000,0000,0000,,Leo Johnson.
+Dialogue: 0,0:45:16.56,0:45:17.86,Blue,,0000,0000,0000,,对.
+Dialogue: 0,0:45:16.69,0:45:18.03,Default,,0000,0000,0000,,Correct.
+Dialogue: 0,0:45:18.04,0:45:23.26,Blue,,0000,0000,0000,,然后，他在锯木厂附近\N把我给甩了.
+Dialogue: 0,0:45:18.20,0:45:23.39,Default,,0000,0000,0000,,Then he eluded me somewhere\Nnear the old sawmill road.
+Dialogue: 0,0:45:23.83,0:45:27.74,Blue,,0000,0000,0000,,当时我坐在那里, 正诅咒自己--
+Dialogue: 0,0:45:24.00,0:45:27.90,Default,,0000,0000,0000,,As l sat there, cursing my--
+Dialogue: 0,0:45:27.92,0:45:30.96,Blue,,0000,0000,0000,,毕竟老了,
+Dialogue: 0,0:45:28.07,0:45:31.13,Default,,0000,0000,0000,,My lack of horsepower,
+Dialogue: 0,0:45:31.14,0:45:33.66,Blue,,0000,0000,0000,,一辆摩托车开了过来.
+Dialogue: 0,0:45:31.31,0:45:33.83,Default,,0000,0000,0000,,a motorcycle drove by.
+Dialogue: 0,0:45:34.45,0:45:37.32,Blue,,0000,0000,0000,,后面还跟着一辆警察巡逻车.
+Dialogue: 0,0:45:34.58,0:45:37.48,Default,,0000,0000,0000,,Followed by a police cruiser.
+Dialogue: 0,0:45:37.80,0:45:39.23,Blue,,0000,0000,0000,,但你跟丢了.
+Dialogue: 0,0:45:37.98,0:45:39.38,Default,,0000,0000,0000,,But you lost them.
+Dialogue: 0,0:45:40.19,0:45:41.89,Blue,,0000,0000,0000,,他们跑进树林里.
+Dialogue: 0,0:45:40.35,0:45:42.05,Default,,0000,0000,0000,,They went into the woods.
+Dialogue: 0,0:45:42.76,0:45:46.85,Blue,,0000,0000,0000,,我看到他们了.\N我跟着他们.
+Dialogue: 0,0:45:42.92,0:45:47.02,Default,,0000,0000,0000,,l saw them.\Nl followed them in there on foot.
+Dialogue: 0,0:45:47.72,0:45:51.42,Blue,,0000,0000,0000,,- 詹姆斯和唐娜?\N- 是的, 他们...
+Dialogue: 0,0:45:47.89,0:45:51.56,Default,,0000,0000,0000,,- James and Donna?\N- Yes, they...
+Dialogue: 0,0:45:51.59,0:45:55.16,Blue,,0000,0000,0000,,他们耳语了一阵,\N但我没听清楚他们在说些什么.
+Dialogue: 0,0:45:51.73,0:45:55.32,Default,,0000,0000,0000,,They spoke intently for a while, but\Nl couldn't hear what they were saying.
+Dialogue: 0,0:45:57.03,0:45:58.90,Blue,,0000,0000,0000,,{\i1}我记得...{\i0}
+Dialogue: 0,0:45:57.20,0:45:59.07,Default,,0000,0000,0000,,I remember it was...
+Dialogue: 0,0:45:59.08,0:46:01.90,Blue,,0000,0000,0000,,{\i1}那晚树林里很冷.{\i0}
+Dialogue: 0,0:45:59.24,0:46:02.07,Default,,0000,0000,0000,,It was a coId night in the woods.
+Dialogue: 0,0:46:03.12,0:46:04.73,Blue,,0000,0000,0000,,{\i1}最后, 他们...{\i0}
+Dialogue: 0,0:46:03.31,0:46:04.90,Default,,0000,0000,0000,,FinaIIy, they...
+Dialogue: 0,0:46:04.91,0:46:08.35,Blue,,0000,0000,0000,,{\i1}他们在地里埋了一些东西,\N然后用一块石头压着.{\i0}
+Dialogue: 0,0:46:05.08,0:46:08.51,Default,,0000,0000,0000,,They buried something in the ground,\Nunder a rock.
+Dialogue: 0,0:46:14.70,0:46:17.83,Blue,,0000,0000,0000,,或许没经大脑,
+Dialogue: 0,0:46:14.85,0:46:18.02,Default,,0000,0000,0000,,lll-advisedly, perhaps,
+Dialogue: 0,0:46:18.01,0:46:20.01,Blue,,0000,0000,0000,,我就把它拿回来了，作为纪念品.
+Dialogue: 0,0:46:18.19,0:46:20.18,Default,,0000,0000,0000,,l took it as a keepsake.
+Dialogue: 0,0:46:25.45,0:46:27.97,Blue,,0000,0000,0000,,是她的, 你懂么.
+Dialogue: 0,0:46:25.60,0:46:28.12,Default,,0000,0000,0000,,lt was her, you see.
+Dialogue: 0,0:46:29.11,0:46:31.24,Blue,,0000,0000,0000,,项链.
+Dialogue: 0,0:46:29.27,0:46:31.39,Default,,0000,0000,0000,,The necklace.
+Dialogue: 0,0:46:31.41,0:46:33.59,Blue,,0000,0000,0000,,一颗被割裂的心 .
+Dialogue: 0,0:46:31.57,0:46:33.73,Default,,0000,0000,0000,,A divided heart.
+Dialogue: 0,0:46:35.76,0:46:37.76,Blue,,0000,0000,0000,,劳拉她--
+Dialogue: 0,0:46:35.91,0:46:37.93,Default,,0000,0000,0000,,Laura was--
+Dialogue: 0,0:46:37.94,0:46:39.02,Blue,,0000,0000,0000,,她, 其实...
+Dialogue: 0,0:46:38.11,0:46:39.20,Default,,0000,0000,0000,,Was, in fact...
+Dialogue: 0,0:46:39.20,0:46:41.59,Blue,,0000,0000,0000,,唉, 她过着一种双重生活.
+Dialogue: 0,0:46:39.38,0:46:41.74,Default,,0000,0000,0000,,Well, she was living a double life.
+Dialogue: 0,0:46:41.81,0:46:43.51,Blue,,0000,0000,0000,,2个劳拉.
+Dialogue: 0,0:46:41.95,0:46:43.64,Default,,0000,0000,0000,,Two people.
+Dialogue: 0,0:46:44.86,0:46:46.82,Blue,,0000,0000,0000,,是的, 但...
+Dialogue: 0,0:46:45.05,0:46:46.98,Default,,0000,0000,0000,,Yeah, but then...
+Dialogue: 0,0:46:47.90,0:46:53.17,Blue,,0000,0000,0000,,我最后一次\N见她, 她...
+Dialogue: 0,0:46:48.09,0:46:53.32,Default,,0000,0000,0000,,Then when l saw her\Nthat last time, she...
+Dialogue: 0,0:46:53.34,0:46:56.69,Blue,,0000,0000,0000,,我不知道, 她似乎\N找回了一点--
+Dialogue: 0,0:46:53.49,0:46:56.89,Default,,0000,0000,0000,,l don't know, she seemed\Nto have reached a kind of--
+Dialogue: 0,0:46:56.87,0:46:59.00,Blue,,0000,0000,0000,,宁静和自我.
+Dialogue: 0,0:46:57.06,0:46:59.15,Default,,0000,0000,0000,,A peace with herself.
+Dialogue: 0,0:46:59.74,0:47:01.96,Blue,,0000,0000,0000,,现在我明白了
+Dialogue: 0,0:46:59.90,0:47:02.13,Default,,0000,0000,0000,,Now l believe that
+Dialogue: 0,0:47:02.18,0:47:05.14,Blue,,0000,0000,0000,,是因为她终于
+Dialogue: 0,0:47:02.37,0:47:05.30,Default,,0000,0000,0000,,what she had in fact arrived at
+Dialogue: 0,0:47:05.31,0:47:07.79,Blue,,0000,0000,0000,,决定给自己的生命画上句号了.
+Dialogue: 0,0:47:05.47,0:47:07.94,Default,,0000,0000,0000,,was a decision to end her life.
+Dialogue: 0,0:47:08.27,0:47:11.58,Blue,,0000,0000,0000,,你说劳拉想了结了自己?
+Dialogue: 0,0:47:08.44,0:47:11.74,Default,,0000,0000,0000,,Are you saying Laura wanted to die?
+Dialogue: 0,0:47:11.80,0:47:12.88,Blue,,0000,0000,0000,,医生,
+Dialogue: 0,0:47:11.94,0:47:13.07,Default,,0000,0000,0000,,Doctor,
+Dialogue: 0,0:47:14.10,0:47:16.58,Blue,,0000,0000,0000,,劳拉·帕尔默\N不是自杀的.
+Dialogue: 0,0:47:14.28,0:47:16.75,Default,,0000,0000,0000,,Laura Palmer\Ndid not commit suicide.
+Dialogue: 0,0:47:17.06,0:47:19.06,Blue,,0000,0000,0000,,不, 不.
+Dialogue: 0,0:47:17.25,0:47:19.24,Default,,0000,0000,0000,,No, no.
+Dialogue: 0,0:47:19.24,0:47:24.15,Blue,,0000,0000,0000,,但或许是她允许自己\N别杀害.
+Dialogue: 0,0:47:19.42,0:47:24.32,Default,,0000,0000,0000,,But maybe she allowed herself\Nto be killed.
+Dialogue: 0,0:47:39.04,0:47:41.21,Blue,,0000,0000,0000,,还有一件事.
+Dialogue: 0,0:47:39.20,0:47:41.36,Default,,0000,0000,0000,,One more thing.
+Dialogue: 0,0:47:41.39,0:47:45.00,Blue,,0000,0000,0000,,昨晚雅克·雷诺被杀害的时候\N你就在旁边的特别护理病房.
+Dialogue: 0,0:47:41.54,0:47:45.17,Default,,0000,0000,0000,,You were in intensive care last night\Nwhen Jacques Renault was killed.
+Dialogue: 0,0:47:45.70,0:47:49.00,Blue,,0000,0000,0000,,嗯, 是的.\N但是, 不是吧, 各位.
+Dialogue: 0,0:47:45.84,0:47:49.18,Default,,0000,0000,0000,,Yeah, yes.\NBut l mean, come on, fellows.
+Dialogue: 0,0:47:49.18,0:47:51.18,Blue,,0000,0000,0000,,我当时打了镇静剂...
+Dialogue: 0,0:47:49.35,0:47:51.34,Default,,0000,0000,0000,,l was heavily sedated and...
+Dialogue: 0,0:47:51.35,0:47:53.96,Blue,,0000,0000,0000,,你看到什么了吗? 或听到什么?
+Dialogue: 0,0:47:51.52,0:47:54.14,Default,,0000,0000,0000,,Did you see anything? Hear anything?
+Dialogue: 0,0:47:54.14,0:47:59.58,Blue,,0000,0000,0000,,我记得我听到\N火警响了, 但...
+Dialogue: 0,0:47:54.32,0:47:59.72,Default,,0000,0000,0000,,l remember hearing\Na fire alarm go off, but...
+Dialogue: 0,0:48:02.80,0:48:04.67,Blue,,0000,0000,0000,,好像...
+Dialogue: 0,0:48:02.96,0:48:04.83,Default,,0000,0000,0000,,lt's...
+Dialogue: 0,0:48:04.84,0:48:07.28,Blue,,0000,0000,0000,,就好像...
+Dialogue: 0,0:48:05.00,0:48:07.46,Default,,0000,0000,0000,,lt's all like a...
+Dialogue: 0,0:48:07.46,0:48:09.93,Blue,,0000,0000,0000,,做了一个梦似的.
+Dialogue: 0,0:48:07.63,0:48:10.12,Default,,0000,0000,0000,,Like a dream.
+Dialogue: 0,0:48:14.51,0:48:15.77,Blue,,0000,0000,0000,,我记还有一股气味.
+Dialogue: 0,0:48:14.67,0:48:15.93,Default,,0000,0000,0000,,There was a smell.
+Dialogue: 0,0:48:17.42,0:48:21.69,Blue,,0000,0000,0000,,对, 有一股特别的气味.
+Dialogue: 0,0:48:17.58,0:48:21.84,Default,,0000,0000,0000,,Yeah, there was a peculiar smell.
+Dialogue: 0,0:48:22.56,0:48:27.56,Blue,,0000,0000,0000,,是不是以防被害人挣扎的\N麻醉剂的气味.
+Dialogue: 0,0:48:22.71,0:48:27.71,Default,,0000,0000,0000,,lt's usual in case of strangulation\Nfor the victim to void his bowels.
+Dialogue: 0,0:48:35.66,0:48:37.53,Blue,,0000,0000,0000,,不.
+Dialogue: 0,0:48:35.83,0:48:37.69,Default,,0000,0000,0000,,No.
+Dialogue: 0,0:48:38.05,0:48:40.01,Blue,,0000,0000,0000,,不, 不是那种, 是...
+Dialogue: 0,0:48:38.20,0:48:40.19,Default,,0000,0000,0000,,No, that wasn't it, this...
+Dialogue: 0,0:48:42.49,0:48:44.97,Blue,,0000,0000,0000,,闻起来就像...
+Dialogue: 0,0:48:42.67,0:48:45.16,Default,,0000,0000,0000,,This was a smell like...
+Dialogue: 0,0:48:47.06,0:48:48.53,Blue,,0000,0000,0000,,像油.
+Dialogue: 0,0:48:47.20,0:48:48.69,Default,,0000,0000,0000,,Like oil.
+Dialogue: 0,0:48:52.71,0:48:55.93,Blue,,0000,0000,0000,,烧焦了的机器润滑油.
+Dialogue: 0,0:48:52.88,0:48:56.07,Default,,0000,0000,0000,,Scorched engine oil.
+Dialogue: 0,0:48:59.63,0:49:01.90,Blue,,0000,0000,0000,,{\i1}布拉德利医生, 请到前台.{\i0}
+Dialogue: 0,0:48:59.78,0:49:02.05,Default,,0000,0000,0000,,Dr. BradIey, caII the operator.
+Dialogue: 0,0:49:02.07,0:49:05.73,Blue,,0000,0000,0000,,{\i1}布拉德利医生,\N请马上到前台.{\i0}
+Dialogue: 0,0:49:02.22,0:49:05.88,Default,,0000,0000,0000,,Dr. BradIey,\NcaII the operator, pIease.
+Dialogue: 0,0:49:27.92,0:49:30.14,Blue,,0000,0000,0000,,嘿, 睡美人.
+Dialogue: 0,0:49:28.08,0:49:30.31,Default,,0000,0000,0000,,Hey, sleeping beauty.
+Dialogue: 0,0:49:31.40,0:49:33.71,Blue,,0000,0000,0000,,波比.
+Dialogue: 0,0:49:31.58,0:49:33.88,Default,,0000,0000,0000,,Bobby.
+Dialogue: 0,0:49:41.80,0:49:45.11,Blue,,0000,0000,0000,,你来这里做什么?\N如果让别人看见了怎么办?
+Dialogue: 0,0:49:41.96,0:49:45.26,Default,,0000,0000,0000,,What are you doing here?\NWhat if someone sees you?
+Dialogue: 0,0:49:45.28,0:49:50.33,Blue,,0000,0000,0000,,我不在乎.\N我再也不在乎了.
+Dialogue: 0,0:49:45.43,0:49:50.53,Default,,0000,0000,0000,,l don't care.\Nl do not care anymore.
+Dialogue: 0,0:49:51.94,0:49:53.73,Blue,,0000,0000,0000,,里欧也在医院呢.
+Dialogue: 0,0:49:52.10,0:49:53.90,Default,,0000,0000,0000,,Leo's in the hospital.
+Dialogue: 0,0:49:53.90,0:49:55.38,Blue,,0000,0000,0000,,他中枪了.
+Dialogue: 0,0:49:54.07,0:49:55.56,Default,,0000,0000,0000,,Somebody shot him.
+Dialogue: 0,0:49:55.55,0:50:00.69,Blue,,0000,0000,0000,,是, 我知道. 我是说, 我听说了.\N有警员守在他房门口.
+Dialogue: 0,0:49:55.74,0:50:00.84,Default,,0000,0000,0000,,Yeah, l know. l mean, l heard\Nthere's cops outside his room.
+Dialogue: 0,0:50:00.86,0:50:04.17,Blue,,0000,0000,0000,,- 真得?\N- 我还听说他们准备对付他.
+Dialogue: 0,0:50:01.05,0:50:04.31,Default,,0000,0000,0000,,- Really?\N- l hear they're gonna bust him.
+Dialogue: 0,0:50:04.35,0:50:07.96,Blue,,0000,0000,0000,,他这次肯定要给\N逮个正着了, 可怜蛋.
+Dialogue: 0,0:50:04.48,0:50:08.11,Default,,0000,0000,0000,,He must have got caught\Ndoing something, poor bastard.
+Dialogue: 0,0:50:10.83,0:50:13.22,Blue,,0000,0000,0000,,你到底怎么了?
+Dialogue: 0,0:50:10.99,0:50:13.35,Default,,0000,0000,0000,,What happened to you?
+Dialogue: 0,0:50:15.01,0:50:18.79,Blue,,0000,0000,0000,,波比, 我好害怕.
+Dialogue: 0,0:50:15.16,0:50:18.96,Default,,0000,0000,0000,,Bobby, l'm so afraid.
+Dialogue: 0,0:50:19.66,0:50:21.49,Blue,,0000,0000,0000,,里欧想杀死我.
+Dialogue: 0,0:50:19.83,0:50:21.66,Default,,0000,0000,0000,,Leo tried to kill me.
+Dialogue: 0,0:50:22.54,0:50:24.19,Blue,,0000,0000,0000,,他知道我们了.
+Dialogue: 0,0:50:22.70,0:50:24.33,Default,,0000,0000,0000,,He knows about us.
+Dialogue: 0,0:50:25.63,0:50:28.41,Blue,,0000,0000,0000,,他把我抓到锯木厂,
+Dialogue: 0,0:50:25.80,0:50:28.53,Default,,0000,0000,0000,,He took me up to the mill,
+Dialogue: 0,0:50:28.54,0:50:31.72,Blue,,0000,0000,0000,,然后把我绑起来\N就开始点火.
+Dialogue: 0,0:50:28.71,0:50:31.87,Default,,0000,0000,0000,,and he tied me up\Nand started the fire.
+Dialogue: 0,0:50:32.81,0:50:35.02,Blue,,0000,0000,0000,,波比,
+Dialogue: 0,0:50:32.98,0:50:35.17,Default,,0000,0000,0000,,Bobby,
+Dialogue: 0,0:50:35.20,0:50:37.16,Blue,,0000,0000,0000,,他还威胁我说要杀死你.
+Dialogue: 0,0:50:35.35,0:50:37.31,Default,,0000,0000,0000,,he told me he was gonna kill you.
+Dialogue: 0,0:50:38.16,0:50:40.12,Blue,,0000,0000,0000,,想得倒美.
+Dialogue: 0,0:50:38.32,0:50:40.28,Default,,0000,0000,0000,,Fat chance.
+Dialogue: 0,0:50:41.64,0:50:43.64,Blue,,0000,0000,0000,,我再也不会让他伤害我们半点了.
+Dialogue: 0,0:50:41.82,0:50:43.81,Default,,0000,0000,0000,,l won't let him hurt us anymore.
+Dialogue: 0,0:50:48.08,0:50:50.56,Blue,,0000,0000,0000,,你恢复的怎样了?
+Dialogue: 0,0:50:48.23,0:50:50.72,Default,,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:50:53.26,0:50:55.43,Blue,,0000,0000,0000,,医生说恢复的不错.
+Dialogue: 0,0:50:53.40,0:50:55.63,Default,,0000,0000,0000,,Doctors seem to think so.
+Dialogue: 0,0:50:57.66,0:51:03.18,Blue,,0000,0000,0000,,知道吗, 雪莉,\N医院其实是个很危险的地方.
+Dialogue: 0,0:50:57.84,0:51:03.33,Default,,0000,0000,0000,,You know, Shelly,\Nhospitals are dangerous places.
+Dialogue: 0,0:51:03.36,0:51:06.49,Blue,,0000,0000,0000,,首先, 这里挤满了\N一大堆的病人.
+Dialogue: 0,0:51:03.51,0:51:06.67,Default,,0000,0000,0000,,First of all, they're crawling\Nwith sick people.
+Dialogue: 0,0:51:06.66,0:51:09.93,Blue,,0000,0000,0000,,第二,\N这里的伙食难吃得要命.
+Dialogue: 0,0:51:06.84,0:51:10.11,Default,,0000,0000,0000,,And second of all,\Nthat food can kill you.
+Dialogue: 0,0:51:10.97,0:51:14.84,Blue,,0000,0000,0000,,所以\N如果你想快点出院,
+Dialogue: 0,0:51:11.15,0:51:15.02,Default,,0000,0000,0000,,So if you wanna\Nget out of here pronto,
+Dialogue: 0,0:51:15.02,0:51:18.15,Blue,,0000,0000,0000,,那么你就得\N让波比我来好好医治你.
+Dialogue: 0,0:51:15.19,0:51:18.31,Default,,0000,0000,0000,,you're gonna have to let Bobby\Nbe your doctor.
+Dialogue: 0,0:51:19.42,0:51:24.51,Blue,,0000,0000,0000,,先让我们来检查一下这里,\N雪莉小姐.
+Dialogue: 0,0:51:19.56,0:51:24.69,Default,,0000,0000,0000,,So let's just have a look here,\NMiss Shelly.
+Dialogue: 0,0:51:27.94,0:51:32.90,Blue,,0000,0000,0000,,哦, 你看起来\N气色相当不错嘛.
+Dialogue: 0,0:51:28.13,0:51:33.07,Default,,0000,0000,0000,,Oh, you seem to be\Ncoming along splendidly.
+Dialogue: 0,0:51:34.78,0:51:36.56,Blue,,0000,0000,0000,,深呼吸.
+Dialogue: 0,0:51:34.94,0:51:36.74,Default,,0000,0000,0000,,Deep breath.
+Dialogue: 0,0:51:41.13,0:51:44.78,Blue,,0000,0000,0000,,我诊断\N你马上就要康复了.
+Dialogue: 0,0:51:41.28,0:51:44.94,Default,,0000,0000,0000,,l'd say you're on your way\Nto a complete recovery.
+Dialogue: 0,0:51:56.10,0:51:57.93,Blue,,0000,0000,0000,,你快走吧.
+Dialogue: 0,0:51:56.26,0:51:58.09,Default,,0000,0000,0000,,You better go.
+Dialogue: 0,0:52:00.67,0:52:02.50,Blue,,0000,0000,0000,,你是我的女人.
+Dialogue: 0,0:52:00.86,0:52:02.70,Default,,0000,0000,0000,,You're my girl.
+Dialogue: 0,0:52:05.54,0:52:06.54,Blue,,0000,0000,0000,,波比.
+Dialogue: 0,0:52:05.70,0:52:06.73,Default,,0000,0000,0000,,Bobby.
+Dialogue: 0,0:52:09.94,0:52:11.55,Blue,,0000,0000,0000,,我爱你.
+Dialogue: 0,0:52:10.11,0:52:11.70,Default,,0000,0000,0000,,l love you.
+Dialogue: 0,0:52:16.38,0:52:20.69,Blue,,0000,0000,0000,,我想我也爱你.
+Dialogue: 0,0:52:16.55,0:52:20.81,Default,,0000,0000,0000,,l guess l love you too.
+Dialogue: 0,0:52:34.92,0:52:39.01,Blue,,0000,0000,0000,,是的, 我想我也爱你.
+Dialogue: 0,0:52:35.10,0:52:39.19,Default,,0000,0000,0000,,Yeah, l guess l love you too.
+Dialogue: 0,0:52:49.46,0:52:50.54,Blue,,0000,0000,0000,,波比·布里格斯.
+Dialogue: 0,0:52:49.61,0:52:50.71,Default,,0000,0000,0000,,Bobby Briggs.
+Dialogue: 0,0:52:53.37,0:52:57.07,Blue,,0000,0000,0000,,- 他在这儿干嘛?\N- 他不像来看病.
+Dialogue: 0,0:52:53.52,0:52:57.25,Default,,0000,0000,0000,,- What's he doing here?\N- He doesn't look sick.
+Dialogue: 0,0:52:57.24,0:53:00.38,Blue,,0000,0000,0000,,杜鲁门警长, 没想到你也有\N头脑灵活的时候,不赖嘛,
+Dialogue: 0,0:52:57.42,0:53:00.52,Default,,0000,0000,0000,,Sheriff Truman, to see this kind\Nof investigative genius at work,
+Dialogue: 0,0:53:00.55,0:53:03.29,Blue,,0000,0000,0000,,难得啊.
+Dialogue: 0,0:53:00.72,0:53:03.45,Default,,0000,0000,0000,,it's just a real treat for me.
+Dialogue: 0,0:53:07.82,0:53:09.30,Blue,,0000,0000,0000,,艾德.
+Dialogue: 0,0:53:07.97,0:53:09.46,Default,,0000,0000,0000,,Ed.
+Dialogue: 0,0:53:12.00,0:53:14.56,Blue,,0000,0000,0000,,你没事吧?\N我听说你受伤了
+Dialogue: 0,0:53:12.17,0:53:14.76,Default,,0000,0000,0000,,How are you doing?\Nl heard you stopped a couple.
+Dialogue: 0,0:53:14.78,0:53:17.78,Blue,,0000,0000,0000,,我没事. 纳丁怎样了?
+Dialogue: 0,0:53:14.94,0:53:17.96,Default,,0000,0000,0000,,l'm okay. How's Nadine?
+Dialogue: 0,0:53:18.52,0:53:20.26,Blue,,0000,0000,0000,,唉, 她现在昏迷中.
+Dialogue: 0,0:53:18.68,0:53:20.44,Default,,0000,0000,0000,,Well, she's in a coma.
+Dialogue: 0,0:53:20.44,0:53:23.22,Blue,,0000,0000,0000,,医生说我现在只能等着.\N希望她有求生的意志.
+Dialogue: 0,0:53:20.61,0:53:23.38,Default,,0000,0000,0000,,They say there's nothing we could do.\NShe has to wanna come back.
+Dialogue: 0,0:53:23.40,0:53:24.96,Blue,,0000,0000,0000,,你能坚持住吗?
+Dialogue: 0,0:53:23.55,0:53:25.14,Default,,0000,0000,0000,,How are you holding up?
+Dialogue: 0,0:53:25.14,0:53:27.36,Blue,,0000,0000,0000,,嗯, 也只能这样了,
+Dialogue: 0,0:53:25.32,0:53:27.51,Default,,0000,0000,0000,,Well, all l can do is sit here,
+Dialogue: 0,0:53:27.53,0:53:30.10,Blue,,0000,0000,0000,,坐着干等\N回忆着以前的事.
+Dialogue: 0,0:53:27.68,0:53:30.28,Default,,0000,0000,0000,,thinking about the things\Nl should have said or done.
+Dialogue: 0,0:53:30.27,0:53:32.80,Blue,,0000,0000,0000,,艾德, 别太难过了.
+Dialogue: 0,0:53:30.45,0:53:32.98,Default,,0000,0000,0000,,Ed, don't be too hard on yourself.
+Dialogue: 0,0:53:34.10,0:53:36.67,Blue,,0000,0000,0000,,我从来不相信命运,\N库珀探员.
+Dialogue: 0,0:53:34.29,0:53:36.85,Default,,0000,0000,0000,,l never believed in fate,\NAgent Cooper.
+Dialogue: 0,0:53:36.89,0:53:38.11,Blue,,0000,0000,0000,,我总是觉得
+Dialogue: 0,0:53:37.03,0:53:38.29,Default,,0000,0000,0000,,l always felt
+Dialogue: 0,0:53:38.28,0:53:41.98,Blue,,0000,0000,0000,,路是自己走出来的, 自己承担\N责任, 管好自己的事.
+Dialogue: 0,0:53:38.46,0:53:42.16,Default,,0000,0000,0000,,you make your own way, you take care\Nof your own, you pick up after yourself.
+Dialogue: 0,0:53:42.16,0:53:44.50,Blue,,0000,0000,0000,,{\i1}呵,小农意识?{\i0}
+Dialogue: 0,0:53:42.33,0:53:44.66,Default,,0000,0000,0000,,Farmer's AImanac?
+Dialogue: 0,0:53:44.68,0:53:47.42,Blue,,0000,0000,0000,,艾伯特, 我想艾德\N单独谈谈.
+Dialogue: 0,0:53:44.84,0:53:47.57,Default,,0000,0000,0000,,Albert, l would like\Nto speak to Ed.
+Dialogue: 0,0:53:47.59,0:53:50.55,Blue,,0000,0000,0000,,艾伯特, 来,我请你喝咖啡吧.
+Dialogue: 0,0:53:47.77,0:53:50.71,Default,,0000,0000,0000,,Albert, l'll buy you a cup of coffee.
+Dialogue: 0,0:53:53.34,0:53:55.25,Blue,,0000,0000,0000,,坐吧, 艾德.
+Dialogue: 0,0:53:53.51,0:53:55.41,Default,,0000,0000,0000,,Take a seat, Ed.
+Dialogue: 0,0:53:58.56,0:54:00.26,Blue,,0000,0000,0000,,我真不敢相信.
+Dialogue: 0,0:53:58.72,0:54:00.41,Default,,0000,0000,0000,,l saw this coming.
+Dialogue: 0,0:54:00.43,0:54:02.13,Blue,,0000,0000,0000,,它就在我眼前发生了.
+Dialogue: 0,0:54:00.58,0:54:02.31,Default,,0000,0000,0000,,l didn't wanna believe it.
+Dialogue: 0,0:54:02.35,0:54:05.61,Blue,,0000,0000,0000,,最糟糕的是,我甚至怀疑自己\N是否也在刻意的
+Dialogue: 0,0:54:02.52,0:54:05.75,Default,,0000,0000,0000,,What's worse is l'm sitting thinking\Nthat maybe there's a part of me
+Dialogue: 0,0:54:05.79,0:54:08.13,Blue,,0000,0000,0000,,让它发生.
+Dialogue: 0,0:54:05.92,0:54:08.32,Default,,0000,0000,0000,,that didn't wanna stop her.
+Dialogue: 0,0:54:08.31,0:54:10.01,Blue,,0000,0000,0000,,这个念头快让我受不了.
+Dialogue: 0,0:54:08.49,0:54:10.19,Default,,0000,0000,0000,,And that's a full load.
+Dialogue: 0,0:54:11.53,0:54:13.53,Blue,,0000,0000,0000,,艾德, 你是什么时候结婚的?
+Dialogue: 0,0:54:11.70,0:54:13.69,Default,,0000,0000,0000,,When did you get married, Ed?
+Dialogue: 0,0:54:13.71,0:54:15.92,Blue,,0000,0000,0000,,高中刚毕业.
+Dialogue: 0,0:54:13.86,0:54:16.09,Default,,0000,0000,0000,,Right out of high school.
+Dialogue: 0,0:54:16.14,0:54:18.27,Blue,,0000,0000,0000,,诺玛和我\N在一起四年了.
+Dialogue: 0,0:54:16.33,0:54:18.43,Default,,0000,0000,0000,,Norma and l had been together\Nabout four years.
+Dialogue: 0,0:54:18.45,0:54:22.54,Blue,,0000,0000,0000,,当时大家都认定我们会结婚的.\N本来是的.
+Dialogue: 0,0:54:18.60,0:54:22.70,Default,,0000,0000,0000,,Everybody figured we'd get hitched.\NThat'd be that.
+Dialogue: 0,0:54:22.71,0:54:25.19,Blue,,0000,0000,0000,,那是我和纳丁根本就不是很熟.
+Dialogue: 0,0:54:22.87,0:54:25.36,Default,,0000,0000,0000,,l barely knew Nadine to say hello to.
+Dialogue: 0,0:54:26.24,0:54:29.02,Blue,,0000,0000,0000,,那年春天, 就在一个倒霉的周末,
+Dialogue: 0,0:54:26.41,0:54:29.17,Default,,0000,0000,0000,,That spring, one bad weekend,
+Dialogue: 0,0:54:29.72,0:54:31.68,Blue,,0000,0000,0000,,诺玛跟着汉克跑路了.
+Dialogue: 0,0:54:29.88,0:54:31.85,Default,,0000,0000,0000,,Norma ran off with Hank.
+Dialogue: 0,0:54:31.85,0:54:34.11,Blue,,0000,0000,0000,,我的内心痛苦极了,\N我糊涂了.
+Dialogue: 0,0:54:32.02,0:54:34.31,Default,,0000,0000,0000,,l was so twisted up inside,\Nl couldn't see straight.
+Dialogue: 0,0:54:35.90,0:54:37.12,Blue,,0000,0000,0000,,当我睁开双眼的时候,
+Dialogue: 0,0:54:36.05,0:54:37.32,Default,,0000,0000,0000,,When l opened my eyes,
+Dialogue: 0,0:54:37.95,0:54:39.99,Blue,,0000,0000,0000,,纳丁,\N就睡在我身旁.
+Dialogue: 0,0:54:38.09,0:54:40.18,Default,,0000,0000,0000,,there was Nadine,\Nright in front of me.
+Dialogue: 0,0:54:41.12,0:54:43.47,Blue,,0000,0000,0000,,那一刻似乎也很甜蜜迷人,
+Dialogue: 0,0:54:41.33,0:54:43.62,Default,,0000,0000,0000,,There was something so sweet,
+Dialogue: 0,0:54:43.69,0:54:46.12,Blue,,0000,0000,0000,,她看起来是那么的无助.
+Dialogue: 0,0:54:43.86,0:54:46.33,Default,,0000,0000,0000,,so helpless about her.
+Dialogue: 0,0:54:47.69,0:54:49.00,Blue,,0000,0000,0000,,我们兜了一晚上风.
+Dialogue: 0,0:54:47.86,0:54:49.20,Default,,0000,0000,0000,,We drove all night.
+Dialogue: 0,0:54:49.17,0:54:53.61,Blue,,0000,0000,0000,,绕过蒙大拿州大瀑布后\N在一个小镇上停了车,
+Dialogue: 0,0:54:49.37,0:54:53.77,Default,,0000,0000,0000,,Ended up in some little town\Nin Montana, out past Great Falls,
+Dialogue: 0,0:54:53.79,0:54:55.09,Blue,,0000,0000,0000,,我向她求婚.
+Dialogue: 0,0:54:53.94,0:54:55.27,Default,,0000,0000,0000,,and l asked her to marry me.
+Dialogue: 0,0:54:56.57,0:55:01.31,Blue,,0000,0000,0000,,半疯, 半醉, 半开玩笑的,
+Dialogue: 0,0:54:56.74,0:55:01.47,Default,,0000,0000,0000,,Half joking, half drunk, half crazy.
+Dialogue: 0,0:55:01.49,0:55:03.79,Blue,,0000,0000,0000,,我们都以为结婚\N会让我们的生活平静下来.
+Dialogue: 0,0:55:01.65,0:55:03.94,Default,,0000,0000,0000,,lt was light before we found\Na justice of the peace.
+Dialogue: 0,0:55:05.01,0:55:06.10,Blue,,0000,0000,0000,,但是,诺玛...
+Dialogue: 0,0:55:05.15,0:55:06.27,Default,,0000,0000,0000,,And Norma...
+Dialogue: 0,0:55:06.71,0:55:09.19,Blue,,0000,0000,0000,,唔, 其实她根本\N没和汉克睡过.
+Dialogue: 0,0:55:06.88,0:55:09.37,Default,,0000,0000,0000,,Well, she hadn't even\Nslept with Hank.
+Dialogue: 0,0:55:09.97,0:55:12.28,Blue,,0000,0000,0000,,我看着她的脸\N当她知道...
+Dialogue: 0,0:55:10.12,0:55:12.45,Default,,0000,0000,0000,,The look on her face\Nwhen she found out...
+Dialogue: 0,0:55:14.59,0:55:19.07,Blue,,0000,0000,0000,,后来我和纳丁, 去了英格·帕斯\N我爸爸留下来的一个小木屋里.
+Dialogue: 0,0:55:14.76,0:55:19.22,Default,,0000,0000,0000,,Nadine and l, we went up to my dad's\Nold cabin up in Eagle Pass.
+Dialogue: 0,0:55:19.24,0:55:21.33,Blue,,0000,0000,0000,,度蜜月.
+Dialogue: 0,0:55:19.43,0:55:21.49,Default,,0000,0000,0000,,Honeymoon.
+Dialogue: 0,0:55:21.51,0:55:24.25,Blue,,0000,0000,0000,,我但是还打算借散布的机会\N向纳丁提出离婚,
+Dialogue: 0,0:55:21.67,0:55:24.43,Default,,0000,0000,0000,,l was hoping maybe we'd get around\Nto talking about a divorce,
+Dialogue: 0,0:55:25.16,0:55:27.34,Blue,,0000,0000,0000,,或者, 先分居什么的.
+Dialogue: 0,0:55:25.30,0:55:27.50,Default,,0000,0000,0000,,annulment, something.
+Dialogue: 0,0:55:27.51,0:55:29.99,Blue,,0000,0000,0000,,但是纳丁是那么的高兴.
+Dialogue: 0,0:55:27.67,0:55:30.16,Default,,0000,0000,0000,,But Nadine was so happy.
+Dialogue: 0,0:55:32.47,0:55:34.04,Blue,,0000,0000,0000,,你明白吗, 唉呀,
+Dialogue: 0,0:55:32.64,0:55:34.24,Default,,0000,0000,0000,,And you know, by golly,
+Dialogue: 0,0:55:34.21,0:55:36.69,Blue,,0000,0000,0000,,蜜月里\N我打瞎了纳丁的眼睛.
+Dialogue: 0,0:55:34.41,0:55:36.88,Default,,0000,0000,0000,,l shot out Nadine's eye\Non that honeymoon.
+Dialogue: 0,0:55:38.91,0:55:40.17,Blue,,0000,0000,0000,,你说什么, 艾德?
+Dialogue: 0,0:55:39.08,0:55:40.38,Default,,0000,0000,0000,,What do you mean, Ed?
+Dialogue: 0,0:55:41.66,0:55:43.48,Blue,,0000,0000,0000,,蜜月头一天,\N我们去打野鸡.
+Dialogue: 0,0:55:41.82,0:55:43.65,Default,,0000,0000,0000,,The first day,\Nwe were hunting pheasant.
+Dialogue: 0,0:55:43.70,0:55:47.36,Blue,,0000,0000,0000,,纳丁是个神枪手\N其实我们已经打到好几只野鸡了.
+Dialogue: 0,0:55:43.89,0:55:47.52,Default,,0000,0000,0000,,Nadine's a crack shot\Nand we already had a couple of birds.
+Dialogue: 0,0:55:47.84,0:55:49.36,Blue,,0000,0000,0000,,但是我感觉很好,还想打.
+Dialogue: 0,0:55:47.99,0:55:49.52,Default,,0000,0000,0000,,And l felt good shooting.
+Dialogue: 0,0:55:49.53,0:55:53.71,Blue,,0000,0000,0000,,听着枪声回荡在山谷,\N又好像从山上滚下来.
+Dialogue: 0,0:55:49.69,0:55:53.86,Default,,0000,0000,0000,,Listening to the sound echoing,\Nroll down those hills.
+Dialogue: 0,0:55:53.89,0:55:55.28,Blue,,0000,0000,0000,,于是我开火了.
+Dialogue: 0,0:55:54.03,0:55:55.43,Default,,0000,0000,0000,,l fired.
+Dialogue: 0,0:55:55.41,0:55:59.28,Blue,,0000,0000,0000,,没想到一粒弹片在石头上反弹回来\N把纳丁的眼睛打个正着.
+Dialogue: 0,0:55:55.60,0:55:59.47,Default,,0000,0000,0000,,A piece of buckshot skipped off a rock\Nand caught Nadine square in the eye.
+Dialogue: 0,0:56:00.15,0:56:01.98,Blue,,0000,0000,0000,,嘿, 那一定疼死了.
+Dialogue: 0,0:56:00.30,0:56:02.13,Default,,0000,0000,0000,,Man, that's a tough one.
+Dialogue: 0,0:56:02.20,0:56:04.46,Blue,,0000,0000,0000,,我们开车回镇\N她就一直伏在我的膝盖上.
+Dialogue: 0,0:56:02.34,0:56:04.57,Default,,0000,0000,0000,,She laid across my lap\Nas we drove back to town.
+Dialogue: 0,0:56:06.24,0:56:07.94,Blue,,0000,0000,0000,,她一点都没哭.
+Dialogue: 0,0:56:06.41,0:56:08.11,Default,,0000,0000,0000,,She never cried.
+Dialogue: 0,0:56:08.33,0:56:10.46,Blue,,0000,0000,0000,,没怪罪过我半点.
+Dialogue: 0,0:56:08.51,0:56:10.64,Default,,0000,0000,0000,,She never blamed me.
+Dialogue: 0,0:56:10.64,0:56:13.33,Blue,,0000,0000,0000,,更从来没有因此而恨过我.
+Dialogue: 0,0:56:10.81,0:56:13.48,Default,,0000,0000,0000,,She never hated me for it.
+Dialogue: 0,0:56:15.21,0:56:17.99,Blue,,0000,0000,0000,,几个月后,\N诺玛嫁给了汉克.
+Dialogue: 0,0:56:15.35,0:56:18.15,Default,,0000,0000,0000,,Couple of months later,\NNorma married Hank.
+Dialogue: 0,0:56:18.17,0:56:22.17,Blue,,0000,0000,0000,,所以我从来不相信命运.\N自作孽, 活该.
+Dialogue: 0,0:56:18.32,0:56:22.31,Default,,0000,0000,0000,,So l don't believe in fate.\NYou make your bed, you sleep in it.
+Dialogue: 0,0:56:23.61,0:56:25.26,Blue,,0000,0000,0000,,很难过听到这些.
+Dialogue: 0,0:56:23.79,0:56:25.46,Default,,0000,0000,0000,,Sorry.
+Dialogue: 0,0:56:26.39,0:56:28.70,Blue,,0000,0000,0000,,艾德, 有人来看你了.
+Dialogue: 0,0:56:26.56,0:56:28.86,Default,,0000,0000,0000,,Ed, someone here to see you.
+Dialogue: 0,0:56:51.81,0:56:54.33,Blue,,0000,0000,0000,,一个躺在微笑袋子里的男人.
+Dialogue: 0,0:56:51.99,0:56:54.51,Default,,0000,0000,0000,,A man in a smiling bag.
+Dialogue: 0,0:57:04.21,0:57:07.99,Blue,,0000,0000,0000,,这边搞完了\N就把詹姆斯送回局里去.
+Dialogue: 0,0:57:04.37,0:57:08.17,Default,,0000,0000,0000,,Take James right back to the station\Nwhen you're done here.
+Dialogue: 0,0:57:09.22,0:57:11.13,Blue,,0000,0000,0000,,艾德真可怜.
+Dialogue: 0,0:57:09.37,0:57:11.27,Default,,0000,0000,0000,,Poor Ed.
+Dialogue: 0,0:57:11.30,0:57:13.26,Blue,,0000,0000,0000,,纳丁也是.
+Dialogue: 0,0:57:11.48,0:57:13.41,Default,,0000,0000,0000,,Poor Nadine.
+Dialogue: 0,0:57:14.05,0:57:16.57,Blue,,0000,0000,0000,,- 是啊.\N- 是啊.
+Dialogue: 0,0:57:14.21,0:57:16.74,Default,,0000,0000,0000,,- Yeah.\N- Yeah.
+Dialogue: 0,0:57:17.35,0:57:19.05,Blue,,0000,0000,0000,,艾伯特, 你为什么\N不趁现在
+Dialogue: 0,0:57:17.51,0:57:19.21,Default,,0000,0000,0000,,Albert, why don't you\Ntake this opportunity
+Dialogue: 0,0:57:19.22,0:57:21.62,Blue,,0000,0000,0000,,去大北方酒店\N订个房呢.
+Dialogue: 0,0:57:19.38,0:57:21.78,Default,,0000,0000,0000,,to check in\Nat The Great Northern.
+Dialogue: 0,0:57:28.76,0:57:32.63,Blue,,0000,0000,0000,,护士, 我不是开玩笑的,\N你最好和厨房打个招呼,那些食物实在....
+Dialogue: 0,0:57:28.93,0:57:32.79,Default,,0000,0000,0000,,Nurse, l really mean it,\Nyou better speak to that kitchen.
+Dialogue: 0,0:57:53.56,0:57:55.74,Blue,,0000,0000,0000,,哈里, 艾伯特在大北方酒店\N订完房以后,
+Dialogue: 0,0:57:53.72,0:57:55.91,Default,,0000,0000,0000,,Harry, when Albert finishes up\Nat The Great Northern,
+Dialogue: 0,0:57:55.91,0:57:57.34,Blue,,0000,0000,0000,,我们在局里面碰头.
+Dialogue: 0,0:57:56.09,0:57:57.49,Default,,0000,0000,0000,,we'll meet back at the station.
+Dialogue: 0,0:57:57.52,0:57:59.96,Blue,,0000,0000,0000,,我要开始布置整个计划了.
+Dialogue: 0,0:57:57.65,0:58:00.12,Default,,0000,0000,0000,,l'm ready to lay the whole thing out.
+Dialogue: 0,0:58:00.13,0:58:01.35,Blue,,0000,0000,0000,,糖果和饮料呢?
+Dialogue: 0,0:58:00.29,0:58:01.48,Default,,0000,0000,0000,,Rocks and bottles?
+Dialogue: 0,0:58:01.52,0:58:04.35,Blue,,0000,0000,0000,,粉笔和黑板\N就行了.
+Dialogue: 0,0:58:01.66,0:58:04.49,Default,,0000,0000,0000,,Chalk and blackboard\Nwill be just fine.
+Dialogue: 0,0:58:04.53,0:58:07.88,Blue,,0000,0000,0000,,- 果冻加面包甜甜圈怎样?\N- 哈里, 那还用说吗.
+Dialogue: 0,0:58:04.66,0:58:08.06,Default,,0000,0000,0000,,- Jelly doughnuts?\N- Harry, that goes without saying.
+Dialogue: 0,0:58:08.05,0:58:11.10,Blue,,0000,0000,0000,,那回见\N顺便买些汤回来喝.
+Dialogue: 0,0:58:08.23,0:58:11.26,Default,,0000,0000,0000,,l'll come back later\Nand l'll bring some soup.
+Dialogue: 0,0:58:11.27,0:58:14.18,Blue,,0000,0000,0000,,这里的伙食有够恶心的\N比所有病毒都恶心.
+Dialogue: 0,0:58:11.43,0:58:14.34,Default,,0000,0000,0000,,The food in these places will kill you\Nquicker than most diseases.
+Dialogue: 0,0:58:14.71,0:58:16.36,Blue,,0000,0000,0000,,我知道.
+Dialogue: 0,0:58:14.91,0:58:16.50,Default,,0000,0000,0000,,So l hear.
+Dialogue: 0,0:58:16.54,0:58:18.49,Blue,,0000,0000,0000,,还有, 别忘了\N给我带甜点.
+Dialogue: 0,0:58:16.67,0:58:18.64,Default,,0000,0000,0000,,Now, you know\Nl have a sweet tooth too.
+Dialogue: 0,0:58:19.15,0:58:21.32,Blue,,0000,0000,0000,,我会给你带\N巧克力花生牛油馅饼.
+Dialogue: 0,0:58:19.31,0:58:21.47,Default,,0000,0000,0000,,l've got\Na chocolate-peanut butter pie.
+Dialogue: 0,0:58:21.50,0:58:23.94,Blue,,0000,0000,0000,,诺玛, 别骗我哦.
+Dialogue: 0,0:58:21.65,0:58:24.11,Default,,0000,0000,0000,,Norma, l'm serious.
+Dialogue: 0,0:58:24.11,0:58:26.41,Blue,,0000,0000,0000,,要一大个哦.
+Dialogue: 0,0:58:24.28,0:58:26.58,Default,,0000,0000,0000,,Bring the whole pie.
+Dialogue: 0,0:58:28.50,0:58:29.59,Blue,,0000,0000,0000,,我给你带两大个,够没.
+Dialogue: 0,0:58:28.65,0:58:29.78,Default,,0000,0000,0000,,l'll bring you two.
+Dialogue: 0,0:58:30.33,0:58:31.59,Blue,,0000,0000,0000,,够了.
+Dialogue: 0,0:58:30.49,0:58:31.78,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,0:58:33.07,0:58:35.60,Blue,,0000,0000,0000,,- 好好休息.\N- 回见.
+Dialogue: 0,0:58:33.26,0:58:35.78,Default,,0000,0000,0000,,- Feel better, sweetie.\N- Bye.
+Dialogue: 0,0:58:36.12,0:58:37.86,Blue,,0000,0000,0000,,回见.
+Dialogue: 0,0:58:36.29,0:58:38.06,Default,,0000,0000,0000,,Bye.
+Dialogue: 0,0:59:39.57,0:59:41.18,Blue,,0000,0000,0000,,儿子.
+Dialogue: 0,0:59:40.06,0:59:41.68,Default,,0000,0000,0000,,Son.
+Dialogue: 0,0:59:44.88,0:59:46.49,Blue,,0000,0000,0000,,爸.
+Dialogue: 0,0:59:45.36,0:59:46.99,Default,,0000,0000,0000,,Dad.
+Dialogue: 0,0:59:48.06,0:59:50.88,Blue,,0000,0000,0000,,你愿意...
+Dialogue: 0,0:59:48.57,0:59:51.40,Default,,0000,0000,0000,,Would you...
+Dialogue: 0,0:59:51.06,0:59:53.06,Blue,,0000,0000,0000,,...过来一起坐吗?
+Dialogue: 0,0:59:51.57,0:59:53.56,Default,,0000,0000,0000,,...care to join me?
+Dialogue: 0,0:59:56.19,0:59:57.76,Blue,,0000,0000,0000,,那好吧.
+Dialogue: 0,0:59:56.71,0:59:58.26,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,1:00:12.25,1:00:13.60,Blue,,0000,0000,0000,,今天在学校过的好吗?
+Dialogue: 0,1:00:12.76,1:00:14.09,Default,,0000,0000,0000,,How was school today?
+Dialogue: 0,1:00:16.17,1:00:17.95,Blue,,0000,0000,0000,,学校?
+Dialogue: 0,1:00:16.69,1:00:18.49,Default,,0000,0000,0000,,School?
+Dialogue: 0,1:00:19.78,1:00:21.43,Blue,,0000,0000,0000,,还好.
+Dialogue: 0,1:00:20.26,1:00:21.92,Default,,0000,0000,0000,,Fine.
+Dialogue: 0,1:00:22.39,1:00:24.05,Blue,,0000,0000,0000,,很好.
+Dialogue: 0,1:00:22.90,1:00:24.56,Default,,0000,0000,0000,,That's good.
+Dialogue: 0,1:00:27.44,1:00:29.22,Blue,,0000,0000,0000,,你呢，工作怎样?
+Dialogue: 0,1:00:27.94,1:00:29.74,Default,,0000,0000,0000,,How was work?
+Dialogue: 0,1:00:30.27,1:00:32.27,Blue,,0000,0000,0000,,工作? 工作不错.
+Dialogue: 0,1:00:30.77,1:00:32.77,Default,,0000,0000,0000,,Work? Work was good.
+Dialogue: 0,1:00:40.54,1:00:42.71,Blue,,0000,0000,0000,,- 爸?\N- 是的, 儿子.
+Dialogue: 0,1:00:41.05,1:00:43.21,Default,,0000,0000,0000,,- Dad?\N- Yes, son.
+Dialogue: 0,1:00:44.59,1:00:48.02,Blue,,0000,0000,0000,,其实， 你的工作到底是干什么的?
+Dialogue: 0,1:00:45.09,1:00:48.55,Default,,0000,0000,0000,,What is it that you do, exactly?
+Dialogue: 0,1:00:49.55,1:00:51.63,Blue,,0000,0000,0000,,机密.
+Dialogue: 0,1:00:50.06,1:00:52.12,Default,,0000,0000,0000,,That's classified.
+Dialogue: 0,1:00:57.86,1:01:00.43,Blue,,0000,0000,0000,,波比, 你要\N来一块馅饼吗?
+Dialogue: 0,1:00:58.34,1:01:00.93,Default,,0000,0000,0000,,Bobby, would you care\Nfor a piece of pie?
+Dialogue: 0,1:01:01.47,1:01:04.17,Blue,,0000,0000,0000,,今天的橘莓馅饼\N特别可口.
+Dialogue: 0,1:01:01.97,1:01:04.67,Default,,0000,0000,0000,,The huckleberries are particularly\Ndelicious today.
+Dialogue: 0,1:01:04.39,1:01:07.08,Blue,,0000,0000,0000,,特别新鲜 特别美味.
+Dialogue: 0,1:01:04.91,1:01:07.57,Default,,0000,0000,0000,,Particularly fresh and delicious.
+Dialogue: 0,1:01:08.65,1:01:10.35,Blue,,0000,0000,0000,,不了, 谢谢.
+Dialogue: 0,1:01:09.15,1:01:10.84,Default,,0000,0000,0000,,No, thanks.
+Dialogue: 0,1:01:17.70,1:01:19.40,Blue,,0000,0000,0000,,波比,
+Dialogue: 0,1:01:18.19,1:01:19.92,Default,,0000,0000,0000,,Bobby,
+Dialogue: 0,1:01:20.84,1:01:22.53,Blue,,0000,0000,0000,,愿意和我分享一些东西吗?
+Dialogue: 0,1:01:21.32,1:01:23.05,Default,,0000,0000,0000,,may l share something with you?
+Dialogue: 0,1:01:23.97,1:01:25.27,Blue,,0000,0000,0000,,那好吧.
+Dialogue: 0,1:01:24.46,1:01:25.79,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,1:01:25.76,1:01:28.84,Blue,,0000,0000,0000,,我昨晚睡觉时做了个梦.
+Dialogue: 0,1:01:26.26,1:01:29.32,Default,,0000,0000,0000,,A vision l had in my sleep last night.
+Dialogue: 0,1:01:29.72,1:01:31.37,Blue,,0000,0000,0000,,一个非一般的梦,
+Dialogue: 0,1:01:30.20,1:01:31.86,Default,,0000,0000,0000,,As distinguished from a dream,
+Dialogue: 0,1:01:31.59,1:01:33.81,Blue,,0000,0000,0000,,一个由潜意识\N对日常生活
+Dialogue: 0,1:01:32.10,1:01:34.30,Default,,0000,0000,0000,,which is mere sorting\Nand cataloging
+Dialogue: 0,1:01:33.98,1:01:36.89,Blue,,0000,0000,0000,,进行分类\N和重整后的梦.
+Dialogue: 0,1:01:34.47,1:01:37.37,Default,,0000,0000,0000,,of the day's events\Nby the subconscious.
+Dialogue: 0,1:01:38.55,1:01:40.25,Blue,,0000,0000,0000,,那个梦境.
+Dialogue: 0,1:01:39.08,1:01:40.77,Default,,0000,0000,0000,,This was a vision.
+Dialogue: 0,1:01:40.42,1:01:43.68,Blue,,0000,0000,0000,,清晰可见\N犹如山涧清泉.
+Dialogue: 0,1:01:40.94,1:01:44.18,Default,,0000,0000,0000,,Fresh and clear\Nas a mountain stream.
+Dialogue: 0,1:01:44.73,1:01:47.73,Blue,,0000,0000,0000,,它慢慢显示，越来越清晰.
+Dialogue: 0,1:01:45.22,1:01:48.21,Default,,0000,0000,0000,,The mind revealing itself to itself.
+Dialogue: 0,1:01:49.30,1:01:51.26,Blue,,0000,0000,0000,,在梦里,
+Dialogue: 0,1:01:49.82,1:01:51.79,Default,,0000,0000,0000,,ln my vision,
+Dialogue: 0,1:01:51.43,1:01:55.13,Blue,,0000,0000,0000,,我站在一间\N宫殿的门前,
+Dialogue: 0,1:01:51.96,1:01:55.65,Default,,0000,0000,0000,,l was on the veranda\Nof a vast estate,
+Dialogue: 0,1:01:55.30,1:01:59.18,Blue,,0000,0000,0000,,一座富丽堂皇\N结构匀称的宫殿.
+Dialogue: 0,1:01:55.83,1:01:59.69,Default,,0000,0000,0000,,a palazzo\Nof some fantastic proportion.
+Dialogue: 0,1:01:59.35,1:02:03.48,Blue,,0000,0000,0000,,宫殿的窗户透出\N一簇微弱的灯光
+Dialogue: 0,1:01:59.86,1:02:03.99,Default,,0000,0000,0000,,There seemed to emanate from it\Na light from within this
+Dialogue: 0,1:02:03.66,1:02:07.10,Blue,,0000,0000,0000,,隐隐约约, 映射出那些漂亮的大理石.
+Dialogue: 0,1:02:04.17,1:02:07.63,Default,,0000,0000,0000,,gleaming, radiant marble.
+Dialogue: 0,1:02:07.27,1:02:12.49,Blue,,0000,0000,0000,,我认得这个地方. 我来过, 事实上,\N那里就是我出生的地方.
+Dialogue: 0,1:02:07.80,1:02:13.00,Default,,0000,0000,0000,,l'd known this place. l had, in fact,\Nbeen born and raised there.
+Dialogue: 0,1:02:12.67,1:02:15.23,Blue,,0000,0000,0000,,是我人生的首次回归.
+Dialogue: 0,1:02:13.18,1:02:15.74,Default,,0000,0000,0000,,This was my first return.
+Dialogue: 0,1:02:16.19,1:02:22.11,Blue,,0000,0000,0000,,回归到任最深处的生命之源.
+Dialogue: 0,1:02:16.68,1:02:22.64,Default,,0000,0000,0000,,A reunion with the deepest\Nwell springs of my being.
+Dialogue: 0,1:02:24.25,1:02:26.64,Blue,,0000,0000,0000,,我围着房子转悠, 我很高兴地注意到
+Dialogue: 0,1:02:24.72,1:02:27.16,Default,,0000,0000,0000,,Wandering about, l noticed happily
+Dialogue: 0,1:02:26.81,1:02:30.33,Blue,,0000,0000,0000,,它一直都被\N打理得非常整整有条.
+Dialogue: 0,1:02:27.32,1:02:30.85,Default,,0000,0000,0000,,that the house had been\Nimmaculately maintained.
+Dialogue: 0,1:02:30.51,1:02:33.86,Blue,,0000,0000,0000,,有一个小客房\N在它的旁边,
+Dialogue: 0,1:02:31.03,1:02:34.36,Default,,0000,0000,0000,,There had been added a number\Nof additional rooms,
+Dialogue: 0,1:02:34.78,1:02:39.91,Blue,,0000,0000,0000,,但是小客房丝毫不碍眼\N完全和其他建筑物融为一体了,
+Dialogue: 0,1:02:35.27,1:02:40.40,Default,,0000,0000,0000,,but in a way that blended so seamlessly\Nwith the original construction,
+Dialogue: 0,1:02:40.09,1:02:43.39,Blue,,0000,0000,0000,,谁也不会察觉\N它有什么不妥.
+Dialogue: 0,1:02:40.57,1:02:43.90,Default,,0000,0000,0000,,one would never detect\Nany difference.
+Dialogue: 0,1:02:43.57,1:02:47.09,Blue,,0000,0000,0000,,回到房子里面的\N大客厅,
+Dialogue: 0,1:02:44.07,1:02:47.57,Default,,0000,0000,0000,,Returning to the house's\Ngrand foyer,
+Dialogue: 0,1:02:47.31,1:02:49.92,Blue,,0000,0000,0000,,有人来敲门了.
+Dialogue: 0,1:02:47.78,1:02:50.41,Default,,0000,0000,0000,,there came a knock at the door.
+Dialogue: 0,1:02:52.18,1:02:54.05,Blue,,0000,0000,0000,,是我的儿子.
+Dialogue: 0,1:02:52.68,1:02:54.55,Default,,0000,0000,0000,,My son was standing there.
+Dialogue: 0,1:02:55.62,1:02:59.49,Blue,,0000,0000,0000,,他看起来多么快乐，无忧无虑的.
+Dialogue: 0,1:02:56.15,1:03:00.02,Default,,0000,0000,0000,,He was happy and carefree.
+Dialogue: 0,1:03:00.36,1:03:04.89,Blue,,0000,0000,0000,,充满和谐和欣喜\N前途无量的人生.
+Dialogue: 0,1:03:00.89,1:03:05.38,Default,,0000,0000,0000,,Clearly living a life\Nof deep harmony and joy.
+Dialogue: 0,1:03:07.68,1:03:09.50,Blue,,0000,0000,0000,,我们拥抱在一起.
+Dialogue: 0,1:03:08.20,1:03:10.03,Default,,0000,0000,0000,,We embraced.
+Dialogue: 0,1:03:09.68,1:03:13.33,Blue,,0000,0000,0000,,满怀温暖与爱,\N一个最纯粹的拥抱.
+Dialogue: 0,1:03:10.20,1:03:13.86,Default,,0000,0000,0000,,A warm and loving embrace,\Nnothing withheld.
+Dialogue: 0,1:03:14.86,1:03:18.64,Blue,,0000,0000,0000,,那一刻, 我们俩, 化为一体了.
+Dialogue: 0,1:03:15.37,1:03:19.17,Default,,0000,0000,0000,,We were, in this moment, one.
+Dialogue: 0,1:03:26.34,1:03:32.13,Blue,,0000,0000,0000,,我醒来了，但那种奇妙的感觉\N还久久徘徊在我心间
+Dialogue: 0,1:03:26.82,1:03:32.62,Default,,0000,0000,0000,,My vision ended and l awoke\Nwith a tremendous feeling
+Dialogue: 0,1:03:32.31,1:03:36.22,Blue,,0000,0000,0000,,让我感到你和你的未来
+Dialogue: 0,1:03:32.79,1:03:36.73,Default,,0000,0000,0000,,of optimism and confidence
+Dialogue: 0,1:03:36.40,1:03:38.05,Blue,,0000,0000,0000,,多么乐观，自信.
+Dialogue: 0,1:03:36.89,1:03:38.55,Default,,0000,0000,0000,,in you and your future.
+Dialogue: 0,1:03:40.05,1:03:41.83,Blue,,0000,0000,0000,,就这样，一个关于你的梦.
+Dialogue: 0,1:03:40.56,1:03:42.33,Default,,0000,0000,0000,,That was my vision of you.
+Dialogue: 0,1:03:43.40,1:03:44.84,Blue,,0000,0000,0000,,真的吗?
+Dialogue: 0,1:03:43.90,1:03:45.33,Default,,0000,0000,0000,,Really?
+Dialogue: 0,1:03:45.27,1:03:50.89,Blue,,0000,0000,0000,,我很高兴能有这个机会\N和你分享这个梦.
+Dialogue: 0,1:03:45.77,1:03:51.40,Default,,0000,0000,0000,,l'm so glad to have had this opportunity\Nto share it with you.
+Dialogue: 0,1:03:59.50,1:04:04.77,Blue,,0000,0000,0000,,我祝福你\N一生顺风.
+Dialogue: 0,1:03:59.98,1:04:05.29,Default,,0000,0000,0000,,l wish you nothing\Nbut the very best in all things.
+Dialogue: 0,1:04:05.21,1:04:07.12,Blue,,0000,0000,0000,,谢谢你, 爸.
+Dialogue: 0,1:04:05.72,1:04:07.62,Default,,0000,0000,0000,,Thank you, Dad.
+Dialogue: 0,1:04:07.51,1:04:10.51,Blue,,0000,0000,0000,,- 回见. 电联.\N- 好的.
+Dialogue: 0,1:04:07.99,1:04:11.02,Default,,0000,0000,0000,,- See you later. Call.\N- Okay.
+Dialogue: 0,1:04:18.78,1:04:20.70,Blue,,0000,0000,0000,,少校?
+Dialogue: 0,1:04:19.30,1:04:21.20,Default,,0000,0000,0000,,Major?
+Dialogue: 0,1:04:20.87,1:04:22.92,Blue,,0000,0000,0000,,觉得今天的馅饼怎样?
+Dialogue: 0,1:04:21.37,1:04:23.43,Default,,0000,0000,0000,,How was the pie?
+Dialogue: 0,1:04:23.09,1:04:24.61,Blue,,0000,0000,0000,,一如既往地出色.
+Dialogue: 0,1:04:23.61,1:04:25.13,Default,,0000,0000,0000,,Exceptional, as always.
+Dialogue: 0,1:04:41.37,1:04:43.41,Blue,,0000,0000,0000,,雪莉怎样了?
+Dialogue: 0,1:04:41.86,1:04:43.95,Default,,0000,0000,0000,,How is Shelly?
+Dialogue: 0,1:04:44.59,1:04:46.46,Blue,,0000,0000,0000,,等一下再说吧.
+Dialogue: 0,1:04:45.06,1:04:46.96,Default,,0000,0000,0000,,l can't talk right now.
+Dialogue: 0,1:04:48.16,1:04:50.46,Blue,,0000,0000,0000,,那好, 她喜欢那些的花吗?
+Dialogue: 0,1:04:48.67,1:04:51.00,Default,,0000,0000,0000,,Well, how did she like the flowers?
+Dialogue: 0,1:05:22.19,1:05:25.63,Blue,,0000,0000,0000,,劳拉·帕尔默被害当晚，\N她有两个约会.
+Dialogue: 0,1:05:22.70,1:05:26.16,Default,,0000,0000,0000,,The night Laura Palmer was killed, it\Nappears she made two appointments.
+Dialogue: 0,1:05:25.80,1:05:28.85,Blue,,0000,0000,0000,,她的日记里写到,\N好紧张今晚和「詹」的见面.
+Dialogue: 0,1:05:26.34,1:05:29.36,Default,,0000,0000,0000,,ln her diary she had written,\N''Nervous about meeting J tonight.''
+Dialogue: 0,1:05:29.02,1:05:31.24,Blue,,0000,0000,0000,,被提到的「詹」\N应该就是詹姆斯·赫尔利.
+Dialogue: 0,1:05:29.54,1:05:31.73,Default,,0000,0000,0000,,l now believe this was a reference\Nto James Hurley.
+Dialogue: 0,1:05:31.59,1:05:33.33,Blue,,0000,0000,0000,,她觉得紧张是因为\N她打算告诉他
+Dialogue: 0,1:05:32.08,1:05:33.84,Default,,0000,0000,0000,,She was nervous\Nbecause she planned to tell him
+Dialogue: 0,1:05:33.50,1:05:34.94,Blue,,0000,0000,0000,,要和他分手.
+Dialogue: 0,1:05:34.01,1:05:35.44,Default,,0000,0000,0000,,she didn't wanna see him anymore.
+Dialogue: 0,1:05:35.12,1:05:37.64,Blue,,0000,0000,0000,,就在她准备溜出家门的时候,\N她接到了一个电话.
+Dialogue: 0,1:05:35.61,1:05:38.17,Default,,0000,0000,0000,,Before she snuck out of the house,\Nshe received a phone call.
+Dialogue: 0,1:05:38.08,1:05:40.55,Blue,,0000,0000,0000,,她的第二个约会\N里欧·强生
+Dialogue: 0,1:05:38.58,1:05:41.07,Default,,0000,0000,0000,,We believe it was Leo Johnson\Nmaking the second appointment
+Dialogue: 0,1:05:40.77,1:05:41.99,Blue,,0000,0000,0000,,约在当晚深夜.
+Dialogue: 0,1:05:41.25,1:05:42.51,Default,,0000,0000,0000,,for sometime later that night.
+Dialogue: 0,1:05:42.64,1:05:44.86,Blue,,0000,0000,0000,,劳拉见到詹姆斯后,\N一直和他待到12:30,
+Dialogue: 0,1:05:43.12,1:05:45.38,Default,,0000,0000,0000,,Laura met James,\Nwas with him until 1 2:30,
+Dialogue: 0,1:05:45.04,1:05:47.51,Blue,,0000,0000,0000,,然后, 她独自去到史巴克伍和21区\N十字路口,
+Dialogue: 0,1:05:45.56,1:05:48.02,Default,,0000,0000,0000,,when, at the intersection\Nof Sparkwood and 21 ,
+Dialogue: 0,1:05:47.69,1:05:49.95,Blue,,0000,0000,0000,,她上了摩托车\N开进了树林里.
+Dialogue: 0,1:05:48.19,1:05:50.46,Default,,0000,0000,0000,,she jumped from the bike\Nand ran into the woods.
+Dialogue: 0,1:05:50.13,1:05:52.52,Blue,,0000,0000,0000,,我们相信她是去那里\N见雅克·雷诺,
+Dialogue: 0,1:05:50.63,1:05:53.03,Default,,0000,0000,0000,,We believe she met up there\Nwith Jacques Renault,
+Dialogue: 0,1:05:52.70,1:05:54.96,Blue,,0000,0000,0000,,里欧·强生和朗尼特·珀拉斯奇.
+Dialogue: 0,1:05:53.20,1:05:55.46,Default,,0000,0000,0000,,Leo Johnson and Ronette Pulaski.
+Dialogue: 0,1:05:55.13,1:05:58.14,Blue,,0000,0000,0000,,他们一起, 开车拐到了一条小路上\N这条小路通往雷诺的小木屋.
+Dialogue: 0,1:05:55.63,1:05:58.62,Default,,0000,0000,0000,,Together, they drove to the foot\Nof the trail leading to Jacques's cabin.
+Dialogue: 0,1:05:58.31,1:06:01.96,Blue,,0000,0000,0000,,他们翻过小路的时候,\N给灵木女士听到.
+Dialogue: 0,1:05:58.84,1:06:02.46,Default,,0000,0000,0000,,They climbed the trail, they were heard\Npassing by the cabin of the Log Lady.
+Dialogue: 0,1:06:02.14,1:06:04.97,Blue,,0000,0000,0000,,他们大约在凌晨1点钟\N到了雅克·雷诺的小木屋.
+Dialogue: 0,1:06:02.64,1:06:05.47,Default,,0000,0000,0000,,They reached Jacques Renault's cabin\Nat approximately 1 a.m.
+Dialogue: 0,1:06:05.14,1:06:07.62,Blue,,0000,0000,0000,,然后开始喝酒，嗑药，狂欢.\N劳拉被绑了起来
+Dialogue: 0,1:06:05.64,1:06:08.13,Default,,0000,0000,0000,,Drugs and alcohol were consumed.\NLaura was tied up
+Dialogue: 0,1:06:07.84,1:06:10.28,Blue,,0000,0000,0000,,和里欧，雅克两个\N同时发生性关系.
+Dialogue: 0,1:06:08.34,1:06:10.78,Default,,0000,0000,0000,,and had sexual relations\Nwith both Leo and Jacques.
+Dialogue: 0,1:06:10.45,1:06:12.80,Blue,,0000,0000,0000,,那只鹦鹉沃尔多从笼子里跑了出来\N啄伤了劳拉.
+Dialogue: 0,1:06:10.95,1:06:13.31,Default,,0000,0000,0000,,Waldo the bird was let out of his cage\Nand attacked Laura.
+Dialogue: 0,1:06:12.98,1:06:15.85,Blue,,0000,0000,0000,,之后里欧和雅克打了起来.\N雅克逃到屋外晕倒了.
+Dialogue: 0,1:06:13.48,1:06:16.32,Default,,0000,0000,0000,,Leo and Jacques fought.\NJacques went outside and passed out.
+Dialogue: 0,1:06:15.98,1:06:18.33,Blue,,0000,0000,0000,,当他醒过来后,\N里欧和女生们都已经走了.
+Dialogue: 0,1:06:16.49,1:06:18.82,Default,,0000,0000,0000,,When he came to,\NLeo and the girls were gone.
+Dialogue: 0,1:06:18.50,1:06:21.76,Blue,,0000,0000,0000,,我们相信里欧是一个人\N徒步顺着小路离开的,
+Dialogue: 0,1:06:18.99,1:06:22.25,Default,,0000,0000,0000,,We believe Leo hiked back down\Nthe trail to his Corvette alone,
+Dialogue: 0,1:06:21.90,1:06:23.37,Blue,,0000,0000,0000,,把女生们都甩下.
+Dialogue: 0,1:06:22.43,1:06:23.89,Default,,0000,0000,0000,,leaving the girls behind.
+Dialogue: 0,1:06:23.55,1:06:25.77,Blue,,0000,0000,0000,,现在可以确定,\N现场还有一个神秘人.
+Dialogue: 0,1:06:24.06,1:06:26.29,Default,,0000,0000,0000,,The reason being,\Nthere was a third man.
+Dialogue: 0,1:06:25.94,1:06:27.86,Blue,,0000,0000,0000,,豪克副警长发现的证据表明\N确实还有一个我们未知的神秘人在场
+Dialogue: 0,1:06:26.46,1:06:28.40,Default,,0000,0000,0000,,Deputy Hawk found evidence\Nof a third man
+Dialogue: 0,1:06:28.03,1:06:30.12,Blue,,0000,0000,0000,,在雅克的小木屋\N窗外.
+Dialogue: 0,1:06:28.56,1:06:30.62,Default,,0000,0000,0000,,outside the window\Nof Jacques's cabin.
+Dialogue: 0,1:06:30.30,1:06:33.17,Blue,,0000,0000,0000,,神秘人掳走了劳拉和朗尼特\N把他们掳到铁路那里，然后绑起来.
+Dialogue: 0,1:06:30.80,1:06:33.67,Default,,0000,0000,0000,,The third man took Laura and Ronette\Nto the train where they were tied up.
+Dialogue: 0,1:06:33.34,1:06:35.69,Blue,,0000,0000,0000,,劳拉是第二次被绑,\N朗尼特则是第一次.
+Dialogue: 0,1:06:33.87,1:06:36.17,Default,,0000,0000,0000,,Laura for the second time,\NRonette for the first.
+Dialogue: 0,1:06:35.87,1:06:37.91,Blue,,0000,0000,0000,,凶手用钝器,\N袭击朗尼特
+Dialogue: 0,1:06:36.37,1:06:38.43,Default,,0000,0000,0000,,Using a blunt object,\Nthe killer hit Ronette
+Dialogue: 0,1:06:38.09,1:06:39.48,Blue,,0000,0000,0000,,把她砸至昏迷.
+Dialogue: 0,1:06:38.61,1:06:39.97,Default,,0000,0000,0000,,and knocked her unconscious.
+Dialogue: 0,1:06:39.65,1:06:41.61,Blue,,0000,0000,0000,,他当时一定是急于\N要将劳拉置于死地,
+Dialogue: 0,1:06:40.14,1:06:42.11,Default,,0000,0000,0000,,He must have been so intent\Non killing Laura,
+Dialogue: 0,1:06:41.79,1:06:45.18,Blue,,0000,0000,0000,,所以没有意识到朗尼特\N恢复知觉并逃脱了.
+Dialogue: 0,1:06:42.28,1:06:45.68,Default,,0000,0000,0000,,he didn't realize that Ronette\Nregained consciousness and escaped.
+Dialogue: 0,1:06:45.35,1:06:47.83,Blue,,0000,0000,0000,,也有可能是\N他根本不在意.
+Dialogue: 0,1:06:45.88,1:06:48.32,Default,,0000,0000,0000,,Either he didn't know\Nor he didn't care.
+Dialogue: 0,1:06:47.97,1:06:49.97,Blue,,0000,0000,0000,,他堆砌了一个土堆
+Dialogue: 0,1:06:48.48,1:06:50.48,Default,,0000,0000,0000,,He made a small mound of dirt
+Dialogue: 0,1:06:50.14,1:06:52.53,Blue,,0000,0000,0000,,把劳拉的半心项链\N放在上面.
+Dialogue: 0,1:06:50.65,1:06:53.02,Default,,0000,0000,0000,,and put the half-heart necklace\Nof Laura's on top.
+Dialogue: 0,1:06:52.71,1:06:57.15,Blue,,0000,0000,0000,,然后他把一个印有「R」字的小纸片\N塞进她无名指的指甲缝里.
+Dialogue: 0,1:06:53.19,1:06:57.65,Default,,0000,0000,0000,,He then placed a small cut out letter R\Nunder the nail of her left ring finger.
+Dialogue: 0,1:06:57.32,1:07:01.63,Blue,,0000,0000,0000,,另一个受害人特里萨·班克斯的指甲缝里\N也塞有一张印有「T」字的小纸片.
+Dialogue: 0,1:06:57.83,1:07:02.13,Default,,0000,0000,0000,,You'll recall that he placed the letter T\Nunder the fingernail of Teresa Banks.
+Dialogue: 0,1:07:01.80,1:07:05.72,Blue,,0000,0000,0000,,他留下了一封血书,\N"与火同行."
+Dialogue: 0,1:07:02.30,1:07:06.26,Default,,0000,0000,0000,,He left a note written in blood,\N''Fire walk with me.''
+Dialogue: 0,1:07:05.94,1:07:07.41,Blue,,0000,0000,0000,,值得注意的是.
+Dialogue: 0,1:07:06.44,1:07:07.93,Default,,0000,0000,0000,,Here's the interesting thing.
+Dialogue: 0,1:07:07.59,1:07:10.33,Blue,,0000,0000,0000,,经过化验.\N血书上的血型不是里欧的,
+Dialogue: 0,1:07:08.10,1:07:10.83,Default,,0000,0000,0000,,The blood on the note was tested.\Nlt doesn't match Leo's,
+Dialogue: 0,1:07:10.51,1:07:12.73,Blue,,0000,0000,0000,,也不是雅克，劳拉或者朗尼特的.
+Dialogue: 0,1:07:11.01,1:07:13.20,Default,,0000,0000,0000,,Jacques's, Laura's or Ronette's.
+Dialogue: 0,1:07:12.90,1:07:15.99,Blue,,0000,0000,0000,,我们推测\N血型是属于神秘人的.
+Dialogue: 0,1:07:13.41,1:07:16.47,Default,,0000,0000,0000,,So we surmise the killer wrote the note\Nin his own blood.
+Dialogue: 0,1:07:16.12,1:07:17.82,Blue,,0000,0000,0000,,是稀有血型, 负AB型.
+Dialogue: 0,1:07:16.65,1:07:18.31,Default,,0000,0000,0000,,lt's a rare type, AB negative.
+Dialogue: 0,1:07:19.17,1:07:22.56,Blue,,0000,0000,0000,,豪克副警长发现了一条毛巾\N被丢在了小路上
+Dialogue: 0,1:07:19.68,1:07:23.05,Default,,0000,0000,0000,,The towel that Deputy Hawk found\Nfive miles down the tracks
+Dialogue: 0,1:07:22.74,1:07:24.30,Blue,,0000,0000,0000,,上面也染满了负AB型的血.
+Dialogue: 0,1:07:23.22,1:07:24.81,Default,,0000,0000,0000,,was soaked in blood of that type.
+Dialogue: 0,1:07:24.48,1:07:28.31,Blue,,0000,0000,0000,,豪克还发现, 在毛巾的附近,\N有一些褪了色的小碎纸片.
+Dialogue: 0,1:07:24.99,1:07:28.82,Default,,0000,0000,0000,,He also found, near the towel,\Nscraps of faded paper.
+Dialogue: 0,1:07:28.48,1:07:30.65,Blue,,0000,0000,0000,,这些小碎纸片可能\N是凶手遗留下来的.
+Dialogue: 0,1:07:28.99,1:07:31.15,Default,,0000,0000,0000,,These scraps may have been left\Nby the killer.
+Dialogue: 0,1:07:30.83,1:07:33.61,Blue,,0000,0000,0000,,我们会把它们送回\N华盛顿作检测.
+Dialogue: 0,1:07:31.33,1:07:34.13,Default,,0000,0000,0000,,They'll be sent back\Nto Washington D.C. for testing.
+Dialogue: 0,1:07:44.93,1:07:47.93,Blue,,0000,0000,0000,,我明白, 安迪.\N我了解, 我了解, 我了解.
+Dialogue: 0,1:07:45.44,1:07:48.47,Default,,0000,0000,0000,,l know, Andy.\Nl know, l know, l know.
+Dialogue: 0,1:07:48.11,1:07:50.98,Blue,,0000,0000,0000,,这就是一宗我们常常所说的\N实时连环命案.
+Dialogue: 0,1:07:48.64,1:07:51.51,Default,,0000,0000,0000,,lt's what we call\Na real three-hankie crime.
+Dialogue: 0,1:07:57.29,1:07:59.86,Blue,,0000,0000,0000,,艾伯特·罗生佛洛尔,
+Dialogue: 0,1:07:57.82,1:08:00.38,Default,,0000,0000,0000,,Albert Rozerfeld,
+Dialogue: 0,1:08:00.07,1:08:04.42,Blue,,0000,0000,0000,,我真的非常讨厌你那自以为是的态度\N对杜鲁门警长是这样，对每个人都是这样.
+Dialogue: 0,1:08:00.56,1:08:04.93,Default,,0000,0000,0000,,l don't like the way you talk smart\Nabout Sheriff Truman or anybody.
+Dialogue: 0,1:08:04.60,1:08:06.38,Blue,,0000,0000,0000,,快给我闭上你的臭嘴吧!
+Dialogue: 0,1:08:05.09,1:08:06.89,Default,,0000,0000,0000,,You just shut your mouth!
+Dialogue: 0,1:08:25.32,1:08:27.14,Blue,,0000,0000,0000,,劳拉·帕尔默死了.
+Dialogue: 0,1:08:25.85,1:08:27.68,Default,,0000,0000,0000,,Laura Palmer is dead.
+Dialogue: 0,1:08:27.32,1:08:29.54,Blue,,0000,0000,0000,,雅克·雷诺死了.
+Dialogue: 0,1:08:27.85,1:08:30.05,Default,,0000,0000,0000,,Jacques Renault is dead.
+Dialogue: 0,1:08:29.71,1:08:33.32,Blue,,0000,0000,0000,,朗尼特·珀拉斯奇和里欧·强生\N正昏迷中.
+Dialogue: 0,1:08:30.22,1:08:33.85,Default,,0000,0000,0000,,Ronette Pulaski and Leo Johnson\Nare in comas.
+Dialogue: 0,1:08:33.50,1:08:35.71,Blue,,0000,0000,0000,,鹦鹉沃尔多也死了.
+Dialogue: 0,1:08:34.02,1:08:36.22,Default,,0000,0000,0000,,Waldo the bird is dead.
+Dialogue: 0,1:08:36.85,1:08:40.02,Blue,,0000,0000,0000,,现在只剩下神秘人了.
+Dialogue: 0,1:08:37.36,1:08:40.52,Default,,0000,0000,0000,,This leaves only the third man.
+Dialogue: 0,1:08:56.26,1:09:00.61,Blue,,0000,0000,0000,,- 你要关门吗?\N- 要关, 要关. 不然会很冷的.
+Dialogue: 0,1:08:56.75,1:09:01.12,Default,,0000,0000,0000,,- You want this door closed?\N- Yeah, yeah. We'll frost our rooms.
+Dialogue: 0,1:09:03.18,1:09:06.96,Blue,,0000,0000,0000,,- 谢谢你送我一程, 哈里.\N- 没事.
+Dialogue: 0,1:09:03.65,1:09:07.45,Default,,0000,0000,0000,,- l sure do appreciate the ride, Harry.\N- No problem.
+Dialogue: 0,1:09:07.75,1:09:10.57,Blue,,0000,0000,0000,,我路上也好\N有个伴陪陪, 皮特.
+Dialogue: 0,1:09:08.26,1:09:11.09,Default,,0000,0000,0000,,l always appreciate\Nyour company, Pete.
+Dialogue: 0,1:09:11.92,1:09:18.41,Blue,,0000,0000,0000,,年轻人, 这些浓烟\N差点要了我的小命.
+Dialogue: 0,1:09:12.43,1:09:18.92,Default,,0000,0000,0000,,Boy, this smoke inhalation\Nis nasty business.
+Dialogue: 0,1:09:19.36,1:09:26.06,Blue,,0000,0000,0000,,就像把我的嘴套在了\N大巴士的排气管上一样.
+Dialogue: 0,1:09:19.90,1:09:26.57,Default,,0000,0000,0000,,l feel like somebody taped my lips\Nto the tailpipe of a bus.
+Dialogue: 0,1:09:32.99,1:09:35.51,Blue,,0000,0000,0000,,放松点，没事的.
+Dialogue: 0,1:09:33.48,1:09:36.04,Default,,0000,0000,0000,,Take her easy.
+Dialogue: 0,1:09:37.77,1:09:43.30,Blue,,0000,0000,0000,,- 那乔西去哪儿了?\N- 哦, 嗯, 这里可能有留言.
+Dialogue: 0,1:09:38.29,1:09:43.82,Default,,0000,0000,0000,,- So where the hell is Josie?\N- Oh, well, maybe this will tell us.
+Dialogue: 0,1:09:49.70,1:09:50.87,Blue,,0000,0000,0000,,"亲爱的皮特,
+Dialogue: 0,1:09:50.20,1:09:51.36,Default,,0000,0000,0000,,''Dear Pete,
+Dialogue: 0,1:09:51.39,1:09:54.57,Blue,,0000,0000,0000,,我出镇一段时间
+Dialogue: 0,1:09:51.87,1:09:55.10,Default,,0000,0000,0000,,l had to leave the town
+Dialogue: 0,1:09:54.75,1:10:00.57,Blue,,0000,0000,0000,,西雅图有点急事\N需要我去处理一下.
+Dialogue: 0,1:09:55.27,1:10:01.11,Default,,0000,0000,0000,,on an emergency\Nof business to Seattle.
+Dialogue: 0,1:10:01.36,1:10:04.93,Blue,,0000,0000,0000,,我到了给你电话.
+Dialogue: 0,1:10:01.84,1:10:05.44,Default,,0000,0000,0000,,l will phone you when l arrive.
+Dialogue: 0,1:10:05.10,1:10:08.76,Blue,,0000,0000,0000,,祝你在锯木厂\N过的愉快.
+Dialogue: 0,1:10:05.62,1:10:09.28,Default,,0000,0000,0000,,Hope you did a good day\Nat the mill.
+Dialogue: 0,1:10:08.93,1:10:15.41,Blue,,0000,0000,0000,,冰箱里有姜啤酒.\N爱你的, 乔西." 就这些了.
+Dialogue: 0,1:10:09.45,1:10:15.95,Default,,0000,0000,0000,,There is ginger beer in the refrig.\NLove, Josie.'' There you go.
+Dialogue: 0,1:10:16.50,1:10:18.29,Blue,,0000,0000,0000,,- 上面留了电话号码吗?\N- 没有.
+Dialogue: 0,1:10:16.99,1:10:18.79,Default,,0000,0000,0000,,- ls there a phone number in there?\N- No.
+Dialogue: 0,1:10:18.46,1:10:21.81,Blue,,0000,0000,0000,,- 她有说具体在西雅图那里吗?\N- 没有, 没有, 只说了去西雅图
+Dialogue: 0,1:10:18.96,1:10:22.33,Default,,0000,0000,0000,,- Does she say where she's staying?\N- No, no, she goes off to Seattle
+Dialogue: 0,1:10:21.99,1:10:25.86,Blue,,0000,0000,0000,,约莫三个月她就会去一次.
+Dialogue: 0,1:10:22.50,1:10:26.37,Default,,0000,0000,0000,,once every three months or so.
+Dialogue: 0,1:10:26.03,1:10:31.86,Blue,,0000,0000,0000,,我说啊, 她去那里是为了\N实施一项罪恶的秘密活动.
+Dialogue: 0,1:10:26.54,1:10:32.37,Default,,0000,0000,0000,,You want my opinion, l think she goes\Nover there to indulge a secret vice.
+Dialogue: 0,1:10:32.56,1:10:35.35,Blue,,0000,0000,0000,,- 那是什么?\N- 疯狂购物啊.
+Dialogue: 0,1:10:33.11,1:10:35.84,Default,,0000,0000,0000,,- What's that?\N- Shopping.
+Dialogue: 0,1:10:35.52,1:10:37.74,Blue,,0000,0000,0000,,每次都是那样\N几乎把半个百货商店都搬回来.
+Dialogue: 0,1:10:36.01,1:10:38.24,Default,,0000,0000,0000,,Comes back\Nwith half a department store.
+Dialogue: 0,1:10:52.62,1:10:54.19,Blue,,0000,0000,0000,,皮特,
+Dialogue: 0,1:10:53.16,1:10:54.69,Default,,0000,0000,0000,,Pete,
+Dialogue: 0,1:10:55.54,1:10:57.80,Blue,,0000,0000,0000,,我们还没找到凯萨琳.
+Dialogue: 0,1:10:56.03,1:10:58.33,Default,,0000,0000,0000,,we haven't found Catherine.
+Dialogue: 0,1:11:00.24,1:11:01.85,Blue,,0000,0000,0000,,知道.
+Dialogue: 0,1:11:00.74,1:11:02.36,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,1:11:03.07,1:11:05.07,Blue,,0000,0000,0000,,我估计.
+Dialogue: 0,1:11:03.57,1:11:05.56,Default,,0000,0000,0000,,l figured.
+Dialogue: 0,1:11:05.24,1:11:09.12,Blue,,0000,0000,0000,,当然希望是好消息,
+Dialogue: 0,1:11:05.74,1:11:09.61,Default,,0000,0000,0000,,l know you wanna hope for the best,
+Dialogue: 0,1:11:09.29,1:11:11.55,Blue,,0000,0000,0000,,但也要做好最坏的打算.
+Dialogue: 0,1:11:09.78,1:11:12.08,Default,,0000,0000,0000,,but you ought to prepare for the worst.
+Dialogue: 0,1:11:12.64,1:11:14.77,Blue,,0000,0000,0000,,噢, 亲爱的.
+Dialogue: 0,1:11:13.18,1:11:15.28,Default,,0000,0000,0000,,Oh, dear.
+Dialogue: 0,1:11:18.60,1:11:22.52,Blue,,0000,0000,0000,,我一直在想\N谁会先离开人世.
+Dialogue: 0,1:11:19.09,1:11:23.05,Default,,0000,0000,0000,,l always figured\Nl'd be the one to go first.
+Dialogue: 0,1:11:23.44,1:11:25.44,Blue,,0000,0000,0000,,我意思是, 退一步想象
+Dialogue: 0,1:11:23.93,1:11:25.92,Default,,0000,0000,0000,,l mean, if you was laying odds
+Dialogue: 0,1:11:25.61,1:11:29.22,Blue,,0000,0000,0000,,如果在核战中\N只死剩下一个人的话,
+Dialogue: 0,1:11:26.10,1:11:29.72,Default,,0000,0000,0000,,on the last person standing\Nafter an atomic war,
+Dialogue: 0,1:11:29.40,1:11:31.09,Blue,,0000,0000,0000,,那肯定是她.
+Dialogue: 0,1:11:29.90,1:11:31.59,Default,,0000,0000,0000,,l'd have bet on her.
+Dialogue: 0,1:11:33.84,1:11:37.36,Blue,,0000,0000,0000,,是啊, 她以前真的是生龙活虎, 好.
+Dialogue: 0,1:11:34.37,1:11:37.86,Default,,0000,0000,0000,,Yeah, she was a tiger, all right.
+Dialogue: 0,1:11:38.14,1:11:44.58,Blue,,0000,0000,0000,,说白了吧, 她就是只母老虎\N和她一起生活简直是与虎同行.
+Dialogue: 0,1:11:38.67,1:11:45.08,Default,,0000,0000,0000,,No use mincing words,\Nshe was plain hell to live with.
+Dialogue: 0,1:11:45.89,1:11:48.11,Blue,,0000,0000,0000,,令人望而生畏.
+Dialogue: 0,1:11:46.42,1:11:48.61,Default,,0000,0000,0000,,Plain hell.
+Dialogue: 0,1:11:50.94,1:11:52.59,Blue,,0000,0000,0000,,但...
+Dialogue: 0,1:11:51.45,1:11:53.12,Default,,0000,0000,0000,,But...
+Dialogue: 0,1:11:53.77,1:11:57.81,Blue,,0000,0000,0000,,...毕竟, 我们也曾有过\N一段美好的时光.
+Dialogue: 0,1:11:54.26,1:11:58.32,Default,,0000,0000,0000,,...once, there was a little bit\Nof heaven there too.
+Dialogue: 0,1:11:58.47,1:12:00.69,Blue,,0000,0000,0000,,哦, 是的，我们的确有过.
+Dialogue: 0,1:11:58.96,1:12:01.16,Default,,0000,0000,0000,,Oh, l'm sure there was.
+Dialogue: 0,1:12:00.82,1:12:02.86,Blue,,0000,0000,0000,,啊, 上帝.
+Dialogue: 0,1:12:01.33,1:12:03.39,Default,,0000,0000,0000,,Oh, God.
+Dialogue: 0,1:12:04.26,1:12:07.13,Blue,,0000,0000,0000,,我只希望\N时间会慢慢地冲淡痛苦.
+Dialogue: 0,1:12:04.77,1:12:07.63,Default,,0000,0000,0000,,This will take a little while\Nto sink in, l suppose.
+Dialogue: 0,1:12:08.13,1:12:09.74,Blue,,0000,0000,0000,,我想会的.
+Dialogue: 0,1:12:08.64,1:12:10.27,Default,,0000,0000,0000,,l suppose it will.
+Dialogue: 0,1:12:14.31,1:12:17.22,Blue,,0000,0000,0000,,上帝会超度那些悲惨痛苦的灵魂.
+Dialogue: 0,1:12:14.81,1:12:17.75,Default,,0000,0000,0000,,God help her miserable soul.
+Dialogue: 0,1:12:18.09,1:12:20.18,Blue,,0000,0000,0000,,我是爱她的.
+Dialogue: 0,1:12:18.61,1:12:20.71,Default,,0000,0000,0000,,l loved her.
+Dialogue: 0,1:12:33.41,1:12:34.58,Blue,,0000,0000,0000,,蓝松小舍.
+Dialogue: 0,1:12:33.93,1:12:35.09,Default,,0000,0000,0000,,Blue Pine Lodge.
+Dialogue: 0,1:12:34.81,1:12:36.85,Blue,,0000,0000,0000,,请乔西·帕卡德,\N听电话?
+Dialogue: 0,1:12:35.30,1:12:37.36,Default,,0000,0000,0000,,Could l speak to Josie Packard,\Nplease?
+Dialogue: 0,1:12:37.03,1:12:40.55,Blue,,0000,0000,0000,,{\i1}- 哦, 她不在.\N- 那她什么时候回来?{\i0}
+Dialogue: 0,1:12:37.53,1:12:41.03,Default,,0000,0000,0000,,- WeII, she's not here right now.\N- Can you tell me when she'll be back?
+Dialogue: 0,1:12:40.72,1:12:42.86,Blue,,0000,0000,0000,,唔, 她出镇去了.\N你是谁啊?
+Dialogue: 0,1:12:41.24,1:12:43.36,Default,,0000,0000,0000,,Well, she's out of town.\NWho's calling?
+Dialogue: 0,1:12:52.34,1:12:55.21,Blue,,0000,0000,0000,,请帮我接\N国际长途.
+Dialogue: 0,1:12:52.85,1:12:55.75,Default,,0000,0000,0000,,l'd like to place\Nan international call, please.
+Dialogue: 0,1:12:55.91,1:12:59.09,Blue,,0000,0000,0000,,是的，香港.
+Dialogue: 0,1:12:56.39,1:12:59.62,Default,,0000,0000,0000,,Collect to Hong Kong.
+Dialogue: 0,1:13:00.92,1:13:02.61,Blue,,0000,0000,0000,,它听起来不像...?
+Dialogue: 0,1:13:01.39,1:13:03.12,Default,,0000,0000,0000,,Doesn't that sound...?
+Dialogue: 0,1:13:02.79,1:13:05.40,Blue,,0000,0000,0000,,我是说, 我吃了,\N虽然我也不太清楚那个是什么咚咚.
+Dialogue: 0,1:13:03.29,1:13:05.89,Default,,0000,0000,0000,,l mean, l ate it,\Nbut l didn't really know what it was.
+Dialogue: 0,1:13:05.57,1:13:07.44,Blue,,0000,0000,0000,,我在法国美食杂志上见过,
+Dialogue: 0,1:13:06.06,1:13:07.96,Default,,0000,0000,0000,,l read about it in this French magazine,
+Dialogue: 0,1:13:07.62,1:13:12.97,Blue,,0000,0000,0000,,他们把那东西的整个头浸泡\N一种类似牛奶布丁的东西里面.
+Dialogue: 0,1:13:08.13,1:13:13.47,Default,,0000,0000,0000,,and they take the entire head and dip it\Nin a kind of blancmange pudding.
+Dialogue: 0,1:13:13.10,1:13:18.02,Blue,,0000,0000,0000,,然后沾上小麦粉\N填满核桃和热糖浆
+Dialogue: 0,1:13:13.64,1:13:18.54,Default,,0000,0000,0000,,And then they roll it in oats and stuff it\Nfull of walnuts and hot rocks
+Dialogue: 0,1:13:18.19,1:13:20.11,Blue,,0000,0000,0000,,- 还有香味曲奇.\N- 荷恩先生, 荷恩先生.
+Dialogue: 0,1:13:18.71,1:13:20.64,Default,,0000,0000,0000,,- and a spice cookie.\N- Mr. Horne, Mr. Horne.
+Dialogue: 0,1:13:20.28,1:13:22.76,Blue,,0000,0000,0000,,- 最后把馅料都塞进大耳朵狗里.\N- 荷恩先生, 荷恩先生.
+Dialogue: 0,1:13:20.81,1:13:23.30,Default,,0000,0000,0000,,- They wrap it in papiIIon.\N- Mr. Horne, Mr. Horne.
+Dialogue: 0,1:13:22.98,1:13:27.20,Blue,,0000,0000,0000,,再用糖衣\N把它封起来
+Dialogue: 0,1:13:23.48,1:13:27.71,Default,,0000,0000,0000,,They seal the edges\Nwith a sugar glaze
+Dialogue: 0,1:13:27.38,1:13:29.77,Blue,,0000,0000,0000,,- 放在烤箱里烤.\N- 荷恩先生, 荷恩先生.
+Dialogue: 0,1:13:27.88,1:13:30.32,Default,,0000,0000,0000,,- and bake it under glass.\N- Mr. Horne, Mr. Horne.
+Dialogue: 0,1:13:29.99,1:13:31.25,Blue,,0000,0000,0000,,不可思议.
+Dialogue: 0,1:13:30.49,1:13:31.75,Default,,0000,0000,0000,,That sounds incredible.
+Dialogue: 0,1:13:31.42,1:13:34.86,Blue,,0000,0000,0000,,好吃的想死.
+Dialogue: 0,1:13:31.92,1:13:35.36,Default,,0000,0000,0000,,lt is to die for.
+Dialogue: 0,1:13:36.47,1:13:38.64,Blue,,0000,0000,0000,,你今天见过欧蕊没有?
+Dialogue: 0,1:13:36.99,1:13:39.15,Default,,0000,0000,0000,,Have you seen Audrey today?
+Dialogue: 0,1:13:38.82,1:13:40.78,Blue,,0000,0000,0000,,没有, 没见过.
+Dialogue: 0,1:13:39.33,1:13:41.30,Default,,0000,0000,0000,,No, l haven't.
+Dialogue: 0,1:13:52.18,1:13:53.61,Blue,,0000,0000,0000,,汉克·詹宁斯.
+Dialogue: 0,1:13:52.71,1:13:54.11,Default,,0000,0000,0000,,Hank Jennings.
+Dialogue: 0,1:13:53.79,1:13:56.62,Blue,,0000,0000,0000,,杰利和班杰民,荷恩兄弟.
+Dialogue: 0,1:13:54.31,1:13:57.11,Default,,0000,0000,0000,,Jerry and Benjamin Horne.
+Dialogue: 0,1:14:04.85,1:14:06.76,Blue,,0000,0000,0000,,乔西去哪儿了?
+Dialogue: 0,1:14:05.35,1:14:07.25,Default,,0000,0000,0000,,Where's Josie?
+Dialogue: 0,1:14:06.93,1:14:09.02,Blue,,0000,0000,0000,,她昨天晚上走了.
+Dialogue: 0,1:14:07.42,1:14:09.55,Default,,0000,0000,0000,,She left last night.
+Dialogue: 0,1:14:11.50,1:14:13.37,Blue,,0000,0000,0000,,预先安排好的?
+Dialogue: 0,1:14:12.03,1:14:13.89,Default,,0000,0000,0000,,Prearranged?
+Dialogue: 0,1:14:13.55,1:14:17.81,Blue,,0000,0000,0000,,她不想和这次纵火\N扯上关系.
+Dialogue: 0,1:14:14.06,1:14:18.33,Default,,0000,0000,0000,,She wanted to put a little distance\Nbetween her and the smell of smoke.
+Dialogue: 0,1:14:18.73,1:14:21.03,Blue,,0000,0000,0000,,这个女人果然有心计.
+Dialogue: 0,1:14:19.24,1:14:21.53,Default,,0000,0000,0000,,Sound strategy.
+Dialogue: 0,1:14:21.99,1:14:24.95,Blue,,0000,0000,0000,,那里欧·强生呢.
+Dialogue: 0,1:14:22.47,1:14:25.44,Default,,0000,0000,0000,,Next business, Leo Johnson.
+Dialogue: 0,1:14:25.12,1:14:27.12,Blue,,0000,0000,0000,,他现在昏迷中.
+Dialogue: 0,1:14:25.61,1:14:27.63,Default,,0000,0000,0000,,He's in a coma.
+Dialogue: 0,1:14:27.30,1:14:29.04,Blue,,0000,0000,0000,,脑损伤,废了.
+Dialogue: 0,1:14:27.84,1:14:29.57,Default,,0000,0000,0000,,Looks like brain damage.
+Dialogue: 0,1:14:29.21,1:14:32.43,Blue,,0000,0000,0000,,里欧一天还活着, 就有把柄在他们手上?
+Dialogue: 0,1:14:29.75,1:14:32.94,Default,,0000,0000,0000,,With Leo, how could they tell?
+Dialogue: 0,1:14:34.35,1:14:36.31,Blue,,0000,0000,0000,,你为什么没把他彻底干掉?
+Dialogue: 0,1:14:34.88,1:14:36.82,Default,,0000,0000,0000,,Why isn't he dead?
+Dialogue: 0,1:14:36.48,1:14:40.44,Blue,,0000,0000,0000,,我已经用口径44的手枪正中了他心脏.
+Dialogue: 0,1:14:36.99,1:14:40.95,Default,,0000,0000,0000,,l caught him center shot with a .44.
+Dialogue: 0,1:14:40.62,1:14:42.57,Blue,,0000,0000,0000,,我不想冒然跑进他房子里.
+Dialogue: 0,1:14:41.12,1:14:43.09,Default,,0000,0000,0000,,Couldn't risk going inside.
+Dialogue: 0,1:14:42.75,1:14:46.49,Blue,,0000,0000,0000,,而且附近已经烧起来了.\N我必须要避开巡逻警车.
+Dialogue: 0,1:14:43.26,1:14:46.99,Default,,0000,0000,0000,,Neighborhood was hot.\Nl had to sneak past patrols as it was.
+Dialogue: 0,1:14:46.67,1:14:48.27,Blue,,0000,0000,0000,,有人看到你吗?
+Dialogue: 0,1:14:47.16,1:14:48.79,Default,,0000,0000,0000,,Anybody see you?
+Dialogue: 0,1:14:48.45,1:14:50.45,Blue,,0000,0000,0000,,没有.
+Dialogue: 0,1:14:48.96,1:14:50.96,Default,,0000,0000,0000,,Negative.
+Dialogue: 0,1:14:50.63,1:14:53.15,Blue,,0000,0000,0000,,里欧当时在屋里劈柴.
+Dialogue: 0,1:14:51.13,1:14:53.66,Default,,0000,0000,0000,,He was chopping wood.
+Dialogue: 0,1:14:53.32,1:14:55.98,Blue,,0000,0000,0000,,劈柴? 在屋里?
+Dialogue: 0,1:14:53.87,1:14:56.46,Default,,0000,0000,0000,,Chopping wood? lnside?
+Dialogue: 0,1:14:56.15,1:14:58.02,Blue,,0000,0000,0000,,- 是, 你又不是不了解他.\N- 等等.
+Dialogue: 0,1:14:56.64,1:14:58.57,Default,,0000,0000,0000,,- Yeah, you know Leo.\N- Wait a minute.
+Dialogue: 0,1:14:58.24,1:15:01.46,Blue,,0000,0000,0000,,- 在屋里劈柴?\N- 是.
+Dialogue: 0,1:14:58.74,1:15:01.97,Default,,0000,0000,0000,,- Chopping wood inside?\N- Yeah.
+Dialogue: 0,1:15:01.68,1:15:03.42,Blue,,0000,0000,0000,,你知道他这人啦.
+Dialogue: 0,1:15:02.18,1:15:03.94,Default,,0000,0000,0000,,You know Leo.
+Dialogue: 0,1:15:05.86,1:15:08.64,Blue,,0000,0000,0000,,好了. 还有什么?
+Dialogue: 0,1:15:06.38,1:15:09.15,Default,,0000,0000,0000,,All right. What's next?
+Dialogue: 0,1:15:09.08,1:15:10.90,Blue,,0000,0000,0000,,凯萨琳.
+Dialogue: 0,1:15:09.59,1:15:11.42,Default,,0000,0000,0000,,Catherine.
+Dialogue: 0,1:15:12.86,1:15:14.52,Blue,,0000,0000,0000,,死了吗?
+Dialogue: 0,1:15:13.39,1:15:15.02,Default,,0000,0000,0000,,Dead?
+Dialogue: 0,1:15:14.69,1:15:18.47,Blue,,0000,0000,0000,,我故意打了电话叫她到烘干室\N那时候那里已经烧起来了.
+Dialogue: 0,1:15:15.19,1:15:18.99,Default,,0000,0000,0000,,My phone call put her in the drying\Nshed when the place went up.
+Dialogue: 0,1:15:18.65,1:15:21.39,Blue,,0000,0000,0000,,应该把她烧的\N一点没剩了.
+Dialogue: 0,1:15:19.16,1:15:21.93,Default,,0000,0000,0000,,Sounds like buried\Nwith the wreckage.
+Dialogue: 0,1:15:21.61,1:15:26.09,Blue,,0000,0000,0000,,那样高温的烧法,\N那帮警察能找到牙齿就算走狗运了.
+Dialogue: 0,1:15:22.13,1:15:26.59,Default,,0000,0000,0000,,Heat like that,\Nthey'll be lucky to find teeth.
+Dialogue: 0,1:15:27.05,1:15:29.83,Blue,,0000,0000,0000,,她的牙齿曾经是那么的漂亮.
+Dialogue: 0,1:15:27.54,1:15:30.33,Default,,0000,0000,0000,,And they were such pretty teeth.
+Dialogue: 0,1:15:30.66,1:15:32.49,Blue,,0000,0000,0000,,干的不错.
+Dialogue: 0,1:15:31.17,1:15:33.00,Default,,0000,0000,0000,,Marvelous.
+Dialogue: 0,1:15:32.66,1:15:34.49,Blue,,0000,0000,0000,,太精彩了.
+Dialogue: 0,1:15:33.18,1:15:35.01,Default,,0000,0000,0000,,Marvelous.
+Dialogue: 0,1:15:34.67,1:15:36.97,Blue,,0000,0000,0000,,先生们,
+Dialogue: 0,1:15:35.18,1:15:37.48,Default,,0000,0000,0000,,Gentlemen,
+Dialogue: 0,1:15:37.19,1:15:41.32,Blue,,0000,0000,0000,,如果那帮条子这样都不检控\N死鬼凯萨琳和她姘头里欧
+Dialogue: 0,1:15:37.68,1:15:41.84,Default,,0000,0000,0000,,if they don't hang the arson\Non the late lamented Catherine
+Dialogue: 0,1:15:41.50,1:15:44.94,Blue,,0000,0000,0000,,纵火罪的话,
+Dialogue: 0,1:15:42.02,1:15:45.45,Default,,0000,0000,0000,,and her co-conspirator Leo,
+Dialogue: 0,1:15:45.11,1:15:47.55,Blue,,0000,0000,0000,,我就挥刀自宫.
+Dialogue: 0,1:15:45.62,1:15:48.06,Default,,0000,0000,0000,,l'll give up sex.
+Dialogue: 0,1:15:49.25,1:15:51.81,Blue,,0000,0000,0000,,这回赢定了.
+Dialogue: 0,1:15:49.73,1:15:52.32,Default,,0000,0000,0000,,That's confidence.
+Dialogue: 0,1:15:54.03,1:15:56.12,Blue,,0000,0000,0000,,那我们现在怎么分账?
+Dialogue: 0,1:15:54.53,1:15:56.62,Default,,0000,0000,0000,,What do we do with the ledger?
+Dialogue: 0,1:15:56.30,1:15:57.38,Blue,,0000,0000,0000,,汉克,
+Dialogue: 0,1:15:56.80,1:15:57.93,Default,,0000,0000,0000,,Hank,
+Dialogue: 0,1:15:58.73,1:16:02.34,Blue,,0000,0000,0000,,你的问题对荷恩兄弟来说\N实在太有创造性了.
+Dialogue: 0,1:15:59.24,1:16:02.86,Default,,0000,0000,0000,,you leave the creative thinking\Nto the brothers Horne.
+Dialogue: 0,1:16:02.52,1:16:06.22,Blue,,0000,0000,0000,,你这块二头肌.\N我们教你干嘛你就该干嘛.
+Dialogue: 0,1:16:03.04,1:16:06.70,Default,,0000,0000,0000,,You're a bicep.\NRelax until we say, ''Flex.''
+Dialogue: 0,1:16:10.35,1:16:13.66,Blue,,0000,0000,0000,,现在, 还没轮到你发飙.
+Dialogue: 0,1:16:10.85,1:16:14.18,Default,,0000,0000,0000,,Now, that really makes me mad.
+Dialogue: 0,1:16:21.14,1:16:23.27,Blue,,0000,0000,0000,,你们这些家伙.
+Dialogue: 0,1:16:21.66,1:16:23.82,Default,,0000,0000,0000,,You guys.
+Dialogue: 0,1:16:31.76,1:16:33.41,Blue,,0000,0000,0000,,进来.
+Dialogue: 0,1:16:32.27,1:16:33.90,Default,,0000,0000,0000,,Come in.
+Dialogue: 0,1:16:55.35,1:16:57.87,Blue,,0000,0000,0000,,为什么把我关起来?
+Dialogue: 0,1:16:55.86,1:16:58.38,Default,,0000,0000,0000,,Why is the door to my room locked?
+Dialogue: 0,1:16:58.05,1:17:00.96,Blue,,0000,0000,0000,,是谁允许你这样做的?
+Dialogue: 0,1:16:58.56,1:17:01.50,Default,,0000,0000,0000,,And who's the refrigerator?
+Dialogue: 0,1:17:03.92,1:17:08.93,Blue,,0000,0000,0000,,老板对你昨晚的表现\N很不满意.
+Dialogue: 0,1:17:04.43,1:17:09.43,Default,,0000,0000,0000,,The owner was a little disappointed\Nin your performance last night.
+Dialogue: 0,1:17:12.93,1:17:16.85,Blue,,0000,0000,0000,,哦, 老板又不是我喜欢的那种型.
+Dialogue: 0,1:17:13.44,1:17:17.38,Default,,0000,0000,0000,,Well, the owner isn't exactly my type.
+Dialogue: 0,1:17:35.21,1:17:37.86,Blue,,0000,0000,0000,,哦? 那什么型是你喜欢的呀?
+Dialogue: 0,1:17:35.73,1:17:38.39,Default,,0000,0000,0000,,And what is your type exactly?
+Dialogue: 0,1:17:41.04,1:17:44.92,Blue,,0000,0000,0000,,反正不是你. 开玩笑的.
+Dialogue: 0,1:17:41.57,1:17:45.44,Default,,0000,0000,0000,,Not you. No offense.
+Dialogue: 0,1:17:51.31,1:17:52.53,Blue,,0000,0000,0000,,嘿.
+Dialogue: 0,1:17:51.81,1:17:53.08,Default,,0000,0000,0000,,Hey.
+Dialogue: 0,1:17:54.80,1:17:57.58,Blue,,0000,0000,0000,,你给我放明白点\N小公主.
+Dialogue: 0,1:17:55.32,1:17:58.12,Default,,0000,0000,0000,,Let's get one thing straight\Nbetween us, princess.
+Dialogue: 0,1:17:58.84,1:18:00.84,Blue,,0000,0000,0000,,好.
+Dialogue: 0,1:17:59.36,1:18:01.35,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,1:18:01.02,1:18:04.06,Blue,,0000,0000,0000,,我不想再听到任何\N有关你的投诉.
+Dialogue: 0,1:18:01.56,1:18:04.58,Default,,0000,0000,0000,,l don't wanna hear another complaint\Nabout you.
+Dialogue: 0,1:18:04.24,1:18:05.72,Blue,,0000,0000,0000,,在我这儿干活,
+Dialogue: 0,1:18:04.76,1:18:06.25,Default,,0000,0000,0000,,When you work for me,
+Dialogue: 0,1:18:06.24,1:18:08.50,Blue,,0000,0000,0000,,什么客你都得接.
+Dialogue: 0,1:18:06.76,1:18:08.99,Default,,0000,0000,0000,,everybody's your type.
+Dialogue: 0,1:18:24.74,1:18:26.52,Blue,,0000,0000,0000,,诺玛?
+Dialogue: 0,1:18:25.21,1:18:27.01,Default,,0000,0000,0000,,Norma?
+Dialogue: 0,1:18:27.30,1:18:29.61,Blue,,0000,0000,0000,,嗨, 我是唐娜.
+Dialogue: 0,1:18:27.82,1:18:30.11,Default,,0000,0000,0000,,Hi, it's Donna.
+Dialogue: 0,1:18:31.00,1:18:33.83,Blue,,0000,0000,0000,,我想问一下关于「上门送餐服务」的事.
+Dialogue: 0,1:18:31.52,1:18:34.35,Default,,0000,0000,0000,,l'm calling about Meals on Wheels.
+Dialogue: 0,1:18:34.79,1:18:38.35,Blue,,0000,0000,0000,,我想以后换我替劳拉去上门送餐\N你觉得行吗.
+Dialogue: 0,1:18:35.29,1:18:38.85,Default,,0000,0000,0000,,l'm gonna take over Laura's route\Nif that's okay with you.
+Dialogue: 0,1:18:40.27,1:18:41.97,Blue,,0000,0000,0000,,那好吧.
+Dialogue: 0,1:18:40.80,1:18:42.49,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,1:18:42.80,1:18:44.45,Blue,,0000,0000,0000,,太好了.
+Dialogue: 0,1:18:43.30,1:18:44.96,Default,,0000,0000,0000,,Great.
+Dialogue: 0,1:18:45.41,1:18:48.80,Blue,,0000,0000,0000,,还有, 我可以用双食店\N的车去送餐吗?
+Dialogue: 0,1:18:45.90,1:18:49.34,Default,,0000,0000,0000,,Listen, can l use the Double R\Nstation wagon?
+Dialogue: 0,1:18:50.72,1:18:52.37,Blue,,0000,0000,0000,,没问题.
+Dialogue: 0,1:18:51.21,1:18:52.87,Default,,0000,0000,0000,,All right.
+Dialogue: 0,1:18:54.20,1:18:55.68,Blue,,0000,0000,0000,,太好了.
+Dialogue: 0,1:18:54.71,1:18:56.20,Default,,0000,0000,0000,,Great.
+Dialogue: 0,1:18:56.77,1:18:58.94,Blue,,0000,0000,0000,,那明天9点见.
+Dialogue: 0,1:18:57.25,1:18:59.48,Default,,0000,0000,0000,,Then l'll see you tomorrow at 9.
+Dialogue: 0,1:19:11.17,1:19:13.95,Blue,,0000,0000,0000,,格斯登将要为大家\N预报今晚的表演节目.
+Dialogue: 0,1:19:11.69,1:19:14.49,Default,,0000,0000,0000,,Gersten's gonna tell us\Nabout tonight's proceedings.
+Dialogue: 0,1:19:14.13,1:19:18.18,Blue,,0000,0000,0000,,她还有一些好消息要告诉大家.\N我们为她感到荣幸.
+Dialogue: 0,1:19:14.66,1:19:18.69,Default,,0000,0000,0000,,She has some very good news.\NWe're all very proud of her.
+Dialogue: 0,1:19:18.35,1:19:19.39,Blue,,0000,0000,0000,,晚上好 .
+Dialogue: 0,1:19:18.87,1:19:19.89,Default,,0000,0000,0000,,Good evening.
+Dialogue: 0,1:19:19.57,1:19:22.22,Blue,,0000,0000,0000,,我是格斯登·海沃德\N欢迎大家
+Dialogue: 0,1:19:20.07,1:19:22.73,Default,,0000,0000,0000,,l'm Gersten Hayward\Nand l'd like to welcome you all
+Dialogue: 0,1:19:22.40,1:19:24.18,Blue,,0000,0000,0000,,光临海沃德家夜总会.
+Dialogue: 0,1:19:22.91,1:19:24.57,Default,,0000,0000,0000,,to the Hayward Supper Club.
+Dialogue: 0,1:19:26.58,1:19:28.40,Blue,,0000,0000,0000,,今晚\N我将为大家表演
+Dialogue: 0,1:19:27.08,1:19:28.91,Default,,0000,0000,0000,,l'm going to be playing\Nvarious selections
+Dialogue: 0,1:19:28.58,1:19:29.84,Blue,,0000,0000,0000,,丰富多彩的音乐节目.
+Dialogue: 0,1:19:29.08,1:19:30.38,Default,,0000,0000,0000,,of music for you this evening.
+Dialogue: 0,1:19:30.84,1:19:32.36,Blue,,0000,0000,0000,,好消息就是\N我已经入选
+Dialogue: 0,1:19:31.35,1:19:32.87,Default,,0000,0000,0000,,My good news is\Nthat l was chosen
+Dialogue: 0,1:19:32.54,1:19:35.10,Blue,,0000,0000,0000,,校园剧女主角\N精灵公主.
+Dialogue: 0,1:19:33.05,1:19:35.61,Default,,0000,0000,0000,,to be the fairy princess\Nin my school play.
+Dialogue: 0,1:19:35.28,1:19:37.63,Blue,,0000,0000,0000,,这是我订做的演出服.
+Dialogue: 0,1:19:35.78,1:19:38.12,Default,,0000,0000,0000,,This is my special dress.
+Dialogue: 0,1:19:37.80,1:19:41.07,Blue,,0000,0000,0000,,还有, 我这次期中考\N数学和英语
+Dialogue: 0,1:19:38.29,1:19:41.59,Default,,0000,0000,0000,,Also, l got the highest scores\Nin mathematics and English
+Dialogue: 0,1:19:41.24,1:19:42.46,Blue,,0000,0000,0000,,都得了最高分.
+Dialogue: 0,1:19:41.76,1:19:42.95,Default,,0000,0000,0000,,this mid-season term.
+Dialogue: 0,1:19:42.63,1:19:45.07,Blue,,0000,0000,0000,,跟我的姐姐们哈里特和唐娜\N以前读书的时候一样.
+Dialogue: 0,1:19:43.16,1:19:45.59,Default,,0000,0000,0000,,Just as my sisters Harriet\Nand Donna did before me.
+Dialogue: 0,1:19:45.24,1:19:48.59,Blue,,0000,0000,0000,,所以我再也不用担心\N让家族的光辉历史蒙羞了.
+Dialogue: 0,1:19:45.76,1:19:49.09,Default,,0000,0000,0000,,So now l don't have to worry\Nabout being ashamed anymore.
+Dialogue: 0,1:19:49.42,1:19:52.95,Blue,,0000,0000,0000,,在我表演之前,\N哈里特首先为大家念一首诗
+Dialogue: 0,1:19:49.93,1:19:53.46,Default,,0000,0000,0000,,Before l play,\NHarriet would like to read a poem
+Dialogue: 0,1:19:53.12,1:19:56.47,Blue,,0000,0000,0000,,一首关于你的女儿\N我们的好友劳拉的诗.
+Dialogue: 0,1:19:53.67,1:19:56.97,Default,,0000,0000,0000,,about your daughter\Nand our friend Laura.
+Dialogue: 0,1:20:18.97,1:20:21.01,Blue,,0000,0000,0000,,{\i1}劳拉{\i0}
+Dialogue: 0,1:20:19.46,1:20:21.55,Default,,0000,0000,0000,,It was Laura
+Dialogue: 0,1:20:21.76,1:20:24.89,Blue,,0000,0000,0000,,{\i1}我看见她红光焕发{\i0}
+Dialogue: 0,1:20:22.26,1:20:25.39,Default,,0000,0000,0000,,And I saw her gIowing
+Dialogue: 0,1:20:25.41,1:20:27.63,Blue,,0000,0000,0000,,{\i1}在黑暗的树林里{\i0}
+Dialogue: 0,1:20:25.93,1:20:28.13,Default,,0000,0000,0000,,In the dark woods
+Dialogue: 0,1:20:27.81,1:20:30.98,Blue,,0000,0000,0000,,{\i1}她微微的笑着{\i0}
+Dialogue: 0,1:20:28.30,1:20:31.47,Default,,0000,0000,0000,,I saw her smiIing
+Dialogue: 0,1:20:31.94,1:20:35.77,Blue,,0000,0000,0000,,{\i1}我们都哭了{\i0}
+Dialogue: 0,1:20:32.44,1:20:36.28,Default,,0000,0000,0000,,We were crying and I saw her
+Dialogue: 0,1:20:36.73,1:20:38.77,Blue,,0000,0000,0000,,{\i1}而她却笑了{\i0}
+Dialogue: 0,1:20:37.25,1:20:39.27,Default,,0000,0000,0000,,Laughing
+Dialogue: 0,1:20:39.30,1:20:43.82,Blue,,0000,0000,0000,,{\i1}她在我们的悲伤中\N翩翩起舞{\i0}
+Dialogue: 0,1:20:39.82,1:20:44.31,Default,,0000,0000,0000,,In our sadness\NI saw her dancing
+Dialogue: 0,1:20:43.99,1:20:47.82,Blue,,0000,0000,0000,,{\i1}并永恒的活在了我们的梦中{\i0}
+Dialogue: 0,1:20:44.49,1:20:48.32,Default,,0000,0000,0000,,It was Laura Iiving in my dreams
+Dialogue: 0,1:20:49.74,1:20:51.43,Blue,,0000,0000,0000,,{\i1}那就是劳拉{\i0}
+Dialogue: 0,1:20:50.26,1:20:51.95,Default,,0000,0000,0000,,It was Laura
+Dialogue: 0,1:20:52.70,1:20:55.00,Blue,,0000,0000,0000,,{\i1}生命的赤热光辉{\i0}
+Dialogue: 0,1:20:53.23,1:20:55.53,Default,,0000,0000,0000,,The gIow was Iife
+Dialogue: 0,1:20:55.18,1:20:57.83,Blue,,0000,0000,0000,,{\i1}她微笑着对我们说{\i0}
+Dialogue: 0,1:20:55.73,1:20:58.33,Default,,0000,0000,0000,,Her smiIe was to say
+Dialogue: 0,1:20:58.01,1:20:59.75,Blue,,0000,0000,0000,,{\i1}哭吧{\i0}
+Dialogue: 0,1:20:58.50,1:21:00.26,Default,,0000,0000,0000,,It was aII right to cry
+Dialogue: 0,1:21:01.97,1:21:04.62,Blue,,0000,0000,0000,,{\i1}树精灵也在为我们悲泣{\i0}
+Dialogue: 0,1:21:02.47,1:21:05.13,Default,,0000,0000,0000,,The woods was our sadness
+Dialogue: 0,1:21:05.62,1:21:09.23,Blue,,0000,0000,0000,,{\i1}她飞舞的身影呼唤着我们{\i0}
+Dialogue: 0,1:21:06.14,1:21:09.77,Default,,0000,0000,0000,,The dance was her caIIing
+Dialogue: 0,1:21:10.11,1:21:12.11,Blue,,0000,0000,0000,,{\i1}那就是劳拉{\i0}
+Dialogue: 0,1:21:10.61,1:21:12.64,Default,,0000,0000,0000,,It was Laura
+Dialogue: 0,1:21:13.15,1:21:16.15,Blue,,0000,0000,0000,,{\i1}她就这样和我轻轻的吻别了{\i0}
+Dialogue: 0,1:21:13.65,1:21:16.68,Default,,0000,0000,0000,,And she came to kiss me goodbye
+Dialogue: 0,1:21:29.34,1:21:32.30,Blue,,0000,0000,0000,,真实美极了. 谢谢你.
+Dialogue: 0,1:21:29.87,1:21:32.83,Default,,0000,0000,0000,,That was wonderful. Thank you.
+Dialogue: 0,1:21:42.70,1:21:44.18,Blue,,0000,0000,0000,,格斯登.
+Dialogue: 0,1:21:43.21,1:21:44.70,Default,,0000,0000,0000,,Gersten.
+Dialogue: 0,1:21:44.36,1:21:49.40,Blue,,0000,0000,0000,,现在我要表演的门德尔松的\N"回旋随想曲, 作品号14."
+Dialogue: 0,1:21:44.88,1:21:49.91,Default,,0000,0000,0000,,Now l'm going to play Mendelssohn's\N''Rondo Capriccioso, Opus 1 4.''
+Dialogue: 0,1:22:36.14,1:22:38.14,Blue,,0000,0000,0000,,「上门送餐服务」的名单和地图\N我已经搞到手了.
+Dialogue: 0,1:22:36.63,1:22:38.62,Default,,0000,0000,0000,,l got the list and map\Nfor Meals on Wheels.
+Dialogue: 0,1:22:38.32,1:22:40.27,Blue,,0000,0000,0000,,我明天就去.
+Dialogue: 0,1:22:38.83,1:22:40.77,Default,,0000,0000,0000,,l'm going to start tomorrow.
+Dialogue: 0,1:22:40.45,1:22:42.23,Blue,,0000,0000,0000,,牛逼.
+Dialogue: 0,1:22:40.94,1:22:42.77,Default,,0000,0000,0000,,Aces.
+Dialogue: 0,1:22:46.76,1:22:47.80,Blue,,0000,0000,0000,,漫漫长日, 难熬吧?
+Dialogue: 0,1:22:47.28,1:22:48.33,Default,,0000,0000,0000,,Long day, Will?
+Dialogue: 0,1:22:51.59,1:22:55.46,Blue,,0000,0000,0000,,感觉就像坐在那儿听\N一部老掉牙的冗长歌剧.
+Dialogue: 0,1:22:52.11,1:22:55.98,Default,,0000,0000,0000,,l feel like l've sat through\Nback-to-back operas.
+Dialogue: 0,1:22:56.12,1:22:59.47,Blue,,0000,0000,0000,,在医学院读书时, 我们就学会了\N一天只睡几个小时或者只打个盹.
+Dialogue: 0,1:22:56.62,1:22:59.99,Default,,0000,0000,0000,,ln med school, we learned to live\Non three hours a night and cat naps.
+Dialogue: 0,1:22:59.64,1:23:01.73,Blue,,0000,0000,0000,,锯木厂发生的事实在太可怕了.
+Dialogue: 0,1:23:00.16,1:23:02.25,Default,,0000,0000,0000,,lt's terrible about the mill.
+Dialogue: 0,1:23:01.90,1:23:05.21,Blue,,0000,0000,0000,,是啊. 报道说\N将近150人因此而失业.
+Dialogue: 0,1:23:02.42,1:23:05.72,Default,,0000,0000,0000,,Yeah. They say more\Nthan 1 50 jobs may be lost.
+Dialogue: 0,1:23:05.38,1:23:07.78,Blue,,0000,0000,0000,,太吓人了. 真实太吓人了.
+Dialogue: 0,1:23:05.89,1:23:08.29,Default,,0000,0000,0000,,Awful. Just awful.
+Dialogue: 0,1:23:07.95,1:23:10.69,Blue,,0000,0000,0000,,但有人欢喜有人愁啊
+Dialogue: 0,1:23:08.46,1:23:11.23,Default,,0000,0000,0000,,l suppose this will open the door
+Dialogue: 0,1:23:10.87,1:23:15.83,Blue,,0000,0000,0000,,对本·荷恩的发展大计来说\N就是天大的喜讯.
+Dialogue: 0,1:23:11.40,1:23:16.34,Default,,0000,0000,0000,,for Ben Horne\Nand his big development plans.
+Dialogue: 0,1:23:16.00,1:23:18.48,Blue,,0000,0000,0000,,嗯, 我同时是你和他两个人的律师,
+Dialogue: 0,1:23:16.51,1:23:19.00,Default,,0000,0000,0000,,Well, as his lawyer, and yours,
+Dialogue: 0,1:23:18.66,1:23:21.53,Blue,,0000,0000,0000,,对此我还是不做评论的好.
+Dialogue: 0,1:23:19.17,1:23:22.08,Default,,0000,0000,0000,,of course l can't comment.
+Dialogue: 0,1:23:21.70,1:23:25.01,Blue,,0000,0000,0000,,那好, 同时我也是你的医生, 利兰,
+Dialogue: 0,1:23:22.24,1:23:25.51,Default,,0000,0000,0000,,Well, as your doctor, Leland,
+Dialogue: 0,1:23:25.19,1:23:27.80,Blue,,0000,0000,0000,,你的白头发到底是怎么搞的?
+Dialogue: 0,1:23:25.68,1:23:28.31,Default,,0000,0000,0000,,what the hell happened to your hair?
+Dialogue: 0,1:23:29.54,1:23:31.89,Blue,,0000,0000,0000,,很奇怪, 是吧?
+Dialogue: 0,1:23:30.02,1:23:32.42,Default,,0000,0000,0000,,lt is strange, isn't it?
+Dialogue: 0,1:23:32.06,1:23:33.19,Blue,,0000,0000,0000,,唔, 我只是...
+Dialogue: 0,1:23:32.59,1:23:33.68,Default,,0000,0000,0000,,Well, l just...
+Dialogue: 0,1:23:33.37,1:23:36.32,Blue,,0000,0000,0000,,我一觉醒来,\N在镜子里就发现自己这样了.
+Dialogue: 0,1:23:33.89,1:23:36.82,Default,,0000,0000,0000,,l woke up this morning,\Nlooked in the mirror and there it was.
+Dialogue: 0,1:23:36.50,1:23:38.76,Blue,,0000,0000,0000,,真是一夜白了少年头啊
+Dialogue: 0,1:23:36.99,1:23:39.29,Default,,0000,0000,0000,,lt had literally changed overnight.
+Dialogue: 0,1:23:38.94,1:23:41.42,Blue,,0000,0000,0000,,嗯, 仔细想想\N你最近经历的事也够...
+Dialogue: 0,1:23:39.46,1:23:41.93,Default,,0000,0000,0000,,Well, considering\Nall you've been through...
+Dialogue: 0,1:23:41.59,1:23:43.55,Blue,,0000,0000,0000,,你知道吗, 有趣的是,
+Dialogue: 0,1:23:42.10,1:23:44.09,Default,,0000,0000,0000,,You know, the funny thing about it is,
+Dialogue: 0,1:23:43.73,1:23:46.73,Blue,,0000,0000,0000,,看看, 我已经意识到无论如何
+Dialogue: 0,1:23:44.27,1:23:47.26,Default,,0000,0000,0000,,seeing it, l realized that l had
+Dialogue: 0,1:23:46.90,1:23:49.38,Blue,,0000,0000,0000,,要坚强起来，靠自己熬过去.
+Dialogue: 0,1:23:47.44,1:23:49.87,Default,,0000,0000,0000,,turned a corner somehow.
+Dialogue: 0,1:23:49.56,1:23:52.60,Blue,,0000,0000,0000,,是的，尽管我现在\N还是如此沉痛,
+Dialogue: 0,1:23:50.04,1:23:53.13,Default,,0000,0000,0000,,l feel a great deal\Nof sadness still, yes,
+Dialogue: 0,1:23:52.78,1:23:55.73,Blue,,0000,0000,0000,,但我不能任由它把我压垮.
+Dialogue: 0,1:23:53.31,1:23:56.28,Default,,0000,0000,0000,,but it wasn't as overwhelming to me.
+Dialogue: 0,1:23:55.91,1:24:00.26,Blue,,0000,0000,0000,,我必须要除掉\N这块心头大石.
+Dialogue: 0,1:23:56.45,1:24:00.78,Default,,0000,0000,0000,,l physically felt as if a great weight\Nhad been lifted from my heart.
+Dialogue: 0,1:24:01.09,1:24:03.26,Blue,,0000,0000,0000,,- 希望是吧.\N- 希望是吧.
+Dialogue: 0,1:24:01.62,1:24:03.78,Default,,0000,0000,0000,,- Perhaps it has.\N- Perhaps it has.
+Dialogue: 0,1:24:03.48,1:24:05.18,Blue,,0000,0000,0000,,希望你能熬过去.
+Dialogue: 0,1:24:03.99,1:24:05.68,Default,,0000,0000,0000,,Perhaps it has.
+Dialogue: 0,1:24:05.35,1:24:06.70,Blue,,0000,0000,0000,,天啊, 我要放声高歌.
+Dialogue: 0,1:24:05.85,1:24:07.22,Default,,0000,0000,0000,,God, l feel like singing.
+Dialogue: 0,1:24:08.53,1:24:10.14,Blue,,0000,0000,0000,,会让我心情好起来.
+Dialogue: 0,1:24:09.02,1:24:10.51,Default,,0000,0000,0000,,That would be very nice.
+Dialogue: 0,1:24:10.36,1:24:13.05,Blue,,0000,0000,0000,,不, 我真的要放声高歌.
+Dialogue: 0,1:24:10.69,1:24:13.56,Default,,0000,0000,0000,,No, l really feel like singing a song.
+Dialogue: 0,1:24:16.28,1:24:19.98,Blue,,0000,0000,0000,,- 利兰?\N- 来吧, 各位. 大家都高兴起来.
+Dialogue: 0,1:24:16.80,1:24:20.50,Default,,0000,0000,0000,,- Leland?\N- Come on, everybody. Get happy.
+Dialogue: 0,1:24:20.15,1:24:22.72,Blue,,0000,0000,0000,,- "高兴起来."\N- "高兴起来"?
+Dialogue: 0,1:24:20.67,1:24:23.23,Default,,0000,0000,0000,,- ''Get Happy.''\N- ''Get Happy''?
+Dialogue: 0,1:24:26.72,1:24:29.59,Blue,,0000,0000,0000,,{\i1}忘却你的烦恼\N高兴起来{\i0}
+Dialogue: 0,1:24:27.24,1:24:30.08,Default,,0000,0000,0000,,Forget your troubIes\NAnd just get happy
+Dialogue: 0,1:24:29.72,1:24:31.90,Blue,,0000,0000,0000,,{\i1}把你的忧虑收拾起来扔掉{\i0}
+Dialogue: 0,1:24:30.25,1:24:32.41,Default,,0000,0000,0000,,You gotta pack aII your cares away
+Dialogue: 0,1:24:32.07,1:24:34.33,Blue,,0000,0000,0000,,{\i1}高唱「哈利路亚」\N来吧, 高兴起来{\i0}
+Dialogue: 0,1:24:32.58,1:24:34.85,Default,,0000,0000,0000,,Sing haIIeIujah\NCome on, get happy
+Dialogue: 0,1:24:34.68,1:24:36.95,Blue,,0000,0000,0000,,{\i1}为世界末日做好准备{\i0}
+Dialogue: 0,1:24:35.18,1:24:37.48,Default,,0000,0000,0000,,Get ready for the judgment day
+Dialogue: 0,1:24:37.12,1:24:39.43,Blue,,0000,0000,0000,,{\i1}阳光依然灿烂\N高唱「哈利路亚」{\i0}
+Dialogue: 0,1:24:37.65,1:24:39.92,Default,,0000,0000,0000,,The sun is shinin'\NCome on, get happy
+Dialogue: 0,1:24:39.60,1:24:41.69,Blue,,0000,0000,0000,,{\i1}上帝在向你招手{\i0}
+Dialogue: 0,1:24:40.09,1:24:42.22,Default,,0000,0000,0000,,The Lord is waitin' to take your hand
+Dialogue: 0,1:24:41.87,1:24:44.34,Blue,,0000,0000,0000,,{\i1}高唱「哈利路亚」\N来吧, 让我们高兴起来{\i0}
+Dialogue: 0,1:24:42.39,1:24:44.86,Default,,0000,0000,0000,,Sing haIIeIujah\NCome on, get happy
+Dialogue: 0,1:24:44.52,1:24:46.52,Blue,,0000,0000,0000,,{\i1}我们将奔向乐土{\i0}
+Dialogue: 0,1:24:45.03,1:24:47.02,Default,,0000,0000,0000,,We're going to that promised Iand
+Dialogue: 0,1:24:46.70,1:24:51.40,Blue,,0000,0000,0000,,{\i1}我们淌过河水\N在潮汐中洗净你罪恶{\i0}
+Dialogue: 0,1:24:47.20,1:24:51.89,Default,,0000,0000,0000,,We're headin' cross the river\NWash your sins away in the tide
+Dialogue: 0,1:24:51.57,1:24:56.14,Blue,,0000,0000,0000,,{\i1}噢哦，宁静满布在世界的另一端{\i0}
+Dialogue: 0,1:24:52.07,1:24:56.66,Default,,0000,0000,0000,,It's, oh, so peacefuI on the other side
+Dialogue: 0,1:24:56.31,1:24:58.40,Blue,,0000,0000,0000,,{\i1}忘却你的烦恼吧\N来吧, 让我们高兴起来{\i0}
+Dialogue: 0,1:24:56.84,1:24:58.90,Default,,0000,0000,0000,,Forget your troubIes\NCome on, get happy
+Dialogue: 0,1:24:58.58,1:25:00.88,Blue,,0000,0000,0000,,{\i1}快把内心的忧伤赶的远远的{\i0}
+Dialogue: 0,1:24:59.07,1:25:01.41,Default,,0000,0000,0000,,You better chase aII your cares away
+Dialogue: 0,1:25:01.06,1:25:02.97,Blue,,0000,0000,0000,,{\i1}高唱「哈利路亚」\N来吧, 让我们高兴起来{\i0}
+Dialogue: 0,1:25:01.58,1:25:03.51,Default,,0000,0000,0000,,Sing haIIeIujah\NCome on, get happy
+Dialogue: 0,1:25:03.15,1:25:04.71,Blue,,0000,0000,0000,,{\i1}为世界末日做好准备{\i0}
+Dialogue: 0,1:25:03.68,1:25:05.24,Default,,0000,0000,0000,,Get ready for the judgment day
+Dialogue: 0,1:25:04.89,1:25:06.49,Blue,,0000,0000,0000,,{\i1}高唱「哈利路亚」\N来吧, 让我们高兴起来{\i0}
+Dialogue: 0,1:25:05.41,1:25:07.01,Default,,0000,0000,0000,,Sing haIIeIujah\NCome on, get happy
+Dialogue: 0,1:25:06.67,1:25:08.23,Blue,,0000,0000,0000,,{\i1}高唱「哈利路亚」\N来吧, 让我们高兴起来{\i0}
+Dialogue: 0,1:25:07.18,1:25:08.74,Default,,0000,0000,0000,,Sing haIIeIujah\NCome on, get happy
+Dialogue: 0,1:25:08.41,1:25:09.93,Blue,,0000,0000,0000,,{\i1}为世界末日做好准备{\i0}
+Dialogue: 0,1:25:08.92,1:25:10.44,Default,,0000,0000,0000,,Get ready for the judgment day
+Dialogue: 0,1:25:10.11,1:25:11.76,Blue,,0000,0000,0000,,{\i1}高唱「哈利路亚」\N来吧, 让我们高兴起来{\i0}
+Dialogue: 0,1:25:10.62,1:25:12.25,Default,,0000,0000,0000,,Sing haIIeIujah\NCome on, get happy
+Dialogue: 0,1:25:11.89,1:25:14.28,Blue,,0000,0000,0000,,{\i1}为世界末日...--{\i0}
+Dialogue: 0,1:25:12.42,1:25:14.79,Default,,0000,0000,0000,,Get ready for the judgment d--
+Dialogue: 0,1:25:19.47,1:25:21.51,Blue,,0000,0000,0000,,唐娜, 快拿急救包.
+Dialogue: 0,1:25:20.00,1:25:22.02,Default,,0000,0000,0000,,Donna, get my bag.
+Dialogue: 0,1:25:24.21,1:25:25.99,Blue,,0000,0000,0000,,利兰?
+Dialogue: 0,1:25:24.73,1:25:26.53,Default,,0000,0000,0000,,Leland?
+Dialogue: 0,1:25:27.78,1:25:31.61,Blue,,0000,0000,0000,,- 爸, 他怎样了?\N- 还好，没什么大碍.
+Dialogue: 0,1:25:28.27,1:25:32.10,Default,,0000,0000,0000,,- Dad, is he okay?\N- l'm sure it's nothing serious.
+Dialogue: 0,1:25:36.31,1:25:38.44,Blue,,0000,0000,0000,,哦, 上帝啊.
+Dialogue: 0,1:25:36.81,1:25:38.94,Default,,0000,0000,0000,,Oh, God.
+Dialogue: 0,1:25:38.79,1:25:40.31,Blue,,0000,0000,0000,,我好高兴.
+Dialogue: 0,1:25:39.28,1:25:40.81,Default,,0000,0000,0000,,l feel happy.
+Dialogue: 0,1:25:40.49,1:25:42.44,Blue,,0000,0000,0000,,我好高兴.
+Dialogue: 0,1:25:41.02,1:25:42.95,Default,,0000,0000,0000,,l feel happy.
+Dialogue: 0,1:25:42.62,1:25:44.66,Blue,,0000,0000,0000,,来，我们开始跳比津舞吧.
+Dialogue: 0,1:25:43.12,1:25:45.14,Default,,0000,0000,0000,,''Begin the Beguine.''
+Dialogue: 0,1:25:49.93,1:25:54.45,Blue,,0000,0000,0000,,黛安, 现在晚上11:55了,
+Dialogue: 0,1:25:50.43,1:25:54.95,Default,,0000,0000,0000,,Diane, it's 1 1 :55 p.m.,
+Dialogue: 0,1:25:54.63,1:25:57.15,Blue,,0000,0000,0000,,我中枪后已经\N持续工作19个小时了
+Dialogue: 0,1:25:55.13,1:25:57.66,Default,,0000,0000,0000,,approximately 1 9 hours\Nsince the shooting incident
+Dialogue: 0,1:25:57.33,1:25:59.63,Blue,,0000,0000,0000,,我几乎萌生了\N要归隐田园
+Dialogue: 0,1:25:57.83,1:26:00.13,Default,,0000,0000,0000,,which nearly caused me\Nto make a premature purchase
+Dialogue: 0,1:25:59.81,1:26:01.24,Blue,,0000,0000,0000,,的念头.
+Dialogue: 0,1:26:00.30,1:26:01.77,Default,,0000,0000,0000,,of the proverbial farm.
+Dialogue: 0,1:26:02.20,1:26:04.20,Blue,,0000,0000,0000,,我现在累得像狗一样.
+Dialogue: 0,1:26:02.74,1:26:04.73,Default,,0000,0000,0000,,l'm dog-tired.
+Dialogue: 0,1:26:04.38,1:26:08.73,Blue,,0000,0000,0000,,原来一个人\N可以极限到这种程度.
+Dialogue: 0,1:26:04.91,1:26:09.24,Default,,0000,0000,0000,,A man can only go so long\Nwithout submitting to a period of rest.
+Dialogue: 0,1:26:08.90,1:26:10.47,Blue,,0000,0000,0000,,按照美军
+Dialogue: 0,1:26:09.41,1:26:10.97,Default,,0000,0000,0000,,For as we know from experiments
+Dialogue: 0,1:26:10.64,1:26:13.69,Blue,,0000,0000,0000,,在朝鲜战争时\N的经验教训,
+Dialogue: 0,1:26:11.15,1:26:14.17,Default,,0000,0000,0000,,conducted on American Gls\Nduring the Korean War,
+Dialogue: 0,1:26:13.86,1:26:18.34,Blue,,0000,0000,0000,,睡眠权利被剥夺后\N绝对会导致间歇性精神病.
+Dialogue: 0,1:26:14.35,1:26:18.84,Default,,0000,0000,0000,,sleep deprivation is a one-way ticket\Nto temporary psychosis.
+Dialogue: 0,1:26:18.52,1:26:21.39,Blue,,0000,0000,0000,,我觉得自己已经成了工作狂了.
+Dialogue: 0,1:26:19.05,1:26:21.92,Default,,0000,0000,0000,,And l'm working on a three-day jag.
+Dialogue: 0,1:26:22.35,1:26:24.04,Blue,,0000,0000,0000,,你知道我昨晚多傻吗, 黛安,
+Dialogue: 0,1:26:22.86,1:26:24.59,Default,,0000,0000,0000,,l got so goofy last night, Diane,
+Dialogue: 0,1:26:24.22,1:26:27.35,Blue,,0000,0000,0000,,我躺在地上时开始在想\N我是想死呢，还是想活呢,
+Dialogue: 0,1:26:24.76,1:26:27.85,Default,,0000,0000,0000,,lying here wondering\Nwhether l was going to live or die,
+Dialogue: 0,1:26:27.53,1:26:31.57,Blue,,0000,0000,0000,,然后我看见了\N一个巨人出现在我房间里.
+Dialogue: 0,1:26:28.06,1:26:32.09,Default,,0000,0000,0000,,that l thought l saw\Na giant in my room.
+Dialogue: 0,1:26:31.75,1:26:35.14,Blue,,0000,0000,0000,,啊，这个事\N还是下次再说吧.
+Dialogue: 0,1:26:32.27,1:26:35.67,Default,,0000,0000,0000,,Or perhaps that's a story\Nl'll save for another time.
+Dialogue: 0,1:26:36.06,1:26:38.01,Blue,,0000,0000,0000,,我是, 戴尔,
+Dialogue: 0,1:26:36.57,1:26:38.54,Default,,0000,0000,0000,,This is me, Dale,
+Dialogue: 0,1:26:38.19,1:26:42.37,Blue,,0000,0000,0000,,大北方酒店315房,\N完毕.
+Dialogue: 0,1:26:38.71,1:26:42.87,Default,,0000,0000,0000,,room 31 5 at The Great Northern Hotel,\Nsigning off.
+Dialogue: 0,1:27:06.52,1:27:08.87,Blue,,0000,0000,0000,,特派探员.
+Dialogue: 0,1:27:07.04,1:27:09.37,Default,,0000,0000,0000,,Special agent.
+Dialogue: 0,1:27:10.05,1:27:13.57,Blue,,0000,0000,0000,,特派探员. 特派探员.
+Dialogue: 0,1:27:10.54,1:27:14.10,Default,,0000,0000,0000,,Special agent. Special agent.
+Dialogue: 0,1:27:17.27,1:27:19.84,Blue,,0000,0000,0000,,特派探员, 你听到吗?
+Dialogue: 0,1:27:17.81,1:27:20.37,Default,,0000,0000,0000,,Special agent, are you there?
+Dialogue: 0,1:27:24.15,1:27:26.41,Blue,,0000,0000,0000,,我给你留了言.\N你收到我留的纸条了吗?
+Dialogue: 0,1:27:24.65,1:27:26.92,Default,,0000,0000,0000,,l left you a note.\NDidn't you get my note?
+Dialogue: 0,1:27:28.02,1:27:31.15,Blue,,0000,0000,0000,,我把它从门缝里塞进去了.\N保佑你一定要看到它.
+Dialogue: 0,1:27:28.52,1:27:31.69,Default,,0000,0000,0000,,l slipped it under your door.\NYou must have seen it.
+Dialogue: 0,1:27:40.51,1:27:42.64,Blue,,0000,0000,0000,,嗯, 我在这儿呢\N单眼杰克赌场.
+Dialogue: 0,1:27:41.04,1:27:43.10,Default,,0000,0000,0000,,Well, l'm up here\Nat One-Eyed Jack's.
+Dialogue: 0,1:27:43.73,1:27:47.56,Blue,,0000,0000,0000,,说真的,\N我想我这次搞的有点过火了.
+Dialogue: 0,1:27:44.24,1:27:48.07,Default,,0000,0000,0000,,To be perfectly honest,\Nl think l'm in a little over my head.
+Dialogue: 0,1:27:51.30,1:27:53.78,Blue,,0000,0000,0000,,已经超过了我的能力范围.
+Dialogue: 0,1:27:51.85,1:27:54.28,Default,,0000,0000,0000,,Not that l can't handle it.
+Dialogue: 0,1:27:54.61,1:27:57.52,Blue,,0000,0000,0000,,我是说, 其实我只想帮你\N破案,
+Dialogue: 0,1:27:55.15,1:27:58.05,Default,,0000,0000,0000,,l mean, if l'm gonna help you out\Nwith your investigations,
+Dialogue: 0,1:27:57.70,1:28:00.61,Blue,,0000,0000,0000,,但是现在的情形\N比我原来想象的要危险的多
+Dialogue: 0,1:27:58.22,1:28:01.12,Default,,0000,0000,0000,,l'm sure l'll be put into situations\Na lot more dangerous than this
+Dialogue: 0,1:28:00.79,1:28:03.18,Blue,,0000,0000,0000,,不是我所能控制的了.
+Dialogue: 0,1:28:01.29,1:28:03.72,Default,,0000,0000,0000,,on a fairly regular basis.
+Dialogue: 0,1:28:05.10,1:28:07.05,Blue,,0000,0000,0000,,但是...
+Dialogue: 0,1:28:05.59,1:28:07.56,Default,,0000,0000,0000,,But it's just...
+Dialogue: 0,1:28:09.06,1:28:11.67,Blue,,0000,0000,0000,,...你要明白, 尽管这是我头一次出远门.
+Dialogue: 0,1:28:09.56,1:28:12.19,Default,,0000,0000,0000,,...you know, my first time out.
+Dialogue: 0,1:28:11.84,1:28:14.93,Blue,,0000,0000,0000,,但我也事先作了一些准备的.
+Dialogue: 0,1:28:12.37,1:28:15.43,Default,,0000,0000,0000,,l could use a little expert guidance.
+Dialogue: 0,1:28:19.33,1:28:20.93,Blue,,0000,0000,0000,,所以，你知道我已经查到什么了,\N荷恩百货大厦
+Dialogue: 0,1:28:19.81,1:28:21.44,Default,,0000,0000,0000,,So you know,\Nthere is a connection
+Dialogue: 0,1:28:21.11,1:28:23.59,Blue,,0000,0000,0000,,和单眼杰克赌场\N原来都是一伙的.
+Dialogue: 0,1:28:21.61,1:28:24.10,Default,,0000,0000,0000,,between Horne's Department Store\Nand One-Eyed Jack's.
+Dialogue: 0,1:28:23.77,1:28:26.81,Blue,,0000,0000,0000,,是我爸爸, 两个地方都是属于他的.
+Dialogue: 0,1:28:24.28,1:28:27.31,Default,,0000,0000,0000,,lt's my father, he owns the place.
+Dialogue: 0,1:28:26.99,1:28:29.94,Blue,,0000,0000,0000,,那个胆小鬼马屁精经理巴蒂斯\N负责从香水柜台
+Dialogue: 0,1:28:27.48,1:28:30.45,Default,,0000,0000,0000,,Little ball of sleaze named Battis\Nhelps to recruit some of the girls
+Dialogue: 0,1:28:30.12,1:28:32.90,Blue,,0000,0000,0000,,招募新的女孩子.
+Dialogue: 0,1:28:30.62,1:28:33.42,Default,,0000,0000,0000,,from the perfume counter.
+Dialogue: 0,1:28:33.08,1:28:36.99,Blue,,0000,0000,0000,,明天我会再去查查看\N劳拉和朗尼特是不是也给招进来过.
+Dialogue: 0,1:28:33.59,1:28:37.49,Default,,0000,0000,0000,,Tomorrow l'm gonna try to find out\Nif Laura and Ronette came up here.
+Dialogue: 0,1:28:43.70,1:28:47.53,Blue,,0000,0000,0000,,我只希望你不会觉得\N我为你做的这些事微不足道.
+Dialogue: 0,1:28:44.23,1:28:48.07,Default,,0000,0000,0000,,l hope you won't think any less of me\Nfor trying to help you.
+Dialogue: 0,1:28:48.61,1:28:52.83,Blue,,0000,0000,0000,,你明白吗, 我只为了你\N才会做这些事的.
+Dialogue: 0,1:28:49.14,1:28:53.34,Default,,0000,0000,0000,,You know, l promise l only did it\Nwith the best of intentions.
+Dialogue: 0,1:28:53.92,1:28:56.31,Blue,,0000,0000,0000,,所以，如果...
+Dialogue: 0,1:28:54.44,1:28:56.84,Default,,0000,0000,0000,,And if there's any way...
+Dialogue: 0,1:28:57.75,1:29:01.80,Blue,,0000,0000,0000,,如果现在你在世界的某处\N听见了我的求救声,
+Dialogue: 0,1:28:58.28,1:29:02.31,Default,,0000,0000,0000,,lf there's any way in the world\Nthat you can hear me right now,
+Dialogue: 0,1:29:01.98,1:29:04.76,Blue,,0000,0000,0000,,就请快来救救我吧.
+Dialogue: 0,1:29:02.48,1:29:05.28,Default,,0000,0000,0000,,please help me.
+Dialogue: 0,1:29:06.67,1:29:08.41,Blue,,0000,0000,0000,,救我. 救我.
+Dialogue: 0,1:29:07.22,1:29:08.95,Default,,0000,0000,0000,,Help me. Help me.
+Dialogue: 0,1:29:53.85,1:29:55.54,Blue,,0000,0000,0000,,抱歉把你吵醒了.
+Dialogue: 0,1:29:54.37,1:29:56.06,Default,,0000,0000,0000,,Sorry to wake you.
+Dialogue: 0,1:29:58.72,1:30:00.77,Blue,,0000,0000,0000,,我不是做梦吧.
+Dialogue: 0,1:29:59.27,1:30:01.30,Default,,0000,0000,0000,,l am not dreaming.
+Dialogue: 0,1:30:01.38,1:30:03.72,Blue,,0000,0000,0000,,有件事我忘记告诉你了.
+Dialogue: 0,1:30:01.88,1:30:04.21,Default,,0000,0000,0000,,l forgot to tell you something.
+Dialogue: 0,1:30:05.55,1:30:08.16,Blue,,0000,0000,0000,,那个微笑的袋子\N你的暗示中了.
+Dialogue: 0,1:30:06.05,1:30:08.61,Default,,0000,0000,0000,,You were right\Nabout the smiling bag.
+Dialogue: 0,1:30:09.08,1:30:12.95,Blue,,0000,0000,0000,,我给你的暗示\N不会错的.
+Dialogue: 0,1:30:09.58,1:30:13.49,Default,,0000,0000,0000,,The things l tell you\Nwill not be wrong.
+Dialogue: 0,1:30:15.83,1:30:18.87,Blue,,0000,0000,0000,,好了，现在听我说.
+Dialogue: 0,1:30:16.36,1:30:19.38,Default,,0000,0000,0000,,Better to listen than to talk.
+Dialogue: 0,1:30:20.31,1:30:21.92,Blue,,0000,0000,0000,,我相信你.
+Dialogue: 0,1:30:20.83,1:30:22.42,Default,,0000,0000,0000,,l believe you.
+Dialogue: 0,1:30:22.09,1:30:25.40,Blue,,0000,0000,0000,,不要急于\N一次得到所有的答案.
+Dialogue: 0,1:30:22.60,1:30:25.90,Default,,0000,0000,0000,,Don't search\Nfor all the answers at once.
+Dialogue: 0,1:30:26.27,1:30:31.62,Blue,,0000,0000,0000,,万事有道，一切都安排好了\N只需一步一脚印的走下去.
+Dialogue: 0,1:30:26.80,1:30:32.10,Default,,0000,0000,0000,,A path is formed\Nby laying one stone at a time.
+Dialogue: 0,1:30:35.36,1:30:40.02,Blue,,0000,0000,0000,,有一个人看见了神秘人.
+Dialogue: 0,1:30:35.88,1:30:40.54,Default,,0000,0000,0000,,One person saw the third man.
+Dialogue: 0,1:30:40.20,1:30:44.33,Blue,,0000,0000,0000,,见过3次, 是的,
+Dialogue: 0,1:30:40.72,1:30:44.85,Default,,0000,0000,0000,,Three have seen him, yes,
+Dialogue: 0,1:30:44.50,1:30:46.42,Blue,,0000,0000,0000,,不仅仅是他的肉身.
+Dialogue: 0,1:30:45.02,1:30:46.92,Default,,0000,0000,0000,,but not his body.
+Dialogue: 0,1:30:46.59,1:30:50.73,Blue,,0000,0000,0000,,一个你认识的人.
+Dialogue: 0,1:30:47.09,1:30:51.25,Default,,0000,0000,0000,,One only known to you.
+Dialogue: 0,1:30:50.90,1:30:52.99,Blue,,0000,0000,0000,,他已经准备好了，就等你去问.
+Dialogue: 0,1:30:51.43,1:30:53.52,Default,,0000,0000,0000,,Ready now to talk.
+Dialogue: 0,1:30:56.17,1:30:58.77,Blue,,0000,0000,0000,,还有一件事.
+Dialogue: 0,1:30:56.70,1:30:59.29,Default,,0000,0000,0000,,One more thing.
+Dialogue: 0,1:30:58.95,1:31:01.69,Blue,,0000,0000,0000,,你忘东西了.
+Dialogue: 0,1:30:59.47,1:31:02.16,Default,,0000,0000,0000,,You forgot something.
+Dialogue: 0,1:31:03.65,1:31:05.22,Blue,,0000,0000,0000,,啊?
+Dialogue: 0,1:31:04.14,1:31:05.73,Default,,0000,0000,0000,,What?
+Dialogue: 0,1:32:11.21,1:32:13.30,Default,,0000,0000,0000,,Laura! Laura!
+Dialogue: 0,1:32:28.72,1:32:31.28,Default,,0000,0000,0000,,Laura!

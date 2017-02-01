@@ -1,0 +1,702 @@
+﻿[Script Info]
+; // 此字幕由TimeM生成
+; // 欢迎访问人人影视 http://www.YYeTs.net
+Title:YYeTs
+Original Script:YYeTs
+Synch Point:1
+ScriptType:v4.00+
+Collisions:Normal
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0.00,1,2,1,2,5,5,2,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:18.93,0:03:21.47,*Default,NTP,0000,0000,0000,,你又穿起黑斗篷了\N{\fn微软雅黑\fs14}You're wearing a black cloak again.
+Dialogue: 0,0:03:21.84,0:03:24.16,*Default,NTP,0000,0000,0000,,他们派我来跟你谈判\N{\fn微软雅黑\fs14}I've been sent to negotiate with you.
+Dialogue: 0,0:03:53.49,0:03:56.25,*Default,NTP,0000,0000,0000,,看来我又吃了轻信的亏\N{\fn微软雅黑\fs14}It appears my trusting nature got the better of me.
+Dialogue: 0,0:03:56.56,0:03:58.07,*Default,NTP,0000,0000,0000,,这亏我从前也吃过\N{\fn微软雅黑\fs14}It's happened before.
+Dialogue: 0,0:03:58.08,0:04:00.03,*Default,NTP,0000,0000,0000,,你前来投诚时\N{\fn微软雅黑\fs14}I was hoping your loyalty was real 
+Dialogue: 0,0:04:00.03,0:04:01.96,*Default,NTP,0000,0000,0000,,我曾希望你是忠诚的  琼恩·雪诺\N{\fn微软雅黑\fs14}when you pledged yourself to us, Jon Snow.
+Dialogue: 0,0:04:01.96,0:04:03.46,*Default,NTP,0000,0000,0000,,我真心希望\N{\fn微软雅黑\fs14}Truly I was.
+Dialogue: 0,0:04:03.66,0:04:05.57,*Default,NTP,0000,0000,0000,,断掌命令我加入你们的队伍\N{\fn微软雅黑\fs14}The Halfhand ordered me to join your army
+Dialogue: 0,0:04:05.57,0:04:08.38,*Default,NTP,0000,0000,0000,,带着得到的情报回到黑城堡\N{\fn微软雅黑\fs14}and bring back whatever information I could to Castle Black.
+Dialogue: 0,0:04:08.38,0:04:10.68,*Default,NTP,0000,0000,0000,,他逼我杀死他赢取你们的信任\N{\fn微软雅黑\fs14}He made me kill him so you'd trust me.
+Dialogue: 0,0:04:10.87,0:04:12.41,*Default,NTP,0000,0000,0000,,我是忠诚的\N{\fn微软雅黑\fs14}I was loyal...
+Dialogue: 0,0:04:12.52,0:04:15.45,*Default,NTP,0000,0000,0000,,忠于他  忠于守夜人的誓言\N{\fn微软雅黑\fs14}to him and to my Night's Watch vows.
+Dialogue: 0,0:04:15.45,0:04:17.15,*Default,NTP,0000,0000,0000,,每一条誓言吗\N{\fn微软雅黑\fs14}All your vows?
+Dialogue: 0,0:04:19.44,0:04:21.64,*Default,NTP,0000,0000,0000,,她不足以改变你的心志  是吧\N{\fn微软雅黑\fs14}She wasn't enough to turn you, eh?
+Dialogue: 0,0:04:23.18,0:04:24.87,*Default,NTP,0000,0000,0000,,你足以改变她吗\N{\fn微软雅黑\fs14}Were you enough to turn her?
+Dialogue: 0,0:04:26.01,0:04:29.17,*Default,NTP,0000,0000,0000,,我逃走时她射了我三箭\N{\fn微软雅黑\fs14}She put three arrows in me when I escaped.
+Dialogue: 0,0:04:31.86,0:04:33.85,*Default,NTP,0000,0000,0000,,你在黑城堡见到她了吗\N{\fn微软雅黑\fs14}Did you see her again at Castle Black?
+Dialogue: 0,0:04:34.12,0:04:36.45,*Default,NTP,0000,0000,0000,,-见到了  -然后呢\N{\fn微软雅黑\fs14}- Yes. - And?
+Dialogue: 0,0:04:37.66,0:04:39.02,*Default,NTP,0000,0000,0000,,她死了\N{\fn微软雅黑\fs14}She's dead.
+Dialogue: 0,0:04:40.30,0:04:42.98,*Default,NTP,0000,0000,0000,,-是你下的手  -不是\N{\fn微软雅黑\fs14}- Your doing? - No.
+Dialogue: 0,0:04:45.53,0:04:47.02,*Default,NTP,0000,0000,0000,,我们敬她一杯\N{\fn微软雅黑\fs14}We'll drink to her.
+Dialogue: 0,0:05:10.55,0:05:12.62,*Default,NTP,0000,0000,0000,,我要杀你法子多得是\N{\fn微软雅黑\fs14}Of all the ways I'd kill you,
+Dialogue: 0,0:05:12.62,0:05:14.75,*Default,NTP,0000,0000,0000,,下毒是最不可能的\N{\fn微软雅黑\fs14}poison would be the last.
+Dialogue: 0,0:05:17.94,0:05:20.35,*Default,NTP,0000,0000,0000,,-耶哥蕊特  -耶哥蕊特\N{\fn微软雅黑\fs14}- Ygritte. - Ygritte.
+Dialogue: 0,0:05:29.91,0:05:30.97,*Default,NTP,0000,0000,0000,,这不是红酒\N{\fn微软雅黑\fs14}That's not wine.
+Dialogue: 0,0:05:30.97,0:05:34.18,*Default,NTP,0000,0000,0000,,对  这是正宗的北方酒  琼恩·雪诺\N{\fn微软雅黑\fs14}No, it's a proper northern drink, Jon Snow.
+Dialogue: 0,0:05:34.65,0:05:37.44,*Default,NTP,0000,0000,0000,,你们很棒  打得顽强\N{\fn微软雅黑\fs14}You did well. Fought hard.
+Dialogue: 0,0:05:37.44,0:05:39.52,*Default,NTP,0000,0000,0000,,杀了几个我们最强壮的人\N{\fn微软雅黑\fs14}Killed some of our strongest men.
+Dialogue: 0,0:05:40.09,0:05:42.21,*Default,NTP,0000,0000,0000,,一个巨人冲进你们的隧道\N{\fn微软雅黑\fs14}One of our giants went into your tunnel
+Dialogue: 0,0:05:42.21,0:05:44.06,*Default,NTP,0000,0000,0000,,再也没出来\N{\fn微软雅黑\fs14}and never came out again.
+Dialogue: 0,0:05:44.77,0:05:46.42,*Default,NTP,0000,0000,0000,,强壮的玛格\N{\fn微软雅黑\fs14}Mag the Mighty.
+Dialogue: 0,0:05:46.71,0:05:48.13,*Default,NTP,0000,0000,0000,,他死了\N{\fn微软雅黑\fs14}He's dead.
+Dialogue: 0,0:05:48.87,0:05:50.58,*Default,NTP,0000,0000,0000,,他杀了我的朋友葛兰\N{\fn微软雅黑\fs14}He killed my friend Grenn.
+Dialogue: 0,0:05:50.58,0:05:52.17,*Default,NTP,0000,0000,0000,,他是巨人的国王\N{\fn微软雅黑\fs14}He was their king.
+Dialogue: 0,0:05:52.17,0:05:54.53,*Default,NTP,0000,0000,0000,,是古老家族的最后传人\N{\fn微软雅黑\fs14}The last of a bloodline that stretches back
+Dialogue: 0,0:05:54.53,0:05:56.38,*Default,NTP,0000,0000,0000,,血统比先民更久远\N{\fn微软雅黑\fs14}before the First Men.
+Dialogue: 0,0:05:56.49,0:05:58.40,*Default,NTP,0000,0000,0000,,葛兰来自某个农场\N{\fn微软雅黑\fs14}Grenn came from a farm.
+Dialogue: 0,0:06:03.06,0:06:06.03,*Default,NTP,0000,0000,0000,,-玛格和葛兰  -葛兰和玛格\N{\fn微软雅黑\fs14}- Mag and Grenn. - Grenn and Mag.
+Dialogue: 0,0:06:08.31,0:06:11.31,*Default,NTP,0000,0000,0000,,库柏克  能给弄点儿吃的吗\N{\fn微软雅黑\fs14}Kullback, could I trouble you for something to eat?
+Dialogue: 0,0:06:11.31,0:06:15.77,*Default,NTP,0000,0000,0000,,我想我们的客人很长时间没吃东西了\N{\fn微软雅黑\fs14}I don't imagine our guest has eaten anything for quite some time.
+Dialogue: 0,0:06:17.20,0:06:21.36,*Default,NTP,0000,0000,0000,,你是来谈条件的\N{\fn微软雅黑\fs14}So, you're here to strike a bargain?
+Dialogue: 0,0:06:22.64,0:06:24.88,*Default,NTP,0000,0000,0000,,全体调头  回老家去\N{\fn微软雅黑\fs14}Turn your army around and go home.
+Dialogue: 0,0:06:24.88,0:06:27.18,*Default,NTP,0000,0000,0000,,你明知我清楚你们箭矢不足\N{\fn微软雅黑\fs14}You know I know you're low on arrows,
+Dialogue: 0,0:06:27.18,0:06:29.30,*Default,NTP,0000,0000,0000,,油料耗尽  人手短缺\N{\fn微软雅黑\fs14}you're low on oil, you're low on men.
+Dialogue: 0,0:06:29.30,0:06:31.60,*Default,NTP,0000,0000,0000,,还剩多少人  有五十吗\N{\fn微软雅黑\fs14}How many are left, 50?
+Dialogue: 0,0:06:31.60,0:06:33.35,*Default,NTP,0000,0000,0000,,我告诉托蒙德和欧瑞尔\N{\fn微软雅黑\fs14}I told Tormund and Orell.
+Dialogue: 0,0:06:33.47,0:06:35.15,*Default,NTP,0000,0000,0000,,我们有一千多人\N{\fn微软雅黑\fs14}We have more than 1,000 men.
+Dialogue: 0,0:06:35.15,0:06:36.62,*Default,NTP,0000,0000,0000,,我的实力你都看到了\N{\fn微软雅黑\fs14}I showed you everything I had.
+Dialogue: 0,0:06:36.62,0:06:38.77,*Default,NTP,0000,0000,0000,,全军总数超过十万\N{\fn微软雅黑\fs14}The whole army, 100,000 strong.
+Dialogue: 0,0:06:38.77,0:06:42.08,*Default,NTP,0000,0000,0000,,你们做了什么呢  倾尽全力阻击我们\N{\fn微软雅黑\fs14}And what did you do? You fired on us with everything you had.
+Dialogue: 0,0:06:42.08,0:06:43.16,*Default,NTP,0000,0000,0000,,毛毛雨而已\N{\fn微软雅黑\fs14}It wasn't much.
+Dialogue: 0,0:06:43.47,0:06:44.71,*Default,NTP,0000,0000,0000,,我看清情况之后\N{\fn微软雅黑\fs14}As soon as I saw that,
+Dialogue: 0,0:06:44.71,0:06:48.05,*Default,NTP,0000,0000,0000,,马上派了四百人去爬过长城\N{\fn微软雅黑\fs14}I sent 400 men to climb the Wall,
+Dialogue: 0,0:06:48.05,0:06:50.66,*Default,NTP,0000,0000,0000,,西边五哩无人守卫的位置\N{\fn微软雅黑\fs14}an unmanned stretch five miles west of here.
+Dialogue: 0,0:06:50.66,0:06:52.33,*Default,NTP,0000,0000,0000,,许多人会死在攀爬途中\N{\fn微软雅黑\fs14}A lot of them will die climbing,
+Dialogue: 0,0:06:52.33,0:06:54.85,*Default,NTP,0000,0000,0000,,但是今天晚上  大部分能越过长城\N{\fn微软雅黑\fs14}but most of them will be over by the end of the day.
+Dialogue: 0,0:06:55.12,0:06:57.75,*Default,NTP,0000,0000,0000,,我这是对你实话实说  琼恩·雪诺\N{\fn微软雅黑\fs14}It's me being honest with you, Jon Snow,
+Dialogue: 0,0:06:57.76,0:07:00.03,*Default,NTP,0000,0000,0000,,我待你远比你待我真诚得多\N{\fn微软雅黑\fs14}which is more than you've ever done for me.
+Dialogue: 0,0:07:00.03,0:07:02.29,*Default,NTP,0000,0000,0000,,我的人民已经流了太多血\N{\fn微软雅黑\fs14}My people have bled enough.
+Dialogue: 0,0:07:02.65,0:07:04.05,*Default,NTP,0000,0000,0000,,我们此来不是为了征服\N{\fn微软雅黑\fs14}We're not here to conquer.
+Dialogue: 0,0:07:04.05,0:07:06.82,*Default,NTP,0000,0000,0000,,我们要去你们的长城后面躲避\N{\fn微软雅黑\fs14}We're here to hide behind your Wall.
+Dialogue: 0,0:07:06.82,0:07:11.14,*Default,NTP,0000,0000,0000,,和你们一样  我们需要你们的隧道\N{\fn微软雅黑\fs14}Just like you. We need your tunnel.
+Dialogue: 0,0:07:11.51,0:07:14.80,*Default,NTP,0000,0000,0000,,我们都知道  凛冬将至\N{\fn微软雅黑\fs14}Now we both know that winter is coming.
+Dialogue: 0,0:07:14.81,0:07:18.14,*Default,NTP,0000,0000,0000,,要是冬天真正来临  我的人民没到长城以南\N{\fn微软雅黑\fs14}And if my people aren't south of the Wall when it comes in earnest,
+Dialogue: 0,0:07:18.14,0:07:20.33,*Default,NTP,0000,0000,0000,,我们都会落得比死亡更凄惨\N{\fn微软雅黑\fs14}we'll all end up worse than dead.
+Dialogue: 0,0:07:21.40,0:07:23.09,*Default,NTP,0000,0000,0000,,你想跟我谈条件\N{\fn微软雅黑\fs14}You want to strike a bargain with me?
+Dialogue: 0,0:07:23.09,0:07:24.55,*Default,NTP,0000,0000,0000,,这是我的条件\N{\fn微软雅黑\fs14}Here's the bargain.
+Dialogue: 0,0:07:24.65,0:07:26.93,*Default,NTP,0000,0000,0000,,你回去  为我们敞开大门\N{\fn微软雅黑\fs14}You go back, you open the gates to us,
+Dialogue: 0,0:07:26.93,0:07:30.15,*Default,NTP,0000,0000,0000,,我可以发誓不会再死一个人\N{\fn微软雅黑\fs14}and I swear to you that no one else will die.
+Dialogue: 0,0:07:30.37,0:07:32.08,*Default,NTP,0000,0000,0000,,若拒绝\N{\fn微软雅黑\fs14}Refuse,
+Dialogue: 0,0:07:32.60,0:07:35.54,*Default,NTP,0000,0000,0000,,我们就把黑城堡守军斩尽杀绝\N{\fn微软雅黑\fs14}and we'll kill every last man at Castle Black.
+Dialogue: 0,0:07:42.11,0:07:46.30,*Default,NTP,0000,0000,0000,,原来这才是你的目的\N{\fn微软雅黑\fs14}Oh, that's why you're here.
+Dialogue: 0,0:07:46.57,0:07:49.56,*Default,NTP,0000,0000,0000,,我料想你能够得手  他们来不及阻止你\N{\fn微软雅黑\fs14}I reckon you could do it before any of them could stop you.
+Dialogue: 0,0:07:49.56,0:07:51.33,*Default,NTP,0000,0000,0000,,他们自然会杀掉你\N{\fn微软雅黑\fs14}They'd kill you, of course.
+Dialogue: 0,0:07:51.33,0:07:52.84,*Default,NTP,0000,0000,0000,,慢慢折磨死你\N{\fn微软雅黑\fs14}They'd kill you slow.
+Dialogue: 0,0:07:52.85,0:07:56.15,*Default,NTP,0000,0000,0000,,可你进门之时早就知道了\N{\fn微软雅黑\fs14}But you knew that when you came in here.
+Dialogue: 0,0:07:56.98,0:08:00.79,*Default,NTP,0000,0000,0000,,你下得了手吗  琼恩·雪诺\N{\fn微软雅黑\fs14}Are you capable of that, Jon Snow?
+Dialogue: 0,0:08:00.79,0:08:04.12,*Default,NTP,0000,0000,0000,,将与你和谈之人斩杀在他的营帐里\N{\fn微软雅黑\fs14}Killing a man in his own tent when he's just offered you peace?
+Dialogue: 0,0:08:04.21,0:08:06.59,*Default,NTP,0000,0000,0000,,守夜人是这样的军团吗\N{\fn微软雅黑\fs14}Is that what the Night's Watch is?
+Dialogue: 0,0:08:06.82,0:08:08.64,*Default,NTP,0000,0000,0000,,你是这样的人吗\N{\fn微软雅黑\fs14}Is that what you are?
+Dialogue: 0,0:08:11.73,0:08:13.16,*Default,NTP,0000,0000,0000,,骑兵来袭\N{\fn微软雅黑\fs14}Riders coming!
+Dialogue: 0,0:08:15.01,0:08:16.44,*Default,NTP,0000,0000,0000,,-是你们偷袭  -不是\N{\fn微软雅黑\fs14}- Are you attacking us? - No.
+Dialogue: 0,0:08:16.44,0:08:18.21,*Default,NTP,0000,0000,0000,,你自己也说了  我们人手不够\N{\fn微软雅黑\fs14}It's like you said, we don't have the men.
+Dialogue: 0,0:08:46.04,0:08:48.98,*Default,NTP,0000,0000,0000,,稳住  向我靠拢  靠拢\N{\fn微软雅黑\fs14}Hold! To me! To me!
+Dialogue: 0,0:10:00.87,0:10:02.30,*Default,NTP,0000,0000,0000,,退后\N{\fn微软雅黑\fs14}Stand down!
+Dialogue: 0,0:10:04.48,0:10:06.84,*Default,NTP,0000,0000,0000,,我说我的人民已经流了太多血\N{\fn微软雅黑\fs14}I said my people have bled enough
+Dialogue: 0,0:10:07.21,0:10:08.72,*Default,NTP,0000,0000,0000,,我是认真的\N{\fn微软雅黑\fs14}and I meant it.
+Dialogue: 0,0:10:43.36,0:10:44.62,*Default,NTP,0000,0000,0000,,把他们围起来\N{\fn微软雅黑\fs14}Round them up.
+Dialogue: 0,0:10:56.69,0:10:58.71,*Default,NTP,0000,0000,0000,,你是塞外之王\N{\fn微软雅黑\fs14}You're the King-beyond-the-Wall?
+Dialogue: 0,0:11:01.51,0:11:03.98,*Default,NTP,0000,0000,0000,,-知道我是谁吗  -无幸得知\N{\fn微软雅黑\fs14}- Do you know who I am? - Never had the pleasure.
+Dialogue: 0,0:11:03.99,0:11:05.23,*Default,NTP,0000,0000,0000,,你面前的是史坦尼斯·拜拉席恩\N{\fn微软雅黑\fs14}This is Stannis Baratheon,
+Dialogue: 0,0:11:05.23,0:11:07.25,*Default,NTP,0000,0000,0000,,七国唯一的真王\N{\fn微软雅黑\fs14}the one true king of the Seven Kingdoms.
+Dialogue: 0,0:11:07.25,0:11:08.76,*Default,NTP,0000,0000,0000,,我们不在七国之内\N{\fn微软雅黑\fs14}We're not in the Seven Kingdoms
+Dialogue: 0,0:11:08.76,0:11:10.54,*Default,NTP,0000,0000,0000,,你穿得也不合时宜\N{\fn微软雅黑\fs14}and you're not dressed for this weather.
+Dialogue: 0,0:11:11.06,0:11:15.12,*Default,NTP,0000,0000,0000,,向国王投降通常应当下跪\N{\fn微软雅黑\fs14}It is customary to kneel when surrendering to a king.
+Dialogue: 0,0:11:21.36,0:11:23.06,*Default,NTP,0000,0000,0000,,我们从不下跪\N{\fn微软雅黑\fs14}We do not kneel.
+Dialogue: 0,0:11:23.06,0:11:25.58,*Default,NTP,0000,0000,0000,,天黑前  我会抓到数千俘虏\N{\fn微软雅黑\fs14}I'll have thousands of your men in chains by nightfall,
+Dialogue: 0,0:11:25.58,0:11:27.82,*Default,NTP,0000,0000,0000,,没地方安置  也没东西给他们吃\N{\fn微软雅黑\fs14}have nowhere to put them, have nothing to feed them.
+Dialogue: 0,0:11:28.42,0:11:30.75,*Default,NTP,0000,0000,0000,,我此来并不想赶尽杀绝\N{\fn微软雅黑\fs14}I'm not here to slaughter beat dogs.
+Dialogue: 0,0:11:30.75,0:11:33.32,*Default,NTP,0000,0000,0000,,他们的命运掌握在他们的国王手里\N{\fn微软雅黑\fs14}Their fate depends on their king.
+Dialogue: 0,0:11:34.47,0:11:38.26,*Default,NTP,0000,0000,0000,,还是一样  我们从不下跪\N{\fn微软雅黑\fs14}All the same, we do not kneel.
+Dialogue: 0,0:11:40.83,0:11:42.55,*Default,NTP,0000,0000,0000,,把他们带走\N{\fn微软雅黑\fs14}Take these men away.
+Dialogue: 0,0:11:43.90,0:11:46.63,*Default,NTP,0000,0000,0000,,守夜人的汉子到野人营地里做什么\N{\fn微软雅黑\fs14}What's a man of the Night's Watch doing in a wildling camp?
+Dialogue: 0,0:11:48.13,0:11:50.88,*Default,NTP,0000,0000,0000,,我是受命前来和塞外之王谈判的\N{\fn微软雅黑\fs14}I was sent to discuss terms with the King-beyond-the-Wall.
+Dialogue: 0,0:11:50.88,0:11:52.95,*Default,NTP,0000,0000,0000,,你面前的是唯一的真王  小子\N{\fn微软雅黑\fs14}You're speaking to the one true king, boy.
+Dialogue: 0,0:11:53.35,0:11:55.13,*Default,NTP,0000,0000,0000,,你要尊称他为陛下\N{\fn微软雅黑\fs14}You will address him as Your Grace.
+Dialogue: 0,0:11:55.13,0:11:58.61,*Default,NTP,0000,0000,0000,,我知道他是国王  我父亲就是因他而死\N{\fn微软雅黑\fs14}I know he's the king. My father died for him.
+Dialogue: 0,0:12:00.53,0:12:02.78,*Default,NTP,0000,0000,0000,,我叫琼恩·雪诺  陛下\N{\fn微软雅黑\fs14}My name is Jon Snow, Your Grace.
+Dialogue: 0,0:12:04.01,0:12:05.71,*Default,NTP,0000,0000,0000,,我是奈德·史塔克的儿子\N{\fn微软雅黑\fs14}I'm Ned Stark's son.
+Dialogue: 0,0:12:08.28,0:12:10.58,*Default,NTP,0000,0000,0000,,你父亲是一位可敬的人\N{\fn微软雅黑\fs14}Your father was an honorable man.
+Dialogue: 0,0:12:10.58,0:12:12.18,*Default,NTP,0000,0000,0000,,是的  陛下\N{\fn微软雅黑\fs14}He was, Your Grace.
+Dialogue: 0,0:12:12.49,0:12:14.58,*Default,NTP,0000,0000,0000,,你认为你父亲会怎么处理他呢\N{\fn微软雅黑\fs14}What do you think he'd have done with him?
+Dialogue: 0,0:12:20.71,0:12:22.74,*Default,NTP,0000,0000,0000,,我曾是这个人的囚犯\N{\fn微软雅黑\fs14}I was this man's prisoner once.
+Dialogue: 0,0:12:23.39,0:12:25.88,*Default,NTP,0000,0000,0000,,他可以折磨我  可以杀死我\N{\fn微软雅黑\fs14}He could have tortured me. He could have killed me.
+Dialogue: 0,0:12:27.65,0:12:29.29,*Default,NTP,0000,0000,0000,,但是他饶了我的命\N{\fn微软雅黑\fs14}But he spared my life.
+Dialogue: 0,0:12:29.66,0:12:31.80,*Default,NTP,0000,0000,0000,,我想我父亲会把他关起来\N{\fn微软雅黑\fs14}I think my father would have taken him prisoner,
+Dialogue: 0,0:12:31.85,0:12:33.53,*Default,NTP,0000,0000,0000,,再听听他的解释\N{\fn微软雅黑\fs14}listened to what he had to say.
+Dialogue: 0,0:12:37.21,0:12:39.79,*Default,NTP,0000,0000,0000,,很好  带他走\N{\fn微软雅黑\fs14}Very well, then. Take him.
+Dialogue: 0,0:12:46.19,0:12:47.44,*Default,NTP,0000,0000,0000,,陛下\N{\fn微软雅黑\fs14}Your Grace.
+Dialogue: 0,0:12:48.35,0:12:51.01,*Default,NTP,0000,0000,0000,,如果我父亲见过我所见过的事\N{\fn微软雅黑\fs14}If my father had seen the things that I've seen,
+Dialogue: 0,0:12:51.08,0:12:53.98,*Default,NTP,0000,0000,0000,,他还会建议您天黑前将尸体烧掉\N{\fn微软雅黑\fs14}he'd also tell you to burn the dead before nightfall.
+Dialogue: 0,0:12:55.68,0:12:57.11,*Default,NTP,0000,0000,0000,,所有的尸体\N{\fn微软雅黑\fs14}All of them.
+Dialogue: 0,0:13:06.11,0:13:08.62,*Default,NTP,0000,0000,0000,,我想用罂粟花奶\N{\fn微软雅黑\fs14}I would suggest milk of the poppy
+Dialogue: 0,0:13:08.62,0:13:11.29,*Default,NTP,0000,0000,0000,,来缓解他的疼痛  可他完全没有知觉\N{\fn微软雅黑\fs14}to ease his pain, but he is completely insensate.
+Dialogue: 0,0:13:11.29,0:13:12.55,*Default,NTP,0000,0000,0000,,该死的马泰尔\N{\fn微软雅黑\fs14}Bloody Martells.
+Dialogue: 0,0:13:12.55,0:13:14.85,*Default,NTP,0000,0000,0000,,他中的应该是狮身蝎尾兽之毒\N{\fn微软雅黑\fs14}The cause appears to be manticore venom.
+Dialogue: 0,0:13:14.85,0:13:17.48,*Default,NTP,0000,0000,0000,,是的  死亡之首狮身蝎尾兽\N{\fn微软雅黑\fs14}It is. The Death's Head manticore.
+Dialogue: 0,0:13:18.86,0:13:21.04,*Default,NTP,0000,0000,0000,,我看过很多关于它的资料\N{\fn微软雅黑\fs14}Yes, I've read a great deal about it.
+Dialogue: 0,0:13:21.05,0:13:22.58,*Default,NTP,0000,0000,0000,,是一种很可怕的毒药\N{\fn微软雅黑\fs14}It's a horrible poison.
+Dialogue: 0,0:13:22.79,0:13:25.22,*Default,NTP,0000,0000,0000,,原产自曼塔芮\N{\fn微软雅黑\fs14}Usually Mantari in origin.
+Dialogue: 0,0:13:26.25,0:13:27.74,*Default,NTP,0000,0000,0000,,好了  好了\N{\fn微软雅黑\fs14}Oh! Yes, yes.
+Dialogue: 0,0:13:27.74,0:13:28.98,*Default,NTP,0000,0000,0000,,我们已经无能为力了\N{\fn微软雅黑\fs14}There's nothing to be done.
+Dialogue: 0,0:13:28.98,0:13:30.46,*Default,NTP,0000,0000,0000,,不  还有希望\N{\fn微软雅黑\fs14}Yes, there is.
+Dialogue: 0,0:13:31.84,0:13:34.71,*Default,NTP,0000,0000,0000,,我能问问你知道你在做什么吗\N{\fn微软雅黑\fs14}May I ask what you think you're doing?
+Dialogue: 0,0:13:34.71,0:13:35.86,*Default,NTP,0000,0000,0000,,救他\N{\fn微软雅黑\fs14}Saving him.
+Dialogue: 0,0:13:35.86,0:13:38.02,*Default,NTP,0000,0000,0000,,陛下  我也不希望这样\N{\fn微软雅黑\fs14}Your Grace, I wish it were otherwise,
+Dialogue: 0,0:13:38.02,0:13:40.97,*Default,NTP,0000,0000,0000,,但格雷果爵士已经没救了\N{\fn微软雅黑\fs14}but Ser Gregor is beyond saving.
+Dialogue: 0,0:13:40.97,0:13:42.79,*Default,NTP,0000,0000,0000,,完全没救\N{\fn微软雅黑\fs14}Well, well beyond.
+Dialogue: 0,0:13:42.79,0:13:45.30,*Default,NTP,0000,0000,0000,,此人根本不是学士\N{\fn微软雅黑\fs14}This man is not even a maester,
+Dialogue: 0,0:13:45.30,0:13:47.63,*Default,NTP,0000,0000,0000,,更别说大学士了\N{\fn微软雅黑\fs14}let alone Grand Maester.
+Dialogue: 0,0:13:47.64,0:13:49.08,*Default,NTP,0000,0000,0000,,这样最好\N{\fn微软雅黑\fs14}That's for the best.
+Dialogue: 0,0:13:49.08,0:13:51.12,*Default,NTP,0000,0000,0000,,没有学士知道该怎么救他\N{\fn微软雅黑\fs14}No maester knows how to save him.
+Dialogue: 0,0:13:51.12,0:13:53.03,*Default,NTP,0000,0000,0000,,就是因为这种傲慢\N{\fn微软雅黑\fs14}That is exactly the sort of arrogance
+Dialogue: 0,0:13:53.04,0:13:55.92,*Default,NTP,0000,0000,0000,,他才被驱逐出学城  陛下\N{\fn微软雅黑\fs14}that had him expelled from the Citadel, Your Grace.
+Dialogue: 0,0:13:55.92,0:14:00.04,*Default,NTP,0000,0000,0000,,他的好奇心既危险又变态\N{\fn微软雅黑\fs14}His curiosity was deemed dangerous and unnatural.
+Dialogue: 0,0:14:00.26,0:14:02.27,*Default,NTP,0000,0000,0000,,我认为这是客观的说法\N{\fn微软雅黑\fs14}Rightly so, in my opinion.
+Dialogue: 0,0:14:02.31,0:14:04.55,*Default,NTP,0000,0000,0000,,退下吧  大学士\N{\fn微软雅黑\fs14}You're dismissed, Grand Maester.
+Dialogue: 0,0:14:06.09,0:14:10.42,*Default,NTP,0000,0000,0000,,但是  陛下  这里是我的实验室\N{\fn微软雅黑\fs14}But, Your Grace, this is my laboratory.
+Dialogue: 0,0:14:10.42,0:14:12.92,*Default,NTP,0000,0000,0000,,-不再是了  -但我...\N{\fn微软雅黑\fs14}- Not anymore. - But I--
+Dialogue: 0,0:14:20.01,0:14:22.93,*Default,NTP,0000,0000,0000,,-你能救他吗  -很难说  陛下\N{\fn微软雅黑\fs14}- You can save him? - Difficult to say, Your Grace.
+Dialogue: 0,0:14:22.93,0:14:25.50,*Default,NTP,0000,0000,0000,,但如果我过去的实验可以借鉴\N{\fn微软雅黑\fs14}But if my past work is any guide...
+Dialogue: 0,0:14:27.71,0:14:29.26,*Default,NTP,0000,0000,0000,,我们还有机会\N{\fn微软雅黑\fs14}...we stand a chance.
+Dialogue: 0,0:14:29.88,0:14:31.43,*Default,NTP,0000,0000,0000,,尽全力吧\N{\fn微软雅黑\fs14}Do everything you can.
+Dialogue: 0,0:14:31.54,0:14:33.10,*Default,NTP,0000,0000,0000,,需要什么尽管找我\N{\fn微软雅黑\fs14}Come to me for anything you need.
+Dialogue: 0,0:14:33.10,0:14:34.57,*Default,NTP,0000,0000,0000,,非常感谢  陛下\N{\fn微软雅黑\fs14}Thank you, Your Grace.
+Dialogue: 0,0:14:35.09,0:14:36.46,*Default,NTP,0000,0000,0000,,您应该知道\N{\fn微软雅黑\fs14}You should know,
+Dialogue: 0,0:14:36.66,0:14:39.77,*Default,NTP,0000,0000,0000,,这个治疗过程可能会改变他...\N{\fn微软雅黑\fs14}the process may change him...
+Dialogue: 0,0:14:40.78,0:14:42.07,*Default,NTP,0000,0000,0000,,某些方面\N{\fn微软雅黑\fs14}somewhat.
+Dialogue: 0,0:14:45.38,0:14:46.89,*Default,NTP,0000,0000,0000,,会让他变弱吗\N{\fn微软雅黑\fs14}Will it weaken him?
+Dialogue: 0,0:14:48.09,0:14:49.32,*Default,NTP,0000,0000,0000,,不会的\N{\fn微软雅黑\fs14}Oh, no.
+Dialogue: 0,0:14:49.92,0:14:51.59,*Default,NTP,0000,0000,0000,,那就好\N{\fn微软雅黑\fs14}Very well, then.
+Dialogue: 0,0:15:10.71,0:15:12.28,*Default,NTP,0000,0000,0000,,不要再说了\N{\fn微软雅黑\fs14}Not another word.
+Dialogue: 0,0:15:12.47,0:15:14.93,*Default,NTP,0000,0000,0000,,我们已经讨论过了  不再重提\N{\fn微软雅黑\fs14}We've been over this. The matter's closed.
+Dialogue: 0,0:15:14.93,0:15:16.57,*Default,NTP,0000,0000,0000,,我就要重提\N{\fn微软雅黑\fs14}I'm opening it again.
+Dialogue: 0,0:15:18.16,0:15:21.01,*Default,NTP,0000,0000,0000,,你和洛拉斯·提利尔订了婚\N{\fn微软雅黑\fs14}You were betrothed to Loras Tyrell.
+Dialogue: 0,0:15:21.48,0:15:23.41,*Default,NTP,0000,0000,0000,,你现在仍和洛拉斯·提利尔有婚约\N{\fn微软雅黑\fs14}You're still betrothed to Loras Tyrell.
+Dialogue: 0,0:15:23.41,0:15:25.69,*Default,NTP,0000,0000,0000,,等托曼和玛格丽一完婚\N{\fn微软雅黑\fs14}And you will marry Loras Tyrell
+Dialogue: 0,0:15:25.69,0:15:28.03,*Default,NTP,0000,0000,0000,,你就嫁给洛拉斯·提利尔\N{\fn微软雅黑\fs14}as soon as Tommen marries Margaery.
+Dialogue: 0,0:15:28.03,0:15:29.36,*Default,NTP,0000,0000,0000,,我不嫁\N{\fn微软雅黑\fs14}I will not.
+Dialogue: 0,0:15:29.61,0:15:32.36,*Default,NTP,0000,0000,0000,,詹姆不能娶妻或继承封地\N{\fn微软雅黑\fs14}Jaime cannot marry or inherit lands.
+Dialogue: 0,0:15:32.36,0:15:35.42,*Default,NTP,0000,0000,0000,,提利昂明天就要行刑\N{\fn微软雅黑\fs14}Tyrion's sentence will be carried out tomorrow.
+Dialogue: 0,0:15:37.75,0:15:40.96,*Default,NTP,0000,0000,0000,,你好几次信誓旦旦地声称\N{\fn微软雅黑\fs14}You have on several occasions made great claims
+Dialogue: 0,0:15:40.97,0:15:43.62,*Default,NTP,0000,0000,0000,,要为家族的未来做出贡献\N{\fn微软雅黑\fs14}about your commitment to this family's future.
+Dialogue: 0,0:15:43.63,0:15:45.13,*Default,NTP,0000,0000,0000,,你在家族未来中的角色\N{\fn微软雅黑\fs14}Your role in that future
+Dialogue: 0,0:15:45.13,0:15:47.70,*Default,NTP,0000,0000,0000,,从未像现在这样重要过\N{\fn微软雅黑\fs14}is more vital now than it ever was.
+Dialogue: 0,0:15:47.70,0:15:48.89,*Default,NTP,0000,0000,0000,,我不在乎\N{\fn微软雅黑\fs14}I don't care.
+Dialogue: 0,0:15:49.26,0:15:50.49,*Default,NTP,0000,0000,0000,,我要留在君临\N{\fn微软雅黑\fs14}I will stay in King's Landing
+Dialogue: 0,0:15:50.49,0:15:52.90,*Default,NTP,0000,0000,0000,,留在我的儿子  我的国王身边\N{\fn微软雅黑\fs14}where I belong with my son the king.
+Dialogue: 0,0:15:52.90,0:15:56.21,*Default,NTP,0000,0000,0000,,你九岁那年  我奉诏要来君临\N{\fn微软雅黑\fs14}When you were nine years old, I was called to the capital.
+Dialogue: 0,0:15:56.21,0:15:59.28,*Default,NTP,0000,0000,0000,,我本打算要带你弟弟留下你\N{\fn微软雅黑\fs14}I decided to take your brother with me and not you.
+Dialogue: 0,0:15:59.28,0:16:02.41,*Default,NTP,0000,0000,0000,,你偏说什么无论如何\N{\fn微软雅黑\fs14}You insisted that you would not be left at Casterly Rock
+Dialogue: 0,0:16:02.41,0:16:05.08,*Default,NTP,0000,0000,0000,,你也不留在凯岩城  如果你还记得...\N{\fn微软雅黑\fs14}under any circumstances. And if you recall--
+Dialogue: 0,0:16:05.08,0:16:07.35,*Default,NTP,0000,0000,0000,,我没兴趣听您拿那些陈年旧事\N{\fn微软雅黑\fs14}I'm not interested in hearing another one of your smug stories
+Dialogue: 0,0:16:07.35,0:16:09.35,*Default,NTP,0000,0000,0000,,耀武扬威\N{\fn微软雅黑\fs14}about the time you won.
+Dialogue: 0,0:16:09.37,0:16:11.79,*Default,NTP,0000,0000,0000,,今非昔比  这次不一样\N{\fn微软雅黑\fs14}This isn't going to be one of those times.
+Dialogue: 0,0:16:11.89,0:16:13.64,*Default,NTP,0000,0000,0000,,你以为你会是第一个\N{\fn微软雅黑\fs14}Do you think you'll be the first person
+Dialogue: 0,0:16:13.64,0:16:16.52,*Default,NTP,0000,0000,0000,,被拖进圣堂成亲的女人吗\N{\fn微软雅黑\fs14}dragged into a sept to be married against her will?
+Dialogue: 0,0:16:16.52,0:16:18.63,*Default,NTP,0000,0000,0000,,您记不记得  当年您走进王座厅\N{\fn微软雅黑\fs14}When you marched into the throne room to tell me
+Dialogue: 0,0:16:18.63,0:16:21.46,*Default,NTP,0000,0000,0000,,告诉我黑水湾大战胜利之时\N{\fn微软雅黑\fs14}we'd won the Battle of Blackwater-- do you remember?
+Dialogue: 0,0:16:23.47,0:16:25.80,*Default,NTP,0000,0000,0000,,我和托曼坐在铁王座上\N{\fn微软雅黑\fs14}I was sitting on the Iron Throne with Tommen.
+Dialogue: 0,0:16:26.37,0:16:28.15,*Default,NTP,0000,0000,0000,,我正要喂他夜影之水\N{\fn微软雅黑\fs14}I was about to give him essence of nightshade.
+Dialogue: 0,0:16:28.15,0:16:30.10,*Default,NTP,0000,0000,0000,,为了不让坏人抢走我的孩子\N{\fn微软雅黑\fs14}That's how far I was willing to go when I thought
+Dialogue: 0,0:16:30.10,0:16:33.22,*Default,NTP,0000,0000,0000,,我可以不择手段\N{\fn微软雅黑\fs14}someone awful had come to take my son away.
+Dialogue: 0,0:16:35.08,0:16:37.50,*Default,NTP,0000,0000,0000,,而现在就有坏人来抢他了\N{\fn微软雅黑\fs14}Someone awful is coming to take him away.
+Dialogue: 0,0:16:37.53,0:16:39.89,*Default,NTP,0000,0000,0000,,-没有的事  -乔佛里已经死了\N{\fn微软雅黑\fs14}- No. - Joffrey is dead.
+Dialogue: 0,0:16:39.89,0:16:41.85,*Default,NTP,0000,0000,0000,,弥赛菈像牲口一样被卖走\N{\fn微软雅黑\fs14}Myrcella's been sold like livestock.
+Dialogue: 0,0:16:41.85,0:16:44.85,*Default,NTP,0000,0000,0000,,如今您又要把我送去高庭  偷走我儿子\N{\fn微软雅黑\fs14}And now you want to ship me off to Highgarden and steal my boy.
+Dialogue: 0,0:16:44.85,0:16:46.37,*Default,NTP,0000,0000,0000,,我仅剩的儿子\N{\fn微软雅黑\fs14}My last boy.
+Dialogue: 0,0:16:47.77,0:16:49.45,*Default,NTP,0000,0000,0000,,玛格丽张牙舞爪\N{\fn微软雅黑\fs14}Margaery will dig her claws in,
+Dialogue: 0,0:16:49.45,0:16:51.72,*Default,NTP,0000,0000,0000,,您也张牙舞爪  你俩为了争夺他\N{\fn微软雅黑\fs14}you will dig your claws in and you'll fight over him
+Dialogue: 0,0:16:51.72,0:16:54.21,*Default,NTP,0000,0000,0000,,势必要把他扯个身首分离\N{\fn微软雅黑\fs14}like beasts until you rip him apart.
+Dialogue: 0,0:16:54.21,0:16:58.02,*Default,NTP,0000,0000,0000,,哪怕毁掉整个家族我也要阻止这种事发生\N{\fn微软雅黑\fs14}I will burn our house to the ground before I let that happen.
+Dialogue: 0,0:16:58.08,0:17:00.03,*Default,NTP,0000,0000,0000,,你打算怎么毁\N{\fn微软雅黑\fs14}And how will you do that?
+Dialogue: 0,0:17:02.37,0:17:03.77,*Default,NTP,0000,0000,0000,,我要将真相公之于众\N{\fn微软雅黑\fs14}I'll tell everyone the truth.
+Dialogue: 0,0:17:03.87,0:17:05.91,*Default,NTP,0000,0000,0000,,敢问什么真相\N{\fn微软雅黑\fs14}What truth would that be?
+Dialogue: 0,0:17:10.95,0:17:12.30,*Default,NTP,0000,0000,0000,,您不知道是吗\N{\fn微软雅黑\fs14}You don't know, do you?
+Dialogue: 0,0:17:14.61,0:17:15.92,*Default,NTP,0000,0000,0000,,您从来都不信\N{\fn微软雅黑\fs14}You never believed it.
+Dialogue: 0,0:17:17.81,0:17:19.23,*Default,NTP,0000,0000,0000,,这怎么可能\N{\fn微软雅黑\fs14}How is that possible?
+Dialogue: 0,0:17:21.62,0:17:23.81,*Default,NTP,0000,0000,0000,,瞧我说的什么话  当然可能了\N{\fn微软雅黑\fs14}What am I saying? Of course it's possible.
+Dialogue: 0,0:17:24.27,0:17:27.80,*Default,NTP,0000,0000,0000,,一个满脑子只有家族宏图愿景的人\N{\fn微软雅黑\fs14}How can someone so consumed by the idea of his family
+Dialogue: 0,0:17:27.80,0:17:30.67,*Default,NTP,0000,0000,0000,,哪能知道现实之中的家人在做什么呢\N{\fn微软雅黑\fs14}have any conception what his actual family was doing?
+Dialogue: 0,0:17:32.29,0:17:34.79,*Default,NTP,0000,0000,0000,,我们就在您面前  您却视而不见\N{\fn微软雅黑\fs14}We were right there in front of you and you didn't see us.
+Dialogue: 0,0:17:35.23,0:17:37.33,*Default,NTP,0000,0000,0000,,过去这二十年间\N{\fn微软雅黑\fs14}One look in the past 20 years,
+Dialogue: 0,0:17:37.33,0:17:40.59,*Default,NTP,0000,0000,0000,,您若仔细瞧过自己的孩子们一眼  就会知道\N{\fn微软雅黑\fs14}one real look at your own children and you would have known.
+Dialogue: 0,0:17:41.28,0:17:42.48,*Default,NTP,0000,0000,0000,,知道什么\N{\fn微软雅黑\fs14}Known what?
+Dialogue: 0,0:17:43.83,0:17:45.33,*Default,NTP,0000,0000,0000,,传言都是真的\N{\fn微软雅黑\fs14}Everything they say is true.
+Dialogue: 0,0:17:45.33,0:17:46.84,*Default,NTP,0000,0000,0000,,-詹姆和我的传言  -不\N{\fn微软雅黑\fs14}- About Jaime and me. - No.
+Dialogue: 0,0:17:46.84,0:17:49.41,*Default,NTP,0000,0000,0000,,-您的千秋家业只是谎言  -不  不\N{\fn微软雅黑\fs14}- Your legacy is a lie. - No, no, no, no.
+Dialogue: 0,0:17:49.87,0:17:51.15,*Default,NTP,0000,0000,0000,,我不相信你\N{\fn微软雅黑\fs14}I don't believe you.
+Dialogue: 0,0:17:56.06,0:17:57.24,*Default,NTP,0000,0000,0000,,不  您信了\N{\fn微软雅黑\fs14}Yes, you do.
+Dialogue: 0,0:18:15.20,0:18:16.14,*Default,NTP,0000,0000,0000,,詹姆\N{\fn微软雅黑\fs14}Jaime.
+Dialogue: 0,0:18:18.57,0:18:19.55,*Default,NTP,0000,0000,0000,,你赢了\N{\fn微软雅黑\fs14}You won.
+Dialogue: 0,0:18:19.71,0:18:22.75,*Default,NTP,0000,0000,0000,,少了一个弟弟  很得意吧\N{\fn微软雅黑\fs14}One fewer brother. Must be proud of yourself.
+Dialogue: 0,0:18:23.19,0:18:25.06,*Default,NTP,0000,0000,0000,,是不是就没有你做不出的事\N{\fn微软雅黑\fs14}There's really nothing you wouldn't do, is there?
+Dialogue: 0,0:18:25.07,0:18:26.93,*Default,NTP,0000,0000,0000,,为了家人  是的\N{\fn微软雅黑\fs14}For my family, no, nothing.
+Dialogue: 0,0:18:26.93,0:18:29.01,*Default,NTP,0000,0000,0000,,为了家人  我可以做出你想都不敢想的事\N{\fn微软雅黑\fs14}I would do things for my family you couldn't imagine.
+Dialogue: 0,0:18:29.01,0:18:31.77,*Default,NTP,0000,0000,0000,,-提利昂就是家人  -他不是\N{\fn微软雅黑\fs14}- Tyrion is your family. - He's not.
+Dialogue: 0,0:18:31.77,0:18:34.77,*Default,NTP,0000,0000,0000,,-你没得选  -可以选  你也可以\N{\fn微软雅黑\fs14}- You don't get to choose. - I do. So do you.
+Dialogue: 0,0:18:35.03,0:18:36.03,*Default,NTP,0000,0000,0000,,你可以选那个\N{\fn微软雅黑\fs14}You can choose the creature
+Dialogue: 0,0:18:36.03,0:18:38.11,*Default,NTP,0000,0000,0000,,害死母亲来到世上的怪物\N{\fn微软雅黑\fs14}that killed our mother to come into this world--
+Dialogue: 0,0:18:38.11,0:18:40.49,*Default,NTP,0000,0000,0000,,你疯了  这种事也怪到他头上吗\N{\fn微软雅黑\fs14}Are you really mad enough to blame him for that?
+Dialogue: 0,0:18:40.49,0:18:43.10,*Default,NTP,0000,0000,0000,,他又没想害死母亲  他还是个婴儿\N{\fn微软雅黑\fs14}He didn't decide to kill her. He was an infant.
+Dialogue: 0,0:18:43.10,0:18:45.02,*Default,NTP,0000,0000,0000,,疾病也没想害死人\N{\fn微软雅黑\fs14}A disease doesn't decide to kill you.
+Dialogue: 0,0:18:45.02,0:18:47.34,*Default,NTP,0000,0000,0000,,可你还是治好了病  没等它害死你\N{\fn微软雅黑\fs14}All the same, you cut it out before it does.
+Dialogue: 0,0:18:48.14,0:18:51.05,*Default,NTP,0000,0000,0000,,你要怎样做  你怎么选\N{\fn微软雅黑\fs14}What do you decide? What do you choose?
+Dialogue: 0,0:18:51.05,0:18:52.54,*Default,NTP,0000,0000,0000,,我为了回来见你\N{\fn微软雅黑\fs14}The things I did to get back to you,
+Dialogue: 0,0:18:52.54,0:18:55.43,*Default,NTP,0000,0000,0000,,经受那么多磨难  结果却发现你...\N{\fn微软雅黑\fs14}to endure all that, only to find you--
+Dialogue: 0,0:18:58.44,0:18:59.80,*Default,NTP,0000,0000,0000,,我选择了你\N{\fn微软雅黑\fs14}I choose you.
+Dialogue: 0,0:19:00.02,0:19:02.11,*Default,NTP,0000,0000,0000,,-你只会说  -没错\N{\fn微软雅黑\fs14}- Those are words. - Yes.
+Dialogue: 0,0:19:02.38,0:19:04.31,*Default,NTP,0000,0000,0000,,我刚跟父亲也说了\N{\fn微软雅黑\fs14}Like the ones I just said to Father.
+Dialogue: 0,0:19:05.94,0:19:06.91,*Default,NTP,0000,0000,0000,,我告诉他了\N{\fn微软雅黑\fs14}I told him.
+Dialogue: 0,0:19:07.88,0:19:08.69,*Default,NTP,0000,0000,0000,,告诉他什么\N{\fn微软雅黑\fs14}Told him what?
+Dialogue: 0,0:19:08.69,0:19:10.44,*Default,NTP,0000,0000,0000,,我们的事\N{\fn微软雅黑\fs14}I told him about us.
+Dialogue: 0,0:19:12.58,0:19:13.47,*Default,NTP,0000,0000,0000,,你说了\N{\fn微软雅黑\fs14}You told him?
+Dialogue: 0,0:19:13.47,0:19:15.64,*Default,NTP,0000,0000,0000,,我告诉他我不会嫁给洛拉斯·提利尔\N{\fn微软雅黑\fs14}I told him I won't marry Loras Tyrell.
+Dialogue: 0,0:19:15.65,0:19:19.58,*Default,NTP,0000,0000,0000,,我要留下来陪着托曼和你\N{\fn微软雅黑\fs14}I told him I'm staying right here with Tommen, with you.
+Dialogue: 0,0:19:19.58,0:19:20.76,*Default,NTP,0000,0000,0000,,你觉得他会接受吗\N{\fn微软雅黑\fs14}You think he'll just accept that?
+Dialogue: 0,0:19:20.76,0:19:22.06,*Default,NTP,0000,0000,0000,,你去问他\N{\fn微软雅黑\fs14}Go and ask him.
+Dialogue: 0,0:19:25.90,0:19:26.84,*Default,NTP,0000,0000,0000,,你怎么说的\N{\fn微软雅黑\fs14}What did you say?
+Dialogue: 0,0:19:26.84,0:19:29.54,*Default,NTP,0000,0000,0000,,我现在不想谈泰温·兰尼斯特\N{\fn微软雅黑\fs14}I don't want to talk about Tywin Lannister.
+Dialogue: 0,0:19:29.76,0:19:31.81,*Default,NTP,0000,0000,0000,,我选的不是泰温·兰尼斯特\N{\fn微软雅黑\fs14}I don't choose Tywin Lannister.
+Dialogue: 0,0:19:31.81,0:19:33.41,*Default,NTP,0000,0000,0000,,我爱的不是泰温·兰尼斯特\N{\fn微软雅黑\fs14}I don't love Tywin Lannister.
+Dialogue: 0,0:19:33.41,0:19:35.66,*Default,NTP,0000,0000,0000,,我爱的是我的弟弟\N{\fn微软雅黑\fs14}I love my brother.
+Dialogue: 0,0:19:36.14,0:19:37.81,*Default,NTP,0000,0000,0000,,我爱的是我的爱人\N{\fn微软雅黑\fs14}I love my lover.
+Dialogue: 0,0:19:39.04,0:19:41.04,*Default,NTP,0000,0000,0000,,人们会传播流言  在背后取笑\N{\fn微软雅黑\fs14}People will whisper, they'll make their jokes.
+Dialogue: 0,0:19:41.04,0:19:41.96,*Default,NTP,0000,0000,0000,,随他们去吧\N{\fn微软雅黑\fs14}Let them.
+Dialogue: 0,0:19:42.68,0:19:44.99,*Default,NTP,0000,0000,0000,,他们太渺小  我根本看不见\N{\fn微软雅黑\fs14}They're all so small, I can't even see them.
+Dialogue: 0,0:19:45.76,0:19:47.48,*Default,NTP,0000,0000,0000,,我眼里只有我在意的\N{\fn微软雅黑\fs14}I only see what matters.
+Dialogue: 0,0:19:56.79,0:19:57.86,*Default,NTP,0000,0000,0000,,万一有人进来\N{\fn微软雅黑\fs14}Someone will walk in.
+Dialogue: 0,0:19:57.86,0:19:59.01,*Default,NTP,0000,0000,0000,,我不在乎\N{\fn微软雅黑\fs14}I don't care.
+Dialogue: 0,0:20:08.69,0:20:11.19,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}在你面前的正是风暴降生丹妮莉丝
+Dialogue: 0,0:20:11.62,0:20:12.46,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}不焚者
+Dialogue: 0,0:20:12.94,0:20:14.02,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}弥林女王
+Dialogue: 0,0:20:14.63,0:20:18.01,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,225.6)}安达尔  罗伊拿人和先民的女王
+Dialogue: 0,0:20:18.90,0:20:21.14,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}草海上的卡丽熙
+Dialogue: 0,0:20:21.86,0:20:24.61,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}解放者  龙之母
+Dialogue: 0,0:20:25.88,0:20:31.70,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}陛下亲自接见  我很是感激
+Dialogue: 0,0:20:31.85,0:20:34.64,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}我叫费南斯
+Dialogue: 0,0:20:36.31,0:20:39.38,*Default,NTP,0000,0000,0000,,陛下若是喜欢  我可以说通用语\N{\fn微软雅黑\fs14}I can speak the common tongue if you wish.
+Dialogue: 0,0:20:39.38,0:20:40.99,*Default,NTP,0000,0000,0000,,你说得很好\N{\fn微软雅黑\fs14}You speak it very well.
+Dialogue: 0,0:20:41.17,0:20:44.96,*Default,NTP,0000,0000,0000,,陛下还我自由前  我归米戈达尔伟主所有\N{\fn微软雅黑\fs14}Before you freed me, I belonged to Master Mighdal.
+Dialogue: 0,0:20:45.20,0:20:46.65,*Default,NTP,0000,0000,0000,,我是他家孩子的先生\N{\fn微软雅黑\fs14}I was tutor to his children.
+Dialogue: 0,0:20:46.66,0:20:49.57,*Default,NTP,0000,0000,0000,,教授语言和历史\N{\fn微软雅黑\fs14}I taught them languages and history.
+Dialogue: 0,0:20:49.97,0:20:53.41,*Default,NTP,0000,0000,0000,,他们从我这里知道许多关于陛下家族的故事\N{\fn微软雅黑\fs14}They know a great deal about your family because of me.
+Dialogue: 0,0:20:54.02,0:20:56.02,*Default,NTP,0000,0000,0000,,小卡拉才七岁\N{\fn微软雅黑\fs14}Little Calla is only seven,
+Dialogue: 0,0:20:56.12,0:20:58.59,*Default,NTP,0000,0000,0000,,但她非常敬慕您\N{\fn微软雅黑\fs14}but she admires you very much.
+Dialogue: 0,0:20:58.59,0:21:01.77,*Default,NTP,0000,0000,0000,,我希望可以当得起她的敬慕\N{\fn微软雅黑\fs14}I hope I can prove worthy of her admiration.
+Dialogue: 0,0:21:02.28,0:21:03.60,*Default,NTP,0000,0000,0000,,有什么可以为你做的\N{\fn微软雅黑\fs14}What can I do for you?
+Dialogue: 0,0:21:05.25,0:21:07.91,*Default,NTP,0000,0000,0000,,当您攻下本城之时  孩子们请求我\N{\fn微软雅黑\fs14}When you took the city, the children begged me
+Dialogue: 0,0:21:07.91,0:21:09.83,*Default,NTP,0000,0000,0000,,别离开他们家\N{\fn微软雅黑\fs14}not to leave the house.
+Dialogue: 0,0:21:10.55,0:21:14.19,*Default,NTP,0000,0000,0000,,但米戈达尔伟主和我都认为我必须走\N{\fn微软雅黑\fs14}But Master Mighdal and I agreed that I must.
+Dialogue: 0,0:21:14.60,0:21:16.63,*Default,NTP,0000,0000,0000,,所以我无家可归\N{\fn微软雅黑\fs14}So I lost my home.
+Dialogue: 0,0:21:18.49,0:21:20.95,*Default,NTP,0000,0000,0000,,现在流落街头\N{\fn微软雅黑\fs14}Now I live on the streets.
+Dialogue: 0,0:21:20.95,0:21:22.63,*Default,NTP,0000,0000,0000,,我有设施齐全的饭堂\N{\fn微软雅黑\fs14}I have outfitted mess halls
+Dialogue: 0,0:21:22.64,0:21:24.07,*Default,NTP,0000,0000,0000,,可供所有曾经的奴隶果腹\N{\fn微软雅黑\fs14}to feed all former slaves
+Dialogue: 0,0:21:24.07,0:21:24.98,*Default,NTP,0000,0000,0000,,还有棚屋给他们居住\N{\fn微软雅黑\fs14}and barracks to shelter them.
+Dialogue: 0,0:21:24.98,0:21:27.87,*Default,NTP,0000,0000,0000,,我无意冒犯  陛下\N{\fn微软雅黑\fs14}I do not mean to offend, Your Grace.
+Dialogue: 0,0:21:27.87,0:21:30.41,*Default,NTP,0000,0000,0000,,我去过其中一处\N{\fn微软雅黑\fs14}I went to one of these places.
+Dialogue: 0,0:21:30.42,0:21:33.29,*Default,NTP,0000,0000,0000,,见到青壮年抢老人的东西\N{\fn微软雅黑\fs14}The young prey on the old.
+Dialogue: 0,0:21:33.42,0:21:34.31,*Default,NTP,0000,0000,0000,,他们想要什么就抢\N{\fn微软雅黑\fs14}Take what they want
+Dialogue: 0,0:21:34.31,0:21:36.08,*Default,NTP,0000,0000,0000,,稍遇反抗  就是拳打脚踢\N{\fn微软雅黑\fs14}and beat us if we resist.
+Dialogue: 0,0:21:36.08,0:21:38.94,*Default,NTP,0000,0000,0000,,我马上派无垢者去保障饭堂治安\N{\fn微软雅黑\fs14}My Unsullied will make them safe again in short order,
+Dialogue: 0,0:21:38.94,0:21:40.75,*Default,NTP,0000,0000,0000,,我的朋友  我向你保证\N{\fn微软雅黑\fs14}my friend, this I promise you.
+Dialogue: 0,0:21:40.75,0:21:44.66,*Default,NTP,0000,0000,0000,,就算饭堂安全了  那我又算什么呢\N{\fn微软雅黑\fs14}Even if they are safe, who would I be there?
+Dialogue: 0,0:21:45.11,0:21:47.61,*Default,NTP,0000,0000,0000,,我活着又有什么意义呢\N{\fn微软雅黑\fs14}What purpose would I serve?
+Dialogue: 0,0:21:47.80,0:21:50.79,*Default,NTP,0000,0000,0000,,在伟主家  我是教师\N{\fn微软雅黑\fs14}With my master, I was a teacher.
+Dialogue: 0,0:21:50.79,0:21:54.24,*Default,NTP,0000,0000,0000,,受到他孩子的尊敬和爱戴\N{\fn微软雅黑\fs14}I had the respect and love of his children.
+Dialogue: 0,0:21:54.70,0:21:56.84,*Default,NTP,0000,0000,0000,,那你想要我怎么做\N{\fn微软雅黑\fs14}What is it that you want from me?
+Dialogue: 0,0:21:56.85,0:21:59.49,*Default,NTP,0000,0000,0000,,陛下  我请求您\N{\fn微软雅黑\fs14}Your Grace, I ask you
+Dialogue: 0,0:21:59.49,0:22:02.70,*Default,NTP,0000,0000,0000,,准我卖身给米戈达尔伟主\N{\fn微软雅黑\fs14}to let me sell myself back to Master Mighdal.
+Dialogue: 0,0:22:02.70,0:22:05.49,*Default,NTP,0000,0000,0000,,你希望回到剥夺你自由的人身边\N{\fn微软雅黑\fs14}You want to return to a man who owned you
+Dialogue: 0,0:22:05.49,0:22:07.51,*Default,NTP,0000,0000,0000,,为他做牛做马\N{\fn微软雅黑\fs14}like a goat or a chair?
+Dialogue: 0,0:22:07.51,0:22:09.15,*Default,NTP,0000,0000,0000,,求您了  陛下\N{\fn微软雅黑\fs14}Please, Your Grace.
+Dialogue: 0,0:22:09.40,0:22:12.75,*Default,NTP,0000,0000,0000,,那些年轻人或许为您建立的新世界欣喜若狂\N{\fn微软雅黑\fs14}The young may rejoice in the new world you have built for them,
+Dialogue: 0,0:22:12.76,0:22:15.79,*Default,NTP,0000,0000,0000,,但我们太老了  经不起折腾\N{\fn微软雅黑\fs14}but for those of us too old to change,
+Dialogue: 0,0:22:15.79,0:22:19.86,*Default,NTP,0000,0000,0000,,只感到恐惧和悲惨\N{\fn微软雅黑\fs14}there is only fear and squalor.
+Dialogue: 0,0:22:20.50,0:22:22.21,*Default,NTP,0000,0000,0000,,不止我一个人这么想\N{\fn微软雅黑\fs14}I am not alone.
+Dialogue: 0,0:22:22.93,0:22:26.01,*Default,NTP,0000,0000,0000,,还有很多人等在外面  向您提出同样的请求\N{\fn微软雅黑\fs14}There are many outside waiting to beg the same of you.
+Dialogue: 0,0:22:26.01,0:22:27.50,*Default,NTP,0000,0000,0000,,我夺下这座城\N{\fn微软雅黑\fs14}I did not take this city
+Dialogue: 0,0:22:27.50,0:22:30.84,*Default,NTP,0000,0000,0000,,是要改变不公的世道  而不是因循守旧\N{\fn微软雅黑\fs14}to preside over the injustice I fought to destroy.
+Dialogue: 0,0:22:30.84,0:22:33.27,*Default,NTP,0000,0000,0000,,我是为了给人们带来自由\N{\fn微软雅黑\fs14}I took it to bring people freedom.
+Dialogue: 0,0:22:34.91,0:22:38.14,*Default,NTP,0000,0000,0000,,但自由就意味着  你们可以自行选择\N{\fn微软雅黑\fs14}But freedom means making your own choices.
+Dialogue: 0,0:22:38.72,0:22:41.94,*Default,NTP,0000,0000,0000,,我准许你和你的前伟主签署合约\N{\fn微软雅黑\fs14}I will allow you to sign a contract with your former master.
+Dialogue: 0,0:22:41.94,0:22:45.46,*Default,NTP,0000,0000,0000,,时限不能超过一年\N{\fn微软雅黑\fs14}It may not cover a period lasting longer than a year.
+Dialogue: 0,0:22:45.46,0:22:47.23,*Default,NTP,0000,0000,0000,,谢谢您  陛下\N{\fn微软雅黑\fs14}Thank you, Your Grace.
+Dialogue: 0,0:22:49.38,0:22:50.28,*Default,NTP,0000,0000,0000,,谢谢\N{\fn微软雅黑\fs14}Thank you.
+Dialogue: 0,0:22:56.20,0:22:58.79,*Default,NTP,0000,0000,0000,,伟主们会趁机利用这种局面\N{\fn微软雅黑\fs14}The masters will take advantage of this situation.
+Dialogue: 0,0:23:00.52,0:23:02.28,*Default,NTP,0000,0000,0000,,服侍他们的人\N{\fn微软雅黑\fs14}The men serving them
+Dialogue: 0,0:23:02.60,0:23:04.85,*Default,NTP,0000,0000,0000,,本质上还是奴隶  只不过换了种说法\N{\fn微软雅黑\fs14}will be slaves in all but name.
+Dialogue: 0,0:23:12.05,0:23:13.75,*Default,NTP,0000,0000,0000,,上前来  我的朋友\N{\fn微软雅黑\fs14}Approach, my friend.
+Dialogue: 0,0:23:20.05,0:23:21.15,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}我听不懂  女王陛下
+Dialogue: 0,0:23:24.01,0:23:25.40,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}我听不懂  女王陛下
+Dialogue: 0,0:23:26.03,0:23:27.73,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}女王要你上前说话
+Dialogue: 0,0:23:38.24,0:23:39.91,*Default,NTP,0000,0000,0000,,我带来了...\N{\fn微软雅黑\fs14}I have brought you--
+Dialogue: 0,0:23:44.75,0:23:46.52,*Default,NTP,0000,0000,0000,,他从天而降\N{\fn微软雅黑\fs14}He came from the sky.
+Dialogue: 0,0:23:48.56,0:23:49.57,*Default,NTP,0000,0000,0000,,黑色的\N{\fn微软雅黑\fs14}The black one.
+Dialogue: 0,0:23:54.67,0:23:56.12,*Default,NTP,0000,0000,0000,,长翅膀的影子\N{\fn微软雅黑\fs14}The winged shadow.
+Dialogue: 0,0:23:57.65,0:23:59.47,*Default,NTP,0000,0000,0000,,他从天而降\N{\fn微软雅黑\fs14}He came from the sky and...
+Dialogue: 0,0:24:05.08,0:24:05.99,*Default,NTP,0000,0000,0000,,我的女儿\N{\fn微软雅黑\fs14}My girl.
+Dialogue: 0,0:24:07.99,0:24:09.33,*Default,NTP,0000,0000,0000,,我的小女儿\N{\fn微软雅黑\fs14}My little girl.
+Dialogue: 0,0:24:14.16,0:24:15.36,*Default,NTP,0000,0000,0000,,她叫什么\N{\fn微软雅黑\fs14}What was her name?
+Dialogue: 0,0:24:15.80,0:24:17.31,*Default,NTP,0000,0000,0000,,扎拉  陛下\N{\fn微软雅黑\fs14}Zala, Your Grace.
+Dialogue: 0,0:24:17.31,0:24:20.34,*Default,NTP,0000,0000,0000,,-她多大了  -三岁\N{\fn微软雅黑\fs14}- How old was she? - Three.
+Dialogue: 0,0:24:21.73,0:24:22.57,*Default,NTP,0000,0000,0000,,三岁\N{\fn微软雅黑\fs14}Three.
+Dialogue: 0,0:24:25.22,0:24:27.66,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}还是没有卓耿的消息吗
+Dialogue: 0,0:24:29.69,0:24:34.19,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,225.6)}有水手三天前看到他飞过黛壁  女王陛下
+Dialogue: 0,0:24:35.32,0:24:36.46,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}那之后就再无消息了
+Dialogue: 0,0:24:39.68,0:24:42.01,*Default,NTP,0000,0000,0000,,{\c&H86E8FC&\bord0\fs22\fsp1\b1\pos(193,240)}来陵寝找我
+Dialogue: 0,0:27:11.25,0:27:12.59,*Default,NTP,0000,0000,0000,,他们来自七国各地\N{\fn微软雅黑\fs14}They came to us
+Dialogue: 0,0:27:12.59,0:27:15.45,*Default,NTP,0000,0000,0000,,从白港到荒冢屯\N{\fn微软雅黑\fs14}from White Harbor and Barrowton,
+Dialogue: 0,0:27:15.65,0:27:19.02,*Default,NTP,0000,0000,0000,,从美人市集到君临\N{\fn微软雅黑\fs14}from Fairmarket and King's Landing,
+Dialogue: 0,0:27:19.78,0:27:21.71,*Default,NTP,0000,0000,0000,,从东南西北\N{\fn微软雅黑\fs14}from north and south,
+Dialogue: 0,0:27:21.71,0:27:23.72,*Default,NTP,0000,0000,0000,,来到此处\N{\fn微软雅黑\fs14}from east and west.
+Dialogue: 0,0:27:25.06,0:27:29.31,*Default,NTP,0000,0000,0000,,他们为了保护那些永远不会知道他们姓名的\N{\fn微软雅黑\fs14}They died protecting men, women, and children
+Dialogue: 0,0:27:29.31,0:27:31.65,*Default,NTP,0000,0000,0000,,男女老少而死\N{\fn微软雅黑\fs14}who will never know their names.
+Dialogue: 0,0:27:31.87,0:27:34.53,*Default,NTP,0000,0000,0000,,我们自当铭记他们\N{\fn微软雅黑\fs14}It is for us to remember them.
+Dialogue: 0,0:27:34.54,0:27:36.10,*Default,NTP,0000,0000,0000,,我们的兄弟\N{\fn微软雅黑\fs14}Our brothers,
+Dialogue: 0,0:27:36.38,0:27:39.40,*Default,NTP,0000,0000,0000,,我们再难见到如此之人\N{\fn微软雅黑\fs14}we shall never see their like again.
+Dialogue: 0,0:27:39.40,0:27:41.81,*Default,NTP,0000,0000,0000,,他们的守望至死方休  于斯结束\N{\fn微软雅黑\fs14}And now their watch is ended.
+Dialogue: 0,0:27:42.38,0:27:47.17,*Default,NTP,0000,0000,0000,,他们的守望至死方休  于斯结束\N{\fn微软雅黑\fs14}And now their watch is ended.
+Dialogue: 0,0:28:58.79,0:29:01.56,*Default,NTP,0000,0000,0000,,那个老瞎子给我包扎了伤口\N{\fn微软雅黑\fs14}Your old blind man patched me up.
+Dialogue: 0,0:29:02.03,0:29:02.76,*Default,NTP,0000,0000,0000,,为什么\N{\fn微软雅黑\fs14}Why?
+Dialogue: 0,0:29:02.76,0:29:06.02,*Default,NTP,0000,0000,0000,,他发过誓  要医治所有伤员  无论敌我\N{\fn微软雅黑\fs14}He's sworn to treat all wounded men, friend or foe.
+Dialogue: 0,0:29:06.03,0:29:08.54,*Default,NTP,0000,0000,0000,,你希望我活下来  好折磨我吗\N{\fn微软雅黑\fs14}You want me alive so you can torture me?
+Dialogue: 0,0:29:08.54,0:29:09.90,*Default,NTP,0000,0000,0000,,没人会折磨你\N{\fn微软雅黑\fs14}No one's gonna torture you.
+Dialogue: 0,0:29:09.90,0:29:13.58,*Default,NTP,0000,0000,0000,,那你们准备怎么处决我们  吊死  砍头\N{\fn微软雅黑\fs14}So how do we die? Hanging? Beheading?
+Dialogue: 0,0:29:14.24,0:29:15.77,*Default,NTP,0000,0000,0000,,还是把我们从长城顶上扔下去\N{\fn微软雅黑\fs14}Drop us from the top of the Wall?
+Dialogue: 0,0:29:15.77,0:29:17.72,*Default,NTP,0000,0000,0000,,我不知道会怎样处置犯人\N{\fn微软雅黑\fs14}I don't know what happens to the prisoners.
+Dialogue: 0,0:29:18.51,0:29:19.62,*Default,NTP,0000,0000,0000,,那做决定的是谁\N{\fn微软雅黑\fs14}Who decides?
+Dialogue: 0,0:29:20.33,0:29:22.10,*Default,NTP,0000,0000,0000,,我想应该是史坦尼斯\N{\fn微软雅黑\fs14}I suppose Stannis does.
+Dialogue: 0,0:29:23.23,0:29:24.82,*Default,NTP,0000,0000,0000,,他现在是你的国王了吗\N{\fn微软雅黑\fs14}He your king now?
+Dialogue: 0,0:29:25.49,0:29:26.71,*Default,NTP,0000,0000,0000,,我不效忠任何国王\N{\fn微软雅黑\fs14}I don't have a king.
+Dialogue: 0,0:29:28.40,0:29:31.41,*Default,NTP,0000,0000,0000,,你和我们待太久了  琼恩·雪诺\N{\fn微软雅黑\fs14}You spent too much time with us, Jon Snow.
+Dialogue: 0,0:29:32.84,0:29:35.34,*Default,NTP,0000,0000,0000,,你再也不会向任何人下跪了\N{\fn微软雅黑\fs14}You can never be a kneeler again.
+Dialogue: 0,0:29:35.66,0:29:37.80,*Default,NTP,0000,0000,0000,,我们会火化你们那帮人的尸体\N{\fn微软雅黑\fs14}We're gonna burn the bodies of your dead.
+Dialogue: 0,0:29:39.64,0:29:41.40,*Default,NTP,0000,0000,0000,,你有话想跟他们说吗\N{\fn微软雅黑\fs14}Do you want to say any words over them?
+Dialogue: 0,0:29:41.40,0:29:43.96,*Default,NTP,0000,0000,0000,,说话  说什么话\N{\fn微软雅黑\fs14}Words? What kind of words?
+Dialogue: 0,0:29:43.96,0:29:47.21,*Default,NTP,0000,0000,0000,,悼词  我不知道自由民是怎么做的\N{\fn微软雅黑\fs14}Funeral words. I don't know how the free folk do it.
+Dialogue: 0,0:29:47.21,0:29:48.09,*Default,NTP,0000,0000,0000,,什么怎么做的\N{\fn微软雅黑\fs14}Do what?
+Dialogue: 0,0:29:49.30,0:29:50.61,*Default,NTP,0000,0000,0000,,永别\N{\fn微软雅黑\fs14}Say farewell.
+Dialogue: 0,0:29:51.91,0:29:54.04,*Default,NTP,0000,0000,0000,,死人可听不到我们说话  小子\N{\fn微软雅黑\fs14}The dead can't hear us, boy.
+Dialogue: 0,0:29:59.80,0:30:00.64,*Default,NTP,0000,0000,0000,,雪诺\N{\fn微软雅黑\fs14}Snow.
+Dialogue: 0,0:30:05.52,0:30:06.64,*Default,NTP,0000,0000,0000,,你爱过她吗\N{\fn微软雅黑\fs14}Did you love her?
+Dialogue: 0,0:30:10.08,0:30:11.39,*Default,NTP,0000,0000,0000,,她很爱你\N{\fn微软雅黑\fs14}She loved you.
+Dialogue: 0,0:30:13.04,0:30:14.04,*Default,NTP,0000,0000,0000,,她告诉你的\N{\fn微软雅黑\fs14}She told you?
+Dialogue: 0,0:30:14.52,0:30:15.33,*Default,NTP,0000,0000,0000,,没有\N{\fn微软雅黑\fs14}No.
+Dialogue: 0,0:30:15.90,0:30:18.10,*Default,NTP,0000,0000,0000,,她成天都在说要怎么杀了你\N{\fn微软雅黑\fs14}All she ever talked about was killing you.
+Dialogue: 0,0:30:19.02,0:30:20.38,*Default,NTP,0000,0000,0000,,所以我知道\N{\fn微软雅黑\fs14}That's how I know.
+Dialogue: 0,0:30:23.62,0:30:25.60,*Default,NTP,0000,0000,0000,,她属于北方\N{\fn微软雅黑\fs14}She belongs in the North.
+Dialogue: 0,0:30:26.94,0:30:28.46,*Default,NTP,0000,0000,0000,,真正的北方\N{\fn微软雅黑\fs14}The real North.
+Dialogue: 0,0:30:30.48,0:30:31.76,*Default,NTP,0000,0000,0000,,懂我意思吗\N{\fn微软雅黑\fs14}You understand me?
+Dialogue: 0,0:32:18.04,0:32:19.64,*Default,NTP,0000,0000,0000,,我们可以停下来休息一会儿\N{\fn微软雅黑\fs14}We can stop. We can rest.
+Dialogue: 0,0:32:19.64,0:32:21.37,*Default,NTP,0000,0000,0000,,找到三眼乌鸦再休息\N{\fn微软雅黑\fs14}We'll rest with the three-eyed raven.
+Dialogue: 0,0:32:32.55,0:32:34.05,*Default,NTP,0000,0000,0000,,我们到不了的\N{\fn微软雅黑\fs14}We're not going to make it.
+Dialogue: 0,0:32:38.92,0:32:40.26,*Default,NTP,0000,0000,0000,,我们已经到了\N{\fn微软雅黑\fs14}We're already here.
+Dialogue: 0,0:32:40.26,0:32:41.09,*Default,NTP,0000,0000,0000,,玖健\N{\fn微软雅黑\fs14}Jojen.
+Dialogue: 0,0:32:43.59,0:32:44.46,*Default,NTP,0000,0000,0000,,玖健\N{\fn微软雅黑\fs14}Jojen.
+Dialogue: 0,0:32:45.54,0:32:46.83,*Default,NTP,0000,0000,0000,,看  玖健  你看\N{\fn微软雅黑\fs14}Look, Jojen. Look.
+Dialogue: 0,0:34:08.92,0:34:11.67,*Default,NTP,0000,0000,0000,,玖健  加把劲\N{\fn微软雅黑\fs14}Jojen! Come on!
+Dialogue: 0,0:34:11.67,0:34:13.84,*Default,NTP,0000,0000,0000,,去帮他们  快\N{\fn微软雅黑\fs14}Help them! Now!
+Dialogue: 0,0:34:14.34,0:34:15.41,*Default,NTP,0000,0000,0000,,抓住我\N{\fn微软雅黑\fs14}Hold on to me!
+Dialogue: 0,0:34:20.11,0:34:20.92,*Default,NTP,0000,0000,0000,,坚持住\N{\fn微软雅黑\fs14}Hang on!
+Dialogue: 0,0:34:23.34,0:34:24.75,*Default,NTP,0000,0000,0000,,-阿多  -去帮他们\N{\fn微软雅黑\fs14}- Hodor. - Help them!
+Dialogue: 0,0:34:24.75,0:34:25.68,*Default,NTP,0000,0000,0000,,阿多\N{\fn微软雅黑\fs14}Hodor.
+Dialogue: 0,0:34:26.41,0:34:27.11,*Default,NTP,0000,0000,0000,,阿多\N{\fn微软雅黑\fs14}Hodor!
+Dialogue: 0,0:34:48.23,0:34:48.85,*Default,NTP,0000,0000,0000,,阿多\N{\fn微软雅黑\fs14}Hodor!
+Dialogue: 0,0:35:09.51,0:35:10.32,*Default,NTP,0000,0000,0000,,阿多\N{\fn微软雅黑\fs14}Hodor.
+Dialogue: 0,0:35:13.35,0:35:14.07,*Default,NTP,0000,0000,0000,,阿多\N{\fn微软雅黑\fs14}Hodor!
+Dialogue: 0,0:35:46.01,0:35:46.86,*Default,NTP,0000,0000,0000,,布兰\N{\fn微软雅黑\fs14}Bran!
+Dialogue: 0,0:35:51.43,0:35:53.29,*Default,NTP,0000,0000,0000,,快去救你自己\N{\fn微软雅黑\fs14}Save yourself, now!
+Dialogue: 0,0:36:18.36,0:36:20.26,*Default,NTP,0000,0000,0000,,跟我来  布兰登·史塔克\N{\fn微软雅黑\fs14}Come with me, Brandon Stark.
+Dialogue: 0,0:36:27.90,0:36:28.98,*Default,NTP,0000,0000,0000,,他没救了\N{\fn微软雅黑\fs14}He is lost.
+Dialogue: 0,0:36:29.77,0:36:32.06,*Default,NTP,0000,0000,0000,,跟我来  或陪他死\N{\fn微软雅黑\fs14}Come with me or die with him.
+Dialogue: 0,0:36:33.16,0:36:34.32,*Default,NTP,0000,0000,0000,,跟他们走\N{\fn微软雅黑\fs14}Go with them.
+Dialogue: 0,0:37:37.83,0:37:39.34,*Default,NTP,0000,0000,0000,,它们没法跟进来\N{\fn微软雅黑\fs14}They cannot follow us.
+Dialogue: 0,0:37:39.60,0:37:42.02,*Default,NTP,0000,0000,0000,,驱动它们的力量在这里无效\N{\fn微软雅黑\fs14}The power that moves them is powerless here.
+Dialogue: 0,0:37:43.69,0:37:44.63,*Default,NTP,0000,0000,0000,,你是谁\N{\fn微软雅黑\fs14}Who are you?
+Dialogue: 0,0:37:44.63,0:37:46.77,*Default,NTP,0000,0000,0000,,先民称我们为孩子\N{\fn微软雅黑\fs14}The First Men called us the children,
+Dialogue: 0,0:37:46.88,0:37:49.02,*Default,NTP,0000,0000,0000,,但我们的诞生比他们早得多\N{\fn微软雅黑\fs14}but we were born long before them.
+Dialogue: 0,0:37:50.18,0:37:52.04,*Default,NTP,0000,0000,0000,,跟我来  他在等你\N{\fn微软雅黑\fs14}Come, he waits for you.
+Dialogue: 0,0:39:17.24,0:39:18.76,*Default,NTP,0000,0000,0000,,您就是三眼乌鸦吗\N{\fn微软雅黑\fs14}You're the three-eyed raven?
+Dialogue: 0,0:39:23.45,0:39:25.14,*Default,NTP,0000,0000,0000,,我有过诸多经历\N{\fn微软雅黑\fs14}I've been many things.
+Dialogue: 0,0:39:26.28,0:39:29.27,*Default,NTP,0000,0000,0000,,现在的我是这副模样\N{\fn微软雅黑\fs14}Now I am what you see.
+Dialogue: 0,0:39:31.25,0:39:34.52,*Default,NTP,0000,0000,0000,,我弟弟指引我们找到您  现在他...\N{\fn微软雅黑\fs14}My brother, he led us to you and now he--
+Dialogue: 0,0:39:34.52,0:39:35.97,*Default,NTP,0000,0000,0000,,他知道将发生什么\N{\fn微软雅黑\fs14}He knew what would happen.
+Dialogue: 0,0:39:37.36,0:39:39.46,*Default,NTP,0000,0000,0000,,从他出发的那一刻\N{\fn微软雅黑\fs14}From the moment he left,
+Dialogue: 0,0:39:39.52,0:39:42.78,*Default,NTP,0000,0000,0000,,他就知道了  可他还是去了\N{\fn微软雅黑\fs14}he knew and he went anyway.
+Dialogue: 0,0:39:42.85,0:39:44.06,*Default,NTP,0000,0000,0000,,您怎么知道\N{\fn微软雅黑\fs14}How do you know?
+Dialogue: 0,0:39:44.06,0:39:45.58,*Default,NTP,0000,0000,0000,,我一直在观察你们\N{\fn微软雅黑\fs14}I've been watching you.
+Dialogue: 0,0:39:46.68,0:39:47.73,*Default,NTP,0000,0000,0000,,你们所有人\N{\fn微软雅黑\fs14}All of you.
+Dialogue: 0,0:39:48.56,0:39:50.28,*Default,NTP,0000,0000,0000,,你们的人生\N{\fn微软雅黑\fs14}All of your lives.
+Dialogue: 0,0:39:50.81,0:39:53.60,*Default,NTP,0000,0000,0000,,用我一千零一只眼睛\N{\fn微软雅黑\fs14}With 1,000 eyes and one.
+Dialogue: 0,0:39:55.40,0:39:57.90,*Default,NTP,0000,0000,0000,,现在你终于来到我面前\N{\fn微软雅黑\fs14}Now you've come to me at last,
+Dialogue: 0,0:39:57.90,0:39:59.72,*Default,NTP,0000,0000,0000,,布兰登·史塔克\N{\fn微软雅黑\fs14}Brandon Stark.
+Dialogue: 0,0:40:01.01,0:40:03.03,*Default,NTP,0000,0000,0000,,尽管来得有些迟\N{\fn微软雅黑\fs14}Though the hour is late.
+Dialogue: 0,0:40:03.89,0:40:05.97,*Default,NTP,0000,0000,0000,,我不希望任何人因我而死\N{\fn微软雅黑\fs14}I didn't want anyone to die for me.
+Dialogue: 0,0:40:05.97,0:40:09.60,*Default,NTP,0000,0000,0000,,他为帮你找回你失去的东西而死\N{\fn微软雅黑\fs14}He died so you could find what you have lost.
+Dialogue: 0,0:40:11.32,0:40:13.04,*Default,NTP,0000,0000,0000,,您能治好我的腿吗\N{\fn微软雅黑\fs14}You're going to help me walk again?
+Dialogue: 0,0:40:14.55,0:40:16.32,*Default,NTP,0000,0000,0000,,你永远无法行走了\N{\fn微软雅黑\fs14}You will never walk again.
+Dialogue: 0,0:40:19.38,0:40:21.00,*Default,NTP,0000,0000,0000,,但你可以飞\N{\fn微软雅黑\fs14}But you will fly.
+Dialogue: 0,0:40:37.48,0:40:38.50,*Default,NTP,0000,0000,0000,,波德瑞克\N{\fn微软雅黑\fs14}Podrick.
+Dialogue: 0,0:40:39.89,0:40:40.92,*Default,NTP,0000,0000,0000,,波德瑞克\N{\fn微软雅黑\fs14}Podrick.
+Dialogue: 0,0:40:42.10,0:40:43.49,*Default,NTP,0000,0000,0000,,马哪儿去了\N{\fn微软雅黑\fs14}Where are the horses?
+Dialogue: 0,0:40:44.91,0:40:46.33,*Default,NTP,0000,0000,0000,,我昨晚明明把它们绊起来了\N{\fn微软雅黑\fs14}I hobbled them last night.
+Dialogue: 0,0:40:46.96,0:40:48.29,*Default,NTP,0000,0000,0000,,怎么绊的\N{\fn微软雅黑\fs14}What sort of hobble?
+Dialogue: 0,0:40:48.53,0:40:50.25,*Default,NTP,0000,0000,0000,,八字结  您教过我的那种\N{\fn微软雅黑\fs14}A figure eight like you taught me.
+Dialogue: 0,0:40:51.17,0:40:52.60,*Default,NTP,0000,0000,0000,,如果你是按我教的方法绊的\N{\fn微软雅黑\fs14}If you did it like I taught you,
+Dialogue: 0,0:40:52.60,0:40:53.95,*Default,NTP,0000,0000,0000,,马应该还在这\N{\fn微软雅黑\fs14}then the horses would be here.
+Dialogue: 0,0:40:53.95,0:40:55.01,*Default,NTP,0000,0000,0000,,也许被贼偷了\N{\fn微软雅黑\fs14}Thieves, maybe?
+Dialogue: 0,0:40:55.55,0:40:57.79,*Default,NTP,0000,0000,0000,,从这里到鹰巢城至少有三十哩\N{\fn微软雅黑\fs14}It's at least 30 miles to the Eyrie from here.
+Dialogue: 0,0:40:58.77,0:41:00.41,*Default,NTP,0000,0000,0000,,你负责背鞍囊\N{\fn微软雅黑\fs14}You're carrying the saddlebags.
+Dialogue: 0,0:41:28.88,0:41:29.99,*Default,NTP,0000,0000,0000,,有人来了\N{\fn微软雅黑\fs14}People coming.
+Dialogue: 0,0:41:32.21,0:41:34.35,*Default,NTP,0000,0000,0000,,你等会儿再拉屎吧  有人来了\N{\fn微软雅黑\fs14}You can shit later. There's people coming.
+Dialogue: 0,0:41:37.41,0:41:38.38,*Default,NTP,0000,0000,0000,,早上好\N{\fn微软雅黑\fs14}Morning.
+Dialogue: 0,0:41:40.60,0:41:41.53,*Default,NTP,0000,0000,0000,,早上好\N{\fn微软雅黑\fs14}Morning.
+Dialogue: 0,0:41:43.62,0:41:44.91,*Default,NTP,0000,0000,0000,,你的剑不错\N{\fn微软雅黑\fs14}I like your sword.
+Dialogue: 0,0:41:46.38,0:41:48.34,*Default,NTP,0000,0000,0000,,这儿离血门是不是很近了\N{\fn微软雅黑\fs14}Are we getting close to the Bloody Gate?
+Dialogue: 0,0:41:49.46,0:41:51.00,*Default,NTP,0000,0000,0000,,再走十哩\N{\fn微软雅黑\fs14}About 10 more miles.
+Dialogue: 0,0:41:51.16,0:41:52.38,*Default,NTP,0000,0000,0000,,你听到了吗  波德瑞克\N{\fn微软雅黑\fs14}Did you hear that, Podrick?
+Dialogue: 0,0:41:52.80,0:41:54.94,*Default,NTP,0000,0000,0000,,离血门只有十哩了\N{\fn微软雅黑\fs14}Only 10 more miles to the Bloody Gate.
+Dialogue: 0,0:41:57.34,0:41:58.54,*Default,NTP,0000,0000,0000,,你是骑士吗\N{\fn微软雅黑\fs14}Are you a knight?
+Dialogue: 0,0:41:59.13,0:41:59.99,*Default,NTP,0000,0000,0000,,不是\N{\fn微软雅黑\fs14}No.
+Dialogue: 0,0:42:00.78,0:42:02.36,*Default,NTP,0000,0000,0000,,但你知道如何使剑\N{\fn微软雅黑\fs14}But you know how to use that sword?
+Dialogue: 0,0:42:03.31,0:42:04.36,*Default,NTP,0000,0000,0000,,没错\N{\fn微软雅黑\fs14}I do.
+Dialogue: 0,0:42:06.12,0:42:07.35,*Default,NTP,0000,0000,0000,,它有名字吗\N{\fn微软雅黑\fs14}Does it have a name?
+Dialogue: 0,0:42:08.12,0:42:09.30,*Default,NTP,0000,0000,0000,,守誓剑\N{\fn微软雅黑\fs14}Oathkeeper.
+Dialogue: 0,0:42:09.46,0:42:10.71,*Default,NTP,0000,0000,0000,,我的叫缝衣针\N{\fn微软雅黑\fs14}Mine's Needle.
+Dialogue: 0,0:42:12.22,0:42:13.23,*Default,NTP,0000,0000,0000,,好名字\N{\fn微软雅黑\fs14}Good name.
+Dialogue: 0,0:42:15.73,0:42:17.18,*Default,NTP,0000,0000,0000,,谁教你武艺\N{\fn微软雅黑\fs14}Who taught you how to fight?
+Dialogue: 0,0:42:18.87,0:42:20.13,*Default,NTP,0000,0000,0000,,我父亲\N{\fn微软雅黑\fs14}My father.
+Dialogue: 0,0:42:22.04,0:42:23.50,*Default,NTP,0000,0000,0000,,我父亲不想教我\N{\fn微软雅黑\fs14}Mine never wanted to.
+Dialogue: 0,0:42:24.99,0:42:27.21,*Default,NTP,0000,0000,0000,,他说打斗是男孩子的事\N{\fn微软雅黑\fs14}Said fighting was for boys.
+Dialogue: 0,0:42:27.52,0:42:28.90,*Default,NTP,0000,0000,0000,,我父亲也是\N{\fn微软雅黑\fs14}Mine said the same.
+Dialogue: 0,0:42:30.09,0:42:32.01,*Default,NTP,0000,0000,0000,,但我还是跟男孩子们打\N{\fn微软雅黑\fs14}But I kept fighting the boys anyway.
+Dialogue: 0,0:42:32.58,0:42:33.78,*Default,NTP,0000,0000,0000,,屡战屡败\N{\fn微软雅黑\fs14}Kept losing.
+Dialogue: 0,0:42:33.92,0:42:36.44,*Default,NTP,0000,0000,0000,,最后我父亲说  "如果你要打\N{\fn微软雅黑\fs14}Finally my father said, "If you're going to do it,
+Dialogue: 0,0:42:36.44,0:42:38.06,*Default,NTP,0000,0000,0000,,不妨打得像样些"\N{\fn微软雅黑\fs14}you might as well do it right."
+Dialogue: 0,0:42:42.58,0:42:43.95,*Default,NTP,0000,0000,0000,,七神保佑\N{\fn微软雅黑\fs14}Seven blessings.
+Dialogue: 0,0:42:44.13,0:42:46.32,*Default,NTP,0000,0000,0000,,我是塔斯的布蕾妮  他是波德瑞克·派恩\N{\fn微软雅黑\fs14}I'm Brienne of Tarth. This is Podrick Payne.
+Dialogue: 0,0:42:49.44,0:42:50.68,*Default,NTP,0000,0000,0000,,你有事吗\N{\fn微软雅黑\fs14}You want something?
+Dialogue: 0,0:42:51.34,0:42:53.94,*Default,NTP,0000,0000,0000,,那是桑铎·克里冈  猎狗\N{\fn微软雅黑\fs14}That's Sandor Clegane. The Hound.
+Dialogue: 0,0:43:05.45,0:43:06.97,*Default,NTP,0000,0000,0000,,你是艾莉亚·史塔克\N{\fn微软雅黑\fs14}You're Arya Stark.
+Dialogue: 0,0:43:07.74,0:43:09.73,*Default,NTP,0000,0000,0000,,我问你有何贵干\N{\fn微软雅黑\fs14}I asked if you wanted something.
+Dialogue: 0,0:43:10.27,0:43:12.90,*Default,NTP,0000,0000,0000,,我向你母亲发过誓要带你回家\N{\fn微软雅黑\fs14}I swore to your mother I would bring you home to her.
+Dialogue: 0,0:43:14.38,0:43:15.27,*Default,NTP,0000,0000,0000,,我母亲死了\N{\fn微软雅黑\fs14}My mother's dead.
+Dialogue: 0,0:43:15.37,0:43:16.40,*Default,NTP,0000,0000,0000,,我知道\N{\fn微软雅黑\fs14}I know.
+Dialogue: 0,0:43:18.05,0:43:20.09,*Default,NTP,0000,0000,0000,,只愿我当时能在场保护她\N{\fn微软雅黑\fs14}I wish I could have been there to protect her.
+Dialogue: 0,0:43:21.62,0:43:23.03,*Default,NTP,0000,0000,0000,,你不是北方人\N{\fn微软雅黑\fs14}You're not a northerner.
+Dialogue: 0,0:43:23.13,0:43:26.06,*Default,NTP,0000,0000,0000,,不是  但我立下了神圣的誓言要保护她\N{\fn微软雅黑\fs14}No, but I swore a sacred vow to protect her.
+Dialogue: 0,0:43:27.54,0:43:28.75,*Default,NTP,0000,0000,0000,,那你为什么没做到\N{\fn微软雅黑\fs14}Why didn't you?
+Dialogue: 0,0:43:32.78,0:43:35.63,*Default,NTP,0000,0000,0000,,她命我押送詹姆·兰尼斯特回君临\N{\fn微软雅黑\fs14}She commanded me to bring Jaime Lannister back to King's Landing.
+Dialogue: 0,0:43:35.63,0:43:37.49,*Default,NTP,0000,0000,0000,,你被兰尼斯特收买了\N{\fn微软雅黑\fs14}You're paid by the Lannisters.
+Dialogue: 0,0:43:38.47,0:43:40.27,*Default,NTP,0000,0000,0000,,你是来取我的人头回去领赏的吧\N{\fn微软雅黑\fs14}You're here for the bounty on me.
+Dialogue: 0,0:43:41.30,0:43:43.07,*Default,NTP,0000,0000,0000,,我没有被兰尼斯特收买\N{\fn微软雅黑\fs14}I'm not paid by the Lannisters.
+Dialogue: 0,0:43:43.07,0:43:44.02,*Default,NTP,0000,0000,0000,,是吗\N{\fn微软雅黑\fs14}No?
+Dialogue: 0,0:43:46.41,0:43:47.97,*Default,NTP,0000,0000,0000,,你手里那把剑不错啊\N{\fn微软雅黑\fs14}Fancy sword you've got there.
+Dialogue: 0,0:43:48.79,0:43:50.05,*Default,NTP,0000,0000,0000,,哪儿来的\N{\fn微软雅黑\fs14}Where'd you get it?
+Dialogue: 0,0:43:52.54,0:43:55.23,*Default,NTP,0000,0000,0000,,我看了一辈子的兰尼斯特金子\N{\fn微软雅黑\fs14}I've been looking at Lannister gold all my life.
+Dialogue: 0,0:43:56.91,0:43:59.38,*Default,NTP,0000,0000,0000,,说啊  狗日塔斯的布蕾妮\N{\fn微软雅黑\fs14}Go on, Brienne of fucking Tarth.
+Dialogue: 0,0:43:59.74,0:44:01.83,*Default,NTP,0000,0000,0000,,告诉我它不是兰尼斯特家的金子\N{\fn微软雅黑\fs14}Tell me that's not Lannister gold.
+Dialogue: 0,0:44:03.05,0:44:05.51,*Default,NTP,0000,0000,0000,,詹姆·兰尼斯特将这把剑给了我\N{\fn微软雅黑\fs14}Jaime Lannister gave me this sword.
+Dialogue: 0,0:44:06.43,0:44:08.04,*Default,NTP,0000,0000,0000,,十哩之外就是血门\N{\fn微软雅黑\fs14}The Bloody Gate is 10 miles.
+Dialogue: 0,0:44:08.04,0:44:09.68,*Default,NTP,0000,0000,0000,,我在旧神面前向你母亲发誓\N{\fn微软雅黑\fs14}I swore to your mother by the old gods--
+Dialogue: 0,0:44:09.68,0:44:11.06,*Default,NTP,0000,0000,0000,,我不关心你发什么誓\N{\fn微软雅黑\fs14}I don't care what you swore.
+Dialogue: 0,0:44:11.06,0:44:13.06,*Default,NTP,0000,0000,0000,,-艾莉亚  -你听见她说的了\N{\fn微软雅黑\fs14}- Arya! - You heard the girl.
+Dialogue: 0,0:44:13.11,0:44:15.59,*Default,NTP,0000,0000,0000,,-她不会跟你走的  -她要跟我走\N{\fn微软雅黑\fs14}- She's not coming with you. - She is.
+Dialogue: 0,0:44:17.94,0:44:19.60,*Default,NTP,0000,0000,0000,,你不太听得懂人话啊\N{\fn微软雅黑\fs14}You're not a good listener.
+Dialogue: 0,0:44:20.19,0:44:21.74,*Default,NTP,0000,0000,0000,,瓦雷利亚钢\N{\fn微软雅黑\fs14}That Valyrian steel?
+Dialogue: 0,0:44:22.11,0:44:24.10,*Default,NTP,0000,0000,0000,,我一直都想要把瓦雷利亚钢剑\N{\fn微软雅黑\fs14}I always wanted some Valyrian steel.
+Dialogue: 0,0:44:24.10,0:44:26.87,*Default,NTP,0000,0000,0000,,跟我走吧  艾莉亚  我带你去安全的地方\N{\fn微软雅黑\fs14}Come with me, Arya. I'll take you to safety.
+Dialogue: 0,0:44:26.87,0:44:29.35,*Default,NTP,0000,0000,0000,,安全  哪里还他妈的安全\N{\fn微软雅黑\fs14}Safety? Where the fuck's that?
+Dialogue: 0,0:44:29.43,0:44:31.83,*Default,NTP,0000,0000,0000,,她鹰巢城的姨妈死了  她妈死了\N{\fn微软雅黑\fs14}Her aunt in the Eyrie is dead. Her mother's dead.
+Dialogue: 0,0:44:31.83,0:44:33.95,*Default,NTP,0000,0000,0000,,她爸死了  她哥死了\N{\fn微软雅黑\fs14}Her father's dead. Her brother's dead.
+Dialogue: 0,0:44:33.96,0:44:35.95,*Default,NTP,0000,0000,0000,,临冬城就是一片废墟\N{\fn微软雅黑\fs14}Winterfell is a pile of rubble.
+Dialogue: 0,0:44:36.12,0:44:38.45,*Default,NTP,0000,0000,0000,,没有哪儿安全了  你这蠢娘们儿\N{\fn微软雅黑\fs14}There is no safety, you dumb bitch.
+Dialogue: 0,0:44:39.82,0:44:41.33,*Default,NTP,0000,0000,0000,,你到现在还没搞明白\N{\fn微软雅黑\fs14}You don't know that by now,
+Dialogue: 0,0:44:41.88,0:44:44.03,*Default,NTP,0000,0000,0000,,你不是照看她的合适人选\N{\fn微软雅黑\fs14}you're the wrong one to watch over her.
+Dialogue: 0,0:44:44.38,0:44:45.88,*Default,NTP,0000,0000,0000,,那你现在所做的\N{\fn微软雅黑\fs14}And that's what you're doing?
+Dialogue: 0,0:44:46.46,0:44:47.94,*Default,NTP,0000,0000,0000,,是在照看她吗\N{\fn微软雅黑\fs14}Watching over her?
+Dialogue: 0,0:44:49.00,0:44:50.84,*Default,NTP,0000,0000,0000,,对  这正是我所做的\N{\fn微软雅黑\fs14}Aye, that's what I'm doing.
+Dialogue: 0,0:45:59.31,0:46:01.30,*Default,NTP,0000,0000,0000,,我没打算杀你  爵士先生\N{\fn微软雅黑\fs14}I have no wish to kill you, Ser.
+Dialogue: 0,0:46:14.61,0:46:16.10,*Default,NTP,0000,0000,0000,,我不是什么骑士\N{\fn微软雅黑\fs14}I'm not a knight.
+Dialogue: 0,0:47:33.92,0:47:35.00,*Default,NTP,0000,0000,0000,,艾莉亚\N{\fn微软雅黑\fs14}Arya!
+Dialogue: 0,0:47:35.83,0:47:37.12,*Default,NTP,0000,0000,0000,,艾莉亚\N{\fn微软雅黑\fs14}Arya!
+Dialogue: 0,0:47:38.85,0:47:40.54,*Default,NTP,0000,0000,0000,,艾莉亚\N{\fn微软雅黑\fs14}Arya!
+Dialogue: 0,0:47:42.36,0:47:44.47,*Default,NTP,0000,0000,0000,,-她人呢  -刚还在这儿\N{\fn微软雅黑\fs14}- Where is she? - She was just here.
+Dialogue: 0,0:47:44.55,0:47:45.79,*Default,NTP,0000,0000,0000,,你怎么不看着她\N{\fn微软雅黑\fs14}Why weren't you watching her?
+Dialogue: 0,0:47:45.79,0:47:47.75,*Default,NTP,0000,0000,0000,,我看着你呢  我怕你需要帮忙\N{\fn微软雅黑\fs14}I was watching you. I thought you might need some help.
+Dialogue: 0,0:47:47.75,0:47:49.78,*Default,NTP,0000,0000,0000,,哪条路  她往哪条路走了  波德\N{\fn微软雅黑\fs14}Which way, Pod? Which way did she go?
+Dialogue: 0,0:47:49.79,0:47:51.23,*Default,NTP,0000,0000,0000,,我想是那边\N{\fn微软雅黑\fs14}I think that way.
+Dialogue: 0,0:47:51.90,0:47:53.13,*Default,NTP,0000,0000,0000,,艾莉亚\N{\fn微软雅黑\fs14}Arya!
+Dialogue: 0,0:47:53.99,0:47:55.27,*Default,NTP,0000,0000,0000,,艾莉亚\N{\fn微软雅黑\fs14}Arya!
+Dialogue: 0,0:48:24.65,0:48:26.10,*Default,NTP,0000,0000,0000,,你还没走\N{\fn微软雅黑\fs14}You still here?
+Dialogue: 0,0:48:36.74,0:48:38.35,*Default,NTP,0000,0000,0000,,大块头娘们儿救了你\N{\fn微软雅黑\fs14}Big bitch saved you.
+Dialogue: 0,0:48:39.65,0:48:40.91,*Default,NTP,0000,0000,0000,,我不需要人救\N{\fn微软雅黑\fs14}I don't need saving.
+Dialogue: 0,0:48:40.91,0:48:43.41,*Default,NTP,0000,0000,0000,,是的  你不需要  你是个真正的杀手\N{\fn微软雅黑\fs14}No, not you. You're a real killer.
+Dialogue: 0,0:48:43.69,0:48:45.40,*Default,NTP,0000,0000,0000,,你有那什么水之舞\N{\fn微软雅黑\fs14}With your water dancing
+Dialogue: 0,0:48:46.23,0:48:47.58,*Default,NTP,0000,0000,0000,,还有缝衣针\N{\fn微软雅黑\fs14}and your Needle.
+Dialogue: 0,0:48:49.35,0:48:50.51,*Default,NTP,0000,0000,0000,,你会死吗\N{\fn微软雅黑\fs14}You gonna die?
+Dialogue: 0,0:48:51.02,0:48:53.68,*Default,NTP,0000,0000,0000,,除非从岩石后面跳出来个学士\N{\fn微软雅黑\fs14}Unless there's a maester hiding behind that rock,
+Dialogue: 0,0:48:54.75,0:48:55.69,*Default,NTP,0000,0000,0000,,的确\N{\fn微软雅黑\fs14}aye,
+Dialogue: 0,0:48:56.99,0:48:58.15,*Default,NTP,0000,0000,0000,,我要死了\N{\fn微软雅黑\fs14}I'm done.
+Dialogue: 0,0:49:02.49,0:49:04.45,*Default,NTP,0000,0000,0000,,我真他妈想来口酒\N{\fn微软雅黑\fs14}I'd skin you alive for wine.
+Dialogue: 0,0:49:06.23,0:49:07.64,*Default,NTP,0000,0000,0000,,不要水\N{\fn微软雅黑\fs14}Fuck water.
+Dialogue: 0,0:49:09.72,0:49:11.18,*Default,NTP,0000,0000,0000,,给一个娘们儿干掉了\N{\fn微软雅黑\fs14}Killed by a woman.
+Dialogue: 0,0:49:13.82,0:49:15.40,*Default,NTP,0000,0000,0000,,你指定很喜欢这结局\N{\fn微软雅黑\fs14}I bet you like that.
+Dialogue: 0,0:49:17.78,0:49:18.72,*Default,NTP,0000,0000,0000,,去吧\N{\fn微软雅黑\fs14}Go on,
+Dialogue: 0,0:49:19.99,0:49:21.37,*Default,NTP,0000,0000,0000,,跟她走吧\N{\fn微软雅黑\fs14}go after her.
+Dialogue: 0,0:49:22.47,0:49:23.85,*Default,NTP,0000,0000,0000,,她会帮你的\N{\fn微软雅黑\fs14}She'll help you.
+Dialogue: 0,0:49:27.69,0:49:29.15,*Default,NTP,0000,0000,0000,,只身一人\N{\fn微软雅黑\fs14}Going it alone,
+Dialogue: 0,0:49:29.90,0:49:32.01,*Default,NTP,0000,0000,0000,,你撑不过一天\N{\fn微软雅黑\fs14}you won't last a day out there.
+Dialogue: 0,0:49:33.01,0:49:34.82,*Default,NTP,0000,0000,0000,,我会撑得比你久\N{\fn微软雅黑\fs14}I'll last longer than you.
+Dialogue: 0,0:49:41.96,0:49:44.11,*Default,NTP,0000,0000,0000,,还记得心脏所在的位置吗\N{\fn微软雅黑\fs14}You remember where the heart is?
+Dialogue: 0,0:49:51.95,0:49:53.06,*Default,NTP,0000,0000,0000,,动手吧\N{\fn微软雅黑\fs14}Fuck it.
+Dialogue: 0,0:49:53.24,0:49:54.53,*Default,NTP,0000,0000,0000,,我准备好了\N{\fn微软雅黑\fs14}I'm ready.
+Dialogue: 0,0:49:57.60,0:49:58.84,*Default,NTP,0000,0000,0000,,来吧  小狼女\N{\fn微软雅黑\fs14}Go on, girl.
+Dialogue: 0,0:49:59.82,0:50:01.76,*Default,NTP,0000,0000,0000,,你的名单上又少了一个\N{\fn微软雅黑\fs14}Another name off your list.
+Dialogue: 0,0:50:02.96,0:50:04.66,*Default,NTP,0000,0000,0000,,你一直跟我念叨的\N{\fn微软雅黑\fs14}You kept promising me.
+Dialogue: 0,0:50:11.97,0:50:13.95,*Default,NTP,0000,0000,0000,,我杀了你的屠夫小弟\N{\fn微软雅黑\fs14}I cut down your butcher's boy.
+Dialogue: 0,0:50:14.39,0:50:15.79,*Default,NTP,0000,0000,0000,,那个红毛\N{\fn微软雅黑\fs14}The ginger.
+Dialogue: 0,0:50:17.61,0:50:19.34,*Default,NTP,0000,0000,0000,,他当时求我饶他一命\N{\fn微软雅黑\fs14}He was begging for mercy.
+Dialogue: 0,0:50:19.93,0:50:22.46,*Default,NTP,0000,0000,0000,,"求求你  爵士  不要杀我\N{\fn微软雅黑\fs14}"Please, Ser. Please don't kill me.
+Dialogue: 0,0:50:22.84,0:50:24.69,*Default,NTP,0000,0000,0000,,求求你"\N{\fn微软雅黑\fs14}Please, please."
+Dialogue: 0,0:50:26.82,0:50:28.64,*Default,NTP,0000,0000,0000,,血溅了我的马一身\N{\fn微软雅黑\fs14}Bled all over my horse.
+Dialogue: 0,0:50:29.46,0:50:31.99,*Default,NTP,0000,0000,0000,,弄得我的马鞍好久都是他的臭味儿\N{\fn微软雅黑\fs14}Saddle stunk of butcher's boy for weeks.
+Dialogue: 0,0:50:35.07,0:50:36.51,*Default,NTP,0000,0000,0000,,还有你姐姐\N{\fn微软雅黑\fs14}And your sister.
+Dialogue: 0,0:50:37.95,0:50:39.45,*Default,NTP,0000,0000,0000,,你漂亮的姐姐\N{\fn微软雅黑\fs14}Your pretty sister.
+Dialogue: 0,0:50:41.10,0:50:43.00,*Default,NTP,0000,0000,0000,,我应该上她的\N{\fn微软雅黑\fs14}I should have taken her.
+Dialogue: 0,0:50:44.47,0:50:46.49,*Default,NTP,0000,0000,0000,,黑水湾大火那一晚\N{\fn微软雅黑\fs14}That night the Blackwater burned.
+Dialogue: 0,0:50:48.45,0:50:50.47,*Default,NTP,0000,0000,0000,,我应该狠狠地上她\N{\fn微软雅黑\fs14}I should have fucked her bloody.
+Dialogue: 0,0:50:51.70,0:50:54.30,*Default,NTP,0000,0000,0000,,至少我也有个美好的回忆\N{\fn微软雅黑\fs14}At least I'd have one happy memory.
+Dialogue: 0,0:51:04.82,0:51:06.69,*Default,NTP,0000,0000,0000,,你想让我乞求吗\N{\fn微软雅黑\fs14}Do I have to beg you?
+Dialogue: 0,0:51:11.60,0:51:12.70,*Default,NTP,0000,0000,0000,,动手吧\N{\fn微软雅黑\fs14}Do it.
+Dialogue: 0,0:51:18.17,0:51:19.33,*Default,NTP,0000,0000,0000,,动手啊\N{\fn微软雅黑\fs14}Do it.
+Dialogue: 0,0:51:23.23,0:51:24.36,*Default,NTP,0000,0000,0000,,动手啊\N{\fn微软雅黑\fs14}Do it.
+Dialogue: 0,0:51:54.80,0:51:56.14,*Default,NTP,0000,0000,0000,,杀了我\N{\fn微软雅黑\fs14}Kill me.
+Dialogue: 0,0:52:00.34,0:52:01.57,*Default,NTP,0000,0000,0000,,杀了我\N{\fn微软雅黑\fs14}Kill me!
+Dialogue: 0,0:52:04.25,0:52:05.62,*Default,NTP,0000,0000,0000,,杀了我\N{\fn微软雅黑\fs14}Kill me!
+Dialogue: 0,0:52:08.30,0:52:09.55,*Default,NTP,0000,0000,0000,,杀了我\N{\fn微软雅黑\fs14}Kill me!
+Dialogue: 0,0:52:19.28,0:52:21.91,*Default,NTP,0000,0000,0000,,噢  快动手啊  烂婊子养的野种\N{\fn微软雅黑\fs14}Oh, get on with it, you son of a whore.
+Dialogue: 0,0:52:22.53,0:52:24.65,*Default,NTP,0000,0000,0000,,如此评价咱们的母亲大人\N{\fn微软雅黑\fs14}Is that any way to speak about our mother?
+Dialogue: 0,0:52:25.33,0:52:26.28,*Default,NTP,0000,0000,0000,,你来做什么\N{\fn微软雅黑\fs14}What are you doing?
+Dialogue: 0,0:52:26.28,0:52:27.56,*Default,NTP,0000,0000,0000,,你以为我来做什么\N{\fn微软雅黑\fs14}What do you think I'm doing?
+Dialogue: 0,0:52:27.56,0:52:29.82,*Default,NTP,0000,0000,0000,,河边有条划桨船  开往自由贸易城邦\N{\fn微软雅黑\fs14}A galley's waiting in the bay bound for the Free Cities.
+Dialogue: 0,0:52:29.82,0:52:31.29,*Default,NTP,0000,0000,0000,,-谁在帮忙  -瓦里斯\N{\fn微软雅黑\fs14}- Who's helping you? - Varys.
+Dialogue: 0,0:52:31.29,0:52:33.45,*Default,NTP,0000,0000,0000,,-瓦里斯  -你的朋友远比你以为的多\N{\fn微软雅黑\fs14}- Varys? - You have more friends than you thought.
+Dialogue: 0,0:52:44.99,0:52:47.09,*Default,NTP,0000,0000,0000,,楼梯顶上那扇门锁着\N{\fn微软雅黑\fs14}There's a locked door at the top of the stairs.
+Dialogue: 0,0:52:47.14,0:52:49.52,*Default,NTP,0000,0000,0000,,敲两下  然后再敲两下\N{\fn微软雅黑\fs14}Knock on it twice, then twice again.
+Dialogue: 0,0:52:50.29,0:52:51.73,*Default,NTP,0000,0000,0000,,瓦里斯就会开门\N{\fn微软雅黑\fs14}Varys will open.
+Dialogue: 0,0:52:52.79,0:52:54.52,*Default,NTP,0000,0000,0000,,那么就此告别了\N{\fn微软雅黑\fs14}I suppose this is good-bye, then.
+Dialogue: 0,0:53:10.76,0:53:12.21,*Default,NTP,0000,0000,0000,,永别了  小弟弟\N{\fn微软雅黑\fs14}Farewell, little brother.
+Dialogue: 0,0:53:14.09,0:53:15.25,*Default,NTP,0000,0000,0000,,詹姆\N{\fn微软雅黑\fs14}Jaime.
+Dialogue: 0,0:53:17.26,0:53:20.44,*Default,NTP,0000,0000,0000,,谢谢你救了我的命\N{\fn微软雅黑\fs14}Thank you for my life.
+Dialogue: 0,0:53:23.27,0:53:24.67,*Default,NTP,0000,0000,0000,,快走\N{\fn微软雅黑\fs14}Quickly now.
+Dialogue: 0,0:54:44.42,0:54:45.65,*Default,NTP,0000,0000,0000,,泰温\N{\fn微软雅黑\fs14}Tywin?
+Dialogue: 0,0:54:49.16,0:54:50.67,*Default,NTP,0000,0000,0000,,我的雄狮\N{\fn微软雅黑\fs14}My lion.
+Dialogue: 0,0:56:09.81,0:56:11.48,*Default,NTP,0000,0000,0000,,对不起\N{\fn微软雅黑\fs14}I'm sorry.
+Dialogue: 0,0:56:24.67,0:56:26.11,*Default,NTP,0000,0000,0000,,对不起\N{\fn微软雅黑\fs14}I'm sorry.
+Dialogue: 0,0:57:13.45,0:57:14.87,*Default,NTP,0000,0000,0000,,提利昂\N{\fn微软雅黑\fs14}Tyrion.
+Dialogue: 0,0:57:16.63,0:57:18.50,*Default,NTP,0000,0000,0000,,放下弩弓\N{\fn微软雅黑\fs14}Put down the crossbow.
+Dialogue: 0,0:57:21.99,0:57:23.62,*Default,NTP,0000,0000,0000,,谁放你的\N{\fn微软雅黑\fs14}Who released you?
+Dialogue: 0,0:57:25.25,0:57:26.78,*Default,NTP,0000,0000,0000,,是你哥哥吧  我想\N{\fn微软雅黑\fs14}Your brother, I expect.
+Dialogue: 0,0:57:26.79,0:57:29.01,*Default,NTP,0000,0000,0000,,他一直对你心软\N{\fn微软雅黑\fs14}He always had a soft spot for you.
+Dialogue: 0,0:57:29.89,0:57:32.50,*Default,NTP,0000,0000,0000,,来  我们去卧室好好谈\N{\fn微软雅黑\fs14}Come, we'll go and talk in my chambers.
+Dialogue: 0,0:57:36.98,0:57:39.62,*Default,NTP,0000,0000,0000,,你打算这样跟我谈吗\N{\fn微软雅黑\fs14}This is how you want to speak to me, hmm?
+Dialogue: 0,0:57:39.97,0:57:42.43,*Default,NTP,0000,0000,0000,,你最喜欢让你父亲蒙羞\N{\fn微软雅黑\fs14}Shaming your father has always given you pleasure.
+Dialogue: 0,0:57:42.43,0:57:44.10,*Default,NTP,0000,0000,0000,,从我出生起\N{\fn微软雅黑\fs14}All my life
+Dialogue: 0,0:57:44.32,0:57:46.48,*Default,NTP,0000,0000,0000,,您就想要我死\N{\fn微软雅黑\fs14}you've wanted me dead.
+Dialogue: 0,0:57:49.43,0:57:50.77,*Default,NTP,0000,0000,0000,,是的\N{\fn微软雅黑\fs14}Yes.
+Dialogue: 0,0:57:51.26,0:57:52.97,*Default,NTP,0000,0000,0000,,但你不愿意死\N{\fn微软雅黑\fs14}But you refused to die.
+Dialogue: 0,0:57:52.97,0:57:54.56,*Default,NTP,0000,0000,0000,,我尊重这一点\N{\fn微软雅黑\fs14}I respect that.
+Dialogue: 0,0:57:55.42,0:57:56.96,*Default,NTP,0000,0000,0000,,甚至有点佩服\N{\fn微软雅黑\fs14}Even admire it.
+Dialogue: 0,0:57:56.96,0:57:58.80,*Default,NTP,0000,0000,0000,,你为了属于你的一切而战斗\N{\fn微软雅黑\fs14}You fight for what's yours.
+Dialogue: 0,0:57:59.65,0:58:01.39,*Default,NTP,0000,0000,0000,,我不会让他们处死你\N{\fn微软雅黑\fs14}I'd never let them execute you.
+Dialogue: 0,0:58:01.39,0:58:03.13,*Default,NTP,0000,0000,0000,,你就是害怕这个吗\N{\fn微软雅黑\fs14}Is that what you fear?
+Dialogue: 0,0:58:03.15,0:58:05.81,*Default,NTP,0000,0000,0000,,我不会让伊林·派恩砍你的头\N{\fn微软雅黑\fs14}I'll never let Ilyn Payne take your head.
+Dialogue: 0,0:58:05.81,0:58:07.50,*Default,NTP,0000,0000,0000,,你是兰尼斯特\N{\fn微软雅黑\fs14}You're a Lannister.
+Dialogue: 0,0:58:10.09,0:58:11.94,*Default,NTP,0000,0000,0000,,你是我儿子\N{\fn微软雅黑\fs14}You're my son.
+Dialogue: 0,0:58:14.61,0:58:16.21,*Default,NTP,0000,0000,0000,,我爱她\N{\fn微软雅黑\fs14}I loved her.
+Dialogue: 0,0:58:16.58,0:58:17.71,*Default,NTP,0000,0000,0000,,谁\N{\fn微软雅黑\fs14}Who?
+Dialogue: 0,0:58:18.82,0:58:20.11,*Default,NTP,0000,0000,0000,,雪伊\N{\fn微软雅黑\fs14}Shae.
+Dialogue: 0,0:58:20.72,0:58:22.36,*Default,NTP,0000,0000,0000,,噢  提利昂\N{\fn微软雅黑\fs14}Oh, Tyrion.
+Dialogue: 0,0:58:23.78,0:58:26.32,*Default,NTP,0000,0000,0000,,-放下弩弓  -我杀了她\N{\fn微软雅黑\fs14}- Put down that crossbow. - I murdered her.
+Dialogue: 0,0:58:27.99,0:58:30.26,*Default,NTP,0000,0000,0000,,我亲手杀了她\N{\fn微软雅黑\fs14}With my own hands.
+Dialogue: 0,0:58:33.69,0:58:36.84,*Default,NTP,0000,0000,0000,,-没关系  -没关系\N{\fn微软雅黑\fs14}- It doesn't matter. - Doesn't matter?
+Dialogue: 0,0:58:37.16,0:58:38.80,*Default,NTP,0000,0000,0000,,她是个妓女\N{\fn微软雅黑\fs14}She was a whore.
+Dialogue: 0,0:58:40.51,0:58:43.03,*Default,NTP,0000,0000,0000,,-再说一遍...  -怎么样\N{\fn微软雅黑\fs14}- Say that word again... - And what?
+Dialogue: 0,0:58:43.03,0:58:45.31,*Default,NTP,0000,0000,0000,,你要在厕所里杀死自己的父亲吗\N{\fn微软雅黑\fs14}You'll kill your own father in the privy?
+Dialogue: 0,0:58:46.79,0:58:48.06,*Default,NTP,0000,0000,0000,,不\N{\fn微软雅黑\fs14}No.
+Dialogue: 0,0:58:48.87,0:58:50.33,*Default,NTP,0000,0000,0000,,你是我儿子\N{\fn微软雅黑\fs14}You're my son.
+Dialogue: 0,0:58:50.87,0:58:52.53,*Default,NTP,0000,0000,0000,,好了  别再废话了\N{\fn微软雅黑\fs14}Now, enough of this nonsense.
+Dialogue: 0,0:58:52.53,0:58:56.19,*Default,NTP,0000,0000,0000,,我是您儿子  您判了我死刑\N{\fn微软雅黑\fs14}I am your son and you sentenced me to die.
+Dialogue: 0,0:58:56.20,0:58:59.69,*Default,NTP,0000,0000,0000,,您知道不是我毒死的乔佛里\N{\fn微软雅黑\fs14}You knew I didn't poison Joffrey,
+Dialogue: 0,0:58:59.83,0:59:02.94,*Default,NTP,0000,0000,0000,,但您还是一样给我判刑\N{\fn微软雅黑\fs14}but you sentenced me all the same.
+Dialogue: 0,0:59:03.26,0:59:04.83,*Default,NTP,0000,0000,0000,,-为什么  -够了\N{\fn微软雅黑\fs14}- Why? - Enough.
+Dialogue: 0,0:59:05.54,0:59:06.82,*Default,NTP,0000,0000,0000,,我们去我卧室\N{\fn微软雅黑\fs14}We'll go back to my chambers
+Dialogue: 0,0:59:06.83,0:59:08.25,*Default,NTP,0000,0000,0000,,体面地谈谈\N{\fn微软雅黑\fs14}and speak with some dignity.
+Dialogue: 0,0:59:08.25,0:59:10.71,*Default,NTP,0000,0000,0000,,我不去  她在那里\N{\fn微软雅黑\fs14}I can't go back there. She's in there.
+Dialogue: 0,0:59:10.71,0:59:12.54,*Default,NTP,0000,0000,0000,,你害怕一个死掉的妓女吗\N{\fn微软雅黑\fs14}You're afraid of a dead whore?
+Dialogue: 0,0:59:25.57,0:59:27.19,*Default,NTP,0000,0000,0000,,你放箭\N{\fn微软雅黑\fs14}You shot me.
+Dialogue: 0,0:59:36.31,0:59:38.28,*Default,NTP,0000,0000,0000,,你不是我儿子\N{\fn微软雅黑\fs14}You're no son of mine.
+Dialogue: 0,0:59:38.28,0:59:39.65,*Default,NTP,0000,0000,0000,,我是您儿子\N{\fn微软雅黑\fs14}I am your son.
+Dialogue: 0,0:59:41.02,0:59:43.61,*Default,NTP,0000,0000,0000,,我一直都是您儿子\N{\fn微软雅黑\fs14}I have always been your son.
+Dialogue: 0,0:59:58.51,0:59:59.78,*Default,NTP,0000,0000,0000,,你做了什么\N{\fn微软雅黑\fs14}What have you done?
+Dialogue: 0,1:00:01.81,1:00:02.83,*Default,NTP,0000,0000,0000,,快走\N{\fn微软雅黑\fs14}Quickly.
+Dialogue: 0,1:00:06.70,1:00:09.59,*Default,NTP,0000,0000,0000,,相信我  朋友  我帮你走了这么远\N{\fn微软雅黑\fs14}Trust me, my friend. I brought you this far.
+Dialogue: 0,1:02:05.01,1:02:06.51,*Default,NTP,0000,0000,0000,,我要见船长\N{\fn微软雅黑\fs14}I want to see the captain.
+Dialogue: 0,1:02:06.64,1:02:07.83,*Default,NTP,0000,0000,0000,,你眼前就是\N{\fn微软雅黑\fs14}You're seeing him.
+Dialogue: 0,1:02:08.59,1:02:10.88,*Default,NTP,0000,0000,0000,,我想去北方  去长城\N{\fn微软雅黑\fs14}I want to go north to the Wall.
+Dialogue: 0,1:02:11.67,1:02:12.79,*Default,NTP,0000,0000,0000,,去不了\N{\fn微软雅黑\fs14}No, you don't.
+Dialogue: 0,1:02:13.96,1:02:14.91,*Default,NTP,0000,0000,0000,,我可以付钱\N{\fn微软雅黑\fs14}I can pay.
+Dialogue: 0,1:02:14.91,1:02:18.52,*Default,NTP,0000,0000,0000,,北方只有冰雪  战争和海盗\N{\fn微软雅黑\fs14}There is nothing in the North but ice and war and pirates.
+Dialogue: 0,1:02:18.52,1:02:21.44,*Default,NTP,0000,0000,0000,,我不需要舱房  求你了\N{\fn微软雅黑\fs14}I wouldn't need a cabin. Please.
+Dialogue: 0,1:02:21.84,1:02:23.29,*Default,NTP,0000,0000,0000,,我可以干活  擦洗甲板什么的\N{\fn微软雅黑\fs14}I could work scrubbing the floors.
+Dialogue: 0,1:02:23.29,1:02:25.91,*Default,NTP,0000,0000,0000,,我们不去北方  孩子  我们回家\N{\fn微软雅黑\fs14}I'm not going north, child. I'm going home.
+Dialogue: 0,1:02:26.36,1:02:29.46,*Default,NTP,0000,0000,0000,,-家在哪里  -自由贸易城邦布拉佛斯\N{\fn微软雅黑\fs14}- Where's home? - The Free City of Braavos.
+Dialogue: 0,1:02:30.56,1:02:32.20,*Default,NTP,0000,0000,0000,,等等  我有别的\N{\fn微软雅黑\fs14}Wait. I have something else.
+Dialogue: 0,1:02:32.20,1:02:34.02,*Default,NTP,0000,0000,0000,,多一枚银币也没区别\N{\fn微软雅黑\fs14}More silver won't make a difference.
+Dialogue: 0,1:02:34.02,1:02:37.11,*Default,NTP,0000,0000,0000,,那不是银币  是铁\N{\fn微软雅黑\fs14}It's not silver. It's iron.
+Dialogue: 0,1:02:40.12,1:02:41.01,*Default,NTP,0000,0000,0000,,这...\N{\fn微软雅黑\fs14}This...
+Dialogue: 0,1:02:45.66,1:02:46.40,*Default,NTP,0000,0000,0000,,你怎么会...\N{\fn微软雅黑\fs14}How did you--
+Dialogue: 0,1:02:46.40,1:02:47.95,*Default,NTP,0000,0000,0000,,凡人皆有一死\N{\fn微软雅黑\fs14}Valar morghulis.
+Dialogue: 0,1:02:50.71,1:02:52.41,*Default,NTP,0000,0000,0000,,凡人必须侍奉\N{\fn微软雅黑\fs14}Valar dohaeris.
+Dialogue: 0,1:02:52.75,1:02:55.38,*Default,NTP,0000,0000,0000,,当然了  你会有一间舱房\N{\fn微软雅黑\fs14}Of course, you shall have a cabin.
+Dialogue: 0,0:00:10.56,0:00:12.52,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(276.722,193.364)}翻译 Silmar
+Dialogue: 0,0:00:12.59,0:00:14.46,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(235.233,278.2)}翻译 小舞
+Dialogue: 0,0:00:15.03,0:00:16.99,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(286.69,73.6)}翻译 小熊嘟嘟
+Dialogue: 0,0:00:17.93,0:00:19.89,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(110.185,268.836)}翻译 尼克白
+Dialogue: 0,0:00:20.74,0:00:22.70,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(270.734,76)}翻译 树树
+Dialogue: 0,0:00:24.34,0:00:25.94,*Default,NTP,0000,0000,0000,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(102.792,276)}翻译 潇湘月影
+Dialogue: 0,0:00:27.23,0:00:29.15,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(102.792,76)}翻译 泰斯
+Dialogue: 0,0:00:29.05,0:00:31.04,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(200,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(274.911,232.909)}校对 泰斯·雪诺
+Dialogue: 0,0:00:31.25,0:00:33.05,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(200,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(246.694,72.908)}校对 Silmar
+Dialogue: 0,0:00:33.88,0:00:36.13,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(111.12,165.509)}时间轴 崽猪
+Dialogue: 0,0:00:38.38,0:00:41.31,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(217.359,182.491)}时间轴 加森
+Dialogue: 0,0:00:42.81,0:00:44.72,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(164.914,95.909)}时间轴 全家筒
+Dialogue: 0,0:00:55.05,0:00:56.91,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(103.227,80.8)}特效/后期 鱼骨头
+Dialogue: 0,0:00:57.14,0:00:58.77,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(285.412,78.345)}特效/后期 拉图
+Dialogue: 0,0:00:47.56,0:00:49.32,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(130.173,75.255)}顾问 屈畅(ccxx)
+Dialogue: 0,0:00:59.36,0:01:01.03,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\shad2\bord0\fsp2\c&H74B1D7&\b1\pos(123.691,77.618)}总监 泰斯·雪诺
+Dialogue: 0,0:01:34.39,0:01:36.42,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体\fs15\fad(400,400)\pos(180,170)\shad2\bord0\fsp2\c&H74B1D7&\b1}改编自《冰与火之歌》
+Dialogue: 0,0:01:34.39,0:01:36.42,*Default,NTP,0,0,0,,{\fn方正新秀丽繁体}{\fs12}{\fad(400,400)}{\pos(200,190)\shad2\bord0\fsp2\c&H74B1D7&\b1}原著 乔治·R·R·马丁
+Dialogue: 0,0:01:41.86,0:01:44.86,*Default,NTP,0,0,0,,{\fn方正小标宋_GBK}{\fs90}{\fad(800,0)}{\shad0}{\bord0}{\b1}{\fsp6}{\frz30}{\t(0,2500,0.3,\fscx50\fscy50)}{\pos(193,215)}{\t(0,2700,0.6,\frz0)}权力{\fs70}的{\fs90}游戏
+Dialogue: 0,0:01:44.86,0:01:45.17,*Default,NTP,0,0,0,,{\fn方正小标宋_GBK}{\fs45}{\shad0}{\bord0}{\b1}{\fsp3}{\pos(193,215)}权力{\fs35}的{\fs45}游戏
+Dialogue: 0,0:01:45.17,0:01:46.17,*Default,NTP,0,0,0,,{\fn方正小标宋_GBK}{\fs45}{\shad0}{\bord0}{\b1}{\fsp3}{\pos(193,215)}{\blur1\be1}权力{\fs35}的{\fs45}游戏
+Dialogue: 0,0:01:46.17,0:01:46.37,*Default,NTP,0,0,0,,{\fn方正小标宋_GBK}{\fs45}{\shad0}{\bord0}{\b1}{\fsp3}{\pos(193,215)}权力{\fs35}的{\fs45}游戏
+Dialogue: 0,0:01:46.37,0:01:47.75,*Default,NTP,0,0,0,,{\fn方正小标宋_GBK}{\fs45}{\fad(0,200)}{\shad0}{\bord0}{\b1}{\fsp3}{\pos(193,215)}{\blur1\be1}权力{\fs35}的{\fs45}游戏
+Dialogue: 0,0:01:41.93,0:01:47.75,*Default,NTP,0,0,0,,{\fn方正兰亭粗黑_GBK}{\fs30}{\fad(800,200)}{\shad0}{\bord0}{\b1}{\fsp2}{\pos(193,240)}{\t(0,2500,0.3,\fscx50\fscy50)}第四季 第十集
+Dialogue: 1,0:00:01.16,0:00:05.96,Default,NTP,0,0,0,,{\fad(500,500)\pos(70,259.2)}{\bord0\shad0\fscx11\fscy14.5\p1\c&H3D91C6&\pos(70,248)}m 20 0 l 209 0 b 218 0 229 11 229 20 l 229 209 b 229 218 218 228 209 228 l 20 228 b 11 228 0 218 0 209 l 0 20 b 0 11 11 0 20 0{\p0}
+Dialogue: 3,0:00:01.16,0:00:05.96,Default,NTP,0,0,0,,{\fad(500,500)\pos(70,259.2)}{\bord0\shad0\fscx11\fscy14\p1\c&H89BCDC&\pos(70,248)}m 115 64 l 115 35 l 171 0 l 177 0 l 133 46 l 143 52 l 179 0 l 184 0 l 159 63 l 229 107 l 229 182 l 145 96 l 135 122 l 207 227 l 137 227 l 115 172 l 115 93 l 126 76 l 115 64 l 104 76 l 115 93 l 115 172 l 93 227 l 23 227 l 95 122 l 84 96 l 0 182 l 0 107 l 70 63 l 45 0 l 50 0 l 87 52 l 97 46 l 52 0 l 59 0 l 115 35{\p0}
+Dialogue: 5,0:00:01.16,0:00:05.96,Default,NTP,0,0,0,,{\fad(500,500)\pos(60,249.2)}{\bord0\shad0\fscx15\fscy18\p1\1a&H3D&\c&HFFFFFF&\blur10\pos(60,238)}m 71 60 b 71 0 161 0 161 60 b 161 120 71 120 71 60{\p0}
+Dialogue: 1,0:00:01.16,0:00:05.96,Default,NTP,0,0,0,,{\fad(500,400)\pos(86,259.2)}{\bord0\shad0\fscx11\fscy14\p1\c&H74B1D7&\pos(86,248)}m 325 0 l 355 0 l 332 47 l 354 47 l 399 136 l 369 136 l 328 53 l 288 136 l 257 136 l 325 0 m 467 0 l 497 0 l 474 47 l 496 47 l 541 136 l 511 136 l 470 53 l 430 136 l 399 136 l 467 0 m 545 1 l 583 1 l 583 14 l 568 14 l 568 19 l 583 19 l 583 30 l 568 30 l 568 34 l 599 34 l 599 30 l 583 30 l 583 19 l 599 19 l 599 14 l 583 14 l 583 1 l 611 1 b 616 1 622 6 622 10 l 622 36 l 652 0 l 678 0 l 644 41 l 622 41 l 622 47 l 596 47 l 597 54 l 625 54 l 625 68 l 541 68 l 541 54 l 572 54 l 571 47 l 545 47 l 545 1 m 583 72 l 583 85 l 569 85 l 569 90 l 598 90 l 598 85 l 583 85 l 583 72 l 611 72 b 615 72 621 78 621 82 l 653 44 l 678 44 l 644 86 l 621 86 l 621 103 l 597 103 l 597 136 l 570 136 l 564 126 l 562 136 l 542 136 l 548 107 l 568 107 l 565 121 l 571 121 l 571 103 l 547 103 l 547 72 l 583 72 m 600 107 l 620 107 l 624 124 l 653 89 l 679 89 l 642 136 l 615 136 l 618 132 l 606 132 l 600 107 m 689 0 l 716 0 l 721 15 l 732 15 l 732 30 l 718 56 l 731 56 l 735 100 l 721 100 l 717 59 l 714 64 l 714 136 l 693 136 l 693 79 l 676 79 l 707 30 l 679 30 l 679 15 l 694 15 l 689 0 m 738 0 l 804 0 b 807 0 813 6 813 9 l 813 87 l 794 87 l 794 14 l 756 14 l 756 87 l 763 77 l 763 21 l 787 21 l 787 91 l 798 91 l 798 120 l 820 120 l 812 136 l 778 136 l 778 90 l 748 136 l 723 136 l 756 87 l 738 87 l 738 0 m 257 151 l 275 151 l 297 182 l 319 151 l 337 151 l 304 197 l 304 227 l 290 227 l 290 197 l 257 151 m 337 151 l 355 151 l 377 182 l 399 151 l 417 151 l 384 197 l 384 227 l 370 227 l 370 197 l 337 151 m 425 192 l 447 192 b 445 181 427 181 425 192 l 410 192 b 414 162 458 162 462 192 l 462 206 l 425 206 b 425 210 429 212 433 213 l 462 213 l 462 227 l 433 227 b 412 227 408 203 410 192 m 462 151 l 532 151 l 532 165 l 504 165 l 504 227 l 489 227 l 489 165 l 462 165 l 462 151 m 580 172 l 580 186 l 549 186 b 543 186 543 192 549 192 l 565 192 b 589 192 589 227 565 227 l 532 227 l 532 213 l 565 213 b 570 213 570 206 565 206 l 549 206 b 524 206 524 172 549 172 l 580 172 m 592 213 l 606 213 l 606 227 l 592 227 l 592 213 m 639 172 l 665 172 l 665 186 l 639 186 b 623 186 623 213 639 213 l 665 213 l 665 227 l 639 227 b 603 227 603 172 639 172 m 700 184 b 722 184 722 215 700 215 l 700 229 b 740 229 740 170 700 170 b 660 170 660 229 700 229 l 700 215 b 680 215 680 184 700 184 m 737 172 l 782 172 b 803 172 813 177 813 198 l 813 228 l 799 228 l 799 198 b 799 186 793 187 782 187 l 782 228 l 768 228 l 768 187 l 752 187 l 752 228 l 737 228 l 737 172{\p0}
+Dialogue: 0,0:00:01.16,0:00:05.96,Default,NTP,0,0,0,,{\fad(500,500)\pos(100,265.2)}{\alpha&FF&\bord0\shad0\b0\c&HECB000&\fn方正兰亭粗黑_GBK\fs25\pos(100,254)}人人影视\N{\fs18\fsp-1}YYeTs.com
+Dialogue: 1,0:00:01.16,0:00:05.96,Default,NTP,0,0,0,,{\fad(500,500)\fs13\bord0\shad0\b1\fn文鼎古印体繁\c&H74B1D7&\pos(101,278.2)}原创翻译  双语字幕
+Dialogue: 0,0:00:01.16,0:00:05.96,Default,NTP,0,0,0,,{\fad(500,500)\pos(192,294.2)}{\3c&HFFFFFF&\fscx650\fs86\alpha&H9F&\c&H000000&\bord1\shad0\pos(192,283)}■
+Dialogue: 0,0:00:01.16,0:00:05.96,Default,NTP,0,0,0,,{\fad(500,500)\fs16\fn文鼎古印体繁\b1\bord0\shad0\c&H74B1D7&\pos(237,266.2)}本字幕由人人影视字幕组翻译\N禁止用作任何商业盈利行为

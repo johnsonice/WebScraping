@@ -1,0 +1,78 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2008-04-06 21:23:48
+; // 版本: 0.74
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:漫游字幕
+Original Script:漫游字幕组
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:864
+PlayResY:480
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,28,&H00FFFFFF,&HF0000000,&H00000000,&HC8000000,-1,0,0,0,100,100,1,0.00,1,2,1,2,30,30,12,134
+Style: edjp,DFHSGothic-W5,21,&H00FFFFFF,&HF0000000,&H14E221FE,&HC8000000,-1,0,0,0,100,100,0,0.00,1,1,2,2,30,30,10,1
+Style: staff,黑体,21,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0.00,1,2,1,8,30,30,4,1
+Style: 1,DFGHSGothic-W5,25,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0.00,1,0,0,2,30,30,10,1
+Style: edcn,黑体,20,&H00FFFFFF,&HF0000000,&H14E221FE,&HC8000000,-1,0,0,0,100,100,0,0.00,1,1,2,8,30,30,10,1
+Style: opjp1,DFGHSGothic-W5,25,&H00E8E8FF,&H64C080FF,&H00C080FF,&H46DAB5FF,-1,0,0,0,100,100,0,0.00,1,1,2,2,30,30,10,1
+Style: opjp2,DFGHSGothic-W5,22,&H00E8E8FF,&H64C080FF,&H00C080FF,&H46DAB5FF,-1,0,0,0,100,100,0,0.00,1,1,2,8,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+
+
+Dialogue: 0,0:00:03.01,0:00:05.60,*Default,NTP,0000,0000,0000,,拿不到  拿不到啊
+Dialogue: 0,0:00:12.09,0:00:13.12,*Default,NTP,0000,0000,0000,,到底是怎么回事
+Dialogue: 0,0:00:19.25,0:00:20.66,*Default,NTP,0000,0000,0000,,稍微帮你一下
+Dialogue: 0,0:00:31.40,0:00:33.51,*Default,NTP,0000,0000,0000,,只是稍微的话 还是拿不到啊
+Dialogue: 0,0:00:33.80,0:00:38.16,*Default,NTP,0000,0000,0000,,拿不到  拿不到  拿不到  拿不到…
+Dialogue: 0,0:00:38.16,0:00:40.77,*Default,NTP,0000,0000,0000,,真烦人啊 这家伙 吵得人头痛
+Dialogue: 0,0:00:41.88,0:00:42.56,*Default,NTP,0000,0000,0000,,喝呀
+Dialogue: 0,0:00:55.61,0:00:56.26,*Default,NTP,0000,0000,0000,,给你
+Dialogue: 0,0:01:04.41,0:01:05.17,*Default,NTP,0000,0000,0000,,老大
+Dialogue: 0,0:01:09.91,0:01:14.02,*Default,NTP,0000,0000,0000,,这是个对抗W.O.R.M的少女们的故事
+Dialogue: 0,0:01:18.26,0:01:21.17,*Default,NTP,0000,0000,0000,,钓鱼白痴瑛花姐
+Dialogue: 0,0:01:21.65,0:01:24.94,*Default,NTP,0000,0000,0000,,天翔少女真饵钓鱼记
+Dialogue: 0,0:01:26.30,0:01:31.71,*Default,NTP,0000,0000,0000,,保护地方物种  钓黑鲈大会
+Dialogue: 0,0:01:26.23,0:01:32.71,*Default,NTP,0000,0000,0000,,{\an8}钓到的鱼一定要吃掉哦
+Dialogue: 0,0:01:33.55,0:01:35.67,*Default,NTP,0000,0000,0000,,喔 钓黑鲈
+Dialogue: 0,0:01:38.57,0:01:40.94,*Default,NTP,0000,0000,0000,,黑鲈的生存能力极强
+Dialogue: 0,0:01:41.21,0:01:44.72,*Default,NTP,0000,0000,0000,,因为它会随季节改变行动方式
+Dialogue: 0,0:01:45.05,0:01:47.88,*Default,NTP,0000,0000,0000,,作为竞技钓鱼的冠军奖品
+Dialogue: 0,0:01:48.03,0:01:51.53,*Default,NTP,0000,0000,0000,,是一种相当有人气的鱼类
+Dialogue: 0,0:01:52.44,0:01:54.00,*Default,NTP,0000,0000,0000,,说起它的钓法呢
+Dialogue: 0,0:01:54.12,0:01:58.40,*Default,NTP,0000,0000,0000,,要用仿真钓饵代替真饵来垂钓
+Dialogue: 0,0:01:58.64,0:02:04.87,*Default,NTP,0000,0000,0000,,还要根据不同水域和水深来选择不同仿真钓饵
+Dialogue: 0,0:02:06.02,0:02:15.36,*Default,NTP,0000,0000,0000,,但实际单就钓法而言还不如用真饵钓得多  只是一种竞技垂钓法
+Dialogue: 0,0:02:22.76,0:02:25.34,*Default,NTP,0000,0000,0000,,瑛花姐今天也是大丰收啊
+Dialogue: 0,0:02:32.45,0:02:34.11,*Default,NTP,0000,0000,0000,,冬后是怎么了啊
+Dialogue: 0,0:02:35.06,0:02:37.90,*Default,NTP,0000,0000,0000,,因为今天没有出场机会正在闹别扭
+Dialogue: 0,0:02:42.95,0:02:43.80,*Default,NTP,0000,0000,0000,,那是什么
+Dialogue: 0,0:02:50.15,0:02:51.63,*Default,NTP,0000,0000,0000,,都已经钓起来了啊
+Dialogue: 0,0:02:55.18,0:03:00.84,*Default,NTP,0000,0000,0000,,瑛花姐  要是连剧本都不考虑的话  会很让人头痛啊
+Dialogue: 0,0:03:03.99,0:03:06.53,*Default,NTP,0000,0000,0000,,又要被导演训斥了啊
+Dialogue: 0,0:03:07.71,0:03:10.65,*Default,NTP,0000,0000,0000,,不愧是老大
+Dialogue: 0,0:03:14.25,0:03:15.33,*Default,NTP,0000,0000,0000,,你是谁啊
+Dialogue: 0,0:03:17.39,0:03:19.58,*Default,NTP,0000,0000,0000,,我叫爱丽丝·冯·迪特里希
+Dialogue: 0,0:03:21.63,0:03:23.68,*Default,NTP,0000,0000,0000,,一条瑛花的首席弟子哦
+Dialogue: 0,0:03:24.54,0:03:25.72,*Default,NTP,0000,0000,0000,,为我倾倒吧
+Dialogue: 0,0:03:28.15,0:03:29.11,*Default,NTP,0000,0000,0000,,这小鬼
+Dialogue: 0,0:03:29.52,0:03:31.97,*Default,NTP,0000,0000,0000,,不知道为什么就跟上我了
+Dialogue: 0,0:03:32.53,0:03:35.35,*Default,NTP,0000,0000,0000,,真是让人头痛的年纪啊
+Dialogue: 0,0:03:36.54,0:03:39.59,*Default,NTP,0000,0000,0000,,不过算了  来帮我打下手吧
+Dialogue: 0,0:03:39.67,0:03:40.26,*Default,NTP,0000,0000,0000,,不要
+Dialogue: 0,0:03:40.74,0:03:41.35,*Default,NTP,0000,0000,0000,,哈
+Dialogue: 0,0:03:42.38,0:03:43.85,*Default,NTP,0000,0000,0000,,我讨厌鲜鱼
+Dialogue: 0,0:03:44.62,0:03:47.56,*Default,NTP,0000,0000,0000,,那要怎么样成为瑛花姐的弟子呢
+Dialogue: 0,0:03:47.72,0:03:49.37,*Default,NTP,0000,0000,0000,,哼 哼 哼
+Dialogue: 0,0:03:50.12,0:03:51.49,*Default,NTP,0000,0000,0000,,这家伙  真让人火大啊
+Dialogue: 0,0:03:53.39,0:03:57.23,*Default,NTP,0000,0000,0000,,和大姐一起与全世界的虫子战斗啊
+Dialogue: 0,0:03:59.21,0:04:01.64,*Default,NTP,0000,0000,0000,,又有了新的同伴
+Dialogue: 0,0:04:02.08,0:04:08.65,*Default,NTP,0000,0000,0000,,这位钓鱼白痴瑛花姐的战斗还会不断不断地进行着
+Dialogue: 0,0:04:09.05,0:04:13.51,*Default,NTP,0000,0000,0000,,让我得感冒病倒吧  拜托了

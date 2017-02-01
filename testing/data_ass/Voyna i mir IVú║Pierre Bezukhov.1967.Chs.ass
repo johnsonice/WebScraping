@@ -1,0 +1,861 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.20,0:00:13.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}影片压制：富春江水  字幕录制：木子丁{\r}\N{\fnTimes New Roman\pos(192,284)\fscx200\fscy90\3c&H404000&}=====  N O R M  T E A M  ====={\r}
+Dialogue: 0,0:00:23.80,0:00:34.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}莫斯科电影制片厂{\r}
+Dialogue: 0,0:00:40.10,0:00:49.20,Default,,0000,0000,0000,,{\fnSimSun\bord0\shad0\pos(130,113)\3c&HFFFFFF&}原著：列夫·托尔斯泰{\r}
+Dialogue: 0,0:00:43.65,0:00:49.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,287)\3c&H804000&}片名：战争与和平{\r}\N{\fnTimes New Roman\pos(192,287)\fscx140\fscy85\3c&H404000&}WAR AND PEACE{\r}
+Dialogue: 0,0:00:46.10,0:00:49.20,Default,,0000,0000,0000,,{\fnSimSun\bord0\shad0\pos(223,246)\1c&H000000&\3c&H804000&}第四部：彼埃尔·别祖霍夫{\r}
+Dialogue: 0,0:00:49.90,0:00:52.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}导演：谢尔盖·邦达尔丘克{\r}
+Dialogue: 0,0:00:53.60,0:00:57.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}编剧：谢尔盖·邦达尔丘克 & 瓦西里·索洛维约夫{\r}
+Dialogue: 0,0:00:57.70,0:01:00.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}总摄影：阿纳托利·彼得里茨基{\r}
+Dialogue: 0,0:01:01.20,0:01:04.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}美术：米哈伊尔·博格达诺夫 & 根纳季·米亚斯尼克夫{\r}
+Dialogue: 0,0:01:07.90,0:01:11.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}作曲：维亚切斯拉夫·奥夫琴尼科夫{\r}
+Dialogue: 0,0:01:15.90,0:01:21.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}上海电影译制厂 译制{\r}
+Dialogue: 0,0:01:22.30,0:01:26.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}译制导演：曹雷{\r}
+Dialogue: 0,0:01:33.10,0:01:37.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}旁白配音：孙道临{\r}
+Dialogue: 0,0:01:52.80,0:01:56.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}主要演员及配音演员：{\r}
+Dialogue: 0,0:01:56.50,0:02:02.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}彼埃尔·别祖霍夫 -- 谢尔盖·邦达尔丘克\N（配音：乔榛）{\r}
+Dialogue: 0,0:02:02.50,0:02:07.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}安德烈·博尔康斯基 -- 维亚切斯拉夫·吉洪诺夫\N（配音：杨成纯）{\r}
+Dialogue: 0,0:02:07.40,0:02:13.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}娜塔莎·罗斯托娃 -- 柳德米拉·萨韦里耶娃\N（配音：丁建华）{\r}
+Dialogue: 0,0:02:13.30,0:02:18.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}伊利亚·安德烈耶维奇·罗斯托夫（娜塔莎之父）\N-- 维克托·斯坦尼岑（配音：于鼎）{\r}
+Dialogue: 0,0:02:18.80,0:02:21.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}尼古拉·安德烈耶维奇·博尔康斯基（安德烈之父）\N-- 阿纳托利·克托洛夫（配音：尚华）{\r}
+Dialogue: 0,0:02:22.00,0:02:24.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}玛丽娅·博尔孔斯卡娅（安德烈之妹）\N-- 安东宁娜·舒拉诺娃（配音：程晓桦）{\r}
+Dialogue: 0,0:02:24.80,0:02:28.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}多洛霍夫 -- 奥列格·叶夫列莫夫（配音：童自荣）{\r}
+Dialogue: 0,0:02:28.70,0:02:32.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}阿纳托利 -- 瓦西里·拉诺沃伊（配音：杨晓）{\r}
+Dialogue: 0,0:02:32.65,0:02:41.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}其他配音演员：曹雷 毕克 胡庆汉 伍经纬 赵慎之{\r}
+Dialogue: 0,0:02:49.40,0:02:50.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}请各位来{\r}
+Dialogue: 0,0:02:51.60,0:02:54.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}就有关军事问题进行…{\r}
+Dialogue: 0,0:02:55.60,0:02:56.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}讨论{\r}
+Dialogue: 0,0:02:58.20,0:02:59.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}大家都明白{\r}
+Dialogue: 0,0:03:00.40,0:03:03.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}拯救俄国靠的是军队{\r}
+Dialogue: 0,0:03:04.20,0:03:05.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是冒着丧失军队{\r}
+Dialogue: 0,0:03:06.30,0:03:08.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}又丢掉莫斯科的风险{\r}
+Dialogue: 0,0:03:09.10,0:03:11.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}去应战好呢？{\r}
+Dialogue: 0,0:03:12.10,0:03:13.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}还是先回避{\r}
+Dialogue: 0,0:03:14.10,0:03:16.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}暂时放弃莫斯科？{\r}
+Dialogue: 0,0:03:17.10,0:03:20.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}就这个问题请诸位发表意见{\r}
+Dialogue: 0,0:03:22.10,0:03:25.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可我并不认为败局已定了{\r}
+Dialogue: 0,0:03:26.10,0:03:28.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}要保卫神圣古都莫斯科{\r}
+Dialogue: 0,0:03:28.30,0:03:31.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}唯一的办法就是进攻{\r}
+Dialogue: 0,0:03:32.10,0:03:34.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我们可以在夜间行动{\r}
+Dialogue: 0,0:03:35.10,0:03:38.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}难道是我把拿破仑放进来 让他打到莫斯科的？{\r}
+Dialogue: 0,0:03:38.80,0:03:40.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我什么时候这样做过？{\r}
+Dialogue: 0,0:03:40.70,0:03:42.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这可怕的局面是什么时候形成的？{\r}
+Dialogue: 0,0:03:43.00,0:03:44.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}该谁负责？{\r}
+Dialogue: 0,0:03:45.50,0:03:46.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}当库图佐夫想到{\r}
+Dialogue: 0,0:03:47.00,0:03:49.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}必须由他发布撤退的命令{\r}
+Dialogue: 0,0:03:49.50,0:03:52.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他不禁大为震惊了{\r}
+Dialogue: 0,0:03:53.30,0:03:56.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}看来得由我{\r}
+Dialogue: 0,0:03:59.10,0:04:02.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}对破瓶烂罐负责{\r}
+Dialogue: 0,0:04:03.00,0:04:04.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}诸位{\r}
+Dialogue: 0,0:04:04.20,0:04:06.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我听了你们的意见{\r}
+Dialogue: 0,0:04:12.60,0:04:13.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在座的{\r}
+Dialogue: 0,0:04:15.20,0:04:17.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}有人会不同意{\r}
+Dialogue: 0,0:04:18.40,0:04:21.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我将要做出的决定{\r}
+Dialogue: 0,0:04:22.20,0:04:23.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}但是我{\r}
+Dialogue: 0,0:04:30.20,0:04:32.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我凭皇上和祖国{\r}
+Dialogue: 0,0:04:33.30,0:04:34.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}交给我的权力{\r}
+Dialogue: 0,0:04:35.40,0:04:38.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}决定撤退{\r}
+Dialogue: 0,0:05:13.60,0:05:15.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}到了{\r}
+Dialogue: 0,0:05:16.25,0:05:18.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这个地步{\r}
+Dialogue: 0,0:05:19.60,0:05:21.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我真是没有想到{\r}
+Dialogue: 0,0:05:24.27,0:05:27.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}大人 躺一躺吧 歇会儿{\r}
+Dialogue: 0,0:05:28.27,0:05:30.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这样可不行{\r}
+Dialogue: 0,0:05:31.27,0:05:34.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}得逼着他们象土耳其人那样吃马肉{\r}
+Dialogue: 0,0:05:37.28,0:05:38.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}让法国人{\r}
+Dialogue: 0,0:05:39.28,0:05:41.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}吃马肉{\r}
+Dialogue: 0,0:05:50.29,0:05:52.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}就在9月1号的夜晚{\r}
+Dialogue: 0,0:05:52.80,0:05:55.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}库图佐夫发出了撤退令{\r}
+Dialogue: 0,0:05:55.90,0:05:58.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}俄国军队经过莫斯科{\r}
+Dialogue: 0,0:05:58.80,0:06:01.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}退往通向梁赞的大路{\r}
+Dialogue: 0,0:06:04.30,0:06:07.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我的夫人 有件事要跟你商量一下{\r}
+Dialogue: 0,0:06:07.30,0:06:09.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}刚才 有位军官{\r}
+Dialogue: 0,0:06:09.30,0:06:11.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他找到我 向我请求{\r}
+Dialogue: 0,0:06:11.30,0:06:14.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他想借辆车 让他们运伤员{\r}
+Dialogue: 0,0:06:17.50,0:06:21.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}快把车腾出来 用车运伤员{\r}
+Dialogue: 0,0:06:21.50,0:06:23.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}把车腾出来{\r}
+Dialogue: 0,0:06:23.25,0:06:26.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}把箱子都卸下来 送回库房{\r}
+Dialogue: 0,0:06:31.20,0:06:32.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}老爷{\r}
+Dialogue: 0,0:06:32.80,0:06:34.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}打发车夫走吗？{\r}
+Dialogue: 0,0:06:34.41,0:06:35.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊 是啊{\r}
+Dialogue: 0,0:06:36.41,0:06:37.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}对了 格拉西姆{\r}
+Dialogue: 0,0:06:38.40,0:06:40.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你照我说的去替我做件事吧{\r}
+Dialogue: 0,0:06:41.00,0:06:42.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}老爷{\r}
+Dialogue: 0,0:06:42.20,0:06:43.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您要吃东西吗？{\r}
+Dialogue: 0,0:06:43.70,0:06:46.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不 我需要些别的东西{\r}
+Dialogue: 0,0:06:47.40,0:06:48.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我需要{\r}
+Dialogue: 0,0:06:51.00,0:06:54.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}一身乡下人的衣服和一支手枪{\r}
+Dialogue: 0,0:06:54.71,0:06:56.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}谁家的篷车？{\r}
+Dialogue: 0,0:06:56.40,0:06:57.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您不知道吗？小姐{\r}
+Dialogue: 0,0:06:58.00,0:06:59.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}公爵受伤了{\r}
+Dialogue: 0,0:06:59.00,0:07:00.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哪个公爵？叫什么？{\r}
+Dialogue: 0,0:07:00.50,0:07:02.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}以前的姑爷 安德烈公爵{\r}
+Dialogue: 0,0:07:03.40,0:07:05.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}听说他快要死了{\r}
+Dialogue: 0,0:08:21.00,0:08:22.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}走吧{\r}
+Dialogue: 0,0:08:22.79,0:08:24.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}上帝保佑{\r}
+Dialogue: 0,0:08:39.40,0:08:40.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}天哪{\r}
+Dialogue: 0,0:08:41.10,0:08:42.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 你们看 是他！  - 谁？{\r}
+Dialogue: 0,0:08:43.10,0:08:44.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是他 彼埃尔{\r}
+Dialogue: 0,0:08:45.10,0:08:46.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}彼埃尔伯爵{\r}
+Dialogue: 0,0:08:47.85,0:08:49.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您过来呀{\r}
+Dialogue: 0,0:08:49.55,0:08:52.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}原来是您 您多怪呀{\r}
+Dialogue: 0,0:08:52.41,0:08:55.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}干嘛这么打扮？您这是要干什么？{\r}
+Dialogue: 0,0:08:55.41,0:08:56.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您怎么了？伯爵{\r}
+Dialogue: 0,0:08:56.60,0:08:59.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}怎么了 怎么了？干什么？别问我了{\r}
+Dialogue: 0,0:09:00.70,0:09:02.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 您要留在莫斯科吗？  - 莫斯科？{\r}
+Dialogue: 0,0:09:03.10,0:09:05.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊 对 莫斯科 再见了{\r}
+Dialogue: 0,0:09:06.40,0:09:09.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我要是个男人 就可以跟您一起留下{\r}
+Dialogue: 0,0:09:09.70,0:09:11.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那该多好{\r}
+Dialogue: 0,0:09:11.30,0:09:12.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}妈妈 让我也留下吧{\r}
+Dialogue: 0,0:09:12.80,0:09:14.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}听说您去过战场？{\r}
+Dialogue: 0,0:09:14.21,0:09:16.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}嗯对 去过 明天又要打一仗{\r}
+Dialogue: 0,0:09:17.60,0:09:19.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您怎么了？伯爵 您那样儿…{\r}
+Dialogue: 0,0:09:19.31,0:09:22.01,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}噢 别问我了 我自己也不知道{\r}
+Dialogue: 0,0:09:22.20,0:09:22.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}明天{\r}
+Dialogue: 0,0:09:22.80,0:09:24.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哦 不 没什么{\r}
+Dialogue: 0,0:09:24.20,0:09:25.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}再见吧{\r}
+Dialogue: 0,0:09:25.70,0:09:27.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这可怕的时刻{\r}
+Dialogue: 0,0:09:29.70,0:09:31.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}永别了{\r}
+Dialogue: 0,0:09:34.90,0:09:36.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他忽然觉得{\r}
+Dialogue: 0,0:09:36.90,0:09:39.47,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}现在一切都完结{\r}
+Dialogue: 0,0:09:39.90,0:09:41.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}一片混乱{\r}
+Dialogue: 0,0:09:41.70,0:09:43.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}一切都濒临毁灭{\r}
+Dialogue: 0,0:09:43.80,0:09:46.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}一切都不存在了{\r}
+Dialogue: 0,0:09:46.90,0:09:49.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}摆脱这种境遇的出路{\r}
+Dialogue: 0,0:09:49.60,0:09:51.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}同样不存在了{\r}
+Dialogue: 0,0:10:01.10,0:10:02.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这是它{\r}
+Dialogue: 0,0:10:02.71,0:10:04.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}神圣古老的京城{\r}
+Dialogue: 0,0:10:05.71,0:10:07.42,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}它在我的脚下{\r}
+Dialogue: 0,0:10:08.20,0:10:10.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}听候我决定它命运{\r}
+Dialogue: 0,0:10:11.80,0:10:13.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}多神秘啊{\r}
+Dialogue: 0,0:10:13.80,0:10:15.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}多美丽啊{\r}
+Dialogue: 0,0:10:15.60,0:10:18.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}多么雄伟的城市{\r}
+Dialogue: 0,0:10:20.80,0:10:23.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可城里的代表团怎么不来？{\r}
+Dialogue: 0,0:10:34.30,0:10:36.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}陛下 莫斯科没人了{\r}
+Dialogue: 0,0:10:36.60,0:10:38.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是座空城{\r}
+Dialogue: 0,0:11:36.40,0:11:39.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是俄国人还是法国人？{\r}
+Dialogue: 0,0:11:42.40,0:11:44.97,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}自己人 法国人{\r}
+Dialogue: 0,0:12:04.50,0:12:06.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}快拿起武器{\r}
+Dialogue: 0,0:12:07.00,0:12:08.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}冲啊{\r}
+Dialogue: 0,0:12:09.00,0:12:11.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}看见吗？是他们{\r}
+Dialogue: 0,0:12:12.00,0:12:14.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}冲啊{\r}
+Dialogue: 0,0:12:20.90,0:12:22.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他们来了{\r}
+Dialogue: 0,0:12:22.90,0:12:24.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}噢 天哪{\r}
+Dialogue: 0,0:12:25.88,0:12:26.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}来了四个{\r}
+Dialogue: 0,0:12:27.03,0:12:27.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}骑着马{\r}
+Dialogue: 0,0:12:28.33,0:12:30.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那边儿 骑着马{\r}
+Dialogue: 0,0:12:44.35,0:12:45.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你们出去{\r}
+Dialogue: 0,0:12:46.00,0:12:47.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}诸位好啊{\r}
+Dialogue: 0,0:12:48.00,0:12:49.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}有人吗？{\r}
+Dialogue: 0,0:12:54.20,0:12:55.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}住处{\r}
+Dialogue: 0,0:12:57.35,0:12:58.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}住处{\r}
+Dialogue: 0,0:13:00.20,0:13:01.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}屋子{\r}
+Dialogue: 0,0:13:01.80,0:13:03.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}法国人多大好人！{\r}
+Dialogue: 0,0:13:03.80,0:13:05.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我们不要生气{\r}
+Dialogue: 0,0:13:05.21,0:13:06.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}法语没有懂？{\r}
+Dialogue: 0,0:13:06.60,0:13:08.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哎 主人不在 我不懂法语{\r}
+Dialogue: 0,0:13:08.90,0:13:09.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不懂{\r}
+Dialogue: 0,0:13:09.90,0:13:11.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不懂法语{\r}
+Dialogue: 0,0:13:11.60,0:13:13.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不懂法语{\r}
+Dialogue: 0,0:13:18.40,0:13:21.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}跟我冲啊{\r}
+Dialogue: 0,0:13:26.20,0:13:28.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您 没伤着吧？{\r}
+Dialogue: 0,0:13:28.20,0:13:29.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}没有{\r}
+Dialogue: 0,0:13:29.20,0:13:30.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}真是死里逃生{\r}
+Dialogue: 0,0:13:31.10,0:13:32.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那人是谁？{\r}
+Dialogue: 0,0:13:32.30,0:13:33.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这真使我失望{\r}
+Dialogue: 0,0:13:33.70,0:13:35.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我们胜利以后 向来是宽容的{\r}
+Dialogue: 0,0:13:35.70,0:13:37.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}但我们决不饶恕暴徒{\r}
+Dialogue: 0,0:13:39.70,0:13:41.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}原谅他吧 他是个不幸的疯子{\r}
+Dialogue: 0,0:13:42.00,0:13:43.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}又多喝了点儿酒{\r}
+Dialogue: 0,0:13:45.20,0:13:46.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您法语很好 是法国人？{\r}
+Dialogue: 0,0:13:47.00,0:13:49.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您救了我 我是兰贝尔大尉{\r}
+Dialogue: 0,0:13:49.90,0:13:51.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 我是俄国人  - 什么？{\r}
+Dialogue: 0,0:13:52.01,0:13:54.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}得 您去骗别人吧{\r}
+Dialogue: 0,0:13:55.01,0:13:56.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您说怎么处置他呢？{\r}
+Dialogue: 0,0:13:57.01,0:13:57.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您救了我{\r}
+Dialogue: 0,0:13:57.60,0:14:00.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}要我饶恕他吗？我听您的{\r}
+Dialogue: 0,0:16:20.10,0:16:21.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您贵姓？{\r}
+Dialogue: 0,0:16:24.70,0:16:26.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}就叫您彼埃尔？{\r}
+Dialogue: 0,0:16:27.10,0:16:28.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}有名字就行{\r}
+Dialogue: 0,0:16:30.90,0:16:32.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}彼埃尔先生{\r}
+Dialogue: 0,0:16:33.00,0:16:34.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您是我救命恩人{\r}
+Dialogue: 0,0:16:35.00,0:16:38.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我要为您插上一支感恩蜡烛表示心意{\r}
+Dialogue: 0,0:16:41.01,0:16:42.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我身上中过三颗子弹{\r}
+Dialogue: 0,0:16:43.01,0:16:45.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在瓦格拉姆 斯摩棱斯克{\r}
+Dialogue: 0,0:16:46.15,0:16:48.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}还有我这条右腿也伤了{\r}
+Dialogue: 0,0:16:48.40,0:16:49.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那是在博罗狄诺！{\r}
+Dialogue: 0,0:16:50.00,0:16:52.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那一战很壮观 我们吃了大亏{\r}
+Dialogue: 0,0:16:53.60,0:16:55.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}为博罗狄诺大会战{\r}
+Dialogue: 0,0:16:55.60,0:16:58.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你们可以感到自豪{\r}
+Dialogue: 0,0:16:59.10,0:17:00.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我在那儿{\r}
+Dialogue: 0,0:17:01.60,0:17:03.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}噢 是吗？{\r}
+Dialogue: 0,0:17:03.70,0:17:05.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}太好了{\r}
+Dialogue: 0,0:17:07.50,0:17:10.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你们这个对手 很难应付{\r}
+Dialogue: 0,0:17:11.20,0:17:13.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}老实说 你们的军队很不错啊{\r}
+Dialogue: 0,0:17:14.40,0:17:16.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}跟我们差不多{\r}
+Dialogue: 0,0:17:18.01,0:17:18.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}太好了{\r}
+Dialogue: 0,0:17:19.20,0:17:20.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}真太好了{\r}
+Dialogue: 0,0:17:22.20,0:17:23.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您当时也在那儿{\r}
+Dialogue: 0,0:17:23.35,0:17:25.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那么说你也是个当兵的咯 彼埃尔先生{\r}
+Dialogue: 0,0:17:26.30,0:17:29.62,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}听说所有的女人都离开莫斯科了？{\r}
+Dialogue: 0,0:17:30.02,0:17:31.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}真弄不懂啊{\r}
+Dialogue: 0,0:17:31.80,0:17:32.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她们怕什么呢？{\r}
+Dialogue: 0,0:17:33.02,0:17:34.82,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}如果俄国人进入巴黎{\r}
+Dialogue: 0,0:17:35.02,0:17:36.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}法国女人不离开吗？{\r}
+Dialogue: 0,0:17:37.03,0:17:38.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哦 哈哈哈{\r}
+Dialogue: 0,0:17:38.90,0:17:39.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您真会说笑话{\r}
+Dialogue: 0,0:17:40.60,0:17:41.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}巴黎？{\r}
+Dialogue: 0,0:17:42.15,0:17:42.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}巴黎？{\r}
+Dialogue: 0,0:17:42.70,0:17:44.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}巴黎是世界的首都{\r}
+Dialogue: 0,0:17:44.20,0:17:46.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}谁不知道巴黎谁就是野蛮人{\r}
+Dialogue: 0,0:17:46.90,0:17:48.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}嗯 伏特加！{\r}
+Dialogue: 0,0:17:48.60,0:17:51.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊 巴黎人一看就知道{\r}
+Dialogue: 0,0:17:51.60,0:17:54.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那儿有塔尔玛 杜圣诺{\r}
+Dialogue: 0,0:17:54.90,0:17:58.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}鲍狄埃 索尔邦 林道{\r}
+Dialogue: 0,0:18:01.10,0:18:02.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}对不起{\r}
+Dialogue: 0,0:18:03.90,0:18:05.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}咱们再谈谈俄国女人吧{\r}
+Dialogue: 0,0:18:05.91,0:18:08.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我听说俄国女人都是挺可爱的{\r}
+Dialogue: 0,0:18:09.20,0:18:10.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可我们来了{\r}
+Dialogue: 0,0:18:12.91,0:18:14.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她们都躲起来了 多愚蠢啊{\r}
+Dialogue: 0,0:18:14.92,0:18:16.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她们可错过了大好机会{\r}
+Dialogue: 0,0:18:17.10,0:18:19.62,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我们到了维也纳 柏林{\r}
+Dialogue: 0,0:18:19.80,0:18:21.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}罗马 那不勒斯 马德里{\r}
+Dialogue: 0,0:18:21.80,0:18:23.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那儿的人对我们又怕又喜欢{\r}
+Dialogue: 0,0:18:23.95,0:18:25.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}法国人 好相处{\r}
+Dialogue: 0,0:18:26.20,0:18:27.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}尤其是皇帝{\r}
+Dialogue: 0,0:18:27.93,0:18:29.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}皇帝他什么样？{\r}
+Dialogue: 0,0:18:30.93,0:18:34.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}皇帝嘛 是空前绝后的伟大人物{\r}
+Dialogue: 0,0:18:37.90,0:18:39.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他在莫斯科？{\r}
+Dialogue: 0,0:18:39.94,0:18:42.64,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}没到 他明天进城{\r}
+Dialogue: 0,0:18:42.94,0:18:48.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}皇帝嘛 他是宽大 仁慈 正义 秩序 天才的象征{\r}
+Dialogue: 0,0:18:48.85,0:18:50.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}皇帝就这样{\r}
+Dialogue: 0,0:18:52.00,0:18:53.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}干嘛发愁？{\r}
+Dialogue: 0,0:18:53.80,0:18:57.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 哦…  - 莫利尔 再给我们温一瓶洒{\r}
+Dialogue: 0,0:18:57.96,0:19:00.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不 不是梅季希 不在那儿 还要远{\r}
+Dialogue: 0,0:19:00.80,0:19:03.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是莫斯科 没错 在梅季希左边{\r}
+Dialogue: 0,0:19:03.40,0:19:05.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}看哪 烧得多厉害啊！{\r}
+Dialogue: 0,0:19:05.70,0:19:07.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}瞧 这大火烧的！{\r}
+Dialogue: 0,0:19:07.50,0:19:09.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这大火就在莫斯科{\r}
+Dialogue: 0,0:19:09.70,0:19:12.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不在索契夫区 就在罗科尔斯区{\r}
+Dialogue: 0,0:19:17.35,0:19:19.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}噢 多可怕呀{\r}
+Dialogue: 0,0:19:20.30,0:19:23.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}整个莫斯科都会烧光的{\r}
+Dialogue: 0,0:19:27.31,0:19:29.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}火光真吓人{\r}
+Dialogue: 0,0:19:31.50,0:19:34.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}娜塔莎 快过来看呐{\r}
+Dialogue: 0,0:19:35.90,0:19:37.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}从窗口就能看见{\r}
+Dialogue: 0,0:19:38.90,0:19:40.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}快来呀 娜塔莎{\r}
+Dialogue: 0,0:19:40.90,0:19:43.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这大火多厉害啊{\r}
+Dialogue: 0,0:19:44.22,0:19:46.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哪儿有大火？{\r}
+Dialogue: 0,0:19:47.23,0:19:49.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}噢 对 莫斯科{\r}
+Dialogue: 0,0:20:02.24,0:20:04.27,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你还不来看？{\r}
+Dialogue: 0,0:20:05.24,0:20:07.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我已经看见了{\r}
+Dialogue: 0,0:20:09.25,0:20:12.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}娜塔莎已经知道安德烈公爵负了伤{\r}
+Dialogue: 0,0:20:12.70,0:20:14.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}还和她们在一起{\r}
+Dialogue: 0,0:20:14.40,0:20:15.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可人家告诉她{\r}
+Dialogue: 0,0:20:15.90,0:20:17.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她不能去见安德烈{\r}
+Dialogue: 0,0:20:17.46,0:20:19.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}安德烈的伤势很重{\r}
+Dialogue: 0,0:20:19.20,0:20:21.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}刚刚脱离危险{\r}
+Dialogue: 0,0:20:21.46,0:20:24.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}娜塔莎不相信人们对她说的话{\r}
+Dialogue: 0,0:20:24.50,0:20:26.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可当她知道无论怎么问{\r}
+Dialogue: 0,0:20:26.70,0:20:28.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}得到的只有同样的回答{\r}
+Dialogue: 0,0:20:29.10,0:20:30.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她就不再向人打听{\r}
+Dialogue: 0,0:20:31.10,0:20:33.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}也不再说话了{\r}
+Dialogue: 0,0:20:34.30,0:20:37.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}冷吗？你在发抖 还是躺下吧{\r}
+Dialogue: 0,0:20:37.30,0:20:38.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}躺下？{\r}
+Dialogue: 0,0:20:39.30,0:20:41.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊 好吧 躺下{\r}
+Dialogue: 0,0:20:41.10,0:20:42.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我就躺下{\r}
+Dialogue: 0,0:20:58.60,0:21:00.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}娜塔莎 睡到我这儿来吧？{\r}
+Dialogue: 0,0:21:01.00,0:21:03.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不 妈妈 我就睡地上{\r}
+Dialogue: 0,0:21:47.50,0:21:48.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}妈妈{\r}
+Dialogue: 0,0:22:57.10,0:23:01.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是你？我多幸福啊{\r}
+Dialogue: 0,0:23:19.90,0:23:22.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 原谅我吧  - 我爱你{\r}
+Dialogue: 0,0:23:22.25,0:23:24.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 宽恕我吧  - 宽恕谁？{\r}
+Dialogue: 0,0:23:24.50,0:23:26.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}请宽恕我{\r}
+Dialogue: 0,0:23:27.50,0:23:29.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}宽恕我所做的{\r}
+Dialogue: 0,0:23:31.20,0:23:32.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}一切{\r}
+Dialogue: 0,0:23:43.51,0:23:47.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我比以前更加爱你了{\r}
+Dialogue: 0,0:23:48.52,0:23:52.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}更加 更加爱了{\r}
+Dialogue: 0,0:23:59.30,0:24:02.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他隐姓埋名留在莫斯科{\r}
+Dialogue: 0,0:24:02.30,0:24:04.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}一心要刺杀拿破仑{\r}
+Dialogue: 0,0:24:04.30,0:24:07.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}或许他会因此而丧失生命{\r}
+Dialogue: 0,0:24:07.30,0:24:12.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}或许他能够结束全欧洲的这场大灾难{\r}
+Dialogue: 0,0:24:16.31,0:24:19.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊 瞧啊 这可是个大户人家{\r}
+Dialogue: 0,0:24:20.40,0:24:22.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}要啥就有啥啊{\r}
+Dialogue: 0,0:24:27.20,0:24:28.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}嘿！你！{\r}
+Dialogue: 0,0:24:28.60,0:24:30.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}上那边站 听见吗？{\r}
+Dialogue: 0,0:24:32.70,0:24:35.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她要给烧死了{\r}
+Dialogue: 0,0:24:37.21,0:24:39.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哪位好心的人{\r}
+Dialogue: 0,0:24:39.60,0:24:42.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}善良的基督徒啊{\r}
+Dialogue: 0,0:24:42.90,0:24:45.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}帮帮我吧{\r}
+Dialogue: 0,0:24:45.40,0:24:48.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我的女儿丢家里了{\r}
+Dialogue: 0,0:24:48.85,0:24:51.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您是位好心的人 您快帮帮我吧{\r}
+Dialogue: 0,0:24:51.80,0:24:54.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}听有人说我家边儿上着了火{\r}
+Dialogue: 0,0:24:55.10,0:24:57.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}风正好往这儿刮{\r}
+Dialogue: 0,0:24:57.70,0:24:59.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我家很快就着了{\r}
+Dialogue: 0,0:24:59.40,0:25:00.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我们急着往外跑{\r}
+Dialogue: 0,0:25:00.50,0:25:03.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}去抢救圣像和备嫁被子{\r}
+Dialogue: 0,0:25:03.30,0:25:04.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可我回头一找{\r}
+Dialogue: 0,0:25:04.50,0:25:06.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我的卡杰基卡不见了{\r}
+Dialogue: 0,0:25:06.50,0:25:08.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}噢 天哪{\r}
+Dialogue: 0,0:25:08.50,0:25:10.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她在哪儿啊？把孩子留哪儿了？{\r}
+Dialogue: 0,0:25:10.70,0:25:13.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我的大恩人 去找找吧{\r}
+Dialogue: 0,0:25:13.35,0:25:15.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哪怕找找也安心呐{\r}
+Dialogue: 0,0:25:15.70,0:25:18.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}安妮茜卡 死丫头 带路啊{\r}
+Dialogue: 0,0:25:19.90,0:25:22.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你带路 你带路{\r}
+Dialogue: 0,0:25:22.60,0:25:24.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我去给您找{\r}
+Dialogue: 0,0:25:24.30,0:25:28.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可别烧死了 我的上帝啊{\r}
+Dialogue: 0,0:25:32.85,0:25:34.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 让他们去那儿  - 是{\r}
+Dialogue: 0,0:25:34.90,0:25:36.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}喂 你们 去那儿{\r}
+Dialogue: 0,0:25:36.55,0:25:38.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这儿太危险{\r}
+Dialogue: 0,0:25:38.90,0:25:39.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你想往哪儿跑？{\r}
+Dialogue: 0,0:25:39.90,0:25:41.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这儿危险 快走开{\r}
+Dialogue: 0,0:25:52.80,0:25:54.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}往这儿走 叔叔{\r}
+Dialogue: 0,0:25:55.00,0:25:56.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}穿过这个胡同{\r}
+Dialogue: 0,0:25:57.40,0:25:59.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这边 这边走{\r}
+Dialogue: 0,0:25:59.92,0:26:02.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哪儿啊？哪儿是你们家？{\r}
+Dialogue: 0,0:26:02.40,0:26:03.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}就这儿{\r}
+Dialogue: 0,0:26:03.40,0:26:05.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我们就住这房子{\r}
+Dialogue: 0,0:26:06.00,0:26:07.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她烧死了{\r}
+Dialogue: 0,0:26:07.55,0:26:09.35,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我的宝贝小姐{\r}
+Dialogue: 0,0:26:09.78,0:26:11.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}卡杰基卡{\r}
+Dialogue: 0,0:26:11.75,0:26:13.35,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她要烧死了{\r}
+Dialogue: 0,0:26:13.65,0:26:15.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她要烧死了{\r}
+Dialogue: 0,0:26:15.45,0:26:17.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我的小姐{\r}
+Dialogue: 0,0:26:21.65,0:26:23.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 你快撒手吧  - 你们想干什么？{\r}
+Dialogue: 0,0:26:23.60,0:26:25.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}为什么抢我东西？{\r}
+Dialogue: 0,0:26:31.15,0:26:32.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这家伙来干什么？{\r}
+Dialogue: 0,0:26:32.90,0:26:35.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你是什么人？快走开 你想干嘛？{\r}
+Dialogue: 0,0:26:35.75,0:26:37.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这幢房子里有个孩子{\r}
+Dialogue: 0,0:26:37.45,0:26:39.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是个小姑娘 你们有没有看见？{\r}
+Dialogue: 0,0:26:40.00,0:26:42.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我听见花园有人在叫{\r}
+Dialogue: 0,0:26:43.05,0:26:44.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}大概就是那孩子{\r}
+Dialogue: 0,0:26:46.70,0:26:48.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}等一等 我就下来{\r}
+Dialogue: 0,0:26:50.50,0:26:52.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哎呀 这烧得直烤人呐{\r}
+Dialogue: 0,0:26:53.30,0:26:55.27,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我跟你一起去看看{\r}
+Dialogue: 0,0:27:25.50,0:27:27.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这不就是你孩子？{\r}
+Dialogue: 0,0:27:27.10,0:27:29.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊 是个小姑娘{\r}
+Dialogue: 0,0:27:29.20,0:27:30.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}好极了{\r}
+Dialogue: 0,0:27:30.50,0:27:34.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}再见 您应该通情达理 我们都是人嘛{\r}
+Dialogue: 0,0:28:45.30,0:28:46.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您找人吗？先生{\r}
+Dialogue: 0,0:28:47.00,0:28:48.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您像是个上等人{\r}
+Dialogue: 0,0:28:48.80,0:28:50.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}谁的孩子？{\r}
+Dialogue: 0,0:28:51.10,0:28:53.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}刚才这儿有个穿黑衣服的女人{\r}
+Dialogue: 0,0:28:53.70,0:28:54.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}带着孩子{\r}
+Dialogue: 0,0:28:55.40,0:28:56.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她去哪儿了？{\r}
+Dialogue: 0,0:28:56.40,0:28:58.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}大概是安芬诺夫家的婆子{\r}
+Dialogue: 0,0:28:59.00,0:29:00.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哪会呀 她们一早就走了{\r}
+Dialogue: 0,0:29:00.80,0:29:03.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}要不 是玛丽娅·尼古拉埃夫娜吧？{\r}
+Dialogue: 0,0:29:04.10,0:29:06.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她不是女人 是太太{\r}
+Dialogue: 0,0:29:06.81,0:29:07.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我看就是她们{\r}
+Dialogue: 0,0:29:07.90,0:29:11.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她们看见那群野兽过来 躲花园去了{\r}
+Dialogue: 0,0:29:25.82,0:29:27.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这靴子不错啊{\r}
+Dialogue: 0,0:29:37.84,0:29:39.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}把孩子给她妈{\r}
+Dialogue: 0,0:29:39.80,0:29:41.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你快接过去{\r}
+Dialogue: 0,0:29:44.84,0:29:46.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你放开这姑娘{\r}
+Dialogue: 0,0:29:46.60,0:29:48.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}该死的俄国佬{\r}
+Dialogue: 0,0:30:26.80,0:30:28.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这是怎么回事？{\r}
+Dialogue: 0,0:30:28.60,0:30:29.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}报告中尉{\r}
+Dialogue: 0,0:30:29.80,0:30:32.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 这个人身上带着匕首  - 很好{\r}
+Dialogue: 0,0:30:33.00,0:30:33.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他不像是普通人{\r}
+Dialogue: 0,0:30:34.30,0:30:36.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}看那样子很可能是纵火犯{\r}
+Dialogue: 0,0:30:36.50,0:30:37.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}带走！{\r}
+Dialogue: 0,0:30:37.80,0:30:39.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你们把他抓起来{\r}
+Dialogue: 0,0:30:39.60,0:30:40.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}带走{\r}
+Dialogue: 0,0:30:40.29,0:30:41.79,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}走 快走{\r}
+Dialogue: 0,0:30:42.30,0:30:43.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我说 好心人呐{\r}
+Dialogue: 0,0:30:43.90,0:30:45.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这孩子怎么办呐？{\r}
+Dialogue: 0,0:30:46.20,0:30:47.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她要不是他们家的{\r}
+Dialogue: 0,0:30:47.90,0:30:49.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可把她交给谁呀？{\r}
+Dialogue: 0,0:30:50.00,0:30:51.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这女人要干嘛？{\r}
+Dialogue: 0,0:30:52.90,0:30:56.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}她要干嘛？她抱的是我的女儿{\r}
+Dialogue: 0,0:30:57.30,0:30:58.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我刚从火里救出来{\r}
+Dialogue: 0,0:31:01.00,0:31:02.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}永别了{\r}
+Dialogue: 0,0:31:07.90,0:31:09.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是个纵火犯{\r}
+Dialogue: 0,0:31:09.70,0:31:12.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你跟我们走{\r}
+Dialogue: 0,0:35:05.00,0:35:07.63,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}最仁慈崇德的君主{\r}
+Dialogue: 0,0:35:07.93,0:35:09.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}宏恩的皇帝{\r}
+Dialogue: 0,0:35:10.30,0:35:12.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在彼得堡{\r}
+Dialogue: 0,0:35:12.20,0:35:15.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}沙龙里的生活依然那样平静{\r}
+Dialogue: 0,0:35:15.70,0:35:17.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那样奢华{\r}
+Dialogue: 0,0:35:17.70,0:35:19.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}人们像平常一样{\r}
+Dialogue: 0,0:35:19.40,0:35:22.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}忙于捕捉实际生活的幻影{\r}
+Dialogue: 0,0:35:22.60,0:35:24.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}过着这种生活的人{\r}
+Dialogue: 0,0:35:24.60,0:35:29.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}很难看到俄国人民面临的危险和所处的困境{\r}
+Dialogue: 0,0:35:30.10,0:35:32.01,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}招待会同样地多{\r}
+Dialogue: 0,0:35:32.20,0:35:34.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}舞会照样地开{\r}
+Dialogue: 0,0:35:34.20,0:35:36.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在莎莉娅的沙龙里{\r}
+Dialogue: 0,0:35:36.10,0:35:38.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}今天的头号新闻是{\r}
+Dialogue: 0,0:35:38.20,0:35:41.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}主教向沙皇献上塞尔基圣像时{\r}
+Dialogue: 0,0:35:41.50,0:35:43.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}写给沙皇的一封信{\r}
+Dialogue: 0,0:35:44.70,0:35:48.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}让胆大妄为横行霸道的戈利亚{\r}
+Dialogue: 0,0:35:48.50,0:35:50.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}从法国的边界上{\r}
+Dialogue: 0,0:35:50.60,0:35:53.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}用死亡的恐怖来侵犯{\r}
+Dialogue: 0,0:35:53.40,0:35:56.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我们俄国的国土吧{\r}
+Dialogue: 0,0:35:56.30,0:35:58.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}虔诚的信仰{\r}
+Dialogue: 0,0:35:58.40,0:36:02.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}便是我们俄国大卫的手中的投石器 我痛惜…{\r}
+Dialogue: 0,0:36:03.41,0:36:05.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}彼得堡的另一件新闻{\r}
+Dialogue: 0,0:36:05.41,0:36:08.97,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是爱伦·别祖霍夫伯爵夫人的突然病故{\r}
+Dialogue: 0,0:36:10.70,0:36:13.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我忠心祈祷上天{\r}
+Dialogue: 0,0:36:13.42,0:36:17.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}求全能的主 提拔辅助正义的民族吧{\r}
+Dialogue: 0,0:36:26.30,0:36:27.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}什么人？{\r}
+Dialogue: 0,0:36:34.80,0:36:36.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这人我知道{\r}
+Dialogue: 0,0:36:36.65,0:36:38.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您不可能知道我 将军{\r}
+Dialogue: 0,0:36:39.20,0:36:41.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我从没见过您{\r}
+Dialogue: 0,0:36:44.00,0:36:45.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他是俄国奸细{\r}
+Dialogue: 0,0:36:47.15,0:36:48.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不是 阁下{\r}
+Dialogue: 0,0:36:49.00,0:36:50.34,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您不会认识我{\r}
+Dialogue: 0,0:36:51.00,0:36:52.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我 我是个老百姓{\r}
+Dialogue: 0,0:36:53.00,0:36:54.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}还没离开莫斯科{\r}
+Dialogue: 0,0:36:56.00,0:36:57.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}姓什么？{\r}
+Dialogue: 0,0:37:01.90,0:37:03.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}别祖霍夫{\r}
+Dialogue: 0,0:37:04.80,0:37:06.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}有谁能证明你…{\r}
+Dialogue: 0,0:37:08.00,0:37:10.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不是在说谎呢？{\r}
+Dialogue: 0,0:37:12.10,0:37:13.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}阁下{\r}
+Dialogue: 0,0:37:33.45,0:37:35.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你怎么来向我证明{\r}
+Dialogue: 0,0:37:36.60,0:37:38.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你刚才说的都是真话呢？{\r}
+Dialogue: 0,0:37:39.20,0:37:41.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}十三骑兵团大尉 兰贝尔{\r}
+Dialogue: 0,0:37:42.70,0:37:44.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可以为我作证{\r}
+Dialogue: 0,0:37:48.10,0:37:49.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你是在对我撒谎{\r}
+Dialogue: 0,0:37:50.00,0:37:53.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 阁下  - 阁下 皇帝等您{\r}
+Dialogue: 0,0:38:01.80,0:38:03.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}带下去{\r}
+Dialogue: 0,0:38:13.90,0:38:16.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}阁下 怎么处置他？{\r}
+Dialogue: 0,0:38:16.80,0:38:19.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 带下去  - 是{\r}
+Dialogue: 0,0:38:19.65,0:38:21.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}就这样{\r}
+Dialogue: 0,0:39:07.70,0:39:10.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}噢 要判罪了{\r}
+Dialogue: 0,0:39:25.50,0:39:27.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}1812年9月8日{\r}
+Dialogue: 0,0:39:28.10,0:39:29.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}军事审判委员会{\r}
+Dialogue: 0,0:39:30.10,0:39:31.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}奉皇帝陛下的命令{\r}
+Dialogue: 0,0:39:32.25,0:39:34.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}宣判现有罪犯死刑{\r}
+Dialogue: 0,0:39:35.25,0:39:37.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}立即执行枪决{\r}
+Dialogue: 0,0:39:38.50,0:39:40.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}1812年9月8日{\r}
+Dialogue: 0,0:39:40.60,0:39:42.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}军事审判委员会{\r}
+Dialogue: 0,0:39:42.60,0:39:45.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}奉皇帝陛下的命令{\r}
+Dialogue: 0,0:39:45.25,0:39:47.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}宣判现有罪犯死刑{\r}
+Dialogue: 0,0:39:47.70,0:39:49.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}立即执行枪决{\r}
+Dialogue: 0,0:39:50.20,0:39:52.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}1812年9月8日{\r}
+Dialogue: 0,0:39:52.80,0:39:54.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}军事审判委员会{\r}
+Dialogue: 0,0:39:54.60,0:39:56.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}奉皇帝陛下的命令{\r}
+Dialogue: 0,0:39:56.80,0:39:59.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}宣判现有罪犯死刑{\r}
+Dialogue: 0,0:39:59.20,0:40:01.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}立即执行枪决{\r}
+Dialogue: 0,0:40:12.30,0:40:14.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}真的判我死刑了？{\r}
+Dialogue: 0,0:40:14.30,0:40:17.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我正在回忆 追求 希望和思考{\r}
+Dialogue: 0,0:40:17.80,0:40:20.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}现在 竟然要剥夺我的生命{\r}
+Dialogue: 0,0:40:20.80,0:40:23.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是谁 是谁要这么干？{\r}
+Dialogue: 0,0:40:27.80,0:40:30.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}预备 放{\r}
+Dialogue: 0,0:40:36.10,0:40:38.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}究竟是谁在干这种事？{\r}
+Dialogue: 0,0:40:39.00,0:40:41.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这些人和我一样地受难{\r}
+Dialogue: 0,0:40:41.90,0:40:45.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是谁 是谁 谁在干这种事？{\r}
+Dialogue: 0,0:40:47.30,0:40:50.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不是个人 是一种制度{\r}
+Dialogue: 0,0:40:51.70,0:40:54.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是各种情况的综合{\r}
+Dialogue: 0,0:41:49.90,0:41:51.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}把胖子留下{\r}
+Dialogue: 0,0:41:55.20,0:41:57.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我不去 我不去{\r}
+Dialogue: 0,0:41:59.30,0:42:01.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}呃 我… 我不去{\r}
+Dialogue: 0,0:42:01.40,0:42:03.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不 我不去{\r}
+Dialogue: 0,0:44:40.20,0:44:43.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊 您受了不少罪吧？老爷{\r}
+Dialogue: 0,0:44:44.00,0:44:45.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}别伤心 别伤心{\r}
+Dialogue: 0,0:44:47.80,0:44:51.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}忍耐一阵子 受用一辈子{\r}
+Dialogue: 0,0:44:52.40,0:44:55.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}受点儿罪没啥 我的朋友 啊{\r}
+Dialogue: 0,0:44:55.90,0:44:57.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你是谁？是当兵的？{\r}
+Dialogue: 0,0:44:58.60,0:45:02.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊 我们是阿普歇让团的士兵{\r}
+Dialogue: 0,0:45:03.50,0:45:05.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我发烧 住了院{\r}
+Dialogue: 0,0:45:05.80,0:45:09.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}二十来个伤病员全给他们抓来了{\r}
+Dialogue: 0,0:45:13.10,0:45:15.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}没想到 真没想到啊{\r}
+Dialogue: 0,0:45:24.90,0:45:26.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哎嘿{\r}
+Dialogue: 0,0:45:26.90,0:45:29.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你这个小流浪汉 你也来了？{\r}
+Dialogue: 0,0:45:29.90,0:45:31.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}还记得我？{\r}
+Dialogue: 0,0:45:32.20,0:45:34.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}给您 老爷 吃点儿吧{\r}
+Dialogue: 0,0:45:35.10,0:45:36.55,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}吃饭的时候有汤{\r}
+Dialogue: 0,0:45:36.70,0:45:38.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这土豆我就留下来了{\r}
+Dialogue: 0,0:45:39.50,0:45:41.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哎… 您怎么这么吃啊{\r}
+Dialogue: 0,0:45:42.50,0:45:44.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}得这样{\r}
+Dialogue: 0,0:45:46.10,0:45:47.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}把它切开{\r}
+Dialogue: 0,0:45:49.20,0:45:51.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}对了 就这样{\r}
+Dialogue: 0,0:45:57.40,0:45:58.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}嗯？{\r}
+Dialogue: 0,0:45:58.55,0:46:00.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这土豆还真不赖呢{\r}
+Dialogue: 0,0:46:10.70,0:46:12.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我自己倒没什么{\r}
+Dialogue: 0,0:46:13.40,0:46:14.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可为什么…{\r}
+Dialogue: 0,0:46:14.40,0:46:16.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他们要枪毙那些{\r}
+Dialogue: 0,0:46:16.80,0:46:18.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可怜的人？{\r}
+Dialogue: 0,0:46:18.40,0:46:20.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}最后一个还不到20岁{\r}
+Dialogue: 0,0:46:20.40,0:46:21.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是罪过呀{\r}
+Dialogue: 0,0:46:21.40,0:46:23.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是罪过呀{\r}
+Dialogue: 0,0:46:23.40,0:46:25.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}有审判就有不公道{\r}
+Dialogue: 0,0:46:26.90,0:46:28.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}唉…{\r}
+Dialogue: 0,0:46:37.35,0:46:39.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你来这儿有多久了？{\r}
+Dialogue: 0,0:46:39.20,0:46:43.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我吗？哦 礼拜天打莫斯科一家医院给抓来的{\r}
+Dialogue: 0,0:46:44.30,0:46:45.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}嘿嘿 嘿…{\r}
+Dialogue: 0,0:46:46.10,0:46:49.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我名叫普拉敦 姓卡拉塔耶夫{\r}
+Dialogue: 0,0:46:49.90,0:46:52.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在团里都管我叫小鹰{\r}
+Dialogue: 0,0:46:52.30,0:46:54.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在这儿觉得很不好受吧？{\r}
+Dialogue: 0,0:46:54.50,0:46:57.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊 在这儿怎么能好受呢？{\r}
+Dialogue: 0,0:46:57.40,0:47:01.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}莫斯科 人们管它叫做众城之母啊{\r}
+Dialogue: 0,0:47:01.40,0:47:04.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}看到它成了这样 能好受吗？{\r}
+Dialogue: 0,0:47:05.20,0:47:08.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}没什么！老人不是常说？虫子想吃掉卷心菜{\r}
+Dialogue: 0,0:47:08.70,0:47:10.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可丧命的还是虫子！{\r}
+Dialogue: 0,0:47:10.41,0:47:11.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}什么？你怎么说的？{\r}
+Dialogue: 0,0:47:11.80,0:47:16.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}呃 我 哎 我是说 老天爷有眼 上帝总是公道的{\r}
+Dialogue: 0,0:47:19.70,0:47:22.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}得 我想您准是困了吧？{\r}
+Dialogue: 0,0:47:24.40,0:47:25.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}呃…{\r}
+Dialogue: 0,0:47:25.60,0:47:27.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}小家伙 暖和过来了？{\r}
+Dialogue: 0,0:47:28.30,0:47:32.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}也缓过来了 暖和过来了 啊？嘿嘿{\r}
+Dialogue: 0,0:47:36.70,0:47:40.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}上帝让我睡觉 明天活蹦乱跳{\r}
+Dialogue: 0,0:47:49.20,0:47:52.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}安德烈公爵不仅知道他要死了{\r}
+Dialogue: 0,0:47:53.20,0:47:56.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}而且感觉到他正在死去{\r}
+Dialogue: 0,0:47:57.30,0:47:58.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}感觉到{\r}
+Dialogue: 0,0:47:58.90,0:48:01.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他已经是半死了{\r}
+Dialogue: 0,0:48:02.00,0:48:03.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这是生和死之间{\r}
+Dialogue: 0,0:48:04.20,0:48:08.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}所进行的最后一次搏斗和较量{\r}
+Dialogue: 0,0:48:08.80,0:48:10.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在这次较量中{\r}
+Dialogue: 0,0:48:11.55,0:48:13.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}死亡获得了胜利{\r}
+Dialogue: 0,0:48:15.80,0:48:18.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}安德烈不慌不忙地等待着{\r}
+Dialogue: 0,0:48:19.30,0:48:21.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}等待着那个无情的{\r}
+Dialogue: 0,0:48:21.60,0:48:23.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不可知的{\r}
+Dialogue: 0,0:48:23.30,0:48:24.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}永存的{\r}
+Dialogue: 0,0:48:25.10,0:48:28.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}遥远的东西的到来{\r}
+Dialogue: 0,0:48:30.50,0:48:32.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您没有睡？{\r}
+Dialogue: 0,0:48:41.10,0:48:42.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}没有{\r}
+Dialogue: 0,0:48:44.30,0:48:47.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我看您看了好久了{\r}
+Dialogue: 0,0:48:52.30,0:48:53.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}娜塔莎{\r}
+Dialogue: 0,0:48:57.31,0:49:00.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我实在是太爱您了{\r}
+Dialogue: 0,0:49:02.60,0:49:05.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 超过世间的一切  - 我也是{\r}
+Dialogue: 0,0:49:06.32,0:49:08.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}为什么说“太爱”？{\r}
+Dialogue: 0,0:49:10.90,0:49:12.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}为什么这么说？{\r}
+Dialogue: 0,0:49:28.80,0:49:30.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你是怎么想的？{\r}
+Dialogue: 0,0:49:32.90,0:49:35.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您心里是怎么感觉的？{\r}
+Dialogue: 0,0:49:35.90,0:49:37.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您觉得…{\r}
+Dialogue: 0,0:49:38.91,0:49:42.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您的灵魂觉得…{\r}
+Dialogue: 0,0:49:49.92,0:49:52.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我还能活吗？您是怎么想的？{\r}
+Dialogue: 0,0:49:52.50,0:49:55.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 当然能 当然能！  - 呃 呃…{\r}
+Dialogue: 0,0:50:02.30,0:50:04.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那就太好了{\r}
+Dialogue: 0,0:50:47.30,0:50:49.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不过您得睡觉了{\r}
+Dialogue: 0,0:50:50.80,0:50:52.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}想法子睡一会儿吧{\r}
+Dialogue: 0,0:50:54.70,0:50:56.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我求您{\r}
+Dialogue: 0,0:53:33.00,0:53:35.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是啊 那是死神{\r}
+Dialogue: 0,0:53:36.80,0:53:40.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我死了 又醒过来了{\r}
+Dialogue: 0,0:53:42.10,0:53:46.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是的 死亡就是一种觉醒{\r}
+Dialogue: 0,0:53:53.90,0:53:55.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你好 玛莉娅{\r}
+Dialogue: 0,0:53:59.60,0:54:01.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你怎么来这儿了？{\r}
+Dialogue: 0,0:54:03.90,0:54:06.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}把尼古卢什卡带来了？{\r}
+Dialogue: 0,0:54:45.94,0:54:49.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}为了可怜的尼古卢什卡{\r}
+Dialogue: 0,0:54:53.20,0:54:54.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你可…{\r}
+Dialogue: 0,0:54:54.95,0:54:56.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}别在…{\r}
+Dialogue: 0,0:54:56.95,0:54:58.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这儿哭{\r}
+Dialogue: 0,0:56:41.60,0:56:45.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}假如你真的这么以为{\r}
+Dialogue: 0,0:56:46.30,0:56:49.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是我提出了任何一种形式的讲和{\r}
+Dialogue: 0,0:56:49.40,0:56:52.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那我一定会永远受到后代的诅咒{\r}
+Dialogue: 0,0:56:54.80,0:56:57.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不媾和 这是人民的意志{\r}
+Dialogue: 0,0:57:06.70,0:57:10.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}右转弯 齐步走{\r}
+Dialogue: 0,0:57:11.50,0:57:14.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}注意 保持队形{\r}
+Dialogue: 0,0:57:52.70,0:57:55.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}拿破仑几次派人求和{\r}
+Dialogue: 0,0:57:55.50,0:57:57.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}但他不是得到否定的回答{\r}
+Dialogue: 0,0:57:57.50,0:58:01.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}就是根本得不到任何回答{\r}
+Dialogue: 0,0:58:23.75,0:58:26.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}库图佐夫从心底里感觉到{\r}
+Dialogue: 0,0:58:26.53,0:58:29.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他和全军将士竭尽全力{\r}
+Dialogue: 0,0:58:29.40,0:58:31.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在博罗狄诺给予敌人的打击{\r}
+Dialogue: 0,0:58:32.00,0:58:34.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}应该是致命的打击{\r}
+Dialogue: 0,0:58:34.60,0:58:37.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他对这一点几乎确信无疑{\r}
+Dialogue: 0,0:58:37.90,0:58:41.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}但是 他需要得到证明{\r}
+Dialogue: 0,0:58:45.20,0:58:47.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}多霍特洛夫派人送消息来{\r}
+Dialogue: 0,0:58:51.71,0:58:54.42,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}过来 过来 过来点儿{\r}
+Dialogue: 0,0:58:55.30,0:58:58.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}给我带什么消息来了？啊？{\r}
+Dialogue: 0,0:58:59.60,0:59:02.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}拿破仑退出莫斯科了 是吗？{\r}
+Dialogue: 0,0:59:04.00,0:59:07.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}真的是这样吗？啊？{\r}
+Dialogue: 0,0:59:08.30,0:59:11.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}拿破仑从莫斯科撤退了 大人{\r}
+Dialogue: 0,0:59:12.30,0:59:15.86,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}前卫已经到了法明斯克{\r}
+Dialogue: 0,0:59:38.30,0:59:41.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}主啊 万能的主{\r}
+Dialogue: 0,0:59:43.30,0:59:45.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您听见了我的祈祷{\r}
+Dialogue: 0,0:59:47.30,0:59:49.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}俄罗斯得救了{\r}
+Dialogue: 0,1:01:14.80,1:01:17.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 快让开  - 快让开  - 让开道{\r}
+Dialogue: 0,1:01:18.00,1:01:20.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}快让开{\r}
+Dialogue: 0,1:01:21.00,1:01:22.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}快{\r}
+Dialogue: 0,1:02:04.50,1:02:06.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}嘿 起来！{\r}
+Dialogue: 0,1:02:06.95,1:02:09.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}还要请你吗？快起来 跟上{\r}
+Dialogue: 0,1:02:10.50,1:02:11.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}起来 起来{\r}
+Dialogue: 0,1:02:11.90,1:02:14.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}今晚真倒霉 起来！{\r}
+Dialogue: 0,1:02:48.70,1:02:50.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊{\r}
+Dialogue: 0,1:02:50.44,1:02:51.34,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}它在这儿{\r}
+Dialogue: 0,1:02:51.70,1:02:53.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可是 卡拉塔耶夫…{\r}
+Dialogue: 0,1:03:08.80,1:03:11.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他们就到处找那个老头{\r}
+Dialogue: 0,1:03:11.90,1:03:13.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在哪儿呢？{\r}
+Dialogue: 0,1:03:14.40,1:03:16.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那个受苦可怜的老头{\r}
+Dialogue: 0,1:03:16.60,1:03:18.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他哪儿去了呢？{\r}
+Dialogue: 0,1:03:19.30,1:03:20.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}原来…{\r}
+Dialogue: 0,1:03:20.20,1:03:23.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}原来上帝已经饶恕他了{\r}
+Dialogue: 0,1:03:24.20,1:03:27.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}把他召回去了{\r}
+Dialogue: 0,1:03:38.30,1:03:41.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这就是生命{\r}
+Dialogue: 0,1:03:42.10,1:03:45.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}卡拉塔耶夫是其中的一点{\r}
+Dialogue: 0,1:03:46.20,1:03:48.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}它扩展开来{\r}
+Dialogue: 0,1:03:48.30,1:03:49.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}又消失了{\r}
+Dialogue: 0,1:03:51.20,1:03:53.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}噢 一切如此简单明了{\r}
+Dialogue: 0,1:03:53.70,1:03:56.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}以前 我怎么不明白呢？{\r}
+Dialogue: 0,1:03:56.90,1:03:59.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}生命 就是一切{\r}
+Dialogue: 0,1:04:17.90,1:04:18.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}站住！{\r}
+Dialogue: 0,1:04:19.10,1:04:20.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不许过去{\r}
+Dialogue: 0,1:04:21.20,1:04:22.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}回那边去{\r}
+Dialogue: 0,1:05:09.00,1:05:11.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那士兵不让我过去{\r}
+Dialogue: 0,1:05:12.80,1:05:15.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他们把我抓住{\r}
+Dialogue: 0,1:05:15.95,1:05:17.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}把我关起来{\r}
+Dialogue: 0,1:05:17.50,1:05:19.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他们让我当俘虏{\r}
+Dialogue: 0,1:05:20.10,1:05:21.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}什么？{\r}
+Dialogue: 0,1:05:21.20,1:05:22.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我吗？{\r}
+Dialogue: 0,1:05:22.60,1:05:23.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我吗？!{\r}
+Dialogue: 0,1:05:24.50,1:05:25.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我吗？!!{\r}
+Dialogue: 0,1:05:26.60,1:05:29.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}关住我不朽的灵魂{\r}
+Dialogue: 0,1:05:36.10,1:05:37.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}一切都是我{\r}
+Dialogue: 0,1:05:38.10,1:05:40.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}一切都在我心里{\r}
+Dialogue: 0,1:05:41.20,1:05:44.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那就是我{\r}
+Dialogue: 0,1:05:54.90,1:05:56.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}将军的信{\r}
+Dialogue: 0,1:05:56.60,1:05:58.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}很抱歉 有点儿湿{\r}
+Dialogue: 0,1:05:58.90,1:06:00.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他是俘虏吗？{\r}
+Dialogue: 0,1:06:00.90,1:06:02.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你们打过仗了？{\r}
+Dialogue: 0,1:06:02.40,1:06:03.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}能跟他说话吗？{\r}
+Dialogue: 0,1:06:03.50,1:06:05.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}彼佳 是你呀{\r}
+Dialogue: 0,1:06:05.90,1:06:07.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你干吗不早说呀！{\r}
+Dialogue: 0,1:06:08.50,1:06:10.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}真是 嗯？{\r}
+Dialogue: 0,1:06:10.60,1:06:13.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}对不起 捷尼索夫 能让我在这儿留一天吗？{\r}
+Dialogue: 0,1:06:13.60,1:06:16.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我是奉命来了解情况的{\r}
+Dialogue: 0,1:06:17.80,1:06:20.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不过得让我参加主要的…{\r}
+Dialogue: 0,1:06:20.60,1:06:22.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我不要嘉奖 只要参加{\r}
+Dialogue: 0,1:06:22.60,1:06:24.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}参加主要的{\r}
+Dialogue: 0,1:06:27.89,1:06:29.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}给我一个指挥任务吧{\r}
+Dialogue: 0,1:06:29.60,1:06:32.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}实实在在的指挥 您点个头吧？{\r}
+Dialogue: 0,1:06:34.50,1:06:36.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}您要小刀？{\r}
+Dialogue: 0,1:06:37.10,1:06:38.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}一把好刀啊{\r}
+Dialogue: 0,1:06:38.30,1:06:39.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 那您就留下吧  - 咹？{\r}
+Dialogue: 0,1:06:39.70,1:06:41.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我有好几把呢{\r}
+Dialogue: 0,1:06:41.70,1:06:44.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哎呀 真是 我怎么给忘了！{\r}
+Dialogue: 0,1:06:45.10,1:06:48.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 我还带来一些葡萄干儿呢  - 哦？{\r}
+Dialogue: 0,1:06:49.60,1:06:51.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是没核的{\r}
+Dialogue: 0,1:06:52.90,1:06:54.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我买了十磅呢{\r}
+Dialogue: 0,1:06:55.10,1:06:56.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我喜欢吃甜食{\r}
+Dialogue: 0,1:06:57.10,1:06:59.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 尝尝吧 诸位 尝尝吧  - 啊{\r}
+Dialogue: 0,1:07:01.00,1:07:02.59,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你们需要咖啡壶吗？{\r}
+Dialogue: 0,1:07:02.80,1:07:04.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}随军小贩那儿有卖{\r}
+Dialogue: 0,1:07:04.60,1:07:05.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他有很多好东西{\r}
+Dialogue: 0,1:07:06.10,1:07:08.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他为人也很老实{\r}
+Dialogue: 0,1:07:08.70,1:07:12.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 我一定捎一把来  - 好 好 好{\r}
+Dialogue: 0,1:07:20.71,1:07:23.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}能把抓来的小鼓手叫进来吗？{\r}
+Dialogue: 0,1:07:24.10,1:07:26.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我想给他吃点东西 行吗？{\r}
+Dialogue: 0,1:07:26.40,1:07:28.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}哦 是怪可怜的{\r}
+Dialogue: 0,1:07:29.40,1:07:30.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 让他进来  - 我去叫他{\r}
+Dialogue: 0,1:07:30.80,1:07:33.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}叫他进来吧 他叫文森{\r}
+Dialogue: 0,1:07:35.70,1:07:37.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这太好了{\r}
+Dialogue: 0,1:07:38.60,1:07:40.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}太好了{\r}
+Dialogue: 0,1:07:42.80,1:07:44.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}罗斯托夫家的家风{\r}
+Dialogue: 0,1:07:45.80,1:07:47.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}进去吧{\r}
+Dialogue: 0,1:07:55.80,1:07:57.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}谢谢 先生{\r}
+Dialogue: 0,1:08:05.10,1:08:06.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你们好 先生{\r}
+Dialogue: 0,1:08:30.40,1:08:32.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 谢谢 先生  - 嗯{\r}
+Dialogue: 0,1:08:49.10,1:08:51.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我的伙伴儿 明天能打仗了{\r}
+Dialogue: 0,1:08:52.87,1:08:54.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}干嘛不睡呀 老爷{\r}
+Dialogue: 0,1:08:54.70,1:08:56.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}睡一会儿吧{\r}
+Dialogue: 0,1:08:57.10,1:08:58.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不{\r}
+Dialogue: 0,1:08:58.75,1:09:00.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊 你好像叫利哈乔夫{\r}
+Dialogue: 0,1:09:01.00,1:09:02.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不错{\r}
+Dialogue: 0,1:09:05.80,1:09:07.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我习惯战前不睡觉{\r}
+Dialogue: 0,1:09:08.90,1:09:11.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊 对了 你们枪里的火石用完了？{\r}
+Dialogue: 0,1:09:11.80,1:09:13.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}没用完{\r}
+Dialogue: 0,1:09:13.66,1:09:17.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我带来一些 你要点儿吧 拿点儿去吧{\r}
+Dialogue: 0,1:09:20.40,1:09:21.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我习惯办事要精确{\r}
+Dialogue: 0,1:09:22.10,1:09:24.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}有的人马马虎虎 没准备 净后悔{\r}
+Dialogue: 0,1:09:24.70,1:09:27.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 我可不喜欢  - 一点儿也不错{\r}
+Dialogue: 0,1:09:27.70,1:09:30.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊 有件事 我的好朋友{\r}
+Dialogue: 0,1:09:30.40,1:09:32.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}能帮忙磨一磨吗？{\r}
+Dialogue: 0,1:09:32.30,1:09:34.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这刀有点儿…{\r}
+Dialogue: 0,1:09:34.30,1:09:36.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 你能帮个忙吗？  - 怎么不能呢{\r}
+Dialogue: 0,1:09:41.20,1:09:43.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}弟兄们呢？他们睡了吗？{\r}
+Dialogue: 0,1:09:43.20,1:09:45.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}有的睡了 也有没睡的{\r}
+Dialogue: 0,1:09:51.40,1:09:52.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那法国人呢？{\r}
+Dialogue: 0,1:09:52.90,1:09:54.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那孩子文森？{\r}
+Dialogue: 0,1:09:54.10,1:09:55.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在门廊里 睡得可香了{\r}
+Dialogue: 0,1:09:56.00,1:09:58.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}越是害怕越能睡{\r}
+Dialogue: 0,1:10:59.20,1:11:00.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是啊{\r}
+Dialogue: 0,1:11:00.27,1:11:02.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我是在做梦{\r}
+Dialogue: 0,1:11:02.28,1:11:04.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那是在梦里{\r}
+Dialogue: 0,1:13:15.90,1:13:19.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}磨好了 多快呀 大人{\r}
+Dialogue: 0,1:13:20.30,1:13:23.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}一刀能把法国人劈两半儿{\r}
+Dialogue: 0,1:13:26.10,1:13:29.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我要求你一件事 听我命令 千万不要去乱闯{\r}
+Dialogue: 0,1:13:35.00,1:13:36.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}发信号{\r}
+Dialogue: 0,1:13:41.50,1:13:43.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}啊…{\r}
+Dialogue: 0,1:13:56.00,1:13:58.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}绕过去 等候步兵{\r}
+Dialogue: 0,1:13:59.00,1:13:59.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}等步兵？{\r}
+Dialogue: 0,1:14:00.00,1:14:03.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}冲啊！{\r}
+Dialogue: 0,1:14:58.00,1:14:59.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}完了{\r}
+Dialogue: 0,1:14:59.50,1:15:00.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他死了{\r}
+Dialogue: 0,1:15:01.00,1:15:02.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}彼佳{\r}
+Dialogue: 0,1:15:03.20,1:15:04.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}儿子{\r}
+Dialogue: 0,1:15:05.20,1:15:06.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这不是真的{\r}
+Dialogue: 0,1:15:07.10,1:15:11.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}娜塔莎 娜塔莎 这不可能 不可能{\r}
+Dialogue: 0,1:15:11.60,1:15:14.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你们都走开 这不可能{\r}
+Dialogue: 0,1:15:14.80,1:15:16.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他死了{\r}
+Dialogue: 0,1:15:18.10,1:15:19.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}好妈妈 妈妈{\r}
+Dialogue: 0,1:15:20.50,1:15:22.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 这不可能 不 不  - 亲爱的妈妈{\r}
+Dialogue: 0,1:15:23.10,1:15:24.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 不  - 妈妈  - 不是真的{\r}
+Dialogue: 0,1:15:24.50,1:15:26.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 妈妈  - 不可能{\r}
+Dialogue: 0,1:15:26.35,1:15:27.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不{\r}
+Dialogue: 0,1:15:27.50,1:15:28.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不{\r}
+Dialogue: 0,1:15:28.50,1:15:32.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 妈妈  - 不  - 妈妈  - 不  - 好妈妈  - 不{\r}
+Dialogue: 0,1:15:32.50,1:15:36.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 好妈妈  - 不  - 妈妈{\r}
+Dialogue: 0,1:15:52.10,1:15:54.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}娜塔莎 你爱我吗？{\r}
+Dialogue: 0,1:15:55.40,1:15:58.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}娜塔莎 把实情告诉我吧{\r}
+Dialogue: 0,1:16:01.90,1:16:03.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}噢 不{\r}
+Dialogue: 0,1:16:04.00,1:16:05.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 不  - 妈妈{\r}
+Dialogue: 0,1:16:06.00,1:16:06.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}妈妈{\r}
+Dialogue: 0,1:16:07.20,1:16:08.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}妈妈{\r}
+Dialogue: 0,1:16:09.00,1:16:09.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}妈妈{\r}
+Dialogue: 0,1:16:10.60,1:16:11.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}好妈妈{\r}
+Dialogue: 0,1:17:11.10,1:17:13.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}拿破仑丢下了自己的军队{\r}
+Dialogue: 0,1:17:14.10,1:17:18.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}化名温钦斯基亲王 匆忙逃回巴黎去了{\r}
+Dialogue: 0,1:18:02.70,1:18:03.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}士兵们{\r}
+Dialogue: 0,1:18:04.00,1:18:05.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我向你们许诺的事{\r}
+Dialogue: 0,1:18:05.70,1:18:07.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}一定要兑现{\r}
+Dialogue: 0,1:18:07.60,1:18:10.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我希望你们 能够看到你们的皇帝{\r}
+Dialogue: 0,1:18:10.60,1:18:14.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}享受着世界上头等民族元首的荣耀{\r}
+Dialogue: 0,1:18:16.10,1:18:17.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}士兵们{\r}
+Dialogue: 0,1:18:17.50,1:18:19.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}由于你们的奋战{\r}
+Dialogue: 0,1:18:19.30,1:18:21.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那些企图夺取我皇冠的人{\r}
+Dialogue: 0,1:18:21.90,1:18:25.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}被打得头破血流 落花流水{\r}
+Dialogue: 0,1:18:25.85,1:18:29.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这皇冠是上帝赐予我的{\r}
+Dialogue: 0,1:18:29.50,1:18:31.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}谁要是胆敢来触犯它{\r}
+Dialogue: 0,1:18:31.60,1:18:34.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}绝不会有好下场{\r}
+Dialogue: 0,1:18:34.40,1:18:37.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这就是我们的座右铭{\r}
+Dialogue: 0,1:18:39.00,1:18:40.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}士兵们{\r}
+Dialogue: 0,1:18:40.40,1:18:43.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}现在要求你们的不是保卫边疆{\r}
+Dialogue: 0,1:18:43.40,1:18:47.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}而是把战争推向敌人国土{\r}
+Dialogue: 0,1:18:48.10,1:18:49.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}士兵们{\r}
+Dialogue: 0,1:18:49.40,1:18:51.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}当我提出给法兰西民族{\r}
+Dialogue: 0,1:18:51.50,1:18:53.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}以和平的保证的时候{\r}
+Dialogue: 0,1:18:53.90,1:18:56.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我是代表着你们的意愿的{\r}
+Dialogue: 0,1:18:56.70,1:19:00.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是你们 征服了荷兰 莱茵 意大利{\r}
+Dialogue: 0,1:19:01.00,1:19:04.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在维也纳城下迫使敌人媾和{\r}
+Dialogue: 0,1:19:06.40,1:19:07.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}士兵们{\r}
+Dialogue: 0,1:19:07.70,1:19:11.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你们都希望光荣体面地返回祖国{\r}
+Dialogue: 0,1:19:11.60,1:19:13.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我们一定要通过凯旋门{\r}
+Dialogue: 0,1:19:14.10,1:19:16.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}踏上自己的国土{\r}
+Dialogue: 0,1:19:18.20,1:19:19.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}士兵们{\r}
+Dialogue: 0,1:19:19.50,1:19:21.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这就是你们期望已久的会战{\r}
+Dialogue: 0,1:19:22.50,1:19:25.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}取得胜利 靠的是你们{\r}
+Dialogue: 0,1:19:25.70,1:19:29.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}胜利 会使我军要什么有什么{\r}
+Dialogue: 0,1:19:29.40,1:19:32.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}会使我军尽早地返回祖国{\r}
+Dialogue: 0,1:19:33.00,1:19:36.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}就像在奥斯特里茨 弗里德兰{\r}
+Dialogue: 0,1:19:36.20,1:19:40.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}维捷布斯克 和斯摩棱斯克那样作战吧{\r}
+Dialogue: 0,1:19:41.00,1:19:43.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}让你们的子孙为你们骄傲{\r}
+Dialogue: 0,1:19:44.00,1:19:47.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}让他们以 他们的先辈参加过{\r}
+Dialogue: 0,1:19:47.70,1:19:52.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}莫斯科前的博罗狄诺会战 而引以为荣吧{\r}
+Dialogue: 0,1:21:01.50,1:21:04.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这个民族做得很正确{\r}
+Dialogue: 0,1:21:05.00,1:21:07.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在生死存亡的紧要关头{\r}
+Dialogue: 0,1:21:07.30,1:21:09.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他们没有理会别的民族{\r}
+Dialogue: 0,1:21:09.80,1:21:13.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}在这种情况下究竟会怎么去干{\r}
+Dialogue: 0,1:21:13.50,1:21:17.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他们只是操起身边最容易找到的大棒{\r}
+Dialogue: 0,1:21:17.50,1:21:21.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}不管三七二十一狠狠打了起来{\r}
+Dialogue: 0,1:21:21.50,1:21:26.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}一直打到因受到侮辱而产生的复仇心理{\r}
+Dialogue: 0,1:21:26.40,1:21:30.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}变成对敌人的轻蔑和怜悯为止{\r}
+Dialogue: 0,1:21:56.10,1:21:58.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他说是兰贝尔大尉的传令兵{\r}
+Dialogue: 0,1:21:58.40,1:22:00.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那个大尉可冻坏了{\r}
+Dialogue: 0,1:22:01.40,1:22:02.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}是军官？{\r}
+Dialogue: 0,1:22:02.60,1:22:04.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}带到团长屋里去吧{\r}
+Dialogue: 0,1:22:08.70,1:22:10.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}噢 朋友{\r}
+Dialogue: 0,1:22:11.20,1:22:12.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}噢 好心人{\r}
+Dialogue: 0,1:22:14.50,1:22:16.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}好心的朋友{\r}
+Dialogue: 0,1:22:16.50,1:22:20.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你们真是好人呐{\r}
+Dialogue: 0,1:22:26.50,1:22:29.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}- 喝 喝吧  - 喝吧 没关系{\r}
+Dialogue: 0,1:22:37.00,1:22:39.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}好 好 好{\r}
+Dialogue: 0,1:22:55.80,1:22:58.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}再来 再来 教教我 我跟你学 啊{\r}
+Dialogue: 0,1:23:06.50,1:23:07.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}再唱 再唱{\r}
+Dialogue: 0,1:24:34.80,1:24:36.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}都是人嘛{\r}
+Dialogue: 0,1:24:36.40,1:24:39.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}就是艾草 离开了根子也活不了{\r}
+Dialogue: 0,1:24:39.90,1:24:42.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}瞧 满天的星星{\r}
+Dialogue: 0,1:24:42.80,1:24:44.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}今晚星星可真密啊{\r}
+Dialogue: 0,1:24:44.90,1:24:48.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}看来今年可是个好年头啊{\r}
+Dialogue: 0,1:25:24.80,1:25:27.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}让他们头朝下{\r}
+Dialogue: 0,1:25:27.90,1:25:30.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}低一点儿 低一点儿{\r}
+Dialogue: 0,1:25:33.90,1:25:35.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这就对了{\r}
+Dialogue: 0,1:25:35.90,1:25:38.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}呜拉 弟兄们{\r}
+Dialogue: 0,1:25:45.20,1:25:49.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你们忠心耿耿 保卫祖国{\r}
+Dialogue: 0,1:25:50.20,1:25:52.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我谢谢大家了{\r}
+Dialogue: 0,1:25:55.40,1:25:56.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}现在我们{\r}
+Dialogue: 0,1:25:57.30,1:25:59.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}得到了胜利了{\r}
+Dialogue: 0,1:25:59.90,1:26:02.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}俄罗斯不会忘记你们{\r}
+Dialogue: 0,1:26:03.70,1:26:05.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}光荣属于你们{\r}
+Dialogue: 0,1:26:20.70,1:26:22.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我的弟兄们{\r}
+Dialogue: 0,1:26:23.70,1:26:25.18,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我知道你们很苦{\r}
+Dialogue: 0,1:26:26.10,1:26:27.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可是没法子{\r}
+Dialogue: 0,1:26:28.60,1:26:30.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}再忍一忍 等把客人送走了{\r}
+Dialogue: 0,1:26:31.09,1:26:33.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}咱们好好地歇一歇{\r}
+Dialogue: 0,1:26:33.60,1:26:35.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}你们虽然苦{\r}
+Dialogue: 0,1:26:35.60,1:26:39.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可毕竟是在自己的家里呀{\r}
+Dialogue: 0,1:26:43.00,1:26:44.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他们呢？{\r}
+Dialogue: 0,1:26:45.70,1:26:47.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}看看他们到了什么地步{\r}
+Dialogue: 0,1:26:48.70,1:26:50.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他们还不如那些叫化子{\r}
+Dialogue: 0,1:26:52.10,1:26:55.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他们神气那会儿 咱们可没孬种{\r}
+Dialogue: 0,1:26:56.10,1:26:57.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可现在{\r}
+Dialogue: 0,1:26:58.10,1:27:00.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}咱们倒该可怜他们了{\r}
+Dialogue: 0,1:27:01.90,1:27:03.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他们也是人嘛{\r}
+Dialogue: 0,1:27:03.90,1:27:06.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}对吗？弟兄们{\r}
+Dialogue: 0,1:27:13.40,1:27:15.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可话又说回来了{\r}
+Dialogue: 0,1:27:15.50,1:27:17.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}谁请他们来了？{\r}
+Dialogue: 0,1:27:18.10,1:27:19.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}这些个畜牲{\r}
+Dialogue: 0,1:27:20.10,1:27:23.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他们啦 他们活该{\r}
+Dialogue: 0,1:28:00.50,1:28:02.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}彼埃尔通过亲身经历{\r}
+Dialogue: 0,1:28:03.10,1:28:04.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}全身心地体会到{\r}
+Dialogue: 0,1:28:05.15,1:28:08.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}人生在世 应当追求幸福{\r}
+Dialogue: 0,1:28:09.55,1:28:11.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}他满怀喜悦地发现{\r}
+Dialogue: 0,1:28:11.80,1:28:14.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}生活是千变万化的{\r}
+Dialogue: 0,1:28:14.70,1:28:18.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}生活是伟大的 不可思议的{\r}
+Dialogue: 0,1:28:18.70,1:28:21.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}生活是永无止境的{\r}
+Dialogue: 0,1:28:44.80,1:28:48.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}呃 这么说 我们又见面了{\r}
+Dialogue: 0,1:28:49.80,1:28:51.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}安德烈在临终前{\r}
+Dialogue: 0,1:28:51.50,1:28:53.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}还时常对我们谈起您呢{\r}
+Dialogue: 0,1:28:55.81,1:28:59.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}听说您平安无事 我感到很高兴{\r}
+Dialogue: 0,1:28:59.81,1:29:02.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我们好久以来都没有听到这样的好消息了{\r}
+Dialogue: 0,1:29:02.81,1:29:04.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}关于安德烈的事{\r}
+Dialogue: 0,1:29:04.50,1:29:06.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我实在一点儿也不知道{\r}
+Dialogue: 0,1:29:06.80,1:29:08.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我以为他阵亡了{\r}
+Dialogue: 0,1:29:09.90,1:29:12.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}后来我才间接听到{\r}
+Dialogue: 0,1:29:13.80,1:29:15.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}关于他的确切消息{\r}
+Dialogue: 0,1:29:16.60,1:29:19.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}听说最后他碰上了娜塔莎{\r}
+Dialogue: 0,1:29:20.70,1:29:22.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}真是巧遇{\r}
+Dialogue: 0,1:29:25.80,1:29:28.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}难道您没认出是娜塔莎？{\r}
+Dialogue: 0,1:29:58.00,1:30:00.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}假如 我不是我{\r}
+Dialogue: 0,1:30:00.60,1:30:05.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}而是世界上最漂亮 最聪明 最完美的人{\r}
+Dialogue: 0,1:30:06.30,1:30:08.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}假如我有自由{\r}
+Dialogue: 0,1:30:08.50,1:30:11.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我会马上跪下来向您求婚{\r}
+Dialogue: 0,1:30:11.25,1:30:12.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}会对您说{\r}
+Dialogue: 0,1:30:13.25,1:30:15.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我真心地爱你{\r}
+Dialogue: 0,1:31:11.50,1:31:15.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}全世界万万岁{\r}
+Dialogue: 0,1:31:33.25,1:31:35.35,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}让一切善良的人{\r}
+Dialogue: 0,1:31:35.55,1:31:37.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}手挽手地走在一起吧{\r}
+Dialogue: 0,1:31:38.25,1:31:40.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}让他们举起真善美的旗帜{\r}
+Dialogue: 0,1:31:40.85,1:31:44.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}共同为这世界谋求幸福吧{\r}
+Dialogue: 0,1:31:51.40,1:31:54.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那些产生巨大影响的思想{\r}
+Dialogue: 0,1:31:54.40,1:31:57.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}往往是极其朴素的{\r}
+Dialogue: 0,1:31:57.40,1:31:59.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}我的全部思想无非是{\r}
+Dialogue: 0,1:31:59.40,1:32:02.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}如果那些不道德的人聚集在一起{\r}
+Dialogue: 0,1:32:02.41,1:32:05.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}可以形成一股力量的话{\r}
+Dialogue: 0,1:32:05.30,1:32:09.01,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}那么正直的人 也应该这样去做{\r}
+Dialogue: 0,1:32:09.40,1:32:12.98,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}道理 就这样简单{\r}
+Dialogue: 0,1:32:23.60,1:32:27.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,282)\3c&H804000&}=== 全 剧 终 ==={\r}
+

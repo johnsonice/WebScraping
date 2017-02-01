@@ -1,0 +1,1823 @@
+﻿[Script Info]
+;SrtEdit 6.2.2012.322
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: eng,FZHei-B01S,11,&H0046F0F4,&HF0000000,&H00000000,&H80000000,0,0,0,0,100,100,0,0,0,1,1,2,20,20,3,134
+Style: chi,STKaiti,21,&H00E0E0E0,&HF0000000,&H00000000,&H80000000,0,0,0,0,100,100,0,0,0,1,0,2,20,20,2,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:19.88,0:02:22.88,eng,,0000,0000,0000,,I hate this place.
+Dialogue: 0,0:02:19.88,0:02:22.88,chi,,0000,0000,0000,,我厌恶这个地方
+Dialogue: 0,0:03:30.81,0:03:33.81,eng,,0000,0000,0000,,Water?
+Dialogue: 0,0:03:30.81,0:03:33.81,chi,,0000,0000,0000,,是水？
+Dialogue: 0,0:03:35.32,0:03:36.68,eng,,0000,0000,0000,,Water.
+Dialogue: 0,0:03:35.32,0:03:36.68,chi,,0000,0000,0000,,水
+Dialogue: 0,0:03:36.68,0:03:39.68,eng,,0000,0000,0000,,Water.
+Dialogue: 0,0:03:36.68,0:03:39.68,chi,,0000,0000,0000,,水
+Dialogue: 0,0:03:39.88,0:03:42.88,eng,,0000,0000,0000,,Water!
+Dialogue: 0,0:03:39.88,0:03:42.88,chi,,0000,0000,0000,,水！
+Dialogue: 0,0:04:38.32,0:04:41.32,eng,,0000,0000,0000,,Now that is sick.
+Dialogue: 0,0:04:38.32,0:04:41.32,chi,,0000,0000,0000,,真是令人感到恶心
+Dialogue: 0,0:04:46.12,0:04:49.59,eng,,0000,0000,0000,,- Are you watching this? - No, Thanks. I don't look any more.
+Dialogue: 0,0:04:46.12,0:04:49.59,chi,,0000,0000,0000,,- 这个你看了没有？ - 不 我不想再看了
+Dialogue: 0,0:05:05.90,0:05:09.02,eng,,0000,0000,0000,,We've seen a lot of... But this is just...
+Dialogue: 0,0:05:05.90,0:05:09.02,chi,,0000,0000,0000,,我们看了不少了    但
+Dialogue: 0,0:05:10.14,0:05:13.14,eng,,0000,0000,0000,,Oh, dear God!
+Dialogue: 0,0:05:10.14,0:05:13.14,chi,,0000,0000,0000,,噢 我的天！
+Dialogue: 0,0:06:16.12,0:06:18.98,eng,,0000,0000,0000,,Wow...
+Dialogue: 0,0:06:16.12,0:06:18.98,chi,,0000,0000,0000,,哇
+Dialogue: 0,0:06:18.98,0:06:21.98,eng,,0000,0000,0000,,You know you shouldn't be looking at the files.
+Dialogue: 0,0:06:18.98,0:06:21.98,chi,,0000,0000,0000,,你应该明白你不该看这些文件的
+Dialogue: 0,0:06:22.38,0:06:25.38,eng,,0000,0000,0000,,- It's not against the rules. - But it's not encouraged.
+Dialogue: 0,0:06:22.38,0:06:25.38,chi,,0000,0000,0000,,- 这又没有违反规定 - 但是不提倡这么错
+Dialogue: 0,0:06:25.98,0:06:28.98,eng,,0000,0000,0000,,- Come on man, we've all... - It's not encouraged.
+Dialogue: 0,0:06:25.98,0:06:28.98,chi,,0000,0000,0000,,- 行了 老兄 我们已经    - 这种事我们不提倡
+Dialogue: 0,0:06:33.74,0:06:36.74,eng,,0000,0000,0000,,Okay.
+Dialogue: 0,0:06:33.74,0:06:36.74,chi,,0000,0000,0000,,好吧
+Dialogue: 0,0:08:08.02,0:08:10.46,eng,,0000,0000,0000,,Okay, screw this.
+Dialogue: 0,0:08:08.02,0:08:10.46,chi,,0000,0000,0000,,好的 看这招
+Dialogue: 0,0:08:10.76,0:08:14.47,eng,,0000,0000,0000,,- Pawn to King 2. - Knight to Queen's Bishop 6.
+Dialogue: 0,0:08:10.76,0:08:14.47,chi,,0000,0000,0000,,- 帅2进卒 - 皇后移6 将军
+Dialogue: 0,0:08:15.00,0:08:18.00,eng,,0000,0000,0000,,- Check. - What?
+Dialogue: 0,0:08:15.00,0:08:18.00,chi,,0000,0000,0000,,- 就这样走 - 什么？
+Dialogue: 0,0:08:18.88,0:08:21.88,eng,,0000,0000,0000,,I didn't even see that.
+Dialogue: 0,0:08:18.88,0:08:21.88,chi,,0000,0000,0000,,我都没看
+Dialogue: 0,0:08:27.08,0:08:31.76,eng,,0000,0000,0000,,I was just wondering... When is Chickliss coming back?
+Dialogue: 0,0:08:27.08,0:08:31.76,chi,,0000,0000,0000,,我只是想知道    查克斯什么时候回来？
+Dialogue: 0,0:08:32.92,0:08:36.39,eng,,0000,0000,0000,,Some time this week. Probably all suntanned, the prick.
+Dialogue: 0,0:08:32.92,0:08:36.39,chi,,0000,0000,0000,,也许这周 或许他已经被晒黑了
+Dialogue: 0,0:08:39.48,0:08:42.28,eng,,0000,0000,0000,,Let's see...
+Dialogue: 0,0:08:39.48,0:08:42.28,chi,,0000,0000,0000,,让我想想看
+Dialogue: 0,0:08:42.28,0:08:45.28,eng,,0000,0000,0000,,King to King's Bishop 8.
+Dialogue: 0,0:08:42.28,0:08:45.28,chi,,0000,0000,0000,,帅进相移8
+Dialogue: 0,0:08:45.68,0:08:48.28,eng,,0000,0000,0000,,Rook takes Queen. Check.
+Dialogue: 0,0:08:45.68,0:08:48.28,chi,,0000,0000,0000,,车吃皇后 将军
+Dialogue: 0,0:08:48.28,0:08:51.28,eng,,0000,0000,0000,,Dammit.
+Dialogue: 0,0:08:48.28,0:08:51.28,chi,,0000,0000,0000,,该死的
+Dialogue: 0,0:08:51.64,0:08:53.44,eng,,0000,0000,0000,,Damn!
+Dialogue: 0,0:08:51.64,0:08:53.44,chi,,0000,0000,0000,,完了！
+Dialogue: 0,0:08:53.94,0:08:56.94,eng,,0000,0000,0000,,- Sorry. - Shut up I don't need your sympathy.
+Dialogue: 0,0:08:53.94,0:08:56.94,chi,,0000,0000,0000,,- 不好意思 - 闭嘴 我不用你同情
+Dialogue: 0,0:09:00.02,0:09:03.02,eng,,0000,0000,0000,,And Owen?
+Dialogue: 0,0:09:00.02,0:09:03.02,chi,,0000,0000,0000,,还有欧文呢？
+Dialogue: 0,0:09:08.56,0:09:11.40,eng,,0000,0000,0000,,- Where is Owen? - You're trying to psych me out or what?
+Dialogue: 0,0:09:08.56,0:09:11.40,chi,,0000,0000,0000,,- 欧文去哪里了？ - 你是不是故意扰乱我的思维？
+Dialogue: 0,0:09:11.40,0:09:14.40,eng,,0000,0000,0000,,I can't hear myself think.
+Dialogue: 0,0:09:11.40,0:09:14.40,chi,,0000,0000,0000,,我的思路全被你打断了
+Dialogue: 0,0:09:17.48,0:09:19.28,eng,,0000,0000,0000,,Owen is...
+Dialogue: 0,0:09:17.48,0:09:19.28,chi,,0000,0000,0000,,欧文
+Dialogue: 0,0:09:19.28,0:09:22.59,eng,,0000,0000,0000,,Owen is probably out sick again. That would be my best guess.
+Dialogue: 0,0:09:19.28,0:09:22.59,chi,,0000,0000,0000,,欧文肯定是又出去吐了 我可以肯定
+Dialogue: 0,0:09:25.04,0:09:28.00,eng,,0000,0000,0000,,You sure?
+Dialogue: 0,0:09:25.04,0:09:28.00,chi,,0000,0000,0000,,你确定？
+Dialogue: 0,0:09:28.00,0:09:31.00,eng,,0000,0000,0000,,Yes.
+Dialogue: 0,0:09:28.00,0:09:31.00,chi,,0000,0000,0000,,是的
+Dialogue: 0,0:09:34.88,0:09:37.04,eng,,0000,0000,0000,,Yes!
+Dialogue: 0,0:09:34.88,0:09:37.04,chi,,0000,0000,0000,,太棒了！
+Dialogue: 0,0:09:37.94,0:09:42.02,eng,,0000,0000,0000,,Despite your rather transparent tactics, Brainman, prepare to die.
+Dialogue: 0,0:09:37.94,0:09:42.02,chi,,0000,0000,0000,,尽管你的战术很精明 但是 聪明人准备受死吧
+Dialogue: 0,0:09:43.26,0:09:46.26,eng,,0000,0000,0000,,Bishop to Queen's Knight 7. Checkski!
+Dialogue: 0,0:09:43.26,0:09:46.26,chi,,0000,0000,0000,,主教移7至皇后 将军！
+Dialogue: 0,0:09:46.82,0:09:50.05,eng,,0000,0000,0000,,Queen takes Bishop. I believe that's Checkski-Mateski.
+Dialogue: 0,0:09:46.82,0:09:50.05,chi,,0000,0000,0000,,皇后吃主教 我想这样就平局了
+Dialogue: 0,0:09:50.22,0:09:52.58,eng,,0000,0000,0000,,What? No way.
+Dialogue: 0,0:09:50.22,0:09:52.58,chi,,0000,0000,0000,,什么？没门
+Dialogue: 0,0:09:52.78,0:09:55.78,eng,,0000,0000,0000,,Ah come on, how did you...?
+Dialogue: 0,0:09:52.78,0:09:55.78,chi,,0000,0000,0000,,过来 你是如何   ？
+Dialogue: 0,0:09:56.50,0:09:59.50,eng,,0000,0000,0000,,You freak of nature!
+Dialogue: 0,0:09:56.50,0:09:59.50,chi,,0000,0000,0000,,你这天生的怪物！
+Dialogue: 0,0:10:10.60,0:10:13.60,eng,,0000,0000,0000,,You know the other night I heard some noise.
+Dialogue: 0,0:10:10.60,0:10:13.60,chi,,0000,0000,0000,,你知道吗？ 这两天我半夜听到一些声响
+Dialogue: 0,0:10:14.36,0:10:16.64,eng,,0000,0000,0000,,- Noise? - Yeah.
+Dialogue: 0,0:10:14.36,0:10:16.64,chi,,0000,0000,0000,,- 声音？ - 是的
+Dialogue: 0,0:10:16.64,0:10:19.64,eng,,0000,0000,0000,,In Owen's room, like a... like a scuffle.
+Dialogue: 0,0:10:16.64,0:10:19.64,chi,,0000,0000,0000,,就在欧文的房间 好像是    在进行混战
+Dialogue: 0,0:10:20.36,0:10:23.36,eng,,0000,0000,0000,,- Really? - Yeah.
+Dialogue: 0,0:10:20.36,0:10:23.36,chi,,0000,0000,0000,,- 真的？ - 是的
+Dialogue: 0,0:10:24.76,0:10:26.84,eng,,0000,0000,0000,,- You don't think that...? - You dreamt it.
+Dialogue: 0,0:10:24.76,0:10:26.84,chi,,0000,0000,0000,,- 你不认为那应该是   ？ - 你是在做梦吧？
+Dialogue: 0,0:10:26.84,0:10:29.88,eng,,0000,0000,0000,,- No, look... - You dreamt it.
+Dialogue: 0,0:10:26.84,0:10:29.88,chi,,0000,0000,0000,,- 不是的 你听着    - 你在做梦
+Dialogue: 0,0:10:30.68,0:10:33.68,eng,,0000,0000,0000,,You're always complaining about your nightmares.
+Dialogue: 0,0:10:30.68,0:10:33.68,chi,,0000,0000,0000,,你总是抱怨你做的那些恶梦
+Dialogue: 0,0:10:38.84,0:10:41.84,eng,,0000,0000,0000,,They come for you at night.
+Dialogue: 0,0:10:38.84,0:10:41.84,chi,,0000,0000,0000,,他们晚上会来找你的
+Dialogue: 0,0:10:42.00,0:10:44.28,eng,,0000,0000,0000,,What?
+Dialogue: 0,0:10:42.00,0:10:44.28,chi,,0000,0000,0000,,什么？
+Dialogue: 0,0:10:44.28,0:10:47.28,eng,,0000,0000,0000,,- They come for you at night. - Who does?
+Dialogue: 0,0:10:44.28,0:10:47.28,chi,,0000,0000,0000,,- 他们晚上会来找你的 - 是谁？
+Dialogue: 0,0:10:47.52,0:10:50.40,eng,,0000,0000,0000,,They do.
+Dialogue: 0,0:10:47.52,0:10:50.40,chi,,0000,0000,0000,,就是他们
+Dialogue: 0,0:10:50.90,0:10:52.06,eng,,0000,0000,0000,,- Drop it. - They do.
+Dialogue: 0,0:10:50.90,0:10:52.06,chi,,0000,0000,0000,,- 够了 - 就是他们了
+Dialogue: 0,0:10:52.06,0:10:53.82,eng,,0000,0000,0000,,Enough!
+Dialogue: 0,0:10:52.06,0:10:53.82,chi,,0000,0000,0000,,我说够了！
+Dialogue: 0,0:10:53.82,0:10:56.82,eng,,0000,0000,0000,,What are you suicidal?
+Dialogue: 0,0:10:53.82,0:10:56.82,chi,,0000,0000,0000,,你想自取灭亡吗？
+Dialogue: 0,0:11:21.42,0:11:25.42,eng,,0000,0000,0000,,Good. They didn't forget lunch this time.
+Dialogue: 0,0:11:21.42,0:11:25.42,chi,,0000,0000,0000,,还好 还没有忘了给我们送午饭
+Dialogue: 0,0:11:30.02,0:11:32.86,eng,,0000,0000,0000,,Goat cheese salad with ginseng,
+Dialogue: 0,0:11:30.02,0:11:32.86,chi,,0000,0000,0000,,羊奶酪拌人参色拉
+Dialogue: 0,0:11:32.86,0:11:37.05,eng,,0000,0000,0000,,liver fricasée and mango sorbet. Eeewh.
+Dialogue: 0,0:11:32.86,0:11:37.05,chi,,0000,0000,0000,,猪肝和芒果雪糕
+Dialogue: 0,0:11:39.04,0:11:42.04,eng,,0000,0000,0000,,Must be you.
+Dialogue: 0,0:11:39.04,0:11:42.04,chi,,0000,0000,0000,,是你的
+Dialogue: 0,0:11:43.62,0:11:46.97,eng,,0000,0000,0000,,Steak frites. That's me.
+Dialogue: 0,0:11:43.62,0:11:46.97,chi,,0000,0000,0000,,烤牛排 这是我的
+Dialogue: 0,0:11:47.58,0:11:48.46,eng,,0000,0000,0000,,Hey!
+Dialogue: 0,0:11:47.58,0:11:48.46,chi,,0000,0000,0000,,嗨！
+Dialogue: 0,0:11:48.46,0:11:51.46,eng,,0000,0000,0000,,Wha..? Oh! Sorry.
+Dialogue: 0,0:11:48.46,0:11:51.46,chi,,0000,0000,0000,,怎么了？ 哦！对不起
+Dialogue: 0,0:11:52.80,0:11:55.64,eng,,0000,0000,0000,,Bless us our Lord for these thy gifts which we're about to receive,
+Dialogue: 0,0:11:52.80,0:11:55.64,chi,,0000,0000,0000,,感谢主赐予我们的食物
+Dialogue: 0,0:11:55.64,0:11:58.32,eng,,0000,0000,0000,,from thy bounty through you, Lord. Amen.
+Dialogue: 0,0:11:55.64,0:11:58.32,chi,,0000,0000,0000,,感谢主的仁慈 阿门
+Dialogue: 0,0:11:58.32,0:12:00.28,eng,,0000,0000,0000,,Amen.
+Dialogue: 0,0:11:58.32,0:12:00.28,chi,,0000,0000,0000,,阿门
+Dialogue: 0,0:12:00.28,0:12:03.28,eng,,0000,0000,0000,,Down the hatch.
+Dialogue: 0,0:12:00.28,0:12:03.28,chi,,0000,0000,0000,,可以吃了
+Dialogue: 0,0:12:13.32,0:12:17.00,eng,,0000,0000,0000,,"Please record REMsleeper in room 17 24 09".
+Dialogue: 0,0:12:13.32,0:12:17.00,chi,,0000,0000,0000,,"请记录17 24 09房间的REM参与者"
+Dialogue: 0,0:12:17.64,0:12:20.64,eng,,0000,0000,0000,,Let's go.
+Dialogue: 0,0:12:17.64,0:12:20.64,chi,,0000,0000,0000,,开始吧
+Dialogue: 0,0:12:26.48,0:12:30.19,eng,,0000,0000,0000,,Okay. Zooming out of 06, 12, 21.
+Dialogue: 0,0:12:26.48,0:12:30.19,chi,,0000,0000,0000,,好的 缩小06  12  21
+Dialogue: 0,0:12:30.80,0:12:35.35,eng,,0000,0000,0000,,And zooming in to 17, 24, 9.
+Dialogue: 0,0:12:30.80,0:12:35.35,chi,,0000,0000,0000,,然后放大17  24  9
+Dialogue: 0,0:12:36.52,0:12:39.99,eng,,0000,0000,0000,,Here we go. Hot-patching gear works
+Dialogue: 0,0:12:36.52,0:12:39.99,chi,,0000,0000,0000,,我们开始了 开动热力齿轮
+Dialogue: 0,0:12:40.32,0:12:42.96,eng,,0000,0000,0000,,and flipping to REM reader mode.
+Dialogue: 0,0:12:40.32,0:12:42.96,chi,,0000,0000,0000,,调整为读取REM的模式
+Dialogue: 0,0:12:42.96,0:12:46.75,eng,,0000,0000,0000,,Locating subject. Subject located.
+Dialogue: 0,0:12:42.96,0:12:46.75,chi,,0000,0000,0000,,查找目标 目标锁定
+Dialogue: 0,0:12:47.40,0:12:50.40,eng,,0000,0000,0000,,Zooming in.
+Dialogue: 0,0:12:47.40,0:12:50.40,chi,,0000,0000,0000,,放大
+Dialogue: 0,0:12:54.36,0:12:57.32,eng,,0000,0000,0000,,Wow...
+Dialogue: 0,0:12:54.36,0:12:57.32,chi,,0000,0000,0000,,哇
+Dialogue: 0,0:12:57.32,0:12:59.48,eng,,0000,0000,0000,,Keep your tongue in your mouth, Brainman. We're on the clock.
+Dialogue: 0,0:12:57.32,0:12:59.48,chi,,0000,0000,0000,,闭上你的嘴 时间紧迫
+Dialogue: 0,0:12:59.48,0:13:02.48,eng,,0000,0000,0000,,Are we locked?
+Dialogue: 0,0:12:59.48,0:13:02.48,chi,,0000,0000,0000,,锁定了吗？
+Dialogue: 0,0:13:02.48,0:13:05.48,eng,,0000,0000,0000,,Sorry. Locked on.
+Dialogue: 0,0:13:02.48,0:13:05.48,chi,,0000,0000,0000,,对不起 已经锁定
+Dialogue: 0,0:13:05.52,0:13:08.52,eng,,0000,0000,0000,,Thank you. Arm extension, Go.
+Dialogue: 0,0:13:05.52,0:13:08.52,chi,,0000,0000,0000,,谢谢 机械装置启动 开始
+Dialogue: 0,0:13:18.92,0:13:21.92,eng,,0000,0000,0000,,Calibrating...
+Dialogue: 0,0:13:18.92,0:13:21.92,chi,,0000,0000,0000,,校准
+Dialogue: 0,0:13:22.80,0:13:25.80,eng,,0000,0000,0000,,- Steady. - I got it, I got it.
+Dialogue: 0,0:13:22.80,0:13:25.80,chi,,0000,0000,0000,,- 固定 - 没问题 完成了
+Dialogue: 0,0:13:27.76,0:13:30.76,eng,,0000,0000,0000,,Light her up.
+Dialogue: 0,0:13:27.76,0:13:30.76,chi,,0000,0000,0000,,让他醒过来
+Dialogue: 0,0:13:34.89,0:13:38.65,eng,,0000,0000,0000,,Interscan is locked. Commencing REM read.
+Dialogue: 0,0:13:34.89,0:13:38.65,chi,,0000,0000,0000,,内部扫描锁定 开始读取REM
+Dialogue: 0,0:14:05.05,0:14:08.05,eng,,0000,0000,0000,,Mommy!
+Dialogue: 0,0:14:05.05,0:14:08.05,chi,,0000,0000,0000,,妈咪！
+Dialogue: 0,0:14:08.57,0:14:10.53,eng,,0000,0000,0000,,Mommy Help!
+Dialogue: 0,0:14:08.57,0:14:10.53,chi,,0000,0000,0000,,妈咪 救命！
+Dialogue: 0,0:14:10.53,0:14:13.41,eng,,0000,0000,0000,,Anna!
+Dialogue: 0,0:14:10.53,0:14:13.41,chi,,0000,0000,0000,,安娜！
+Dialogue: 0,0:14:13.41,0:14:16.41,eng,,0000,0000,0000,,No! No!
+Dialogue: 0,0:14:13.41,0:14:16.41,chi,,0000,0000,0000,,不！不要！
+Dialogue: 0,0:14:48.41,0:14:51.41,eng,,0000,0000,0000,,Anna!
+Dialogue: 0,0:14:48.41,0:14:51.41,chi,,0000,0000,0000,,安娜！
+Dialogue: 0,0:15:35.17,0:15:39.05,eng,,0000,0000,0000,,Okay. Now let's cycle back.
+Dialogue: 0,0:15:35.17,0:15:39.05,chi,,0000,0000,0000,,好的 现在我们倒回去
+Dialogue: 0,0:15:40.73,0:15:43.73,eng,,0000,0000,0000,,And there you have it.
+Dialogue: 0,0:15:40.73,0:15:43.73,chi,,0000,0000,0000,,就是这样
+Dialogue: 0,0:15:44.85,0:15:47.92,eng,,0000,0000,0000,,If you do this long enough, you can do it in your sleep.
+Dialogue: 0,0:15:44.85,0:15:47.92,chi,,0000,0000,0000,,如果做这个做足够久  睡觉的时候都能做
+Dialogue: 0,0:15:49.53,0:15:51.81,eng,,0000,0000,0000,,In your sleep...
+Dialogue: 0,0:15:49.53,0:15:51.81,chi,,0000,0000,0000,,睡觉的时候
+Dialogue: 0,0:15:51.81,0:15:54.81,eng,,0000,0000,0000,,Recording dreams in your sleep. That's funny.
+Dialogue: 0,0:15:51.81,0:15:54.81,chi,,0000,0000,0000,,记录你做的梦 好玩吧
+Dialogue: 0,0:15:55.61,0:15:58.61,eng,,0000,0000,0000,,When's the last time you remember being outside?
+Dialogue: 0,0:15:55.61,0:15:58.61,chi,,0000,0000,0000,,你还记得你最后一次出去是什么时候吗？
+Dialogue: 0,0:15:59.57,0:16:02.29,eng,,0000,0000,0000,,Last night. I had a dream of being at the beach.
+Dialogue: 0,0:15:59.57,0:16:02.29,chi,,0000,0000,0000,,昨晚 我做梦到自己在海边
+Dialogue: 0,0:16:02.29,0:16:05.57,eng,,0000,0000,0000,,No, I mean really outside, not a dream.
+Dialogue: 0,0:16:02.29,0:16:05.57,chi,,0000,0000,0000,,不 我是说真的出去  不是在做梦
+Dialogue: 0,0:16:09.99,0:16:12.75,eng,,0000,0000,0000,,I... I don't remember.
+Dialogue: 0,0:16:09.99,0:16:12.75,chi,,0000,0000,0000,,我    我是不记得了
+Dialogue: 0,0:16:12.75,0:16:15.15,eng,,0000,0000,0000,,I've been busy lately.
+Dialogue: 0,0:16:12.75,0:16:15.15,chi,,0000,0000,0000,,最近我比较忙
+Dialogue: 0,0:16:15.15,0:16:18.43,eng,,0000,0000,0000,,Overloaded, actually. Picking up slack.
+Dialogue: 0,0:16:15.15,0:16:18.43,chi,,0000,0000,0000,,超负荷的 事实上
+Dialogue: 0,0:16:18.43,0:16:21.43,eng,,0000,0000,0000,,For you, I might add.
+Dialogue: 0,0:16:18.43,0:16:21.43,chi,,0000,0000,0000,,很想放松下 为了你 我还是可以的
+Dialogue: 0,0:16:21.75,0:16:24.75,eng,,0000,0000,0000,,I don't remember either.
+Dialogue: 0,0:16:21.75,0:16:24.75,chi,,0000,0000,0000,,我也不记得了
+Dialogue: 0,0:16:26.15,0:16:29.15,eng,,0000,0000,0000,,- Isn't that weird? - You're weird.
+Dialogue: 0,0:16:26.15,0:16:29.15,chi,,0000,0000,0000,,- 奇怪吗？ - 你确实很奇怪
+Dialogue: 0,0:16:29.75,0:16:32.75,eng,,0000,0000,0000,,Shut up and let me concentrate.
+Dialogue: 0,0:16:29.75,0:16:32.75,chi,,0000,0000,0000,,闭嘴 让我集中精神
+Dialogue: 0,0:16:32.91,0:16:34.91,eng,,0000,0000,0000,,Dammit!
+Dialogue: 0,0:16:32.91,0:16:34.91,chi,,0000,0000,0000,,该死的！
+Dialogue: 0,0:16:34.91,0:16:37.91,eng,,0000,0000,0000,,- You know, I was just thinking... - Stop thinking.
+Dialogue: 0,0:16:34.91,0:16:37.91,chi,,0000,0000,0000,,- 你知道 我只是在想    - 不要再想了
+Dialogue: 0,0:16:39.63,0:16:42.63,eng,,0000,0000,0000,,- What's gotten into you? - What's gotten into me?
+Dialogue: 0,0:16:39.63,0:16:42.63,chi,,0000,0000,0000,,- 你到底怎么了？ - 我怎么了？
+Dialogue: 0,0:16:47.95,0:16:50.23,eng,,0000,0000,0000,,- You know who these are? - They're Chickliss' kids.
+Dialogue: 0,0:16:47.95,0:16:50.23,chi,,0000,0000,0000,,- 你知道这是谁？ - 他们是查克斯的孩子
+Dialogue: 0,0:16:50.23,0:16:54.31,eng,,0000,0000,0000,,- Arthur and Sunshine. - Orphans. They're orphans.
+Dialogue: 0,0:16:50.23,0:16:54.31,chi,,0000,0000,0000,,- 亚瑟和珊珊 - 孤儿 他们是孤儿
+Dialogue: 0,0:17:01.93,0:17:04.93,eng,,0000,0000,0000,,You told me Chickliss was on vacation.
+Dialogue: 0,0:17:01.93,0:17:04.93,chi,,0000,0000,0000,,你告诉我查克斯在休假
+Dialogue: 0,0:17:05.33,0:17:08.33,eng,,0000,0000,0000,,I have to go to the can.
+Dialogue: 0,0:17:05.33,0:17:08.33,chi,,0000,0000,0000,,我不得不隐瞒着
+Dialogue: 0,0:17:08.93,0:17:12.64,eng,,0000,0000,0000,,Try not to drool on the controls. It screws up the calibration.
+Dialogue: 0,0:17:08.93,0:17:12.64,chi,,0000,0000,0000,,不要设法将梦话变成现实 这是有距离的
+Dialogue: 0,0:18:39.71,0:18:42.71,eng,,0000,0000,0000,,Bastards.
+Dialogue: 0,0:18:39.71,0:18:42.71,chi,,0000,0000,0000,,混帐
+Dialogue: 0,0:18:45.15,0:18:48.15,eng,,0000,0000,0000,,Where is she?
+Dialogue: 0,0:18:45.15,0:18:48.15,chi,,0000,0000,0000,,她(安娜)在那里？
+Dialogue: 0,0:18:50.71,0:18:53.71,eng,,0000,0000,0000,,What have you done with her?
+Dialogue: 0,0:18:50.71,0:18:53.71,chi,,0000,0000,0000,,你们对她做了什么？
+Dialogue: 0,0:18:55.83,0:18:58.83,eng,,0000,0000,0000,,Where is...?
+Dialogue: 0,0:18:55.83,0:18:58.83,chi,,0000,0000,0000,,哪里   ？
+Dialogue: 0,0:19:06.91,0:19:09.91,eng,,0000,0000,0000,,What have you done to me?
+Dialogue: 0,0:19:06.91,0:19:09.91,chi,,0000,0000,0000,,你们对我做了什么？
+Dialogue: 0,0:19:10.83,0:19:13.83,eng,,0000,0000,0000,,I can't remember...
+Dialogue: 0,0:19:10.83,0:19:13.83,chi,,0000,0000,0000,,我记不起...
+Dialogue: 0,0:19:13.87,0:19:16.87,eng,,0000,0000,0000,,Why can't I remember my daughter's name?
+Dialogue: 0,0:19:13.87,0:19:16.87,chi,,0000,0000,0000,,为什么我记不起我女儿的名字了？
+Dialogue: 0,0:19:52.64,0:19:56.64,eng,,0000,0000,0000,,Hey!
+Dialogue: 0,0:19:52.64,0:19:56.64,chi,,0000,0000,0000,,嗨！
+Dialogue: 0,0:20:07.31,0:20:10.31,eng,,0000,0000,0000,,Let me go!
+Dialogue: 0,0:20:07.31,0:20:10.31,chi,,0000,0000,0000,,放开我！
+Dialogue: 0,0:20:10.31,0:20:13.31,eng,,0000,0000,0000,,- Get off me! - Okay. Okay. Sorry.
+Dialogue: 0,0:20:10.31,0:20:13.31,chi,,0000,0000,0000,,- 离我远点！ - 好的 好的 对不起
+Dialogue: 0,0:20:14.75,0:20:17.35,eng,,0000,0000,0000,,It's okay.
+Dialogue: 0,0:20:14.75,0:20:17.35,chi,,0000,0000,0000,,没事了
+Dialogue: 0,0:20:17.35,0:20:20.35,eng,,0000,0000,0000,,She's one of us.
+Dialogue: 0,0:20:17.35,0:20:20.35,chi,,0000,0000,0000,,她是我们的一份子
+Dialogue: 0,0:20:21.59,0:20:24.55,eng,,0000,0000,0000,,Touch me again, soldier, and you'll be eating your eyeballs.
+Dialogue: 0,0:20:21.59,0:20:24.55,chi,,0000,0000,0000,,再碰我 大兵  我会把你的眼珠吃了
+Dialogue: 0,0:20:24.55,0:20:26.63,eng,,0000,0000,0000,,Why soldier? What do you know about me?
+Dialogue: 0,0:20:24.55,0:20:26.63,chi,,0000,0000,0000,,大兵？ 你怎么知道我？
+Dialogue: 0,0:20:26.63,0:20:30.51,eng,,0000,0000,0000,,Tattoo, on you forehead. You're on the squad, right killer?
+Dialogue: 0,0:20:26.63,0:20:30.51,chi,,0000,0000,0000,,你额头上的纹身？ 你正在当班 不是吗 杀人犯？
+Dialogue: 0,0:20:30.83,0:20:33.83,eng,,0000,0000,0000,,You show up by night and people disappear.
+Dialogue: 0,0:20:30.83,0:20:33.83,chi,,0000,0000,0000,,夜里你就会现出原形 杀掉所人
+Dialogue: 0,0:20:38.31,0:20:41.15,eng,,0000,0000,0000,,- Why did you do that? - Because you're scum.
+Dialogue: 0,0:20:38.31,0:20:41.15,chi,,0000,0000,0000,,- 你为什么这么做？ - 因为你是人渣
+Dialogue: 0,0:20:41.15,0:20:44.62,eng,,0000,0000,0000,,Look miss, you have a certain disadvantage here.
+Dialogue: 0,0:20:41.15,0:20:44.62,chi,,0000,0000,0000,,听着小姐  你现在出一个困境当中了
+Dialogue: 0,0:20:45.15,0:20:48.15,eng,,0000,0000,0000,,None of us remembers how we got here, or pretty much anything else.
+Dialogue: 0,0:20:45.15,0:20:48.15,chi,,0000,0000,0000,,我们都不知道是怎么来的  或者其他相关的事
+Dialogue: 0,0:20:48.31,0:20:51.59,eng,,0000,0000,0000,,Including who we are, so whatever you think you know about me,
+Dialogue: 0,0:20:48.31,0:20:51.59,chi,,0000,0000,0000,,包括我们自己是谁  所以不管你知道任何关于我的事
+Dialogue: 0,0:20:53.43,0:20:55.35,eng,,0000,0000,0000,,I don't even know myself.
+Dialogue: 0,0:20:53.43,0:20:55.35,chi,,0000,0000,0000,,我还是想不起自己是谁
+Dialogue: 0,0:20:55.35,0:20:58.15,eng,,0000,0000,0000,,I don't trust her. She knows something.
+Dialogue: 0,0:20:55.35,0:20:58.15,chi,,0000,0000,0000,,我不相信她 她还记得某些事
+Dialogue: 0,0:20:58.15,0:21:01.15,eng,,0000,0000,0000,,Thank God somebody does.
+Dialogue: 0,0:20:58.15,0:21:01.15,chi,,0000,0000,0000,,感谢老天终于有人记得
+Dialogue: 0,0:21:05.15,0:21:09.43,eng,,0000,0000,0000,,Have you seen any children? A little girl?
+Dialogue: 0,0:21:05.15,0:21:09.43,chi,,0000,0000,0000,,你们看一个孩子了吗？ 一个小女孩？
+Dialogue: 0,0:21:10.71,0:21:12.79,eng,,0000,0000,0000,,No.
+Dialogue: 0,0:21:10.71,0:21:12.79,chi,,0000,0000,0000,,没有
+Dialogue: 0,0:21:12.79,0:21:15.79,eng,,0000,0000,0000,,My God. I hope they don't put kids in here.
+Dialogue: 0,0:21:12.79,0:21:15.79,chi,,0000,0000,0000,,我的天 我希望他们不要连孩子也放进来
+Dialogue: 0,0:21:16.23,0:21:19.23,eng,,0000,0000,0000,,- That would be horrible. - What if they drop children in here?
+Dialogue: 0,0:21:16.23,0:21:19.23,chi,,0000,0000,0000,,- 那太恐怖了 - 他们应该不会把孩子放到这
+Dialogue: 0,0:21:19.67,0:21:22.11,eng,,0000,0000,0000,,I gotta keep moving.
+Dialogue: 0,0:21:19.67,0:21:22.11,chi,,0000,0000,0000,,我必须走了
+Dialogue: 0,0:21:22.11,0:21:25.11,eng,,0000,0000,0000,,Wait! you gotta be careful climbing around here.
+Dialogue: 0,0:21:22.11,0:21:25.11,chi,,0000,0000,0000,,等等！　在这周围爬动要小心点
+Dialogue: 0,0:21:25.15,0:21:28.15,eng,,0000,0000,0000,,- Why? - There are traps.
+Dialogue: 0,0:21:25.15,0:21:28.15,chi,,0000,0000,0000,,- 为什么？ - 这里有陷阱
+Dialogue: 0,0:21:28.83,0:21:31.83,eng,,0000,0000,0000,,Traps? How do you know?
+Dialogue: 0,0:21:28.83,0:21:31.83,chi,,0000,0000,0000,,陷阱？ 你怎么知道？
+Dialogue: 0,0:21:32.51,0:21:35.51,eng,,0000,0000,0000,,Because of this.
+Dialogue: 0,0:21:32.51,0:21:35.51,chi,,0000,0000,0000,,你可以看看这个
+Dialogue: 0,0:21:48.99,0:21:52.27,eng,,0000,0000,0000,,That's good bandage. Are you a doctor?
+Dialogue: 0,0:21:48.99,0:21:52.27,chi,,0000,0000,0000,,绷带缠的还不错  你是医生？
+Dialogue: 0,0:21:52.63,0:21:55.63,eng,,0000,0000,0000,,- I don't know. - I did it.
+Dialogue: 0,0:21:52.63,0:21:55.63,chi,,0000,0000,0000,,- 我不知道 - 我绑的
+Dialogue: 0,0:21:56.33,0:21:59.64,eng,,0000,0000,0000,,I may be freakin' Mother Teresa for all I know, But I don't remember.
+Dialogue: 0,0:21:56.33,0:21:59.64,chi,,0000,0000,0000,,我可能是特里萨修女  但是我不记得了
+Dialogue: 0,0:22:01.45,0:22:03.89,eng,,0000,0000,0000,,You remember something.
+Dialogue: 0,0:22:01.45,0:22:03.89,chi,,0000,0000,0000,,你记得
+Dialogue: 0,0:22:03.89,0:22:06.89,eng,,0000,0000,0000,,Before all of this.
+Dialogue: 0,0:22:03.89,0:22:06.89,chi,,0000,0000,0000,,在这之前的事
+Dialogue: 0,0:22:08.13,0:22:11.13,eng,,0000,0000,0000,,Not much.
+Dialogue: 0,0:22:08.13,0:22:11.13,chi,,0000,0000,0000,,但是不多
+Dialogue: 0,0:22:11.93,0:22:15.56,eng,,0000,0000,0000,,Being chased through the woods, by guys like you.
+Dialogue: 0,0:22:11.93,0:22:15.56,chi,,0000,0000,0000,,记得被像你这样的人  在树林里追杀我
+Dialogue: 0,0:22:17.17,0:22:20.05,eng,,0000,0000,0000,,The tattoo set me off.
+Dialogue: 0,0:22:17.17,0:22:20.05,chi,,0000,0000,0000,,是那个纹身让我想起来的
+Dialogue: 0,0:22:20.95,0:22:24.18,eng,,0000,0000,0000,,When I first woke up, I don't think I would have known my own name
+Dialogue: 0,0:22:20.95,0:22:24.18,chi,,0000,0000,0000,,当我醒来  我不认为我们需要知道自己的名字
+Dialogue: 0,0:22:24.35,0:22:27.11,eng,,0000,0000,0000,,if it wasn't stitched on my shirt.
+Dialogue: 0,0:22:24.35,0:22:27.11,chi,,0000,0000,0000,,如果它们缝在我们的衣服上
+Dialogue: 0,0:22:27.11,0:22:30.11,eng,,0000,0000,0000,,I don't even know if this is my name.
+Dialogue: 0,0:22:27.11,0:22:30.11,chi,,0000,0000,0000,,我不知道这是否是自己的名字
+Dialogue: 0,0:22:30.55,0:22:34.07,eng,,0000,0000,0000,,I feel like we've been here for hours and I still can't remember anything!
+Dialogue: 0,0:22:30.55,0:22:34.07,chi,,0000,0000,0000,,我感觉我们来这有几个小时了 而且什么都不记得了！
+Dialogue: 0,0:22:39.87,0:22:42.87,eng,,0000,0000,0000,,Give her a moment...
+Dialogue: 0,0:22:39.87,0:22:42.87,chi,,0000,0000,0000,,让他冷静一下
+Dialogue: 0,0:22:43.63,0:22:46.63,eng,,0000,0000,0000,,Fine. A moment.
+Dialogue: 0,0:22:43.63,0:22:46.63,chi,,0000,0000,0000,,好吧 就一会儿
+Dialogue: 0,0:22:47.11,0:22:49.59,eng,,0000,0000,0000,,We gotta get moving while we still have our strength.
+Dialogue: 0,0:22:47.11,0:22:49.59,chi,,0000,0000,0000,,趁我们还有力气的时候 我们最好采取点行动
+Dialogue: 0,0:22:49.59,0:22:52.11,eng,,0000,0000,0000,,You guys have a plan?
+Dialogue: 0,0:22:49.59,0:22:52.11,chi,,0000,0000,0000,,你有计划了？
+Dialogue: 0,0:22:52.11,0:22:55.11,eng,,0000,0000,0000,,We keep moving in the same direction until we find the edge.
+Dialogue: 0,0:22:52.11,0:22:55.11,chi,,0000,0000,0000,,我们朝一个方向一直走 直到找到尽头
+Dialogue: 0,0:22:56.71,0:22:58.95,eng,,0000,0000,0000,,This place has got to end eventually.
+Dialogue: 0,0:22:56.71,0:22:58.95,chi,,0000,0000,0000,,这个地方总会有个终点的
+Dialogue: 0,0:22:58.95,0:23:01.95,eng,,0000,0000,0000,,What about the traps?
+Dialogue: 0,0:22:58.95,0:23:01.95,chi,,0000,0000,0000,,那些陷阱怎么办？
+Dialogue: 0,0:23:01.99,0:23:04.99,eng,,0000,0000,0000,,We test the rooms. We have a system.
+Dialogue: 0,0:23:01.99,0:23:04.99,chi,,0000,0000,0000,,我们只能一个个探测 我们会有方法的
+Dialogue: 0,0:23:17.75,0:23:20.75,eng,,0000,0000,0000,,It's safe!
+Dialogue: 0,0:23:17.75,0:23:20.75,chi,,0000,0000,0000,,这里安全！
+Dialogue: 0,0:23:24.71,0:23:27.71,eng,,0000,0000,0000,,I'm going in!
+Dialogue: 0,0:23:24.71,0:23:27.71,chi,,0000,0000,0000,,我进去了！
+Dialogue: 0,0:24:08.75,0:24:11.75,eng,,0000,0000,0000,,Help!
+Dialogue: 0,0:24:08.75,0:24:11.75,chi,,0000,0000,0000,,救命！
+Dialogue: 0,0:24:12.15,0:24:15.15,eng,,0000,0000,0000,,Help!
+Dialogue: 0,0:24:12.15,0:24:15.15,chi,,0000,0000,0000,,救命！
+Dialogue: 0,0:24:35.57,0:24:38.57,eng,,0000,0000,0000,,What kind of animals would do this?!
+Dialogue: 0,0:24:35.57,0:24:38.57,chi,,0000,0000,0000,,是什么禽兽做的？！
+Dialogue: 0,0:24:57.81,0:25:00.81,eng,,0000,0000,0000,,Does she look familiar to you?
+Dialogue: 0,0:24:57.81,0:25:00.81,chi,,0000,0000,0000,,她和你很像？
+Dialogue: 0,0:25:03.29,0:25:06.29,eng,,0000,0000,0000,,I keep thinking I've seen her before...
+Dialogue: 0,0:25:03.29,0:25:06.29,chi,,0000,0000,0000,,我在想我以前好像见过她
+Dialogue: 0,0:25:09.21,0:25:12.21,eng,,0000,0000,0000,,- I wonder what she's in for. - You're making a mistake.
+Dialogue: 0,0:25:09.21,0:25:12.21,chi,,0000,0000,0000,,- 我想知道她到底是谁？ - 那是你的错觉
+Dialogue: 0,0:25:13.53,0:25:15.01,eng,,0000,0000,0000,,Huh?
+Dialogue: 0,0:25:13.53,0:25:15.01,chi,,0000,0000,0000,,嗯？
+Dialogue: 0,0:25:15.91,0:25:18.91,eng,,0000,0000,0000,,What the first rule I taught you about this job?
+Dialogue: 0,0:25:15.91,0:25:18.91,chi,,0000,0000,0000,,这个工作的首要规则 我应该跟你讲过吧？
+Dialogue: 0,0:25:18.99,0:25:22.03,eng,,0000,0000,0000,,- Neatness counts? - Very funny.
+Dialogue: 0,0:25:18.99,0:25:22.03,chi,,0000,0000,0000,,- 准确记录？ - 可笑
+Dialogue: 0,0:25:23.07,0:25:25.19,eng,,0000,0000,0000,,Don't get involved.
+Dialogue: 0,0:25:23.07,0:25:25.19,chi,,0000,0000,0000,,不要自己陷进去
+Dialogue: 0,0:25:25.79,0:25:29.07,eng,,0000,0000,0000,,I know, I'm not getting involved OK? I'm drawing.
+Dialogue: 0,0:25:25.79,0:25:29.07,chi,,0000,0000,0000,,我知道 我没有陷入进去 我在画画
+Dialogue: 0,0:25:31.31,0:25:34.31,eng,,0000,0000,0000,,You have your chess, Owen has his fish, Chickliss...
+Dialogue: 0,0:25:31.31,0:25:34.31,chi,,0000,0000,0000,,你有你的国际象棋  欧文有他的鱼 查克斯
+Dialogue: 0,0:25:34.43,0:25:38.31,eng,,0000,0000,0000,,Can we spend 5 minutes without bringing up Owen and Chickliss please?
+Dialogue: 0,0:25:34.43,0:25:38.31,chi,,0000,0000,0000,,我们不要再提欧文和查克斯好不好  就5分钟也可以？
+Dialogue: 0,0:25:39.67,0:25:42.67,eng,,0000,0000,0000,,And get us back on real-time. You're gonna get us in trouble.
+Dialogue: 0,0:25:39.67,0:25:42.67,chi,,0000,0000,0000,,我们还是回到现实中吧 你让我们陷入困境
+Dialogue: 0,0:25:55.95,0:25:59.07,eng,,0000,0000,0000,,I'll show you three ways to beat that game if you answer one question.
+Dialogue: 0,0:25:55.95,0:25:59.07,chi,,0000,0000,0000,,我可以告诉3种赢棋的方法 如果你回答我一个问题
+Dialogue: 0,0:26:04.83,0:26:08.22,eng,,0000,0000,0000,,- Fine. What? - Okay, what I wanna know...
+Dialogue: 0,0:26:04.83,0:26:08.22,chi,,0000,0000,0000,,- 好的 什么？ - 好 我想要知道
+Dialogue: 0,0:26:08.39,0:26:11.27,eng,,0000,0000,0000,,Hold it. Show me.
+Dialogue: 0,0:26:08.39,0:26:11.27,chi,,0000,0000,0000,,等等 你先下给我我看看
+Dialogue: 0,0:26:11.27,0:26:14.27,eng,,0000,0000,0000,,Okay.
+Dialogue: 0,0:26:11.27,0:26:14.27,chi,,0000,0000,0000,,好吧
+Dialogue: 0,0:26:46.35,0:26:48.43,eng,,0000,0000,0000,,Check Mate.
+Dialogue: 0,0:26:46.35,0:26:48.43,chi,,0000,0000,0000,,将军
+Dialogue: 0,0:26:48.43,0:26:51.43,eng,,0000,0000,0000,,You win.
+Dialogue: 0,0:26:48.43,0:26:51.43,chi,,0000,0000,0000,,你赢了
+Dialogue: 0,0:26:55.35,0:26:57.91,eng,,0000,0000,0000,,That's brilliant. Do that again.
+Dialogue: 0,0:26:55.35,0:26:57.91,chi,,0000,0000,0000,,太聪明了 再来一遍
+Dialogue: 0,0:26:57.91,0:27:00.91,eng,,0000,0000,0000,,- What do you know about a third exit? - What?
+Dialogue: 0,0:26:57.91,0:27:00.91,chi,,0000,0000,0000,,- 你知道还有第三个出口吗？ - 什么？
+Dialogue: 0,0:27:00.95,0:27:02.87,eng,,0000,0000,0000,,A third exit.
+Dialogue: 0,0:27:00.95,0:27:02.87,chi,,0000,0000,0000,,第三个出口
+Dialogue: 0,0:27:02.87,0:27:05.63,eng,,0000,0000,0000,,An auxiliary exit that leads directly outside.
+Dialogue: 0,0:27:02.87,0:27:05.63,chi,,0000,0000,0000,,辅助出口可以直接出去
+Dialogue: 0,0:27:05.63,0:27:07.75,eng,,0000,0000,0000,,- There's no such thing. - Owen said there was.
+Dialogue: 0,0:27:05.63,0:27:07.75,chi,,0000,0000,0000,,- 没听说过这种事 - 欧文说有
+Dialogue: 0,0:27:07.75,0:27:10.27,eng,,0000,0000,0000,,- He said Chickliss found more plans... - They were having you on.
+Dialogue: 0,0:27:07.75,0:27:10.27,chi,,0000,0000,0000,,- 他说查克斯找到更多的    - 你当时在干什么
+Dialogue: 0,0:27:10.27,0:27:15.43,eng,,0000,0000,0000,,No way. I think that that's why they're gone. I think they've found something...
+Dialogue: 0,0:27:10.27,0:27:15.43,chi,,0000,0000,0000,,事实上 我认为那是他们为什么走了的原因 我想他们找到了
+Dialogue: 0,0:27:15.43,0:27:17.63,eng,,0000,0000,0000,,I think you'd better stop listening to old wives' tales.
+Dialogue: 0,0:27:15.43,0:27:17.63,chi,,0000,0000,0000,,我想你最好不要再去听那些荒诞的事
+Dialogue: 0,0:27:17.63,0:27:19.31,eng,,0000,0000,0000,,- Listen to me. - This conversation in over.
+Dialogue: 0,0:27:17.63,0:27:19.31,chi,,0000,0000,0000,,- 听我说    - 谈话到此结束
+Dialogue: 0,0:27:19.31,0:27:22.31,eng,,0000,0000,0000,,- Don't you ever worry? - About what?
+Dialogue: 0,0:27:19.31,0:27:22.31,chi,,0000,0000,0000,,- 难道你不担心吗？ - 担心什么？
+Dialogue: 0,0:27:23.99,0:27:26.99,eng,,0000,0000,0000,,One day, you're gonna wake up inside.
+Dialogue: 0,0:27:23.99,0:27:26.99,chi,,0000,0000,0000,,有一天 当你醒来的时候自己也在里面
+Dialogue: 0,0:27:27.47,0:27:30.47,eng,,0000,0000,0000,,The only way I'm gonna wake up inside, is if I keep on talking to you.
+Dialogue: 0,0:27:27.47,0:27:30.47,chi,,0000,0000,0000,,如果我和你谈的太多了 我就有可能进去
+Dialogue: 0,0:27:30.63,0:27:33.63,eng,,0000,0000,0000,,No.
+Dialogue: 0,0:27:30.63,0:27:33.63,chi,,0000,0000,0000,,不
+Dialogue: 0,0:27:35.15,0:27:37.71,eng,,0000,0000,0000,,These things are useless!
+Dialogue: 0,0:27:35.15,0:27:37.71,chi,,0000,0000,0000,,这些东西完全没有用！
+Dialogue: 0,0:27:37.71,0:27:40.83,eng,,0000,0000,0000,,The sensors there must've been different. Maybe they're not motion sensors.
+Dialogue: 0,0:27:37.71,0:27:40.83,chi,,0000,0000,0000,,这里的传感器应该不完全相同 也许这些不是动作传感器
+Dialogue: 0,0:27:40.99,0:27:44.67,eng,,0000,0000,0000,,Maybe they're triggered by heat, or sound, or something...!
+Dialogue: 0,0:27:40.99,0:27:44.67,chi,,0000,0000,0000,,可能它们是靠热感应的  或者声音 或者其他什么   ！
+Dialogue: 0,0:27:44.83,0:27:47.03,eng,,0000,0000,0000,,Why don't you just admit it? We're dead!
+Dialogue: 0,0:27:44.83,0:27:47.03,chi,,0000,0000,0000,,你就不能承认自己不行吗？ 我们就要死了！
+Dialogue: 0,0:27:47.03,0:27:50.03,eng,,0000,0000,0000,,He can't admit it. It's the training.
+Dialogue: 0,0:27:47.03,0:27:50.03,chi,,0000,0000,0000,,他不能这样 这是他们训练的结果
+Dialogue: 0,0:27:50.67,0:27:53.87,eng,,0000,0000,0000,,- The army never admits defeat. - You got a problem with me lady?
+Dialogue: 0,0:27:50.67,0:27:53.87,chi,,0000,0000,0000,,- 军队不能承认失败 - 女士 你对我有意见吗？
+Dialogue: 0,0:27:54.87,0:27:56.87,eng,,0000,0000,0000,,- Yeah. - Why?
+Dialogue: 0,0:27:54.87,0:27:56.87,chi,,0000,0000,0000,,- 是的  - 为什么？
+Dialogue: 0,0:27:56.87,0:27:58.79,eng,,0000,0000,0000,,I don't trust you.
+Dialogue: 0,0:27:56.87,0:27:58.79,chi,,0000,0000,0000,,我不信任你
+Dialogue: 0,0:27:58.79,0:28:01.79,eng,,0000,0000,0000,,- Oh, how the hell did we miss this? - What is it?
+Dialogue: 0,0:27:58.79,0:28:01.79,chi,,0000,0000,0000,,- 噢 妈的 我们怎么没发现这个？ - 是什么东西？
+Dialogue: 0,0:28:04.63,0:28:06.95,eng,,0000,0000,0000,,C-I-A.
+Dialogue: 0,0:28:04.63,0:28:06.95,chi,,0000,0000,0000,,C-I-A
+Dialogue: 0,0:28:08.95,0:28:11.95,eng,,0000,0000,0000,,What is that? Clues to who built this place?
+Dialogue: 0,0:28:08.95,0:28:11.95,chi,,0000,0000,0000,,这是什么意思？ 暗示是谁建的这个地方？
+Dialogue: 0,0:28:12.99,0:28:16.30,eng,,0000,0000,0000,,I think that's just a coincidence. Try the other doors.
+Dialogue: 0,0:28:12.99,0:28:16.30,chi,,0000,0000,0000,,我觉得这应该有一定的悬机 试试其他几个门
+Dialogue: 0,0:28:18.79,0:28:20.99,eng,,0000,0000,0000,,Y-Y-O.
+Dialogue: 0,0:28:18.79,0:28:20.99,chi,,0000,0000,0000,,Y-Y-O
+Dialogue: 0,0:28:20.99,0:28:23.47,eng,,0000,0000,0000,,U-D-S.
+Dialogue: 0,0:28:20.99,0:28:23.47,chi,,0000,0000,0000,,U-D-S
+Dialogue: 0,0:28:23.47,0:28:25.75,eng,,0000,0000,0000,,S-A-N.
+Dialogue: 0,0:28:23.47,0:28:25.75,chi,,0000,0000,0000,,S-A-N
+Dialogue: 0,0:28:25.75,0:28:27.35,eng,,0000,0000,0000,,What do they mean?
+Dialogue: 0,0:28:25.75,0:28:27.35,chi,,0000,0000,0000,,这是什么意思？
+Dialogue: 0,0:28:27.35,0:28:30.35,eng,,0000,0000,0000,,I think it's a mistake to think of these letters as meaning something.
+Dialogue: 0,0:28:27.35,0:28:30.35,chi,,0000,0000,0000,,我想如果认为这些字母组合 是某些单词 那就错了
+Dialogue: 0,0:28:31.59,0:28:35.63,eng,,0000,0000,0000,,It's like some kind of code or puzzle we have to figure out.
+Dialogue: 0,0:28:31.59,0:28:35.63,chi,,0000,0000,0000,,它们像是密码或字谜什么的 我们得知道它的含意
+Dialogue: 0,0:28:36.79,0:28:39.43,eng,,0000,0000,0000,,A puzzle? They're playing with us!
+Dialogue: 0,0:28:36.79,0:28:39.43,chi,,0000,0000,0000,,字谜？ 他们在耍我们！
+Dialogue: 0,0:28:39.43,0:28:41.79,eng,,0000,0000,0000,,- We should make a map. - Using what?
+Dialogue: 0,0:28:39.43,0:28:41.79,chi,,0000,0000,0000,,- 我们得画个地图． - 用什么？
+Dialogue: 0,0:28:41.79,0:28:43.23,eng,,0000,0000,0000,,- Our blood? - I don't know.
+Dialogue: 0,0:28:41.79,0:28:43.23,chi,,0000,0000,0000,,- 我们的鞋子？ - 我也不知道
+Dialogue: 0,0:28:43.23,0:28:45.95,eng,,0000,0000,0000,,Maybe. You got a better idea?
+Dialogue: 0,0:28:43.23,0:28:45.95,chi,,0000,0000,0000,,也许 好像听起来是个好主意？
+Dialogue: 0,0:28:45.95,0:28:48.95,eng,,0000,0000,0000,,I have a better idea.
+Dialogue: 0,0:28:45.95,0:28:48.95,chi,,0000,0000,0000,,我有办法了
+Dialogue: 0,0:28:49.75,0:28:52.75,eng,,0000,0000,0000,,I need something. I need...
+Dialogue: 0,0:28:49.75,0:28:52.75,chi,,0000,0000,0000,,我还需要点东西 我要
+Dialogue: 0,0:28:53.87,0:28:56.87,eng,,0000,0000,0000,,Your hair pin.
+Dialogue: 0,0:28:53.87,0:28:56.87,chi,,0000,0000,0000,,你的发针
+Dialogue: 0,0:29:03.79,0:29:06.79,eng,,0000,0000,0000,,They did us the favour of polishing our boots.
+Dialogue: 0,0:29:03.79,0:29:06.79,chi,,0000,0000,0000,,这些擦亮了的靴子 就是他们给我们的最好的工具
+Dialogue: 0,0:29:09.83,0:29:12.83,eng,,0000,0000,0000,,Okay, We'll find the safe rooms.
+Dialogue: 0,0:29:09.83,0:29:12.83,chi,,0000,0000,0000,,好了  我们找出安全的房间
+Dialogue: 0,0:29:12.95,0:29:15.95,eng,,0000,0000,0000,,C-I-A. Give me the others.
+Dialogue: 0,0:29:12.95,0:29:15.95,chi,,0000,0000,0000,,C-I-A 把其他几个告诉我
+Dialogue: 0,0:29:16.57,0:29:18.61,eng,,0000,0000,0000,,Y-Y-O U-D-S\NY-Y-O, U-D-S
+Dialogue: 0,0:29:18.61,0:29:21.57,eng,,0000,0000,0000,,And S-A-N.
+Dialogue: 0,0:29:18.61,0:29:21.57,chi,,0000,0000,0000,,And S-A-N
+Dialogue: 0,0:29:21.90,0:29:24.50,eng,,0000,0000,0000,,- Good memory. - Yeah, in the short term.
+Dialogue: 0,0:29:21.90,0:29:24.50,chi,,0000,0000,0000,,- 记性不错 - 是的 短时间的可以
+Dialogue: 0,0:29:24.50,0:29:27.65,eng,,0000,0000,0000,,Now I wish I could remember what happened to me between birth and about 3 hours ago.
+Dialogue: 0,0:29:24.50,0:29:27.65,chi,,0000,0000,0000,,现在我希望我能记起 我出生后到来这里3个小时之前事
+Dialogue: 0,0:29:28.06,0:29:30.74,eng,,0000,0000,0000,,Right.
+Dialogue: 0,0:29:28.06,0:29:30.74,chi,,0000,0000,0000,,呵
+Dialogue: 0,0:29:31.94,0:29:34.38,eng,,0000,0000,0000,,I dunno...
+Dialogue: 0,0:29:31.94,0:29:34.38,chi,,0000,0000,0000,,我不知道
+Dialogue: 0,0:29:34.38,0:29:37.38,eng,,0000,0000,0000,,Shoe polish and a hair pin.
+Dialogue: 0,0:29:34.38,0:29:37.38,chi,,0000,0000,0000,,鞋油和发针
+Dialogue: 0,0:29:38.46,0:29:41.46,eng,,0000,0000,0000,,Nothing in this place is random.
+Dialogue: 0,0:29:38.46,0:29:41.46,chi,,0000,0000,0000,,他们居然没想到
+Dialogue: 0,0:29:41.58,0:29:44.58,eng,,0000,0000,0000,,Maybe the bastards just underestimated us.
+Dialogue: 0,0:29:41.58,0:29:44.58,chi,,0000,0000,0000,,可能是那些混蛋小瞧我们了
+Dialogue: 0,0:30:04.18,0:30:07.18,eng,,0000,0000,0000,,So near and yet so far.
+Dialogue: 0,0:30:04.18,0:30:07.18,chi,,0000,0000,0000,,远在天边 近在眼前
+Dialogue: 0,0:30:08.46,0:30:10.86,eng,,0000,0000,0000,,Yeah, but she's doing better than most.
+Dialogue: 0,0:30:08.46,0:30:10.86,chi,,0000,0000,0000,,没错  但是她是那一群人中做得最好的了
+Dialogue: 0,0:30:10.86,0:30:14.25,eng,,0000,0000,0000,,I mean half of them don't even notice the letters, Let alone map them.
+Dialogue: 0,0:30:10.86,0:30:14.25,chi,,0000,0000,0000,,我是说有一半以上的人没有 注意到那些字母 没想到地图的做法
+Dialogue: 0,0:30:15.82,0:30:18.82,eng,,0000,0000,0000,,I meant the chess.
+Dialogue: 0,0:30:15.82,0:30:18.82,chi,,0000,0000,0000,,我在是说棋局呢
+Dialogue: 0,0:30:23.66,0:30:26.66,eng,,0000,0000,0000,,Give it up. She doesn't stand a chance.
+Dialogue: 0,0:30:23.66,0:30:26.66,chi,,0000,0000,0000,,放弃吧 她不会有任何机会的
+Dialogue: 0,0:30:27.02,0:30:29.18,eng,,0000,0000,0000,,Of course she has a chance.
+Dialogue: 0,0:30:27.02,0:30:29.18,chi,,0000,0000,0000,,她肯定有希望的
+Dialogue: 0,0:30:29.18,0:30:32.73,eng,,0000,0000,0000,,Yeah? You're gonna ride in on your white horse and whisk her out?
+Dialogue: 0,0:30:29.18,0:30:32.73,chi,,0000,0000,0000,,是吗？ 你难道想当白马王子 然后把她救出去？
+Dialogue: 0,0:30:35.96,0:30:38.76,eng,,0000,0000,0000,,The rooms can realign to zero position.
+Dialogue: 0,0:30:35.96,0:30:38.76,chi,,0000,0000,0000,,房间会排列到起始位置
+Dialogue: 0,0:30:38.96,0:30:43.40,eng,,0000,0000,0000,,No it happens, and then she'll figure out the letters and uhh... sail through.
+Dialogue: 0,0:30:38.96,0:30:43.40,chi,,0000,0000,0000,,如果这样 她又知道了字母的含义    就可以很轻松出来了
+Dialogue: 0,0:30:43.96,0:30:47.64,eng,,0000,0000,0000,,And what's the first thing the program does when the rooms realign to zero position?
+Dialogue: 0,0:30:43.96,0:30:47.64,chi,,0000,0000,0000,,但是什么才能使系统把房间 排列到起始位置？
+Dialogue: 0,0:30:49.44,0:30:52.44,eng,,0000,0000,0000,,- Clean sweep. - Exactly.
+Dialogue: 0,0:30:49.44,0:30:52.44,chi,,0000,0000,0000,,- 擦掉 - 准确来说
+Dialogue: 0,0:30:53.72,0:30:56.72,eng,,0000,0000,0000,,The only thing that's gonna sail through that is their ashes.
+Dialogue: 0,0:30:53.72,0:30:56.72,chi,,0000,0000,0000,,能顺利出来的东西 那就是他们的骨灰
+Dialogue: 0,0:30:59.52,0:31:01.68,eng,,0000,0000,0000,,Cheer up buddy. You'll catch you another one.
+Dialogue: 0,0:30:59.52,0:31:01.68,chi,,0000,0000,0000,,开心点 伙计 也没有那么糟糕
+Dialogue: 0,0:31:01.68,0:31:04.68,eng,,0000,0000,0000,,The boys upstairs like 'em young and pretty.
+Dialogue: 0,0:31:01.68,0:31:04.68,chi,,0000,0000,0000,,这样他们至少可以永葆青春
+Dialogue: 0,0:31:07.84,0:31:10.84,eng,,0000,0000,0000,,Don't you ever feel guilty?
+Dialogue: 0,0:31:07.84,0:31:10.84,chi,,0000,0000,0000,,你从没感到过内疚吗？
+Dialogue: 0,0:31:11.94,0:31:15.25,eng,,0000,0000,0000,,- Don't you ever feel? - Son, you're outta line.
+Dialogue: 0,0:31:11.94,0:31:15.25,chi,,0000,0000,0000,,- 从没有过吗？ - 孩子 不应该这样说
+Dialogue: 0,0:31:16.54,0:31:19.50,eng,,0000,0000,0000,,- Yeah whatever... - Excuse me?
+Dialogue: 0,0:31:16.54,0:31:19.50,chi,,0000,0000,0000,,- 但是 无论如何    - 你到底在干嘛？
+Dialogue: 0,0:31:19.50,0:31:22.50,eng,,0000,0000,0000,,Why don't you stop your doodling and do some work for a change?
+Dialogue: 0,0:31:19.50,0:31:22.50,chi,,0000,0000,0000,,你为什么不停下你手中的烂画 换点其他的事做？
+Dialogue: 0,0:31:23.54,0:31:26.26,eng,,0000,0000,0000,,Like what?
+Dialogue: 0,0:31:23.54,0:31:26.26,chi,,0000,0000,0000,,比如？
+Dialogue: 0,0:31:27.26,0:31:31.02,eng,,0000,0000,0000,,We're waiting for orders, it's what we do best. It's what we do.
+Dialogue: 0,0:31:27.26,0:31:31.02,chi,,0000,0000,0000,,我们在等待命令 我也只能做这个 不然还能干什么？
+Dialogue: 0,0:31:31.78,0:31:34.78,eng,,0000,0000,0000,,Clean up your space. It's disgraceful.
+Dialogue: 0,0:31:31.78,0:31:34.78,chi,,0000,0000,0000,,把你的四周打扫一下 太脏了
+Dialogue: 0,0:31:35.98,0:31:39.10,eng,,0000,0000,0000,,- You're kidding, right? - Do I look like I'm kidding?
+Dialogue: 0,0:31:35.98,0:31:39.10,chi,,0000,0000,0000,,- 你在开玩笑？ - 我像是在开玩笑？
+Dialogue: 0,0:31:49.94,0:31:52.94,eng,,0000,0000,0000,,This one's S-D-F.
+Dialogue: 0,0:31:49.94,0:31:52.94,chi,,0000,0000,0000,,这边是 S-D-F
+Dialogue: 0,0:31:53.74,0:31:55.78,eng,,0000,0000,0000,,Wait a minute.
+Dialogue: 0,0:31:53.74,0:31:55.78,chi,,0000,0000,0000,,等一下
+Dialogue: 0,0:31:56.78,0:31:59.78,eng,,0000,0000,0000,,- What? - I don't know if this makes any difference,
+Dialogue: 0,0:31:56.78,0:31:59.78,chi,,0000,0000,0000,,- 什么？ - 我不知道这个是不是有什么不同
+Dialogue: 0,0:31:59.78,0:32:02.78,eng,,0000,0000,0000,,But they're not periods, They're commas.
+Dialogue: 0,0:31:59.78,0:32:02.78,chi,,0000,0000,0000,,但是它们没有规律  这些点号
+Dialogue: 0,0:32:09.42,0:32:11.90,eng,,0000,0000,0000,,He's right. They're commas.
+Dialogue: 0,0:32:09.42,0:32:11.90,chi,,0000,0000,0000,,他说的没错 就是这些点号
+Dialogue: 0,0:32:11.90,0:32:16.90,eng,,0000,0000,0000,,Okay, so they're commas. What difference does it make?
+Dialogue: 0,0:32:11.90,0:32:16.90,chi,,0000,0000,0000,,好的 就算他们是点号 那有什么不同吗？
+Dialogue: 0,0:32:18.52,0:32:21.52,eng,,0000,0000,0000,,We don't even know what the letters mean yet.
+Dialogue: 0,0:32:18.52,0:32:21.52,chi,,0000,0000,0000,,我们根本不懂得这些字母的含义
+Dialogue: 0,0:32:23.64,0:32:25.88,eng,,0000,0000,0000,,I mean if they were numbers, I'd understand the commas.
+Dialogue: 0,0:32:23.64,0:32:25.88,chi,,0000,0000,0000,,我是想说如果它们是数字  我就知道这些点号的含意了
+Dialogue: 0,0:32:25.88,0:32:27.60,eng,,0000,0000,0000,,Understand the commas how?
+Dialogue: 0,0:32:25.88,0:32:27.60,chi,,0000,0000,0000,,这些点号要怎么看出来？
+Dialogue: 0,0:32:27.60,0:32:29.80,eng,,0000,0000,0000,,Well isn't that how you plot coordinates on a graph?
+Dialogue: 0,0:32:27.60,0:32:29.80,chi,,0000,0000,0000,,你为什么不在图表上画一下坐标？
+Dialogue: 0,0:32:29.80,0:32:32.80,eng,,0000,0000,0000,,X coordinate, comma, Y coordinate, comma, Z coordinate.
+Dialogue: 0,0:32:29.80,0:32:32.80,chi,,0000,0000,0000,,X坐标 逗点  Y坐标 点号 Z坐标
+Dialogue: 0,0:32:33.04,0:32:35.44,eng,,0000,0000,0000,,Right. So if the rooms were labelled with numbers,
+Dialogue: 0,0:32:33.04,0:32:35.44,chi,,0000,0000,0000,,没错 如果房间用数字贴上标签
+Dialogue: 0,0:32:35.44,0:32:39.83,eng,,0000,0000,0000,,like "10,1,7", you'd know something about the room's position.
+Dialogue: 0,0:32:35.44,0:32:39.83,chi,,0000,0000,0000,,像"10 1 7" 你就知道房间的坐标了
+Dialogue: 0,0:32:40.04,0:32:43.35,eng,,0000,0000,0000,,Yeah but we've got letters that so far tell us absolutely nothing.
+Dialogue: 0,0:32:40.04,0:32:43.35,chi,,0000,0000,0000,,但是我们只是知道些字母 这些是不够的
+Dialogue: 0,0:32:44.80,0:32:47.00,eng,,0000,0000,0000,,That's where you're wrong, soldier.
+Dialogue: 0,0:32:44.80,0:32:47.00,chi,,0000,0000,0000,,大兵 你错了
+Dialogue: 0,0:32:47.00,0:32:50.00,eng,,0000,0000,0000,,The letters tell us one important fact the number never would.
+Dialogue: 0,0:32:47.00,0:32:50.00,chi,,0000,0000,0000,,字母暗示着一件很重要的事实 但是仅仅数字得话就不行
+Dialogue: 0,0:32:50.56,0:32:55.08,eng,,0000,0000,0000,,- What fact? - There are only 26 letters in the English alphabet.
+Dialogue: 0,0:32:50.56,0:32:55.08,chi,,0000,0000,0000,,- 什么事实？ - 英文字母表有26个字母
+Dialogue: 0,0:32:55.96,0:32:58.68,eng,,0000,0000,0000,,So?
+Dialogue: 0,0:32:55.96,0:32:58.68,chi,,0000,0000,0000,,那么？
+Dialogue: 0,0:32:59.68,0:33:01.92,eng,,0000,0000,0000,,So we know the parameters.
+Dialogue: 0,0:32:59.68,0:33:01.92,chi,,0000,0000,0000,,那么我们就知道参数了
+Dialogue: 0,0:33:01.92,0:33:06.92,eng,,0000,0000,0000,,Exactly. If each room has its own unique letter combination,
+Dialogue: 0,0:33:01.92,0:33:06.92,chi,,0000,0000,0000,,其实 如果每个房间都有他唯一 的字母组合
+Dialogue: 0,0:33:07.32,0:33:10.76,eng,,0000,0000,0000,,Then it's a pretty good bet that this whole place is a cube
+Dialogue: 0,0:33:07.32,0:33:10.76,chi,,0000,0000,0000,,我敢肯定 所有的房间在一个立方体里
+Dialogue: 0,0:33:11.24,0:33:13.40,eng,,0000,0000,0000,,with 26 rooms on each side.
+Dialogue: 0,0:33:11.24,0:33:13.40,chi,,0000,0000,0000,,每一边有26个房间
+Dialogue: 0,0:33:13.40,0:33:16.08,eng,,0000,0000,0000,,Worst case scenario, we're anywhere from
+Dialogue: 0,0:33:13.40,0:33:16.08,chi,,0000,0000,0000,,现在最糟糕的是  我们只是在
+Dialogue: 0,0:33:16.08,0:33:18.32,eng,,0000,0000,0000,,1 to 25 rooms away from the edge.
+Dialogue: 0,0:33:16.08,0:33:18.32,chi,,0000,0000,0000,,位于边缘的1-25个房间中的一个
+Dialogue: 0,0:33:18.32,0:33:21.04,eng,,0000,0000,0000,,- Let's go! - Great!
+Dialogue: 0,0:33:18.32,0:33:21.04,chi,,0000,0000,0000,,- 我们走吧！ - 太好了！
+Dialogue: 0,0:33:21.04,0:33:24.04,eng,,0000,0000,0000,,Actually, it's your turn to go first.
+Dialogue: 0,0:33:21.04,0:33:24.04,chi,,0000,0000,0000,,好啊 那你第一个上
+Dialogue: 0,0:33:27.32,0:33:31.11,eng,,0000,0000,0000,,S-O-S. No kidding.
+Dialogue: 0,0:33:27.32,0:33:31.11,chi,,0000,0000,0000,,S-O-S 别开玩笑
+Dialogue: 0,0:33:48.24,0:33:51.24,eng,,0000,0000,0000,,Ahh.. Guess we'll try another way.
+Dialogue: 0,0:33:48.24,0:33:51.24,chi,,0000,0000,0000,,哦   伙计们或许应该走另外条路
+Dialogue: 0,0:34:03.88,0:34:06.88,eng,,0000,0000,0000,,Rains, Rains, Rains, Rains...
+Dialogue: 0,0:34:03.88,0:34:06.88,chi,,0000,0000,0000,,蕾斯  蕾斯  蕾斯  蕾斯
+Dialogue: 0,0:34:33.36,0:34:36.36,eng,,0000,0000,0000,,Cassandra.
+Dialogue: 0,0:34:33.36,0:34:36.36,chi,,0000,0000,0000,,卡桑德拉
+Dialogue: 0,0:34:39.56,0:34:42.40,eng,,0000,0000,0000,,The little girl's name is Anna.
+Dialogue: 0,0:34:39.56,0:34:42.40,chi,,0000,0000,0000,,那个小女孩的名字叫安娜
+Dialogue: 0,0:34:42.40,0:34:45.40,eng,,0000,0000,0000,,Protests and strikes. Troublemakers up north.
+Dialogue: 0,0:34:42.40,0:34:45.40,chi,,0000,0000,0000,,抗议和罢工 暴动者都来自北部
+Dialogue: 0,0:34:46.12,0:34:48.84,eng,,0000,0000,0000,,The whole country's going to crap.
+Dialogue: 0,0:34:46.12,0:34:48.84,chi,,0000,0000,0000,,整个国家乱七八糟
+Dialogue: 0,0:34:48.84,0:34:51.84,eng,,0000,0000,0000,,Ungrateful pigs.
+Dialogue: 0,0:34:48.84,0:34:51.84,chi,,0000,0000,0000,,该死的猪
+Dialogue: 0,0:34:54.08,0:34:56.04,eng,,0000,0000,0000,,Oh my God, Oh my God...
+Dialogue: 0,0:34:54.08,0:34:56.04,chi,,0000,0000,0000,,噢 我的天  我的天
+Dialogue: 0,0:34:56.04,0:34:57.72,eng,,0000,0000,0000,,What is it now?
+Dialogue: 0,0:34:56.04,0:34:57.72,chi,,0000,0000,0000,,怎么了？
+Dialogue: 0,0:34:57.72,0:35:00.72,eng,,0000,0000,0000,,Please tell me that's not... Would you put that away?
+Dialogue: 0,0:34:57.72,0:35:00.72,chi,,0000,0000,0000,,不要告诉那是    你就不能把它放下来吗？
+Dialogue: 0,0:35:00.80,0:35:02.44,eng,,0000,0000,0000,,There's no consent form.
+Dialogue: 0,0:35:00.80,0:35:02.44,chi,,0000,0000,0000,,这没有协议书
+Dialogue: 0,0:35:02.44,0:35:05.44,eng,,0000,0000,0000,,- What? - There is not pink page, the consent form is missing!
+Dialogue: 0,0:35:02.44,0:35:05.44,chi,,0000,0000,0000,,- 什么？ - 那粉红色的协议书不见了！
+Dialogue: 0,0:35:07.68,0:35:09.92,eng,,0000,0000,0000,,- So? - So?!
+Dialogue: 0,0:35:07.68,0:35:09.92,chi,,0000,0000,0000,,- 那么？ - 那就意味着？！
+Dialogue: 0,0:35:09.92,0:35:12.56,eng,,0000,0000,0000,,You know the rules. She can't be in there without a consent form!
+Dialogue: 0,0:35:09.92,0:35:12.56,chi,,0000,0000,0000,,你应该懂得规定的 如果没有协议书她就不应该在那里！
+Dialogue: 0,0:35:12.56,0:35:15.52,eng,,0000,0000,0000,,You think they're gonna stop this whole operation because you lost a piece of paper?
+Dialogue: 0,0:35:12.56,0:35:15.52,chi,,0000,0000,0000,,你认为他们会停止整个运行 就因为不见了一张纸？
+Dialogue: 0,0:35:15.52,0:35:17.40,eng,,0000,0000,0000,,I didn't lose it.
+Dialogue: 0,0:35:15.52,0:35:17.40,chi,,0000,0000,0000,,不是因为我们丢掉
+Dialogue: 0,0:35:17.40,0:35:20.16,eng,,0000,0000,0000,,Look you know how anal these guys are.
+Dialogue: 0,0:35:17.40,0:35:20.16,chi,,0000,0000,0000,,你看上面  你知道这些人有多么可悲吗？
+Dialogue: 0,0:35:20.16,0:35:22.84,eng,,0000,0000,0000,,- Maybe she'll get another hearing. - Listen to yourself!
+Dialogue: 0,0:35:20.16,0:35:22.84,chi,,0000,0000,0000,,- 可能她会去控告 - 一边去吧你！
+Dialogue: 0,0:35:23.84,0:35:26.08,eng,,0000,0000,0000,,But this could be huge! A mistrial!
+Dialogue: 0,0:35:23.84,0:35:26.08,chi,,0000,0000,0000,,这是会很严重的！
+Dialogue: 0,0:35:26.08,0:35:29.08,eng,,0000,0000,0000,,- Oh sure, anything you say. - Look...
+Dialogue: 0,0:35:26.08,0:35:29.08,chi,,0000,0000,0000,,- 是的 你说的没错 - 听着
+Dialogue: 0,0:35:31.76,0:35:34.76,eng,,0000,0000,0000,,See? Told you I recognized her.
+Dialogue: 0,0:35:31.76,0:35:34.76,chi,,0000,0000,0000,,看到了？ 告诉你我已经知道她是谁了
+Dialogue: 0,0:35:37.68,0:35:40.24,eng,,0000,0000,0000,,"Opposition Leaders Stage Illegal Strike"
+Dialogue: 0,0:35:37.68,0:35:40.24,chi,,0000,0000,0000,,"反对派举行非法罢工"
+Dialogue: 0,0:35:40.24,0:35:43.24,eng,,0000,0000,0000,,She's a political. So that would explain it.
+Dialogue: 0,0:35:40.24,0:35:43.24,chi,,0000,0000,0000,,她是个政客 所以这个可以解释这一切
+Dialogue: 0,0:35:44.60,0:35:47.60,eng,,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:35:44.60,0:35:47.60,chi,,0000,0000,0000,,什么意思？
+Dialogue: 0,0:35:47.84,0:35:52.20,eng,,0000,0000,0000,,I mean, there might not be a consent form.
+Dialogue: 0,0:35:47.84,0:35:52.20,chi,,0000,0000,0000,,我是想说 这可能根本就没有协议书
+Dialogue: 0,0:35:52.36,0:35:55.36,eng,,0000,0000,0000,,Get it?
+Dialogue: 0,0:35:52.36,0:35:55.36,chi,,0000,0000,0000,,懂吗？
+Dialogue: 0,0:35:55.56,0:35:57.92,eng,,0000,0000,0000,,But that's illegal.
+Dialogue: 0,0:35:55.56,0:35:57.92,chi,,0000,0000,0000,,但是那是非法的
+Dialogue: 0,0:35:58.92,0:36:02.20,eng,,0000,0000,0000,,You know for a child prodigy, you ain't too bright.
+Dialogue: 0,0:35:58.92,0:36:02.20,chi,,0000,0000,0000,,我知道你是个天才  但是你不能太聪明了
+Dialogue: 0,0:36:04.64,0:36:07.24,eng,,0000,0000,0000,,- We gotta do something. - Like what?
+Dialogue: 0,0:36:04.64,0:36:07.24,chi,,0000,0000,0000,,- 我们应该做点什么 - 做什么？
+Dialogue: 0,0:36:07.24,0:36:10.28,eng,,0000,0000,0000,,- We gotta let 'em know upstairs. - And how are we gonna do that?
+Dialogue: 0,0:36:07.24,0:36:10.28,chi,,0000,0000,0000,,- 我们应该叫上面的人知道  - 那我们应该怎么做？
+Dialogue: 0,0:36:10.92,0:36:13.92,eng,,0000,0000,0000,,Call up.
+Dialogue: 0,0:36:10.92,0:36:13.92,chi,,0000,0000,0000,,打电话
+Dialogue: 0,0:36:16.92,0:36:19.99,eng,,0000,0000,0000,,- It's just for emergencies. - Well what do you think this is?
+Dialogue: 0,0:36:16.92,0:36:19.99,chi,,0000,0000,0000,,- 那只是用来紧急求救的 - 你认为这个是干什么用的？
+Dialogue: 0,0:36:21.04,0:36:22.68,eng,,0000,0000,0000,,I don't see a fire.
+Dialogue: 0,0:36:21.04,0:36:22.68,chi,,0000,0000,0000,,我没看见火
+Dialogue: 0,0:36:22.68,0:36:24.72,eng,,0000,0000,0000,,I don't see a gas leak, or flooding.
+Dialogue: 0,0:36:22.68,0:36:24.72,chi,,0000,0000,0000,,也没看见煤气泄漏 或者洪水
+Dialogue: 0,0:36:24.72,0:36:27.32,eng,,0000,0000,0000,,I don't see you writhing on the floor in the throws of a heart attack
+Dialogue: 0,0:36:24.72,0:36:27.32,chi,,0000,0000,0000,,我没看见你疼的在地上打滚
+Dialogue: 0,0:36:27.32,0:36:29.24,eng,,0000,0000,0000,,But God knows right now I'd like to!
+Dialogue: 0,0:36:27.32,0:36:29.24,chi,,0000,0000,0000,,那我就没理由打电话了！
+Dialogue: 0,0:36:29.24,0:36:32.24,eng,,0000,0000,0000,,She's gonna die in there and she's probably innocent!
+Dialogue: 0,0:36:29.24,0:36:32.24,chi,,0000,0000,0000,,她马上就要死里面  她很可能是无辜的！
+Dialogue: 0,0:36:32.48,0:36:34.20,eng,,0000,0000,0000,,None of them are innocent!
+Dialogue: 0,0:36:32.48,0:36:34.20,chi,,0000,0000,0000,,他们没有谁是无辜的！
+Dialogue: 0,0:36:34.90,0:36:37.30,eng,,0000,0000,0000,,You read the files. You know what kind of people end up in there!
+Dialogue: 0,0:36:34.90,0:36:37.30,chi,,0000,0000,0000,,你读了这些档案 你知道什么样的人才送到这里受刑！
+Dialogue: 0,0:36:37.30,0:36:40.30,eng,,0000,0000,0000,,Exactly! All we know is what we read in the files...
+Dialogue: 0,0:36:37.30,0:36:40.30,chi,,0000,0000,0000,,事实上！我们所知道的 也只是从这些文件上
+Dialogue: 0,0:36:43.46,0:36:45.78,eng,,0000,0000,0000,,Oh my God...
+Dialogue: 0,0:36:43.46,0:36:45.78,chi,,0000,0000,0000,,噢 老天
+Dialogue: 0,0:36:45.78,0:36:48.50,eng,,0000,0000,0000,,What if it's all bogus? The files, the crimes, everything.
+Dialogue: 0,0:36:45.78,0:36:48.50,chi,,0000,0000,0000,,如果这些都是在造假？ 文件 罪行 所有的一切
+Dialogue: 0,0:36:48.50,0:36:51.50,eng,,0000,0000,0000,,Maybe they're just putting anyone in there they don't like, maybe...
+Dialogue: 0,0:36:48.50,0:36:51.50,chi,,0000,0000,0000,,也许他们是被陷害进来的 也许
+Dialogue: 0,0:36:51.90,0:36:53.74,eng,,0000,0000,0000,,There's a purpose, and there's a plan.
+Dialogue: 0,0:36:51.90,0:36:53.74,chi,,0000,0000,0000,,有目的的 有计划的？
+Dialogue: 0,0:36:53.74,0:36:57.58,eng,,0000,0000,0000,,And I'm not so stupid to think that there's no plan just because I don't understand it!
+Dialogue: 0,0:36:53.74,0:36:57.58,chi,,0000,0000,0000,,我还没蠢到不知道这是个阴谋！
+Dialogue: 0,0:36:57.74,0:37:00.66,eng,,0000,0000,0000,,Here's a newsflash: We're just the button men!
+Dialogue: 0,0:36:57.74,0:37:00.66,chi,,0000,0000,0000,,最重要的是: 我们只是个按按钮的！
+Dialogue: 0,0:37:00.66,0:37:03.46,eng,,0000,0000,0000,,If we're meant to be analysts, we'd be working upstairs!
+Dialogue: 0,0:37:00.66,0:37:03.46,chi,,0000,0000,0000,,如果想要分析  那得是上头的工作！
+Dialogue: 0,0:37:03.96,0:37:07.51,eng,,0000,0000,0000,,Would you forget the party line for once and make the call?
+Dialogue: 0,0:37:03.96,0:37:07.51,chi,,0000,0000,0000,,难道你不能忘了我们的准则？ 快去打电话
+Dialogue: 0,0:37:11.68,0:37:14.68,eng,,0000,0000,0000,,Okay.
+Dialogue: 0,0:37:11.68,0:37:14.68,chi,,0000,0000,0000,,好
+Dialogue: 0,0:37:14.92,0:37:17.92,eng,,0000,0000,0000,,You do it. You're the hero.
+Dialogue: 0,0:37:14.92,0:37:17.92,chi,,0000,0000,0000,,你去打电话 当你的英雄去吧
+Dialogue: 0,0:37:23.48,0:37:25.20,eng,,0000,0000,0000,,Just remember,
+Dialogue: 0,0:37:23.48,0:37:25.20,chi,,0000,0000,0000,,不过你要记住
+Dialogue: 0,0:37:25.20,0:37:27.92,eng,,0000,0000,0000,,She was in the news and they made her disappear.
+Dialogue: 0,0:37:25.20,0:37:27.92,chi,,0000,0000,0000,,她出现在新闻里 还有是上头的人想让她消失的
+Dialogue: 0,0:37:27.92,0:37:30.92,eng,,0000,0000,0000,,How much easier would it be to get to you.
+Dialogue: 0,0:37:27.92,0:37:30.92,chi,,0000,0000,0000,,你太容易被影响了
+Dialogue: 0,0:37:32.04,0:37:35.04,eng,,0000,0000,0000,,No one even know you exist.
+Dialogue: 0,0:37:32.04,0:37:35.04,chi,,0000,0000,0000,,没有人知道你的存在
+Dialogue: 0,0:37:35.88,0:37:38.88,eng,,0000,0000,0000,,Who knows where you'll wake up tomorrow?
+Dialogue: 0,0:37:35.88,0:37:38.88,chi,,0000,0000,0000,,谁知道你明天在哪醒来？
+Dialogue: 0,0:37:53.36,0:37:56.36,eng,,0000,0000,0000,,Hello?
+Dialogue: 0,0:37:53.36,0:37:56.36,chi,,0000,0000,0000,,喂？
+Dialogue: 0,0:37:58.56,0:38:01.56,eng,,0000,0000,0000,,It's for you.
+Dialogue: 0,0:37:58.56,0:38:01.56,chi,,0000,0000,0000,,找你的
+Dialogue: 0,0:38:06.92,0:38:09.56,eng,,0000,0000,0000,,Yeah?
+Dialogue: 0,0:38:06.92,0:38:09.56,chi,,0000,0000,0000,,嗯？
+Dialogue: 0,0:38:09.56,0:38:11.44,eng,,0000,0000,0000,,Sir.
+Dialogue: 0,0:38:09.56,0:38:11.44,chi,,0000,0000,0000,,长官
+Dialogue: 0,0:38:11.44,0:38:14.08,eng,,0000,0000,0000,,Yes, sir. Right away, sir.
+Dialogue: 0,0:38:11.44,0:38:14.08,chi,,0000,0000,0000,,是 长官
+Dialogue: 0,0:38:14.08,0:38:16.48,eng,,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:38:14.08,0:38:16.48,chi,,0000,0000,0000,,马上 长官
+Dialogue: 0,0:38:16.48,0:38:19.48,eng,,0000,0000,0000,,I understand, sir. Yes, sir.
+Dialogue: 0,0:38:16.48,0:38:19.48,chi,,0000,0000,0000,,我明白 长官 是 长官
+Dialogue: 0,0:38:26.68,0:38:29.68,eng,,0000,0000,0000,,We've got work to do. Someone's at the exit.
+Dialogue: 0,0:38:26.68,0:38:29.68,chi,,0000,0000,0000,,我们有工作要做 有人到出口了
+Dialogue: 0,0:38:31.00,0:38:33.72,eng,,0000,0000,0000,,Our exit? What do we do?
+Dialogue: 0,0:38:31.00,0:38:33.72,chi,,0000,0000,0000,,出口？ 我们该怎么做？
+Dialogue: 0,0:38:33.72,0:38:36.72,eng,,0000,0000,0000,,The exit procedure.
+Dialogue: 0,0:38:33.72,0:38:36.72,chi,,0000,0000,0000,,退出程序
+Dialogue: 0,0:38:37.40,0:38:40.40,eng,,0000,0000,0000,,Wait a minute. I've never done this before. Don't you usually do this with Owen?
+Dialogue: 0,0:38:37.40,0:38:40.40,chi,,0000,0000,0000,,等等 我从来没干过这个 你经常和欧文这样做吗？
+Dialogue: 0,0:38:40.56,0:38:43.87,eng,,0000,0000,0000,,That's right my friend, but Owen is not here, is he?
+Dialogue: 0,0:38:40.56,0:38:43.87,chi,,0000,0000,0000,,是的 但是他现在不在这里
+Dialogue: 0,0:38:44.08,0:38:47.08,eng,,0000,0000,0000,,And the rules clearly state
+Dialogue: 0,0:38:44.08,0:38:47.08,chi,,0000,0000,0000,,但是规则明确规定
+Dialogue: 0,0:38:47.52,0:38:50.96,eng,,0000,0000,0000,,that two senior technicians have to be present
+Dialogue: 0,0:38:47.52,0:38:50.96,chi,,0000,0000,0000,,必须有两名高级技师操作
+Dialogue: 0,0:38:51.12,0:38:54.00,eng,,0000,0000,0000,,at all exit procedures.
+Dialogue: 0,0:38:51.12,0:38:54.00,chi,,0000,0000,0000,,才能全部退出程序
+Dialogue: 0,0:38:54.00,0:38:55.88,eng,,0000,0000,0000,,Right, but I'm not a senior technician.
+Dialogue: 0,0:38:54.00,0:38:55.88,chi,,0000,0000,0000,,是的 但是我不是高级技师
+Dialogue: 0,0:38:56.88,0:39:00.35,eng,,0000,0000,0000,,Hey! I need help here. That was a phone call from upstairs.
+Dialogue: 0,0:38:56.88,0:39:00.35,chi,,0000,0000,0000,,嘿！我需要帮忙 但是上面打电话来
+Dialogue: 0,0:39:00.52,0:39:03.99,eng,,0000,0000,0000,,Personal contact. Direct orders from above. They never do that.
+Dialogue: 0,0:39:00.52,0:39:03.99,chi,,0000,0000,0000,,而且直接下达命令 他们也从没这么做过
+Dialogue: 0,0:39:04.24,0:39:07.24,eng,,0000,0000,0000,,We can't screw this up.
+Dialogue: 0,0:39:04.24,0:39:07.24,chi,,0000,0000,0000,,我们不能搞砸了
+Dialogue: 0,0:39:10.40,0:39:13.40,eng,,0000,0000,0000,,- We? - Yes. We.
+Dialogue: 0,0:39:10.40,0:39:13.40,chi,,0000,0000,0000,,- 我们？ - 是的 就是我们
+Dialogue: 0,0:39:18.56,0:39:21.56,eng,,0000,0000,0000,,As far as I understand, sir,
+Dialogue: 0,0:39:18.56,0:39:21.56,chi,,0000,0000,0000,,伙计 据我所知
+Dialogue: 0,0:39:22.28,0:39:25.48,eng,,0000,0000,0000,,only senior techs are allowed to perform the exit procedure.
+Dialogue: 0,0:39:22.28,0:39:25.48,chi,,0000,0000,0000,,只有高级技师才能执行脱离程序
+Dialogue: 0,0:39:25.64,0:39:28.68,eng,,0000,0000,0000,,Perhaps it would be my be interest to abstain until receiving
+Dialogue: 0,0:39:25.64,0:39:28.68,chi,,0000,0000,0000,,可能这个需要等待接受
+Dialogue: 0,0:39:28.84,0:39:31.84,eng,,0000,0000,0000,,clearance from higher up.
+Dialogue: 0,0:39:28.84,0:39:31.84,chi,,0000,0000,0000,,上面高官的批示
+Dialogue: 0,0:39:35.64,0:39:38.64,eng,,0000,0000,0000,,You little prick.
+Dialogue: 0,0:39:35.64,0:39:38.64,chi,,0000,0000,0000,,你这小杂种
+Dialogue: 0,0:39:40.12,0:39:41.80,eng,,0000,0000,0000,,Okay.
+Dialogue: 0,0:39:40.12,0:39:41.80,chi,,0000,0000,0000,,好的
+Dialogue: 0,0:39:41.80,0:39:44.16,eng,,0000,0000,0000,,Okay, I get it.
+Dialogue: 0,0:39:41.80,0:39:44.16,chi,,0000,0000,0000,,好的 我懂了
+Dialogue: 0,0:39:45.16,0:39:49.39,eng,,0000,0000,0000,,Look, you help me with this, I'll tell them about your girlfriend. Okay?
+Dialogue: 0,0:39:45.16,0:39:49.39,chi,,0000,0000,0000,,听着 你帮我弄这个  我会告诉他们关于那个女的事情 怎么样？
+Dialogue: 0,0:39:49.92,0:39:52.92,eng,,0000,0000,0000,,- When? - What?
+Dialogue: 0,0:39:49.92,0:39:52.92,chi,,0000,0000,0000,,- 什么时候？ - 什么？
+Dialogue: 0,0:39:53.16,0:39:56.16,eng,,0000,0000,0000,,When will you let them know?
+Dialogue: 0,0:39:53.16,0:39:56.16,chi,,0000,0000,0000,,你什么时候让他们知道？
+Dialogue: 0,0:39:56.16,0:39:59.16,eng,,0000,0000,0000,,As soon as we're done with this. All right?
+Dialogue: 0,0:39:56.16,0:39:59.16,chi,,0000,0000,0000,,我们做完了就去 这样可以了吧？
+Dialogue: 0,0:40:01.12,0:40:03.96,eng,,0000,0000,0000,,Okay.
+Dialogue: 0,0:40:01.12,0:40:03.96,chi,,0000,0000,0000,,好
+Dialogue: 0,0:40:03.96,0:40:06.80,eng,,0000,0000,0000,,- What do I do? - Just follow my lead.
+Dialogue: 0,0:40:03.96,0:40:06.80,chi,,0000,0000,0000,,- 那我做什么？ - 我叫你做什么你就做什么
+Dialogue: 0,0:40:06.80,0:40:09.80,eng,,0000,0000,0000,,Okay, here we go. Step one,
+Dialogue: 0,0:40:06.80,0:40:09.80,chi,,0000,0000,0000,,好的 我们开始吧 第一步
+Dialogue: 0,0:40:10.12,0:40:13.12,eng,,0000,0000,0000,,Visual confirmation of subject in exit room.
+Dialogue: 0,0:40:10.12,0:40:13.12,chi,,0000,0000,0000,,视觉确认目标在出口房间
+Dialogue: 0,0:40:28.96,0:40:31.24,eng,,0000,0000,0000,,Oh, no. Owen.
+Dialogue: 0,0:40:28.96,0:40:31.24,chi,,0000,0000,0000,,哦 不 欧文
+Dialogue: 0,0:40:31.24,0:40:34.24,eng,,0000,0000,0000,,- It's Owen. - Shut up.
+Dialogue: 0,0:40:31.24,0:40:34.24,chi,,0000,0000,0000,,- 那是欧文 - 闭嘴
+Dialogue: 0,0:41:30.52,0:41:33.52,eng,,0000,0000,0000,,Hello?
+Dialogue: 0,0:41:30.52,0:41:33.52,chi,,0000,0000,0000,,喂？
+Dialogue: 0,0:41:37.20,0:41:40.20,eng,,0000,0000,0000,,Hello?
+Dialogue: 0,0:41:37.20,0:41:40.20,chi,,0000,0000,0000,,喂？
+Dialogue: 0,0:41:41.92,0:41:44.92,eng,,0000,0000,0000,,Hello?
+Dialogue: 0,0:41:41.92,0:41:44.92,chi,,0000,0000,0000,,有人吗？
+Dialogue: 0,0:42:19.52,0:42:22.52,eng,,0000,0000,0000,,Hello!
+Dialogue: 0,0:42:19.52,0:42:22.52,chi,,0000,0000,0000,,喂！
+Dialogue: 0,0:42:25.92,0:42:28.20,eng,,0000,0000,0000,,Anyone there?
+Dialogue: 0,0:42:25.92,0:42:28.20,chi,,0000,0000,0000,,有人吗？
+Dialogue: 0,0:42:28.20,0:42:31.20,eng,,0000,0000,0000,,Hello?
+Dialogue: 0,0:42:28.20,0:42:31.20,chi,,0000,0000,0000,,喂？
+Dialogue: 0,0:42:32.84,0:42:34.04,eng,,0000,0000,0000,,What now?
+Dialogue: 0,0:42:32.84,0:42:34.04,chi,,0000,0000,0000,,这怎么回事？
+Dialogue: 0,0:42:34.04,0:42:36.64,eng,,0000,0000,0000,,Please!
+Dialogue: 0,0:42:34.04,0:42:36.64,chi,,0000,0000,0000,,请！
+Dialogue: 0,0:42:36.64,0:42:39.64,eng,,0000,0000,0000,,Question one. Please state your name.
+Dialogue: 0,0:42:36.64,0:42:39.64,chi,,0000,0000,0000,,问题一: 请说出你的名字
+Dialogue: 0,0:42:40.40,0:42:42.28,eng,,0000,0000,0000,,Huh?
+Dialogue: 0,0:42:40.40,0:42:42.28,chi,,0000,0000,0000,,嗯？
+Dialogue: 0,0:42:42.28,0:42:45.28,eng,,0000,0000,0000,,Who are you?
+Dialogue: 0,0:42:42.28,0:42:45.28,chi,,0000,0000,0000,,你是谁？
+Dialogue: 0,0:42:46.48,0:42:51.19,eng,,0000,0000,0000,,He doesn't recognise your voice. They fried his brain.
+Dialogue: 0,0:42:46.48,0:42:51.19,chi,,0000,0000,0000,,他没认出你的声音 他们给他洗脑了
+Dialogue: 0,0:42:51.64,0:42:53.76,eng,,0000,0000,0000,,Please state your name.
+Dialogue: 0,0:42:51.64,0:42:53.76,chi,,0000,0000,0000,,请说出你的名字
+Dialogue: 0,0:42:53.76,0:42:56.76,eng,,0000,0000,0000,,- They fried his brain like the rest. - Shut up!
+Dialogue: 0,0:42:53.76,0:42:56.76,chi,,0000,0000,0000,,- 他们给他洗脑了 - 闭嘴！
+Dialogue: 0,0:43:00.96,0:43:03.96,eng,,0000,0000,0000,,I think it's Owen.
+Dialogue: 0,0:43:00.96,0:43:03.96,chi,,0000,0000,0000,,我应该叫欧文
+Dialogue: 0,0:43:04.44,0:43:07.44,eng,,0000,0000,0000,,Thank you.
+Dialogue: 0,0:43:04.44,0:43:07.44,chi,,0000,0000,0000,,谢谢
+Dialogue: 0,0:43:09.64,0:43:11.72,eng,,0000,0000,0000,,Question two:
+Dialogue: 0,0:43:09.64,0:43:11.72,chi,,0000,0000,0000,,问题二:
+Dialogue: 0,0:43:11.72,0:43:14.72,eng,,0000,0000,0000,,Do you believe in God?
+Dialogue: 0,0:43:11.72,0:43:14.72,chi,,0000,0000,0000,,你相信有上帝存在吗？
+Dialogue: 0,0:43:15.12,0:43:16.44,eng,,0000,0000,0000,,What?
+Dialogue: 0,0:43:15.12,0:43:16.44,chi,,0000,0000,0000,,什么？
+Dialogue: 0,0:43:16.44,0:43:17.60,eng,,0000,0000,0000,,What?
+Dialogue: 0,0:43:16.44,0:43:17.60,chi,,0000,0000,0000,,什么？
+Dialogue: 0,0:43:17.60,0:43:20.60,eng,,0000,0000,0000,,Question two: Do you believe in God?
+Dialogue: 0,0:43:17.60,0:43:20.60,chi,,0000,0000,0000,,问题二: 你相信有上帝存在吗？
+Dialogue: 0,0:43:21.96,0:43:24.96,eng,,0000,0000,0000,,What is this? Screw you!
+Dialogue: 0,0:43:21.96,0:43:24.96,chi,,0000,0000,0000,,这是什么意思？ 操你！
+Dialogue: 0,0:43:26.12,0:43:29.12,eng,,0000,0000,0000,,Please answer Yes or No.
+Dialogue: 0,0:43:26.12,0:43:29.12,chi,,0000,0000,0000,,请回答是或者不
+Dialogue: 0,0:43:30.24,0:43:33.12,eng,,0000,0000,0000,,What kind of god would do this to people?
+Dialogue: 0,0:43:30.24,0:43:33.12,chi,,0000,0000,0000,,什么样的上帝会对人这样？
+Dialogue: 0,0:43:33.12,0:43:36.12,eng,,0000,0000,0000,,Please answer Yes or No.
+Dialogue: 0,0:43:33.12,0:43:36.12,chi,,0000,0000,0000,,请回答是或者不
+Dialogue: 0,0:43:39.40,0:43:41.24,eng,,0000,0000,0000,,No.
+Dialogue: 0,0:43:39.40,0:43:41.24,chi,,0000,0000,0000,,不
+Dialogue: 0,0:43:41.24,0:43:42.76,eng,,0000,0000,0000,,Okay?
+Dialogue: 0,0:43:41.24,0:43:42.76,chi,,0000,0000,0000,,可以了吗？
+Dialogue: 0,0:43:42.76,0:43:44.60,eng,,0000,0000,0000,,No!
+Dialogue: 0,0:43:42.76,0:43:44.60,chi,,0000,0000,0000,,不！
+Dialogue: 0,0:43:44.60,0:43:47.60,eng,,0000,0000,0000,,Now let me go. Let me go!
+Dialogue: 0,0:43:44.60,0:43:47.60,chi,,0000,0000,0000,,让我走 让我走！
+Dialogue: 0,0:43:48.44,0:43:51.44,eng,,0000,0000,0000,,God dammit. Let me out of here!
+Dialogue: 0,0:43:48.44,0:43:51.44,chi,,0000,0000,0000,,操他妈的上帝 让我走！
+Dialogue: 0,0:43:53.92,0:43:55.68,eng,,0000,0000,0000,,Hit it.
+Dialogue: 0,0:43:53.92,0:43:55.68,chi,,0000,0000,0000,,按下去
+Dialogue: 0,0:43:55.68,0:43:57.00,eng,,0000,0000,0000,,I need a doctor.
+Dialogue: 0,0:43:55.68,0:43:57.00,chi,,0000,0000,0000,,我需要医生
+Dialogue: 0,0:43:57.00,0:43:59.80,eng,,0000,0000,0000,,- What does it do? - Just hit it.
+Dialogue: 0,0:43:57.00,0:43:59.80,chi,,0000,0000,0000,,- 会发生什么事？ - 你只管按
+Dialogue: 0,0:43:59.80,0:44:02.48,eng,,0000,0000,0000,,Please!
+Dialogue: 0,0:43:59.80,0:44:02.48,chi,,0000,0000,0000,,求你了！
+Dialogue: 0,0:44:02.48,0:44:05.48,eng,,0000,0000,0000,,For Christ's sake!
+Dialogue: 0,0:44:02.48,0:44:05.48,chi,,0000,0000,0000,,一切为了上帝！
+Dialogue: 0,0:44:38.32,0:44:41.32,eng,,0000,0000,0000,,Still want your girlfriend to sail through to the exit?
+Dialogue: 0,0:44:38.32,0:44:41.32,chi,,0000,0000,0000,,还想叫你那个女的到出口吗？
+Dialogue: 0,0:44:47.76,0:44:50.44,eng,,0000,0000,0000,,He...
+Dialogue: 0,0:44:47.76,0:44:50.44,chi,,0000,0000,0000,,他
+Dialogue: 0,0:44:51.44,0:44:54.44,eng,,0000,0000,0000,,He's gone. It's over.
+Dialogue: 0,0:44:51.44,0:44:54.44,chi,,0000,0000,0000,,他死了 结束了
+Dialogue: 0,0:45:08.32,0:45:11.00,eng,,0000,0000,0000,,- He was one of us. - No.
+Dialogue: 0,0:45:08.32,0:45:11.00,chi,,0000,0000,0000,,- 他是我们其中一员 - 不
+Dialogue: 0,0:45:11.00,0:45:14.00,eng,,0000,0000,0000,,Once inside, he's one of them.
+Dialogue: 0,0:45:11.00,0:45:14.00,chi,,0000,0000,0000,,一旦进去了 就属于里面的人了
+Dialogue: 0,0:45:23.48,0:45:26.48,eng,,0000,0000,0000,,So this is your big exit procedure?
+Dialogue: 0,0:45:23.48,0:45:26.48,chi,,0000,0000,0000,,那么这就是你的退出程序？
+Dialogue: 0,0:45:29.16,0:45:32.16,eng,,0000,0000,0000,,What are we doing here?
+Dialogue: 0,0:45:29.16,0:45:32.16,chi,,0000,0000,0000,,你在这干什么？
+Dialogue: 0,0:45:34.60,0:45:37.60,eng,,0000,0000,0000,,"Do you believe in God?" It all hinges on that?
+Dialogue: 0,0:45:34.60,0:45:37.60,chi,,0000,0000,0000,,"你相信神的存在吗？" 就以这个为凭据？
+Dialogue: 0,0:45:39.04,0:45:42.43,eng,,0000,0000,0000,,I just read the questions and push the buttons, okay?
+Dialogue: 0,0:45:39.04,0:45:42.43,chi,,0000,0000,0000,,我只是读下问题 然后按下按钮 就这样而已
+Dialogue: 0,0:45:49.96,0:45:52.96,eng,,0000,0000,0000,,What happens if you push Yes?
+Dialogue: 0,0:45:49.96,0:45:52.96,chi,,0000,0000,0000,,如果按"是"会怎么样？
+Dialogue: 0,0:45:53.00,0:45:55.28,eng,,0000,0000,0000,,I don't know.
+Dialogue: 0,0:45:53.00,0:45:55.28,chi,,0000,0000,0000,,我不知道
+Dialogue: 0,0:45:55.28,0:45:58.28,eng,,0000,0000,0000,,No one's ever said Yes.
+Dialogue: 0,0:45:55.28,0:45:58.28,chi,,0000,0000,0000,,没有人说过"是"
+Dialogue: 0,0:46:03.96,0:46:06.20,eng,,0000,0000,0000,,Here.
+Dialogue: 0,0:46:03.96,0:46:06.20,chi,,0000,0000,0000,,拿着
+Dialogue: 0,0:46:06.20,0:46:09.20,eng,,0000,0000,0000,,Send this upstairs.
+Dialogue: 0,0:46:06.20,0:46:09.20,chi,,0000,0000,0000,,送到上面去
+Dialogue: 0,0:46:12.40,0:46:15.40,eng,,0000,0000,0000,,Do it!
+Dialogue: 0,0:46:12.40,0:46:15.40,chi,,0000,0000,0000,,快点！
+Dialogue: 0,0:46:53.68,0:46:56.68,eng,,0000,0000,0000,,Do you believe in God?
+Dialogue: 0,0:46:53.68,0:46:56.68,chi,,0000,0000,0000,,你相信神的存在吗？
+Dialogue: 0,0:47:13.20,0:47:16.20,eng,,0000,0000,0000,,What kind of animals would do this?
+Dialogue: 0,0:47:13.20,0:47:16.20,chi,,0000,0000,0000,,真是禽兽所为
+Dialogue: 0,0:47:40.24,0:47:43.47,eng,,0000,0000,0000,,Owen is... Owen is probably out sick again.
+Dialogue: 0,0:47:40.24,0:47:43.47,chi,,0000,0000,0000,,欧文是    欧文可能又去外面吐了
+Dialogue: 0,0:47:44.04,0:47:47.04,eng,,0000,0000,0000,,- You sure? - Yes.
+Dialogue: 0,0:47:44.04,0:47:47.04,chi,,0000,0000,0000,,- 你确定？ - 是
+Dialogue: 0,0:47:52.88,0:47:55.88,eng,,0000,0000,0000,,What are you doing? You're not allowed in there.
+Dialogue: 0,0:47:52.88,0:47:55.88,chi,,0000,0000,0000,,你在干什么？ 你不允许进去
+Dialogue: 0,0:47:59.68,0:48:02.44,eng,,0000,0000,0000,,I'm through pushing buttons.
+Dialogue: 0,0:47:59.68,0:48:02.44,chi,,0000,0000,0000,,我要按下这个电钮
+Dialogue: 0,0:48:02.44,0:48:05.44,eng,,0000,0000,0000,,No!
+Dialogue: 0,0:48:02.44,0:48:05.44,chi,,0000,0000,0000,,不！
+Dialogue: 0,0:48:08.16,0:48:11.16,eng,,0000,0000,0000,,Stupid! Stupid! Stupid!
+Dialogue: 0,0:48:08.16,0:48:11.16,chi,,0000,0000,0000,,白痴！ 白痴！ 白痴！
+Dialogue: 0,0:49:50.84,0:49:53.84,eng,,0000,0000,0000,,I'm inside.
+Dialogue: 0,0:49:50.84,0:49:53.84,chi,,0000,0000,0000,,我终于进来了
+Dialogue: 0,0:49:55.16,0:49:58.16,eng,,0000,0000,0000,,Okay...
+Dialogue: 0,0:49:55.16,0:49:58.16,chi,,0000,0000,0000,,好的
+Dialogue: 0,0:50:34.52,0:50:37.52,eng,,0000,0000,0000,,Thank God.
+Dialogue: 0,0:50:34.52,0:50:37.52,chi,,0000,0000,0000,,谢天谢地
+Dialogue: 0,0:50:42.52,0:50:45.52,eng,,0000,0000,0000,,You stupid jackass!
+Dialogue: 0,0:50:42.52,0:50:45.52,chi,,0000,0000,0000,,你这个傻瓜！
+Dialogue: 0,0:50:52.36,0:50:55.36,eng,,0000,0000,0000,,Good evening, Mr. Dodd.
+Dialogue: 0,0:50:52.36,0:50:55.36,chi,,0000,0000,0000,,晚上好 杜德
+Dialogue: 0,0:50:57.28,0:51:00.28,eng,,0000,0000,0000,,I believe these belong to you.
+Dialogue: 0,0:50:57.28,0:51:00.28,chi,,0000,0000,0000,,我认为这个是你的
+Dialogue: 0,0:51:02.16,0:51:06.36,eng,,0000,0000,0000,,Well, it looks that you got yourself a little bit of a situation down here.
+Dialogue: 0,0:51:02.16,0:51:06.36,chi,,0000,0000,0000,,看上去你好像碰到了点麻烦
+Dialogue: 0,0:51:07.40,0:51:10.40,eng,,0000,0000,0000,,May we?
+Dialogue: 0,0:51:07.40,0:51:10.40,chi,,0000,0000,0000,,我能进去看看吗？
+Dialogue: 0,0:51:11.80,0:51:14.80,eng,,0000,0000,0000,,The boys upstairs felt you could perhaps use a hand,
+Dialogue: 0,0:51:11.80,0:51:14.80,chi,,0000,0000,0000,,上面的人认为你碰到了点问题
+Dialogue: 0,0:51:14.92,0:51:17.12,eng,,0000,0000,0000,,and so, here we are.
+Dialogue: 0,0:51:14.92,0:51:17.12,chi,,0000,0000,0000,,于是我们就来了
+Dialogue: 0,0:51:17.12,0:51:21.40,eng,,0000,0000,0000,,My name is Jax and these are my associates Mr. Finn and Mr. Quigley.
+Dialogue: 0,0:51:17.12,0:51:21.40,chi,,0000,0000,0000,,我叫杰克斯 这是我的助手费恩 还有奎克利
+Dialogue: 0,0:51:22.32,0:51:23.84,eng,,0000,0000,0000,,Right.
+Dialogue: 0,0:51:22.32,0:51:23.84,chi,,0000,0000,0000,,就我们三个
+Dialogue: 0,0:51:23.84,0:51:26.84,eng,,0000,0000,0000,,Gentleman, first things first, we locate our mouse.
+Dialogue: 0,0:51:23.84,0:51:26.84,chi,,0000,0000,0000,,先生 首要的事情就是： 先确定他的位置
+Dialogue: 0,0:51:27.44,0:51:31.83,eng,,0000,0000,0000,,He has no implant and so we have to do this the old fashioned way, I'm afraid.
+Dialogue: 0,0:51:27.44,0:51:31.83,chi,,0000,0000,0000,,他脑袋里没有植入芯片 那么我们只能采取老办法了
+Dialogue: 0,0:51:32.00,0:51:35.00,eng,,0000,0000,0000,,Mr. Quigley, run a visual check on all rooms, he couldn't have got far.
+Dialogue: 0,0:51:32.00,0:51:35.00,chi,,0000,0000,0000,,奎克利 开个窗口查找所有房间  他不会跑远的
+Dialogue: 0,0:51:35.16,0:51:36.32,eng,,0000,0000,0000,,Yes, Sir.
+Dialogue: 0,0:51:35.16,0:51:36.32,chi,,0000,0000,0000,,是的 长官
+Dialogue: 0,0:51:36.92,0:51:40.44,eng,,0000,0000,0000,,Mr. Finn, run a probability tree on his potential movements.
+Dialogue: 0,0:51:36.92,0:51:40.44,chi,,0000,0000,0000,,费恩 运行一个概率树调查 他可能活动的范围
+Dialogue: 0,0:51:40.68,0:51:43.68,eng,,0000,0000,0000,,- Let's have some contingency, shall we. - Right away, Sir.
+Dialogue: 0,0:51:40.68,0:51:43.68,chi,,0000,0000,0000,,- 我们应该快点 - 马上 长官
+Dialogue: 0,0:52:23.88,0:52:26.88,eng,,0000,0000,0000,,Excuse me, Mr. Jax.
+Dialogue: 0,0:52:23.88,0:52:26.88,chi,,0000,0000,0000,,打扰下 杰克斯先生
+Dialogue: 0,0:52:27.56,0:52:30.56,eng,,0000,0000,0000,,Excuse me, sir.
+Dialogue: 0,0:52:27.56,0:52:30.56,chi,,0000,0000,0000,,打扰下 长官
+Dialogue: 0,0:52:32.60,0:52:35.60,eng,,0000,0000,0000,,Yes Mr. Codd?
+Dialogue: 0,0:52:32.60,0:52:35.60,chi,,0000,0000,0000,,怎么了 古德先生？
+Dialogue: 0,0:52:36.00,0:52:38.68,eng,,0000,0000,0000,,It's Dodd, sir.
+Dialogue: 0,0:52:36.00,0:52:38.68,chi,,0000,0000,0000,,是杜德 长官
+Dialogue: 0,0:52:38.68,0:52:41.68,eng,,0000,0000,0000,,What do I do?
+Dialogue: 0,0:52:38.68,0:52:41.68,chi,,0000,0000,0000,,我该干什么？
+Dialogue: 0,0:52:42.12,0:52:43.88,eng,,0000,0000,0000,,- I'm sorry? - What do...?
+Dialogue: 0,0:52:42.12,0:52:43.88,chi,,0000,0000,0000,,- 不好意思 - 我要   ？
+Dialogue: 0,0:52:43.88,0:52:47.32,eng,,0000,0000,0000,,Yes I almost forgot I have your orders from upstairs.
+Dialogue: 0,0:52:43.88,0:52:47.32,chi,,0000,0000,0000,,我差点忘了上面给你的命令
+Dialogue: 0,0:52:48.24,0:52:51.24,eng,,0000,0000,0000,,It's a personal delivery.
+Dialogue: 0,0:52:48.24,0:52:51.24,chi,,0000,0000,0000,,这是私人信件
+Dialogue: 0,0:52:54.64,0:52:57.20,eng,,0000,0000,0000,,% # @ $ *    "\N"Order number 7-9-3, bla, bla, bla, bla... "
+Dialogue: 0,0:52:54.64,0:52:57.20,chi,,0000,0000,0000,,"命令 7-9-3
+Dialogue: 0,0:52:57.20,0:53:01.04,eng,,0000,0000,0000,,"Commence standard series of needle tests on Rains group. "
+Dialogue: 0,0:52:57.20,0:53:01.04,chi,,0000,0000,0000,,"开始对蕾斯小组进行针对性标准测试 "
+Dialogue: 0,0:53:07.04,0:53:10.04,eng,,0000,0000,0000,,- You do know what that means? - Yes, sir.
+Dialogue: 0,0:53:07.04,0:53:10.04,chi,,0000,0000,0000,,- 你明白那是什么意思吗？ - 是的 长官
+Dialogue: 0,0:53:11.12,0:53:12.60,eng,,0000,0000,0000,,Of course, sir.
+Dialogue: 0,0:53:11.12,0:53:12.60,chi,,0000,0000,0000,,当然 长官
+Dialogue: 0,0:53:13.60,0:53:16.60,eng,,0000,0000,0000,,All in a day's work, sir. Right away, sir.
+Dialogue: 0,0:53:13.60,0:53:16.60,chi,,0000,0000,0000,,一天内可以完成 长官 马上 长官
+Dialogue: 0,0:53:17.16,0:53:20.16,eng,,0000,0000,0000,,Do us a tinsy favour and use Mr. Wynn's auxiliary monitor.
+Dialogue: 0,0:53:17.16,0:53:20.16,chi,,0000,0000,0000,,为了能做的更好 用卫恩的辅助监视器
+Dialogue: 0,0:53:20.32,0:53:23.24,eng,,0000,0000,0000,,We'll need the big guns here for our little mouse hunt.
+Dialogue: 0,0:53:20.32,0:53:23.24,chi,,0000,0000,0000,,我们必须去猎杀这些小动物
+Dialogue: 0,0:53:23.24,0:53:25.92,eng,,0000,0000,0000,,Of course, Sir. Anything I can do to help, sir...
+Dialogue: 0,0:53:23.24,0:53:25.92,chi,,0000,0000,0000,,当然 长官 我会尽力帮忙的 长官
+Dialogue: 0,0:53:25.92,0:53:28.76,eng,,0000,0000,0000,,That the spirit Mr. Modd, way to keep the world safe for democracy.
+Dialogue: 0,0:53:25.92,0:53:28.76,chi,,0000,0000,0000,,穆德 就是要有这种精神才能维护世界安全
+Dialogue: 0,0:53:28.76,0:53:31.76,eng,,0000,0000,0000,,- Have we got a visual yet? - Still working on it, Sir.
+Dialogue: 0,0:53:28.76,0:53:31.76,chi,,0000,0000,0000,,- 看到影象了吗？ - 还在查找 长官
+Dialogue: 0,0:53:39.16,0:53:42.68,eng,,0000,0000,0000,,Okay, K-G-K. Three odds.
+Dialogue: 0,0:53:39.16,0:53:42.68,chi,,0000,0000,0000,,好的  K-G-K 3层几率
+Dialogue: 0,0:53:42.84,0:53:45.84,eng,,0000,0000,0000,,M-A-Q\NM-A-Q. Three odds.
+Dialogue: 0,0:53:42.84,0:53:45.84,chi,,0000,0000,0000,,3层几率
+Dialogue: 0,0:53:45.92,0:53:49.47,eng,,0000,0000,0000,,Safe. Like taking candy from a baby.
+Dialogue: 0,0:53:45.92,0:53:49.47,chi,,0000,0000,0000,,安全 看来很容易
+Dialogue: 0,0:53:54.48,0:53:57.36,eng,,0000,0000,0000,,A-Z-Z. A-Z-Z!
+Dialogue: 0,0:53:54.48,0:53:57.36,chi,,0000,0000,0000,,A-Z-Z A-Z-Z！
+Dialogue: 0,0:53:57.36,0:54:00.36,eng,,0000,0000,0000,,Got it.
+Dialogue: 0,0:53:57.36,0:54:00.36,chi,,0000,0000,0000,,明白了
+Dialogue: 0,0:54:06.92,0:54:09.92,eng,,0000,0000,0000,,I don't know why we bother with these things anymore.
+Dialogue: 0,0:54:06.92,0:54:09.92,chi,,0000,0000,0000,,真不明白我们还担心这些干什么
+Dialogue: 0,0:54:10.48,0:54:13.28,eng,,0000,0000,0000,,A-Z-Z.
+Dialogue: 0,0:54:10.48,0:54:13.28,chi,,0000,0000,0000,,A-Z-Z
+Dialogue: 0,0:54:13.28,0:54:15.12,eng,,0000,0000,0000,,It's the first time I've seen a Z.
+Dialogue: 0,0:54:13.28,0:54:15.12,chi,,0000,0000,0000,,这是我第一次看到 Z
+Dialogue: 0,0:54:15.12,0:54:18.12,eng,,0000,0000,0000,,- Do you think it means anything? - I don't know.
+Dialogue: 0,0:54:15.12,0:54:18.12,chi,,0000,0000,0000,,- 你知道它代表什么吗？ - 不知道
+Dialogue: 0,0:54:19.12,0:54:22.12,eng,,0000,0000,0000,,Ah, don't let the door close!
+Dialogue: 0,0:54:19.12,0:54:22.12,chi,,0000,0000,0000,,哦 别让门关上！
+Dialogue: 0,0:54:22.36,0:54:25.36,eng,,0000,0000,0000,,Dammit!
+Dialogue: 0,0:54:22.36,0:54:25.36,chi,,0000,0000,0000,,该死的！
+Dialogue: 0,0:54:38.24,0:54:41.24,eng,,0000,0000,0000,,She's gone.
+Dialogue: 0,0:54:38.24,0:54:41.24,chi,,0000,0000,0000,,她消失了
+Dialogue: 0,0:55:00.52,0:55:02.28,eng,,0000,0000,0000,,Got it.
+Dialogue: 0,0:55:00.52,0:55:02.28,chi,,0000,0000,0000,,找到了
+Dialogue: 0,0:55:02.28,0:55:05.28,eng,,0000,0000,0000,,Subject is isolated.
+Dialogue: 0,0:55:02.28,0:55:05.28,chi,,0000,0000,0000,,目标被分离
+Dialogue: 0,0:55:21.48,0:55:24.48,eng,,0000,0000,0000,,And now the tricky part.
+Dialogue: 0,0:55:21.48,0:55:24.48,chi,,0000,0000,0000,,现在是动作部分
+Dialogue: 0,0:56:26.80,0:56:29.80,eng,,0000,0000,0000,,Okay. You were last seen here.
+Dialogue: 0,0:56:26.80,0:56:29.80,chi,,0000,0000,0000,,好的 最后看到你是在这里
+Dialogue: 0,0:56:31.24,0:56:33.76,eng,,0000,0000,0000,,That was an hour ago.
+Dialogue: 0,0:56:31.24,0:56:33.76,chi,,0000,0000,0000,,已经过了一小时了
+Dialogue: 0,0:56:33.76,0:56:36.76,eng,,0000,0000,0000,,She should still be in the same coordinate.
+Dialogue: 0,0:56:33.76,0:56:36.76,chi,,0000,0000,0000,,她应该还在同一个屋子里
+Dialogue: 0,0:57:01.06,0:57:02.92,eng,,0000,0000,0000,,The rooms move. Do they have to?
+Dialogue: 0,0:57:01.06,0:57:02.92,chi,,0000,0000,0000,,- 房子能移动 - 怎么会这样？
+Dialogue: 0,0:57:04.62,0:57:06.68,eng,,0000,0000,0000,,She can't be that far.
+Dialogue: 0,0:57:04.62,0:57:06.68,chi,,0000,0000,0000,,她应该不会离得太远的
+Dialogue: 0,0:57:06.84,0:57:10.20,eng,,0000,0000,0000,,Yeah but if we veer too far off course looking for her we'll never find the edge.
+Dialogue: 0,0:57:06.84,0:57:10.20,chi,,0000,0000,0000,,如果要救她的话 我们永远也出不去
+Dialogue: 0,0:57:10.36,0:57:13.08,eng,,0000,0000,0000,,What do you suggest, killer? That we'll cut our loses?
+Dialogue: 0,0:57:10.36,0:57:13.08,chi,,0000,0000,0000,,你什么意思 凶手？ 我们要丢弃我们的队员？
+Dialogue: 0,0:57:13.08,0:57:16.08,eng,,0000,0000,0000,,Uh, Guys.
+Dialogue: 0,0:57:13.08,0:57:16.08,chi,,0000,0000,0000,,喂 伙计们
+Dialogue: 0,0:57:17.92,0:57:20.92,eng,,0000,0000,0000,,Are we sure this room is safe?
+Dialogue: 0,0:57:17.92,0:57:20.92,chi,,0000,0000,0000,,你们确定这个房间安全吗？
+Dialogue: 0,0:57:26.56,0:57:31.03,eng,,0000,0000,0000,,Maybe he just starved to death. God I'm hungry.
+Dialogue: 0,0:57:26.56,0:57:31.03,chi,,0000,0000,0000,,他可能是饿死的
+Dialogue: 0,0:57:37.96,0:57:40.96,eng,,0000,0000,0000,,- What are you doing? - We could use these.
+Dialogue: 0,0:57:37.96,0:57:40.96,chi,,0000,0000,0000,,- 你在干什么？ - 这些我们有用
+Dialogue: 0,0:57:41.08,0:57:44.23,eng,,0000,0000,0000,,- We have to keep moving. - We have to get back on track.
+Dialogue: 0,0:57:41.08,0:57:44.23,chi,,0000,0000,0000,,- 我们要继续走 - 我们要回到轨道上来
+Dialogue: 0,0:57:44.40,0:57:47.55,eng,,0000,0000,0000,,We've already chased our tails for an hour looking for her.
+Dialogue: 0,0:57:44.40,0:57:47.55,chi,,0000,0000,0000,,我已经浪费了一小时去找她了 那个拖后腿的
+Dialogue: 0,0:57:47.72,0:57:50.00,eng,,0000,0000,0000,,God! This headache is not going away...
+Dialogue: 0,0:57:47.72,0:57:50.00,chi,,0000,0000,0000,,靠！ 头又开始痛了
+Dialogue: 0,0:57:51.00,0:57:54.00,eng,,0000,0000,0000,,- Maybe it's that chip in your head. - What?
+Dialogue: 0,0:57:51.00,0:57:54.00,chi,,0000,0000,0000,,- 可能你脑袋里有一个芯片 - 什么意思？
+Dialogue: 0,0:57:55.24,0:57:59.95,eng,,0000,0000,0000,,It's true isn't it? I mean they now put bio-receivers in all you army boys.
+Dialogue: 0,0:57:55.24,0:57:59.95,chi,,0000,0000,0000,,难道不是吗？ 我是说他们将生物 接收器植入你们士兵的脑袋
+Dialogue: 0,0:58:00.24,0:58:03.04,eng,,0000,0000,0000,,Keeps you on a leash.
+Dialogue: 0,0:58:00.24,0:58:03.04,chi,,0000,0000,0000,,就用这个来控制
+Dialogue: 0,0:58:03.04,0:58:06.04,eng,,0000,0000,0000,,Lady you've got a hell of an imagination.
+Dialogue: 0,0:58:03.04,0:58:06.04,chi,,0000,0000,0000,,女士 你的太会想象了
+Dialogue: 0,0:58:06.68,0:58:09.68,eng,,0000,0000,0000,,Jackpot. It's her.
+Dialogue: 0,0:58:06.68,0:58:09.68,chi,,0000,0000,0000,,找到了！在这里
+Dialogue: 0,0:58:12.60,0:58:13.80,eng,,0000,0000,0000,,Dammit.
+Dialogue: 0,0:58:12.60,0:58:13.80,chi,,0000,0000,0000,,妈的
+Dialogue: 0,0:58:13.80,0:58:16.68,eng,,0000,0000,0000,,Is she all right?
+Dialogue: 0,0:58:13.80,0:58:16.68,chi,,0000,0000,0000,,她还好吗？
+Dialogue: 0,0:58:16.68,0:58:18.76,eng,,0000,0000,0000,,She's not moving.
+Dialogue: 0,0:58:16.68,0:58:18.76,chi,,0000,0000,0000,,她不能动了好像
+Dialogue: 0,0:58:18.76,0:58:21.76,eng,,0000,0000,0000,,Great.
+Dialogue: 0,0:58:18.76,0:58:21.76,chi,,0000,0000,0000,,好极了
+Dialogue: 0,0:58:28.92,0:58:31.92,eng,,0000,0000,0000,,Wake up.
+Dialogue: 0,0:58:28.92,0:58:31.92,chi,,0000,0000,0000,,嘿 醒一醒
+Dialogue: 0,0:58:32.20,0:58:35.20,eng,,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:58:32.20,0:58:35.20,chi,,0000,0000,0000,,你还好吗？
+Dialogue: 0,0:58:35.48,0:58:37.84,eng,,0000,0000,0000,,Rise and shine...
+Dialogue: 0,0:58:35.48,0:58:37.84,chi,,0000,0000,0000,,太阳升起来了
+Dialogue: 0,0:58:37.84,0:58:40.84,eng,,0000,0000,0000,,Is she...?
+Dialogue: 0,0:58:37.84,0:58:40.84,chi,,0000,0000,0000,,她该不会   ？
+Dialogue: 0,0:58:42.16,0:58:44.76,eng,,0000,0000,0000,,There's a pulse.
+Dialogue: 0,0:58:42.16,0:58:44.76,chi,,0000,0000,0000,,脉搏还在跳
+Dialogue: 0,0:58:45.46,0:58:47.18,eng,,0000,0000,0000,,She's burning up.
+Dialogue: 0,0:58:45.46,0:58:47.18,chi,,0000,0000,0000,,她很虚弱
+Dialogue: 0,0:58:47.18,0:58:50.18,eng,,0000,0000,0000,,Can you hear me?
+Dialogue: 0,0:58:47.18,0:58:50.18,chi,,0000,0000,0000,,能听见我吗？
+Dialogue: 0,0:58:51.26,0:58:53.78,eng,,0000,0000,0000,,- Oh my God. - What happened to you?
+Dialogue: 0,0:58:51.26,0:58:53.78,chi,,0000,0000,0000,,- 哦 我的老天 - 你发生什么事了
+Dialogue: 0,0:58:53.78,0:58:56.78,eng,,0000,0000,0000,,Help...
+Dialogue: 0,0:58:53.78,0:58:56.78,chi,,0000,0000,0000,,快救我
+Dialogue: 0,0:59:01.98,0:59:03.78,eng,,0000,0000,0000,,I need a doctor.
+Dialogue: 0,0:59:01.98,0:59:03.78,chi,,0000,0000,0000,,我要医生
+Dialogue: 0,0:59:03.78,0:59:06.10,eng,,0000,0000,0000,,- Don't let her touch you! - Let go!
+Dialogue: 0,0:59:03.78,0:59:06.10,chi,,0000,0000,0000,,- 别让他碰你！ - 别管了！
+Dialogue: 0,0:59:06.10,0:59:07.82,eng,,0000,0000,0000,,- Watch it! - Oh my God!
+Dialogue: 0,0:59:06.10,0:59:07.82,chi,,0000,0000,0000,,- 我的天！ - 不要丢下我！
+Dialogue: 0,0:59:07.82,0:59:10.82,eng,,0000,0000,0000,,Don't leave me!
+Dialogue: 0,0:59:07.82,0:59:10.82,chi,,0000,0000,0000,,不要！
+Dialogue: 0,0:59:22.18,0:59:25.18,eng,,0000,0000,0000,,- You just... - I didn't mean to...
+Dialogue: 0,0:59:22.18,0:59:25.18,chi,,0000,0000,0000,,- 你刚刚    - 我不是故意的
+Dialogue: 0,0:59:26.30,0:59:29.30,eng,,0000,0000,0000,,She scratched and I...
+Dialogue: 0,0:59:26.30,0:59:29.30,chi,,0000,0000,0000,,她抓我
+Dialogue: 0,0:59:30.18,0:59:33.18,eng,,0000,0000,0000,,You put her out of her misery.
+Dialogue: 0,0:59:30.18,0:59:33.18,chi,,0000,0000,0000,,你使她脱离了苦海
+Dialogue: 0,0:59:33.74,0:59:36.74,eng,,0000,0000,0000,,My headache's gone.
+Dialogue: 0,0:59:33.74,0:59:36.74,chi,,0000,0000,0000,,我的头不痛了
+Dialogue: 0,0:59:40.14,0:59:43.14,eng,,0000,0000,0000,,Something's eating her.
+Dialogue: 0,0:59:40.14,0:59:43.14,chi,,0000,0000,0000,,好像有什么东西在吃她
+Dialogue: 0,0:59:44.10,0:59:46.74,eng,,0000,0000,0000,,A chemical or a virus.
+Dialogue: 0,0:59:44.10,0:59:46.74,chi,,0000,0000,0000,,是化学物质还是病毒？
+Dialogue: 0,0:59:46.74,0:59:49.50,eng,,0000,0000,0000,,We never checked this room for traps.
+Dialogue: 0,0:59:46.74,0:59:49.50,chi,,0000,0000,0000,,我们还不知道这房间安不安全呢
+Dialogue: 0,0:59:49.50,0:59:52.50,eng,,0000,0000,0000,,I could be in the air.
+Dialogue: 0,0:59:49.50,0:59:52.50,chi,,0000,0000,0000,,也许是这里的空气有问题
+Dialogue: 0,0:59:53.62,0:59:56.62,eng,,0000,0000,0000,,- Let's see your arm. - We've got to get outta here.
+Dialogue: 0,0:59:53.62,0:59:56.62,chi,,0000,0000,0000,,- 让我看看你的胳膊 - 我们要赶快离开这里
+Dialogue: 0,0:59:56.94,0:59:59.94,eng,,0000,0000,0000,,- Show me your arm. - He's right, we've gotta get outta here.
+Dialogue: 0,0:59:56.94,0:59:59.94,chi,,0000,0000,0000,,- 让我看看你的胳膊 - 他说得对 我们得快点离开
+Dialogue: 0,0:59:59.98,1:00:02.50,eng,,0000,0000,0000,,Your arm. Where she scratched you, Let's see it.
+Dialogue: 0,0:59:59.98,1:00:02.50,chi,,0000,0000,0000,,让我看看你被抓伤的胳膊
+Dialogue: 0,1:00:02.50,1:00:04.02,eng,,0000,0000,0000,,- Why, you think...? - Yes, I think!
+Dialogue: 0,1:00:02.50,1:00:04.02,chi,,0000,0000,0000,,- 为什么 难道你认为   ？ - 是的！
+Dialogue: 0,1:00:04.02,1:00:07.02,eng,,0000,0000,0000,,Fine! there, see? Nothing!
+Dialogue: 0,1:00:04.02,1:00:07.02,chi,,0000,0000,0000,,好吧！看 就是这了 没事！
+Dialogue: 0,1:00:07.66,1:00:10.66,eng,,0000,0000,0000,,Flesh wound.
+Dialogue: 0,1:00:07.66,1:00:10.66,chi,,0000,0000,0000,,新伤口而已
+Dialogue: 0,1:00:17.94,1:00:20.14,eng,,0000,0000,0000,,Sure.
+Dialogue: 0,1:00:17.94,1:00:20.14,chi,,0000,0000,0000,,是吗？
+Dialogue: 0,1:00:20.14,1:00:22.62,eng,,0000,0000,0000,,Nothing.
+Dialogue: 0,1:00:20.14,1:00:22.62,chi,,0000,0000,0000,,没事？
+Dialogue: 0,1:00:23.62,1:00:25.78,eng,,0000,0000,0000,,What do we do with him?
+Dialogue: 0,1:00:23.62,1:00:25.78,chi,,0000,0000,0000,,我们拿他怎么办？
+Dialogue: 0,1:00:25.78,1:00:27.14,eng,,0000,0000,0000,,What do you mean?
+Dialogue: 0,1:00:25.78,1:00:27.14,chi,,0000,0000,0000,,什么意思？
+Dialogue: 0,1:00:27.14,1:00:29.58,eng,,0000,0000,0000,,I think whatever was eating away at her, is spreading to him.
+Dialogue: 0,1:00:27.14,1:00:29.58,chi,,0000,0000,0000,,不管是什么吃了她 现在已经感染到他身上了
+Dialogue: 0,1:00:29.58,1:00:32.58,eng,,0000,0000,0000,,- Hey I'm still here! - Not for long!
+Dialogue: 0,1:00:29.58,1:00:32.58,chi,,0000,0000,0000,,- 嗨 我还没死呢！ - 就快了！
+Dialogue: 0,1:00:34.80,1:00:36.60,eng,,0000,0000,0000,,- I say we ditch him. - Screw you!
+Dialogue: 0,1:00:34.80,1:00:36.60,chi,,0000,0000,0000,,- 我想还是放弃他吧 - 你去死吧！
+Dialogue: 0,1:00:36.60,1:00:39.60,eng,,0000,0000,0000,,Just relax guys, nobody's ditching anyone.
+Dialogue: 0,1:00:36.60,1:00:39.60,chi,,0000,0000,0000,,放松各位 没有人会被抛弃的
+Dialogue: 0,1:00:40.12,1:00:42.80,eng,,0000,0000,0000,,Look at him.
+Dialogue: 0,1:00:40.12,1:00:42.80,chi,,0000,0000,0000,,你看看他
+Dialogue: 0,1:00:42.80,1:00:44.76,eng,,0000,0000,0000,,Oh my God.
+Dialogue: 0,1:00:42.80,1:00:44.76,chi,,0000,0000,0000,,哦 我的天
+Dialogue: 0,1:00:44.76,1:00:46.20,eng,,0000,0000,0000,,What?
+Dialogue: 0,1:00:44.76,1:00:46.20,chi,,0000,0000,0000,,什么？
+Dialogue: 0,1:00:46.20,1:00:49.20,eng,,0000,0000,0000,,Your face.
+Dialogue: 0,1:00:46.20,1:00:49.20,chi,,0000,0000,0000,,你的脸
+Dialogue: 0,1:00:54.24,1:00:57.24,eng,,0000,0000,0000,,Crap.
+Dialogue: 0,1:00:54.24,1:00:57.24,chi,,0000,0000,0000,,完蛋
+Dialogue: 0,1:01:05.28,1:01:08.20,eng,,0000,0000,0000,,Please don't leave me.
+Dialogue: 0,1:01:05.28,1:01:08.20,chi,,0000,0000,0000,,不要丢下我
+Dialogue: 0,1:01:08.20,1:01:09.68,eng,,0000,0000,0000,,This is horrible.
+Dialogue: 0,1:01:08.20,1:01:09.68,chi,,0000,0000,0000,,太恐怖了
+Dialogue: 0,1:01:09.68,1:01:12.04,eng,,0000,0000,0000,,You wanna baby-sit a dead man? Be my guest.
+Dialogue: 0,1:01:09.68,1:01:12.04,chi,,0000,0000,0000,,如果你要照顾一个死人 随你的便
+Dialogue: 0,1:01:12.04,1:01:15.04,eng,,0000,0000,0000,,Please. I'll do anything.
+Dialogue: 0,1:01:12.04,1:01:15.04,chi,,0000,0000,0000,,请不要这样 叫我做任何事都行
+Dialogue: 0,1:01:16.60,1:01:19.60,eng,,0000,0000,0000,,Anything?
+Dialogue: 0,1:01:16.60,1:01:19.60,chi,,0000,0000,0000,,任何事？
+Dialogue: 0,1:01:19.64,1:01:22.64,eng,,0000,0000,0000,,From now on, you test the rooms.
+Dialogue: 0,1:01:19.64,1:01:22.64,chi,,0000,0000,0000,,从现在起 房间都由你来试探
+Dialogue: 0,1:01:23.44,1:01:26.44,eng,,0000,0000,0000,,All of them.
+Dialogue: 0,1:01:23.44,1:01:26.44,chi,,0000,0000,0000,,每一间
+Dialogue: 0,1:01:28.68,1:01:31.68,eng,,0000,0000,0000,,Fine.
+Dialogue: 0,1:01:28.68,1:01:31.68,chi,,0000,0000,0000,,好吧
+Dialogue: 0,1:01:40.44,1:01:43.44,eng,,0000,0000,0000,,Well, we're not going down there.
+Dialogue: 0,1:01:40.44,1:01:43.44,chi,,0000,0000,0000,,看来下面我们是不能走了
+Dialogue: 0,1:01:43.60,1:01:46.60,eng,,0000,0000,0000,,No sense wasting a good boot.
+Dialogue: 0,1:01:43.60,1:01:46.60,chi,,0000,0000,0000,,没有必要浪费一只鞋了
+Dialogue: 0,1:02:00.92,1:02:03.12,eng,,0000,0000,0000,,Help me!
+Dialogue: 0,1:02:00.92,1:02:03.12,chi,,0000,0000,0000,,快帮忙！
+Dialogue: 0,1:02:03.12,1:02:06.12,eng,,0000,0000,0000,,He's still alive down there!
+Dialogue: 0,1:02:03.12,1:02:06.12,chi,,0000,0000,0000,,他还活着呢！
+Dialogue: 0,1:02:06.44,1:02:09.44,eng,,0000,0000,0000,,Forget it, he's gone.
+Dialogue: 0,1:02:06.44,1:02:09.44,chi,,0000,0000,0000,,忘了他吧 反正都是死
+Dialogue: 0,1:02:09.68,1:02:12.68,eng,,0000,0000,0000,,You heartless son of a bitch!
+Dialogue: 0,1:02:09.68,1:02:12.68,chi,,0000,0000,0000,,你真是冷血动物！
+Dialogue: 0,1:02:49.24,1:02:52.24,eng,,0000,0000,0000,,No!
+Dialogue: 0,1:02:49.24,1:02:52.24,chi,,0000,0000,0000,,不！
+Dialogue: 0,1:02:58.64,1:03:01.12,eng,,0000,0000,0000,,- Don't come near me. - I was protecting us.
+Dialogue: 0,1:02:58.64,1:03:01.12,chi,,0000,0000,0000,,- 离我远点 - 我在保护我们
+Dialogue: 0,1:03:01.12,1:03:04.35,eng,,0000,0000,0000,,- You murdered him. - He was infected.
+Dialogue: 0,1:03:01.12,1:03:04.35,chi,,0000,0000,0000,,- 你杀了他 - 它被感染了
+Dialogue: 0,1:03:04.52,1:03:07.80,eng,,0000,0000,0000,,You saw it, it was spreading. We'd be dead by now.
+Dialogue: 0,1:03:04.52,1:03:07.80,chi,,0000,0000,0000,,你看到了 那东西会传染 若不这样我们已经死了
+Dialogue: 0,1:03:07.96,1:03:11.35,eng,,0000,0000,0000,,- You don't know that. - Actually, he's right.
+Dialogue: 0,1:03:07.96,1:03:11.35,chi,,0000,0000,0000,,- 你怎么知道？ - 没错 他说得对
+Dialogue: 0,1:03:11.88,1:03:14.88,eng,,0000,0000,0000,,It's a highly contagious form of a virus.
+Dialogue: 0,1:03:11.88,1:03:14.88,chi,,0000,0000,0000,,那是一种高传染性的病毒
+Dialogue: 0,1:03:15.90,1:03:18.90,eng,,0000,0000,0000,,- Flesh eating disease. - Who the hell are you?
+Dialogue: 0,1:03:15.90,1:03:18.90,chi,,0000,0000,0000,,- 嗜血病毒 - 你是谁？
+Dialogue: 0,1:03:21.26,1:03:25.26,eng,,0000,0000,0000,,I... I've come to help.
+Dialogue: 0,1:03:21.26,1:03:25.26,chi,,0000,0000,0000,,我    我是来帮助你们的
+Dialogue: 0,1:03:26.26,1:03:29.26,eng,,0000,0000,0000,,- Damn. - Problem, Mr. Scrod?
+Dialogue: 0,1:03:26.26,1:03:29.26,chi,,0000,0000,0000,,- 该死的 - 有什么问题吗？
+Dialogue: 0,1:03:29.38,1:03:32.34,eng,,0000,0000,0000,,- No problem Sir. - Anything of interest?
+Dialogue: 0,1:03:29.38,1:03:32.34,chi,,0000,0000,0000,,- 没有 先生 - 什么有趣的东西？
+Dialogue: 0,1:03:32.34,1:03:34.38,eng,,0000,0000,0000,,Actually Sir, I was about to...
+Dialogue: 0,1:03:32.34,1:03:34.38,chi,,0000,0000,0000,,其实 先生  我想要
+Dialogue: 0,1:03:34.38,1:03:37.38,eng,,0000,0000,0000,,Would you care to share with the rest of the class?
+Dialogue: 0,1:03:34.38,1:03:37.38,chi,,0000,0000,0000,,你会好好配合我吗？
+Dialogue: 0,1:03:37.94,1:03:39.62,eng,,0000,0000,0000,,Yes Sir.
+Dialogue: 0,1:03:37.94,1:03:39.62,chi,,0000,0000,0000,,是的
+Dialogue: 0,1:03:39.62,1:03:42.77,eng,,0000,0000,0000,,As I was running my test series as instructed Sir,
+Dialogue: 0,1:03:39.62,1:03:42.77,chi,,0000,0000,0000,,我遵照你的命令进行测试 长官
+Dialogue: 0,1:03:43.58,1:03:46.58,eng,,0000,0000,0000,,The query intersected with my subject, Sir.
+Dialogue: 0,1:03:43.58,1:03:46.58,chi,,0000,0000,0000,,这些结果是我从目标上找出来的 长官
+Dialogue: 0,1:03:46.74,1:03:48.54,eng,,0000,0000,0000,,Good work, Rod.
+Dialogue: 0,1:03:46.74,1:03:48.54,chi,,0000,0000,0000,,干的好 罗德
+Dialogue: 0,1:03:48.54,1:03:51.54,eng,,0000,0000,0000,,Who says they only hire the mentally challenged down here?
+Dialogue: 0,1:03:48.54,1:03:51.54,chi,,0000,0000,0000,,谁说他们只是受到精神的挑战？
+Dialogue: 0,1:03:51.70,1:03:54.30,eng,,0000,0000,0000,,Open.
+Dialogue: 0,1:03:51.70,1:03:54.30,chi,,0000,0000,0000,,张开
+Dialogue: 0,1:03:54.30,1:03:57.30,eng,,0000,0000,0000,,- Thank you, Sir. - Up on the main monitor now, Please.
+Dialogue: 0,1:03:54.30,1:03:57.30,chi,,0000,0000,0000,,- 谢谢 长官 - 现在请转到主屏幕
+Dialogue: 0,1:03:58.38,1:04:02.46,eng,,0000,0000,0000,,We keep... They, collect data and run tests.
+Dialogue: 0,1:03:58.38,1:04:02.46,chi,,0000,0000,0000,,我们收集数据还有进行测试
+Dialogue: 0,1:04:03.62,1:04:06.90,eng,,0000,0000,0000,,All kinds of tests. Testing Chemical and Biological agents,
+Dialogue: 0,1:04:03.62,1:04:06.90,chi,,0000,0000,0000,,多种测试 测试多种化学和生物试剂
+Dialogue: 0,1:04:07.14,1:04:10.34,eng,,0000,0000,0000,,Measure brain activity, endurance, most of it I don't even understand.
+Dialogue: 0,1:04:07.14,1:04:10.34,chi,,0000,0000,0000,,测试大脑的活性 忍耐程度 但大部分我还没弄明白
+Dialogue: 0,1:04:10.86,1:04:13.82,eng,,0000,0000,0000,,And that's just what I see in my department.
+Dialogue: 0,1:04:10.86,1:04:13.82,chi,,0000,0000,0000,,这就是我在我的岗位所了解的
+Dialogue: 0,1:04:13.82,1:04:16.82,eng,,0000,0000,0000,,I hear about others who do different work.
+Dialogue: 0,1:04:13.82,1:04:16.82,chi,,0000,0000,0000,,据说还有其他人在做不同的工作
+Dialogue: 0,1:04:17.74,1:04:20.74,eng,,0000,0000,0000,,I even heard there are other facilities.
+Dialogue: 0,1:04:17.74,1:04:20.74,chi,,0000,0000,0000,,据说还有其他不同的设备
+Dialogue: 0,1:04:21.58,1:04:23.30,eng,,0000,0000,0000,,Cubes.
+Dialogue: 0,1:04:21.58,1:04:23.30,chi,,0000,0000,0000,,异次元杀阵
+Dialogue: 0,1:04:23.30,1:04:25.22,eng,,0000,0000,0000,,Christ.
+Dialogue: 0,1:04:23.30,1:04:25.22,chi,,0000,0000,0000,,我的天
+Dialogue: 0,1:04:25.22,1:04:27.14,eng,,0000,0000,0000,,I just heard rumours.
+Dialogue: 0,1:04:25.22,1:04:27.14,chi,,0000,0000,0000,,这可能只是传言
+Dialogue: 0,1:04:27.14,1:04:29.22,eng,,0000,0000,0000,,- Why can't we remember anything? - I don't know,
+Dialogue: 0,1:04:27.14,1:04:29.22,chi,,0000,0000,0000,,- 为什么我们都丧失了记忆？ - 我也不大清楚
+Dialogue: 0,1:04:30.22,1:04:33.50,eng,,0000,0000,0000,,I always assumed that it was so they could have a blank slate to work with.
+Dialogue: 0,1:04:30.22,1:04:33.50,chi,,0000,0000,0000,,我只是觉得他们已经给你们洗过脑
+Dialogue: 0,1:04:33.66,1:04:37.29,eng,,0000,0000,0000,,Blank slate?  Bastards, you've been using us as lab rats.
+Dialogue: 0,1:04:33.66,1:04:37.29,chi,,0000,0000,0000,,洗脑？　混蛋  你们把我们当成实验室的小白鼠
+Dialogue: 0,1:04:37.62,1:04:40.18,eng,,0000,0000,0000,,Hey man, not me.
+Dialogue: 0,1:04:37.62,1:04:40.18,chi,,0000,0000,0000,,嗨 不是我
+Dialogue: 0,1:04:40.18,1:04:42.22,eng,,0000,0000,0000,,I'm just the computer guy, system checks. Stuff like that.
+Dialogue: 0,1:04:40.18,1:04:42.22,chi,,0000,0000,0000,,我只是个技术工程师  做系统检查 做些材料
+Dialogue: 0,1:04:42.22,1:04:45.22,eng,,0000,0000,0000,,Oh yeah, you just followed orders.
+Dialogue: 0,1:04:42.22,1:04:45.22,chi,,0000,0000,0000,,你只是遵从命令罢了
+Dialogue: 0,1:04:46.86,1:04:48.14,eng,,0000,0000,0000,,Yeah.
+Dialogue: 0,1:04:46.86,1:04:48.14,chi,,0000,0000,0000,,也可以这么说
+Dialogue: 0,1:04:48.14,1:04:51.14,eng,,0000,0000,0000,,- You make me sick. - Look, you got it all wrong.
+Dialogue: 0,1:04:48.14,1:04:51.14,chi,,0000,0000,0000,,- 你让我觉得恶心 - 听着 你完全搞错了
+Dialogue: 0,1:04:51.38,1:04:53.46,eng,,0000,0000,0000,,- I hate my job. - You're job?
+Dialogue: 0,1:04:51.38,1:04:53.46,chi,,0000,0000,0000,,- 我讨厌我的工作 - 你的工作？
+Dialogue: 0,1:04:53.46,1:04:55.98,eng,,0000,0000,0000,,How can you do this to people.
+Dialogue: 0,1:04:53.46,1:04:55.98,chi,,0000,0000,0000,,你怎么能这样对待我们
+Dialogue: 0,1:04:55.98,1:04:58.50,eng,,0000,0000,0000,,It was your choice.
+Dialogue: 0,1:04:55.98,1:04:58.50,chi,,0000,0000,0000,,是你们自己选的
+Dialogue: 0,1:04:58.50,1:05:01.50,eng,,0000,0000,0000,,You volunteered, only you don't remember anymore.
+Dialogue: 0,1:04:58.50,1:05:01.50,chi,,0000,0000,0000,,是你们自愿的  只是你们都不记得了
+Dialogue: 0,1:05:02.58,1:05:04.98,eng,,0000,0000,0000,,At least that what they told us.
+Dialogue: 0,1:05:02.58,1:05:04.98,chi,,0000,0000,0000,,至少他们应该告诉我们的
+Dialogue: 0,1:05:04.98,1:05:06.94,eng,,0000,0000,0000,,And you believed them?
+Dialogue: 0,1:05:04.98,1:05:06.94,chi,,0000,0000,0000,,你相信那些人？
+Dialogue: 0,1:05:06.94,1:05:10.25,eng,,0000,0000,0000,,Well, yeah. I saw the consent forms. Except for yours!
+Dialogue: 0,1:05:06.94,1:05:10.25,chi,,0000,0000,0000,,其实 我看了协议书 没有你的！
+Dialogue: 0,1:05:10.46,1:05:12.22,eng,,0000,0000,0000,,You're lying!
+Dialogue: 0,1:05:10.46,1:05:12.22,chi,,0000,0000,0000,,你说谎！
+Dialogue: 0,1:05:12.22,1:05:15.22,eng,,0000,0000,0000,,Who would volunteer for this?
+Dialogue: 0,1:05:12.22,1:05:15.22,chi,,0000,0000,0000,,谁会愿意来作自愿者？
+Dialogue: 0,1:05:15.26,1:05:17.42,eng,,0000,0000,0000,,Well it was either this or execution so...
+Dialogue: 0,1:05:15.26,1:05:17.42,chi,,0000,0000,0000,,实际上这也是一种酷刑
+Dialogue: 0,1:05:17.42,1:05:19.86,eng,,0000,0000,0000,,What?
+Dialogue: 0,1:05:17.42,1:05:19.86,chi,,0000,0000,0000,,什么？
+Dialogue: 0,1:05:20.86,1:05:22.82,eng,,0000,0000,0000,,They say you're all condemned prisoners,
+Dialogue: 0,1:05:20.86,1:05:22.82,chi,,0000,0000,0000,,他们说你们都是囚犯
+Dialogue: 0,1:05:22.82,1:05:25.82,eng,,0000,0000,0000,,who volunteer for the experiment instead of facing the death penalty.
+Dialogue: 0,1:05:22.82,1:05:25.82,chi,,0000,0000,0000,,自愿做这个的试验来代替死刑
+Dialogue: 0,1:05:26.70,1:05:29.02,eng,,0000,0000,0000,,I never did anything to deserve this.
+Dialogue: 0,1:05:26.70,1:05:29.02,chi,,0000,0000,0000,,我没做错事 不应有这种下场
+Dialogue: 0,1:05:29.02,1:05:32.02,eng,,0000,0000,0000,,Yeah well, tell it to Meyerhold, Right?
+Dialogue: 0,1:05:29.02,1:05:32.02,chi,,0000,0000,0000,,你去跟阎王说吧？
+Dialogue: 0,1:05:37.94,1:05:41.33,eng,,0000,0000,0000,,- We're innocent, dammit! - I didn't volunteer for this!
+Dialogue: 0,1:05:37.94,1:05:41.33,chi,,0000,0000,0000,,- 我们无罪 混蛋！ - 我不会自愿做这个的！
+Dialogue: 0,1:05:42.70,1:05:44.98,eng,,0000,0000,0000,,I know, because your consent form is missing!
+Dialogue: 0,1:05:42.70,1:05:44.98,chi,,0000,0000,0000,,我知道 因为你的协议书不见了！
+Dialogue: 0,1:05:44.98,1:05:46.50,eng,,0000,0000,0000,,Shut up!
+Dialogue: 0,1:05:44.98,1:05:46.50,chi,,0000,0000,0000,,闭嘴！
+Dialogue: 0,1:05:46.50,1:05:49.50,eng,,0000,0000,0000,,While you were doing your system checks,
+Dialogue: 0,1:05:46.50,1:05:49.50,chi,,0000,0000,0000,,在你检查系统的时候
+Dialogue: 0,1:05:49.70,1:05:52.70,eng,,0000,0000,0000,,did you happen to see a little girl?
+Dialogue: 0,1:05:49.70,1:05:52.70,chi,,0000,0000,0000,,有没有看见一个小女孩？
+Dialogue: 0,1:05:53.10,1:05:55.06,eng,,0000,0000,0000,,No. Yes.
+Dialogue: 0,1:05:53.10,1:05:55.06,chi,,0000,0000,0000,,是的 应该是
+Dialogue: 0,1:05:55.06,1:05:58.02,eng,,0000,0000,0000,,I mean, I saw her.
+Dialogue: 0,1:05:55.06,1:05:58.02,chi,,0000,0000,0000,,我是说我看见她了
+Dialogue: 0,1:05:58.02,1:06:01.02,eng,,0000,0000,0000,,I saw one little girl...
+Dialogue: 0,1:05:58.02,1:06:01.02,chi,,0000,0000,0000,,我看一个小女孩
+Dialogue: 0,1:06:01.98,1:06:03.94,eng,,0000,0000,0000,,In your dreams.
+Dialogue: 0,1:06:01.98,1:06:03.94,chi,,0000,0000,0000,,在你的梦里
+Dialogue: 0,1:06:03.94,1:06:06.18,eng,,0000,0000,0000,,- What? - Yeah.
+Dialogue: 0,1:06:03.94,1:06:06.18,chi,,0000,0000,0000,,- 什么？ - 是的
+Dialogue: 0,1:06:06.18,1:06:08.26,eng,,0000,0000,0000,,It's hard to explain.
+Dialogue: 0,1:06:06.18,1:06:08.26,chi,,0000,0000,0000,,这很难解释得清楚
+Dialogue: 0,1:06:08.26,1:06:11.26,eng,,0000,0000,0000,,Here.
+Dialogue: 0,1:06:08.26,1:06:11.26,chi,,0000,0000,0000,,对了 这个东西
+Dialogue: 0,1:06:11.50,1:06:14.57,eng,,0000,0000,0000,,You see, another thing they have us do, is record the subject's,
+Dialogue: 0,1:06:11.50,1:06:14.57,chi,,0000,0000,0000,,你看 另外一件他们叫我们做的是：
+Dialogue: 0,1:06:14.74,1:06:17.74,eng,,0000,0000,0000,,the people's dreams.
+Dialogue: 0,1:06:14.74,1:06:17.74,chi,,0000,0000,0000,,就是记录目标人物的梦
+Dialogue: 0,1:06:18.34,1:06:21.34,eng,,0000,0000,0000,,Her name's Anna, Right?
+Dialogue: 0,1:06:18.34,1:06:21.34,chi,,0000,0000,0000,,她叫安娜 是吗？
+Dialogue: 0,1:06:28.90,1:06:31.90,eng,,0000,0000,0000,,- They can see into our dreams? - Yeah.
+Dialogue: 0,1:06:28.90,1:06:31.90,chi,,0000,0000,0000,,- 他们可以看我们的梦？ - 是的
+Dialogue: 0,1:06:32.54,1:06:35.02,eng,,0000,0000,0000,,Where is my daughter, you piece of shit?!
+Dialogue: 0,1:06:32.54,1:06:35.02,chi,,0000,0000,0000,,我女儿在哪 你这混蛋？！
+Dialogue: 0,1:06:35.02,1:06:36.54,eng,,0000,0000,0000,,- I don't know! - You're lying!
+Dialogue: 0,1:06:35.02,1:06:36.54,chi,,0000,0000,0000,,- 我真的不知道！ - 你撒谎！
+Dialogue: 0,1:06:36.54,1:06:38.54,eng,,0000,0000,0000,,No, Please! I came to help!
+Dialogue: 0,1:06:36.54,1:06:38.54,chi,,0000,0000,0000,,请不要这样！我是来帮你们的！
+Dialogue: 0,1:06:38.54,1:06:41.54,eng,,0000,0000,0000,,Rains!
+Dialogue: 0,1:06:38.54,1:06:41.54,chi,,0000,0000,0000,,蕾斯！
+Dialogue: 0,1:06:41.74,1:06:43.18,eng,,0000,0000,0000,,We need him.
+Dialogue: 0,1:06:41.74,1:06:43.18,chi,,0000,0000,0000,,我们需要他
+Dialogue: 0,1:06:43.18,1:06:46.18,eng,,0000,0000,0000,,- Why? - I can show you the exits.
+Dialogue: 0,1:06:43.18,1:06:46.18,chi,,0000,0000,0000,,- 为什么？ - 我可以带你们到出口
+Dialogue: 0,1:06:46.34,1:06:49.34,eng,,0000,0000,0000,,Go ahead, where are they?
+Dialogue: 0,1:06:46.34,1:06:49.34,chi,,0000,0000,0000,,快起来 出口在哪？
+Dialogue: 0,1:06:51.50,1:06:53.46,eng,,0000,0000,0000,,You were wrong about the cube.
+Dialogue: 0,1:06:51.50,1:06:53.46,chi,,0000,0000,0000,,你们把异次元阵列理解错了
+Dialogue: 0,1:06:53.46,1:06:56.46,eng,,0000,0000,0000,,It's only 25 rooms all around.
+Dialogue: 0,1:06:53.46,1:06:56.46,chi,,0000,0000,0000,,这里只有25个房间
+Dialogue: 0,1:06:56.58,1:06:59.58,eng,,0000,0000,0000,,Only 2 rooms have Z coordinates valued 26.
+Dialogue: 0,1:06:56.58,1:06:59.58,chi,,0000,0000,0000,,只有2个房间有Z坐标标记着26
+Dialogue: 0,1:07:00.34,1:07:03.34,eng,,0000,0000,0000,,They periodically move to the perimeter,
+Dialogue: 0,1:07:00.34,1:07:03.34,chi,,0000,0000,0000,,它们是周期性的移动到边缘
+Dialogue: 0,1:07:03.58,1:07:06.58,eng,,0000,0000,0000,,but those 2 exit points are monitored.
+Dialogue: 0,1:07:03.58,1:07:06.58,chi,,0000,0000,0000,,但有2个出口点被监视着
+Dialogue: 0,1:07:06.78,1:07:09.93,eng,,0000,0000,0000,,And there's supposed to be an auxiliary exit.
+Dialogue: 0,1:07:06.78,1:07:09.93,chi,,0000,0000,0000,,但这里有一个意外的出口
+Dialogue: 0,1:07:10.10,1:07:12.50,eng,,0000,0000,0000,,That leads directly outside the cube.
+Dialogue: 0,1:07:10.10,1:07:12.50,chi,,0000,0000,0000,,可以直接到达异次元阵列外面
+Dialogue: 0,1:07:12.50,1:07:14.90,eng,,0000,0000,0000,,How do we get to that one?
+Dialogue: 0,1:07:12.50,1:07:14.90,chi,,0000,0000,0000,,我们怎么才能到那？
+Dialogue: 0,1:07:14.90,1:07:16.26,eng,,0000,0000,0000,,I don't know.
+Dialogue: 0,1:07:14.90,1:07:16.26,chi,,0000,0000,0000,,我也不知道
+Dialogue: 0,1:07:16.26,1:07:19.26,eng,,0000,0000,0000,,So what use is he?
+Dialogue: 0,1:07:16.26,1:07:19.26,chi,,0000,0000,0000,,那么他有什么用？
+Dialogue: 0,1:07:21.06,1:07:24.26,eng,,0000,0000,0000,,- Can you show us how to avoid the traps? - Yes, definitely.
+Dialogue: 0,1:07:21.06,1:07:24.26,chi,,0000,0000,0000,,- 你知道怎么检测陷阱吗？ - 没问题
+Dialogue: 0,1:07:25.42,1:07:27.54,eng,,0000,0000,0000,,Okay.
+Dialogue: 0,1:07:25.42,1:07:27.54,chi,,0000,0000,0000,,好了
+Dialogue: 0,1:07:27.54,1:07:30.93,eng,,0000,0000,0000,,Just read me the coordinates from the surrounding rooms, please.
+Dialogue: 0,1:07:27.54,1:07:30.93,chi,,0000,0000,0000,,请告诉我周围房间的坐标
+Dialogue: 0,1:07:34.66,1:07:37.66,eng,,0000,0000,0000,,I was right. The coordinates.
+Dialogue: 0,1:07:34.66,1:07:37.66,chi,,0000,0000,0000,,看来我是对的
+Dialogue: 0,1:07:39.34,1:07:41.66,eng,,0000,0000,0000,,Well, well...
+Dialogue: 0,1:07:39.34,1:07:41.66,chi,,0000,0000,0000,,很好 很好
+Dialogue: 0,1:07:41.66,1:07:46.05,eng,,0000,0000,0000,,It seems that our little mouse, is a rat after all.
+Dialogue: 0,1:07:41.66,1:07:46.05,chi,,0000,0000,0000,,在怎么说你们还是我们的小白鼠
+Dialogue: 0,1:07:48.50,1:07:51.50,eng,,0000,0000,0000,,Mr. Finn, could you do something about that, please?
+Dialogue: 0,1:07:48.50,1:07:51.50,chi,,0000,0000,0000,,费恩 你可以做点什么了
+Dialogue: 0,1:07:51.82,1:07:54.82,eng,,0000,0000,0000,,Yes, Sir.
+Dialogue: 0,1:07:51.82,1:07:54.82,chi,,0000,0000,0000,,是的 长官
+Dialogue: 0,1:08:01.06,1:08:04.06,eng,,0000,0000,0000,,This one's C-F-P.
+Dialogue: 0,1:08:01.06,1:08:04.06,chi,,0000,0000,0000,,这边是C-F-P
+Dialogue: 0,1:08:04.90,1:08:07.90,eng,,0000,0000,0000,,The hell...?
+Dialogue: 0,1:08:04.90,1:08:07.90,chi,,0000,0000,0000,,怎么   ？
+Dialogue: 0,1:08:12.78,1:08:14.46,eng,,0000,0000,0000,,- Damn. - What is it?
+Dialogue: 0,1:08:12.78,1:08:14.46,chi,,0000,0000,0000,,- 该死的 - 怎么了？
+Dialogue: 0,1:08:14.46,1:08:17.46,eng,,0000,0000,0000,,- The letters. They just disappeared. - What?
+Dialogue: 0,1:08:14.46,1:08:17.46,chi,,0000,0000,0000,,- 字母自己消失了 - 什么？
+Dialogue: 0,1:08:20.90,1:08:23.90,eng,,0000,0000,0000,,They're all gone.
+Dialogue: 0,1:08:20.90,1:08:23.90,chi,,0000,0000,0000,,自己溶解了
+Dialogue: 0,1:08:28.90,1:08:30.90,eng,,0000,0000,0000,,They know I'm here.
+Dialogue: 0,1:08:28.90,1:08:30.90,chi,,0000,0000,0000,,他们知道我在这
+Dialogue: 0,1:08:30.90,1:08:34.53,eng,,0000,0000,0000,,- So now will be a good time to move. - Good idea. You first.
+Dialogue: 0,1:08:30.90,1:08:34.53,chi,,0000,0000,0000,,- 现在我们最好赶紧离开这房间 - 很好 你先
+Dialogue: 0,1:08:36.46,1:08:38.34,eng,,0000,0000,0000,,Okay.
+Dialogue: 0,1:08:36.46,1:08:38.34,chi,,0000,0000,0000,,好
+Dialogue: 0,1:08:38.34,1:08:41.34,eng,,0000,0000,0000,,I can't make any promises, but this should be the way.
+Dialogue: 0,1:08:38.34,1:08:41.34,chi,,0000,0000,0000,,我不能做任何保证  但可能是走这里
+Dialogue: 0,1:08:43.18,1:08:46.70,eng,,0000,0000,0000,,Mr. Quigley, could you isolate that quadrant for me please?
+Dialogue: 0,1:08:43.18,1:08:46.70,chi,,0000,0000,0000,,奎克利 你能把他们分离开吗？
+Dialogue: 0,1:08:51.06,1:08:54.69,eng,,0000,0000,0000,,Mr. Finn, show me the current trap configuration, "s'il vous plait".
+Dialogue: 0,1:08:51.06,1:08:54.69,chi,,0000,0000,0000,,费恩 告诉我当前的陷阱设置
+Dialogue: 0,1:09:08.14,1:09:11.14,eng,,0000,0000,0000,,"Merci".
+Dialogue: 0,1:09:08.14,1:09:11.14,chi,,0000,0000,0000,,谢了
+Dialogue: 0,1:09:13.02,1:09:16.70,eng,,0000,0000,0000,,Let's make their life a little more interesting, shall we?
+Dialogue: 0,1:09:13.02,1:09:16.70,chi,,0000,0000,0000,,我们可以让他们更好玩一点
+Dialogue: 0,1:09:37.02,1:09:40.02,eng,,0000,0000,0000,,Okay...
+Dialogue: 0,1:09:37.02,1:09:40.02,chi,,0000,0000,0000,,好的
+Dialogue: 0,1:09:42.14,1:09:45.45,eng,,0000,0000,0000,,Trapped. Sure looked easy from my desk.
+Dialogue: 0,1:09:42.14,1:09:45.45,chi,,0000,0000,0000,,有陷阱 从我工作室里看起来很容易
+Dialogue: 0,1:10:12.90,1:10:16.38,eng,,0000,0000,0000,,They trapped all the rooms around us. Now what?
+Dialogue: 0,1:10:12.90,1:10:16.38,chi,,0000,0000,0000,,他们把我们周围房间的陷阱全部启动了 现在怎么办？
+Dialogue: 0,1:10:16.58,1:10:19.58,eng,,0000,0000,0000,,Really glad you showed up to help.
+Dialogue: 0,1:10:16.58,1:10:19.58,chi,,0000,0000,0000,,很高兴你能来帮忙
+Dialogue: 0,1:10:24.26,1:10:27.54,eng,,0000,0000,0000,,My God. I'm actually starting to enjoy myself.
+Dialogue: 0,1:10:24.26,1:10:27.54,chi,,0000,0000,0000,,我越来越兴奋了
+Dialogue: 0,1:10:28.38,1:10:31.98,eng,,0000,0000,0000,,You know what? I think we should keep getting together and doing this more often.
+Dialogue: 0,1:10:28.38,1:10:31.98,chi,,0000,0000,0000,,我们应该一起进去的
+Dialogue: 0,1:10:42.58,1:10:45.58,eng,,0000,0000,0000,,God dammit.
+Dialogue: 0,1:10:42.58,1:10:45.58,chi,,0000,0000,0000,,他妈的
+Dialogue: 0,1:10:45.62,1:10:47.94,eng,,0000,0000,0000,,What?
+Dialogue: 0,1:10:45.62,1:10:47.94,chi,,0000,0000,0000,,什么？
+Dialogue: 0,1:10:47.94,1:10:50.14,eng,,0000,0000,0000,,Sir.
+Dialogue: 0,1:10:47.94,1:10:50.14,chi,,0000,0000,0000,,长官
+Dialogue: 0,1:10:50.14,1:10:52.66,eng,,0000,0000,0000,,Yes, Sir.
+Dialogue: 0,1:10:50.14,1:10:52.66,chi,,0000,0000,0000,,是 长官
+Dialogue: 0,1:10:52.66,1:10:55.54,eng,,0000,0000,0000,,Yes, Sir.
+Dialogue: 0,1:10:52.66,1:10:55.54,chi,,0000,0000,0000,,是的
+Dialogue: 0,1:10:55.54,1:10:58.50,eng,,0000,0000,0000,,Sorry, Sir.
+Dialogue: 0,1:10:55.54,1:10:58.50,chi,,0000,0000,0000,,对不起 长官
+Dialogue: 0,1:10:58.50,1:11:01.46,eng,,0000,0000,0000,,Right away, Sir.
+Dialogue: 0,1:10:58.50,1:11:01.46,chi,,0000,0000,0000,,马上 长官
+Dialogue: 0,1:11:01.46,1:11:04.46,eng,,0000,0000,0000,,"Just finish it, you idiot."
+Dialogue: 0,1:11:01.46,1:11:04.46,chi,,0000,0000,0000,,赶紧结束这一切 笨蛋
+Dialogue: 0,1:11:04.50,1:11:06.14,eng,,0000,0000,0000,,Ungrateful cretins.
+Dialogue: 0,1:11:04.50,1:11:06.14,chi,,0000,0000,0000,,蠢猪
+Dialogue: 0,1:11:06.14,1:11:08.14,eng,,0000,0000,0000,,You didn't hear that.
+Dialogue: 0,1:11:06.14,1:11:08.14,chi,,0000,0000,0000,,你们没听见吗？
+Dialogue: 0,1:11:08.84,1:11:12.92,eng,,0000,0000,0000,,Okay gentleman, we have the word from on high.
+Dialogue: 0,1:11:08.84,1:11:12.92,chi,,0000,0000,0000,,各位 上面下命令了
+Dialogue: 0,1:11:13.36,1:11:15.24,eng,,0000,0000,0000,,It's time to blow this popsicle stand.
+Dialogue: 0,1:11:13.36,1:11:15.24,chi,,0000,0000,0000,,是时候干掉他们了 奎克利
+Dialogue: 0,1:11:15.24,1:11:16.92,eng,,0000,0000,0000,,- Mr. Quigley. - Sir?
+Dialogue: 0,1:11:15.24,1:11:16.92,chi,,0000,0000,0000,,- 奎克利 - 长官？
+Dialogue: 0,1:11:16.92,1:11:19.52,eng,,0000,0000,0000,,You heard the man. Just finish it.
+Dialogue: 0,1:11:16.92,1:11:19.52,chi,,0000,0000,0000,,马上结束这一切
+Dialogue: 0,1:11:19.52,1:11:22.52,eng,,0000,0000,0000,,Yes Sir.
+Dialogue: 0,1:11:19.52,1:11:22.52,chi,,0000,0000,0000,,是的 长官
+Dialogue: 0,1:11:25.80,1:11:28.80,eng,,0000,0000,0000,,Okay, let me think, let me think.
+Dialogue: 0,1:11:25.80,1:11:28.80,chi,,0000,0000,0000,,等等 让我想想  让我想想
+Dialogue: 0,1:11:32.28,1:11:35.28,eng,,0000,0000,0000,,What the... ?
+Dialogue: 0,1:11:32.28,1:11:35.28,chi,,0000,0000,0000,,我们应该    ？
+Dialogue: 0,1:11:48.64,1:11:51.00,eng,,0000,0000,0000,,Now what do we do?
+Dialogue: 0,1:11:48.64,1:11:51.00,chi,,0000,0000,0000,,怎么做？
+Dialogue: 0,1:11:51.00,1:11:54.00,eng,,0000,0000,0000,,The floor. the floor.
+Dialogue: 0,1:11:51.00,1:11:54.00,chi,,0000,0000,0000,,地板 地板
+Dialogue: 0,1:11:55.44,1:11:58.44,eng,,0000,0000,0000,,I'm sorry.
+Dialogue: 0,1:11:55.44,1:11:58.44,chi,,0000,0000,0000,,对不起
+Dialogue: 0,1:12:00.72,1:12:03.72,eng,,0000,0000,0000,,God dammit! I don't wanna die in here!
+Dialogue: 0,1:12:00.72,1:12:03.72,chi,,0000,0000,0000,,该死的！我不想死在这！
+Dialogue: 0,1:12:15.00,1:12:19.00,eng,,0000,0000,0000,,What's happening?
+Dialogue: 0,1:12:15.00,1:12:19.00,chi,,0000,0000,0000,,怎么回事？
+Dialogue: 0,1:12:24.04,1:12:25.68,eng,,0000,0000,0000,,What stopped it?
+Dialogue: 0,1:12:24.04,1:12:25.68,chi,,0000,0000,0000,,怎么停了？
+Dialogue: 0,1:12:25.68,1:12:28.68,eng,,0000,0000,0000,,I don't know.
+Dialogue: 0,1:12:25.68,1:12:28.68,chi,,0000,0000,0000,,不知道
+Dialogue: 0,1:12:35.92,1:12:38.92,eng,,0000,0000,0000,,Come on, you piece of...
+Dialogue: 0,1:12:35.92,1:12:38.92,chi,,0000,0000,0000,,快点
+Dialogue: 0,1:12:42.44,1:12:45.44,eng,,0000,0000,0000,,- What the hell? - I don't know Sir, we suddenly lost contact.
+Dialogue: 0,1:12:42.44,1:12:45.44,chi,,0000,0000,0000,,- 他妈的怎么回事？ - 我不知道长官 突然连接中断
+Dialogue: 0,1:12:47.24,1:12:50.24,eng,,0000,0000,0000,,Yes, I can see that. Why?
+Dialogue: 0,1:12:47.24,1:12:50.24,chi,,0000,0000,0000,,我也知道 为什么？
+Dialogue: 0,1:12:51.24,1:12:54.55,eng,,0000,0000,0000,,Maybe the energy required for the test itself blew out the capacitor.
+Dialogue: 0,1:12:51.24,1:12:54.55,chi,,0000,0000,0000,,可能是因为测试能源 低于电容器所需要能量
+Dialogue: 0,1:12:54.72,1:12:57.04,eng,,0000,0000,0000,,I mean, we're not talking state-of-the-art equipment.
+Dialogue: 0,1:12:54.72,1:12:57.04,chi,,0000,0000,0000,,我是说不应该这样子的
+Dialogue: 0,1:12:57.04,1:13:00.80,eng,,0000,0000,0000,,Wrong. That's not how it works. That's not how it was designed.
+Dialogue: 0,1:12:57.04,1:13:00.80,chi,,0000,0000,0000,,错了 正常情况下是不会这样的
+Dialogue: 0,1:13:01.68,1:13:04.32,eng,,0000,0000,0000,,Someone is screwing with the connection.
+Dialogue: 0,1:13:01.68,1:13:04.32,chi,,0000,0000,0000,,是什么人中断了它
+Dialogue: 0,1:13:04.32,1:13:06.76,eng,,0000,0000,0000,,I don't know Sir. It isn't me.
+Dialogue: 0,1:13:04.32,1:13:06.76,chi,,0000,0000,0000,,我不知道长官 不是我
+Dialogue: 0,1:13:06.76,1:13:09.76,eng,,0000,0000,0000,,Me neither, Sir.
+Dialogue: 0,1:13:06.76,1:13:09.76,chi,,0000,0000,0000,,也不是我
+Dialogue: 0,1:13:14.44,1:13:17.44,eng,,0000,0000,0000,,What? I have no idea.
+Dialogue: 0,1:13:14.44,1:13:17.44,chi,,0000,0000,0000,,什么 我也不知道
+Dialogue: 0,1:13:18.08,1:13:21.08,eng,,0000,0000,0000,,It's not me, I swear.
+Dialogue: 0,1:13:18.08,1:13:21.08,chi,,0000,0000,0000,,绝对不是我 我发誓
+Dialogue: 0,1:13:27.94,1:13:31.22,eng,,0000,0000,0000,,You wouldn't lie to me, Now would you Mr. Clodd?
+Dialogue: 0,1:13:27.94,1:13:31.22,chi,,0000,0000,0000,,不要对我撒谎  克莱德你会吗？
+Dialogue: 0,1:13:33.30,1:13:36.30,eng,,0000,0000,0000,,No Sir. Wouldn't think of it.
+Dialogue: 0,1:13:33.30,1:13:36.30,chi,,0000,0000,0000,,不会长官 你多心了
+Dialogue: 0,1:13:44.92,1:13:47.84,eng,,0000,0000,0000,,Questions? Comments? What are we waiting for?
+Dialogue: 0,1:13:44.92,1:13:47.84,chi,,0000,0000,0000,,找答案和原因？ 你们在等什么？
+Dialogue: 0,1:13:47.84,1:13:50.84,eng,,0000,0000,0000,,Get us back online!
+Dialogue: 0,1:13:47.84,1:13:50.84,chi,,0000,0000,0000,,重新连接！
+Dialogue: 0,1:14:09.24,1:14:11.12,eng,,0000,0000,0000,,Damn.
+Dialogue: 0,1:14:09.24,1:14:11.12,chi,,0000,0000,0000,,妈的
+Dialogue: 0,1:14:11.12,1:14:14.12,eng,,0000,0000,0000,,- Nothing. - "Nothing" is not an answer.
+Dialogue: 0,1:14:11.12,1:14:14.12,chi,,0000,0000,0000,,- 不行 - "不行"不是答案
+Dialogue: 0,1:14:17.44,1:14:19.16,eng,,0000,0000,0000,,Excuse me, Sir.
+Dialogue: 0,1:14:17.44,1:14:19.16,chi,,0000,0000,0000,,打扰下 长官
+Dialogue: 0,1:14:20.16,1:14:23.16,eng,,0000,0000,0000,,- Excuse me? - What is it?
+Dialogue: 0,1:14:20.16,1:14:23.16,chi,,0000,0000,0000,,- 打扰下？ - 怎么了？
+Dialogue: 0,1:14:23.76,1:14:26.76,eng,,0000,0000,0000,,Can I use the facilities, Sir?
+Dialogue: 0,1:14:23.76,1:14:26.76,chi,,0000,0000,0000,,我可以用工具吗 长官？
+Dialogue: 0,1:14:28.36,1:14:30.04,eng,,0000,0000,0000,,Just go!
+Dialogue: 0,1:14:28.36,1:14:30.04,chi,,0000,0000,0000,,快去！
+Dialogue: 0,1:14:31.04,1:14:34.04,eng,,0000,0000,0000,,For the love of God, where do they find these people?
+Dialogue: 0,1:14:31.04,1:14:34.04,chi,,0000,0000,0000,,上帝 他们是怎么找到这种人的？
+Dialogue: 0,1:14:35.84,1:14:37.76,eng,,0000,0000,0000,,I don't think it's software, Sir.
+Dialogue: 0,1:14:35.84,1:14:37.76,chi,,0000,0000,0000,,我想不是软件的问题
+Dialogue: 0,1:14:37.76,1:14:40.96,eng,,0000,0000,0000,,- It's definitely a hardware problem. - Listen.
+Dialogue: 0,1:14:37.76,1:14:40.96,chi,,0000,0000,0000,,- 确定不是硬件问题 - 听着
+Dialogue: 0,1:14:41.16,1:14:43.68,eng,,0000,0000,0000,,This is getting embarrassing now. Okay?
+Dialogue: 0,1:14:41.16,1:14:43.68,chi,,0000,0000,0000,,这种情况很让人尴尬 懂吗？
+Dialogue: 0,1:14:44.68,1:14:46.96,eng,,0000,0000,0000,,I needn't remind you Gentlemen, that in a few minutes
+Dialogue: 0,1:14:44.68,1:14:46.96,chi,,0000,0000,0000,,我必须提醒你们  再过几分钟
+Dialogue: 0,1:14:46.96,1:14:49.80,eng,,0000,0000,0000,,we'll have no choice but to send people in there.
+Dialogue: 0,1:14:46.96,1:14:49.80,chi,,0000,0000,0000,,我们没有办法 只能再送几个人进去
+Dialogue: 0,1:14:49.80,1:14:53.35,eng,,0000,0000,0000,,Call me impulsive but I could probably think of a couple of names:
+Dialogue: 0,1:14:49.80,1:14:53.35,chi,,0000,0000,0000,,可能我会推荐两个名字：
+Dialogue: 0,1:14:53.52,1:14:55.40,eng,,0000,0000,0000,,Quigley! Finn!
+Dialogue: 0,1:14:53.52,1:14:55.40,chi,,0000,0000,0000,,奎克利和费恩！
+Dialogue: 0,1:14:55.40,1:14:58.40,eng,,0000,0000,0000,,You know, right of the top. What is that noise?!
+Dialogue: 0,1:14:55.40,1:14:58.40,chi,,0000,0000,0000,,你们应该明白 什么噪音？！
+Dialogue: 0,1:14:58.48,1:15:00.12,eng,,0000,0000,0000,,Something's wrong with the main power source.
+Dialogue: 0,1:14:58.48,1:15:00.12,chi,,0000,0000,0000,,主电源出了问题
+Dialogue: 0,1:15:00.12,1:15:03.12,eng,,0000,0000,0000,,It's gone into reset mode.
+Dialogue: 0,1:15:00.12,1:15:03.12,chi,,0000,0000,0000,,切换到重启状态
+Dialogue: 0,1:15:06.28,1:15:09.28,eng,,0000,0000,0000,,What the hell is going on?
+Dialogue: 0,1:15:06.28,1:15:09.28,chi,,0000,0000,0000,,妈的到底怎么回事？
+Dialogue: 0,1:15:09.60,1:15:12.60,eng,,0000,0000,0000,,Boot.
+Dialogue: 0,1:15:09.60,1:15:12.60,chi,,0000,0000,0000,,鞋子
+Dialogue: 0,1:15:32.96,1:15:35.96,eng,,0000,0000,0000,,- Damn. - You can say that again.
+Dialogue: 0,1:15:32.96,1:15:35.96,chi,,0000,0000,0000,,- 该死的 - 我也这样认为
+Dialogue: 0,1:15:36.20,1:15:38.44,eng,,0000,0000,0000,,What?
+Dialogue: 0,1:15:36.20,1:15:38.44,chi,,0000,0000,0000,,怎么了？
+Dialogue: 0,1:15:38.44,1:15:40.64,eng,,0000,0000,0000,,Power go out?
+Dialogue: 0,1:15:38.44,1:15:40.64,chi,,0000,0000,0000,,停电了？
+Dialogue: 0,1:15:40.64,1:15:42.04,eng,,0000,0000,0000,,Yeah.
+Dialogue: 0,1:15:40.64,1:15:42.04,chi,,0000,0000,0000,,是的
+Dialogue: 0,1:15:43.04,1:15:46.04,eng,,0000,0000,0000,,So the traps don't work.
+Dialogue: 0,1:15:43.04,1:15:46.04,chi,,0000,0000,0000,,那么陷阱就失效了
+Dialogue: 0,1:15:46.88,1:15:49.88,eng,,0000,0000,0000,,- That's the good news, yeah. - What's the bad news?
+Dialogue: 0,1:15:46.88,1:15:49.88,chi,,0000,0000,0000,,- 这是个好消息 - 那坏消息呢？
+Dialogue: 0,1:15:51.76,1:15:54.76,eng,,0000,0000,0000,,It's gone into reset mode.
+Dialogue: 0,1:15:51.76,1:15:54.76,chi,,0000,0000,0000,,切换到重启状态了
+Dialogue: 0,1:15:55.68,1:15:58.52,eng,,0000,0000,0000,,The system will restart itself in 10 minutes,
+Dialogue: 0,1:15:55.68,1:15:58.52,chi,,0000,0000,0000,,系统会自动重新启动 10分钟后
+Dialogue: 0,1:15:58.52,1:16:02.07,eng,,0000,0000,0000,,the first routine that runs on restart, is a clean sweep.
+Dialogue: 0,1:15:58.52,1:16:02.07,chi,,0000,0000,0000,,系统重启后第一件事 就是清空一切
+Dialogue: 0,1:16:02.84,1:16:06.04,eng,,0000,0000,0000,,- Is that as bad as it sounds? - The Clean sweep program flash-incinerates
+Dialogue: 0,1:16:02.84,1:16:06.04,chi,,0000,0000,0000,,- 那样很糟糕吗？ - 清空程序会在瞬间烧毁
+Dialogue: 0,1:16:07.20,1:16:09.28,eng,,0000,0000,0000,,anything still living in all the rooms.
+Dialogue: 0,1:16:07.20,1:16:09.28,chi,,0000,0000,0000,,所有残留在房间的东西
+Dialogue: 0,1:16:09.28,1:16:12.32,eng,,0000,0000,0000,,- So, we gotta move. - Which way do we go?
+Dialogue: 0,1:16:09.28,1:16:12.32,chi,,0000,0000,0000,,- 那么 我们得马上走了 - 走哪边？
+Dialogue: 0,1:16:13.36,1:16:14.60,eng,,0000,0000,0000,,I don't know.
+Dialogue: 0,1:16:13.36,1:16:14.60,chi,,0000,0000,0000,,我也不知道
+Dialogue: 0,1:16:14.60,1:16:17.32,eng,,0000,0000,0000,,Okay, last time I ran the numbers you were
+Dialogue: 0,1:16:14.60,1:16:17.32,chi,,0000,0000,0000,,我上次看见你们的时候
+Dialogue: 0,1:16:17.32,1:16:19.44,eng,,0000,0000,0000,,pretty much in the centre of the structure.
+Dialogue: 0,1:16:17.32,1:16:19.44,chi,,0000,0000,0000,,你们就在系统中心
+Dialogue: 0,1:16:19.44,1:16:22.99,eng,,0000,0000,0000,,So I guess we just keep going in the same direction
+Dialogue: 0,1:16:19.44,1:16:22.99,chi,,0000,0000,0000,,我猜一直朝着这个方向走
+Dialogue: 0,1:16:23.16,1:16:25.28,eng,,0000,0000,0000,,until we get to the edge, right?
+Dialogue: 0,1:16:23.16,1:16:25.28,chi,,0000,0000,0000,,应该就能到边缘 是吗？
+Dialogue: 0,1:16:25.28,1:16:26.88,eng,,0000,0000,0000,,Great, so we're back to square one!
+Dialogue: 0,1:16:25.28,1:16:26.88,chi,,0000,0000,0000,,那我们回到原来的位置！
+Dialogue: 0,1:16:26.88,1:16:28.96,eng,,0000,0000,0000,,- Do you have a better idea?! - No.
+Dialogue: 0,1:16:26.88,1:16:28.96,chi,,0000,0000,0000,,- 你还有好主意吗？！ - 没有
+Dialogue: 0,1:16:29.96,1:16:33.08,eng,,0000,0000,0000,,I don't. 'Cause I'm not the one who uses people as a fucking guinea pigs!
+Dialogue: 0,1:16:29.96,1:16:33.08,chi,,0000,0000,0000,,我没有 因为我不像有些人把人当猪一样耍！
+Dialogue: 0,1:16:34.04,1:16:35.76,eng,,0000,0000,0000,,Wait!
+Dialogue: 0,1:16:34.04,1:16:35.76,chi,,0000,0000,0000,,等等！
+Dialogue: 0,1:16:35.76,1:16:38.08,eng,,0000,0000,0000,,Back to square one!
+Dialogue: 0,1:16:35.76,1:16:38.08,chi,,0000,0000,0000,,回到原来位置！
+Dialogue: 0,1:16:38.08,1:16:41.44,eng,,0000,0000,0000,,Dodd. Dodd is the only one who can power down this quickly.
+Dialogue: 0,1:16:38.08,1:16:41.44,chi,,0000,0000,0000,,杜德是唯一能让电源这么快关闭的
+Dialogue: 0,1:16:41.92,1:16:46.36,eng,,0000,0000,0000,,But he knows that reset would kick in, so why would he...?
+Dialogue: 0,1:16:41.92,1:16:46.36,chi,,0000,0000,0000,,他知道重启会清空  那么他为什么   ？
+Dialogue: 0,1:16:48.88,1:16:51.72,eng,,0000,0000,0000,,Of course.
+Dialogue: 0,1:16:48.88,1:16:51.72,chi,,0000,0000,0000,,明白了
+Dialogue: 0,1:16:52.72,1:16:55.87,eng,,0000,0000,0000,,Clean sweep happens after they realign to zero position.
+Dialogue: 0,1:16:52.72,1:16:55.87,chi,,0000,0000,0000,,清空程序会让他们回到最初位置
+Dialogue: 0,1:16:56.04,1:16:59.04,eng,,0000,0000,0000,,- What? - Quick. Let me see your map.
+Dialogue: 0,1:16:56.04,1:16:59.04,chi,,0000,0000,0000,,- 什么？ - 让我看看你的图表
+Dialogue: 0,1:17:00.72,1:17:02.36,eng,,0000,0000,0000,,When the power comes on, the rooms are programmed
+Dialogue: 0,1:17:00.72,1:17:02.36,chi,,0000,0000,0000,,电力供应恢复以后 房间就会重新编程
+Dialogue: 0,1:17:02.36,1:17:05.67,eng,,0000,0000,0000,,to realign back to their original positions before the clean sweep starts.
+Dialogue: 0,1:17:02.36,1:17:05.67,chi,,0000,0000,0000,,回归到他们默认位置 在清空程序执行前
+Dialogue: 0,1:17:05.84,1:17:08.91,eng,,0000,0000,0000,,now, if we're in one of the exit room, Like A-Z-Z,
+Dialogue: 0,1:17:05.84,1:17:08.91,chi,,0000,0000,0000,,现在 如果我们在一个出口房间  例如A-Z-Z
+Dialogue: 0,1:17:09.08,1:17:11.20,eng,,0000,0000,0000,,it will move us to the perimeter, and
+Dialogue: 0,1:17:09.08,1:17:11.20,chi,,0000,0000,0000,,他会把我们带到边缘
+Dialogue: 0,1:17:11.20,1:17:14.00,eng,,0000,0000,0000,,we'll have about... 3 seconds to get out.
+Dialogue: 0,1:17:11.20,1:17:14.00,chi,,0000,0000,0000,,那我们会有   3秒钟时间逃跑
+Dialogue: 0,1:17:14.00,1:17:17.00,eng,,0000,0000,0000,,- Before it fries us. - Yeah.
+Dialogue: 0,1:17:14.00,1:17:17.00,chi,,0000,0000,0000,,- 在他烧死我们之前 - 是的
+Dialogue: 0,1:17:20.44,1:17:23.99,eng,,0000,0000,0000,,If that room hasn't moved, we'd might just make it. Yeah.
+Dialogue: 0,1:17:20.44,1:17:23.99,chi,,0000,0000,0000,,在那个房间移动之前 我们必须得赶到
+Dialogue: 0,1:17:28.04,1:17:32.04,eng,,0000,0000,0000,,You know Mr. Wod has been in the little boy's room an awfully long time.
+Dialogue: 0,1:17:28.04,1:17:32.04,chi,,0000,0000,0000,,伍德先生可能是在这里待太久了
+Dialogue: 0,1:17:40.04,1:17:43.04,eng,,0000,0000,0000,,Come on.
+Dialogue: 0,1:17:40.04,1:17:43.04,chi,,0000,0000,0000,,快点
+Dialogue: 0,1:17:44.44,1:17:47.44,eng,,0000,0000,0000,,Gotcha
+Dialogue: 0,1:17:44.44,1:17:47.44,chi,,0000,0000,0000,,成功了
+Dialogue: 0,1:17:48.60,1:17:53.39,eng,,0000,0000,0000,,A noble attempt to save your protégé, Mr. Dodd.
+Dialogue: 0,1:17:48.60,1:17:53.39,chi,,0000,0000,0000,,杜德先生你是想救你的朋友吗？
+Dialogue: 0,1:17:55.44,1:17:58.28,eng,,0000,0000,0000,,But quite foolish, ultimately.
+Dialogue: 0,1:17:55.44,1:17:58.28,chi,,0000,0000,0000,,但你这样做太傻了
+Dialogue: 0,1:17:58.28,1:18:01.28,eng,,0000,0000,0000,,May I have that widget back, please?
+Dialogue: 0,1:17:58.28,1:18:01.28,chi,,0000,0000,0000,,把零件给我 好吗？
+Dialogue: 0,1:18:02.24,1:18:05.24,eng,,0000,0000,0000,,I don't think I can do that, Sir.
+Dialogue: 0,1:18:02.24,1:18:05.24,chi,,0000,0000,0000,,我不会那么做 长官
+Dialogue: 0,1:18:08.64,1:18:12.00,eng,,0000,0000,0000,,Mr. Dodd, are you disobeying a direct order?
+Dialogue: 0,1:18:08.64,1:18:12.00,chi,,0000,0000,0000,,都德 你想违反命令？
+Dialogue: 0,1:18:15.92,1:18:18.92,eng,,0000,0000,0000,,Yes. There...
+Dialogue: 0,1:18:15.92,1:18:18.92,chi,,0000,0000,0000,,这就对了
+Dialogue: 0,1:18:28.44,1:18:31.40,eng,,0000,0000,0000,,Cute, and rather, cliché,
+Dialogue: 0,1:18:28.44,1:18:31.40,chi,,0000,0000,0000,,太好笑了
+Dialogue: 0,1:18:31.40,1:18:33.88,eng,,0000,0000,0000,,in an endearing kind of way.
+Dialogue: 0,1:18:31.40,1:18:33.88,chi,,0000,0000,0000,,这个办法还真不错
+Dialogue: 0,1:18:33.88,1:18:37.67,eng,,0000,0000,0000,,Unfortunately, I do believe there is penalty,
+Dialogue: 0,1:18:33.88,1:18:37.67,chi,,0000,0000,0000,,不幸的 我认为会你应该
+Dialogue: 0,1:18:38.68,1:18:40.96,eng,,0000,0000,0000,,a rather strict penalty,
+Dialogue: 0,1:18:38.68,1:18:40.96,chi,,0000,0000,0000,,得到点惩罚
+Dialogue: 0,1:18:40.96,1:18:43.96,eng,,0000,0000,0000,,for sabotaging state property.
+Dialogue: 0,1:18:40.96,1:18:43.96,chi,,0000,0000,0000,,罪名是破坏公共财物
+Dialogue: 0,1:18:49.52,1:18:52.52,eng,,0000,0000,0000,,Instant paralysis! They weren't kidding, were they.
+Dialogue: 0,1:18:49.52,1:18:52.52,chi,,0000,0000,0000,,马上见效 早该听我的就好
+Dialogue: 0,1:18:52.72,1:18:55.72,eng,,0000,0000,0000,,However, not to worry, Mr. Dodd,
+Dialogue: 0,1:18:52.72,1:18:55.72,chi,,0000,0000,0000,,不要担心 杜德先生
+Dialogue: 0,1:18:58.56,1:19:01.56,eng,,0000,0000,0000,,You still will be able to feel.
+Dialogue: 0,1:18:58.56,1:19:01.56,chi,,0000,0000,0000,,尽情享受吧
+Dialogue: 0,1:19:09.44,1:19:12.44,eng,,0000,0000,0000,,5 minutes to reset.
+Dialogue: 0,1:19:09.44,1:19:12.44,chi,,0000,0000,0000,,5分钟后重启
+Dialogue: 0,1:19:13.04,1:19:16.04,eng,,0000,0000,0000,,I think I found the source of our power problem.
+Dialogue: 0,1:19:13.04,1:19:16.04,chi,,0000,0000,0000,,我想我找到我们电力出错的原因了
+Dialogue: 0,1:19:17.12,1:19:19.72,eng,,0000,0000,0000,,Does anyone knows where this goes?
+Dialogue: 0,1:19:17.12,1:19:19.72,chi,,0000,0000,0000,,谁知道这个是用来干什么的？
+Dialogue: 0,1:19:19.72,1:19:21.40,eng,,0000,0000,0000,,Anyone?
+Dialogue: 0,1:19:19.72,1:19:21.40,chi,,0000,0000,0000,,谁知道？
+Dialogue: 0,1:19:21.40,1:19:24.40,eng,,0000,0000,0000,,That the central coupling. I got it, Sir.
+Dialogue: 0,1:19:21.40,1:19:24.40,chi,,0000,0000,0000,,是个连接器 我知道怎么弄 长官
+Dialogue: 0,1:19:26.88,1:19:31.16,eng,,0000,0000,0000,,Still doesn't solve our observation problem, they could be escaping as we speak.
+Dialogue: 0,1:19:26.88,1:19:31.16,chi,,0000,0000,0000,,还是不能解决问题 他们会趁我们说话的时候溜走
+Dialogue: 0,1:19:31.32,1:19:34.08,eng,,0000,0000,0000,,Sir, in less then 5 minutes from now the clean sweep kicks in,
+Dialogue: 0,1:19:31.32,1:19:34.08,chi,,0000,0000,0000,,五分钟后清空程序就要开始了 长官
+Dialogue: 0,1:19:34.08,1:19:36.32,eng,,0000,0000,0000,,and then I think our problem will evaporate.
+Dialogue: 0,1:19:34.08,1:19:36.32,chi,,0000,0000,0000,,到那时我们所有的问题都会解决了
+Dialogue: 0,1:19:36.32,1:19:39.32,eng,,0000,0000,0000,,Mr. Finn, I don't trust machines.
+Dialogue: 0,1:19:36.32,1:19:39.32,chi,,0000,0000,0000,,费恩先生 我不信任机器
+Dialogue: 0,1:19:40.80,1:19:44.35,eng,,0000,0000,0000,,I have a machine to thank for this, and this.
+Dialogue: 0,1:19:40.80,1:19:44.35,chi,,0000,0000,0000,,我感谢机器给我这个 还有这个
+Dialogue: 0,1:19:44.64,1:19:48.11,eng,,0000,0000,0000,,I need to see them, with my own God-given eye.
+Dialogue: 0,1:19:44.64,1:19:48.11,chi,,0000,0000,0000,,但我要用自己的眼睛看到他们才算数
+Dialogue: 0,1:19:48.28,1:19:51.28,eng,,0000,0000,0000,,Of course Sir, I just, I don't know how...
+Dialogue: 0,1:19:48.28,1:19:51.28,chi,,0000,0000,0000,,当然长官 我不知道
+Dialogue: 0,1:19:53.56,1:19:55.60,eng,,0000,0000,0000,,Sometimes I even amaze myself.
+Dialogue: 0,1:19:53.56,1:19:55.60,chi,,0000,0000,0000,,有时我都对我自己都感到惊讶
+Dialogue: 0,1:19:56.60,1:20:01.20,eng,,0000,0000,0000,,Mr. Finn, one of our runaway rats is a former squad soldier. Is he not?
+Dialogue: 0,1:19:56.60,1:20:01.20,chi,,0000,0000,0000,,费恩 那些老鼠中有一个曾经是我们的士兵  是吗？
+Dialogue: 0,1:20:01.36,1:20:03.32,eng,,0000,0000,0000,,Yes Sir, that would be Haskell, the big fellow.
+Dialogue: 0,1:20:01.36,1:20:03.32,chi,,0000,0000,0000,,是的长官 应该是海赛克那家伙
+Dialogue: 0,1:20:03.32,1:20:07.55,eng,,0000,0000,0000,,And they still bio-chip the enlisted men, do they not?
+Dialogue: 0,1:20:03.32,1:20:07.55,chi,,0000,0000,0000,,参军的人应该都有植入过芯片  是吗？
+Dialogue: 0,1:20:08.52,1:20:11.52,eng,,0000,0000,0000,,Of course. Sir, that's brilliant...
+Dialogue: 0,1:20:08.52,1:20:11.52,chi,,0000,0000,0000,,长官 你太聪明了
+Dialogue: 0,1:20:14.52,1:20:16.12,eng,,0000,0000,0000,,Mr. Quigley comes through.
+Dialogue: 0,1:20:14.52,1:20:16.12,chi,,0000,0000,0000,,奎克利搞定了
+Dialogue: 0,1:20:16.12,1:20:20.04,eng,,0000,0000,0000,,Mr. Finn, acquire us an uplink to the squad surveillance network.
+Dialogue: 0,1:20:16.12,1:20:20.04,chi,,0000,0000,0000,,费恩 我们把部队与监视网络连接起来
+Dialogue: 0,1:20:20.48,1:20:23.48,eng,,0000,0000,0000,,Yes Sir. Right away, Sir.
+Dialogue: 0,1:20:20.48,1:20:23.48,chi,,0000,0000,0000,,是长官 马上
+Dialogue: 0,1:20:32.44,1:20:35.44,eng,,0000,0000,0000,,- Time? - We still have 4 minutes!
+Dialogue: 0,1:20:32.44,1:20:35.44,chi,,0000,0000,0000,,- 时间？ - 我们只剩四分钟！
+Dialogue: 0,1:20:42.92,1:20:45.92,eng,,0000,0000,0000,,Hold on!
+Dialogue: 0,1:20:42.92,1:20:45.92,chi,,0000,0000,0000,,撑住！
+Dialogue: 0,1:20:54.48,1:20:57.48,eng,,0000,0000,0000,,There's no way he survived that.
+Dialogue: 0,1:20:54.48,1:20:57.48,chi,,0000,0000,0000,,他活不了多久了
+Dialogue: 0,1:21:02.00,1:21:05.00,eng,,0000,0000,0000,,We gotta go. Come on.
+Dialogue: 0,1:21:02.00,1:21:05.00,chi,,0000,0000,0000,,我们得走了 快
+Dialogue: 0,1:21:16.32,1:21:19.52,eng,,0000,0000,0000,,- We're locked on. - Sir, we have a visual.
+Dialogue: 0,1:21:16.32,1:21:19.52,chi,,0000,0000,0000,,- 锁定目标了 - 但是受到影响
+Dialogue: 0,1:21:19.68,1:21:22.68,eng,,0000,0000,0000,,It's a weak signal.
+Dialogue: 0,1:21:19.68,1:21:22.68,chi,,0000,0000,0000,,信号很弱
+Dialogue: 0,1:21:22.72,1:21:25.64,eng,,0000,0000,0000,,Your tax dollars hard at work.
+Dialogue: 0,1:21:22.72,1:21:25.64,chi,,0000,0000,0000,,你的薪水可能也会受到影响
+Dialogue: 0,1:21:25.64,1:21:28.64,eng,,0000,0000,0000,,Transmit the kill code.
+Dialogue: 0,1:21:25.64,1:21:28.64,chi,,0000,0000,0000,,调动谋杀指令
+Dialogue: 0,1:21:31.16,1:21:33.92,eng,,0000,0000,0000,,Pain inhibiters, activated.
+Dialogue: 0,1:21:31.16,1:21:33.92,chi,,0000,0000,0000,,激活疼痛抑制功能
+Dialogue: 0,1:21:33.92,1:21:36.92,eng,,0000,0000,0000,,Neuro-cam enhancers, amplified.
+Dialogue: 0,1:21:33.92,1:21:36.92,chi,,0000,0000,0000,,体力增强
+Dialogue: 0,1:21:45.68,1:21:48.68,eng,,0000,0000,0000,,- Are we there yet? - Almost.
+Dialogue: 0,1:21:45.68,1:21:48.68,chi,,0000,0000,0000,,- 我们到了吗？ - 差不多了
+Dialogue: 0,1:21:54.92,1:21:57.92,eng,,0000,0000,0000,,Haskell?
+Dialogue: 0,1:21:54.92,1:21:57.92,chi,,0000,0000,0000,,海赛克？
+Dialogue: 0,1:22:02.68,1:22:05.68,eng,,0000,0000,0000,,Move it!
+Dialogue: 0,1:22:02.68,1:22:05.68,chi,,0000,0000,0000,,快走！
+Dialogue: 0,1:22:10.52,1:22:13.52,eng,,0000,0000,0000,,Get off her!
+Dialogue: 0,1:22:10.52,1:22:13.52,chi,,0000,0000,0000,,放了他！
+Dialogue: 0,1:22:55.88,1:22:58.88,eng,,0000,0000,0000,,Thanks.
+Dialogue: 0,1:22:55.88,1:22:58.88,chi,,0000,0000,0000,,谢了
+Dialogue: 0,1:23:00.72,1:23:03.72,eng,,0000,0000,0000,,Okay, come on.
+Dialogue: 0,1:23:00.72,1:23:03.72,chi,,0000,0000,0000,,好了 快走吧
+Dialogue: 0,1:23:12.48,1:23:15.48,eng,,0000,0000,0000,,- How much further? - We're almost there.
+Dialogue: 0,1:23:12.48,1:23:15.48,chi,,0000,0000,0000,,- 还有多远？ - 就快到了
+Dialogue: 0,1:23:20.52,1:23:23.52,eng,,0000,0000,0000,,A-Z-Z. This is it!
+Dialogue: 0,1:23:20.52,1:23:23.52,chi,,0000,0000,0000,,A-Z-Z 就是这个！
+Dialogue: 0,1:23:29.80,1:23:31.20,eng,,0000,0000,0000,,It's okay.
+Dialogue: 0,1:23:29.80,1:23:31.20,chi,,0000,0000,0000,,幸好没事
+Dialogue: 0,1:23:31.20,1:23:34.20,eng,,0000,0000,0000,,The power's out. The power's out.
+Dialogue: 0,1:23:31.20,1:23:34.20,chi,,0000,0000,0000,,没电了
+Dialogue: 0,1:23:37.56,1:23:40.08,eng,,0000,0000,0000,,Chickliss...
+Dialogue: 0,1:23:37.56,1:23:40.08,chi,,0000,0000,0000,,查克斯
+Dialogue: 0,1:23:40.08,1:23:43.08,eng,,0000,0000,0000,,Oh man...
+Dialogue: 0,1:23:40.08,1:23:43.08,chi,,0000,0000,0000,,可怜的家伙
+Dialogue: 0,1:23:47.60,1:23:51.56,eng,,0000,0000,0000,,- There's over one minute! - Can't this thing go any faster?
+Dialogue: 0,1:23:47.60,1:23:51.56,chi,,0000,0000,0000,,- 还有一分钟！ - 这个房间还能再快点吗？
+Dialogue: 0,1:23:58.68,1:24:01.83,eng,,0000,0000,0000,,- Sir, we've got the grid display back. - They're at the perimeter.
+Dialogue: 0,1:23:58.68,1:24:01.83,chi,,0000,0000,0000,,- 可以看到了 长官 - 他们就在边缘
+Dialogue: 0,1:24:03.32,1:24:05.44,eng,,0000,0000,0000,,30 seconds to clean sweep.
+Dialogue: 0,1:24:03.32,1:24:05.44,chi,,0000,0000,0000,,30秒后开始清空
+Dialogue: 0,1:24:05.44,1:24:08.44,eng,,0000,0000,0000,,Well I think it's time for our little surprise.
+Dialogue: 0,1:24:05.44,1:24:08.44,chi,,0000,0000,0000,,应该给我们点惊喜
+Dialogue: 0,1:24:08.44,1:24:11.44,eng,,0000,0000,0000,,I hope your shortcut worked, Mr. Quigley.
+Dialogue: 0,1:24:08.44,1:24:11.44,chi,,0000,0000,0000,,我希望你能成功 奎克利
+Dialogue: 0,1:24:31.84,1:24:34.84,eng,,0000,0000,0000,,- Water. - The auxiliary exit.
+Dialogue: 0,1:24:31.84,1:24:34.84,chi,,0000,0000,0000,,- 水 - 另一个出口
+Dialogue: 0,1:24:35.24,1:24:38.16,eng,,0000,0000,0000,,Leads directly outside.
+Dialogue: 0,1:24:35.24,1:24:38.16,chi,,0000,0000,0000,,可以直接通向外面
+Dialogue: 0,1:24:38.16,1:24:41.16,eng,,0000,0000,0000,,- Now what? - Can you swim?
+Dialogue: 0,1:24:38.16,1:24:41.16,chi,,0000,0000,0000,,- 现在怎么办？ - 你会游泳吗？
+Dialogue: 0,1:24:49.44,1:24:52.44,eng,,0000,0000,0000,,Jump!
+Dialogue: 0,1:24:49.44,1:24:52.44,chi,,0000,0000,0000,,跳！
+Dialogue: 0,1:26:01.80,1:26:04.80,eng,,0000,0000,0000,,Well? Did we get them?
+Dialogue: 0,1:26:01.80,1:26:04.80,chi,,0000,0000,0000,,抓住到他们没？
+Dialogue: 0,1:26:05.96,1:26:09.35,eng,,0000,0000,0000,,Sorry Sir. The signal got scrambled at flash point.
+Dialogue: 0,1:26:05.96,1:26:09.35,chi,,0000,0000,0000,,对不起长官． 突然信号混乱 导致失败
+Dialogue: 0,1:26:09.96,1:26:12.96,eng,,0000,0000,0000,,I think we got 'em
+Dialogue: 0,1:26:09.96,1:26:12.96,chi,,0000,0000,0000,,不然就可以抓到他们了
+Dialogue: 0,1:26:14.44,1:26:16.40,eng,,0000,0000,0000,,I don't like it.
+Dialogue: 0,1:26:14.44,1:26:16.40,chi,,0000,0000,0000,,我不想听这个
+Dialogue: 0,1:26:16.40,1:26:19.40,eng,,0000,0000,0000,,Get a squad to the exit point.
+Dialogue: 0,1:26:16.40,1:26:19.40,chi,,0000,0000,0000,,派一个班的人马去出口
+Dialogue: 0,1:26:34.72,1:26:37.72,eng,,0000,0000,0000,,This way!
+Dialogue: 0,1:26:34.72,1:26:37.72,chi,,0000,0000,0000,,这边！
+Dialogue: 0,1:27:22.92,1:27:25.56,eng,,0000,0000,0000,,- Come on. - Run! Run!
+Dialogue: 0,1:27:22.92,1:27:25.56,chi,,0000,0000,0000,,- 快  - 跑！跑！
+Dialogue: 0,1:27:25.56,1:27:28.56,eng,,0000,0000,0000,,Go!
+Dialogue: 0,1:27:25.56,1:27:28.56,chi,,0000,0000,0000,,快走！
+Dialogue: 0,1:27:52.00,1:27:54.04,eng,,0000,0000,0000,,He's conscious.
+Dialogue: 0,1:27:52.00,1:27:54.04,chi,,0000,0000,0000,,他开始恢复意识了
+Dialogue: 0,1:27:54.04,1:27:58.08,eng,,0000,0000,0000,,Thank God. Well, welcome back Mr. Wynn.
+Dialogue: 0,1:27:54.04,1:27:58.08,chi,,0000,0000,0000,,谢天谢地 好的 欢迎回来卫恩
+Dialogue: 0,1:27:58.24,1:28:01.24,eng,,0000,0000,0000,,You're conscious. So, we can begin now.
+Dialogue: 0,1:27:58.24,1:28:01.24,chi,,0000,0000,0000,,你醒了 那么 我们可以开始了
+Dialogue: 0,1:28:04.16,1:28:05.88,eng,,0000,0000,0000,,"Eric Wynn,
+Dialogue: 0,1:28:04.16,1:28:05.88,chi,,0000,0000,0000,,艾瑞克．卫恩
+Dialogue: 0,1:28:06.88,1:28:10.16,eng,,0000,0000,0000,,"as you have been found guilty of high treason, sabotage
+Dialogue: 0,1:28:06.88,1:28:10.16,chi,,0000,0000,0000,,当你因为你的叛逃而内疚
+Dialogue: 0,1:28:10.32,1:28:13.32,eng,,0000,0000,0000,,"and various other crimes against your country and your God,
+Dialogue: 0,1:28:10.32,1:28:13.32,chi,,0000,0000,0000,,破坏和各种反对你的国家和上帝的罪行
+Dialogue: 0,1:28:13.48,1:28:16.48,eng,,0000,0000,0000,,"and so on, bla, bla, bla...
+Dialogue: 0,1:28:13.48,1:28:16.48,chi,,0000,0000,0000,,还有＃＄％％＃＠！＊＆
+Dialogue: 0,1:28:16.88,1:28:19.88,eng,,0000,0000,0000,,"Your sentence has been extended for two more lifetimes."
+Dialogue: 0,1:28:16.88,1:28:19.88,chi,,0000,0000,0000,,你的宣判惩罚将延续到你下一生
+Dialogue: 0,1:28:19.88,1:28:22.08,eng,,0000,0000,0000,,What sentence? I don't remember the trial!
+Dialogue: 0,1:28:19.88,1:28:22.08,chi,,0000,0000,0000,,什么判决？ 我也忘记是什么审判！
+Dialogue: 0,1:28:22.08,1:28:25.08,eng,,0000,0000,0000,,Well, you were found guilty. No further questions.
+Dialogue: 0,1:28:22.08,1:28:25.08,chi,,0000,0000,0000,,你只要感到内疚 不需要问其他的
+Dialogue: 0,1:28:29.92,1:28:32.68,eng,,0000,0000,0000,,Wait! What are you doing?
+Dialogue: 0,1:28:29.92,1:28:32.68,chi,,0000,0000,0000,,等等！你想干什么？
+Dialogue: 0,1:28:32.68,1:28:36.20,eng,,0000,0000,0000,,Well, we've decided on a few modifications
+Dialogue: 0,1:28:32.68,1:28:36.20,chi,,0000,0000,0000,,我们会做点小修改
+Dialogue: 0,1:28:36.36,1:28:39.24,eng,,0000,0000,0000,,before putting you back inside.
+Dialogue: 0,1:28:36.36,1:28:39.24,chi,,0000,0000,0000,,在放你进去之前
+Dialogue: 0,1:28:39.24,1:28:42.71,eng,,0000,0000,0000,,- Wait! - Mr. Wynn, you are holding up progress.
+Dialogue: 0,1:28:39.24,1:28:42.71,chi,,0000,0000,0000,,- 等等！ - 卫恩先生 你必须坦然面对
+Dialogue: 0,1:28:42.88,1:28:45.04,eng,,0000,0000,0000,,Don't I get a choice?
+Dialogue: 0,1:28:42.88,1:28:45.04,chi,,0000,0000,0000,,没有其他选择吗？
+Dialogue: 0,1:28:45.04,1:28:48.56,eng,,0000,0000,0000,,Don't all the condemned get a choice? I choose death!
+Dialogue: 0,1:28:45.04,1:28:48.56,chi,,0000,0000,0000,,不是惩罚都可以选择吗？ 我选择去死！
+Dialogue: 0,1:28:51.08,1:28:53.52,eng,,0000,0000,0000,,No, Mr. Wynn.
+Dialogue: 0,1:28:51.08,1:28:53.52,chi,,0000,0000,0000,,不 卫恩先生
+Dialogue: 0,1:28:53.52,1:28:55.72,eng,,0000,0000,0000,,You do not get a choice.
+Dialogue: 0,1:28:53.52,1:28:55.72,chi,,0000,0000,0000,,你没法做选择
+Dialogue: 0,1:28:56.72,1:28:58.68,eng,,0000,0000,0000,,You have already made your choice.
+Dialogue: 0,1:28:56.72,1:28:58.68,chi,,0000,0000,0000,,你已经选择了
+Dialogue: 0,1:28:58.68,1:29:01.68,eng,,0000,0000,0000,,I believe this is your signature?
+Dialogue: 0,1:28:58.68,1:29:01.68,chi,,0000,0000,0000,,相信这就是你的笔迹了？
+Dialogue: 0,1:29:09.52,1:29:11.68,eng,,0000,0000,0000,,- I don't understand. - "I don't understand".
+Dialogue: 0,1:29:09.52,1:29:11.68,chi,,0000,0000,0000,,- 我不明白 - 你不明白？
+Dialogue: 0,1:29:11.68,1:29:15.56,eng,,0000,0000,0000,,You chose to become a test subject. Many years ago.
+Dialogue: 0,1:29:11.68,1:29:15.56,chi,,0000,0000,0000,,你选择成为一个测试目标  就在几年前
+Dialogue: 0,1:29:16.24,1:29:19.08,eng,,0000,0000,0000,,And you simply don't remember that.
+Dialogue: 0,1:29:16.24,1:29:19.08,chi,,0000,0000,0000,,这么简单你都不记得了？
+Dialogue: 0,1:29:20.08,1:29:22.36,eng,,0000,0000,0000,,It's all standard procedure.
+Dialogue: 0,1:29:20.08,1:29:22.36,chi,,0000,0000,0000,,这是按照程序上写的
+Dialogue: 0,1:29:22.36,1:29:25.36,eng,,0000,0000,0000,,But my job? Dodd? Owen? Chickliss?
+Dialogue: 0,1:29:22.36,1:29:25.36,chi,,0000,0000,0000,,那我的工作呢？ 杜德？ 欧文？ 查克斯？
+Dialogue: 0,1:29:25.48,1:29:27.44,eng,,0000,0000,0000,,All lab rats. Just Like you.
+Dialogue: 0,1:29:25.48,1:29:27.44,chi,,0000,0000,0000,,都是实验室的白鼠 和你一样
+Dialogue: 0,1:29:27.44,1:29:30.04,eng,,0000,0000,0000,,Observing the observers, you know, that kind of thing.
+Dialogue: 0,1:29:27.44,1:29:30.04,chi,,0000,0000,0000,,这样是不是很有趣呢？
+Dialogue: 0,1:29:30.04,1:29:33.04,eng,,0000,0000,0000,,Very interesting results.
+Dialogue: 0,1:29:30.04,1:29:33.04,chi,,0000,0000,0000,,非常好玩
+Dialogue: 0,1:29:34.52,1:29:37.36,eng,,0000,0000,0000,,Wait!
+Dialogue: 0,1:29:34.52,1:29:37.36,chi,,0000,0000,0000,,等一下！
+Dialogue: 0,1:29:37.36,1:29:40.96,eng,,0000,0000,0000,,- You're actually starting to bore me now. - Where is she?
+Dialogue: 0,1:29:37.36,1:29:40.96,chi,,0000,0000,0000,,- 你现在让我很烦  - 她在哪？
+Dialogue: 0,1:29:42.60,1:29:47.28,eng,,0000,0000,0000,,Oh, the allusive Ms. Rains. Well, you needn't worry about her.
+Dialogue: 0,1:29:42.60,1:29:47.28,chi,,0000,0000,0000,,哦 你说蕾斯 你不用担心她
+Dialogue: 0,1:29:51.56,1:29:54.56,eng,,0000,0000,0000,,You didn't catch her.
+Dialogue: 0,1:29:51.56,1:29:54.56,chi,,0000,0000,0000,,你们没抓到她
+Dialogue: 0,1:30:16.96,1:30:19.88,eng,,0000,0000,0000,,He's all yours.
+Dialogue: 0,1:30:16.96,1:30:19.88,chi,,0000,0000,0000,,他归你了
+Dialogue: 0,1:30:19.88,1:30:23.00,eng,,0000,0000,0000,,- Don't touch me. - Don't worry. This wont hurt.
+Dialogue: 0,1:30:19.88,1:30:23.00,chi,,0000,0000,0000,,- 别碰我 - 别担心 不会疼的
+Dialogue: 0,1:30:23.92,1:30:26.92,eng,,0000,0000,0000,,Wait!
+Dialogue: 0,1:30:23.92,1:30:26.92,chi,,0000,0000,0000,,等等！
+Dialogue: 0,1:30:46.32,1:30:50.84,eng,,0000,0000,0000,,Mommy, I'm cold. Why can't we have a fire?
+Dialogue: 0,1:30:46.32,1:30:50.84,chi,,0000,0000,0000,,妈咪 我很冷 为什么我们不生火？
+Dialogue: 0,1:30:52.52,1:30:55.52,eng,,0000,0000,0000,,Because the bad people might find us.
+Dialogue: 0,1:30:52.52,1:30:55.52,chi,,0000,0000,0000,,因为有坏人会发现我们
+Dialogue: 0,1:30:58.08,1:31:01.08,eng,,0000,0000,0000,,I have something to show you.
+Dialogue: 0,1:30:58.08,1:31:01.08,chi,,0000,0000,0000,,我给你看点东西
+Dialogue: 0,1:31:03.56,1:31:06.56,eng,,0000,0000,0000,,See. That's us.
+Dialogue: 0,1:31:03.56,1:31:06.56,chi,,0000,0000,0000,,看 这是我们
+Dialogue: 0,1:31:07.08,1:31:10.08,eng,,0000,0000,0000,,We're superheroes.
+Dialogue: 0,1:31:07.08,1:31:10.08,chi,,0000,0000,0000,,很厉害吧
+Dialogue: 0,1:31:10.28,1:31:14.40,eng,,0000,0000,0000,,These are very special because they were drawn by a very special person.
+Dialogue: 0,1:31:10.28,1:31:14.40,chi,,0000,0000,0000,,这是个很特别的人画的
+Dialogue: 0,1:31:16.88,1:31:19.88,eng,,0000,0000,0000,,Is he a superhero too?
+Dialogue: 0,1:31:16.88,1:31:19.88,chi,,0000,0000,0000,,他也很厉害吗？
+Dialogue: 0,1:31:21.24,1:31:24.28,eng,,0000,0000,0000,,Yes. Yes, he is.
+Dialogue: 0,1:31:21.24,1:31:24.28,chi,,0000,0000,0000,,是的 他是
+Dialogue: 0,1:31:56.40,1:31:59.40,eng,,0000,0000,0000,,What wrong with him?
+Dialogue: 0,1:31:56.40,1:31:59.40,chi,,0000,0000,0000,,他怎么了？
+Dialogue: 0,1:32:00.04,1:32:03.04,eng,,0000,0000,0000,,He doesn't seem to know we're here.
+Dialogue: 0,1:32:00.04,1:32:03.04,chi,,0000,0000,0000,,他好像不知道我们在这
+Dialogue: 0,1:32:03.24,1:32:06.24,eng,,0000,0000,0000,,This room is green.
+Dialogue: 0,1:32:03.24,1:32:06.24,chi,,0000,0000,0000,,这里是绿色的
+Dialogue: 0,1:32:25.64,1:32:28.64,eng,,0000,0000,0000,,Hi there.
+Dialogue: 0,1:32:25.64,1:32:28.64,chi,,0000,0000,0000,,嗨 这里
+Dialogue: 0,1:32:31.16,1:32:34.16,eng,,0000,0000,0000,,- This room is green. - Yes, It is.
+Dialogue: 0,1:32:31.16,1:32:34.16,chi,,0000,0000,0000,,- 这里是绿色的 - 是 是的
+Dialogue: 0,1:32:35.76,1:32:38.76,eng,,0000,0000,0000,,What is it, shock?
+Dialogue: 0,1:32:35.76,1:32:38.76,chi,,0000,0000,0000,,他怎么会抖？
+Dialogue: 0,1:32:39.56,1:32:42.24,eng,,0000,0000,0000,,I wanna go back to the blue room.
+Dialogue: 0,1:32:39.56,1:32:42.24,chi,,0000,0000,0000,,我想回到蓝色的房间
+Dialogue: 0,1:32:42.24,1:32:44.84,eng,,0000,0000,0000,,I think he's mentally handicapped.
+Dialogue: 0,1:32:42.24,1:32:44.84,chi,,0000,0000,0000,,我想他是个精神病人
+Dialogue: 0,1:32:44.84,1:32:47.84,eng,,0000,0000,0000,,- That's all we need, a retard. - Don't!
+Dialogue: 0,1:32:44.84,1:32:47.84,chi,,0000,0000,0000,,- 我们最好都退后些 - 不要！
+Dialogue: 0,1:32:47.96,1:32:50.96,eng,,0000,0000,0000,,How the hell did he survive in here?
+Dialogue: 0,1:32:47.96,1:32:50.96,chi,,0000,0000,0000,,他是怎么在这里活下来的？
+Dialogue: 0,1:32:52.24,1:32:54.52,eng,,0000,0000,0000,,I wanna go back.
+Dialogue: 0,1:32:52.24,1:32:54.52,chi,,0000,0000,0000,,我想回去
+Dialogue: 0,1:32:54.52,1:32:55.88,eng,,0000,0000,0000,,I wanna go back.
+Dialogue: 0,1:32:54.52,1:32:55.88,chi,,0000,0000,0000,,我想回去
+Dialogue: 0,1:32:55.88,1:32:58.32,eng,,0000,0000,0000,,Back. Back.
+Dialogue: 0,1:32:55.88,1:32:58.32,chi,,0000,0000,0000,,回去 回去
+Dialogue: 0,1:32:58.32,1:33:00.88,eng,,0000,0000,0000,,I wanna go back.
+Dialogue: 0,1:32:58.32,1:33:00.88,chi,,0000,0000,0000,,我想回去
+Dialogue: 0,1:33:00.88,1:33:03.88,eng,,0000,0000,0000,,Wanna go back.
+Dialogue: 0,1:33:00.88,1:33:03.88,chi,,0000,0000,0000,,我想回去
+

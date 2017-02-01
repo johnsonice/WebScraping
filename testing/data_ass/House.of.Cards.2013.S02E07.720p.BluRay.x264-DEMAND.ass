@@ -1,0 +1,838 @@
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 640
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,WenQuanYi Micro Hei,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,2,1,2,5,5,2,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.01,0:00:04.55,Default,,0000,0000,0000,,傑姬·夏普\N{\fn微軟雅黑\fs14}Jackie Sharp.
+Dialogue: 0,0:00:04.77,0:00:05.87,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}缺乏經驗
+Dialogue: 0,0:00:06.50,0:00:08.05,Default,,0000,0000,0000,,泰瑞·烏麥克\N{\fn微軟雅黑\fs14}Terry Womack.
+Dialogue: 0,0:00:07.76,0:00:08.85,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}唯唯諾諾
+Dialogue: 0,0:00:09.59,0:00:10.90,Default,,0000,0000,0000,,鮑勃·博奇\N{\fn微軟雅黑\fs14}Bob Birch.
+Dialogue: 0,0:00:11.06,0:00:12.24,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}不問時事
+Dialogue: 0,0:00:12.45,0:00:16.34,Default,,0000,0000,0000,,沃克總統面對著一個千瘡百孔的國會\N{\fn微軟雅黑\fs14}President Walker has surrounded himself with a broken Congress.
+Dialogue: 0,0:00:16.83,0:00:19.53,Default,,0000,0000,0000,,他甚至還提拔國會的人進白宮\N{\fn微軟雅黑\fs14}He even brought one of them into the White House.
+Dialogue: 0,0:00:20.59,0:00:22.53,Default,,0000,0000,0000,,他們整垮了經濟\N{\fn微軟雅黑\fs14}Now, they've broken the economy
+Dialogue: 0,0:00:22.53,0:00:25.04,Default,,0000,0000,0000,,還與中國起了爭端\N{\fn微軟雅黑\fs14}and put us on a collision course with China.
+Dialogue: 0,0:00:25.04,0:00:27.85,Default,,0000,0000,0000,,趁來得及  快阻止他們\N{\fn微軟雅黑\fs14}Put a stop to them before it's too late.
+Dialogue: 0,0:00:25.35,0:00:26.12,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}停下
+Dialogue: 0,0:00:26.82,0:00:27.90,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}廢物
+Dialogue: 0,0:00:29.20,0:00:31.25,Default,,0000,0000,0000,,在中期選舉中表明立場\N{\fn微軟雅黑\fs14}Send a message at the midterms.
+Dialogue: 0,0:00:31.25,0:00:33.31,Default,,0000,0000,0000,,讓美國變得更好\N{\fn微軟雅黑\fs14}Let's start fixing the country.
+Dialogue: 0,0:00:32.33,0:00:36.40,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}為美國投票
+Dialogue: 0,0:00:33.68,0:00:36.14,Default,,0000,0000,0000,,由美國進步之友贊助播出\N{\fn微軟雅黑\fs14}Paid for by Friends of a Better America.
+Dialogue: 0,0:00:39.55,0:00:41.54,Default,,0000,0000,0000,,兩千五百萬  憑空變出來的\N{\fn微軟雅黑\fs14}Twenty-five million? Out of thin air?
+Dialogue: 0,0:00:41.54,0:00:43.39,Default,,0000,0000,0000,,-初步估計是這樣    -錢是哪來的\N{\fn微軟雅黑\fs14}- That's our estimate.   - Where is the money coming from?
+Dialogue: 0,0:00:43.39,0:00:45.64,Default,,0000,0000,0000,,-超級政治行動委員會    -這廣告是攻擊具體事件的\N{\fn微軟雅黑\fs14}- Super PACs.   - These are issue-based attack ads.
+Dialogue: 0,0:00:45.64,0:00:46.60,Default,,0000,0000,0000,,錢是誰給的\N{\fn微軟雅黑\fs14}So who's giving to them?
+Dialogue: 0,0:00:46.60,0:00:49.12,Default,,0000,0000,0000,,得等這季財報才能確定來源\N{\fn微軟雅黑\fs14}We can't trace the money until this quarter's filings come in.
+Dialogue: 0,0:00:49.12,0:00:52.00,Default,,0000,0000,0000,,中期選舉栽了  下次大選也泡湯了\N{\fn微軟雅黑\fs14}We get killed in the midterms, we can kiss 2016 goodbye.
+Dialogue: 0,0:00:52.00,0:00:54.67,Default,,0000,0000,0000,,共和黨就會佔據國會多數席位和白宮\N{\fn微軟雅黑\fs14}You can deal with the republican majority and a Republican president.
+Dialogue: 0,0:00:54.67,0:00:55.99,Default,,0000,0000,0000,,我們和民主黨議會競選委員會在努力還擊\N{\fn微軟雅黑\fs14}We're trying to counter with D-trip.
+Dialogue: 0,0:00:55.99,0:00:57.80,Default,,0000,0000,0000,,憑空變出兩千五百萬嗎\N{\fn微軟雅黑\fs14}Make 25 million appear out of nowhere?
+Dialogue: 0,0:00:57.80,0:00:59.41,Default,,0000,0000,0000,,-至少能造出點聲勢    -那不夠\N{\fn微軟雅黑\fs14}- We can make a dent.   - Dents don't cut it.
+Dialogue: 0,0:00:59.41,0:01:01.24,Default,,0000,0000,0000,,不管款籌得多快\N{\fn微軟雅黑\fs14}Well, no matter how fast we ramp up fundraising,
+Dialogue: 0,0:01:01.24,0:01:02.21,Default,,0000,0000,0000,,都補不上缺口\N{\fn微軟雅黑\fs14}we can't close the gap.
+Dialogue: 0,0:01:02.21,0:01:03.59,Default,,0000,0000,0000,,得切斷他們的資金來源\N{\fn微軟雅黑\fs14}We have to stop their money flow.
+Dialogue: 0,0:01:03.59,0:01:04.53,Default,,0000,0000,0000,,怎麼切\N{\fn微軟雅黑\fs14}I want to know how.
+Dialogue: 0,0:01:04.53,0:01:06.58,Default,,0000,0000,0000,,找到源頭  釜底抽薪\N{\fn微軟雅黑\fs14}Locate the source and then cut off the tap.
+Dialogue: 0,0:01:06.58,0:01:08.00,Default,,0000,0000,0000,,憑空出現這麼多錢\N{\fn微軟雅黑\fs14}With this sorta influx you can be sure that
+Dialogue: 0,0:01:08.00,0:01:09.36,Default,,0000,0000,0000,,肯定有人違規了\N{\fn微軟雅黑\fs14}somebody's not playing by the rules,
+Dialogue: 0,0:01:09.36,0:01:11.29,Default,,0000,0000,0000,,但找不到源頭就沒法告狀\N{\fn微軟雅黑\fs14}but we can't whistle-blow until we find the source.
+Dialogue: 0,0:01:11.29,0:01:13.96,Default,,0000,0000,0000,,那就去找  而且趕快找到\N{\fn微軟雅黑\fs14}Then find it. And you sure as hell better find it soon.
+Dialogue: 0,0:01:13.96,0:01:17.04,Default,,0000,0000,0000,,我在構思還擊的對策\N{\fn微軟雅黑\fs14}In the meantime, I've been working on a proposal to counter the attacks.
+Dialogue: 0,0:01:17.04,0:01:18.96,Default,,0000,0000,0000,,協調全國上下發出訊息\N{\fn微軟雅黑\fs14}A coordinated national messaging effort.
+Dialogue: 0,0:01:18.96,0:01:20.69,Default,,0000,0000,0000,,明天晚些時候發給你們\N{\fn微軟雅黑\fs14}I'll be sending all of you copies later today.
+Dialogue: 0,0:01:20.69,0:01:22.48,Default,,0000,0000,0000,,我們要考慮一切辦法\N{\fn微軟雅黑\fs14}Well, we should be open to every idea.
+Dialogue: 0,0:01:22.48,0:01:24.06,Default,,0000,0000,0000,,好了  去幹活兒吧\N{\fn微軟雅黑\fs14}Now, go. Get to work.
+Dialogue: 0,0:01:30.72,0:01:31.50,Default,,0000,0000,0000,,弗蘭克\N{\fn微軟雅黑\fs14}Frank.
+Dialogue: 0,0:01:35.03,0:01:37.22,Default,,0000,0000,0000,,你本該代表我控制國會\N{\fn微軟雅黑\fs14}You were supposed to steer Congress on my behalf.
+Dialogue: 0,0:01:37.82,0:01:39.78,Default,,0000,0000,0000,,我心情無比焦慮\N{\fn微軟雅黑\fs14}No one is as concerned as me.
+Dialogue: 0,0:01:39.89,0:01:41.18,Default,,0000,0000,0000,,真應該把你留在國會\N{\fn微軟雅黑\fs14}I shoulda kept you in the house,
+Dialogue: 0,0:01:41.18,0:01:43.36,Default,,0000,0000,0000,,向雷蒙德最初說的那樣\N{\fn微軟雅黑\fs14}like Raymond suggested from day one.
+Dialogue: 0,0:01:43.55,0:01:47.56,Default,,0000,0000,0000,,可你分心去摻和參議院  國情諮文\N{\fn微軟雅黑\fs14}But you've been distracted by the Senate, State of the Union,
+Dialogue: 0,0:01:47.61,0:01:48.70,Default,,0000,0000,0000,,還干預外交\N{\fn微軟雅黑\fs14}meddling with foreign diplomacy.
+Dialogue: 0,0:01:48.70,0:01:51.15,Default,,0000,0000,0000,,-是你要我去談判的    -我知道我做了什麼\N{\fn微軟雅黑\fs14}- You asked me to negotiate--   - I know what I've done.
+Dialogue: 0,0:01:51.81,0:01:53.43,Default,,0000,0000,0000,,我也知道後果\N{\fn微軟雅黑\fs14}And I know where it's gotten us.
+Dialogue: 0,0:01:53.43,0:01:55.80,Default,,0000,0000,0000,,先生  攻擊我們的廣告不是因為\N{\fn微軟雅黑\fs14}Sir, the attack ads are not a result of anything--
+Dialogue: 0,0:01:55.80,0:01:58.73,Default,,0000,0000,0000,,你慌慌忙忙地到處撲火  而不是防止失火\N{\fn微軟雅黑\fs14}You're scrambling from fire to fire instead of preventing them.
+Dialogue: 0,0:01:59.32,0:02:01.72,Default,,0000,0000,0000,,我不是聯邦選舉委員會  不能變魔...\N{\fn微軟雅黑\fs14}I'm not the FEC, I can't wave a wand--
+Dialogue: 0,0:02:01.72,0:02:04.82,Default,,0000,0000,0000,,別就知道找藉口  弗蘭克  你不止這點本事\N{\fn微軟雅黑\fs14}Give me more than excuses, Frank! You're better than that!
+Dialogue: 0,0:02:04.82,0:02:06.05,Default,,0000,0000,0000,,沒準就是這點\N{\fn微軟雅黑\fs14}Or maybe you're not.
+Dialogue: 0,0:02:06.55,0:02:08.45,Default,,0000,0000,0000,,你要是想找個沙袋撒氣\N{\fn微軟雅黑\fs14}If you need a punching bag,
+Dialogue: 0,0:02:08.45,0:02:10.68,Default,,0000,0000,0000,,那我就站在這兒讓你出氣\N{\fn微軟雅黑\fs14}I will stand here and take the punches,
+Dialogue: 0,0:02:10.68,0:02:13.17,Default,,0000,0000,0000,,自我上任以來\N{\fn微軟雅黑\fs14}as I have done time and time again,
+Dialogue: 0,0:02:13.17,0:02:15.18,Default,,0000,0000,0000,,我一次次做你的沙袋\N{\fn微軟雅黑\fs14}since I swore my oath.
+Dialogue: 0,0:02:15.71,0:02:19.03,Default,,0000,0000,0000,,可我更想照你的吩咐  回去工作\N{\fn微軟雅黑\fs14}But I would much rather get back to work, as you've asked me to do.
+Dialogue: 0,0:02:19.04,0:02:21.24,Default,,0000,0000,0000,,你太過分了  弗蘭克\N{\fn微軟雅黑\fs14}You are out of line, Frank.
+Dialogue: 0,0:02:22.42,0:02:25.96,Default,,0000,0000,0000,,不出拳就放我走吧  總統先生\N{\fn微軟雅黑\fs14}Dismiss me or keep swinging, Mr. President.
+Dialogue: 0,0:02:26.98,0:02:28.06,Default,,0000,0000,0000,,你走吧\N{\fn微軟雅黑\fs14}You're dismissed.
+Dialogue: 0,0:02:29.83,0:02:30.94,Default,,0000,0000,0000,,謝謝  先生\N{\fn微軟雅黑\fs14}Thank you, sir.
+Dialogue: 0,0:02:40.52,0:03:06.52,Default,,0000,0000,0000,,{\fad(500,500)\bord0\shad0\fscx11\fscy14\p1\c&H010403&\t(6000,6500,1,\fry1080)\pos(32.6,279)}m 20 0 l 209 0 b 218 0 229 11 229 20 l 229 209 b 229 218 218 228 209 228 l 20 228 b 11 228 0 218 0 209 l 0 20 b 0 11 11 0 20 0{\p0}
+Dialogue: 0,0:02:40.52,0:03:06.52,Default,,0000,0000,0000,,{\fad(500,500)\bord0\shad0\fscx11\fscy14\p1\c&H9297A1&\t(6000,6500,1,\fry1080)\pos(32.6,279)}m 115 64 l 115 35 l 171 0 l 177 0 l 133 46 l 143 52 l 179 0 l 184 0 l 159 63 l 229 107 l 229 182 l 145 96 l 135 122 l 207 227 l 137 227 l 115 172 l 115 93 l 126 76 l 115 64 l 104 76 l 115 93 l 115 172 l 93 227 l 23 227 l 95 122 l 84 96 l 0 182 l 0 107 l 70 63 l 45 0 l 50 0 l 87 52 l 97 46 l 52 0 l 59 0 l 115 35{\p0}
+Dialogue: 0,0:02:40.52,0:03:06.52,Default,,0000,0000,0000,,{\fad(500,500)\bord0\shad0\fscx15\fscy18\p1\1a&H3D&\c&HFFFFFF&\blur10\pos(22.6,269.8)}m 71 60 b 71 0 161 0 161 60 b 161 120 71 120 71 60{\p0}
+Dialogue: 0,0:02:40.52,0:02:43.52,Default,,0000,0000,0000,,{\fad(500,500)\bord0\shad0\fscx11\fscy14\p1\c&HFFFFFF&\pos(51,279.8)\t(2500,3000,1,\blur10)}m 325 0 l 355 0 l 332 47 l 354 47 l 399 136 l 369 136 l 328 53 l 288 136 l 257 136 l 325 0 m 467 0 l 497 0 l 474 47 l 496 47 l 541 136 l 511 136 l 470 53 l 430 136 l 399 136 l 467 0 m 545 1 l 583 1 l 583 14 l 568 14 l 568 19 l 583 19 l 583 30 l 568 30 l 568 34 l 599 34 l 599 30 l 583 30 l 583 19 l 599 19 l 599 14 l 583 14 l 583 1 l 611 1 b 616 1 622 6 622 10 l 622 36 l 652 0 l 678 0 l 644 41 l 622 41 l 622 47 l 596 47 l 597 54 l 625 54 l 625 68 l 541 68 l 541 54 l 572 54 l 571 47 l 545 47 l 545 1 m 583 72 l 583 85 l 569 85 l 569 90 l 598 90 l 598 85 l 583 85 l 583 72 l 611 72 b 615 72 621 78 621 82 l 653 44 l 678 44 l 644 86 l 621 86 l 621 103 l 597 103 l 597 136 l 570 136 l 564 126 l 562 136 l 542 136 l 548 107 l 568 107 l 565 121 l 571 121 l 571 103 l 547 103 l 547 72 l 583 72 m 600 107 l 620 107 l 624 124 l 653 89 l 679 89 l 642 136 l 615 136 l 618 132 l 606 132 l 600 107 m 689 0 l 716 0 l 721 15 l 732 15 l 732 30 l 718 56 l 731 56 l 735 100 l 721 100 l 717 59 l 714 64 l 714 136 l 693 136 l 693 79 l 676 79 l 707 30 l 679 30 l 679 15 l 694 15 l 689 0 m 738 0 l 804 0 b 807 0 813 6 813 9 l 813 87 l 794 87 l 794 14 l 756 14 l 756 87 l 763 77 l 763 21 l 787 21 l 787 91 l 798 91 l 798 120 l 820 120 l 812 136 l 778 136 l 778 90 l 748 136 l 723 136 l 756 87 l 738 87 l 738 0 m 257 151 l 275 151 l 297 182 l 319 151 l 337 151 l 304 197 l 304 227 l 290 227 l 290 197 l 257 151 m 337 151 l 355 151 l 377 182 l 399 151 l 417 151 l 384 197 l 384 227 l 370 227 l 370 197 l 337 151 m 425 192 l 447 192 b 445 181 427 181 425 192 l 410 192 b 414 162 458 162 462 192 l 462 206 l 425 206 b 425 210 429 212 433 213 l 462 213 l 462 227 l 433 227 b 412 227 408 203 410 192 m 462 151 l 532 151 l 532 165 l 504 165 l 504 227 l 489 227 l 489 165 l 462 165 l 462 151 m 580 172 l 580 186 l 549 186 b 543 186 543 192 549 192 l 565 192 b 589 192 589 227 565 227 l 532 227 l 532 213 l 565 213 b 570 213 570 206 565 206 l 549 206 b 524 206 524 172 549 172 l 580 172 m 592 213 l 606 213 l 606 227 l 592 227 l 592 213 m 639 172 l 665 172 l 665 186 l 639 186 b 623 186 623 213 639 213 l 665 213 l 665 227 l 639 227 b 603 227 603 172 639 172 m 700 184 b 722 184 722 215 700 215 l 700 229 b 740 229 740 170 700 170 b 660 170 660 229 700 229 l 700 215 b 680 215 680 184 700 184 m 737 172 l 782 172 b 803 172 813 177 813 198 l 813 228 l 799 228 l 799 198 b 799 186 793 187 782 187 l 782 228 l 768 228 l 768 187 l 752 187 l 752 228 l 737 228 l 737 172{\p0}
+Dialogue: 0,0:02:43.52,0:02:46.52,Default,,0000,0000,0000,,{\fad(500,500)\fs16\b1\bord0\shad0\c&HFFFFFF&\fn方正蘭亭粗黑_GBK\t(2500,3000,1,\blur10)\an1\pos(49,279.091)}本字幕由人人影視字幕組翻譯\N禁止用於任何商業盈利行為
+Dialogue: 0,0:02:46.52,0:02:51.52,Default,,0000,0000,0000,,{\fad(0,500)\an4\bord0\fn方正小標宋_GBK\fs22\move(-280,262,48,262,0,500)\b1\clip(32,246,358,281)}{\fs17\fn方正仿宋繁體}翻譯 {\fs20\fn方正小標宋_GBK}somehacker   小飯   宅女之後   章魚X   某豚
+Dialogue: 0,0:02:51.52,0:02:56.52,Default,,0000,0000,0000,,{\fad(0,500)\an4\bord0\fn方正小標宋_GBK\fs22\move(-280,262,48,262,0,500)\b1\clip(32,246,358,281)}{\fs17\fn方正仿宋繁體}翻譯 {\fs20\fn方正小標宋_GBK}艾瑞卡   香茗小焙   衛老哥   癢癢   葉某人
+Dialogue: 0,0:02:56.52,0:03:01.52,Default,,0000,0000,0000,,{\fad(0,500)\an4\bord0\fn方正小標宋_GBK\fs22\move(-280,262,48,262,0,500)\b1\clip(32,246,358,281)}{\fs17\fn方正仿宋繁體}藍光版調整 {\fs21\fn微軟雅黑} {\c&A67D3D&}timhal@HDWinG字幕組{\c&HFFFFFF&}   {\fs17\fn方正仿宋繁體}後期 {\fs20\fn方正小標宋_GBK}餓得慌
+Dialogue: 0,0:03:01.52,0:03:06.52,Default,,0000,0000,0000,,{\fad(0,500)\an4\bord0\fn方正小標宋_GBK\fs22\move(-280,262,48,262,0,500)\b1\clip(32,246,358,281)}{\fs17\fn方正仿宋繁體}顧問 {\fs20\fn方正小標宋_GBK}老杜   {\fs17\fn方正仿宋繁體}校對 {\fs20\fn方正小標宋_GBK}{\c&H3CC43C&}草草{\c&HFFFFFF&}   {\fs17\fn方正仿宋繁體}總監 {\fs20\fn方正小標宋_GBK}{\c&H3CC43C&}草草{\c&HFFFFFF&}
+Dialogue: 0,0:03:06.52,0:03:21.52,Default,,0000,0000,0000,,{\fad(0,500)\an4\bord0\fnMicrosoft YaHei\fs21\move(-280,262,48,262,0,500)\b1\clip(32,246,358,281)} 本字幕由YYETS翻譯 {\c&0000FF&}HDWinG字幕組{\c&HFFFFFF&}修正 請勿去掉製作者資訊
+Dialogue: 0,0:04:00.34,0:04:03.09,Default,,0000,0000,0000,,{\fe134}{\fsp0}{\fad(500,500)}{\pos(190,278)}{\fn方正準圓簡體}{\bord0}{\fs20}{\c&H24EFFF&}《紙牌屋》\N{\fs17}{\c&HFFFFFF&}第二季  第七集
+Dialogue: 0,0:04:12.86,0:04:14.66,Default,,0000,0000,0000,,丹·拉尼根轉投那邊了\N{\fn微軟雅黑\fs14}Dan Lanagin switched teams.
+Dialogue: 0,0:04:16.26,0:04:18.25,Default,,0000,0000,0000,,這不可能啊\N{\fn微軟雅黑\fs14}That doesn't make any sense.
+Dialogue: 0,0:04:18.90,0:04:22.51,Default,,0000,0000,0000,,共和黨的大捐助人都沒什麼異常\N{\fn微軟雅黑\fs14}I couldn't find any anomalies among big Republican donors,
+Dialogue: 0,0:04:22.52,0:04:23.94,Default,,0000,0000,0000,,於是我查了民主黨的\N{\fn微軟雅黑\fs14}so I checked our own.
+Dialogue: 0,0:04:24.24,0:04:26.44,Default,,0000,0000,0000,,拉尼根這季一分都沒捐\N{\fn微軟雅黑\fs14}Lanagin hasn't given a dime this quarter.
+Dialogue: 0,0:04:26.86,0:04:30.23,Default,,0000,0000,0000,,是啊  沒捐和資助共和黨不一樣\N{\fn微軟雅黑\fs14}Yeah, but not giving isn't the same as giving to the Republicans.
+Dialogue: 0,0:04:30.52,0:04:33.99,Default,,0000,0000,0000,,他賭場的賬目  安永事務所做的\N{\fn微軟雅黑\fs14}His casino's accounts. Ernst and Young.
+Dialogue: 0,0:04:34.49,0:04:38.48,Default,,0000,0000,0000,,捐了一千八百萬  還不是給我們\N{\fn微軟雅黑\fs14}Eighteen million for donations, and they're not going to us.
+Dialogue: 0,0:04:38.63,0:04:40.33,Default,,0000,0000,0000,,你怎麼弄到的\N{\fn微軟雅黑\fs14}How did you get your hands on those?
+Dialogue: 0,0:04:41.04,0:04:44.57,Default,,0000,0000,0000,,我有朋友  所以你才找我幫忙\N{\fn微軟雅黑\fs14}I've got friends. That's why you solicit my services.
+Dialogue: 0,0:04:44.57,0:04:46.56,Default,,0000,0000,0000,,那廣告花了大約兩千五百萬\N{\fn微軟雅黑\fs14}The estimate for the ad buys was 25 million.
+Dialogue: 0,0:04:46.56,0:04:48.39,Default,,0000,0000,0000,,賬目只到6月30日\N{\fn微軟雅黑\fs14}Those accounts are up to date as of June 30th.
+Dialogue: 0,0:04:48.39,0:04:50.87,Default,,0000,0000,0000,,那之後應該還捐款了\N{\fn微軟雅黑\fs14}They could have made more donations since then.
+Dialogue: 0,0:04:54.69,0:04:55.75,Default,,0000,0000,0000,,塔斯克\N{\fn微軟雅黑\fs14}Tusk.
+Dialogue: 0,0:04:57.57,0:04:59.89,Default,,0000,0000,0000,,拉尼根的賭場在密蘇里\N{\fn微軟雅黑\fs14}Lanagin's casino is in Missouri.
+Dialogue: 0,0:05:01.03,0:05:02.19,Default,,0000,0000,0000,,雷蒙德·塔斯克嗎\N{\fn微軟雅黑\fs14}Raymond Tusk?
+Dialogue: 0,0:05:02.50,0:05:05.33,Default,,0000,0000,0000,,他對我和總統有不滿\N{\fn微軟雅黑\fs14}He's got an axe to grind with me and with the president.
+Dialogue: 0,0:05:05.77,0:05:08.09,Default,,0000,0000,0000,,選舉委員會的檔案裡沒他的名字\N{\fn微軟雅黑\fs14}I've never seen his name on any FEC filings.
+Dialogue: 0,0:05:08.09,0:05:09.87,Default,,0000,0000,0000,,他從不捐助政黨\N{\fn微軟雅黑\fs14}He doesn't make political contributions.
+Dialogue: 0,0:05:09.87,0:05:12.10,Default,,0000,0000,0000,,所以才能進退自如\N{\fn微軟雅黑\fs14}That's how he remains flexible.
+Dialogue: 0,0:05:12.46,0:05:14.91,Default,,0000,0000,0000,,你覺得他在想辦法籌集資金嗎\N{\fn微軟雅黑\fs14}You think he's funneling the money somehow?
+Dialogue: 0,0:05:17.54,0:05:18.70,Default,,0000,0000,0000,,我不知道\N{\fn微軟雅黑\fs14}I don't know.
+Dialogue: 0,0:05:19.27,0:05:21.72,Default,,0000,0000,0000,,你去堪薩斯城  去那家賭場\N{\fn微軟雅黑\fs14}Get yourself to Kansas City. I want you in that casino.
+Dialogue: 0,0:05:21.72,0:05:23.45,Default,,0000,0000,0000,,-是  先生    -我會繼續查的\N{\fn微軟雅黑\fs14}- Yes, sir.   - I'll keep digging.
+Dialogue: 0,0:05:25.12,0:05:26.38,Default,,0000,0000,0000,,接我太太的電話\N{\fn微軟雅黑\fs14}Get me my wife.
+Dialogue: 0,0:05:27.35,0:05:30.26,Default,,0000,0000,0000,,-你從哪得到的菜譜    -我父親教我的\N{\fn微軟雅黑\fs14}- Where'd you get the recipe?   - My father taught me.
+Dialogue: 0,0:05:30.49,0:05:32.91,Default,,0000,0000,0000,,-你跟你爸爸很親密嗎    -不\N{\fn微軟雅黑\fs14}- You and your dad were close?   - Nah.
+Dialogue: 0,0:05:32.91,0:05:35.86,Default,,0000,0000,0000,,烹飪肋排是那混蛋唯一能做好的事\N{\fn微軟雅黑\fs14}Cooking ribs was the only thing that motherfucker did right.
+Dialogue: 0,0:05:36.61,0:05:39.54,Default,,0000,0000,0000,,-這話不能上報紙吧    -我有辦法\N{\fn微軟雅黑\fs14}- I guess you can't print that.   - I have ways.
+Dialogue: 0,0:05:39.88,0:05:41.57,Default,,0000,0000,0000,,真的會上報紙嗎\N{\fn微軟雅黑\fs14}This really gonna be in the paper?
+Dialogue: 0,0:05:41.59,0:05:43.27,Default,,0000,0000,0000,,至少能上波士頓的報紙\N{\fn微軟雅黑\fs14}At least in Boston, yeah.
+Dialogue: 0,0:05:43.54,0:05:45.72,Default,,0000,0000,0000,,我怎麼覺得沒人會在意\N{\fn微軟雅黑\fs14}Don't see why anybody would care.
+Dialogue: 0,0:05:45.72,0:05:48.37,Default,,0000,0000,0000,,這是關於個人喜好\N{\fn微軟雅黑\fs14}Well, it's a personal interest story.
+Dialogue: 0,0:05:49.16,0:05:52.81,Default,,0000,0000,0000,,那麼多餐廳  美國副總統卻偏偏喜歡這裡\N{\fn微軟雅黑\fs14}The vice president of the United States comes here, of all places.
+Dialogue: 0,0:05:52.81,0:05:56.60,Default,,0000,0000,0000,,-你是說這破地方嗎    -我可沒這麼說\N{\fn微軟雅黑\fs14}- You mean this shithole?   - That's not what I said.
+Dialogue: 0,0:05:57.12,0:05:58.24,Default,,0000,0000,0000,,沒關係\N{\fn微軟雅黑\fs14}It's OK.
+Dialogue: 0,0:05:59.45,0:06:01.18,Default,,0000,0000,0000,,又不是泰姬陵\N{\fn微軟雅黑\fs14}It's not the Taj Mahal.
+Dialogue: 0,0:06:02.13,0:06:03.74,Default,,0000,0000,0000,,他從什麼時候開始來這裡\N{\fn微軟雅黑\fs14}How long has he been coming?
+Dialogue: 0,0:06:04.47,0:06:06.24,Default,,0000,0000,0000,,大概有20年了吧\N{\fn微軟雅黑\fs14}About 20 years now.
+Dialogue: 0,0:06:06.50,0:06:09.09,Default,,0000,0000,0000,,-他是個好人  弗蘭克    -你還叫他弗蘭克嗎\N{\fn微軟雅黑\fs14}- He's a good man, Frank.   - You still call him Frank?
+Dialogue: 0,0:06:09.26,0:06:10.83,Default,,0000,0000,0000,,在這裡  我才是總統\N{\fn微軟雅黑\fs14}Hey, in this joint, I'm the president,
+Dialogue: 0,0:06:10.84,0:06:12.75,Default,,0000,0000,0000,,是副總統  也是國會\N{\fn微軟雅黑\fs14}the vice president and the Congress.
+Dialogue: 0,0:06:12.76,0:06:17.04,Default,,0000,0000,0000,,他只是一名顧客  忠實的顧客\N{\fn微軟雅黑\fs14}He just another customer. A loyal one.
+Dialogue: 0,0:06:17.27,0:06:18.93,Default,,0000,0000,0000,,所以他才喜歡這裡嗎\N{\fn微軟雅黑\fs14}You think that's why he likes it here?
+Dialogue: 0,0:06:18.96,0:06:21.06,Default,,0000,0000,0000,,因為你像對待普通人那樣對待他\N{\fn微軟雅黑\fs14}'Cause you treat him like a regular person?
+Dialogue: 0,0:06:21.10,0:06:24.65,Default,,0000,0000,0000,,也許吧  不過主要還是因為這肋排\N{\fn微軟雅黑\fs14}Maybe. Mostly it's the fuckin' ribs, though.
+Dialogue: 0,0:06:26.44,0:06:28.72,Default,,0000,0000,0000,,如果失業率上升至20%以上\N{\fn微軟雅黑\fs14}Now, if unemployment goes up more than two-tenths,
+Dialogue: 0,0:06:28.72,0:06:30.20,Default,,0000,0000,0000,,我希望美聯儲考慮...\N{\fn微軟雅黑\fs14}I want the Fed to consider...
+Dialogue: 0,0:06:45.46,0:06:47.08,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}總統先生
+Dialogue: 0,0:06:49.57,0:06:53.95,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}這個沙袋不像我話那麼多
+Dialogue: 0,0:06:59.62,0:07:00.74,Default,,0000,0000,0000,,來點什麼嗎  親愛的\N{\fn微軟雅黑\fs14}Get you something, hon.
+Dialogue: 0,0:07:01.50,0:07:03.08,Default,,0000,0000,0000,,請給我青檸蘇打水\N{\fn微軟雅黑\fs14}Club soda with lime, please?
+Dialogue: 0,0:07:03.47,0:07:05.79,Default,,0000,0000,0000,,-就這樣嗎    -對\N{\fn微軟雅黑\fs14}- That's it?   - Yeah.
+Dialogue: 0,0:07:06.42,0:07:08.85,Default,,0000,0000,0000,,-不要吃的嗎    -不用  就這樣\N{\fn微軟雅黑\fs14}- Nothing to eat?   - No. That's it.
+Dialogue: 0,0:07:10.20,0:07:12.11,Default,,0000,0000,0000,,你要是在戒酒  在這地方待著可挺受煎熬\N{\fn微軟雅黑\fs14}Tough spot to hang out if you're in the program.
+Dialogue: 0,0:07:13.37,0:07:16.38,Default,,0000,0000,0000,,-你怎麼知道    -酒鬼眼裡分外明\N{\fn微軟雅黑\fs14}- How'd you know?   - Takes one to know one, right?
+Dialogue: 0,0:07:17.11,0:07:20.38,Default,,0000,0000,0000,,-你多久了    -剛過一年  你呢\N{\fn微軟雅黑\fs14}- How long?   - Little over a year. You?
+Dialogue: 0,0:07:20.47,0:07:21.71,Default,,0000,0000,0000,,就要15年了\N{\fn微軟雅黑\fs14}Going on 15.
+Dialogue: 0,0:07:22.48,0:07:23.80,Default,,0000,0000,0000,,賽馬贏錢了嗎\N{\fn微軟雅黑\fs14}Any luck with the ponies?
+Dialogue: 0,0:07:24.09,0:07:25.92,Default,,0000,0000,0000,,沒有  還沒\N{\fn微軟雅黑\fs14}None. Not yet.
+Dialogue: 0,0:07:27.32,0:07:30.11,Default,,0000,0000,0000,,選個數字  1到12\N{\fn微軟雅黑\fs14}Pick a number. One through twelve.
+Dialogue: 0,0:07:30.68,0:07:31.64,Default,,0000,0000,0000,,9\N{\fn微軟雅黑\fs14}Nine.
+Dialogue: 0,0:07:34.52,0:07:35.63,Default,,0000,0000,0000,,名聲大噪\N{\fn微軟雅黑\fs14}Hot Fuss.
+Dialogue: 0,0:07:37.40,0:07:38.70,Default,,0000,0000,0000,,聽起來不錯\N{\fn微軟雅黑\fs14}Sounds about right.
+Dialogue: 0,0:07:39.57,0:07:42.50,Default,,0000,0000,0000,,蘇打水馬上來  親愛的  配青檸\N{\fn微軟雅黑\fs14}Club soda coming up, darling. With lime.
+Dialogue: 0,0:07:44.82,0:07:46.72,Default,,0000,0000,0000,,過去兩小時他都沒有動\N{\fn微軟雅黑\fs14}Hasn't moved the last two hours.
+Dialogue: 0,0:07:46.99,0:07:49.09,Default,,0000,0000,0000,,也沒跟任何人說話嗎\N{\fn微軟雅黑\fs14}And he hasn't spoken to anybody?
+Dialogue: 0,0:07:49.34,0:07:51.19,Default,,0000,0000,0000,,一直在賭\N{\fn微軟雅黑\fs14}Just been betting on the races.
+Dialogue: 0,0:07:51.57,0:07:52.88,Default,,0000,0000,0000,,要我們帶他進來嗎\N{\fn微軟雅黑\fs14}You want us to bring him in?
+Dialogue: 0,0:07:53.93,0:07:58.03,Default,,0000,0000,0000,,不  那是副總統的幕僚長\N{\fn微軟雅黑\fs14}No. That's the vice president's chief of staff.
+Dialogue: 0,0:07:58.37,0:07:59.39,Default,,0000,0000,0000,,真的嗎\N{\fn微軟雅黑\fs14}Really?
+Dialogue: 0,0:08:00.20,0:08:04.12,Default,,0000,0000,0000,,別引發混亂  盯住他就行\N{\fn微軟雅黑\fs14}We don't want to make a scene. Just keep an eye on him.
+Dialogue: 0,0:08:04.47,0:08:09.03,Default,,0000,0000,0000,,告訴我他幹了什麼  去了哪裡  跟誰說過話\N{\fn微軟雅黑\fs14}Let me know what he does, where he goes, and who he talks to.
+Dialogue: 0,0:08:09.55,0:08:11.14,Default,,0000,0000,0000,,明白  拉尼根先生\N{\fn微軟雅黑\fs14}You got it, Mr. Lanagin.
+Dialogue: 0,0:08:12.70,0:08:13.97,Default,,0000,0000,0000,,你真該看看他們的表情\N{\fn微軟雅黑\fs14}You should've seen their faces.
+Dialogue: 0,0:08:13.97,0:08:15.34,Default,,0000,0000,0000,,他們徹底糊塗了\N{\fn微軟雅黑\fs14}They didn't know what to think.
+Dialogue: 0,0:08:15.34,0:08:17.12,Default,,0000,0000,0000,,特別是我讓他們扶住沙袋時\N{\fn微軟雅黑\fs14}Especially when I made 'em hold the bag.
+Dialogue: 0,0:08:17.12,0:08:18.11,Default,,0000,0000,0000,,你試過了嗎\N{\fn微軟雅黑\fs14}You tried it out?
+Dialogue: 0,0:08:18.11,0:08:19.37,Default,,0000,0000,0000,,那是當然\N{\fn微軟雅黑\fs14}I sure as hell did.
+Dialogue: 0,0:08:22.95,0:08:24.45,Default,,0000,0000,0000,,很抱歉我那麼衝你發脾氣  弗蘭克\N{\fn微軟雅黑\fs14}I'm sorry I lashed out at you, Frank.
+Dialogue: 0,0:08:24.45,0:08:27.09,Default,,0000,0000,0000,,不  是我失禮了  有失妥當\N{\fn微軟雅黑\fs14}No. I was disrespectful, and that was uncalled for.
+Dialogue: 0,0:08:27.09,0:08:29.38,Default,,0000,0000,0000,,我的情緒最近總有些失控\N{\fn微軟雅黑\fs14}My temper's gotten away from me these days.
+Dialogue: 0,0:08:29.82,0:08:33.39,Default,,0000,0000,0000,,我有時需要被人吼一吼  清醒過來\N{\fn微軟雅黑\fs14}I need to be jolted back into reality sometimes.
+Dialogue: 0,0:08:33.39,0:08:35.07,Default,,0000,0000,0000,,你是出於好意\N{\fn微軟雅黑\fs14}It was a -- a kind gesture.
+Dialogue: 0,0:08:35.07,0:08:37.04,Default,,0000,0000,0000,,就是消遣罷了\N{\fn微軟雅黑\fs14}Oh, just some good old fun.
+Dialogue: 0,0:08:38.68,0:08:41.09,Default,,0000,0000,0000,,特莉莎說我們這周要一起吃晚飯\N{\fn微軟雅黑\fs14}Tricia tells me we're having dinner later this week.
+Dialogue: 0,0:08:41.09,0:08:42.77,Default,,0000,0000,0000,,是的  克萊爾也這樣跟我說\N{\fn微軟雅黑\fs14}Yes. Claire tells me the same.
+Dialogue: 0,0:08:42.77,0:08:46.35,Default,,0000,0000,0000,,能離開這裡幾小時也不錯\N{\fn微軟雅黑\fs14}Well, it'll be good to get out of this place for a few hours.
+Dialogue: 0,0:08:55.98,0:08:57.51,Default,,0000,0000,0000,,這幅畫從肯尼迪時期就掛在這裡了\N{\fn微軟雅黑\fs14}It's been here since Kennedy.
+Dialogue: 0,0:08:57.59,0:08:59.98,Default,,0000,0000,0000,,是他出生那年畫的\N{\fn微軟雅黑\fs14}It was painted the same year he was born.
+Dialogue: 0,0:08:59.99,0:09:03.51,Default,,0000,0000,0000,,描繪的好像是一戰的慶祝遊行\N{\fn微軟雅黑\fs14}It depicts, I think, a World War I parade.
+Dialogue: 0,0:09:04.52,0:09:07.16,Default,,0000,0000,0000,,每一幅畫我都該瞭解一下\N{\fn微軟雅黑\fs14}Oh, I should know every painting.
+Dialogue: 0,0:09:07.52,0:09:09.91,Default,,0000,0000,0000,,你似乎懂不少呢  至少瞭解這幅\N{\fn微軟雅黑\fs14}Well, you seem to know quite a lot, at least about this one.
+Dialogue: 0,0:09:09.91,0:09:12.16,Default,,0000,0000,0000,,我想趁現在有機會  好好研究一下\N{\fn微軟雅黑\fs14}Oh, I try to soak it all in while I can.
+Dialogue: 0,0:09:12.56,0:09:13.80,Default,,0000,0000,0000,,所有的歷史\N{\fn微軟雅黑\fs14}All the history.
+Dialogue: 0,0:09:15.14,0:09:17.08,Default,,0000,0000,0000,,癡迷於歷史的總統\N{\fn微軟雅黑\fs14}Presidents who obsess over history
+Dialogue: 0,0:09:17.08,0:09:19.12,Default,,0000,0000,0000,,癡迷於他們在歷史中的地位\N{\fn微軟雅黑\fs14}obsess about their place in it,
+Dialogue: 0,0:09:19.12,0:09:20.74,Default,,0000,0000,0000,,而不是如何創造歷史\N{\fn微軟雅黑\fs14}instead of forging it.
+Dialogue: 0,0:09:21.75,0:09:22.90,Default,,0000,0000,0000,,誰說的\N{\fn微軟雅黑\fs14}Who said that?
+Dialogue: 0,0:09:23.46,0:09:25.60,Default,,0000,0000,0000,,我  就在剛才\N{\fn微軟雅黑\fs14}I did. Just now.
+Dialogue: 0,0:09:28.42,0:09:31.50,Default,,0000,0000,0000,,白宮  一整天都熙熙攘攘\N{\fn微軟雅黑\fs14}Ah, the White House. All day long it's buzzing,
+Dialogue: 0,0:09:31.50,0:09:35.88,Default,,0000,0000,0000,,這個時候卻又如此冷清\N{\fn微軟雅黑\fs14}and at this hour it's so desolate.
+Dialogue: 0,0:09:36.23,0:09:39.58,Default,,0000,0000,0000,,做總統是件偉大而珍貴的事情\N{\fn微軟雅黑\fs14}The presidency is a great and precious thing.
+Dialogue: 0,0:09:40.30,0:09:42.19,Default,,0000,0000,0000,,而代價就是孤獨\N{\fn微軟雅黑\fs14}Loneliness is the price.
+Dialogue: 0,0:09:43.47,0:09:44.72,Default,,0000,0000,0000,,做個假設\N{\fn微軟雅黑\fs14}Let's assume
+Dialogue: 0,0:09:47.24,0:09:50.57,Default,,0000,0000,0000,,如果杜魯門總統就是坐在這其中一張椅子上\N{\fn微軟雅黑\fs14}in one of these chairs, staring at this wall,
+Dialogue: 0,0:09:51.06,0:09:53.84,Default,,0000,0000,0000,,盯著牆  決定投放核彈\N{\fn微軟雅黑\fs14}is where Truman decided to drop the bomb.
+Dialogue: 0,0:09:54.25,0:09:56.21,Default,,0000,0000,0000,,看看我們會不會有什麼感覺\N{\fn微軟雅黑\fs14}And see if we feel anything.
+Dialogue: 0,0:10:10.63,0:10:11.82,Default,,0000,0000,0000,,沒感覺  你呢\N{\fn微軟雅黑\fs14}Nothing. You?
+Dialogue: 0,0:10:13.71,0:10:14.74,Default,,0000,0000,0000,,沒有\N{\fn微軟雅黑\fs14}No.
+Dialogue: 0,0:10:24.85,0:10:26.79,Default,,0000,0000,0000,,抱歉  這兒很亂\N{\fn微軟雅黑\fs14}Sorry, it's a mess.
+Dialogue: 0,0:10:26.81,0:10:28.45,Default,,0000,0000,0000,,不用為我收拾\N{\fn微軟雅黑\fs14}You don't have to clean up for me.
+Dialogue: 0,0:10:28.63,0:10:29.77,Default,,0000,0000,0000,,當然要\N{\fn微軟雅黑\fs14}Yes, I do.
+Dialogue: 0,0:10:34.65,0:10:36.54,Default,,0000,0000,0000,,我不想你看到這個\N{\fn微軟雅黑\fs14}Wouldn’t want you seeing these.
+Dialogue: 0,0:10:38.85,0:10:40.27,Default,,0000,0000,0000,,我昨晚穿著這個\N{\fn微軟雅黑\fs14}I wore 'em last night.
+Dialogue: 0,0:10:44.48,0:10:46.95,Default,,0000,0000,0000,,你喜歡這個  還是我現在這身\N{\fn微軟雅黑\fs14}You like these or you want the ones I'm wearing now?
+Dialogue: 0,0:11:01.47,0:11:03.30,Default,,0000,0000,0000,,你在賭場工作多久了\N{\fn微軟雅黑\fs14}How long you been working in the casino?
+Dialogue: 0,0:11:03.72,0:11:04.68,Default,,0000,0000,0000,,很久了\N{\fn微軟雅黑\fs14}Too long.
+Dialogue: 0,0:11:05.47,0:11:06.81,Default,,0000,0000,0000,,那你一定見多識廣\N{\fn微軟雅黑\fs14}Bet you've seen a lot.
+Dialogue: 0,0:11:06.81,0:11:09.67,Default,,0000,0000,0000,,當然  我什麼都見過\N{\fn微軟雅黑\fs14}Oh, yeah. I've seen everything.
+Dialogue: 0,0:11:25.85,0:11:28.08,Default,,0000,0000,0000,,我得走了  要開早會\N{\fn微軟雅黑\fs14}I should get going. Got an early meeting.
+Dialogue: 0,0:11:28.16,0:11:29.03,Default,,0000,0000,0000,,好\N{\fn微軟雅黑\fs14}Okay.
+Dialogue: 0,0:11:34.76,0:11:36.10,Default,,0000,0000,0000,,你想我留下來嗎\N{\fn微軟雅黑\fs14}Do you want me to stay?
+Dialogue: 0,0:11:39.05,0:11:41.76,Default,,0000,0000,0000,,我沒想在這兒過夜\N{\fn微軟雅黑\fs14}I wasn't planning on sleeping here.
+Dialogue: 0,0:11:43.19,0:11:46.75,Default,,0000,0000,0000,,又是一次一夜情嗎\N{\fn微軟雅黑\fs14}So, uh, another one-night stand then, huh?
+Dialogue: 0,0:11:47.75,0:11:48.95,Default,,0000,0000,0000,,有問題嗎\N{\fn微軟雅黑\fs14}Is that okay?
+Dialogue: 0,0:11:49.54,0:11:50.88,Default,,0000,0000,0000,,不是我的風格\N{\fn微軟雅黑\fs14}Not really my thing.
+Dialogue: 0,0:11:52.86,0:11:55.38,Default,,0000,0000,0000,,得了吧  你肯定是老手了\N{\fn微軟雅黑\fs14}Come on. You must play the field.
+Dialogue: 0,0:11:55.38,0:11:56.76,Default,,0000,0000,0000,,不  我不是\N{\fn微軟雅黑\fs14}No, I don't.
+Dialogue: 0,0:11:57.80,0:11:59.36,Default,,0000,0000,0000,,但你很會調情啊\N{\fn微軟雅黑\fs14}But you are such a flirt.
+Dialogue: 0,0:11:59.36,0:12:00.76,Default,,0000,0000,0000,,我的確會調情\N{\fn微軟雅黑\fs14}I flirt, yes.
+Dialogue: 0,0:12:00.93,0:12:03.16,Default,,0000,0000,0000,,但我只跟喜歡的人上床\N{\fn微軟雅黑\fs14}But I only sleep with someone if I'm into them.
+Dialogue: 0,0:12:04.15,0:12:05.90,Default,,0000,0000,0000,,而且我喜歡留下過夜\N{\fn微軟雅黑\fs14}And I prefer to stick around.
+Dialogue: 0,0:12:06.46,0:12:09.09,Default,,0000,0000,0000,,雷米·丹頓  專情男子\N{\fn微軟雅黑\fs14}Remy Danton, serial monogamist.
+Dialogue: 0,0:12:09.88,0:12:10.93,Default,,0000,0000,0000,,你是在開玩笑嗎\N{\fn微軟雅黑\fs14}This a joke?
+Dialogue: 0,0:12:12.53,0:12:16.99,Default,,0000,0000,0000,,抱歉  我不是...抱歉\N{\fn微軟雅黑\fs14}I'm sorry. I didn't, uh... sorry.
+Dialogue: 0,0:12:24.78,0:12:27.20,Default,,0000,0000,0000,,如果你不是認真的  就不會有下一次了\N{\fn微軟雅黑\fs14}This doesn't happen again unless it's leading somewhere.
+Dialogue: 0,0:12:27.26,0:12:29.46,Default,,0000,0000,0000,,我對自己想要的東西都很直接\N{\fn微軟雅黑\fs14}I'm upfront about what I want, in all things.
+Dialogue: 0,0:12:29.46,0:12:30.94,Default,,0000,0000,0000,,不僅僅是在政治上\N{\fn微軟雅黑\fs14}Not just politics.
+Dialogue: 0,0:12:37.70,0:12:40.88,Default,,0000,0000,0000,,每年三四次  會有十幾個有錢的中國人來\N{\fn微軟雅黑\fs14}Three or four times a year they fly in about a dozen Chinese guys.
+Dialogue: 0,0:12:40.88,0:12:41.84,Default,,0000,0000,0000,,專門來燒錢\N{\fn微軟雅黑\fs14}Money to burn.
+Dialogue: 0,0:12:42.29,0:12:44.73,Default,,0000,0000,0000,,他們把賭場一整層預留給他們\N{\fn微軟雅黑\fs14}They got a whole floor of the casino reserved just for them.
+Dialogue: 0,0:12:44.73,0:12:46.17,Default,,0000,0000,0000,,據說能輸掉幾百萬\N{\fn微軟雅黑\fs14}Word is they throw away millions.
+Dialogue: 0,0:12:46.17,0:12:47.88,Default,,0000,0000,0000,,這說明不了什麼\N{\fn微軟雅黑\fs14}Well, that doesn't necessarily mean anything.
+Dialogue: 0,0:12:47.88,0:12:50.55,Default,,0000,0000,0000,,中國人都愛賭博  特別是富人\N{\fn微軟雅黑\fs14}The Chinese love to gamble. Especially the rich ones.
+Dialogue: 0,0:12:50.55,0:12:51.82,Default,,0000,0000,0000,,沒錯  他們會去維加斯\N{\fn微軟雅黑\fs14}Yeah, in Vegas.
+Dialogue: 0,0:12:51.82,0:12:53.58,Default,,0000,0000,0000,,這是密蘇里  遠多了\N{\fn微軟雅黑\fs14}This is Missouri. It's a much longer flight.
+Dialogue: 0,0:12:53.58,0:12:55.79,Default,,0000,0000,0000,,我想要知道\N{\fn微軟雅黑\fs14}I want to find out --
+Dialogue: 0,0:12:57.67,0:12:58.79,Default,,0000,0000,0000,,我想要知道\N{\fn微軟雅黑\fs14}I want to find out
+Dialogue: 0,0:12:58.79,0:13:00.18,Default,,0000,0000,0000,,這些人是從哪飛過來的\N{\fn微軟雅黑\fs14}where these planes are coming from.
+Dialogue: 0,0:13:00.18,0:13:01.62,Default,,0000,0000,0000,,我們認識聯邦航空管理局的人嗎\N{\fn微軟雅黑\fs14}Who do we know in the FAA?
+Dialogue: 0,0:13:01.62,0:13:04.26,Default,,0000,0000,0000,,我不認識  但道爾認識  我讓他去打探了\N{\fn微軟雅黑\fs14}I don't know anyone. But Doyle does. I already got him on it.
+Dialogue: 0,0:13:04.26,0:13:06.02,Default,,0000,0000,0000,,有訊息就通知你\N{\fn微軟雅黑\fs14}I'll text you when I hear back from Doyle.
+Dialogue: 0,0:13:06.25,0:13:07.19,Default,,0000,0000,0000,,我得走了\N{\fn微軟雅黑\fs14}I gotta go.
+Dialogue: 0,0:13:09.55,0:13:10.61,Default,,0000,0000,0000,,要走了嗎\N{\fn微軟雅黑\fs14}You leaving?
+Dialogue: 0,0:13:16.26,0:13:18.56,Default,,0000,0000,0000,,是的  謝謝讓我度過美好的一晚\N{\fn微軟雅黑\fs14}Yeah. Thanks for last night.
+Dialogue: 0,0:13:18.97,0:13:21.55,Default,,0000,0000,0000,,-我很開心    -不  才沒有\N{\fn微軟雅黑\fs14}- I had fun.   - No, you didn't.
+Dialogue: 0,0:13:22.07,0:13:23.95,Default,,0000,0000,0000,,你在想著別人\N{\fn微軟雅黑\fs14}You were thinking of somebody else.
+Dialogue: 0,0:13:35.11,0:13:36.92,Default,,0000,0000,0000,,這是我十年戒酒紀念章\N{\fn微軟雅黑\fs14}I got that one after ten years.
+Dialogue: 0,0:13:42.36,0:13:43.87,Default,,0000,0000,0000,,希望能給你帶來好運\N{\fn微軟雅黑\fs14}Hope it brings you some luck.
+Dialogue: 0,0:13:51.04,0:13:52.48,Default,,0000,0000,0000,,法案由艾琳·布魯克斯發起\N{\fn微軟雅黑\fs14}Elaine Brooks will be sponsoring
+Dialogue: 0,0:13:52.48,0:13:55.68,Default,,0000,0000,0000,,第一夫人已經認同了初稿\N{\fn微軟雅黑\fs14}and the First Lady has approved the early draft.
+Dialogue: 0,0:13:55.68,0:13:56.73,Default,,0000,0000,0000,,傑姬  看看那板子\N{\fn微軟雅黑\fs14}Jackie, take a look at the board.
+Dialogue: 0,0:13:56.73,0:13:59.44,Default,,0000,0000,0000,,除了你  想想還有誰能做聯署人\N{\fn微軟雅黑\fs14}Get a sense of who might cosponsor, besides yourself.
+Dialogue: 0,0:13:59.52,0:14:02.63,Default,,0000,0000,0000,,當然  我們肯定能拉來不少重量級人物\N{\fn微軟雅黑\fs14}Absolutely. I'm sure we can lock down a lot of heavyweights.
+Dialogue: 0,0:14:02.63,0:14:04.14,Default,,0000,0000,0000,,洛莉和我會處理這事\N{\fn微軟雅黑\fs14}Lorrie and I will get right on it.
+Dialogue: 0,0:14:04.14,0:14:05.69,Default,,0000,0000,0000,,我們該想想媒體計劃\N{\fn微軟雅黑\fs14}We should talk about a media plan.
+Dialogue: 0,0:14:06.32,0:14:08.27,Default,,0000,0000,0000,,-現在還太早了    -難道不該宣傳嗎\N{\fn微軟雅黑\fs14}- It's premature for that.   - Don't we want to get this out,
+Dialogue: 0,0:14:08.27,0:14:10.07,Default,,0000,0000,0000,,儘早開始博取支援\N{\fn微軟雅黑\fs14}start building support as soon as possible?
+Dialogue: 0,0:14:10.07,0:14:12.77,Default,,0000,0000,0000,,-做活動和採訪    -我只想看到最佳成效\N{\fn微軟雅黑\fs14}- Events, interviews?   - I want what's most effective.
+Dialogue: 0,0:14:12.77,0:14:14.36,Default,,0000,0000,0000,,媒體大肆宣揚不好\N{\fn微軟雅黑\fs14}A media blitz is the wrong way to go.
+Dialogue: 0,0:14:14.36,0:14:15.67,Default,,0000,0000,0000,,應該始終只用一個引子\N{\fn微軟雅黑\fs14}You want a single long lead
+Dialogue: 0,0:14:15.67,0:14:18.14,Default,,0000,0000,0000,,與法案出臺同步  要有檔次\N{\fn微軟雅黑\fs14}that coincides with the introduction of the bill. Something classy.
+Dialogue: 0,0:14:18.14,0:14:20.74,Default,,0000,0000,0000,,-但要廣泛支援才能...    -大肆宣傳\N{\fn微軟雅黑\fs14}- But you want broad support, to hit--   - A blanket strategy will
+Dialogue: 0,0:14:20.74,0:14:22.06,Default,,0000,0000,0000,,能博取支援  但也可能招致批評\N{\fn微軟雅黑\fs14}galvanize as many detractors as supporters.
+Dialogue: 0,0:14:22.06,0:14:23.79,Default,,0000,0000,0000,,如果我們把理念包裝得當...\N{\fn微軟雅黑\fs14}Not if the message is framed in such way--
+Dialogue: 0,0:14:23.79,0:14:26.29,Default,,0000,0000,0000,,我們得先獲取目標群體的認同  然後...\N{\fn微軟雅黑\fs14}We want a key demographic to get on board, and then--
+Dialogue: 0,0:14:26.29,0:14:28.13,Default,,0000,0000,0000,,-請讓我說完    -然後慢慢積累\N{\fn微軟雅黑\fs14}- Let me finish, please.   - Then we let it percolate.
+Dialogue: 0,0:14:28.13,0:14:30.50,Default,,0000,0000,0000,,我建議找《紐約時代雜誌》的馬特·貝\N{\fn微軟雅黑\fs14}I suggest Matt Bai, The New York Times Magazine.
+Dialogue: 0,0:14:30.50,0:14:32.61,Default,,0000,0000,0000,,我喜歡這想法  非常喜歡\N{\fn微軟雅黑\fs14}I like that idea. I like it very much.
+Dialogue: 0,0:14:32.62,0:14:34.50,Default,,0000,0000,0000,,我也是  你能和馬特聯繫嗎\N{\fn微軟雅黑\fs14}So do I. Can you speak to Matt?
+Dialogue: 0,0:14:34.61,0:14:36.18,Default,,0000,0000,0000,,先別定下來  接觸一下看看情況\N{\fn微軟雅黑\fs14}No promises. Just test the waters.
+Dialogue: 0,0:14:36.18,0:14:36.80,Default,,0000,0000,0000,,我願意去找他談\N{\fn微軟雅黑\fs14}I'm happy to do that.
+Dialogue: 0,0:14:36.80,0:14:39.04,Default,,0000,0000,0000,,我和馬特關係不錯  我給他打個電話\N{\fn微軟雅黑\fs14}I've got a good relationship with Matt. I'll call him.
+Dialogue: 0,0:14:39.04,0:14:40.72,Default,,0000,0000,0000,,很好  賽斯  有進展隨時通知我\N{\fn微軟雅黑\fs14}Great. Seth, you keep me posted,
+Dialogue: 0,0:14:40.72,0:14:42.62,Default,,0000,0000,0000,,這周晚些時候再碰個頭\N{\fn微軟雅黑\fs14}and let's all get together later this week.
+Dialogue: 0,0:14:42.62,0:14:43.63,Default,,0000,0000,0000,,多謝了  傑姬\N{\fn微軟雅黑\fs14}Thanks, Jackie.
+Dialogue: 0,0:14:55.74,0:14:57.48,Default,,0000,0000,0000,,你讀一下法案  給我寫份摘要\N{\fn微軟雅黑\fs14}I want you to read the bill and write me a summary.
+Dialogue: 0,0:14:57.48,0:15:01.35,Default,,0000,0000,0000,,我們談過之前  絕不要跟任何人透露一個字\N{\fn微軟雅黑\fs14}Do not under any circumstances share it with anyone until we've spoken.
+Dialogue: 0,0:15:01.59,0:15:02.66,Default,,0000,0000,0000,,你不先過一遍議員名單嗎\N{\fn微軟雅黑\fs14}You don't want to go over the board first, at least --
+Dialogue: 0,0:15:02.66,0:15:04.33,Default,,0000,0000,0000,,不  不急\N{\fn微軟雅黑\fs14}No. Not yet.
+Dialogue: 0,0:15:12.55,0:15:14.10,Default,,0000,0000,0000,,關於墮胎查到了什麼\N{\fn微軟雅黑\fs14}Anything on the abortion?
+Dialogue: 0,0:15:14.36,0:15:16.73,Default,,0000,0000,0000,,一無所獲  全都核實了\N{\fn微軟雅黑\fs14}Nothing. It all checks out.
+Dialogue: 0,0:15:16.74,0:15:19.80,Default,,0000,0000,0000,,-完全確定嗎    -我方方面面都查了\N{\fn微軟雅黑\fs14}- One hundred percent?   - I turned over every stone.
+Dialogue: 0,0:15:19.81,0:15:21.80,Default,,0000,0000,0000,,-安德伍德夫人說的是實話    -我需要猛料\N{\fn微軟雅黑\fs14}- Mrs. Underwood was telling the truth.   - We need something.
+Dialogue: 0,0:15:21.80,0:15:23.28,Default,,0000,0000,0000,,時間拖得太久了\N{\fn微軟雅黑\fs14}This is taking too long.
+Dialogue: 0,0:15:24.30,0:15:25.60,Default,,0000,0000,0000,,安德伍德夫婦都很小心\N{\fn微軟雅黑\fs14}The Underwoods are careful.
+Dialogue: 0,0:15:25.95,0:15:27.71,Default,,0000,0000,0000,,如果真有醜聞  肯定藏得非常深\N{\fn微軟雅黑\fs14}If they have skeletons, they're buried deep.
+Dialogue: 0,0:15:27.71,0:15:28.60,Default,,0000,0000,0000,,這不是"如果"的問題\N{\fn微軟雅黑\fs14}Not a question of "If."
+Dialogue: 0,0:15:28.60,0:15:30.87,Default,,0000,0000,0000,,弗蘭克這樣的人肯定有醜聞\N{\fn微軟雅黑\fs14}Somebody like Frank is gonna have skeletons.
+Dialogue: 0,0:15:31.32,0:15:32.40,Default,,0000,0000,0000,,那我會挖出來的\N{\fn微軟雅黑\fs14}Then I'll find them.
+Dialogue: 0,0:15:33.77,0:15:35.89,Default,,0000,0000,0000,,你這邊一無所獲  我就沒法向上面交代\N{\fn微軟雅黑\fs14}If you don't deliver, that means I don't deliver.
+Dialogue: 0,0:15:35.89,0:15:37.40,Default,,0000,0000,0000,,那不是我的風格\N{\fn微軟雅黑\fs14}And I always deliver.
+Dialogue: 0,0:15:37.77,0:15:40.20,Default,,0000,0000,0000,,你給了我這個任務  而且期望我做好\N{\fn微軟雅黑\fs14}You gave me an assignment with high expectations.
+Dialogue: 0,0:15:40.20,0:15:42.79,Default,,0000,0000,0000,,我不會讓你失望的  但也別指望一蹴而就\N{\fn微軟雅黑\fs14}I will meet them. But it's not gonna happen overnight.
+Dialogue: 0,0:15:43.14,0:15:44.50,Default,,0000,0000,0000,,所以別跟我頤指氣使\N{\fn微軟雅黑\fs14}So don't fuck with me.
+Dialogue: 0,0:15:45.01,0:15:47.67,Default,,0000,0000,0000,,我只是你僱來辦事的人  不是你的走狗\N{\fn微軟雅黑\fs14}I'm a hired gun. Not one that you own.
+Dialogue: 0,0:15:49.41,0:15:50.91,Default,,0000,0000,0000,,只要你能達成目的就行\N{\fn微軟雅黑\fs14}As long as you hit the target.
+Dialogue: 0,0:15:52.22,0:15:53.69,Default,,0000,0000,0000,,那你得幫我個忙\N{\fn微軟雅黑\fs14}Then I need a favor.
+Dialogue: 0,0:15:54.47,0:15:55.42,Default,,0000,0000,0000,,康納·埃利斯\N{\fn微軟雅黑\fs14}Connor Ellis?
+Dialogue: 0,0:15:55.42,0:15:56.52,Default,,0000,0000,0000,,他怎麼了\N{\fn微軟雅黑\fs14}What about him?
+Dialogue: 0,0:15:56.92,0:15:59.28,Default,,0000,0000,0000,,沒他礙事的話我會擁有更多許可權\N{\fn微軟雅黑\fs14}I'll have more access if he isn't around.
+Dialogue: 0,0:15:59.93,0:16:02.21,Default,,0000,0000,0000,,你能不能找個美差把他引走\N{\fn微軟雅黑\fs14}Arrange a cushy job offer for him somewhere?
+Dialogue: 0,0:16:02.87,0:16:04.43,Default,,0000,0000,0000,,私企還是政府部門\N{\fn微軟雅黑\fs14}Private or public sector?
+Dialogue: 0,0:16:04.57,0:16:05.57,Default,,0000,0000,0000,,私企的\N{\fn微軟雅黑\fs14}Private.
+Dialogue: 0,0:16:06.09,0:16:07.27,Default,,0000,0000,0000,,收入豐厚\N{\fn微軟雅黑\fs14}Lots of money.
+Dialogue: 0,0:16:07.63,0:16:09.22,Default,,0000,0000,0000,,讓他難以拒絕\N{\fn微軟雅黑\fs14}Something he can't turn down.
+Dialogue: 0,0:16:10.13,0:16:11.52,Default,,0000,0000,0000,,我想想辦法\N{\fn微軟雅黑\fs14}I'll see what I can do.
+Dialogue: 0,0:16:17.04,0:16:18.54,Default,,0000,0000,0000,,給  先付一半\N{\fn微軟雅黑\fs14}Here, this is half.
+Dialogue: 0,0:16:19.89,0:16:22.05,Default,,0000,0000,0000,,等我完成任務時再付我錢吧\N{\fn微軟雅黑\fs14}You can pay me when I've gotten you what you want.
+Dialogue: 0,0:16:22.91,0:16:25.76,Default,,0000,0000,0000,,我從不事做一半  錢也拿一半\N{\fn微軟雅黑\fs14}I don't take half pay for a job half done.
+Dialogue: 0,0:16:36.62,0:16:38.21,Default,,0000,0000,0000,,這是個很有趣的提案\N{\fn微軟雅黑\fs14}It's an interesting proposal.
+Dialogue: 0,0:16:38.22,0:16:40.45,Default,,0000,0000,0000,,我們缺的就是一個統一的主題\N{\fn微軟雅黑\fs14}What we're missing is a unified theme.
+Dialogue: 0,0:16:40.46,0:16:44.06,Default,,0000,0000,0000,,如果能協調全國廣告投入  組織跨黨派活動\N{\fn微軟雅黑\fs14}If we coordinate on national ad-buys, organize crossover events,
+Dialogue: 0,0:16:44.06,0:16:46.46,Default,,0000,0000,0000,,開發捐款應用  應該能收效頗豐...\N{\fn微軟雅黑\fs14}develop fund-raising apps, I think it would go a long way...
+Dialogue: 0,0:16:46.47,0:16:48.64,Default,,0000,0000,0000,,也許吧  但我覺得總統不太可能同意\N{\fn微軟雅黑\fs14}Maybe, but I doubt the leadership will go for it.
+Dialogue: 0,0:16:48.64,0:16:50.96,Default,,0000,0000,0000,,所以我希望你能支援  我安排了一次會議\N{\fn微軟雅黑\fs14}Which is why I'd like your support. I set up a meeting.
+Dialogue: 0,0:16:50.96,0:16:52.69,Default,,0000,0000,0000,,你要是能來  並且支援我的立場\N{\fn微軟雅黑\fs14}If you came, and you supported my position...
+Dialogue: 0,0:16:52.70,0:16:54.14,Default,,0000,0000,0000,,我估計他們最終會說\N{\fn微軟雅黑\fs14}I just think they're gonna end up saying
+Dialogue: 0,0:16:54.14,0:16:57.12,Default,,0000,0000,0000,,不能為全國範圍的策略燒錢\N{\fn微軟雅黑\fs14}we can't be thinning out our funds on a national strategy.
+Dialogue: 0,0:16:57.12,0:16:59.58,Default,,0000,0000,0000,,必須要落到實處  爭取選票\N{\fn微軟雅黑\fs14}This is about fieldwork, getting out the vote.
+Dialogue: 0,0:16:59.58,0:17:01.71,Default,,0000,0000,0000,,那好  但至少該考慮一下吧\N{\fn微軟雅黑\fs14}Right, but isn't it worth at least some consideration?
+Dialogue: 0,0:17:01.71,0:17:05.40,Default,,0000,0000,0000,,你瞭解我的  琳達  我喜歡大膽的點子\N{\fn微軟雅黑\fs14}Well, you know me, Linda, I mean, I'm all for bold ideas.
+Dialogue: 0,0:17:04.20,0:17:06.97,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}道·斯坦普  飛機是我們那位中國朋友的公司的
+Dialogue: 0,0:17:05.40,0:17:09.23,Default,,0000,0000,0000,,但博奇和烏麥克  他們太守舊了\N{\fn微軟雅黑\fs14}But Birch and Womack, why, they're... set in their ways.
+Dialogue: 0,0:17:06.97,0:17:10.09,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}弗·安德伍德  來過多少次
+Dialogue: 0,0:17:09.23,0:17:11.07,Default,,0000,0000,0000,,我覺得他們不太可能...\N{\fn微軟雅黑\fs14}I doubt very seriously that...
+Dialogue: 0,0:17:10.09,0:17:13.14,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}道·斯坦普  2005年起來堪薩斯城38次
+Dialogue: 0,0:17:14.51,0:17:16.69,Default,,0000,0000,0000,,聽著  弗蘭克  我只想要你\N{\fn微軟雅黑\fs14}Listen, Frank, all I'm asking is that
+Dialogue: 0,0:17:16.69,0:17:17.46,Default,,0000,0000,0000,,跟他們唱反調\N{\fn微軟雅黑\fs14}you play devil's advocate with them.
+Dialogue: 0,0:17:17.46,0:17:19.84,Default,,0000,0000,0000,,對不起  給我點時間  我有點要緊事\N{\fn微軟雅黑\fs14}Sorry, excuse me for a moment. This is important.
+Dialogue: 0,0:17:19.84,0:17:20.97,Default,,0000,0000,0000,,這事我很在乎的  弗蘭克\N{\fn微軟雅黑\fs14}I don't want to short-shrift this, Frank.
+Dialogue: 0,0:17:20.97,0:17:26.20,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}弗·安德伍德  我要你去問他本人
+Dialogue: 0,0:17:20.97,0:17:21.98,Default,,0000,0000,0000,,我知道  先讓我發完這條簡訊\N{\fn微軟雅黑\fs14}No, I know, but I just have to send this text.
+Dialogue: 0,0:17:21.98,0:17:23.60,Default,,0000,0000,0000,,我也不是閒人\N{\fn微軟雅黑\fs14}I am busy too.
+Dialogue: 0,0:17:26.20,0:17:29.21,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}弗·安德伍德  當著面他不好撒謊
+Dialogue: 0,0:17:29.21,0:17:33.99,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}道·斯坦普  已經買票了
+Dialogue: 0,0:17:34.47,0:17:36.61,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}美國航空
+Dialogue: 0,0:17:37.34,0:17:39.05,Default,,0000,0000,0000,,-請給我訂靠過道的座位    -好的\N{\fn微軟雅黑\fs14}- Make sure that's an aisle seat.   - Of course.
+Dialogue: 0,0:17:39.05,0:17:41.70,Default,,0000,0000,0000,,我覺著你根本不重視這事\N{\fn微軟雅黑\fs14}I don't feel as if you're taking this very seriously.
+Dialogue: 0,0:17:41.70,0:17:43.78,Default,,0000,0000,0000,,琳達  我向你道歉  對不起\N{\fn微軟雅黑\fs14}Linda, I apologize. I am sorry.
+Dialogue: 0,0:17:43.78,0:17:47.01,Default,,0000,0000,0000,,你說得沒錯  我沒有敷衍你的意思\N{\fn微軟雅黑\fs14}You are absolutely right, I did not mean to sound curt.
+Dialogue: 0,0:17:47.01,0:17:49.63,Default,,0000,0000,0000,,你是對的  這是很重要\N{\fn微軟雅黑\fs14}And you are right, this is important.
+Dialogue: 0,0:17:49.63,0:17:51.42,Default,,0000,0000,0000,,咱倆這就好好談談你的提案\N{\fn微軟雅黑\fs14}You and I should go through your proposal
+Dialogue: 0,0:17:51.43,0:17:53.80,Default,,0000,0000,0000,,仔細推敲每一個細節\N{\fn微軟雅黑\fs14}and discuss it right down to the last detail.
+Dialogue: 0,0:17:53.80,0:17:56.44,Default,,0000,0000,0000,,我沒想讓你逐字逐句地看\N{\fn微軟雅黑\fs14}I am not asking you to go through it page by page,
+Dialogue: 0,0:17:56.44,0:17:58.99,Default,,0000,0000,0000,,只要幫忙讓他們願意認真考慮就行\N{\fn微軟雅黑\fs14}just to help me initiate some meaningful dialogue.
+Dialogue: 0,0:17:58.99,0:18:02.68,Default,,0000,0000,0000,,-我當然會幫你了  琳達    -多謝你\N{\fn微軟雅黑\fs14}- You can count on my help, Linda.   - Thank you.
+Dialogue: 0,0:18:02.68,0:18:06.45,Default,,0000,0000,0000,,-我會讓排程員聯繫你這邊    -好的  琳達\N{\fn微軟雅黑\fs14}- I will have my scheduler reach out to yours.   - Thank you, Linda.
+Dialogue: 0,0:18:07.26,0:18:09.22,Default,,0000,0000,0000,,請接內線\N{\fn微軟雅黑\fs14}Get me a secure line, please.
+Dialogue: 0,0:18:12.48,0:18:14.36,Default,,0000,0000,0000,,副總統來電\N{\fn微軟雅黑\fs14}The vice president is on the line.
+Dialogue: 0,0:18:18.03,0:18:19.66,Default,,0000,0000,0000,,副總統先生\N{\fn微軟雅黑\fs14}Mr. Vice President.
+Dialogue: 0,0:18:20.43,0:18:24.80,Default,,0000,0000,0000,,通常我會無視你的來電  但我今天心情不錯\N{\fn微軟雅黑\fs14}Normally, I would ignore your call, but I am in a good mood today.
+Dialogue: 0,0:18:24.80,0:18:25.93,Default,,0000,0000,0000,,你都沒法破壞\N{\fn微軟雅黑\fs14}Not even you could ruin it.
+Dialogue: 0,0:18:25.93,0:18:28.55,Default,,0000,0000,0000,,你是不是在向共和黨捐款\N{\fn微軟雅黑\fs14}Are you funneling money to the Republicans?
+Dialogue: 0,0:18:28.96,0:18:30.53,Default,,0000,0000,0000,,你到底在說什麼\N{\fn微軟雅黑\fs14}What on earth are you talking about?
+Dialogue: 0,0:18:30.53,0:18:32.93,Default,,0000,0000,0000,,給了共和黨超級政治行動委員會大概兩千萬\N{\fn微軟雅黑\fs14}About 20 million in GOP Super PACs.
+Dialogue: 0,0:18:32.93,0:18:35.70,Default,,0000,0000,0000,,你知道我從不給政黨捐款\N{\fn微軟雅黑\fs14}Now you know I never make political contributions.
+Dialogue: 0,0:18:35.70,0:18:37.83,Default,,0000,0000,0000,,很容易讓我的投資者不高興\N{\fn微軟雅黑\fs14}That's the fastest way to upset my investors.
+Dialogue: 0,0:18:37.83,0:18:40.24,Default,,0000,0000,0000,,我知道錢的來路 是密蘇里的一家賭場\N{\fn微軟雅黑\fs14}I know the money is coming from a casino in Missouri
+Dialogue: 0,0:18:40.24,0:18:41.44,Default,,0000,0000,0000,,我還知道是馮給的\N{\fn微軟雅黑\fs14}and I know it's from Feng.
+Dialogue: 0,0:18:41.44,0:18:44.45,Default,,0000,0000,0000,,馮先生和我只合作過一次\N{\fn微軟雅黑\fs14}Mr. Feng and I have one co-venture together,
+Dialogue: 0,0:18:44.45,0:18:45.86,Default,,0000,0000,0000,,而且和賭博毫無關係\N{\fn微軟雅黑\fs14}and it has nothing to do with gambling.
+Dialogue: 0,0:18:45.86,0:18:49.95,Default,,0000,0000,0000,,他的一架私人飛機定期飛往拉尼根的賭場\N{\fn微軟雅黑\fs14}A plane that he owns flies to Lanagin's casino on a regular basis.
+Dialogue: 0,0:18:49.95,0:18:52.58,Default,,0000,0000,0000,,他私人時間做什麼  與我無關\N{\fn微軟雅黑\fs14}What he does on his own time is no business of mine.
+Dialogue: 0,0:18:52.58,0:18:55.07,Default,,0000,0000,0000,,你是想給領導層添亂嗎\N{\fn微軟雅黑\fs14}Are you trying to create chaos in the ranks?
+Dialogue: 0,0:18:56.12,0:19:00.16,Default,,0000,0000,0000,,共和黨沒有我的幫助似乎也做到了\N{\fn微軟雅黑\fs14}The Republicans appear to be doing a fine job of that without my help.
+Dialogue: 0,0:19:00.16,0:19:01.35,Default,,0000,0000,0000,,你不會得逞的  雷蒙德\N{\fn微軟雅黑\fs14}Well, it's not gonna work, Raymond.
+Dialogue: 0,0:19:01.35,0:19:04.20,Default,,0000,0000,0000,,這只會讓民主黨更團結  而不是分裂\N{\fn微軟雅黑\fs14}It'll bind the democrats together, not pull us apart.
+Dialogue: 0,0:19:04.20,0:19:07.12,Default,,0000,0000,0000,,要我猜的話  過去十年裡讓民主黨團結的\N{\fn微軟雅黑\fs14}What has bound them together the past decade has been
+Dialogue: 0,0:19:07.12,0:19:10.93,Default,,0000,0000,0000,,是資助你們成為多數黨的捐助\N{\fn微軟雅黑\fs14}the means to achieve a majority, if I had to guess...
+Dialogue: 0,0:19:10.93,0:19:12.60,Default,,0000,0000,0000,,是他用錢鑄就了國會\N{\fn微軟雅黑\fs14}He stacked Congress.
+Dialogue: 0,0:19:12.71,0:19:14.83,Default,,0000,0000,0000,,鑄就了我任黨鞭的多數黨\N{\fn微軟雅黑\fs14}The majority I whipped.
+Dialogue: 0,0:19:18.22,0:19:20.52,Default,,0000,0000,0000,,原來一直是你在操縱  雷蒙德\N{\fn微軟雅黑\fs14}So it's been you, Raymond, all along,
+Dialogue: 0,0:19:20.52,0:19:23.00,Default,,0000,0000,0000,,拉尼根的錢流向我們的時候也是\N{\fn微軟雅黑\fs14}even when Lanagin's money was coming to us.
+Dialogue: 0,0:19:25.01,0:19:27.72,Default,,0000,0000,0000,,你總在做我已經否認的假設\N{\fn微軟雅黑\fs14}You keep making assumptions that I have denied.
+Dialogue: 0,0:19:27.72,0:19:29.08,Default,,0000,0000,0000,,等季度報告一出來\N{\fn微軟雅黑\fs14}Once the quarterly filings come out,
+Dialogue: 0,0:19:29.08,0:19:31.43,Default,,0000,0000,0000,,有電腦的人都會明白是怎麼回事\N{\fn微軟雅黑\fs14}anybody with a laptop is gonna see what's going on.
+Dialogue: 0,0:19:31.43,0:19:33.78,Default,,0000,0000,0000,,那是在九月底\N{\fn微軟雅黑\fs14}The end of September.
+Dialogue: 0,0:19:33.84,0:19:38.43,Default,,0000,0000,0000,,還早著呢  但我很期待看到那些報告\N{\fn微軟雅黑\fs14}That's a long way off. But I look forward to seeing the reports.
+Dialogue: 0,0:19:38.43,0:19:41.13,Default,,0000,0000,0000,,在中期選舉兩週前\N{\fn微軟雅黑\fs14}Should make for some very interesting reading
+Dialogue: 0,0:19:41.69,0:19:43.67,Default,,0000,0000,0000,,肯定是很有趣的讀物\N{\fn微軟雅黑\fs14}two weeks before the midterms.
+Dialogue: 0,0:19:43.67,0:19:46.56,Default,,0000,0000,0000,,你別想靠恐嚇回到決策桌上  雷蒙德\N{\fn微軟雅黑\fs14}You cannot bully your way back to the table, Raymond,
+Dialogue: 0,0:19:46.56,0:19:49.00,Default,,0000,0000,0000,,你也休想收買國會\N{\fn微軟雅黑\fs14}just as you cannot buy the keys to Congress.
+Dialogue: 0,0:19:49.01,0:19:52.38,Default,,0000,0000,0000,,祝你成功維持眾議院多數席位\N{\fn微軟雅黑\fs14}Best of luck keeping your majority in the House.
+Dialogue: 0,0:19:53.01,0:19:55.28,Default,,0000,0000,0000,,我知道那對你來說意義重大\N{\fn微軟雅黑\fs14}I know how much it means to you.
+Dialogue: 0,0:19:57.74,0:20:00.98,Default,,0000,0000,0000,,有錢給你用的時候  大家都不會多想\N{\fn微軟雅黑\fs14}When the money's coming your way, you don't ask any questions.
+Dialogue: 0,0:20:01.71,0:20:05.39,Default,,0000,0000,0000,,但這下清楚了  拉尼根不過是個幌子\N{\fn微軟雅黑\fs14}But now it's clear. Lanagin's never been anything but a front.
+Dialogue: 0,0:20:05.74,0:20:09.15,Default,,0000,0000,0000,,我要告訴總統嗎  不\N{\fn微軟雅黑\fs14}Do I tell the president? No.
+Dialogue: 0,0:20:09.32,0:20:10.62,Default,,0000,0000,0000,,他會想我之前怎麼不知道\N{\fn微軟雅黑\fs14}He'll wonder why I didn't know,
+Dialogue: 0,0:20:10.62,0:20:11.82,Default,,0000,0000,0000,,那我就顯得訊息不靈了\N{\fn微軟雅黑\fs14}which makes me look uninformed,
+Dialogue: 0,0:20:11.83,0:20:14.01,Default,,0000,0000,0000,,或者他會責備傳話的人  把他也捲進去\N{\fn微軟雅黑\fs14}or he'll blame the messenger for involving him,
+Dialogue: 0,0:20:14.01,0:20:15.72,Default,,0000,0000,0000,,那就顯得我太大意了\N{\fn微軟雅黑\fs14}which makes me look careless.
+Dialogue: 0,0:20:16.31,0:20:19.88,Default,,0000,0000,0000,,我知道這是個陷阱  我得守住這個祕密\N{\fn微軟雅黑\fs14}I know it's a trap. I must keep this to myself.
+Dialogue: 0,0:20:21.03,0:20:22.98,Default,,0000,0000,0000,,他問你代表誰進行購買\N{\fn微軟雅黑\fs14}He wants to know who you are buying on behalf of.
+Dialogue: 0,0:20:22.98,0:20:25.87,Default,,0000,0000,0000,,一家名叫水星資本的對沖基金  還沒上市\N{\fn微軟雅黑\fs14}It's a hedge fund named Mercury Capital. It's unlisted.
+Dialogue: 0,0:20:33.66,0:20:36.27,Default,,0000,0000,0000,,他們需要主要投資者的名字\N{\fn微軟雅黑\fs14}They need the names of the principal investors.
+Dialogue: 0,0:20:36.27,0:20:38.12,Default,,0000,0000,0000,,告訴他們我得保護他們的身份\N{\fn微軟雅黑\fs14}Tell him I have to protect identities.
+Dialogue: 0,0:20:42.23,0:20:45.21,Default,,0000,0000,0000,,代理人需要更多資訊  他要完整的投資人名單\N{\fn微軟雅黑\fs14}The broker needs more. He wants a full investor list.
+Dialogue: 0,0:20:45.25,0:20:46.65,Default,,0000,0000,0000,,跟他說\N{\fn微軟雅黑\fs14}Say, um...
+Dialogue: 0,0:20:47.77,0:20:50.71,Default,,0000,0000,0000,,就說主要投資者和白宮聯繫密切\N{\fn微軟雅黑\fs14}Say that the principal investor has strong ties to the White House.
+Dialogue: 0,0:20:56.51,0:20:59.54,Default,,0000,0000,0000,,他們問你是不是代表克雷頓-維斯特\N{\fn微軟雅黑\fs14}And they want to know if you represent Clayton West.
+Dialogue: 0,0:20:59.54,0:21:00.79,Default,,0000,0000,0000,,克雷頓-維斯特嗎\N{\fn微軟雅黑\fs14}Clayton West?
+Dialogue: 0,0:21:03.90,0:21:05.27,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}搜索  克雷頓-維斯特
+Dialogue: 0,0:21:05.27,0:21:07.87,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}雷蒙德·斯塔克
+Dialogue: 0,0:21:08.18,0:21:09.55,Default,,0000,0000,0000,,-他還在等    -稍候\N{\fn微軟雅黑\fs14}- He's waiting.   - One second.
+Dialogue: 0,0:21:09.17,0:21:12.31,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}搜索  馮山德  雷蒙德·塔斯克
+Dialogue: 0,0:21:13.35,0:21:14.42,Default,,0000,0000,0000,,上面寫了些什麼\N{\fn微軟雅黑\fs14}What does it say?
+Dialogue: 0,0:21:14.52,0:21:21.91,Default,,0000,0000,0000,,是關於一家中國的稀土精煉廠\N{\fn微軟雅黑\fs14}It's about a refinery in China for rare earth elements.
+Dialogue: 0,0:21:22.62,0:21:26.82,Default,,0000,0000,0000,,跟他說是  告訴他主要投資者是雷蒙德·塔斯克\N{\fn微軟雅黑\fs14}Tell him yes. Tell him the principal investor is Raymond Tusk.
+Dialogue: 0,0:21:39.42,0:21:40.76,Default,,0000,0000,0000,,我是道格·斯坦普\N{\fn微軟雅黑\fs14}This is Doug Stamper...
+Dialogue: 0,0:21:43.56,0:21:46.86,Default,,0000,0000,0000,,-我們該用什麼招待沃剋夫婦    -氰化物\N{\fn微軟雅黑\fs14}- What should we serve the Walkers?   - Cyanide.
+Dialogue: 0,0:21:48.15,0:21:50.98,Default,,0000,0000,0000,,用來做甜點好了  主餐呢\N{\fn微軟雅黑\fs14}Saving that for dessert. What about a main course?
+Dialogue: 0,0:21:50.98,0:21:55.11,Default,,0000,0000,0000,,哪種肉  或是蔬菜\N{\fn微軟雅黑\fs14}Meat of some sort? Vegetables?
+Dialogue: 0,0:21:55.11,0:21:57.66,Default,,0000,0000,0000,,我實在不太擅長這方面\N{\fn微軟雅黑\fs14}I mean, this isn't really my area of expertise.
+Dialogue: 0,0:21:59.11,0:22:01.04,Default,,0000,0000,0000,,我在想  不如找弗萊迪來\N{\fn微軟雅黑\fs14}I was thinking, what about Freddy?
+Dialogue: 0,0:22:03.01,0:22:05.77,Default,,0000,0000,0000,,-吃肋排嗎    -這樣會不會太唐突\N{\fn微軟雅黑\fs14}- Ribs?   - Or is that gauche?
+Dialogue: 0,0:22:06.96,0:22:11.08,Default,,0000,0000,0000,,不會  我喜歡這主意\N{\fn微軟雅黑\fs14}No. I like the idea.
+Dialogue: 0,0:22:13.28,0:22:16.66,Default,,0000,0000,0000,,我們可以用高檔瓷器  精緻配菜\N{\fn微軟雅黑\fs14}Well, we can do the nice china, gourmet sides,
+Dialogue: 0,0:22:16.66,0:22:19.16,Default,,0000,0000,0000,,但我覺得肋排更有人情味\N{\fn微軟雅黑\fs14}but I think the ribs make it more personal.
+Dialogue: 0,0:22:19.85,0:22:21.14,Default,,0000,0000,0000,,我去打電話\N{\fn微軟雅黑\fs14}I'll make the call.
+Dialogue: 0,0:22:22.55,0:22:25.90,Default,,0000,0000,0000,,-你正在等的這通電話有訊息嗎    -還沒有\N{\fn微軟雅黑\fs14}- Any word on the call you're expecting?   - Not yet.
+Dialogue: 0,0:22:26.19,0:22:27.90,Default,,0000,0000,0000,,我想他的航班應該還沒到\N{\fn微軟雅黑\fs14}I don't think he's landed.
+Dialogue: 0,0:22:29.38,0:22:31.76,Default,,0000,0000,0000,,你還真搭起來了啊\N{\fn微軟雅黑\fs14}This is really coming along, isn't it?
+Dialogue: 0,0:22:32.57,0:22:34.39,Default,,0000,0000,0000,,你覺得小孩子氣\N{\fn微軟雅黑\fs14}You think it's childish.
+Dialogue: 0,0:22:35.04,0:22:37.16,Default,,0000,0000,0000,,總比打遊戲好\N{\fn微軟雅黑\fs14}I think it's better than video games.
+Dialogue: 0,0:22:53.99,0:22:56.08,Default,,0000,0000,0000,,把我的五千美金支票帶來了嗎\N{\fn微軟雅黑\fs14}Do you have my check for $5,000?
+Dialogue: 0,0:22:56.75,0:22:58.39,Default,,0000,0000,0000,,等我漲工資了再說吧\N{\fn微軟雅黑\fs14}Next time when I get a raise.
+Dialogue: 0,0:22:59.78,0:23:01.26,Default,,0000,0000,0000,,在賭場運氣不好嗎\N{\fn微軟雅黑\fs14}Bad luck at the casino?
+Dialogue: 0,0:23:02.56,0:23:04.03,Default,,0000,0000,0000,,塔斯克知道我在這兒\N{\fn微軟雅黑\fs14}So Tusk knows I'm here.
+Dialogue: 0,0:23:04.09,0:23:07.53,Default,,0000,0000,0000,,-丹尼爾·拉尼根知道    -塔斯克跟這事有關嗎\N{\fn微軟雅黑\fs14}- Daniel Lanagin knows you're here.   - Is Tusk involved?
+Dialogue: 0,0:23:08.00,0:23:09.22,Default,,0000,0000,0000,,我為什麼要承認\N{\fn微軟雅黑\fs14}Why would I admit that?
+Dialogue: 0,0:23:09.66,0:23:11.19,Default,,0000,0000,0000,,塔斯克和你有生意來往\N{\fn微軟雅黑\fs14}Tusk is in business with you.
+Dialogue: 0,0:23:11.44,0:23:12.57,Default,,0000,0000,0000,,你在給拉尼根匯錢\N{\fn微軟雅黑\fs14}You're sending money to Lanagin.
+Dialogue: 0,0:23:12.57,0:23:15.14,Default,,0000,0000,0000,,拉尼根的賭場又歸塔斯克管\N{\fn微軟雅黑\fs14}Lanagin's casino is in Tusk's backyard.
+Dialogue: 0,0:23:15.14,0:23:16.23,Default,,0000,0000,0000,,你大老遠飛來\N{\fn微軟雅黑\fs14}You didn't fly halfway around the
+Dialogue: 0,0:23:16.23,0:23:18.31,Default,,0000,0000,0000,,不會就是為了證實猜測吧\N{\fn微軟雅黑\fs14}world just to confirm suspicions.
+Dialogue: 0,0:23:19.08,0:23:20.38,Default,,0000,0000,0000,,告訴我你想要什麼\N{\fn微軟雅黑\fs14}Tell me what you want.
+Dialogue: 0,0:23:20.38,0:23:22.64,Default,,0000,0000,0000,,我們想中止資金繼續流向共和黨\N{\fn微軟雅黑\fs14}We want the money to stop flowing to the Republicans.
+Dialogue: 0,0:23:22.64,0:23:23.96,Default,,0000,0000,0000,,我有什麼好處\N{\fn微軟雅黑\fs14}And what do I receive?
+Dialogue: 0,0:23:23.97,0:23:26.49,Default,,0000,0000,0000,,我說了我們想要的  現在到你了\N{\fn微軟雅黑\fs14}I've told you what we want. Now it's your turn.
+Dialogue: 0,0:23:26.49,0:23:28.80,Default,,0000,0000,0000,,好讓你再次誤導我嗎\N{\fn微軟雅黑\fs14}Ah, so you can mislead me again.
+Dialogue: 0,0:23:29.45,0:23:33.49,Default,,0000,0000,0000,,形勢變了  誤導你對我們沒有好處\N{\fn微軟雅黑\fs14}Things have changed. We have nothing to gain by misleading you.
+Dialogue: 0,0:23:35.95,0:23:37.64,Default,,0000,0000,0000,,你覺得我的花園如何\N{\fn微軟雅黑\fs14}What do you think of my garden?
+Dialogue: 0,0:23:40.12,0:23:41.37,Default,,0000,0000,0000,,非常漂亮\N{\fn微軟雅黑\fs14}It's very beautiful.
+Dialogue: 0,0:23:42.43,0:23:45.50,Default,,0000,0000,0000,,只知道談生意  就會忘記欣賞美景\N{\fn微軟雅黑\fs14}When you only talk business, you stop appreciating beauty.
+Dialogue: 0,0:23:46.06,0:23:47.81,Default,,0000,0000,0000,,我沒什麼時間賞景\N{\fn微軟雅黑\fs14}I don't have much time for beauty.
+Dialogue: 0,0:23:48.86,0:23:49.77,Default,,0000,0000,0000,,真可惜\N{\fn微軟雅黑\fs14}That's a shame.
+Dialogue: 0,0:23:50.22,0:23:52.05,Default,,0000,0000,0000,,為了讓你們這些老闆有閒暇賞景\N{\fn微軟雅黑\fs14}For people like you to smell the flowers,
+Dialogue: 0,0:23:52.05,0:23:53.70,Default,,0000,0000,0000,,我們這些手下得去除雜草\N{\fn微軟雅黑\fs14}some of us have to pull the weeds.
+Dialogue: 0,0:23:54.93,0:23:58.51,Default,,0000,0000,0000,,-打算什麼時候走    -還沒買回程票\N{\fn微軟雅黑\fs14}- When do you plan on leaving?   - I haven't bought my return ticket yet.
+Dialogue: 0,0:23:58.51,0:23:59.31,Default,,0000,0000,0000,,很好\N{\fn微軟雅黑\fs14}Good.
+Dialogue: 0,0:24:00.93,0:24:02.37,Default,,0000,0000,0000,,我需要考慮一晚\N{\fn微軟雅黑\fs14}I'd like to think on this for a night.
+Dialogue: 0,0:24:02.70,0:24:04.35,Default,,0000,0000,0000,,我想你一定累壞了\N{\fn微軟雅黑\fs14}And I'm sure you must be exhausted.
+Dialogue: 0,0:24:04.39,0:24:06.25,Default,,0000,0000,0000,,可否賞臉在這兒做客\N{\fn微軟雅黑\fs14}Would you do me the honor of being my guest?
+Dialogue: 0,0:24:06.50,0:24:10.75,Default,,0000,0000,0000,,-非常感謝    -很好  你能休息一下了\N{\fn微軟雅黑\fs14}- I'd be very grateful.   - Excellent. You can get some rest.
+Dialogue: 0,0:24:11.24,0:24:12.12,Default,,0000,0000,0000,,你要是喜歡\N{\fn微軟雅黑\fs14}And if you like,
+Dialogue: 0,0:24:12.80,0:24:15.09,Default,,0000,0000,0000,,這裡還有很多美的事物可以享受\N{\fn微軟雅黑\fs14}there are many beautiful things to enjoy here.
+Dialogue: 0,0:24:19.49,0:24:20.47,Default,,0000,0000,0000,,請\N{\fn微軟雅黑\fs14}Please.
+Dialogue: 0,0:24:23.50,0:24:27.62,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}道·斯坦普  見面了  馮山德在拖延
+Dialogue: 0,0:24:26.25,0:24:32.74,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}弗·安德伍德  沒得到答覆絕不離開
+Dialogue: 0,0:24:31.76,0:24:35.76,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}道·斯坦普  對了  我們聖路易斯和堪薩斯的朋友知道我在這兒
+Dialogue: 0,0:24:36.87,0:24:45.20,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}弗·安德伍德  帶那位印第安朋友來華盛頓  我要當面會會他
+Dialogue: 0,0:24:45.80,0:24:49.08,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}道·斯坦普  這就和堪薩斯聯繫
+Dialogue: 0,0:24:47.67,0:24:49.80,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}弗·安德伍德  越快越好
+Dialogue: 0,0:24:52.69,0:24:54.64,Default,,0000,0000,0000,,先生  格雷森先生到了\N{\fn微軟雅黑\fs14}Sir, Mr. Grayson is here.
+Dialogue: 0,0:24:55.10,0:24:56.08,Default,,0000,0000,0000,,賽斯\N{\fn微軟雅黑\fs14}Seth.
+Dialogue: 0,0:24:56.87,0:24:59.45,Default,,0000,0000,0000,,你上任以來我們還一直沒機會\N{\fn微軟雅黑\fs14}You and I haven't really properly had the chance to sit
+Dialogue: 0,0:24:59.45,0:25:01.61,Default,,0000,0000,0000,,好好坐下聊聊\N{\fn微軟雅黑\fs14}and have a chat since you came on board.
+Dialogue: 0,0:25:01.61,0:25:03.54,Default,,0000,0000,0000,,有什麼需要我改進的嗎  先生\N{\fn微軟雅黑\fs14}Is there anything I can be doing better, sir?
+Dialogue: 0,0:25:03.54,0:25:06.05,Default,,0000,0000,0000,,沒有  你很厲害\N{\fn微軟雅黑\fs14}No. No. I'm impressed.
+Dialogue: 0,0:25:06.08,0:25:08.59,Default,,0000,0000,0000,,你很聰明  也有很好的職業素養\N{\fn微軟雅黑\fs14}You're very smart. Excellent work ethic.
+Dialogue: 0,0:25:09.77,0:25:13.32,Default,,0000,0000,0000,,但更重要的是  你的洞察力很強\N{\fn微軟雅黑\fs14}But more importantly, you're very observant.
+Dialogue: 0,0:25:13.38,0:25:14.84,Default,,0000,0000,0000,,資訊就是力量\N{\fn微軟雅黑\fs14}Information is power.
+Dialogue: 0,0:25:15.68,0:25:20.36,Default,,0000,0000,0000,,就是在這間屋子裡  我妻子向世人\N{\fn微軟雅黑\fs14}It was right here in this room that my wife revealed a great deal
+Dialogue: 0,0:25:20.36,0:25:23.74,Default,,0000,0000,0000,,吐露了驚人的訊息  成千上萬的人\N{\fn微軟雅黑\fs14}of information to a great number of people. Millions of them.
+Dialogue: 0,0:25:23.74,0:25:26.45,Default,,0000,0000,0000,,先生  如果你是擔心我所知道的事\N{\fn微軟雅黑\fs14}Sir, if your concern is my knowledge of any discrepancies,
+Dialogue: 0,0:25:26.45,0:25:27.20,Default,,0000,0000,0000,,我向你保證\N{\fn微軟雅黑\fs14}then let me assure you --
+Dialogue: 0,0:25:27.21,0:25:29.25,Default,,0000,0000,0000,,克萊爾和我都很注重隱私\N{\fn微軟雅黑\fs14}Claire and I are very private people.
+Dialogue: 0,0:25:30.04,0:25:32.32,Default,,0000,0000,0000,,我明白你為何會不信任我\N{\fn微軟雅黑\fs14}I can understand why you might mistrust me.
+Dialogue: 0,0:25:32.51,0:25:35.46,Default,,0000,0000,0000,,我也有敏銳的洞察力  就像你  賽斯\N{\fn微軟雅黑\fs14}I'm also observant, like you, Seth.
+Dialogue: 0,0:25:36.52,0:25:38.69,Default,,0000,0000,0000,,但我還是會有盲點\N{\fn微軟雅黑\fs14}But I still have my blind spots.
+Dialogue: 0,0:25:39.69,0:25:43.44,Default,,0000,0000,0000,,我絕不會想到去找馬博利太太\N{\fn微軟雅黑\fs14}It would have never occurred to me to reach out to Mrs. Marbury.
+Dialogue: 0,0:25:44.92,0:25:48.55,Default,,0000,0000,0000,,她丈夫去世了  也沒留記錄\N{\fn微軟雅黑\fs14}Her husband was dead. He kept no records.
+Dialogue: 0,0:25:49.66,0:25:53.61,Default,,0000,0000,0000,,但你還是找到了  白紙黑字\N{\fn微軟雅黑\fs14}And yet there it was, in black and white.
+Dialogue: 0,0:25:55.54,0:25:57.66,Default,,0000,0000,0000,,我很感謝你把它交給我們\N{\fn微軟雅黑\fs14}I respect the fact that you brought it to us.
+Dialogue: 0,0:25:57.66,0:26:00.45,Default,,0000,0000,0000,,這也是我們為什麼會錄用你\N{\fn微軟雅黑\fs14}That's what got you in the door.
+Dialogue: 0,0:26:01.79,0:26:04.92,Default,,0000,0000,0000,,但想要留下  這還不夠\N{\fn微軟雅黑\fs14}But if you want to stay, I need more.
+Dialogue: 0,0:26:10.62,0:26:12.61,Default,,0000,0000,0000,,你到底是什麼居心\N{\fn微軟雅黑\fs14}What exactly are you up to?
+Dialogue: 0,0:26:14.84,0:26:16.57,Default,,0000,0000,0000,,我受僱於雷米·丹頓\N{\fn微軟雅黑\fs14}I was hired by Remy Danton.
+Dialogue: 0,0:26:17.55,0:26:19.48,Default,,0000,0000,0000,,他要我來找你們的把柄\N{\fn微軟雅黑\fs14}He wants anything damaging that I can find.
+Dialogue: 0,0:26:22.48,0:26:24.55,Default,,0000,0000,0000,,-他有日記的備份嗎    -沒有\N{\fn微軟雅黑\fs14}- Does he have a copy of the journal?   - No copies.
+Dialogue: 0,0:26:24.55,0:26:26.09,Default,,0000,0000,0000,,我把原件交給了安德伍德夫人\N{\fn微軟雅黑\fs14}I gave the original to Mrs. Underwood,
+Dialogue: 0,0:26:26.10,0:26:28.29,Default,,0000,0000,0000,,我告訴他  她的話屬實\N{\fn微軟雅黑\fs14}and I told him that her story checks out.
+Dialogue: 0,0:26:28.49,0:26:31.03,Default,,0000,0000,0000,,-你還給了他什麼    -我手上沒別的了\N{\fn微軟雅黑\fs14}- Did you give him anything else?   - I don't have anything else.
+Dialogue: 0,0:26:31.03,0:26:32.44,Default,,0000,0000,0000,,就算有我也不會給他\N{\fn微軟雅黑\fs14}I wouldn't give it to him if I did.
+Dialogue: 0,0:26:32.45,0:26:34.42,Default,,0000,0000,0000,,為什麼你現在才說\N{\fn微軟雅黑\fs14}Why am I only hearing about this now?
+Dialogue: 0,0:26:34.48,0:26:36.38,Default,,0000,0000,0000,,你是美利堅合眾國的副總統\N{\fn微軟雅黑\fs14}Well, you're the vice president of the United States.
+Dialogue: 0,0:26:36.38,0:26:38.45,Default,,0000,0000,0000,,雷米在為雷蒙德·塔斯克賣命\N{\fn微軟雅黑\fs14}Remy works for Raymond Tusk.
+Dialogue: 0,0:26:38.45,0:26:41.01,Default,,0000,0000,0000,,我夾在了兩位極有權勢的人之間\N{\fn微軟雅黑\fs14}That puts me between two extremely powerful people.
+Dialogue: 0,0:26:41.56,0:26:42.69,Default,,0000,0000,0000,,得小心為好\N{\fn微軟雅黑\fs14}I had to be careful.
+Dialogue: 0,0:26:42.79,0:26:45.99,Default,,0000,0000,0000,,雷米肯定答應給你一大筆錢吧\N{\fn微軟雅黑\fs14}I'm sure that Remy's offering you a great deal of money.
+Dialogue: 0,0:26:46.06,0:26:47.41,Default,,0000,0000,0000,,但他只能給錢\N{\fn微軟雅黑\fs14}But that's all he offers.
+Dialogue: 0,0:26:47.85,0:26:51.08,Default,,0000,0000,0000,,我看到你在參議院推動福利改革法案時\N{\fn微軟雅黑\fs14}When I saw you push entitlement reform through the Senate,
+Dialogue: 0,0:26:51.47,0:26:54.65,Default,,0000,0000,0000,,立刻就明白了誰才是白宮最有權力的人\N{\fn微軟雅黑\fs14}it was clear to me where the real power in the White House is.
+Dialogue: 0,0:26:55.24,0:26:58.64,Default,,0000,0000,0000,,我想為你這樣的人效力  不是乘遊艇兜風\N{\fn微軟雅黑\fs14}I want to work for a man like you, not sail a yacht.
+Dialogue: 0,0:26:58.71,0:27:00.15,Default,,0000,0000,0000,,錢我不感興趣\N{\fn微軟雅黑\fs14}Money doesn't interest me.
+Dialogue: 0,0:27:04.97,0:27:06.85,Default,,0000,0000,0000,,你想讓我中止和雷米的接觸嗎\N{\fn微軟雅黑\fs14}Do you want me to cease contact with Remy?
+Dialogue: 0,0:27:07.34,0:27:12.25,Default,,0000,0000,0000,,不  我想讓你找到盲點\N{\fn微軟雅黑\fs14}No. I want you to find the blind spots.
+Dialogue: 0,0:27:15.57,0:27:16.99,Default,,0000,0000,0000,,-他有空嗎    -只有幾分鐘\N{\fn微軟雅黑\fs14}- Is he free?   - For a few minutes.
+Dialogue: 0,0:27:16.99,0:27:18.75,Default,,0000,0000,0000,,-謝謝    -墨西哥城\N{\fn微軟雅黑\fs14}- Thank you.   - Mexico City,
+Dialogue: 0,0:27:18.75,0:27:19.93,Default,,0000,0000,0000,,你會在那裡見到蘇託總統\N{\fn微軟雅黑\fs14}where you'll meet president Soto.
+Dialogue: 0,0:27:19.93,0:27:22.00,Default,,0000,0000,0000,,我們可以在飛機上練習西班牙語\N{\fn微軟雅黑\fs14}We can practice your Spanish on the plane.
+Dialogue: 0,0:27:25.07,0:27:28.09,Default,,0000,0000,0000,,-那是什麼    -弗蘭克送我的\N{\fn微軟雅黑\fs14}- What is that?   - Frank gave it to me.
+Dialogue: 0,0:27:28.94,0:27:30.43,Default,,0000,0000,0000,,-你有時間嗎    -有要緊事嗎\N{\fn微軟雅黑\fs14}- Do you have a minute?   - Yeah, is it important?
+Dialogue: 0,0:27:30.43,0:27:32.70,Default,,0000,0000,0000,,我要見...什麼時間\N{\fn微軟雅黑\fs14}I have a meeting with... When is it?
+Dialogue: 0,0:27:32.81,0:27:34.14,Default,,0000,0000,0000,,他已經在等了\N{\fn微軟雅黑\fs14}He's already in the waiting room.
+Dialogue: 0,0:27:34.14,0:27:35.48,Default,,0000,0000,0000,,紐約大主教\N{\fn微軟雅黑\fs14}The archbishop of New York.
+Dialogue: 0,0:27:35.48,0:27:38.27,Default,,0000,0000,0000,,我只想問今天晚餐要不要帶禮物\N{\fn微軟雅黑\fs14}I'm just wondering if we should bring a gift to dinner tonight.
+Dialogue: 0,0:27:38.28,0:27:40.74,Default,,0000,0000,0000,,反正是家常便飯  可以帶瓶酒\N{\fn微軟雅黑\fs14}Yeah, well, it's casual. Maybe a bottle of wine?
+Dialogue: 0,0:27:41.10,0:27:42.19,Default,,0000,0000,0000,,你和他們很熟\N{\fn微軟雅黑\fs14}You know them well.
+Dialogue: 0,0:27:42.19,0:27:43.91,Default,,0000,0000,0000,,知道他們喜歡什麼酒嗎\N{\fn微軟雅黑\fs14}Any idea what sort of wine they like?
+Dialogue: 0,0:27:43.91,0:27:44.75,Default,,0000,0000,0000,,也不算太熟\N{\fn微軟雅黑\fs14}Well, not extremely well,
+Dialogue: 0,0:27:44.75,0:27:46.43,Default,,0000,0000,0000,,不過我可以問問他們的手下\N{\fn微軟雅黑\fs14}but I'm friendly with their staff...
+Dialogue: 0,0:27:46.43,0:27:48.63,Default,,0000,0000,0000,,-我會去問明白的    -我可以打電話問問\N{\fn微軟雅黑\fs14}- I'll figure it out.   - I can make a call.
+Dialogue: 0,0:27:48.63,0:27:51.13,Default,,0000,0000,0000,,我在和我丈夫說話  不過謝謝你\N{\fn微軟雅黑\fs14}I'm having a conversation with my husband, but thank you.
+Dialogue: 0,0:27:51.13,0:27:54.01,Default,,0000,0000,0000,,-好的  對不起    -我在官邸等你\N{\fn微軟雅黑\fs14}- OK. I apologize.   - I'll see you at the residence.
+Dialogue: 0,0:27:54.01,0:27:55.16,Default,,0000,0000,0000,,七點半\N{\fn微軟雅黑\fs14}Seven-thirty.
+Dialogue: 0,0:28:36.34,0:28:37.64,Default,,0000,0000,0000,,不\N{\fn微軟雅黑\fs14}No.
+Dialogue: 0,0:28:37.64,0:28:38.99,Default,,0000,0000,0000,,現在不要\N{\fn微軟雅黑\fs14}Not now.
+Dialogue: 0,0:28:39.65,0:28:42.78,Default,,0000,0000,0000,,不  請離開\N{\fn微軟雅黑\fs14}No. Just... Please go.
+Dialogue: 0,0:28:46.70,0:28:48.97,Default,,0000,0000,0000,,請出去\N{\fn微軟雅黑\fs14}Get out. Please.
+Dialogue: 0,0:29:48.50,0:29:52.14,Default,,0000,0000,0000,,瑞秋  是我  我...\N{\fn微軟雅黑\fs14}Rachel, it's me. I, uh...
+Dialogue: 0,0:29:54.80,0:29:56.19,Default,,0000,0000,0000,,你應該接我的電話\N{\fn微軟雅黑\fs14}you should answer when I call.
+Dialogue: 0,0:29:56.34,0:29:57.86,Default,,0000,0000,0000,,我不喜歡留言\N{\fn微軟雅黑\fs14}I don't like leaving messages.
+Dialogue: 0,0:30:01.21,0:30:02.22,Default,,0000,0000,0000,,賽斯\N{\fn微軟雅黑\fs14}Seth?
+Dialogue: 0,0:30:02.31,0:30:04.24,Default,,0000,0000,0000,,艾拉  我只有15分鐘吃飯\N{\fn微軟雅黑\fs14}Ayla, I get 15 minutes to eat,
+Dialogue: 0,0:30:04.24,0:30:04.96,Default,,0000,0000,0000,,這還算不忙\N{\fn微軟雅黑\fs14}on a good day.
+Dialogue: 0,0:30:04.96,0:30:06.21,Default,,0000,0000,0000,,馮山德\N{\fn微軟雅黑\fs14}Xander Feng.
+Dialogue: 0,0:30:06.21,0:30:07.22,Default,,0000,0000,0000,,我沒聽過\N{\fn微軟雅黑\fs14}Means nothing to me.
+Dialogue: 0,0:30:07.22,0:30:09.16,Default,,0000,0000,0000,,康納跟我提過和中國的非正式溝通渠道\N{\fn微軟雅黑\fs14}Connor told me about a back channel with China.
+Dialogue: 0,0:30:09.16,0:30:11.36,Default,,0000,0000,0000,,有推測認為是一個叫馮山德的人\N{\fn微軟雅黑\fs14}There was speculation it was a guy named Xander Feng.
+Dialogue: 0,0:30:11.37,0:30:13.09,Default,,0000,0000,0000,,14分52秒\N{\fn微軟雅黑\fs14}14 minutes, 52 seconds.
+Dialogue: 0,0:30:13.09,0:30:14.45,Default,,0000,0000,0000,,他和雷蒙德·塔斯克有生意往來\N{\fn微軟雅黑\fs14}He's in business with Raymond Tusk.
+Dialogue: 0,0:30:14.45,0:30:16.14,Default,,0000,0000,0000,,他們在中國一起經營一家精煉廠\N{\fn微軟雅黑\fs14}They're working on a refinery in China.
+Dialogue: 0,0:30:16.14,0:30:17.83,Default,,0000,0000,0000,,塔斯克與白宮有關聯\N{\fn微軟雅黑\fs14}Tusk has ties to the White House.
+Dialogue: 0,0:30:17.86,0:30:18.75,Default,,0000,0000,0000,,14分37\N{\fn微軟雅黑\fs14}14 minutes, 37 --
+Dialogue: 0,0:30:18.75,0:30:20.00,Default,,0000,0000,0000,,美國最有錢的富翁之一\N{\fn微軟雅黑\fs14}One of the wealthiest men in America
+Dialogue: 0,0:30:20.01,0:30:22.39,Default,,0000,0000,0000,,和一個中國幕後外交官做生意\N{\fn微軟雅黑\fs14}in business with an off-the-books chinese diplomat?
+Dialogue: 0,0:30:22.45,0:30:24.47,Default,,0000,0000,0000,,而他對華盛頓的影響力從未見報\N{\fn微軟雅黑\fs14}Influence in Washington never been reported?
+Dialogue: 0,0:30:24.47,0:30:26.23,Default,,0000,0000,0000,,白宮在能源危機的緊要關頭\N{\fn微軟雅黑\fs14}The White House pushes rare earth subsidies
+Dialogue: 0,0:30:26.23,0:30:27.46,Default,,0000,0000,0000,,推動核能補貼\N{\fn微軟雅黑\fs14}when the energy crisis spiked?
+Dialogue: 0,0:30:27.46,0:30:29.67,Default,,0000,0000,0000,,你到底要問什麼\N{\fn微軟雅黑\fs14}Do you have a specific question for me?
+Dialogue: 0,0:30:29.91,0:30:31.50,Default,,0000,0000,0000,,我想請教副總統對此的看法\N{\fn微軟雅黑\fs14}I'd like to ask the vice president about this.
+Dialogue: 0,0:30:31.50,0:30:33.12,Default,,0000,0000,0000,,有什麼具體要問我的問題\N{\fn微軟雅黑\fs14}A specific question for me,
+Dialogue: 0,0:30:33.59,0:30:34.75,Default,,0000,0000,0000,,而不是要求安排採訪\N{\fn微軟雅黑\fs14}not an interview request.
+Dialogue: 0,0:30:34.75,0:30:37.49,Default,,0000,0000,0000,,副總統認識雷蒙德·塔斯克嗎\N{\fn微軟雅黑\fs14}Does the vice president know Raymond Tusk?
+Dialogue: 0,0:30:37.71,0:30:38.76,Default,,0000,0000,0000,,據我瞭解不認識\N{\fn微軟雅黑\fs14}Not to my knowledge.
+Dialogue: 0,0:30:39.30,0:30:40.71,Default,,0000,0000,0000,,你在隱瞞什麼  賽斯\N{\fn微軟雅黑\fs14}You're hiding something, Seth.
+Dialogue: 0,0:30:40.71,0:30:42.22,Default,,0000,0000,0000,,我沒有隱瞞任何事\N{\fn微軟雅黑\fs14}I'm not hiding anything.
+Dialogue: 0,0:30:42.41,0:30:44.10,Default,,0000,0000,0000,,只是餓得血糖有點低\N{\fn微軟雅黑\fs14}I'm just a guy with low blood sugar.
+Dialogue: 0,0:30:47.31,0:30:48.22,Default,,0000,0000,0000,,加勒特\N{\fn微軟雅黑\fs14}Garrett?
+Dialogue: 0,0:30:51.88,0:30:52.92,Default,,0000,0000,0000,,怎麼了\N{\fn微軟雅黑\fs14}What is it?
+Dialogue: 0,0:30:54.30,0:30:55.36,Default,,0000,0000,0000,,克里斯蒂娜\N{\fn微軟雅黑\fs14}Christina.
+Dialogue: 0,0:30:56.60,0:30:58.05,Default,,0000,0000,0000,,她總來煩我\N{\fn微軟雅黑\fs14}She won't leave me alone.
+Dialogue: 0,0:30:58.88,0:31:01.53,Default,,0000,0000,0000,,好像她過分地想要幫忙\N{\fn微軟雅黑\fs14}It's like she's trying too hard to be helpful.
+Dialogue: 0,0:31:01.53,0:31:03.03,Default,,0000,0000,0000,,我會讓琳達和她談談的\N{\fn微軟雅黑\fs14}I'll have Linda talk to her.
+Dialogue: 0,0:31:03.45,0:31:04.79,Default,,0000,0000,0000,,不止是這個\N{\fn微軟雅黑\fs14}It's not just that.
+Dialogue: 0,0:31:05.98,0:31:06.98,Default,,0000,0000,0000,,我覺得這只是表象\N{\fn微軟雅黑\fs14}I feel like it's a mask.
+Dialogue: 0,0:31:06.98,0:31:09.20,Default,,0000,0000,0000,,我覺得還有別的隱情\N{\fn微軟雅黑\fs14}I feel like there's something else going on there.
+Dialogue: 0,0:31:09.20,0:31:10.21,Default,,0000,0000,0000,,比如說什麼\N{\fn微軟雅黑\fs14}Like what?
+Dialogue: 0,0:31:11.40,0:31:13.20,Default,,0000,0000,0000,,有時我走進辦公室\N{\fn微軟雅黑\fs14}Sometimes, when I walk into your office
+Dialogue: 0,0:31:13.20,0:31:15.01,Default,,0000,0000,0000,,看見她在和你說話\N{\fn微軟雅黑\fs14}and see her talking to you...
+Dialogue: 0,0:31:16.64,0:31:18.79,Default,,0000,0000,0000,,你們倆總一起出差\N{\fn微軟雅黑\fs14}...and you've been traveling together so much.
+Dialogue: 0,0:31:19.56,0:31:20.79,Default,,0000,0000,0000,,天吶  特莉莎\N{\fn微軟雅黑\fs14}Jesus, Tricia.
+Dialogue: 0,0:31:20.79,0:31:23.52,Default,,0000,0000,0000,,不是說你  但她\N{\fn微軟雅黑\fs14}Oh, not you, her.
+Dialogue: 0,0:31:24.46,0:31:26.65,Default,,0000,0000,0000,,我認為她喜歡上你了\N{\fn微軟雅黑\fs14}I think she's attracted to you.
+Dialogue: 0,0:31:26.98,0:31:28.23,Default,,0000,0000,0000,,而且她以前也...\N{\fn微軟雅黑\fs14}And she does have a history--
+Dialogue: 0,0:31:28.23,0:31:30.86,Default,,0000,0000,0000,,真不敢相信我們居然在討論這個\N{\fn微軟雅黑\fs14}I can't even believe we're having this conversation.
+Dialogue: 0,0:31:32.16,0:31:33.41,Default,,0000,0000,0000,,我希望你把她調走\N{\fn微軟雅黑\fs14}I want you to relocate her.
+Dialogue: 0,0:31:33.41,0:31:34.52,Default,,0000,0000,0000,,讓她去別的職位\N{\fn微軟雅黑\fs14}Find her another position--
+Dialogue: 0,0:31:34.52,0:31:35.49,Default,,0000,0000,0000,,不行\N{\fn微軟雅黑\fs14}Absolutely not.
+Dialogue: 0,0:31:35.64,0:31:36.60,Default,,0000,0000,0000,,我知道這似乎有點反應過度\N{\fn微軟雅黑\fs14}I know it seems overboard--
+Dialogue: 0,0:31:36.60,0:31:37.71,Default,,0000,0000,0000,,她是個很好的助理\N{\fn微軟雅黑\fs14}She's a good aide.
+Dialogue: 0,0:31:38.12,0:31:39.11,Default,,0000,0000,0000,,對琳達很有幫助\N{\fn微軟雅黑\fs14}She's valuable to Linda,
+Dialogue: 0,0:31:39.11,0:31:40.68,Default,,0000,0000,0000,,所以她也是政府的人才\N{\fn微軟雅黑\fs14}which makes her valuable to the administration.
+Dialogue: 0,0:31:40.68,0:31:41.41,Default,,0000,0000,0000,,我是你妻子\N{\fn微軟雅黑\fs14}I'm your wife.
+Dialogue: 0,0:31:41.41,0:31:43.11,Default,,0000,0000,0000,,我應該比這些更重要\N{\fn微軟雅黑\fs14}I should be more valuable than either of them.
+Dialogue: 0,0:31:43.11,0:31:45.40,Default,,0000,0000,0000,,-特莉莎    -她明明讓我不舒服\N{\fn微軟雅黑\fs14}- Tricia.   - I don't understand why you're fighting me on this
+Dialogue: 0,0:31:45.40,0:31:48.48,Default,,0000,0000,0000,,-你怎麼還跟我爭    -我們馬上就到弗蘭克家了\N{\fn微軟雅黑\fs14}- when she bothers me   - we're pulling up to Frank's in two minutes.
+Dialogue: 0,0:31:57.19,0:31:59.40,Default,,0000,0000,0000,,真是太美味了  弗萊迪\N{\fn微軟雅黑\fs14}Really, superb, Freddy.
+Dialogue: 0,0:31:59.41,0:32:00.52,Default,,0000,0000,0000,,我可以說\N{\fn微軟雅黑\fs14}I can honestly say
+Dialogue: 0,0:32:00.52,0:32:02.76,Default,,0000,0000,0000,,我這輩子從沒吃過這麼好的肋排\N{\fn微軟雅黑\fs14}I have never had better ribs in my life.
+Dialogue: 0,0:32:02.76,0:32:04.27,Default,,0000,0000,0000,,很高興您喜歡\N{\fn微軟雅黑\fs14}Well, I'm glad you liked you them.
+Dialogue: 0,0:32:04.28,0:32:06.23,Default,,0000,0000,0000,,我在《太陽報》上看到報道\N{\fn微軟雅黑\fs14}You know, I read the article in the Sun
+Dialogue: 0,0:32:06.23,0:32:08.18,Default,,0000,0000,0000,,寫你去弗萊迪的餐館\N{\fn微軟雅黑\fs14}about how you go to Freddy's.
+Dialogue: 0,0:32:08.35,0:32:10.63,Default,,0000,0000,0000,,希望你不介意我接受採訪  弗蘭克\N{\fn微軟雅黑\fs14}I hope you don't mind me speaking to that reporter, Frank.
+Dialogue: 0,0:32:10.63,0:32:11.28,Default,,0000,0000,0000,,完全沒關係\N{\fn微軟雅黑\fs14}Not at all.
+Dialogue: 0,0:32:11.28,0:32:13.31,Default,,0000,0000,0000,,糟了  我忘了我不該這麼叫你\N{\fn微軟雅黑\fs14}Oh shit, I forgot I'm not supposed to call you that.
+Dialogue: 0,0:32:13.31,0:32:16.30,Default,,0000,0000,0000,,就算你想  我也不會讓你叫我"副總統"\N{\fn微軟雅黑\fs14}I wouldn't let you call me "Vice President" even if you tried.
+Dialogue: 0,0:32:16.30,0:32:17.36,Default,,0000,0000,0000,,而且我完全不介意\N{\fn微軟雅黑\fs14}And I didn't mind at all.
+Dialogue: 0,0:32:17.36,0:32:18.65,Default,,0000,0000,0000,,我覺得那篇報道非常好\N{\fn微軟雅黑\fs14}I thought the article was great.
+Dialogue: 0,0:32:18.65,0:32:21.04,Default,,0000,0000,0000,,報道出來以後生意一下興隆了不少\N{\fn微軟雅黑\fs14}Well, it's been a big bump in business since it came out.
+Dialogue: 0,0:32:21.04,0:32:23.00,Default,,0000,0000,0000,,街上排起大隊\N{\fn微軟雅黑\fs14}I'm talking lines around the block.
+Dialogue: 0,0:32:23.21,0:32:26.02,Default,,0000,0000,0000,,現在你不是唯一去那裡的白人了\N{\fn微軟雅黑\fs14}You're not the only white person to show up there now.
+Dialogue: 0,0:32:26.74,0:32:30.47,Default,,0000,0000,0000,,我先走了  明天還要早起呢\N{\fn微軟雅黑\fs14}Well, I'm gonna call it a night. I got a early start in the morning.
+Dialogue: 0,0:32:30.63,0:32:34.95,Default,,0000,0000,0000,,很高興見到你們  總統先生  沃剋夫人\N{\fn微軟雅黑\fs14}It was a pleasure meeting you, Mr. President. Mrs. Walker.
+Dialogue: 0,0:32:34.95,0:32:36.22,Default,,0000,0000,0000,,我們也很高興\N{\fn微軟雅黑\fs14}A pleasure. Truly.
+Dialogue: 0,0:32:36.22,0:32:37.01,Default,,0000,0000,0000,,謝謝  弗萊迪\N{\fn微軟雅黑\fs14}Thanks, Freddy.
+Dialogue: 0,0:32:37.01,0:32:38.12,Default,,0000,0000,0000,,隨時為你效勞\N{\fn微軟雅黑\fs14}Always.
+Dialogue: 0,0:32:40.16,0:32:41.64,Default,,0000,0000,0000,,不  我不用了  謝謝\N{\fn微軟雅黑\fs14}No. None -- none for me, thanks.
+Dialogue: 0,0:32:41.64,0:32:44.64,Default,,0000,0000,0000,,總統先生  一塊派有益心靈\N{\fn微軟雅黑\fs14}Mr. President, a slice of pie is good for the soul.
+Dialogue: 0,0:32:44.76,0:32:47.19,Default,,0000,0000,0000,,-我吃飽了    -吃一塊派沒關係的\N{\fn微軟雅黑\fs14}- I'm stuffed.   - You can have a slice of pie.
+Dialogue: 0,0:32:47.85,0:32:50.08,Default,,0000,0000,0000,,真的不用了  謝謝你  弗蘭克\N{\fn微軟雅黑\fs14}I'm fine, really, but thank you, Frank.
+Dialogue: 0,0:32:50.23,0:32:51.53,Default,,0000,0000,0000,,我要一塊\N{\fn微軟雅黑\fs14}I'll have some.
+Dialogue: 0,0:32:52.74,0:32:54.35,Default,,0000,0000,0000,,我們倆也要\N{\fn微軟雅黑\fs14}For the two of us, as well.
+Dialogue: 0,0:32:55.69,0:32:59.71,Default,,0000,0000,0000,,她又要逼我多跑五英里把它消化掉了\N{\fn微軟雅黑\fs14}Now she is gonna make me run another five miles to work off this puppy.
+Dialogue: 0,0:32:59.71,0:33:02.20,Default,,0000,0000,0000,,你瘋了嗎  我幾乎跟不上你\N{\fn微軟雅黑\fs14}Are you crazy? I can barely keep up with you.
+Dialogue: 0,0:33:02.20,0:33:05.08,Default,,0000,0000,0000,,-你比我快多了    -你們一起跑步嗎\N{\fn微軟雅黑\fs14}- You're so much faster than me.   - You two run together?
+Dialogue: 0,0:33:05.08,0:33:07.73,Default,,0000,0000,0000,,是的  時間很難找  但我們還是擠出時間了\N{\fn微軟雅黑\fs14}Yes. It's hard to find the time, but somehow we find it.
+Dialogue: 0,0:33:07.73,0:33:10.34,Default,,0000,0000,0000,,沒錯  而且只有我和他在一起\N{\fn微軟雅黑\fs14}We do. And it's something that's just ours, you know?
+Dialogue: 0,0:33:10.34,0:33:14.13,Default,,0000,0000,0000,,是啊  只有咱倆  再加八個特情局特工\N{\fn微軟雅黑\fs14}Yes. Just ours. And about eight Secret Service agents.
+Dialogue: 0,0:33:15.33,0:33:17.44,Default,,0000,0000,0000,,你們倆能一起跑步真是太好了\N{\fn微軟雅黑\fs14}That's so nice that you have that together.
+Dialogue: 0,0:33:17.85,0:33:20.18,Default,,0000,0000,0000,,真希望加勒特和我能有更多時間做那樣的事\N{\fn微軟雅黑\fs14}I wish Garrett and I had more time for things like that.
+Dialogue: 0,0:33:20.95,0:33:22.93,Default,,0000,0000,0000,,我們曾一起去上過動感單車課\N{\fn微軟雅黑\fs14}We did take a spinning class together once.
+Dialogue: 0,0:33:22.93,0:33:24.63,Default,,0000,0000,0000,,你們真該看看加勒特在手把上彎著腰的樣子\N{\fn微軟雅黑\fs14}You should have seen Garrett hunched over the handlebar --
+Dialogue: 0,0:33:24.63,0:33:25.30,Default,,0000,0000,0000,,行了\N{\fn微軟雅黑\fs14}Please.
+Dialogue: 0,0:33:28.63,0:33:30.08,Default,,0000,0000,0000,,再來點酒嗎\N{\fn微軟雅黑\fs14}Would you like some more wine?
+Dialogue: 0,0:33:30.08,0:33:32.95,Default,,0000,0000,0000,,好的  謝謝  我看到你送他的沙袋了\N{\fn微軟雅黑\fs14}I would, thank you. I saw the punching bag you gave him.
+Dialogue: 0,0:33:32.95,0:33:35.63,Default,,0000,0000,0000,,這樣吧  我來一塊派吧\N{\fn微軟雅黑\fs14}You know what? I will have a slice of pie.
+Dialogue: 0,0:33:35.68,0:33:37.42,Default,,0000,0000,0000,,請給總統上一塊派\N{\fn微軟雅黑\fs14}Pie, please. For the president.
+Dialogue: 0,0:33:40.48,0:33:41.34,Default,,0000,0000,0000,,謝謝\N{\fn微軟雅黑\fs14}Thank you.
+Dialogue: 0,0:33:44.34,0:33:46.46,Default,,0000,0000,0000,,我從頭到尾讀了一遍  我覺得很好\N{\fn微軟雅黑\fs14}I read it front to back. I think it's good.
+Dialogue: 0,0:33:44.46,0:33:48.41,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}2014軍隊反性侵法案
+Dialogue: 0,0:33:46.74,0:33:49.75,Default,,0000,0000,0000,,可能會掀翻天  但也許這正是我們需要的\N{\fn微軟雅黑\fs14}It'll cause a shit-storm, but maybe that's what we need.
+Dialogue: 0,0:33:49.78,0:33:51.36,Default,,0000,0000,0000,,不能在中期選舉間\N{\fn微軟雅黑\fs14}Not during the midterms.
+Dialogue: 0,0:33:51.49,0:33:52.98,Default,,0000,0000,0000,,我看不出有招致批評的風險\N{\fn微軟雅黑\fs14}I don't see how we take flack.
+Dialogue: 0,0:33:52.98,0:33:55.36,Default,,0000,0000,0000,,我們可是想減少強姦啊\N{\fn微軟雅黑\fs14}We're trying to curtail rape, for godsakes.
+Dialogue: 0,0:33:55.36,0:33:58.05,Default,,0000,0000,0000,,當然  一些右翼人士會老調重彈\N{\fn微軟雅黑\fs14}Sure, some right-wingers will do their usual song and dance--
+Dialogue: 0,0:33:58.05,0:33:59.93,Default,,0000,0000,0000,,先別急  我想自己看過再說\N{\fn微軟雅黑\fs14}Hold off. I want to read it myself first.
+Dialogue: 0,0:33:59.93,0:34:02.28,Default,,0000,0000,0000,,我們向副總統承諾我們會找聯署人...\N{\fn微軟雅黑\fs14}We promised the Vice President we'd have cosponsors...
+Dialogue: 0,0:34:02.28,0:34:04.48,Default,,0000,0000,0000,,我知道我們承諾了什麼  我們要拖延\N{\fn微軟雅黑\fs14}I know what we promised, and we're gonna stall.
+Dialogue: 0,0:34:04.48,0:34:06.81,Default,,0000,0000,0000,,-不要把草案洩露出去    -但你知道法案的要點\N{\fn微軟雅黑\fs14}- Don't disseminate the draft.   - But you know the gist of the bill.
+Dialogue: 0,0:34:06.81,0:34:08.18,Default,,0000,0000,0000,,-我不明白為什麼不能    -洛莉\N{\fn微軟雅黑\fs14}- I don't see why we can't--   - Lorrie.
+Dialogue: 0,0:34:09.38,0:34:12.07,Default,,0000,0000,0000,,好吧  那你先看著\N{\fn微軟雅黑\fs14}All right, I'll leave it with you.
+Dialogue: 0,0:34:13.14,0:34:15.29,Default,,0000,0000,0000,,-還有別的事嗎    -不  沒事了\N{\fn微軟雅黑\fs14}- Anything else?   - No. I think we're good.
+Dialogue: 0,0:34:15.89,0:34:17.27,Default,,0000,0000,0000,,好吧  那我走了\N{\fn微軟雅黑\fs14}All right. Then I'm off.
+Dialogue: 0,0:34:18.31,0:34:21.30,Default,,0000,0000,0000,,跟老公的約會之夜  還不如殺了我\N{\fn微軟雅黑\fs14}Date night with the husband. Slit my wrists, please.
+Dialogue: 0,0:34:23.89,0:34:25.51,Default,,0000,0000,0000,,差不多了就回家  好嗎\N{\fn微軟雅黑\fs14}Go home at some point, OK?
+Dialogue: 0,0:34:25.77,0:34:27.80,Default,,0000,0000,0000,,國會大廈明天早上還會在這裡\N{\fn微軟雅黑\fs14}The Capitol will still be here in the morning.
+Dialogue: 0,0:34:59.22,0:35:05.43,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}雷米·丹頓
+Dialogue: 0,0:35:18.34,0:35:20.34,Default,,0000,0000,0000,,這可真棒\N{\fn微軟雅黑\fs14}This is really something.
+Dialogue: 0,0:35:21.58,0:35:23.17,Default,,0000,0000,0000,,還沒完工呢\N{\fn微軟雅黑\fs14}Ways to go yet.
+Dialogue: 0,0:35:24.13,0:35:26.65,Default,,0000,0000,0000,,誰贏了這場戰役  北方還是南方\N{\fn微軟雅黑\fs14}Now, who won this battle? The North or the South?
+Dialogue: 0,0:35:26.65,0:35:30.46,Default,,0000,0000,0000,,雙方都傷亡慘重  沒有明顯的贏家\N{\fn微軟雅黑\fs14}Massive casualties on both sides. No clear winner.
+Dialogue: 0,0:35:30.93,0:35:32.50,Default,,0000,0000,0000,,你怎麼會有時間幹這個\N{\fn微軟雅黑\fs14}How do you find the time?
+Dialogue: 0,0:35:32.50,0:35:36.66,Default,,0000,0000,0000,,我零零散散擠出半小時  能讓我放鬆\N{\fn微軟雅黑\fs14}I carve out a half hour here and there. Helps me relax.
+Dialogue: 0,0:35:37.82,0:35:39.55,Default,,0000,0000,0000,,我都忘了什麼叫放鬆了\N{\fn微軟雅黑\fs14}I've forgotten the meaning of that word.
+Dialogue: 0,0:35:39.55,0:35:41.69,Default,,0000,0000,0000,,送你沙袋就是幹這個用的\N{\fn微軟雅黑\fs14}Well, that's what the punching bag is for.
+Dialogue: 0,0:35:42.12,0:35:43.33,Default,,0000,0000,0000,,說的沒錯\N{\fn微軟雅黑\fs14}It's very true.
+Dialogue: 0,0:35:47.05,0:35:50.23,Default,,0000,0000,0000,,一點就行  特莉莎和我過會兒該走了\N{\fn微軟雅黑\fs14}Just a little. Tricia and I should get going soon.
+Dialogue: 0,0:35:53.36,0:35:56.28,Default,,0000,0000,0000,,你這樣的話一個任期都挺不過去  總統先生\N{\fn微軟雅黑\fs14}You're never gonna make it through this first term, Mr. President.
+Dialogue: 0,0:35:56.28,0:35:56.99,Default,,0000,0000,0000,,此話怎講\N{\fn微軟雅黑\fs14}How do you mean?
+Dialogue: 0,0:35:56.99,0:35:59.99,Default,,0000,0000,0000,,這樣可不行  讓壓力漸漸累積\N{\fn微軟雅黑\fs14}Well, not like this. Letting the stress creep in.
+Dialogue: 0,0:35:59.99,0:36:02.60,Default,,0000,0000,0000,,你是要跑馬拉松  而不是衝刺\N{\fn微軟雅黑\fs14}You need to run the marathon, not the sprint.
+Dialogue: 0,0:36:03.39,0:36:06.07,Default,,0000,0000,0000,,你應該學會享受忙裡偷閒\N{\fn微軟雅黑\fs14}You need to enjoy these little moments of escape.
+Dialogue: 0,0:36:08.55,0:36:10.07,Default,,0000,0000,0000,,多倒一點吧\N{\fn微軟雅黑\fs14}You can pour more than that.
+Dialogue: 0,0:36:11.80,0:36:12.92,Default,,0000,0000,0000,,謝謝\N{\fn微軟雅黑\fs14}Thank you.
+Dialogue: 0,0:36:17.48,0:36:21.00,Default,,0000,0000,0000,,-這是聯軍還是叛軍    -聯軍  先生\N{\fn微軟雅黑\fs14}- This Union or rebel?   - Union, sir.
+Dialogue: 0,0:36:21.00,0:36:24.79,Default,,0000,0000,0000,,別再叫"先生""總統先生"  叫名字吧\N{\fn微軟雅黑\fs14}Enough "Sirs" and "Mr. Presidents." Call me by my name.
+Dialogue: 0,0:36:25.56,0:36:27.48,Default,,0000,0000,0000,,我尊重你的職位  不能那麼做\N{\fn微軟雅黑\fs14}I respect the office too much for that.
+Dialogue: 0,0:36:27.48,0:36:29.05,Default,,0000,0000,0000,,私下裡沒關係\N{\fn微軟雅黑\fs14}When we're in private, it's OK.
+Dialogue: 0,0:36:29.05,0:36:31.14,Default,,0000,0000,0000,,今晚  我不必扮演總統的角色\N{\fn微軟雅黑\fs14}Tonight, I don't have to be president.
+Dialogue: 0,0:36:32.08,0:36:34.55,Default,,0000,0000,0000,,我不是有意要介入你們的私生活\N{\fn微軟雅黑\fs14}I don't mean to get involved in your personal life.
+Dialogue: 0,0:36:34.55,0:36:37.66,Default,,0000,0000,0000,,不  是我提起來的\N{\fn微軟雅黑\fs14}Oh, no. I brought it up.
+Dialogue: 0,0:36:39.16,0:36:41.37,Default,,0000,0000,0000,,你真是為了克里斯蒂娜嗎\N{\fn微軟雅黑\fs14}Is this really about Christina?
+Dialogue: 0,0:36:42.35,0:36:46.01,Default,,0000,0000,0000,,或者是別的什麼事的表徵\N{\fn微軟雅黑\fs14}Or maybe it's just a symptom of something else?
+Dialogue: 0,0:36:46.87,0:36:49.31,Default,,0000,0000,0000,,-比如呢    -我不知道\N{\fn微軟雅黑\fs14}- Like what?   - I don't know.
+Dialogue: 0,0:36:53.97,0:36:55.62,Default,,0000,0000,0000,,我幾乎見不到他\N{\fn微軟雅黑\fs14}I barely see him at all.
+Dialogue: 0,0:36:56.53,0:37:00.58,Default,,0000,0000,0000,,他現在很緊張  海外局勢\N{\fn微軟雅黑\fs14}He's so wound up in everything that's going on overseas,
+Dialogue: 0,0:37:00.58,0:37:03.47,Default,,0000,0000,0000,,中期選舉  經濟危機\N{\fn微軟雅黑\fs14}the elections, the economy.
+Dialogue: 0,0:37:03.99,0:37:06.13,Default,,0000,0000,0000,,他當州長的時候  也不容易\N{\fn微軟雅黑\fs14}When he was governor, it wasn't a cake walk,
+Dialogue: 0,0:37:06.13,0:37:08.23,Default,,0000,0000,0000,,但跟現在是不能比了\N{\fn微軟雅黑\fs14}but it was nothing like this.
+Dialogue: 0,0:37:10.24,0:37:12.44,Default,,0000,0000,0000,,你和弗蘭克是怎麼做到的\N{\fn微軟雅黑\fs14}How do you and Frank do it?
+Dialogue: 0,0:37:12.44,0:37:14.20,Default,,0000,0000,0000,,你們看起來那麼親密\N{\fn微軟雅黑\fs14}You both seem so close.
+Dialogue: 0,0:37:14.58,0:37:16.10,Default,,0000,0000,0000,,我們對彼此很坦誠\N{\fn微軟雅黑\fs14}We're honest with each other.
+Dialogue: 0,0:37:16.81,0:37:19.10,Default,,0000,0000,0000,,我們什麼都不會藏著掖著\N{\fn微軟雅黑\fs14}We don't sweep anything under the rug.
+Dialogue: 0,0:37:20.23,0:37:23.07,Default,,0000,0000,0000,,特莉莎  如果這事讓你很困擾  和他談談\N{\fn微軟雅黑\fs14}Tricia, if it's eating at you, make him talk about it.
+Dialogue: 0,0:37:24.81,0:37:29.14,Default,,0000,0000,0000,,白宮不過是一時的  婚姻是一輩子的\N{\fn微軟雅黑\fs14}The White House is finite. Your marriage is for life.
+Dialogue: 0,0:37:41.17,0:37:42.88,Default,,0000,0000,0000,,-早上好    -好\N{\fn微軟雅黑\fs14}- Good morning.   - Morning.
+Dialogue: 0,0:37:44.47,0:37:45.87,Default,,0000,0000,0000,,你不喜歡這道湯嗎\N{\fn微軟雅黑\fs14}You don't like your soup?
+Dialogue: 0,0:37:46.63,0:37:48.36,Default,,0000,0000,0000,,我用不好筷子\N{\fn微軟雅黑\fs14}I'm not good with chopsticks.
+Dialogue: 0,0:37:52.20,0:37:53.80,Default,,0000,0000,0000,,我覺得與昨晚的女伴相比\N{\fn微軟雅黑\fs14}I think you'll like this soup more than you liked the
+Dialogue: 0,0:37:53.80,0:37:56.03,Default,,0000,0000,0000,,這道湯會更合你口味\N{\fn微軟雅黑\fs14}two companions I sent you last night.
+Dialogue: 0,0:37:56.68,0:37:57.91,Default,,0000,0000,0000,,昨晚我太累了\N{\fn微軟雅黑\fs14}I was tired.
+Dialogue: 0,0:38:00.62,0:38:03.30,Default,,0000,0000,0000,,你考慮過我們昨天說的事了嗎\N{\fn微軟雅黑\fs14}Have you had a chance to think about what we discussed yesterday?
+Dialogue: 0,0:38:04.34,0:38:06.98,Default,,0000,0000,0000,,在中國  接到禮物推辭一次是禮貌\N{\fn微軟雅黑\fs14}In China, it's polite to refuse a gift the first time.
+Dialogue: 0,0:38:07.57,0:38:09.34,Default,,0000,0000,0000,,也許我該拒絕你的禮物\N{\fn微軟雅黑\fs14}Maybe I should refuse yours.
+Dialogue: 0,0:38:09.34,0:38:11.63,Default,,0000,0000,0000,,如果不知道你想要什麼  我們沒法送你禮物\N{\fn微軟雅黑\fs14}We can't offer you a gift if I don't know what you want.
+Dialogue: 0,0:38:13.56,0:38:15.13,Default,,0000,0000,0000,,傑斐遜港大橋\N{\fn微軟雅黑\fs14}The Port Jefferson Bridge.
+Dialogue: 0,0:38:16.43,0:38:18.91,Default,,0000,0000,0000,,你在私下溝通時把項目撤下了\N{\fn微軟雅黑\fs14}You pulled it, during the back-channel.
+Dialogue: 0,0:38:18.91,0:38:21.68,Default,,0000,0000,0000,,-我改主意了    -為什麼\N{\fn微軟雅黑\fs14}- I changed my mind.   - Why?
+Dialogue: 0,0:38:24.36,0:38:26.44,Default,,0000,0000,0000,,我有盟友想修建這座橋\N{\fn微軟雅黑\fs14}I have allies who want the bridge.
+Dialogue: 0,0:38:26.44,0:38:28.40,Default,,0000,0000,0000,,沒了橋  他們就會變成敵人\N{\fn微軟雅黑\fs14}Without it, they become my enemies.
+Dialogue: 0,0:38:29.04,0:38:31.86,Default,,0000,0000,0000,,-我已經兩次受審    -腐敗指控\N{\fn微軟雅黑\fs14}- I've been put on trial twice.   - Corruption charges.
+Dialogue: 0,0:38:33.53,0:38:37.47,Default,,0000,0000,0000,,在中國  我這個層次的人都會賄賂該賄賂的人\N{\fn微軟雅黑\fs14}Everyone in China who works on this level pays who they need to pay.
+Dialogue: 0,0:38:37.64,0:38:39.45,Default,,0000,0000,0000,,殺掉該殺的人\N{\fn微軟雅黑\fs14}And they kill who they need to kill.
+Dialogue: 0,0:38:40.45,0:38:42.02,Default,,0000,0000,0000,,總有人莫名消失  斯坦普先生\N{\fn微軟雅黑\fs14}People disappear all the time, Mr. Stamper.
+Dialogue: 0,0:38:42.02,0:38:45.04,Default,,0000,0000,0000,,我也可能消失  你也可能消失\N{\fn微軟雅黑\fs14}I could disappear. You could disappear.
+Dialogue: 0,0:38:47.87,0:38:50.44,Default,,0000,0000,0000,,別再去賭場  我們就給你這座橋\N{\fn微軟雅黑\fs14}Stop the junkets, and we'll get you the bridge.
+Dialogue: 0,0:38:50.44,0:38:51.90,Default,,0000,0000,0000,,先把橋定下來\N{\fn微軟雅黑\fs14}The bridge comes first.
+Dialogue: 0,0:38:53.00,0:38:55.44,Default,,0000,0000,0000,,副總統騙過我\N{\fn微軟雅黑\fs14}The vice president has lied to me before.
+Dialogue: 0,0:38:55.44,0:38:58.87,Default,,0000,0000,0000,,我要看到他誠意的證明  才會停止資金流\N{\fn微軟雅黑\fs14}I need proof of his commitment. Then the money will stop.
+Dialogue: 0,0:39:01.95,0:39:05.54,Default,,0000,0000,0000,,斯坦普先生  請用\N{\fn微軟雅黑\fs14}Please, Mr. Stamper. Eat.
+Dialogue: 0,0:39:06.18,0:39:07.91,Default,,0000,0000,0000,,你接下來要坐很久的航班呢\N{\fn微軟雅黑\fs14}You have a long flight ahead of you.
+Dialogue: 0,0:39:14.38,0:39:16.65,Default,,0000,0000,0000,,如果你覺得你一定要這麼做\N{\fn微軟雅黑\fs14}If it's what you feel you need to do.
+Dialogue: 0,0:39:16.65,0:39:18.71,Default,,0000,0000,0000,,安德伍德夫人  我在這兒工作很愉快\N{\fn微軟雅黑\fs14}I've had a great experience here, Mrs. Underwood.
+Dialogue: 0,0:39:18.71,0:39:22.14,Default,,0000,0000,0000,,但是這個機會我實在沒法錯過\N{\fn微軟雅黑\fs14}But this is an opportunity I can't pass up.
+Dialogue: 0,0:39:22.14,0:39:24.76,Default,,0000,0000,0000,,-我猜錢肯定給得不少    -確實\N{\fn微軟雅黑\fs14}- I imagine the pay is substantial.   - It is.
+Dialogue: 0,0:39:24.76,0:39:27.93,Default,,0000,0000,0000,,但不只是錢的事  在太空探索技術公司有上升空間\N{\fn微軟雅黑\fs14}But it's not just that. There's room to grow at SpaceX.
+Dialogue: 0,0:39:27.93,0:39:30.49,Default,,0000,0000,0000,,如果你決定了  我不會勸你留下來的\N{\fn微軟雅黑\fs14}Well, if your mind's made up, I won't try and convince you to stay.
+Dialogue: 0,0:39:30.49,0:39:34.74,Default,,0000,0000,0000,,說實話  我最初來的時候\N{\fn微軟雅黑\fs14}The truth is... when I first came on board,
+Dialogue: 0,0:39:34.74,0:39:37.92,Default,,0000,0000,0000,,我以為是同時為你和你丈夫工作\N{\fn微軟雅黑\fs14}I thought it was to work for both you and your husband.
+Dialogue: 0,0:39:37.92,0:39:40.75,Default,,0000,0000,0000,,別誤會  為你工作我十分榮幸\N{\fn微軟雅黑\fs14}Don't get me wrong, it's been an honor working for you,
+Dialogue: 0,0:39:40.75,0:39:43.61,Default,,0000,0000,0000,,但我沒想到要和賽斯一起工作\N{\fn微軟雅黑\fs14}but I didn't foresee having to work with Seth.
+Dialogue: 0,0:39:43.61,0:39:45.94,Default,,0000,0000,0000,,-你倆有些不合    -沒錯\N{\fn微軟雅黑\fs14}- You're not very fond of each other.   - No.
+Dialogue: 0,0:39:46.34,0:39:48.28,Default,,0000,0000,0000,,這不是問題  我們都是專業人士\N{\fn微軟雅黑\fs14}Which is fine. We're professionals.
+Dialogue: 0,0:39:48.98,0:39:51.18,Default,,0000,0000,0000,,但我覺得這樣最好\N{\fn微軟雅黑\fs14}But I think this is for the best.
+Dialogue: 0,0:39:51.18,0:39:53.15,Default,,0000,0000,0000,,僱傭出色人才的問題就在於\N{\fn微軟雅黑\fs14}Well, the problem with hiring great people
+Dialogue: 0,0:39:53.15,0:39:54.91,Default,,0000,0000,0000,,每個人都想把他們撬走\N{\fn微軟雅黑\fs14}is everyone wants to steal them away.
+Dialogue: 0,0:39:55.55,0:39:57.99,Default,,0000,0000,0000,,很感激你能這麼善解人意\N{\fn微軟雅黑\fs14}I appreciate you being so understanding.
+Dialogue: 0,0:39:58.00,0:39:59.94,Default,,0000,0000,0000,,-我們會想念你的  康納    -謝謝\N{\fn微軟雅黑\fs14}- You'll be missed, Connor.      - Thank you.
+Dialogue: 0,0:40:07.01,0:40:09.31,Default,,0000,0000,0000,,賽斯  是我  他剛離開了\N{\fn微軟雅黑\fs14}Seth, it's me. He just left.
+Dialogue: 0,0:40:09.31,0:40:10.75,Default,,0000,0000,0000,,和他談談  然後發一篇新聞稿\N{\fn微軟雅黑\fs14}Talk to him and put out a press release.
+Dialogue: 0,0:40:10.75,0:40:12.53,Default,,0000,0000,0000,,儘可能地平穩過渡\N{\fn微軟雅黑\fs14}Let's make this as smooth as possible.
+Dialogue: 0,0:40:14.31,0:40:16.87,Default,,0000,0000,0000,,我感興趣的有兩個機會\N{\fn微軟雅黑\fs14}It's two opportunities I'm interested in.
+Dialogue: 0,0:40:14.47,0:40:17.62,Default,,0000,0000,0000,,{\an8}{\fn方正黑體簡體\fs18\b1\bord1\shad1\3c&H2F2F2F&}弗萊迪燒烤餐館
+Dialogue: 0,0:40:16.87,0:40:21.70,Default,,0000,0000,0000,,家族連鎖餐廳  和零售燒烤醬\N{\fn微軟雅黑\fs14}Family-oriented restaurant chain and a retail barbecue sauce.
+Dialogue: 0,0:40:22.73,0:40:23.99,Default,,0000,0000,0000,,具體是什麼內容\N{\fn微軟雅黑\fs14}What would that look like?
+Dialogue: 0,0:40:23.99,0:40:26.99,Default,,0000,0000,0000,,我們給你一筆預付款來購買你的品牌使用權\N{\fn微軟雅黑\fs14}We give you an upfront payment for the right to use your brand.
+Dialogue: 0,0:40:27.41,0:40:29.41,Default,,0000,0000,0000,,不管這兩項投資是否失敗\N{\fn微軟雅黑\fs14}Either venture fails, or they both do,
+Dialogue: 0,0:40:29.41,0:40:31.00,Default,,0000,0000,0000,,那些錢都還是你的\N{\fn微軟雅黑\fs14}you still get to keep that money.
+Dialogue: 0,0:40:32.49,0:40:34.09,Default,,0000,0000,0000,,那是多少錢啊\N{\fn微軟雅黑\fs14}How much money we talking?
+Dialogue: 0,0:40:34.23,0:40:37.03,Default,,0000,0000,0000,,只要你籤合同  9萬5千\N{\fn微軟雅黑\fs14}95,000 as soon as you sign.
+Dialogue: 0,0:40:37.70,0:40:40.48,Default,,0000,0000,0000,,如果買賣成功了  你還會有收益分紅\N{\fn微軟雅黑\fs14}And then you'd have a share of the profits if we're successful.
+Dialogue: 0,0:40:42.24,0:40:43.90,Default,,0000,0000,0000,,分紅怎麼分\N{\fn微軟雅黑\fs14}What would the shares be?
+Dialogue: 0,0:40:44.51,0:40:47.78,Default,,0000,0000,0000,,這樣吧  我草擬一份合同\N{\fn微軟雅黑\fs14}I'll tell you what. Let me draw up papers.
+Dialogue: 0,0:40:47.78,0:40:50.17,Default,,0000,0000,0000,,你好好看一遍  然後給你的律師看一遍\N{\fn微軟雅黑\fs14}You look them over. You show them to your lawyer.
+Dialogue: 0,0:40:50.17,0:40:51.71,Default,,0000,0000,0000,,我沒有律師\N{\fn微軟雅黑\fs14}I don't have a lawyer.
+Dialogue: 0,0:40:51.71,0:40:53.09,Default,,0000,0000,0000,,那你得找一個了\N{\fn微軟雅黑\fs14}Well, you should get one.
+Dialogue: 0,0:40:53.74,0:40:55.66,Default,,0000,0000,0000,,我不想讓你覺得自己被騙了\N{\fn微軟雅黑\fs14}I don't want you to feel like you're being cheated.
+Dialogue: 0,0:40:57.39,0:40:58.60,Default,,0000,0000,0000,,你還有疑慮\N{\fn微軟雅黑\fs14}You're skeptical.
+Dialogue: 0,0:41:02.16,0:41:03.17,Default,,0000,0000,0000,,聽著\N{\fn微軟雅黑\fs14}Look,
+Dialogue: 0,0:41:05.49,0:41:07.45,Default,,0000,0000,0000,,要不是想買排骨\N{\fn微軟雅黑\fs14}money usually don't come through that door
+Dialogue: 0,0:41:07.45,0:41:09.93,Default,,0000,0000,0000,,一般沒人送錢上門\N{\fn微軟雅黑\fs14}unless it's looking for a plate of ribs.
+Dialogue: 0,0:41:10.57,0:41:13.07,Default,,0000,0000,0000,,我們想賣成千上百的肋排\N{\fn微軟雅黑\fs14}And we want to sell thousands of those plates.
+Dialogue: 0,0:41:13.08,0:41:15.41,Default,,0000,0000,0000,,如果加盟店建立起來  將數以百萬計\N{\fn微軟雅黑\fs14}Millions, if the franchise builds.
+Dialogue: 0,0:41:15.97,0:41:18.53,Default,,0000,0000,0000,,《太陽報》的文章讓你名聲大噪\N{\fn微軟雅黑\fs14}The Sun article put you on the map.
+Dialogue: 0,0:41:18.95,0:41:21.67,Default,,0000,0000,0000,,讓我們用弗萊迪燒烤連鎖店撐起這個名聲\N{\fn微軟雅黑\fs14}Let's fill up that map with Freddy's barbecue joints.
+Dialogue: 0,0:41:29.31,0:41:31.34,Default,,0000,0000,0000,,-你在看什麼    -你說什麼\N{\fn微軟雅黑\fs14}- What are you looking at?      - Excuse me?
+Dialogue: 0,0:41:32.64,0:41:34.29,Default,,0000,0000,0000,,刀在廚房裡\N{\fn微軟雅黑\fs14}The knives are in the kitchen.
+Dialogue: 0,0:41:34.29,0:41:37.47,Default,,0000,0000,0000,,你有槍  不用一直盯著我\N{\fn微軟雅黑\fs14}You have a pistol. You can stop staring.
+Dialogue: 0,0:41:41.43,0:41:43.17,Default,,0000,0000,0000,,他來了嗎  丹\N{\fn微軟雅黑\fs14}Is he in here? Dan!
+Dialogue: 0,0:41:44.84,0:41:46.42,Default,,0000,0000,0000,,-你好嗎    -挺好\N{\fn微軟雅黑\fs14}- How are you?   - Good.
+Dialogue: 0,0:41:46.42,0:41:47.49,Default,,0000,0000,0000,,要喝一杯嗎\N{\fn微軟雅黑\fs14}Care for a drink?
+Dialogue: 0,0:41:47.49,0:41:48.35,Default,,0000,0000,0000,,不用了\N{\fn微軟雅黑\fs14}I'm good.
+Dialogue: 0,0:41:48.35,0:41:50.65,Default,,0000,0000,0000,,我們去客廳吧  那裡更舒服\N{\fn微軟雅黑\fs14}Well, let's, uh, go into the living room. It's more cozy.
+Dialogue: 0,0:41:50.65,0:41:52.13,Default,,0000,0000,0000,,這裡就挺好\N{\fn微軟雅黑\fs14}Uh, I'm just fine where I am.
+Dialogue: 0,0:41:52.13,0:41:53.33,Default,,0000,0000,0000,,也行  你先下去吧\N{\fn微軟雅黑\fs14}Well, all right. Uh, thank you.
+Dialogue: 0,0:41:53.33,0:41:54.44,Default,,0000,0000,0000,,是  先生\N{\fn微軟雅黑\fs14}Yes, sir.
+Dialogue: 0,0:41:58.50,0:42:01.14,Default,,0000,0000,0000,,你一定告訴雷蒙德我請你來這兒了吧\N{\fn微軟雅黑\fs14}I'm sure you've told Raymond that I've asked you here.
+Dialogue: 0,0:42:01.55,0:42:02.26,Default,,0000,0000,0000,,哪個雷蒙德\N{\fn微軟雅黑\fs14}Raymond who?
+Dialogue: 0,0:42:02.26,0:42:04.36,Default,,0000,0000,0000,,在我面前你不用裝  丹\N{\fn微軟雅黑\fs14}Oh, you don't have to pretend, Dan.
+Dialogue: 0,0:42:04.36,0:42:06.05,Default,,0000,0000,0000,,馮證實了你的企圖\N{\fn微軟雅黑\fs14}Feng confirmed what you're up to.
+Dialogue: 0,0:42:06.05,0:42:07.30,Default,,0000,0000,0000,,我沒聽過這人\N{\fn微軟雅黑\fs14}Name doesn't ring a bell.
+Dialogue: 0,0:42:07.31,0:42:08.38,Default,,0000,0000,0000,,我有航班記錄\N{\fn微軟雅黑\fs14}I have flight records.
+Dialogue: 0,0:42:08.38,0:42:10.84,Default,,0000,0000,0000,,他的一架飛機多次飛往堪薩斯城\N{\fn微軟雅黑\fs14}One of his planes to Kansas City on multiple occasions.
+Dialogue: 0,0:42:10.84,0:42:12.81,Default,,0000,0000,0000,,我們還要繼續玩下去嗎\N{\fn微軟雅黑\fs14}Do we really have to play this game?
+Dialogue: 0,0:42:13.28,0:42:16.77,Default,,0000,0000,0000,,我來是因為我以為你有什麼好提議\N{\fn微軟雅黑\fs14}I came here because I thought you might have something to offer.
+Dialogue: 0,0:42:16.77,0:42:18.62,Default,,0000,0000,0000,,不如直接切入正題吧\N{\fn微軟雅黑\fs14}Why don't we just skip to that part.
+Dialogue: 0,0:42:21.62,0:42:24.10,Default,,0000,0000,0000,,你一直是個忠誠的捐助人  丹\N{\fn微軟雅黑\fs14}You've been a loyal contributor, Dan.
+Dialogue: 0,0:42:24.10,0:42:25.44,Default,,0000,0000,0000,,你為我們募集資金\N{\fn微軟雅黑\fs14}You've thrown us fundraisers.
+Dialogue: 0,0:42:25.44,0:42:28.71,Default,,0000,0000,0000,,有很多我們握手的照片\N{\fn微軟雅黑\fs14}There are pictures of you and I shaking hands.
+Dialogue: 0,0:42:28.71,0:42:31.23,Default,,0000,0000,0000,,所以無論你這一季度做了什麼\N{\fn微軟雅黑\fs14}So whatever you've done this quarter
+Dialogue: 0,0:42:31.23,0:42:32.40,Default,,0000,0000,0000,,都可以一筆勾銷\N{\fn微軟雅黑\fs14}can be forgotten.
+Dialogue: 0,0:42:32.41,0:42:36.37,Default,,0000,0000,0000,,但你的資金得停止流往錯誤的方向\N{\fn微軟雅黑\fs14}But I need the money to stop flowing in the wrong direction.
+Dialogue: 0,0:42:36.37,0:42:38.89,Default,,0000,0000,0000,,我還在等你的提議\N{\fn微軟雅黑\fs14}I'm still waiting for the offer.
+Dialogue: 0,0:42:38.89,0:42:40.01,Default,,0000,0000,0000,,你是個商人  丹\N{\fn微軟雅黑\fs14}You're a businessman, Dan,
+Dialogue: 0,0:42:40.01,0:42:42.99,Default,,0000,0000,0000,,-我知道利益是你的首要考慮    -沒錯\N{\fn微軟雅黑\fs14}- so I know your primary concern is profits.   - Well, that's right.
+Dialogue: 0,0:42:42.99,0:42:47.38,Default,,0000,0000,0000,,但我現在要給你比金錢更有價值的東西\N{\fn微軟雅黑\fs14}But I'm offering you something that's far more valuable than money:
+Dialogue: 0,0:42:47.38,0:42:50.07,Default,,0000,0000,0000,,直通白宮的關係線\N{\fn微軟雅黑\fs14}a direct line to the White House.
+Dialogue: 0,0:42:50.07,0:42:51.61,Default,,0000,0000,0000,,聽上去太含糊\N{\fn微軟雅黑\fs14}That sounds vague to me.
+Dialogue: 0,0:42:51.61,0:42:53.71,Default,,0000,0000,0000,,我對印第安人事務局有影響力\N{\fn微軟雅黑\fs14}I have influence over the BIA.
+Dialogue: 0,0:42:53.71,0:42:55.53,Default,,0000,0000,0000,,關於聯邦賭博立法\N{\fn微軟雅黑\fs14}Over federal gambling legislation.
+Dialogue: 0,0:42:55.53,0:42:58.95,Default,,0000,0000,0000,,我已經靠捐款買到了這種影響力\N{\fn微軟雅黑\fs14}The sort of influence that my contributions have already bought.
+Dialogue: 0,0:42:58.95,0:43:03.07,Default,,0000,0000,0000,,但我沒有直接參與  你在總統那邊也說不上話\N{\fn微軟雅黑\fs14}Not with my direct involvement and the president's ear.
+Dialogue: 0,0:43:04.05,0:43:05.87,Default,,0000,0000,0000,,你知道我最喜歡錢哪一點嗎\N{\fn微軟雅黑\fs14}You know what I like about money?
+Dialogue: 0,0:43:06.68,0:43:10.10,Default,,0000,0000,0000,,我能把錢摞在桌子上\N{\fn微軟雅黑\fs14}I can stack it on a table, like this one.
+Dialogue: 0,0:43:10.10,0:43:12.39,Default,,0000,0000,0000,,我能用尺子去丈量它\N{\fn微軟雅黑\fs14}I can measure it with a yardstick.
+Dialogue: 0,0:43:12.79,0:43:15.97,Default,,0000,0000,0000,,我能看見它  聞到它的味道\N{\fn微軟雅黑\fs14}I can see it, smell it,
+Dialogue: 0,0:43:15.97,0:43:17.45,Default,,0000,0000,0000,,用它買任何東西\N{\fn微軟雅黑\fs14}buy things with it.
+Dialogue: 0,0:43:17.45,0:43:22.42,Default,,0000,0000,0000,,房子  車子  衣服  實實在在的東西\N{\fn微軟雅黑\fs14}Houses, cars, clothes. Things that are real.
+Dialogue: 0,0:43:22.68,0:43:25.68,Default,,0000,0000,0000,,你得讓我看到更多誠意\N{\fn微軟雅黑\fs14}You're gonna have to show up with more than beads.
+Dialogue: 0,0:43:25.68,0:43:29.54,Default,,0000,0000,0000,,丹  我請你來我家是因為我認為\N{\fn微軟雅黑\fs14}Dan, I invited you to my home because I thought --
+Dialogue: 0,0:43:29.55,0:43:30.79,Default,,0000,0000,0000,,從後門\N{\fn微軟雅黑\fs14}Through the back door.
+Dialogue: 0,0:43:32.01,0:43:32.91,Default,,0000,0000,0000,,你說什麼\N{\fn微軟雅黑\fs14}Excuse me?
+Dialogue: 0,0:43:33.19,0:43:34.84,Default,,0000,0000,0000,,讓我從後門進來  像傭人一樣\N{\fn微軟雅黑\fs14}Through the back door, like a servant.
+Dialogue: 0,0:43:34.84,0:43:36.91,Default,,0000,0000,0000,,特勤局要求所有人都從後門進\N{\fn微軟雅黑\fs14}The Secret Service makes everyone come in that way.
+Dialogue: 0,0:43:36.91,0:43:37.88,Default,,0000,0000,0000,,這是防範措...\N{\fn微軟雅黑\fs14}It's a precautionary meas--
+Dialogue: 0,0:43:37.88,0:43:40.39,Default,,0000,0000,0000,,除非你給我的錢能多過塔斯克\N{\fn微軟雅黑\fs14}Unless you're gonna offer me more money than Tusk --
+Dialogue: 0,0:43:40.39,0:43:42.20,Default,,0000,0000,0000,,而我認為你做不到\N{\fn微軟雅黑\fs14}and I don't think that you can --
+Dialogue: 0,0:43:42.21,0:43:44.66,Default,,0000,0000,0000,,否則我們就沒什麼商量餘地\N{\fn微軟雅黑\fs14}there's little left for us to talk about.
+Dialogue: 0,0:43:44.66,0:43:47.71,Default,,0000,0000,0000,,我現在向你提供機會和\N{\fn微軟雅黑\fs14}I am offering you an alliance with a man
+Dialogue: 0,0:43:47.71,0:43:52.96,Default,,0000,0000,0000,,在賓夕法尼亞大街1600號工作的人結盟\N{\fn微軟雅黑\fs14}who goes to work every day at 1600 Pennsylvania Avenue.
+Dialogue: 0,0:43:52.96,0:43:56.33,Default,,0000,0000,0000,,我從不信任何白人\N{\fn微軟雅黑\fs14}I don't place my faith in any white man.
+Dialogue: 0,0:43:56.33,0:43:59.52,Default,,0000,0000,0000,,尤其是為聯邦政府做事的白人\N{\fn微軟雅黑\fs14}Especially one that works for the federal government.
+Dialogue: 0,0:44:00.30,0:44:02.38,Default,,0000,0000,0000,,我和你一樣  丹\N{\fn微軟雅黑\fs14}I am just like you, Dan.
+Dialogue: 0,0:44:02.38,0:44:03.84,Default,,0000,0000,0000,,我知道白手起家\N{\fn微軟雅黑\fs14}I know what it means to start from nothing,
+Dialogue: 0,0:44:03.84,0:44:05.14,Default,,0000,0000,0000,,殺出一條路的艱辛\N{\fn微軟雅黑\fs14}to have to fight your way --
+Dialogue: 0,0:44:05.14,0:44:08.57,Default,,0000,0000,0000,,你根本不知道我走到今天的艱辛\N{\fn微軟雅黑\fs14}You know nothing about what it means to be me.
+Dialogue: 0,0:44:09.07,0:44:13.03,Default,,0000,0000,0000,,你所謂的白手起家  比我起步的時候要闊綽得多\N{\fn微軟雅黑\fs14}Your version of nothing was light years ahead of where I started.
+Dialogue: 0,0:44:13.03,0:44:15.43,Default,,0000,0000,0000,,我尊重你  丹  我重視你\N{\fn微軟雅黑\fs14}I respect you, Dan. I take you serious--
+Dialogue: 0,0:44:15.43,0:44:19.03,Default,,0000,0000,0000,,等我在乎你的尊重時  我會告訴你的\N{\fn微軟雅黑\fs14}I'll let you know when I give a fuck about your respect.
+Dialogue: 0,0:44:21.31,0:44:24.00,Default,,0000,0000,0000,,郝利戴  送拉尼根出去\N{\fn微軟雅黑\fs14}Holiday? Show Lanagin out.
+Dialogue: 0,0:44:24.94,0:44:26.93,Default,,0000,0000,0000,,我知道後門在哪\N{\fn微軟雅黑\fs14}I know where the back door is.
+Dialogue: 0,0:44:33.33,0:44:34.55,Default,,0000,0000,0000,,弗蘭西斯\N{\fn微軟雅黑\fs14}Francis?
+Dialogue: 0,0:44:43.80,0:44:47.14,Default,,0000,0000,0000,,沒摔壞  我能修好\N{\fn微軟雅黑\fs14}It's not broken. I can fix it.
+Dialogue: 0,0:44:51.68,0:44:53.31,Default,,0000,0000,0000,,別管它了  我一會兒收拾\N{\fn微軟雅黑\fs14}Leave it. I'll clean up later.
+Dialogue: 0,0:45:02.51,0:45:06.20,Default,,0000,0000,0000,,我們去跑步  讓你消消火\N{\fn微軟雅黑\fs14}Let's go for a run. Burn off some of this steam.
+Dialogue: 0,0:45:12.89,0:45:13.89,Default,,0000,0000,0000,,先生\N{\fn微軟雅黑\fs14}Sir?
+Dialogue: 0,0:45:15.80,0:45:16.76,Default,,0000,0000,0000,,我馬上出來\N{\fn微軟雅黑\fs14}I'll be out in a moment.
+Dialogue: 0,0:45:16.76,0:45:18.35,Default,,0000,0000,0000,,我先走  你趕上我\N{\fn微軟雅黑\fs14}I'll go ahead. You catch up.
+Dialogue: 0,0:45:18.74,0:45:21.12,Default,,0000,0000,0000,,你上飛機前為什麼沒聯繫我\N{\fn微軟雅黑\fs14}Why didn't you reach out, before you got on a plane?
+Dialogue: 0,0:45:21.13,0:45:23.62,Default,,0000,0000,0000,,我擔心我們的通訊被監視了\N{\fn微軟雅黑\fs14}I was afraid our communication might be monitored.
+Dialogue: 0,0:45:23.80,0:45:25.00,Default,,0000,0000,0000,,和拉尼根進展如何\N{\fn微軟雅黑\fs14}Where are we with Lanagin?
+Dialogue: 0,0:45:25.00,0:45:26.92,Default,,0000,0000,0000,,沒有進展  你和馮呢\N{\fn微軟雅黑\fs14}Nowhere. Where are we with Feng?
+Dialogue: 0,0:45:26.92,0:45:29.68,Default,,0000,0000,0000,,我們也許有個選擇  但會比較棘手\N{\fn微軟雅黑\fs14}We might have an option, but it's gonna be tricky.
+Dialogue: 0,0:45:49.08,0:46:19.08,Default,,0000,0000,0000,,{\an5\pos(193,145)\fad(500,500)}{\3c&HFFFFFF&\fscy2000\fscx3900\c&H000000&\bord1\shad0}■
+Dialogue: 0,0:45:49.08,0:46:19.08,Default,,0000,0000,0000,,{\an5\fad(800,800)\fs18\pos(193,145)\fn方正小標宋_GBK\c&HFFFFFF&\bord0\shad0\b1}2010年以前  美國選舉法規定任何個人和組織\N向政治行動委員會捐款  每次選舉不能超過5000美元\N但是這個規定因為美國最高法院的一個判決而改變\N2008年美國前第一夫人希拉里作為候選人參加民主黨總統初選\N公民聯合組織制作了一個攻擊希拉里的紀錄片打算在電視上播放\N但地方法院裁定該紀錄片性質上等同競選廣告\N在播出時間和製作費用上違反了選舉法的有關規定\N"公民聯合"於是將此事訴諸最高法院\N2010年1月  最高法院的9名法官以5比4的投票結果\N裁定當時施行的相關選舉法規違憲  根據這個判決\N美國的商業公司、工會組織和社會團體向政治行動委員會捐款時\N不應該有數額限制  超級政治行動委員會應運而生
+Dialogue: 0,0:46:19.08,0:46:49.08,Default,,0000,0000,0000,,{\an5\pos(193,145)\fad(500,500)}{\3c&HFFFFFF&\fscy2000\fscx3400\c&H000000&\bord1\shad0}■
+Dialogue: 0,0:46:19.08,0:46:49.08,Default,,0000,0000,0000,,{\an5\fad(800,800)\fs18\pos(193,145)\fn方正小標宋_GBK\c&HFFFFFF&\bord0\shad0\b1}"Super PAC"是"獨立支出政治活動委員會"的別稱\N在美國  候選人參加政治選舉或者一些社會機構\N想要對各級政府議會的立法行為進行影響和遊說時\N需要成立"政治委員會"來向社會募集資金\N而這種獨立的委員會之所以被媒體冠以"超級"的綽號\N則是因為個人或機構向這種委員會進行捐款沒有金額上限\N在美國這樣一個金錢和政治緊密難分的社會裡\N"無上限"的捐款  自然會帶來"超級"的政治影響\N"超級委員會"同普通政治行動委員會的不同之處還在於\N該機構不能同其所支援的候選人進行溝通\N亦不能在政治活動中進行協調\N就是說  如果一個"超級委員會"支援某個共和黨候選人\N想要在報紙上登廣告替該候選人宣傳拉票\N事先不能知會該候選人  而候選人也不能對廣告內容發表意見
+Dialogue: 0,0:46:49.08,0:47:19.08,Default,,0000,0000,0000,,{\an5\pos(193,145)\fad(500,500)}{\3c&HFFFFFF&\fscy1800\fscx3400\c&H000000&\bord1\shad0}■
+Dialogue: 0,0:46:49.08,0:47:19.08,Default,,0000,0000,0000,,{\an5\fad(800,800)\fs18\pos(193,145)\fn方正小標宋_GBK\c&HFFFFFF&\bord0\shad0\b1}2012年的共和黨總統初選\N是"超級委員會"首次登上全國性的政治舞臺\N根據美國聯邦選舉委員會公佈的資料\N在2012美國總統大選初選階段\N有近四百家"超級委員會"籌集了一億多美元的競選資金\N針對2004年美國議會選舉的一項統計結果顯示\N90%以上的選舉中都是資金最多的候選人獲勝\N毫無疑問  在美國的政治制度中\N金錢是一個不可或缺的基本元素\N"超級委員會"便是這種金錢政治中最新出場的一支生力軍

@@ -1,0 +1,85 @@
+﻿[Script    Info]
+;    //    此字幕由PopSub生成    2008-07-09  21:30:00
+;  //  版本:  0.74
+;  //  popgo_fansub@yahoo.co.jp
+;  //  欢迎访问漫游天下  http://bbs.popgo.net
+Title:漫游字幕
+Original  Script:漫游字幕组
+Synch  Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+  Styles]
+Format:  Name,  Fontname,  Fontsize,  PrimaryColour,  SecondaryColour,  OutlineColour,  BackColour,  Bold,  Italic,  Underline,  StrikeOut,  ScaleX,  ScaleY,  Spacing,  Angle,  BorderStyle,  Outline,  Shadow,  Alignment,  MarginL,  MarginR,  MarginV,  Encoding
+Style:  Default,方正准圆_GBK,28,&H00FFFFFF,&HF0000000,&H00000000,&HC8000000,-1,0,0,0,100,100,1,0.00,1,2,1,2,30,30,12,134
+Style:  edjp,DFHSGothic-W5,21,&H00FFFFFF,&HF0000000,&H14E221FE,&HC8000000,-1,0,0,0,100,100,0,0.00,1,1,2,2,30,30,10,1
+Style:  staff,黑体,21,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0.00,1,2,1,8,30,30,4,1
+Style:  1,DFGHSGothic-W5,25,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0.00,1,0,0,2,30,30,10,1
+Style:  edcn,黑体,20,&H00FFFFFF,&HF0000000,&H14E221FE,&HC8000000,-1,0,0,0,100,100,0,0.00,1,1,2,8,30,30,10,1
+Style:  opjp1,DFGHSGothic-W5,25,&H00E8E8FF,&H64C080FF,&H00C080FF,&H46DAB5FF,-1,0,0,0,100,100,0,0.00,1,1,2,2,30,30,10,1
+Style:  opjp2,DFGHSGothic-W5,22,&H00E8E8FF,&H64C080FF,&H00C080FF,&H46DAB5FF,-1,0,0,0,100,100,0,0.00,1,1,2,8,30,30,10,1
+
+[Events]
+Format:  Layer,  Start,  End,  Style,  Actor,  MarginL,  MarginR,  MarginV,  Effect,  Text
+
+
+
+Dialogue:  0,0:00:21.15,0:00:25.12,*Default,NTP,0000,0000,0000,,这是个对抗W.O.R.M的少女们的故事
+Dialogue:  0,0:00:27.00,0:00:30.04,*Default,NTP,0000,0000,0000,,钓鱼白痴瑛花姐
+Dialogue:  0,0:00:30.49,0:00:33.98,*Default,NTP,0000,0000,0000,,天翔少女真饵钓鱼记
+Dialogue:  0,0:00:35.08,0:00:36.89,*Default,NTP,0000,0000,0000,,鱼要连骨头都吃干净
+Dialogue:  0,0:00:37.19,0:00:38.05,*Default,NTP,0000,0000,0000,,鲷可是很强的
+Dialogue:  0,0:00:38.30,0:00:39.97,*Default,NTP,0000,0000,0000,,清贫  钓真鲷
+Dialogue:  0,0:00:54.79,0:00:56.70,*Default,NTP,0000,0000,0000,,这个月又是入不敷出啊
+Dialogue:  0,0:01:01.55,0:01:09.23,*Default,NTP,0000,0000,0000,,妈妈你知道吗  黄瓜蘸蜂蜜吃起来像甜瓜一样哦
+Dialogue:  0,0:01:11.65,0:01:12.84,*Default,NTP,0000,0000,0000,,要怎么办呢
+Dialogue:  0,0:01:13.80,0:01:17.46,*Default,NTP,0000,0000,0000,,天翔少女真饵钓鱼记
+Dialogue:  0,0:01:19.25,0:01:23.28,*Default,NTP,0000,0000,0000,,那些少见的  还有价格超～贵的鱼里
+Dialogue:  0,0:01:24.00,0:01:26.09,*Default,NTP,0000,0000,0000,,能单凭一根鱼竿就可以钓到的
+Dialogue:  0,0:01:26.38,0:01:28.57,*Default,NTP,0000,0000,0000,,真是少之又少呢
+Dialogue:  0,0:01:29.56,0:01:30.54,*Default,NTP,0000,0000,0000,,但是却有一种
+Dialogue:  0,0:01:30.87,0:01:33.25,*Default,NTP,0000,0000,0000,,既不用考虑钓点也不用准备船
+Dialogue:  0,0:01:33.66,0:01:36.27,*Default,NTP,0000,0000,0000,,在海边就能钓到的  那便是真鲷
+Dialogue:  0,0:01:37.00,0:01:41.12,*Default,NTP,0000,0000,0000,,让我们瞄准用英国回流来的真鲷吧
+Dialogue:  0,0:01:43.25,0:01:44.09,*Default,NTP,0000,0000,0000,,真鲷
+Dialogue:  0,0:01:51.14,0:01:53.79,*Default,NTP,0000,0000,0000,,果然不会这么顺利啊
+Dialogue:  0,0:02:00.56,0:02:02.28,*Default,NTP,0000,0000,0000,,抱歉啊  巧也
+Dialogue:  0,0:02:05.27,0:02:07.26,*Default,NTP,0000,0000,0000,,妈妈是个没用的女人
+Dialogue:  0,0:02:11.51,0:02:13.40,*Default,NTP,0000,0000,0000,,瑛花姐  好厉害
+Dialogue:  0,0:02:13.71,0:02:14.90,*Default,NTP,0000,0000,0000,,今天也是丰收啊
+Dialogue:  0,0:02:20.22,0:02:21.84,*Default,NTP,0000,0000,0000,,我讨厌生鱼
+Dialogue:  0,0:02:23.04,0:02:24.05,*Default,NTP,0000,0000,0000,,好厉害
+Dialogue:  0,0:02:26.67,0:02:27.33,*Default,NTP,0000,0000,0000,,那个
+Dialogue:  0,0:02:30.22,0:02:34.94,*Default,NTP,0000,0000,0000,,真好啊  钓到了这么大的鱼  这是怎么做到的呢
+Dialogue:  0,0:02:35.45,0:02:38.42,*Default,NTP,0000,0000,0000,,瑛花姐是天才啦啦啦
+Dialogue:  0,0:02:38.81,0:02:41.43,*Default,NTP,0000,0000,0000,,不会这么容易就教你的啦啦
+Dialogue:  0,0:02:41.86,0:02:43.40,*Default,NTP,0000,0000,0000,,你是白痴啊
+Dialogue:  0,0:02:46.16,0:02:47.45,*Default,NTP,0000,0000,0000,,是啊
+Dialogue:  0,0:02:47.84,0:02:51.60,*Default,NTP,0000,0000,0000,,不教不教不教不教不教不教…
+Dialogue:  0,0:02:55.71,0:02:56.32,*Default,NTP,0000,0000,0000,,请
+Dialogue:  0,0:02:56.35,0:02:56.97,*Default,NTP,0000,0000,0000,,啊
+Dialogue:  0,0:02:57.84,0:02:58.44,*Default,NTP,0000,0000,0000,,给你
+Dialogue:  0,0:03:00.35,0:03:01.74,*Default,NTP,0000,0000,0000,,非常感谢
+Dialogue:  0,0:03:03.68,0:03:05.16,*Default,NTP,0000,0000,0000,,给她了吗
+Dialogue:  0,0:03:05.38,0:03:08.78,*Default,NTP,0000,0000,0000,,是啊  这也用不着给她吧
+Dialogue:  0,0:03:09.33,0:03:11.93,*Default,NTP,0000,0000,0000,,没事  不过是条小东西
+Dialogue:  0,0:03:14.87,0:03:15.50,*Default,NTP,0000,0000,0000,,走吧
+Dialogue:  0,0:03:16.30,0:03:17.38,*Default,NTP,0000,0000,0000,,等等我
+Dialogue:  0,0:03:17.63,0:03:18.72,*Default,NTP,0000,0000,0000,,瑛花姐
+Dialogue:  0,0:03:20.09,0:03:21.55,*Default,NTP,0000,0000,0000,,做了件好事呢
+Dialogue:  0,0:03:22.20,0:03:25.28,*Default,NTP,0000,0000,0000,,那个女人回去一定会说这是自己钓的
+Dialogue:  0,0:03:26.33,0:03:27.26,*Default,NTP,0000,0000,0000,,是吗
+Dialogue:  0,0:03:27.58,0:03:28.25,*Default,NTP,0000,0000,0000,,好了  别说了
+Dialogue:  0,0:03:36.93,0:03:40.49,*Default,NTP,0000,0000,0000,,那么  给巧也做什么好呢
+Dialogue:  0,0:03:43.85,0:03:46.69,*Default,NTP,0000,0000,0000,,果然还是生鱼片啊  还是
+Dialogue:  0,0:04:09.32,0:04:11.88,*Default,NTP,0000,0000,0000,,巧也  今天的晚饭是真鲷鱼汤
+Dialogue:  0,0:04:12.67,0:04:13.90,*Default,NTP,0000,0000,0000,,而且还放了葱段
+Dialogue:  0,0:04:14.36,0:04:17.04,*Default,NTP,0000,0000,0000,,哇  是葱  是葱啊
+Dialogue:  0,0:04:17.76,0:04:19.94,*Default,NTP,0000,0000,0000,,妈妈这回是大出血了啊
+Dialogue:  0,0:04:20.15,0:04:22.80,*Default,NTP,0000,0000,0000,,哇  是葱  是葱啊
+Dialogue:  0,0:04:23.54,0:04:25.93,*Default,NTP,0000,0000,0000,,好粗好长的葱
+Dialogue:  0,0:04:26.13,0:04:31.42,*Default,NTP,0000,0000,0000,,葱  葱  葱…
+Dialogue:  0,0:04:34.63,0:04:36.83,*Default,NTP,0000,0000,0000,,过日子真是不容易啊

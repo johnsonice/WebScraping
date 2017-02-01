@@ -1,0 +1,1187 @@
+﻿[Script Info]
+Title: Aura
+Original Script:
+Synch Point:0
+ScriptType: v4.00+
+Collisions:Normal
+PlayResX: 1920
+PlayResY: 1080
+Scroll Position: 295
+Active Line: 306
+Video Zoom Percent: 0.5
+YCbCr Matrix: TV.601
+Last Style Storage: Default
+WrapStyle: 0
+ScaledBorderAndShadow: no
+Video Aspect Ratio: c1.77778
+Video Position: 31507
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,微软雅黑,60,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,1,0,1,2,0,2,30,30,20,134
+Style: Default - midle two,楷体,60,&H00FFFFFF,&HFFFFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,20,134
+Style: mark,微软雅黑,80,&H00FFFFFF,&H00243240,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,5,10,10,10,1
+Style: OP CHI,方正准圆_GBK,50,&H3C000000,&H000C0D0C,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,20,10,60,1
+Style: OP JP,浪漫雅圆,45,&H3C000000,&HFFFFFFFF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,20,10,15,1
+Style: STAFF,方正黑体_GBK,45,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,10,134
+Style: teamname,方正大黑简体,70,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:32.15,0:00:33.01,Default - midle two,NTP,0,0,0,,{\blur5}魔龙院
+Dialogue: 0,0:00:33.76,0:00:35.59,Default - midle two,NTP,0,0,0,,{\blur5}我要在此处取你人头
+Dialogue: 0,0:00:37.99,0:00:40.37,Default - midle two,NTP,0,0,0,,{\blur5}必须要取你项上人头
+Dialogue: 0,0:00:45.14,0:00:48.02,Default - midle two,NTP,0,0,0,,{\blur5}作为忠于圣龙神阿斯塔洛伊的圣骑士
+Dialogue: 0,0:00:49.91,0:00:53.23,Default - midle two,NTP,0,0,0,,{\blur5}不 作为深爱故乡的一名战士
+Dialogue: 0,0:00:53.89,0:00:55.54,Default - midle two,NTP,0,0,0,,{\blur5}我要在此处讨伐你
+Dialogue: 0,0:01:00.89,0:01:03.16,Default - midle two,NTP,0,0,0,,{\blur5}魔龙院啊 你为何要背叛
+Dialogue: 0,0:01:09.02,0:01:10.45,Default - midle two,NTP,0,0,0,,{\blur5}这就是你的回答吗
+Dialogue: 0,0:01:11.19,0:01:12.08,Default - midle two,NTP,0,0,0,,{\blur5}既然如此
+Dialogue: 0,0:01:18.06,0:01:20.79,Default - midle two,NTP,0,0,0,,{\blur5}接招吧 「魔兽咆牙」
+Dialogue: 0,0:01:21.34,0:01:22.96,Default - midle two,NTP,0,0,0,,{\blur5}秘剑「七式」
+Dialogue: 0,0:01:40.25,0:01:41.84,Default - midle two,NTP,0,0,0,,{\blur5}不可…能…
+Dialogue: 0,0:01:50.55,0:01:52.21,Default - midle two,NTP,0,0,0,,{\blur5}圣骑士巴尔扎克
+Dialogue: 0,0:01:53.30,0:01:54.65,Default - midle two,NTP,0,0,0,,{\blur5}我不会向你道歉
+Dialogue: 0,0:01:55.22,0:01:57.89,Default - midle two,NTP,0,0,0,,{\blur5}但若有一天 我完成了自己应做的事情
+Dialogue: 0,0:01:59.01,0:02:01.32,Default - midle two,NTP,0,0,0,,{\blur5}那想必就会是我去往你那边之时了吧
+Dialogue: 0,0:02:03.57,0:02:06.78,Default - midle two,NTP,0,0,0,,{\blur5}若我手刃圣龙神阿斯塔洛伊那一天到来
+Dialogue: 0,0:02:07.34,0:02:10.66,Default - midle two,NTP,0,0,0,,{\blur5}往日的战友啊 在那之前先暂作告别吧
+Dialogue: 0,0:02:19.55,0:02:25.45,Default - midle two,NTP,0,0,0,,{\blur5}{\fad(400,100)\blur5}胜者离去 留下的尸骸毫无前兆地燃烧了起来
+Dialogue: 0,0:02:26.35,0:02:31.76,Default - midle two,NTP,0,0,0,,{\blur5}{\fad(400,100)\blur5}苍蓝的火 将血肉燃烧殆尽而不发一丝烟尘
+Dialogue: 0,0:02:32.29,0:02:35.36,Default - midle two,NTP,0,0,0,,{\blur5}{\fad(400,100)\blur5}不会残留下哪怕是一滴血
+Dialogue: 0,0:02:36.35,0:02:40.07,Default - midle two,NTP,0,0,0,,{\blur5}{\fad(400,100)\blur5}此乃是魔炎之誓言 为了不残留死者之痕迹
+Dialogue: 0,0:02:40.49,0:02:45.61,Default - midle two,NTP,0,0,0,,{\blur5}{\fad(400,100)\blur5}「镜面界」让启程的骑士所承担的义务 所结下的魔术誓约
+Dialogue: 0,0:02:46.19,0:02:47.00,Default - midle two,NTP,0,0,0,,{\blur5}{\fad(400,100)\blur5}因此没有人知道
+Dialogue: 0,0:02:47.14,0:02:50.27,Default - midle two,NTP,0,0,0,,{\blur5}{\fad(400,100)\blur5}在现代日本这现实界的背后
+Dialogue: 0,0:02:50.74,0:02:56.78,Default - midle two,NTP,0,0,0,,{\blur5}{\fad(400,100)\blur5}展开着如此残酷的斗争——
+Dialogue: 0,0:02:58.49,0:03:02.06,Default - midle two,NTP,0,0,0,,{\blur5}{\fad(400,100)\blur5}自「魔龙院传承 九之卷」摘录
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,0:03:08.48,0:03:10.16,*Default,NTP,0,0,0,,{\blur2}高中生活的开端给人留下了不错的印象
+Dialogue: 0,0:03:11.16,0:03:12.83,*Default,NTP,0,0,0,,{\blur2}花费的时间绝对不短
+Dialogue: 0,0:03:13.17,0:03:16.83,*Default,NTP,0,0,0,,{\blur2}我付出了开学前几乎整个暑假的时间为代价
+Dialogue: 0,0:03:17.77,0:03:19.40,*Default,NTP,0,0,0,,{\blur2}才得到了这成功
+Dialogue: 0,0:03:29.57,0:03:30.05,*Default,NTP,0,0,0,,{\blur2}早
+Dialogue: 0,0:03:30.67,0:03:31.62,*Default,NTP,0,0,0,,{\blur2}早啊 阿一
+Dialogue: 0,0:03:32.42,0:03:33.52,*Default,NTP,0,0,0,,{\blur2}早 时间刚好呢
+Dialogue: 0,0:03:34.37,0:03:36.78,*Default,NTP,0,0,0,,{\blur2}睡过头罢了 说来你们在聊啥
+Dialogue: 0,0:03:37.40,0:03:40.65,*Default,NTP,0,0,0,,{\blur2}在讨论进哪个社团呢 你决定了吗
+Dialogue: 0,0:03:53.56,0:03:56.50,*Default,NTP,0,0,0,,{\blur2}但是进了社团就没空玩啦
+Dialogue: 0,0:03:56.87,0:03:58.12,*Default,NTP,0,0,0,,{\blur2}是啊
+Dialogue: 0,0:03:59.62,0:04:00.54,*Default,NTP,0,0,0,,{\blur2}早上好
+Dialogue: 0,0:04:00.90,0:04:02.63,*Default,NTP,0,0,0,,{\blur2}川合同学 小林同学 佐藤同学
+Dialogue: 0,0:04:03.37,0:04:04.35,*Default,NTP,0,0,0,,{\blur2}啊 早上好
+Dialogue: 0,0:04:05.00,0:04:05.81,*Default,NTP,0,0,0,,{\blur2}啊…啊
+Dialogue: 0,0:04:06.15,0:04:07.03,*Default,NTP,0,0,0,,{\blur2}早上…
+Dialogue: 0,0:04:07.48,0:04:09.47,*Default,NTP,0,0,0,,{\blur2}川合同学你们三个总在一起呢
+Dialogue: 0,0:04:10.03,0:04:11.15,*Default,NTP,0,0,0,,{\blur2}因为我们结成三人组了
+Dialogue: 0,0:04:10.03,0:04:11.15,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1080,1010)}Trio
+Dialogue: 0,0:04:10.03,0:04:11.15,*Default,NTP,0,0,0,,{\blur2}{\an8}Trio:意指三重奏
+Dialogue: 0,0:04:12.36,0:04:14.27,*Default,NTP,0,0,0,,{\blur2}是这样啊 恭喜
+Dialogue: 0,0:04:15.16,0:04:16.63,*Default,NTP,0,0,0,,{\blur2}你们不也组成了六人组了吗
+Dialogue: 0,0:04:15.16,0:04:16.63,Default,NTP,0,0,0,,{\blur2\fs30\pos(1080,1011)}Sextet
+Dialogue: 0,0:04:15.16,0:04:16.63,*Default,NTP,0,0,0,,{\blur2}{\an8}Sextet:意指六重奏
+Dialogue: 0,0:04:18.66,0:04:20.13,*Default,NTP,0,0,0,,{\blur2}Se…Se…Se…
+Dialogue: 0,0:04:20.49,0:04:23.22,*Default,NTP,0,0,0,,{\blur2}Se…性…行为？
+Dialogue: 0,0:04:23.99,0:04:26.53,*Default,NTP,0,0,0,,{\blur2}不是啦 是六人组的意思
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,0:04:37.07,0:04:37.63,*Default,NTP,0,0,0,,{\blur2}子鸠
+Dialogue: 0,0:04:39.74,0:04:42.80,*Default,NTP,0,0,0,,{\blur2}我先走啦 川合同学 小林同学 佐藤同学
+Dialogue: 0,0:04:43.13,0:04:43.67,*Default,NTP,0,0,0,,{\blur2}下次再见
+Dialogue: 0,0:04:50.23,0:04:51.83,*Default,NTP,0,0,0,,{\blur2}今天大家也很有精神哦
+Dialogue: 0,0:04:53.07,0:04:53.79,*Default,NTP,0,0,0,,{\blur2}先不说这个…
+Dialogue: 0,0:05:05.09,0:05:08.33,*Default,NTP,0,0,0,,{\blur2}说起来 佐藤她是怎样的人呢
+Dialogue: 0,0:05:08.80,0:05:09.35,*Default,NTP,0,0,0,,{\blur2}叫我？
+Dialogue: 0,0:05:09.69,0:05:12.69,*Default,NTP,0,0,0,,{\blur2}不是啦 是说坐你左前方的佐藤啦
+Dialogue: 0,0:05:13.18,0:05:14.14,*Default,NTP,0,0,0,,{\blur2}Ladies' 佐藤
+Dialogue: 0,0:05:14.71,0:05:15.32,*Default,NTP,0,0,0,,{\blur2}哦哦
+Dialogue: 0,0:05:17.06,0:05:18.49,*Default,NTP,0,0,0,,{\blur2}她一次都没来过学校吧
+Dialogue: 0,0:05:19.09,0:05:20.44,*Default,NTP,0,0,0,,{\blur2}不如说她应该不会来了吧？
+Dialogue: 0,0:05:20.78,0:05:22.94,*Default,NTP,0,0,0,,{\blur2}入学典礼都过了一个星期了
+Dialogue: 0,0:05:24.11,0:05:24.67,*Default,NTP,0,0,0,,{\blur2}怎么样
+Dialogue: 0,0:05:26.58,0:05:28.58,*Default,NTP,0,0,0,,{\blur2}有什么想要的吗
+Dialogue: 0,0:05:29.38,0:05:33.60,*Default,NTP,0,0,0,,{\blur2}我没戴过这种东西 不是很清楚
+Dialogue: 0,0:05:32.78,0:05:33.94,*Default,NTP,0,0,0,,{\blur2}{\an8}这个不错呢
+Dialogue: 0,0:05:34.71,0:05:35.39,*Default,NTP,0,0,0,,{\blur2}{\an8}是吗
+Dialogue: 0,0:05:34.87,0:05:38.03,*Default,NTP,0,0,0,,{\blur2}要说能戴着上学的…这个怎样
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,0:07:35.57,0:07:36.53,*Default,NTP,0,0,0,,{\blur2}那个…
+Dialogue: 0,0:07:39.11,0:07:41.01,*Default,NTP,0,0,0,,{\blur2}你在这种地方干什么？
+Dialogue: 0,0:07:45.37,0:07:45.85,*Default,NTP,0,0,0,,{\blur2}来了
+Dialogue: 0,0:07:48.30,0:07:49.65,*Default,NTP,0,0,0,,{\blur2}{\an8}探寻者 确认完成
+Dialogue: 0,0:07:48.30,0:07:49.65,*Default,NTP,0,0,0,,{\blur2\fs30\pos(865,32)}Researcher
+Dialogue: 0,0:07:50.25,0:07:53.71,*Default,NTP,0,0,0,,{\blur2}{\an8}对比结果 相似度99.8%
+Dialogue: 0,0:07:53.97,0:07:54.82,*Default,NTP,0,0,0,,{\blur2}是…是谁？
+Dialogue: 0,0:07:54.53,0:07:57.14,*Default,NTP,0,0,0,,{\blur2}{\an8}虽然受到现象界的影响而产生奇化
+Dialogue: 0,0:07:57.36,0:07:59.31,*Default,NTP,0,0,0,,{\blur2}但仍应视作情报体
+Dialogue: 0,0:07:59.95,0:08:01.72,*Default,NTP,0,0,0,,{\blur2}物理干涉等级3
+Dialogue: 0,0:08:02.33,0:08:06.22,*Default,NTP,0,0,0,,{\blur2}全权持有者要求探求者做出即时处理
+Dialogue: 0,0:08:06.27,0:08:08.39,*Default,NTP,0,0,0,,{\blur2}什么处理 要做什么
+Dialogue: 0,0:08:09.01,0:08:12.81,*Default,NTP,0,0,0,,{\blur2}菲露拉 Shamanic Field Driver Stand by
+Dialogue: 0,0:08:13.69,0:08:15.62,*Default,NTP,0,0,0,,{\blur2}要…要战斗吗 真的要打吗
+Dialogue: 0,0:08:15.93,0:08:16.58,*Default,NTP,0,0,0,,{\blur2}是要打吧
+Dialogue: 0,0:08:18.68,0:08:21.21,*Default,NTP,0,0,0,,{\blur2}你要轰飞学校吗 住手 别在这里发射啊
+Dialogue: 0,0:08:21.62,0:08:24.46,*Default,NTP,0,0,0,,{\blur2}还要命的话就退下吧 现象界人
+Dialogue: 0,0:08:25.02,0:08:26.07,*Default,NTP,0,0,0,,{\blur2}现象界人？
+Dialogue: 0,0:08:27.75,0:08:28.66,*Default,NTP,0,0,0,,{\blur2}攻击开始
+Dialogue: 0,0:08:34.74,0:08:35.53,*Default,NTP,0,0,0,,{\blur2}作战失败
+Dialogue: 0,0:08:36.37,0:08:37.74,*Default,NTP,0,0,0,,{\blur2}暂时撤退
+Dialogue: 0,0:08:42.01,0:08:44.82,*Default,NTP,0,0,0,,{\blur2}那边的现象界人 跟我一起来
+Dialogue: 0,0:08:45.21,0:08:47.07,*Default,NTP,0,0,0,,{\blur2}就算你叫我…但我有事要干
+Dialogue: 0,0:08:47.64,0:08:48.13,*Default,NTP,0,0,0,,{\blur2}这边
+Dialogue: 0,0:08:58.50,0:09:00.78,*Default,NTP,0,0,0,,{\blur2}我说 把窗子拆下来的也是你吗
+Dialogue: 0,0:09:01.45,0:09:04.46,*Default,NTP,0,0,0,,{\blur2}那么做没问题吗 被发现的话可就糟了
+Dialogue: 0,0:09:05.32,0:09:08.59,*Default,NTP,0,0,0,,{\blur2}不必担心 别说魔力转换器了
+Dialogue: 0,0:09:05.32,0:09:08.59,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1080,1011)}Mana converter
+Dialogue: 0,0:09:08.99,0:09:11.76,*Default,NTP,0,0,0,,{\blur2}就连魔力都不存在的这现象界
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,0:09:12.21,0:09:15.13,*Default,NTP,0,0,0,,{\blur2}谁都无法看见探寻者的身姿
+Dialogue: 0,0:09:12.21,0:09:15.13,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1028,1011)}Researcher
+Dialogue: 0,0:09:15.62,0:09:17.43,*Default,NTP,0,0,0,,{\blur2}我能看见你啊
+Dialogue: 0,0:09:20.34,0:09:21.51,*Default,NTP,0,0,0,,{\blur2}什…什么啊
+Dialogue: 0,0:09:22.14,0:09:22.88,*Default,NTP,0,0,0,,{\blur2}你的眼睛…
+Dialogue: 0,0:09:23.28,0:09:25.36,*Default,NTP,0,0,0,,{\blur2}我的眼睛？怎么了
+Dialogue: 0,0:09:25.97,0:09:27.25,*Default,NTP,0,0,0,,{\blur2}难不成你想说这是魔眼吗
+Dialogue: 0,0:09:29.14,0:09:30.82,*Default,NTP,0,0,0,,{\blur2}你为何知道魔眼一事
+Dialogue: 0,0:09:31.33,0:09:33.35,*Default,NTP,0,0,0,,{\blur2}不是 我随口说说的
+Dialogue: 0,0:09:38.44,0:09:42.56,*Default,NTP,0,0,0,,{\blur2}我明白了 听说现象界以前也曾有过魔术
+Dialogue: 0,0:09:43.22,0:09:47.29,*Default,NTP,0,0,0,,{\blur2}探寻者从此将现象界人A视作魔眼保有者
+Dialogue: 0,0:09:43.22,0:09:47.29,*Default,NTP,0,0,0,,{\blur2\fs30\pos(620,1011)}Researcher
+Dialogue: 0,0:09:47.77,0:09:52.44,*Default,NTP,0,0,0,,{\blur2}这倒是没问题 但是我有着叫佐藤一郎的名字
+Dialogue: 0,0:09:53.21,0:09:55.87,*Default,NTP,0,0,0,,{\blur2}别叫我现象界人了 总觉得不舒服
+Dialogue: 0,0:09:56.49,0:10:00.71,*Default,NTP,0,0,0,,{\blur2}明白了 从此将现象界人A称作佐藤一郎
+Dialogue: 0,0:10:01.13,0:10:03.03,*Default,NTP,0,0,0,,{\blur2}叫我佐藤或者一郎就可以了
+Dialogue: 0,0:10:03.88,0:10:04.57,*Default,NTP,0,0,0,,{\blur2}一郎
+Dialogue: 0,0:10:07.37,0:10:07.95,*Default,NTP,0,0,0,,{\blur2}你叫…
+Dialogue: 0,0:10:09.60,0:10:10.43,*Default,NTP,0,0,0,,{\blur2}喂 是谁
+Dialogue: 0,0:10:11.07,0:10:11.51,*Default,NTP,0,0,0,,{\blur2}不好了
+Dialogue: 0,0:10:16.73,0:10:17.54,*Default,NTP,0,0,0,,{\blur2}哇 怎么了
+Dialogue: 0,0:10:27.28,0:10:30.56,*Default,NTP,0,0,0,,{\blur2}在警备员撤退之前 在此处潜伏吧
+Dialogue: 0,0:10:33.36,0:10:35.24,*Default,NTP,0,0,0,,{\blur2}说来 你的名字是？
+Dialogue: 0,0:10:36.13,0:10:36.88,*Default,NTP,0,0,0,,{\blur2}探寻者
+Dialogue: 0,0:10:36.13,0:10:36.88,*Default,NTP,0,0,0,,{\blur2\fs30\pos(958.4,1011)}Researcher
+Dialogue: 0,0:10:38.08,0:10:41.40,*Default,NTP,0,0,0,,{\blur2}这是名字吗 听上去像是代号
+Dialogue: 0,0:10:42.07,0:10:46.23,*Default,NTP,0,0,0,,{\blur2}准确来说 我是属于探寻者这一职阶的个体
+Dialogue: 0,0:10:46.92,0:10:49.45,*Default,NTP,0,0,0,,{\blur2}探寻者为了回收龙端子
+Dialogue: 0,0:10:46.92,0:10:49.45,*Default,NTP,0,0,0,,{\blur2\fs30\pos(804,1011)}Researcher
+Dialogue: 0,0:10:49.78,0:10:51.30,*Default,NTP,0,0,0,,{\blur2}而被派来这个世界
+Dialogue: 0,0:10:51.79,0:10:53.76,*Default,NTP,0,0,0,,{\blur2}龙端子？那是什么
+Dialogue: 0,0:10:54.17,0:10:55.82,*Default,NTP,0,0,0,,{\blur2}龙吗？恐龙吗？
+Dialogue: 0,0:10:56.48,0:10:58.37,*Default,NTP,0,0,0,,{\blur2}和所谓的爬虫类不同
+Dialogue: 0,0:10:58.71,0:11:02.01,*Default,NTP,0,0,0,,{\blur2}是指一切拥有智慧的高次元存在
+Dialogue: 0,0:11:02.96,0:11:06.63,*Default,NTP,0,0,0,,{\blur2}可以在不同次元中穿梭 能适应一切环境
+Dialogue: 0,0:11:07.03,0:11:09.15,*Default,NTP,0,0,0,,{\blur2}也就是说是特别厉害的部件吧
+Dialogue: 0,0:11:10.49,0:11:11.61,*Default,NTP,0,0,0,,{\blur2}差不多该移动了
+Dialogue: 0,0:11:12.79,0:11:15.02,*Default,NTP,0,0,0,,{\blur2}一郎 暂停状态解除
+Dialogue: 0,0:11:12.79,0:11:15.02,*Default,NTP,0,0,0,,{\blur2\fs30\pos(970,1011)}suspend mode
+Dialogue: 0,0:11:19.92,0:11:24.33,*Default,NTP,0,0,0,,{\blur2}没事吧 你可以扶着我肩膀的
+Dialogue: 0,0:11:26.16,0:11:28.02,*Default,NTP,0,0,0,,{\blur2}接受此建议
+Dialogue: 0,0:11:37.78,0:11:38.61,*Default,NTP,0,0,0,,{\blur2}在此分别吧
+Dialogue: 0,0:11:39.72,0:11:44.04,*Default,NTP,0,0,0,,{\blur2}不能继续把现象界人卷进探寻者的任务中了
+Dialogue: 0,0:11:39.72,0:11:44.04,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1100,1011)}Researcher
+Dialogue: 0,0:11:45.22,0:11:48.95,*Default,NTP,0,0,0,,{\blur2}一郎应该安心 可以回到现象界的生活中了
+Dialogue: 0,0:11:49.80,0:11:50.90,*Default,NTP,0,0,0,,{\blur2}是吗…
+Dialogue: 0,0:12:01.88,0:12:03.17,*Default,NTP,0,0,0,,{\blur2}我会帮你的
+Dialogue: 0,0:12:06.24,0:12:09.11,*Default,NTP,0,0,0,,{\blur2}你应该亲眼看到了 寻找龙端子的工作伴随着危险
+Dialogue: 0,0:12:09.95,0:12:11.64,*Default,NTP,0,0,0,,{\blur2}你的判断非常轻率
+Dialogue: 0,0:12:12.48,0:12:18.95,*Default,NTP,0,0,0,,{\blur2}这我明白 但我并不能接受你所说的现象界的生活
+Dialogue: 0,0:12:19.57,0:12:22.93,*Default,NTP,0,0,0,,{\blur2}并不是什么事情都接受了 才能进行生命活动
+Dialogue: 0,0:12:26.66,0:12:28.47,*Default,NTP,0,0,0,,{\blur2}也可以说是现实
+Dialogue: 0,0:12:29.06,0:12:31.96,*Default,NTP,0,0,0,,{\blur2}现实 和虚构成对的单词
+Dialogue: 0,0:12:33.29,0:12:35.75,*Default,NTP,0,0,0,,{\blur2}一郎盼望虚构和空想吗
+Dialogue: 0,0:12:37.83,0:12:39.62,*Default,NTP,0,0,0,,{\blur2}并…并不是这样
+Dialogue: 0,0:12:40.22,0:12:44.64,*Default,NTP,0,0,0,,{\blur2}我想的是 现实应该可以更自由啊
+Dialogue: 0,0:12:45.32,0:12:48.48,*Default,NTP,0,0,0,,{\blur2}所以 看到你这样的人我也并没有那么动摇
+Dialogue: 0,0:12:49.09,0:12:49.99,*Default,NTP,0,0,0,,{\blur2}因为我能接受
+Dialogue: 0,0:12:53.36,0:12:57.09,*Default,NTP,0,0,0,,{\blur2}接受 一郎接受探寻者了吗
+Dialogue: 0,0:12:53.36,0:12:57.09,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1060,1011)}Researcher
+Dialogue: 0,0:12:57.46,0:12:59.25,*Default,NTP,0,0,0,,{\blur2}是啊 我没有拒绝过你吧
+Dialogue: 0,0:12:59.97,0:13:01.84,*Default,NTP,0,0,0,,{\blur2}你既救了我 而且…
+Dialogue: 0,0:13:02.87,0:13:06.81,*Default,NTP,0,0,0,,{\blur2}如果接下来还有不可思议的事情发生 我想亲眼目睹
+Dialogue: 0,0:13:07.71,0:13:12.05,*Default,NTP,0,0,0,,{\blur2}如果有激动人心的非日常体验存在 我想要亲眼目睹它们
+Dialogue: 0,0:13:16.10,0:13:16.61,*Default,NTP,0,0,0,,{\blur2}不行吗？
+Dialogue: 0,0:13:53.48,0:13:54.10,*Default,NTP,0,0,0,,{\blur2}我回来了
+Dialogue: 0,0:13:55.72,0:13:57.60,*Default,NTP,0,0,0,,{\blur2}你去哪了 这么晚
+Dialogue: 0,0:13:58.38,0:14:00.48,*Default,NTP,0,0,0,,{\blur2}回学校了 有东西忘那里了
+Dialogue: 0,0:14:01.11,0:14:03.18,*Default,NTP,0,0,0,,{\blur2}是吗 学校怎么样
+Dialogue: 0,0:14:03.84,0:14:06.05,*Default,NTP,0,0,0,,{\blur2}没问题 今天也和同学们去玩了
+Dialogue: 0,0:14:06.77,0:14:08.00,*Default,NTP,0,0,0,,{\blur2}买了个便宜的手表
+Dialogue: 0,0:14:10.38,0:14:12.46,*Default,NTP,0,0,0,,{\blur2}太好了 太好了啊
+Dialogue: 0,0:14:13.26,0:14:14.43,*Default,NTP,0,0,0,,{\blur2}这可是件好事啊
+Dialogue: 0,0:14:15.88,0:14:16.24,*Default,NTP,0,0,0,,{\blur2}抱歉
+Dialogue: 0,0:14:16.46,0:14:19.25,*Default,NTP,0,0,0,,{\blur2}不用道歉啦 没事 钱够吗
+Dialogue: 0,0:14:19.38,0:14:20.11,*Default,NTP,0,0,0,,{\blur2}妈妈
+Dialogue: 0,0:14:21.51,0:14:24.28,*Default,NTP,0,0,0,,{\blur2}没事 不需要每月零花钱了
+Dialogue: 0,0:14:24.92,0:14:25.61,*Default,NTP,0,0,0,,{\blur2}当时说好的嘛
+Dialogue: 0,0:14:27.23,0:14:28.95,*Default,NTP,0,0,0,,{\blur2}有麻烦记得和我们谈谈啊
+Dialogue: 0,0:14:40.17,0:14:41.90,*Default,NTP,0,0,0,,{\blur2}这是久米先生店里的？
+Dialogue: 0,0:14:50.00,0:14:53.38,*Default,NTP,0,0,0,,{\blur2}嗯 昨天和齐藤他们去的
+Dialogue: 0,0:14:55.07,0:14:56.83,*Default,NTP,0,0,0,,{\blur2}佐藤君买了个表啊
+Dialogue: 0,0:14:57.35,0:14:59.99,*Default,NTP,0,0,0,,{\blur2}不错啊 我觉得非常好 很休闲
+Dialogue: 0,0:15:00.84,0:15:04.52,*Default,NTP,0,0,0,,{\blur2}佐藤同学 今天我们要去车站那买东西
+Dialogue: 0,0:15:05.01,0:15:05.58,*Default,NTP,0,0,0,,{\blur2}要一起来吗
+Dialogue: 0,0:15:07.86,0:15:09.09,*Default,NTP,0,0,0,,{\blur2}我可以去吗
+Dialogue: 0,0:15:09.50,0:15:11.00,*Default,NTP,0,0,0,,{\blur2}可以啊 完全没问题
+Dialogue: 0,0:15:11.55,0:15:12.76,*Default,NTP,0,0,0,,{\blur2}那等下告诉我手机号码吧
+Dialogue: 0,0:15:13.70,0:15:14.35,*Default,NTP,0,0,0,,{\blur2}再见啦
+Dialogue: 0,0:15:15.97,0:15:17.01,*Default,NTP,0,0,0,,{\blur2}{\an8}我也去买个表吧
+Dialogue: 0,0:15:16.81,0:15:18.02,*Default,NTP,0,0,0,,{\blur2}呜哇 不是吧
+Dialogue: 0,0:15:18.60,0:15:21.67,*Default,NTP,0,0,0,,{\blur2}居然被高桥同学搭话了 真厉害啊
+Dialogue: 0,0:15:22.18,0:15:25.77,*Default,NTP,0,0,0,,{\blur2}正好啊 你会不会就这样进了那个圈子啊
+Dialogue: 0,0:15:26.54,0:15:30.67,*Default,NTP,0,0,0,,{\blur2}那群人始终与众不同 那群人也有气场一类的东西
+Dialogue: 0,0:15:32.50,0:15:33.61,*Default,NTP,0,0,0,,{\blur2}气场…吗
+Dialogue: 0,0:15:39.60,0:15:41.60,*Default,NTP,0,0,0,,{\blur2}还能再会吗
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,0:16:03.83,0:16:07.60,*Default,NTP,0,0,0,,{\blur2}佐藤一郎 果然和资料上一样 属于这支小队吗
+Dialogue: 0,0:16:08.20,0:16:14.73,*Default,NTP,0,0,0,,{\blur2}不 我虽然是佐藤…不过现在不是很懂你在说什么
+Dialogue: 0,0:16:15.21,0:16:16.04,*Default,NTP,0,0,0,,{\blur2}{\an8}什么啊 那种打扮
+Dialogue: 0,0:16:16.42,0:16:17.41,*Default,NTP,0,0,0,,{\blur2}{\an8}佐藤的熟人？
+Dialogue: 0,0:16:17.74,0:16:18.41,*Default,NTP,0,0,0,,{\blur2}{\an8}Cosplay？
+Dialogue: 0,0:16:18.80,0:16:19.46,*Default,NTP,0,0,0,,{\blur2}{\an8}不是吧--
+Dialogue: 0,0:16:21.51,0:16:22.97,*Default,NTP,0,0,0,,{\blur2}你想要的是这个吧
+Dialogue: 0,0:16:28.96,0:16:30.87,*Default,NTP,0,0,0,,{\blur2}Make miracle Dress up
+Dialogue: 0,0:16:36.55,0:16:38.59,*Default,NTP,0,0,0,,{\blur2}我说 我知道那个东西
+Dialogue: 0,0:16:37.76,0:16:38.17,*Default,NTP,0,0,0,,{\blur2}什么什么
+Dialogue: 0,0:16:38.28,0:16:41.80,*Default,NTP,0,0,0,,{\blur2}那是周日八点半播的小女孩向的动画
+Dialogue: 0,0:16:42.83,0:16:44.95,*Default,NTP,0,0,0,,{\blur2}我知道那个 小时候看过
+Dialogue: 0,0:16:46.85,0:16:48.52,*Default,NTP,0,0,0,,{\blur2}说来男生拿着那东西 不是吧？
+Dialogue: 0,0:16:48.96,0:16:50.98,*Default,NTP,0,0,0,,{\blur2}好恶 佐藤居然是动画宅
+Dialogue: 0,0:16:57.66,0:16:58.85,*Default,NTP,0,0,0,,{\blur2}个体名佐藤一郎
+Dialogue: 0,0:16:59.48,0:17:02.01,*Default,NTP,0,0,0,,{\blur2}设定为龙端子搜索任务中的奴隶
+Dialogue: 0,0:16:59.48,0:17:02.01,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1240,1011)}Slave
+Dialogue: 0,0:17:03.25,0:17:06.86,*Default,NTP,0,0,0,,{\blur2}网络中的思想将传达给所有活动体
+Dialogue: 0,0:17:07.15,0:17:07.84,*Default,NTP,0,0,0,,{\blur2}全部…
+Dialogue: 0,0:17:15.02,0:17:16.13,*Default,NTP,0,0,0,,{\blur2}是爱啊 佐藤
+Dialogue: 0,0:17:17.06,0:17:18.26,*Default,NTP,0,0,0,,{\blur2}咦 老师你在说什么啊
+Dialogue: 0,0:17:19.05,0:17:23.82,*Default,NTP,0,0,0,,{\blur2}没听说吗？是我把晕倒的你送到医务室的啊
+Dialogue: 0,0:17:25.16,0:17:27.55,*Default,NTP,0,0,0,,{\blur2}啊啊 听说了 非常感谢
+Dialogue: 0,0:17:29.27,0:17:34.24,*Default,NTP,0,0,0,,{\blur2}不必感谢 这只是作为教育者的我基于爱的行动而已
+Dialogue: 0,0:17:34.89,0:17:38.91,*Default,NTP,0,0,0,,{\blur2}那个 你果然是因为早上的事情而把我叫来这里的吗
+Dialogue: 0,0:17:39.36,0:17:41.17,*Default,NTP,0,0,0,,{\blur2}那事也有点关系
+Dialogue: 0,0:17:41.58,0:17:42.05,*Default,NTP,0,0,0,,{\blur2}有点？
+Dialogue: 0,0:17:42.50,0:17:45.56,*Default,NTP,0,0,0,,{\blur2}好的 那么就像个男人一样开门见山吧
+Dialogue: 0,0:17:46.99,0:17:51.26,*Default,NTP,0,0,0,,{\blur2}昨晚学校有侵入者 没想到居然是佐藤啊
+Dialogue: 0,0:17:54.02,0:17:56.53,*Default,NTP,0,0,0,,{\blur2}不是这样的 我是回来拿教科书的
+Dialogue: 0,0:17:56.89,0:17:57.50,*Default,NTP,0,0,0,,{\blur2}然后…
+Dialogue: 0,0:17:58.25,0:17:59.90,*Default,NTP,0,0,0,,{\blur2}我就知道是这种原因
+Dialogue: 0,0:18:00.54,0:18:03.49,*Default,NTP,0,0,0,,{\blur2}然后 关于另一个侵入者
+Dialogue: 0,0:18:04.66,0:18:06.15,*Default,NTP,0,0,0,,{\blur2}是说那个Cosplay女吧
+Dialogue: 0,0:18:06.71,0:18:07.76,*Default,NTP,0,0,0,,{\blur2}是的 就是她
+Dialogue: 0,0:18:08.41,0:18:12.02,*Default,NTP,0,0,0,,{\blur2}她是我们班里的 和你一样姓佐藤
+Dialogue: 0,0:18:12.89,0:18:15.18,*Default,NTP,0,0,0,,{\blur2}你知道的吧 有个女生一直没来的
+Dialogue: 0,0:18:15.57,0:18:16.78,*Default,NTP,0,0,0,,{\blur2}啊 说起来是这样
+Dialogue: 0,0:18:17.43,0:18:22.11,*Default,NTP,0,0,0,,{\blur2}其实啊 关于你们昨晚的非法侵入 我打算不问责了
+Dialogue: 0,0:18:22.37,0:18:25.29,*Default,NTP,0,0,0,,{\blur2}但是作为交换 我有一事相求
+Dialogue: 0,0:18:26.16,0:18:27.24,*Default,NTP,0,0,0,,{\blur2}一事相求？
+Dialogue: 0,0:18:28.36,0:18:32.03,*Default,NTP,0,0,0,,{\blur2}希望你能成为她——佐藤良子的朋友
+Dialogue: 0,0:18:33.03,0:18:37.99,*Default,NTP,0,0,0,,{\blur2}我不要 因为我很讨厌那种Cosplay
+Dialogue: 0,0:18:39.28,0:18:41.52,*Default,NTP,0,0,0,,{\blur2}我没有与您做交易的打算
+Dialogue: 0,0:18:42.67,0:18:45.18,*Default,NTP,0,0,0,,{\blur2}这可不是交易 是请求啊 佐藤
+Dialogue: 0,0:18:45.89,0:18:48.87,*Default,NTP,0,0,0,,{\blur2}Men's佐藤和Ladies'佐藤 十分般配
+Dialogue: 0,0:18:49.30,0:18:50.63,*Default,NTP,0,0,0,,{\blur2}那么我先失礼了
+Dialogue: 0,0:18:52.81,0:18:55.82,mark,NTP,0,0,0,,{\frz17\c&H000000&\pos(1024,664.8)}调查书 佐藤一郎 附录
+Dialogue: 0,0:18:53.17,0:18:54.64,*Default,NTP,0,0,0,,{\blur2}啊 弄掉了
+Dialogue: 0,0:18:55.98,0:19:00.52,*Default,NTP,0,0,0,,{\blur2}啊啊 这份文件的内容可绝对不能让学生看到呢
+Dialogue: 0,0:19:02.25,0:19:06.87,*Default,NTP,0,0,0,,{\blur2}如果被看到了 我可爱学生的过去就会暴露了
+Dialogue: 0,0:19:08.47,0:19:10.24,*Default,NTP,0,0,0,,{\blur2}你会接受的吧
+Dialogue: 0,0:19:17.53,0:19:18.20,*Default,NTP,0,0,0,,{\blur2}是你
+Dialogue: 0,0:19:20.05,0:19:24.92,*Default,NTP,0,0,0,,{\blur2}检测出了龙波动 看来这所建筑物里果然有一个端子
+Dialogue: 0,0:19:25.89,0:19:28.47,*Default,NTP,0,0,0,,{\blur2}别胡说八道了 早被戳穿了
+Dialogue: 0,0:19:29.13,0:19:33.45,*Default,NTP,0,0,0,,{\blur2}数秘预测确实观测到了龙端子的存在
+Dialogue: 0,0:19:34.01,0:19:37.18,*Default,NTP,0,0,0,,{\blur2}别说这种话了 找一些根本不存在的东西
+Dialogue: 0,0:19:37.76,0:19:38.29,*Default,NTP,0,0,0,,{\blur2}真无聊
+Dialogue: 0,0:19:38.86,0:19:42.41,*Default,NTP,0,0,0,,{\blur2}确认到一郎的品行有显著的劣化
+Dialogue: 0,0:19:43.50,0:19:46.33,*Default,NTP,0,0,0,,{\blur2}都怪你吧 我就直说了
+Dialogue: 0,0:19:47.07,0:19:48.89,*Default,NTP,0,0,0,,{\blur2}你才不是什么异世界的魔女
+Dialogue: 0,0:19:49.33,0:19:52.36,*Default,NTP,0,0,0,,{\blur2}只是个高中生 随处可见的普通平民
+Dialogue: 0,0:19:52.72,0:19:54.08,*Default,NTP,0,0,0,,{\blur2}名叫佐藤良子的人
+Dialogue: 0,0:19:55.09,0:19:57.76,*Default,NTP,0,0,0,,{\blur2}一郎好像受到了波长变换
+Dialogue: 0,0:19:58.91,0:20:00.41,*Default,NTP,0,0,0,,{\blur2}出现了呢 专业用语
+Dialogue: 0,0:20:00.87,0:20:04.35,*Default,NTP,0,0,0,,{\blur2}觉得随便把很厉害的单词排列在一起就能骗到人就大错特错了
+Dialogue: 0,0:20:05.12,0:20:09.59,*Default,NTP,0,0,0,,{\blur2}波长变换用这边的语言来说就是洗脑
+Dialogue: 0,0:20:10.34,0:20:12.19,*Default,NTP,0,0,0,,{\blur2}通过干涉碳素型活动体的脑波…
+Dialogue: 0,0:20:12.20,0:20:14.15,*Default,NTP,0,0,0,,{\blur2}啊啊 够了 别说了
+Dialogue: 0,0:20:15.48,0:20:18.75,*Default,NTP,0,0,0,,{\blur2}探寻者只要对一郎的脑波进行再变换
+Dialogue: 0,0:20:15.48,0:20:18.75,*Default,NTP,0,0,0,,{\blur2\fs30\pos(665.8,1011)}Researcher
+Dialogue: 0,0:20:19.02,0:20:20.56,*Default,NTP,0,0,0,,{\blur2}应该就能解决问题了吧
+Dialogue: 0,0:20:21.65,0:20:25.74,*Default,NTP,0,0,0,,{\blur2}那要是没能解决的话 你就承认自己是妄想女是吧
+Dialogue: 0,0:20:30.86,0:20:33.87,*Default,NTP,0,0,0,,{\blur2}准备施术了 坐在这张椅子上闭上眼睛吧
+Dialogue: 0,0:20:34.68,0:20:37.14,*Default,NTP,0,0,0,,{\blur2}算了吧 根本没有意义 而且我要走了
+Dialogue: 0,0:20:38.04,0:20:40.66,*Default,NTP,0,0,0,,{\blur2}若是处理好 你的想法还是没有改变的话
+Dialogue: 0,0:20:40.87,0:20:42.88,*Default,NTP,0,0,0,,{\blur2}我就承认刚才一郎的话
+Dialogue: 0,0:20:43.19,0:20:47.52,*Default,NTP,0,0,0,,{\blur2}你说的啊 承认的话就别再玩那蠢到爆的Cosplay了啊
+Dialogue: 0,0:20:48.06,0:20:49.67,*Default,NTP,0,0,0,,{\blur2}我认同一郎的话
+Dialogue: 0,0:20:50.95,0:20:51.81,*Default,NTP,0,0,0,,{\blur2}知道了
+Dialogue: 0,0:20:53.94,0:20:56.15,*Default,NTP,0,0,0,,{\blur2}搞吧 做你那个啥再变换
+Dialogue: 0,0:20:59.56,0:21:00.23,*Default,NTP,0,0,0,,{\blur2}别动
+Dialogue: 0,0:21:19.03,0:21:20.76,*Default,NTP,0,0,0,,{\blur2}什…什什什什什
+Dialogue: 0,0:21:21.73,0:21:25.63,*Default,NTP,0,0,0,,{\blur2}看来是再变换造成的暂时的语言混乱
+Dialogue: 0,0:21:26.80,0:21:29.72,*Default,NTP,0,0,0,,{\blur2}你就把它看成是施术成功的证据吧
+Dialogue: 0,0:21:33.96,0:21:34.75,*Default,NTP,0,0,0,,{\blur2}真卑鄙
+Dialogue: 0,0:21:38.41,0:21:38.85,*Default,NTP,0,0,0,,{\blur2}那是什么啊
+Dialogue: 0,0:21:39.22,0:21:39.88,*Default,NTP,0,0,0,,{\blur2}Cosplay？
+Dialogue: 0,0:21:40.57,0:21:42.08,*Default,NTP,0,0,0,,{\blur2}要搞什么摄影吗
+Dialogue: 0,0:21:42.86,0:21:44.28,*Default,NTP,0,0,0,,{\blur2}能和我们拍照吗
+Dialogue: 0,0:21:44.61,0:21:45.62,*Default,NTP,0,0,0,,{\blur2}诶？不要啦
+Dialogue: 0,0:21:47.57,0:21:49.43,*Default,NTP,0,0,0,,{\blur2}啊啊 喂 别闹了吧
+Dialogue: 0,0:21:49.79,0:21:51.37,*Default,NTP,0,0,0,,{\blur2}求你了 求你了啊
+Dialogue: 0,0:21:51.95,0:21:53.74,*Default,NTP,0,0,0,,{\blur2}在龙端子探索中
+Dialogue: 0,0:21:54.07,0:21:55.54,*Default,NTP,0,0,0,,{\blur2}探寻者是主人
+Dialogue: 0,0:21:54.07,0:21:55.54,*Default,NTP,0,0,0,,{\blur2\fs30\pos(890,1011)}Researcher
+Dialogue: 0,0:21:54.07,0:21:55.54,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1054,1011)}Master
+Dialogue: 0,0:21:55.82,0:21:57.75,*Default,NTP,0,0,0,,{\blur2}而一郎则是奴隶
+Dialogue: 0,0:21:55.82,0:21:57.75,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1079,1011)}Slave
+Dialogue: 0,0:21:58.42,0:22:02.68,*Default,NTP,0,0,0,,{\blur2}宣誓完成后 一郎就有听探寻者命令的义务
+Dialogue: 0,0:21:58.42,0:22:02.68,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1085,1011)}Researcher
+Dialogue: 0,0:22:02.74,0:22:05.68,*Default,NTP,0,0,0,,{\blur2}注意人群啊 至少也到没人看到的地方吧
+Dialogue: 0,0:22:06.13,0:22:10.70,*Default,NTP,0,0,0,,{\blur2}安心吧 探寻者的身姿由于进行了光学隐蔽
+Dialogue: 0,0:22:06.13,0:22:10.70,*Default,NTP,0,0,0,,{\blur2\fs30\pos(760,1011)}Researcher
+Dialogue: 0,0:22:11.02,0:22:13.30,*Default,NTP,0,0,0,,{\blur2}一般人是看不见的
+Dialogue: 0,0:22:13.69,0:22:17.24,*Default,NTP,0,0,0,,{\blur2}不不 看得见 看得清楚到死
+Dialogue: 0,0:22:18.25,0:22:19.75,*Default,NTP,0,0,0,,{\blur2}你这设定也太胡来了吧
+Dialogue: 0,0:22:25.06,0:22:26.78,*Default,NTP,0,0,0,,{\blur2}别闹啊 站起来
+Dialogue: 0,0:22:27.44,0:22:29.32,*Default,NTP,0,0,0,,{\blur2}都叫你别闹了
+Dialogue: 0,0:22:31.12,0:22:31.71,*Default,NTP,0,0,0,,{\blur2}喂
+Dialogue: 0,0:22:36.38,0:22:41.57,*Default,NTP,0,0,0,,{\blur2}求你别闹了 那种地方什么都没有的啦 够了啦
+Dialogue: 0,0:22:42.04,0:22:42.88,*Default,NTP,0,0,0,,{\blur2}你们在干什么
+Dialogue: 0,0:22:44.36,0:22:45.76,*Default,NTP,0,0,0,,{\blur2}不 这是…
+Dialogue: 0,0:22:46.26,0:22:48.00,*Default,NTP,0,0,0,,{\blur2}你这身是怎么回事
+Dialogue: 0,0:22:50.55,0:22:52.02,*Default,NTP,0,0,0,,{\blur2}啊 喂 别跑啊
+Dialogue: 0,0:22:55.59,0:22:58.32,*Default,NTP,0,0,0,,{\blur2}昨天在车站附近好像有剧组的人在摄影哦
+Dialogue: 0,0:23:28.11,0:23:29.08,*Default,NTP,0,0,0,,{\blur2}佐藤同学
+Dialogue: 0,0:23:29.93,0:23:30.99,*Default,NTP,0,0,0,,{\blur2}子 子鸠同学？
+Dialogue: 0,0:23:31.62,0:23:32.29,*Default,NTP,0,0,0,,{\blur2}早上好
+Dialogue: 0,0:23:33.11,0:23:35.37,*Default,NTP,0,0,0,,{\blur2}今天来得有点晚呢
+Dialogue: 0,0:23:38.24,0:23:43.19,*Default,NTP,0,0,0,,{\blur2}昨天对不起呢 班会结束后等了你五分钟左右
+Dialogue: 0,0:23:43.66,0:23:46.35,*Default,NTP,0,0,0,,{\blur2}因为你没有回来 所以我们先走了
+Dialogue: 0,0:23:47.85,0:23:49.38,*Default,NTP,0,0,0,,{\blur2}是 是这样啊
+Dialogue: 0,0:23:50.08,0:23:51.62,*Default,NTP,0,0,0,,{\blur2}所以下次再一起来吧
+Dialogue: 0,0:24:04.00,0:24:04.74,*Default,NTP,0,0,0,,{\blur2}一郎
+Dialogue: 0,0:24:05.96,0:24:06.97,*Default,NTP,0,0,0,,{\blur2}什 什么时候来的？
+Dialogue: 0,0:24:07.56,0:24:09.11,*Default,NTP,0,0,0,,{\blur2}上午七点四十二分
+Dialogue: 0,0:24:09.68,0:24:13.00,*Default,NTP,0,0,0,,{\blur2}也就是说比学生们来得都早
+Dialogue: 0,0:24:14.99,0:24:15.87,*Default,NTP,0,0,0,,{\blur2}别扯谎了
+Dialogue: 0,0:24:16.31,0:24:19.29,*Default,NTP,0,0,0,,{\blur2}我说你该不是想穿着这身上课吧
+Dialogue: 0,0:24:21.06,0:24:22.58,*Default,NTP,0,0,0,,{\blur2}大家早上好
+Dialogue: 0,0:24:26.29,0:24:29.19,*Default,NTP,0,0,0,,{\blur2}你终于来学校了呢 佐藤同学
+Dialogue: 0,0:24:30.19,0:24:32.64,*Default,NTP,0,0,0,,{\blur2}初次见面 我是班主任鸯老
+Dialogue: 0,0:24:33.45,0:24:35.49,*Default,NTP,0,0,0,,{\blur2}鸯老当然只是昵称
+Dialogue: 0,0:24:35.88,0:24:39.07,*Default,NTP,0,0,0,,{\blur2}本来是「鸳鸯夫妇老师」 不知道什么时候被略称成这样的
+Dialogue: 0,0:24:40.36,0:24:41.12,*Default,NTP,0,0,0,,{\blur2}佐藤同学？
+Dialogue: 0,0:24:42.16,0:24:44.87,*Default,NTP,0,0,0,,{\blur2}一郎 成年的男性在叫你
+Dialogue: 0,0:24:45.87,0:24:47.39,*Default,NTP,0,0,0,,{\blur2}在叫你啊
+Dialogue: 0,0:24:48.12,0:24:50.47,*Default,NTP,0,0,0,,{\blur2}探寻者并不叫佐藤
+Dialogue: 0,0:24:48.12,0:24:50.47,*Default,NTP,0,0,0,,{\blur2\fs30\pos(850,1011)}Researcher
+Dialogue: 0,0:24:53.27,0:24:56.37,*Default,NTP,0,0,0,,{\blur2}算了 你今天来了就是好事
+Dialogue: 0,0:24:57.59,0:24:59.77,*Default,NTP,0,0,0,,{\blur2}课本…看样子是没带呢
+Dialogue: 0,0:25:00.73,0:25:05.62,*Default,NTP,0,0,0,,{\blur2}佐原同学 能麻烦你和佐藤同学换一下位置吗
+Dialogue: 0,0:25:06.04,0:25:06.80,*Default,NTP,0,0,0,,{\blur2}啊 好的
+Dialogue: 0,0:25:27.09,0:25:28.97,*Default,NTP,0,0,0,,{\blur2}喂 你要去哪啊 那边是…
+Dialogue: 0,0:25:33.78,0:25:36.40,*Default,NTP,0,0,0,,{\blur2}这里是禁止进入的 以免有人自杀
+Dialogue: 0,0:25:37.46,0:25:41.70,*Default,NTP,0,0,0,,{\blur2}检测到在这里面有极高浓度的「地灵」
+Dialogue: 0,0:25:37.46,0:25:41.70,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1260,1004.6)}genius loci
+Dialogue: 0,0:25:42.70,0:25:46.71,*Default,NTP,0,0,0,,{\blur2}也就是说是个适合建造神殿的地方
+Dialogue: 0,0:25:47.52,0:25:50.73,*Default,NTP,0,0,0,,{\blur2}不可能的 你重新想个设定吧
+Dialogue: 0,0:25:51.94,0:25:52.55,*Default,NTP,0,0,0,,{\blur2}魔法开锁器
+Dialogue: 0,0:25:52.93,0:25:53.93,*Default,NTP,0,0,0,,{\blur2}哪里魔法了啊
+Dialogue: 0,0:25:54.79,0:25:56.83,*Default,NTP,0,0,0,,{\blur2}根本就没有半点使用魔力的打算吧
+Dialogue: 0,0:25:57.77,0:25:59.97,*Default,NTP,0,0,0,,{\blur2}就算一脸不满也没用的 回去了
+Dialogue: 0,0:26:10.70,0:26:11.05,*Default,NTP,0,0,0,,{\blur2}怎么了
+Dialogue: 0,0:26:13.02,0:26:14.29,*Default,NTP,0,0,0,,{\blur2}喂喂 你要去哪
+Dialogue: 0,0:26:15.85,0:26:16.75,*Default,NTP,0,0,0,,{\blur2}探索
+Dialogue: 0,0:26:17.36,0:26:19.71,*Default,NTP,0,0,0,,{\blur2}不行 马上就要开始上课了
+Dialogue: 0,0:26:22.65,0:26:23.24,*Default,NTP,0,0,0,,{\blur2}好痛
+Dialogue: 0,0:26:29.82,0:26:31.34,*Default,NTP,0,0,0,,{\blur2}原来是这样…
+Dialogue: 0,0:26:40.58,0:26:44.36,*Default,NTP,0,0,0,,{\blur2}又要燃烧我了吗…「逆十字」
+Dialogue: 0,0:26:40.58,0:26:44.36,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1145,1011)}Anti Cross
+Dialogue: 0,0:26:47.49,0:26:49.53,*Default,NTP,0,0,0,,{\blur2}宙斯赫尔姆发来联络了
+Dialogue: 0,0:26:49.12,0:26:49.81,*Default,NTP,0,0,0,,{\blur2}给我让开
+Dialogue: 0,0:26:53.23,0:26:54.80,*Default,NTP,0,0,0,,{\blur2}佐藤啊
+Dialogue: 0,0:26:55.00,0:26:58.10,*Default,NTP,0,0,0,,{\blur2}让为这世界担忧的我们 一起干涉世界的选择吧
+Dialogue: 0,0:26:55.50,0:26:57.74,*Default,NTP,0,0,0,,{\blur2}{\an8}看来要发生不得了的事情了
+Dialogue: 0,0:26:57.31,0:26:58.33,*Default,NTP,0,0,0,,{\blur2}不懂你们在说啥
+Dialogue: 0,0:26:59.86,0:27:02.44,*Default,NTP,0,0,0,,{\blur2}佐藤 看这个
+Dialogue: 0,0:27:05.70,0:27:06.64,*Default,NTP,0,0,0,,{\blur2}无礼之人
+Dialogue: 0,0:27:07.59,0:27:09.83,*Default,NTP,0,0,0,,{\blur2}居然无视求救的妇女
+Dialogue: 0,0:27:12.15,0:27:13.61,*Default,NTP,0,0,0,,{\blur2}你这样也算是个武士吗
+Dialogue: 0,0:27:14.32,0:27:15.08,*Default,NTP,0,0,0,,{\blur2}根本就不是
+Dialogue: 0,0:27:18.63,0:27:23.78,*Default,NTP,0,0,0,,{\blur2}原来如此 你将他们称为「妄想战士」吗
+Dialogue: 0,0:27:18.63,0:27:23.78,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1170,1011)}Dream soldier
+Dialogue: 0,0:27:24.66,0:27:26.39,*Default,NTP,0,0,0,,{\blur2}你取名字的品位不错嘛
+Dialogue: 0,0:27:27.30,0:27:32.68,*Default,NTP,0,0,0,,{\blur2}您知道我们班里有多少这种满脑子妄想的人吗
+Dialogue: 0,0:27:33.28,0:27:34.37,*Default,NTP,0,0,0,,{\blur2}不好说呢
+Dialogue: 0,0:27:34.50,0:27:35.67,*Default,NTP,0,0,0,,{\blur2}有一半
+Dialogue: 0,0:27:36.54,0:27:40.59,*Default,NTP,0,0,0,,{\blur2}一个班32个人 有一半不正常了啊
+Dialogue: 0,0:27:41.57,0:27:46.63,*Default,NTP,0,0,0,,{\blur2}这说法真过分呢 他们是喜欢你才接近你的吧
+Dialogue: 0,0:27:47.50,0:27:49.31,*Default,NTP,0,0,0,,{\blur2}大概是因为我和良子在一起吧
+Dialogue: 0,0:27:50.02,0:27:55.47,*Default,NTP,0,0,0,,{\blur2}虽然这只是误会 但是我好像被认为是对妄想很宽容的人了
+Dialogue: 0,0:27:56.15,0:27:59.60,*Default,NTP,0,0,0,,{\blur2}也就是说他们喜欢佐藤吧 这不是很好吗
+Dialogue: 0,0:28:00.40,0:28:05.20,*Default,NTP,0,0,0,,{\blur2}别开玩笑了 最喜欢说什么前世啊转生啊战士啊的
+Dialogue: 0,0:28:05.58,0:28:09.90,*Default,NTP,0,0,0,,{\blur2}对现在的人生是假的 前世才是真货一事深信不疑
+Dialogue: 0,0:28:10.31,0:28:12.82,*Default,NTP,0,0,0,,{\blur2}这已经不是妄想癖太强的问题了
+Dialogue: 0,0:28:13.15,0:28:14.13,*Default,NTP,0,0,0,,{\blur2}这种人…
+Dialogue: 0,0:28:20.97,0:28:22.67,*Default,NTP,0,0,0,,{\blur2}不愧是你 很了解呢
+Dialogue: 0,0:28:25.44,0:28:28.57,*Default,NTP,0,0,0,,{\blur2}但是确实不能让他们这样下去呢
+Dialogue: 0,0:28:29.50,0:28:32.77,*Default,NTP,0,0,0,,{\blur2}我知道了 我也思考一下对策吧
+Dialogue: 0,0:28:36.65,0:28:38.56,*Default,NTP,0,0,0,,{\blur2}今天我打算调换大家的座位
+Dialogue: 0,0:28:46.06,0:28:47.22,*Default,NTP,0,0,0,,{\blur2}就这样吧
+Dialogue: 0,0:29:14.56,0:29:15.28,*Default,NTP,0,0,0,,{\blur2}喂
+Dialogue: 0,0:29:15.69,0:29:18.10,*Default,NTP,0,0,0,,{\blur2}好啊 佐藤 是我 鸯老
+Dialogue: 0,0:29:18.54,0:29:21.69,*Default,NTP,0,0,0,,{\blur2}老师？为什么你会知道我的手机号
+Dialogue: 0,0:29:21.90,0:29:23.02,*Default,NTP,0,0,0,,{\blur2}因为爱啊 佐藤
+Dialogue: 0,0:29:23.53,0:29:25.19,*Default,NTP,0,0,0,,{\blur2}那么那个座位表是怎么回事啊
+Dialogue: 0,0:29:25.50,0:29:28.30,*Default,NTP,0,0,0,,{\blur2}明天你能到车站附近吗
+Dialogue: 0,0:29:28.55,0:29:30.88,*Default,NTP,0,0,0,,{\blur2}明天可是星期天啊
+Dialogue: 0,0:29:31.84,0:29:36.12,*Default,NTP,0,0,0,,{\blur2}我想召开能让佐藤今后安心生活的会议
+Dialogue: 0,0:29:36.96,0:29:37.68,*Default,NTP,0,0,0,,{\blur2}哈…
+Dialogue: 0,0:29:47.04,0:29:49.77,*Default,NTP,0,0,0,,{\blur2}为 为什么是你 鸯老呢
+Dialogue: 0,0:29:50.45,0:29:52.05,*Default,NTP,0,0,0,,{\blur2}电话是探寻者打的
+Dialogue: 0,0:29:50.45,0:29:52.05,*Default,NTP,0,0,0,,{\blur2\fs30\pos(985,1011)}Researcher
+Dialogue: 0,0:29:52.59,0:29:55.87,*Default,NTP,0,0,0,,{\blur2}哼 你说谎 那确实是真正的鸯老的声音
+Dialogue: 0,0:29:56.67,0:29:58.10,*Default,NTP,0,0,0,,{\blur2}因为爱啊 Men's
+Dialogue: 0,0:30:03.65,0:30:06.84,*Default,NTP,0,0,0,,{\blur2}说来我还是问一句吧 为什么叫我出来
+Dialogue: 0,0:30:08.08,0:30:09.59,*Default,NTP,0,0,0,,{\blur2}而且你这是什么吃法啊
+Dialogue: 0,0:30:11.73,0:30:14.25,*Default,NTP,0,0,0,,{\blur2}探寻者仍然在进行单独搜查
+Dialogue: 0,0:30:11.73,0:30:14.25,*Default,NTP,0,0,0,,{\blur2\fs30\pos(750,1011)}Researcher
+Dialogue: 0,0:30:14.87,0:30:16.29,*Default,NTP,0,0,0,,{\blur2}效率非常低下
+Dialogue: 0,0:30:17.12,0:30:21.53,*Default,NTP,0,0,0,,{\blur2}一郎应该马上加入探索 支援主单位的行动
+Dialogue: 0,0:30:17.12,0:30:21.53,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1177,1011)}Master Unit
+Dialogue: 0,0:30:22.36,0:30:24.85,*Default,NTP,0,0,0,,{\blur2}I have control I have control
+Dialogue: 0,0:30:25.53,0:30:26.38,*Default,NTP,0,0,0,,{\blur2}果然吗…
+Dialogue: 0,0:30:27.54,0:30:30.10,*Default,NTP,0,0,0,,{\blur2}我说啊 只在学校里进行探索就够了吧
+Dialogue: 0,0:30:30.89,0:30:35.86,*Default,NTP,0,0,0,,{\blur2}虽然学校里也有龙端子 但在街上也确认到了其存在 所以不行
+Dialogue: 0,0:30:36.60,0:30:38.66,*Default,NTP,0,0,0,,{\blur2}啊 刚才那句「不行」有点像人话了
+Dialogue: 0,0:30:39.11,0:30:40.51,*Default,NTP,0,0,0,,{\blur2}发现你演技的破绽了
+Dialogue: 0,0:30:44.51,0:30:46.46,*Default,NTP,0,0,0,,{\blur2}喂 等等 别推啊 你这家伙
+Dialogue: 0,0:30:53.65,0:30:54.41,*Default,NTP,0,0,0,,{\blur2}{\an8}不好了 走吧
+Dialogue: 0,0:30:58.80,0:31:00.55,*Default,NTP,0,0,0,,{\blur2}所以说 你很恶心啊
+Dialogue: 0,0:31:01.55,0:31:02.58,*Default,NTP,0,0,0,,{\blur2}给我说人话啊
+Dialogue: 0,0:31:05.60,0:31:08.28,*Default,NTP,0,0,0,,{\blur2}别开玩笑了 你在小看我吗 喂
+Dialogue: 0,0:31:08.97,0:31:09.52,*Default,NTP,0,0,0,,{\blur2}山本同学
+Dialogue: 0,0:31:15.10,0:31:15.85,*Default,NTP,0,0,0,,{\blur2}佐藤同学
+Dialogue: 0,0:31:16.65,0:31:18.51,*Default,NTP,0,0,0,,{\blur2}子鸠同学 这是怎么…
+Dialogue: 0,0:31:18.42,0:31:19.73,*Default,NTP,0,0,0,,{\blur2}{\an8}喂 你听得到吗
+Dialogue: 0,0:31:19.45,0:31:22.53,*Default,NTP,0,0,0,,{\blur2}那个 刚开始是小弓提醒她没穿校服
+Dialogue: 0,0:31:20.74,0:31:23.13,*Default,NTP,0,0,0,,{\blur2}{\an8}织田 你戴什么眼罩
+Dialogue: 0,0:31:23.40,0:31:24.94,*Default,NTP,0,0,0,,{\blur2}但是被佐藤同学无视了
+Dialogue: 0,0:31:24.83,0:31:25.80,*Default,NTP,0,0,0,,{\blur2}{\an8}在下…
+Dialogue: 0,0:31:26.15,0:31:28.24,*Default,NTP,0,0,0,,{\blur2}所以大岛就心情不好了
+Dialogue: 0,0:31:26.16,0:31:27.89,*Default,NTP,0,0,0,,{\blur2}{\an8}什么在下 恶心
+Dialogue: 0,0:31:28.82,0:31:29.26,*Default,NTP,0,0,0,,{\blur2}{\an8}给我脱下来
+Dialogue: 0,0:31:29.87,0:31:32.19,*Default,NTP,0,0,0,,{\blur2}然后就针对她不好好说话的问题
+Dialogue: 0,0:31:32.59,0:31:34.89,*Default,NTP,0,0,0,,{\blur2}那奇怪的法杖的问题 越说就越生气
+Dialogue: 0,0:31:35.12,0:31:37.56,*Default,NTP,0,0,0,,{\blur2}{\an8}别无视我啊 混蛋 摘下来
+Dialogue: 0,0:31:35.82,0:31:39.42,*Default,NTP,0,0,0,,{\blur2}最后不止针对佐藤同学一个人 发展到了全员…
+Dialogue: 0,0:31:41.32,0:31:43.72,*Default,NTP,0,0,0,,{\blur2}两位都是 不要生气啦
+Dialogue: 0,0:31:44.23,0:31:46.28,*Default,NTP,0,0,0,,{\blur2}子鸠 跟你没关系 一边去
+Dialogue: 0,0:31:46.76,0:31:48.54,*Default,NTP,0,0,0,,{\blur2}我还没能接受呢
+Dialogue: 0,0:31:48.57,0:31:49.13,*Default,NTP,0,0,0,,{\blur2}但是
+Dialogue: 0,0:31:50.11,0:31:51.86,*Default,NTP,0,0,0,,{\blur2}我又不是在欺负她
+Dialogue: 0,0:31:53.23,0:31:55.55,*Default,NTP,0,0,0,,{\blur2}只是提醒她要穿校服而已
+Dialogue: 0,0:31:56.23,0:31:59.79,*Default,NTP,0,0,0,,{\blur2}子鸠你没必要这么慌张 去小秋那里吧
+Dialogue: 0,0:32:03.09,0:32:06.63,*Default,NTP,0,0,0,,{\blur2}总之 穿着违反校规的衣服的家伙
+Dialogue: 0,0:32:07.09,0:32:07.89,*Default,NTP,0,0,0,,{\blur2}全给我脱了
+Dialogue: 0,0:32:08.78,0:32:11.93,*Default,NTP,0,0,0,,{\blur2}只有自己能够爱怎么穿怎么穿 很不公平吧
+Dialogue: 0,0:32:13.02,0:32:15.49,*Default,NTP,0,0,0,,{\blur2}就是啊 我也这么想
+Dialogue: 0,0:32:16.66,0:32:18.75,*Default,NTP,0,0,0,,{\blur2}织田 首先是你
+Dialogue: 0,0:32:19.62,0:32:20.81,*Default,NTP,0,0,0,,{\blur2}我帮你把眼罩扔了好了
+Dialogue: 0,0:32:22.77,0:32:23.67,*Default,NTP,0,0,0,,{\blur2}不要
+Dialogue: 0,0:32:24.19,0:32:25.37,*Default,NTP,0,0,0,,{\blur2}住手啊 山本同学
+Dialogue: 0,0:32:25.97,0:32:27.35,*Default,NTP,0,0,0,,{\blur2}居然对妇女使用暴力…
+Dialogue: 0,0:32:33.97,0:32:35.68,*Default,NTP,0,0,0,,{\blur2}好了 一条杂鱼屈服了
+Dialogue: 0,0:32:38.16,0:32:38.54,*Default,NTP,0,0,0,,{\blur2}痛
+Dialogue: 0,0:32:41.66,0:32:44.38,*Default,NTP,0,0,0,,{\blur2}混蛋 别开玩笑了
+Dialogue: 0,0:32:45.81,0:32:46.89,*Default,NTP,0,0,0,,{\blur2}我真的杀了你啊
+Dialogue: 0,0:32:55.73,0:32:57.79,*Default,NTP,0,0,0,,{\blur2}混蛋 佐藤
+Dialogue: 0,0:32:59.45,0:33:00.38,*Default,NTP,0,0,0,,{\blur2}别开玩笑了
+Dialogue: 0,0:33:01.95,0:33:04.88,*Default,NTP,0,0,0,,{\blur2}明明是个杂鱼 还敢动手吗 啊？
+Dialogue: 0,0:33:05.68,0:33:08.95,*Default,NTP,0,0,0,,{\blur2}杂鱼是你吧 我吃的盐比你吃的饭都多
+Dialogue: 0,0:33:11.23,0:33:11.77,*Default,NTP,0,0,0,,{\blur2}你…
+Dialogue: 0,0:33:12.71,0:33:14.47,*Default,NTP,0,0,0,,{\blur2}你有口臭啊 山本
+Dialogue: 0,0:33:22.05,0:33:22.68,*Default,NTP,0,0,0,,{\blur2}你这混蛋
+Dialogue: 0,0:33:42.12,0:33:42.94,*Default,NTP,0,0,0,,{\blur2}你们在干什么
+Dialogue: 0,0:33:44.32,0:33:45.55,*Default,NTP,0,0,0,,{\blur2}山本 笨蛋 快住手啊
+Dialogue: 0,0:33:46.89,0:33:47.74,*Default,NTP,0,0,0,,{\blur2}你在干什么
+Dialogue: 0,0:33:49.83,0:33:50.90,*Default,NTP,0,0,0,,{\blur2}喂 没事吧
+Dialogue: 0,0:33:52.10,0:33:55.36,*Default,NTP,0,0,0,,{\blur2}这可真过分 来人把他送到医务室吧
+Dialogue: 0,0:33:56.04,0:33:57.00,*Default,NTP,0,0,0,,{\blur2}啊 我来
+Dialogue: 0,0:33:57.63,0:33:58.17,*Default,NTP,0,0,0,,{\blur2}我也…
+Dialogue: 0,0:34:01.27,0:34:03.48,*Default,NTP,0,0,0,,{\blur2}怎么了啊 这是…
+Dialogue: 0,0:34:20.65,0:34:22.94,*Default,NTP,0,0,0,,{\blur2}那孩子明明已经没有罪过了
+Dialogue: 0,0:34:31.20,0:34:33.15,*Default,NTP,0,0,0,,{\blur2}告诉我是谁打你的
+Dialogue: 0,0:34:34.09,0:34:35.10,*Default,NTP,0,0,0,,{\blur2}还有他的地址
+Dialogue: 0,0:34:37.57,0:34:38.48,*Default,NTP,0,0,0,,{\blur2}好可怕啊
+Dialogue: 0,0:34:46.44,0:34:47.56,*Default,NTP,0,0,0,,{\blur2}早上好
+Dialogue: 0,0:34:49.95,0:34:51.95,*Default,NTP,0,0,0,,{\blur2}早…早上好 怎么了
+Dialogue: 0,0:34:52.34,0:34:55.90,*Default,NTP,0,0,0,,{\blur2}佐藤同学是什么特殊组织的大人物吗
+Dialogue: 0,0:34:56.47,0:34:57.65,*Default,NTP,0,0,0,,{\blur2}哈？为什么啊
+Dialogue: 0,0:34:58.09,0:35:00.91,*Default,NTP,0,0,0,,{\blur2}因为你很有人气啊 而且被打了也若无其事的样子
+Dialogue: 0,0:35:01.37,0:35:03.04,*Default,NTP,0,0,0,,{\blur2}很有人气？我吗？
+Dialogue: 0,0:35:03.61,0:35:04.44,*Default,NTP,0,0,0,,{\blur2}没这种事啦
+Dialogue: 0,0:35:04.90,0:35:08.23,*Default,NTP,0,0,0,,{\blur2}是吗 我也觉得佐藤同学很厉害啊
+Dialogue: 0,0:35:08.84,0:35:13.51,*Default,NTP,0,0,0,,{\blur2}整个班大概有一半人 都有种很喜欢佐藤同学的感觉呢
+Dialogue: 0,0:35:21.31,0:35:24.66,*Default,NTP,0,0,0,,{\blur2}因为他们在身为人类之前 首先是一名战士啦
+Dialogue: 0,0:35:25.30,0:35:26.59,*Default,NTP,0,0,0,,{\blur2}所以不算在人数里头
+Dialogue: 0,0:35:27.45,0:35:31.02,*Default,NTP,0,0,0,,{\blur2}而且 我觉得做那种事会被讨厌也是理所当然的
+Dialogue: 0,0:35:31.66,0:35:33.31,*Default,NTP,0,0,0,,{\blur2}比如你们集团的山本同学
+Dialogue: 0,0:35:34.51,0:35:37.86,*Default,NTP,0,0,0,,{\blur2}啊 山本同学 听说要停学一段时间了
+Dialogue: 0,0:35:38.44,0:35:41.74,*Default,NTP,0,0,0,,{\blur2}经过这次事件 大家对山本同学的评价低了很多呢
+Dialogue: 0,0:35:45.00,0:35:46.95,*Default,NTP,0,0,0,,{\blur2}啊 上课了哦 佐藤同学
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,0:35:56.72,0:35:58.44,*Default,NTP,0,0,0,,{\blur2}佐藤同学 你带便当了吗
+Dialogue: 0,0:36:01.04,0:36:02.98,*Default,NTP,0,0,0,,{\blur2}那 那就是午饭？
+Dialogue: 0,0:36:03.65,0:36:05.79,*Default,NTP,0,0,0,,{\blur2}进食意味着补充能量
+Dialogue: 0,0:36:06.50,0:36:07.94,*Default,NTP,0,0,0,,{\blur2}是碳素型活动体的整备…
+Dialogue: 0,0:36:07.97,0:36:10.94,*Default,NTP,0,0,0,,{\blur2}怎么了 别人看不见你的设定呢
+Dialogue: 0,0:36:11.74,0:36:15.25,*Default,NTP,0,0,0,,{\blur2}通过光学的微调整 扩大了可视范围
+Dialogue: 0,0:36:16.02,0:36:16.84,*Default,NTP,0,0,0,,{\blur2}通过这样 一部分的人…
+Dialogue: 0,0:36:16.94,0:36:18.03,*Default,NTP,0,0,0,,{\blur2}是是是
+Dialogue: 0,0:36:18.82,0:36:19.31,*Default,NTP,0,0,0,,{\blur2}开吃吧
+Dialogue: 0,0:36:20.01,0:36:22.31,*Default,NTP,0,0,0,,{\blur2}不如吃我的小菜吧
+Dialogue: 0,0:36:22.64,0:36:23.84,*Default,NTP,0,0,0,,{\blur2}夹你喜欢的就好
+Dialogue: 0,0:36:30.53,0:36:31.11,*Default,NTP,0,0,0,,{\blur2}好吃吗
+Dialogue: 0,0:36:32.28,0:36:34.48,*Default,NTP,0,0,0,,{\blur2}探寻者通过生体升级
+Dialogue: 0,0:36:32.28,0:36:34.48,*Default,NTP,0,0,0,,{\blur2\fs30\pos(820,1011)}Researcher
+Dialogue: 0,0:36:32.28,0:36:34.48,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1123,1011)}Upgrade
+Dialogue: 0,0:36:34.71,0:36:39.00,*Default,NTP,0,0,0,,{\blur2}去除了不需要的味觉 所以感觉不到美味的成分
+Dialogue: 0,0:36:39.28,0:36:40.71,*Default,NTP,0,0,0,,{\blur2}这个设定是刚想的吧
+Dialogue: 0,0:36:42.33,0:36:44.91,*Default,NTP,0,0,0,,{\blur2}真的很厉害呢 佐藤同学
+Dialogue: 0,0:36:45.51,0:36:50.10,*Default,NTP,0,0,0,,{\blur2}但是都叫佐藤同学很难分辨 能叫你良子同学吗
+Dialogue: 0,0:36:52.26,0:36:52.96,*Default,NTP,0,0,0,,{\blur2}可以吧
+Dialogue: 0,0:36:53.58,0:36:56.62,*Default,NTP,0,0,0,,{\blur2}那也用名字叫佐藤同学吧
+Dialogue: 0,0:36:56.97,0:36:59.82,*Default,NTP,0,0,0,,{\blur2}诶 要叫一文不值的我的名字吗
+Dialogue: 0,0:37:00.11,0:37:01.23,*Default,NTP,0,0,0,,{\blur2}才不是一文不值呢
+Dialogue: 0,0:37:29.40,0:37:30.70,*Default,NTP,0,0,0,,{\blur2}良子 借我课本看看
+Dialogue: 0,0:37:35.23,0:37:38.91,*Default,NTP,0,0,0,,{\blur2}喂 今天也要去探索吧 快点搞定吧
+Dialogue: 0,0:37:41.44,0:37:41.98,*Default,NTP,0,0,0,,{\blur2}怎么了
+Dialogue: 0,0:37:49.53,0:37:50.08,*Default,NTP,0,0,0,,{\blur2}鞋呢？
+Dialogue: 0,0:37:50.47,0:37:51.02,*Default,NTP,0,0,0,,{\blur2}不明
+Dialogue: 0,0:37:51.62,0:37:52.66,*Default,NTP,0,0,0,,{\blur2}今天早上是放进去了的吧
+Dialogue: 0,0:37:53.12,0:37:53.80,*Default,NTP,0,0,0,,{\blur2}放进去了
+Dialogue: 0,0:37:54.65,0:37:55.91,*Default,NTP,0,0,0,,{\blur2}被偷了…吗
+Dialogue: 0,0:37:58.19,0:38:00.37,*Default,NTP,0,0,0,,{\blur2}三件事接连发生 没跑了呢
+Dialogue: 0,0:38:02.07,0:38:05.68,*Default,NTP,0,0,0,,{\blur2}别在意了 你没有被孤立 没事的
+Dialogue: 0,0:38:06.79,0:38:11.85,*Default,NTP,0,0,0,,{\blur2}探寻者为了单独完成任务 接受过特殊的训练和调整
+Dialogue: 0,0:38:06.79,0:38:11.85,*Default,NTP,0,0,0,,{\blur2\fs30\pos(510,1011)}Researcher
+Dialogue: 0,0:38:12.80,0:38:14.05,*Default,NTP,0,0,0,,{\blur2}知道了知道了
+Dialogue: 0,0:38:15.10,0:38:16.15,*Default,NTP,0,0,0,,{\blur2}但是别勉强自己哦
+Dialogue: 0,0:38:17.08,0:38:18.93,*Default,NTP,0,0,0,,{\blur2}有麻烦的话 要跟我说哦
+Dialogue: 0,0:38:22.59,0:38:24.04,*Default,NTP,0,0,0,,{\blur2}现在就有想和你讨论的事
+Dialogue: 0,0:38:24.55,0:38:26.14,*Default,NTP,0,0,0,,{\blur2}哦 有吗 说吧
+Dialogue: 0,0:38:27.22,0:38:30.08,*Default,NTP,0,0,0,,{\blur2}探寻者需要一个咒术的触媒
+Dialogue: 0,0:38:27.22,0:38:30.08,*Default,NTP,0,0,0,,{\blur2\fs30\pos(752,1011)}Researcher
+Dialogue: 0,0:38:30.98,0:38:32.57,*Default,NTP,0,0,0,,{\blur2}希望一郎提供
+Dialogue: 0,0:38:32.88,0:38:35.53,*Default,NTP,0,0,0,,{\blur2}你就算这种时候也坚持自己的设定啊
+Dialogue: 0,0:38:37.05,0:38:39.86,*Default,NTP,0,0,0,,{\blur2}好啊 只要是我能做的事都没问题
+Dialogue: 0,0:38:40.74,0:38:41.77,*Default,NTP,0,0,0,,{\blur2}你需要什么？
+Dialogue: 0,0:38:42.64,0:38:43.87,*Default,NTP,0,0,0,,{\blur2}下半身的体毛
+Dialogue: 0,0:38:44.33,0:38:46.73,*Default,NTP,0,0,0,,{\blur2}我会努力用暴力以外的方法杀了你的
+Dialogue: 0,0:38:47.47,0:38:51.27,*Default,NTP,0,0,0,,{\blur2}刚刚的杀人预告已经由全权持有者录音了
+Dialogue: 0,0:38:51.75,0:38:52.87,*Default,NTP,0,0,0,,{\blur2}将成为物证
+Dialogue: 0,0:38:53.66,0:38:54.39,*Default,NTP,0,0,0,,{\blur2}随便你说
+Dialogue: 0,0:38:55.28,0:38:57.38,*Default,NTP,0,0,0,,{\blur2}但是 没有鞋子真是麻烦了啊
+Dialogue: 0,0:38:58.32,0:39:00.05,*Default,NTP,0,0,0,,{\blur2}在这等等 我去给你买双
+Dialogue: 0,0:39:00.91,0:39:01.91,*Default,NTP,0,0,0,,{\blur2}你有多少钱？
+Dialogue: 0,0:39:04.00,0:39:04.70,*Default,NTP,0,0,0,,{\blur2}所持金
+Dialogue: 0,0:39:05.03,0:39:07.09,*Default,NTP,0,0,0,,{\blur2}别带这么多来啊 会被偷的
+Dialogue: 0,0:39:07.79,0:39:08.61,*Default,NTP,0,0,0,,{\blur2}我要跟你同行
+Dialogue: 0,0:39:08.65,0:39:09.26,*Default,NTP,0,0,0,,{\blur2}为什么
+Dialogue: 0,0:39:09.67,0:39:10.30,*Default,NTP,0,0,0,,{\blur2}店内探索
+Dialogue: 0,0:39:10.66,0:39:12.23,*Default,NTP,0,0,0,,{\blur2}没有的没有的 绝对没有
+Dialogue: 0,0:39:13.20,0:39:14.67,*Default,NTP,0,0,0,,{\blur2}而且会弄脏脚
+Dialogue: 0,0:39:15.41,0:39:16.86,*Default,NTP,0,0,0,,{\blur2}我不想看到那种事
+Dialogue: 0,0:39:23.58,0:39:24.75,*Default,NTP,0,0,0,,{\blur2}这样就不会弄脏了
+Dialogue: 0,0:39:25.28,0:39:26.63,*Default,NTP,0,0,0,,{\blur2}你是叫我这样走吗
+Dialogue: 0,0:39:34.61,0:39:37.94,*Default,NTP,0,0,0,,{\blur2}这种时候的法则 是穿便宜的鞋子上学
+Dialogue: 0,0:39:39.55,0:39:42.86,*Default,NTP,0,0,0,,{\blur2}包括预备的 多准备几双鞋也不会亏的
+Dialogue: 0,0:39:45.33,0:39:45.94,*Default,NTP,0,0,0,,{\blur2}你在听吗
+Dialogue: 0,0:40:14.73,0:40:15.45,*Default,NTP,0,0,0,,{\blur2}一郎…
+Dialogue: 0,0:40:22.68,0:40:25.64,*Default,NTP,0,0,0,,{\blur2}太不设防了啊 真是的
+Dialogue: 0,0:40:43.93,0:40:44.67,*Default,NTP,0,0,0,,{\blur2}佐藤…
+Dialogue: 0,0:40:45.90,0:40:46.92,*Default,NTP,0,0,0,,{\blur2}这是…那个
+Dialogue: 0,0:40:49.29,0:40:51.16,*Default,NTP,0,0,0,,{\blur2}我说啊 不用干这种事的
+Dialogue: 0,0:40:51.94,0:40:52.87,*Default,NTP,0,0,0,,{\blur2}你也会被卷进去的
+Dialogue: 0,0:40:53.32,0:40:54.21,*Default,NTP,0,0,0,,{\blur2}你在说什么 佐藤
+Dialogue: 0,0:40:54.83,0:40:56.93,*Default,NTP,0,0,0,,{\blur2}平时都是你在守护我们的性命
+Dialogue: 0,0:40:57.48,0:40:59.00,*Default,NTP,0,0,0,,{\blur2}这种程度的回礼算不上什么
+Dialogue: 0,0:40:58.96,0:40:59.78,*Default,NTP,0,0,0,,{\blur2}我才没有守护
+Dialogue: 0,0:41:16.87,0:41:19.37,*Default,NTP,0,0,0,,{\blur2}没事吗 要和我的交换吗
+Dialogue: 0,0:41:21.51,0:41:22.95,*Default,NTP,0,0,0,,{\blur2}没什么问题
+Dialogue: 0,0:41:24.04,0:41:27.08,*Default,NTP,0,0,0,,{\blur2}很有问题啊 这必须得在班会上报道
+Dialogue: 0,0:41:27.46,0:41:29.68,*Default,NTP,0,0,0,,{\blur2}啊啊 应该不用吧
+Dialogue: 0,0:41:30.09,0:41:33.60,*Default,NTP,0,0,0,,{\blur2}一郎君真冷漠 明明这涂鸦这么过分
+Dialogue: 0,0:41:34.16,0:41:36.45,*Default,NTP,0,0,0,,{\blur2}怎么能原谅这种行为
+Dialogue: 0,0:41:37.26,0:41:38.84,*Default,NTP,0,0,0,,{\blur2}你们两个可能不知道
+Dialogue: 0,0:41:39.66,0:41:44.21,*Default,NTP,0,0,0,,{\blur2}但是自己的事情被拿到班会上报道 是件很不舒服的事情
+Dialogue: 0,0:41:45.83,0:41:47.69,*Default,NTP,0,0,0,,{\blur2}总之得先洗掉
+Dialogue: 0,0:41:48.14,0:41:49.29,*Default,NTP,0,0,0,,{\blur2}不用稀释剂洗不掉的哦
+Dialogue: 0,0:41:49.69,0:41:52.37,*Default,NTP,0,0,0,,{\blur2}稀释剂是吧 我去美术室借回来
+Dialogue: 0,0:42:15.36,0:42:15.82,*Default,NTP,0,0,0,,{\blur2}喂 佐藤
+Dialogue: 0,0:42:37.51,0:42:38.10,*Default,NTP,0,0,0,,{\blur2}良子
+Dialogue: 0,0:43:01.41,0:43:04.49,*Default,NTP,0,0,0,,{\blur2}什么啊 你其实不还是受伤了嘛
+Dialogue: 0,0:43:27.37,0:43:28.11,*Default,NTP,0,0,0,,{\blur2}你在干什么啊
+Dialogue: 0,0:43:28.80,0:43:31.87,*Default,NTP,0,0,0,,{\blur2}为为为…为什么 工作呢 不用去理发店吗
+Dialogue: 0,0:43:32.10,0:43:32.63,*Default,NTP,0,0,0,,{\blur2}休息
+Dialogue: 0,0:43:34.78,0:43:36.27,*Default,NTP,0,0,0,,{\blur2}你…你要洗澡吗
+Dialogue: 0,0:43:51.44,0:43:57.21,*Default,NTP,0,0,0,,{\blur2}本来是想带去医务室的 良子她又说不要
+Dialogue: 0,0:43:58.30,0:44:01.00,*Default,NTP,0,0,0,,{\blur2}想送到家也不知道家在哪里
+Dialogue: 0,0:44:01.91,0:44:05.14,*Default,NTP,0,0,0,,{\blur2}能处理的地方也就只剩这里了…
+Dialogue: 0,0:44:06.07,0:44:09.07,*Default,NTP,0,0,0,,{\blur2}你这家伙啊 是我弟弟的什么人
+Dialogue: 0,0:44:14.38,0:44:16.41,*Default,NTP,0,0,0,,{\blur2}什么啊你 找打吗
+Dialogue: 0,0:44:16.75,0:44:18.65,*Default,NTP,0,0,0,,{\blur2}饶了她吧
+Dialogue: 0,0:44:21.71,0:44:23.54,*Default,NTP,0,0,0,,{\blur2}虽然不想对一郎这么说
+Dialogue: 0,0:44:24.21,0:44:26.77,*Default,NTP,0,0,0,,{\blur2}但是我不希望你背叛家人
+Dialogue: 0,0:44:27.53,0:44:28.65,*Default,NTP,0,0,0,,{\blur2}我知道的
+Dialogue: 0,0:44:32.38,0:44:35.19,*Default,NTP,0,0,0,,{\blur2}你这家伙 就饶你这一回
+Dialogue: 0,0:44:35.91,0:44:38.39,*Default,NTP,0,0,0,,{\blur2}但是 赶快和一郎分手
+Dialogue: 0,0:44:38.98,0:44:39.62,*Default,NTP,0,0,0,,{\blur2}出去
+Dialogue: 0,0:44:40.82,0:44:42.50,*Default,NTP,0,0,0,,{\blur2}那个…我说…嗯
+Dialogue: 0,0:44:46.20,0:44:46.64,*Default,NTP,0,0,0,,{\blur2}等等
+Dialogue: 0,0:44:47.09,0:44:47.81,*Default,NTP,0,0,0,,{\blur2}别管她
+Dialogue: 0,0:44:48.55,0:44:50.62,*Default,NTP,0,0,0,,{\blur2}和那种人扯上关系的话 你又会…
+Dialogue: 0,0:44:52.28,0:44:54.10,*Default,NTP,0,0,0,,{\blur2}我知道的…
+Dialogue: 0,0:44:56.10,0:44:57.66,*Default,NTP,0,0,0,,{\blur2}但是…我要追过去了
+Dialogue: 0,0:44:58.18,0:45:00.99,*Default,NTP,0,0,0,,{\blur2}姑且我也算是负责照顾她的
+Dialogue: 0,0:45:22.03,0:45:24.69,*Default,NTP,0,0,0,,{\blur2}我在中学的时候也被欺负过
+Dialogue: 0,0:45:26.06,0:45:29.73,*Default,NTP,0,0,0,,{\blur2}和姐姐 父母的关系变成那样 也是因为这个
+Dialogue: 0,0:45:30.96,0:45:37.21,*Default,NTP,0,0,0,,{\blur2}所以我觉得她们是很担心又会变成那样
+Dialogue: 0,0:45:44.05,0:45:44.54,*Default,NTP,0,0,0,,{\blur2}走吧
+Dialogue: 0,0:45:45.45,0:45:47.23,*Default,NTP,0,0,0,,{\blur2}走…是要去哪
+Dialogue: 0,0:45:48.09,0:45:49.08,*Default,NTP,0,0,0,,{\blur2}那一边
+Dialogue: 0,0:45:52.97,0:45:55.09,*Default,NTP,0,0,0,,{\blur2}你是说我也能去那边的世界吗
+Dialogue: 0,0:45:55.93,0:45:57.83,*Default,NTP,0,0,0,,{\blur2}我能把和我一样的人带过去
+Dialogue: 0,0:45:58.97,0:46:00.61,*Default,NTP,0,0,0,,{\blur2}这个世界已经没有价值了
+Dialogue: 0,0:46:02.38,0:46:03.00,*Default,NTP,0,0,0,,{\blur2}走吧
+Dialogue: 0,0:46:11.03,0:46:16.17,*Default,NTP,0,0,0,,{\blur2}我说啊 如果你把钉子…龙端子全部集齐
+Dialogue: 0,0:46:11.03,0:46:16.17,*Default,NTP,0,0,0,,{\blur2}{\an8}注：良子在收集的龙端子其实是钉子
+Dialogue: 0,0:46:17.63,0:46:19.64,*Default,NTP,0,0,0,,{\blur2}然后要回去的时候
+Dialogue: 0,0:46:20.80,0:46:22.52,*Default,NTP,0,0,0,,{\blur2}如果 那个时候也…
+Dialogue: 0,0:46:27.16,0:46:30.43,*Default,NTP,0,0,0,,{\blur2}今天状态不是很好的样子 我先回去了
+Dialogue: 0,0:46:33.24,0:46:33.89,*Default,NTP,0,0,0,,{\blur2}是吗
+Dialogue: 0,0:46:36.54,0:46:37.36,*Default,NTP,0,0,0,,{\blur2}再见
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,0:47:09.52,0:47:13.16,*Default,NTP,0,0,0,,{\blur2}就算不能抵抗 至少也拨掉吧
+Dialogue: 0,0:47:16.98,0:47:17.74,*Default,NTP,0,0,0,,{\blur2}一郎
+Dialogue: 0,0:47:21.14,0:47:21.99,*Default,NTP,0,0,0,,{\blur2}谢谢你
+Dialogue: 0,0:47:27.01,0:47:30.39,*Default,NTP,0,0,0,,{\blur2}佐藤同学 你知道你在干什么吗
+Dialogue: 0,0:47:31.35,0:47:32.82,*Default,NTP,0,0,0,,{\blur2}是你先动手的吧
+Dialogue: 0,0:47:33.44,0:47:35.20,*Default,NTP,0,0,0,,{\blur2}闭嘴 和这没关系吧
+Dialogue: 0,0:47:36.08,0:47:40.22,*Default,NTP,0,0,0,,{\blur2}有关系 而且是班主任拜托我照顾良子的
+Dialogue: 0,0:47:40.96,0:47:42.51,*Default,NTP,0,0,0,,{\blur2}这我可不能坐视不管吧
+Dialogue: 0,0:47:43.28,0:47:46.07,*Default,NTP,0,0,0,,{\blur2}而且我还能向班主任报告这事的
+Dialogue: 0,0:47:46.85,0:47:49.37,*Default,NTP,0,0,0,,{\blur2}你想退学吗 想在家里爽吗
+Dialogue: 0,0:47:50.92,0:47:51.67,*Default,NTP,0,0,0,,{\blur2}烦人
+Dialogue: 0,0:47:52.27,0:47:55.54,*Default,NTP,0,0,0,,{\blur2}我才觉得烦呢 要无视的话就无视到底
+Dialogue: 0,0:47:56.34,0:47:58.90,*Default,NTP,0,0,0,,{\blur2}要是还继续干这种事的话 我定以牙还牙
+Dialogue: 0,0:48:06.63,0:48:07.27,*Default,NTP,0,0,0,,{\blur2}真是的
+Dialogue: 0,0:48:08.02,0:48:10.63,*Default,NTP,0,0,0,,{\blur2}怎么了 良子同学发生什么事了吗
+Dialogue: 0,0:48:11.34,0:48:12.34,*Default,NTP,0,0,0,,{\blur2}不 什么事都没有
+Dialogue: 0,0:48:13.61,0:48:16.12,*Default,NTP,0,0,0,,{\blur2}要吃午饭是吧 能等等吗
+Dialogue: 0,0:48:16.75,0:48:17.57,*Default,NTP,0,0,0,,{\blur2}我先去洗个手
+Dialogue: 0,0:48:26.84,0:48:29.86,*Default,NTP,0,0,0,,{\blur2}「飞灵」啊 君的思念并非仅是君之物
+Dialogue: 0,0:48:30.49,0:48:31.76,*Default,NTP,0,0,0,,{\blur2}绝不要忘记…
+Dialogue: 0,0:48:32.89,0:48:35.88,*Default,NTP,0,0,0,,{\blur2}等等 佐藤 我们不能只让你一个人战斗
+Dialogue: 0,0:48:36.68,0:48:38.29,*Default,NTP,0,0,0,,{\blur2}我们也已经做好觉悟了
+Dialogue: 0,0:48:38.60,0:48:39.70,*Default,NTP,0,0,0,,{\blur2}别说这种自己做不到的事情了
+Dialogue: 0,0:48:40.39,0:48:43.76,*Default,NTP,0,0,0,,{\blur2}休出无礼之言 在下可以一战 此次定要…
+Dialogue: 0,0:48:44.10,0:48:44.82,*Default,NTP,0,0,0,,{\blur2}让开
+Dialogue: 0,0:48:50.37,0:48:52.27,*Default,NTP,0,0,0,,{\blur2}我并不是那边的人
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,0:49:07.04,0:49:08.29,*Default,NTP,0,0,0,,{\blur2}那待会再见咯
+Dialogue: 0,0:49:12.19,0:49:14.31,*Default,NTP,0,0,0,,{\blur2}佐藤 跟我来一趟
+Dialogue: 0,0:49:21.73,0:49:25.87,*Default,NTP,0,0,0,,{\blur2}佐藤啊 你知道自己为什么被叫出来吗
+Dialogue: 0,0:49:26.54,0:49:27.74,*Default,NTP,0,0,0,,{\blur2}我怎么可能知道
+Dialogue: 0,0:49:29.54,0:49:33.23,*Default,NTP,0,0,0,,{\blur2}今天啊 有想让佐藤看的东西
+Dialogue: 0,0:49:38.73,0:49:40.62,*Default,NTP,0,0,0,,{\blur2}看到了吧 理解没？
+Dialogue: 0,0:49:41.62,0:49:43.59,*Default,NTP,0,0,0,,{\blur2}那是…为什么…
+Dialogue: 0,0:49:44.20,0:49:48.05,*Default,NTP,0,0,0,,{\blur2}拜托朋友找了和佐藤一个初中的女生
+Dialogue: 0,0:49:49.26,0:49:51.89,*Default,NTP,0,0,0,,{\blur2}然后呢 我全部都听说了
+Dialogue: 0,0:49:52.44,0:49:54.83,*Default,NTP,0,0,0,,{\blur2}还找到了留着照片的女生
+Dialogue: 0,0:49:55.43,0:49:57.82,*Default,NTP,0,0,0,,{\blur2}这可真厉害啊
+Dialogue: 0,0:50:00.38,0:50:05.02,*Default,NTP,0,0,0,,{\blur2}要是这个暴露了 会有人从佐藤身边离开的吧
+Dialogue: 0,0:50:06.54,0:50:08.39,*Default,NTP,0,0,0,,{\blur2}比如子鸠
+Dialogue: 0,0:50:09.58,0:50:11.79,*Default,NTP,0,0,0,,{\blur2}别碍我们的事
+Dialogue: 0,0:50:13.54,0:50:14.43,*Default,NTP,0,0,0,,{\blur2}知道了吗？
+Dialogue: 0,0:50:15.81,0:50:19.73,*Default,NTP,0,0,0,,{\blur2}只要不是良子 我是不会管的
+Dialogue: 0,0:50:20.25,0:50:21.19,*Default,NTP,0,0,0,,{\blur2}你是笨蛋吗？
+Dialogue: 0,0:50:22.19,0:50:25.41,*Default,NTP,0,0,0,,{\blur2}我是在叫你别再帮那个家伙了
+Dialogue: 0,0:50:26.26,0:50:29.05,*Default,NTP,0,0,0,,{\blur2}今后你们两个佐藤永远别扯到一块去了
+Dialogue: 0,0:50:29.37,0:50:30.11,*Default,NTP,0,0,0,,{\blur2}别包庇她了
+Dialogue: 0,0:50:31.37,0:50:35.19,*Default,NTP,0,0,0,,{\blur2}你就这么讨厌良子吗
+Dialogue: 0,0:50:35.69,0:50:37.90,*Default,NTP,0,0,0,,{\blur2}佐藤良子被欺负是理所当然的
+Dialogue: 0,0:50:38.18,0:50:39.44,*Default,NTP,0,0,0,,{\blur2}不如说包庇她的人比较神经病
+Dialogue: 0,0:50:39.81,0:50:43.21,*Default,NTP,0,0,0,,{\blur2}什么COSPLAY的 是得到了谁的许可？
+Dialogue: 0,0:50:43.97,0:50:45.68,*Default,NTP,0,0,0,,{\blur2}这明摆着违反校规了吧
+Dialogue: 0,0:50:46.14,0:50:49.93,*Default,NTP,0,0,0,,{\blur2}难不成我们抽烟也不会受罚吗？
+Dialogue: 0,0:50:50.75,0:50:53.82,*Default,NTP,0,0,0,,{\blur2}肯定会的吧？别开玩笑了啊
+Dialogue: 0,0:50:56.87,0:50:59.48,*Default,NTP,0,0,0,,{\blur2}所以说啊 滚一边去
+Dialogue: 0,0:51:00.73,0:51:03.93,*Default,NTP,0,0,0,,{\blur2}知道了吗？光牙同学
+Dialogue: 0,0:51:05.78,0:51:07.65,*Default,NTP,0,0,0,,{\blur2}佐藤那个照片 真的好过分啊
+Dialogue: 0,0:51:26.09,0:51:28.17,*Default,NTP,0,0,0,,{\blur2}一郎 今天我想去探索
+Dialogue: 0,0:51:29.00,0:51:30.59,*Default,NTP,0,0,0,,{\blur2}不可能 我有事干
+Dialogue: 0,0:51:31.82,0:51:33.11,*Default,NTP,0,0,0,,{\blur2}明显违反了规定
+Dialogue: 0,0:51:39.96,0:51:40.64,*Default,NTP,0,0,0,,{\blur2}不可能的
+Dialogue: 0,0:51:41.72,0:51:44.43,*Default,NTP,0,0,0,,{\blur2}但是 如果无法发现并确保龙端子的话
+Dialogue: 0,0:51:44.97,0:51:46.76,*Default,NTP,0,0,0,,{\blur2}世界说不定会陷入前所未有的危机
+Dialogue: 0,0:51:46.40,0:51:47.12,*Default,NTP,0,0,0,,{\blur2}不好意思
+Dialogue: 0,0:52:30.39,0:52:33.08,*Default,NTP,0,0,0,,{\blur2}不好意思 我已经不能和你一起行动了
+Dialogue: 0,0:52:34.04,0:52:37.14,*Default,NTP,0,0,0,,{\blur2}就算你跟我搭话 在学校我也没法正常地和你交流
+Dialogue: 0,0:52:38.43,0:52:39.89,*Default,NTP,0,0,0,,{\blur2}你约好帮我探索的
+Dialogue: 0,0:52:40.39,0:52:41.45,*Default,NTP,0,0,0,,{\blur2}那件事我会帮忙
+Dialogue: 0,0:52:41.94,0:52:43.08,*Default,NTP,0,0,0,,{\blur2}但是要分开行动
+Dialogue: 0,0:52:43.90,0:52:46.27,*Default,NTP,0,0,0,,{\blur2}我自己会找的 所以你也自己去找吧
+Dialogue: 0,0:52:50.56,0:52:52.16,*Default,NTP,0,0,0,,{\blur2}一郎在说欺负人的话
+Dialogue: 0,0:52:53.61,0:52:54.43,*Default,NTP,0,0,0,,{\blur2}是呢
+Dialogue: 0,0:52:57.69,0:52:59.61,*Default,NTP,0,0,0,,{\blur2}如果无论如何都忍不下去的话
+Dialogue: 0,0:53:00.49,0:53:02.08,*Default,NTP,0,0,0,,{\blur2}就扔掉你这身 穿上校服吧
+Dialogue: 0,0:53:02.82,0:53:04.38,*Default,NTP,0,0,0,,{\blur2}那样不仅会降低防御力
+Dialogue: 0,0:53:04.62,0:53:08.73,*Default,NTP,0,0,0,,{\blur2}探寻者还通过隐蔽式而使现象界人无法视认
+Dialogue: 0,0:53:04.62,0:53:08.73,*Default,NTP,0,0,0,,{\blur2\fs30\pos(588.2,1011)}Researcher
+Dialogue: 0,0:53:09.27,0:53:11.36,*Default,NTP,0,0,0,,{\blur2}{\an1}所以穿校服是没有意义…
+Dialogue: 0,0:53:09.80,0:53:11.49,*Default,NTP,0,0,0,,{\blur2}{\an3}你为什么要那样说啊
+Dialogue: 0,0:53:12.64,0:53:15.11,*Default,NTP,0,0,0,,{\blur2}就不能努力保护自己吗
+Dialogue: 0,0:53:15.79,0:53:19.11,*Default,NTP,0,0,0,,{\blur2}演示与众不同的自己就那么重要吗
+Dialogue: 0,0:53:19.79,0:53:21.00,*Default,NTP,0,0,0,,{\blur2}你够了吧
+Dialogue: 0,0:53:22.41,0:53:24.58,*Default,NTP,0,0,0,,{\blur2}正是因为发觉了自己有多么愚蠢
+Dialogue: 0,0:53:25.24,0:53:26.53,*Default,NTP,0,0,0,,{\blur2}正是因为察觉到了
+Dialogue: 0,0:53:27.34,0:53:29.61,*Default,NTP,0,0,0,,{\blur2}所以才回不去了啊
+Dialogue: 0,0:53:32.23,0:53:35.35,*Default,NTP,0,0,0,,{\blur2}你 还有那群「妄想战士」
+Dialogue: 0,0:53:32.23,0:53:35.35,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1080,1011)}Dream soldier
+Dialogue: 0,0:53:36.30,0:53:38.37,*Default,NTP,0,0,0,,{\blur2}说到底都是幼稚地想引人注目而已
+Dialogue: 0,0:53:39.43,0:53:43.03,*Default,NTP,0,0,0,,{\blur2}本来是想要让光彩照人的自己受到注目的 但却做不到这一点
+Dialogue: 0,0:53:43.85,0:53:46.35,*Default,NTP,0,0,0,,{\blur2}所以才通过这种捷径让自己看起来很帅气
+Dialogue: 0,0:53:48.04,0:53:49.60,*Default,NTP,0,0,0,,{\blur2}你就这么讨厌普通吗
+Dialogue: 0,0:53:49.95,0:53:51.82,*Default,NTP,0,0,0,,{\blur2}生为一个普通人有这么让你不满吗
+Dialogue: 0,0:53:52.84,0:53:53.54,*Default,NTP,0,0,0,,{\blur2}想要引人注目的话
+Dialogue: 0,0:53:54.04,0:53:56.25,*Default,NTP,0,0,0,,{\blur2}那就努力让自己成为一个受人关注的人啊
+Dialogue: 0,0:53:56.66,0:53:57.77,*Default,NTP,0,0,0,,{\blur2}去花时间啊
+Dialogue: 0,0:53:58.85,0:54:01.59,*Default,NTP,0,0,0,,{\blur2}不要跳过这些过程光是追求结果
+Dialogue: 0,0:54:02.70,0:54:05.53,*Default,NTP,0,0,0,,{\blur2}我啊 最讨厌这种人了
+Dialogue: 0,0:54:06.74,0:54:08.37,*Default,NTP,0,0,0,,{\blur2}被欺负也是理所当然的
+Dialogue: 0,0:54:09.73,0:54:11.37,*Default,NTP,0,0,0,,{\blur2}一郎你的压抑感…
+Dialogue: 0,0:54:23.09,0:54:27.72,*Default,NTP,0,0,0,,{\blur2}你为什么不能率直一点 让我想要去帮助你啊
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,0:54:47.44,0:54:47.76,*Default,NTP,0,0,0,,{\blur2}给
+Dialogue: 0,0:54:53.67,0:54:54.17,mark,NTP,0,0,0,,{\an5\fs30\c&H000000&)\pos(710,490)}金属棒 龙
+Dialogue: 0,0:54:54.17,0:54:55.31,mark,NTP,0,0,0,,{\an5\fs30\c&H000000&\pos(510,70)}金属棒 龙
+Dialogue: 0,0:55:09.30,0:55:12.64,*Default,NTP,0,0,0,,{\blur2}听说拥有可以实现一切愿望的金色之力…
+Dialogue: 0,0:55:13.58,0:55:14.76,*Default,NTP,0,0,0,,{\blur2}这不是都市传说吗
+Dialogue: 0,0:55:19.06,0:55:20.16,*Default,NTP,0,0,0,,{\blur2}一郎 吃饭了
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,0:55:51.34,0:55:52.23,*Default,NTP,0,0,0,,{\blur2}真的有啊…
+Dialogue: 0,0:55:52.90,0:55:54.19,*Default,NTP,0,0,0,,{\blur2}等等 叫你呢
+Dialogue: 0,0:56:00.90,0:56:03.86,*Default,NTP,0,0,0,,{\blur2}这表你有戴着啊 我很高兴
+Dialogue: 0,0:56:05.18,0:56:05.64,*Default,NTP,0,0,0,,{\blur2}是
+Dialogue: 0,0:56:06.25,0:56:09.38,*Default,NTP,0,0,0,,{\blur2}虽然对你的女朋友很抱歉 但这我得回收
+Dialogue: 0,0:56:10.25,0:56:11.18,*Default,NTP,0,0,0,,{\blur2}回收？
+Dialogue: 0,0:56:11.73,0:56:14.23,*Default,NTP,0,0,0,,{\blur2}我负责维护这个传说的道具
+Dialogue: 0,0:56:14.93,0:56:18.68,*Default,NTP,0,0,0,,{\blur2}要是有了污迹啊锈迹之类的 神秘性就会减弱了吧？
+Dialogue: 0,0:56:19.33,0:56:22.25,*Default,NTP,0,0,0,,{\blur2}维护传说…这说法真是厉害呢
+Dialogue: 0,0:56:24.91,0:56:29.05,*Default,NTP,0,0,0,,{\blur2}几年前 我偶尔在网上看到了这枚钉子的传说
+Dialogue: 0,0:56:29.88,0:56:33.11,*Default,NTP,0,0,0,,{\blur2}就是在那之后开始的 虽然没有任何人拜托我
+Dialogue: 0,0:56:33.65,0:56:35.27,*Default,NTP,0,0,0,,{\blur2}有一半是依靠兴趣做的
+Dialogue: 0,0:56:35.65,0:56:38.54,*Default,NTP,0,0,0,,{\blur2}第一个做这件事的是谁
+Dialogue: 0,0:56:39.14,0:56:40.24,*Default,NTP,0,0,0,,{\blur2}不知道啊
+Dialogue: 0,0:56:40.84,0:56:43.08,*Default,NTP,0,0,0,,{\blur2}都市传说就是这种东西吧
+Dialogue: 0,0:56:43.89,0:56:44.26,*Default,NTP,0,0,0,,{\blur2}是呢
+Dialogue: 0,0:56:45.26,0:56:47.51,*Default,NTP,0,0,0,,{\blur2}你也对这种东西有兴趣吗
+Dialogue: 0,0:56:49.26,0:56:50.97,*Default,NTP,0,0,0,,{\blur2}不…我没有
+Dialogue: 0,0:56:51.81,0:56:54.15,*Default,NTP,0,0,0,,{\blur2}不如说…很讨厌 不喜欢
+Dialogue: 0,0:56:57.26,0:56:58.54,*Default,NTP,0,0,0,,{\blur2}讨厌…呢
+Dialogue: 0,0:57:02.34,0:57:03.31,*Default,NTP,0,0,0,,{\blur2}这又是为什么
+Dialogue: 0,0:57:05.62,0:57:10.14,*Default,NTP,0,0,0,,{\blur2}以前 有个朋友…有个蠢朋友
+Dialogue: 0,0:57:10.95,0:57:14.10,*Default,NTP,0,0,0,,{\blur2}那家伙 觉得自己是被选中的异世界的战士
+Dialogue: 0,0:57:14.61,0:57:17.32,*Default,NTP,0,0,0,,{\blur2}真正的双亲被圣龙神阿斯塔洛伊所杀死
+Dialogue: 0,0:57:17.69,0:57:18.98,*Default,NTP,0,0,0,,{\blur2}…创造出了这一类的设定
+Dialogue: 0,0:57:19.38,0:57:20.19,*Default,NTP,0,0,0,,{\blur2}真帅气呢
+Dialogue: 0,0:57:20.65,0:57:22.79,*Default,NTP,0,0,0,,{\blur2}虽然平时假装成现代人
+Dialogue: 0,0:57:23.28,0:57:24.90,*Default,NTP,0,0,0,,{\blur2}但那只是虚假的身姿
+Dialogue: 0,0:57:25.55,0:57:27.55,*Default,NTP,0,0,0,,{\blur2}如今的双亲只不过是虚假的双亲
+Dialogue: 0,0:57:28.40,0:57:30.33,*Default,NTP,0,0,0,,{\blur2}和他们只有表面上的联系
+Dialogue: 0,0:57:31.62,0:57:35.75,*Default,NTP,0,0,0,,{\blur2}有一次 他为了把这件事告诉留在异世界的他钟爱的艾琳娜公主
+Dialogue: 0,0:57:36.23,0:57:37.30,*Default,NTP,0,0,0,,{\blur2}而写了一封信
+Dialogue: 0,0:57:38.10,0:57:41.90,*Default,NTP,0,0,0,,{\blur2}我…那家伙把那封信投入信箱中了
+Dialogue: 0,0:57:42.40,0:57:44.83,*Default,NTP,0,0,0,,{\blur2}信箱…是真正的信箱吗
+Dialogue: 0,0:57:47.14,0:57:49.80,*Default,NTP,0,0,0,,{\blur2}因为寄送地是莫名其妙的异世界住所
+Dialogue: 0,0:57:50.43,0:57:52.10,*Default,NTP,0,0,0,,{\blur2}所以信理所当然地被打回来了
+Dialogue: 0,0:57:52.93,0:57:54.46,*Default,NTP,0,0,0,,{\blur2}然后两亲读到了那封信
+Dialogue: 0,0:57:55.43,0:57:58.40,*Default,NTP,0,0,0,,{\blur2}分别被父母两个人打了一顿
+Dialogue: 0,0:57:59.80,0:58:02.64,*Default,NTP,0,0,0,,{\blur2}全部都是我亲手毁坏的
+Dialogue: 0,0:58:03.48,0:58:06.68,*Default,NTP,0,0,0,,{\blur2}不管是和家人的关系 还是在学校的生活
+Dialogue: 0,0:58:07.96,0:58:09.01,*Default,NTP,0,0,0,,{\blur2}所以我…
+Dialogue: 0,0:58:09.33,0:58:10.52,*Default,NTP,0,0,0,,{\blur2}想要变得普通？
+Dialogue: 0,0:58:18.75,0:58:21.93,*Default,NTP,0,0,0,,{\blur2}虽然这东西不能给你 不过作为交换 我可以告诉你别的地方
+Dialogue: 0,0:58:33.69,0:58:37.84,*Default,NTP,0,0,0,,{\blur2}我也只是偶然发现的 所以不知道是谁画的
+Dialogue: 0,0:58:38.44,0:58:42.85,*Default,NTP,0,0,0,,{\blur2}但是这枚钉子一定是依照那个图解做出来的吧
+Dialogue: 0,0:58:37.95,0:58:44.45,mark,NTP,0,0,0,,{\frz5\fs40\c&H000000&\pos(794.057,821.143)}到车站附近的小巷里的古书店里来。
+Dialogue: 0,0:58:37.95,0:58:44.45,mark,NTP,0,0,0,,{\fs40\c&H000000&\frz5\pos(829.257,866.856)}在非卖品栏那儿，大概有你要找的东西。
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,1:00:24.57,1:00:26.74,*Default,NTP,0,0,0,,{\blur2}我在干什么啊
+Dialogue: 0,1:00:30.25,1:00:33.12,*Default,NTP,0,0,0,,{\blur2}最近怎么了 没受伤吧
+Dialogue: 0,1:00:34.44,1:00:36.00,*Default,NTP,0,0,0,,{\blur2}我很担心啊
+Dialogue: 0,1:00:36.53,1:00:39.28,*Default,NTP,0,0,0,,{\blur2}为什么休息了 因为身体不好吗
+Dialogue: 0,1:00:41.16,1:00:41.75,*Default,NTP,0,0,0,,{\blur2}你…
+Dialogue: 0,1:00:42.40,1:00:45.02,*Default,NTP,0,0,0,,{\blur2}一郎 我仔细思考了那篇文章后
+Dialogue: 0,1:00:45.96,1:00:47.87,*Default,NTP,0,0,0,,{\blur2}明白了龙端子的生成法
+Dialogue: 0,1:00:49.06,1:00:50.51,*Default,NTP,0,0,0,,{\blur2}根据全权持有者的预想
+Dialogue: 0,1:00:51.00,1:00:55.48,*Default,NTP,0,0,0,,{\blur2}中央集积机关因为这个发现会得到绝大的利益
+Dialogue: 0,1:00:56.29,1:00:59.86,*Default,NTP,0,0,0,,{\blur2}因此探寻者暂时冻结了所有任务
+Dialogue: 0,1:00:56.29,1:00:59.86,*Default,NTP,0,0,0,,{\blur2\fs30\pos(800,1011)}Researcher
+Dialogue: 0,1:01:00.11,1:01:02.14,*Default,NTP,0,0,0,,{\blur2}商讨马上归还的事宜
+Dialogue: 0,1:01:03.24,1:01:03.95,*Default,NTP,0,0,0,,{\blur2}是吗
+Dialogue: 0,1:01:05.16,1:01:08.63,*Default,NTP,0,0,0,,{\blur2}「神殿」的构筑已经在暗中进行了
+Dialogue: 0,1:01:09.43,1:01:11.14,*Default,NTP,0,0,0,,{\blur2}构造已经完成了
+Dialogue: 0,1:01:12.16,1:01:13.19,*Default,NTP,0,0,0,,{\blur2}我不会帮忙的
+Dialogue: 0,1:01:15.07,1:01:19.28,*Default,NTP,0,0,0,,{\blur2}我不会再帮忙了 不管是探索 还是神殿的建造
+Dialogue: 0,1:01:19.78,1:01:26.27,*Default,NTP,0,0,0,,{\blur2}建立神殿所必需的是适当配置能带来咒术作用的固有震动音
+Dialogue: 0,1:01:22.58,1:01:23.67,*Default,NTP,0,0,0,,{\blur2}{\an8}一郎同学？
+Dialogue: 0,1:01:26.95,1:01:31.46,*Default,NTP,0,0,0,,{\blur2}为了求出那个数值 需要运用在这个世界被称为Gematria的数秘术
+Dialogue: 0,1:01:32.22,1:01:35.19,*Default,NTP,0,0,0,,{\blur2}因为不需要居住区 所以偷工减料也没问题
+Dialogue: 0,1:01:35.89,1:01:37.80,*Default,NTP,0,0,0,,{\blur2}就算使用耐震伪装物件也可以
+Dialogue: 0,1:01:43.05,1:01:45.11,*Default,NTP,0,0,0,,{\blur2}一郎 我理解了
+Dialogue: 0,1:01:47.07,1:01:47.71,*Default,NTP,0,0,0,,{\blur2}什 什么啊
+Dialogue: 0,1:01:48.29,1:01:50.57,*Default,NTP,0,0,0,,{\blur2}我确实考虑不周 为此道歉
+Dialogue: 0,1:01:51.23,1:01:53.57,*Default,NTP,0,0,0,,{\blur2}来得真是晚啊 不用道歉了
+Dialogue: 0,1:01:54.45,1:01:58.29,*Default,NTP,0,0,0,,{\blur2}探寻者多少也理解现象界人的价值观
+Dialogue: 0,1:01:54.45,1:01:58.29,*Default,NTP,0,0,0,,{\blur2\fs30\pos(660,1011)}Researcher
+Dialogue: 0,1:02:03.79,1:02:05.27,*Default,NTP,0,0,0,,{\blur2}这都是一郎的东西
+Dialogue: 0,1:02:06.06,1:02:07.37,*Default,NTP,0,0,0,,{\blur2}所以 再来帮我吧
+Dialogue: 0,1:02:08.13,1:02:09.09,*Default,NTP,0,0,0,,{\blur2}你是认真的吗
+Dialogue: 0,1:02:09.79,1:02:13.08,*Default,NTP,0,0,0,,{\blur2}通货我可以筹集到 就算不是无限制…
+Dialogue: 0,1:02:13.28,1:02:15.30,*Default,NTP,0,0,0,,{\blur2}等等啊 这是你父母的钱吧
+Dialogue: 0,1:02:16.09,1:02:17.98,*Default,NTP,0,0,0,,{\blur2}探寻者不存在父母
+Dialogue: 0,1:02:16.09,1:02:17.98,*Default,NTP,0,0,0,,{\blur2\fs30\pos(845,1011)}Researcher
+Dialogue: 0,1:02:19.69,1:02:21.67,*Default,NTP,0,0,0,,{\blur2}住手 别开这种玩笑
+Dialogue: 0,1:02:22.23,1:02:24.85,*Default,NTP,0,0,0,,{\blur2}这是事实 我在这个世界没有肉亲
+Dialogue: 0,1:02:27.13,1:02:30.56,*Default,NTP,0,0,0,,{\blur2}虽然有虚假的父母 但那也不过是拟态
+Dialogue: 0,1:02:32.21,1:02:35.50,*Default,NTP,0,0,0,,{\blur2}说起来 对于现象界人来说 肉亲这种概念…
+Dialogue: 0,1:02:35.76,1:02:37.20,*Default,NTP,0,0,0,,{\blur2}你是笨蛋吗
+Dialogue: 0,1:02:39.81,1:02:43.37,*Default,NTP,0,0,0,,{\blur2}滚出去 不要再和我说话了
+Dialogue: 0,1:02:45.89,1:02:46.61,*Default,NTP,0,0,0,,{\blur2}就是说…
+Dialogue: 0,1:02:50.27,1:02:52.37,*Default,NTP,0,0,0,,{\blur2}为 为什么 怎么了
+Dialogue: 0,1:02:59.85,1:03:01.78,mark,NTP,0,0,0,,{\an7\fs40}为了赞赏光牙同学的奋斗送你一件礼物！\N赶快到以往的那个地方来\N在被人看到之前 赶快！！
+Dialogue: 0,1:03:16.07,1:03:17.08,*Default,NTP,0,0,0,,{\blur2}呐 那是什么
+Dialogue: 0,1:03:17.27,1:03:18.37,*Default,NTP,0,0,0,,{\blur2}好大 真厉害啊
+Dialogue: 0,1:03:26.69,1:03:27.53,*Default,NTP,0,0,0,,{\blur2}那是什么啊
+Dialogue: 0,1:03:30.83,1:03:32.84,*Default,NTP,0,0,0,,{\blur2}禁止进入 请快点回去
+Dialogue: 0,1:03:35.44,1:03:36.08,*Default,NTP,0,0,0,,{\blur2}一郎同学
+Dialogue: 0,1:03:36.72,1:03:37.93,*Default,NTP,0,0,0,,{\blur2}子鸠同学 这是…
+Dialogue: 0,1:03:38.27,1:03:42.18,*Default,NTP,0,0,0,,{\blur2}不好了 听说良子同学把自己关在屋顶了
+Dialogue: 0,1:03:43.99,1:03:45.28,*Default,NTP,0,0,0,,{\blur2}佐藤 你回来了吗
+Dialogue: 0,1:03:45.80,1:03:48.35,*Default,NTP,0,0,0,,{\blur2}老师 良子在屋顶是真的吗
+Dialogue: 0,1:03:50.23,1:03:51.56,*Default,NTP,0,0,0,,{\blur2}门应该是锁着的才对…
+Dialogue: 0,1:03:52.51,1:03:54.07,*Default,NTP,0,0,0,,{\blur2}看来她是用某种手段侵入了
+Dialogue: 0,1:03:54.79,1:03:55.40,*Default,NTP,0,0,0,,{\blur2}警察呢？
+Dialogue: 0,1:03:56.12,1:03:59.64,*Default,NTP,0,0,0,,{\blur2}要是惊动警察的话 她就不能来上学了
+Dialogue: 0,1:04:17.83,1:04:18.63,*Default,NTP,0,0,0,,{\blur2}真的假的啊
+Dialogue: 0,1:04:19.92,1:04:20.72,*Default,NTP,0,0,0,,{\blur2}良子
+Dialogue: 0,1:04:29.99,1:04:31.42,*Default,NTP,0,0,0,,{\blur2}神殿已经建好了
+Dialogue: 0,1:04:32.14,1:04:34.18,*Default,NTP,0,0,0,,{\blur2}楼下已经乱成一团了啊
+Dialogue: 0,1:04:34.89,1:04:37.70,*Default,NTP,0,0,0,,{\blur2}没有关系 与我无关
+Dialogue: 0,1:04:37.71,1:04:39.72,*Default,NTP,0,0,0,,{\blur2}等等 现在马上到你那去
+Dialogue: 0,1:04:54.62,1:04:57.84,*Default,NTP,0,0,0,,{\blur2}这就是你的理想世界吗
+Dialogue: 0,1:05:16.79,1:05:18.74,*Default,NTP,0,0,0,,{\blur2}为什么要做这种事
+Dialogue: 0,1:05:19.23,1:05:20.16,*Default,NTP,0,0,0,,{\blur2}别过来
+Dialogue: 0,1:05:22.92,1:05:26.09,*Default,NTP,0,0,0,,{\blur2}要是不和我一起归还的话 就别过来
+Dialogue: 0,1:05:28.28,1:05:30.76,*Default,NTP,0,0,0,,{\blur2}什么啊 为什么要逃避啊
+Dialogue: 0,1:05:31.36,1:05:33.94,*Default,NTP,0,0,0,,{\blur2}因为一郎你成为了那边的人
+Dialogue: 0,1:05:34.52,1:05:36.81,*Default,NTP,0,0,0,,{\blur2}是啊 我就是这边的人
+Dialogue: 0,1:05:37.25,1:05:38.81,*Default,NTP,0,0,0,,{\blur2}你一开始就明白的吧
+Dialogue: 0,1:05:39.69,1:05:42.53,*Default,NTP,0,0,0,,{\blur2}不对 一郎是不一样的
+Dialogue: 0,1:05:42.84,1:05:44.32,*Default,NTP,0,0,0,,{\blur2}还隐藏着另一个一郎
+Dialogue: 0,1:05:45.12,1:05:46.75,*Default,NTP,0,0,0,,{\blur2}我知道这件事
+Dialogue: 0,1:05:47.37,1:05:47.69,*Default,NTP,0,0,0,,{\blur2}所以…
+Dialogue: 0,1:05:50.45,1:05:53.84,*Default,NTP,0,0,0,,{\blur2}想要和你一起归还 想要让你看到
+Dialogue: 0,1:05:54.39,1:05:55.90,*Default,NTP,0,0,0,,{\blur2}想要让我看到…什么？
+Dialogue: 0,1:05:56.74,1:05:57.73,*Default,NTP,0,0,0,,{\blur2}我的世界
+Dialogue: 0,1:05:58.24,1:06:01.40,*Default,NTP,0,0,0,,{\blur2}没有那种东西！你也明白的吧！
+Dialogue: 0,1:06:02.65,1:06:06.56,*Default,NTP,0,0,0,,{\blur2}这座神殿是为了举办仪式归还而建造的吧
+Dialogue: 0,1:06:07.57,1:06:10.14,*Default,NTP,0,0,0,,{\blur2}确实这神殿很厉害 这点我承认
+Dialogue: 0,1:06:10.66,1:06:12.67,*Default,NTP,0,0,0,,{\blur2}但是 但是啊
+Dialogue: 0,1:06:13.19,1:06:14.45,*Default,NTP,0,0,0,,{\blur2}要是回不去的话
+Dialogue: 0,1:06:15.19,1:06:18.61,*Default,NTP,0,0,0,,{\blur2}要是仪式完成后 等待着的还是无聊透顶的现实的话你要怎么办
+Dialogue: 0,1:06:19.19,1:06:21.50,*Default,NTP,0,0,0,,{\blur2}你能够忍受吗
+Dialogue: 0,1:06:22.46,1:06:24.50,*Default,NTP,0,0,0,,{\blur2}仪式之后就不存在现实了
+Dialogue: 0,1:06:26.86,1:06:27.73,*Default,NTP,0,0,0,,{\blur2}你在说什么啊
+Dialogue: 0,1:06:28.73,1:06:31.89,*Default,NTP,0,0,0,,{\blur2}你…你想要死吗？
+Dialogue: 0,1:06:32.42,1:06:34.65,*Default,NTP,0,0,0,,{\blur2}不是死 而是为了归还
+Dialogue: 0,1:06:35.28,1:06:38.33,*Default,NTP,0,0,0,,{\blur2\fs30\pos(775,1011)}Convert
+Dialogue: 0,1:06:35.28,1:06:38.33,*Default,NTP,0,0,0,,{\blur2}需要转变与这个世界之间的相差
+Dialogue: 0,1:06:39.17,1:06:42.80,*Default,NTP,0,0,0,,{\blur2}要启动这个仪式 最适合的便是自由落体
+Dialogue: 0,1:06:43.86,1:06:47.96,*Default,NTP,0,0,0,,{\blur2}你真的相信吗 这种蠢话
+Dialogue: 0,1:06:52.64,1:06:56.35,*Default,NTP,0,0,0,,{\blur2}别归还了啊 一直呆在这里也好啊
+Dialogue: 0,1:06:56.74,1:07:00.52,*Default,NTP,0,0,0,,{\blur2}一郎才是 你真的觉得这个世界很有趣吗
+Dialogue: 0,1:07:00.88,1:07:01.63,*Default,NTP,0,0,0,,{\blur2}这…
+Dialogue: 0,1:07:04.93,1:07:09.67,*Default,NTP,0,0,0,,{\blur2}没错 我确实是个无法融入普通高中生之中的人
+Dialogue: 0,1:07:10.89,1:07:12.89,*Default,NTP,0,0,0,,{\blur2}可是 我才像这样努力着啊
+Dialogue: 0,1:07:13.17,1:07:14.57,*Default,NTP,0,0,0,,{\blur2}我无法努力
+Dialogue: 0,1:07:15.03,1:07:15.97,*Default,NTP,0,0,0,,{\blur2}为什么啊
+Dialogue: 0,1:07:16.60,1:07:17.63,*Default,NTP,0,0,0,,{\blur2}因为无法接受与众不同的想法
+Dialogue: 0,1:07:18.37,1:07:19.15,*Default,NTP,0,0,0,,{\blur2}谁啊
+Dialogue: 0,1:07:20.33,1:07:21.27,*Default,NTP,0,0,0,,{\blur2}这个世界
+Dialogue: 0,1:07:27.16,1:07:29.74,*Default,NTP,0,0,0,,{\blur2}一郎到最后还是没有给我看到
+Dialogue: 0,1:07:30.48,1:07:32.86,*Default,NTP,0,0,0,,{\blur2}我还以为你拥有和我一样的东西
+Dialogue: 0,1:07:34.33,1:07:36.35,*Default,NTP,0,0,0,,{\blur2}一郎的心中已经不存在战士了
+Dialogue: 0,1:07:37.36,1:07:40.02,*Default,NTP,0,0,0,,{\blur2}这样的话我…我…
+Dialogue: 0,1:07:41.79,1:07:44.07,*Default,NTP,0,0,0,,{\blur2}明白了自己只能一个人回去了
+Dialogue: 0,1:07:47.82,1:07:49.33,*Default,NTP,0,0,0,,{\blur2}ATAH·MALKUTH·VE-GEBURAH
+Dialogue: 0,1:07:50.31,1:07:52.01,*Default,NTP,0,0,0,,{\blur2}进入归还准备状态
+Dialogue: 0,1:07:52.86,1:07:55.51,*Default,NTP,0,0,0,,{\blur2}要归还了 回到应有的世界
+Dialogue: 0,1:07:57.31,1:08:01.12,*Default,NTP,0,0,0,,{\blur2}不会错的 明明绝对不会错的
+Dialogue: 0,1:08:01.60,1:08:03.58,*Default,NTP,0,0,0,,{\blur2}一郎绝对是这边的人才对
+Dialogue: 0,1:08:04.53,1:08:05.39,*Default,NTP,0,0,0,,{\blur2}为什么…
+Dialogue: 0,1:08:07.51,1:08:08.12,*Default,NTP,0,0,0,,{\blur2}我要归还了
+Dialogue: 0,1:08:08.56,1:08:09.36,*Default,NTP,0,0,0,,{\blur2}良子
+Dialogue: 0,1:08:09.98,1:08:12.05,*Default,NTP,0,0,0,,{\blur2}等我一下 我马上回来
+Dialogue: 0,1:08:13.99,1:08:16.56,*Default,NTP,0,0,0,,{\blur2}五分钟 知道了吗 等我五分钟
+Dialogue: 0,1:08:20.26,1:08:22.88,*Default,NTP,0,0,0,,{\blur2}良子 正如你所说
+Dialogue: 0,1:08:23.58,1:08:25.59,*Default,NTP,0,0,0,,{\blur2}世界无法接受与众不同
+Dialogue: 0,1:08:25.92,1:08:28.73,*Default,NTP,0,0,0,,{\blur2}我们大家都努力着变得狭隘
+Dialogue: 0,1:08:29.57,1:08:33.09,*Default,NTP,0,0,0,,{\blur2}要不是这样的话 就会害怕得不得了
+Dialogue: 0,1:08:33.99,1:08:36.18,*Default,NTP,0,0,0,,{\blur2}我们想要墨守成规 以此求得安心
+Dialogue: 0,1:08:36.94,1:08:39.57,*Default,NTP,0,0,0,,{\blur2}因为引人注目的话 就会被贴上恶心的标签
+Dialogue: 0,1:08:41.19,1:08:43.20,*Default,NTP,0,0,0,,{\blur2}但是我 我们
+Dialogue: 0,1:08:44.19,1:08:51.93,*Default,NTP,0,0,0,,{\blur2}真的想把神 魔法 怪物 神秘 奇迹 传承 终末
+Dialogue: 0,1:08:52.40,1:08:54.27,*Default,NTP,0,0,0,,{\blur2}想把这些东西作为我们生活的忠告
+Dialogue: 0,1:08:54.64,1:08:56.41,*Default,NTP,0,0,0,,{\blur2}不想去自己并不喜欢的卡拉OK
+Dialogue: 0,1:08:56.79,1:08:59.38,*Default,NTP,0,0,0,,{\blur2}不想对着自己不喜欢的人摇头摆尾
+Dialogue: 0,1:09:00.79,1:09:04.17,*Default,NTP,0,0,0,,{\blur2}但是没有办法啊 为了平凡地活下去
+Dialogue: 0,1:09:05.16,1:09:07.37,*Default,NTP,0,0,0,,{\blur2}不管现在的我说什么
+Dialogue: 0,1:09:08.32,1:09:10.60,*Default,NTP,0,0,0,,{\blur2}恐怕也无法摇动良子的心
+Dialogue: 0,1:09:11.81,1:09:12.83,*Default,NTP,0,0,0,,{\blur2}但就算这样 也还有一个方法
+Dialogue: 0,1:09:13.96,1:09:16.73,*Default,NTP,0,0,0,,{\blur2}能将语言传达到良子心里
+Dialogue: 0,1:09:18.41,1:09:22.22,*Default,NTP,0,0,0,,{\blur2}所以就这一次 最后这一次
+Dialogue: 0,1:09:23.30,1:09:24.95,*Default,NTP,0,0,0,,{\blur2}我可以试着去战斗吧
+Dialogue: 0,1:09:36.53,1:09:38.00,*Default,NTP,0,0,0,,{\blur2}啊啊 真正的力量
+Dialogue: 0,1:09:38.67,1:09:40.20,*Default,NTP,0,0,0,,{\blur2}「飞灵」真正的力量！
+Dialogue: 0,1:09:40.90,1:09:43.76,*Default,NTP,0,0,0,,{\blur2}居然…这就是那家伙的最终形态吗！
+Dialogue: 0,1:09:50.97,1:09:52.97,*Default,NTP,0,0,0,,{\blur2}很帅气啊 加油
+Dialogue: 0,1:09:53.57,1:09:55.14,*Default,NTP,0,0,0,,{\blur2}所有责任由我来负
+Dialogue: 0,1:09:55.80,1:09:57.67,*Default,NTP,0,0,0,,{\blur2}佐藤 尽情上吧
+Dialogue: 0,1:09:58.40,1:09:59.47,*Default,NTP,0,0,0,,{\blur2}了解
+Dialogue: 0,1:10:07.15,1:10:10.75,*Default,NTP,0,0,0,,{\blur2}必杀 秘剑「七式」
+Dialogue: 0,1:10:14.95,1:10:16.34,*Default,NTP,0,0,0,,{\blur2}良子
+Dialogue: 0,1:10:17.41,1:10:21.07,*Default,NTP,0,0,0,,{\blur2}你很寂寞吧
+Dialogue: 0,1:10:31.53,1:10:32.61,*Default,NTP,0,0,0,,{\blur2}听着啊 良子
+Dialogue: 0,1:10:33.77,1:10:36.86,*Default,NTP,0,0,0,,{\blur2}我是出身于异世界「镜面界」的最强战士
+Dialogue: 0,1:10:37.51,1:10:38.85,*Default,NTP,0,0,0,,{\blur2}魔龙院光牙
+Dialogue: 0,1:10:39.81,1:10:44.37,*Default,NTP,0,0,0,,{\blur2}虽然拥有魔属性 却听命于绝对善的圣龙神
+Dialogue: 0,1:10:44.91,1:10:47.21,*Default,NTP,0,0,0,,{\blur2}是最帅气的黑暗英雄
+Dialogue: 0,1:10:48.14,1:10:51.74,*Default,NTP,0,0,0,,{\blur2}失去家人和伙伴 孤独地旅行着的我
+Dialogue: 0,1:10:52.30,1:10:55.78,*Default,NTP,0,0,0,,{\blur2}与亡国的艾莉娜公主相会 紧接着堕入爱河
+Dialogue: 0,1:10:56.55,1:11:01.56,*Default,NTP,0,0,0,,{\blur2}但是却受到了过去的主君阿斯塔洛伊的袭击 我丢掉了性命
+Dialogue: 0,1:11:03.92,1:11:09.11,*Default,NTP,0,0,0,,{\blur2}但是艾莉娜公主用自己的性命作为交换 将我的灵魂送到了现世
+Dialogue: 0,1:11:09.50,1:11:11.87,*Default,NTP,0,0,0,,{\blur2}让我在这个世界转生了
+Dialogue: 0,1:11:13.80,1:11:22.02,*Default,NTP,0,0,0,,{\blur2}但是她失算了 刚好在那里的阿斯塔洛伊的军队也转生到了现世
+Dialogue: 0,1:11:22.86,1:11:26.73,*Default,NTP,0,0,0,,{\blur2}我为了守护这个世界 和他们战斗
+Dialogue: 0,1:11:28.20,1:11:30.55,*Default,NTP,0,0,0,,{\blur2}他们转生为了欺负人的家伙
+Dialogue: 0,1:11:31.18,1:11:35.42,*Default,NTP,0,0,0,,{\blur2}我战斗了三年 最后活下来了
+Dialogue: 0,1:11:41.59,1:11:47.06,*Default,NTP,0,0,0,,{\blur2}战斗结束了 现在的我作为普通的高中生生活着
+Dialogue: 0,1:11:52.95,1:11:57.81,*Default,NTP,0,0,0,,{\blur2}对了 良子 你收集的龙端子
+Dialogue: 0,1:11:58.79,1:12:01.50,*Default,NTP,0,0,0,,{\blur2}那是阿斯塔洛伊的碎片
+Dialogue: 0,1:12:02.35,1:12:05.91,*Default,NTP,0,0,0,,{\blur2}是绝对不能带到别的世界的东西
+Dialogue: 0,1:12:07.04,1:12:10.50,*Default,NTP,0,0,0,,{\blur2}所以 你要把它带回去的话
+Dialogue: 0,1:12:11.80,1:12:14.62,*Default,NTP,0,0,0,,{\blur2}我就算赌上性命也要阻止你
+Dialogue: 0,1:12:25.14,1:12:26.08,*Default,NTP,0,0,0,,{\blur2}那算什么啊
+Dialogue: 0,1:12:27.85,1:12:31.44,*Default,NTP,0,0,0,,{\blur2}良子 你想要去的那个地方啊
+Dialogue: 0,1:12:32.27,1:12:35.71,*Default,NTP,0,0,0,,{\blur2}以前我也想要去过
+Dialogue: 0,1:12:36.47,1:12:37.44,*Default,NTP,0,0,0,,{\blur2}一郎也…？
+Dialogue: 0,1:12:37.65,1:12:40.97,*Default,NTP,0,0,0,,{\blur2}嗯 当了三年的「妄想战士」
+Dialogue: 0,1:12:37.65,1:12:40.97,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1100,1011)}Dream soldier
+Dialogue: 0,1:12:41.67,1:12:43.64,*Default,NTP,0,0,0,,{\blur2}在那段时间内饱受欺凌
+Dialogue: 0,1:12:44.27,1:12:46.40,*Default,NTP,0,0,0,,{\blur2}因为很痛苦 所以加深了妄想
+Dialogue: 0,1:12:47.27,1:12:49.54,*Default,NTP,0,0,0,,{\blur2}最后和家人也发生了争执
+Dialogue: 0,1:12:49.60,1:12:51.39,*Default,NTP,0,0,0,,{\blur2}想要逃往自己的世界
+Dialogue: 0,1:12:52.68,1:12:54.17,*Default,NTP,0,0,0,,{\blur2}所以我知道
+Dialogue: 0,1:12:54.70,1:12:57.92,*Default,NTP,0,0,0,,{\blur2}你的目标是一条死路
+Dialogue: 0,1:12:58.81,1:12:59.81,*Default,NTP,0,0,0,,{\blur2}去不了任何地方
+Dialogue: 0,1:13:00.66,1:13:03.00,*Default,NTP,0,0,0,,{\blur2}但是我讨厌这个世界
+Dialogue: 0,1:13:03.41,1:13:06.38,*Default,NTP,0,0,0,,{\blur2}我明白的 因为很无聊嘛
+Dialogue: 0,1:13:08.25,1:13:10.58,*Default,NTP,0,0,0,,{\blur2}学校什么的 真的很无聊啊
+Dialogue: 0,1:13:14.07,1:13:17.35,*Default,NTP,0,0,0,,{\blur2}但是 想想吧
+Dialogue: 0,1:13:18.14,1:13:20.45,*Default,NTP,0,0,0,,{\blur2}在这既没有魔法也没有魔物的世界
+Dialogue: 0,1:13:21.12,1:13:22.56,*Default,NTP,0,0,0,,{\blur2}却偏偏存在着敌人
+Dialogue: 0,1:13:23.51,1:13:25.03,*Default,NTP,0,0,0,,{\blur2}随便你想怎么战斗都行
+Dialogue: 0,1:13:26.87,1:13:28.76,*Default,NTP,0,0,0,,{\blur2}虽然全是看不见的敌人
+Dialogue: 0,1:13:29.65,1:13:32.84,*Default,NTP,0,0,0,,{\blur2}不可能的啊 我无法和那些东西战斗
+Dialogue: 0,1:13:33.34,1:13:39.23,*Default,NTP,0,0,0,,{\blur2}可以的 因为你不是都和看不见的敌人战斗至今了吗
+Dialogue: 0,1:13:40.63,1:13:43.59,*Default,NTP,0,0,0,,{\blur2}这个世界也存在英雄和魔女的
+Dialogue: 0,1:13:44.46,1:13:47.70,*Default,NTP,0,0,0,,{\blur2}所以 不可以迈入死路
+Dialogue: 0,1:13:48.55,1:13:50.49,*Default,NTP,0,0,0,,{\blur2}但是我…
+Dialogue: 0,1:13:51.13,1:13:52.68,*Default,NTP,0,0,0,,{\blur2}那么要怎么做？
+Dialogue: 0,1:13:53.40,1:13:57.49,*Default,NTP,0,0,0,,{\blur2}不知道 我只能慢慢地从头做起
+Dialogue: 0,1:13:58.32,1:14:01.90,*Default,NTP,0,0,0,,{\blur2}但是你的话 也许能做到什么
+Dialogue: 0,1:14:02.31,1:14:05.88,*Default,NTP,0,0,0,,{\blur2}做不到的 在那之前我就会被击溃的
+Dialogue: 0,1:14:06.55,1:14:09.01,*Default,NTP,0,0,0,,{\blur2}两个人一起的话 就不会被击溃
+Dialogue: 0,1:14:13.48,1:14:15.82,*Default,NTP,0,0,0,,{\blur2}看啊 我抓到你了
+Dialogue: 0,1:14:16.90,1:14:20.25,*Default,NTP,0,0,0,,{\blur2}这样你的Guilty-M就解除了
+Dialogue: 0,1:14:21.28,1:14:24.73,*Default,NTP,0,0,0,,{\blur2}你从梦中醒来 已经回不去了
+Dialogue: 0,1:14:26.13,1:14:30.29,*Default,NTP,0,0,0,,{\blur2}你只能在这个世界上 伴随着痛苦活下去
+Dialogue: 0,1:14:31.07,1:14:32.21,*Default,NTP,0,0,0,,{\blur2}像我一样
+Dialogue: 0,1:14:32.78,1:14:34.89,*Default,NTP,0,0,0,,{\blur2}过分 欺负人
+Dialogue: 0,1:14:35.59,1:14:37.33,*Default,NTP,0,0,0,,{\blur2}因为我是黑暗英雄啊
+Dialogue: 0,1:14:38.38,1:14:41.45,*Default,NTP,0,0,0,,{\blur2}作为交换 我会负起责任的
+Dialogue: 0,1:14:42.54,1:14:45.34,*Default,NTP,0,0,0,,{\blur2}就算是这个世界 我也会带你去冒险的
+Dialogue: 0,1:14:46.11,1:14:49.53,*Default,NTP,0,0,0,,{\blur2}做不到的 这个世界无法冒险
+Dialogue: 0,1:14:49.83,1:14:56.22,*Default,NTP,0,0,0,,{\blur2}可以的 首先要带你去营业到早上五点的促销店里
+Dialogue: 0,1:14:57.11,1:15:01.87,*Default,NTP,0,0,0,,{\blur2}那里真的是个迷宫 因为50英寸的电视机
+Dialogue: 0,1:15:02.21,1:15:05.39,*Default,NTP,0,0,0,,{\blur2}跟只是要穿也会令人害羞的内衣放在同一层卖呢
+Dialogue: 0,1:15:06.24,1:15:09.12,*Default,NTP,0,0,0,,{\blur2}即使有卖传说的圣剑也不奇怪吧
+Dialogue: 0,1:15:10.27,1:15:14.35,*Default,NTP,0,0,0,,{\blur2}只是啊 高价的东西都放在玻璃橱里
+Dialogue: 0,1:15:14.84,1:15:17.54,*Default,NTP,0,0,0,,{\blur2}不叫店员的话就无法把道具拿到手
+Dialogue: 0,1:15:18.32,1:15:20.78,*Default,NTP,0,0,0,,{\blur2}真是让新手头大的设计呢
+Dialogue: 0,1:15:22.98,1:15:25.32,*Default,NTP,0,0,0,,{\blur2}那算什么啊 像个笨蛋一样
+Dialogue: 0,1:15:27.47,1:15:34.39,*Default,NTP,0,0,0,,{\blur2}笨蛋 仪式失败了 都怪一郎
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,1:15:56.70,1:15:58.67,*Default,NTP,0,0,0,,{\blur2}你们就不能别把他当成是个犯了错的人
+Dialogue: 0,1:15:59.23,1:16:02.36,*Default,NTP,0,0,0,,{\blur2}而把他看作是个成功改过自身的人吗
+Dialogue: 0,1:16:02.87,1:16:03.92,*Default,NTP,0,0,0,,{\blur2}你们真的是亲生父母吗
+Dialogue: 0,1:16:05.35,1:16:06.04,*Default,NTP,0,0,0,,{\blur2}一郎
+Dialogue: 0,1:16:07.27,1:16:08.70,*Default,NTP,0,0,0,,{\blur2}你不是不喜欢这种的吗
+Dialogue: 0,1:16:09.65,1:16:11.90,*Default,NTP,0,0,0,,{\blur2}不 我本来是挺喜欢的
+Dialogue: 0,1:16:12.79,1:16:14.35,*Default,NTP,0,0,0,,{\blur2}虽然现在无法正视
+Dialogue: 0,1:16:15.01,1:16:16.48,*Default,NTP,0,0,0,,{\blur2}那为什么没有扔掉？
+Dialogue: 0,1:16:19.31,1:16:21.47,*Default,NTP,0,0,0,,{\blur2}我也不是很清楚
+Dialogue: 0,1:16:22.55,1:16:25.74,*Default,NTP,0,0,0,,{\blur2}大概是因为我想要成为坚强的人吧
+Dialogue: 0,1:16:29.51,1:16:31.56,*Default,NTP,0,0,0,,{\blur2}现在虽然因为心灵创伤而看不下去
+Dialogue: 0,1:16:32.03,1:16:36.44,*Default,NTP,0,0,0,,{\blur2}但是如果变得坚强之后 说不定就能若无其事地读轻小说了吧
+Dialogue: 0,1:16:37.58,1:16:38.59,*Default,NTP,0,0,0,,{\blur2}我想成为那种人
+Dialogue: 0,1:16:39.58,1:16:41.15,*Default,NTP,0,0,0,,{\blur2}成为尽可能正常的自己
+Dialogue: 0,1:16:41.61,1:16:42.53,*Default,NTP,0,0,0,,{\blur2}那要怎么做？
+Dialogue: 0,1:16:43.11,1:16:45.07,*Default,NTP,0,0,0,,{\blur2}和现实战斗…之类的吧
+Dialogue: 0,1:16:45.60,1:16:47.20,*Default,NTP,0,0,0,,{\blur2}每天都穿那身剑士服
+Dialogue: 0,1:16:47.48,1:16:48.79,*Default,NTP,0,0,0,,{\blur2}我会死的啊
+Dialogue: 0,1:16:49.90,1:16:52.09,*Default,NTP,0,0,0,,{\blur2}魔龙院光牙 新的敌人
+Dialogue: 0,1:16:52.55,1:16:56.02,*Default,NTP,0,0,0,,{\blur2}那可不对 是「魔龙院光牙最后的战斗」才对
+Dialogue: 0,1:16:56.60,1:17:00.12,*Default,NTP,0,0,0,,{\blur2}「最后的战斗」不是副标题 而是主标题的一部分
+Dialogue: 0,1:17:00.85,1:17:02.26,*Default,NTP,0,0,0,,{\blur2}这可是单本的小说哦
+Dialogue: 0,1:17:03.13,1:17:03.87,*Default,NTP,0,0,0,,{\blur2}真无聊
+Dialogue: 0,1:17:04.55,1:17:06.41,*Default,NTP,0,0,0,,{\blur2}喂 又是这种态度
+Dialogue: 0,1:17:07.24,1:17:08.84,*Default,NTP,0,0,0,,{\blur2}转向这边 听到了吗
+Dialogue: 0,1:17:09.46,1:17:10.33,*Default,NTP,0,0,0,,{\blur2}继续刚才的话题
+Dialogue: 0,1:17:14.29,1:17:15.84,*Default,NTP,0,0,0,,{\blur2}剑士很帅哦
+Dialogue: 0,1:17:16.17,1:17:17.00,*Default,NTP,0,0,0,,{\blur2}骗人
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,1:22:12.13,1:22:12.57,*Default,NTP,0,0,0,,{\blur2}一郎
+Dialogue: 0,1:22:16.50,1:22:17.99,*Default,NTP,0,0,0,,{\blur2}你是…良子对吧
+Dialogue: 0,1:22:20.03,1:22:22.49,*Default,NTP,0,0,0,,{\blur2}怎么办 怎么办啊 一郎
+Dialogue: 0,1:22:23.10,1:22:25.63,*Default,NTP,0,0,0,,{\blur2}没事的 没有奇怪的地方
+Dialogue: 0,1:22:26.23,1:22:27.04,*Default,NTP,0,0,0,,{\blur2}我保证
+Dialogue: 0,1:22:29.11,1:22:32.23,*Default,NTP,0,0,0,,{\blur2}穿着这身的话 防御力会变成0的
+Dialogue: 0,1:22:33.02,1:22:34.68,*Default,NTP,0,0,0,,{\blur2}完全没治好啊
+Dialogue: 0,1:22:41.24,1:22:41.87,*Default,NTP,0,0,0,,{\blur2}一郎
+Dialogue: 0,1:22:44.70,1:22:47.57,*Default,NTP,0,0,0,,{\blur2}告诉我 变普通的方法
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,{\blur2}
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,
+Dialogue: 0,1:19:03.38,1:19:06.94,*Default,NTP,0,0,0,,{\blur2}抱歉 这些好像都是良子的存货
+Dialogue: 0,1:19:07.60,1:19:12.20,*Default,NTP,0,0,0,,{\blur2}真光荣啊 因为这个传说是我创造的
+Dialogue: 0,1:19:13.03,1:19:17.62,*Default,NTP,0,0,0,,{\blur2}我总是在想啊 这个世界上不会有那么多不可思议的事情
+Dialogue: 0,1:19:18.12,1:19:21.37,*Default,NTP,0,0,0,,{\blur2}但是 有人去相信这些事情也未尝不可
+Dialogue: 0,1:19:21.82,1:19:22.60,*Default,NTP,0,0,0,,{\blur2}我明白的
+Dialogue: 0,1:19:23.08,1:19:25.29,*Default,NTP,0,0,0,,{\blur2}因为我 是剑士啊
+Dialogue: 0,1:19:28.60,1:19:30.40,*Default,NTP,0,0,0,,{\blur2}我鸯老太感动了
+Dialogue: 0,1:19:31.04,1:19:33.95,*Default,NTP,0,0,0,,{\blur2}我那被封印的灵魂终于苏醒了
+Dialogue: 0,1:19:34.52,1:19:37.36,*Default,NTP,0,0,0,,{\blur2}我要坦白了 其实我鸯老
+Dialogue: 0,1:19:37.61,1:19:39.57,*Default,NTP,0,0,0,,{\blur2}是「光辉骑士」！
+Dialogue: 0,1:19:39.74,1:19:41.98,*Default,NTP,0,0,0,,{\blur2}你也是「妄想战士」吗
+Dialogue: 0,1:19:39.74,1:19:41.98,*Default,NTP,0,0,0,,{\blur2\fs30\pos(1005,1011)}Dream soldier
+Dialogue: 0,1:19:42.64,1:19:46.26,*Default,NTP,0,0,0,,{\blur2}一郎同学 我也会有前世吗
+Dialogue: 0,1:19:46.52,1:19:48.86,*Default,NTP,0,0,0,,{\blur2}我觉得有也没什么不可以的吧
+Dialogue: 0,1:19:48.92,1:19:51.36,*Default,NTP,0,0,0,,{\blur2}其实我能感受到灵哦
+Dialogue: 0,1:19:51.47,1:19:53.72,*Default,NTP,0,0,0,,{\blur2}其实我是超感应能力者
+Dialogue: 0,1:19:53.79,1:19:55.88,*Default,NTP,0,0,0,,{\blur2}我能看到别人的寿命
+Dialogue: 0,1:19:56.03,1:19:58.11,*Default,NTP,0,0,0,,{\blur2}这是…什么回事…
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,,0,0,0,,
+Dialogue: 0,1:17:40.25,1:17:46.05,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}そのままの君が好きだと
+Dialogue: 0,1:17:46.72,1:17:51.40,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}溢れた言葉の先で
+Dialogue: 0,1:17:53.27,1:17:59.03,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}ゆっくりと開かれたセカイ
+Dialogue: 0,1:17:59.49,1:18:04.16,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}心の瞼開けていく
+Dialogue: 0,1:18:06.42,1:18:10.85,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}いつからか聴こえていた
+Dialogue: 0,1:18:12.72,1:18:17.63,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}絶望の音は超えて
+Dialogue: 0,1:18:18.52,1:18:21.56,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}不確かで眩しい
+Dialogue: 0,1:18:21.86,1:18:24.80,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}愛しき微笑み
+Dialogue: 0,1:18:25.02,1:18:29.96,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}守りたい...そう思った
+Dialogue: 0,1:18:30.76,1:18:34.69,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}もう泣いたっていいんだよ
+Dialogue: 0,1:18:34.74,1:18:38.05,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}声に出してしまおう
+Dialogue: 0,1:18:38.46,1:18:44.34,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}ありのまま　この弱さを持ち寄って
+Dialogue: 0,1:18:44.46,1:18:47.38,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}踏み出す　明日へと
+Dialogue: 0,1:18:47.50,1:18:50.89,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}一緒に行こう
+Dialogue: 0,1:18:51.27,1:18:54.85,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}始まりの先へと
+Dialogue: 0,1:18:55.29,1:18:58.34,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}手を繋げたなら
+Dialogue: 0,1:19:16.25,1:19:20.99,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}
+Dialogue: 0,1:19:10.08,1:19:15.42,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}強がりの壁をなぞって
+Dialogue: 0,1:19:16.40,1:19:20.83,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}届かない未来を探してた
+Dialogue: 0,1:19:22.88,1:19:28.43,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}戸惑いは「寂しさ」になる
+Dialogue: 0,1:19:29.04,1:19:33.98,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}急いで答えを求めるよ
+Dialogue: 0,1:19:35.88,1:19:40.13,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}ただそこにある優しさ
+Dialogue: 0,1:19:42.45,1:19:46.37,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}愛しくて閉じた願い
+Dialogue: 0,1:19:47.84,1:19:54.46,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}泣きながら　痛みも分け合う二人で
+Dialogue: 0,1:19:54.67,1:19:59.80,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}いつかは辿り着こう
+Dialogue: 0,1:20:00.27,1:20:04.26,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}そう　僕らのセカイ
+Dialogue: 0,1:20:04.34,1:20:07.66,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}ここから目覚めよう
+Dialogue: 0,1:20:08.00,1:20:14.03,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}温もりを信じていたいよ　まっすぐに
+Dialogue: 0,1:20:14.13,1:20:17.04,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}強くなれるの？
+Dialogue: 0,1:20:17.14,1:20:20.32,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}届いた瞳
+Dialogue: 0,1:20:20.88,1:20:28.01,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}壊れぬようにそっと抱きしめて　永遠に
+Dialogue: 0,0:00:00.00,0:00:00.00,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}
+Dialogue: 0,1:20:52.77,1:20:56.95,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}どうしようもない気持ちに
+Dialogue: 0,1:20:59.29,1:21:03.34,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}ただ涙溢れる日も
+Dialogue: 0,1:21:04.50,1:21:06.95,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}振り向かないで行こう
+Dialogue: 0,1:21:08.28,1:21:10.44,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}独りじゃない
+Dialogue: 0,1:21:11.48,1:21:18.26,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}見つめている　いるから
+Dialogue: 0,0:00:00.00,0:00:00.00,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}
+Dialogue: 0,1:21:20.45,1:21:24.27,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}もう泣いたっていいんだよ
+Dialogue: 0,1:21:24.36,1:21:27.56,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}声に出してしまおう
+Dialogue: 0,1:21:28.08,1:21:34.08,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}ありのまま　この弱さを持ち寄って
+Dialogue: 0,1:21:34.13,1:21:36.95,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}踏み出す　明日へと
+Dialogue: 0,1:21:37.11,1:21:40.53,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}僕らのセカイ
+Dialogue: 0,1:21:40.80,1:21:44.48,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}どこまでも一緒にね
+Dialogue: 0,1:21:44.87,1:21:48.31,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}手を繋ぎ行こう
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,
+Dialogue: 0,1:17:40.25,1:17:46.05,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}「我喜欢着现在这样的你」
+Dialogue: 0,1:17:46.72,1:17:51.40,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}在这脱口而出的话语前
+Dialogue: 0,1:17:53.27,1:17:59.03,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}缓缓地展开一面世界
+Dialogue: 0,1:17:59.49,1:18:04.16,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}紧闭的心也慢慢打开
+Dialogue: 0,1:18:06.42,1:18:10.85,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}超越那不知何时
+Dialogue: 0,1:18:12.72,1:18:17.63,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}听到的绝望之音
+Dialogue: 0,1:18:18.52,1:18:21.56,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}虚无缥缈而又耀眼
+Dialogue: 0,1:18:21.86,1:18:24.80,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}那惹人怜爱的微笑
+Dialogue: 0,1:18:25.02,1:18:29.96,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}不禁让我想要保护它
+Dialogue: 0,1:18:30.76,1:18:34.69,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}哭出来吧 已经没有关系了
+Dialogue: 0,1:18:34.74,1:18:38.05,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}把悲伤化作声音吧
+Dialogue: 0,1:18:38.46,1:18:44.34,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}汇集这与生俱来的软弱
+Dialogue: 0,1:18:44.46,1:18:47.38,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}朝着明天踏出脚步
+Dialogue: 0,1:18:47.50,1:18:50.89,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}让我们一起前行吧
+Dialogue: 0,1:18:51.27,1:18:54.85,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}朝着那开端
+Dialogue: 0,1:18:55.29,1:18:58.34,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}若能双手紧握…
+Dialogue: 0,1:19:16.25,1:19:20.99,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}
+Dialogue: 0,1:19:10.08,1:19:15.42,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}沿着那名为逞强的墙壁
+Dialogue: 0,1:19:16.40,1:19:20.83,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}寻找着无法到达的未来
+Dialogue: 0,1:19:22.88,1:19:28.43,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}迷惑将会化作寂寞
+Dialogue: 0,1:19:29.04,1:19:33.98,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}焦急地去寻求回答
+Dialogue: 0,1:19:35.88,1:19:40.13,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}存在于你心中的温柔
+Dialogue: 0,1:19:42.45,1:19:46.37,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}美丽却又沉寂着的愿望
+Dialogue: 0,1:19:47.84,1:19:54.46,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}让哭泣着分享痛苦的两个人一起
+Dialogue: 0,1:19:54.67,1:19:59.80,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}朝着目标前行吧
+Dialogue: 0,1:20:00.27,1:20:04.26,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}我们的世界
+Dialogue: 0,1:20:04.34,1:20:07.66,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}在那里醒来吧
+Dialogue: 0,1:20:08.00,1:20:14.03,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}想要率直地相信那份温暖
+Dialogue: 0,1:20:14.13,1:20:17.04,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}能够变得坚强吗？
+Dialogue: 0,1:20:17.14,1:20:20.32,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}投向我的眼神
+Dialogue: 0,1:20:20.88,1:20:28.01,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}永远地 轻轻地抱着你
+Dialogue: 0,0:00:00.00,0:00:00.00,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}
+Dialogue: 0,1:20:52.77,1:20:56.95,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}那因为无可奈何
+Dialogue: 0,1:20:59.29,1:21:03.34,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}只能泪流满面的日子
+Dialogue: 0,1:21:04.50,1:21:06.95,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}前行吧 不要再回首去看它
+Dialogue: 0,1:21:08.28,1:21:10.44,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}你不是一个人
+Dialogue: 0,1:21:11.48,1:21:18.26,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}因为我一直在注视着你
+Dialogue: 0,0:00:00.00,0:00:00.00,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}
+Dialogue: 0,1:21:20.45,1:21:24.27,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}哭出来吧 已经没有关系了
+Dialogue: 0,1:21:24.36,1:21:27.56,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}把悲伤化作声音吧
+Dialogue: 0,1:21:28.08,1:21:34.08,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}汇集这与生俱来的软弱
+Dialogue: 0,1:21:34.13,1:21:36.95,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}朝着明天踏出脚步
+Dialogue: 0,1:21:37.11,1:21:40.53,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}我们的世界
+Dialogue: 0,1:21:40.80,1:21:44.48,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}不管天涯海角都在一起
+Dialogue: 0,1:21:44.87,1:21:48.31,OP CHI,NTP,0,0,0,,{\blur2\fad(400,400)}牵着手 向前行吧
+Dialogue: 0,1:20:02.11,1:20:04.11,*Default,,0,0,0,,
