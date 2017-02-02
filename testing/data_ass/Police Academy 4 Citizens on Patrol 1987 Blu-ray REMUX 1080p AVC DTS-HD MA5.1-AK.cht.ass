@@ -1,0 +1,866 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: chs&eng,STKaiti,20,&H00F5F5F5,&H0000FFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,0,2,0,0,2,1
+Style: Default,STKaiti,20,&H00F5F5F5,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0,0,2,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.00,0:00:07.00,Default,,0,0,1,,
+Dialogue: 0,0:00:08.00,0:00:11.00,Default,,0,0,8,,
+Dialogue: 0,0:00:26.04,0:00:32.09,chs&eng,,0,0,32,,{\fn微软雅黑\fs30\fsp10\fscx80\bord6\1c&H00E7F8EE\3c&H00F1B21A\pos(197.76,250.24)}警察學校Ⅳ
+Dialogue: 1,0:00:29.00,0:00:32.09,chs&eng,,0,0,8,,{\fn微软雅黑\fs20\b1\bord6\fsp4\c&H6FBADF&\3c&HD77742&}全民警察
+Dialogue: 0,0:01:06.45,0:01:08.11,chs&eng,,0,0,0,,{\blur3}接著來 哥們\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Take it, brother.{\r}
+Dialogue: 0,0:01:57.16,0:01:58.78,chs&eng,,0,0,0,,{\blur3}打倒你!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let me break you.{\r}
+Dialogue: 0,0:02:02.75,0:02:04.21,chs&eng,,0,0,0,,{\blur3}嗨 這真可怕!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Man, that was funky.{\r}
+Dialogue: 0,0:03:05.72,0:03:09.14,chs&eng,,0,0,0,,{\blur3}- 前面注意! - 噢 我猜會議已經開始了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Fore! - Well, I guess the meeting's started.{\r}
+Dialogue: 0,0:03:10.73,0:03:14.52,chs&eng,,0,0,0,,{\blur3}- 您好 長官! - 馬霍尼! 瓊斯!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Howdy, sir? - Mahoney! Jones!{\r}
+Dialogue: 0,0:03:14.98,0:03:16.86,chs&eng,,0,0,0,,{\blur3}謝謝 斯威特查克\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you, Sweetchuck.{\r}
+Dialogue: 0,0:03:17.40,0:03:21.03,chs&eng,,0,0,0,,{\blur3}關於我的新計劃我得到了極棒極棒的消息\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I've had the most wonderful newsabout my new program.{\r}
+Dialogue: 0,0:03:26.70,0:03:30.12,chs&eng,,0,0,0,,{\blur3}- 長官 是什麼新計劃? - 全市公民作為警察巡邏計劃\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What new program is that, sir? - My citizens on patrol.{\r}
+Dialogue: 0,0:03:30.25,0:03:32.25,chs&eng,,0,0,0,,{\blur3}簡單點 我叫它"全民警察"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I call it C.O.P. for short.{\r}
+Dialogue: 0,0:03:32.29,0:03:34.58,chs&eng,,0,0,0,,{\blur3}不錯的警察團體 你們說呢?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Has a nice policey ring to it,don't you think?{\r}
+Dialogue: 0,0:03:34.71,0:03:36.29,chs&eng,,0,0,0,,{\blur3}什麼是"全民警察" 長官?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What is C.O.P., sir?{\r}
+Dialogue: 0,0:03:39.13,0:03:41.88,chs&eng,,0,0,0,,{\blur3}警察工作最讓人感到灰心喪氣的是什麼?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What is the most frustrating thingabout police work?{\r}
+Dialogue: 0,0:03:42.01,0:03:45.68,chs&eng,,0,0,0,,{\blur3}- 不給配備手榴彈 - 隔離室 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Not being able to carry hand grenades. - Separate locker rooms, sir.{\r}
+Dialogue: 0,0:03:45.76,0:03:47.56,chs&eng,,0,0,0,,{\blur3}令人作嘔的藍制服\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Icky blue uniforms.{\r}
+Dialogue: 0,0:03:47.89,0:03:50.68,chs&eng,,0,0,0,,{\blur3}我一直認為最讓人洩氣的事情是…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I always thoughtthat the most frustrating thing was that...{\r}
+Dialogue: 0,0:03:50.77,0:03:53.73,chs&eng,,0,0,0,,{\blur3}我們不能立刻趕到所有的犯罪現場去解決所有的犯罪\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}we couldn't be everywhere at onceto solve every crime.{\r}
+Dialogue: 0,0:03:53.77,0:03:56.90,chs&eng,,0,0,0,,{\blur3}所以最終公眾會把我們當作敵人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}So the public ends upthinking of us as enemies.{\r}
+Dialogue: 0,0:03:57.44,0:04:00.69,chs&eng,,0,0,0,,{\blur3}如果他們能把我們所有人都看作朋友該有多好啊!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Wouldn't it be wonderfulif we could all be friends?{\r}
+Dialogue: 0,0:04:01.86,0:04:04.20,chs&eng,,0,0,0,,{\blur3}啊 馬霍尼警官 請進來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Officer Mahoney, please come in.{\r}
+Dialogue: 0,0:04:04.99,0:04:07.57,chs&eng,,0,0,0,,{\blur3}來點檸檬水 我喜歡喝檸檬水\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Have some lemonade. I love lemonade.{\r}
+Dialogue: 0,0:04:07.99,0:04:12.33,chs&eng,,0,0,0,,{\blur3}- 別太酸了 別… - …太甜了 嗯 不錯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Not too tart, not - - - Too sweet, just good.{\r}
+Dialogue: 0,0:04:17.75,0:04:20.21,chs&eng,,0,0,0,,{\blur3}所以"全民警察"是一項社會行動計劃 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}So C.O.P. isa community action program, sir.{\r}
+Dialogue: 0,0:04:20.30,0:04:24.59,chs&eng,,0,0,0,,{\blur3}- 就像鄰里監督組織? - 更強! 更棒!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Like Neighborhood Watch? - More. Much more!{\r}
+Dialogue: 0,0:04:25.30,0:04:27.34,chs&eng,,0,0,0,,{\blur3}我們向公眾顯示我們的關心\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We show the community that we care.{\r}
+Dialogue: 0,0:04:27.47,0:04:32.18,chs&eng,,0,0,0,,{\blur3}我們訓練志願者們如何進行犯罪偵查如何進行急救 還有、還有…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We train volunteers in crime detection,in first - aid and....{\r}
+Dialogue: 0,0:04:32.60,0:04:36.23,chs&eng,,0,0,0,,{\blur3}- 還有這是個不錯的主意 長官 - 但我們需要公眾的支持\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- And it's a great idea, sir. - But we need citizen support.{\r}
+Dialogue: 0,0:04:36.90,0:04:39.61,chs&eng,,0,0,0,,{\blur3}周邊的犯罪活動會讓您得到他們的支持的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}With all this neighborhood crime,I'm sure you'll get it.{\r}
+Dialogue: 0,0:04:39.65,0:04:42.06,chs&eng,,0,0,0,,{\blur3}- 前面注意! - 沒錯 如果我們…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Fore! - Right. What if we were to....{\r}
+Dialogue: 0,0:04:43.53,0:04:44.78,chs&eng,,0,0,0,,{\blur3}如果什麼?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What was that?{\r}
+Dialogue: 0,0:04:45.70,0:04:48.03,chs&eng,,0,0,0,,{\blur3}我相信斯威特查克兄弟想建議…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I believe brother Sweetchuckis suggesting...{\r}
+Dialogue: 0,0:04:48.11,0:04:50.24,chs&eng,,0,0,0,,{\blur3}我們在我們附近招募新兵\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}we recruit in our old neighborhood.{\r}
+Dialogue: 0,0:04:50.33,0:04:53.41,chs&eng,,0,0,0,,{\blur3}好主意! 我們有市長的全力支持…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excellent. We have the full supportof the Mayor...{\r}
+Dialogue: 0,0:04:53.54,0:04:57.71,chs&eng,,0,0,0,,{\blur3}最棒的是 州長希望我下月…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}and best of all, the Governor of the statewants me to unveil the program...{\r}
+Dialogue: 0,0:04:57.71,0:05:01.25,chs&eng,,0,0,0,,{\blur3}在英國舉行的國際警察大會的最後…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}at the end ofthe International Police Seminar...{\r}
+Dialogue: 0,0:05:01.38,0:05:02.96,chs&eng,,0,0,0,,{\blur3}把這一計劃公諸於眾\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}next month in England.{\r}
+Dialogue: 0,0:05:03.67,0:05:05.67,chs&eng,,0,0,0,,{\blur3}在我參會的時候…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}While I attend the seminar...{\r}
+Dialogue: 0,0:05:05.71,0:05:08.80,chs&eng,,0,0,0,,{\blur3}你們 我的好朋友們…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}you, my good friends...{\r}
+Dialogue: 0,0:05:08.84,0:05:10.97,chs&eng,,0,0,0,,{\blur3}將把"全民警察"計劃付諸實施\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}will put C.O.P. into action.{\r}
+Dialogue: 0,0:05:11.26,0:05:14.68,chs&eng,,0,0,0,,{\blur3}這將改善全世界的警民關係\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It will change community relationsall around the world.{\r}
+Dialogue: 0,0:05:16.14,0:05:18.02,chs&eng,,0,0,0,,{\blur3}拉薩方法\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The Lassard Method.{\r}
+Dialogue: 0,0:05:19.64,0:05:22.40,chs&eng,,0,0,0,,{\blur3}聽起來不錯 是吧?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It rolls nicely off the tongue,don't you think?{\r}
+Dialogue: 0,0:05:22.82,0:05:24.52,chs&eng,,0,0,0,,{\blur3}嗨 我錯過了什麼?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hi! What did I miss?{\r}
+Dialogue: 0,0:05:30.86,0:05:31.95,chs&eng,,0,0,0,,{\blur3}嗨\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hi.{\r}
+Dialogue: 0,0:05:45.59,0:05:48.42,chs&eng,,0,0,0,,{\blur3}哈里斯上尉 赫斯特委員來了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Capt. Harris,Police Commissioner Hurst is here.{\r}
+Dialogue: 0,0:05:48.46,0:05:49.67,chs&eng,,0,0,0,,{\blur3}您想見他嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You want to see him?{\r}
+Dialogue: 0,0:05:49.72,0:05:51.55,chs&eng,,0,0,0,,{\blur3}不 把他趕走\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No. Send him packing.{\r}
+Dialogue: 0,0:05:53.01,0:05:54.01,chs&eng,,0,0,0,,{\blur3}是 長官!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, sir.{\r}
+Dialogue: 0,0:05:54.14,0:05:56.60,chs&eng,,0,0,0,,{\blur3}- 學監! - 什麼事 長官?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Proctor! - Yes, sir?{\r}
+Dialogue: 0,0:05:56.72,0:05:59.31,chs&eng,,0,0,0,,{\blur3}立即把他請進來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Send the Commissioner in immediately.{\r}
+Dialogue: 0,0:05:59.43,0:06:02.68,chs&eng,,0,0,0,,{\blur3}- 我想您說要把他趕走 - 馬上!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I thought you said to send him packing. - Immediately!{\r}
+Dialogue: 0,0:06:02.77,0:06:04.02,chs&eng,,0,0,0,,{\blur3}是 長官!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, sir.{\r}
+Dialogue: 0,0:06:05.35,0:06:06.98,chs&eng,,0,0,0,,{\blur3}沒用的東西\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nincompoop.{\r}
+Dialogue: 0,0:06:08.73,0:06:10.15,chs&eng,,0,0,0,,{\blur3}委員\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Commissioner.{\r}
+Dialogue: 0,0:06:11.57,0:06:14.65,chs&eng,,0,0,0,,{\blur3}- 你有問題 哈里斯上尉? - 是的 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You have a problem, Capt. Harris? - Yes, sir.{\r}
+Dialogue: 0,0:06:14.74,0:06:19.58,chs&eng,,0,0,0,,{\blur3}委員先生 我對這張從拉薩那裏來的傳單非常關心…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Commissioner, I am extremely concernedwith this memorandum from Lassard...{\r}
+Dialogue: 0,0:06:19.66,0:06:22.37,chs&eng,,0,0,0,,{\blur3}關於他的"全民警察"計劃\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}about his C.O.P. program.{\r}
+Dialogue: 0,0:06:23.33,0:06:27.04,chs&eng,,0,0,0,,{\blur3}讓市民去做警察工作? 多蠢的想法\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Citizens doing police work?An asinine idea.{\r}
+Dialogue: 0,0:06:27.38,0:06:32.21,chs&eng,,0,0,0,,{\blur3}如果這被通過 警察的工作、薪水都將沒有保證\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}If this goes through, no policeman's job,no policeman's paycheck, will be safe.{\r}
+Dialogue: 0,0:06:32.30,0:06:33.88,chs&eng,,0,0,0,,{\blur3}你是不是不想幹了?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Are you through, Captain?{\r}
+Dialogue: 0,0:06:33.88,0:06:38.51,chs&eng,,0,0,0,,{\blur3}州長認為這個計劃非常的有創意\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The Governor of this state thinksthat this program is absolutely brilliant.{\r}
+Dialogue: 0,0:06:39.31,0:06:43.47,chs&eng,,0,0,0,,{\blur3}如果他改變主意我就會同意你的看法\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}So until he changes his mind,that's what you and I think, too.{\r}
+Dialogue: 0,0:06:43.89,0:06:45.02,chs&eng,,0,0,0,,{\blur3}沒意見吧?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Agreed?{\r}
+Dialogue: 0,0:06:45.35,0:06:47.23,chs&eng,,0,0,0,,{\blur3}- 沒有 長官 - 很好\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yes, sir. - Good.{\r}
+Dialogue: 0,0:06:54.53,0:06:56.65,chs&eng,,0,0,0,,{\blur3}您一開始很英明您真應該把他趕走\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You were right.You should have sent him packing.{\r}
+Dialogue: 0,0:06:56.78,0:07:00.11,chs&eng,,0,0,0,,{\blur3}我才不在乎州長跟市長會怎麼想\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I don't give a damnwhat the Governor or the Mayor thinks.{\r}
+Dialogue: 0,0:07:00.24,0:07:03.53,chs&eng,,0,0,0,,{\blur3}拉薩的計劃是個錯誤…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Lassard's program is a mistake...{\r}
+Dialogue: 0,0:07:04.37,0:07:07.41,chs&eng,,0,0,0,,{\blur3}任何同意他的想法都是錯的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}and anyone who thinks otherwiseis wrong.{\r}
+Dialogue: 0,0:07:09.08,0:07:10.67,chs&eng,,0,0,0,,{\blur3}完全錯誤\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Pure and simple.{\r}
+Dialogue: 0,0:07:11.80,0:07:13.38,chs&eng,,0,0,0,,{\blur3}別碰它!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Don't touch those!{\r}
+Dialogue: 0,0:07:13.92,0:07:16.92,chs&eng,,0,0,0,,{\blur3}我看你再敢不經我允許就碰我的球!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Don't you ever touch my ballswithout asking!{\r}
+Dialogue: 0,0:07:33.27,0:07:37.03,chs&eng,,0,0,0,,{\blur3}請你離開這我會報警! 我是認真的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're gonna have to leave.I'll call the police. I mean it.{\r}
+Dialogue: 0,0:07:37.11,0:07:40.40,chs&eng,,0,0,0,,{\blur3}行、行 我這就走 離開這\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, I'm going. I'm out of here.{\r}
+Dialogue: 0,0:07:41.53,0:07:44.11,chs&eng,,0,0,0,,{\blur3}等會兒 我就是警察\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Wait a minute. I am the police.{\r}
+Dialogue: 0,0:07:44.99,0:07:49.25,chs&eng,,0,0,0,,{\blur3}- 不 你不是 - 我是 我來這想談一下"全民警察"計劃\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- No, you're not. - That's me. I'm here to speak about C.O.P.{\r}
+Dialogue: 0,0:07:52.33,0:07:55.04,chs&eng,,0,0,0,,{\blur3}抱歉 我沒有…沒有警服…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry. I didn't....Without the uniform on - -{\r}
+Dialogue: 0,0:07:55.17,0:07:58.59,chs&eng,,0,0,0,,{\blur3}便裝會使公民感覺更舒服\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Regular human clothesmake people more comfortable.{\r}
+Dialogue: 0,0:08:00.17,0:08:04.14,chs&eng,,0,0,0,,{\blur3}嗨 女士們 我們來作詩吧!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hi, ladies. Let's do some poetry!{\r}
+Dialogue: 0,0:08:12.31,0:08:15.02,chs&eng,,0,0,0,,{\blur3}我今晚得去丈人家吃晚飯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I got to go to my in - laws'for dinner tonight.{\r}
+Dialogue: 0,0:08:16.56,0:08:18.15,chs&eng,,0,0,0,,{\blur3}你想來嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You want to come?{\r}
+Dialogue: 0,0:08:19.61,0:08:23.19,chs&eng,,0,0,0,,{\blur3}高塔警官 我來參加"全民警察"計劃\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Officer Hightower,I'm here to join the new C.O.P. Program.{\r}
+Dialogue: 0,0:08:23.61,0:08:24.78,chs&eng,,0,0,0,,{\blur3}我認識你嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Do I know you?{\r}
+Dialogue: 0,0:08:24.91,0:08:27.20,chs&eng,,0,0,0,,{\blur3}認識 你曾讓我坐在你的腿上玩\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, you used tobounce me on your knee.{\r}
+Dialogue: 0,0:08:27.33,0:08:29.62,chs&eng,,0,0,0,,{\blur3}- 我有過嗎? - 當然! 小湯米·康克林\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I did? - Yeah. Little Tommy Conklin.{\r}
+Dialogue: 0,0:08:29.66,0:08:32.33,chs&eng,,0,0,0,,{\blur3}- 但現在他們叫我大房子 - 湯米·康克林\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- But now they call me House. - Tommy Conklin.{\r}
+Dialogue: 0,0:08:34.04,0:08:38.75,chs&eng,,0,0,0,,{\blur3}想起來了 歡迎你你可以到那邊去登記\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sure. Welcome aboard.You can register right over there.{\r}
+Dialogue: 0,0:08:51.93,0:08:56.31,chs&eng,,0,0,0,,{\blur3}"驚恐的人兒啊緊閉了雙唇\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}"Blind mouth that scare themselves{\r}
+Dialogue: 0,0:08:56.98,0:09:00.06,chs&eng,,0,0,0,,{\blur3}"除了一根牧羊杖啊\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}"know how to hold a sheep - hook{\r}
+Dialogue: 0,0:09:00.90,0:09:03.90,chs&eng,,0,0,0,,{\blur3}"他一無所有\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}"Or have learned aught else at least{\r}
+Dialogue: 0,0:09:04.40,0:09:08.65,chs&eng,,0,0,0,,{\blur3}"這就是忠誠的牧羊人生命的——歸宿"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}"that to the faithful Herdsmansart belongs! "{\r}
+Dialogue: 0,0:09:20.54,0:09:22.37,chs&eng,,0,0,0,,{\blur3}喔 真振奮人心!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That was exciting.{\r}
+Dialogue: 0,0:09:22.96,0:09:25.92,chs&eng,,0,0,0,,{\blur3}下面澤得警官將向我們宣佈…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We have an Officer Zed,who's here to tell us...{\r}
+Dialogue: 0,0:09:25.96,0:09:29.55,chs&eng,,0,0,0,,{\blur3}一項新的警界計劃請…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}a little bit about a new police program.So won't you....{\r}
+Dialogue: 0,0:09:33.80,0:09:35.55,chs&eng,,0,0,0,,{\blur3}非、非常感謝\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you very much.{\r}
+Dialogue: 0,0:09:37.56,0:09:40.98,chs&eng,,0,0,0,,{\blur3}對不起我是一個很情緒化而且敏感的人…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry.I'm an emotional, sensitive guy...{\r}
+Dialogue: 0,0:09:42.98,0:09:46.57,chs&eng,,0,0,0,,{\blur3}牧羊杖那部分把我的心完全撕碎了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}and that part about the sheep - hookjust tore my heart right out.{\r}
+Dialogue: 0,0:09:47.57,0:09:50.53,chs&eng,,0,0,0,,{\blur3}我今天也準備了一首詩\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I have my own poemthat I prepared for you today.{\r}
+Dialogue: 0,0:09:50.95,0:09:53.28,chs&eng,,0,0,0,,{\blur3}"吉恩、吉恩造了台機器…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}"Gene, Gene made a machine...{\r}
+Dialogue: 0,0:09:54.03,0:09:56.24,chs&eng,,0,0,0,,{\blur3}"喬、喬使它轉起…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}"and Joe, Joe made it go.{\r}
+Dialogue: 0,0:09:56.33,0:10:01.12,chs&eng,,0,0,0,,{\blur3}"我放了個屁一個把它們全震爛的屁"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}"l blew a fartand blew the whole damn thing apart."{\r}
+Dialogue: 0,0:10:03.25,0:10:04.87,chs&eng,,0,0,0,,{\blur3}他在說什麼?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What is he saying?{\r}
+Dialogue: 0,0:10:07.17,0:10:08.88,chs&eng,,0,0,0,,{\blur3}我沒把它寫下來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I didn't write it.{\r}
+Dialogue: 0,0:10:09.76,0:10:13.01,chs&eng,,0,0,0,,{\blur3}好吧 我現在想告訴你們我來這裏的目的…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, I'd like to talk to youabout what we're here for...{\r}
+Dialogue: 0,0:10:13.13,0:10:16.26,chs&eng,,0,0,0,,{\blur3}把"全民警察"計劃扔給你們\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}and that's for me to pitchthe new C.O.P. program to you.{\r}
+Dialogue: 0,0:10:16.35,0:10:18.72,chs&eng,,0,0,0,,{\blur3}可能你們中的一些人會對些感興趣\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Perhaps a few of you ladiesmight be interested in it.{\r}
+Dialogue: 0,0:10:21.89,0:10:26.35,chs&eng,,0,0,0,,{\blur3}於是酒吧招待問街頭的手風琴師"嘿 你的猴子能唱歌劇嗎? "\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}So the bartender asked the organ grinder,"Hey, does your monkey sing any opera?"{\r}
+Dialogue: 0,0:10:26.61,0:10:28.31,chs&eng,,0,0,0,,{\blur3}我說："不\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And I said, "Nope.{\r}
+Dialogue: 0,0:10:28.44,0:10:31.65,chs&eng,,0,0,0,,{\blur3}"但如果你在我的腦袋上來一拳我會給你唱《美國傻瓜》"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}"But if you hit me on the head,I'll sing Yankee Doodle. "{\r}
+Dialogue: 0,0:10:38.45,0:10:41.78,chs&eng,,0,0,0,,{\blur3}噢 一家人團聚在一起真棒!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It's so nice to have my familyall back together again.{\r}
+Dialogue: 0,0:10:45.46,0:10:49.08,chs&eng,,0,0,0,,{\blur3}- 爸爸 能把生菜給我遞過來嗎? - 當然 寶貝兒 給你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Can you pass the lettuce, Pop? - Sure, honey. Here you go.{\r}
+Dialogue: 0,0:10:49.21,0:10:51.46,chs&eng,,0,0,0,,{\blur3}- 謝謝 爸爸 - 別客氣 嘿 聽著…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Thanks, Pop. - You're welcome. Hey, listen...{\r}
+Dialogue: 0,0:10:51.63,0:10:54.50,chs&eng,,0,0,0,,{\blur3}我跟你們說我要參加"全民警察"計劃了嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}did I tell you I'm gonna jointhat Citizen On Patrol thing?{\r}
+Dialogue: 0,0:10:54.51,0:10:58.18,chs&eng,,0,0,0,,{\blur3}太棒了!我會為此地有你而驕傲的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That would be a great idea.I'd be proud to have you at the precinct.{\r}
+Dialogue: 0,0:10:58.30,0:11:00.47,chs&eng,,0,0,0,,{\blur3}我要再來點蔬菜 巴德\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'll take some more greens, Bud.{\r}
+Dialogue: 0,0:11:00.60,0:11:01.80,chs&eng,,0,0,0,,{\blur3}- 爸爸 - 什麼事?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Dad. - Yeah?{\r}
+Dialogue: 0,0:11:02.22,0:11:05.97,chs&eng,,0,0,0,,{\blur3}我覺得你不該去我們家已經有三個警察了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I don't think you should sign up.There are already three of us on the force.{\r}
+Dialogue: 0,0:11:06.06,0:11:09.39,chs&eng,,0,0,0,,{\blur3}- 會有人認為這是徇私不會的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- It's going to look like favoritism. - That's not it.{\r}
+Dialogue: 0,0:11:10.35,0:11:14.52,chs&eng,,0,0,0,,{\blur3}一點也不會你覺得我不再敏捷了 是嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That's not it at all. You just don't thinkI'm fast enough anymore, do you?{\r}
+Dialogue: 0,0:11:18.07,0:11:20.36,chs&eng,,0,0,0,,{\blur3}一點都不 對吧 塔克?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I don't think that's it, do you, Tack?{\r}
+Dialogue: 0,0:11:20.78,0:11:24.41,chs&eng,,0,0,0,,{\blur3}這跟敏捷沒關係這才是\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It has nothing to do with being fast.Now, that was fast.{\r}
+Dialogue: 0,0:11:26.66,0:11:28.96,chs&eng,,0,0,0,,{\blur3}嗯 不錯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You know, that was fast.{\r}
+Dialogue: 0,0:11:30.62,0:11:32.12,chs&eng,,0,0,0,,{\blur3}但這招更酷\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}But that's hard.{\r}
+Dialogue: 0,0:11:35.21,0:11:36.55,chs&eng,,0,0,0,,{\blur3}過一下\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me.{\r}
+Dialogue: 0,0:11:38.63,0:11:40.92,chs&eng,,0,0,0,,{\blur3}我覺得巴德傷了爸爸的感情\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I think Bud hurt Pop's feelings.{\r}
+Dialogue: 0,0:11:50.23,0:11:51.98,chs&eng,,0,0,0,,{\blur3}噢 你們倆\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, you two.{\r}
+Dialogue: 0,0:11:57.69,0:12:00.40,chs&eng,,0,0,0,,{\blur3}噢 誰想要派?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, well, who wants pie?{\r}
+Dialogue: 0,0:12:05.41,0:12:08.12,chs&eng,,0,0,0,,{\blur3}- 我只是想幫你一下 - 你傷了我的胳膊\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I was just trying to help. - You hurt my arm.{\r}
+Dialogue: 0,0:12:08.24,0:12:10.70,chs&eng,,0,0,0,,{\blur3}- 我會把剩下的發出去 嗨 - 嗨\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I'll hand the rest out. Hi. - Hi.{\r}
+Dialogue: 0,0:12:10.87,0:12:14.00,chs&eng,,0,0,0,,{\blur3}您對我們新的"全民警察"計劃感興趣嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Could I interest youin the new citizens program?{\r}
+Dialogue: 0,0:12:14.04,0:12:16.13,chs&eng,,0,0,0,,{\blur3}- 不 一點也不 - 噢 謝謝\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- No, I don't think so. - No, thanks.{\r}
+Dialogue: 0,0:12:16.29,0:12:18.42,chs&eng,,0,0,0,,{\blur3}- 我們走樓梯 - 謝謝\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- We'll take the stairs. - Thanks, just the same.{\r}
+Dialogue: 0,0:12:18.59,0:12:21.34,chs&eng,,0,0,0,,{\blur3}等一下!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me!{\r}
+Dialogue: 0,0:12:21.88,0:12:25.13,chs&eng,,0,0,0,,{\blur3}您對我們新的"全民警察"計劃感興趣嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Would you be interestedin the new citizens program?{\r}
+Dialogue: 0,0:12:25.89,0:12:29.89,chs&eng,,0,0,0,,{\blur3}- 是的 事實上 剛才我們沒聽清 - 很好 拿著\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yes, in fact, we didn't hear you right. - Sure, here.{\r}
+Dialogue: 0,0:12:30.14,0:12:34.18,chs&eng,,0,0,0,,{\blur3}- 你們為什麼不把這些傳單分發一下? - 非常感謝 再見 先生\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Why don't you hand the rest of them out? - Thank you very much. Goodbye, sir.{\r}
+Dialogue: 0,0:12:39.61,0:12:43.61,chs&eng,,0,0,0,,{\blur3}- 阿尼 哪去? - 回家 我有一筐的事情要做\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Arnie, where are you going? - Home. I got a boatload of stuff to do.{\r}
+Dialogue: 0,0:12:43.65,0:12:46.74,chs&eng,,0,0,0,,{\blur3}我明天必須寫完學期報告 還要考歷史\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I got a term paper due tomorrow,and a history test.{\r}
+Dialogue: 0,0:12:46.78,0:12:51.07,chs&eng,,0,0,0,,{\blur3}我要幫我爸爸打掃酒窖 晚上還要洗碗\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I got to help my father clean the cellar,and I have to do the dishes tonight.{\r}
+Dialogue: 0,0:12:51.20,0:12:52.33,chs&eng,,0,0,0,,{\blur3}你什麼事?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing?{\r}
+Dialogue: 0,0:12:52.45,0:12:55.58,chs&eng,,0,0,0,,{\blur3}- 我想去購物中心那邊找那些傢伙 - 走\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I'll get the guys and hang out at the mall. - Let's go.{\r}
+Dialogue: 0,0:13:01.21,0:13:04.21,chs&eng,,0,0,0,,{\blur3}我想我跟你們說過 我的地盤上不許玩滑板\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I thought I told you guys,no skateboarding in my district.{\r}
+Dialogue: 0,0:13:04.34,0:13:08.30,chs&eng,,0,0,0,,{\blur3}我沒有玩滑板 警官 我只是拿著滑板\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This isn't skateboarding, Sergeant.This is carrying skateboards.{\r}
+Dialogue: 0,0:13:12.05,0:13:13.93,chs&eng,,0,0,0,,{\blur3}這才是玩滑板\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is skateboarding.{\r}
+Dialogue: 0,0:14:36.72,0:14:39.18,chs&eng,,0,0,0,,{\blur3}- 我們去那看看 - 慢走\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- We got to check this out, you guys. - Take it easy.{\r}
+Dialogue: 0,0:14:39.30,0:14:40.89,chs&eng,,0,0,0,,{\blur3}再見\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We'll see you later.{\r}
+Dialogue: 0,0:14:49.02,0:14:51.48,chs&eng,,0,0,0,,{\blur3}再見我想看會這些傢伙表演\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'll see you later.I want to check out these guys.{\r}
+Dialogue: 0,0:14:51.61,0:14:53.32,chs&eng,,0,0,0,,{\blur3}好的 我一會兒回來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}All right, I'll be back.{\r}
+Dialogue: 0,0:15:13.63,0:15:15.63,chs&eng,,0,0,0,,{\blur3}嘿 軍士 看那\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, Sarge, look at that.{\r}
+Dialogue: 0,0:15:15.67,0:15:19.22,chs&eng,,0,0,0,,{\blur3}凱爾 那個玩滑板的小阿飛 盯住他\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Kyle, that skateboard punk. Let's nail him.{\r}
+Dialogue: 0,0:15:19.34,0:15:21.76,chs&eng,,0,0,0,,{\blur3}嘿 你會讓他們有的瞧的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Boy, you sure give them a hard time.{\r}
+Dialogue: 0,0:15:21.89,0:15:24.22,chs&eng,,0,0,0,,{\blur3}當然 很有趣吧?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah. Fun, isn't it?{\r}
+Dialogue: 0,0:15:30.81,0:15:32.98,chs&eng,,0,0,0,,{\blur3}你不聽話 是不是 凱爾?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You don't listen, do you, Kyle?{\r}
+Dialogue: 0,0:15:33.11,0:15:35.69,chs&eng,,0,0,0,,{\blur3}我在為哈里斯上尉買生日禮物\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I was shoppingfor Capt. Harris' birthday present.{\r}
+Dialogue: 0,0:15:35.82,0:15:37.36,chs&eng,,0,0,0,,{\blur3}- 真的? - 真的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yeah? - Yeah.{\r}
+Dialogue: 0,0:15:37.53,0:15:39.24,chs&eng,,0,0,0,,{\blur3}換個地方買去\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Shop somewhere else.{\r}
+Dialogue: 0,0:15:40.82,0:15:42.20,chs&eng,,0,0,0,,{\blur3}法官…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Your Honor....{\r}
+Dialogue: 0,0:15:44.37,0:15:47.62,chs&eng,,0,0,0,,{\blur3}您的 法官 抓住他! 攔住他!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Here, Judge. Stop him! Hold up!{\r}
+Dialogue: 0,0:15:47.95,0:15:50.71,chs&eng,,0,0,0,,{\blur3}對不起 對不起 讓一下對不起 我的錯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me, pardon me.Excuse me, my fault.{\r}
+Dialogue: 0,0:15:51.96,0:15:55.67,chs&eng,,0,0,0,,{\blur3}- 當心! - 站住! 攔住那個玩滑板的! 別讓他走!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Watch it! - Stop! Stop that skateboarder! Hold it!{\r}
+Dialogue: 0,0:15:57.55,0:16:00.09,chs&eng,,0,0,0,,{\blur3}我也能這樣 頭朝下\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I can do that, that handstand stuff.{\r}
+Dialogue: 0,0:16:00.67,0:16:04.09,chs&eng,,0,0,0,,{\blur3}我恨倒立零錢會從我的兜裏掉出來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I just hate itwhen the change falls out of my pocket.{\r}
+Dialogue: 0,0:16:06.81,0:16:09.68,chs&eng,,0,0,0,,{\blur3}嘿 那個人想跟你說話\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, man,I think these guys want to talk to you.{\r}
+Dialogue: 0,0:16:12.64,0:16:13.81,chs&eng,,0,0,0,,{\blur3}攔住他!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hold it!{\r}
+Dialogue: 0,0:16:14.86,0:16:17.31,chs&eng,,0,0,0,,{\blur3}我會告訴哈里斯上尉的!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Capt. Harris will hear about this!{\r}
+Dialogue: 0,0:16:41.55,0:16:42.63,chs&eng,,0,0,0,,{\blur3}進來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come.{\r}
+Dialogue: 0,0:16:43.72,0:16:46.72,chs&eng,,0,0,0,,{\blur3}- 長官 - 科普蘭 出什麼事了?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Sir. - Copeland, what the hell happened to you?{\r}
+Dialogue: 0,0:16:46.84,0:16:49.30,chs&eng,,0,0,0,,{\blur3}一些玩滑板的小阿飛在商業街製造混亂\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Some skateboard punksstarted a riot at the mall.{\r}
+Dialogue: 0,0:16:49.43,0:16:51.01,chs&eng,,0,0,0,,{\blur3}把他們帶來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Bring them in here.{\r}
+Dialogue: 0,0:16:51.14,0:16:53.47,chs&eng,,0,0,0,,{\blur3}- 他們跑了 - 跑了?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- They got away. - They got away?{\r}
+Dialogue: 0,0:16:53.73,0:16:57.77,chs&eng,,0,0,0,,{\blur3}- 我盡全力了 長官 - 這不夠 知道嗎 科普蘭!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I did the best I could, sir. - It wasn't enough, was it, Copeland?{\r}
+Dialogue: 0,0:16:58.06,0:17:01.44,chs&eng,,0,0,0,,{\blur3}- 知道 長官 - 我來親手解決一下這些小流氓\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- No, sir. - I'll handle these punks personally.{\r}
+Dialogue: 0,0:17:01.57,0:17:03.48,chs&eng,,0,0,0,,{\blur3}- 是 長官 - 我要三輛警車…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yes, sir. - I want three patrol cars...{\r}
+Dialogue: 0,0:17:03.61,0:17:05.73,chs&eng,,0,0,0,,{\blur3}把這片兒管住科普蘭 我的帽子!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}dissecting the neighborhood.Copeland, my hat!{\r}
+Dialogue: 0,0:17:05.78,0:17:08.03,chs&eng,,0,0,0,,{\blur3}- 是 長官 - 你 呼叫所有的摩托騎警\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yes, sir. - You, radio - alert all motorcycle units.{\r}
+Dialogue: 0,0:17:08.07,0:17:10.91,chs&eng,,0,0,0,,{\blur3}我要你們撒開大網把那些小兔崽子們當場抓住!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I want a chopper in the air.Spot these boys on the ground.{\r}
+Dialogue: 0,0:17:11.03,0:17:12.62,chs&eng,,0,0,0,,{\blur3}學監 跟著我\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Proctor, ride with me.{\r}
+Dialogue: 0,0:17:12.91,0:17:17.04,chs&eng,,0,0,0,,{\blur3}- 動起來 快! - 來了 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Now, Proctor, move it! - Coming, sir.{\r}
+Dialogue: 0,0:17:21.63,0:17:22.79,chs&eng,,0,0,0,,{\blur3}馬上來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Be right there!{\r}
+Dialogue: 0,0:17:30.09,0:17:31.76,chs&eng,,0,0,0,,{\blur3}他們往那邊走了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There they go!{\r}
+Dialogue: 0,0:17:32.22,0:17:34.18,chs&eng,,0,0,0,,{\blur3}倒車 小聲點!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Back it up. Quiet!{\r}
+Dialogue: 0,0:17:35.81,0:17:38.77,chs&eng,,0,0,0,,{\blur3}我說了 小聲點 白癡!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I said quiet, dickhead.{\r}
+Dialogue: 0,0:17:40.39,0:17:42.06,chs&eng,,0,0,0,,{\blur3}我們就要把他們抓住了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We've got them now.{\r}
+Dialogue: 0,0:17:54.07,0:17:56.07,chs&eng,,0,0,0,,{\blur3}我知道他們來過這\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I know they came in here.{\r}
+Dialogue: 0,0:18:10.80,0:18:13.93,chs&eng,,0,0,0,,{\blur3}6號車呼叫哈里斯上尉我們在小巷一端發現他們\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Unit 6 to Capt. Harris.We've got them at the end of the alley.{\r}
+Dialogue: 0,0:18:13.97,0:18:15.43,chs&eng,,0,0,0,,{\blur3}抓住你們了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I got you now!{\r}
+Dialogue: 0,0:18:15.80,0:18:18.39,chs&eng,,0,0,0,,{\blur3}控制住他們 我們馬上到\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You hold them right there. We're coming.{\r}
+Dialogue: 0,0:18:21.85,0:18:23.68,chs&eng,,0,0,0,,{\blur3}科普蘭 抓住他們了嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Copeland, have you got them?{\r}
+Dialogue: 0,0:18:23.81,0:18:27.86,chs&eng,,0,0,0,,{\blur3}女士們先生們 晚上好!我是警察學校的凱瑞·馬霍尼\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Good evening, ladies and gentlemen.I'm Carey Mahoney of the Police Academy.{\r}
+Dialogue: 0,0:18:28.94,0:18:33.11,chs&eng,,0,0,0,,{\blur3}謝謝 非常感謝 真是太感謝了 你們真熱情\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you. Thank you very much.Please. Thank you. You're too kind.{\r}
+Dialogue: 0,0:18:39.16,0:18:43.12,chs&eng,,0,0,0,,{\blur3}是哈里斯 還有他的笨幫手 快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It's Harris. Haul ass. Go.{\r}
+Dialogue: 0,0:18:48.17,0:18:50.29,chs&eng,,0,0,0,,{\blur3}我要抓住你們 你們這些小阿飛\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I got you, you little punks.{\r}
+Dialogue: 0,0:18:51.71,0:18:56.42,chs&eng,,0,0,0,,{\blur3}不許動 你們兩個小流氓!把你的手從我的屁股上拿開!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Freeze, you little hoodlums.Get your hands off my ass, Proctor.{\r}
+Dialogue: 0,0:18:56.63,0:18:59.34,chs&eng,,0,0,0,,{\blur3}滾開 學監!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get away, Proctor.{\r}
+Dialogue: 0,0:19:13.99,0:19:16.15,chs&eng,,0,0,0,,{\blur3}不! 別搖柵欄!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No. Don't shake the fence.{\r}
+Dialogue: 0,0:19:22.20,0:19:25.62,chs&eng,,0,0,0,,{\blur3}噢 混蛋! 不!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, shit. No!{\r}
+Dialogue: 0,0:19:29.50,0:19:31.29,chs&eng,,0,0,0,,{\blur3}這項計劃的目的…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The purpose of this program...{\r}
+Dialogue: 0,0:19:31.34,0:19:35.34,chs&eng,,0,0,0,,{\blur3}是為了形成更好的工作關係 在我們警方與…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}is to develop a better working relationshipbetween us, the police...{\r}
+Dialogue: 0,0:19:36.05,0:19:39.38,chs&eng,,0,0,0,,{\blur3}當他說到"好了 姑娘們、小伙們"的時候我們就…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}When he says, "Okay, boys and girls,"we're all gonna....{\r}
+Dialogue: 0,0:19:41.59,0:19:43.05,chs&eng,,0,0,0,,{\blur3}…與你們 社會公民之間\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...and you, the community.{\r}
+Dialogue: 0,0:19:46.93,0:19:50.52,chs&eng,,0,0,0,,{\blur3}停下! 停下! 給我停下!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Stop! Stop right there!{\r}
+Dialogue: 0,0:19:53.06,0:19:55.90,chs&eng,,0,0,0,,{\blur3}而且最重要的是 這是前所未有的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You see, the great thing is, this is a first.{\r}
+Dialogue: 0,0:19:56.07,0:20:00.65,chs&eng,,0,0,0,,{\blur3}警察學校負責對你們的培訓使得你們能更好地保護自己\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The Police Academy has offered to trainyou citizens to better protect yourselves.{\r}
+Dialogue: 0,0:20:00.78,0:20:03.90,chs&eng,,0,0,0,,{\blur3}- 你們會成為領導新潮的人 - 我們會有槍嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You'll be trendsetters. - Do we get to pack heat?{\r}
+Dialogue: 0,0:20:03.99,0:20:05.11,chs&eng,,0,0,0,,{\blur3}槍——\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Heat - -{\r}
+Dialogue: 0,0:20:11.54,0:20:14.00,chs&eng,,0,0,0,,{\blur3}抓住那些小流氓! 抓住他們!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Stop those little punks! Stop them!{\r}
+Dialogue: 0,0:20:16.21,0:20:17.96,chs&eng,,0,0,0,,{\blur3}你們被捕了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're under arrest!{\r}
+Dialogue: 0,0:20:22.68,0:20:23.84,chs&eng,,0,0,0,,{\blur3}你沒事吧?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Are you all right?{\r}
+Dialogue: 0,0:20:24.68,0:20:27.26,chs&eng,,0,0,0,,{\blur3}誰笑呢? 你們兩個傻瓜!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Who's laughing now, you little twits?{\r}
+Dialogue: 0,0:20:27.39,0:20:30.56,chs&eng,,0,0,0,,{\blur3}你們的衣服讓我噁心!我會馬上讓你們明白明白\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And your clothes make me want to puke.I'll tell you that right now.{\r}
+Dialogue: 0,0:20:30.68,0:20:34.73,chs&eng,,0,0,0,,{\blur3}- 哈里斯上尉! - 噢 噢 是馬霍尼\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Capt. Harris! - Well, well, Mahoney.{\r}
+Dialogue: 0,0:20:34.85,0:20:37.81,chs&eng,,0,0,0,,{\blur3}- 好久不見 長官 - 可不是\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- It's been a long time, sir. - So it has.{\r}
+Dialogue: 0,0:20:37.86,0:20:39.86,chs&eng,,0,0,0,,{\blur3}還有快嘴瓊斯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Well, Motormouth Jones.{\r}
+Dialogue: 0,0:20:40.98,0:20:43.53,chs&eng,,0,0,0,,{\blur3}有人向您說過您的裁縫很棒嗎 長官?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Anyone ever tell youyou've got a great tailor, sir?{\r}
+Dialogue: 0,0:20:43.61,0:20:45.82,chs&eng,,0,0,0,,{\blur3}我上周就說過\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I mentioned that just last week.{\r}
+Dialogue: 0,0:20:45.95,0:20:50.70,chs&eng,,0,0,0,,{\blur3}馬霍尼 有人對你說過你還是個尿褲子的小屁孩兒嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Has anyone told you, Mahoney,that you're still a little pissant?{\r}
+Dialogue: 0,0:20:50.83,0:20:54.16,chs&eng,,0,0,0,,{\blur3}- 別人的看法無關緊要 長官 - 阿尼和凱爾做了什麼?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- No one whose opinion matters, sir. - What did Arnie and Kyle do?{\r}
+Dialogue: 0,0:20:54.29,0:20:58.25,chs&eng,,0,0,0,,{\blur3}你認識這兩個小丑? 我早該猜到\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You know those clowns?I should have figured.{\r}
+Dialogue: 0,0:20:58.71,0:21:03.13,chs&eng,,0,0,0,,{\blur3}你的兩個小朋友毀了一輛警車還有購物中心…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Your little pals wrecked a police car,destroyed a shopping mall...{\r}
+Dialogue: 0,0:21:03.25,0:21:05.71,chs&eng,,0,0,0,,{\blur3}騷擾公眾 還使勁反抗\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}harassed citizens, resisted arrest.{\r}
+Dialogue: 0,0:21:05.84,0:21:08.30,chs&eng,,0,0,0,,{\blur3}放鬆點 上尉 他們只是些瘋瘋顛顛的小孩兒\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Go easy, Captain. They're just wacky kids.{\r}
+Dialogue: 0,0:21:08.55,0:21:11.43,chs&eng,,0,0,0,,{\blur3}哼 我們倒要看看他們在監獄裏還怎麼瘋瘋顛顛\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We'll see how those wacky kidslike it in jail.{\r}
+Dialogue: 0,0:21:14.06,0:21:18.31,chs&eng,,0,0,0,,{\blur3}我在這個位置上這麼多年見過各式各樣的擾亂公共罪\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}In all my years on the bench,I have seen all sorts of public disorder.{\r}
+Dialogue: 0,0:21:18.56,0:21:20.85,chs&eng,,0,0,0,,{\blur3}年輕人應該學會如何去遵守…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Young people must learn to conform...{\r}
+Dialogue: 0,0:21:20.98,0:21:23.94,chs&eng,,0,0,0,,{\blur3}文明社會的規範與法律\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}to the standards and lawsof civilized society.{\r}
+Dialogue: 0,0:21:24.36,0:21:27.74,chs&eng,,0,0,0,,{\blur3}根據證詞 再考慮到…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}In reviewing the testimonyand taking into account...{\r}
+Dialogue: 0,0:21:27.86,0:21:31.20,chs&eng,,0,0,0,,{\blur3}你們對於公共與私人財產的漠視…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}your disregardfor public and private property...{\r}
+Dialogue: 0,0:21:31.91,0:21:34.37,chs&eng,,0,0,0,,{\blur3}我只能出一個結論：\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I can reach only one decision:{\r}
+Dialogue: 0,0:21:36.37,0:21:37.91,chs&eng,,0,0,0,,{\blur3}罪惡滔天!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Guilty as hell.{\r}
+Dialogue: 0,0:21:40.96,0:21:43.29,chs&eng,,0,0,0,,{\blur3}你! 你想把我毀掉!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You flushed me down the toilet!{\r}
+Dialogue: 0,0:21:44.50,0:21:45.59,chs&eng,,0,0,0,,{\blur3}在你們被宣判之前…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Before you pass sentence - -{\r}
+Dialogue: 0,0:21:45.63,0:21:48.92,chs&eng,,0,0,0,,{\blur3}他們想把我送進監獄!然後那些肥胖的、渾身是毛的傢伙就要…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}They're gonna send me to jail,and some fat, hairy guy is gonna - -{\r}
+Dialogue: 0,0:21:48.96,0:21:52.05,chs&eng,,0,0,0,,{\blur3}- 我能到台前跟您說幾句話嗎 法官大人? - 可以 中士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- May I approach the bench, Your Honor? - Yes, Sergeant.{\r}
+Dialogue: 0,0:21:52.09,0:21:57.05,chs&eng,,0,0,0,,{\blur3}法官大人 我們真的要把這些孩子送到監獄裏嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sir, do we want to expose these boys,these children to a prison environment?{\r}
+Dialogue: 0,0:21:57.22,0:22:00.64,chs&eng,,0,0,0,,{\blur3}- 是的 - 上尉 能不能讓我管理自己的法庭?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yes. - May I run my own court, Captain?{\r}
+Dialogue: 0,0:22:00.77,0:22:03.19,chs&eng,,0,0,0,,{\blur3}- 你有更好的主意嗎? - 是的 法官大人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You've got a better idea? - Yes, I do, sir.{\r}
+Dialogue: 0,0:22:03.27,0:22:06.52,chs&eng,,0,0,0,,{\blur3}拉薩指揮官發起了一項新的公共關係計劃\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Comdt. Lassard has initiateda new community relations program.{\r}
+Dialogue: 0,0:22:06.65,0:22:08.94,chs&eng,,0,0,0,,{\blur3}為什麼不讓這些孩子…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Why not assign these kids...{\r}
+Dialogue: 0,0:22:08.98,0:22:11.28,chs&eng,,0,0,0,,{\blur3}通過參加這項計劃而替代受刑呢?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}to that programas a form of alternate sentencing?{\r}
+Dialogue: 0,0:22:11.40,0:22:14.24,chs&eng,,0,0,0,,{\blur3}- 這太荒唐了! - 我會判定的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- That's ridiculous! - I'll be the judge of that.{\r}
+Dialogue: 0,0:22:14.95,0:22:17.07,chs&eng,,0,0,0,,{\blur3}我…打擾一下\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I.... Excuse me.{\r}
+Dialogue: 0,0:22:17.91,0:22:20.83,chs&eng,,0,0,0,,{\blur3}我對這項計劃很有興趣\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I like the sound of thiscommunity relations gig.{\r}
+Dialogue: 0,0:22:21.29,0:22:24.67,chs&eng,,0,0,0,,{\blur3}我是米爾特·巴特爾沃斯 普通人的辯護律師\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Milt Butterworth,defender of the common man.{\r}
+Dialogue: 0,0:22:24.79,0:22:28.29,chs&eng,,0,0,0,,{\blur3}法官大人 看看控訴清單吧!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Your Honor, look at this list of complaints.{\r}
+Dialogue: 0,0:22:28.38,0:22:31.25,chs&eng,,0,0,0,,{\blur3}讓我直接來引用您的話說就是…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And I quote you directly, sir, when I say - -{\r}
+Dialogue: 0,0:22:43.64,0:22:47.81,chs&eng,,0,0,0,,{\blur3}嘿 長官 我覺得你一張嘴就是在蔑視法庭\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Gee, sir, I thought you only gotcontempt of court for opening your mouth.{\r}
+Dialogue: 0,0:22:50.23,0:22:52.53,chs&eng,,0,0,0,,{\blur3}馬霍尼 我警告你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Mahoney, I'm warning you.{\r}
+Dialogue: 0,0:22:52.69,0:22:55.86,chs&eng,,0,0,0,,{\blur3}在我的地盤上別想實行拉薩的計劃\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You keep Lassard's C.O.Psout of my precinct.{\r}
+Dialogue: 0,0:22:55.95,0:22:57.82,chs&eng,,0,0,0,,{\blur3}長官 您不明白我所要做的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You don't understandwhat I'm trying to do.{\r}
+Dialogue: 0,0:22:57.95,0:23:00.24,chs&eng,,0,0,0,,{\blur3}我清楚得很\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I understandexactly what you're trying to do.{\r}
+Dialogue: 0,0:23:00.28,0:23:03.87,chs&eng,,0,0,0,,{\blur3}把他們趕出去 尤其是這兩個小混蛋\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Just keep them out,especially these two little buttwads.{\r}
+Dialogue: 0,0:23:04.00,0:23:06.58,chs&eng,,0,0,0,,{\blur3}對不起 先生 您不是要…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me, sir,but you're not planning to attack us...{\r}
+Dialogue: 0,0:23:06.71,0:23:09.46,chs&eng,,0,0,0,,{\blur3}打我們吧 啊?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}with any more of your bodily functions,are you?{\r}
+Dialogue: 0,0:23:11.88,0:23:16.17,chs&eng,,0,0,0,,{\blur3}你只要明白 我們永遠不會再見面了 永遠\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You just make surethat we never meet again. Ever.{\r}
+Dialogue: 0,0:23:17.97,0:23:21.34,chs&eng,,0,0,0,,{\blur3}知道嗎 有了這兩個傢伙拉薩的計劃永遠也不會成功的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You know, with those two idiotsin Lassard's program, it'll never work.{\r}
+Dialogue: 0,0:23:48.79,0:23:50.33,chs&eng,,0,0,0,,{\blur3}對不起 先生\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me, sir.{\r}
+Dialogue: 0,0:23:50.50,0:23:52.62,chs&eng,,0,0,0,,{\blur3}我們想找一位叫費爾德曼的女士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We're looking for a Mrs. Feldman.{\r}
+Dialogue: 0,0:23:52.75,0:23:54.63,chs&eng,,0,0,0,,{\blur3}- 您知道這個人嗎? - 知道\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Do you know her? - Yes.{\r}
+Dialogue: 0,0:24:02.89,0:24:05.68,chs&eng,,0,0,0,,{\blur3}對不起 女士您認識羅依斯女士嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me, ma'am.Do you know a Mrs. Lois - -{\r}
+Dialogue: 0,0:24:05.76,0:24:08.68,chs&eng,,0,0,0,,{\blur3}- 請問我們在哪可以找到羅依斯·費爾德曼? - 那兒\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Where can we find Lois Feldman, please? - There.{\r}
+Dialogue: 0,0:24:09.64,0:24:10.81,chs&eng,,0,0,0,,{\blur3}謝謝\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you.{\r}
+Dialogue: 0,0:24:17.48,0:24:18.81,chs&eng,,0,0,0,,{\blur3}費爾德曼女士?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Mrs. Feldman?{\r}
+Dialogue: 0,0:24:18.94,0:24:20.69,chs&eng,,0,0,0,,{\blur3}- 是誰? - 警察\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Who's asking? - Police.{\r}
+Dialogue: 0,0:24:21.53,0:24:23.82,chs&eng,,0,0,0,,{\blur3}是關於那些該死的圖書館的書嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Is it about those damn library books?{\r}
+Dialogue: 0,0:24:25.07,0:24:29.49,chs&eng,,0,0,0,,{\blur3}我們是來跟您談關於"全民警察"計劃的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We're following up on your allegedinterest in the Citizens On Patrol program.{\r}
+Dialogue: 0,0:24:30.29,0:24:33.25,chs&eng,,0,0,0,,{\blur3}那我就是費爾德曼女士了 請進\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Then I'm Mrs. Feldman. Come on in.{\r}
+Dialogue: 0,0:24:35.29,0:24:37.50,chs&eng,,0,0,0,,{\blur3}卡拉漢 小心你的屁股\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Callahan, cover your rear.{\r}
+Dialogue: 0,0:24:49.10,0:24:51.26,chs&eng,,0,0,0,,{\blur3}您的品味真讓人欽佩!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I admire your taste.{\r}
+Dialogue: 0,0:24:51.39,0:24:55.39,chs&eng,,0,0,0,,{\blur3}噢 這都是我自己佈置的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, well, I do all my own decorating.{\r}
+Dialogue: 0,0:24:56.69,0:24:58.56,chs&eng,,0,0,0,,{\blur3}您在這方面很有天賦 女士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You have a talent for it, ma'am.{\r}
+Dialogue: 0,0:24:58.69,0:25:00.86,chs&eng,,0,0,0,,{\blur3}我一會兒就來 警官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'll be with you in a moment, Sarge.{\r}
+Dialogue: 0,0:25:01.27,0:25:04.53,chs&eng,,0,0,0,,{\blur3}也許您願意先談一下這項計劃 女士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Perhaps you'd like to discussthe program first, ma'am.{\r}
+Dialogue: 0,0:25:04.57,0:25:06.15,chs&eng,,0,0,0,,{\blur3}還有什麼可談的?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What's to discuss?{\r}
+Dialogue: 0,0:25:06.15,0:25:09.82,chs&eng,,0,0,0,,{\blur3}你覺得我會呆在這任憑動脈硬化嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Think I want to hang out hereand listen to arteries hardening?{\r}
+Dialogue: 0,0:25:10.16,0:25:12.28,chs&eng,,0,0,0,,{\blur3}我把防彈背心放哪兒了?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Where did I put that bulletproof vest?{\r}
+Dialogue: 0,0:25:26.42,0:25:29.84,chs&eng,,0,0,0,,{\blur3}好 集合! 快點! 整隊!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}All right, fall in! Come on, please, line up.{\r}
+Dialogue: 0,0:25:29.93,0:25:32.30,chs&eng,,0,0,0,,{\blur3}快! 趕緊排好隊!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, I need a lineup here.{\r}
+Dialogue: 0,0:25:32.47,0:25:34.60,chs&eng,,0,0,0,,{\blur3}你好 女士 女士們先生們…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hello, ma'am. Ladies and gentlemen - -{\r}
+Dialogue: 0,0:25:39.56,0:25:42.48,chs&eng,,0,0,0,,{\blur3}- 謝謝您… - 費爾德曼女士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Thank you, Miss.... - Mrs. Feldman.{\r}
+Dialogue: 0,0:26:03.75,0:26:06.63,chs&eng,,0,0,0,,{\blur3}歡迎你們到學校來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I want to welcome all of youto the Academy.{\r}
+Dialogue: 0,0:26:06.88,0:26:11.51,chs&eng,,0,0,0,,{\blur3}你們將參加這項新的、令人振奮的計劃我叫它 叫它…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You are part of a newand exciting program that I call...{\r}
+Dialogue: 0,0:26:12.68,0:26:14.18,chs&eng,,0,0,0,,{\blur3}- "全民警察"計劃 - "全民警察"計劃\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- C.O.P. - C.O.P.{\r}
+Dialogue: 0,0:26:16.47,0:26:19.47,chs&eng,,0,0,0,,{\blur3}- 全市公民作為警察巡邏計劃 - 全市公民作為警察巡邏計劃\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Citizens On Patrol. - Citizens On Patrol.{\r}
+Dialogue: 0,0:26:19.89,0:26:22.68,chs&eng,,0,0,0,,{\blur3}- 全市公民作為警察巡邏計劃! - 全市公民作為警察巡邏計劃!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Citizens On Patrol! - Citizens On Patrol!{\r}
+Dialogue: 0,0:26:24.06,0:26:26.65,chs&eng,,0,0,0,,{\blur3}你們將會和警察們一起工作、訓練\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You will work and train with the police.{\r}
+Dialogue: 0,0:26:26.90,0:26:29.36,chs&eng,,0,0,0,,{\blur3}警察將會和你們一起工作、訓練\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The police will work and train with you.{\r}
+Dialogue: 0,0:26:29.61,0:26:33.24,chs&eng,,0,0,0,,{\blur3}工作、訓練；訓練、工作\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Working and training,training and working.{\r}
+Dialogue: 0,0:26:33.53,0:26:35.07,chs&eng,,0,0,0,,{\blur3}對不起 指揮官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me, Commandant.{\r}
+Dialogue: 0,0:26:35.24,0:26:38.66,chs&eng,,0,0,0,,{\blur3}但你們期望公眾來做警察的工作嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}But do you expect the communityto do the job of the police force?{\r}
+Dialogue: 0,0:26:38.78,0:26:42.95,chs&eng,,0,0,0,,{\blur3}工作多得很 適合的人也多得是\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There are many, many jobsfor many, many people.{\r}
+Dialogue: 0,0:26:43.54,0:26:45.66,chs&eng,,0,0,0,,{\blur3}長官 這事交給我吧\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sir, I'll take care of this.{\r}
+Dialogue: 0,0:26:46.25,0:26:48.83,chs&eng,,0,0,0,,{\blur3}對不起 年輕的女士 指揮官的意思是…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me, young lady,what the Commandant means...{\r}
+Dialogue: 0,0:26:48.96,0:26:51.79,chs&eng,,0,0,0,,{\blur3}這項計劃會促進…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}is that this programwill promote understanding...{\r}
+Dialogue: 0,0:26:51.92,0:26:53.55,chs&eng,,0,0,0,,{\blur3}公眾與警方之間的理解…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}between the community and the police...{\r}
+Dialogue: 0,0:26:53.67,0:26:57.13,chs&eng,,0,0,0,,{\blur3}並使得公眾在預防犯罪時更為主動\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}and make the communitymore active in crime prevention.{\r}
+Dialogue: 0,0:26:57.72,0:27:01.26,chs&eng,,0,0,0,,{\blur3}主動? 哪道這樣不危險嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Active in crime prevention?Won't that be dangerous?{\r}
+Dialogue: 0,0:27:01.39,0:27:04.60,chs&eng,,0,0,0,,{\blur3}不 我們只是教他們…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No. We just want to teach citizens...{\r}
+Dialogue: 0,0:27:04.68,0:27:06.98,chs&eng,,0,0,0,,{\blur3}制止犯罪的發生\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}to prevent crimes from taking place.{\r}
+Dialogue: 0,0:27:07.14,0:27:11.40,chs&eng,,0,0,0,,{\blur3}從理論上聽起來不錯 希望實際中也能如此\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It sounds fine in theory.Let's hope it works in practice.{\r}
+Dialogue: 0,0:27:14.86,0:27:17.40,chs&eng,,0,0,0,,{\blur3}我喜歡他 他真的是一條很棒的魚\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I like him. He's a really nice fish.{\r}
+Dialogue: 0,0:27:18.16,0:27:19.95,chs&eng,,0,0,0,,{\blur3}他看上去有點像您\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}He looks a little like you.{\r}
+Dialogue: 0,0:27:22.87,0:27:26.41,chs&eng,,0,0,0,,{\blur3}我將要參加在倫敦舉行的一場國際會議\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I will attendan international police seminar in London.{\r}
+Dialogue: 0,0:27:26.54,0:27:30.04,chs&eng,,0,0,0,,{\blur3}如果我可以把…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It would bethe crowning achievement of my career...{\r}
+Dialogue: 0,0:27:30.58,0:27:32.42,chs&eng,,0,0,0,,{\blur3}全世界的警察教師集中到這裏向他們展示我的…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}if I could close this seminar...{\r}
+Dialogue: 0,0:27:32.59,0:27:35.75,chs&eng,,0,0,0,,{\blur3}已經順利實施了的"全民警察"計劃並以此來結束這次會議…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}by bringing instructorsfrom all around the world...{\r}
+Dialogue: 0,0:27:35.88,0:27:40.30,chs&eng,,0,0,0,,{\blur3}這將成為我職業生涯中的最高成就\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}here to watchthe C.O.P. program in action.{\r}
+Dialogue: 0,0:27:41.18,0:27:45.72,chs&eng,,0,0,0,,{\blur3}我將寄希望於你們 來成就我的這一夢想\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'm counting on all of youto make that possible.{\r}
+Dialogue: 0,0:27:45.76,0:27:48.06,chs&eng,,0,0,0,,{\blur3}在拉薩校長不在的期間…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}In Comdt. Lassard's absence...{\r}
+Dialogue: 0,0:27:48.18,0:27:51.85,chs&eng,,0,0,0,,{\blur3}我將指定一個強壯且富有經驗的警官…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I've appointed a very able - bodiedand experienced officer...{\r}
+Dialogue: 0,0:27:51.94,0:27:53.44,chs&eng,,0,0,0,,{\blur3}來管理學校\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}to run the Academy.{\r}
+Dialogue: 0,0:27:54.57,0:27:57.02,chs&eng,,0,0,0,,{\blur3}啊 時間正好 他來了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Perfect timing. Here he is now.{\r}
+Dialogue: 0,0:27:59.28,0:28:00.74,chs&eng,,0,0,0,,{\blur3}立正!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Attention!{\r}
+Dialogue: 0,0:28:13.04,0:28:15.62,chs&eng,,0,0,0,,{\blur3}哈里斯掌權兩周? 可惡!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Two weeks of Harris? Damn!{\r}
+Dialogue: 0,0:28:21.59,0:28:22.67,chs&eng,,0,0,0,,{\blur3}噢!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Damn.{\r}
+Dialogue: 0,0:28:23.88,0:28:25.51,chs&eng,,0,0,0,,{\blur3}除臭劑? 謝謝\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Deodorant? Thanks.{\r}
+Dialogue: 0,0:28:32.81,0:28:34.18,chs&eng,,0,0,0,,{\blur3}這裏亂七八糟的 趕緊給我收拾乾淨!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Straighten this mess up.{\r}
+Dialogue: 0,0:28:34.27,0:28:35.81,chs&eng,,0,0,0,,{\blur3}- 哪亂? - 趕快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What mess? - Now!{\r}
+Dialogue: 0,0:28:36.60,0:28:39.61,chs&eng,,0,0,0,,{\blur3}我要你們這群臭東西還有參加那個"全民警察"計劃的人…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I want all of you dirtbagsand that group of C.O.P. people...{\r}
+Dialogue: 0,0:28:39.69,0:28:42.53,chs&eng,,0,0,0,,{\blur3}下午兩點在宿舍外集合!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}out in front of this dormitoryat 1400 hours.{\r}
+Dialogue: 0,0:28:43.07,0:28:44.82,chs&eng,,0,0,0,,{\blur3}快快快 動起來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Move it!{\r}
+Dialogue: 0,0:28:44.95,0:28:48.11,chs&eng,,0,0,0,,{\blur3}長官 我們正在談論您的聲音是如何的圓潤\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sir, we were just commentingon how you'd mellowed.{\r}
+Dialogue: 0,0:28:50.66,0:28:53.66,chs&eng,,0,0,0,,{\blur3}- 上尉? - 什麼事 馬霍尼?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Captain? - What is it, Mahoney?{\r}
+Dialogue: 0,0:28:53.79,0:28:56.20,chs&eng,,0,0,0,,{\blur3}我希望您能給這項計劃一個公平的機會\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I hope you're gonnagive this program a fair chance.{\r}
+Dialogue: 0,0:28:56.25,0:29:00.67,chs&eng,,0,0,0,,{\blur3}這個計劃跟你一樣 馬霍尼 糟糕透頂\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This program, Mahoney,is just like you: a bad idea.{\r}
+Dialogue: 0,0:29:00.80,0:29:02.42,chs&eng,,0,0,0,,{\blur3}那是您的意見 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That's your opinion, sir.{\r}
+Dialogue: 0,0:29:02.55,0:29:05.67,chs&eng,,0,0,0,,{\blur3}這是拉薩校長的計劃 而且這是他的學校\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}But this is Comdt. Lassard's idea,and his Academy.{\r}
+Dialogue: 0,0:29:07.97,0:29:10.01,chs&eng,,0,0,0,,{\blur3}事情是可以改變的 馬霍尼\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Things can change, Mahoney.{\r}
+Dialogue: 0,0:29:10.80,0:29:13.51,chs&eng,,0,0,0,,{\blur3}是的 事情是可以改變的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, things can change.{\r}
+Dialogue: 0,0:29:13.81,0:29:15.81,chs&eng,,0,0,0,,{\blur3}我們外面見\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'll see you out front.{\r}
+Dialogue: 0,0:29:32.16,0:29:34.16,chs&eng,,0,0,0,,{\blur3}我打賭您感覺神清氣爽 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I bet that was refreshing, sir.{\r}
+Dialogue: 0,0:29:36.70,0:29:38.58,chs&eng,,0,0,0,,{\blur3}在這兩周裏…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Over the next two weeks...{\r}
+Dialogue: 0,0:29:38.71,0:29:42.17,chs&eng,,0,0,0,,{\blur3}你們會經歷一個改良的計劃\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}you'll go througha modified training program.{\r}
+Dialogue: 0,0:29:42.34,0:29:45.84,chs&eng,,0,0,0,,{\blur3}你們會學到很多很多重要的用以防止犯罪的知識\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You'll learn many, many keysto crime prevention.{\r}
+Dialogue: 0,0:29:46.46,0:29:50.59,chs&eng,,0,0,0,,{\blur3}你們也可以教會你們周圍很多很多的朋友\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Keys you can teach many, many othersin your community.{\r}
+Dialogue: 0,0:29:50.72,0:29:54.76,chs&eng,,0,0,0,,{\blur3}改良? 改什麼? 我要工作\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Modified? Modified nothing.I want the works.{\r}
+Dialogue: 0,0:29:54.89,0:29:56.64,chs&eng,,0,0,0,,{\blur3}- 沒錯! - 女士…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yeah. - Madam...{\r}
+Dialogue: 0,0:29:56.72,0:29:59.89,chs&eng,,0,0,0,,{\blur3}是擺事實講道理的時候了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I think it's time for a dose of reality.{\r}
+Dialogue: 0,0:30:00.60,0:30:02.77,chs&eng,,0,0,0,,{\blur3}你們會忘記拉薩的大肆宣傳\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You can forget Lassard's hype.{\r}
+Dialogue: 0,0:30:04.36,0:30:08.03,chs&eng,,0,0,0,,{\blur3}你們不屬於這裏\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You people do not belong here.{\r}
+Dialogue: 0,0:30:09.03,0:30:12.20,chs&eng,,0,0,0,,{\blur3}尤其是你 還有你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Especially you and you.{\r}
+Dialogue: 0,0:30:16.33,0:30:20.33,chs&eng,,0,0,0,,{\blur3}社會行動團體只意味著一件事情 僅僅一件\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Community action groups mean one thing,and one thing only.{\r}
+Dialogue: 0,0:30:23.33,0:30:25.33,chs&eng,,0,0,0,,{\blur3}我希望那不是口香糖\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I hope that wasn't gum.{\r}
+Dialogue: 0,0:30:28.88,0:30:30.88,chs&eng,,0,0,0,,{\blur3}聽見上尉說什麼了嗎? 那是什麼?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You heard the Captain. Is it?{\r}
+Dialogue: 0,0:30:31.92,0:30:35.76,chs&eng,,0,0,0,,{\blur3}真的是口香糖 長官! 還是泡泡糖櫻桃味的 我想\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It's definitely gum, sir. Bubble gum.Cherry, I think.{\r}
+Dialogue: 0,0:30:36.26,0:30:39.05,chs&eng,,0,0,0,,{\blur3}- 非常感謝 學監! - 別客氣 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Thank you, Proctor. - You're welcome, sir.{\r}
+Dialogue: 0,0:30:41.98,0:30:45.89,chs&eng,,0,0,0,,{\blur3}這些團體只意味著公民妨礙警察公務\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}These groups only meancitizens getting in the way of the police.{\r}
+Dialogue: 0,0:30:45.94,0:30:48.35,chs&eng,,0,0,0,,{\blur3}現在 我不想跟你們扯上關係\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, I don't get involvedin your business...{\r}
+Dialogue: 0,0:30:48.48,0:30:51.36,chs&eng,,0,0,0,,{\blur3}你們也別干擾我的——\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}and I don't want you involved in my - -{\r}
+Dialogue: 0,0:30:55.24,0:30:56.70,chs&eng,,0,0,0,,{\blur3}嗯 如果你們聰明的話…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, if you were smart...{\r}
+Dialogue: 0,0:30:56.70,0:31:00.53,chs&eng,,0,0,0,,{\blur3}就該乖乖回家 把這個餿點子徹底忘掉…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}you would go homeand forget this stupid idea....{\r}
+Dialogue: 0,0:31:03.08,0:31:05.37,chs&eng,,0,0,0,,{\blur3}嘿 我是聽到婚禮上的鐘聲了嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Are those wedding bells I hear, sir?{\r}
+Dialogue: 0,0:31:09.96,0:31:14.00,chs&eng,,0,0,0,,{\blur3}- 這該死的雜種狗是誰的? - 這該死的雜種狗是我的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Whose damn mutt is this? - It's my damn mutt.{\r}
+Dialogue: 0,0:31:15.38,0:31:18.09,chs&eng,,0,0,0,,{\blur3}我要它從這消失!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I want him out of here!{\r}
+Dialogue: 0,0:31:18.22,0:31:20.39,chs&eng,,0,0,0,,{\blur3}- 但是 長官… - 快消失!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- But, sir - - - Out!{\r}
+Dialogue: 0,0:31:23.68,0:31:27.68,chs&eng,,0,0,0,,{\blur3}我才不會把克拉倫斯趕走 它是我的寵物\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I am not getting rid of Clarence.He's my pet.{\r}
+Dialogue: 0,0:31:27.98,0:31:31.60,chs&eng,,0,0,0,,{\blur3}為什麼要? 再說了 哈里斯還有學監\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Why should you?After all, Harris has Proctor.{\r}
+Dialogue: 0,0:31:32.27,0:31:33.69,chs&eng,,0,0,0,,{\blur3}讓我來照顧他\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'll take him.{\r}
+Dialogue: 0,0:31:34.15,0:31:36.40,chs&eng,,0,0,0,,{\blur3}我有一所大房子 漂亮的後院\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I have a big house, nice yard.{\r}
+Dialogue: 0,0:31:37.28,0:31:39.99,chs&eng,,0,0,0,,{\blur3}看 他喜歡我 我們會相處很好的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}See, he likes me. We'll get along fine.{\r}
+Dialogue: 0,0:31:40.11,0:31:42.28,chs&eng,,0,0,0,,{\blur3}我怎麼樣? 我經過訓練的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Me, too? I'm housebroken.{\r}
+Dialogue: 0,0:31:43.45,0:31:46.16,chs&eng,,0,0,0,,{\blur3}好了夥計們 站到白線前來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, C.O.Ps,let's step up to the white line!{\r}
+Dialogue: 0,0:31:46.25,0:31:49.71,chs&eng,,0,0,0,,{\blur3}排成一隊 然後聽瓊斯長官訓話\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let's line ourselves up with a slot,then let's listen to Mr. Jones.{\r}
+Dialogue: 0,0:31:49.75,0:31:51.75,chs&eng,,0,0,0,,{\blur3}謝謝 塔克貝利中士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you, Sgt. Tackleberry.{\r}
+Dialogue: 0,0:31:53.54,0:31:56.75,chs&eng,,0,0,0,,{\blur3}這是點38口徑標準警務用槍\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is a standard police issue.38.{\r}
+Dialogue: 0,0:31:57.17,0:31:59.17,chs&eng,,0,0,0,,{\blur3}仔細檢查你就會發現…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Examine this weapon carefully.{\r}
+Dialogue: 0,0:31:59.30,0:32:01.47,chs&eng,,0,0,0,,{\blur3}裏面並沒有裝上子彈\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You must be surethis weapon is not loaded.{\r}
+Dialogue: 0,0:32:01.59,0:32:05.93,chs&eng,,0,0,0,,{\blur3}無論是否裝填子彈 你們都要開始對它負責\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You will be responsible for the loadingand unloading of this weapon yourself.{\r}
+Dialogue: 0,0:32:06.18,0:32:08.14,chs&eng,,0,0,0,,{\blur3}現在 塔克貝利中士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, Sgt. Tackleberry.{\r}
+Dialogue: 0,0:32:11.02,0:32:13.56,chs&eng,,0,0,0,,{\blur3}你們要成為持槍一族\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You want to become one with the gun.{\r}
+Dialogue: 0,0:32:15.61,0:32:19.48,chs&eng,,0,0,0,,{\blur3}感受它…愛撫它…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Feel the gun, caress the gun...{\r}
+Dialogue: 0,0:32:21.36,0:32:24.78,chs&eng,,0,0,0,,{\blur3}直到使它成為你生命、呼吸、活動…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}until it's a living, breathing, vibrating...{\r}
+Dialogue: 0,0:32:25.03,0:32:28.24,chs&eng,,0,0,0,,{\blur3}的延伸\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}extension of yourself.{\r}
+Dialogue: 0,0:32:28.33,0:32:30.03,chs&eng,,0,0,0,,{\blur3}我找女人也是這樣\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I look for the same in a woman.{\r}
+Dialogue: 0,0:32:30.16,0:32:32.08,chs&eng,,0,0,0,,{\blur3}嘿 這玩意兒沒裝子彈\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This sucker's not loaded.{\r}
+Dialogue: 0,0:32:32.46,0:32:34.33,chs&eng,,0,0,0,,{\blur3}你用不著玩真的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You won't be using live ammo.{\r}
+Dialogue: 0,0:32:34.92,0:32:39.38,chs&eng,,0,0,0,,{\blur3}塔克 讓我用你的寶貝玩意兒耍幾下 怎麼樣?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Tack, how about letting me squeeze offa few rounds of that baby?{\r}
+Dialogue: 0,0:32:39.50,0:32:40.96,chs&eng,,0,0,0,,{\blur3}塔克?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Tack?{\r}
+Dialogue: 0,0:32:42.05,0:32:43.67,chs&eng,,0,0,0,,{\blur3}當然可以 女士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Affirmative, Mrs. F.{\r}
+Dialogue: 0,0:32:45.88,0:32:48.97,chs&eng,,0,0,0,,{\blur3}現在當心 因為點44的大酒瓶有很大的…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, be carefulbecause a.44 magnum has quite a...{\r}
+Dialogue: 0,0:32:51.64,0:32:52.64,chs&eng,,0,0,0,,{\blur3}後坐力\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}kick.{\r}
+Dialogue: 0,0:32:52.93,0:32:54.64,chs&eng,,0,0,0,,{\blur3}嘿 真他媽的有趣!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Damn, that was fun!{\r}
+Dialogue: 0,0:32:59.36,0:33:01.27,chs&eng,,0,0,0,,{\blur3}解救溺水者\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Rescuing the drowning victim.{\r}
+Dialogue: 0,0:33:01.40,0:33:04.40,chs&eng,,0,0,0,,{\blur3}當接近潛在的危險的和…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, when approachinga potentially dangerous...{\r}
+Dialogue: 0,0:33:04.53,0:33:06.82,chs&eng,,0,0,0,,{\blur3}不受控制的受害者時 只能這樣划水\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}and out - of - control victim,use this stroke only.{\r}
+Dialogue: 0,0:33:06.95,0:33:08.70,chs&eng,,0,0,0,,{\blur3}胳膊展開用於保護\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Arms out of the way for protection.{\r}
+Dialogue: 0,0:33:08.82,0:33:12.66,chs&eng,,0,0,0,,{\blur3}現在 當你抓住溺水者的時候胳膊劃過他的胸部…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, when you get the victim in control,you slip your arm across his chest...{\r}
+Dialogue: 0,0:33:12.79,0:33:14.24,chs&eng,,0,0,0,,{\blur3}伸到他另一側胳膊下\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}under his opposite arm.{\r}
+Dialogue: 0,0:33:14.37,0:33:16.83,chs&eng,,0,0,0,,{\blur3}讓他的頭和頸靠在你的肩上\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Rest his head and his neckagainst your shoulder.{\r}
+Dialogue: 0,0:33:16.96,0:33:20.50,chs&eng,,0,0,0,,{\blur3}用腳蹬水這時 溺水者可能會掙扎\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Kick with your feet.Now, your victim could be struggling.{\r}
+Dialogue: 0,0:33:20.92,0:33:24.00,chs&eng,,0,0,0,,{\blur3}掙扎一下 大房子 很好 大房子…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Struggle, House. Good, House....{\r}
+Dialogue: 0,0:33:24.38,0:33:25.38,chs&eng,,0,0,0,,{\blur3}大房子!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}House!{\r}
+Dialogue: 0,0:33:34.56,0:33:36.68,chs&eng,,0,0,0,,{\blur3}真敏捷! 我去救他!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Really swift! I'll get him!{\r}
+Dialogue: 0,0:33:41.44,0:33:45.23,chs&eng,,0,0,0,,{\blur3}阿尼! 給我上來! 你就是犯罪女神!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Arnie, get out of the pool! You just ate!{\r}
+Dialogue: 0,0:34:02.17,0:34:03.87,chs&eng,,0,0,0,,{\blur3}把他弄上來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get him out of here!{\r}
+Dialogue: 0,0:34:07.71,0:34:09.17,chs&eng,,0,0,0,,{\blur3}謝謝 朋友\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Thanks, pal.{\r}
+Dialogue: 0,0:34:10.88,0:34:14.30,chs&eng,,0,0,0,,{\blur3}現在我們來進行遊水安全課\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now we have an opportunityto start our water safety lesson.{\r}
+Dialogue: 0,0:34:17.18,0:34:19.31,chs&eng,,0,0,0,,{\blur3}我將扮演溺水者\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I will play the drowning victim.{\r}
+Dialogue: 0,0:34:34.32,0:34:36.36,chs&eng,,0,0,0,,{\blur3}現在 誰來救我?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, who's going to save me?{\r}
+Dialogue: 0,0:34:36.49,0:34:38.20,chs&eng,,0,0,0,,{\blur3}- 噢! 我來! - 我來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yeah! - Yeah!{\r}
+Dialogue: 0,0:35:09.23,0:35:12.65,chs&eng,,0,0,0,,{\blur3}您真是很勇敢 我、我很佩服\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That was mighty brave. I admire that.{\r}
+Dialogue: 0,0:35:13.28,0:35:14.78,chs&eng,,0,0,0,,{\blur3}那沒什麼\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That was nothing.{\r}
+Dialogue: 0,0:35:15.57,0:35:19.24,chs&eng,,0,0,0,,{\blur3}你有吹風機或、或、或是摩絲嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You don't have a hair dryer,or perhaps some mousse?{\r}
+Dialogue: 0,0:35:19.91,0:35:23.70,chs&eng,,0,0,0,,{\blur3}沒有 你的頭髮看上去很棒 很、很、很時髦\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No. Your hair looks nice. It's very stylish.{\r}
+Dialogue: 0,0:35:24.12,0:35:26.12,chs&eng,,0,0,0,,{\blur3}（法語）我? 時髦嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Moi?Stylish?{\r}
+Dialogue: 0,0:35:28.25,0:35:30.21,chs&eng,,0,0,0,,{\blur3}我想我該走了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I think I'd better be going.{\r}
+Dialogue: 0,0:35:30.38,0:35:31.83,chs&eng,,0,0,0,,{\blur3}米奇!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Mickey!{\r}
+Dialogue: 0,0:35:33.71,0:35:35.96,chs&eng,,0,0,0,,{\blur3}他死了! 是他殺了他!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}He's dead! He killed him!{\r}
+Dialogue: 0,0:35:36.55,0:35:40.30,chs&eng,,0,0,0,,{\blur3}- 我想學校會賠償的 - 那我的感情怎麼賠償?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I'm sure the Academy will pay for it. - What about the sentimental value?{\r}
+Dialogue: 0,0:35:40.39,0:35:42.39,chs&eng,,0,0,0,,{\blur3}這是我的傳家寶\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is a family heirloom here.{\r}
+Dialogue: 0,0:35:42.51,0:35:46.01,chs&eng,,0,0,0,,{\blur3}這是我當警察前偷的最後一樣東西\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is the last thing I ever stolebefore joining the Academy.{\r}
+Dialogue: 0,0:35:46.14,0:35:49.98,chs&eng,,0,0,0,,{\blur3}這到底是怎麼回事? 墜入愛河的學員?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What the hell is this? Cadets in heat?{\r}
+Dialogue: 0,0:35:50.15,0:35:51.85,chs&eng,,0,0,0,,{\blur3}不 我們只是喜歡談天\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No. We were just, like, talking.{\r}
+Dialogue: 0,0:35:51.98,0:35:54.69,chs&eng,,0,0,0,,{\blur3}嗯 "只是"、"喜歡" 換個地方談去!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Just, like, talk somewhere else.{\r}
+Dialogue: 0,0:35:54.98,0:35:58.02,chs&eng,,0,0,0,,{\blur3}這不是產卵池! 我要的是紀律!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is not a spawning pool.I want discipline.{\r}
+Dialogue: 0,0:35:58.44,0:36:00.57,chs&eng,,0,0,0,,{\blur3}明白了嗎 澤得?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Do I make myself clear, Zed?{\r}
+Dialogue: 0,0:36:01.16,0:36:02.53,chs&eng,,0,0,0,,{\blur3}紀律!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Discipline!{\r}
+Dialogue: 0,0:36:04.12,0:36:05.74,chs&eng,,0,0,0,,{\blur3}- 怪物 - 什麼?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Jerk. - What?{\r}
+Dialogue: 0,0:36:05.99,0:36:07.45,chs&eng,,0,0,0,,{\blur3}他說再見\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}He said bye.{\r}
+Dialogue: 0,0:36:10.62,0:36:14.00,chs&eng,,0,0,0,,{\blur3}不 不 我說、說的是"怪物"我想我的意思很明白\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No. I said jerk. I think it was pretty clear.{\r}
+Dialogue: 0,0:36:14.13,0:36:15.88,chs&eng,,0,0,0,,{\blur3}- 我說："怪物" - 怪物\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I said, "Jerk." - Jerk.{\r}
+Dialogue: 0,0:36:53.33,0:36:55.37,chs&eng,,0,0,0,,{\blur3}學員們 我想跟你們討論一下…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Cadets, I'd now like to discuss with you...{\r}
+Dialogue: 0,0:36:55.50,0:36:57.79,chs&eng,,0,0,0,,{\blur3}一些至關重要的事情…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}something that will bevital for you to know...{\r}
+Dialogue: 0,0:36:57.92,0:37:01.50,chs&eng,,0,0,0,,{\blur3}當你們作為警察並外出巡邏時\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}when you're, like, out there on the jobas a police officer.{\r}
+Dialogue: 0,0:37:01.63,0:37:04.59,chs&eng,,0,0,0,,{\blur3}這才是正確的吃油炸圈餅的方法\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And that's the correct wayto eat a doughnut.{\r}
+Dialogue: 0,0:37:05.26,0:37:07.59,chs&eng,,0,0,0,,{\blur3}- 一個油炸圈餅—— - 立正!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- A doughnut - - - Attention!{\r}
+Dialogue: 0,0:37:09.47,0:37:10.93,chs&eng,,0,0,0,,{\blur3}哈里斯上尉\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Capt. Harris.{\r}
+Dialogue: 0,0:37:19.56,0:37:23.77,chs&eng,,0,0,0,,{\blur3}從現在起 任何人再把梅斯氣放錯地方的話…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}From this moment on, anyonewho misplaces their canister of Mace...{\r}
+Dialogue: 0,0:37:23.77,0:37:25.94,chs&eng,,0,0,0,,{\blur3}都會遭到懲罰!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}will be reprimanded and fined.{\r}
+Dialogue: 0,0:37:26.07,0:37:28.36,chs&eng,,0,0,0,,{\blur3}- 明白了嗎? - 是 長官!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Is that clear? - Yes, sir!{\r}
+Dialogue: 0,0:37:37.37,0:37:38.41,chs&eng,,0,0,0,,{\blur3}再見\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Bye.{\r}
+Dialogue: 0,0:37:41.67,0:37:43.67,chs&eng,,0,0,0,,{\blur3}作為市民警察…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}As Citizens On Patrol...{\r}
+Dialogue: 0,0:37:43.80,0:37:47.30,chs&eng,,0,0,0,,{\blur3}耐心和長命對你們來說很重要\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}endurance and longevityshould be very important to you.{\r}
+Dialogue: 0,0:37:48.01,0:37:51.55,chs&eng,,0,0,0,,{\blur3}有氧運動會讓你們保持身材…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Aerobic activity will keep you in shape...{\r}
+Dialogue: 0,0:37:52.39,0:37:54.26,chs&eng,,0,0,0,,{\blur3}心臟更加有力\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}and keep that heart rate up.{\r}
+Dialogue: 0,0:37:54.68,0:37:57.60,chs&eng,,0,0,0,,{\blur3}音樂會使痛苦減輕\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Music, however,makes it a little less painful.{\r}
+Dialogue: 0,0:37:58.02,0:38:00.14,chs&eng,,0,0,0,,{\blur3}胡克絲 磁帶\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hooks, cassette.{\r}
+Dialogue: 0,0:38:00.31,0:38:03.69,chs&eng,,0,0,0,,{\blur3}我相信胡克絲中士給大家選擇了合適的音樂\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I have confidence that Sgt. Hookshas chosen the appropriate music.{\r}
+Dialogue: 0,0:38:03.81,0:38:05.27,chs&eng,,0,0,0,,{\blur3}噢噢 沒有磁帶\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No cassette.{\r}
+Dialogue: 0,0:38:05.44,0:38:06.81,chs&eng,,0,0,0,,{\blur3}好 開始\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let's go.{\r}
+Dialogue: 0,0:38:11.15,0:38:13.70,chs&eng,,0,0,0,,{\blur3}挑得不錯 胡克絲 好吧\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nice selection, Hooks. All right.{\r}
+Dialogue: 0,0:38:13.82,0:38:16.99,chs&eng,,0,0,0,,{\blur3}慢慢走 慢慢開始\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Slow walk. Slow start.{\r}
+Dialogue: 0,0:38:17.74,0:38:20.29,chs&eng,,0,0,0,,{\blur3}動動胳膊 嗯 很好\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Keep your arms moving. That's good.{\r}
+Dialogue: 0,0:38:20.46,0:38:22.87,chs&eng,,0,0,0,,{\blur3}逐漸慢跑 很好!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Into a nice slow jog. Okay!{\r}
+Dialogue: 0,0:38:23.46,0:38:26.83,chs&eng,,0,0,0,,{\blur3}胳膊動起來! 保持呼吸! 別忘了呼吸!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Arms moving. Keep breathing.Don't forget to breathe.{\r}
+Dialogue: 0,0:38:26.92,0:38:30.71,chs&eng,,0,0,0,,{\blur3}收腹 胡克絲 好啊! 一起來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Tuck his tummy, Hooks. Attagirl. Let's go.{\r}
+Dialogue: 0,0:38:45.48,0:38:49.02,chs&eng,,0,0,0,,{\blur3}現在 這只哨子會相當重要…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, this whistle can be very valuable...{\r}
+Dialogue: 0,0:38:49.15,0:38:51.61,chs&eng,,0,0,0,,{\blur3}在你身處困境時\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}when walking througha bad neighborhood.{\r}
+Dialogue: 0,0:38:51.78,0:38:54.65,chs&eng,,0,0,0,,{\blur3}如果你的錢包被搶 吹哨子…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}If your purse gets snatched,blow this whistle...{\r}
+Dialogue: 0,0:38:54.95,0:38:58.32,chs&eng,,0,0,0,,{\blur3}來提醒你的鄰居或是警察 他們就能趕來幫你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}to alert your neighbors and the policeso they can help.{\r}
+Dialogue: 0,0:38:58.45,0:39:01.16,chs&eng,,0,0,0,,{\blur3}費爾德曼女士 你能來表演受害者嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, Mrs. Feldman,would you play the victim?{\r}
+Dialogue: 0,0:39:01.20,0:39:05.37,chs&eng,,0,0,0,,{\blur3}- 當然 - 很好 我呢 扮成搶包的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yes. - Okay, and I'll be Mr. Purse Snatcher.{\r}
+Dialogue: 0,0:39:05.50,0:39:08.33,chs&eng,,0,0,0,,{\blur3}- 好的 - 開始\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Okay. - Go.{\r}
+Dialogue: 0,0:39:23.06,0:39:24.51,chs&eng,,0,0,0,,{\blur3}還有問題嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Any questions?{\r}
+Dialogue: 0,0:39:46.37,0:39:48.54,chs&eng,,0,0,0,,{\blur3}現在 練習\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, practice.{\r}
+Dialogue: 0,0:40:00.80,0:40:04.59,chs&eng,,0,0,0,,{\blur3}你把他打倒了 差不多 一分鐘他害怕了 他 差不多 退縮了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You had him for, like, a minute.He was scared. He was, like, flinching.{\r}
+Dialogue: 0,0:40:04.72,0:40:06.26,chs&eng,,0,0,0,,{\blur3}他的臉變…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}His face went....{\r}
+Dialogue: 0,0:40:38.13,0:40:39.25,chs&eng,,0,0,0,,{\blur3}抱歉\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sorry.{\r}
+Dialogue: 0,0:40:40.71,0:40:44.34,chs&eng,,0,0,0,,{\blur3}"全民警察" 真是個笑話\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Citizens On Patrol. What a joke.{\r}
+Dialogue: 0,0:40:44.76,0:40:48.18,chs&eng,,0,0,0,,{\blur3}- 你知道"全民警察"到底什麼意思嗎? - 不 長官 什麼意思?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You know what C.O.P. really stands for? - No, sir. What?{\r}
+Dialogue: 0,0:40:48.30,0:40:51.64,chs&eng,,0,0,0,,{\blur3}- 全市愛尿褲子的民眾當警察計劃 這不可笑! - 是 長官!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Collection Of Pissants. That's not funny. - No, sir.{\r}
+Dialogue: 0,0:40:51.77,0:40:56.23,chs&eng,,0,0,0,,{\blur3}這種市民運動就是災難! 是個餿點子!我會證明的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This citizen - action crap is a disaster,a bad idea, and I'm going to prove it.{\r}
+Dialogue: 0,0:40:56.23,0:40:57.48,chs&eng,,0,0,0,,{\blur3}是 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, sir.{\r}
+Dialogue: 0,0:41:00.86,0:41:04.23,chs&eng,,0,0,0,,{\blur3}對不起 所有人 注意一下\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me, everyone.{\r}
+Dialogue: 0,0:41:04.36,0:41:05.74,chs&eng,,0,0,0,,{\blur3}我是說 不是所有人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I mean, not everyone.{\r}
+Dialogue: 0,0:41:05.86,0:41:09.24,chs&eng,,0,0,0,,{\blur3}立正! 對不起 讓開!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Attention! Excuse me. Move it!{\r}
+Dialogue: 0,0:41:09.91,0:41:13.03,chs&eng,,0,0,0,,{\blur3}- 所有人 過來! - 胡克絲\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Everybody, come over here! - Hooks.{\r}
+Dialogue: 0,0:41:13.33,0:41:17.75,chs&eng,,0,0,0,,{\blur3}別再讓警部難堪 回到你的文員隊伍裏去!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Stop embarrassing the Police Departmentand join your civilian buddies.{\r}
+Dialogue: 0,0:41:17.79,0:41:21.04,chs&eng,,0,0,0,,{\blur3}聽好了 請注意一下!胡克絲 罐子!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}May I have your attention, please?Hooks, the tank!{\r}
+Dialogue: 0,0:41:22.38,0:41:25.21,chs&eng,,0,0,0,,{\blur3}- 對不起 - 你個傻瓜!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I'm so sorry. - You dimwit!{\r}
+Dialogue: 0,0:41:25.51,0:41:28.84,chs&eng,,0,0,8,,{\blur3}（氦氣）
+Dialogue: 0,0:41:30.47,0:41:32.80,chs&eng,,0,0,0,,{\blur3}今天 胡克絲 今天\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Today, Hooks, today.{\r}
+Dialogue: 0,0:41:39.69,0:41:43.65,chs&eng,,0,0,0,,{\blur3}現在 帶著你的小細嗓從這滾開!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, take your little munchkin voiceand go away.{\r}
+Dialogue: 0,0:41:48.24,0:41:49.65,chs&eng,,0,0,0,,{\blur3}聽著!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Listen up!{\r}
+Dialogue: 0,0:41:50.07,0:41:54.66,chs&eng,,0,0,0,,{\blur3}這是使用氧氣的正確程序\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is the proper procedurefor administering oxygen.{\r}
+Dialogue: 0,0:41:55.66,0:41:59.70,chs&eng,,0,0,0,,{\blur3}先把面罩仔細地戴在病人臉上…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You place the mask securelyabout the face of the patient...{\r}
+Dialogue: 0,0:41:59.83,0:42:02.25,chs&eng,,0,0,0,,{\blur3}然後讓他們深呼吸\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}and then have them breathe deeply.{\r}
+Dialogue: 0,0:42:06.96,0:42:10.38,chs&eng,,0,0,0,,{\blur3}這才是在哈里斯上尉地盤上的正確做法\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, that is the way it's donein Capt. Harris' precinct.{\r}
+Dialogue: 0,0:42:11.72,0:42:14.68,chs&eng,,0,0,0,,{\blur3}怎麼搞的? 胡克絲!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What the hell? Hooks!{\r}
+Dialogue: 0,0:42:21.56,0:42:24.44,chs&eng,,0,0,0,,{\blur3}嘿 紳士們 你們覺得你們是在度假嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}So you gentlemen thinkyou're on a vacation?{\r}
+Dialogue: 0,0:42:24.86,0:42:28.23,chs&eng,,0,0,0,,{\blur3}你們不比別人強 快 動起來 該幹活了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're no better than anyone else,so let's go, let's get to work.{\r}
+Dialogue: 0,0:42:28.28,0:42:30.28,chs&eng,,0,0,0,,{\blur3}嘿 花花公子 快起來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, dudes, chill out.{\r}
+Dialogue: 0,0:42:31.15,0:42:34.28,chs&eng,,0,0,0,,{\blur3}你們這些小哥在做壞榜樣!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You dudes are setting a bad example.{\r}
+Dialogue: 0,0:42:34.99,0:42:38.70,chs&eng,,0,0,0,,{\blur3}聽不見你說什麼 哥們!沒瞧見 睡美人正在睡覺嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Can't hear you, bro. Can't you seeI'm getting my beauty sleep?{\r}
+Dialogue: 0,0:42:38.87,0:42:40.16,chs&eng,,0,0,0,,{\blur3}對不起\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'm sorry.{\r}
+Dialogue: 0,0:42:40.91,0:42:42.04,chs&eng,,0,0,0,,{\blur3}起來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Move it!{\r}
+Dialogue: 0,0:42:46.21,0:42:47.87,chs&eng,,0,0,0,,{\blur3}你絕對讓他們長了見識\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You sure told them.{\r}
+Dialogue: 0,0:42:49.71,0:42:52.71,chs&eng,,0,0,0,,{\blur3}你就沒想過…或許該試試隱形眼鏡…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Did you ever think aboutmaybe getting some contact lenses...{\r}
+Dialogue: 0,0:42:52.84,0:42:55.01,chs&eng,,0,0,0,,{\blur3}或是其它的什麼…嗯…差不多的東西嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}or something, like, you know?{\r}
+Dialogue: 0,0:42:56.01,0:42:57.59,chs&eng,,0,0,0,,{\blur3}那樣你會看上去更俊些\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You'd look good in them.{\r}
+Dialogue: 0,0:42:59.89,0:43:02.06,chs&eng,,0,0,0,,{\blur3}學監 這是條小巷\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Proctor, this is an alley.{\r}
+Dialogue: 0,0:43:02.18,0:43:04.89,chs&eng,,0,0,0,,{\blur3}我知道 長官 但這是馬霍尼給我的指南\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I know, sir, but these are the directionsMahoney gave me.{\r}
+Dialogue: 0,0:43:04.89,0:43:05.93,chs&eng,,0,0,0,,{\blur3}- 馬霍尼? - 是的 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Mahoney? - Yes, sir.{\r}
+Dialogue: 0,0:43:06.02,0:43:08.56,chs&eng,,0,0,0,,{\blur3}他說這家餐館的色拉全城第一\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}He says this restauranthas the best salad bar in town.{\r}
+Dialogue: 0,0:43:08.65,0:43:10.60,chs&eng,,0,0,0,,{\blur3}嗯 這他媽最好是真的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It damn sure better have.{\r}
+Dialogue: 0,0:43:23.49,0:43:25.62,chs&eng,,0,0,0,,{\blur3}- 學監? - 什麼事 長官?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Proctor. - Yes, sir?{\r}
+Dialogue: 0,0:43:26.62,0:43:28.96,chs&eng,,0,0,0,,{\blur3}我沒看到有色拉吧檯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I don't see a salad bar.{\r}
+Dialogue: 0,0:43:30.17,0:43:31.67,chs&eng,,0,0,0,,{\blur3}看 也許他們賣海味\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Look, maybe they serve seafood.{\r}
+Dialogue: 0,0:43:33.09,0:43:35.21,chs&eng,,0,0,0,,{\blur3}這並不可笑 你個白癡\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That's not funny, you idiot.{\r}
+Dialogue: 0,0:43:37.93,0:43:40.63,chs&eng,,0,0,0,,{\blur3}你在看什麼? 你個混蛋!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What are you looking at, you peckerhead?{\r}
+Dialogue: 0,0:43:40.73,0:43:41.93,chs&eng,,0,0,0,,{\blur3}制服不錯!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nice uniform.{\r}
+Dialogue: 0,0:43:41.98,0:43:45.39,chs&eng,,0,0,0,,{\blur3}弄得我也想穿上我的海軍服了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Makes me wish I'd worn my sailor outfit.{\r}
+Dialogue: 0,0:43:45.44,0:43:49.11,chs&eng,,0,0,0,,{\blur3}我要離開這 讓開 讓開!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'm getting out of here. Move it!{\r}
+Dialogue: 0,0:43:55.45,0:43:58.29,chs&eng,,0,0,0,,{\blur3}我想半途走開是不允許的 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I don't think cutting in is allowed, sir.{\r}
+Dialogue: 0,0:43:58.45,0:43:59.96,chs&eng,,0,0,0,,{\blur3}項圈不錯!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nice collar.{\r}
+Dialogue: 0,0:44:14.01,0:44:17.14,chs&eng,,0,0,0,,{\blur3}又來了 新一局馬霍尼帶球迂迴前進…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Here we go again. Next round.Mahoney weaving his way through...{\r}
+Dialogue: 0,0:44:17.26,0:44:19.31,chs&eng,,0,0,0,,{\blur3}看上去真棒! 繞過後衛\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}looking pretty good.Gets past the main defense.{\r}
+Dialogue: 0,0:44:19.43,0:44:21.14,chs&eng,,0,0,0,,{\blur3}然後…經胯下投籃!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And, under the leg!{\r}
+Dialogue: 0,0:44:22.77,0:44:23.85,chs&eng,,0,0,0,,{\blur3}噢 好球!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nice shot!{\r}
+Dialogue: 0,0:44:23.90,0:44:26.56,chs&eng,,0,0,0,,{\blur3}這傢伙是個運動高手 人群都為之瘋狂了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That man is a hot dog.The crowd's gone wild!{\r}
+Dialogue: 0,0:44:27.27,0:44:30.90,chs&eng,,0,0,0,,{\blur3}球又進了又來了 我們又拿到了球\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The ball's brought in.Here we go. We have the play going.{\r}
+Dialogue: 0,0:44:31.20,0:44:32.70,chs&eng,,0,0,0,,{\blur3}投給澤得\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Throws to Zed.{\r}
+Dialogue: 0,0:44:33.49,0:44:35.49,chs&eng,,0,0,0,,{\blur3}有些爭搶\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}A little bit of a steal there.{\r}
+Dialogue: 0,0:44:37.62,0:44:40.79,chs&eng,,0,0,0,,{\blur3}馬霍尼又傳球給高塔\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Mahoney throws a pass to Hightower.{\r}
+Dialogue: 0,0:44:40.91,0:44:44.58,chs&eng,,0,0,0,,{\blur3}然後高塔他…用力的一記扣籃!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And then Hightower he....The Doctor of Dunk scores!{\r}
+Dialogue: 0,0:44:46.34,0:44:49.17,chs&eng,,0,0,0,,{\blur3}你殺了它! 太恨了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You killed it. Really swift!{\r}
+Dialogue: 0,0:44:50.92,0:44:52.80,chs&eng,,0,0,0,,{\blur3}噢 公眾運動\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Some community action.{\r}
+Dialogue: 0,0:44:53.47,0:44:57.05,chs&eng,,0,0,0,,{\blur3}女士們先生們 這位是學監 一位猶太支持者!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ladies and gentlemen,it's Lt. Proctor, a ghetto favorite!{\r}
+Dialogue: 0,0:44:59.06,0:45:00.93,chs&eng,,0,0,0,,{\blur3}謝謝 非常感謝\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you very much.{\r}
+Dialogue: 0,0:45:02.68,0:45:04.19,chs&eng,,0,0,0,,{\blur3}我很榮幸成為…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'm honored to be - -{\r}
+Dialogue: 0,0:45:08.77,0:45:12.40,chs&eng,,0,0,0,,{\blur3}你知道 哈里斯上尉是不會喜歡這種…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You know,Capt. Harris isn't gonna like this...{\r}
+Dialogue: 0,0:45:13.24,0:45:14.70,chs&eng,,0,0,0,,{\blur3}吊兒郎當的事情的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}goofing off.{\r}
+Dialogue: 0,0:45:14.78,0:45:18.49,chs&eng,,0,0,0,,{\blur3}- 噢 行啦 這是增進群眾關係 - 不不不 馬霍尼\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Come on. This is community relations. - No, Mahoney.{\r}
+Dialogue: 0,0:45:18.53,0:45:22.04,chs&eng,,0,0,0,,{\blur3}我是這方面的專家 這就是吊兒郎當\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'm an expert in goofing off,and this is goofing off.{\r}
+Dialogue: 0,0:45:23.25,0:45:25.41,chs&eng,,0,0,0,,{\blur3}我會報告哈里斯上尉的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And I'm gonna have to tell him.{\r}
+Dialogue: 0,0:45:26.21,0:45:29.38,chs&eng,,0,0,0,,{\blur3}- 我有一種把他掰成兩半的衝動 - 為什麼呢?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I have an urge to break him in half. - Why fight it?{\r}
+Dialogue: 0,0:45:30.55,0:45:34.21,chs&eng,,0,0,0,,{\blur3}不 高塔 別激動 大個兒他不值得你這麼做\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No, Hightower. Take it easy, big guy.The creep's not worth it.{\r}
+Dialogue: 0,0:45:43.52,0:45:45.43,chs&eng,,0,0,0,,{\blur3}- 你用完了? - 是的 請吧\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You through in there? - Sure, go ahead.{\r}
+Dialogue: 0,0:45:45.56,0:45:46.69,chs&eng,,0,0,0,,{\blur3}謝謝\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Thanks.{\r}
+Dialogue: 0,0:46:00.28,0:46:01.53,chs&eng,,0,0,0,,{\blur3}喂 西爾韋奧?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me, Silvio?{\r}
+Dialogue: 0,0:46:01.66,0:46:04.83,chs&eng,,0,0,0,,{\blur3}我想能否請你幫個忙我這需要幫忙\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I wonder if you can help me.I need some help over here.{\r}
+Dialogue: 0,0:46:05.00,0:46:06.95,chs&eng,,0,0,0,,{\blur3}- 就那 - 沒問題\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Right there. - No problem.{\r}
+Dialogue: 0,0:46:35.07,0:46:37.90,chs&eng,,0,0,0,,{\blur3}嘿 別著急 我一會兒就完!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hold your horses, I'll be out in a minute!{\r}
+Dialogue: 0,0:46:39.36,0:46:41.74,chs&eng,,0,0,0,,{\blur3}好 我喜歡 這邊點兒\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, like, bring it in.{\r}
+Dialogue: 0,0:46:42.78,0:46:44.78,chs&eng,,0,0,0,,{\blur3}一點 好 再過來一丁點!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Just, like, bring it in a hair.{\r}
+Dialogue: 0,0:46:46.04,0:46:47.91,chs&eng,,0,0,0,,{\blur3}小心飛機!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Watch out for the plane!{\r}
+Dialogue: 0,0:46:48.04,0:46:49.46,chs&eng,,0,0,0,,{\blur3}噢 真有同情心!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, the humanity!{\r}
+Dialogue: 0,0:46:50.21,0:46:53.46,chs&eng,,0,0,0,,{\blur3}嗯 完美 不 太精細了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, that's perfect. No, that's fine.{\r}
+Dialogue: 0,0:46:54.67,0:46:57.09,chs&eng,,0,0,0,,{\blur3}- 地鐵警察 - 特殊任務\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Metro police. - Special assignment.{\r}
+Dialogue: 0,0:47:40.96,0:47:42.84,chs&eng,,0,0,0,,{\blur3}女士們先生們…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ladies and gentlemen...{\r}
+Dialogue: 0,0:47:43.22,0:47:45.68,chs&eng,,0,0,0,,{\blur3}奏國歌 請起立!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}please rise for our national anthem.{\r}
+Dialogue: 0,0:48:02.15,0:48:05.40,chs&eng,,0,0,0,,{\blur3}- 念關於我的那段 阿尼 - 哪段?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Read that part about me again, Arnie. - What part?{\r}
+Dialogue: 0,0:48:05.70,0:48:08.28,chs&eng,,0,0,0,,{\blur3}你知道 就是關於"全民警察"計劃活力四射的領軍人物的那段\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You know, the part aboutthe dynamic leader of the C.O.P.{\r}
+Dialogue: 0,0:48:08.41,0:48:10.99,chs&eng,,0,0,0,,{\blur3}說對了! 那指的就是我!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get real! That's me they're talking about.{\r}
+Dialogue: 0,0:48:15.54,0:48:19.04,chs&eng,,0,0,0,,{\blur3}晚上好 先生們我祝賀你們又度過了美好的一天\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Good evening, gentlemen.I congratulate you on another good day.{\r}
+Dialogue: 0,0:48:19.13,0:48:20.54,chs&eng,,0,0,0,,{\blur3}睡個好覺\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sleep well.{\r}
+Dialogue: 0,0:48:22.30,0:48:25.18,chs&eng,,0,0,0,,{\blur3}嘿 伯爵 擔心我們馬上就要聊完了是嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Count, getting worriedwe're gonna be taking over soon?{\r}
+Dialogue: 0,0:48:25.30,0:48:26.68,chs&eng,,0,0,0,,{\blur3}我們準備好了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We're ready.{\r}
+Dialogue: 0,0:48:26.76,0:48:30.43,chs&eng,,0,0,0,,{\blur3}你們正在進步 但你們仍然在食物鏈的底端\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're improving, guys. But you're stillway down in the food chain.{\r}
+Dialogue: 0,0:48:30.56,0:48:33.56,chs&eng,,0,0,0,,{\blur3}現在吸血鬼說："熄燈了 小鬼們"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}As we vampires say, "Lights out, suckers."{\r}
+Dialogue: 0,0:48:38.31,0:48:40.31,chs&eng,,0,0,0,,{\blur3}這項計劃簡單得很\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This C.O.P. bit is a breeze.{\r}
+Dialogue: 0,0:48:40.44,0:48:42.48,chs&eng,,0,0,0,,{\blur3}- 我們準備好了 - 我同意\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- We are ready. - I concur.{\r}
+Dialogue: 0,0:48:42.61,0:48:45.32,chs&eng,,0,0,0,,{\blur3}我覺得我們已經能夠粉碎任何現實中的犯罪\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I think we're ready to bustsome truly major criminals.{\r}
+Dialogue: 0,0:48:45.45,0:48:47.90,chs&eng,,0,0,0,,{\blur3}也許我們該出去找一些…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Maybe we should go out and find some....{\r}
+Dialogue: 0,0:48:48.45,0:48:53.33,chs&eng,,0,0,0,,{\blur3}- 也許我們該成為義務警員 - 對 就是它 義務警員!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Maybe we should become vigilantes. - Yeah, that's it. Vigilantes.{\r}
+Dialogue: 0,0:49:05.17,0:49:07.76,chs&eng,,0,0,0,,{\blur3}快起床! 我們現在需要你們!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Wake up, men! We need you. Now!{\r}
+Dialogue: 0,0:49:08.18,0:49:10.76,chs&eng,,0,0,0,,{\blur3}快點!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on.{\r}
+Dialogue: 0,0:49:11.64,0:49:15.22,chs&eng,,0,0,0,,{\blur3}- 出什麼事了? 我們要去哪? - 為什麼我們要來這? 出什麼事了?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What's going on? Where are we going? - Why are we here? What's happening?{\r}
+Dialogue: 0,0:49:15.35,0:49:18.35,chs&eng,,0,0,0,,{\blur3}你們來這是因為你們已經準備好了你們自己這麼說的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're here because you're ready.You said you were ready.{\r}
+Dialogue: 0,0:49:18.48,0:49:20.77,chs&eng,,0,0,0,,{\blur3}- 有件事 我—— - 你已經準備好了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- One thing l - - - You're ready, now.{\r}
+Dialogue: 0,0:49:33.08,0:49:36.33,chs&eng,,0,0,0,,{\blur3}你能把我們現在的任務解釋地詳細一點兒嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Could you be a little more specificconcerning our current mission?{\r}
+Dialogue: 0,0:49:36.41,0:49:40.21,chs&eng,,0,0,0,,{\blur3}- 我們已經掌握了兩個重要罪犯 - 嗯 我現在想回家\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- We're apprehending two known felons. - I'll be going home now.{\r}
+Dialogue: 0,0:50:04.98,0:50:06.98,chs&eng,,0,0,0,,{\blur3}- 其他人呢? - 什麼其他人? 就我們\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Where are the rest? - What rest? We're it.{\r}
+Dialogue: 0,0:50:07.11,0:50:11.11,chs&eng,,0,0,0,,{\blur3}- 我們將把他們從樓裏趕出來 - 你們在小巷裏呆著 斷絕他們的退路\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- We'll flush them out of the building. - You stay behind, cut them off in the alley.{\r}
+Dialogue: 0,0:50:11.28,0:50:12.28,chs&eng,,0,0,0,,{\blur3}呆著\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Stay.{\r}
+Dialogue: 0,0:50:12.82,0:50:15.24,chs&eng,,0,0,0,,{\blur3}嘿 那槍呢?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What about guns and shit, man?{\r}
+Dialogue: 0,0:50:15.28,0:50:17.83,chs&eng,,0,0,0,,{\blur3}槍? 不 你們不需要槍\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Guns? No, you won't be needing them.{\r}
+Dialogue: 0,0:50:17.95,0:50:20.41,chs&eng,,0,0,0,,{\blur3}我們很肯定他們沒有武器\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We're pretty sure they're not armed.{\r}
+Dialogue: 0,0:50:49.32,0:50:53.03,chs&eng,,0,0,0,,{\blur3}你知道 他們沒有我們也會處理好的我們只會妨礙他們\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}They can handle this without us.We'll just get in the way, you know.{\r}
+Dialogue: 0,0:50:53.15,0:50:54.61,chs&eng,,0,0,0,,{\blur3}說的好\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Good thinking.{\r}
+Dialogue: 0,0:51:08.04,0:51:09.75,chs&eng,,0,0,0,,{\blur3}我們抓到他們了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We got them, men!{\r}
+Dialogue: 0,0:51:18.01,0:51:20.35,chs&eng,,0,0,0,,{\blur3}沒事了 夥計們 過來吧!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It's all right, men. Come on over.{\r}
+Dialogue: 0,0:51:23.68,0:51:27.60,chs&eng,,0,0,0,,{\blur3}好了 你們三個將跟巴杜拉一起坐在車後…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}All right, you threewill be riding in the back with Badula...{\r}
+Dialogue: 0,0:51:29.23,0:51:31.11,chs&eng,,0,0,0,,{\blur3}還有他死去的兄弟\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}and his late brother.{\r}
+Dialogue: 0,0:51:37.24,0:51:39.37,chs&eng,,0,0,0,,{\blur3}你們幾個看住他\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You guys keep him subdued.{\r}
+Dialogue: 0,0:51:45.08,0:51:46.25,chs&eng,,0,0,0,,{\blur3}走\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let's go.{\r}
+Dialogue: 0,0:52:11.15,0:52:13.69,chs&eng,,0,0,0,,{\blur3}別讓他的巫術嚇著你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Don't let his voodoomumbo jumbo scare you.{\r}
+Dialogue: 0,0:52:23.28,0:52:28.04,chs&eng,,0,0,0,,{\blur3}笨蛋! 以為他們能殺死巴杜拉的兄弟\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Fools. To thinkthey can kill the brother of Badula.{\r}
+Dialogue: 0,0:52:28.12,0:52:29.96,chs&eng,,0,0,0,,{\blur3}我從沒這麼想\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I never thought that.{\r}
+Dialogue: 0,0:52:31.83,0:52:35.75,chs&eng,,0,0,0,,{\blur3}我能將手伸進犛牛的體內然後撕裂它的心!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That I could reach into the belly of a yakand rip out his heart.{\r}
+Dialogue: 0,0:52:36.42,0:52:38.76,chs&eng,,0,0,0,,{\blur3}這能讓他復生嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That would bring him back to life?{\r}
+Dialogue: 0,0:52:39.13,0:52:41.30,chs&eng,,0,0,0,,{\blur3}不 我只是餓了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No, man. I'm hungry.{\r}
+Dialogue: 0,0:52:46.43,0:52:50.27,chs&eng,,0,0,0,,{\blur3}聽著 我們去買些漢堡和著條 一會兒就回來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Listen, we're going for some burgersand fries. We'll be right back.{\r}
+Dialogue: 0,0:53:30.23,0:53:31.77,chs&eng,,0,0,0,,{\blur3}不管我的事!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Out of my way!{\r}
+Dialogue: 0,0:53:39.78,0:53:43.40,chs&eng,,0,0,0,,{\blur3}我猜他們根本不像他們自己想的那樣已經準備好了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I guess they weren't as readyas they thought they were.{\r}
+Dialogue: 0,0:53:43.53,0:53:45.95,chs&eng,,0,0,0,,{\blur3}行了 塔克 可以摘掉面具了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You can take the mask off now, Tack.{\r}
+Dialogue: 0,0:53:57.34,0:53:58.84,chs&eng,,0,0,0,,{\blur3}- 學監? - 什麼事 長官?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Proctor. - Yes, sir?{\r}
+Dialogue: 0,0:53:58.96,0:54:02.71,chs&eng,,0,0,0,,{\blur3}- 這些人是幹什麼來的? - 來參加聚會 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Who are all these people? - They're here for the party, sir.{\r}
+Dialogue: 0,0:54:03.26,0:54:04.63,chs&eng,,0,0,0,,{\blur3}什麼聚會?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What party?{\r}
+Dialogue: 0,0:54:05.26,0:54:09.10,chs&eng,,0,0,0,,{\blur3}噢 一些計劃的學員邀請了他們的一些朋友…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}A few of the Citizens On Patrol membersinvited a few of their friends...{\r}
+Dialogue: 0,0:54:09.22,0:54:12.97,chs&eng,,0,0,0,,{\blur3}然後他們又請了他們的一些朋友您看見了 就是這樣 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}and they invited a few of their friends.You know how it goes, sir.{\r}
+Dialogue: 0,0:54:13.02,0:54:14.69,chs&eng,,0,0,0,,{\blur3}- 聚會? - 是的 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- A party? - Yes, sir.{\r}
+Dialogue: 0,0:54:15.35,0:54:18.69,chs&eng,,0,0,0,,{\blur3}聚會? 為什麼沒人告訴我?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}A party? Why wasn't I told?{\r}
+Dialogue: 0,0:54:20.32,0:54:21.90,chs&eng,,0,0,0,,{\blur3}馬霍尼!
+Dialogue: 0,0:54:22.11,0:54:25.70,chs&eng,,0,0,0,,{\blur3}嘿 卡拉漢! 嘿 胡克絲!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, Callahan. Hey, Hooks.{\r}
+Dialogue: 0,0:54:27.11,0:54:28.70,chs&eng,,0,0,0,,{\blur3}注意了 女士們先生們!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Attention, ladies and gentlemen!{\r}
+Dialogue: 0,0:54:28.82,0:54:31.83,chs&eng,,0,0,0,,{\blur3}女士們先生們 請注意一下!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ladies and gentlemen,can I please have your attention?{\r}
+Dialogue: 0,0:54:31.95,0:54:34.29,chs&eng,,0,0,0,,{\blur3}感謝你們的到來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'd like to thank you all for coming!{\r}
+Dialogue: 0,0:54:34.66,0:54:36.12,chs&eng,,0,0,0,,{\blur3}讓我們一起狂歡吧!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let's party!{\r}
+Dialogue: 0,0:54:46.13,0:54:48.05,chs&eng,,0,0,0,,{\blur3}- 讓開 你們這些同性戀! - 對不起\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Move those patooties. - Excuse me.{\r}
+Dialogue: 0,0:54:48.18,0:54:50.89,chs&eng,,0,0,0,,{\blur3}所有警員都給我從池子裏上來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}All police officers out of the pool!{\r}
+Dialogue: 0,0:54:51.97,0:54:54.02,chs&eng,,0,0,0,,{\blur3}快 上來 所有人都上來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let's go! Out, everybody out!{\r}
+Dialogue: 0,0:54:54.14,0:54:57.14,chs&eng,,0,0,0,,{\blur3}長官 為什麼您就不能讓大家快活一些呢?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sir, why don't you justlet everyone enjoy themselves?{\r}
+Dialogue: 0,0:54:57.27,0:55:00.73,chs&eng,,0,0,0,,{\blur3}你為什麼就不能親親我粉嫩嫩的屁股呢 馬霍尼?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Why don't you justkiss my rosy red ass, Mahoney?{\r}
+Dialogue: 0,0:55:03.19,0:55:04.15,chs&eng,,0,0,0,,{\blur3}粉嫩嫩的?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Rosy?{\r}
+Dialogue: 0,0:55:04.28,0:55:06.57,chs&eng,,0,0,0,,{\blur3}從池子裏給我出來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get out of that pool now!{\r}
+Dialogue: 0,0:55:09.28,0:55:11.45,chs&eng,,0,0,0,,{\blur3}瞧瞧你的樣子!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Just look at yourself.{\r}
+Dialogue: 0,0:55:13.04,0:55:18.04,chs&eng,,0,0,0,,{\blur3}你玷污了這身警服! 去換了它 快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You are a disgrace to the uniform!Go get changed. Move it.{\r}
+Dialogue: 0,0:55:27.63,0:55:31.05,chs&eng,,0,0,0,,{\blur3}- 我們在找什麼? - 這個\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What are we looking for? - This.{\r}
+Dialogue: 0,0:55:35.01,0:55:37.31,chs&eng,,0,0,0,,{\blur3}- 噢 哈里斯上尉 - 馬特森小姐\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Why, Capt. Harris. - Miss Mattson.{\r}
+Dialogue: 0,0:55:37.39,0:55:38.89,chs&eng,,0,0,0,,{\blur3}- 您好 - 您好嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Hello. - How are you?{\r}
+Dialogue: 0,0:55:38.94,0:55:40.81,chs&eng,,0,0,0,,{\blur3}您看見克拉倫斯了嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Have you seen Clarence?{\r}
+Dialogue: 0,0:55:42.02,0:55:44.19,chs&eng,,0,0,0,,{\blur3}您別想讓那個虱子窩靠近我\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Don't you let that fleabag near me.{\r}
+Dialogue: 0,0:55:44.32,0:55:48.94,chs&eng,,0,0,0,,{\blur3}克拉倫斯為你瘋狂 上尉讓我把他叫過來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Clarence is crazy about you, Captain.Let me just call him over.{\r}
+Dialogue: 0,0:55:49.07,0:55:50.53,chs&eng,,0,0,0,,{\blur3}- 不! - 就一小會兒?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- No. - For a second?{\r}
+Dialogue: 0,0:55:50.66,0:55:53.36,chs&eng,,0,0,0,,{\blur3}- 不! - 那好吧 再見\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- No. - Okay. Bye.{\r}
+Dialogue: 0,0:55:59.71,0:56:04.21,chs&eng,,0,0,0,,{\blur3}別再裂著嘴壞笑! 臭屁簍子! 解散!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Wipe those grins off your faces,buttbreaths! Dismissed!{\r}
+Dialogue: 0,0:56:12.55,0:56:17.10,chs&eng,,0,0,0,,{\blur3}伯曼醫生 請接二號分機伯曼醫生 請接二號分機\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Dr. Berman, please pick up line two.Dr. Berman, line two, please.{\r}
+Dialogue: 0,0:56:17.72,0:56:20.27,chs&eng,,0,0,0,,{\blur3}- 你不該來這 - 哈里斯上尉怎麼樣了?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You shouldn't be in here. - How is Capt. Harris?{\r}
+Dialogue: 0,0:56:20.39,0:56:23.81,chs&eng,,0,0,0,,{\blur3}- 我們做了我們所能做的 - 求您了 輕一點\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- We'll do all we can. - Please, be gentle.{\r}
+Dialogue: 0,0:56:41.12,0:56:43.83,chs&eng,,0,0,0,,{\blur3}我聽見哈里斯說的了 他說的都是錯的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I heard what Harris said, and he's wrong.{\r}
+Dialogue: 0,0:56:44.58,0:56:48.58,chs&eng,,0,0,0,,{\blur3}這種事總是發生在我身上人們根本不理解我\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It happens to me all the time.People just don't understand me.{\r}
+Dialogue: 0,0:56:50.30,0:56:53.59,chs&eng,,0,0,0,,{\blur3}也許你說話的時候慢一點、輕一點…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Maybe if you talked a little slower,a little softer....{\r}
+Dialogue: 0,0:56:53.72,0:56:57.76,chs&eng,,0,0,0,,{\blur3}我不是這個意思 我是說人們並不瞭解我的為人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That's not what I meant. I meantpeople don't know who I really am.{\r}
+Dialogue: 0,0:56:58.60,0:57:01.43,chs&eng,,0,0,0,,{\blur3}我想我現在也得注意一下我的措辭 是嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now I got to worry about my diction, too?{\r}
+Dialogue: 0,0:57:02.31,0:57:04.89,chs&eng,,0,0,0,,{\blur3}- 我的句子結構怎麼樣? - 完美極了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- How's my sentence structure? - Perfect.{\r}
+Dialogue: 0,0:57:07.73,0:57:10.61,chs&eng,,0,0,0,,{\blur3}事實上 我覺得你才是完美的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}In fact, I think you're just about perfect.{\r}
+Dialogue: 0,0:58:24.10,0:58:26.35,chs&eng,,0,0,0,,{\blur3}我覺得我要吐了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I think I'm going to puke.{\r}
+Dialogue: 0,0:58:33.11,0:58:35.69,chs&eng,,0,0,0,,{\blur3}嗨 長官 感覺怎麼樣?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hi, sir. How are you feeling?{\r}
+Dialogue: 0,0:58:36.57,0:58:39.28,chs&eng,,0,0,0,,{\blur3}我要等著這倒霉的膠水慢慢剝落\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I have to waitfor the damn glue to wear off.{\r}
+Dialogue: 0,0:58:41.24,0:58:42.87,chs&eng,,0,0,0,,{\blur3}我沒聽清\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I didn't catch that.{\r}
+Dialogue: 0,0:58:42.99,0:58:45.70,chs&eng,,0,0,0,,{\blur3}您是說："把這倒霉的手套脫掉"嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Was that, "the dim shoot to snare off"?{\r}
+Dialogue: 0,0:58:46.12,0:58:51.00,chs&eng,,0,0,0,,{\blur3}我說我要等著這倒霉的膠水慢慢剝落\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I said I have to waitfor the damn glue to wear off.{\r}
+Dialogue: 0,0:58:57.01,0:59:01.88,chs&eng,,0,0,0,,{\blur3}於是我問她："你一直在指揮台底下工作嗎? "\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}So I asked her,"Do you always work under podiums?"{\r}
+Dialogue: 0,0:59:09.60,0:59:10.85,chs&eng,,0,0,0,,{\blur3}指揮官?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Commandant?{\r}
+Dialogue: 0,0:59:11.77,0:59:16.36,chs&eng,,0,0,0,,{\blur3}噢 赫斯特長官! 真是驚喜啊!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Why, Chief Hurst,this is a splendid, splendid surprise!{\r}
+Dialogue: 0,0:59:16.61,0:59:20.19,chs&eng,,0,0,0,,{\blur3}還記得從日本來的Nogata嗎?他是我們代表團的成員\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You remember Nogata?He's part of our Japanese contingent.{\r}
+Dialogue: 0,0:59:20.32,0:59:22.07,chs&eng,,0,0,0,,{\blur3}這是赫斯特長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is Chief Hurst.{\r}
+Dialogue: 0,0:59:22.49,0:59:26.91,chs&eng,,0,0,0,,{\blur3}我們聽說過很多很多關於您和您的城市的美好的事情\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We have heard many, manywonderful things about you and your city.{\r}
+Dialogue: 0,0:59:28.58,0:59:31.04,chs&eng,,0,0,0,,{\blur3}我在幫他們提高英語水平\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I've been helping them with their English.{\r}
+Dialogue: 0,0:59:31.20,0:59:33.58,chs&eng,,0,0,0,,{\blur3}- 請坐 請 - 謝謝\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Please, sit. Please. - Thank you.{\r}
+Dialogue: 0,0:59:35.33,0:59:39.92,chs&eng,,0,0,0,,{\blur3}我希望有機會您們能直接來參觀我們美麗的城市\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I hope you'll find the timeto see our beautiful city firsthand.{\r}
+Dialogue: 0,0:59:40.76,0:59:43.93,chs&eng,,0,0,0,,{\blur3}事實上 我親自到這裏來…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}In fact, I've just flown here personally...{\r}
+Dialogue: 0,0:59:43.93,0:59:46.22,chs&eng,,0,0,0,,{\blur3}傳達市長的邀請…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}to extend the Mayor's invitation...{\r}
+Dialogue: 0,0:59:46.64,0:59:48.05,chs&eng,,0,0,0,,{\blur3}想看一看我的…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}to see my....{\r}
+Dialogue: 0,0:59:48.76,0:59:53.48,chs&eng,,0,0,0,,{\blur3}看一看拉薩指揮官的社團計劃的開展情況\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}To see Comdt. Lassard'scommunity program in action.{\r}
+Dialogue: 0,0:59:53.94,0:59:56.94,chs&eng,,0,0,0,,{\blur3}我們深信這項計劃將成為…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We are convincedthat this program will serve...{\r}
+Dialogue: 0,0:59:57.07,1:00:00.36,chs&eng,,0,0,0,,{\blur3}全世界各個城市為之學習的榜樣\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}as a model for cities around the world.{\r}
+Dialogue: 0,1:00:05.66,1:00:08.70,chs&eng,,0,0,0,,{\blur3}我們非常榮幸接受市長的邀請\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We would be honoredto accept your invitation.{\r}
+Dialogue: 0,1:00:08.95,1:00:11.24,chs&eng,,0,0,0,,{\blur3}- 太好了 - 請跟我來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Wonderful. - Please, come.{\r}
+Dialogue: 0,1:00:14.25,1:00:16.42,chs&eng,,0,0,0,,{\blur3}- （德）再見 - （意）再會\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Auf Wiedersehen. - Arrivederci.{\r}
+Dialogue: 0,1:00:19.67,1:00:20.92,chs&eng,,0,0,0,,{\blur3}（法）再見\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Bonsoir.{\r}
+Dialogue: 0,1:00:24.55,1:00:27.93,chs&eng,,0,0,0,,{\blur3}我看你不僅僅只教了他們英語\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I see you've been teaching themsomething other than English.{\r}
+Dialogue: 0,1:00:27.97,1:00:29.55,chs&eng,,0,0,0,,{\blur3}我只是盡我所能\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I do what I can.{\r}
+Dialogue: 0,1:00:29.68,1:00:33.10,chs&eng,,0,0,0,,{\blur3}- 嗯 我的計劃真得運行了嗎? - 該死 是的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- So my program is really, really working? - Hell, yes.{\r}
+Dialogue: 0,1:00:33.81,1:00:38.65,chs&eng,,0,0,0,,{\blur3}從明天起 "全民警察"計劃全面實施!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Starting tomorrow,C.O.Ps will be working the streets.{\r}
+Dialogue: 0,1:00:55.25,1:00:57.41,chs&eng,,0,0,0,,{\blur3}緊急情況 費爾德曼請求幫助\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}C.O.P. emergency. Feldman here.{\r}
+Dialogue: 0,1:00:57.54,1:01:00.54,chs&eng,,0,0,0,,{\blur3}請到克拉克大街和麥因大街交匯處的倉庫來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Meet me at the corner ofClark and Main Street at the warehouse.{\r}
+Dialogue: 0,1:01:00.67,1:01:02.13,chs&eng,,0,0,0,,{\blur3}小心 費女士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}10 - 4, Mrs. F.{\r}
+Dialogue: 0,1:01:13.60,1:01:16.60,chs&eng,,0,0,0,,{\blur3}- 40美元 成交嗎? - 好的 40\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- $40, we're agreed? - Okay, $40.{\r}
+Dialogue: 0,1:01:17.44,1:01:20.31,chs&eng,,0,0,0,,{\blur3}照幾張像做證據\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Snap off a few shots for evidence.{\r}
+Dialogue: 0,1:01:22.19,1:01:23.77,chs&eng,,0,0,0,,{\blur3}離近點兒\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get closer.{\r}
+Dialogue: 0,1:01:26.90,1:01:31.32,chs&eng,,0,0,0,,{\blur3}我在希爾大街的布魯斯商店見過這是買賣髒物\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I saw this on Hill Street Blues.It's a fencing operation.{\r}
+Dialogue: 0,1:01:31.91,1:01:34.87,chs&eng,,0,0,0,,{\blur3}你會喜歡這些的 我們剛剛卸了一卡車的貨\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're gonna love these.We just unloaded a van full of them.{\r}
+Dialogue: 0,1:01:34.91,1:01:36.49,chs&eng,,0,0,0,,{\blur3}好的 把其餘的也拿來吧\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, bring in the rest of it.{\r}
+Dialogue: 0,1:01:36.62,1:01:38.00,chs&eng,,0,0,0,,{\blur3}下個箱子\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Next case.{\r}
+Dialogue: 0,1:01:43.79,1:01:47.34,chs&eng,,0,0,0,,{\blur3}相機挺棒 少於80別賣給那幫騙子\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nice camera.Don't let that crook give you less than $80.{\r}
+Dialogue: 0,1:01:52.60,1:01:54.93,chs&eng,,0,0,0,,{\blur3}不許動 你們這些邋遢鬼!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Freeze, you scuzzbuckets!{\r}
+Dialogue: 0,1:01:55.31,1:01:58.22,chs&eng,,0,0,0,,{\blur3}公民警察! 夥計們 上 抓住他們!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is a citizen's arrest. Get them, boys!{\r}
+Dialogue: 0,1:02:12.24,1:02:15.07,chs&eng,,0,0,0,,{\blur3}呆在這不許動 等警察來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're not moving till the cops get here.{\r}
+Dialogue: 0,1:02:16.41,1:02:18.54,chs&eng,,0,0,0,,{\blur3}我就是警察 女士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I am the cops, lady.{\r}
+Dialogue: 0,1:02:20.08,1:02:24.12,chs&eng,,0,0,0,,{\blur3}三個月的訓練 肉體與精神上的考驗\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Three months' workout the window, down the drain.{\r}
+Dialogue: 0,1:02:24.79,1:02:27.63,chs&eng,,0,0,0,,{\blur3}你們這些參加計劃的學員正等待著…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Your Citizens On Patrol just screwed up...{\r}
+Dialogue: 0,1:02:27.67,1:02:31.80,chs&eng,,0,0,0,,{\blur3}在這座城市歷史中 唯一的、規模最大的、秘密的…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}the single biggestundercover police sting operation...{\r}
+Dialogue: 0,1:02:31.84,1:02:33.97,chs&eng,,0,0,0,,{\blur3}讓人頭疼的警界行動…!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}in the history of this city!{\r}
+Dialogue: 0,1:02:36.97,1:02:38.35,chs&eng,,0,0,0,,{\blur3}告訴他們這個好消息 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Tell them the good news, sir.{\r}
+Dialogue: 0,1:02:38.43,1:02:41.27,chs&eng,,0,0,0,,{\blur3}- 謝謝 學監 - 別客氣 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Thank you, Proctor. - You're welcome, sir.{\r}
+Dialogue: 0,1:02:41.98,1:02:46.86,chs&eng,,0,0,0,,{\blur3}從現在起"全民警察"計劃被暫緩執行…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}As of now,the C.O.P. program is suspended...{\r}
+Dialogue: 0,1:02:47.23,1:02:49.82,chs&eng,,0,0,0,,{\blur3}等待再做決定!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}pending a full investigation.{\r}
+Dialogue: 0,1:02:54.95,1:02:56.57,chs&eng,,0,0,0,,{\blur3}立正!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Attention!{\r}
+Dialogue: 0,1:03:07.71,1:03:11.59,chs&eng,,0,0,0,,{\blur3}馬霍尼 我真的、真的太為你所做的一切驕傲了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Mahoney, I'm so, so proudof the job you've done.{\r}
+Dialogue: 0,1:03:11.88,1:03:13.34,chs&eng,,0,0,0,,{\blur3}幹得好!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nice work, men.{\r}
+Dialogue: 0,1:03:13.47,1:03:16.47,chs&eng,,0,0,0,,{\blur3}全世界的目光都集中在這項計劃上\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The eyes of the world are on this program.{\r}
+Dialogue: 0,1:03:16.72,1:03:19.85,chs&eng,,0,0,0,,{\blur3}對不起 長官 我想我們得談談\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me, sir. I think we should talk.{\r}
+Dialogue: 0,1:03:23.06,1:03:26.31,chs&eng,,0,0,0,,{\blur3}這一地區必須和各式的犯罪打交道…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This precinct must deal withevery type of criminal...{\r}
+Dialogue: 0,1:03:26.44,1:03:30.02,chs&eng,,0,0,0,,{\blur3}從小偷到全副武裝的搶匪 各種邪惡的蛇頭——\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}from pickpockets to armed robbers,felons of all kinds - -{\r}
+Dialogue: 0,1:03:30.19,1:03:34.15,chs&eng,,0,0,0,,{\blur3}哈里斯上尉 打擾一下別忘了還有日本忍者\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Capt. Harris. Excuse me.Don't forget the gang of ninjas.{\r}
+Dialogue: 0,1:03:37.66,1:03:39.87,chs&eng,,0,0,0,,{\blur3}我喜歡他們\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}They're my personal favorites.{\r}
+Dialogue: 0,1:03:41.33,1:03:43.79,chs&eng,,0,0,0,,{\blur3}幹嘛不去找他們玩玩?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Why don't you go pay them a visit?{\r}
+Dialogue: 0,1:03:47.33,1:03:51.50,chs&eng,,0,0,0,,{\blur3}這一地區需要紀律與組織來掌管\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This precinct is run on disciplineand organization.{\r}
+Dialogue: 0,1:03:51.63,1:03:54.88,chs&eng,,0,0,0,,{\blur3}西蒙說："拉你的左耳朵! "\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Simon says, "Pull your left ear."{\r}
+Dialogue: 0,1:03:56.34,1:04:00.39,chs&eng,,0,0,0,,{\blur3}西蒙說："用你的左腳跳! "加油 夥計們!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Simon says, "Hop on your left foot."Come on, guys.{\r}
+Dialogue: 0,1:04:02.93,1:04:06.10,chs&eng,,0,0,0,,{\blur3}西蒙說："用你的右腳跳! "\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Simon says, "Hop on your right foot."{\r}
+Dialogue: 0,1:04:07.06,1:04:09.60,chs&eng,,0,0,0,,{\blur3}先生們 這似乎吵了點兒\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It's a little too noisy in here, gentlemen.{\r}
+Dialogue: 0,1:04:09.65,1:04:11.65,chs&eng,,0,0,0,,{\blur3}一會兒有重要的官員檢查…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We have importantpolice officials visiting...{\r}
+Dialogue: 0,1:04:11.77,1:04:14.36,chs&eng,,0,0,0,,{\blur3}我想你們最好表現得乖點\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}and I think you'd better showthe proper respect.{\r}
+Dialogue: 0,1:04:14.48,1:04:16.49,chs&eng,,0,0,0,,{\blur3}嘿 中尉 我們馬上就好了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, Lieutenant.We're almost finished.{\r}
+Dialogue: 0,1:04:16.53,1:04:19.65,chs&eng,,0,0,0,,{\blur3}中尉 跟我們一塊做西蒙健身操吧!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, Lieutenant,join us in a friendly game of Simon Says.{\r}
+Dialogue: 0,1:04:19.78,1:04:24.37,chs&eng,,0,0,0,,{\blur3}很簡單現在 西蒙說："摸你的腳趾尖! "\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There's nothing to it.Now, Simon says, "Touch your toes."{\r}
+Dialogue: 0,1:04:24.91,1:04:28.83,chs&eng,,0,0,0,,{\blur3}快 中尉 西蒙說："拍你的小手掌! "\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, Lieutenant.Simon says, "Clap your hands."{\r}
+Dialogue: 0,1:04:30.67,1:04:32.54,chs&eng,,0,0,0,,{\blur3}來 一起做!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, get in the spirit.{\r}
+Dialogue: 0,1:04:34.50,1:04:37.09,chs&eng,,0,0,0,,{\blur3}西蒙說："往左兩步走! "\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Simon says, "Two steps right."{\r}
+Dialogue: 0,1:04:40.01,1:04:42.22,chs&eng,,0,0,0,,{\blur3}西蒙說："向後五步走! "\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Simon says, "Five steps back."{\r}
+Dialogue: 0,1:04:45.97,1:04:47.64,chs&eng,,0,0,0,,{\blur3}舉起手來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Put your hands up!{\r}
+Dialogue: 0,1:04:48.39,1:04:50.27,chs&eng,,0,0,0,,{\blur3}哈哈 西蒙可沒那麼說!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Simon didn't say.{\r}
+Dialogue: 0,1:04:50.27,1:04:52.39,chs&eng,,0,0,0,,{\blur3}是的 可史密斯和威森說了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No, but Smith & Wesson does.{\r}
+Dialogue: 0,1:04:53.69,1:04:57.11,chs&eng,,0,0,0,,{\blur3}高度安全的牢房是用來關押…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The high - security cell areais used to hold criminals...{\r}
+Dialogue: 0,1:04:57.23,1:05:01.15,chs&eng,,0,0,0,,{\blur3}那些等候審訊的和即將被押送到州、縣監獄的犯人的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}awaiting trial or transferto state or county facility.{\r}
+Dialogue: 0,1:05:01.70,1:05:03.86,chs&eng,,0,0,0,,{\blur3}任何已定罪的重犯…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Any convictions involving felons...{\r}
+Dialogue: 0,1:05:04.66,1:05:09.12,chs&eng,,0,0,0,,{\blur3}性變態者、盜賊等類的犯人被關押在這一區域\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}perverts, thieves, people of that nature,are held in this area.{\r}
+Dialogue: 0,1:05:09.41,1:05:14.12,chs&eng,,0,0,0,,{\blur3}- 您能看見這些鋼鐵結構 - 他到底在這幹什麼?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You will notice the steel construction. - What the hell is he doing in there?{\r}
+Dialogue: 0,1:05:17.76,1:05:20.05,chs&eng,,0,0,0,,{\blur3}我想這樣您就明白了吧 長官?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I think that explains it, sir.{\r}
+Dialogue: 0,1:05:25.72,1:05:27.35,chs&eng,,0,0,0,,{\blur3}快點 快點!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, hurry up!{\r}
+Dialogue: 0,1:05:47.37,1:05:49.74,chs&eng,,0,0,0,,{\blur3}當和你在一起 一切都有了意義\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It's getting to the point nowwhen I'm with you{\r}
+Dialogue: 0,1:05:49.91,1:05:53.75,chs&eng,,0,0,0,,{\blur3}我不再需要其它任何一樣東西\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I no longer wantto have something stuck in my eye{\r}
+Dialogue: 0,1:05:53.87,1:05:57.92,chs&eng,,0,0,0,,{\blur3}你的媽媽 我的媽媽將不再像佛羅倫薩·亨德森\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Your mother, my motherain't never looked like Florence Henderson{\r}
+Dialogue: 0,1:06:03.22,1:06:05.09,chs&eng,,0,0,0,,{\blur3}這是我寫給你的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I wrote that for you.{\r}
+Dialogue: 0,1:06:08.89,1:06:11.47,chs&eng,,0,0,0,,{\blur3}我希望"全民警察"計劃的結束…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I hope now that C.O.P. is over...{\r}
+Dialogue: 0,1:06:11.60,1:06:14.35,chs&eng,,0,0,0,,{\blur3}並不意味著我們再也不會見面\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}it won't mean that we won'tbe seeing each other anymore.{\r}
+Dialogue: 0,1:06:14.52,1:06:18.10,chs&eng,,0,0,0,,{\blur3}閉嘴! 沒說你 我指的是那些鴨子\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Shut up! Not you. I meant the ducks.{\r}
+Dialogue: 0,1:06:18.48,1:06:20.36,chs&eng,,0,0,0,,{\blur3}注意 這裏是費女士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Attention. This is Mrs. F.{\r}
+Dialogue: 0,1:06:20.40,1:06:23.65,chs&eng,,0,0,0,,{\blur3}- 發生越獄! - 澤得 注意!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- There's been a jailbreak. - Zed, 10 - 4!{\r}
+Dialogue: 0,1:06:24.70,1:06:27.32,chs&eng,,0,0,0,,{\blur3}塔克 在麥因大街和楓樹大街的交匯處接我\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Tack, you pick me up at Main and Maple.{\r}
+Dialogue: 0,1:06:27.70,1:06:29.78,chs&eng,,0,0,0,,{\blur3}快點! 完畢\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Move it! Over and out.{\r}
+Dialogue: 0,1:06:30.83,1:06:32.24,chs&eng,,0,0,0,,{\blur3}校長!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Commandant!{\r}
+Dialogue: 0,1:06:38.25,1:06:40.96,chs&eng,,0,0,0,,{\blur3}- 發生了越獄 長官 - 上車\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- There's been a jailbreak, sir. - Get in.{\r}
+Dialogue: 0,1:06:50.56,1:06:54.85,chs&eng,,0,0,0,,{\blur3}- 寶貝兒 再見到你可真好 - 被你見到可真好\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- It is so wonderful to see you again, baby. - It's wonderful to be seen.{\r}
+Dialogue: 0,1:06:55.14,1:06:59.85,chs&eng,,0,0,0,,{\blur3}- 就像那些美妙的舊時光 - 在美國 說話沒有用\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Just like old times. - ln America, talk is cheap.{\r}
+Dialogue: 0,1:07:04.23,1:07:06.40,chs&eng,,0,0,0,,{\blur3}越獄了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There's been a jailbreak!{\r}
+Dialogue: 0,1:07:11.87,1:07:15.58,chs&eng,,0,0,0,,{\blur3}看 那有一輛被盜的警車 應該就是它\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Look, there's a stolen police car.That's got to be it.{\r}
+Dialogue: 0,1:07:16.00,1:07:18.58,chs&eng,,0,0,0,,{\blur3}我想我們碰到搶劫了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I think we got a robbery in progress.{\r}
+Dialogue: 0,1:07:30.59,1:07:32.60,chs&eng,,0,0,0,,{\blur3}呆在這兒 費爾德曼女士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Stay here, Mrs. Feldman.{\r}
+Dialogue: 0,1:07:40.19,1:07:43.56,chs&eng,,0,0,0,,{\blur3}- 不許動! - 說的好\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Freeze! - Good idea.{\r}
+Dialogue: 0,1:07:50.86,1:07:54.28,chs&eng,,0,0,0,,{\blur3}好 所有人到地下室去!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}All right, I want everybodyto get back in that vault.{\r}
+Dialogue: 0,1:08:01.33,1:08:02.92,chs&eng,,0,0,0,,{\blur3}塔克 給他們做筆錄!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Book them, Tack.{\r}
+Dialogue: 0,1:08:10.47,1:08:11.92,chs&eng,,0,0,0,,{\blur3}- 那是個日本忍者 - 我看見了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- There's a ninja now. - I see him.{\r}
+Dialogue: 0,1:08:12.01,1:08:14.38,chs&eng,,0,0,0,,{\blur3}走 咱們去抓住他!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, let's get him. Let's go.{\r}
+Dialogue: 0,1:08:33.07,1:08:34.66,chs&eng,,0,0,0,,{\blur3}看見他了嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Do you see him?{\r}
+Dialogue: 0,1:08:41.62,1:08:42.79,chs&eng,,0,0,0,,{\blur3}噢 可惡\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Shit.{\r}
+Dialogue: 0,1:08:47.80,1:08:51.21,chs&eng,,0,0,0,,{\blur3}好了 如果你們想要打架那麼你們就會得到一頓臭揍\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}All right. If it's a fight you want,a fight you'll get.{\r}
+Dialogue: 0,1:09:19.87,1:09:22.41,chs&eng,,0,0,0,,{\blur3}混蛋 你要為此付出代價\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Damn you. You're gonna pay for that.{\r}
+Dialogue: 0,1:10:12.04,1:10:13.59,chs&eng,,0,0,0,,{\blur3}閉 嘴!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Shut up!{\r}
+Dialogue: 0,1:10:14.09,1:10:16.63,chs&eng,,0,0,0,,{\blur3}你們兩個笨蛋 給我住嘴!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Will you two morons, knock it off!{\r}
+Dialogue: 0,1:10:16.67,1:10:19.64,chs&eng,,0,0,0,,{\blur3}我們現在發生的是國際的大事變!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We've got an international incidentgoing on here!{\r}
+Dialogue: 0,1:10:23.05,1:10:25.47,chs&eng,,0,0,0,,{\blur3}- 我就知道你們會來! - （德）是啊 謝謝!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I knew you'd come. - Ja, danke.{\r}
+Dialogue: 0,1:10:25.64,1:10:29.10,chs&eng,,0,0,0,,{\blur3}- 你們應該感謝費爾德曼女士 - 費爾德曼女士是誰?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You may thank Mrs. Feldman. - Who is Mrs. Feldman?{\r}
+Dialogue: 0,1:10:29.23,1:10:32.52,chs&eng,,0,0,0,,{\blur3}你們知道費爾德曼女士已經死去了的"全民警察"計劃的成員之一\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You know Mrs. Feldman,a member of the defunct C.O.P. team.{\r}
+Dialogue: 0,1:10:39.65,1:10:42.49,chs&eng,,0,0,0,,{\blur3}這裏是馬霍尼中士 正在追捕一輛被盜的警車\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is Sgt. Mahoneyin pursuit of a stolen police car.{\r}
+Dialogue: 0,1:10:42.49,1:10:44.66,chs&eng,,0,0,0,,{\blur3}我正駛向威廉姆斯縣露天表演場\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'm headed towardsthe Williams County air show.{\r}
+Dialogue: 0,1:10:44.78,1:10:48.95,chs&eng,,0,0,0,,{\blur3}重複一遍我正向威廉姆斯縣方向追捕四名逃犯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Repeat, I'm pursing four escapeestoward the Williams County air show.{\r}
+Dialogue: 0,1:10:49.54,1:10:51.71,chs&eng,,0,0,0,,{\blur3}現在第二次上場…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, folks,making his second appearance...{\r}
+Dialogue: 0,1:10:51.83,1:10:55.21,chs&eng,,0,0,0,,{\blur3}在威廉姆斯縣露天表演場\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}at the Williams County air show....{\r}
+Dialogue: 0,1:11:05.26,1:11:07.56,chs&eng,,0,0,0,,{\blur3}- 小心那輛車! - 哪輛車?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Look out for that car! - What car?{\r}
+Dialogue: 0,1:11:08.85,1:11:11.27,chs&eng,,0,0,0,,{\blur3}就這輛! 快點 下車!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That car! Come on, get out!{\r}
+Dialogue: 0,1:11:13.10,1:11:14.40,chs&eng,,0,0,0,,{\blur3}快點!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on!{\r}
+Dialogue: 0,1:11:15.69,1:11:17.52,chs&eng,,0,0,0,,{\blur3}趕緊從這離開!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let's get out of here!{\r}
+Dialogue: 0,1:11:19.44,1:11:20.86,chs&eng,,0,0,0,,{\blur3}快點!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hurry up!{\r}
+Dialogue: 0,1:12:10.33,1:12:13.91,chs&eng,,0,0,0,,{\blur3}哦 就到這兒了 我可不想上那些東西\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is where I draw the line.I'm not going up in one of those things.{\r}
+Dialogue: 0,1:12:14.04,1:12:17.04,chs&eng,,0,0,0,,{\blur3}- 不想 絕對不想 - 你可以不去\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- No way. No, sirree. - You don't have to.{\r}
+Dialogue: 0,1:12:40.69,1:12:42.65,chs&eng,,0,0,0,,{\blur3}你現在可以睜開眼睛了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You can open your eyes now.{\r}
+Dialogue: 0,1:12:43.23,1:12:45.94,chs&eng,,0,0,0,,{\blur3}你怎麼會喜歡這個而不喜歡我開車呢?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}How can you like thisbetter than my driving?{\r}
+Dialogue: 0,1:12:45.99,1:12:49.36,chs&eng,,0,0,0,,{\blur3}因為你的車做不了這個!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Because you can't do this in a car.{\r}
+Dialogue: 0,1:13:07.63,1:13:09.09,chs&eng,,0,0,0,,{\blur3}搶下那氣球!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Grab that balloon!{\r}
+Dialogue: 0,1:13:10.30,1:13:12.68,chs&eng,,0,0,0,,{\blur3}我們以法律的名義徵用這氣球!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We commandeer this balloonin the name of the law!{\r}
+Dialogue: 0,1:13:12.85,1:13:16.56,chs&eng,,0,0,0,,{\blur3}- 不 等等 你們不能! - 你們不能這麼做! 我們需要它來比賽\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- No, wait, you can't! - You can't do that. We need it for the race.{\r}
+Dialogue: 0,1:13:27.40,1:13:31.99,chs&eng,,0,0,0,,{\blur3}費爾德曼女士 呆在車那兒澤得 斯威特查克 跟我來\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Mrs. Feldman, stay with the car.Zed, Sweetchuck, follow me.{\r}
+Dialogue: 0,1:13:34.54,1:13:37.41,chs&eng,,0,0,0,,{\blur3}夥計們 等等! 塔克貝利!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Guys, wait up! Tackleberry.{\r}
+Dialogue: 0,1:13:38.71,1:13:40.42,chs&eng,,0,0,0,,{\blur3}- 我該拉什麼? - 讓它向上!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What do I pull? - Take it up!{\r}
+Dialogue: 0,1:13:40.58,1:13:44.00,chs&eng,,0,0,0,,{\blur3}- 它動了! 出發! - 我們在向上升 長官!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- They're getting away! Let's go! - We are going up, sir.{\r}
+Dialogue: 0,1:13:50.63,1:13:54.14,chs&eng,,0,0,0,,{\blur3}趕快 扔掉降落傘!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on! Drop the parachute!{\r}
+Dialogue: 0,1:13:54.97,1:13:56.47,chs&eng,,0,0,0,,{\blur3}別再瞎鬧了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Stop screwing around!{\r}
+Dialogue: 0,1:13:57.43,1:14:00.64,chs&eng,,0,0,0,,{\blur3}- 快 扔掉降落傘! - 加油!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Come on! Drop the parachute! - Come on!{\r}
+Dialogue: 0,1:14:00.77,1:14:03.48,chs&eng,,0,0,0,,{\blur3}如果他不想這麼做 別逼他\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}If he doesn't want to do it, don't push him.{\r}
+Dialogue: 0,1:14:03.61,1:14:05.90,chs&eng,,0,0,0,,{\blur3}他只是必須、想自救\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}He's gotta, like, wanna help himself.{\r}
+Dialogue: 0,1:14:13.07,1:14:15.37,chs&eng,,0,0,0,,{\blur3}現在讓氣球降下去!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You land that balloon right now!{\r}
+Dialogue: 0,1:14:15.66,1:14:19.16,chs&eng,,0,0,0,,{\blur3}我是哈里斯上尉! 你們被捕了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is Capt. Harris! You are under arrest!{\r}
+Dialogue: 0,1:14:19.20,1:14:21.91,chs&eng,,0,0,0,,{\blur3}降落!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Land that balloon now!{\r}
+Dialogue: 0,1:14:24.46,1:14:28.09,chs&eng,,0,0,0,,{\blur3}- 我在空中將他們擊落吧 長官 - 不 還不到時候!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I'll just blast them out of the sky, sir. - No! Not yet.{\r}
+Dialogue: 0,1:14:28.75,1:14:32.05,chs&eng,,0,0,0,,{\blur3}您說的對 我應該先鳴槍警告他們一下\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're right.I should give them a warning shot first.{\r}
+Dialogue: 0,1:14:37.35,1:14:40.52,chs&eng,,0,0,0,,{\blur3}你這個低能兒! 現在高興了吧?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lmbecile! Are you happy now?{\r}
+Dialogue: 0,1:14:41.06,1:14:43.64,chs&eng,,0,0,0,,{\blur3}至少看上去我們會降落到河裏 長官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}At least it looks likewe're coming down in the river.{\r}
+Dialogue: 0,1:14:43.77,1:14:47.36,chs&eng,,0,0,0,,{\blur3}沒關係 因為你會死的!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}It won't matterbecause you're going to be dead!{\r}
+Dialogue: 0,1:14:47.52,1:14:48.65,chs&eng,,0,0,0,,{\blur3}風景真美——\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Pretty view - -{\r}
+Dialogue: 0,1:14:53.36,1:14:55.82,chs&eng,,0,0,0,,{\blur3}我恨水!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I hate water!{\r}
+Dialogue: 0,1:14:59.99,1:15:01.12,chs&eng,,0,0,0,,{\blur3}救命!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Help!{\r}
+Dialogue: 0,1:15:05.67,1:15:09.09,chs&eng,,0,0,0,,{\blur3}- 他們掉河裏了 - 快點 也許我們能把他們救上來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- They're in the river. - Hurry. Maybe we can catch them.{\r}
+Dialogue: 0,1:15:12.71,1:15:15.26,chs&eng,,0,0,0,,{\blur3}我要和塔克貝利並排飛\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'll pull alongside Tackleberry.{\r}
+Dialogue: 0,1:15:20.43,1:15:22.85,chs&eng,,0,0,0,,{\blur3}瞧 那是我的家!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Look, I see my house!{\r}
+Dialogue: 0,1:15:23.56,1:15:25.10,chs&eng,,0,0,0,,{\blur3}看 是那幫騙子!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Look, the crooks!{\r}
+Dialogue: 0,1:15:27.40,1:15:29.40,chs&eng,,0,0,0,,{\blur3}我們去把他們抓住 啊?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let's go get them, okay?{\r}
+Dialogue: 0,1:15:42.87,1:15:44.29,chs&eng,,0,0,0,,{\blur3}抓緊了 長官!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hang on, sir!{\r}
+Dialogue: 0,1:15:48.71,1:15:51.84,chs&eng,,0,0,0,,{\blur3}- 快點! 別讓他們流到瀑布那! - 他們往那邊去了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Hurry, before they go over the falls! - There they go!{\r}
+Dialogue: 0,1:15:55.17,1:15:56.55,chs&eng,,0,0,0,,{\blur3}拿繩子!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get a rope!{\r}
+Dialogue: 0,1:15:57.63,1:15:59.55,chs&eng,,0,0,0,,{\blur3}堅持住 堅持住 長官!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hang on. Hang on, sir!{\r}
+Dialogue: 0,1:16:02.18,1:16:04.43,chs&eng,,0,0,0,,{\blur3}我們馬上就來救你們了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hang on, we'll come and get you!{\r}
+Dialogue: 0,1:16:11.98,1:16:13.06,chs&eng,,0,0,0,,{\blur3}抓住它!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Grab it!{\r}
+Dialogue: 0,1:16:34.34,1:16:35.80,chs&eng,,0,0,0,,{\blur3}別緊張!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Try to relax!{\r}
+Dialogue: 0,1:16:48.48,1:16:51.60,chs&eng,,0,0,0,,{\blur3}他們在那! 他們跑不掉了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There's the balloon! Now I've got them.{\r}
+Dialogue: 0,1:17:03.07,1:17:07.54,chs&eng,,0,0,0,,{\blur3}只有一種方法 我去!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There's only one way to do thisand it's up to me!{\r}
+Dialogue: 0,1:17:08.79,1:17:12.54,chs&eng,,0,0,0,,{\blur3}- 飛到氣球上方去! - 他跟你說話呢!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Take over! - He was talking to you!{\r}
+Dialogue: 0,1:17:13.38,1:17:16.08,chs&eng,,0,0,0,,{\blur3}帶點啤酒回來!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}If you're coming back, bring some beer!{\r}
+Dialogue: 0,1:17:24.64,1:17:28.26,chs&eng,,0,0,0,,{\blur3}- 不 他在跟你說話 - 不不、不 我聽見他說了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- No. He was talking to you. - No, I heard him.{\r}
+Dialogue: 0,1:17:28.39,1:17:32.85,chs&eng,,0,0,0,,{\blur3}- 他說："斯威特查克、斯威特查克飛到氣球上方去! " - 不 他沒說\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- He said, "Sweetchuck, take over." - No, he did not.{\r}
+Dialogue: 0,1:17:36.11,1:17:39.40,chs&eng,,0,0,0,,{\blur3}- 別踩我的腳! - 閉嘴! 你怎麼老沒完沒了的抱怨?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Get off of my foot! - Shut up! Why are you always whining?{\r}
+Dialogue: 0,1:17:39.57,1:17:41.28,chs&eng,,0,0,0,,{\blur3}讓我一個人呆著!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Leave me alone!{\r}
+Dialogue: 0,1:18:11.72,1:18:15.48,chs&eng,,0,0,0,,{\blur3}先生們 請出去你們的許可證!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Gentlemen, may I see your licenseand registration, please?{\r}
+Dialogue: 0,1:18:16.44,1:18:21.32,chs&eng,,0,0,0,,{\blur3}他們在那兒! 下降!我想近一點兒 再近一點兒\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There they are. Take it down.I want to get close. Get closer.{\r}
+Dialogue: 0,1:18:25.74,1:18:28.87,chs&eng,,0,0,0,,{\blur3}馬霍尼 你要幹什麼?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Mahoney, what are you doing?{\r}
+Dialogue: 0,1:18:29.28,1:18:30.74,chs&eng,,0,0,0,,{\blur3}離他們再近點兒\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get in closer!{\r}
+Dialogue: 0,1:18:43.96,1:18:46.17,chs&eng,,0,0,0,,{\blur3}嘿 知道你在幹什麼嗎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What do you think you're doing?{\r}
+Dialogue: 0,1:18:50.89,1:18:53.06,chs&eng,,0,0,0,,{\blur3}我來關照關照你 警官!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'll take care of you, copper!{\r}
+Dialogue: 0,1:18:54.22,1:18:56.93,chs&eng,,0,0,0,,{\blur3}從機翼上下去! 離開這!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get off my wing! Get off of there!{\r}
+Dialogue: 0,1:18:56.98,1:18:59.06,chs&eng,,0,0,0,,{\blur3}你怎麼對付他們呢?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What will you do about them?{\r}
+Dialogue: 0,1:19:06.32,1:19:09.66,chs&eng,,0,0,0,,{\blur3}夥計 結束了 咱們一塊回家吧!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Pal, it's over. Let's go home.{\r}
+Dialogue: 0,1:19:12.53,1:19:15.95,chs&eng,,0,0,0,,{\blur3}- 我恨你 - 我、我才不怕你!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I hate you. - I'm not really thrilled about you!{\r}
+Dialogue: 0,1:19:16.62,1:19:20.54,chs&eng,,0,0,0,,{\blur3}- 你幹嘛不減減肥? - 你幹嘛不到外面走走?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Why don't you lose some weight? - Why don't you get out and walk?{\r}
+Dialogue: 0,1:19:23.63,1:19:26.71,chs&eng,,0,0,0,,{\blur3}- 我要吐了! - 我沒有降落傘!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I'm going to be sick! - I don't have a parachute!{\r}
+Dialogue: 0,1:19:26.96,1:19:30.93,chs&eng,,0,0,0,,{\blur3}- 閉嘴! 我要吐了! - 別弄髒我的衣服!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Shut up! I'm going to be sick! - Don't be sick on me!{\r}
+Dialogue: 0,1:19:41.56,1:19:44.57,chs&eng,,0,0,0,,{\blur3}- 我沒有降落傘! - 休息會吧!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I don't have a chute! - Break your fall!{\r}
+Dialogue: 0,1:19:44.69,1:19:47.86,chs&eng,,0,0,0,,{\blur3}- 掉到小孩們身上! - 不 我要降落傘!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Hit the kids! - No, I need a chute!{\r}
+Dialogue: 0,1:19:48.24,1:19:50.11,chs&eng,,0,0,0,,{\blur3}用你自己的! 離我遠點!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get your own! Get away from me!{\r}
+Dialogue: 0,1:19:50.15,1:19:51.86,chs&eng,,0,0,0,,{\blur3}快點!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on!{\r}
+Dialogue: 0,1:19:52.87,1:19:54.03,chs&eng,,0,0,0,,{\blur3}一塊兒掉!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let go!{\r}
+Dialogue: 0,1:19:54.70,1:19:57.04,chs&eng,,0,0,0,,{\blur3}我要把你劈成兩半 你這個壞蛋!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I'll break you in half, you dweeb.{\r}
+Dialogue: 0,1:19:57.16,1:20:00.71,chs&eng,,0,0,0,,{\blur3}行了 我打開傘了你滿意了吧? 別碰我!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There, I opened the chute.Are you satisfied? Leave me alone!{\r}
+Dialogue: 0,1:20:06.75,1:20:10.17,chs&eng,,0,0,0,,{\blur3}- 我要殺了你! - 閉上你的嘴享受飛行吧!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I'm going to kill you! - Shut up and enjoy the flight!{\r}
+Dialogue: 0,1:20:20.56,1:20:22.02,chs&eng,,0,0,0,,{\blur3}你壓著我了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get off me!{\r}
+Dialogue: 0,1:20:28.44,1:20:31.78,chs&eng,,0,0,0,,{\blur3}指揮官 他們說你的"全民警察"成員…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Commandant, they sayyour Citizens On Patrol group...{\r}
+Dialogue: 0,1:20:31.90,1:20:36.03,chs&eng,,0,0,0,,{\blur3}做了很多很多漂亮的還有瘋狂的事情\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}does many, manywonderful and crazy things.{\r}
+Dialogue: 0,1:20:44.75,1:20:48.50,chs&eng,,0,0,0,,{\blur3}我認為馬霍尼中士應該得到特別的感謝\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I think Sgt. Mahoneydeserves a special bow.{\r}
+Dialogue: 0,1:20:48.92,1:20:50.63,chs&eng,,0,0,0,,{\blur3}- 馬霍尼? - 沒錯!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Mahoney? - All right!{\r}
+Dialogue: 0,1:20:51.63,1:20:53.51,chs&eng,,0,0,0,,{\blur3}- 馬霍尼? - 喲 出發!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Mahoney? - Way to go!{\r}
+Dialogue: 0,1:21:03.52,1:21:05.06,chs&eng,,0,0,0,,{\blur3}起來! 看 是馬霍尼!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get up! Look, it's Mahoney!{\r}
+Dialogue: 0,1:21:05.19,1:21:07.06,chs&eng,,0,0,0,,{\blur3}- 哪兒? - 噢 我忘了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Where? - Sorry.{\r}
+Dialogue: 0,1:21:11.94,1:21:14.24,chs&eng,,0,0,0,,{\blur3}- 為學校乾杯 - 乾杯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- To the Academy. - To the Academy.{\r}
+Dialogue: 0,1:21:21.24,1:21:24.37,chs&eng,,0,0,0,,{\blur3}知道嗎 你看上去有點像《壯志凌雲》裏湯姆·克魯斯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You know, you looka little like Tom Cruise in Top Gun.{\r}
+Dialogue: 0,1:21:24.42,1:21:26.25,chs&eng,,0,0,0,,{\blur3}- 嗯? - 不!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yeah? - No!{\r}
+

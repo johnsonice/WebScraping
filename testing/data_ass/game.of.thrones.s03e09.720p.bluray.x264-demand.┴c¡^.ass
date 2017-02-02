@@ -1,0 +1,612 @@
+﻿[Script Info]
+; // The sub is created by AssToolkit
+; // AssToolkit is an ASS Converter designed by David C.
+; // 歡迎訪問人人影視 http://www.YYeTs.com
+Title:YYeTs
+Original Script:YYeTs
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑體_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,2,1,2,5,5,2,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:10.69,0:00:12.79,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(280,195)\shad2\bord0\fsp2\c&H74B1D7&\b1}翻譯 Silmar
+Dialogue: 0,0:00:12.87,0:00:14.82,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(300,85)\shad2\bord0\fsp2\c&H74B1D7&\b1}翻譯 送小孩
+Dialogue: 0,0:00:14.99,0:00:17.22,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(275,225)\shad2\bord0\fsp2\c&H74B1D7&\b1}翻譯 小熊嘟嘟
+Dialogue: 0,0:00:18.04,0:00:20.06,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(100,270)\shad2\bord0\fsp2\c&H74B1D7&\b1}翻譯 豬豬
+Dialogue: 0,0:00:21.45,0:00:23.59,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(120,85)\shad2\bord0\fsp2\c&H74B1D7&\b1}翻譯 某羽 泰斯
+Dialogue: 0,0:00:27.93,0:00:30.29,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(195,185)\shad2\bord0\fsp2\c&H74B1D7&\b1}繁化 Dien 
+Dialogue: 0,0:00:33.00,0:00:35.30,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(150,125)\shad2\bord0\fsp2\c&H74B1D7&\b1}校對 泰斯·雪諾
+Dialogue: 0,0:00:38.48,0:00:40.72,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(135,95)\shad2\bord0\fsp2\c&H74B1D7&\b1}校對 Silmar
+Dialogue: 0,0:00:41.42,0:00:43.52,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(270,215)\shad2\bord0\fsp2\c&H74B1D7&\b1}顧問 屈暢(ccxx)
+Dialogue: 0,0:00:47.82,0:00:49.89,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(120,215)\shad2\bord0\fsp2\c&H74B1D7&\b1}時間軸 子衿
+Dialogue: 0,0:00:50.31,0:00:52.40,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(270,90)\shad2\bord0\fsp2\c&H74B1D7&\b1}時間軸 Original
+Dialogue: 0,0:00:52.49,0:00:54.43,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(125,85)\shad2\bord0\fsp2\c&H74B1D7&\b1}後期/特效 WiLL  吉吉
+Dialogue: 0,0:00:56.06,0:00:57.77,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(140,210)\shad2\bord0\fsp2\c&H74B1D7&\b1}監製 泰斯·雪諾
+Dialogue: 0,0:01:32.98,0:01:35.21,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體\fs15\fad(400,400)\pos(180,170)\shad2\bord0\fsp2\c&H74B1D7&\b1}改編自《冰與火之歌》
+Dialogue: 0,0:01:32.98,0:01:35.21,Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體}{\fs12}{\fad(400,400)}{\pos(200,190)\shad2\bord0\fsp2\c&H74B1D7&\b1}原著 喬治·R·R·馬丁
+Dialogue: 0,0:01:41.96,0:01:44.96,Default,NTP,0000,0000,0000,,{\fn方正小標宋簡體}{\fs90}{\fad(800,0)}{\shad0}{\bord0}{\b1}{\fsp6}{\frz30}{\t(0,2500,0.3,\fscx50\fscy50)}{\pos(193,215)}{\t(0,2700,0.6,\frz0)}權力{\fs70}的{\fs90}遊戲
+Dialogue: 0,0:01:44.96,0:01:45.27,Default,NTP,0000,0000,0000,,{\fn方正小標宋簡體}{\fs45}{\shad0}{\bord0}{\b1}{\fsp3}{\pos(193,215)}權力{\fs35}的{\fs45}遊戲
+Dialogue: 0,0:01:45.27,0:01:46.27,Default,NTP,0000,0000,0000,,{\fn方正小標宋簡體}{\fs45}{\shad0}{\bord0}{\b1}{\fsp3}{\pos(193,215)}{\blur1\be1}權力{\fs35}的{\fs45}遊戲
+Dialogue: 0,0:01:46.27,0:01:46.47,Default,NTP,0000,0000,0000,,{\fn方正小標宋簡體}{\fs45}{\shad0}{\bord0}{\b1}{\fsp3}{\pos(193,215)}權力{\fs35}的{\fs45}遊戲
+Dialogue: 0,0:01:46.47,0:01:47.85,Default,NTP,0000,0000,0000,,{\fn方正小標宋簡體}{\fs45}{\fad(0,200)}{\shad0}{\bord0}{\b1}{\fsp3}{\pos(193,215)}{\blur1\be1}權力{\fs35}的{\fs45}遊戲
+Dialogue: 0,0:01:42.03,0:01:47.85,Default,NTP,0000,0000,0000,,{\fn方正蘭亭粗黑_GBK}{\fs30}{\fad(800,200)}{\shad0}{\bord0}{\b1}{\fsp3}{\pos(193,240)}{\t(0,2500,0.3,\fscx50\fscy50)}第三季 第九集
+Dialogue: 1,0:00:00.98,0:00:05.90,Default,NTP,0,0,0,,{\fad(500,500)\pos(70,259.2)}{\bord0\shad0\fscx11\fscy14.5\p1\c&H3D91C6&\pos(70,248)}m 20 0 l 209 0 b 218 0 229 11 229 20 l 229 209 b 229 218 218 228 209 228 l 20 228 b 11 228 0 218 0 209 l 0 20 b 0 11 11 0 20 0{\p0}
+Dialogue: 3,0:00:00.98,0:00:05.90,Default,NTP,0,0,0,,{\fad(500,500)\pos(70,259.2)}{\bord0\shad0\fscx11\fscy14\p1\c&H89BCDC&\pos(70,248)}m 115 64 l 115 35 l 171 0 l 177 0 l 133 46 l 143 52 l 179 0 l 184 0 l 159 63 l 229 107 l 229 182 l 145 96 l 135 122 l 207 227 l 137 227 l 115 172 l 115 93 l 126 76 l 115 64 l 104 76 l 115 93 l 115 172 l 93 227 l 23 227 l 95 122 l 84 96 l 0 182 l 0 107 l 70 63 l 45 0 l 50 0 l 87 52 l 97 46 l 52 0 l 59 0 l 115 35{\p0}
+Dialogue: 5,0:00:00.98,0:00:05.90,Default,NTP,0,0,0,,{\fad(500,500)\pos(60,249.2)}{\bord0\shad0\fscx15\fscy18\p1\1a&H3D&\c&HFFFFFF&\blur10\pos(60,238)}m 71 60 b 71 0 161 0 161 60 b 161 120 71 120 71 60{\p0}
+Dialogue: 1,0:00:00.98,0:00:05.90,Default,NTP,0,0,0,,{\fad(500,400)\pos(86,259.2)}{\bord0\shad0\fscx11\fscy14\p1\c&H74B1D7&\pos(86,248)}m 325 0 l 355 0 l 332 47 l 354 47 l 399 136 l 369 136 l 328 53 l 288 136 l 257 136 l 325 0 m 467 0 l 497 0 l 474 47 l 496 47 l 541 136 l 511 136 l 470 53 l 430 136 l 399 136 l 467 0 m 545 1 l 583 1 l 583 14 l 568 14 l 568 19 l 583 19 l 583 30 l 568 30 l 568 34 l 599 34 l 599 30 l 583 30 l 583 19 l 599 19 l 599 14 l 583 14 l 583 1 l 611 1 b 616 1 622 6 622 10 l 622 36 l 652 0 l 678 0 l 644 41 l 622 41 l 622 47 l 596 47 l 597 54 l 625 54 l 625 68 l 541 68 l 541 54 l 572 54 l 571 47 l 545 47 l 545 1 m 583 72 l 583 85 l 569 85 l 569 90 l 598 90 l 598 85 l 583 85 l 583 72 l 611 72 b 615 72 621 78 621 82 l 653 44 l 678 44 l 644 86 l 621 86 l 621 103 l 597 103 l 597 136 l 570 136 l 564 126 l 562 136 l 542 136 l 548 107 l 568 107 l 565 121 l 571 121 l 571 103 l 547 103 l 547 72 l 583 72 m 600 107 l 620 107 l 624 124 l 653 89 l 679 89 l 642 136 l 615 136 l 618 132 l 606 132 l 600 107 m 689 0 l 716 0 l 721 15 l 732 15 l 732 30 l 718 56 l 731 56 l 735 100 l 721 100 l 717 59 l 714 64 l 714 136 l 693 136 l 693 79 l 676 79 l 707 30 l 679 30 l 679 15 l 694 15 l 689 0 m 738 0 l 804 0 b 807 0 813 6 813 9 l 813 87 l 794 87 l 794 14 l 756 14 l 756 87 l 763 77 l 763 21 l 787 21 l 787 91 l 798 91 l 798 120 l 820 120 l 812 136 l 778 136 l 778 90 l 748 136 l 723 136 l 756 87 l 738 87 l 738 0 m 257 151 l 275 151 l 297 182 l 319 151 l 337 151 l 304 197 l 304 227 l 290 227 l 290 197 l 257 151 m 337 151 l 355 151 l 377 182 l 399 151 l 417 151 l 384 197 l 384 227 l 370 227 l 370 197 l 337 151 m 425 192 l 447 192 b 445 181 427 181 425 192 l 410 192 b 414 162 458 162 462 192 l 462 206 l 425 206 b 425 210 429 212 433 213 l 462 213 l 462 227 l 433 227 b 412 227 408 203 410 192 m 462 151 l 532 151 l 532 165 l 504 165 l 504 227 l 489 227 l 489 165 l 462 165 l 462 151 m 580 172 l 580 186 l 549 186 b 543 186 543 192 549 192 l 565 192 b 589 192 589 227 565 227 l 532 227 l 532 213 l 565 213 b 570 213 570 206 565 206 l 549 206 b 524 206 524 172 549 172 l 580 172 m 592 213 l 606 213 l 606 227 l 592 227 l 592 213 m 639 172 l 665 172 l 665 186 l 639 186 b 623 186 623 213 639 213 l 665 213 l 665 227 l 639 227 b 603 227 603 172 639 172 m 700 184 b 722 184 722 215 700 215 l 700 229 b 740 229 740 170 700 170 b 660 170 660 229 700 229 l 700 215 b 680 215 680 184 700 184 m 737 172 l 782 172 b 803 172 813 177 813 198 l 813 228 l 799 228 l 799 198 b 799 186 793 187 782 187 l 782 228 l 768 228 l 768 187 l 752 187 l 752 228 l 737 228 l 737 172{\p0}
+Dialogue: 0,0:00:00.98,0:00:05.90,Default,NTP,0,0,0,,{\fad(500,500)\pos(100,265.2)}{\alpha&FF&\bord0\shad0\b0\c&HECB000&\fn方正蘭亭粗黑_GBK\fs25\pos(100,254)}人人影視\N{\fs18\fsp-1}YYeTs.com
+Dialogue: 1,0:00:00.98,0:00:05.90,Default,NTP,0,0,0,,{\fad(500,500)\fs13\bord0\shad0\b1\fn文鼎古印體繁\c&H74B1D7&\pos(101,278.2)}原創翻譯  雙語字幕
+Dialogue: 0,0:00:00.98,0:00:05.90,Default,NTP,0,0,0,,{\fad(500,500)\pos(192,294.2)}{\3c&HFFFFFF&\fscx650\fs86\alpha&H9F&\c&H000000&\bord1\shad0\pos(192,283)}■
+Dialogue: 0,0:00:00.98,0:00:05.90,Default,NTP,0,0,0,,{\fad(500,500)\fs16\fn文鼎古印體繁\b1\bord0\shad0\c&H74B1D7&\pos(237,266.2)}本字幕由人人影視字幕組翻譯\N禁止用作任何商業盈利行為
+Dialogue: 0,0:01:56.00,0:01:58.40,*Default,NTP,0000,0000,0000,,{\fn方正新秀麗繁體}{\pos(260,60)}{\frz-25}{\frx10}{\fry10}凱岩城
+Dialogue: 0,0:02:05.55,0:02:08.85,*Default,NTP,0000,0000,0000,,你有把握嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Are you sure about this?
+Dialogue: 0,0:02:08.88,0:02:11.55,*Default,NTP,0000,0000,0000,,沒有\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}No.
+Dialogue: 0,0:02:11.59,0:02:13.62,*Default,NTP,0000,0000,0000,,很危險\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It's dangerous.
+Dialogue: 0,0:02:15.26,0:02:18.22,*Default,NTP,0000,0000,0000,,如果我們能奪下泰溫的居城\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}If we take Tywin's castle from him,
+Dialogue: 0,0:02:18.26,0:02:21.53,*Default,NTP,0000,0000,0000,,維斯特洛的領主們會明白他並非不可戰勝\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}the lords of Westeros will realize he's not invincible.
+Dialogue: 0,0:02:21.60,0:02:23.03,*Default,NTP,0000,0000,0000,,佔了他的老巢\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Take his home,
+Dialogue: 0,0:02:23.13,0:02:25.16,*Default,NTP,0000,0000,0000,,搶了他的黃金  就奪走了他的權力\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}take his gold, take his power.
+Dialogue: 0,0:02:25.20,0:02:27.30,*Default,NTP,0000,0000,0000,,為什麼給我講這些\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Why are you telling me?
+Dialogue: 0,0:02:31.00,0:02:34.34,*Default,NTP,0000,0000,0000,,您求我不要派席恩去和他父親談判\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You begged me not to send Theon to negotiate with his father
+Dialogue: 0,0:02:34.38,0:02:36.78,*Default,NTP,0000,0000,0000,,我忽視了您的建議\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and I ignored your advice.
+Dialogue: 0,0:02:38.98,0:02:41.11,*Default,NTP,0000,0000,0000,,如今臨冬城被焚為廢墟\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Now Winterfell is burnt to the ground,
+Dialogue: 0,0:02:41.15,0:02:43.32,*Default,NTP,0000,0000,0000,,北境遭鐵種荼毒\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}the North is overrun with ironborn,
+Dialogue: 0,0:02:43.35,0:02:45.42,*Default,NTP,0000,0000,0000,,布蘭和瑞肯也不在了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and Bran and Rickon are gone.
+Dialogue: 0,0:02:47.92,0:02:49.82,*Default,NTP,0000,0000,0000,,所以關於凱岩城\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}So Casterly Rock...
+Dialogue: 0,0:02:54.29,0:02:56.13,*Default,NTP,0000,0000,0000,,我在問您的意見\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I'm asking your advice.
+Dialogue: 0,0:03:02.17,0:03:04.40,*Default,NTP,0000,0000,0000,,我們兵力夠嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We have enough men?
+Dialogue: 0,0:03:08.11,0:03:10.24,*Default,NTP,0000,0000,0000,,如果瓦德·佛雷肯合作\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}If Walder Frey cooperates.
+Dialogue: 0,0:03:10.28,0:03:13.25,*Default,NTP,0000,0000,0000,,如果瓦德·佛雷肯合作\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}If Walder Frey cooperates.
+Dialogue: 0,0:03:18.12,0:03:21.45,*Default,NTP,0000,0000,0000,,如果我們拿下城堡之前\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}If reinforcements arrive from King's Landing
+Dialogue: 0,0:03:21.49,0:03:23.86,*Default,NTP,0000,0000,0000,,君臨援軍趕到\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}before we take the castle...
+Dialogue: 0,0:03:25.23,0:03:29.06,*Default,NTP,0000,0000,0000,,我們會被夾在泰溫的大軍和大海之間\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}we'll be caught between Tywin's army and the sea.
+Dialogue: 0,0:03:33.33,0:03:36.83,*Default,NTP,0000,0000,0000,,我們會輸掉戰爭  像父親一樣死去\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We'll lose the war and die the way Father died.
+Dialogue: 0,0:03:36.87,0:03:38.87,*Default,NTP,0000,0000,0000,,或者更糟\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Or worse.
+Dialogue: 0,0:03:43.84,0:03:47.71,*Default,NTP,0000,0000,0000,,讓他們嘗嘗痛失所愛的滋味\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Show them how it feels to lose what they love.
+Dialogue: 0,0:04:18.01,0:04:20.51,*Default,NTP,0000,0000,0000,,諸位貴賓\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My honored guests...
+Dialogue: 0,0:04:22.08,0:04:24.58,*Default,NTP,0000,0000,0000,,我的居所歡迎你們\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}be welcome within my walls
+Dialogue: 0,0:04:24.62,0:04:26.42,*Default,NTP,0000,0000,0000,,我的餐桌招待你們\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and at my table.
+Dialogue: 0,0:04:28.45,0:04:31.12,*Default,NTP,0000,0000,0000,,你們將得到我的款待\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I extend to you my hospitality
+Dialogue: 0,0:04:31.16,0:04:34.99,*Default,NTP,0000,0000,0000,,和七神之光的保護\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and protection in the light of the Seven.
+Dialogue: 0,0:04:35.03,0:04:37.66,*Default,NTP,0000,0000,0000,,感謝您的盛情  大人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We thank you for your hospitality, my lord.
+Dialogue: 0,0:04:41.63,0:04:44.50,*Default,NTP,0000,0000,0000,,大人  我特來向您致歉\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I have come to make my apologies, my lord,
+Dialogue: 0,0:04:44.54,0:04:46.40,*Default,NTP,0000,0000,0000,,求您原諒\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and to beg your forgiveness.
+Dialogue: 0,0:04:46.44,0:04:49.81,*Default,NTP,0000,0000,0000,,不要求我原諒  陛下\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Don't beg my forgiveness, Your Grace.
+Dialogue: 0,0:04:51.21,0:04:54.35,*Default,NTP,0000,0000,0000,,被你拋棄的不是我  而是我家的女孩們\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It wasn't me you spurned. It was my girls.
+Dialogue: 0,0:05:06.36,0:05:09.53,*Default,NTP,0000,0000,0000,,她們之中本該有人成為王后\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}One of them was supposed to be queen.
+Dialogue: 0,0:05:09.56,0:05:11.23,*Default,NTP,0000,0000,0000,,如今卻沒人戴上后冠\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Now none of them are.
+Dialogue: 0,0:05:12.36,0:05:15.80,*Default,NTP,0000,0000,0000,,這是我女兒艾雯\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}This is Arwyen my daughter.
+Dialogue: 0,0:05:15.83,0:05:20.44,*Default,NTP,0000,0000,0000,,我女兒瓦妲  女兒德瓦\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My daughter Walda, my daughter Derwa,
+Dialogue: 0,0:05:20.47,0:05:23.04,*Default,NTP,0000,0000,0000,,女兒瓦拉\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}my daughter Waldra.
+Dialogue: 0,0:05:27.54,0:05:29.78,*Default,NTP,0000,0000,0000,,我的長孫女\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My eldest granddaughters
+Dialogue: 0,0:05:29.81,0:05:33.12,*Default,NTP,0000,0000,0000,,吉娜和內拉\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Ginia and Neila.
+Dialogue: 0,0:05:34.75,0:05:39.19,*Default,NTP,0000,0000,0000,,雙胞胎孫女  西拉和撒拉\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Serra and Sarra, granddaughters, twins.
+Dialogue: 0,0:05:39.22,0:05:40.79,*Default,NTP,0000,0000,0000,,原本你要哪個都可以\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You could have had either.
+Dialogue: 0,0:05:40.82,0:05:44.09,*Default,NTP,0000,0000,0000,,兩個都要我也不在乎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Could have had both for all I care.
+Dialogue: 0,0:05:44.13,0:05:46.56,*Default,NTP,0000,0000,0000,,孫女瑪麗安\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My granddaughter Marianne.
+Dialogue: 0,0:05:46.60,0:05:49.47,*Default,NTP,0000,0000,0000,,孫女佛雷亞\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My granddaughter Freya.
+Dialogue: 0,0:05:50.90,0:05:53.30,*Default,NTP,0000,0000,0000,,孫女...\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My granddaughter...
+Dialogue: 0,0:05:53.34,0:05:54.94,*Default,NTP,0000,0000,0000,,維瑟\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Wertha.
+Dialogue: 0,0:05:57.17,0:06:00.24,*Default,NTP,0000,0000,0000,,瓦拉\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Waldra.
+Dialogue: 0,0:06:00.31,0:06:02.28,*Default,NTP,0000,0000,0000,,瓦迪娜\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Waldina.
+Dialogue: 0,0:06:02.35,0:06:05.11,*Default,NTP,0000,0000,0000,,-我是梅裡  -好吧\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- I'm Merry. - Fine.
+Dialogue: 0,0:06:05.15,0:06:08.92,*Default,NTP,0000,0000,0000,,還有我最小的女兒希琳\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}And here's my youngest daughter Shirei,
+Dialogue: 0,0:06:08.95,0:06:11.89,*Default,NTP,0000,0000,0000,,不過她還沒來月事\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}though she hasn't bled yet.
+Dialogue: 0,0:06:11.92,0:06:14.79,*Default,NTP,0000,0000,0000,,顯然你也沒耐心等\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Clearly you don't have the patience for all that.
+Dialogue: 0,0:06:16.16,0:06:17.79,*Default,NTP,0000,0000,0000,,小姐們\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My ladies.
+Dialogue: 0,0:06:17.83,0:06:21.33,*Default,NTP,0000,0000,0000,,男人應當言而有信  人君更當如此\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}All men should keep their word, kings most of all.
+Dialogue: 0,0:06:22.93,0:06:25.90,*Default,NTP,0000,0000,0000,,我立約迎娶你們中的一位  卻違背了誓言\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I was pledged to marry one of you and I broke that vow.
+Dialogue: 0,0:06:25.94,0:06:28.10,*Default,NTP,0000,0000,0000,,錯在我  不在你們\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The fault is not with you.
+Dialogue: 0,0:06:28.17,0:06:31.54,*Default,NTP,0000,0000,0000,,任何有幸迎娶你們的人都當倍感幸運\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Any man would be lucky to have any one of you.
+Dialogue: 0,0:06:31.58,0:06:34.48,*Default,NTP,0000,0000,0000,,我所為並非輕賤諸位\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I did what I did not to slight you,
+Dialogue: 0,0:06:34.51,0:06:36.35,*Default,NTP,0000,0000,0000,,只因我心另有所屬\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}but because I loved another.
+Dialogue: 0,0:06:36.38,0:06:38.28,*Default,NTP,0000,0000,0000,,我知道略略數語不足以彌補\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I know these words cannot set right
+Dialogue: 0,0:06:38.32,0:06:40.35,*Default,NTP,0000,0000,0000,,我對你們和貴家族犯下的過失\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}the wrong I have done to you and your house.
+Dialogue: 0,0:06:40.38,0:06:43.69,*Default,NTP,0000,0000,0000,,我請求你們原諒\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I beg your forgiveness
+Dialogue: 0,0:06:43.72,0:06:46.82,*Default,NTP,0000,0000,0000,,我願盡我所能做出補償\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and pledge to do all I can to make amends
+Dialogue: 0,0:06:46.89,0:06:49.69,*Default,NTP,0000,0000,0000,,以求渡口的佛雷家和臨冬城的史塔克家\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}so the Freys of the Crossing and the Starks of Winterfell
+Dialogue: 0,0:06:49.76,0:06:51.66,*Default,NTP,0000,0000,0000,,能夠重歸於好\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}may once again be friends.
+Dialogue: 0,0:06:59.00,0:07:00.87,*Default,NTP,0000,0000,0000,,很好\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Very good.
+Dialogue: 0,0:07:03.14,0:07:05.01,*Default,NTP,0000,0000,0000,,她在這裡呢\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}There she is.
+Dialogue: 0,0:07:05.04,0:07:07.18,*Default,NTP,0000,0000,0000,,走近些\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Come closer.
+Dialogue: 0,0:07:07.21,0:07:09.18,*Default,NTP,0000,0000,0000,,讓我好好看看你\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Let me have a look at you.
+Dialogue: 0,0:07:15.72,0:07:18.32,*Default,NTP,0000,0000,0000,,還是看不清\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Still can't see you.
+Dialogue: 0,0:07:18.35,0:07:20.49,*Default,NTP,0000,0000,0000,,老眼昏花啊\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Old eyes.
+Dialogue: 0,0:07:35.21,0:07:37.37,*Default,NTP,0000,0000,0000,,真愛\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Love.
+Dialogue: 0,0:07:37.41,0:07:41.28,*Default,NTP,0000,0000,0000,,臨冬城的史塔克家是這樣說的嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}That's what the Starks of Winterfell call it, eh?
+Dialogue: 0,0:07:43.38,0:07:45.42,*Default,NTP,0000,0000,0000,,真是高尚\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Very honorable.
+Dialogue: 0,0:07:45.45,0:07:47.72,*Default,NTP,0000,0000,0000,,我說就是臉蛋漂亮\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I call it a pretty face.
+Dialogue: 0,0:07:47.75,0:07:50.82,*Default,NTP,0000,0000,0000,,真是美人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Mmm, very pretty.
+Dialogue: 0,0:07:52.96,0:07:55.03,*Default,NTP,0000,0000,0000,,當然比這群貨色強多了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Prettier than this lot, that's for sure.
+Dialogue: 0,0:07:56.90,0:07:58.63,*Default,NTP,0000,0000,0000,,身材也好\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Very shapely as well.
+Dialogue: 0,0:08:00.27,0:08:03.33,*Default,NTP,0000,0000,0000,,想用這身裙子藏住她嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Oh, you try to hide her under that dress.
+Dialogue: 0,0:08:03.37,0:08:05.34,*Default,NTP,0000,0000,0000,,要是想藏著她\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}If you wanted to hide her,
+Dialogue: 0,0:08:05.37,0:08:07.74,*Default,NTP,0000,0000,0000,,就不該帶她過來\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}you shouldn't have brought her here in the first place.
+Dialogue: 0,0:08:13.75,0:08:15.41,*Default,NTP,0000,0000,0000,,裙子下面的動靜\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I can always see
+Dialogue: 0,0:08:15.45,0:08:18.28,*Default,NTP,0000,0000,0000,,我總能一目瞭然\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}what's going on beneath a dress.
+Dialogue: 0,0:08:18.32,0:08:21.22,*Default,NTP,0000,0000,0000,,經驗太豐富了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Been at this a long time.
+Dialogue: 0,0:08:22.49,0:08:25.12,*Default,NTP,0000,0000,0000,,我敢說你脫掉那裙子之後\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I bet when you take that dress off,
+Dialogue: 0,0:08:25.16,0:08:27.86,*Default,NTP,0000,0000,0000,,裡面的東西分毫不動\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}everything stays right where it is.
+Dialogue: 0,0:08:27.89,0:08:29.69,*Default,NTP,0000,0000,0000,,一寸都不會下垂\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Doesn't drop an inch.
+Dialogue: 0,0:08:31.66,0:08:35.23,*Default,NTP,0000,0000,0000,,你的國王說他背叛我是為了真愛\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Your king says he betrayed me for love.
+Dialogue: 0,0:08:35.27,0:08:38.00,*Default,NTP,0000,0000,0000,,我說他是為了堅實的奶子\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I say he betrayed me for firm tits
+Dialogue: 0,0:08:38.04,0:08:40.64,*Default,NTP,0000,0000,0000,,和緊實的小洞\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and a tight fit.
+Dialogue: 0,0:08:40.67,0:08:43.34,*Default,NTP,0000,0000,0000,,這種行為我可以尊重\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}And I can respect that.
+Dialogue: 0,0:08:45.11,0:08:48.38,*Default,NTP,0000,0000,0000,,我在你這年紀  肯為她違背五十個誓言\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}When I was your age, I'd have broken 50 oaths
+Dialogue: 0,0:08:48.41,0:08:51.85,*Default,NTP,0000,0000,0000,,眼都不眨一下\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}to get into that without a second thought.
+Dialogue: 0,0:08:55.25,0:08:58.65,*Default,NTP,0000,0000,0000,,我家大廳容得下在場的各位\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Well, I've enough room in the hall for you lot.
+Dialogue: 0,0:08:58.69,0:09:00.76,*Default,NTP,0000,0000,0000,,至於其他人等\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We'll set up tents outside
+Dialogue: 0,0:09:00.79,0:09:03.16,*Default,NTP,0000,0000,0000,,外面自有帳篷  食物和麥酒提供\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}with food and ale for the rest of your men.
+Dialogue: 0,0:09:03.19,0:09:05.36,*Default,NTP,0000,0000,0000,,多謝  大人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Thank you, my lord.
+Dialogue: 0,0:09:08.63,0:09:10.20,*Default,NTP,0000,0000,0000,,開始準備吧\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Well, let's get ready.
+Dialogue: 0,0:09:10.23,0:09:12.27,*Default,NTP,0000,0000,0000,,美酒滿堂紅\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The wine will flow red
+Dialogue: 0,0:09:12.30,0:09:15.77,*Default,NTP,0000,0000,0000,,琴瑟震耳聾\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and the music will play loud
+Dialogue: 0,0:09:15.81,0:09:20.01,*Default,NTP,0000,0000,0000,,這事兒就過去了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and we'll put this mess behind us.
+Dialogue: 0,0:09:29.22,0:09:30.72,*Default,NTP,0000,0000,0000,,哪裡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Where?
+Dialogue: 0,0:09:30.76,0:09:32.36,*Default,NTP,0000,0000,0000,,這裡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}There.
+Dialogue: 0,0:09:39.46,0:09:42.33,*Default,NTP,0000,0000,0000,,這裡  是後門\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}There. It's a back gate.
+Dialogue: 0,0:09:42.37,0:09:45.27,*Default,NTP,0000,0000,0000,,我的手下穿過這道門找淵凱的床奴\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My men use it when they visit Yunkai's bed slaves.
+Dialogue: 0,0:09:45.30,0:09:47.00,*Default,NTP,0000,0000,0000,,你的手下  你沒去嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Your men, but not you?
+Dialogue: 0,0:09:47.04,0:09:48.67,*Default,NTP,0000,0000,0000,,我對奴隸不感興趣\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I have no interest in slaves.
+Dialogue: 0,0:09:48.71,0:09:50.98,*Default,NTP,0000,0000,0000,,人豈能與財物交歡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}A man cannot make love to property.
+Dialogue: 0,0:09:54.21,0:09:55.88,*Default,NTP,0000,0000,0000,,我們從這裡進城\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}This is where we enter the city.
+Dialogue: 0,0:09:55.95,0:09:57.38,*Default,NTP,0000,0000,0000,,守衛很少  他們認識我\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Very few guards. They know me.
+Dialogue: 0,0:09:57.42,0:09:58.92,*Default,NTP,0000,0000,0000,,他們會讓我進去\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}They let me inside--
+Dialogue: 0,0:09:58.95,0:10:01.19,*Default,NTP,0000,0000,0000,,一整支軍隊不可能摸進後門\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We're not gonna sneak an army through a back gate.
+Dialogue: 0,0:10:01.22,0:10:04.19,*Default,NTP,0000,0000,0000,,我殺守衛  帶您麾下的兩名好手\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I kill the guards. I take your two best men
+Dialogue: 0,0:10:04.22,0:10:07.59,*Default,NTP,0000,0000,0000,,穿過街巷  路線我自是瞭如指掌\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and lead them through the back streets, which I know well,
+Dialogue: 0,0:10:07.63,0:10:09.73,*Default,NTP,0000,0000,0000,,然後打開正門\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and open the front gates.
+Dialogue: 0,0:10:09.76,0:10:11.36,*Default,NTP,0000,0000,0000,,讓軍隊進城\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Then comes the army.
+Dialogue: 0,0:10:11.40,0:10:14.03,*Default,NTP,0000,0000,0000,,城門一旦突破  幾個小時便能得手\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Once the walls are breached, the city will fall in hours.
+Dialogue: 0,0:10:14.07,0:10:16.97,*Default,NTP,0000,0000,0000,,或者你帶領灰蟲子和我走上死路\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Or perhaps you'll lead Grey Worm and me to the slaughter,
+Dialogue: 0,0:10:17.00,0:10:19.47,*Default,NTP,0000,0000,0000,,除掉我軍的將領\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}cutting the head off our army.
+Dialogue: 0,0:10:19.51,0:10:22.24,*Default,NTP,0000,0000,0000,,淵凱的賢主大人會付你酬金\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The masters of Yunkai will pay you your fee
+Dialogue: 0,0:10:22.28,0:10:23.64,*Default,NTP,0000,0000,0000,,你也不必一分為三\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and you won't have to split it three ways
+Dialogue: 0,0:10:23.68,0:10:25.68,*Default,NTP,0000,0000,0000,,因為你已經殺了同伴\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}'cause you've already slaughtered your partners.
+Dialogue: 0,0:10:25.71,0:10:28.18,*Default,NTP,0000,0000,0000,,你疑心過重\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You have a very suspicious mind.
+Dialogue: 0,0:10:28.22,0:10:31.29,*Default,NTP,0000,0000,0000,,據我的經驗  只有不誠實的人才會如此\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}In my experience, only dishonest people think this way.
+Dialogue: 0,0:10:33.82,0:10:35.66,*Default,NTP,0000,0000,0000,,你指揮無垢者\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You command the Unsullied.
+Dialogue: 0,0:10:35.69,0:10:38.14,*Default,NTP,0000,0000,0000,,你怎麼看\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}What do you think?
+Dialogue: 0,0:10:38.21,0:10:40.48,Default,NTP,0000,0000,0000,,{\c&H7FCFDD&\bord0\fn文鼎古印體\fs18\fsp1\pos(193,273)}你現在是首領
+Dialogue: 0,0:10:40.99,0:10:43.93,Default,NTP,0000,0000,0000,,{\c&H7FCFDD&\bord0\fn文鼎古印體\fs18\fsp1\pos(193,273)}你相信他嗎
+Dialogue: 0,0:10:46.88,0:10:49.64,Default,NTP,0000,0000,0000,,{\c&H7FCFDD&\bord0\fn文鼎古印體\fs18\fsp1\pos(193,273)}我相信他
+Dialogue: 0,0:10:50.87,0:10:52.04,*Default,NTP,0000,0000,0000,,你們今晚動身\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You leave tonight.
+Dialogue: 0,0:10:52.07,0:10:54.17,*Default,NTP,0000,0000,0000,,很好\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Very good.
+Dialogue: 0,0:10:54.21,0:10:56.01,*Default,NTP,0000,0000,0000,,我們去準備\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We'll prepare.
+Dialogue: 0,0:11:01.08,0:11:02.72,*Default,NTP,0000,0000,0000,,喬拉爵士\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Ser Jorah.
+Dialogue: 0,0:11:04.82,0:11:06.42,*Default,NTP,0000,0000,0000,,我也能出一份力\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You can use an extra sword.
+Dialogue: 0,0:11:06.45,0:11:08.96,*Default,NTP,0000,0000,0000,,你是女王鐵衛  巴利斯坦爵士\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're the Queensguard, Ser Barristan.
+Dialogue: 0,0:11:08.99,0:11:11.02,*Default,NTP,0000,0000,0000,,你理應守在女王左右\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Your place is by the queen.
+Dialogue: 0,0:11:11.06,0:11:13.49,*Default,NTP,0000,0000,0000,,如果我們真是她忠誠的僕從\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}If we are truly her loyal servants,
+Dialogue: 0,0:11:13.53,0:11:15.56,*Default,NTP,0000,0000,0000,,那就要盡應盡的本分\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}we'll do whatever needs to be done
+Dialogue: 0,0:11:15.60,0:11:19.73,*Default,NTP,0000,0000,0000,,不計代價  無所謂尊嚴\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}no matter the cost, no matter our pride.
+Dialogue: 0,0:11:22.80,0:11:25.31,*Default,NTP,0000,0000,0000,,我們在黑城堡以西\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We're west of Castle Black,
+Dialogue: 0,0:11:25.34,0:11:27.34,*Default,NTP,0000,0000,0000,,但長夜堡離我們更近\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}but the Nightfort's closest to us.
+Dialogue: 0,0:11:27.41,0:11:30.51,*Default,NTP,0000,0000,0000,,它是長城上第一座城堡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It was the first castle on the Wall.
+Dialogue: 0,0:11:30.55,0:11:33.95,*Default,NTP,0000,0000,0000,,傑赫里斯一世國王統治時  守夜人棄守此處\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The Watch abandoned it during the reign of King Jaehaerys I.
+Dialogue: 0,0:11:33.98,0:11:37.65,*Default,NTP,0000,0000,0000,,城堡太大  無法維持\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Too big. Impossible to maintain.
+Dialogue: 0,0:11:37.69,0:11:40.02,*Default,NTP,0000,0000,0000,,除了黑城堡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Other than Castle Black itself,
+Dialogue: 0,0:11:40.05,0:11:42.52,*Default,NTP,0000,0000,0000,,我們也能走長夜堡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}the Nightfort's the perfect castle for us.
+Dialogue: 0,0:11:42.56,0:11:46.03,*Default,NTP,0000,0000,0000,,那裡有道暗門\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It's got a secret sally port,
+Dialogue: 0,0:11:46.09,0:11:48.66,*Default,NTP,0000,0000,0000,,名叫黑門  跟長城一樣古老\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}the Black Gate, as old as the Wall itself.
+Dialogue: 0,0:11:48.70,0:11:52.43,*Default,NTP,0000,0000,0000,,恐怕幾百年都沒人用過了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}No one's used it in centuries most likely.
+Dialogue: 0,0:11:52.47,0:11:55.13,*Default,NTP,0000,0000,0000,,密道橫穿長城\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It leads through the Wall
+Dialogue: 0,0:11:55.17,0:11:57.07,*Default,NTP,0000,0000,0000,,直抵長夜堡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}right down into the Nightfort,
+Dialogue: 0,0:11:57.10,0:11:58.97,*Default,NTP,0000,0000,0000,,這門不好找\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}if one knows how to find it,
+Dialogue: 0,0:11:59.01,0:12:01.91,*Default,NTP,0000,0000,0000,,不過我恰好知道在哪裡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}which, it just so happens, I do.
+Dialogue: 0,0:12:06.55,0:12:09.25,*Default,NTP,0000,0000,0000,,你怎麼會知道這些事\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}How do you know all that?
+Dialogue: 0,0:12:09.32,0:12:13.22,*Default,NTP,0000,0000,0000,,我在一本很古老的書中讀過\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I read about it in a very old book.
+Dialogue: 0,0:12:18.72,0:12:23.26,*Default,NTP,0000,0000,0000,,光靠盯著紙上的符號  就知道這麼多\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You know all that from staring at marks on paper?
+Dialogue: 0,0:12:24.33,0:12:26.33,*Default,NTP,0000,0000,0000,,是的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Yes.
+Dialogue: 0,0:12:26.40,0:12:29.13,*Default,NTP,0000,0000,0000,,你像個魔法師\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're like a wizard.
+Dialogue: 0,0:12:44.28,0:12:46.32,*Default,NTP,0000,0000,0000,,我們的父親以前總說\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Our father used to tell us
+Dialogue: 0,0:12:46.35,0:12:50.72,*Default,NTP,0000,0000,0000,,沒有野人能活著看到長城\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}that no wildling ever looked upon the Wall and lived.
+Dialogue: 0,0:12:50.76,0:12:53.26,*Default,NTP,0000,0000,0000,,我們看到了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Here we are.
+Dialogue: 0,0:12:53.33,0:12:55.63,*Default,NTP,0000,0000,0000,,而且還活著\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Alive.
+Dialogue: 0,0:13:11.88,0:13:14.65,*Default,NTP,0000,0000,0000,,記住逃跑的小孩是什麼下場\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Remember what happens to children who run.
+Dialogue: 0,0:13:14.68,0:13:17.52,*Default,NTP,0000,0000,0000,,我現在是你父親  我來說話\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I'm your father and I'll do the talking.
+Dialogue: 0,0:13:27.43,0:13:29.76,*Default,NTP,0000,0000,0000,,路況真是糟透了  不是嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The roads have gone right to hell, haven't they?
+Dialogue: 0,0:13:29.80,0:13:31.93,*Default,NTP,0000,0000,0000,,今早就斷了三根輪軸\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Cracked three spokes this morning.
+Dialogue: 0,0:13:31.97,0:13:33.97,*Default,NTP,0000,0000,0000,,-要搭把手嗎  -八把手才夠\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- Need a hand? - Need about eight hands.
+Dialogue: 0,0:13:35.97,0:13:38.14,*Default,NTP,0000,0000,0000,,婚禮前必須把醃豬肉\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Got to get this salt pork to the Twins
+Dialogue: 0,0:13:38.17,0:13:40.78,*Default,NTP,0000,0000,0000,,送到孿河城\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}in time for the wedding.
+Dialogue: 0,0:13:40.81,0:13:43.31,*Default,NTP,0000,0000,0000,,非常感謝\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Many thanks.
+Dialogue: 0,0:13:45.48,0:13:47.05,*Default,NTP,0000,0000,0000,,不要\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Don't!
+Dialogue: 0,0:13:47.08,0:13:48.38,*Default,NTP,0000,0000,0000,,別殺他\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Don't kill him.
+Dialogue: 0,0:13:48.42,0:13:50.59,*Default,NTP,0000,0000,0000,,死耗子不會叫\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Dead rats don't squeak.
+Dialogue: 0,0:13:50.62,0:13:52.29,*Default,NTP,0000,0000,0000,,你可真是危險人物啊\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're so dangerous, aren't you?
+Dialogue: 0,0:13:52.35,0:13:54.36,*Default,NTP,0000,0000,0000,,嚇唬小女孩\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Saying scary things to little girls.
+Dialogue: 0,0:13:54.39,0:13:57.16,*Default,NTP,0000,0000,0000,,殺害小孩子和老人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Killing little boys and old people.
+Dialogue: 0,0:13:57.23,0:13:58.63,*Default,NTP,0000,0000,0000,,好一條鐵血硬漢\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}A real hard man you are.
+Dialogue: 0,0:13:58.66,0:14:00.63,*Default,NTP,0000,0000,0000,,你認識的人都比不過\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}More than anyone you know.
+Dialogue: 0,0:14:00.66,0:14:03.40,*Default,NTP,0000,0000,0000,,你錯了  我認識一個殺手\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're wrong. I know a killer.
+Dialogue: 0,0:14:03.43,0:14:06.07,*Default,NTP,0000,0000,0000,,-一個真正的殺手  -是嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- A real killer. - That so?
+Dialogue: 0,0:14:06.10,0:14:07.70,*Default,NTP,0000,0000,0000,,你在他面前就是隻小貓\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You'd be like a kitten to him.
+Dialogue: 0,0:14:07.74,0:14:10.07,*Default,NTP,0000,0000,0000,,他用小拇指就能幹掉你\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He'd kill you with his little finger.
+Dialogue: 0,0:14:10.11,0:14:12.21,*Default,NTP,0000,0000,0000,,就是他嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}That him?
+Dialogue: 0,0:14:13.58,0:14:15.61,*Default,NTP,0000,0000,0000,,-不是  -很好\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- No. - Good.
+Dialogue: 0,0:14:16.88,0:14:18.58,*Default,NTP,0000,0000,0000,,別殺他\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Don't kill him.
+Dialogue: 0,0:14:18.65,0:14:20.88,*Default,NTP,0000,0000,0000,,求你了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Please.
+Dialogue: 0,0:14:20.92,0:14:23.05,*Default,NTP,0000,0000,0000,,求你別殺他\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Please don't.
+Dialogue: 0,0:14:25.69,0:14:27.75,*Default,NTP,0000,0000,0000,,你很善良\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're very kind.
+Dialogue: 0,0:14:27.79,0:14:29.76,*Default,NTP,0000,0000,0000,,早晚會被自己的善心害死\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Someday it'll get you killed.
+Dialogue: 0,0:14:47.11,0:14:48.94,*Default,NTP,0000,0000,0000,,這是哪裡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Where are we?
+Dialogue: 0,0:14:49.01,0:14:51.18,*Default,NTP,0000,0000,0000,,應該是贈地\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The Gift, I think.
+Dialogue: 0,0:14:51.21,0:14:52.85,*Default,NTP,0000,0000,0000,,築城者布蘭登將長城以南的這片土地\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Brandon the Builder gave all this land
+Dialogue: 0,0:14:52.88,0:14:54.95,*Default,NTP,0000,0000,0000,,全部送給黑衣弟兄\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}south of the Wall to the Night's Watch
+Dialogue: 0,0:14:54.98,0:14:57.92,*Default,NTP,0000,0000,0000,,以供他們維持生計\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}for their sustenance and support.
+Dialogue: 0,0:14:57.95,0:15:00.22,*Default,NTP,0000,0000,0000,,魯溫學士告訴我的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Maester Luwin taught me that.
+Dialogue: 0,0:15:02.02,0:15:04.29,*Default,NTP,0000,0000,0000,,現在好像沒什麼人了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Doesn't seem to be supporting anyone at the moment.
+Dialogue: 0,0:15:04.33,0:15:08.03,*Default,NTP,0000,0000,0000,,多好的地方  又沒有戰爭\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It's good land and there's no war up here.
+Dialogue: 0,0:15:08.06,0:15:09.56,*Default,NTP,0000,0000,0000,,人們為什麼離開呢\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Why leave?
+Dialogue: 0,0:15:09.63,0:15:11.30,*Default,NTP,0000,0000,0000,,因為野人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Wildlings.
+Dialogue: 0,0:15:11.33,0:15:13.07,*Default,NTP,0000,0000,0000,,對不起\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Sorry.
+Dialogue: 0,0:15:13.10,0:15:15.80,*Default,NTP,0000,0000,0000,,他們越過長城  擄掠偷盜\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}But they come over the Wall and raid,
+Dialogue: 0,0:15:15.87,0:15:17.67,*Default,NTP,0000,0000,0000,,搶走女人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}steal, carry off women.
+Dialogue: 0,0:15:17.71,0:15:19.91,*Default,NTP,0000,0000,0000,,老奶媽說  他們用你的頭骨做杯子\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Old Nan said they turn your skull into a cup
+Dialogue: 0,0:15:19.94,0:15:22.01,*Default,NTP,0000,0000,0000,,讓你用骨頭杯子喝自己的血\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and make you drink your own blood from it.
+Dialogue: 0,0:15:24.68,0:15:26.38,*Default,NTP,0000,0000,0000,,老奶媽這麼說的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}That's what Old Nan said.
+Dialogue: 0,0:15:26.41,0:15:28.08,*Default,NTP,0000,0000,0000,,暴風雨要來了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}There's a storm coming.
+Dialogue: 0,0:15:29.45,0:15:31.75,*Default,NTP,0000,0000,0000,,我怎麼沒看見\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I don't see any.
+Dialogue: 0,0:15:35.26,0:15:36.96,*Default,NTP,0000,0000,0000,,這地方躲雨再好不過了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It's as good a place to shelter as any.
+Dialogue: 0,0:15:40.23,0:15:42.56,*Default,NTP,0000,0000,0000,,我們可以邊等邊喝點血\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We can drink some blood while we wait.
+Dialogue: 0,0:15:42.63,0:15:44.73,*Default,NTP,0000,0000,0000,,我喝的不多\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I don't need much.
+Dialogue: 0,0:15:56.54,0:15:58.98,*Default,NTP,0000,0000,0000,,只有一個老頭  還有八匹好馬\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Only one old man and eight good horses.
+Dialogue: 0,0:15:59.05,0:16:02.12,*Default,NTP,0000,0000,0000,,一個老頭要八匹馬幹什麼\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}What's one old man doing with eight horses?
+Dialogue: 0,0:16:02.15,0:16:04.02,*Default,NTP,0000,0000,0000,,為守夜人養的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He breeds them for the Watch.
+Dialogue: 0,0:16:04.05,0:16:06.02,*Default,NTP,0000,0000,0000,,那他怎麼防人家偷馬\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}How's he keep folks from stealing them?
+Dialogue: 0,0:16:06.05,0:16:08.39,*Default,NTP,0000,0000,0000,,守夜人保護他\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The Watch protects him.
+Dialogue: 0,0:16:08.42,0:16:10.66,*Default,NTP,0000,0000,0000,,今天可沒人保護\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Not today they don't.
+Dialogue: 0,0:16:10.69,0:16:13.36,*Default,NTP,0000,0000,0000,,賣馬的屋裡肯定有金子\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He's selling horses, he's got some gold in there.
+Dialogue: 0,0:16:13.40,0:16:16.60,*Default,NTP,0000,0000,0000,,-和上好的鐵器  -走  把他給撂了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- And proper steel. - Let's carve him up.
+Dialogue: 0,0:16:16.63,0:16:18.00,*Default,NTP,0000,0000,0000,,我們搶了馬就走\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We just take the horses and go.
+Dialogue: 0,0:16:18.03,0:16:20.70,*Default,NTP,0000,0000,0000,,這老頭沒有威脅\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The old man's no threat.
+Dialogue: 0,0:16:21.74,0:16:23.17,*Default,NTP,0000,0000,0000,,我說得沒錯吧\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I keep telling you.
+Dialogue: 0,0:16:23.21,0:16:25.34,*Default,NTP,0000,0000,0000,,他已經老了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He's an old man.
+Dialogue: 0,0:16:25.37,0:16:27.84,*Default,NTP,0000,0000,0000,,這會兒我們一矛捅了他\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}A spear through the heart's a better way to die
+Dialogue: 0,0:16:27.91,0:16:30.28,*Default,NTP,0000,0000,0000,,總比只有幾匹馬聽著他咳死來得好\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}than coughing up your last with no one but your horses to hear.
+Dialogue: 0,0:16:31.88,0:16:35.22,*Default,NTP,0000,0000,0000,,對付偷馬賊  守夜人可能派幾個人找找了事\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The Watch might send a few men looking for a horse thief.
+Dialogue: 0,0:16:35.25,0:16:38.12,*Default,NTP,0000,0000,0000,,對付殺人犯  他們肯定會大動干戈\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}They'll send a lot more to hunt down murderers.
+Dialogue: 0,0:16:38.15,0:16:39.99,*Default,NTP,0000,0000,0000,,正合我意\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I hope so.
+Dialogue: 0,0:16:40.02,0:16:42.96,*Default,NTP,0000,0000,0000,,在城堡裡殺守夜人難\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Killing crows in their castle is tough.
+Dialogue: 0,0:16:42.99,0:16:44.93,*Default,NTP,0000,0000,0000,,但在野外殺他們\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Killing them out here in the open,
+Dialogue: 0,0:16:44.99,0:16:46.66,*Default,NTP,0000,0000,0000,,是我們的拿手好戲\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}that's what we do.
+Dialogue: 0,0:16:46.70,0:16:48.43,*Default,NTP,0000,0000,0000,,散開\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Spread out.
+Dialogue: 0,0:16:48.50,0:16:51.03,*Default,NTP,0000,0000,0000,,包圍前進\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Surround the hut and move in.
+Dialogue: 0,0:17:33.81,0:17:35.04,*Default,NTP,0000,0000,0000,,耶哥蕊特\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Ygritte!
+Dialogue: 0,0:17:37.11,0:17:39.61,*Default,NTP,0000,0000,0000,,把穀倉給我清了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Clear the barn!
+Dialogue: 0,0:18:16.79,0:18:19.49,*Default,NTP,0000,0000,0000,,你把豬都吃了  誰相信你是豬倌\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}No one's going to believe you're a hog farmer if you eat them all.
+Dialogue: 0,0:18:20.26,0:18:22.52,*Default,NTP,0000,0000,0000,,豬身上最好的部位\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Best part of the animal.
+Dialogue: 0,0:18:27.23,0:18:29.43,*Default,NTP,0000,0000,0000,,別著急  他們還在那裡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Don't worry. They're still there.
+Dialogue: 0,0:18:30.67,0:18:32.27,*Default,NTP,0000,0000,0000,,我知道他們沒走\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I know they're still there.
+Dialogue: 0,0:18:32.30,0:18:34.04,*Default,NTP,0000,0000,0000,,你一會兒看一次\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You check every five minutes
+Dialogue: 0,0:18:34.10,0:18:36.64,*Default,NTP,0000,0000,0000,,像是怕他們跑了似的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}like you're afraid they're gonna move.
+Dialogue: 0,0:18:36.67,0:18:38.44,*Default,NTP,0000,0000,0000,,我不怕\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I'm not afraid.
+Dialogue: 0,0:18:38.48,0:18:40.71,*Default,NTP,0000,0000,0000,,你當然怕\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Of course you are.
+Dialogue: 0,0:18:40.74,0:18:43.05,*Default,NTP,0000,0000,0000,,你現在快到了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're almost there
+Dialogue: 0,0:18:43.08,0:18:45.68,*Default,NTP,0000,0000,0000,,害怕到頭來一場空\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and you're afraid you won't make it.
+Dialogue: 0,0:18:45.75,0:18:49.12,*Default,NTP,0000,0000,0000,,離得越近  你越是害怕\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The closer you get, the worse the fear gets.
+Dialogue: 0,0:18:49.15,0:18:52.59,*Default,NTP,0000,0000,0000,,掩飾是沒有用的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}No point in trying to hide behind that face.
+Dialogue: 0,0:18:52.62,0:18:55.53,*Default,NTP,0000,0000,0000,,我一眼就能看出恐懼\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I know fear when I see it.
+Dialogue: 0,0:18:55.56,0:18:57.43,*Default,NTP,0000,0000,0000,,見得多了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Seen it a lot.
+Dialogue: 0,0:18:58.73,0:19:01.26,*Default,NTP,0000,0000,0000,,我一眼就能看出你怕\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I knew fear when I saw it in you.
+Dialogue: 0,0:19:02.73,0:19:05.54,*Default,NTP,0000,0000,0000,,你害怕火\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're afraid of fire.
+Dialogue: 0,0:19:05.60,0:19:07.31,*Default,NTP,0000,0000,0000,,貝里的劍一著火\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}When Beric's sword went up in flames,
+Dialogue: 0,0:19:07.34,0:19:09.17,*Default,NTP,0000,0000,0000,,你就嚇得跟個小丫頭似的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}you looked like a scared little girl.
+Dialogue: 0,0:19:12.81,0:19:15.15,*Default,NTP,0000,0000,0000,,而且我知道你為什麼怕\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}And I know why, too.
+Dialogue: 0,0:19:17.02,0:19:19.45,*Default,NTP,0000,0000,0000,,我聽說過你哥哥對你做的事\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I heard what your brother did to you.
+Dialogue: 0,0:19:20.59,0:19:21.89,*Default,NTP,0000,0000,0000,,把你的臉按到火堆裡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Pressed your face to the fire
+Dialogue: 0,0:19:21.96,0:19:24.52,*Default,NTP,0000,0000,0000,,當作肉排給烤了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}like you're a nice juicy mutton chop.
+Dialogue: 0,0:19:28.33,0:19:30.50,*Default,NTP,0000,0000,0000,,受到啟發了不成\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}That give you some ideas?
+Dialogue: 0,0:19:33.33,0:19:36.00,*Default,NTP,0000,0000,0000,,有可能\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Might do.
+Dialogue: 0,0:19:36.04,0:19:38.37,*Default,NTP,0000,0000,0000,,那就來吧\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Go ahead, then.
+Dialogue: 0,0:19:38.41,0:19:40.77,*Default,NTP,0000,0000,0000,,說不定能逃走\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You might get away.
+Dialogue: 0,0:19:40.81,0:19:43.34,*Default,NTP,0000,0000,0000,,說不定還能自己找到地方\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Might even make it there on your own.
+Dialogue: 0,0:19:44.41,0:19:46.65,*Default,NTP,0000,0000,0000,,他們就在河對面\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}They're just over the river.
+Dialogue: 0,0:19:46.68,0:19:48.82,*Default,NTP,0000,0000,0000,,你老爹被伊林·派恩砍腦袋之後\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The closest you've been to family
+Dialogue: 0,0:19:48.85,0:19:51.88,*Default,NTP,0000,0000,0000,,這是你離家人最近的一次\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}since Ilyn Payne snipped your daddy's neck.
+Dialogue: 0,0:19:55.32,0:19:58.32,*Default,NTP,0000,0000,0000,,總有一天我要一劍刺進你眼睛\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Someday I'm gonna put a sword through your eye
+Dialogue: 0,0:19:58.36,0:19:59.99,*Default,NTP,0000,0000,0000,,從後腦勺穿出來\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and out the back of your skull.
+Dialogue: 0,0:20:24.72,0:20:28.15,*Default,NTP,0000,0000,0000,,怎麼才能翻過長城呢\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}How are we going to get past the Wall?
+Dialogue: 0,0:20:28.19,0:20:30.12,*Default,NTP,0000,0000,0000,,我叔叔說有七百英呎高\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My uncle said it's 700 feet high.
+Dialogue: 0,0:20:35.46,0:20:37.03,*Default,NTP,0000,0000,0000,,你是怎麼過來的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}How did you get past it?
+Dialogue: 0,0:20:41.07,0:20:43.80,*Default,NTP,0000,0000,0000,,坐船走海豹灣\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Got in a boat and rowed past the Bay of Seals.
+Dialogue: 0,0:20:43.84,0:20:47.04,*Default,NTP,0000,0000,0000,,從這裡到海豹灣要走兩個月\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It would take us two months to get to the Bay of Seals.
+Dialogue: 0,0:20:47.07,0:20:49.21,*Default,NTP,0000,0000,0000,,有的直接從冰牆上爬過去\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Some climb straight up the ice.
+Dialogue: 0,0:20:49.27,0:20:50.38,*Default,NTP,0000,0000,0000,,阿多那麼強壯\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Even Hodor's not strong
+Dialogue: 0,0:20:50.38,0:20:52.54,*Default,NTP,0000,0000,0000,,背著我也爬不過去\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}enough to climb the Wall with me on his back.
+Dialogue: 0,0:20:52.61,0:20:55.78,*Default,NTP,0000,0000,0000,,阿多\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Hodor.
+Dialogue: 0,0:20:55.81,0:20:58.35,*Default,NTP,0000,0000,0000,,鎮守長城的有十九座城堡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}19 castles guard the Wall.
+Dialogue: 0,0:20:58.38,0:21:01.75,*Default,NTP,0000,0000,0000,,-只剩三座有人駐守  -阿多\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- Only three are still manned. - Hodor!
+Dialogue: 0,0:21:01.79,0:21:04.02,*Default,NTP,0000,0000,0000,,可以找一座廢棄的穿過去\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}One of those abandoned fortresses will give us a way through.
+Dialogue: 0,0:21:04.05,0:21:06.29,*Default,NTP,0000,0000,0000,,我叔叔說城堡廢棄時\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My uncle said the gates were sealed with ice and stone
+Dialogue: 0,0:21:06.32,0:21:07.76,*Default,NTP,0000,0000,0000,,會用冰和石頭封門\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}when the castles were deserted.
+Dialogue: 0,0:21:07.79,0:21:10.19,*Default,NTP,0000,0000,0000,,那我們就再打開\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Well, we'll have to open them up again.
+Dialogue: 0,0:21:13.60,0:21:15.03,*Default,NTP,0000,0000,0000,,外面有個騎兵\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}There's a rider out there.
+Dialogue: 0,0:21:16.74,0:21:18.67,*Default,NTP,0000,0000,0000,,就一個嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Just one?
+Dialogue: 0,0:21:18.70,0:21:20.47,*Default,NTP,0000,0000,0000,,-不止一個  -阿多\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- There's more. - Hodor!
+Dialogue: 0,0:21:23.38,0:21:26.11,*Default,NTP,0000,0000,0000,,-不過是打雷而已  大塊頭  -阿多\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- It's just thunder, sweet giant. - Hodor.
+Dialogue: 0,0:21:26.18,0:21:28.51,*Default,NTP,0000,0000,0000,,我投降\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I yield.
+Dialogue: 0,0:21:28.58,0:21:30.21,*Default,NTP,0000,0000,0000,,-我投降  -是野人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- I yield. - Wildlings.
+Dialogue: 0,0:21:35.32,0:21:36.82,*Default,NTP,0000,0000,0000,,毛毛狗和夏天呢\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Where's Shaggydog and Summer?
+Dialogue: 0,0:21:36.86,0:21:38.86,*Default,NTP,0000,0000,0000,,捕獵去了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Hunting.
+Dialogue: 0,0:21:38.93,0:21:40.89,*Default,NTP,0000,0000,0000,,阿多\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Hodor!
+Dialogue: 0,0:21:40.93,0:21:43.23,*Default,NTP,0000,0000,0000,,-安靜  阿多  -阿多\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- Quiet, Hodor. - Hodor!
+Dialogue: 0,0:21:43.30,0:21:45.26,*Default,NTP,0000,0000,0000,,讓他閉嘴  要是他們聽到...\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Make him shut up. If they hear us...
+Dialogue: 0,0:21:45.30,0:21:47.47,*Default,NTP,0000,0000,0000,,-噓  阿多  別喊阿多了  -阿多\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- Hush, Hodor. No more Hodoring. - Hodor!
+Dialogue: 0,0:21:47.50,0:21:50.40,*Default,NTP,0000,0000,0000,,-阿多  -阿多  鎮定點\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- Hodor! - Hodor, calm down.
+Dialogue: 0,0:21:50.44,0:21:51.77,*Default,NTP,0000,0000,0000,,-你要保持安靜  -他們會聽到的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- You need to keep quiet. - They're gonna hear us.
+Dialogue: 0,0:21:51.81,0:21:53.97,*Default,NTP,0000,0000,0000,,阿多  安靜\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Hodor, be quiet.
+Dialogue: 0,0:21:55.58,0:21:57.64,*Default,NTP,0000,0000,0000,,-阿多  -阿多  鎮定\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- Ah! Hodor! - Hodor, calm down.
+Dialogue: 0,0:21:57.71,0:22:00.68,*Default,NTP,0000,0000,0000,,-阿多  阿多  -阿多  安靜\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- Hodor! Hodor! - Hodor, be quiet!
+Dialogue: 0,0:22:22.94,0:22:24.64,*Default,NTP,0000,0000,0000,,你做了什麼\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}What did you do?
+Dialogue: 0,0:22:24.67,0:22:27.41,*Default,NTP,0000,0000,0000,,什麼都沒做\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Nothing.
+Dialogue: 0,0:22:27.44,0:22:29.37,*Default,NTP,0000,0000,0000,,我不知道\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I don't know.
+Dialogue: 0,0:22:33.48,0:22:35.08,*Default,NTP,0000,0000,0000,,怎麼回事\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}What's that?
+Dialogue: 0,0:22:36.32,0:22:38.58,*Default,NTP,0000,0000,0000,,有匹馬快死了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}That's a horse dying.
+Dialogue: 0,0:22:48.66,0:22:51.23,*Default,NTP,0000,0000,0000,,把馬帶過來\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Bring them over here.
+Dialogue: 0,0:22:51.26,0:22:54.43,*Default,NTP,0000,0000,0000,,這是最後一匹  其他的都死了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}That was the last of them. The rest are dead.
+Dialogue: 0,0:22:54.47,0:22:56.70,*Default,NTP,0000,0000,0000,,我聽見上面有喊叫聲\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I heard shouting up there.
+Dialogue: 0,0:22:56.74,0:22:58.87,*Default,NTP,0000,0000,0000,,雷聲\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Thunder.
+Dialogue: 0,0:22:58.90,0:23:01.47,*Default,NTP,0000,0000,0000,,我分得出雷聲和叫聲\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I know the difference between shouting and thunder.
+Dialogue: 0,0:23:01.51,0:23:04.64,*Default,NTP,0000,0000,0000,,也許是鬼\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Maybe it's ghosts.
+Dialogue: 0,0:23:14.55,0:23:16.89,*Default,NTP,0000,0000,0000,,這是自討苦吃  老爹\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}That won't help you, grandpa.
+Dialogue: 0,0:23:21.26,0:23:22.93,*Default,NTP,0000,0000,0000,,你要騎到哪裡去\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Where you riding?
+Dialogue: 0,0:23:22.96,0:23:24.96,*Default,NTP,0000,0000,0000,,現在說這些還有用嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Doesn't matter now, does it?
+Dialogue: 0,0:23:25.00,0:23:27.73,*Default,NTP,0000,0000,0000,,是啊  沒用了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}No, it doesn't matter now.
+Dialogue: 0,0:23:29.43,0:23:32.84,*Default,NTP,0000,0000,0000,,割了他的喉嚨  否則他會告訴烏鴉我們來了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Cut his throat or he'll tell the crows we're here.
+Dialogue: 0,0:23:38.74,0:23:40.48,*Default,NTP,0000,0000,0000,,你明白的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You understand.
+Dialogue: 0,0:23:40.51,0:23:42.48,*Default,NTP,0000,0000,0000,,至少讓我站起來\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Let me stand at least.
+Dialogue: 0,0:23:43.75,0:23:45.92,*Default,NTP,0000,0000,0000,,讓我死得有點尊嚴\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Let me go with a bit of dignity.
+Dialogue: 0,0:23:50.95,0:23:52.66,*Default,NTP,0000,0000,0000,,讓那烏鴉動手\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Make the crow kill him.
+Dialogue: 0,0:23:56.19,0:23:59.60,*Default,NTP,0000,0000,0000,,你現在是我們的人  證明看看\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're one of us now. Prove it.
+Dialogue: 0,0:24:03.80,0:24:06.40,*Default,NTP,0000,0000,0000,,狼就在外面\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The wolves are out there.
+Dialogue: 0,0:24:09.31,0:24:11.04,*Default,NTP,0000,0000,0000,,我不能主動控制\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I can't do it by choice.
+Dialogue: 0,0:24:11.08,0:24:15.11,*Default,NTP,0000,0000,0000,,我不知道該怎麼做  是夢裡發生的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I don't know how. It happens in my dreams.
+Dialogue: 0,0:24:15.15,0:24:16.86,*Default,NTP,0000,0000,0000,,你是狼靈  布蘭\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're a warg, Bran.
+Dialogue: 0,0:24:16.86,0:24:19.35,*Default,NTP,0000,0000,0000,,這存在於你的血脈中\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It's in your blood.
+Dialogue: 0,0:24:19.94,0:24:20.98,*Default,NTP,0000,0000,0000,,我做不到\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I can't.
+Dialogue: 0,0:24:21.22,0:24:22.68,*Default,NTP,0000,0000,0000,,你剛才對他做過了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You just did with him.
+Dialogue: 0,0:24:23.22,0:24:24.63,*Default,NTP,0000,0000,0000,,一頭狼根本算不了什麼\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}A wolf is nothing compared to that.
+Dialogue: 0,0:24:33.03,0:24:34.39,*Default,NTP,0000,0000,0000,,看起來挺鋒利\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}She looks sharp.
+Dialogue: 0,0:24:44.30,0:24:45.31,*Default,NTP,0000,0000,0000,,動手\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Do it.
+Dialogue: 0,0:24:46.92,0:24:47.92,*Default,NTP,0000,0000,0000,,動手\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Do it.
+Dialogue: 0,0:24:48.69,0:24:51.06,*Default,NTP,0000,0000,0000,,我早說了  他還是烏鴉\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I told you. He's still one of them.
+Dialogue: 0,0:24:53.79,0:24:55.05,*Default,NTP,0000,0000,0000,,動手啊  小子\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Go on, boy.
+Dialogue: 0,0:24:58.32,0:24:59.37,*Default,NTP,0000,0000,0000,,動手\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Go on!
+Dialogue: 0,0:25:08.96,0:25:10.10,*Default,NTP,0000,0000,0000,,他是烏鴉\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He's a crow.
+Dialogue: 0,0:25:10.29,0:25:11.91,*Default,NTP,0000,0000,0000,,永遠都是烏鴉\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He'll always be a crow.
+Dialogue: 0,0:25:12.12,0:25:14.33,*Default,NTP,0000,0000,0000,,瞧他那烏鴉婆娘護著他呢\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}And here's his crow wife guarding him.
+Dialogue: 0,0:25:14.80,0:25:17.34,*Default,NTP,0000,0000,0000,,一有機會  他就會背後捅我們刀子\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He'll stab us in the back first chance he gets.
+Dialogue: 0,0:25:20.56,0:25:21.52,*Default,NTP,0000,0000,0000,,殺了他\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Kill him.
+Dialogue: 0,0:25:38.16,0:25:39.74,*Default,NTP,0000,0000,0000,,-他還是他們的人  -不\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- He's one of them. - No!
+Dialogue: 0,0:25:40.49,0:25:41.47,*Default,NTP,0000,0000,0000,,聽到了嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Do you hear me?
+Dialogue: 0,0:25:48.41,0:25:50.66,*Default,NTP,0000,0000,0000,,你不能為他們的人送死\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're not gonna die for one of them.
+Dialogue: 0,0:25:52.87,0:25:54.10,*Default,NTP,0000,0000,0000,,快做\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Do it.
+Dialogue: 0,0:25:55.69,0:25:57.38,*Default,NTP,0000,0000,0000,,否則他們會發現我們\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}They'll find us if you don't.
+Dialogue: 0,0:26:27.13,0:26:28.93,*Default,NTP,0000,0000,0000,,你一直都是對的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You were right the whole time.
+Dialogue: 0,0:27:16.29,0:27:18.34,*Default,NTP,0000,0000,0000,,聽到我吹的鳥叫聲  你們就上\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}When you hear a songbird's whistle, you come.
+Dialogue: 0,0:27:18.89,0:27:21.75,*Default,NTP,0000,0000,0000,,我吹得可棒了  世上沒人比得過我\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I'm a great whistler. The greatest in the land.
+Dialogue: 0,0:27:28.21,0:27:29.84,*Default,NTP,0000,0000,0000,,達里奧·納哈里斯\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Daario Naharis.
+Dialogue: 0,0:27:58.70,0:28:00.16,*Default,NTP,0000,0000,0000,,這傢伙身手挺快\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}That one was quick.
+Dialogue: 0,0:28:03.24,0:28:05.45,*Default,NTP,0000,0000,0000,,-可能還有別人  -不會的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- There may be others. - I doubt it.
+Dialogue: 0,0:28:05.67,0:28:08.25,*Default,NTP,0000,0000,0000,,淵凱人更願意讓奴隸出戰\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The Yunkish prefer to let their slaves do their fighting for them.
+Dialogue: 0,0:28:53.13,0:28:55.16,*Default,NTP,0000,0000,0000,,你管這叫守衛很少\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}That's what you call a few guards?
+Dialogue: 0,0:29:20.21,0:29:21.72,*Default,NTP,0000,0000,0000,,來啊  看你還有什麼招數\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Come on! What do you got, huh?
+Dialogue: 0,0:30:36.68,0:30:37.97,*Default,NTP,0000,0000,0000,,艾德慕大人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Lord Edmure...
+Dialogue: 0,0:30:40.80,0:30:42.80,*Default,NTP,0000,0000,0000,,希望我沒讓您失望\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I hope I'm not a disappointment to you.
+Dialogue: 0,0:30:52.09,0:30:54.03,*Default,NTP,0000,0000,0000,,您讓我喜不自勝  小姐\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're a delight to me, my lady.
+Dialogue: 0,0:30:55.90,0:30:57.27,*Default,NTP,0000,0000,0000,,請給新娘披上斗篷\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You may now cloak the bride
+Dialogue: 0,0:30:57.27,0:30:59.27,*Default,NTP,0000,0000,0000,,象徵永久的守護\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and bring her under your protection.
+Dialogue: 0,0:31:28.65,0:31:29.87,*Default,NTP,0000,0000,0000,,在七神的見證下\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}In the sight of the Seven,
+Dialogue: 0,0:31:30.78,0:31:33.38,*Default,NTP,0000,0000,0000,,兩個靈魂合二為一\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I hereby seal these two souls,
+Dialogue: 0,0:31:34.18,0:31:37.42,*Default,NTP,0000,0000,0000,,永結連理\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}binding them as one for eternity.
+Dialogue: 0,0:31:37.73,0:31:40.23,*Default,NTP,0000,0000,0000,,請兩位對視  朗誦誓詞\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Look upon each other and say the words.
+Dialogue: 0,0:31:43.30,0:31:47.66,*Default,NTP,0000,0000,0000,,天父  鐵匠  戰士  聖母\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Father, Smith, warrior, Mother,
+Dialogue: 0,0:31:47.66,0:31:50.52,*Default,NTP,0000,0000,0000,,少女  老嫗  陌客\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Maiden, Crone, Stranger...
+Dialogue: 0,0:31:51.57,0:31:52.89,*Default,NTP,0000,0000,0000,,-我屬於她  -我屬於他\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- I am hers... - I am his...
+Dialogue: 0,0:31:53.30,0:31:54.76,*Default,NTP,0000,0000,0000,,-她屬於我  -他屬於我\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- and she is mine... - and he is mine...
+Dialogue: 0,0:31:55.31,0:31:59.01,*Default,NTP,0000,0000,0000,,從今日起  至死方休\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}...from this day until the end of my days.
+Dialogue: 0,0:32:03.84,0:32:06.49,*Default,NTP,0000,0000,0000,,-這樣沒事嗎  -他們都走遠了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- Is that safe? - They're long gone.
+Dialogue: 0,0:32:12.06,0:32:13.07,*Default,NTP,0000,0000,0000,,你是對的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You were right.
+Dialogue: 0,0:32:13.29,0:32:15.85,*Default,NTP,0000,0000,0000,,我能隨時進入夏天的意識\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I can get inside Summer's mind whenever I want.
+Dialogue: 0,0:32:16.59,0:32:17.70,*Default,NTP,0000,0000,0000,,這是當然\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Of course you can.
+Dialogue: 0,0:32:19.41,0:32:21.08,*Default,NTP,0000,0000,0000,,長城以北有些野人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}North of the Wall there are wildlings
+Dialogue: 0,0:32:21.28,0:32:23.13,*Default,NTP,0000,0000,0000,,可以控制各種各樣的動物\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}who can control all sorts of animals.
+Dialogue: 0,0:32:24.75,0:32:26.52,*Default,NTP,0000,0000,0000,,但你做的遠不止如此\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}But you did a lot more than that.
+Dialogue: 0,0:32:28.46,0:32:30.32,*Default,NTP,0000,0000,0000,,你進入了阿多的意識\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You got inside Hodor's mind.
+Dialogue: 0,0:32:32.58,0:32:34.38,*Default,NTP,0000,0000,0000,,長城以北的人做不到嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}They can't do that north of the Wall?
+Dialogue: 0,0:32:36.71,0:32:39.67,*Default,NTP,0000,0000,0000,,無論哪裡  都沒人能做到\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}No one can do that... anywhere.
+Dialogue: 0,0:32:46.70,0:32:48.41,*Default,NTP,0000,0000,0000,,我用夏天的眼睛看時\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}When I was looking through Summer's eyes,
+Dialogue: 0,0:32:49.08,0:32:50.73,*Default,NTP,0000,0000,0000,,-看見了瓊恩  -他在哪裡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- I saw Jon. - Where?
+Dialogue: 0,0:32:50.73,0:32:52.42,*Default,NTP,0000,0000,0000,,他跟野人在一起\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He was with the wildlings.
+Dialogue: 0,0:32:52.58,0:32:54.53,*Default,NTP,0000,0000,0000,,他們想殺他  但他逃走了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}They tried to kill him, but he got away.
+Dialogue: 0,0:32:54.53,0:32:56.46,*Default,NTP,0000,0000,0000,,那他肯定是回黑城堡去了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He'll be heading back to Castle Black, then.
+Dialogue: 0,0:32:56.98,0:32:58.28,*Default,NTP,0000,0000,0000,,我們該去那裡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}That's where we should go.
+Dialogue: 0,0:32:58.44,0:33:00.90,*Default,NTP,0000,0000,0000,,就我們所知  黑城堡已經遭到攻擊\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}For all we know, Castle Black's already under attack.
+Dialogue: 0,0:33:01.14,0:33:03.25,*Default,NTP,0000,0000,0000,,-如果這麼多野人過了...  -我說過\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- If this many wildlings got through-- - I already told you.
+Dialogue: 0,0:33:03.85,0:33:05.88,*Default,NTP,0000,0000,0000,,我不去長城以北\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I'm not going north of the Wall.
+Dialogue: 0,0:33:06.48,0:33:08.68,*Default,NTP,0000,0000,0000,,玖健說的都是真的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Everything Jojen told me is true.
+Dialogue: 0,0:33:10.63,0:33:12.79,*Default,NTP,0000,0000,0000,,你看見我對阿多做的事了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You saw what I did to Hodor.
+Dialogue: 0,0:33:13.00,0:33:14.86,*Default,NTP,0000,0000,0000,,我必須找到三眼烏鴉\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I have to find the three-eyed raven.
+Dialogue: 0,0:33:14.86,0:33:16.31,*Default,NTP,0000,0000,0000,,聽我說  小少爺\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Listen to me, little lord.
+Dialogue: 0,0:33:16.31,0:33:17.13,*Default,NTP,0000,0000,0000,,別擔心\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Don't worry.
+Dialogue: 0,0:33:18.47,0:33:20.54,*Default,NTP,0000,0000,0000,,我沒要你跟我去\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I'm not asking you to come with me.
+Dialogue: 0,0:33:22.69,0:33:24.50,*Default,NTP,0000,0000,0000,,那對瑞肯也不安全\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It won't be safe for Rickon.
+Dialogue: 0,0:33:25.13,0:33:27.57,*Default,NTP,0000,0000,0000,,我  我要跟你走\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Me? I'm coming with you.
+Dialogue: 0,0:33:27.57,0:33:28.26,*Default,NTP,0000,0000,0000,,不\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}No.
+Dialogue: 0,0:33:29.69,0:33:32.59,*Default,NTP,0000,0000,0000,,你  歐莎和毛毛狗去最後壁爐城\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You and Osha and Shaggydog head for the Last Hearth.
+Dialogue: 0,0:33:32.59,0:33:35.49,*Default,NTP,0000,0000,0000,,安柏家是我們的封臣  他們會保護你\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The Umbers are our bannermen. They'll protect you.
+Dialogue: 0,0:33:35.49,0:33:37.28,*Default,NTP,0000,0000,0000,,我要跟你走\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I'm coming with you.
+Dialogue: 0,0:33:37.97,0:33:39.29,*Default,NTP,0000,0000,0000,,我是你弟弟\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I'm your brother.
+Dialogue: 0,0:33:39.84,0:33:41.47,*Default,NTP,0000,0000,0000,,我必須保護你\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I have to protect you.
+Dialogue: 0,0:33:44.13,0:33:46.70,*Default,NTP,0000,0000,0000,,現在是我必須保護你\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Right now I have to protect you.
+Dialogue: 0,0:33:47.58,0:33:50.29,*Default,NTP,0000,0000,0000,,羅柏在打仗  我要去長城之外\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Robb's at war and I'm going beyond the Wall.
+Dialogue: 0,0:33:50.70,0:33:52.48,*Default,NTP,0000,0000,0000,,如果我們出了什麼事\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}If something happens to us,
+Dialogue: 0,0:33:52.48,0:33:54.43,*Default,NTP,0000,0000,0000,,你就是臨冬城的繼承人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}you're the heir to Winterfell.
+Dialogue: 0,0:33:57.01,0:33:59.10,*Default,NTP,0000,0000,0000,,你知道怎麼找到最後壁爐城嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Would you know how to find the Last Hearth?
+Dialogue: 0,0:33:59.10,0:34:02.23,*Default,NTP,0000,0000,0000,,你們南方佬建了大城堡就不挪腳了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You southerners build your big castles and you never move.
+Dialogue: 0,0:34:02.59,0:34:04.01,*Default,NTP,0000,0000,0000,,好找得很\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're easy to find.
+Dialogue: 0,0:34:04.54,0:34:06.50,*Default,NTP,0000,0000,0000,,我們不是南方佬\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We're not southerners.
+Dialogue: 0,0:34:07.89,0:34:09.99,*Default,NTP,0000,0000,0000,,我不想離開你\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}And I don't want to leave you.
+Dialogue: 0,0:34:09.99,0:34:12.51,*Default,NTP,0000,0000,0000,,過來  小戰士\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Come here, little soldier.
+Dialogue: 0,0:34:14.14,0:34:17.11,*Default,NTP,0000,0000,0000,,我們兩個要去探險了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You and me, we're gonna have some adventures.
+Dialogue: 0,0:34:18.12,0:34:19.96,*Default,NTP,0000,0000,0000,,你不必做這些的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You don't have to do any of this.
+Dialogue: 0,0:34:21.37,0:34:22.95,*Default,NTP,0000,0000,0000,,你家人收留了我\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Your family took me in
+Dialogue: 0,0:34:22.95,0:34:25.31,*Default,NTP,0000,0000,0000,,毫無理由地對我好\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and was good to me when they had no cause to be.
+Dialogue: 0,0:34:27.80,0:34:29.63,*Default,NTP,0000,0000,0000,,我們兩個沒事的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We'll be fine, you and me.
+Dialogue: 0,0:34:30.09,0:34:31.86,*Default,NTP,0000,0000,0000,,安柏家的人都是偉大的戰士\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The Umbers are great warriors.
+Dialogue: 0,0:34:32.36,0:34:34.30,*Default,NTP,0000,0000,0000,,連我都是聽著他們的故事長大的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Even I heard about them growing up.
+Dialogue: 0,0:34:35.14,0:34:37.39,*Default,NTP,0000,0000,0000,,他們會教你怎麼使劍\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}They'll teach you how to swing a sword.
+Dialogue: 0,0:34:38.37,0:34:40.45,*Default,NTP,0000,0000,0000,,我知道怎麼使劍\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I know how to swing a sword.
+Dialogue: 0,0:34:47.99,0:34:50.56,*Default,NTP,0000,0000,0000,,你們這就要走嗎  現在可是半夜\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You're leaving now? It's the middle of the night.
+Dialogue: 0,0:34:50.56,0:34:52.63,*Default,NTP,0000,0000,0000,,我學過怎樣在黑暗裡行走\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I learned to walk in darkness.
+Dialogue: 0,0:34:55.06,0:34:56.85,*Default,NTP,0000,0000,0000,,說再見吧  小伙子\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Say your good-byes, little man.
+Dialogue: 0,0:35:04.86,0:35:06.50,*Default,NTP,0000,0000,0000,,保護好這傢伙\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Keep this one safe.
+Dialogue: 0,0:35:09.09,0:35:10.82,*Default,NTP,0000,0000,0000,,他是我最重要的人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He means the world to me.
+Dialogue: 0,0:35:32.03,0:35:33.87,*Default,NTP,0000,0000,0000,,我們已經等了很久\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We've been waiting a long time.
+Dialogue: 0,0:35:36.47,0:35:37.55,*Default,NTP,0000,0000,0000,,不是嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Haven't we?
+Dialogue: 0,0:35:39.57,0:35:41.00,*Default,NTP,0000,0000,0000,,我不知道  告訴我\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I don't know, you tell me.
+Dialogue: 0,0:35:41.00,0:35:43.19,*Default,NTP,0000,0000,0000,,攻陷一座城要多久\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}How long does it take to sack a city?
+Dialogue: 0,0:35:52.04,0:35:53.76,*Default,NTP,0000,0000,0000,,一切如您所說\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It was just as you said.
+Dialogue: 0,0:35:54.33,0:35:56.56,*Default,NTP,0000,0000,0000,,他們不到最後關頭都不相信\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}They did not believe until it was too late.
+Dialogue: 0,0:35:57.27,0:35:59.00,*Default,NTP,0000,0000,0000,,他們的奴隸士兵\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Their slave soldiers
+Dialogue: 0,0:35:59.26,0:36:01.94,*Default,NTP,0000,0000,0000,,丟下長矛  投降了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}threw down their spears and surrendered.
+Dialogue: 0,0:36:06.99,0:36:09.29,*Default,NTP,0000,0000,0000,,達里奧·納哈里斯呢\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}And Daario Naharis?
+Dialogue: 0,0:36:30.09,0:36:31.76,*Default,NTP,0000,0000,0000,,城是您的了  我的女王\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The city is yours, my queen.
+Dialogue: 0,0:36:55.76,0:36:57.03,*Default,NTP,0000,0000,0000,,樂師不錯\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}They're good, aren't they?
+Dialogue: 0,0:36:57.16,0:36:59.05,*Default,NTP,0000,0000,0000,,花了大價錢  他們當然要賣力\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}They ought to be because they cost enough.
+Dialogue: 0,0:37:06.59,0:37:08.01,*Default,NTP,0000,0000,0000,,看那幫傢伙\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Look at the crowd there.
+Dialogue: 0,0:37:13.30,0:37:14.95,*Default,NTP,0000,0000,0000,,從奔流城過來的一路上\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He complained about this marriage
+Dialogue: 0,0:37:14.95,0:37:17.22,*Default,NTP,0000,0000,0000,,他都在抱怨這樁婚事\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}the entire ride from Riverrun,
+Dialogue: 0,0:37:17.38,0:37:18.68,*Default,NTP,0000,0000,0000,,現在你看看他\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and now look at him.
+Dialogue: 0,0:37:18.84,0:37:21.11,*Default,NTP,0000,0000,0000,,諸神就愛獎賞傻瓜\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The gods love to reward a fool.
+Dialogue: 0,0:37:21.20,0:37:22.93,*Default,NTP,0000,0000,0000,,-叔叔  -怎麼了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}- Uncle. - What?
+Dialogue: 0,0:37:23.43,0:37:25.98,*Default,NTP,0000,0000,0000,,他是我侄子  我愛他\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He's my nephew. I love him.
+Dialogue: 0,0:37:26.65,0:37:28.61,*Default,NTP,0000,0000,0000,,不過他是個純粹的傻瓜\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}And he's a damned fool.
+Dialogue: 0,0:37:33.79,0:37:35.56,*Default,NTP,0000,0000,0000,,你不喝酒嗎  波頓大人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Don't you drink, Lord Bolton?
+Dialogue: 0,0:37:35.95,0:37:38.41,*Default,NTP,0000,0000,0000,,從不喝酒  夫人  酒讓人遲鈍\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Never do, my lady. Dulls the senses.
+Dialogue: 0,0:37:38.41,0:37:39.88,*Default,NTP,0000,0000,0000,,確實如此\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}That's the point.
+Dialogue: 0,0:37:40.51,0:37:42.69,*Default,NTP,0000,0000,0000,,你娶過佛雷家的女孩吧\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Didn't you marry one of these Frey girls?
+Dialogue: 0,0:37:42.69,0:37:43.61,*Default,NTP,0000,0000,0000,,對\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Aye.
+Dialogue: 0,0:37:44.22,0:37:46.46,*Default,NTP,0000,0000,0000,,瓦德大人讓我從他孫女裡隨便挑\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Lord Walder let me choose any of his granddaughters
+Dialogue: 0,0:37:46.87,0:37:49.85,*Default,NTP,0000,0000,0000,,還允諾以新娘等體重的銀子做嫁妝\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and promised me the girl's weight in silver as a dowry.
+Dialogue: 0,0:37:50.46,0:37:52.15,*Default,NTP,0000,0000,0000,,所以我娶了個年輕的胖新娘\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}So I have a fat young bride.
+Dialogue: 0,0:37:54.19,0:37:56.00,*Default,NTP,0000,0000,0000,,但願她讓你非常幸福\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I hope she makes you very happy.
+Dialogue: 0,0:37:56.19,0:37:57.95,*Default,NTP,0000,0000,0000,,她讓我非常富有\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Well, she's made me very rich.
+Dialogue: 0,0:37:58.30,0:38:00.61,*Default,NTP,0000,0000,0000,,抱歉  大人  夫人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Pardon, my lord, my lady.
+Dialogue: 0,0:38:00.61,0:38:03.13,*Default,NTP,0000,0000,0000,,我要去找棵樹撒泡尿\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I need to find a tree to piss on.
+Dialogue: 0,0:38:05.50,0:38:07.35,*Default,NTP,0000,0000,0000,,我母親跟盧斯·波頓獨處了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My mother's alone with Roose Bolton.
+Dialogue: 0,0:38:07.99,0:38:09.08,*Default,NTP,0000,0000,0000,,我該去救她\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I should rescue her.
+Dialogue: 0,0:38:09.25,0:38:10.98,*Default,NTP,0000,0000,0000,,我見過所有女人裡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Your mother is less in need of rescue
+Dialogue: 0,0:38:10.98,0:38:12.48,*Default,NTP,0000,0000,0000,,你母親最不需要救了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}than any woman I've ever met.
+Dialogue: 0,0:38:12.48,0:38:13.97,*Default,NTP,0000,0000,0000,,積點口德\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Be kind.
+Dialogue: 0,0:38:14.14,0:38:15.96,*Default,NTP,0000,0000,0000,,她好不容易才開始喜歡你\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}She's finally starting to like you.
+Dialogue: 0,0:38:17.90,0:38:19.06,*Default,NTP,0000,0000,0000,,我也喜歡她\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}And I like her.
+Dialogue: 0,0:38:19.60,0:38:21.35,*Default,NTP,0000,0000,0000,,可是如果一切如她所願\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}But if she had her way,
+Dialogue: 0,0:38:21.35,0:38:24.01,*Default,NTP,0000,0000,0000,,我就回瓦蘭提斯彈我的豎琴去了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I would be back in Volantis playing my harp
+Dialogue: 0,0:38:24.01,0:38:25.76,*Default,NTP,0000,0000,0000,,而你會坐在那裡\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and you would be sitting over there
+Dialogue: 0,0:38:26.38,0:38:28.99,*Default,NTP,0000,0000,0000,,被蘿絲琳餵黑莓\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}eating blackberries out of Roslin Frey's hand.
+Dialogue: 0,0:38:29.56,0:38:31.67,*Default,NTP,0000,0000,0000,,也許我犯了個大錯\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Perhaps I've made a terrible mistake.
+Dialogue: 0,0:38:34.23,0:38:37.11,*Default,NTP,0000,0000,0000,,打國王可是叛國行為\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Striking your king is an act of treason.
+Dialogue: 0,0:38:40.55,0:38:41.92,*Default,NTP,0000,0000,0000,,不  不要\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}No, don't.
+Dialogue: 0,0:38:43.78,0:38:45.34,*Default,NTP,0000,0000,0000,,不要羞辱他們\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Don't insult them.
+Dialogue: 0,0:38:47.62,0:38:49.16,*Default,NTP,0000,0000,0000,,陛下\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Your Grace.
+Dialogue: 0,0:38:56.47,0:38:59.70,*Default,NTP,0000,0000,0000,,修士的虔誠話也說過啦\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The septon has prayed his prayers,
+Dialogue: 0,0:39:00.52,0:39:02.22,*Default,NTP,0000,0000,0000,,諾言也許下啦\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}some words were said,
+Dialogue: 0,0:39:02.62,0:39:04.08,*Default,NTP,0000,0000,0000,,艾德慕大人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and Lord Edmure
+Dialogue: 0,0:39:04.45,0:39:07.37,*Default,NTP,0000,0000,0000,,用他的斗篷裹走了我女兒\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}has wrapped my daughter in a cloak.
+Dialogue: 0,0:39:07.55,0:39:11.37,*Default,NTP,0000,0000,0000,,可他們還不是夫妻哩\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}But they are not yet man and wife.
+Dialogue: 0,0:39:11.90,0:39:14.48,*Default,NTP,0000,0000,0000,,寶劍配好鞘\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}A sword needs a sheath.
+Dialogue: 0,0:39:20.69,0:39:23.14,*Default,NTP,0000,0000,0000,,婚禮入洞房\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}And a wedding needs a bedding.
+Dialogue: 0,0:39:24.39,0:39:25.93,*Default,NTP,0000,0000,0000,,陛下您怎麼說\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}What does my sire say?
+Dialogue: 0,0:39:26.18,0:39:33.46,*Default,NTP,0000,0000,0000,,上床  上床  鬧洞房\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}To bed! To bed! To bed!
+Dialogue: 0,0:39:34.69,0:39:36.77,*Default,NTP,0000,0000,0000,,如果你認為是時候了  瓦德大人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}If you think the time is right, Lord Walder,
+Dialogue: 0,0:39:36.77,0:39:41.17,*Default,NTP,0000,0000,0000,,就開始吧\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}by all means, let us bed them.
+Dialogue: 0,0:39:47.74,0:39:55.00,*Default,NTP,0000,0000,0000,,上床  上床  鬧洞房\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}To bed! To bed! To bed!
+Dialogue: 0,0:39:56.68,0:39:57.68,*Default,NTP,0000,0000,0000,,快點\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Go on!
+Dialogue: 0,0:40:17.06,0:40:19.62,*Default,NTP,0000,0000,0000,,小心點  小姐們\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Oh! Careful now, ladies.
+Dialogue: 0,0:40:19.83,0:40:21.59,*Default,NTP,0000,0000,0000,,野獸一旦放出來\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Once you set that monster free,
+Dialogue: 0,0:40:21.59,0:40:23.35,*Default,NTP,0000,0000,0000,,就關不回去了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}there's no caging him again.
+Dialogue: 0,0:40:24.61,0:40:29.52,*Default,NTP,0000,0000,0000,,上床  上床  鬧洞房\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}To bed! To bed! To bed!
+Dialogue: 0,0:40:31.52,0:40:32.68,*Default,NTP,0000,0000,0000,,可憐的姑娘\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Poor girl.
+Dialogue: 0,0:40:33.38,0:40:35.22,*Default,NTP,0000,0000,0000,,每個新娘都要經這麼一遭\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Every bride suffers the same.
+Dialogue: 0,0:40:36.25,0:40:38.67,*Default,NTP,0000,0000,0000,,我相信您優雅地忍耐了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I'm sure you endured yours with grace.
+Dialogue: 0,0:40:38.67,0:40:40.12,*Default,NTP,0000,0000,0000,,奈德沒讓鬧\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Oh, Ned forbade it.
+Dialogue: 0,0:40:41.39,0:40:42.43,*Default,NTP,0000,0000,0000,,他說在新婚之夜\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He said it wouldn't be right
+Dialogue: 0,0:40:42.43,0:40:44.65,*Default,NTP,0000,0000,0000,,打斷人家下巴很不合適\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}if he broke a man's jaw on our wedding night.
+Dialogue: 0,0:40:53.12,0:40:55.54,*Default,NTP,0000,0000,0000,,真是奇怪的風俗\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}That is a very strange custom.
+Dialogue: 0,0:40:56.53,0:40:57.97,*Default,NTP,0000,0000,0000,,在外鄉人看來\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I suppose it does seem strange
+Dialogue: 0,0:40:57.97,0:40:59.63,*Default,NTP,0000,0000,0000,,的確是很奇怪\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}from a foreigner's perspective.
+Dialogue: 0,0:41:00.02,0:41:01.39,*Default,NTP,0000,0000,0000,,你覺得正常嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It seems normal to you?
+Dialogue: 0,0:41:02.56,0:41:03.67,*Default,NTP,0000,0000,0000,,只是傳統\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It's a tradition.
+Dialogue: 0,0:41:06.14,0:41:08.49,*Default,NTP,0000,0000,0000,,不鬧新房的話  就不能證明\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Without the bedding ceremony, there's no real proof
+Dialogue: 0,0:41:08.49,0:41:10.60,*Default,NTP,0000,0000,0000,,領主和夫人正式圓房\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}the lord and lady consummated their marriage.
+Dialogue: 0,0:41:10.60,0:41:14.47,*Default,NTP,0000,0000,0000,,有其他方式能證明\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}But there are other ways of providing proof.
+Dialogue: 0,0:41:17.16,0:41:18.19,*Default,NTP,0000,0000,0000,,男孩還是女孩\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Boy or girl?
+Dialogue: 0,0:41:21.47,0:41:22.44,*Default,NTP,0000,0000,0000,,我不知道\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I don't know.
+Dialogue: 0,0:41:23.00,0:41:25.92,*Default,NTP,0000,0000,0000,,如果是男孩  我知道該起什麼名字\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}But if it's a boy, I know what we should name him.
+Dialogue: 0,0:41:25.92,0:41:27.16,*Default,NTP,0000,0000,0000,,是嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Oh, do you?
+Dialogue: 0,0:41:28.47,0:41:29.61,*Default,NTP,0000,0000,0000,,取名字的\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It seems to me the father
+Dialogue: 0,0:41:29.61,0:41:31.68,*Default,NTP,0000,0000,0000,,好像應該是父親的事吧\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}should have some say in his son's naming.
+Dialogue: 0,0:41:31.68,0:41:32.82,*Default,NTP,0000,0000,0000,,艾德\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Eddard.
+Dialogue: 0,0:41:37.04,0:41:38.89,*Default,NTP,0000,0000,0000,,你不想教小奈德·史塔克\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Don't you want to teach little Ned Stark
+Dialogue: 0,0:41:38.89,0:41:40.37,*Default,NTP,0000,0000,0000,,如何騎馬嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}how to ride horses?
+Dialogue: 0,0:41:41.56,0:41:42.74,*Default,NTP,0000,0000,0000,,我想\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I do.
+Dialogue: 0,0:42:39.83,0:42:41.09,*Default,NTP,0000,0000,0000,,快  列隊\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Go on, line 'em up!
+Dialogue: 0,0:43:03.91,0:43:05.01,*Default,NTP,0000,0000,0000,,你做什麼\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Where are you going?
+Dialogue: 0,0:43:05.45,0:43:07.24,*Default,NTP,0000,0000,0000,,給婚宴送鹹肉\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Got salt pork for the feast.
+Dialogue: 0,0:43:07.24,0:43:08.62,*Default,NTP,0000,0000,0000,,宴會結束了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The feast is over.
+Dialogue: 0,0:43:09.97,0:43:11.86,*Default,NTP,0000,0000,0000,,聽起來不像結束了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Doesn't sound like it's over.
+Dialogue: 0,0:43:11.86,0:43:14.74,*Default,NTP,0000,0000,0000,,我跟你說結束了  就是結束了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}If I tell you it's over, it's over.
+Dialogue: 0,0:43:15.69,0:43:18.07,*Default,NTP,0000,0000,0000,,調轉車頭  給我滾遠點\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Turn this cart around and get the hell out of here.
+Dialogue: 0,0:43:19.32,0:43:20.87,*Default,NTP,0000,0000,0000,,還有醃豬蹄\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Got pig's feet, too.
+Dialogue: 0,0:43:22.61,0:43:24.15,*Default,NTP,0000,0000,0000,,你腦子有病嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Are you soft in the head?
+Dialogue: 0,0:43:24.33,0:43:25.97,*Default,NTP,0000,0000,0000,,調轉車頭\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Turn this cart around.
+Dialogue: 0,0:43:38.81,0:43:40.11,*Default,NTP,0000,0000,0000,,陛下\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Your Grace.
+Dialogue: 0,0:43:46.42,0:43:50.04,*Default,NTP,0000,0000,0000,,我的招待怕是\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I feel I've been remiss
+Dialogue: 0,0:43:50.65,0:43:52.01,*Default,NTP,0000,0000,0000,,有所怠慢\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}in my duties.
+Dialogue: 0,0:43:52.69,0:43:55.98,*Default,NTP,0000,0000,0000,,我奉送了酒肉和音樂\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I've given you meat and wine and music,
+Dialogue: 0,0:43:55.98,0:43:58.82,*Default,NTP,0000,0000,0000,,但還沒有\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}but I haven't shown you
+Dialogue: 0,0:43:58.82,0:44:01.49,*Default,NTP,0000,0000,0000,,給您應有的款待\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}the hospitality you deserve.
+Dialogue: 0,0:44:03.00,0:44:04.37,*Default,NTP,0000,0000,0000,,國王已完婚\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My king has married
+Dialogue: 0,0:44:04.37,0:44:07.30,*Default,NTP,0000,0000,0000,,我欠新王后一份禮\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}and I owe my new queen a wedding gift.
+Dialogue: 0,0:44:12.92,0:44:13.76,*Default,NTP,0000,0000,0000,,羅柏\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Robb!
+Dialogue: 0,0:45:01.78,0:45:04.12,*Default,NTP,0000,0000,0000,,你們準備回臨冬城了嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You ready to head home to Winterfell, right?
+Dialogue: 0,0:45:07.63,0:45:09.04,*Default,NTP,0000,0000,0000,,宴會結束了  是嗎\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Feast over yet, is it?
+Dialogue: 0,0:45:09.04,0:45:10.76,*Default,NTP,0000,0000,0000,,是  結束了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Aye, it's over.
+Dialogue: 0,0:45:41.96,0:45:43.05,*Default,NTP,0000,0000,0000,,跟著他\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Follow him.
+Dialogue: 0,0:45:46.29,0:45:46.85,*Default,NTP,0000,0000,0000,,瞄準\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Aim!
+Dialogue: 0,0:46:17.04,0:46:18.15,*Default,NTP,0000,0000,0000,,太遲了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}It's too late.
+Dialogue: 0,0:47:00.25,0:47:03.38,*Default,NTP,0000,0000,0000,,北境之王起立了哩\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The King in the North arises.
+Dialogue: 0,0:47:25.13,0:47:26.59,*Default,NTP,0000,0000,0000,,瓦德大人\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Lord Walder!
+Dialogue: 0,0:47:27.01,0:47:28.58,*Default,NTP,0000,0000,0000,,瓦德大人  夠了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Lord Walder, enough!
+Dialogue: 0,0:47:29.29,0:47:30.82,*Default,NTP,0000,0000,0000,,收手吧\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Let it end!
+Dialogue: 0,0:47:33.13,0:47:34.23,*Default,NTP,0000,0000,0000,,求您了\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Please.
+Dialogue: 0,0:47:34.90,0:47:36.74,*Default,NTP,0000,0000,0000,,他是我兒子\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}He is my son.
+Dialogue: 0,0:47:37.54,0:47:39.65,*Default,NTP,0000,0000,0000,,我頭一個兒子\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}My first son.
+Dialogue: 0,0:47:39.65,0:47:42.34,*Default,NTP,0000,0000,0000,,放他走  我發誓我們絕不記恨\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Let him go and I swear that we will forget this.
+Dialogue: 0,0:47:42.34,0:47:44.59,*Default,NTP,0000,0000,0000,,我向新舊諸神發誓\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I swear it by the old gods and new.
+Dialogue: 0,0:47:44.81,0:47:46.42,*Default,NTP,0000,0000,0000,,我們絕不會復仇\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}We will take no vengeance.
+Dialogue: 0,0:47:46.42,0:47:49.97,*Default,NTP,0000,0000,0000,,你曾在我的城堡  就在這裡對我發過誓\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You already swore me one oath right here in my castle.
+Dialogue: 0,0:47:49.97,0:47:53.82,*Default,NTP,0000,0000,0000,,你向諸神發誓你兒子會娶我女兒\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}You swore by all the gods your son would marry my daughter!
+Dialogue: 0,0:47:53.82,0:47:57.16,*Default,NTP,0000,0000,0000,,留我當人質吧  放羅柏走\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Take me for a hostage, but let Robb go.
+Dialogue: 0,0:47:57.16,0:47:59.02,*Default,NTP,0000,0000,0000,,羅柏  站起來\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Robb, get up.
+Dialogue: 0,0:47:59.54,0:48:01.18,*Default,NTP,0000,0000,0000,,站起來  快走\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Get up and walk out.
+Dialogue: 0,0:48:02.02,0:48:03.24,*Default,NTP,0000,0000,0000,,求求你\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Please!
+Dialogue: 0,0:48:05.09,0:48:06.53,*Default,NTP,0000,0000,0000,,求求你\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Please!
+Dialogue: 0,0:48:07.99,0:48:11.79,*Default,NTP,0000,0000,0000,,我憑什麼放他走\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}And why would I let him do that?
+Dialogue: 0,0:48:14.73,0:48:17.03,*Default,NTP,0000,0000,0000,,以我身為徒利家人的榮譽\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}On my honor as a Tully,
+Dialogue: 0,0:48:17.62,0:48:19.96,*Default,NTP,0000,0000,0000,,以我身為史塔克家人的榮譽\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}on my honor as a Stark,
+Dialogue: 0,0:48:20.85,0:48:22.59,*Default,NTP,0000,0000,0000,,放他走\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}let him go
+Dialogue: 0,0:48:23.12,0:48:26.09,*Default,NTP,0000,0000,0000,,不然我就割了你妻子的喉嚨\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}or I will cut your wife's throat.
+Dialogue: 0,0:48:34.55,0:48:36.19,*Default,NTP,0000,0000,0000,,那我再娶一個\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}I'll find another.
+Dialogue: 0,0:48:40.12,0:48:41.26,*Default,NTP,0000,0000,0000,,母親\N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}Mother.
+Dialogue: 0,0:48:43.51,0:48:45.65,*Default,NTP,0000,0000,0000,,蘭尼斯特家向您致以親切問候  \N{\fn微软雅黑}{\fs14}{\b0}{\fsp0}{\c&HFFFFFF&&}{\3c&000000&}The Lannisters send their regards.
+

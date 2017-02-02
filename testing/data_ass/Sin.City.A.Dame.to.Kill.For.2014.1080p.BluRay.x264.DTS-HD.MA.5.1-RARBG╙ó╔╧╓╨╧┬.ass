@@ -1,0 +1,1344 @@
+﻿[Script Info]
+;AutoASS 1.2
+;Copyright(C) 2013-2014 新浪微博@纸巾老湿eric
+
+Title: 新浪微博@纸巾老湿eric
+Original Script: cmct
+Original Translation:
+Original Timing:
+Original Editing:
+Script Updated By:
+Update Details:
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: 英上中下,Calibri Italic,18,&H003CA8DC,&HF0000000,&H000D0500,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,0,0,1,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:02.00,0:00:07.00,英上中下,,0000,0000,0001,,{\fn华文楷体\fs16\1c&H3CF1F3&\b0}--==本字幕由 {\1c&HFF8000&\b1}新浪微博@纸巾老湿eric{\fn华文楷体\1c&H3CF1F3&\b0} 荣誉出品==--\N更多精彩字幕 请关注 {\fn华文楷体\1c&HFF00FF&\b1}新浪微博@纸巾老湿eric{\r}
+Dialogue: 0,0:06:58.39,0:07:03.02,英上中下,,0000,0000,0008,,{\fn华文楷体\fs16\1c&HE0E0E0&}罪恶之城
+Dialogue: 0,0:06:59.10,0:07:03.02,英上中下,,0000,0000,0008,,{\fn华文楷体\fs16\1c&HE0E0E0&}蛇蝎美人
+Dialogue: 0,0:08:00.00,0:08:02.24,英上中下,,0000,0000,0008,,{\fn华文楷体\fs16\1c&HE0E0E0&}罪恶之城
+Dialogue: 0,0:08:02.24,0:08:08.41,英上中下,,0000,0000,0008,,{\fn华文楷体\fs16\1c&HE0E0E0&}凯蒂俱乐部
+Dialogue: 0,1:16:57.63,1:16:59.96,英上中下,,0000,0000,0008,,{\fn华文楷体\fs16\1c&HE0E0E0&}约翰·哈提根
+Dialogue: 0,1:21:49.00,1:21:52.97,英上中下,,0000,0000,0008,,{\fn华文楷体\fs16\1c&HE0E0E0&}警察杀手自杀
+Dialogue: 0,1:22:32.94,1:22:38.80,英上中下,,0000,0000,0008,,{\fn华文楷体\fs16\1c&HE0E0E0&}杀人如麻的凶手
+Dialogue: 0,1:22:44.71,1:22:47.75,英上中下,,0000,0000,0008,,{\fn华文楷体\fs16\1c&HE0E0E0&}杀人如麻的凶手
+Dialogue: 0,0:00:35.03,0:00:37.07,英上中下,,0000,0000,0000,,Metal screams...\N{\fn华文楷体\fs16\1c&HE0E0E0&}金属在咆哮...
+Dialogue: 0,0:00:39.00,0:00:41.14,英上中下,,0000,0000,0000,,something hits me square in the chest...\N{\fn华文楷体\fs16\1c&HE0E0E0&}有东西正中我的胸膛...
+Dialogue: 0,0:00:41.90,0:00:43.23,英上中下,,0000,0000,0000,,there's no up or down...\N{\fn华文楷体\fs16\1c&HE0E0E0&}一阵天旋地转...
+Dialogue: 0,0:00:44.09,0:00:45.39,英上中下,,0000,0000,0000,,I don't weigh a thing...\N{\fn华文楷体\fs16\1c&HE0E0E0&}感觉自己飘在空中...
+Dialogue: 0,0:00:49.24,0:00:50.71,英上中下,,0000,0000,0000,,I don't remember a thing.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我什么也不记得了
+Dialogue: 0,0:00:55.03,0:00:56.82,英上中下,,0000,0000,0000,,This doesn't look good at all,\N{\fn华文楷体\fs16\1c&HE0E0E0&}这看起来很不妙
+Dialogue: 0,0:00:57.16,0:00:59.01,英上中下,,0000,0000,0000,,I've gotta done something again.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我一定又惹了什么事儿
+Dialogue: 0,0:00:59.52,0:01:01.12,英上中下,,0000,0000,0000,,Wish I could remember what.\N{\fn华文楷体\fs16\1c&HE0E0E0&}真希望我能记起来
+Dialogue: 0,0:01:01.83,0:01:03.18,英上中下,,0000,0000,0000,,How did I get here,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我是怎么到这里来的
+Dialogue: 0,0:01:03.45,0:01:04.60,英上中下,,0000,0000,0000,,what have I done,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我做了些什么
+Dialogue: 0,0:01:04.90,0:01:05.84,英上中下,,0000,0000,0000,,and why.\N{\fn华文楷体\fs16\1c&HE0E0E0&}为什么这么做
+Dialogue: 0,0:01:06.36,0:01:08.01,英上中下,,0000,0000,0000,,I must have forgotten my medicine.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我一定是忘了吃药了
+Dialogue: 0,0:01:08.38,0:01:09.61,英上中下,,0000,0000,0000,,I've got a condition.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我身体不太好
+Dialogue: 0,0:01:10.38,0:01:12.16,英上中下,,0000,0000,0000,,It's bad to forget your medicine\N{\fn华文楷体\fs16\1c&HE0E0E0&}忘记吃药是一件很槽糕的事
+Dialogue: 0,0:01:12.40,0:01:13.80,英上中下,,0000,0000,0000,,when you got a condition.\N{\fn华文楷体\fs16\1c&HE0E0E0&}尤其是身体不好的时候
+Dialogue: 0,0:01:14.66,0:01:16.20,英上中下,,0000,0000,0000,,Covers up with bullets,\N{\fn华文楷体\fs16\1c&HE0E0E0&}肩上有子弹的擦伤
+Dialogue: 0,0:01:16.60,0:01:17.77,英上中下,,0000,0000,0000,,the wound is fresh.\N{\fn华文楷体\fs16\1c&HE0E0E0&}伤口还很新
+Dialogue: 0,0:01:17.91,0:01:19.17,英上中下,,0000,0000,0000,,Maybe an hour old?\N{\fn华文楷体\fs16\1c&HE0E0E0&}可能是一小时前的事
+Dialogue: 0,0:01:19.78,0:01:21.51,英上中下,,0000,0000,0000,,I can't remember how I got it.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我不记得怎么受伤的了
+Dialogue: 0,0:01:23.25,0:01:24.48,英上中下,,0000,0000,0000,,And a live on me,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我还杀了人
+Dialogue: 0,0:01:24.58,0:01:25.84,英上中下,,0000,0000,0000,,I can't remember.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我记不起来了
+Dialogue: 0,0:01:29.27,0:01:30.56,英上中下,,0000,0000,0000,,The Projects...\N{\fn华文楷体\fs16\1c&HE0E0E0&}这片贫民区
+Dialogue: 0,0:01:31.15,0:01:32.42,英上中下,,0000,0000,0000,,ugly as ever.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一如寻常的丑陋
+Dialogue: 0,0:01:33.05,0:01:34.93,英上中下,,0000,0000,0000,,What the hell am I doing here?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我他妈到底在这里干什么
+Dialogue: 0,0:01:35.45,0:01:36.91,英上中下,,0000,0000,0000,,Put the pieces together.\N{\fn华文楷体\fs16\1c&HE0E0E0&}拼起记忆碎片
+Dialogue: 0,0:01:37.51,0:01:38.60,英上中下,,0000,0000,0000,,Remember.\N{\fn华文楷体\fs16\1c&HE0E0E0&}好好想想
+Dialogue: 0,0:01:40.46,0:01:41.67,英上中下,,0000,0000,0000,,It's Saturday...\N{\fn华文楷体\fs16\1c&HE0E0E0&}现在是周六...
+Dialogue: 0,0:01:42.10,0:01:44.72,英上中下,,0000,0000,0000,,so I must have started the night at Kadie's joint.\N{\fn华文楷体\fs16\1c&HE0E0E0&}所以我肯定是在凯蒂的酒馆开始夜生活的
+Dialogue: 0,0:01:44.94,0:01:46.89,英上中下,,0000,0000,0000,,Just another Saturday night.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一个和往常一样的周六夜晚
+Dialogue: 0,0:01:47.41,0:01:49.70,英上中下,,0000,0000,0000,,Being all the other losers like me,\N{\fn华文楷体\fs16\1c&HE0E0E0&}和其他所有废柴一样
+Dialogue: 0,0:01:49.80,0:01:51.40,英上中下,,0000,0000,0000,,sucking back the sauce,\N{\fn华文楷体\fs16\1c&HE0E0E0&}喝着小酒
+Dialogue: 0,0:01:51.40,0:01:53.63,英上中下,,0000,0000,0000,,drooling like fools over Nancy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}像傻子一样对着南希流口水
+Dialogue: 0,0:01:54.22,0:01:55.46,英上中下,,0000,0000,0000,,I wasn't in the mood,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我当时心情不好
+Dialogue: 0,0:01:55.51,0:01:57.88,英上中下,,0000,0000,0000,,even watching Nancy couldn't cheer me up.\N{\fn华文楷体\fs16\1c&HE0E0E0&}看南希表演也没能让我高兴起来
+Dialogue: 0,0:01:58.19,0:02:00.02,英上中下,,0000,0000,0000,,I get that wrath sometimes.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我经常这么生气
+Dialogue: 0,0:02:00.41,0:02:01.89,英上中下,,0000,0000,0000,,Empty in the gut,\N{\fn华文楷体\fs16\1c&HE0E0E0&}没吃东西
+Dialogue: 0,0:02:01.96,0:02:04.09,英上中下,,0000,0000,0000,,hollow in that lonely place\N{\fn华文楷体\fs16\1c&HE0E0E0&}找不到女人
+Dialogue: 0,0:02:04.44,0:02:08.11,英上中下,,0000,0000,0000,,and wishing I had an excuse to break somebody's face.\N{\fn华文楷体\fs16\1c&HE0E0E0&}渴望找个理由打烂某人的脸
+Dialogue: 0,0:02:11.35,0:02:13.30,英上中下,,0000,0000,0000,,It was just another Saturday night.\N{\fn华文楷体\fs16\1c&HE0E0E0&}就是个普通的周六夜晚
+Dialogue: 0,0:02:14.89,0:02:17.75,英上中下,,0000,0000,0000,,I was wondering what I was gonna do with myself,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我正在想该拿自己怎么办
+Dialogue: 0,0:02:18.38,0:02:20.10,英上中下,,0000,0000,0000,,when I smelled something awful.\N{\fn华文楷体\fs16\1c&HE0E0E0&}然后我闻到了一股难闻的气味
+Dialogue: 0,0:02:21.59,0:02:22.72,英上中下,,0000,0000,0000,,Burning hair.\N{\fn华文楷体\fs16\1c&HE0E0E0&}烧焦的毛发
+Dialogue: 0,0:02:25.81,0:02:26.91,英上中下,,0000,0000,0000,,Burning meat.\N{\fn华文楷体\fs16\1c&HE0E0E0&}烧焦的肉
+Dialogue: 0,0:02:29.46,0:02:32.84,英上中下,,0000,0000,0000,,Like this poor old manos didn't have it bad enough already.\N{\fn华文楷体\fs16\1c&HE0E0E0&}好像这可怜的老家伙还不够惨似的
+Dialogue: 0,0:02:33.24,0:02:35.09,英上中下,,0000,0000,0000,,Damn frat' boys!\N{\fn华文楷体\fs16\1c&HE0E0E0&}该死的兄弟会小子
+Dialogue: 0,0:02:35.13,0:02:37.51,英上中下,,0000,0000,0000,,Damn rich spoiled brats!\N{\fn华文楷体\fs16\1c&HE0E0E0&}被惯坏了的纨绔子弟
+Dialogue: 0,0:02:40.69,0:02:41.82,英上中下,,0000,0000,0000,,Leave him be.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别去烦他
+Dialogue: 0,0:02:42.38,0:02:44.64,英上中下,,0000,0000,0000,,Crawl back into your bottle, Bernini boy!\N{\fn华文楷体\fs16\1c&HE0E0E0&}爬回去喝你的酒吧  贝尔尼尼男
+Dialogue: 0,0:02:47.50,0:02:49.13,英上中下,,0000,0000,0000,,Why did he call me "Bernie"?\N{\fn华文楷体\fs16\1c&HE0E0E0&}他为什么叫我"伯尼"
+Dialogue: 0,0:02:49.99,0:02:52.03,英上中下,,0000,0000,0000,,At least I know they're bad guys.\N{\fn华文楷体\fs16\1c&HE0E0E0&}至少我知道他们是坏人了
+Dialogue: 0,0:02:52.07,0:02:54.24,英上中下,,0000,0000,0000,,Nothing wrong with killing a bunch of them.\N{\fn华文楷体\fs16\1c&HE0E0E0&}杀几个这种人没什么错
+Dialogue: 0,0:02:54.81,0:02:57.60,英上中下,,0000,0000,0000,,Hell, it's practically my civic duty.\N{\fn华文楷体\fs16\1c&HE0E0E0&}操  这简直是我的公民义务
+Dialogue: 0,0:02:59.60,0:03:01.82,英上中下,,0000,0000,0000,,Oh, these wormy little twits.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这些蛀虫似的小白痴
+Dialogue: 0,0:03:02.45,0:03:03.86,英上中下,,0000,0000,0000,,I hate these guys.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我讨厌这些人
+Dialogue: 0,0:03:03.86,0:03:05.56,英上中下,,0000,0000,0000,,God just kill me, please.\N{\fn华文楷体\fs16\1c&HE0E0E0&}求你了  杀了我吧
+Dialogue: 0,0:03:07.92,0:03:09.25,英上中下,,0000,0000,0000,,They made a run for it.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他们逃之夭夭了
+Dialogue: 0,0:03:09.41,0:03:11.59,英上中下,,0000,0000,0000,,I did what any good citizen would do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我做了每一个好市民都会做的事
+Dialogue: 0,0:03:15.75,0:03:16.72,英上中下,,0000,0000,0000,,Go to hell!\N{\fn华文楷体\fs16\1c&HE0E0E0&}去死吧
+Dialogue: 0,0:03:18.36,0:03:19.42,英上中下,,0000,0000,0000,,What the hell!\N{\fn华文楷体\fs16\1c&HE0E0E0&}怎么回事
+Dialogue: 0,0:03:20.82,0:03:21.98,英上中下,,0000,0000,0000,,What the hell!\N{\fn华文楷体\fs16\1c&HE0E0E0&}这他妈什么情况
+Dialogue: 0,0:03:23.51,0:03:24.60,英上中下,,0000,0000,0000,,What the hell!\N{\fn华文楷体\fs16\1c&HE0E0E0&}搞什么啊
+Dialogue: 0,0:03:29.01,0:03:30.76,英上中下,,0000,0000,0000,,That's when I get my idea.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我就是那时想到这个主意的
+Dialogue: 0,0:03:31.32,0:03:34.65,英上中下,,0000,0000,0000,,If they got back to the university at Sacred Oaks\N{\fn华文楷体\fs16\1c&HE0E0E0&}要是他们逃回了橡树区的大学
+Dialogue: 0,0:03:34.97,0:03:36.26,英上中下,,0000,0000,0000,,I'd never catch them.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我就再也抓不到他们了
+Dialogue: 0,0:03:37.18,0:03:39.52,英上中下,,0000,0000,0000,,I bang them around like a hockey puck,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我追着他们满地跑
+Dialogue: 0,0:03:39.70,0:03:41.29,英上中下,,0000,0000,0000,,cut them off at every turn.\N{\fn华文楷体\fs16\1c&HE0E0E0&}在拐弯时拦住他们
+Dialogue: 0,0:03:42.73,0:03:45.59,英上中下,,0000,0000,0000,,I left them no choice but to head over the hill,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我让他们别无选择  只能冲过山头
+Dialogue: 0,0:03:45.59,0:03:46.82,英上中下,,0000,0000,0000,,to The Project.\N{\fn华文楷体\fs16\1c&HE0E0E0&}开进贫民区
+Dialogue: 0,0:03:47.34,0:03:48.75,英上中下,,0000,0000,0000,,I could just turn my back\N{\fn华文楷体\fs16\1c&HE0E0E0&}我就可以转身离开
+Dialogue: 0,0:03:48.75,0:03:49.86,英上中下,,0000,0000,0000,,and leave them here.\N{\fn华文楷体\fs16\1c&HE0E0E0&}把他们留在那里
+Dialogue: 0,0:03:50.09,0:03:53.03,英上中下,,0000,0000,0000,,My old neighbors will take care of them about good.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我的老邻居们会帮我好好招待他们
+Dialogue: 0,0:03:53.36,0:03:54.26,英上中下,,0000,0000,0000,,But hell,\N{\fn华文楷体\fs16\1c&HE0E0E0&}不过去他的
+Dialogue: 0,0:03:54.83,0:03:56.48,英上中下,,0000,0000,0000,,why should they have all the fun!\N{\fn华文楷体\fs16\1c&HE0E0E0&}我也要玩个痛快
+Dialogue: 0,0:04:05.48,0:04:06.54,英上中下,,0000,0000,0000,,The Projects.\N{\fn华文楷体\fs16\1c&HE0E0E0&}贫民区
+Dialogue: 0,0:04:08.18,0:04:09.40,英上中下,,0000,0000,0000,,I was born here.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我是在这里出生的
+Dialogue: 0,0:04:11.13,0:04:12.52,英上中下,,0000,0000,0000,,My old neighborhood.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我的老住处
+Dialogue: 0,0:04:14.61,0:04:16.76,英上中下,,0000,0000,0000,,Damn, he's a dead man!\N{\fn华文楷体\fs16\1c&HE0E0E0&}操  他死定了
+Dialogue: 0,0:04:17.14,0:04:20.19,英上中下,,0000,0000,0000,,I'm telling you, I want beat you a good shot.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我告诉你  我要好好开上一枪
+Dialogue: 0,0:04:20.20,0:04:21.74,英上中下,,0000,0000,0000,,And he's a dead man!\N{\fn华文楷体\fs16\1c&HE0E0E0&}他死定了
+Dialogue: 0,0:04:25.13,0:04:26.35,英上中下,,0000,0000,0000,,My old neighbors.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我的老邻居们
+Dialogue: 0,0:04:26.90,0:04:28.65,英上中下,,0000,0000,0000,,They let me know they're watching.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他们让我明白他们正看着这一切
+Dialogue: 0,0:04:29.78,0:04:31.39,英上中下,,0000,0000,0000,,I remind them who I'm.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我提醒他们我的身份
+Dialogue: 0,0:04:32.00,0:04:33.44,英上中下,,0000,0000,0000,,I tell them what to do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}并指示他们该做些什么
+Dialogue: 0,0:04:42.61,0:04:44.25,英上中下,,0000,0000,0000,,No, no please.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不  不要  求求你
+Dialogue: 0,0:04:44.29,0:04:46.11,英上中下,,0000,0000,0000,,Please, I got money.\N{\fn华文楷体\fs16\1c&HE0E0E0&}求求你了  我有钱
+Dialogue: 0,0:04:46.20,0:04:48.02,英上中下,,0000,0000,0000,,I got a trust fund, I can pay.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我有信托基金  我能付你钱
+Dialogue: 0,0:04:48.44,0:04:49.27,英上中下,,0000,0000,0000,,You'll pay.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你是会付出代价的
+Dialogue: 0,0:05:00.04,0:05:02.57,英上中下,,0000,0000,0000,,Before you shot me, you called me "Bernie",\N{\fn华文楷体\fs16\1c&HE0E0E0&}你开枪打我之前管我叫"伯尼"
+Dialogue: 0,0:05:02.59,0:05:03.85,英上中下,,0000,0000,0000,,why did you call me "Bernie"?\N{\fn华文楷体\fs16\1c&HE0E0E0&}为什么叫我"伯尼"
+Dialogue: 0,0:05:04.25,0:05:06.85,英上中下,,0000,0000,0000,,Bernini, is a brand name.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是贝尔尼尼  一个牌子
+Dialogue: 0,0:05:07.19,0:05:08.43,英上中下,,0000,0000,0000,,That coat you're wearing,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你穿的外套
+Dialogue: 0,0:05:09.09,0:05:10.26,英上中下,,0000,0000,0000,,it's a Bernini.\N{\fn华文楷体\fs16\1c&HE0E0E0&}就是贝尔尼尼的
+Dialogue: 0,0:05:13.21,0:05:14.91,英上中下,,0000,0000,0000,,Thanks for clearing that up, kid.\N{\fn华文楷体\fs16\1c&HE0E0E0&}说明白了就好  小子
+Dialogue: 0,0:05:16.66,0:05:17.46,英上中下,,0000,0000,0000,,Knife!\N{\fn华文楷体\fs16\1c&HE0E0E0&}刀
+Dialogue: 0,0:05:22.63,0:05:23.76,英上中下,,0000,0000,0000,,Bernini, huh?\N{\fn华文楷体\fs16\1c&HE0E0E0&}贝尔尼尼是吧
+Dialogue: 0,0:05:24.39,0:05:26.23,英上中下,,0000,0000,0000,,That one fine coat it is.\N{\fn华文楷体\fs16\1c&HE0E0E0&}就是这件不错的外套
+Dialogue: 0,0:05:26.50,0:05:28.69,英上中下,,0000,0000,0000,,Somebody must have spent a fortune on it.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是谁花好多钱买来的吧
+Dialogue: 0,0:05:29.86,0:05:30.92,英上中下,,0000,0000,0000,,I wonder who.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我想知道是谁
+Dialogue: 0,0:05:31.69,0:05:32.98,英上中下,,0000,0000,0000,,And while I'm at it,\N{\fn华文楷体\fs16\1c&HE0E0E0&}想到这个
+Dialogue: 0,0:05:33.95,0:05:36.02,英上中下,,0000,0000,0000,,where the heck did I get these gloves?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我他妈是从哪搞来这副手套的
+Dialogue: 0,0:05:37.53,0:05:40.22,英上中下,,0000,0000,0000,,I can't remember for the life of me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我怎么也想不起来了
+Dialogue: 0,0:07:11.95,0:07:12.74,英上中下,,0000,0000,0000,,Poker...\N{\fn华文楷体\fs16\1c&HE0E0E0&}扑克牌
+Dialogue: 0,0:07:14.31,0:07:15.93,英上中下,,0000,0000,0000,,savage power...\N{\fn华文楷体\fs16\1c&HE0E0E0&}在绅士手里
+Dialogue: 0,0:07:16.27,0:07:17.98,英上中下,,0000,0000,0000,,in gentleman's hands.\N{\fn华文楷体\fs16\1c&HE0E0E0&}也可以极具破坏力
+Dialogue: 0,0:07:19.80,0:07:21.36,英上中下,,0000,0000,0000,,It's a good game!\N{\fn华文楷体\fs16\1c&HE0E0E0&}是个好游戏
+Dialogue: 0,0:07:22.48,0:07:23.23,英上中下,,0000,0000,0000,,Now,\N{\fn华文楷体\fs16\1c&HE0E0E0&}好了
+Dialogue: 0,0:07:24.69,0:07:26.13,英上中下,,0000,0000,0000,,who wants to play?\N{\fn华文楷体\fs16\1c&HE0E0E0&}谁想玩
+Dialogue: 0,0:07:30.39,0:07:32.96,英上中下,,0000,0000,0000,,Sin City is where you go in with your eyes open\N{\fn华文楷体\fs16\1c&HE0E0E0&}去罪恶之城一定要提高警惕
+Dialogue: 0,0:07:34.84,0:07:36.38,英上中下,,0000,0000,0000,,or you don't come out at all.\N{\fn华文楷体\fs16\1c&HE0E0E0&}否则就出不来了
+Dialogue: 0,0:07:38.82,0:07:41.38,英上中下,,0000,0000,0000,,But the city is like a woman or a casino.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但这城市就像个美女或赌场
+Dialogue: 0,0:07:42.39,0:07:43.72,英上中下,,0000,0000,0000,,Somebody's gonna win\N{\fn华文楷体\fs16\1c&HE0E0E0&}总有人会赢
+Dialogue: 0,0:07:44.95,0:07:46.13,英上中下,,0000,0000,0000,,and it's gonna be me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}而我就是那个人
+Dialogue: 0,0:07:49.74,0:07:52.21,英上中下,,0000,0000,0000,,It's the kind of place your father doesn't want to talk about.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这种地方父亲不愿跟你说
+Dialogue: 0,0:07:54.78,0:07:56.21,英上中下,,0000,0000,0000,,But where I come from...\N{\fn华文楷体\fs16\1c&HE0E0E0&}但在我的家乡
+Dialogue: 0,0:07:57.32,0:07:59.93,英上中下,,0000,0000,0000,,father is a thing no one seems to be able to find.\N{\fn华文楷体\fs16\1c&HE0E0E0&}父亲貌似是种不存在的东西
+Dialogue: 0,0:08:12.36,0:08:13.63,英上中下,,0000,0000,0000,,I was feeling lucky.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我感觉运气不错
+Dialogue: 0,0:08:14.34,0:08:16.64,英上中下,,0000,0000,0000,,I won money in joints all over the town.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我在全城的酒馆里都赢了钱
+Dialogue: 0,0:08:16.79,0:08:18.43,英上中下,,0000,0000,0000,,And I finally made it to Kadie's,\N{\fn华文楷体\fs16\1c&HE0E0E0&}最后终于来到了凯蒂
+Dialogue: 0,0:08:20.99,0:08:22.43,英上中下,,0000,0000,0000,,where the real score is.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这里才真有挑战性
+Dialogue: 0,0:08:25.42,0:08:26.74,英上中下,,0000,0000,0000,,What happened to the show?\N{\fn华文楷体\fs16\1c&HE0E0E0&}这么不接着表演了
+Dialogue: 0,0:08:41.90,0:08:43.44,英上中下,,0000,0000,0000,,How's trick, stranger?\N{\fn华文楷体\fs16\1c&HE0E0E0&}手气怎么样  陌生人
+Dialogue: 0,0:08:44.20,0:08:45.68,英上中下,,0000,0000,0000,,- Head or tail? - Head.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-正面还是反面  -正面
+Dialogue: 0,0:08:46.89,0:08:47.89,英上中下,,0000,0000,0000,,That's a trick.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这才叫手气
+Dialogue: 0,0:08:48.60,0:08:50.22,英上中下,,0000,0000,0000,,That won't get you anywhere.\N{\fn华文楷体\fs16\1c&HE0E0E0&}靠这个又赢不了钱
+Dialogue: 0,0:08:57.84,0:08:59.52,英上中下,,0000,0000,0000,,Follow the shiny object.\N{\fn华文楷体\fs16\1c&HE0E0E0&}跟着闪光的东西走
+Dialogue: 0,0:09:08.28,0:09:09.72,英上中下,,0000,0000,0000,,Where'd you come from, handsome?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你是从哪儿来的  帅哥
+Dialogue: 0,0:09:09.85,0:09:11.59,英上中下,,0000,0000,0000,,Do me a favor, blow in this.\N{\fn华文楷体\fs16\1c&HE0E0E0&}帮我个忙  朝这个吹口气
+Dialogue: 0,0:09:13.23,0:09:14.56,英上中下,,0000,0000,0000,,Does lady luck has a name?\N{\fn华文楷体\fs16\1c&HE0E0E0&}这位幸运女士有名字吗
+Dialogue: 0,0:09:14.83,0:09:15.67,英上中下,,0000,0000,0000,,Marcie.\N{\fn华文楷体\fs16\1c&HE0E0E0&}玛茜
+Dialogue: 0,0:09:25.26,0:09:26.52,英上中下,,0000,0000,0000,,Lucky man!\N{\fn华文楷体\fs16\1c&HE0E0E0&}运气真好啊
+Dialogue: 0,0:09:26.53,0:09:27.54,英上中下,,0000,0000,0000,,Every time, ma'am.\N{\fn华文楷体\fs16\1c&HE0E0E0&}每次都是如此  夫人
+Dialogue: 0,0:09:27.54,0:09:28.73,英上中下,,0000,0000,0000,,And where's the real lies?\N{\fn华文楷体\fs16\1c&HE0E0E0&}真正的赌桌在哪
+Dialogue: 0,0:09:28.85,0:09:30.12,英上中下,,0000,0000,0000,,Baby, you don't want to know.\N{\fn华文楷体\fs16\1c&HE0E0E0&}宝贝儿  你不会想知道的
+Dialogue: 0,0:09:30.74,0:09:31.73,英上中下,,0000,0000,0000,,I do want to know.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我还真想知道
+Dialogue: 0,0:09:32.12,0:09:33.59,英上中下,,0000,0000,0000,,Whatever you say, boss.\N{\fn华文楷体\fs16\1c&HE0E0E0&}随你的便吧
+Dialogue: 0,0:09:33.62,0:09:34.72,英上中下,,0000,0000,0000,,Back at the bar,\N{\fn华文楷体\fs16\1c&HE0E0E0&}在吧台后面
+Dialogue: 0,0:09:34.85,0:09:36.03,英上中下,,0000,0000,0000,,it's your funeral.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你会死在那的
+Dialogue: 0,0:09:36.08,0:09:37.93,英上中下,,0000,0000,0000,,He'll eat you alive back there.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他会把你生吞活剥了
+Dialogue: 0,0:09:37.93,0:09:39.17,英上中下,,0000,0000,0000,,I'm pretty tough to chew.\N{\fn华文楷体\fs16\1c&HE0E0E0&}当心硌了牙
+Dialogue: 0,0:09:39.23,0:09:39.97,英上中下,,0000,0000,0000,,Come on.\N{\fn华文楷体\fs16\1c&HE0E0E0&}走吧
+Dialogue: 0,0:09:46.22,0:09:47.26,英上中下,,0000,0000,0000,,Kiss it this time.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这次亲它一口
+Dialogue: 0,0:09:59.85,0:10:01.49,英上中下,,0000,0000,0000,,- Hey Marcie, - Yeah?\N{\fn华文楷体\fs16\1c&HE0E0E0&}-玛茜  -怎么了
+Dialogue: 0,0:10:01.54,0:10:02.93,英上中下,,0000,0000,0000,,you want to go make some real money?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你想赚点大钱吗
+Dialogue: 0,0:10:03.54,0:10:04.16,英上中下,,0000,0000,0000,,Yeah.\N{\fn华文楷体\fs16\1c&HE0E0E0&}想啊
+Dialogue: 0,0:10:05.98,0:10:06.72,英上中下,,0000,0000,0000,,I'll check.\N{\fn华文楷体\fs16\1c&HE0E0E0&}看牌
+Dialogue: 0,0:10:07.12,0:10:08.16,英上中下,,0000,0000,0000,,I bid a hundred.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我叫一百
+Dialogue: 0,0:10:11.76,0:10:12.46,英上中下,,0000,0000,0000,,Goodnight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}晚上好
+Dialogue: 0,0:10:15.41,0:10:16.12,英上中下,,0000,0000,0000,,I'll play.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我跟
+Dialogue: 0,0:10:17.47,0:10:18.28,英上中下,,0000,0000,0000,,I'll fold.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我弃牌
+Dialogue: 0,0:10:24.10,0:10:25.22,英上中下,,0000,0000,0000,,Who is the slicker?\N{\fn华文楷体\fs16\1c&HE0E0E0&}这个油头滑脑的是谁
+Dialogue: 0,0:10:25.48,0:10:28.79,英上中下,,0000,0000,0000,,I busted this one for craps over Jossie once.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他在乔茜那被我抓过一次
+Dialogue: 0,0:10:29.92,0:10:31.62,英上中下,,0000,0000,0000,,Play on, it's okay.\N{\fn华文楷体\fs16\1c&HE0E0E0&}继续玩  没事的
+Dialogue: 0,0:10:38.43,0:10:40.61,英上中下,,0000,0000,0000,,Whatever you do, kid, don't win too much.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不管你怎么玩  小子  别赢得太狠了
+Dialogue: 0,0:10:40.61,0:10:41.81,英上中下,,0000,0000,0000,,I never lose.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我从没输过
+Dialogue: 0,0:10:44.10,0:10:45.86,英上中下,,0000,0000,0000,,What's with bringing a fair lady over here?\N{\fn华文楷体\fs16\1c&HE0E0E0&}带美丽的女士来是什么意思
+Dialogue: 0,0:10:46.15,0:10:47.44,英上中下,,0000,0000,0000,,That's my good-luck-charm.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她是我的幸运女神
+Dialogue: 0,0:10:47.99,0:10:50.03,英上中下,,0000,0000,0000,,Besides I've had made a pretty nice dime tonight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}再说了  我今晚已经大赢了一大笔
+Dialogue: 0,0:10:50.36,0:10:52.18,英上中下,,0000,0000,0000,,I gotta have someone to spend it on, right?\N{\fn华文楷体\fs16\1c&HE0E0E0&}总得找个人把钱花出去啊  是吧
+Dialogue: 0,0:10:52.53,0:10:55.43,英上中下,,0000,0000,0000,,Silvio, let our young friend here do the honor, huh?\N{\fn华文楷体\fs16\1c&HE0E0E0&}西尔维奥  让这位年轻的朋友来发牌吧
+Dialogue: 0,0:11:08.95,0:11:09.66,英上中下,,0000,0000,0000,,Cut.\N{\fn华文楷体\fs16\1c&HE0E0E0&}切牌
+Dialogue: 0,0:11:11.28,0:11:12.82,英上中下,,0000,0000,0000,,New boy is good!\N{\fn华文楷体\fs16\1c&HE0E0E0&}新来的这孩子不错啊
+Dialogue: 0,0:11:24.87,0:11:28.73,英上中下,,0000,0000,0000,,Nancy, Nancy, Nancy, Nancy!\N{\fn华文楷体\fs16\1c&HE0E0E0&}南希  南希  南希  南希
+Dialogue: 0,0:11:28.73,0:11:30.79,英上中下,,0000,0000,0000,,Nancy, Nancy!\N{\fn华文楷体\fs16\1c&HE0E0E0&}南希  南希
+Dialogue: 0,0:11:30.79,0:11:32.73,英上中下,,0000,0000,0000,,And the dealer will take two.\N{\fn华文楷体\fs16\1c&HE0E0E0&}庄家拿两张牌
+Dialogue: 0,0:11:36.33,0:11:37.18,英上中下,,0000,0000,0000,,One hundred.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一百
+Dialogue: 0,0:11:37.18,0:11:37.96,英上中下,,0000,0000,0000,,I'll play.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我跟
+Dialogue: 0,0:11:45.75,0:11:46.45,英上中下,,0000,0000,0000,,I'm out.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我不玩了
+Dialogue: 0,0:11:47.26,0:11:48.18,英上中下,,0000,0000,0000,,Yeah, me too.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我也不玩了
+Dialogue: 0,0:11:55.18,0:11:56.73,英上中下,,0000,0000,0000,,- I'll fold. - I'm done.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-不跟  -我不玩了
+Dialogue: 0,0:12:00.20,0:12:02.20,英上中下,,0000,0000,0000,,How dumb are you feeling now, boy?\N{\fn华文楷体\fs16\1c&HE0E0E0&}傻眼了吧  小子
+Dialogue: 0,0:12:08.59,0:12:09.45,英上中下,,0000,0000,0000,,Pretty dumb.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是挺傻的
+Dialogue: 0,0:12:40.92,0:12:43.53,英上中下,,0000,0000,0000,,Oh senator, I'm ready for your worst.\N{\fn华文楷体\fs16\1c&HE0E0E0&}参议员  我等着你下狠手呢
+Dialogue: 0,0:12:43.62,0:12:46.03,英上中下,,0000,0000,0000,,Boy, you don't even want to dream about my worst.\N{\fn华文楷体\fs16\1c&HE0E0E0&}小子  你还是别见识的好  哪怕是做梦
+Dialogue: 0,0:12:46.04,0:12:47.77,英上中下,,0000,0000,0000,,No, I don't imagine, I do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我从不做梦  只会实干
+Dialogue: 0,0:12:47.87,0:12:49.43,英上中下,,0000,0000,0000,,That's why I'm gonna let you flatten your ass right now\N{\fn华文楷体\fs16\1c&HE0E0E0&}所以我现在就要赢死你
+Dialogue: 0,0:12:49.44,0:12:50.55,英上中下,,0000,0000,0000,,and call it a night.\N{\fn华文楷体\fs16\1c&HE0E0E0&}然后回家
+Dialogue: 0,0:12:52.73,0:12:55.59,英上中下,,0000,0000,0000,,Sure, this is a fair game played by honorable man.\N{\fn华文楷体\fs16\1c&HE0E0E0&}当然  这是正直绅士之间公平的游戏
+Dialogue: 0,0:12:56.16,0:12:57.84,英上中下,,0000,0000,0000,,I'm gonna raise you 300.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我加三百
+Dialogue: 0,0:12:59.28,0:13:00.60,英上中下,,0000,0000,0000,,Easy, kid.\N{\fn华文楷体\fs16\1c&HE0E0E0&}冷静点  小子
+Dialogue: 0,0:13:00.64,0:13:02.83,英上中下,,0000,0000,0000,,You got any idea what you're up against?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你到底知不知道自己招惹的是谁
+Dialogue: 0,0:13:02.83,0:13:04.49,英上中下,,0000,0000,0000,,Looks to me like I'm up against a man.\N{\fn华文楷体\fs16\1c&HE0E0E0&}在我看来我对面的是个男人
+Dialogue: 0,0:13:04.50,0:13:06.30,英上中下,,0000,0000,0000,,You're up against a Roark.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你在招惹一个姓罗克的
+Dialogue: 0,0:13:06.31,0:13:07.50,英上中下,,0000,0000,0000,,Yea, I was born here, senator.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我是在这里出生的  参议员
+Dialogue: 0,0:13:07.50,0:13:08.76,英上中下,,0000,0000,0000,,I know who you are.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我知道你是谁
+Dialogue: 0,0:13:09.60,0:13:11.86,英上中下,,0000,0000,0000,,We all die here sooner or later.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们迟早都会在这里死去
+Dialogue: 0,0:13:13.96,0:13:16.47,英上中下,,0000,0000,0000,,I'm gonna raise you another 500.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我再加注五百
+Dialogue: 0,0:13:19.33,0:13:20.68,英上中下,,0000,0000,0000,,I like this kid.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我喜欢这孩子
+Dialogue: 0,0:13:21.62,0:13:22.99,英上中下,,0000,0000,0000,,I like him a lot!\N{\fn华文楷体\fs16\1c&HE0E0E0&}我很喜欢他
+Dialogue: 0,0:13:23.41,0:13:24.54,英上中下,,0000,0000,0000,,I'm gonna call you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我跟
+Dialogue: 0,0:13:35.92,0:13:38.22,英上中下,,0000,0000,0000,,You won't be needing anything for cab fare, will you?\N{\fn华文楷体\fs16\1c&HE0E0E0&}反正你也不需要打车钱  是吧
+Dialogue: 0,0:13:40.44,0:13:42.97,英上中下,,0000,0000,0000,,Now that's the finest hand you ever gonna have, friend.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你这手牌可真是好啊  朋友
+Dialogue: 0,0:13:44.19,0:13:46.63,英上中下,,0000,0000,0000,,You just keep in mind what hands are made out of this.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你可记住了手是什么做的
+Dialogue: 0,0:13:47.30,0:13:48.12,英上中下,,0000,0000,0000,,Will do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我会的
+Dialogue: 0,0:13:51.86,0:13:54.18,英上中下,,0000,0000,0000,,Get your ass outta here, run like hell,\N{\fn华文楷体\fs16\1c&HE0E0E0&}快滚  逃命去吧
+Dialogue: 0,0:13:54.18,0:13:55.83,英上中下,,0000,0000,0000,,you might still have a chance.\N{\fn华文楷体\fs16\1c&HE0E0E0&}说不定还有点机会
+Dialogue: 0,0:13:55.83,0:13:57.81,英上中下,,0000,0000,0000,,No, I can't miss tomorrow night's game,\N{\fn华文楷体\fs16\1c&HE0E0E0&}不行  我不能错过明晚的牌局
+Dialogue: 0,0:13:57.81,0:13:59.52,英上中下,,0000,0000,0000,,not any more than you can, officer.\N{\fn华文楷体\fs16\1c&HE0E0E0&}就和你一样  长官
+Dialogue: 0,0:13:59.69,0:14:02.88,英上中下,,0000,0000,0000,,Besides, I already promised Marcie I don't turn.\N{\fn华文楷体\fs16\1c&HE0E0E0&}而且  我已经答应了玛茜不会跑的
+Dialogue: 0,0:14:03.07,0:14:04.56,英上中下,,0000,0000,0000,,I can't protect you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我保护不了你的
+Dialogue: 0,0:14:05.03,0:14:06.28,英上中下,,0000,0000,0000,,Then why you a cop?\N{\fn华文楷体\fs16\1c&HE0E0E0&}那你还当什么警察
+Dialogue: 0,0:14:19.05,0:14:20.15,英上中下,,0000,0000,0000,,Where are we going, Johnny?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们要去哪里  强尼
+Dialogue: 0,0:14:21.76,0:14:22.62,英上中下,,0000,0000,0000,,Everywhere.\N{\fn华文楷体\fs16\1c&HE0E0E0&}哪里都去
+Dialogue: 0,0:15:29.50,0:15:31.66,英上中下,,0000,0000,0000,,One of these days she'll pull the trigger\N{\fn华文楷体\fs16\1c&HE0E0E0&}总有一天她会扣下扳机
+Dialogue: 0,0:15:32.60,0:15:34.33,英上中下,,0000,0000,0000,,and then there's nothing I can do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}到那时我就无能为力了
+Dialogue: 0,0:15:35.90,0:15:37.64,英上中下,,0000,0000,0000,,There's nothing I can do now.\N{\fn华文楷体\fs16\1c&HE0E0E0&}现在我也做不了什么
+Dialogue: 0,0:15:38.91,0:15:40.51,英上中下,,0000,0000,0000,,All I can do is ask...\N{\fn华文楷体\fs16\1c&HE0E0E0&}我能做的只有求她...
+Dialogue: 0,0:15:41.40,0:15:43.13,英上中下,,0000,0000,0000,,Listen, don't,\N{\fn华文楷体\fs16\1c&HE0E0E0&}听着  不要
+Dialogue: 0,0:15:44.08,0:15:46.51,英上中下,,0000,0000,0000,,don't avenge me, Nancy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不要为我报仇  南希
+Dialogue: 0,0:15:48.32,0:15:49.68,英上中下,,0000,0000,0000,,It'll be the death of you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那会害死你的
+Dialogue: 0,0:15:51.40,0:15:52.69,英上中下,,0000,0000,0000,,And I can't help.\N{\fn华文楷体\fs16\1c&HE0E0E0&}而我无能为力
+Dialogue: 0,0:15:54.66,0:15:55.92,英上中下,,0000,0000,0000,,I can't watch.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我不忍再看了
+Dialogue: 0,0:15:57.11,0:15:59.57,英上中下,,0000,0000,0000,,Death is just like life in Sin City.\N{\fn华文楷体\fs16\1c&HE0E0E0&}在罪恶之城  死亡和生存无异
+Dialogue: 0,0:16:01.50,0:16:02.89,英上中下,,0000,0000,0000,,There's nothing you can do\N{\fn华文楷体\fs16\1c&HE0E0E0&}你什么也做不了
+Dialogue: 0,0:16:04.14,0:16:06.53,英上中下,,0000,0000,0000,,and love doesn't conquer anything at all.\N{\fn华文楷体\fs16\1c&HE0E0E0&}而"爱"什么也战胜不了
+Dialogue: 0,0:16:07.83,0:16:09.14,英上中下,,0000,0000,0000,,Good luck, Nancy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}祝你好运  南希
+Dialogue: 0,0:16:10.32,0:16:11.76,英上中下,,0000,0000,0000,,Live well your life.\N{\fn华文楷体\fs16\1c&HE0E0E0&}好好生活
+Dialogue: 0,0:16:13.14,0:16:14.54,英上中下,,0000,0000,0000,,Just try, sweetheart.\N{\fn华文楷体\fs16\1c&HE0E0E0&}加油  甜心
+Dialogue: 0,0:16:17.67,0:16:19.55,英上中下,,0000,0000,0000,,We made Sin City history.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们创造了罪恶之城的历史
+Dialogue: 0,0:16:20.06,0:16:21.75,英上中下,,0000,0000,0000,,Hit every hot spot in town.\N{\fn华文楷体\fs16\1c&HE0E0E0&}逛了城里的每个景点
+Dialogue: 0,0:16:22.44,0:16:25.63,英上中下,,0000,0000,0000,,I blow thru' almost as much cash as I made at the table.\N{\fn华文楷体\fs16\1c&HE0E0E0&}赌桌上赢来的钱基本都花光了
+Dialogue: 0,0:16:27.86,0:16:30.32,英上中下,,0000,0000,0000,,The trouble starts when I try to use my credit cards.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我想用信用卡时  麻烦开始了
+Dialogue: 0,0:16:31.73,0:16:33.56,英上中下,,0000,0000,0000,,I'm sure there must be some mistake.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我相信一定是出了什么问题
+Dialogue: 0,0:16:33.71,0:16:35.40,英上中下,,0000,0000,0000,,We'll be happy to extend you a line of credit.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们很乐意为您提高额度
+Dialogue: 0,0:16:35.40,0:16:37.48,英上中下,,0000,0000,0000,,How could all of them go bad in the same night?\N{\fn华文楷体\fs16\1c&HE0E0E0&}怎么可能所有卡片在同一晚都被冻结了
+Dialogue: 0,0:16:37.62,0:16:39.67,英上中下,,0000,0000,0000,,It's not like you don't have cash.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你又不是没现金了
+Dialogue: 0,0:16:40.63,0:16:42.30,英上中下,,0000,0000,0000,,That's not the point, come on.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这不是重点  走吧
+Dialogue: 0,0:16:43.52,0:16:44.62,英上中下,,0000,0000,0000,,We gotta get you home.\N{\fn华文楷体\fs16\1c&HE0E0E0&}得送你回家了
+Dialogue: 0,0:16:48.71,0:16:50.31,英上中下,,0000,0000,0000,,Something comes up behind us.\N{\fn华文楷体\fs16\1c&HE0E0E0&}有什么东西跟着我们
+Dialogue: 0,0:16:52.94,0:16:54.29,英上中下,,0000,0000,0000,,It smells all wrong.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一切都不对劲了
+Dialogue: 0,0:16:56.40,0:16:57.59,英上中下,,0000,0000,0000,,This will slow us down.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这会拖慢我们的
+Dialogue: 0,0:16:59.09,0:17:00.45,英上中下,,0000,0000,0000,,You get to the side, Marcie.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你躲到一边去  玛茜
+Dialogue: 0,0:17:00.56,0:17:01.94,英上中下,,0000,0000,0000,,I gotta break some bones.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我得去修理几个人
+Dialogue: 0,0:17:02.83,0:17:04.57,英上中下,,0000,0000,0000,,What are you talking about, you silly.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你说什么呢  小傻子
+Dialogue: 0,0:17:04.60,0:17:05.81,英上中下,,0000,0000,0000,,You just stay right there.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你待在这儿就好
+Dialogue: 0,0:17:06.32,0:17:08.51,英上中下,,0000,0000,0000,,Gentleman, listen. I think I know what this is about,\N{\fn华文楷体\fs16\1c&HE0E0E0&}先生们  听着  我想我知道这是怎么回事
+Dialogue: 0,0:17:08.52,0:17:10.89,英上中下,,0000,0000,0000,,I want you to know you'd have no resistance from me\N{\fn华文楷体\fs16\1c&HE0E0E0&}我希望你们明白  我是不会反抗的
+Dialogue: 0,0:17:10.90,0:17:12.38,英上中下,,0000,0000,0000,,and that black jack you got in your hand\N{\fn华文楷体\fs16\1c&HE0E0E0&}你手上拿着的那根短木棒
+Dialogue: 0,0:17:12.38,0:17:14.10,英上中下,,0000,0000,0000,,could split somebody's skull open.\N{\fn华文楷体\fs16\1c&HE0E0E0&}都能敲碎别人的脑壳了
+Dialogue: 0,0:17:31.05,0:17:32.22,英上中下,,0000,0000,0000,,What the hell was that all about?\N{\fn华文楷体\fs16\1c&HE0E0E0&}这都是怎么回事啊
+Dialogue: 0,0:17:32.23,0:17:33.47,英上中下,,0000,0000,0000,,You stay out of sight now,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你别管这事了
+Dialogue: 0,0:17:33.47,0:17:34.82,英上中下,,0000,0000,0000,,and you'd be safe in old town.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你在老城会很安全
+Dialogue: 0,0:17:36.58,0:17:38.26,英上中下,,0000,0000,0000,,Meet me at the 3 Sheets Hotel.\N{\fn华文楷体\fs16\1c&HE0E0E0&}去三床酒店跟我汇合
+Dialogue: 0,0:17:38.67,0:17:40.01,英上中下,,0000,0000,0000,,Room 166.\N{\fn华文楷体\fs16\1c&HE0E0E0&}166号房
+Dialogue: 0,0:17:41.45,0:17:42.43,英上中下,,0000,0000,0000,,6...what?\N{\fn华文楷体\fs16\1c&HE0E0E0&}6...什么
+Dialogue: 0,0:17:48.46,0:17:49.68,英上中下,,0000,0000,0000,,Let's get this over with.\N{\fn华文楷体\fs16\1c&HE0E0E0&}咱们把这事了了吧
+Dialogue: 0,0:18:02.47,0:18:04.10,英上中下,,0000,0000,0000,,I'm enjoying it too much, wasn't I?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我玩得太忘形了  是吧
+Dialogue: 0,0:18:09.71,0:18:11.25,英上中下,,0000,0000,0000,,You made a fool of me, boy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你让我出丑了  孩子
+Dialogue: 0,0:18:12.01,0:18:13.57,英上中下,,0000,0000,0000,,Right in front of the wrong people.\N{\fn华文楷体\fs16\1c&HE0E0E0&}在不该看我出丑的人面前
+Dialogue: 0,0:18:13.57,0:18:16.17,英上中下,,0000,0000,0000,,You took your chance like we all did and you lost!\N{\fn华文楷体\fs16\1c&HE0E0E0&}所有人的机会都是平等的  而你输了
+Dialogue: 0,0:18:16.17,0:18:20.52,英上中下,,0000,0000,0000,,You have any idea how easy I kill little snots like you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你知道我弄死像你这样的小杂碎有多容易吗
+Dialogue: 0,0:18:28.07,0:18:31.60,英上中下,,0000,0000,0000,,Now, let's see about that winning hand.\N{\fn华文楷体\fs16\1c&HE0E0E0&}好了  来看看这只胜利之手吧
+Dialogue: 0,0:18:33.42,0:18:36.00,英上中下,,0000,0000,0000,,Powerful men watched what happened at that table.\N{\fn华文楷体\fs16\1c&HE0E0E0&}权贵们都看见那张牌桌上发生什么了
+Dialogue: 0,0:18:36.19,0:18:39.29,英上中下,,0000,0000,0000,,I need them to know the price of defiance.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我得让他们知道挑衅的代价
+Dialogue: 0,0:18:41.90,0:18:44.27,英上中下,,0000,0000,0000,,Power is a...fragile thing.\N{\fn华文楷体\fs16\1c&HE0E0E0&}权力是一种...很脆弱的东西
+Dialogue: 0,0:18:44.93,0:18:46.48,英上中下,,0000,0000,0000,,It tolerates no threat.\N{\fn华文楷体\fs16\1c&HE0E0E0&}它不容任何威胁
+Dialogue: 0,0:18:49.97,0:18:55.48,英上中下,,0000,0000,0000,,Defiance must be met with an example of the wages of defiance.\N{\fn华文楷体\fs16\1c&HE0E0E0&}挑衅者必须以身示范挑衅的代价
+Dialogue: 0,0:19:11.65,0:19:13.37,英上中下,,0000,0000,0000,,You'd be smart to kill me now.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你最好现在就把我杀了
+Dialogue: 0,0:19:16.69,0:19:18.97,英上中下,,0000,0000,0000,,I'll do far worse than kill you, boy\N{\fn华文楷体\fs16\1c&HE0E0E0&}我会让你比死还痛苦  小子
+Dialogue: 0,0:19:38.76,0:19:40.64,英上中下,,0000,0000,0000,,What you've encountered, boy,\N{\fn华文楷体\fs16\1c&HE0E0E0&}小子  你遇上的
+Dialogue: 0,0:19:41.05,0:19:42.49,英上中下,,0000,0000,0000,,is power.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可是权力
+Dialogue: 0,0:19:43.61,0:19:46.02,英上中下,,0000,0000,0000,,Everytime the wind blows cold and wet the thing\N{\fn华文楷体\fs16\1c&HE0E0E0&}每当湿冷的风吹起
+Dialogue: 0,0:19:46.02,0:19:49.61,英上中下,,0000,0000,0000,,that was your hand and your two legs and throw you in agony.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你的手和腿就会让你痛苦不已
+Dialogue: 0,0:19:49.82,0:19:53.15,英上中下,,0000,0000,0000,,Whenever it rains, you'll remember me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}只要一下雨  你就会想起我
+Dialogue: 0,0:19:53.69,0:19:57.05,英上中下,,0000,0000,0000,,You'll remember me, all the time,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你永远会记住我的
+Dialogue: 0,0:19:58.56,0:19:59.60,英上中下,,0000,0000,0000,,my son.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我的儿子
+Dialogue: 0,0:20:01.87,0:20:04.97,英上中下,,0000,0000,0000,,Oh yeah, I know who you are.\N{\fn华文楷体\fs16\1c&HE0E0E0&}没错  我知道你是谁
+Dialogue: 0,0:20:05.46,0:20:07.76,英上中下,,0000,0000,0000,,I know you're one of mine the minute I saw you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我一见到你就知道你是我的种了
+Dialogue: 0,0:20:07.76,0:20:10.14,英上中下,,0000,0000,0000,,Family resemblance, my boy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你有我们家族的影子  小子
+Dialogue: 0,0:20:10.28,0:20:11.94,英上中下,,0000,0000,0000,,But I don't give a damn.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可我他妈不在乎
+Dialogue: 0,0:20:11.95,0:20:13.39,英上中下,,0000,0000,0000,,I only have one real son,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我只有一个真正的儿子
+Dialogue: 0,0:20:13.39,0:20:15.27,英上中下,,0000,0000,0000,,Ethan, may he rest in peace..\N{\fn华文楷体\fs16\1c&HE0E0E0&}伊森  愿他安息
+Dialogue: 0,0:20:15.46,0:20:16.94,英上中下,,0000,0000,0000,,He could be the president.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他本可能当上总统的
+Dialogue: 0,0:20:17.27,0:20:19.06,英上中下,,0000,0000,0000,,Do you really think...\N{\fn华文楷体\fs16\1c&HE0E0E0&}你真以为...
+Dialogue: 0,0:20:19.86,0:20:21.54,英上中下,,0000,0000,0000,,that I was going to claim you?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我会认你吗
+Dialogue: 0,0:20:28.95,0:20:30.31,英上中下,,0000,0000,0000,,He beat me rogue,\N{\fn华文楷体\fs16\1c&HE0E0E0&}他狠狠揍了我一顿
+Dialogue: 0,0:20:32.04,0:20:33.43,英上中下,,0000,0000,0000,,but when I get back,\N{\fn华文楷体\fs16\1c&HE0E0E0&}但等我回来
+Dialogue: 0,0:20:34.94,0:20:36.86,英上中下,,0000,0000,0000,,it'll be a whole different game.\N{\fn华文楷体\fs16\1c&HE0E0E0&}规则就该变了
+Dialogue: 0,0:20:45.60,0:20:47.38,英上中下,,0000,0000,0000,,It's another hot night.\N{\fn华文楷体\fs16\1c&HE0E0E0&}又是一个炎热的夜晚
+Dialogue: 0,0:20:47.83,0:20:49.44,英上中下,,0000,0000,0000,,Dry and windless,\N{\fn华文楷体\fs16\1c&HE0E0E0&}干燥无风
+Dialogue: 0,0:20:49.54,0:20:52.15,英上中下,,0000,0000,0000,,the kind that makes people do sweaty,\N{\fn华文楷体\fs16\1c&HE0E0E0&}会让人做些容易出汗的
+Dialogue: 0,0:20:52.26,0:20:53.94,英上中下,,0000,0000,0000,,secret things,\N{\fn华文楷体\fs16\1c&HE0E0E0&}秘密的事
+Dialogue: 0,0:20:54.70,0:20:56.53,英上中下,,0000,0000,0000,,things worth money to me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一些能让我赚钱的事
+Dialogue: 0,0:20:56.79,0:20:58.21,英上中下,,0000,0000,0000,,This is the last time, Sally.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这是最后一次了  萨莉
+Dialogue: 0,0:20:58.55,0:21:00.24,英上中下,,0000,0000,0000,,This gotta be the last time.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这必须是最后一次了
+Dialogue: 0,0:21:00.34,0:21:01.63,英上中下,,0000,0000,0000,,You always say that.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你总是这么说
+Dialogue: 0,0:21:02.20,0:21:03.86,英上中下,,0000,0000,0000,,I mean it this time!\N{\fn华文楷体\fs16\1c&HE0E0E0&}这次我是认真的
+Dialogue: 0,0:21:04.00,0:21:05.55,英上中下,,0000,0000,0000,,She glides out of her coat\N{\fn华文楷体\fs16\1c&HE0E0E0&}她从外套中缓缓滑出
+Dialogue: 0,0:21:05.55,0:21:07.19,英上中下,,0000,0000,0000,,like it is a Christmas wrapping,\N{\fn华文楷体\fs16\1c&HE0E0E0&}像在打开圣诞礼物的包装纸
+Dialogue: 0,0:21:07.33,0:21:09.20,英上中下,,0000,0000,0000,,playing it for all it's worth\N{\fn华文楷体\fs16\1c&HE0E0E0&}竭尽所能地搔首弄姿
+Dialogue: 0,0:21:09.72,0:21:11.16,英上中下,,0000,0000,0000,,and it's worth plenty.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这可值不少钱
+Dialogue: 0,0:21:11.40,0:21:12.93,英上中下,,0000,0000,0000,,This is the end for us.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们结束了
+Dialogue: 0,0:21:12.93,0:21:14.10,英上中下,,0000,0000,0000,,The end for us?\N{\fn华文楷体\fs16\1c&HE0E0E0&}结束
+Dialogue: 0,0:21:14.10,0:21:15.19,英上中下,,0000,0000,0000,,It's my wife.\N{\fn华文楷体\fs16\1c&HE0E0E0&}因为我老婆
+Dialogue: 0,0:21:15.55,0:21:18.32,英上中下,,0000,0000,0000,,She's asking all kinds of questions. She suspects something.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她不停地问东问西  她起疑了
+Dialogue: 0,0:21:18.55,0:21:20.54,英上中下,,0000,0000,0000,,She'll sue and she'll get everything.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她会去告我  然后得到一切
+Dialogue: 0,0:21:20.59,0:21:21.64,英上中下,,0000,0000,0000,,Everything!\N{\fn华文楷体\fs16\1c&HE0E0E0&}一切
+Dialogue: 0,0:21:22.97,0:21:24.98,英上中下,,0000,0000,0000,,Everything you've worked so hard for.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你努力赚来的一切
+Dialogue: 0,0:21:26.44,0:21:27.75,英上中下,,0000,0000,0000,,I worked my butt off.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我拼死拼活地工作
+Dialogue: 0,0:21:27.81,0:21:29.98,英上中下,,0000,0000,0000,,I built my business up out of nothing.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我白手起家开创了自己的事业
+Dialogue: 0,0:21:30.37,0:21:31.16,英上中下,,0000,0000,0000,,Nothing.\N{\fn华文楷体\fs16\1c&HE0E0E0&}白手起家
+Dialogue: 0,0:21:31.31,0:21:33.50,英上中下,,0000,0000,0000,,Nobody appreciates you, do they, Joey?\N{\fn华文楷体\fs16\1c&HE0E0E0&}却没人懂得感激你  对吗  乔伊
+Dialogue: 0,0:21:33.71,0:21:35.74,英上中下,,0000,0000,0000,,Not the way you deserve.\N{\fn华文楷体\fs16\1c&HE0E0E0&}起码不是以你应得的方式
+Dialogue: 0,0:21:37.18,0:21:38.11,英上中下,,0000,0000,0000,,Nobody.\N{\fn华文楷体\fs16\1c&HE0E0E0&}的确没有
+Dialogue: 0,0:21:38.68,0:21:41.15,英上中下,,0000,0000,0000,,Not employees would be out on the street if it wasn't for me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}靠我养家糊口的员工不感激我
+Dialogue: 0,0:21:41.16,0:21:43.47,英上中下,,0000,0000,0000,,Not my wife who I found on the street!\N{\fn华文楷体\fs16\1c&HE0E0E0&}我从街上捡回来的妻子也不感激我
+Dialogue: 0,0:21:43.48,0:21:45.02,英上中下,,0000,0000,0000,,The jewels and mansion you bought her.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你给她那么多珠宝  还有豪宅
+Dialogue: 0,0:21:45.02,0:21:46.84,英上中下,,0000,0000,0000,,Wearing all those clothes that I got her!\N{\fn华文楷体\fs16\1c&HE0E0E0&}还有我给她买的那些衣服
+Dialogue: 0,0:21:46.84,0:21:49.54,英上中下,,0000,0000,0000,,With my money! My hard-earned money!\N{\fn华文楷体\fs16\1c&HE0E0E0&}花的都是我的钱  我辛辛苦苦赚来的钱
+Dialogue: 0,0:21:49.55,0:21:51.20,英上中下,,0000,0000,0000,,I think you're so strong.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我觉得你好厉害
+Dialogue: 0,0:21:53.16,0:21:54.58,英上中下,,0000,0000,0000,,You're damn right about that.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这你还真他妈说对了
+Dialogue: 0,0:21:55.46,0:21:56.75,英上中下,,0000,0000,0000,,Do I get any credit?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我得到任何回报了吗
+Dialogue: 0,0:21:56.93,0:21:59.33,英上中下,,0000,0000,0000,,They just take and take and take!\N{\fn华文楷体\fs16\1c&HE0E0E0&}他们只会索取  索取  索取
+Dialogue: 0,0:21:59.33,0:22:01.60,英上中下,,0000,0000,0000,,One of these days I'm gonna fire the whole pack of them.\N{\fn华文楷体\fs16\1c&HE0E0E0&}总有一天我把他们全开除了
+Dialogue: 0,0:22:01.60,0:22:03.15,英上中下,,0000,0000,0000,,I'm gonna show them who's boss!\N{\fn华文楷体\fs16\1c&HE0E0E0&}我要让他们看看谁才是老大
+Dialogue: 0,0:22:03.42,0:22:04.76,英上中下,,0000,0000,0000,,Show me, Joey.\N{\fn华文楷体\fs16\1c&HE0E0E0&}让我看看吧  乔伊
+Dialogue: 0,0:22:04.95,0:22:06.48,英上中下,,0000,0000,0000,,Show me who's boss.\N{\fn华文楷体\fs16\1c&HE0E0E0&}让我看看谁是老大
+Dialogue: 0,0:22:06.48,0:22:09.39,英上中下,,0000,0000,0000,,Yeah, I'll show you, I'll show you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}没错  我要让你看看  我要让你看看
+Dialogue: 0,0:22:13.11,0:22:14.52,英上中下,,0000,0000,0000,,I'll show you who's boss.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我要让你看看谁是老大
+Dialogue: 0,0:22:15.96,0:22:17.01,英上中下,,0000,0000,0000,,Then she's moaning.\N{\fn华文楷体\fs16\1c&HE0E0E0&}于是  她开始呻吟
+Dialogue: 0,0:22:17.29,0:22:19.91,英上中下,,0000,0000,0000,,And saying "boss" the same time with his movements.\N{\fn华文楷体\fs16\1c&HE0E0E0&}并随着他的抽插一遍遍喊着"老大"
+Dialogue: 0,0:22:22.75,0:22:24.50,英上中下,,0000,0000,0000,,It's all over pretty quickly.\N{\fn华文楷体\fs16\1c&HE0E0E0&}很快就结束了
+Dialogue: 0,0:22:26.99,0:22:28.41,英上中下,,0000,0000,0000,,I get everything I need.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我得到了我需要的一切
+Dialogue: 0,0:22:29.03,0:22:32.20,英上中下,,0000,0000,0000,,The sad thing is some of the composition is pretty good.\N{\fn华文楷体\fs16\1c&HE0E0E0&}真可惜  有些图片拍得还真不错
+Dialogue: 0,0:22:33.01,0:22:34.70,英上中下,,0000,0000,0000,,You make me feel like a woman.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你让我体验到了做女人的快感
+Dialogue: 0,0:22:35.13,0:22:37.38,英上中下,,0000,0000,0000,,I know it sounds corny but it's true.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我知道这听起来很老套但是真的
+Dialogue: 0,0:22:37.71,0:22:38.96,英上中下,,0000,0000,0000,,I love you, baby.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我爱你  宝贝
+Dialogue: 0,0:22:39.40,0:22:40.63,英上中下,,0000,0000,0000,,You know I love you\N{\fn华文楷体\fs16\1c&HE0E0E0&}你知道我是爱你的
+Dialogue: 0,0:22:41.19,0:22:42.55,英上中下,,0000,0000,0000,,even when you lie to me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}即便你是在骗我
+Dialogue: 0,0:22:43.37,0:22:45.01,英上中下,,0000,0000,0000,,My wrist hurts, Joey.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我的手腕好疼  乔伊
+Dialogue: 0,0:22:46.42,0:22:48.84,英上中下,,0000,0000,0000,,You can go get the key, it's just in my purse.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你可以去把钥匙拿来了  就在我的包里
+Dialogue: 0,0:22:49.21,0:22:52.10,英上中下,,0000,0000,0000,,You don't have any idea how much I sacrificed.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你完全不知道我牺牲了多少
+Dialogue: 0,0:22:52.10,0:22:53.47,英上中下,,0000,0000,0000,,What are you doing, Joey?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你在干什么  乔伊
+Dialogue: 0,0:22:53.99,0:22:56.16,英上中下,,0000,0000,0000,,It's tearing me up how much I love you,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我对你的爱和我必须要做的事
+Dialogue: 0,0:22:57.05,0:22:58.40,英上中下,,0000,0000,0000,,and what I gotta do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}让我痛不欲生
+Dialogue: 0,0:23:00.03,0:23:01.46,英上中下,,0000,0000,0000,,But I worked too hard,\N{\fn华文楷体\fs16\1c&HE0E0E0&}可我工作得太辛苦了
+Dialogue: 0,0:23:02.42,0:23:03.97,英上中下,,0000,0000,0000,,and Lori will get eveything\N{\fn华文楷体\fs16\1c&HE0E0E0&}而洛莉将夺走一切
+Dialogue: 0,0:23:04.51,0:23:06.02,英上中下,,0000,0000,0000,,and I can't let that happen.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我不能让这种事发生
+Dialogue: 0,0:23:06.99,0:23:08.76,英上中下,,0000,0000,0000,,I don't have any choice. It's all her fault.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我别无选择  这都是她的错
+Dialogue: 0,0:23:08.76,0:23:09.75,英上中下,,0000,0000,0000,,Joey, please...\N{\fn华文楷体\fs16\1c&HE0E0E0&}乔伊  别这样
+Dialogue: 0,0:23:10.44,0:23:12.14,英上中下,,0000,0000,0000,,I won't tell anyone, I swear.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我不会说出去的  我发誓
+Dialogue: 0,0:23:12.14,0:23:13.89,英上中下,,0000,0000,0000,,I know you don't wanna talk.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我知道你不会主动去说
+Dialogue: 0,0:23:14.19,0:23:15.33,英上中下,,0000,0000,0000,,I know that\N{\fn华文楷体\fs16\1c&HE0E0E0&}我知道
+Dialogue: 0,0:23:15.58,0:23:16.74,英上中下,,0000,0000,0000,,but you're only human.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但你也只是个普通人
+Dialogue: 0,0:23:17.03,0:23:18.55,英上中下,,0000,0000,0000,,Lori is gonna find out about you,\N{\fn华文楷体\fs16\1c&HE0E0E0&}洛莉一定会发现你的存在
+Dialogue: 0,0:23:18.55,0:23:20.10,英上中下,,0000,0000,0000,,if she doesn't know already.\N{\fn华文楷体\fs16\1c&HE0E0E0&}就算她现在还不知道
+Dialogue: 0,0:23:20.05,0:23:21.58,英上中下,,0000,0000,0000,,And she's gonna offer you a lot of money,\N{\fn华文楷体\fs16\1c&HE0E0E0&}然后她会给你一大笔钱
+Dialogue: 0,0:23:21.58,0:23:22.60,英上中下,,0000,0000,0000,,my money.\N{\fn华文楷体\fs16\1c&HE0E0E0&}都是我的钱
+Dialogue: 0,0:23:22.60,0:23:24.94,英上中下,,0000,0000,0000,,She's gonna give it to you to bring me down!\N{\fn华文楷体\fs16\1c&HE0E0E0&}她会用来买通你  然后整死我
+Dialogue: 0,0:23:24.94,0:23:27.56,英上中下,,0000,0000,0000,,- I'll go away! - Who's gonna pay for the ticket?\N{\fn华文楷体\fs16\1c&HE0E0E0&}-我会离开的  -那谁给你路费
+Dialogue: 0,0:23:27.58,0:23:29.38,英上中下,,0000,0000,0000,,The ticket and God knows what else!\N{\fn华文楷体\fs16\1c&HE0E0E0&}不只路费  鬼知道你还会要些什么
+Dialogue: 0,0:23:29.38,0:23:32.49,英上中下,,0000,0000,0000,,Then the apartment, the clothes, the car.\N{\fn华文楷体\fs16\1c&HE0E0E0&}豪宅  名牌  还有豪车
+Dialogue: 0,0:23:32.49,0:23:34.11,英上中下,,0000,0000,0000,,You're gonna suck me dry\N{\fn华文楷体\fs16\1c&HE0E0E0&}你会张着血盆大口
+Dialogue: 0,0:23:34.11,0:23:36.74,英上中下,,0000,0000,0000,,and you'll never, ever stop!\N{\fn华文楷体\fs16\1c&HE0E0E0&}一步步把我榨干至死
+Dialogue: 0,0:23:36.95,0:23:38.79,英上中下,,0000,0000,0000,,No, please no!\N{\fn华文楷体\fs16\1c&HE0E0E0&}不会的  求求你住手
+Dialogue: 0,0:23:44.58,0:23:48.20,英上中下,,0000,0000,0000,,Kill him! Kill him!\N{\fn华文楷体\fs16\1c&HE0E0E0&}打死他  打死他
+Dialogue: 0,0:23:54.25,0:23:56.00,英上中下,,0000,0000,0000,,Nobody is killing anybody,\N{\fn华文楷体\fs16\1c&HE0E0E0&}只要我在场
+Dialogue: 0,0:23:56.84,0:23:58.11,英上中下,,0000,0000,0000,,not while I'm around.\N{\fn华文楷体\fs16\1c&HE0E0E0&}就不可以杀人
+Dialogue: 0,0:24:06.54,0:24:08.03,英上中下,,0000,0000,0000,,Then can I have a ride?\N{\fn华文楷体\fs16\1c&HE0E0E0&}那搭个车总行吧
+Dialogue: 0,0:24:09.47,0:24:11.56,英上中下,,0000,0000,0000,,I grab the key and uncuff her.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我取出钥匙  帮她解开了手铐
+Dialogue: 0,0:24:11.81,0:24:13.18,英上中下,,0000,0000,0000,,She gives him a goodbye that\N{\fn华文楷体\fs16\1c&HE0E0E0&}她给了他一记"再见"
+Dialogue: 0,0:24:13.18,0:24:15.73,英上中下,,0000,0000,0000,,will still hurt like hell when he comes to.\N{\fn华文楷体\fs16\1c&HE0E0E0&}让他每每想起都会隐隐作痛
+Dialogue: 0,0:24:17.14,0:24:19.15,英上中下,,0000,0000,0000,,I leave the slob handcuffed to the bed\N{\fn华文楷体\fs16\1c&HE0E0E0&}我把这小子拷在了床尾
+Dialogue: 0,0:24:19.15,0:24:21.05,英上中下,,0000,0000,0000,,for housekeeping to find.\N{\fn华文楷体\fs16\1c&HE0E0E0&}以便服务生能发现他
+Dialogue: 0,0:24:23.12,0:24:26.07,英上中下,,0000,0000,0000,,I take her down over the hill toward old town.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我带着她翻山越岭  一路驶向了老城
+Dialogue: 0,0:24:29.23,0:24:30.62,英上中下,,0000,0000,0000,,Thanks for my life, man.\N{\fn华文楷体\fs16\1c&HE0E0E0&}谢谢你英雄救美
+Dialogue: 0,0:24:30.79,0:24:34.17,英上中下,,0000,0000,0000,,Sally blends into the sea of flesh that is old town.\N{\fn华文楷体\fs16\1c&HE0E0E0&}萨莉渐渐消失在老城的人群中
+Dialogue: 0,0:24:35.20,0:24:36.73,英上中下,,0000,0000,0000,,They all come back.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一切都回来了
+Dialogue: 0,0:24:37.59,0:24:40.05,英上中下,,0000,0000,0000,,The damn old town memories,\N{\fn华文楷体\fs16\1c&HE0E0E0&}那些关于老城的记忆
+Dialogue: 0,0:24:40.05,0:24:42.33,英上中下,,0000,0000,0000,,drunken mornings and sweaty sex\N{\fn华文楷体\fs16\1c&HE0E0E0&}烂醉的清晨  纵欲的夜晚
+Dialogue: 0,0:24:42.33,0:24:44.86,英上中下,,0000,0000,0000,,and stupid bloody brawls.\N{\fn华文楷体\fs16\1c&HE0E0E0&}还有可笑至极的斗殴
+Dialogue: 0,0:24:45.07,0:24:46.75,英上中下,,0000,0000,0000,,and that thing I did.\N{\fn华文楷体\fs16\1c&HE0E0E0&}还有刚才的事
+Dialogue: 0,0:24:47.12,0:24:49.11,英上中下,,0000,0000,0000,,You can't just pick and choose.\N{\fn华文楷体\fs16\1c&HE0E0E0&}生活不是简单的二选一
+Dialogue: 0,0:24:49.29,0:24:51.81,英上中下,,0000,0000,0000,,You can't take the good without the bad,\N{\fn华文楷体\fs16\1c&HE0E0E0&}不能一味只选好的而避开坏的
+Dialogue: 0,0:24:52.25,0:24:54.55,英上中下,,0000,0000,0000,,not once you let the monster out.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一旦释放心魔  就要承受恶果
+Dialogue: 0,0:24:54.58,0:24:56.06,英上中下,,0000,0000,0000,,I can't let it out.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我不能放它出来
+Dialogue: 0,0:24:56.46,0:24:57.69,英上中下,,0000,0000,0000,,Never again.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不能再犯了
+Dialogue: 0,0:24:59.88,0:25:01.90,英上中下,,0000,0000,0000,,I drive 10 blocks out of my way\N{\fn华文楷体\fs16\1c&HE0E0E0&}我把车开到了十个街区以外
+Dialogue: 0,0:25:01.91,0:25:04.20,英上中下,,0000,0000,0000,,and stop for gas I don't need,\N{\fn华文楷体\fs16\1c&HE0E0E0&}还象征性地给车加了点油
+Dialogue: 0,0:25:04.43,0:25:06.69,英上中下,,0000,0000,0000,,avoiding the worst of this job.\N{\fn华文楷体\fs16\1c&HE0E0E0&}以免引火烧身
+Dialogue: 0,0:25:08.14,0:25:09.36,英上中下,,0000,0000,0000,,My employer,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我的雇主
+Dialogue: 0,0:25:10.15,0:25:11.32,英上中下,,0000,0000,0000,,the wife.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那人的妻子
+Dialogue: 0,0:25:11.84,0:25:15.18,英上中下,,0000,0000,0000,,This one has got a lawyer to pay the tab, so it's easier.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她雇了律师处理财务事宜  一切都很顺利
+Dialogue: 0,0:25:15.18,0:25:17.10,英上中下,,0000,0000,0000,,Please leave by the servant's exit.\N{\fn华文楷体\fs16\1c&HE0E0E0&}离开时请走员工出口
+Dialogue: 0,0:25:20.76,0:25:22.32,英上中下,,0000,0000,0000,,The mustang shudders,\N{\fn华文楷体\fs16\1c&HE0E0E0&}野马车低声咆哮着
+Dialogue: 0,0:25:22.69,0:25:25.38,英上中下,,0000,0000,0000,,begging to cut loose and show what it can do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}渴望化身为脱缰的野马自由驰骋
+Dialogue: 0,0:25:26.73,0:25:28.84,英上中下,,0000,0000,0000,,It wants to take me all the way.\N{\fn华文楷体\fs16\1c&HE0E0E0&}它想带我一同飞奔
+Dialogue: 0,0:25:29.88,0:25:31.25,英上中下,,0000,0000,0000,,I don't let it.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可我不让
+Dialogue: 0,0:25:32.27,0:25:34.44,英上中下,,0000,0000,0000,,I think about all the ways I've screwed up\N{\fn华文楷体\fs16\1c&HE0E0E0&}我想着曾经搞砸的一切
+Dialogue: 0,0:25:34.44,0:25:38.17,英上中下,,0000,0000,0000,,and what I'd give for one clear chance to wipe this slate clean.\N{\fn华文楷体\fs16\1c&HE0E0E0&}想着怎样才能有机会洗心革面
+Dialogue: 0,0:25:40.02,0:25:43.09,英上中下,,0000,0000,0000,,I'd give anything, just to cut loose,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我愿付出任何代价  只为挣脱束缚
+Dialogue: 0,0:25:43.92,0:25:45.52,英上中下,,0000,0000,0000,,just to feel the fire...\N{\fn华文楷体\fs16\1c&HE0E0E0&}只为再一次
+Dialogue: 0,0:25:46.52,0:25:47.64,英上中下,,0000,0000,0000,,one more time.\N{\fn华文楷体\fs16\1c&HE0E0E0&}感受那种激情
+Dialogue: 0,0:25:55.58,0:25:57.04,英上中下,,0000,0000,0000,,Never lose control,\N{\fn华文楷体\fs16\1c&HE0E0E0&}决不能失控
+Dialogue: 0,0:25:57.75,0:25:59.23,英上中下,,0000,0000,0000,,not for a second.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一秒也不行
+Dialogue: 0,0:26:00.13,0:26:02.51,英上中下,,0000,0000,0000,,Never let the monster out.\N{\fn华文楷体\fs16\1c&HE0E0E0&}绝不能让心魔吞噬自己
+Dialogue: 0,0:26:03.52,0:26:05.01,英上中下,,0000,0000,0000,,Remember when you did.\N{\fn华文楷体\fs16\1c&HE0E0E0&}勿忘彼时
+Dialogue: 0,0:26:07.28,0:26:08.81,英上中下,,0000,0000,0000,,Remember what you did.\N{\fn华文楷体\fs16\1c&HE0E0E0&}勿忘彼事
+Dialogue: 0,0:26:25.36,0:26:26.06,英上中下,,0000,0000,0000,,Yeah?\N{\fn华文楷体\fs16\1c&HE0E0E0&}找谁
+Dialogue: 0,0:26:26.44,0:26:27.77,英上中下,,0000,0000,0000,,Dwight, is that you?\N{\fn华文楷体\fs16\1c&HE0E0E0&}德怀特  是你吗
+Dialogue: 0,0:26:30.17,0:26:31.04,英上中下,,0000,0000,0000,,Ava.\N{\fn华文楷体\fs16\1c&HE0E0E0&}艾娃
+Dialogue: 0,0:26:31.28,0:26:32.67,英上中下,,0000,0000,0000,,I'm sorry to call.\N{\fn华文楷体\fs16\1c&HE0E0E0&}很抱歉打给你
+Dialogue: 0,0:26:33.04,0:26:34.72,英上中下,,0000,0000,0000,,I know I've got no right\N{\fn华文楷体\fs16\1c&HE0E0E0&}我知道我没这个权力
+Dialogue: 0,0:26:35.22,0:26:36.82,英上中下,,0000,0000,0000,,but I need to see you,\N{\fn华文楷体\fs16\1c&HE0E0E0&}可我真的需要见你
+Dialogue: 0,0:26:36.85,0:26:37.95,英上中下,,0000,0000,0000,,tonight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}就今晚
+Dialogue: 0,0:26:39.01,0:26:41.56,英上中下,,0000,0000,0000,,Please Dwight, don't hang up, please.\N{\fn华文楷体\fs16\1c&HE0E0E0&}求你了  德怀特  别挂  好吗
+Dialogue: 0,0:26:41.56,0:26:42.94,英上中下,,0000,0000,0000,,She keeps talking.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她就这么一直说着
+Dialogue: 0,0:26:43.57,0:26:45.89,英上中下,,0000,0000,0000,,Like an idiot, I keep listening.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我杵在那儿  傻瓜一样地听着
+Dialogue: 0,0:26:46.69,0:26:47.55,英上中下,,0000,0000,0000,,Ava.\N{\fn华文楷体\fs16\1c&HE0E0E0&}艾娃
+Dialogue: 0,0:26:48.41,0:26:49.15,英上中下,,0000,0000,0000,,Damn.\N{\fn华文楷体\fs16\1c&HE0E0E0&}该死
+Dialogue: 0,0:26:51.04,0:26:52.79,英上中下,,0000,0000,0000,,I should tell her to go to hell.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我真该叫她去见鬼的
+Dialogue: 0,0:26:53.24,0:26:55.67,英上中下,,0000,0000,0000,,Instead, I show up 20 minutes early.\N{\fn华文楷体\fs16\1c&HE0E0E0&}相反  我却早到了20分钟
+Dialogue: 0,0:26:56.37,0:26:58.33,英上中下,,0000,0000,0000,,What the hell she wants with me now?\N{\fn华文楷体\fs16\1c&HE0E0E0&}她现在又在打我什么主意
+Dialogue: 0,0:26:59.02,0:27:00.43,英上中下,,0000,0000,0000,,You can't drive 2 blocks\N{\fn华文楷体\fs16\1c&HE0E0E0&}在罪恶之城里
+Dialogue: 0,0:27:00.43,0:27:03.17,英上中下,,0000,0000,0000,,in Sin City without coming across a salon.\N{\fn华文楷体\fs16\1c&HE0E0E0&}每隔两个街区就有一家"沙龙"
+Dialogue: 0,0:27:04.37,0:27:05.57,英上中下,,0000,0000,0000,,The bad kind.\N{\fn华文楷体\fs16\1c&HE0E0E0&}寻欢作乐的那种
+Dialogue: 0,0:27:06.66,0:27:07.99,英上中下,,0000,0000,0000,,Why here, Ava?\N{\fn华文楷体\fs16\1c&HE0E0E0&}为什么选这里  艾娃
+Dialogue: 0,0:27:08.45,0:27:11.42,英上中下,,0000,0000,0000,,With you everything always had to be first class.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你不是什么东西都得要最好的吗
+Dialogue: 0,0:27:12.45,0:27:14.23,英上中下,,0000,0000,0000,,And when I couldn't foot the bill,\N{\fn华文楷体\fs16\1c&HE0E0E0&}每当我没钱付账时
+Dialogue: 0,0:27:14.86,0:27:17.35,英上中下,,0000,0000,0000,,you sure as hell found somebody who could.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你总能另找一个付得起钱的主
+Dialogue: 0,0:27:18.77,0:27:20.18,英上中下,,0000,0000,0000,,I ordered up a ginger ale and\N{\fn华文楷体\fs16\1c&HE0E0E0&}我叫了杯姜汁啤酒
+Dialogue: 0,0:27:20.18,0:27:22.65,英上中下,,0000,0000,0000,,stared at it for the better half part of an hour.\N{\fn华文楷体\fs16\1c&HE0E0E0&}对着门口盯了将近半小时
+Dialogue: 0,0:27:23.55,0:27:24.59,英上中下,,0000,0000,0000,,She is late,\N{\fn华文楷体\fs16\1c&HE0E0E0&}她迟到了
+Dialogue: 0,0:27:24.82,0:27:26.30,英上中下,,0000,0000,0000,,like she always was,\N{\fn华文楷体\fs16\1c&HE0E0E0&}一如既往
+Dialogue: 0,0:27:27.80,0:27:29.01,英上中下,,0000,0000,0000,,and like always,\N{\fn华文楷体\fs16\1c&HE0E0E0&}可也一如既往
+Dialogue: 0,0:27:32.01,0:27:33.53,英上中下,,0000,0000,0000,,she is worth the wait..\N{\fn华文楷体\fs16\1c&HE0E0E0&}她值得让人等
+Dialogue: 0,0:27:47.88,0:27:48.76,英上中下,,0000,0000,0000,,Dwight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}德怀特
+Dialogue: 0,0:27:49.37,0:27:50.84,英上中下,,0000,0000,0000,,How long has it been?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们有多久没见了
+Dialogue: 0,0:27:51.38,0:27:52.61,英上中下,,0000,0000,0000,,4 years?\N{\fn华文楷体\fs16\1c&HE0E0E0&}四年了吧
+Dialogue: 0,0:27:53.29,0:27:55.02,英上中下,,0000,0000,0000,,Yeah, that sounds about right.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是啊  差不多吧
+Dialogue: 0,0:27:55.91,0:27:56.91,英上中下,,0000,0000,0000,,Have a seat.\N{\fn华文楷体\fs16\1c&HE0E0E0&}坐下吧
+Dialogue: 0,0:28:17.10,0:28:19.16,英上中下,,0000,0000,0000,,So many times I wanted to call you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}多少次我拿起电话又放下
+Dialogue: 0,0:28:19.99,0:28:21.81,英上中下,,0000,0000,0000,,I found myself thinking about you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}脑子里想的都是你
+Dialogue: 0,0:28:22.75,0:28:24.65,英上中下,,0000,0000,0000,,- Constantly. -I got places to go,\N{\fn华文楷体\fs16\1c&HE0E0E0&}-一直都是  -我还有事
+Dialogue: 0,0:28:24.65,0:28:26.41,英上中下,,0000,0000,0000,,how about you tell me what you want.\N{\fn华文楷体\fs16\1c&HE0E0E0&}还是有话直说吧
+Dialogue: 0,0:28:26.41,0:28:27.52,英上中下,,0000,0000,0000,,Don't be cold.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别这么冷淡
+Dialogue: 0,0:28:27.52,0:28:29.51,英上中下,,0000,0000,0000,,I don't think I could stand that right now.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我可能承受不了
+Dialogue: 0,0:28:30.94,0:28:32.81,英上中下,,0000,0000,0000,,I must still mean something to you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你一定还惦记着我吧
+Dialogue: 0,0:28:33.54,0:28:35.63,英上中下,,0000,0000,0000,,You came here, you must have cared.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你来了  说明你还在乎我
+Dialogue: 0,0:28:35.98,0:28:36.69,英上中下,,0000,0000,0000,,Sure.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是啊
+Dialogue: 0,0:28:37.50,0:28:39.25,英上中下,,0000,0000,0000,,You called and I came running.\N{\fn华文楷体\fs16\1c&HE0E0E0&}电话一挂我就飞奔过来
+Dialogue: 0,0:28:39.78,0:28:42.80,英上中下,,0000,0000,0000,,You still got that much of a hold on me, maybe you always will,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你还是让我无法抵抗  也许永远抵抗不了
+Dialogue: 0,0:28:42.80,0:28:45.17,英上中下,,0000,0000,0000,,but I got no reason at all to be nice to you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但这不代表我会给你好脸色看
+Dialogue: 0,0:28:46.18,0:28:47.69,英上中下,,0000,0000,0000,,I guess I deserve that.\N{\fn华文楷体\fs16\1c&HE0E0E0&}算我活该吧
+Dialogue: 0,0:28:47.92,0:28:49.41,英上中下,,0000,0000,0000,,Let's not screw around.\N{\fn华文楷体\fs16\1c&HE0E0E0&}咱们就别兜圈子了
+Dialogue: 0,0:28:49.98,0:28:50.98,英上中下,,0000,0000,0000,,I'm here.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我已经来了
+Dialogue: 0,0:28:51.19,0:28:52.23,英上中下,,0000,0000,0000,,I'm listening.\N{\fn华文楷体\fs16\1c&HE0E0E0&}洗耳恭听
+Dialogue: 0,0:28:52.61,0:28:54.76,英上中下,,0000,0000,0000,,Just tell me what the hell it is you want?\N{\fn华文楷体\fs16\1c&HE0E0E0&}告诉我你到底想怎样
+Dialogue: 0,0:28:54.77,0:28:56.47,英上中下,,0000,0000,0000,,There's only one thing I want from you,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我只想求你一件事
+Dialogue: 0,0:28:56.47,0:28:58.66,英上中下,,0000,0000,0000,,I want it so desperately that I could scream.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是让我梦寐以求  甚至为之疯狂的
+Dialogue: 0,0:28:59.61,0:29:01.32,英上中下,,0000,0000,0000,,I want you to forgive me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我想乞求你的原谅
+Dialogue: 0,0:29:02.20,0:29:04.34,英上中下,,0000,0000,0000,,So you got a conscience after all.\N{\fn华文楷体\fs16\1c&HE0E0E0&}看来你还是有良心的啊
+Dialogue: 0,0:29:05.15,0:29:05.89,英上中下,,0000,0000,0000,,Fine.\N{\fn华文楷体\fs16\1c&HE0E0E0&}好吧
+Dialogue: 0,0:29:06.37,0:29:08.49,英上中下,,0000,0000,0000,,I forgive you, you got your wish.\N{\fn华文楷体\fs16\1c&HE0E0E0&}如你所愿  我原谅你
+Dialogue: 0,0:29:09.07,0:29:10.06,英上中下,,0000,0000,0000,,Now go home,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你可以回家
+Dialogue: 0,0:29:10.57,0:29:11.79,英上中下,,0000,0000,0000,,sleep tight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}安心睡个好觉了
+Dialogue: 0,0:29:13.78,0:29:15.21,英上中下,,0000,0000,0000,,You're right about me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你之前说得对
+Dialogue: 0,0:29:15.80,0:29:19.29,英上中下,,0000,0000,0000,,I'm a selfish slut who threw away the only man she ever loved.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我是个自私的婊子  抛弃了唯一的挚爱
+Dialogue: 0,0:29:20.20,0:29:21.32,英上中下,,0000,0000,0000,,But I was wrong.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可我知道错了
+Dialogue: 0,0:29:22.09,0:29:22.82,英上中下,,0000,0000,0000,,Good one.\N{\fn华文楷体\fs16\1c&HE0E0E0&}说得真好听
+Dialogue: 0,0:29:23.20,0:29:25.84,英上中下,,0000,0000,0000,,I was born at night but it wasn't last night.\N{\fn华文楷体\fs16\1c&HE0E0E0&}只可惜我早不是三岁小孩子了
+Dialogue: 0,0:29:26.28,0:29:27.81,英上中下,,0000,0000,0000,,I'm in hell, Dwight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我过得很煎熬  德怀特
+Dialogue: 0,0:29:27.86,0:29:29.34,英上中下,,0000,0000,0000,,It's worse than you can imagine.\N{\fn华文楷体\fs16\1c&HE0E0E0&}煎熬得你无法想象
+Dialogue: 0,0:29:29.34,0:29:31.12,英上中下,,0000,0000,0000,,You made your bed, sleep in it!\N{\fn华文楷体\fs16\1c&HE0E0E0&}自作孽不可活
+Dialogue: 0,0:29:31.12,0:29:33.63,英上中下,,0000,0000,0000,,- Forgive me, darling, I beg you. - No!\N{\fn华文楷体\fs16\1c&HE0E0E0&}-亲爱的  求你了  原谅我吧  -少来
+Dialogue: 0,0:29:34.48,0:29:36.31,英上中下,,0000,0000,0000,,- I love you. - No!\N{\fn华文楷体\fs16\1c&HE0E0E0&}-我爱你  -不行
+Dialogue: 0,0:29:44.93,0:29:45.70,英上中下,,0000,0000,0000,,No!\N{\fn华文楷体\fs16\1c&HE0E0E0&}不行
+Dialogue: 0,0:29:47.41,0:29:50.24,英上中下,,0000,0000,0000,,You do that again, I swear to hell I'll kill you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你再这样  我发誓会杀了你
+Dialogue: 0,0:29:51.96,0:29:53.31,英上中下,,0000,0000,0000,,If you can't forgive me,\N{\fn华文楷体\fs16\1c&HE0E0E0&}如果真的无法原谅我
+Dialogue: 0,0:29:54.28,0:29:55.68,英上中下,,0000,0000,0000,,then please remember me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那请你永远记住我吧
+Dialogue: 0,0:29:56.33,0:29:59.66,英上中下,,0000,0000,0000,,They say you never die as long as somebody remembers you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}据说只要有人惦记  你就不会真正死去
+Dialogue: 0,0:30:00.05,0:30:01.92,英上中下,,0000,0000,0000,,What the devil are you talking about?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你又在鬼扯些什么
+Dialogue: 0,0:30:02.93,0:30:03.95,英上中下,,0000,0000,0000,,Mrs. Lord.\N{\fn华文楷体\fs16\1c&HE0E0E0&}洛德夫人
+Dialogue: 0,0:30:04.67,0:30:07.56,英上中下,,0000,0000,0000,,The weather is inclement, the neighbourhood is bad\N{\fn华文楷体\fs16\1c&HE0E0E0&}天气回凉了  这附近治安也不好
+Dialogue: 0,0:30:07.88,0:30:09.44,英上中下,,0000,0000,0000,,and your present company...\N{\fn华文楷体\fs16\1c&HE0E0E0&}而且您身边这位...
+Dialogue: 0,0:30:10.19,0:30:11.21,英上中下,,0000,0000,0000,,is low.\N{\fn华文楷体\fs16\1c&HE0E0E0&}很掉档次
+Dialogue: 0,0:30:11.88,0:30:13.85,英上中下,,0000,0000,0000,,You're due at home, Mrs. Lord.\N{\fn华文楷体\fs16\1c&HE0E0E0&}您该回家了  洛德夫人
+Dialogue: 0,0:30:16.13,0:30:18.17,英上中下,,0000,0000,0000,,I'd say that's up to Mrs. Lord.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她回不回家你管不着
+Dialogue: 0,0:30:18.33,0:30:20.15,英上中下,,0000,0000,0000,,This is none of your concern, sir.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这事和你没关系  先生
+Dialogue: 0,0:30:20.34,0:30:22.48,英上中下,,0000,0000,0000,,Any physical contest between us\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们之间要是发生肢体冲突
+Dialogue: 0,0:30:23.28,0:30:25.03,英上中下,,0000,0000,0000,,has only one outcome.\N{\fn华文楷体\fs16\1c&HE0E0E0&}只会有一种结果
+Dialogue: 0,0:30:25.14,0:30:25.99,英上中下,,0000,0000,0000,,Hey buddy,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我说老兄
+Dialogue: 0,0:30:26.45,0:30:28.52,英上中下,,0000,0000,0000,,is that dickhead giving you a hard time?\N{\fn华文楷体\fs16\1c&HE0E0E0&}那蠢蛋在为难你吗
+Dialogue: 0,0:30:28.87,0:30:30.80,英上中下,,0000,0000,0000,,You want me to break him down for you?\N{\fn华文楷体\fs16\1c&HE0E0E0&}要不要我帮你扁他
+Dialogue: 0,0:30:31.24,0:30:32.99,英上中下,,0000,0000,0000,,I got nothing going on tonight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}反正我今晚闲得手痒痒
+Dialogue: 0,0:30:33.86,0:30:36.21,英上中下,,0000,0000,0000,,That would be an interesting contest.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他上的话  那还真是场好戏了
+Dialogue: 0,0:30:36.21,0:30:37.51,英上中下,,0000,0000,0000,,It's not his fight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不关他的事
+Dialogue: 0,0:30:38.41,0:30:40.49,英上中下,,0000,0000,0000,,Never mind, Dwight, it's too late.\N{\fn华文楷体\fs16\1c&HE0E0E0&}没事的  德怀特  反正也晚了
+Dialogue: 0,0:30:40.57,0:30:41.80,英上中下,,0000,0000,0000,,I'll go with him.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我跟他走就是了
+Dialogue: 0,0:30:42.87,0:30:44.41,英上中下,,0000,0000,0000,,Too late for what, Ava?\N{\fn华文楷体\fs16\1c&HE0E0E0&}什么晚了  艾娃
+Dialogue: 0,0:30:44.79,0:30:45.84,英上中下,,0000,0000,0000,,For everything.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一切
+Dialogue: 0,0:30:47.20,0:30:48.91,英上中下,,0000,0000,0000,,Just remember me, my love.\N{\fn华文楷体\fs16\1c&HE0E0E0&}请一定要记住我  亲爱的
+Dialogue: 0,0:30:49.55,0:30:50.54,英上中下,,0000,0000,0000,,Remember me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}记住我
+Dialogue: 0,0:30:53.20,0:30:55.51,英上中下,,0000,0000,0000,,You'll have business tonight, Mrs. Lord,\N{\fn华文楷体\fs16\1c&HE0E0E0&}今晚您可有得忙了  洛德夫人
+Dialogue: 0,0:30:56.56,0:30:58.40,英上中下,,0000,0000,0000,,Unpleasant business.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一些不愉快的事
+Dialogue: 0,0:30:59.16,0:31:00.72,英上中下,,0000,0000,0000,,I don't care anymore.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我已经不在乎了
+Dialogue: 0,0:31:09.50,0:31:11.85,英上中下,,0000,0000,0000,,The night air hasn't got any colder,\N{\fn华文楷体\fs16\1c&HE0E0E0&}那时的温度没有下降
+Dialogue: 0,0:31:12.57,0:31:14.27,英上中下,,0000,0000,0000,,it just feels that way.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是我的心凉了
+Dialogue: 0,0:31:14.82,0:31:15.86,英上中下,,0000,0000,0000,,Buddy, I don't mean to\N{\fn华文楷体\fs16\1c&HE0E0E0&}老兄  我也不想
+Dialogue: 0,0:31:15.86,0:31:18.24,英上中下,,0000,0000,0000,,poke my nose right where it don't belong but...\N{\fn华文楷体\fs16\1c&HE0E0E0&}对你们的私事指手画脚的  不过...
+Dialogue: 0,0:31:19.04,0:31:21.57,英上中下,,0000,0000,0000,,that there, is a dame to kill for.\N{\fn华文楷体\fs16\1c&HE0E0E0&}小心红颜祸水啊
+Dialogue: 0,0:31:22.52,0:31:25.87,英上中下,,0000,0000,0000,,Ava...damn!\N{\fn华文楷体\fs16\1c&HE0E0E0&}艾娃...可恶
+Dialogue: 0,0:31:27.38,0:31:30.24,英上中下,,0000,0000,0000,,Night turns to day and then it's night again\N{\fn华文楷体\fs16\1c&HE0E0E0&}日出又日落  一天就这么过去了
+Dialogue: 0,0:31:30.51,0:31:32.14,英上中下,,0000,0000,0000,,and there's no where to hide.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我无法逃避自己的内心
+Dialogue: 0,0:31:32.93,0:31:35.23,英上中下,,0000,0000,0000,,She isn't worth a moment's thought\N{\fn华文楷体\fs16\1c&HE0E0E0&}她根本不值得丝毫的想念
+Dialogue: 0,0:31:35.47,0:31:37.53,英上中下,,0000,0000,0000,,and I can't get her out of my head.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可我却无法将她从我脑中抹去
+Dialogue: 0,0:31:38.44,0:31:40.31,英上中下,,0000,0000,0000,,What am I doing smoking?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我怎么开始抽烟了
+Dialogue: 0,0:31:41.32,0:31:43.23,英上中下,,0000,0000,0000,,Where did I get these cigarettes?\N{\fn华文楷体\fs16\1c&HE0E0E0&}这香烟又是哪儿来的
+Dialogue: 0,0:31:46.97,0:31:49.00,英上中下,,0000,0000,0000,,It's Ava making you crazy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是艾娃让你心烦意乱
+Dialogue: 0,0:31:49.94,0:31:51.30,英上中下,,0000,0000,0000,,All over again.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一切如昨
+Dialogue: 0,0:31:52.40,0:31:54.38,英上中下,,0000,0000,0000,,Never let the monster out.\N{\fn华文楷体\fs16\1c&HE0E0E0&}千万别让心魔吞噬自己
+Dialogue: 0,0:31:55.27,0:31:56.42,英上中下,,0000,0000,0000,,Shake her off.\N{\fn华文楷体\fs16\1c&HE0E0E0&}忘了她
+Dialogue: 0,0:31:56.71,0:31:59.31,英上中下,,0000,0000,0000,,Whatever she's in for, she deserves it,\N{\fn华文楷体\fs16\1c&HE0E0E0&}不管发生什么  都是她自找的
+Dialogue: 0,0:31:59.81,0:32:01.49,英上中下,,0000,0000,0000,,but I have to know what's wrong.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可我必须了解事情的真相
+Dialogue: 0,0:32:03.75,0:32:06.74,英上中下,,0000,0000,0000,,It's a couple hours of drive out to Sacred Oaks.\N{\fn华文楷体\fs16\1c&HE0E0E0&}到橡树区只有几小时车程
+Dialogue: 0,0:32:07.66,0:32:10.73,英上中下,,0000,0000,0000,,It shouldn't take too much effort to get to the bottom of this.\N{\fn华文楷体\fs16\1c&HE0E0E0&}费不了多大劲就能弄清真相了
+Dialogue: 0,0:32:12.44,0:32:15.29,英上中下,,0000,0000,0000,,Just a simple job of breaking and entering,\N{\fn华文楷体\fs16\1c&HE0E0E0&}只是简单地私闯民宅
+Dialogue: 0,0:32:15.30,0:32:17.08,英上中下,,0000,0000,0000,,punishable by up to 5 years\N{\fn华文楷体\fs16\1c&HE0E0E0&}不杀人的话
+Dialogue: 0,0:32:17.08,0:32:19.81,英上中下,,0000,0000,0000,,in the slammer even if I don't kill anybody.\N{\fn华文楷体\fs16\1c&HE0E0E0&}顶多在监狱蹲上五年
+Dialogue: 0,0:32:31.59,0:32:34.92,英上中下,,0000,0000,0000,,I wind up seeing a lot more than I bargained for.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可这次所见却是我万万没想到的
+Dialogue: 0,0:32:52.69,0:32:55.43,英上中下,,0000,0000,0000,,She seems perfectly goddamn fine.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她看起来毫发无损  悠然自得
+Dialogue: 0,0:32:56.20,0:32:57.54,英上中下,,0000,0000,0000,,Not roughed up,\N{\fn华文楷体\fs16\1c&HE0E0E0&}毫无家暴痕迹
+Dialogue: 0,0:32:58.18,0:33:01.31,英上中下,,0000,0000,0000,,just the rich man's wife like she always intended to be.\N{\fn华文楷体\fs16\1c&HE0E0E0&}只是个阔太太  正如她一直想要的
+Dialogue: 0,0:33:06.09,0:33:07.57,英上中下,,0000,0000,0000,,I'm a damn fool.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我他妈就是个白痴
+Dialogue: 0,0:33:08.46,0:33:09.63,英上中下,,0000,0000,0000,,Freeze! Pervert!.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别动  偷窥狂
+Dialogue: 0,0:33:26.06,0:33:27.34,英上中下,,0000,0000,0000,,Let me through, Manute.\N{\fn华文楷体\fs16\1c&HE0E0E0&}让我过去  马努特
+Dialogue: 0,0:33:33.24,0:33:34.60,英上中下,,0000,0000,0000,,I'm sorry, Dwight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}对不起  德怀特
+Dialogue: 0,0:33:41.04,0:33:43.51,英上中下,,0000,0000,0000,,An atom bomb goes off between my legs.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这一脚简直让我痛不欲生
+Dialogue: 0,0:33:45.34,0:33:47.68,英上中下,,0000,0000,0000,,A freight train barrows into my jaw.\N{\fn华文楷体\fs16\1c&HE0E0E0&}而这几拳更像是撞上了万吨巨轮
+Dialogue: 0,0:33:50.88,0:33:53.89,英上中下,,0000,0000,0000,,I've taken a beating before but never like this.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我以前被打过不少次  可没遇过这么重的
+Dialogue: 0,0:33:55.63,0:33:56.94,英上中下,,0000,0000,0000,,Never like this.\N{\fn华文楷体\fs16\1c&HE0E0E0&}从没遇过
+Dialogue: 0,0:33:58.65,0:34:00.24,英上中下,,0000,0000,0000,,The sounds go wet.\N{\fn华文楷体\fs16\1c&HE0E0E0&}耳边的声音愈发遥远
+Dialogue: 0,0:34:01.35,0:34:02.98,英上中下,,0000,0000,0000,,Maybe he keeps hitting me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可能他还没停手吧
+Dialogue: 0,0:34:03.39,0:34:04.31,英上中下,,0000,0000,0000,,I don't know...\N{\fn华文楷体\fs16\1c&HE0E0E0&}我也不清楚...
+Dialogue: 0,0:34:04.93,0:34:05.81,英上中下,,0000,0000,0000,,...I'm gone.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我渐渐失去了知觉
+Dialogue: 0,0:34:06.93,0:34:10.15,英上中下,,0000,0000,0000,,Gone to that place where there's no pain or thought.\N{\fn华文楷体\fs16\1c&HE0E0E0&}像是去到了那个永无疼痛的极乐世界
+Dialogue: 0,0:34:14.29,0:34:15.84,英上中下,,0000,0000,0000,,I wake up in mid air.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我在半空中醒来
+Dialogue: 0,0:34:16.96,0:34:20.57,英上中下,,0000,0000,0000,,The pavement rushes up to give me a big sloppy kiss.\N{\fn华文楷体\fs16\1c&HE0E0E0&}坚硬的路面狠狠赏了我一个吻
+Dialogue: 0,0:34:29.64,0:34:30.82,英上中下,,0000,0000,0000,,I'll be damned.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不会吧
+Dialogue: 0,0:34:31.87,0:34:33.42,英上中下,,0000,0000,0000,,Door to door service.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这都送到家门口了
+Dialogue: 0,0:34:34.83,0:34:36.45,英上中下,,0000,0000,0000,,Then I spot my Mustang,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我发现了我的野马车
+Dialogue: 0,0:34:37.04,0:34:38.59,英上中下,,0000,0000,0000,,which makes no sense.\N{\fn华文楷体\fs16\1c&HE0E0E0&}没理由啊
+Dialogue: 0,0:34:39.32,0:34:41.04,英上中下,,0000,0000,0000,,Why would they return my car?\N{\fn华文楷体\fs16\1c&HE0E0E0&}他们怎么会把我的车还回来
+Dialogue: 0,0:34:58.02,0:34:59.11,英上中下,,0000,0000,0000,,Get out of here.\N{\fn华文楷体\fs16\1c&HE0E0E0&}滚出去
+Dialogue: 0,0:35:00.25,0:35:00.98,英上中下,,0000,0000,0000,,No.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不
+Dialogue: 0,0:35:03.82,0:35:06.41,英上中下,,0000,0000,0000,,Put your clothes back on and get out of here, now!\N{\fn华文楷体\fs16\1c&HE0E0E0&}穿上衣服  立马给我走人
+Dialogue: 0,0:35:08.15,0:35:08.88,英上中下,,0000,0000,0000,,No.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不
+Dialogue: 0,0:35:10.32,0:35:11.95,英上中下,,0000,0000,0000,,You had your chance.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你本可以置之不理的
+Dialogue: 0,0:35:12.12,0:35:14.51,英上中下,,0000,0000,0000,,You could've stay away but you came for me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可你终究还是来找我了
+Dialogue: 0,0:35:15.43,0:35:17.04,英上中下,,0000,0000,0000,,You still want me,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你心里还有我
+Dialogue: 0,0:35:17.75,0:35:19.68,英上中下,,0000,0000,0000,,and I'm yours, now!\N{\fn华文楷体\fs16\1c&HE0E0E0&}现在我是你的了
+Dialogue: 0,0:35:20.10,0:35:21.22,英上中下,,0000,0000,0000,,Tonight!\N{\fn华文楷体\fs16\1c&HE0E0E0&}今晚
+Dialogue: 0,0:35:21.57,0:35:23.77,英上中下,,0000,0000,0000,,Get out of my life once and for all\N{\fn华文楷体\fs16\1c&HE0E0E0&}滚出我的世界  永远别回来
+Dialogue: 0,0:35:24.55,0:35:26.55,英上中下,,0000,0000,0000,,or I'll bash your teeth in.\N{\fn华文楷体\fs16\1c&HE0E0E0&}否则我会揍得你满地找牙
+Dialogue: 0,0:35:27.08,0:35:28.30,英上中下,,0000,0000,0000,,If you can't love me,\N{\fn华文楷体\fs16\1c&HE0E0E0&}如果你无法爱我
+Dialogue: 0,0:35:30.68,0:35:31.70,英上中下,,0000,0000,0000,,hate me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那就恨我吧
+Dialogue: 0,0:35:32.33,0:35:33.82,英上中下,,0000,0000,0000,,If you can't forgive me,\N{\fn华文楷体\fs16\1c&HE0E0E0&}如果你无法原谅我
+Dialogue: 0,0:35:34.33,0:35:35.55,英上中下,,0000,0000,0000,,punish me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那就惩罚我吧
+Dialogue: 0,0:35:36.13,0:35:38.94,英上中下,,0000,0000,0000,,Make me hurt, like I've hurt you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}伤害我  就像我伤害你那样
+Dialogue: 0,0:35:47.11,0:35:50.00,英上中下,,0000,0000,0000,,I called her every foul name there is.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我用各种肮脏的话语骂她
+Dialogue: 0,0:35:50.98,0:35:53.62,英上中下,,0000,0000,0000,,She makes my name sound like music,\N{\fn华文楷体\fs16\1c&HE0E0E0&}可我的名字在她嘴里却无比美妙
+Dialogue: 0,0:35:54.54,0:35:57.03,英上中下,,0000,0000,0000,,like a chant to some dark god.\N{\fn华文楷体\fs16\1c&HE0E0E0&}如同唱给恶灵的颂诗
+Dialogue: 0,0:35:58.41,0:36:00.48,英上中下,,0000,0000,0000,,She's slippery with sweat.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她香汗淋漓  楚楚动人
+Dialogue: 0,0:36:01.24,0:36:03.82,英上中下,,0000,0000,0000,,Before long, my hatred is spent.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不久  我的仇恨便烟消云散了
+Dialogue: 0,0:36:05.16,0:36:06.51,英上中下,,0000,0000,0000,,But she won't let go.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可她还不罢休
+Dialogue: 0,0:36:07.29,0:36:10.57,英上中下,,0000,0000,0000,,She kisses me and coaxes me\N{\fn华文楷体\fs16\1c&HE0E0E0&}她吻着我  哄着我
+Dialogue: 0,0:36:11.45,0:36:13.53,英上中下,,0000,0000,0000,,and the fire grows again.\N{\fn华文楷体\fs16\1c&HE0E0E0&}情欲的烈火再度蔓延
+Dialogue: 0,0:36:14.66,0:36:17.65,英上中下,,0000,0000,0000,,I said all the thing I swore I'd never say again.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我说了些我发誓不再说的话
+Dialogue: 0,0:36:18.45,0:36:19.74,英上中下,,0000,0000,0000,,She owns me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我是她的
+Dialogue: 0,0:36:20.37,0:36:21.66,英上中下,,0000,0000,0000,,Body and soul.\N{\fn华文楷体\fs16\1c&HE0E0E0&}肉体和灵魂
+Dialogue: 0,0:36:26.72,0:36:27.84,英上中下,,0000,0000,0000,,Tell me everything.\N{\fn华文楷体\fs16\1c&HE0E0E0&}把一切都告诉我
+Dialogue: 0,0:36:29.72,0:36:32.02,英上中下,,0000,0000,0000,,Manute, the man who beat you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}马努特  揍你的那个人
+Dialogue: 0,0:36:33.61,0:36:35.81,英上中下,,0000,0000,0000,,He's a specialist inflicting pain.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他是个施暴的专家
+Dialogue: 0,0:36:36.08,0:36:39.19,英上中下,,0000,0000,0000,,Hideous pain in all the places you just gave me joy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}蹂躏过刚才你让我无比愉悦的每寸肌肤
+Dialogue: 0,0:36:39.19,0:36:42.63,英上中下,,0000,0000,0000,,That's sick, it's crazy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}真恶心  他疯了吧
+Dialogue: 0,0:36:42.91,0:36:44.33,英上中下,,0000,0000,0000,,Damien, my husband,\N{\fn华文楷体\fs16\1c&HE0E0E0&}达米安  我的丈夫
+Dialogue: 0,0:36:45.20,0:36:48.00,英上中下,,0000,0000,0000,,he talks and talks and watches.\N{\fn华文楷体\fs16\1c&HE0E0E0&}只会说着风凉话袖手旁观
+Dialogue: 0,0:36:48.80,0:36:50.20,英上中下,,0000,0000,0000,,It's worse each time.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一次比一次糟糕
+Dialogue: 0,0:36:50.91,0:36:53.81,英上中下,,0000,0000,0000,,It's getting closer to his final sick climax.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这能让他得到他要的变态高潮
+Dialogue: 0,0:36:54.40,0:36:56.81,英上中下,,0000,0000,0000,,He says it'll be very ugly before I die.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他还说会让我死得很难看
+Dialogue: 0,0:36:58.66,0:37:00.24,英上中下,,0000,0000,0000,,Ava, you're not gonna die.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你不会死的  艾娃
+Dialogue: 0,0:37:01.57,0:37:02.76,英上中下,,0000,0000,0000,,You're coming with me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我会保护你的
+Dialogue: 0,0:37:04.74,0:37:05.94,英上中下,,0000,0000,0000,,It's hopeless.\N{\fn华文楷体\fs16\1c&HE0E0E0&}算了吧
+Dialogue: 0,0:37:08.34,0:37:11.81,英上中下,,0000,0000,0000,,He lets me run away, even laughs about it.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我想跑他都不会拦我  甚至还嘲笑我
+Dialogue: 0,0:37:12.80,0:37:15.08,英上中下,,0000,0000,0000,,Doesn't care where I go, what I do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我去哪儿  干什么  他都不管
+Dialogue: 0,0:37:15.51,0:37:17.78,英上中下,,0000,0000,0000,,He knows Manute will always find me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他知道马努特总能找到我
+Dialogue: 0,0:37:20.45,0:37:21.99,英上中下,,0000,0000,0000,,Isn't that right, Manute?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我说得对吗  马努特
+Dialogue: 0,0:37:23.30,0:37:27.35,英上中下,,0000,0000,0000,,Ma'am, Mr Lord would require that you be disciplined.\N{\fn华文楷体\fs16\1c&HE0E0E0&}夫人  洛德先生希望你能自重
+Dialogue: 0,0:37:28.43,0:37:29.82,英上中下,,0000,0000,0000,,No, wait, Dwight, don't fight him!\N{\fn华文楷体\fs16\1c&HE0E0E0&}不  德怀特  别跟他动手
+Dialogue: 0,0:37:30.10,0:37:31.06,英上中下,,0000,0000,0000,,He will kill you!\N{\fn华文楷体\fs16\1c&HE0E0E0&}他会要了你的命
+Dialogue: 0,0:37:31.68,0:37:32.73,英上中下,,0000,0000,0000,,He's not human.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他可不是一般人
+Dialogue: 0,0:37:33.96,0:37:36.99,英上中下,,0000,0000,0000,,I punch with all door, he doesn't fall down.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我用尽力气揍他  可他纹丝不动
+Dialogue: 0,0:37:37.50,0:37:39.00,英上中下,,0000,0000,0000,,So I punched him again.\N{\fn华文楷体\fs16\1c&HE0E0E0&}于是我又补了一拳
+Dialogue: 0,0:37:46.99,0:37:49.84,英上中下,,0000,0000,0000,,A wrecking ball hits me square in the chest.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一记千斤重拳砸在了我的胸口
+Dialogue: 0,0:37:55.34,0:37:56.89,英上中下,,0000,0000,0000,,Mrs. Lord, your clothes.\N{\fn华文楷体\fs16\1c&HE0E0E0&}洛德夫人  披上衣服
+Dialogue: 0,0:37:57.76,0:37:59.13,英上中下,,0000,0000,0000,,We have an appointment.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们还有事要做呢
+Dialogue: 0,0:38:00.81,0:38:02.79,英上中下,,0000,0000,0000,,They can't take her away from me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他们休想从我身边夺走她
+Dialogue: 0,0:38:03.87,0:38:04.91,英上中下,,0000,0000,0000,,Not this time.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这次不行
+Dialogue: 0,0:38:08.01,0:38:09.76,英上中下,,0000,0000,0000,,I know exactly what to do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我很清楚该怎么做
+Dialogue: 0,0:38:11.26,0:38:13.13,英上中下,,0000,0000,0000,,I know exactly where to go.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我很清楚该去哪
+Dialogue: 0,0:38:17.18,0:38:19.26,英上中下,,0000,0000,0000,,Now here's a girl with protection.\N{\fn华文楷体\fs16\1c&HE0E0E0&}酒吧里有个备受保护的女孩
+Dialogue: 0,0:38:19.75,0:38:21.80,英上中下,,0000,0000,0000,,She maybe showing off everything she has got\N{\fn华文楷体\fs16\1c&HE0E0E0&}虽然平日会在那些淫荡醉鬼面前
+Dialogue: 0,0:38:21.81,0:38:24.64,英上中下,,0000,0000,0000,,and already die full of horny drunks,\N{\fn华文楷体\fs16\1c&HE0E0E0&}竭尽全力搔首弄姿
+Dialogue: 0,0:38:24.89,0:38:27.51,英上中下,,0000,0000,0000,,but Nancy is the safest gal in the world.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不过南希现在是最可靠的美人了
+Dialogue: 0,0:38:27.96,0:38:29.60,英上中下,,0000,0000,0000,,Make a grab for Nancy\N{\fn华文楷体\fs16\1c&HE0E0E0&}敢碰南希一下
+Dialogue: 0,0:38:29.99,0:38:33.09,英上中下,,0000,0000,0000,,and you're up against 300 pounds of iron\N{\fn华文楷体\fs16\1c&HE0E0E0&}你要迎接的就是300磅的铁拳了
+Dialogue: 0,0:38:33.20,0:38:35.02,英上中下,,0000,0000,0000,,that goes by the name of...\N{\fn华文楷体\fs16\1c&HE0E0E0&}把你撂倒的那个人...
+Dialogue: 0,0:38:35.02,0:38:36.20,英上中下,,0000,0000,0000,,...Marv.\N{\fn华文楷体\fs16\1c&HE0E0E0&}叫马维
+Dialogue: 0,0:38:54.13,0:38:54.89,英上中下,,0000,0000,0000,,Marv.\N{\fn华文楷体\fs16\1c&HE0E0E0&}马维
+Dialogue: 0,0:38:56.03,0:39:00.05,英上中下,,0000,0000,0000,,Dwight, mighty glad to see you here.\N{\fn华文楷体\fs16\1c&HE0E0E0&}德怀特  真高兴在这儿见到你
+Dialogue: 0,0:39:00.95,0:39:02.09,英上中下,,0000,0000,0000,,What can I do you for?\N{\fn华文楷体\fs16\1c&HE0E0E0&}需要我做什么吗
+Dialogue: 0,0:39:03.39,0:39:04.38,英上中下,,0000,0000,0000,,I need your help.\N{\fn华文楷体\fs16\1c&HE0E0E0&}帮我个忙
+Dialogue: 0,0:39:04.96,0:39:08.31,英上中下,,0000,0000,0000,,It's bad and it's gonna be up against a lot of guns.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这事儿挺麻烦的  弄不好会吃些子弹
+Dialogue: 0,0:39:10.78,0:39:11.79,英上中下,,0000,0000,0000,,Count me in.\N{\fn华文楷体\fs16\1c&HE0E0E0&}算我一个
+Dialogue: 0,0:39:12.49,0:39:14.20,英上中下,,0000,0000,0000,,I could use a change of peace.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我正好换换口味
+Dialogue: 0,0:39:15.45,0:39:17.02,英上中下,,0000,0000,0000,,We finished off the bottle,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们喝了个底朝天
+Dialogue: 0,0:39:17.57,0:39:20.33,英上中下,,0000,0000,0000,,letting this liquid darkness fill us both.\N{\fn华文楷体\fs16\1c&HE0E0E0&}让这流动的黑暗填满了内心
+Dialogue: 0,0:39:21.08,0:39:22.34,英上中下,,0000,0000,0000,,When I'm sure he had enough\N{\fn华文楷体\fs16\1c&HE0E0E0&}当我确定他已喝足了酒
+Dialogue: 0,0:39:22.34,0:39:24.28,英上中下,,0000,0000,0000,,to make him good and dangerous,\N{\fn华文楷体\fs16\1c&HE0E0E0&}绝对招惹不得的时候
+Dialogue: 0,0:39:24.71,0:39:26.34,英上中下,,0000,0000,0000,,I tell him about Ava\N{\fn华文楷体\fs16\1c&HE0E0E0&}我告诉了他艾娃的事
+Dialogue: 0,0:39:26.80,0:39:28.74,英上中下,,0000,0000,0000,,and his eyes go killer red.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他血红的双眼弥漫着杀气
+Dialogue: 0,0:39:29.59,0:39:31.59,英上中下,,0000,0000,0000,,I know he's willing to die for me\N{\fn华文楷体\fs16\1c&HE0E0E0&}我知道他会为我拼上性命
+Dialogue: 0,0:39:31.83,0:39:33.40,英上中下,,0000,0000,0000,,if that's what it takes.\N{\fn华文楷体\fs16\1c&HE0E0E0&}如有必要的话
+Dialogue: 0,0:39:34.66,0:39:36.99,英上中下,,0000,0000,0000,,So I'm using him, so what?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我的确是在利用他  那又怎样
+Dialogue: 0,0:39:37.28,0:39:39.46,英上中下,,0000,0000,0000,,So he breaks the faces I want him to break\N{\fn华文楷体\fs16\1c&HE0E0E0&}他现在打的是我想打的人
+Dialogue: 0,0:39:39.47,0:39:41.05,英上中下,,0000,0000,0000,,instead of somebody else's.\N{\fn华文楷体\fs16\1c&HE0E0E0&}而不是其他人
+Dialogue: 0,0:39:41.87,0:39:44.32,英上中下,,0000,0000,0000,,So he helps me get Ava back in my arms again\N{\fn华文楷体\fs16\1c&HE0E0E0&}他能让艾娃重回我的怀抱
+Dialogue: 0,0:39:44.33,0:39:47.67,英上中下,,0000,0000,0000,,instead of sleeping it off in a slum house or gutter.\N{\fn华文楷体\fs16\1c&HE0E0E0&}而不是困在那破房子里生不如死
+Dialogue: 0,0:39:48.46,0:39:50.53,英上中下,,0000,0000,0000,,His life isn't worth a dime anyway.\N{\fn华文楷体\fs16\1c&HE0E0E0&}反正他的命也不值几个钱
+Dialogue: 0,0:39:51.42,0:39:53.68,英上中下,,0000,0000,0000,,If I don't get him killed, the world will,\N{\fn华文楷体\fs16\1c&HE0E0E0&}就算我没让他送命  他也迟早会死
+Dialogue: 0,0:39:53.77,0:39:55.02,英上中下,,0000,0000,0000,,one way or another.\N{\fn华文楷体\fs16\1c&HE0E0E0&}早晚的事
+Dialogue: 0,0:39:55.42,0:39:57.30,英上中下,,0000,0000,0000,,I want you to leave that thing in the car.\N{\fn华文楷体\fs16\1c&HE0E0E0&}把枪留在车上
+Dialogue: 0,0:39:58.08,0:39:59.93,英上中下,,0000,0000,0000,,Nobody's getting killed tonight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}今晚不杀人
+Dialogue: 0,0:40:00.00,0:40:02.26,英上中下,,0000,0000,0000,,Oh come on Dwight, why, you're no fun at all.\N{\fn华文楷体\fs16\1c&HE0E0E0&}得了吧  德怀特  这样还有什么乐子
+Dialogue: 0,0:40:06.38,0:40:07.86,英上中下,,0000,0000,0000,,We split up at the gate.\N{\fn华文楷体\fs16\1c&HE0E0E0&}翻过大门后  我们分头行动
+Dialogue: 0,0:40:14.85,0:40:17.45,英上中下,,0000,0000,0000,,It doesn't take Marv long to get their attention.\N{\fn华文楷体\fs16\1c&HE0E0E0&}很快  马维就引起了他们的注意
+Dialogue: 0,0:40:30.51,0:40:32.75,英上中下,,0000,0000,0000,,You've trespassed on hallowed ground.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你擅闯了圣地
+Dialogue: 0,0:40:32.82,0:40:35.22,英上中下,,0000,0000,0000,,You're the slug that freaked my friend out?\N{\fn华文楷体\fs16\1c&HE0E0E0&}就是你这个混球让我朋友难堪的吗
+Dialogue: 0,0:40:36.72,0:40:37.59,英上中下,,0000,0000,0000,,Shall we?\N{\fn华文楷体\fs16\1c&HE0E0E0&}开始吗
+Dialogue: 0,0:41:22.18,0:41:25.15,英上中下,,0000,0000,0000,,Oh, I better wrap my hand one of these days.\N{\fn华文楷体\fs16\1c&HE0E0E0&}以后一定得把手包起来
+Dialogue: 0,0:41:31.52,0:41:33.43,英上中下,,0000,0000,0000,,I'll find the truth about Ava,\N{\fn华文楷体\fs16\1c&HE0E0E0&}艾娃的事我一定会调查清楚
+Dialogue: 0,0:41:33.84,0:41:35.47,英上中下,,0000,0000,0000,,and what's happening to her now.\N{\fn华文楷体\fs16\1c&HE0E0E0&}也不知道她现在怎么样了
+Dialogue: 0,0:41:37.46,0:41:40.62,英上中下,,0000,0000,0000,,He will tell me. I'll get it out of him.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那人知道真相  我得让他说出实话
+Dialogue: 0,0:41:42.39,0:41:43.80,英上中下,,0000,0000,0000,,Damien Lord.\N{\fn华文楷体\fs16\1c&HE0E0E0&}达米安·洛德
+Dialogue: 0,0:41:48.56,0:41:49.55,英上中下,,0000,0000,0000,,Where's she?\N{\fn华文楷体\fs16\1c&HE0E0E0&}她在哪儿
+Dialogue: 0,0:41:51.84,0:41:53.19,英上中下,,0000,0000,0000,,What have you done with her?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你把她怎么了
+Dialogue: 0,0:41:53.82,0:41:56.77,英上中下,,0000,0000,0000,,Have you come to take her away from all these?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你是过来救她于水火的吗
+Dialogue: 0,0:41:58.95,0:42:03.06,英上中下,,0000,0000,0000,,And what's all these in her present story?\N{\fn华文楷体\fs16\1c&HE0E0E0&}这次的故事又有什么狗血桥段
+Dialogue: 0,0:42:03.06,0:42:07.54,英上中下,,0000,0000,0000,,I haven't the slightest notion what nonsense my wife has told you\N{\fn华文楷体\fs16\1c&HE0E0E0&}我不清楚她到底和你瞎掰了些什么
+Dialogue: 0,0:42:07.77,0:42:09.26,英上中下,,0000,0000,0000,,nor do I care.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我也懒得关心
+Dialogue: 0,0:42:09.58,0:42:11.22,英上中下,,0000,0000,0000,,It's all lie.\N{\fn华文楷体\fs16\1c&HE0E0E0&}反正都是编的
+Dialogue: 0,0:42:12.83,0:42:14.71,英上中下,,0000,0000,0000,,Stay away from the desk.\N{\fn华文楷体\fs16\1c&HE0E0E0&}离那桌子远点儿
+Dialogue: 0,0:42:16.59,0:42:19.61,英上中下,,0000,0000,0000,,The woman is pathological.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那女人有病
+Dialogue: 0,0:42:23.12,0:42:25.09,英上中下,,0000,0000,0000,,You have been deceived.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你被耍了
+Dialogue: 0,0:42:43.31,0:42:44.60,英上中下,,0000,0000,0000,,What did it feel like?\N{\fn华文楷体\fs16\1c&HE0E0E0&}感觉怎么样
+Dialogue: 0,0:42:45.37,0:42:46.21,英上中下,,0000,0000,0000,,What?\N{\fn华文楷体\fs16\1c&HE0E0E0&}什么
+Dialogue: 0,0:42:46.95,0:42:48.86,英上中下,,0000,0000,0000,,Murdering an innocent man.\N{\fn华文楷体\fs16\1c&HE0E0E0&}杀死一个无辜的人
+Dialogue: 0,0:42:49.55,0:42:51.66,英上中下,,0000,0000,0000,,I just want to know what it felt like.\N{\fn华文楷体\fs16\1c&HE0E0E0&}真想知道是什么感觉
+Dialogue: 0,0:42:51.66,0:42:52.95,英上中下,,0000,0000,0000,,It must've been beautiful.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一定美妙极了
+Dialogue: 0,0:42:53.31,0:42:55.30,英上中下,,0000,0000,0000,,What are you talking about, innocence?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你说什么  无辜
+Dialogue: 0,0:42:55.64,0:42:57.51,英上中下,,0000,0000,0000,,I knew I could count on you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我就知道你靠得住
+Dialogue: 0,0:42:57.62,0:43:00.99,英上中下,,0000,0000,0000,,Sex always made you stupid, ready to believe anything.\N{\fn华文楷体\fs16\1c&HE0E0E0&}性爱总会让你犯蠢  轻易相信任何事
+Dialogue: 0,0:43:01.90,0:43:04.62,英上中下,,0000,0000,0000,,You've just made me a very rich woman.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你刚成就了我的富贵梦
+Dialogue: 0,0:43:06.31,0:43:07.94,英上中下,,0000,0000,0000,,Do me one last favor, lover.\N{\fn华文楷体\fs16\1c&HE0E0E0&}最后帮我个忙吧  亲爱的
+Dialogue: 0,0:43:08.13,0:43:11.25,英上中下,,0000,0000,0000,,Stay still long enough for me to blow your brains out.\N{\fn华文楷体\fs16\1c&HE0E0E0&}站在那儿别动  好让我一枪崩了你的头
+Dialogue: 0,0:43:15.74,0:43:17.18,英上中下,,0000,0000,0000,,I'm not much of a shot\N{\fn华文楷体\fs16\1c&HE0E0E0&}枪法我不在行
+Dialogue: 0,0:43:18.34,0:43:20.61,英上中下,,0000,0000,0000,,- but I'll do my best. - Ava...\N{\fn华文楷体\fs16\1c&HE0E0E0&}-可我会尽量  -艾娃
+Dialogue: 0,0:43:22.44,0:43:25.50,英上中下,,0000,0000,0000,,I planned it and you fell for it.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我设了圈套  你就跳进来了
+Dialogue: 0,0:43:25.80,0:43:29.15,英上中下,,0000,0000,0000,,This is the last time I'm gonna need anything from a man.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这将是我最后一次有求于男人
+Dialogue: 0,0:43:29.63,0:43:32.94,英上中下,,0000,0000,0000,,The last time I make my living on my back.\N{\fn华文楷体\fs16\1c&HE0E0E0&}最后一次出卖我的肉体
+Dialogue: 0,0:43:34.65,0:43:37.90,英上中下,,0000,0000,0000,,- Manute never hurt you... - He wouldn't dare!\N{\fn华文楷体\fs16\1c&HE0E0E0&}-马努特从没伤害过你  -他敢
+Dialogue: 0,0:43:38.59,0:43:41.09,英上中下,,0000,0000,0000,,- You're insane. - No, Dwight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-你疯了  -不  德怀特
+Dialogue: 0,0:43:41.37,0:43:44.06,英上中下,,0000,0000,0000,,A crazy person would be anyone who believes me\N{\fn华文楷体\fs16\1c&HE0E0E0&}相信我的人才疯了
+Dialogue: 0,0:43:44.79,0:43:46.07,英上中下,,0000,0000,0000,,and that would be you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那就是你
+Dialogue: 0,0:43:47.52,0:43:49.39,英上中下,,0000,0000,0000,,If I kiss you now, Dwight,\N{\fn华文楷体\fs16\1c&HE0E0E0&}如果我现在吻你  德怀特
+Dialogue: 0,0:43:49.80,0:43:53.01,英上中下,,0000,0000,0000,,would you still believe it was... love?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你会相信这是爱吗
+Dialogue: 0,0:44:00.00,0:44:00.95,英上中下,,0000,0000,0000,,Ava...\N{\fn华文楷体\fs16\1c&HE0E0E0&}艾娃
+Dialogue: 0,0:44:18.00,0:44:18.73,英上中下,,0000,0000,0000,,Damn.\N{\fn华文楷体\fs16\1c&HE0E0E0&}该死
+Dialogue: 0,0:44:19.65,0:44:22.50,英上中下,,0000,0000,0000,,Hey, I handled that big slug just like I promised.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我按承诺把那个大块头搞定了
+Dialogue: 0,0:44:22.50,0:44:24.46,英上中下,,0000,0000,0000,,I didn't kill him, I didn't even cripple him.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我没杀他  也没废了他
+Dialogue: 0,0:44:25.55,0:44:27.97,英上中下,,0000,0000,0000,,6 months in contraption, that's all, tops.\N{\fn华文楷体\fs16\1c&HE0E0E0&}也就卧床6个月吧  顶天了
+Dialogue: 0,0:44:28.38,0:44:30.02,英上中下,,0000,0000,0000,,I took an eye out of him though.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不过我卸了他一只眼珠子
+Dialogue: 0,0:44:32.89,0:44:34.55,英上中下,,0000,0000,0000,,Listen, before you say anything.\N{\fn华文楷体\fs16\1c&HE0E0E0&}听着  我先声明
+Dialogue: 0,0:44:34.55,0:44:37.74,英上中下,,0000,0000,0000,,I know I was supposed to take this down to make my getaway\N{\fn华文楷体\fs16\1c&HE0E0E0&}我知道我本该低调点跑路的
+Dialogue: 0,0:44:37.74,0:44:40.16,英上中下,,0000,0000,0000,,but when I saw this beauty here sitting there, you know\N{\fn华文楷体\fs16\1c&HE0E0E0&}可当我看见这尤物停在那里  你懂的
+Dialogue: 0,0:44:40.17,0:44:41.72,英上中下,,0000,0000,0000,,the key in the ignition and everything,\N{\fn华文楷体\fs16\1c&HE0E0E0&}钥匙插好了  可以直接开走
+Dialogue: 0,0:44:41.72,0:44:43.85,英上中下,,0000,0000,0000,,I couldn't pass a chance to, uh,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我可不能错过机会
+Dialogue: 0,0:44:43.93,0:44:46.06,英上中下,,0000,0000,0000,,take a drive and get us on this tucker.\N{\fn华文楷体\fs16\1c&HE0E0E0&}咱俩一起开车爽一爽
+Dialogue: 0,0:44:46.06,0:44:47.28,英上中下,,0000,0000,0000,,Pull over!\N{\fn华文楷体\fs16\1c&HE0E0E0&}靠边停车
+Dialogue: 0,0:44:50.99,0:44:53.41,英上中下,,0000,0000,0000,,You know, they only made a couple of these beauties\N{\fn华文楷体\fs16\1c&HE0E0E0&}这种车一共也没生产几辆
+Dialogue: 0,0:44:53.61,0:44:55.15,英上中下,,0000,0000,0000,,I saw a movie about it once.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我还看过一部有关它的电影
+Dialogue: 0,0:44:55.76,0:44:58.77,英上中下,,0000,0000,0000,,Oh, here I'm, jabbering and you're leaking all over the place.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我在这儿说了半天  你都快血流成河了
+Dialogue: 0,0:45:00.63,0:45:02.24,英上中下,,0000,0000,0000,,I'll get you to a guy I know.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我带你去我一朋友那儿
+Dialogue: 0,0:45:03.45,0:45:06.52,英上中下,,0000,0000,0000,,He's good with bullets and uh, he don't ask no questions.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他擅长处理枪伤  也不会问东问西
+Dialogue: 0,0:45:06.84,0:45:08.51,英上中下,,0000,0000,0000,,Get me to old town.\N{\fn华文楷体\fs16\1c&HE0E0E0&}带我去老城
+Dialogue: 0,0:45:08.71,0:45:10.24,英上中下,,0000,0000,0000,,Let me level with you, pal.\N{\fn华文楷体\fs16\1c&HE0E0E0&}伙计  我实话跟你说
+Dialogue: 0,0:45:10.33,0:45:11.80,英上中下,,0000,0000,0000,,You ain't gonna make it to old town.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你撑不到老城的
+Dialogue: 0,0:45:12.57,0:45:13.51,英上中下,,0000,0000,0000,,I'll make it.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我能坚持住
+Dialogue: 0,0:45:14.17,0:45:17.14,英上中下,,0000,0000,0000,,I got too much I got to do to let myself die.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我还有很多事未完之事  不能死
+Dialogue: 0,0:45:19.50,0:45:20.72,英上中下,,0000,0000,0000,,old town.\N{\fn华文楷体\fs16\1c&HE0E0E0&}去老城
+Dialogue: 0,0:45:25.38,0:45:27.28,英上中下,,0000,0000,0000,,He left a lot of blood, Mrs. Lord.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他流了很多血  洛德夫人
+Dialogue: 0,0:45:27.71,0:45:28.82,英上中下,,0000,0000,0000,,He won't get far.\N{\fn华文楷体\fs16\1c&HE0E0E0&}跑不了多远的
+Dialogue: 0,0:45:30.52,0:45:32.07,英上中下,,0000,0000,0000,,You said you knew him.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你说你认识他
+Dialogue: 0,0:45:32.90,0:45:34.69,英上中下,,0000,0000,0000,,The killer's name is Dwight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}凶手叫德怀特
+Dialogue: 0,0:45:34.98,0:45:36.24,英上中下,,0000,0000,0000,,Dwight McCarthy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}德怀特·麦卡锡
+Dialogue: 0,0:45:37.17,0:45:38.48,英上中下,,0000,0000,0000,,You know him in what sense?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你们是什么关系
+Dialogue: 0,0:45:38.83,0:45:40.45,英上中下,,0000,0000,0000,,Why, a depplicable one.\N{\fn华文楷体\fs16\1c&HE0E0E0&}难以启齿的关系
+Dialogue: 0,0:45:41.37,0:45:45.45,英上中下,,0000,0000,0000,,I'm sorry, lieutenant. You've been so very patient with me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}抱歉  警长  您对我这么耐心
+Dialogue: 0,0:45:45.72,0:45:47.90,英上中下,,0000,0000,0000,,You and I barely met but already...\N{\fn华文楷体\fs16\1c&HE0E0E0&}你我虽然素未谋面
+Dialogue: 0,0:45:48.60,0:45:50.23,英上中下,,0000,0000,0000,,I feel I can trust you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但我觉得我能信任您
+Dialogue: 0,0:45:50.26,0:45:51.48,英上中下,,0000,0000,0000,,You can trust me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你可以信任我
+Dialogue: 0,0:45:54.53,0:45:56.85,英上中下,,0000,0000,0000,,We were together for a while a few years ago.\N{\fn华文楷体\fs16\1c&HE0E0E0&}几年前我们在一起过一段时间
+Dialogue: 0,0:45:57.90,0:45:59.03,英上中下,,0000,0000,0000,,It went badly.\N{\fn华文楷体\fs16\1c&HE0E0E0&}结果不是很好
+Dialogue: 0,0:46:00.29,0:46:01.77,英上中下,,0000,0000,0000,,He went insane.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他变得很不正常
+Dialogue: 0,0:46:02.06,0:46:05.13,英上中下,,0000,0000,0000,,He started imagining things, accusing me of things.\N{\fn华文楷体\fs16\1c&HE0E0E0&}开始自我幻想  并且胡乱指责我
+Dialogue: 0,0:46:05.13,0:46:07.18,英上中下,,0000,0000,0000,,He followed me wherever I went.\N{\fn华文楷体\fs16\1c&HE0E0E0&}无论我去哪儿他都跟着我
+Dialogue: 0,0:46:07.73,0:46:10.47,英上中下,,0000,0000,0000,,Recently, he broke into this very property.\N{\fn华文楷体\fs16\1c&HE0E0E0&}最近  他还擅自闯进这栋房子
+Dialogue: 0,0:46:10.85,0:46:11.90,英上中下,,0000,0000,0000,,Did he beat you?\N{\fn华文楷体\fs16\1c&HE0E0E0&}他打过你吗
+Dialogue: 0,0:46:13.95,0:46:15.17,英上中下,,0000,0000,0000,,When he drank.\N{\fn华文楷体\fs16\1c&HE0E0E0&}喝醉的时候会
+Dialogue: 0,0:46:16.17,0:46:17.44,英上中下,,0000,0000,0000,,He drank a lot.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他是个酒鬼
+Dialogue: 0,0:46:17.72,0:46:18.91,英上中下,,0000,0000,0000,,You stayed with this nutcase?\N{\fn华文楷体\fs16\1c&HE0E0E0&}那你还跟这个疯子在一起
+Dialogue: 0,0:46:18.91,0:46:20.16,英上中下,,0000,0000,0000,,Never mind that.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你不用理会他
+Dialogue: 0,0:46:21.50,0:46:23.72,英上中下,,0000,0000,0000,,You'll be surprise how much a woman can take.\N{\fn华文楷体\fs16\1c&HE0E0E0&}女人的容忍度超乎你的想象
+Dialogue: 0,0:46:23.72,0:46:25.15,英上中下,,0000,0000,0000,,You were terrified.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你吓坏了
+Dialogue: 0,0:46:28.17,0:46:30.36,英上中下,,0000,0000,0000,,It was Damien who took me away.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是达米安给了我新生
+Dialogue: 0,0:46:31.33,0:46:35.14,英上中下,,0000,0000,0000,,He was so...gentle and sure.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他是那么体贴  那么可靠
+Dialogue: 0,0:46:35.71,0:46:39.27,英上中下,,0000,0000,0000,,I suppose I'm a woman who needs...protection.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我想我是个需要保护的女人
+Dialogue: 0,0:46:39.78,0:46:41.33,英上中下,,0000,0000,0000,,He made me feel safe\N{\fn华文楷体\fs16\1c&HE0E0E0&}他让我很有安全感
+Dialogue: 0,0:46:41.67,0:46:44.62,英上中下,,0000,0000,0000,,but then, Dwight, he found me somehow.\N{\fn华文楷体\fs16\1c&HE0E0E0&}然而  德怀特  他最终还是找到了我
+Dialogue: 0,0:46:44.62,0:46:49.14,英上中下,,0000,0000,0000,,He started calling me late at night, making awful threats.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他在半夜给我打恐吓电话
+Dialogue: 0,0:46:50.53,0:46:52.29,英上中下,,0000,0000,0000,,And now Damien is dead\N{\fn华文楷体\fs16\1c&HE0E0E0&}现在达米安死了
+Dialogue: 0,0:46:53.60,0:46:54.80,英上中下,,0000,0000,0000,,and I'm alone.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我孤身一人
+Dialogue: 0,0:46:55.45,0:46:57.51,英上中下,,0000,0000,0000,,Oh please, lieutenant.\N{\fn华文楷体\fs16\1c&HE0E0E0&}请帮帮我  警长
+Dialogue: 0,0:47:03.58,0:47:04.77,英上中下,,0000,0000,0000,,Call me Mort.\N{\fn华文楷体\fs16\1c&HE0E0E0&}叫我莫特吧
+Dialogue: 0,0:47:05.56,0:47:07.55,英上中下,,0000,0000,0000,,Nothing like a widow in need of confort.\N{\fn华文楷体\fs16\1c&HE0E0E0&}需要安慰的寡妇真是撩人
+Dialogue: 0,0:47:07.93,0:47:09.71,英上中下,,0000,0000,0000,,I got a stiffy just watching her.\N{\fn华文楷体\fs16\1c&HE0E0E0&}光是看着就有点把持不住了
+Dialogue: 0,0:47:09.71,0:47:11.69,英上中下,,0000,0000,0000,,- Man, she's prime. - Just drop it, Bob.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-她真有韵味  -别说了  鲍勃
+Dialogue: 0,0:47:11.70,0:47:13.10,英上中下,,0000,0000,0000,,You don't pass up a chance like that.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这等大好机会岂能错过
+Dialogue: 0,0:47:13.10,0:47:14.95,英上中下,,0000,0000,0000,,What's the point of being a Sin City cop\N{\fn华文楷体\fs16\1c&HE0E0E0&}要是没有点好处
+Dialogue: 0,0:47:14.96,0:47:16.52,英上中下,,0000,0000,0000,,if you don't get the perks?\N{\fn华文楷体\fs16\1c&HE0E0E0&}在罪恶之城当警察还有什么意思
+Dialogue: 0,0:47:17.37,0:47:18.87,英上中下,,0000,0000,0000,,We're married man, Bob.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们是有妇之夫  鲍勃
+Dialogue: 0,0:47:20.04,0:47:21.74,英上中下,,0000,0000,0000,,I don't care what you are.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我才不管你是什么
+Dialogue: 0,0:47:21.78,0:47:24.08,英上中下,,0000,0000,0000,,Will you just take a look at that babe!\N{\fn华文楷体\fs16\1c&HE0E0E0&}看看那美人
+Dialogue: 0,0:47:24.22,0:47:25.51,英上中下,,0000,0000,0000,,That's enough, Bob.\N{\fn华文楷体\fs16\1c&HE0E0E0&}行了  鲍勃
+Dialogue: 0,0:47:32.41,0:47:34.09,英上中下,,0000,0000,0000,,This doesn't look good.\N{\fn华文楷体\fs16\1c&HE0E0E0&}情况不太妙
+Dialogue: 0,0:47:42.25,0:47:44.61,英上中下,,0000,0000,0000,,One squad car still chases us.\N{\fn华文楷体\fs16\1c&HE0E0E0&}有辆警车还在追我们
+Dialogue: 0,0:47:44.61,0:47:46.64,英上中下,,0000,0000,0000,,Must be a rookie driving.\N{\fn华文楷体\fs16\1c&HE0E0E0&}肯定是个新手
+Dialogue: 0,0:47:46.75,0:47:48.02,英上中下,,0000,0000,0000,,His buddy should've told him\N{\fn华文楷体\fs16\1c&HE0E0E0&}那些哥们儿应该告诉他
+Dialogue: 0,0:47:48.02,0:47:51.27,英上中下,,0000,0000,0000,,the girls of old town have laws all their own,\N{\fn华文楷体\fs16\1c&HE0E0E0&}老城的姑娘们有自己的行事方法
+Dialogue: 0,0:47:51.65,0:47:54.19,英上中下,,0000,0000,0000,,and they don't take kind to the cops.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她们对条子可不会手下留情
+Dialogue: 0,0:47:54.85,0:47:56.24,英上中下,,0000,0000,0000,,Oh, look that.\N{\fn华文楷体\fs16\1c&HE0E0E0&}瞧啊
+Dialogue: 0,0:47:56.70,0:47:58.77,英上中下,,0000,0000,0000,,Oh, you're a genius, girl.\N{\fn华文楷体\fs16\1c&HE0E0E0&}姑娘们  你们太赞了
+Dialogue: 0,0:48:28.58,0:48:30.21,英上中下,,0000,0000,0000,,Here we are, pal.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们到了  伙计
+Dialogue: 0,0:48:30.48,0:48:34.15,英上中下,,0000,0000,0000,,Out of a sudden this doesn't look like the brightest idea you ever had.\N{\fn华文楷体\fs16\1c&HE0E0E0&}好像来这不怎么明智
+Dialogue: 0,0:48:36.29,0:48:37.97,英上中下,,0000,0000,0000,,You've 10 seconds to tell us\N{\fn华文楷体\fs16\1c&HE0E0E0&}给你10秒钟
+Dialogue: 0,0:48:37.97,0:48:40.69,英上中下,,0000,0000,0000,,what you're doing bringing cops to old town.\N{\fn华文楷体\fs16\1c&HE0E0E0&}交代为什么把条子招来老城
+Dialogue: 0,0:48:41.74,0:48:43.17,英上中下,,0000,0000,0000,,Here's the problem.\N{\fn华文楷体\fs16\1c&HE0E0E0&}问题来了
+Dialogue: 0,0:48:44.28,0:48:45.83,英上中下,,0000,0000,0000,,I don't fight girls.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我从不打女人
+Dialogue: 0,0:48:45.83,0:48:46.92,英上中下,,0000,0000,0000,,Gail!\N{\fn华文楷体\fs16\1c&HE0E0E0&}盖尔
+Dialogue: 0,0:48:49.44,0:48:51.17,英上中下,,0000,0000,0000,,- It's me. - Dwight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-是我  -德怀特
+Dialogue: 0,0:48:53.19,0:48:54.62,英上中下,,0000,0000,0000,,What have they done to you?\N{\fn华文楷体\fs16\1c&HE0E0E0&}他们对你做了什么
+Dialogue: 0,0:48:54.98,0:48:58.12,英上中下,,0000,0000,0000,,The cork screw stamps me square in the chest\N{\fn华文楷体\fs16\1c&HE0E0E0&}子弹正中胸口
+Dialogue: 0,0:48:59.90,0:49:01.44,英上中下,,0000,0000,0000,,and twists.\N{\fn华文楷体\fs16\1c&HE0E0E0&}使我苦不堪言
+Dialogue: 0,0:49:02.16,0:49:03.58,英上中下,,0000,0000,0000,,Get Molly!\N{\fn华文楷体\fs16\1c&HE0E0E0&}快去叫莫莉
+Dialogue: 0,0:49:05.07,0:49:06.45,英上中下,,0000,0000,0000,,Get everybody.\N{\fn华文楷体\fs16\1c&HE0E0E0&}叫所有人都过来
+Dialogue: 0,0:49:22.18,0:49:23.76,英上中下,,0000,0000,0000,,It's about time.\N{\fn华文楷体\fs16\1c&HE0E0E0&}终于打来了
+Dialogue: 0,0:49:26.44,0:49:29.02,英上中下,,0000,0000,0000,,- Hello? - Mrs. Lord.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-喂  -洛德夫人
+Dialogue: 0,0:49:29.61,0:49:34.18,英上中下,,0000,0000,0000,,Lieutenant...Mort. You're so kind to call.\N{\fn华文楷体\fs16\1c&HE0E0E0&}警长  莫特  你能来电话真是太好了
+Dialogue: 0,0:49:34.18,0:49:35.54,英上中下,,0000,0000,0000,,I hope I didn't wake you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}希望我没打搅你休息
+Dialogue: 0,0:49:35.54,0:49:38.62,英上中下,,0000,0000,0000,,No, I wasn't sleeping. I haven't slept at all.\N{\fn华文楷体\fs16\1c&HE0E0E0&}没  我没睡觉  我完全睡不着
+Dialogue: 0,0:49:38.78,0:49:40.56,英上中下,,0000,0000,0000,,I'm jumping at every sound,\N{\fn华文楷体\fs16\1c&HE0E0E0&}一想到他还逍遥法外
+Dialogue: 0,0:49:40.56,0:49:42.86,英上中下,,0000,0000,0000,,just knowing he's still out there.\N{\fn华文楷体\fs16\1c&HE0E0E0&}任何声响都让我坐立不安
+Dialogue: 0,0:49:42.99,0:49:45.88,英上中下,,0000,0000,0000,,I guess I'm not a very strong person.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我想我还是不够坚强吧
+Dialogue: 0,0:49:46.83,0:49:49.82,英上中下,,0000,0000,0000,,And me in the house all alone.\N{\fn华文楷体\fs16\1c&HE0E0E0&}而且又孤身一人在这空旷的房子里
+Dialogue: 0,0:49:49.82,0:49:51.91,英上中下,,0000,0000,0000,,You shouldn't be so hard on yourself, Mrs. Lord.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别把自己逼这么紧  洛德夫人
+Dialogue: 0,0:49:51.91,0:49:54.08,英上中下,,0000,0000,0000,,You're having a very understandable reaction.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不安是正常的
+Dialogue: 0,0:49:54.08,0:49:56.45,英上中下,,0000,0000,0000,,Is there any thing at all I can do for you?\N{\fn华文楷体\fs16\1c&HE0E0E0&}有什么我能为你做的吗
+Dialogue: 0,0:49:56.45,0:49:59.56,英上中下,,0000,0000,0000,,I know it's a bad thing to think of you the way I do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我知道我这样很不好
+Dialogue: 0,0:49:59.56,0:50:02.77,英上中下,,0000,0000,0000,,It's...inconvenient.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这会给你添麻烦
+Dialogue: 0,0:50:03.12,0:50:04.29,英上中下,,0000,0000,0000,,But whoever loved,\N{\fn华文楷体\fs16\1c&HE0E0E0&}但是坠入爱河的人
+Dialogue: 0,0:50:04.30,0:50:06.43,英上中下,,0000,0000,0000,,love not at first sight?\N{\fn华文楷体\fs16\1c&HE0E0E0&}又有谁不是一见钟情呢
+Dialogue: 0,0:50:07.64,0:50:10.57,英上中下,,0000,0000,0000,,I thought about you since I saw you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我自见面后就对你无法忘怀
+Dialogue: 0,0:50:12.01,0:50:14.12,英上中下,,0000,0000,0000,,I'm thinking about you now.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我现在就在想你
+Dialogue: 0,0:50:14.12,0:50:16.36,英上中下,,0000,0000,0000,,Were you thinking about me?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你有想我吗
+Dialogue: 0,0:50:17.67,0:50:18.61,英上中下,,0000,0000,0000,,Yes.\N{\fn华文楷体\fs16\1c&HE0E0E0&}有
+Dialogue: 0,0:50:18.61,0:50:20.99,英上中下,,0000,0000,0000,,I hate myself for saying this but\N{\fn华文楷体\fs16\1c&HE0E0E0&}我不想说出来
+Dialogue: 0,0:50:20.99,0:50:25.10,英上中下,,0000,0000,0000,,I just don't know if I could bear to be alone tonight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但我觉得漫漫长夜一个人没法过
+Dialogue: 0,0:50:50.59,0:50:52.16,英上中下,,0000,0000,0000,,My heart beats.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我的心还在跳
+Dialogue: 0,0:50:52.16,0:50:55.32,英上中下,,0000,0000,0000,,I take in the rich burnt smell of coffee.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我闻到了煮咖啡的香味
+Dialogue: 0,0:50:59.39,0:51:03.39,英上中下,,0000,0000,0000,,Gail! She's reason enough to open my eyes.\N{\fn华文楷体\fs16\1c&HE0E0E0&}盖尔  她足以唤醒我了
+Dialogue: 0,0:51:03.39,0:51:04.92,英上中下,,0000,0000,0000,,Can you hear me, Dwight?\N{\fn华文楷体\fs16\1c&HE0E0E0&}能听见我说话吗  德怀特
+Dialogue: 0,0:51:06.45,0:51:08.64,英上中下,,0000,0000,0000,,The cops want you bad, Dwight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}条子们正在找你  德怀特
+Dialogue: 0,0:51:08.96,0:51:10.36,英上中下,,0000,0000,0000,,Really bad.\N{\fn华文楷体\fs16\1c&HE0E0E0&}情况很严峻
+Dialogue: 0,0:51:11.13,0:51:12.25,英上中下,,0000,0000,0000,,Don't worry.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别担心
+Dialogue: 0,0:51:12.95,0:51:14.37,英上中下,,0000,0000,0000,,We'll fix you up\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们会治好你的
+Dialogue: 0,0:51:14.78,0:51:16.04,英上中下,,0000,0000,0000,,and when we do,\N{\fn华文楷体\fs16\1c&HE0E0E0&}到那时候
+Dialogue: 0,0:51:16.35,0:51:18.26,英上中下,,0000,0000,0000,,when you're all better,\N{\fn华文楷体\fs16\1c&HE0E0E0&}等你好了
+Dialogue: 0,0:51:18.83,0:51:21.92,英上中下,,0000,0000,0000,,I'll dag you for leaving in the first place!\N{\fn华文楷体\fs16\1c&HE0E0E0&}咱们再好好聊聊你当初一走了之的事
+Dialogue: 0,0:51:21.92,0:51:23.88,英上中下,,0000,0000,0000,,I told you, you would be back.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我说过  你总有一天会回来的
+Dialogue: 0,0:51:23.97,0:51:25.28,英上中下,,0000,0000,0000,,I told you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我告诉过你了
+Dialogue: 0,0:51:26.19,0:51:27.89,英上中下,,0000,0000,0000,,You belong here.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你属于这里
+Dialogue: 0,0:51:28.42,0:51:29.54,英上中下,,0000,0000,0000,,Jerk!\N{\fn华文楷体\fs16\1c&HE0E0E0&}混蛋
+Dialogue: 0,0:51:30.64,0:51:33.09,英上中下,,0000,0000,0000,,I thought there's another world out there.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我以为外面还有另一个世界
+Dialogue: 0,0:51:33.93,0:51:36.01,英上中下,,0000,0000,0000,,I thought I could be a part of it.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我以为我可以融进去
+Dialogue: 0,0:51:36.82,0:51:38.64,英上中下,,0000,0000,0000,,There's only Sin City.\N{\fn华文楷体\fs16\1c&HE0E0E0&}外面只有罪恶之城
+Dialogue: 0,0:51:42.61,0:51:44.61,英上中下,,0000,0000,0000,,Molly said you're ready to leave.\N{\fn华文楷体\fs16\1c&HE0E0E0&}莫莉说你准备走了
+Dialogue: 0,0:51:44.73,0:51:46.38,英上中下,,0000,0000,0000,,No, I'm staying.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不  我要留下来
+Dialogue: 0,0:51:46.38,0:51:47.54,英上中下,,0000,0000,0000,,Wrong answer.\N{\fn华文楷体\fs16\1c&HE0E0E0&}回答错误
+Dialogue: 0,0:51:47.55,0:51:48.55,英上中下,,0000,0000,0000,,Miho.\N{\fn华文楷体\fs16\1c&HE0E0E0&}米霍
+Dialogue: 0,0:51:50.08,0:51:52.03,英上中下,,0000,0000,0000,,Deadly little Miho.\N{\fn华文楷体\fs16\1c&HE0E0E0&}致命的米霍
+Dialogue: 0,0:51:52.30,0:51:55.19,英上中下,,0000,0000,0000,,If she recognizes me, she doesn't let it show.\N{\fn华文楷体\fs16\1c&HE0E0E0&}就算她认出我  也不会显露出来
+Dialogue: 0,0:51:55.20,0:51:58.05,英上中下,,0000,0000,0000,,Oh, you picked the wrong neighborhood for your hideout.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你真是选错了藏身之处
+Dialogue: 0,0:51:58.05,0:52:00.54,英上中下,,0000,0000,0000,,Alive or dead, you're leaving.\N{\fn华文楷体\fs16\1c&HE0E0E0&}无论你是死是活  都必须得走
+Dialogue: 0,0:52:00.54,0:52:01.84,英上中下,,0000,0000,0000,,I'm staying.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我要留在这儿
+Dialogue: 0,0:52:06.29,0:52:08.55,英上中下,,0000,0000,0000,,I don't think he can feel it, Miho.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我觉得他感觉不到  米霍
+Dialogue: 0,0:52:08.56,0:52:10.20,英上中下,,0000,0000,0000,,Give it a twist.\N{\fn华文楷体\fs16\1c&HE0E0E0&}把刀拧一拧
+Dialogue: 0,0:52:11.54,0:52:14.38,英上中下,,0000,0000,0000,,You won't give with anymore lip about staying here,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你别再说要留下来的话了
+Dialogue: 0,0:52:14.38,0:52:17.72,英上中下,,0000,0000,0000,,or Miho will have to...exhale.\N{\fn华文楷体\fs16\1c&HE0E0E0&}否则米霍就得把你...除掉
+Dialogue: 0,0:52:18.12,0:52:20.29,英上中下,,0000,0000,0000,,And that heart Molly worked so hard to fix\N{\fn华文楷体\fs16\1c&HE0E0E0&}而莫莉千辛万苦拯救回来的小心脏
+Dialogue: 0,0:52:20.29,0:52:22.30,英上中下,,0000,0000,0000,,will just pop like a grape.\N{\fn华文楷体\fs16\1c&HE0E0E0&}也保不住了
+Dialogue: 0,0:52:22.32,0:52:23.60,英上中下,,0000,0000,0000,,He's staying.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他会留下
+Dialogue: 0,0:52:23.94,0:52:25.88,英上中下,,0000,0000,0000,,And if you're gonna kill him,\N{\fn华文楷体\fs16\1c&HE0E0E0&}如果你们要杀了他
+Dialogue: 0,0:52:26.20,0:52:27.90,英上中下,,0000,0000,0000,,you better kill me too,\N{\fn华文楷体\fs16\1c&HE0E0E0&}最好连我也一起杀了
+Dialogue: 0,0:52:28.67,0:52:31.19,英上中下,,0000,0000,0000,,eventhough he doesn't feel the same way about me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}虽然他没爱过我
+Dialogue: 0,0:52:31.70,0:52:33.72,英上中下,,0000,0000,0000,,He's the only man I ever loved.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但我只爱过他一个
+Dialogue: 0,0:52:33.72,0:52:36.95,英上中下,,0000,0000,0000,,They all seem to be waiting for the other shoe to drop,\N{\fn华文楷体\fs16\1c&HE0E0E0&}大家似乎都在等其他人动作
+Dialogue: 0,0:52:37.58,0:52:39.22,英上中下,,0000,0000,0000,,Gail drops it.\N{\fn华文楷体\fs16\1c&HE0E0E0&}盖尔先开口了
+Dialogue: 0,0:52:39.22,0:52:41.69,英上中下,,0000,0000,0000,,It was dark in that alley, Miho.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那晚路很黑  米霍
+Dialogue: 0,0:52:41.85,0:52:46.18,英上中下,,0000,0000,0000,,When you were 15, you killed three of the thugs.\N{\fn华文楷体\fs16\1c&HE0E0E0&}当时你15岁  你杀了三个暴徒
+Dialogue: 0,0:52:46.89,0:52:49.87,英上中下,,0000,0000,0000,,But the last two have a drop on you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但你身后还有两个
+Dialogue: 0,0:52:49.92,0:52:51.39,英上中下,,0000,0000,0000,,You were dead,\N{\fn华文楷体\fs16\1c&HE0E0E0&}要不是有人出现
+Dialogue: 0,0:52:52.19,0:52:53.97,英上中下,,0000,0000,0000,,until someone appeared.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你已经死了
+Dialogue: 0,0:52:54.51,0:52:57.08,英上中下,,0000,0000,0000,,You never got a good look at the man who saved you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你没看清救你的人是谁
+Dialogue: 0,0:52:57.88,0:52:59.39,英上中下,,0000,0000,0000,,Take a look now.\N{\fn华文楷体\fs16\1c&HE0E0E0&}现在仔细看看吧
+Dialogue: 0,0:53:05.45,0:53:07.06,英上中下,,0000,0000,0000,,I get more time\N{\fn华文楷体\fs16\1c&HE0E0E0&}我得到了更多的时间
+Dialogue: 0,0:53:08.46,0:53:10.11,英上中下,,0000,0000,0000,,and more surgery.\N{\fn华文楷体\fs16\1c&HE0E0E0&}以及更多的手术
+Dialogue: 0,0:53:11.84,0:53:13.64,英上中下,,0000,0000,0000,,Listen, there's only one person\N{\fn华文楷体\fs16\1c&HE0E0E0&}听着  只有一个人
+Dialogue: 0,0:53:13.64,0:53:16.20,英上中下,,0000,0000,0000,,that has anything to gain for snuffimg Damien Lord\N{\fn华文楷体\fs16\1c&HE0E0E0&}能从达米安·洛德的死中获利
+Dialogue: 0,0:53:16.20,0:53:17.79,英上中下,,0000,0000,0000,,and you're too busy banging the broth\N{\fn华文楷体\fs16\1c&HE0E0E0&}而你却在忙着跟她鬼混
+Dialogue: 0,0:53:17.79,0:53:19.07,英上中下,,0000,0000,0000,,to bring her in for questioning!\N{\fn华文楷体\fs16\1c&HE0E0E0&}妨碍审讯进程
+Dialogue: 0,0:53:19.07,0:53:20.17,英上中下,,0000,0000,0000,,You don't know her.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你不了解她
+Dialogue: 0,0:53:20.17,0:53:21.29,英上中下,,0000,0000,0000,,You don't know anything about her and\N{\fn华文楷体\fs16\1c&HE0E0E0&}你根本不了解她
+Dialogue: 0,0:53:21.29,0:53:23.21,英上中下,,0000,0000,0000,,I'll be damned if I let you use that kind of language\N{\fn华文楷体\fs16\1c&HE0E0E0&}你再这么说她
+Dialogue: 0,0:53:23.21,0:53:24.49,英上中下,,0000,0000,0000,,when you talk about her.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我就不客气了
+Dialogue: 0,0:53:24.49,0:53:25.88,英上中下,,0000,0000,0000,,You're in love with her!\N{\fn华文楷体\fs16\1c&HE0E0E0&}你爱上她了
+Dialogue: 0,0:53:26.25,0:53:28.27,英上中下,,0000,0000,0000,,You stupid smug!\N{\fn华文楷体\fs16\1c&HE0E0E0&}你个蠢货
+Dialogue: 0,0:53:28.27,0:53:30.48,英上中下,,0000,0000,0000,,It's one thing to poke a babe on the side,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你跟她私下幽会是一回事
+Dialogue: 0,0:53:30.48,0:53:31.64,英上中下,,0000,0000,0000,,but you can't even think straight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但你现在简直被迷昏了头
+Dialogue: 0,0:53:31.64,0:53:33.17,英上中下,,0000,0000,0000,,Shut the hell up!\N{\fn华文楷体\fs16\1c&HE0E0E0&}你他妈给我闭嘴
+Dialogue: 0,0:53:34.26,0:53:35.76,英上中下,,0000,0000,0000,,I know what I'm doing.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我知道我在干什么
+Dialogue: 0,0:53:36.56,0:53:38.70,英上中下,,0000,0000,0000,,I guess I should've told you everything.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我本该把一切都告诉你的
+Dialogue: 0,0:53:40.03,0:53:41.85,英上中下,,0000,0000,0000,,You're damn right you should've.\N{\fn华文楷体\fs16\1c&HE0E0E0&}没错  你应该说
+Dialogue: 0,0:53:45.04,0:53:46.82,英上中下,,0000,0000,0000,,He raped me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他强奸了我
+Dialogue: 0,0:53:48.31,0:53:50.44,英上中下,,0000,0000,0000,,He almost killed me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}还差点杀了我
+Dialogue: 0,0:53:51.15,0:53:52.52,英上中下,,0000,0000,0000,,That son of a bitch!\N{\fn华文楷体\fs16\1c&HE0E0E0&}那个混蛋
+Dialogue: 0,0:53:52.52,0:53:55.14,英上中下,,0000,0000,0000,,I thought I could reason with him but\N{\fn华文楷体\fs16\1c&HE0E0E0&}我以为我能跟他讲道理
+Dialogue: 0,0:53:55.81,0:53:58.12,英上中下,,0000,0000,0000,,he was worse than ever.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但他比以前更疯狂
+Dialogue: 0,0:53:58.21,0:54:00.33,英上中下,,0000,0000,0000,,His hands at my throat,\N{\fn华文楷体\fs16\1c&HE0E0E0&}他的手掐着我的喉咙
+Dialogue: 0,0:54:00.34,0:54:05.21,英上中下,,0000,0000,0000,,strangling me while he did what he needed to do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}强奸我的时候一直掐着
+Dialogue: 0,0:54:09.43,0:54:12.45,英上中下,,0000,0000,0000,,He will kill me, kill me, kill me...\N{\fn华文楷体\fs16\1c&HE0E0E0&}他会杀了我的  杀了我  杀了我
+Dialogue: 0,0:54:12.46,0:54:13.79,英上中下,,0000,0000,0000,,I have only you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我只有你了
+Dialogue: 0,0:54:13.79,0:54:15.02,英上中下,,0000,0000,0000,,I love you, Mort.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我爱你  莫特
+Dialogue: 0,0:54:15.02,0:54:16.37,英上中下,,0000,0000,0000,,Keep me safe.\N{\fn华文楷体\fs16\1c&HE0E0E0&}保护我
+Dialogue: 0,0:54:16.37,0:54:19.51,英上中下,,0000,0000,0000,,Keep me, keep me, keep me...\N{\fn华文楷体\fs16\1c&HE0E0E0&}保护我  保护我  保护我
+Dialogue: 0,0:54:22.01,0:54:23.49,英上中下,,0000,0000,0000,,Ava Lord.\N{\fn华文楷体\fs16\1c&HE0E0E0&}艾娃·洛德
+Dialogue: 0,0:54:23.62,0:54:25.62,英上中下,,0000,0000,0000,,For once you missed my heart.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这次你没打中我的心
+Dialogue: 0,0:54:26.47,0:54:28.51,英上中下,,0000,0000,0000,,I'm healing quickly, Ava.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我恢复得很快  艾娃
+Dialogue: 0,0:54:29.93,0:54:32.01,英上中下,,0000,0000,0000,,I'll be coming for you soon.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我马上就能去找你算账了
+Dialogue: 0,0:54:35.48,0:54:38.25,英上中下,,0000,0000,0000,,You know where he is and you won't do a damn thing about it!\N{\fn华文楷体\fs16\1c&HE0E0E0&}你明知道他在哪却什么都不做
+Dialogue: 0,0:54:38.25,0:54:40.84,英上中下,,0000,0000,0000,,You don't know what you're asking.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你不知道这有多难
+Dialogue: 0,0:54:40.86,0:54:43.30,英上中下,,0000,0000,0000,,We've to wait for old town to give him up,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们得等老城的人把他放出来再说
+Dialogue: 0,0:54:43.30,0:54:44.75,英上中下,,0000,0000,0000,,it's the only way.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这是唯一的办法
+Dialogue: 0,0:54:45.45,0:54:47.13,英上中下,,0000,0000,0000,,You're a Sin City cop.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你是罪恶之城的警察
+Dialogue: 0,0:54:47.13,0:54:49.71,英上中下,,0000,0000,0000,,You got a badge and a gun. You got power.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你拿着警徽配着枪  你有权力
+Dialogue: 0,0:54:49.71,0:54:50.91,英上中下,,0000,0000,0000,,Use it!\N{\fn华文楷体\fs16\1c&HE0E0E0&}好好利用
+Dialogue: 0,0:54:52.35,0:54:54.85,英上中下,,0000,0000,0000,,If you ever want to have this woman again,\N{\fn华文楷体\fs16\1c&HE0E0E0&}如果你还想要我
+Dialogue: 0,0:54:55.47,0:54:58.25,英上中下,,0000,0000,0000,,be a man. If you're a man...\N{\fn华文楷体\fs16\1c&HE0E0E0&}那就像个男人  如果你是个男人
+Dialogue: 0,0:54:59.09,0:55:00.28,英上中下,,0000,0000,0000,,kill him!\N{\fn华文楷体\fs16\1c&HE0E0E0&}杀了他
+Dialogue: 0,0:55:08.29,0:55:10.28,英上中下,,0000,0000,0000,,Don't move.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别动
+Dialogue: 0,0:55:10.62,0:55:12.04,英上中下,,0000,0000,0000,,McCarthy...\N{\fn华文楷体\fs16\1c&HE0E0E0&}麦卡锡
+Dialogue: 0,0:55:12.63,0:55:14.42,英上中下,,0000,0000,0000,,You never tortured her.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你没虐待过她
+Dialogue: 0,0:55:15.27,0:55:18.39,英上中下,,0000,0000,0000,,You two cooked that up. You were her lover.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你俩合伙耍了我  你是她的情人
+Dialogue: 0,0:55:18.44,0:55:20.02,英上中下,,0000,0000,0000,,You were a fool.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你这个傻瓜
+Dialogue: 0,0:55:20.04,0:55:22.07,英上中下,,0000,0000,0000,,The goddess takes no lover.\N{\fn华文楷体\fs16\1c&HE0E0E0&}女神没有情人
+Dialogue: 0,0:55:22.94,0:55:25.40,英上中下,,0000,0000,0000,,The goddess makes slave of man.\N{\fn华文楷体\fs16\1c&HE0E0E0&}男人只是她的奴隶
+Dialogue: 0,0:55:25.40,0:55:27.99,英上中下,,0000,0000,0000,,In an instant, she can see thru' the heart of you\N{\fn华文楷体\fs16\1c&HE0E0E0&}只需一瞬  她就能看透你的心
+Dialogue: 0,0:55:28.22,0:55:31.02,英上中下,,0000,0000,0000,,and transformed to your deepest desire.\N{\fn华文楷体\fs16\1c&HE0E0E0&}然后把它转化成你内心最深处的渴望
+Dialogue: 0,0:55:32.17,0:55:35.03,英上中下,,0000,0000,0000,,To Damien Lord, she was the princess bride.\N{\fn华文楷体\fs16\1c&HE0E0E0&}对达米安·洛德来说  她是美丽的新娘
+Dialogue: 0,0:55:35.29,0:55:38.57,英上中下,,0000,0000,0000,,To you, a damsel in distress.\N{\fn华文楷体\fs16\1c&HE0E0E0&}对你来说  她是患难的少女
+Dialogue: 0,0:55:38.71,0:55:40.48,英上中下,,0000,0000,0000,,She devoured all of you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她毁了你们所有人
+Dialogue: 0,0:55:40.85,0:55:43.21,英上中下,,0000,0000,0000,,You cannot defeat the goddess.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你们无法与女神对抗
+Dialogue: 0,0:55:44.28,0:55:46.38,英上中下,,0000,0000,0000,,She cannot die.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她永远都不会死
+Dialogue: 0,0:55:46.38,0:55:48.67,英上中下,,0000,0000,0000,,You're as crazy as she is.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你跟她一样不可理喻
+Dialogue: 0,0:55:48.67,0:55:49.85,英上中下,,0000,0000,0000,,If you were as rotten as her,\N{\fn华文楷体\fs16\1c&HE0E0E0&}要是你也跟她一样烂
+Dialogue: 0,0:55:49.85,0:55:52.01,英上中下,,0000,0000,0000,,I would blow your brains out right now,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我现在会一枪崩了你
+Dialogue: 0,0:55:52.01,0:55:54.42,英上中下,,0000,0000,0000,,but I'm trying to be careful about who I kill\N{\fn华文楷体\fs16\1c&HE0E0E0&}但是我现在不轻易杀人
+Dialogue: 0,0:55:54.42,0:55:57.11,英上中下,,0000,0000,0000,,and all you did was pound the crap out of me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你之前也不过是揍了我一顿而已
+Dialogue: 0,0:55:57.27,0:55:59.21,英上中下,,0000,0000,0000,,You already paid an eye for that.\N{\fn华文楷体\fs16\1c&HE0E0E0&}也已经付出一只眼睛的代价了
+Dialogue: 0,0:55:59.60,0:56:01.58,英上中下,,0000,0000,0000,,I'm letting you go with a warning.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我放你一马  但是警告你
+Dialogue: 0,0:56:02.45,0:56:03.99,英上中下,,0000,0000,0000,,Stay in bed.\N{\fn华文楷体\fs16\1c&HE0E0E0&}老实待在床上
+Dialogue: 0,0:56:04.39,0:56:06.41,英上中下,,0000,0000,0000,,Don't go back to work.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别回去
+Dialogue: 0,0:56:06.95,0:56:09.37,英上中下,,0000,0000,0000,,And don't get in my way.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别挡我的道儿
+Dialogue: 0,0:56:09.84,0:56:12.51,英上中下,,0000,0000,0000,,No, Ava, you're no goddess.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不  艾娃  你不是女神
+Dialogue: 0,0:56:12.57,0:56:14.02,英上中下,,0000,0000,0000,,You're a witch.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你是个女巫
+Dialogue: 0,0:56:14.10,0:56:15.35,英上中下,,0000,0000,0000,,A predator.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一个掠食者
+Dialogue: 0,0:56:15.53,0:56:19.08,英上中下,,0000,0000,0000,,Maybe I only got what I deserved but what about the others?\N{\fn华文楷体\fs16\1c&HE0E0E0&}也许我是罪有应得  但是其他人呢
+Dialogue: 0,0:56:19.11,0:56:21.30,英上中下,,0000,0000,0000,,Good man driven mad.\N{\fn华文楷体\fs16\1c&HE0E0E0&}好人都变得丧心病狂了
+Dialogue: 0,0:56:21.38,0:56:22.87,英上中下,,0000,0000,0000,,You really lost it.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你真是丧失心智了
+Dialogue: 0,0:56:23.03,0:56:24.79,英上中下,,0000,0000,0000,,Bad enough you leave your wife for that skank.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你最好别为了那个婊子离开妻子
+Dialogue: 0,0:56:24.79,0:56:26.76,英上中下,,0000,0000,0000,,You watch what you call her, you son of a bitch.\N{\fn华文楷体\fs16\1c&HE0E0E0&}注意你的用词  狗娘养的
+Dialogue: 0,0:56:26.76,0:56:28.77,英上中下,,0000,0000,0000,,You throw it away your career.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你放弃了你的事业
+Dialogue: 0,0:56:28.78,0:56:31.30,英上中下,,0000,0000,0000,,Now you commit suicide, you stupid shit!\N{\fn华文楷体\fs16\1c&HE0E0E0&}现在又要去自杀  你个笨蛋
+Dialogue: 0,0:56:31.30,0:56:33.28,英上中下,,0000,0000,0000,,I know what I'm doing, I'm going to old town.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我知道我在干什么  我要去老城
+Dialogue: 0,0:56:33.28,0:56:35.32,英上中下,,0000,0000,0000,,I'm going to nail this guy once and for all.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我要彻底了结这个男人
+Dialogue: 0,0:56:35.32,0:56:38.33,英上中下,,0000,0000,0000,,If I had to go it alone, I'll.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你不愿意来可以不来
+Dialogue: 0,0:56:38.34,0:56:39.11,英上中下,,0000,0000,0000,,Do me a favor,\N{\fn华文楷体\fs16\1c&HE0E0E0&}就算我求你了
+Dialogue: 0,0:56:39.12,0:56:41.81,英上中下,,0000,0000,0000,,turn the car around and you go back to the station.\N{\fn华文楷体\fs16\1c&HE0E0E0&}把车掉头  赶紧回警局去
+Dialogue: 0,0:56:41.81,0:56:43.40,英上中下,,0000,0000,0000,,You gotta complain with the captain.\N{\fn华文楷体\fs16\1c&HE0E0E0&}跟局长讲清楚
+Dialogue: 0,0:56:43.40,0:56:45.30,英上中下,,0000,0000,0000,,I'm a cop. I'm doing my job.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我是个警察  在做自己的本职工作
+Dialogue: 0,0:56:45.30,0:56:46.58,英上中下,,0000,0000,0000,,I'm in town for a murder.\N{\fn华文楷体\fs16\1c&HE0E0E0&}去城里抓捕罪犯
+Dialogue: 0,0:56:46.58,0:56:48.19,英上中下,,0000,0000,0000,,You gotta ditch that dame!\N{\fn华文楷体\fs16\1c&HE0E0E0&}别再想那个贱人了
+Dialogue: 0,0:56:48.19,0:56:49.49,英上中下,,0000,0000,0000,,That's enough!\N{\fn华文楷体\fs16\1c&HE0E0E0&}够了
+Dialogue: 0,0:56:49.51,0:56:51.17,英上中下,,0000,0000,0000,,You won't talk about Ava!\N{\fn华文楷体\fs16\1c&HE0E0E0&}不准你说艾娃
+Dialogue: 0,0:56:51.17,0:56:53.25,英上中下,,0000,0000,0000,,Somebody's gonna set you straight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}有人会让你清醒的
+Dialogue: 0,0:56:53.25,0:56:55.45,英上中下,,0000,0000,0000,,You gotta forget about that stupid whore!\N{\fn华文楷体\fs16\1c&HE0E0E0&}你必须忘了那个臭婊子
+Dialogue: 0,0:56:55.46,0:56:58.08,英上中下,,0000,0000,0000,,Turn the car around or I'm turning you in!\N{\fn华文楷体\fs16\1c&HE0E0E0&}掉头  否则我将逮捕你
+Dialogue: 0,0:56:58.08,0:56:59.38,英上中下,,0000,0000,0000,,I warned you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我警告过你
+Dialogue: 0,0:57:00.22,0:57:05.44,英上中下,,0000,0000,0000,,Everyday, I warned you but you keep asking for it!\N{\fn华文楷体\fs16\1c&HE0E0E0&}每天我都警告你  但你还是如此
+Dialogue: 0,0:57:05.44,0:57:09.16,英上中下,,0000,0000,0000,,You're asking for it! Well, here it's, pal!\N{\fn华文楷体\fs16\1c&HE0E0E0&}你要找死  那就成全你  伙计
+Dialogue: 0,0:57:09.16,0:57:10.34,英上中下,,0000,0000,0000,,Mort, No!\N{\fn华文楷体\fs16\1c&HE0E0E0&}莫特  不要
+Dialogue: 0,0:57:33.13,0:57:34.26,英上中下,,0000,0000,0000,,A witch,\N{\fn华文楷体\fs16\1c&HE0E0E0&}一个女巫
+Dialogue: 0,0:57:34.47,0:57:35.56,英上中下,,0000,0000,0000,,a predator,\N{\fn华文楷体\fs16\1c&HE0E0E0&}一个掠食者
+Dialogue: 0,0:57:36.01,0:57:38.05,英上中下,,0000,0000,0000,,destroying lives.\N{\fn华文楷体\fs16\1c&HE0E0E0&}摧毁生灵
+Dialogue: 0,0:57:38.56,0:57:40.45,英上中下,,0000,0000,0000,,Sometimes for power,\N{\fn华文楷体\fs16\1c&HE0E0E0&}有时为了权力
+Dialogue: 0,0:57:40.62,0:57:42.50,英上中下,,0000,0000,0000,,sometimes for profit,\N{\fn华文楷体\fs16\1c&HE0E0E0&}有时为了利益
+Dialogue: 0,0:57:42.88,0:57:45.82,英上中下,,0000,0000,0000,,sometimes...for sport.\N{\fn华文楷体\fs16\1c&HE0E0E0&}有时  只是玩玩而已
+Dialogue: 0,0:57:46.65,0:57:49.22,英上中下,,0000,0000,0000,,But now you're locked away in your mansion.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但你现在被禁锢在这别墅里
+Dialogue: 0,0:57:49.22,0:57:52.02,英上中下,,0000,0000,0000,,A bird of prey in a gilded cage.\N{\fn华文楷体\fs16\1c&HE0E0E0&}如同笼子里请愿的小鸟
+Dialogue: 0,0:57:52.61,0:57:55.03,英上中下,,0000,0000,0000,,Are you ready to do something stupid?\N{\fn华文楷体\fs16\1c&HE0E0E0&}准备好干蠢事了吗
+Dialogue: 0,0:57:55.06,0:57:58.96,英上中下,,0000,0000,0000,,I'm so happy you chose to attend my little party, Herr Wallenquist.\N{\fn华文楷体\fs16\1c&HE0E0E0&}很高兴你光临我的聚会  沃伦奎斯特先生
+Dialogue: 0,0:57:59.78,0:58:03.14,英上中下,,0000,0000,0000,,Your invitation surprised me, Mrs. Lord.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你的邀请让我很意外  洛德夫人
+Dialogue: 0,0:58:03.15,0:58:06.34,英上中下,,0000,0000,0000,,Your husband had no criminal associations.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你的丈夫跟犯罪团伙毫无往来
+Dialogue: 0,0:58:06.34,0:58:08.29,英上中下,,0000,0000,0000,,Believe me, I tried.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我真的调查过
+Dialogue: 0,0:58:08.29,0:58:10.36,英上中下,,0000,0000,0000,,May I speak truthfully, Mr. Wallenquist?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我能说实话吗  沃伦奎斯特先生
+Dialogue: 0,0:58:10.37,0:58:11.42,英上中下,,0000,0000,0000,,Please.\N{\fn华文楷体\fs16\1c&HE0E0E0&}当然
+Dialogue: 0,0:58:12.02,0:58:14.42,英上中下,,0000,0000,0000,,old town is a thorn in your sight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}老城是你的眼中钉
+Dialogue: 0,0:58:14.42,0:58:16.25,英上中下,,0000,0000,0000,,Indeed it is.\N{\fn华文楷体\fs16\1c&HE0E0E0&}确实如此
+Dialogue: 0,0:58:16.25,0:58:19.09,英上中下,,0000,0000,0000,,All those profits in the hands of whores.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那群婊子坐收那么多钱
+Dialogue: 0,0:58:19.09,0:58:21.69,英上中下,,0000,0000,0000,,Surely you want to put them in their place.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你一定想好好管管她们吧
+Dialogue: 0,0:58:21.71,0:58:24.70,英上中下,,0000,0000,0000,,Make some adjustment to the balance of power.\N{\fn华文楷体\fs16\1c&HE0E0E0&}稍做些调整  平衡一下权力
+Dialogue: 0,0:58:24.70,0:58:27.18,英上中下,,0000,0000,0000,,Show them who rules Sin City.\N{\fn华文楷体\fs16\1c&HE0E0E0&}让她们见识一下谁才是这里的老大
+Dialogue: 0,0:58:27.32,0:58:30.61,英上中下,,0000,0000,0000,,You've limited influence on me, Mrs. Lord.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你的话对我不起作用  洛德夫人
+Dialogue: 0,0:58:30.75,0:58:32.83,英上中下,,0000,0000,0000,,I haven't been doing so very badly.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我有点生疏了
+Dialogue: 0,0:58:32.83,0:58:36.79,英上中下,,0000,0000,0000,,But those two policeman, that was an embarassing blunder.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那两个警察的事  还真是失策啊
+Dialogue: 0,0:58:38.57,0:58:41.90,英上中下,,0000,0000,0000,,Yes, I'm out of my league.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是的  我现在孤军奋战了
+Dialogue: 0,0:58:42.94,0:58:46.12,英上中下,,0000,0000,0000,,I need a stronger, more experience hand.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我需要更强大  更有经验的帮手
+Dialogue: 0,0:58:46.40,0:58:51.18,英上中下,,0000,0000,0000,,I need all enterprises joined... in matrimony,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我要整个洛德集团
+Dialogue: 0,0:58:51.18,0:58:55.88,英上中下,,0000,0000,0000,,with the expertise and iron fist of a rich Wallenquist.\N{\fn华文楷体\fs16\1c&HE0E0E0&}和专业而强硬的沃伦奎斯特集团联姻
+Dialogue: 0,0:58:56.27,0:58:59.99,英上中下,,0000,0000,0000,,What you need is the corpse of Dwight Mccarthy\N{\fn华文楷体\fs16\1c&HE0E0E0&}你要的是德怀特·麦卡锡的尸体
+Dialogue: 0,0:59:00.77,0:59:05.79,英上中下,,0000,0000,0000,,and a suicide note which he confesses to the murder of Damien Lord.\N{\fn华文楷体\fs16\1c&HE0E0E0&}和他承认谋杀达米安·洛德的一纸遗书
+Dialogue: 0,0:59:05.79,0:59:09.12,英上中下,,0000,0000,0000,,And you need to show those old town bitches who's boss.\N{\fn华文楷体\fs16\1c&HE0E0E0&}而你要让那些老城的贱人们知道谁才是老大
+Dialogue: 0,0:59:09.13,0:59:11.28,英上中下,,0000,0000,0000,,Indeed, I do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}的确如此
+Dialogue: 0,0:59:12.35,0:59:14.96,英上中下,,0000,0000,0000,,There's a specialist in Texas.\N{\fn华文楷体\fs16\1c&HE0E0E0&}德克萨斯有个专家
+Dialogue: 0,0:59:15.11,0:59:17.48,英上中下,,0000,0000,0000,,I could have him on a train tomorrow.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我可以安排他明天就乘火车来
+Dialogue: 0,0:59:17.48,0:59:19.01,英上中下,,0000,0000,0000,,I'll brief him myself.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我直接跟他讲
+Dialogue: 0,0:59:19.02,0:59:21.75,英上中下,,0000,0000,0000,,He will on your doorstep at midnight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他在午夜会到你家
+Dialogue: 0,0:59:21.75,0:59:23.84,英上中下,,0000,0000,0000,,And I'll be yours forever.\N{\fn华文楷体\fs16\1c&HE0E0E0&}办成我就是你的人了
+Dialogue: 0,0:59:23.95,0:59:25.84,英上中下,,0000,0000,0000,,Pray for your soul, Ava.\N{\fn华文楷体\fs16\1c&HE0E0E0&}为你的灵魂祈祷吧  艾娃
+Dialogue: 0,0:59:26.72,0:59:30.18,英上中下,,0000,0000,0000,,This won't be his last to visit Sin City.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他以后还会再来罪恶之城
+Dialogue: 0,0:59:31.31,0:59:33.03,英上中下,,0000,0000,0000,,Good evening, Mr. Kelvar.\N{\fn华文楷体\fs16\1c&HE0E0E0&}晚上好  克尔伐先生
+Dialogue: 0,0:59:33.51,0:59:36.33,英上中下,,0000,0000,0000,,- I'll take your bag. - Nobody touches my gear.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-我帮您拿包  -别碰我的装备
+Dialogue: 0,0:59:36.43,0:59:37.78,英上中下,,0000,0000,0000,,And I got somebody picking me up\N{\fn华文楷体\fs16\1c&HE0E0E0&}而且我有人来接
+Dialogue: 0,0:59:37.78,0:59:40.20,英上中下,,0000,0000,0000,,who's one hell of a lot cuter than you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可比你可爱多了
+Dialogue: 0,0:59:44.58,0:59:47.20,英上中下,,0000,0000,0000,,It was our understanding that you're travelling alone.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们还以为您是一个人来的
+Dialogue: 0,0:59:47.55,0:59:49.26,英上中下,,0000,0000,0000,,I'm full of surprises.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我这个人充满了惊喜
+Dialogue: 0,0:59:50.87,0:59:53.87,英上中下,,0000,0000,0000,,Shuffle that bootie over to that shotgun side now.\N{\fn华文楷体\fs16\1c&HE0E0E0&}去副驾驶的位子坐着
+Dialogue: 0,0:59:54.17,0:59:55.39,英上中下,,0000,0000,0000,,I'm driving.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我来开车
+Dialogue: 0,0:59:57.26,0:59:58.18,英上中下,,0000,0000,0000,,Follow you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我跟着你的车
+Dialogue: 0,0:59:58.19,1:00:00.20,英上中下,,0000,0000,0000,,Mrs. Lord may not be please.\N{\fn华文楷体\fs16\1c&HE0E0E0&}洛德夫人可能会不太高兴
+Dialogue: 0,1:00:00.20,1:00:01.38,英上中下,,0000,0000,0000,,She's the one with the problem.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是她找我办事
+Dialogue: 0,1:00:01.38,1:00:03.49,英上中下,,0000,0000,0000,,I can always get back on the train.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我随时可以走人
+Dialogue: 0,1:00:22.09,1:00:23.22,英上中下,,0000,0000,0000,,Wait here.\N{\fn华文楷体\fs16\1c&HE0E0E0&}在这等我
+Dialogue: 0,1:00:24.76,1:00:26.30,英上中下,,0000,0000,0000,,Hurry back!\N{\fn华文楷体\fs16\1c&HE0E0E0&}快点回来
+Dialogue: 0,1:00:26.71,1:00:28.81,英上中下,,0000,0000,0000,,You know I'll get impatient.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你知道我会等不及的
+Dialogue: 0,1:00:28.81,1:00:32.94,英上中下,,0000,0000,0000,,You know I get a little crazy when I get impatient.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你也知道我等不及的时候就会做疯狂的事
+Dialogue: 0,1:00:33.72,1:00:37.44,英上中下,,0000,0000,0000,,Kruger, watch this woman.\N{\fn华文楷体\fs16\1c&HE0E0E0&}克鲁格  看好这个女人
+Dialogue: 0,1:00:41.28,1:00:42.30,英上中下,,0000,0000,0000,,Jacoby,\N{\fn华文楷体\fs16\1c&HE0E0E0&}雅各比
+Dialogue: 0,1:00:42.51,1:00:45.05,英上中下,,0000,0000,0000,,If this man moves, kill him.\N{\fn华文楷体\fs16\1c&HE0E0E0&}如果他动一下  就杀了他
+Dialogue: 0,1:00:45.76,1:00:47.40,英上中下,,0000,0000,0000,,Thought this was business.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我以为我们是要谈生意的
+Dialogue: 0,1:00:47.98,1:00:51.01,英上中下,,0000,0000,0000,,My compliments to your surgeon, Mr. McCarthy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}手术做得很好啊  麦卡锡先生
+Dialogue: 0,1:00:51.02,1:00:53.27,英上中下,,0000,0000,0000,,Remarkable transformation...\N{\fn华文楷体\fs16\1c&HE0E0E0&}惊人的转变
+Dialogue: 0,1:00:53.27,1:00:55.44,英上中下,,0000,0000,0000,,which you still have the eyes,\N{\fn华文楷体\fs16\1c&HE0E0E0&}但你的眼睛没变
+Dialogue: 0,1:00:56.07,1:00:58.28,英上中下,,0000,0000,0000,,the eyes of a dead man.\N{\fn华文楷体\fs16\1c&HE0E0E0&}还是死人的眼睛
+Dialogue: 0,1:01:01.49,1:01:03.53,英上中下,,0000,0000,0000,,I hate being left alone.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我讨厌一个人被留下
+Dialogue: 0,1:01:04.71,1:01:11.12,英上中下,,0000,0000,0000,,When I'm alone, it makes me want to do all kinds of crazy things.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一个人的时候  我就想做各种疯狂的事
+Dialogue: 0,1:01:12.74,1:01:17.69,英上中下,,0000,0000,0000,,No woman should be left alone with a man like you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不该让女人跟你这种帅哥独处
+Dialogue: 0,1:01:18.80,1:01:20.38,英上中下,,0000,0000,0000,,Do you want me?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你想要我吗
+Dialogue: 0,1:01:21.25,1:01:24.09,英上中下,,0000,0000,0000,,To do something we shouldn't?\N{\fn华文楷体\fs16\1c&HE0E0E0&}做一些我们不该做的事
+Dialogue: 0,1:01:25.88,1:01:27.92,英上中下,,0000,0000,0000,,My lips are sealed.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我不会说的
+Dialogue: 0,1:01:32.27,1:01:34.96,英上中下,,0000,0000,0000,,There's something I need in the trunk.\N{\fn华文楷体\fs16\1c&HE0E0E0&}后备箱里有我需要的东西
+Dialogue: 0,1:01:44.55,1:01:46.32,英上中下,,0000,0000,0000,,Bear withness.\N{\fn华文楷体\fs16\1c&HE0E0E0&}看好了
+Dialogue: 0,1:01:50.28,1:01:53.84,英上中下,,0000,0000,0000,,Mrs. Lord, the specialist has arrived.\N{\fn华文楷体\fs16\1c&HE0E0E0&}洛德夫人  专家到了
+Dialogue: 0,1:01:54.28,1:01:57.58,英上中下,,0000,0000,0000,,The bathing thing with her was never about bathing.\N{\fn华文楷体\fs16\1c&HE0E0E0&}对她来说  洗澡永远不是目的
+Dialogue: 0,1:01:58.26,1:02:02.77,英上中下,,0000,0000,0000,,It was always theater, or maybe it was retail.\N{\fn华文楷体\fs16\1c&HE0E0E0&}只是出戏  或者说是营销
+Dialogue: 0,1:02:03.80,1:02:06.83,英上中下,,0000,0000,0000,,You can't make a sale without showing the goods.\N{\fn华文楷体\fs16\1c&HE0E0E0&}货要先展示才好卖
+Dialogue: 0,1:02:07.05,1:02:08.53,英上中下,,0000,0000,0000,,It's McCarthy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是麦卡锡
+Dialogue: 0,1:02:40.76,1:02:41.77,英上中下,,0000,0000,0000,,Do you mind if I say that\N{\fn华文楷体\fs16\1c&HE0E0E0&}希望你不介意我这么说
+Dialogue: 0,1:02:41.77,1:02:44.36,英上中下,,0000,0000,0000,,you're twice the man I thought you were?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你比我想的要像个男人
+Dialogue: 0,1:02:44.80,1:02:46.40,英上中下,,0000,0000,0000,,You're a warrior,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你是战士
+Dialogue: 0,1:02:47.24,1:02:48.44,英上中下,,0000,0000,0000,,a killer.\N{\fn华文楷体\fs16\1c&HE0E0E0&}杀手
+Dialogue: 0,1:02:49.59,1:02:51.82,英上中下,,0000,0000,0000,,You're everything I want of a man\N{\fn华文楷体\fs16\1c&HE0E0E0&}你就是我想要的男人
+Dialogue: 0,1:02:52.73,1:02:55.18,英上中下,,0000,0000,0000,,but I can never get the honesty out of you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但我永远没法让你说实话
+Dialogue: 0,1:02:55.18,1:02:57.24,英上中下,,0000,0000,0000,,You could've been eveything that I needed.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你原本可以是我需要的一切
+Dialogue: 0,1:02:58.21,1:03:01.47,英上中下,,0000,0000,0000,,You still could be, you're a new man!\N{\fn华文楷体\fs16\1c&HE0E0E0&}你现在依旧可以  你改头换面了
+Dialogue: 0,1:03:02.92,1:03:07.41,英上中下,,0000,0000,0000,,Remember what she did. Remember what she is.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别忘了她做过的事  别忘了她的真面目
+Dialogue: 0,1:03:08.16,1:03:09.82,英上中下,,0000,0000,0000,,Wait for your opening.\N{\fn华文楷体\fs16\1c&HE0E0E0&}等着你的出场
+Dialogue: 0,1:03:10.78,1:03:13.13,英上中下,,0000,0000,0000,,Wait for Gail to do ber bit.\N{\fn华文楷体\fs16\1c&HE0E0E0&}等着盖尔做完她的事
+Dialogue: 0,1:03:15.31,1:03:17.95,英上中下,,0000,0000,0000,,When you're immune to me, I'll let you know.\N{\fn华文楷体\fs16\1c&HE0E0E0&}当你能对我免疫的时候  我会通知你的
+Dialogue: 0,1:03:17.95,1:03:21.39,英上中下,,0000,0000,0000,,Step back, Mrs., let me kill him.\N{\fn华文楷体\fs16\1c&HE0E0E0&}请退后  夫人  让我杀了他
+Dialogue: 0,1:03:22.58,1:03:23.94,英上中下,,0000,0000,0000,,Please...\N{\fn华文楷体\fs16\1c&HE0E0E0&}请
+Dialogue: 0,1:03:26.23,1:03:27.38,英上中下,,0000,0000,0000,,...do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}动手吧
+Dialogue: 0,1:04:48.09,1:04:51.59,英上中下,,0000,0000,0000,,Six shots, without a single head wound.\N{\fn华文楷体\fs16\1c&HE0E0E0&}六发子弹  没有一发入脑
+Dialogue: 0,1:05:05.07,1:05:07.68,英上中下,,0000,0000,0000,,And now it all gets down to speed and luck.\N{\fn华文楷体\fs16\1c&HE0E0E0&}现在就看速度和运气了
+Dialogue: 0,1:05:17.74,1:05:21.64,英上中下,,0000,0000,0000,,Her eyes are wet and full of love.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她的眼睛湿润  充满了爱
+Dialogue: 0,1:05:38.33,1:05:39.85,英上中下,,0000,0000,0000,,I never dream,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我从没想过
+Dialogue: 0,1:05:40.82,1:05:43.39,英上中下,,0000,0000,0000,,you're everything I ever wanted,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你就是我想要的一切
+Dialogue: 0,1:05:44.32,1:05:45.95,英上中下,,0000,0000,0000,,everything I need...\N{\fn华文楷体\fs16\1c&HE0E0E0&}我需要的一切
+Dialogue: 0,1:05:46.62,1:05:49.48,英上中下,,0000,0000,0000,,...you and me, forever.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你和我直到永远
+Dialogue: 0,1:05:50.30,1:05:51.50,英上中下,,0000,0000,0000,,It's over.\N{\fn华文楷体\fs16\1c&HE0E0E0&}结束了
+Dialogue: 0,1:05:52.39,1:05:54.26,英上中下,,0000,0000,0000,,Pain has set you free.\N{\fn华文楷体\fs16\1c&HE0E0E0&}疼痛让你解脱了
+Dialogue: 0,1:05:55.57,1:05:57.56,英上中下,,0000,0000,0000,,You're not good anymore, Dwight.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你不再是好人了  德怀特
+Dialogue: 0,1:05:57.56,1:05:59.18,英上中下,,0000,0000,0000,,You're more like me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你更像我了
+Dialogue: 0,1:05:59.74,1:06:01.32,英上中下,,0000,0000,0000,,Be like me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}跟我一样吧
+Dialogue: 0,1:06:01.91,1:06:03.78,英上中下,,0000,0000,0000,,Let the old Dwight go.\N{\fn华文楷体\fs16\1c&HE0E0E0&}忘了过去的德怀特吧
+Dialogue: 0,1:06:03.78,1:06:06.28,英上中下,,0000,0000,0000,,Let it go, this old face.\N{\fn华文楷体\fs16\1c&HE0E0E0&}忘了这张过去的面孔吧
+Dialogue: 0,1:06:07.49,1:06:10.92,英上中下,,0000,0000,0000,,She pulls close and I got to look.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她靠近我  我不得不看
+Dialogue: 0,1:06:11.09,1:06:12.68,英上中下,,0000,0000,0000,,And all I wanted is to be lost\N{\fn华文楷体\fs16\1c&HE0E0E0&}而我只想
+Dialogue: 0,1:06:12.69,1:06:15.61,英上中下,,0000,0000,0000,,in the sight and sound and smell of her.\N{\fn华文楷体\fs16\1c&HE0E0E0&}迷失在她的臂弯里
+Dialogue: 0,1:06:16.07,1:06:19.57,英上中下,,0000,0000,0000,,- I can't think straight. - We can be free.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-我无法思考  -我们可以自由
+Dialogue: 0,1:06:20.10,1:06:25.47,英上中下,,0000,0000,0000,,We can be happy, together, forever.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们可以永远快乐地在一起
+Dialogue: 0,1:06:25.47,1:06:26.50,英上中下,,0000,0000,0000,,No...\N{\fn华文楷体\fs16\1c&HE0E0E0&}不
+Dialogue: 0,1:06:27.73,1:06:30.82,英上中下,,0000,0000,0000,,Her kiss is a promise of paradise.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她的吻仿佛是天堂
+Dialogue: 0,1:06:35.64,1:06:39.90,英上中下,,0000,0000,0000,,- Dwight... - The gun barks and balks in my hand.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-德怀特  -手中的枪响了
+Dialogue: 0,1:06:41.99,1:06:45.57,英上中下,,0000,0000,0000,,Life leaves Ava, with a sigh.\N{\fn华文楷体\fs16\1c&HE0E0E0&}随着一声叹息  生命离开了艾娃
+Dialogue: 0,1:06:49.84,1:06:54.46,英上中下,,0000,0000,0000,,Sirens climbing the hill, we'll take the backroads,\N{\fn华文楷体\fs16\1c&HE0E0E0&}警笛响起了  我们会从小路逃走
+Dialogue: 0,1:06:54.46,1:06:56.54,英上中下,,0000,0000,0000,,the old bootlegged roads,\N{\fn华文楷体\fs16\1c&HE0E0E0&}旧时运私酒的路
+Dialogue: 0,1:06:57.21,1:06:58.86,英上中下,,0000,0000,0000,,don't ever catch us,\N{\fn华文楷体\fs16\1c&HE0E0E0&}谁也抓不到我们
+Dialogue: 0,1:07:00.24,1:07:01.89,英上中下,,0000,0000,0000,,I'm going home.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我要回家了
+Dialogue: 0,1:07:19.59,1:07:22.38,英上中下,,0000,0000,0000,,Walk down the back alley in Sin City,\N{\fn华文楷体\fs16\1c&HE0E0E0&}在罪恶之城的背街小巷走一圈
+Dialogue: 0,1:07:22.59,1:07:24.47,英上中下,,0000,0000,0000,,and you can find anything.\N{\fn华文楷体\fs16\1c&HE0E0E0&}什么都能找到
+Dialogue: 0,1:07:27.69,1:07:30.57,英上中下,,0000,0000,0000,,I was told I could find a man here by the name of Mr. Kroenig.\N{\fn华文楷体\fs16\1c&HE0E0E0&}听说在这儿能找到一位克罗尼先生
+Dialogue: 0,1:07:34.92,1:07:39.43,英上中下,,0000,0000,0000,,That's a doctor, Kroenig, to you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你要称呼  克罗尼医生
+Dialogue: 0,1:07:39.82,1:07:40.86,英上中下,,0000,0000,0000,,Yes, sir.\N{\fn华文楷体\fs16\1c&HE0E0E0&}遵命
+Dialogue: 0,1:07:41.28,1:07:43.29,英上中下,,0000,0000,0000,,License or no license,\N{\fn华文楷体\fs16\1c&HE0E0E0&}不管有没有执照
+Dialogue: 0,1:07:43.29,1:07:47.04,英上中下,,0000,0000,0000,,these hands still got well, what it takes,\N{\fn华文楷体\fs16\1c&HE0E0E0&}这双手仍然宝刀未老
+Dialogue: 0,1:07:47.35,1:07:49.18,英上中下,,0000,0000,0000,,once I preped.\N{\fn华文楷体\fs16\1c&HE0E0E0&}只要我做好准备
+Dialogue: 0,1:07:50.40,1:07:51.87,英上中下,,0000,0000,0000,,How much you got?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你有多少钱
+Dialogue: 0,1:07:55.95,1:07:59.86,英上中下,,0000,0000,0000,,Forty bucks you got? Forty bucks worth you get!\N{\fn华文楷体\fs16\1c&HE0E0E0&}你有40块  那就是40块的活儿
+Dialogue: 0,1:08:11.08,1:08:13.95,英上中下,,0000,0000,0000,,Steady as a rock...\N{\fn华文楷体\fs16\1c&HE0E0E0&}稳如磐石
+Dialogue: 0,1:08:15.45,1:08:17.58,英上中下,,0000,0000,0000,,...once I'm prepped.\N{\fn华文楷体\fs16\1c&HE0E0E0&}只要我做好准备
+Dialogue: 0,1:08:38.43,1:08:41.01,英上中下,,0000,0000,0000,,Forty bucks got you the bullet\N{\fn华文楷体\fs16\1c&HE0E0E0&}40块帮你取出子弹
+Dialogue: 0,1:08:42.14,1:08:47.49,英上中下,,0000,0000,0000,,but that hands of yours, a lot of bones need help.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但你的手  可有很多骨头需要护理
+Dialogue: 0,1:08:48.86,1:08:52.84,英上中下,,0000,0000,0000,,I'll give you an hour, for your shoes.\N{\fn华文楷体\fs16\1c&HE0E0E0&}把鞋给我  我帮你治一个小时
+Dialogue: 0,1:08:52.98,1:08:54.13,英上中下,,0000,0000,0000,,Take them.\N{\fn华文楷体\fs16\1c&HE0E0E0&}拿去
+Dialogue: 0,1:09:01.00,1:09:04.98,英上中下,,0000,0000,0000,,I did my best to think about winning, revenge.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我尽力去想胜利  报仇
+Dialogue: 0,1:09:06.33,1:09:08.67,英上中下,,0000,0000,0000,,The old man must have like popsicles,\N{\fn华文楷体\fs16\1c&HE0E0E0&}那个老头肯定喜欢冰棍
+Dialogue: 0,1:09:08.76,1:09:13.17,英上中下,,0000,0000,0000,,he uses the sticks for splints. He licks them first.\N{\fn华文楷体\fs16\1c&HE0E0E0&}拿来当夹板的木棍  他都要先舔舔
+Dialogue: 0,1:09:16.81,1:09:20.45,英上中下,,0000,0000,0000,,Not so much of a goddamn thank you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他娘的一句谢谢也不说
+Dialogue: 0,1:09:20.53,1:09:22.92,英上中下,,0000,0000,0000,,Generosity don't count for shit.\N{\fn华文楷体\fs16\1c&HE0E0E0&}好心有个屁用
+Dialogue: 0,1:09:22.92,1:09:25.84,英上中下,,0000,0000,0000,,This dead age.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这该死的时代
+Dialogue: 0,1:09:26.38,1:09:28.55,英上中下,,0000,0000,0000,,Quite a job he did on me, Roark.\N{\fn华文楷体\fs16\1c&HE0E0E0&}干得不错  罗克
+Dialogue: 0,1:09:28.89,1:09:30.76,英上中下,,0000,0000,0000,,Even my shoes.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我连鞋都没了
+Dialogue: 0,1:09:31.22,1:09:33.38,英上中下,,0000,0000,0000,,There's nothing more you can take,\N{\fn华文楷体\fs16\1c&HE0E0E0&}没什么能被你夺走了
+Dialogue: 0,1:09:33.75,1:09:34.76,英上中下,,0000,0000,0000,,except...\N{\fn华文楷体\fs16\1c&HE0E0E0&}除了
+Dialogue: 0,1:09:35.62,1:09:38.30,英上中下,,0000,0000,0000,,Marcie, the girl.\N{\fn华文楷体\fs16\1c&HE0E0E0&}玛茜  那个姑娘
+Dialogue: 0,1:09:39.38,1:09:40.75,英上中下,,0000,0000,0000,,Oh my Christ.\N{\fn华文楷体\fs16\1c&HE0E0E0&}天哪
+Dialogue: 0,1:09:43.79,1:09:44.84,英上中下,,0000,0000,0000,,Marcie.\N{\fn华文楷体\fs16\1c&HE0E0E0&}玛茜
+Dialogue: 0,1:09:46.44,1:09:49.47,英上中下,,0000,0000,0000,,Oh, Marcie, you weren't a part of this.\N{\fn华文楷体\fs16\1c&HE0E0E0&}玛茜  这与你无关
+Dialogue: 0,1:09:49.71,1:09:52.20,英上中下,,0000,0000,0000,,You were just there to throw them off their game.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我找你只是为了让他们放松警惕
+Dialogue: 0,1:09:52.88,1:09:54.82,英上中下,,0000,0000,0000,,What have I dragged you into?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我把你扯进了什么
+Dialogue: 0,1:09:57.77,1:10:01.44,英上中下,,0000,0000,0000,,This has turned into one long, bad night.\N{\fn华文楷体\fs16\1c&HE0E0E0&}今夜变得如此漫长难熬
+Dialogue: 0,1:10:04.86,1:10:06.61,英上中下,,0000,0000,0000,,The windows are not locked.\N{\fn华文楷体\fs16\1c&HE0E0E0&}窗户没锁
+Dialogue: 0,1:10:08.59,1:10:10.22,英上中下,,0000,0000,0000,,Never a good sign.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不是个好兆头
+Dialogue: 0,1:10:12.92,1:10:14.45,英上中下,,0000,0000,0000,,Not in Sin City.\N{\fn华文楷体\fs16\1c&HE0E0E0&}至少在罪恶之城不是
+Dialogue: 0,1:10:17.55,1:10:19.52,英上中下,,0000,0000,0000,,Look who has decided to show up?\N{\fn华文楷体\fs16\1c&HE0E0E0&}看看谁终于出现了
+Dialogue: 0,1:10:20.42,1:10:21.89,英上中下,,0000,0000,0000,,Give the man a hand.\N{\fn华文楷体\fs16\1c&HE0E0E0&}给他露一手
+Dialogue: 0,1:10:25.83,1:10:27.58,英上中下,,0000,0000,0000,,Give the man another hand.\N{\fn华文楷体\fs16\1c&HE0E0E0&}再给他露一手
+Dialogue: 0,1:10:35.04,1:10:36.57,英上中下,,0000,0000,0000,,Ruined, penniless,\N{\fn华文楷体\fs16\1c&HE0E0E0&}身败名裂  身无分文
+Dialogue: 0,1:10:36.57,1:10:38.58,英上中下,,0000,0000,0000,,friendless and forgotten.\N{\fn华文楷体\fs16\1c&HE0E0E0&}无亲无故  无人惦记
+Dialogue: 0,1:10:40.30,1:10:42.82,英上中下,,0000,0000,0000,,You really be better off dead, Johnny.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你真的还不如死了  强尼
+Dialogue: 0,1:10:51.37,1:10:54.29,英上中下,,0000,0000,0000,,But I like you just the way you're.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但我就喜欢你这个样子
+Dialogue: 0,1:11:02.36,1:11:03.78,英上中下,,0000,0000,0000,,I got cocky.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我太自大了
+Dialogue: 0,1:11:04.26,1:11:07.04,英上中下,,0000,0000,0000,,I got cocky and I got Marcie dead.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我太自大了  结果害死了玛茜
+Dialogue: 0,1:11:08.10,1:11:09.44,英上中下,,0000,0000,0000,,Damn it, Johnny.\N{\fn华文楷体\fs16\1c&HE0E0E0&}该死  强尼
+Dialogue: 0,1:11:10.10,1:11:12.13,英上中下,,0000,0000,0000,,Hate yourself only when you got the time.\N{\fn华文楷体\fs16\1c&HE0E0E0&}等有时间了再自责
+Dialogue: 0,1:11:13.33,1:11:15.13,英上中下,,0000,0000,0000,,Think about tonight's game.\N{\fn华文楷体\fs16\1c&HE0E0E0&}现在先想想今晚的赌局
+Dialogue: 0,1:11:15.88,1:11:17.66,英上中下,,0000,0000,0000,,That's all it matters now.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那才是现在最重要的事
+Dialogue: 0,1:11:18.19,1:11:19.65,英上中下,,0000,0000,0000,,And all you need is money,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你需要的只是钱
+Dialogue: 0,1:11:19.65,1:11:22.96,英上中下,,0000,0000,0000,,just one lousy buck would be enough to get you started.\N{\fn华文楷体\fs16\1c&HE0E0E0&}只要一块钱  就足够翻身了
+Dialogue: 0,1:11:35.10,1:11:35.91,英上中下,,0000,0000,0000,,Hello, ma'am.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你好  女士
+Dialogue: 0,1:11:36.88,1:11:37.72,英上中下,,0000,0000,0000,,I don't have the money to pay\N{\fn华文楷体\fs16\1c&HE0E0E0&}我没钱付账
+Dialogue: 0,1:11:37.73,1:11:40.01,英上中下,,0000,0000,0000,,but could I ask you for a glass of water?\N{\fn华文楷体\fs16\1c&HE0E0E0&}但我能要杯水吗
+Dialogue: 0,1:11:40.40,1:11:41.30,英上中下,,0000,0000,0000,,Yeah.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可以
+Dialogue: 0,1:11:42.81,1:11:44.62,英上中下,,0000,0000,0000,,Time is tough all over.\N{\fn华文楷体\fs16\1c&HE0E0E0&}时运不济
+Dialogue: 0,1:11:47.21,1:11:48.17,英上中下,,0000,0000,0000,,Thank you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}谢谢
+Dialogue: 0,1:11:52.38,1:11:53.60,英上中下,,0000,0000,0000,,What's with the hand?\N{\fn华文楷体\fs16\1c&HE0E0E0&}手怎么了
+Dialogue: 0,1:11:56.52,1:11:58.14,英上中下,,0000,0000,0000,,I beat the wrong guys at cards.\N{\fn华文楷体\fs16\1c&HE0E0E0&}玩牌的时候惹错了人
+Dialogue: 0,1:11:58.61,1:11:59.88,英上中下,,0000,0000,0000,,Tough break.\N{\fn华文楷体\fs16\1c&HE0E0E0&}运气背
+Dialogue: 0,1:12:02.56,1:12:03.68,英上中下,,0000,0000,0000,,Thank you very much.\N{\fn华文楷体\fs16\1c&HE0E0E0&}非常感谢
+Dialogue: 0,1:12:04.51,1:12:05.96,英上中下,,0000,0000,0000,,Just a second, you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你等一下
+Dialogue: 0,1:12:07.97,1:12:09.88,英上中下,,0000,0000,0000,,You don't stink of anything I don't like\N{\fn华文楷体\fs16\1c&HE0E0E0&}你没我讨厌的毛病
+Dialogue: 0,1:12:09.88,1:12:12.90,英上中下,,0000,0000,0000,,and you kinda remind me of an old boyfriend, okay?\N{\fn华文楷体\fs16\1c&HE0E0E0&}还有点像我的前男友
+Dialogue: 0,1:12:17.76,1:12:19.77,英上中下,,0000,0000,0000,,This won't take you very far.\N{\fn华文楷体\fs16\1c&HE0E0E0&}虽然帮不了你什么
+Dialogue: 0,1:12:21.51,1:12:24.40,英上中下,,0000,0000,0000,,Sweetheart, it's going to take me to the moon.\N{\fn华文楷体\fs16\1c&HE0E0E0&}宝贝儿  这足够带我去月球了
+Dialogue: 0,1:12:26.97,1:12:29.93,英上中下,,0000,0000,0000,,Sin City, you never know.\N{\fn华文楷体\fs16\1c&HE0E0E0&}罪恶之城  一切皆有可能
+Dialogue: 0,1:12:33.79,1:12:35.82,英上中下,,0000,0000,0000,,Don't spend it all in one place.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别一口气花完
+Dialogue: 0,1:12:44.80,1:12:48.10,英上中下,,0000,0000,0000,,Hey, handsome, what are you gonna do with all that?\N{\fn华文楷体\fs16\1c&HE0E0E0&}帅哥  你要那些钱干嘛
+Dialogue: 0,1:12:49.26,1:12:50.61,英上中下,,0000,0000,0000,,I'm going to kill Roark.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我要去杀了罗克
+Dialogue: 0,1:12:51.00,1:12:53.58,英上中下,,0000,0000,0000,,That Roark there, don't die that easy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那个罗克可没那么容易死
+Dialogue: 0,1:12:54.27,1:12:55.73,英上中下,,0000,0000,0000,,I just might surprise you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}说不定我会给你惊喜
+Dialogue: 0,1:13:03.00,1:13:05.80,英上中下,,0000,0000,0000,,Looks like something happened to your game hand, son.\N{\fn华文楷体\fs16\1c&HE0E0E0&}看起来你的幸运之手出事了  孩子
+Dialogue: 0,1:13:18.79,1:13:19.87,英上中下,,0000,0000,0000,,I fold.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不跟
+Dialogue: 0,1:13:20.38,1:13:21.77,英上中下,,0000,0000,0000,,What's wrong, hotshot?\N{\fn华文楷体\fs16\1c&HE0E0E0&}怎么了  能人
+Dialogue: 0,1:13:22.53,1:13:25.28,英上中下,,0000,0000,0000,,No good without the lady luck you brought here last time?\N{\fn华文楷体\fs16\1c&HE0E0E0&}上次的幸运女郎没来就不行了吗
+Dialogue: 0,1:13:27.46,1:13:28.64,英上中下,,0000,0000,0000,,I'll be fine.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我没事
+Dialogue: 0,1:13:29.00,1:13:31.38,英上中下,,0000,0000,0000,,- I'm done. - I'm out.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-不跟  -不跟
+Dialogue: 0,1:13:41.55,1:13:42.63,英上中下,,0000,0000,0000,,I need three.\N{\fn华文楷体\fs16\1c&HE0E0E0&}给我三张
+Dialogue: 0,1:13:46.18,1:13:47.75,英上中下,,0000,0000,0000,,Dealer takes two.\N{\fn华文楷体\fs16\1c&HE0E0E0&}庄家要两张
+Dialogue: 0,1:13:48.40,1:13:50.34,英上中下,,0000,0000,0000,,- Check. - Check.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-过牌  -过牌
+Dialogue: 0,1:13:51.61,1:13:52.79,英上中下,,0000,0000,0000,,I bet a hundred.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我加一百
+Dialogue: 0,1:13:55.45,1:13:56.52,英上中下,,0000,0000,0000,,Shit!\N{\fn华文楷体\fs16\1c&HE0E0E0&}该死
+Dialogue: 0,1:13:58.96,1:13:59.80,英上中下,,0000,0000,0000,,Fold.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不跟
+Dialogue: 0,1:14:07.97,1:14:10.84,英上中下,,0000,0000,0000,,Just not the same without your game hand, is it?\N{\fn华文楷体\fs16\1c&HE0E0E0&}没有幸运之手就不一样了  是吧
+Dialogue: 0,1:14:21.04,1:14:22.57,英上中下,,0000,0000,0000,,I'm ambidextrous.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我两手皆可
+Dialogue: 0,1:14:23.77,1:14:24.59,英上中下,,0000,0000,0000,,Cut.\N{\fn华文楷体\fs16\1c&HE0E0E0&}切牌
+Dialogue: 0,1:14:32.85,1:14:33.58,英上中下,,0000,0000,0000,,Check.\N{\fn华文楷体\fs16\1c&HE0E0E0&}过牌
+Dialogue: 0,1:14:34.18,1:14:34.99,英上中下,,0000,0000,0000,,Check.\N{\fn华文楷体\fs16\1c&HE0E0E0&}过牌
+Dialogue: 0,1:14:35.26,1:14:36.36,英上中下,,0000,0000,0000,,Five hundred.\N{\fn华文楷体\fs16\1c&HE0E0E0&}五百
+Dialogue: 0,1:14:37.76,1:14:38.49,英上中下,,0000,0000,0000,,I'm in.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我跟
+Dialogue: 0,1:14:44.14,1:14:45.37,英上中下,,0000,0000,0000,,I'll raise you...\N{\fn华文楷体\fs16\1c&HE0E0E0&}我再加
+Dialogue: 0,1:14:47.90,1:14:49.06,英上中下,,0000,0000,0000,,...five hundred more.\N{\fn华文楷体\fs16\1c&HE0E0E0&}五百
+Dialogue: 0,1:14:52.41,1:14:54.21,英上中下,,0000,0000,0000,,- I fold. - I'm done.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-不跟  -不跟
+Dialogue: 0,1:14:58.12,1:15:01.89,英上中下,,0000,0000,0000,,- Here is your five more, pretty boy. - Shit!\N{\fn华文楷体\fs16\1c&HE0E0E0&}-这是你的五百块  -操
+Dialogue: 0,1:15:02.77,1:15:04.24,英上中下,,0000,0000,0000,,You favored your mother,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你喜欢你妈
+Dialogue: 0,1:15:04.80,1:15:07.95,英上中下,,0000,0000,0000,,she was a whore, not a very good one.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她就是个婊子  还不太称职
+Dialogue: 0,1:15:08.96,1:15:10.43,英上中下,,0000,0000,0000,,She was an angel.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她是天使
+Dialogue: 0,1:15:12.22,1:15:13.25,英上中下,,0000,0000,0000,,I'm all in.\N{\fn华文楷体\fs16\1c&HE0E0E0&}全押
+Dialogue: 0,1:15:13.74,1:15:14.68,英上中下,,0000,0000,0000,,For the works.\N{\fn华文楷体\fs16\1c&HE0E0E0&}为了一切
+Dialogue: 0,1:15:15.11,1:15:15.95,英上中下,,0000,0000,0000,,Call.\N{\fn华文楷体\fs16\1c&HE0E0E0&}跟
+Dialogue: 0,1:15:37.97,1:15:39.35,英上中下,,0000,0000,0000,,Four aces.\N{\fn华文楷体\fs16\1c&HE0E0E0&}四个A
+Dialogue: 0,1:15:46.87,1:15:48.59,英上中下,,0000,0000,0000,,See, I told you, I never lose.\N{\fn华文楷体\fs16\1c&HE0E0E0&}看  跟你说了  我不会输
+Dialogue: 0,1:15:50.75,1:15:52.00,英上中下,,0000,0000,0000,,I beat you,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我打败你了
+Dialogue: 0,1:15:52.79,1:15:55.83,英上中下,,0000,0000,0000,,twice, that means I'm better than you're\N{\fn华文楷体\fs16\1c&HE0E0E0&}打败你两次  说明我比你强
+Dialogue: 0,1:15:56.33,1:15:57.80,英上中下,,0000,0000,0000,,and everybody knows it\N{\fn华文楷体\fs16\1c&HE0E0E0&}每个人都知道了
+Dialogue: 0,1:15:57.80,1:16:00.55,英上中下,,0000,0000,0000,,'cause I beat you again every time somebody tells that story,\N{\fn华文楷体\fs16\1c&HE0E0E0&}每次有人讲起这个故事  我都再打败你一次
+Dialogue: 0,1:16:00.55,1:16:03.52,英上中下,,0000,0000,0000,,and they will all say they won't tell it but they will.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他们会说他们不会说  但他们会的
+Dialogue: 0,1:16:03.70,1:16:05.99,英上中下,,0000,0000,0000,,That's the story that will be told again and again\N{\fn华文楷体\fs16\1c&HE0E0E0&}会有人不断地讲起这个故事
+Dialogue: 0,1:16:05.99,1:16:08.69,英上中下,,0000,0000,0000,,until you're dead and long after you're dead.\N{\fn华文楷体\fs16\1c&HE0E0E0&}直到你死  直到你死后很多年
+Dialogue: 0,1:16:09.71,1:16:11.22,英上中下,,0000,0000,0000,,I beat you forever.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我永远打败你了
+Dialogue: 0,1:16:12.63,1:16:14.76,英上中下,,0000,0000,0000,,And they all know what happens when you do.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他们也都知道打败我会发生什么
+Dialogue: 0,1:16:16.25,1:16:18.01,英上中下,,0000,0000,0000,,Say hello to your mama.\N{\fn华文楷体\fs16\1c&HE0E0E0&}向你妈问好
+Dialogue: 0,1:16:18.35,1:16:20.61,英上中下,,0000,0000,0000,,She always was a stupid bitch.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她一直是个蠢婊子
+Dialogue: 0,1:16:25.96,1:16:28.18,英上中下,,0000,0000,0000,,Power is what power does.\N{\fn华文楷体\fs16\1c&HE0E0E0&}权力说什么就是什么
+Dialogue: 0,1:16:29.78,1:16:31.50,英上中下,,0000,0000,0000,,Say I give any young man advices,\N{\fn华文楷体\fs16\1c&HE0E0E0&}如果要我给年轻人建议
+Dialogue: 0,1:16:31.50,1:16:33.44,英上中下,,0000,0000,0000,,it'll be this where or whenever.\N{\fn华文楷体\fs16\1c&HE0E0E0&}无论何时何地都是这句
+Dialogue: 0,1:16:33.95,1:16:36.79,英上中下,,0000,0000,0000,,Now take out that trash, let's get back to the game!\N{\fn华文楷体\fs16\1c&HE0E0E0&}把那垃圾丢出去  咱们接着玩
+Dialogue: 0,1:17:02.09,1:17:05.05,英上中下,,0000,0000,0000,,I can't lose you, not again.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我不能再次失去你了
+Dialogue: 0,1:17:05.71,1:17:07.40,英上中下,,0000,0000,0000,,You never lose me, Nancy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你从未失去我  南希
+Dialogue: 0,1:17:14.52,1:17:18.11,英上中下,,0000,0000,0000,,All this time, she, was right there.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这些年  她一直在那儿
+Dialogue: 0,1:17:18.54,1:17:20.78,英上中下,,0000,0000,0000,,Dancing in the club where you play poker.\N{\fn华文楷体\fs16\1c&HE0E0E0&}在你玩牌的俱乐部里跳舞
+Dialogue: 0,1:17:20.78,1:17:22.34,英上中下,,0000,0000,0000,,You gotta be looking for a chance\N{\fn华文楷体\fs16\1c&HE0E0E0&}得找机会
+Dialogue: 0,1:17:22.34,1:17:24.80,英上中下,,0000,0000,0000,,to put this one thru' the ring, senator.\N{\fn华文楷体\fs16\1c&HE0E0E0&}把她给做了  议员
+Dialogue: 0,1:17:27.05,1:17:28.93,英上中下,,0000,0000,0000,,Nancy Callahan.\N{\fn华文楷体\fs16\1c&HE0E0E0&}南希·卡拉汉
+Dialogue: 0,1:17:32.07,1:17:34.60,英上中下,,0000,0000,0000,,My son Ethen was killed because of her.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我儿子伊森就是因她而死
+Dialogue: 0,1:17:35.37,1:17:37.83,英上中下,,0000,0000,0000,,It has been 4 years now and still,\N{\fn华文楷体\fs16\1c&HE0E0E0&}如今已经过去了四年
+Dialogue: 0,1:17:37.83,1:17:40.59,英上中下,,0000,0000,0000,,she's planting flowers at Hartigan's grave.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她还是会去哈提根的墓前献花
+Dialogue: 0,1:17:40.71,1:17:43.62,英上中下,,0000,0000,0000,,She's showing gratitude for the looks of it to the cop.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她似乎在向那个警察表示谢意
+Dialogue: 0,1:17:43.62,1:17:45.38,英上中下,,0000,0000,0000,,Gratitude to the cop,\N{\fn华文楷体\fs16\1c&HE0E0E0&}感谢那个
+Dialogue: 0,1:17:45.73,1:17:47.84,英上中下,,0000,0000,0000,,who ripped your son to pieces.\N{\fn华文楷体\fs16\1c&HE0E0E0&}把你儿子大卸八块的警察
+Dialogue: 0,1:17:49.81,1:17:52.34,英上中下,,0000,0000,0000,,Hartigan turned my son into a freak.\N{\fn华文楷体\fs16\1c&HE0E0E0&}哈提根把我儿子变成了一个怪物
+Dialogue: 0,1:17:52.70,1:17:56.19,英上中下,,0000,0000,0000,,No, complete him as a freak\N{\fn华文楷体\fs16\1c&HE0E0E0&}不  是成全他变成了怪物
+Dialogue: 0,1:17:56.36,1:17:58.39,英上中下,,0000,0000,0000,,but I hardly blame the young lady for...\N{\fn华文楷体\fs16\1c&HE0E0E0&}但我不怪她
+Dialogue: 0,1:17:58.39,1:17:59.43,英上中下,,0000,0000,0000,,...obsession.\N{\fn华文楷体\fs16\1c&HE0E0E0&}如此执念
+Dialogue: 0,1:17:59.97,1:18:01.96,英上中下,,0000,0000,0000,,It's nothing more than a little fluff sorrow.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不过是几分无用的哀悼罢了
+Dialogue: 0,1:18:01.96,1:18:03.62,英上中下,,0000,0000,0000,,It might not be that simple.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可能没那么简单
+Dialogue: 0,1:18:05.11,1:18:08.26,英上中下,,0000,0000,0000,,Somehow she got her hands on Hartigan's old pistol.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她不知如何拿到了哈提根的枪
+Dialogue: 0,1:18:13.75,1:18:16.82,英上中下,,0000,0000,0000,,She hits the ring every night just before work.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她每晚开工前都会去射击场
+Dialogue: 0,1:18:16.99,1:18:18.53,英上中下,,0000,0000,0000,,She become quite a good shot.\N{\fn华文楷体\fs16\1c&HE0E0E0&}现在枪法很不错
+Dialogue: 0,1:18:18.98,1:18:22.79,英上中下,,0000,0000,0000,,And I can only imagine whose face she sees on that target.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你知道她把靶子想象成谁吧
+Dialogue: 0,1:18:25.18,1:18:26.21,英上中下,,0000,0000,0000,,I'm listening.\N{\fn华文楷体\fs16\1c&HE0E0E0&}接着说
+Dialogue: 0,1:18:26.36,1:18:29.72,英上中下,,0000,0000,0000,,She's acting kinda crazy sometimes, at work.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她上班时有时候好像疯了一样
+Dialogue: 0,1:18:30.07,1:18:33.43,英上中下,,0000,0000,0000,,She's drinking, just a little past few weeks.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她还喝酒  最近几周才开始
+Dialogue: 0,1:18:33.73,1:18:35.18,英上中下,,0000,0000,0000,,She never drank before.\N{\fn华文楷体\fs16\1c&HE0E0E0&}她以前从不喝
+Dialogue: 0,1:18:38.13,1:18:41.33,英上中下,,0000,0000,0000,,It's all like, she's building up to something.\N{\fn华文楷体\fs16\1c&HE0E0E0&}似乎  她在累积什么
+Dialogue: 0,1:18:43.31,1:18:46.13,英上中下,,0000,0000,0000,,Maybe, building her...nerve.\N{\fn华文楷体\fs16\1c&HE0E0E0&}也许是在积累她的勇气
+Dialogue: 0,1:18:47.21,1:18:48.87,英上中下,,0000,0000,0000,,That will be all, lieutenant.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可以了  警长
+Dialogue: 0,1:18:49.62,1:18:52.46,英上中下,,0000,0000,0000,,This little bitch is turning me on.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这小婊子简直要让我硬了
+Dialogue: 0,1:19:00.26,1:19:02.11,英上中下,,0000,0000,0000,,This place stinks.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这里满是恶臭
+Dialogue: 0,1:19:03.03,1:19:04.76,英上中下,,0000,0000,0000,,I never use to notice.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我以前从未注意
+Dialogue: 0,1:19:05.81,1:19:07.39,英上中下,,0000,0000,0000,,not when I dance.\N{\fn华文楷体\fs16\1c&HE0E0E0&}至少跳舞时没有
+Dialogue: 0,1:19:09.41,1:19:11.85,英上中下,,0000,0000,0000,,Now I smell everything.\N{\fn华文楷体\fs16\1c&HE0E0E0&}现在我什么都能闻到
+Dialogue: 0,1:19:13.43,1:19:14.86,英上中下,,0000,0000,0000,,I see it all.\N{\fn华文楷体\fs16\1c&HE0E0E0&}什么都能看到
+Dialogue: 0,1:19:16.16,1:19:18.12,英上中下,,0000,0000,0000,,Every damn thing.\N{\fn华文楷体\fs16\1c&HE0E0E0&}一件不落
+Dialogue: 0,1:19:19.49,1:19:21.35,英上中下,,0000,0000,0000,,I know exactly where I'm.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我知道我的位置
+Dialogue: 0,1:19:21.73,1:19:23.66,英上中下,,0000,0000,0000,,I know exactly what I'm.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我知道我的身份
+Dialogue: 0,1:19:24.31,1:19:26.79,英上中下,,0000,0000,0000,,I don't use that stripper's logic anymore,\N{\fn华文楷体\fs16\1c&HE0E0E0&}我不再用脱衣舞娘的逻辑去思考了
+Dialogue: 0,1:19:27.48,1:19:29.77,英上中下,,0000,0000,0000,,that they're losers and I'm not.\N{\fn华文楷体\fs16\1c&HE0E0E0&}不再觉得他们都是废物而我不是
+Dialogue: 0,1:19:31.34,1:19:34.61,英上中下,,0000,0000,0000,,It was when I could shoot at him that I realize I'm dead,\N{\fn华文楷体\fs16\1c&HE0E0E0&}当我可以冲他开枪时我意识到我死定了
+Dialogue: 0,1:19:36.40,1:19:38.69,英上中下,,0000,0000,0000,,that I wasn't a woman with a plan.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我不是个成竹在胸的女人
+Dialogue: 0,1:19:42.71,1:19:44.48,英上中下,,0000,0000,0000,,I was just a drunk...\N{\fn华文楷体\fs16\1c&HE0E0E0&}我只是个醉鬼
+Dialogue: 0,1:19:58.22,1:20:00.21,英上中下,,0000,0000,0000,,I give them what they want\N{\fn华文楷体\fs16\1c&HE0E0E0&}我满足他们的愿望
+Dialogue: 0,1:20:06.95,1:20:08.88,英上中下,,0000,0000,0000,,and I get the hell outta there.\N{\fn华文楷体\fs16\1c&HE0E0E0&}然后转身离开
+Dialogue: 0,1:20:32.95,1:20:34.69,英上中下,,0000,0000,0000,,You shot him in the gut.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你冲他开了枪
+Dialogue: 0,1:20:35.95,1:20:37.27,英上中下,,0000,0000,0000,,It was a mishap.\N{\fn华文楷体\fs16\1c&HE0E0E0&}是意外
+Dialogue: 0,1:20:38.33,1:20:39.42,英上中下,,0000,0000,0000,,Who is to pay?\N{\fn华文楷体\fs16\1c&HE0E0E0&}谁来负责
+Dialogue: 0,1:20:41.18,1:20:45.73,英上中下,,0000,0000,0000,,...rotten town, it soots anybody who touches.\N{\fn华文楷体\fs16\1c&HE0E0E0&}糜烂的都市  污染所有触碰它的人
+Dialogue: 0,1:20:46.73,1:20:52.41,英上中下,,0000,0000,0000,,it's a rotten town but it can't corrupt its soil.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这座糜烂的都市  却无法腐蚀地下的土壤
+Dialogue: 0,1:20:54.68,1:20:57.10,英上中下,,0000,0000,0000,,It's soil to you, John Hartigan.\N{\fn华文楷体\fs16\1c&HE0E0E0&}那是有你的土壤  哈提根
+Dialogue: 0,1:21:00.22,1:21:04.09,英上中下,,0000,0000,0000,,Put that bottle down, Nancy. You had enough.\N{\fn华文楷体\fs16\1c&HE0E0E0&}把酒瓶放下  南希  你喝的够多了
+Dialogue: 0,1:21:06.57,1:21:12.39,英上中下,,0000,0000,0000,,They made you lie to me, you're not even here right now.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他们逼你骗我  你现在根本不在这里
+Dialogue: 0,1:21:15.25,1:21:19.47,英上中下,,0000,0000,0000,,- You said you never leave me. - I never left you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-你说过你不会离开我  -我没有离开你
+Dialogue: 0,1:21:20.38,1:21:21.75,英上中下,,0000,0000,0000,,I never would.\N{\fn华文楷体\fs16\1c&HE0E0E0&}永远不会
+Dialogue: 0,1:21:23.15,1:21:24.11,英上中下,,0000,0000,0000,,Never.\N{\fn华文楷体\fs16\1c&HE0E0E0&}永远
+Dialogue: 0,1:21:25.16,1:21:28.35,英上中下,,0000,0000,0000,,You're not even here right now. You're dead!\N{\fn华文楷体\fs16\1c&HE0E0E0&}你现在根本不在这里  你已经死了
+Dialogue: 0,1:21:31.08,1:21:33.05,英上中下,,0000,0000,0000,,You blew your brains out.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你脑袋开花了
+Dialogue: 0,1:21:34.78,1:21:39.60,英上中下,,0000,0000,0000,,You stuck a gun in your mouth and you blew your brains out.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你把枪塞进嘴里然后扣下了扳机
+Dialogue: 0,1:21:44.04,1:21:48.72,英上中下,,0000,0000,0000,,I had my reasons, there was no way out.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我有我的原因  没有其他的选择
+Dialogue: 0,1:21:48.97,1:21:50.27,英上中下,,0000,0000,0000,,I hate you!\N{\fn华文楷体\fs16\1c&HE0E0E0&}我恨你
+Dialogue: 0,1:21:53.97,1:21:58.48,英上中下,,0000,0000,0000,,- You swore you'll always love me. - And I always will.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-你发誓会永远爱我  -我会永远爱你
+Dialogue: 0,1:21:59.59,1:22:01.91,英上中下,,0000,0000,0000,,No one has ever guessed what hell is.\N{\fn华文楷体\fs16\1c&HE0E0E0&}没人能猜到地狱是什么
+Dialogue: 0,1:22:03.26,1:22:05.32,英上中下,,0000,0000,0000,,It's watching the people you love...\N{\fn华文楷体\fs16\1c&HE0E0E0&}是目睹你爱的人
+Dialogue: 0,1:22:06.78,1:22:08.10,英上中下,,0000,0000,0000,,...in pain.\N{\fn华文楷体\fs16\1c&HE0E0E0&}痛苦不堪
+Dialogue: 0,1:22:16.96,1:22:18.90,英上中下,,0000,0000,0000,,You're the man I ever loved\N{\fn华文楷体\fs16\1c&HE0E0E0&}你是我唯一爱过的人
+Dialogue: 0,1:22:21.85,1:22:23.65,英上中下,,0000,0000,0000,,and you left me alone.\N{\fn华文楷体\fs16\1c&HE0E0E0&}却离我而去
+Dialogue: 0,1:22:31.10,1:22:32.94,英上中下,,0000,0000,0000,,You never thought I'd stand a chance\N{\fn华文楷体\fs16\1c&HE0E0E0&}你从不认为
+Dialogue: 0,1:22:32.75,1:22:35.38,英上中下,,0000,0000,0000,,with that goddamn son of Roark.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我能干掉罗克的儿子
+Dialogue: 0,1:22:36.45,1:22:38.28,英上中下,,0000,0000,0000,,You didn't believe in me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你从不相信我
+Dialogue: 0,1:22:40.15,1:22:42.04,英上中下,,0000,0000,0000,,You didn't think a little piece of arse like me\N{\fn华文楷体\fs16\1c&HE0E0E0&}你不相信像我这样的小丑
+Dialogue: 0,1:22:42.04,1:22:44.71,英上中下,,0000,0000,0000,,could take down the most powerful man in the state.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可以打败全州最有权势的人
+Dialogue: 0,1:22:52.68,1:22:54.73,英上中下,,0000,0000,0000,,Maybe I'll prove both of you wrong.\N{\fn华文楷体\fs16\1c&HE0E0E0&}也许我会证明你们俩都错了
+Dialogue: 0,1:23:02.61,1:23:04.20,英上中下,,0000,0000,0000,,Maybe I would go crazy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}也许我会发疯
+Dialogue: 0,1:23:10.98,1:23:15.00,英上中下,,0000,0000,0000,,- Crazy is sounding pretty good right now. - I love you, Nancy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}-现在发疯挺好的  -我爱你  南希
+Dialogue: 0,1:23:32.27,1:23:38.12,英上中下,,0000,0000,0000,,You little slut! You gonna scream before you die.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你个小婊子  我会让你尖叫至死
+Dialogue: 0,1:23:42.23,1:23:43.81,英上中下,,0000,0000,0000,,You're out of your mind...\N{\fn华文楷体\fs16\1c&HE0E0E0&}你疯了
+Dialogue: 0,1:23:45.89,1:23:51.58,英上中下,,0000,0000,0000,,I appreciate the obsession but you got nothing...\N{\fn华文楷体\fs16\1c&HE0E0E0&}我欣赏你的执着  但你什么都没有
+Dialogue: 0,1:23:52.80,1:23:56.29,英上中下,,0000,0000,0000,,You could've killed me 50 times if you've the nerve,\N{\fn华文楷体\fs16\1c&HE0E0E0&}你要是有胆子  都能杀我50次了
+Dialogue: 0,1:23:56.58,1:23:58.63,英上中下,,0000,0000,0000,,but you don't.\N{\fn华文楷体\fs16\1c&HE0E0E0&}可你没有
+Dialogue: 0,1:24:01.82,1:24:03.56,英上中下,,0000,0000,0000,,You're nothing...\N{\fn华文楷体\fs16\1c&HE0E0E0&}你什么也不是
+Dialogue: 0,1:24:05.50,1:24:10.81,英上中下,,0000,0000,0000,,You'll scream, just like my boy wanted you to...\N{\fn华文楷体\fs16\1c&HE0E0E0&}你会尖叫的  就像我儿子想要的
+Dialogue: 0,1:24:31.99,1:24:33.07,英上中下,,0000,0000,0000,,Darling, where have you been\N{\fn华文楷体\fs16\1c&HE0E0E0&}宝贝儿  你去哪儿了
+Dialogue: 0,1:24:33.07,1:24:35.87,英上中下,,0000,0000,0000,,and what have you done to your beautiful hair?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你把你的一头秀发怎么了
+Dialogue: 0,1:24:36.24,1:24:38.84,英上中下,,0000,0000,0000,,Don't worry, those bastards are getting what they want.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别担心  那些混蛋会得到他们想要的
+Dialogue: 0,1:24:40.69,1:24:42.39,英上中下,,0000,0000,0000,,They always get what they want.\N{\fn华文楷体\fs16\1c&HE0E0E0&}他们总会得到他们想要的
+Dialogue: 0,1:25:07.95,1:25:11.40,英上中下,,0000,0000,0000,,This is great, isn't it? What's up with you?\N{\fn华文楷体\fs16\1c&HE0E0E0&}简直太棒了  是吧  你怎么了
+Dialogue: 0,1:25:21.31,1:25:24.82,英上中下,,0000,0000,0000,,Something's wrong, I'm out of here.\N{\fn华文楷体\fs16\1c&HE0E0E0&}有什么不对劲  我要走了
+Dialogue: 0,1:25:37.04,1:25:40.31,英上中下,,0000,0000,0000,,Oh, watching my sister getting nasty,\N{\fn华文楷体\fs16\1c&HE0E0E0&}简直像眼看着我妹妹自甘堕落
+Dialogue: 0,1:25:41.04,1:25:42.27,英上中下,,0000,0000,0000,,I'm taking a hike.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我去散散步
+Dialogue: 0,1:25:58.86,1:25:59.83,英上中下,,0000,0000,0000,,Ready.\N{\fn华文楷体\fs16\1c&HE0E0E0&}准备
+Dialogue: 0,1:26:04.02,1:26:05.51,英上中下,,0000,0000,0000,,You are beautiful, Nancy.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你很美  南希
+Dialogue: 0,1:26:08.49,1:26:10.28,英上中下,,0000,0000,0000,,Don't do this to yourself.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别这样对自己
+Dialogue: 0,1:26:12.99,1:26:16.11,英上中下,,0000,0000,0000,,Pretty, pretty, pretty...\N{\fn华文楷体\fs16\1c&HE0E0E0&}美  美  美
+Dialogue: 0,1:26:19.85,1:26:22.88,英上中下,,0000,0000,0000,,If a man did this to you, I'll tear him to pieces.\N{\fn华文楷体\fs16\1c&HE0E0E0&}如果有男人这么对你  我一定撕了他
+Dialogue: 0,1:26:24.70,1:26:28.50,英上中下,,0000,0000,0000,,Lieutenant Hartigan, you just gave me a great idea.\N{\fn华文楷体\fs16\1c&HE0E0E0&}哈提根警长  你给了我灵感
+Dialogue: 0,1:26:34.57,1:26:36.00,英上中下,,0000,0000,0000,,No, babe.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别这样  宝贝
+Dialogue: 0,1:26:36.36,1:26:37.50,英上中下,,0000,0000,0000,,Nancy...\N{\fn华文楷体\fs16\1c&HE0E0E0&}南希
+Dialogue: 0,1:27:09.80,1:27:11.68,英上中下,,0000,0000,0000,,Just give me a damn name.\N{\fn华文楷体\fs16\1c&HE0E0E0&}说名字就行
+Dialogue: 0,1:27:18.70,1:27:19.76,英上中下,,0000,0000,0000,,Roark.\N{\fn华文楷体\fs16\1c&HE0E0E0&}罗克
+Dialogue: 0,1:27:28.45,1:27:31.83,英上中下,,0000,0000,0000,,Up against a lot, we need tools.\N{\fn华文楷体\fs16\1c&HE0E0E0&}要对抗很多人  咱们需要工具
+Dialogue: 0,1:27:37.74,1:27:39.12,英上中下,,0000,0000,0000,,Looks like trouble.\N{\fn华文楷体\fs16\1c&HE0E0E0&}好像是麻烦
+Dialogue: 0,1:27:43.29,1:27:45.09,英上中下,,0000,0000,0000,,Looks like Christmas.\N{\fn华文楷体\fs16\1c&HE0E0E0&}好像是乐子
+Dialogue: 0,1:27:49.07,1:27:52.85,英上中下,,0000,0000,0000,,- Well, you missed last call, boys. - Bullshit!\N{\fn华文楷体\fs16\1c&HE0E0E0&}-你们错过了最后一轮啊  -少废话
+Dialogue: 0,1:27:53.27,1:27:55.51,英上中下,,0000,0000,0000,,We're ripping this place, arse hole.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我们是来打劫的  混蛋
+Dialogue: 0,1:27:56.45,1:27:58.70,英上中下,,0000,0000,0000,,Move or die!\N{\fn华文楷体\fs16\1c&HE0E0E0&}不滚就死
+Dialogue: 0,1:28:49.97,1:28:52.27,英上中下,,0000,0000,0000,,I hope you don't mind me saying this, but...\N{\fn华文楷体\fs16\1c&HE0E0E0&}希望你不介意我这么说
+Dialogue: 0,1:28:54.40,1:28:55.43,英上中下,,0000,0000,0000,,you look hot.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你真性感
+Dialogue: 0,1:29:26.52,1:29:28.83,英上中下,,0000,0000,0000,,There's no reason to leave anybody alive.\N{\fn华文楷体\fs16\1c&HE0E0E0&}没必要留活口
+Dialogue: 0,1:29:29.57,1:29:34.31,英上中下,,0000,0000,0000,,Nobody's innocent. We can't leave anybody able to talk.\N{\fn华文楷体\fs16\1c&HE0E0E0&}没人是无辜的  而且不能留下证人
+Dialogue: 0,1:29:34.70,1:29:39.16,英上中下,,0000,0000,0000,,Don't go soft on me, kid. Don't leave anybody breathing.\N{\fn华文楷体\fs16\1c&HE0E0E0&}别心软  一个活口不留
+Dialogue: 0,1:29:41.29,1:29:46.29,英上中下,,0000,0000,0000,,I won't. I'll work the perimeter and nail the guards.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我会的  我在外面转一圈  干掉保安
+Dialogue: 0,1:29:46.32,1:29:49.67,英上中下,,0000,0000,0000,,Baby, you're a natural. I'll work the inside.\N{\fn华文楷体\fs16\1c&HE0E0E0&}宝贝  你真有天赋  我去里面
+Dialogue: 0,1:29:50.59,1:29:52.00,英上中下,,0000,0000,0000,,How would I know when you're in?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我怎么知道你进去了
+Dialogue: 0,1:29:53.34,1:29:55.03,英上中下,,0000,0000,0000,,You'll have a pretty good idea.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你会知道的
+Dialogue: 0,1:32:12.66,1:32:14.63,英上中下,,0000,0000,0000,,Damn thing has fired on me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}该死的冲我开枪了
+Dialogue: 0,1:32:15.42,1:32:16.87,英上中下,,0000,0000,0000,,I nearly got them all but\N{\fn华文楷体\fs16\1c&HE0E0E0&}几乎全搞定了
+Dialogue: 0,1:32:16.87,1:32:19.97,英上中下,,0000,0000,0000,,this piece of shit over here, he came up on me.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但这个混蛋冒出来了
+Dialogue: 0,1:32:20.90,1:32:24.93,英上中下,,0000,0000,0000,,This piece of crap... I think I'll stuck.\N{\fn华文楷体\fs16\1c&HE0E0E0&}该死的  我想就到这儿了
+Dialogue: 0,1:32:25.56,1:32:26.39,英上中下,,0000,0000,0000,,Here.\N{\fn华文楷体\fs16\1c&HE0E0E0&}给
+Dialogue: 0,1:32:28.17,1:32:29.41,英上中下,,0000,0000,0000,,Take a seat.\N{\fn华文楷体\fs16\1c&HE0E0E0&}坐吧
+Dialogue: 0,1:32:36.78,1:32:38.19,英上中下,,0000,0000,0000,,You're a peach.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你真好
+Dialogue: 0,1:32:44.55,1:32:45.79,英上中下,,0000,0000,0000,,I got this.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我来就行
+Dialogue: 0,1:33:09.43,1:33:11.78,英上中下,,0000,0000,0000,,You clever, clever little whore.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你这个聪明的小婊子
+Dialogue: 0,1:33:12.08,1:33:14.52,英上中下,,0000,0000,0000,,I can't believe you made it this far.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你居然能走到这么远
+Dialogue: 0,1:33:18.29,1:33:21.46,英上中下,,0000,0000,0000,,Your Hartigan blew my son's pecker off.\N{\fn华文楷体\fs16\1c&HE0E0E0&}你的哈提根把我儿子的命根子断了
+Dialogue: 0,1:33:22.27,1:33:26.70,英上中下,,0000,0000,0000,,So...where shall I shoot you next?\N{\fn华文楷体\fs16\1c&HE0E0E0&}我接下来应该冲哪里开枪呢
+Dialogue: 0,1:33:30.02,1:33:31.95,英上中下,,0000,0000,0000,,The tight little belly of yours?\N{\fn华文楷体\fs16\1c&HE0E0E0&}你紧致的小蛮腰
+Dialogue: 0,1:33:34.08,1:33:36.07,英上中下,,0000,0000,0000,,I'm holding a gun on you, young lady.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我拿枪对着你呢  小姐
+Dialogue: 0,1:33:36.18,1:33:39.58,英上中下,,0000,0000,0000,,The rules are, you pretend there's a chance that I won't shoot you.\N{\fn华文楷体\fs16\1c&HE0E0E0&}规矩是你要求饶  以为我也许不会开枪
+Dialogue: 0,1:33:50.91,1:33:53.62,英上中下,,0000,0000,0000,,I told you, you would scream before you die.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我说过的  你会尖叫至死
+Dialogue: 0,1:33:55.35,1:33:56.87,英上中下,,0000,0000,0000,,I owe it to my son.\N{\fn华文楷体\fs16\1c&HE0E0E0&}这是我欠我儿子的
+Dialogue: 0,1:34:01.00,1:34:03.01,英上中下,,0000,0000,0000,,Frankly, between you and me,\N{\fn华文楷体\fs16\1c&HE0E0E0&}说实话  只告诉你
+Dialogue: 0,1:34:03.38,1:34:09.23,英上中下,,0000,0000,0000,,I finally accepted that...Ethen is not...presidential material.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我还是接受了伊森不是当总统的料
+Dialogue: 0,1:34:11.67,1:34:15.48,英上中下,,0000,0000,0000,,I had a hard time buying him an election in the same asylum,\N{\fn华文楷体\fs16\1c&HE0E0E0&}在精神病院拉选票真是太难了
+Dialogue: 0,1:34:19.91,1:34:22.36,英上中下,,0000,0000,0000,,but he was my son, honey.\N{\fn华文楷体\fs16\1c&HE0E0E0&}但他终究是我儿子
+Dialogue: 0,1:34:24.73,1:34:26.00,英上中下,,0000,0000,0000,,He was my son.\N{\fn华文楷体\fs16\1c&HE0E0E0&}我的儿子
+Dialogue: 0,1:34:29.54,1:34:33.80,英上中下,,0000,0000,0000,,And now, he's going to hear you scream.\N{\fn华文楷体\fs16\1c&HE0E0E0&}现在  他要听你尖叫了
+Dialogue: 0,1:34:38.82,1:34:40.04,英上中下,,0000,0000,0000,,Scream...\N{\fn华文楷体\fs16\1c&HE0E0E0&}尖叫吧
+Dialogue: 0,1:35:10.70,1:35:13.90,英上中下,,0000,0000,0000,,This is for John Hartigan, fucker!\N{\fn华文楷体\fs16\1c&HE0E0E0&}这是为了约翰·哈提根  混蛋
+Dialogue: 0,1:35:17.88,1:35:22.18,英上中下,,0000,0000,0000,,This rotten town has soiled everybody...\N{\fn华文楷体\fs16\1c&HE0E0E0&}这靡烂的都市腐蚀了每一个人

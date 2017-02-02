@@ -1,0 +1,468 @@
+﻿[Script Info]
+;SrtEdit 6.2.2012.322
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:52.97,0:00:54.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}让我来\NAllow me.
+Dialogue: 0,0:01:08.05,0:01:09.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我猜这不是你第一次\NI gather this isn't the first time
+Dialogue: 0,0:01:09.63,0:01:11.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}帮女人穿衣服了\Nyou've helped a woman into her clothing?
+Dialogue: 0,0:01:12.61,0:01:15.86,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这也不是男人第一次帮你穿衣服了\NNor is it the first you've been helped into yours.
+Dialogue: 0,0:01:18.20,0:01:20.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果我跟你说是呢\NWhat if I told you that it was?
+Dialogue: 0,0:01:20.87,0:01:23.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我会说你的床伴真差劲\NWhy, I'd say you've kept poor company.
+Dialogue: 0,0:01:26.92,0:01:30.30,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}床伴会毁了姑娘的名声\NCompany has a way of damaging a girl's reputation.
+Dialogue: 0,0:01:30.68,0:01:33.72,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一个过度关心自己名誉的姑娘\NThat was not the passion of a woman overly
+Dialogue: 0,0:01:33.72,0:01:35.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}可没有那种激情\Nconcerned with her reputation.
+Dialogue: 0,0:01:35.99,0:01:40.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那是好奇胜过了经验\NThat was the triumph of curiosity over experience.
+Dialogue: 0,0:01:40.48,0:01:41.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}有好几次胜利呢\NSeveral triumphs.
+Dialogue: 0,0:01:42.10,0:01:43.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}至少三次\NAt least three.
+Dialogue: 0,0:01:44.72,0:01:45.54,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}两次\NTwo.
+Dialogue: 0,0:01:46.20,0:01:47.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也许吧\NMaybe.
+Dialogue: 0,0:01:48.00,0:01:50.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}到目前为止是两次\NWell, two so far.
+Dialogue: 0,0:01:52.05,0:01:54.41,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我热爱我的工作  坎贝尔先生\NI love my work, Mr. Campbell.
+Dialogue: 0,0:01:54.41,0:01:57.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我不想认为  我会任凭我的好奇心\NI would hate to think that I'd allow my curiosity
+Dialogue: 0,0:01:57.15,0:01:58.16,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}危害工作\Nto jeopardize that.
+Dialogue: 0,0:01:58.16,0:01:59.81,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我喜欢女人  埃里森小姐\NAnd I love women, Miss Ellison.
+Dialogue: 0,0:01:59.81,0:02:01.46,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你放心\NYou may rest assured,
+Dialogue: 0,0:02:01.87,0:02:03.23,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我很谨慎\NI am discreet.
+Dialogue: 0,0:02:35.92,0:02:37.00,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}出什么事了吗\NIs something wrong?
+Dialogue: 0,0:03:23.97,0:03:25.80,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}快走\NMove it. Come on.
+Dialogue: 0,0:03:51.35,0:03:52.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}没必要这样的\NAin't got to be this way.
+Dialogue: 0,0:03:58.29,0:03:59.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你们可以让开\NYou boys could just step aside.
+Dialogue: 0,0:04:00.75,0:04:01.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}让我们过去\NLet us pass.
+Dialogue: 0,0:04:02.71,0:04:03.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}怎么样\NHow 'bout that?
+Dialogue: 0,0:04:07.56,0:04:08.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}走\NGo on.
+Dialogue: 0,0:05:38.65,0:05:40.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}地狱之轮  第四季第十集
+Dialogue: 0,0:06:08.19,0:06:08.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}喂\NHey!
+Dialogue: 0,0:06:09.38,0:06:10.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不行\NUh-uh.
+Dialogue: 0,0:06:11.18,0:06:12.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那可不是玩具\NThat ain't no plaything.
+Dialogue: 0,0:06:13.23,0:06:14.53,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}等我教你再用  好吗\NYou wait until I teach ya. All right?
+Dialogue: 0,0:06:18.07,0:06:19.56,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}貌似你也差不多够大了\NGuess you're 'bout old enough.
+Dialogue: 0,0:06:23.38,0:06:24.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}走吧\NGo on.
+Dialogue: 0,0:06:27.73,0:06:28.66,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}艾斯拉\NEzra!
+Dialogue: 0,0:06:29.40,0:06:30.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我怎么跟你说的\NWhat did I tell you?
+Dialogue: 0,0:06:33.41,0:06:35.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不要一副装无辜的表情\NDon't throw me a sassy look.
+Dialogue: 0,0:06:36.24,0:06:37.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好多洗完了的衣服要挂起来\NThere's plenty of wash to be hung.
+Dialogue: 0,0:06:38.20,0:06:39.54,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}小溪里也有很多鱼\NPlenty of fish in the creek, too.
+Dialogue: 0,0:06:40.62,0:06:41.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}去吧\NGo on.
+Dialogue: 0,0:06:45.68,0:06:46.46,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那个人\NThat man.
+Dialogue: 0,0:06:48.51,0:06:49.87,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}西德尼·斯诺  你抓到他了吗\NSidney Snow. Did you get him?
+Dialogue: 0,0:06:52.04,0:06:53.01,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}还没有\NNot yet, no.
+Dialogue: 0,0:06:54.40,0:06:55.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}会抓住的对吗\NYou will?
+Dialogue: 0,0:07:00.12,0:07:02.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那些人拒绝回去工作\NThe men are refusing to go back to work.
+Dialogue: 0,0:07:02.85,0:07:04.66,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他们不肯踏出教堂\NThey won't set foot outside the church,
+Dialogue: 0,0:07:04.66,0:07:05.97,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这我不能怪他们\Nand I can't say I blame them.
+Dialogue: 0,0:07:06.57,0:07:08.92,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那些通缉令就在坎贝尔的桌子上\NThose wanted posters are sitting on Campbell's desk.
+Dialogue: 0,0:07:09.02,0:07:10.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我的肯定在最上面\NI'm sure me own is right there on top.
+Dialogue: 0,0:07:11.31,0:07:12.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}西德尼·斯诺逃了\NSidney Ssnow turned tail
+Dialogue: 0,0:07:13.16,0:07:14.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}剩下的警官也不敢为难我们\Nand we just stood down the last of the deputies.
+Dialogue: 0,0:07:14.73,0:07:16.13,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}没人执行通缉令了\NAin't nobody to enforce them posters.
+Dialogue: 0,0:07:16.13,0:07:17.31,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}除了坎贝尔\NExcept Campbell.
+Dialogue: 0,0:07:17.60,0:07:18.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们把他杀了吧\NI say we kill him.
+Dialogue: 0,0:07:18.82,0:07:19.96,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}已经死了不少人了\NPeople got killed already.
+Dialogue: 0,0:07:19.96,0:07:21.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}工人们需要保证\NThe men need assurances.
+Dialogue: 0,0:07:21.95,0:07:22.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我也是\NAs do I.
+Dialogue: 0,0:07:26.07,0:07:27.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那我们就去把通缉令弄来\NLet's go get 'em, then.
+Dialogue: 0,0:07:27.54,0:07:28.72,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你留在这里\NYou stay here.
+Dialogue: 0,0:07:38.13,0:07:40.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你们不得与我的圣徒饮酒\NYou'd have no drinking with my crew of saints,
+Dialogue: 0,0:07:40.34,0:07:41.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}亨廷顿先生\NMr. Huntington.
+Dialogue: 0,0:07:42.13,0:07:44.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不得赌博  不得狂欢\NNo gambling or carousing.
+Dialogue: 0,0:07:45.34,0:07:48.46,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那些是联太公司的问题  杨先生\NNo. Those are Union Pacific problems, Mr. Young.
+Dialogue: 0,0:07:48.52,0:07:50.81,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}只有爱尔兰工人才会那样\NFound amongst an Irish labor force.
+Dialogue: 0,0:07:50.81,0:07:52.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我的华工不会\NI have none of that with my Chinese.
+Dialogue: 0,0:07:54.29,0:07:58.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}亨廷顿先生  我生来时一无所有\NMr. Huntington, I came into this world with nothing.
+Dialogue: 0,0:07:59.26,0:08:01.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}没有土地没有金钱没有接受过教育\NNo land, no money, no education,
+Dialogue: 0,0:08:01.90,0:08:03.10,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}没有任何前途\Nno prospects.
+Dialogue: 0,0:08:03.86,0:08:06.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我年轻的时候经常食不果腹\NAs a young man, I often went without food,
+Dialogue: 0,0:08:06.46,0:08:09.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}于是我学会了品尝野麻雀的美味之处\Nand learned to savor the taste of wild sparrow.
+Dialogue: 0,0:08:10.11,0:08:14.42,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}多亏上帝恩赐  我在盐湖城的边缘\NThrough the grace of God, I have built a small empire
+Dialogue: 0,0:08:14.42,0:08:16.65,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}建立了一个小小的帝国\Nhere on the edge of the great Salt Lake,
+Dialogue: 0,0:08:17.33,0:08:19.27,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}并在此铺设通往天国的路\Nwhere I am paving the way to Zion.
+Dialogue: 0,0:08:19.44,0:08:23.08,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我取得如此成就  不是靠跟那些\NI have not accomplished these things by doing business
+Dialogue: 0,0:08:23.08,0:08:25.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}把我来之不易的的成果看做理所应当之人\Nwith men who would take for granted the hard-won bounty
+Dialogue: 0,0:08:25.84,0:08:29.40,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}或是那些想浪费我宝贵时间之人合作\Nof my table or endeavor to waste my precious time.
+Dialogue: 0,0:08:29.91,0:08:31.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我钦佩您顽强的意志  先生\NI admire your tenacious will, sir,
+Dialogue: 0,0:08:31.73,0:08:33.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我也不想妄图浪费您的时间\Nand I wouldn't dream of wasting your time.
+Dialogue: 0,0:08:34.02,0:08:37.49,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}华工几乎各个方面都满足我的要求\NNow, the celestials suit my needs in almost every way.
+Dialogue: 0,0:08:37.63,0:08:39.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他们吃苦耐劳  身强体壮\NThey are hardy, healthy,
+Dialogue: 0,0:08:39.09,0:08:41.44,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}而且他们的工资非常低\Nand they work for pennies on the dollars.
+Dialogue: 0,0:08:41.55,0:08:43.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但是他们喜欢动不动就停工\NBut they are prone to work stoppages,
+Dialogue: 0,0:08:43.70,0:08:45.56,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这是我遇到的最头疼的问题\Nthe worst of the which I am in midst of now.
+Dialogue: 0,0:08:45.56,0:08:47.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他们吃什么\NWhat do they eat?
+Dialogue: 0,0:08:48.58,0:08:50.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-您说什么  -刚德森\N- Excuse me? - Gundersen?
+Dialogue: 0,0:08:51.18,0:08:52.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他们吃的食物\NTheir food.
+Dialogue: 0,0:08:53.91,0:08:55.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你给他们什么吃\NWhat do you feed them?
+Dialogue: 0,0:08:56.65,0:08:58.62,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}请原谅我的教区记录员\NYou'll have to excuse my ward clerk.
+Dialogue: 0,0:08:59.09,0:09:01.06,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他是新来的\NHe's new to lion house.
+Dialogue: 0,0:09:01.06,0:09:03.42,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}所以还不懂我们的规矩\NDoesn't yet understand our manners.
+Dialogue: 0,0:09:03.42,0:09:04.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}请原谅\NForgive me.
+Dialogue: 0,0:09:04.99,0:09:07.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我只是个可怜的罪人\NI am but a poor sinner.
+Dialogue: 0,0:09:07.47,0:09:09.28,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一文不值  又无知\NUnworthy. Ignorant.
+Dialogue: 0,0:09:09.28,0:09:11.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}只是一个笨蛋  请\NA fool. Please.
+Dialogue: 0,0:09:11.92,0:09:13.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我正要说\NAs I was about to say,
+Dialogue: 0,0:09:14.41,0:09:19.53,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}惰性是上帝的子女的一种普遍都有的特性\N(HAM是指信耶稣，却非摩门的，他并不知道中国人是信什么，只是以为都是信这些的）\Nsloth is a sin common to sons of Ham
+Dialogue: 0,0:09:19.64,0:09:21.80,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但在摩门教徒中，却不存在着这样的现象\Nbut rare indeed among Mormons.
+Dialogue: 0,0:09:23.09,0:09:27.60,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我随随便便就能给你召八百来个工人\NI could easily provide you with over 800 workers.
+Dialogue: 0,0:09:31.77,0:09:36.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}*我憎恶北方佬的一切*\N*I hates the yankee nation and everything they do*
+Dialogue: 0,0:09:36.15,0:09:40.22,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}*我也憎恶独立宣言*\N*I hates the declaration of independence, too*
+Dialogue: 0,0:09:40.37,0:09:44.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}*我憎恶用我们的血汗造就的联邦*\N*I hates the glorious union that's driven with our blood*
+Dialogue: 0,0:10:07.57,0:10:08.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}先生们\NGentlemen...
+Dialogue: 0,0:10:10.83,0:10:12.31,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们怎么会闹成这样\NHow did we get here?
+Dialogue: 0,0:10:12.31,0:10:15.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们闹成这样  约翰  是因为你恶意地\NWe got here, John, by way of your pernicious attacks
+Dialogue: 0,0:10:15.71,0:10:17.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}攻击了我的铁路和我的手下\Non my railroad and my person.
+Dialogue: 0,0:10:18.42,0:10:20.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}铁路已经被腐败和无能给侵蚀了\NRailroad is mired in corruption and incompetence.
+Dialogue: 0,0:10:20.51,0:10:21.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-无能  -先生们\N- Incompetence? - Gentlemen.
+Dialogue: 0,0:10:22.99,0:10:24.78,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}为什么闹成这样不重要\NDon't matter how we got here.
+Dialogue: 0,0:10:25.75,0:10:27.41,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们必须找到新的共存方法\NGot to find out way somewheres new.
+Dialogue: 0,0:10:28.20,0:10:30.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}州长  我的人要回去工作\NNow, Governor, my men are goin' back to work.
+Dialogue: 0,0:10:31.59,0:10:33.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我希望你能保证没人会去招惹他们\NI want your guarantee they'll be left alone.
+Dialogue: 0,0:10:33.98,0:10:36.52,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}用这个请求来开始这场谈判\NThat request is an excellent starting place
+Dialogue: 0,0:10:36.52,0:10:37.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}真是再合适不过了\Nfor this negotiation.
+Dialogue: 0,0:10:37.63,0:10:39.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这不是请求\NIt is not a request.
+Dialogue: 0,0:10:39.81,0:10:41.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你现在人数和武器都占劣势\NYou are outmanned and outgunned,
+Dialogue: 0,0:10:42.06,0:10:46.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}现在你必须撕掉那些债券告示\Nso now you will tear up those ridiculous bond notices
+Dialogue: 0,0:10:46.63,0:10:50.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}和通缉令  然后停止骚扰工人\Nand wanted posters and you will stop harassing the men.
+Dialogue: 0,0:10:50.39,0:10:53.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不管你有多少枪我都是临时州长\NI remain provisional governor no matter your number of guns.
+Dialogue: 0,0:10:53.71,0:10:55.97,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你就算自称是这个世界的\NYou can call yourself provisional king
+Dialogue: 0,0:10:55.97,0:10:57.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}临时皇帝我都不在乎\Nof the world for all I care.
+Dialogue: 0,0:10:57.51,0:11:00.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}因此  我做不到无视法律的存在\NAs such, I will not abandon the enforcement of law.
+Dialogue: 0,0:11:00.86,0:11:04.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我错在执法不够严厉\NMy mistake was tryin' to keep the matter parochial.
+Dialogue: 0,0:11:04.74,0:11:06.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我现在知道  我的错\NMy mistake, as I see it now,
+Dialogue: 0,0:11:06.77,0:11:09.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就是没有早点颁布戒严法\Nwas not establishing martial law earlier.
+Dialogue: 0,0:11:09.37,0:11:11.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}要是有戒严法  我还不如留在密西西比\NAnd I could have stayed in Mississippi for martial law.
+Dialogue: 0,0:11:11.68,0:11:13.33,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}谁都不喜欢戒严法\NNo one likes martial law,
+Dialogue: 0,0:11:14.46,0:11:17.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过本地缺乏可靠的执法官\Nbut lacking any credible local law enforcement...
+Dialogue: 0,0:11:25.19,0:11:25.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好吧\NAll right.
+Dialogue: 0,0:11:26.64,0:11:27.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好吧\NAll right.
+Dialogue: 0,0:11:28.48,0:11:29.27,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我干\NI'll do it.
+Dialogue: 0,0:11:30.75,0:11:32.24,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过我不戴法警徽章\NBut I ain't gonna wear marshal's badge
+Dialogue: 0,0:11:32.24,0:11:33.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}而且我不是为你工作\Nand I sure as hell won't work for you.
+Dialogue: 0,0:11:34.43,0:11:37.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我是为了铁路工作  我只会戴这种徽章\NI work for the railroad and that's the only kind of badge I'll wear.
+Dialogue: 0,0:11:37.63,0:11:39.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}对我来说已经够好了  博汉南先生\NThat's good enough for me, Mr. Bohannon.
+Dialogue: 0,0:11:40.76,0:11:44.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}当然了  如果事实证明你没办法\NOf course, should you prove yourself unable or unwilling
+Dialogue: 0,0:11:44.84,0:11:47.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}或者不想履行你的职责\Nto perform your duties at any time,
+Dialogue: 0,0:11:47.36,0:11:49.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我会毫不犹豫地上报\NI will not hesitate to telegraph the fort.
+Dialogue: 0,0:11:49.51,0:11:51.24,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}没必要\NNot necessary.
+Dialogue: 0,0:11:54.69,0:11:56.44,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我向你保证\NYou have my word.
+Dialogue: 0,0:12:10.27,0:12:13.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}有人吗  我们被锁起来了\NHey! Hey! We're locked in.
+Dialogue: 0,0:12:17.62,0:12:18.91,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我的上帝啊\NSweet baby Jesus.
+Dialogue: 0,0:12:18.91,0:12:20.24,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-着火了  -火\N- It's a fire! - Fire!
+Dialogue: 0,0:12:20.24,0:12:21.10,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}着火了\NIt's a fire!
+Dialogue: 0,0:12:21.10,0:12:22.03,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看看锁能不能打开\NCheck the lock!
+Dialogue: 0,0:12:30.85,0:12:31.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}快灭火\NGet that fire!
+Dialogue: 0,0:12:32.27,0:12:32.78,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}扑灭它\NGet it!
+Dialogue: 0,0:13:08.73,0:13:11.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}快开门\NHey, open the door!
+Dialogue: 0,0:13:11.64,0:13:13.16,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}开门  神啊\NOpen them. Jesus.
+Dialogue: 0,0:13:15.08,0:13:17.23,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}在枪走火前赶紧挪开\NSomebody grab them guns before they go off!
+Dialogue: 0,0:13:18.97,0:13:21.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}是他  是西德尼·斯诺\NIt was him. It was Sidney Snow.
+Dialogue: 0,0:13:21.12,0:13:21.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}米奇\NMickey!
+Dialogue: 0,0:13:22.39,0:13:25.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}赶紧排队递水  免得整个镇子都烧起来\NOrganize a bucket brigade before the whole damn town goes up.
+Dialogue: 0,0:13:25.95,0:13:28.01,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好的  大伙\NAye. Right, lads!
+Dialogue: 0,0:13:28.42,0:13:31.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}所有爱尔兰人  黑鬼牛仔德国佬\NEvery irish, negro, cowboy and kraut!
+Dialogue: 0,0:13:31.83,0:13:33.67,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}都给我拿上水桶\NYou grab yourselves a bucket!
+Dialogue: 0,0:13:33.79,0:13:35.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}拯救小镇\NLet's save this town!
+Dialogue: 0,0:13:38.65,0:13:40.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}博汉南先生  我在这儿\NMr. Bohannon, I'm over here!
+Dialogue: 0,0:13:40.89,0:13:42.53,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看在我为您效劳的份上\NIf you value me service at all,
+Dialogue: 0,0:13:42.80,0:13:45.61,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}请您给我利敦瓦纳的妻子带个信\Nget a message to me sweetheart in Lisdoonvarna.
+Dialogue: 0,0:13:51.50,0:13:54.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}让她嫁给那个混蛋多尔蒂吧\NTell her go on and marry that bollocks Doherty.
+Dialogue: 0,0:13:54.71,0:13:57.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}总好过白等我一辈子\NFar be it from me to make her an old maid.
+Dialogue: 0,0:13:57.77,0:13:58.66,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}闭嘴  培迪\NShut up, Paddy.
+Dialogue: 0,0:13:59.76,0:14:01.46,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这信还是你明天自己写吧\NYou can write her yourself tomorrow.
+Dialogue: 0,0:14:01.49,0:14:02.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我不识字啊  先生\NI can't read, sir.
+Dialogue: 0,0:14:02.90,0:14:03.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那我就没办法了\NCan't help you there.
+Dialogue: 0,0:14:04.30,0:14:05.14,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}小心\NWatch it!
+Dialogue: 0,0:14:16.33,0:14:18.29,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-弄出来  -水\N- Get it out! - Water!
+Dialogue: 0,0:14:21.01,0:14:21.87,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}别停\NKeep 'em coming.
+Dialogue: 0,0:14:21.88,0:14:23.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}快把水递过来\NPass the bucket. Come on.
+Dialogue: 0,0:14:24.44,0:14:25.33,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}快点  大伙\NQuickly lads!
+Dialogue: 0,0:14:26.42,0:14:28.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}加油  把火扑灭\NCome on, get this fire out!
+Dialogue: 0,0:14:29.32,0:14:30.60,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不要停\NKeep 'em coming!
+Dialogue: 0,0:14:31.85,0:14:34.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}快点快点  动作迅速\NCome on, faster, faster. Come on, move it out.
+Dialogue: 0,0:14:34.71,0:14:35.87,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好的  孩子们  拿上水桶\NAll right, boys, pick it up!
+Dialogue: 0,0:15:21.24,0:15:24.81,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}总是很高兴能和志同道合的先驱合作\NIt's always good doin' business with a fellow pioneer,
+Dialogue: 0,0:15:24.81,0:15:25.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}杨先生\NMr. Young.
+Dialogue: 0,0:15:26.41,0:15:29.61,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}请代我感谢您的夫人们在密西西比河两岸\NPlease, thank all of your wives for the heartiest hospitality
+Dialogue: 0,0:15:29.61,0:15:31.66,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}对我的热情招待\NI have felt on either side of the Mississippi.
+Dialogue: 0,0:15:31.66,0:15:33.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}您也会成为圣徒的  亨廷顿先生\NWe'll make a saint of you yet, Mr. Huntington.
+Dialogue: 0,0:15:33.99,0:15:35.98,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}祝您回萨克拉门托的旅途一路顺风\NI will pray for your safe return to Sacramento.
+Dialogue: 0,0:15:35.98,0:15:39.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我也希望您身体安康  生意兴隆\NAnd I will hope for your continued health and prosperity.
+Dialogue: 0,0:15:40.43,0:15:42.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这位  嗯\NOh, uh... Mister, uh...
+Dialogue: 0,0:15:42.76,0:15:43.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}刚德森先生吧\NGundersen, was it?
+Dialogue: 0,0:15:45.00,0:15:48.07,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我没记错的话这应该是个挪威名字吧\NThat name is Norwegian if I'm not mistaken.
+Dialogue: 0,0:15:48.35,0:15:50.05,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}您没有记错\NYou are not mistaken.
+Dialogue: 0,0:15:51.25,0:15:53.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你为什么想知道我给华工吃什么\NWhy did you want to know what kind of feed I give my Chinamen?
+Dialogue: 0,0:16:00.79,0:16:03.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}客人问你话呢  刚德森兄弟\NOur guest asked you a question, brother Gundersen.
+Dialogue: 0,0:16:04.75,0:16:07.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}战争中我知道了\NI learned during the war
+Dialogue: 0,0:16:08.40,0:16:10.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}粮食是军队的灵魂\Nthat an army runs on its stomach,
+Dialogue: 0,0:16:11.25,0:16:15.54,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}而工人相当于一支小军队\NAnd what is a labor force if not a small army?
+Dialogue: 0,0:16:16.43,0:16:17.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我懂了\NI see.
+Dialogue: 0,0:16:18.87,0:16:19.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}谢谢\NThank you.
+Dialogue: 0,0:16:19.89,0:16:22.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我在联太铁路公司待了多年\NI spent years on the Union Pacific Railroad
+Dialogue: 0,0:16:22.79,0:16:24.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}在托马斯·杜兰特手下工作\Nunder Thomas Durant.
+Dialogue: 0,0:16:24.51,0:16:25.81,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那个老混账\NOh, that old son of a gun?
+Dialogue: 0,0:16:25.81,0:16:28.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他也给你讲过\NHe ever give you that damn speech of his
+Dialogue: 0,0:16:28.04,0:16:30.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-狮子和斑马的故事吧  -讲了很多次\N- about the lion and the zebra? - Oh, many times, yes.
+Dialogue: 0,0:16:30.26,0:16:32.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}差点把我变成瑞普·凡·温克尔\NOh! 'bout turned me into Rip Van Winkle.
+Dialogue: 0,0:16:30.26,0:16:32.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}《瑞普·凡·温克尔》是美国作家华盛顿·欧文的著名短篇小说
+Dialogue: 0,0:16:32.35,0:16:34.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}因为你觉得无聊吗\NBecause you found it boring?
+Dialogue: 0,0:16:36.03,0:16:38.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}告诉我  你跟卡伦·博汉南\NTell me, did you ever have the opportunity
+Dialogue: 0,0:16:38.45,0:16:39.56,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一起工作过吗\Nto work with Cullen Bohannon?
+Dialogue: 0,0:16:39.56,0:16:41.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我一辈子记着那个男人\NThat man impresses the hell out of me.
+Dialogue: 0,0:16:43.01,0:16:44.91,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}通过认真研究卡伦·博汉南\NEverything I know, I learned
+Dialogue: 0,0:16:44.96,0:16:48.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我从他身上学到了很多东西\NI learned by careful study of Cullen Bohannon.
+Dialogue: 0,0:16:49.06,0:16:50.06,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}是吗\NHow about that?
+Dialogue: 0,0:16:50.55,0:16:53.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我猜我很快就会在坡下见到他了\NAnd I suppose I'll see him on the downslope soon enough.
+Dialogue: 0,0:16:53.36,0:16:56.52,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也许你可以让我这个前联太员工\NPerhaps you could use a former Union Pacific man
+Dialogue: 0,0:16:56.52,0:16:59.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}帮助你的摩门新劳工\Nto accompany your fresh Mormon workers.
+Dialogue: 0,0:17:02.28,0:17:03.22,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}当然了\NThat is,
+Dialogue: 0,0:17:03.75,0:17:07.06,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果布里格姆兄弟同意的话\Nif brother Brigham can spare me.
+Dialogue: 0,0:17:08.60,0:17:09.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们会讨论的\NWe will discuss it.
+Dialogue: 0,0:17:11.33,0:17:12.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}退下吧  刚德森\NLeave us, Gundersen.
+Dialogue: 0,0:17:13.46,0:17:14.28,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}日安\NGood day.
+Dialogue: 0,0:17:31.26,0:17:35.65,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你  记得我吗\NYou. Remember me?
+Dialogue: 0,0:17:36.58,0:17:37.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你这垃圾\NYou no good trash.
+Dialogue: 0,0:17:38.77,0:17:41.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}救救我\NHelp... Me...
+Dialogue: 0,0:17:45.22,0:17:46.16,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看着我\NLook at me.
+Dialogue: 0,0:17:49.08,0:17:50.00,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看着我\NLook at me!
+Dialogue: 0,0:17:52.06,0:17:53.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我叫伊娃\NMy name is Eva.
+Dialogue: 0,0:17:54.03,0:17:58.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我是母亲  女儿  印第安人\NI'm a mother, daughter, Injun,
+Dialogue: 0,0:17:58.76,0:18:00.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}人妻  也是妓女\Nwife, and whore.
+Dialogue: 0,0:18:00.72,0:18:02.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}可我有生以来\NBut all my time on this earth,
+Dialogue: 0,0:18:02.67,0:18:06.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}还从没见过比你更垃圾的人\NI ain't ever met a bigger piece of shit than you.
+Dialogue: 0,0:18:39.78,0:18:41.01,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他没救了\NHe couldn't be saved.
+Dialogue: 0,0:18:45.26,0:18:46.42,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看到以斯拉了吗\NHave you seen Ezra?
+Dialogue: 0,0:18:46.53,0:18:48.27,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}抱歉  没看到\NI-I'm sorry, I haven't.
+Dialogue: 0,0:18:51.05,0:18:52.65,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}以斯拉还没回来\NEzra hasn't come back.
+Dialogue: 0,0:18:53.53,0:18:54.62,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我待会再跟你们谈\NI'll be over after a while.
+Dialogue: 0,0:18:56.01,0:18:57.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他从没有整夜不归过\NHe's never stayed out all night.
+Dialogue: 0,0:18:59.90,0:19:00.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好吧  听着\NAll right. Hey, listen.
+Dialogue: 0,0:19:00.75,0:19:02.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}房子烧着之前他就逃了\NH--h--he run off before all this started.
+Dialogue: 0,0:19:02.88,0:19:05.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-他没事的  -可他上哪了\N- He's all right. - But--but where is he?
+Dialogue: 0,0:19:06.19,0:19:07.43,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}可能只是躲起来了\NProbably just tryin' to stay out of the way.
+Dialogue: 0,0:19:07.43,0:19:08.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们会找到他的\NWe'll find him.
+Dialogue: 0,0:19:08.55,0:19:10.60,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-以斯拉  -以斯拉\N- Ezra! - Ezra!
+Dialogue: 0,0:19:10.60,0:19:12.49,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-快出来  -以斯拉\N- Come on out, now! - Ezra!
+Dialogue: 0,0:19:12.74,0:19:14.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他不见了吗  露丝\NHave you not seen him, Ruth?
+Dialogue: 0,0:19:14.91,0:19:16.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}男孩就爱乱跑\NOh, you know how boys are.
+Dialogue: 0,0:19:16.18,0:19:17.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他应该是躲在什么地方了  以斯拉\NHe's just hidin' somewheres. Ezra!
+Dialogue: 0,0:19:17.77,0:19:18.80,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}以斯拉\NEzra!
+Dialogue: 0,0:19:19.71,0:19:22.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-我不会生气的  -以斯拉\N- I won't be cross! - Ezra!
+Dialogue: 0,0:19:22.32,0:19:24.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}求你了  出来吧\NPlease! Come out!
+Dialogue: 0,0:19:28.37,0:19:29.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}怎么了\NWhat is it?
+Dialogue: 0,0:19:31.59,0:19:32.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}后面的屋子\NThe back room.
+Dialogue: 0,0:19:34.33,0:19:35.67,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不可能  教堂当时没人了\NNo, church was clear.
+Dialogue: 0,0:19:38.92,0:19:40.10,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}在地板下\NUnder the floor.
+Dialogue: 0,0:20:50.93,0:20:51.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}露丝\NRuth...
+Dialogue: 0,0:20:53.63,0:20:54.61,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不\NNo.
+Dialogue: 0,0:20:56.75,0:20:57.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}别\NPlease.
+Dialogue: 0,0:20:57.99,0:20:58.80,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-不  -别看\N- No! - No, no.
+Dialogue: 0,0:20:58.80,0:21:02.13,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不  放开我\NNo! Let me--let me go!
+Dialogue: 0,0:21:47.33,0:21:50.06,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}西德尼·斯诺  他在哪儿\NSidney Snow. Where is he?
+Dialogue: 0,0:21:50.06,0:21:51.43,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我不知道\NI don't know.
+Dialogue: 0,0:21:53.56,0:21:54.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他是你的法警\NHe's your marshal.
+Dialogue: 0,0:21:57.06,0:21:58.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}自从他搭上运犯人的火车\NI haven't had eyes on him
+Dialogue: 0,0:21:58.82,0:22:00.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}离开后我就再没见过他\Nsince he left on that prison train!
+Dialogue: 0,0:22:00.45,0:22:01.53,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他听命于你\NHe takes his orders from you.
+Dialogue: 0,0:22:01.53,0:22:04.86,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那个人谁的命令都不听\NHey, that man's incapable of takin' orders from anyone.
+Dialogue: 0,0:22:05.77,0:22:07.10,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一个小孩丧命了\NA child is dead!
+Dialogue: 0,0:22:07.21,0:22:09.30,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我在上帝面前向你发誓\NI swear to you before God.
+Dialogue: 0,0:22:09.31,0:22:12.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}发生在教堂的可耻罪行和我一点儿关系没有\NI had nothin' to do with the heinous crimes at the church.
+Dialogue: 0,0:22:13.06,0:22:15.78,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你本应该吊死那个狗娘养的却雇佣了他\NYou hired that son of bitch when you should have hung him.
+Dialogue: 0,0:22:15.78,0:22:16.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你说的对\NYou're right.
+Dialogue: 0,0:22:17.76,0:22:19.03,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你说的对\NYou're right.
+Dialogue: 0,0:22:19.47,0:22:23.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}昨晚的悲剧应该怪我\NThe blame for last night's tragedy is mine.
+Dialogue: 0,0:22:23.70,0:22:26.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我就不应该给西德尼·斯诺授权\NI never should have empowered Sidney Snow.
+Dialogue: 0,0:22:28.52,0:22:31.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我杀过远比你好的人\NI've killed far better men than you
+Dialogue: 0,0:22:31.20,0:22:33.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他们没这么罪孽深重\Nfor doin' a lot less than that.
+Dialogue: 0,0:22:35.11,0:22:37.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我毫不怀疑\NI have no shred of doubt.
+Dialogue: 0,0:22:41.95,0:22:45.16,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我愿意提供我权利之内的任何资源\NI'd like to offer every resource at my disposal
+Dialogue: 0,0:22:45.16,0:22:48.23,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}来帮你找到他并绳之以法\Nto help you find him and see him hang.
+Dialogue: 0,0:22:59.32,0:23:01.69,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就我看来  你已经没什么资源了\NYou're all out of resources, far as I can tell.
+Dialogue: 0,0:23:05.03,0:23:06.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}坎贝尔不知情\NCampbell didn't know.
+Dialogue: 0,0:23:07.66,0:23:10.72,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们搜过赌场  妓院  洗衣店\NWe searched the casino, the whorehouse, the laundry.
+Dialogue: 0,0:23:10.72,0:23:12.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}夏安镇的每个老鼠洞都搜过了\NEvery bleedin' rat hole in Cheyenne.
+Dialogue: 0,0:23:12.73,0:23:14.92,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-再搜一遍  -我已经搜过了\N- Search again. - I've searched it already!
+Dialogue: 0,0:23:14.92,0:23:16.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他一定是躲在哪里了\NHe's got to be somewheres.
+Dialogue: 0,0:23:16.46,0:23:18.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我亲自监督了搜索过程\NI oversaw the search myself.
+Dialogue: 0,0:23:19.78,0:23:20.92,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}博汉南\NBohannon.
+Dialogue: 0,0:23:21.93,0:23:23.01,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-你看见他了吗  -没有\N- You seen him? - Mm-mm.
+Dialogue: 0,0:23:25.11,0:23:28.29,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这镇上是有很多三教九流\NThere are a lot of rotten, mangy dogs in this town,
+Dialogue: 0,0:23:28.54,0:23:30.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但没人会窝藏一个杀害孩子的凶手\Nbut none who'd shelter a child-killer.
+Dialogue: 0,0:23:32.83,0:23:34.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他只用跳上一匹马就能跑路\NAll he had to was hop on a horse.
+Dialogue: 0,0:23:35.15,0:23:37.20,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他现在恐怕已经快到墨西哥了\NHe's halfway to Mexico by now,
+Dialogue: 0,0:23:37.28,0:23:39.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}或者这世上的其它狗屁镇子\Nor some other arsehole town in this world!
+Dialogue: 0,0:23:39.64,0:23:40.97,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他不在墨西哥\NHe ain't in Mexico.
+Dialogue: 0,0:23:42.22,0:23:43.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}卡伦\NCullen!
+Dialogue: 0,0:23:48.66,0:23:49.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他已经跑了\NHe's gone.
+Dialogue: 0,0:23:53.22,0:23:54.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}结束了\NIt's over.
+Dialogue: 0,0:24:06.86,0:24:08.13,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我曾有机会杀了他  米奇\NI had him, Mickey.
+Dialogue: 0,0:24:18.28,0:24:19.60,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}在杂货店的时候\NIn the general store.
+Dialogue: 0,0:24:23.10,0:24:24.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}当时我用枪指着他的头\NHad my gun to his head.
+Dialogue: 0,0:24:27.23,0:24:28.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你为什么没有杀了他\NWell, why didn't you shoot him?
+Dialogue: 0,0:24:53.26,0:24:54.30,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}露丝...\NRuth...
+Dialogue: 0,0:24:58.29,0:24:59.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们到处都搜遍了\Nwe searched everywheres...
+Dialogue: 0,0:25:01.74,0:25:03.06,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但是我反应太慢了\NAnd I was too slow.
+Dialogue: 0,0:25:03.97,0:25:05.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}太蠢了\NStupid.
+Dialogue: 0,0:25:09.41,0:25:10.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我让西德尼逃脱了\NI let Sidney get away.
+Dialogue: 0,0:25:18.55,0:25:20.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你第一次把他带来教堂时\NWhen you first brought him to the church,
+Dialogue: 0,0:25:21.70,0:25:24.10,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我就想把他送去孤儿院的\NI wanted to send him to the orphanage.
+Dialogue: 0,0:25:26.43,0:25:28.92,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我并没有心思成为谁的母亲\NI had no business being anyone's mother.
+Dialogue: 0,0:25:44.36,0:25:45.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你当时只是吓坏了\NYou was just scared.
+Dialogue: 0,0:25:49.26,0:25:50.99,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我一直都不知道他的全名\NI never learned his full name.
+Dialogue: 0,0:25:53.25,0:25:55.08,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也不知道他是从哪儿来的\NNever knew where he came from.
+Dialogue: 0,0:25:59.67,0:26:01.86,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不知道他有没有兄弟姐妹\NWhether he had brothers or sisters
+Dialogue: 0,0:26:02.11,0:26:04.27,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不知道他家里都有什么人\NOr what became of his family.
+Dialogue: 0,0:26:05.98,0:26:09.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不知道他小时候幸不幸福\NI don't know if he was a colicky baby or a happy one
+Dialogue: 0,0:26:10.43,0:26:12.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不知道他的眼睛像不像他的父亲\Nor if his eyes were like his father's.
+Dialogue: 0,0:26:16.31,0:26:17.86,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他永远也上不了学了\NHe'll never go to school.
+Dialogue: 0,0:26:20.92,0:26:22.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}永远也找不到心上人\NNever have a sweetheart.
+Dialogue: 0,0:26:28.13,0:26:29.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}永远无法结婚\NNever get married.
+Dialogue: 0,0:26:33.38,0:26:35.42,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他讨厌做家务\NHe hated doing chores.
+Dialogue: 0,0:26:36.20,0:26:39.03,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他把活的癞蛤蟆带进教堂\NHe brought live toads into the church.
+Dialogue: 0,0:26:50.99,0:26:54.29,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他又野又固执\NHe was wild and headstrong...
+Dialogue: 0,0:26:56.76,0:26:59.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我一直都没办法让他洗个澡\Nand I could never get him to take a bath.
+Dialogue: 0,0:27:01.09,0:27:02.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但他是个好孩子\NBut he was a good boy.
+Dialogue: 0,0:27:09.71,0:27:12.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我见他最后一面时\NAnd the last time I saw him,
+Dialogue: 0,0:27:13.58,0:27:15.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我还冲他发脾气了\NI spoke to him in anger.
+Dialogue: 0,0:27:16.16,0:27:18.92,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不  不\NNo. No.
+Dialogue: 0,0:27:19.85,0:27:21.07,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你当时只是试图保护他\NYou was just tryin' to protect him.
+Dialogue: 0,0:27:21.07,0:27:22.91,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}保护的还真好啊\NThe good it did.
+Dialogue: 0,0:27:23.39,0:27:24.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你也不知道会发生这种事\NYou didn't know.
+Dialogue: 0,0:27:24.37,0:27:25.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我应该察觉到的\NI should've known!
+Dialogue: 0,0:27:29.84,0:27:32.31,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我应该照顾好他的\NI was supposed to take care of him.
+Dialogue: 0,0:27:38.14,0:27:40.98,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我永远也不配当个母亲了\NI never deserved to be a mother.
+Dialogue: 0,0:28:09.34,0:28:12.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}布里格姆兄弟\NAh, brother Brigham.
+Dialogue: 0,0:28:13.82,0:28:15.02,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}日安\NGood day.
+Dialogue: 0,0:28:16.33,0:28:19.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你给克利斯·亨廷顿留了个好印象\NYou made a favorable impression on Collis Huntington.
+Dialogue: 0,0:28:22.18,0:28:23.43,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们商量过了\NWe discussed
+Dialogue: 0,0:28:24.03,0:28:26.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你将陪着圣徒们去中太平洋工作\Nyour accompanying the saints to work on the Central Pacific.
+Dialogue: 0,0:28:27.68,0:28:29.05,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他希望你独自前往\NHe'd like you along.
+Dialogue: 0,0:28:30.93,0:28:34.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}真是个有远见的人  就像您一样\NTruly a man of vision, like yourself.
+Dialogue: 0,0:28:35.68,0:28:40.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}圣灵促使我奔向他  靠近他\NThe holy spirit compelled me to--to reach out to him.
+Dialogue: 0,0:28:49.51,0:28:52.49,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}上帝在俗世上的先知是我\NI am God's prophet on earth.
+Dialogue: 0,0:28:55.80,0:28:56.87,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不是你\NNot you.
+Dialogue: 0,0:28:58.96,0:29:01.46,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}原谅我  布里格姆兄弟\NForgive me, brother Brigham.
+Dialogue: 0,0:29:02.11,0:29:05.47,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我被自大冲昏了头\NI was bested by my pride.
+Dialogue: 0,0:29:08.54,0:29:11.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}圣父对你自有安排\NHeavenly father has plans for you here.
+Dialogue: 0,0:29:12.26,0:29:16.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}将来  你必须牢记自己的位置\NIn the future, it would behoove you to remember your place.
+Dialogue: 0,0:29:17.61,0:29:18.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}当然\NOf course.
+Dialogue: 0,0:29:20.17,0:29:22.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}谢谢您\NOh, thank you,
+Dialogue: 0,0:29:23.67,0:29:27.91,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}*主的狮子啊*\N*Oh lion of the lord*
+Dialogue: 0,0:29:29.89,0:29:31.61,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}快穿好衣服  去做祷告\NFinish dressing and pray.
+Dialogue: 0,0:29:33.59,0:29:35.56,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}再过半小时就要开教区会议了\NThere's a ward meeting in half an hour.
+Dialogue: 0,0:29:38.55,0:29:42.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}[挪威语]
+Dialogue: 0,0:32:36.39,0:32:37.96,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}伊娃  我看到你干了什么\NEva, I saw what you did.
+Dialogue: 0,0:32:40.78,0:32:41.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我干了什么\NWhat'd I do?
+Dialogue: 0,0:32:43.57,0:32:44.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你杀了那个人\NYou killed that man.
+Dialogue: 0,0:32:45.69,0:32:46.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就在那场大火之后\NAfter the fire.
+Dialogue: 0,0:32:53.21,0:32:54.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我知道他残酷可怕\NI know he was monstrous.
+Dialogue: 0,0:32:54.77,0:32:56.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你只知道华丽的辞藻\NYou don't know nothin' but words.
+Dialogue: 0,0:32:59.97,0:33:01.01,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}伊娃\NEva.
+Dialogue: 0,0:33:02.70,0:33:03.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我知道\NI know.
+Dialogue: 0,0:33:11.61,0:33:13.00,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他也干了你\NHe done you, too.
+Dialogue: 0,0:33:16.37,0:33:17.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你杀了他\NYou murdered him.
+Dialogue: 0,0:33:18.50,0:33:20.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也算不上谋杀\NWeren't exactly murder.
+Dialogue: 0,0:33:24.68,0:33:25.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你怎么能那么做\NHow could you do it?
+Dialogue: 0,0:33:26.84,0:33:28.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我发现你并没有试图阻止我\NI notice you didn't try to stop me.
+Dialogue: 0,0:33:28.79,0:33:29.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不是\NNo.
+Dialogue: 0,0:33:31.44,0:33:32.56,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我是说我\NI mean I--
+Dialogue: 0,0:33:36.86,0:33:40.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我...我就做不到\NI...couldn't have done it.
+Dialogue: 0,0:33:46.35,0:33:48.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}没事  埃里森小姐\NIt's all right, Miss Ellison.
+Dialogue: 0,0:33:48.15,0:33:49.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这不是你的错\NYou ain't done nothin' wrong.
+Dialogue: 0,0:33:52.65,0:33:55.08,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果你在这里待了够久  经历了够多事\NEnough things happen to you long enough out here,
+Dialogue: 0,0:33:56.32,0:33:57.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你也什么都能做出来\Nyou can do anything.
+Dialogue: 0,0:33:58.20,0:33:59.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}等着瞧吧\NYou'll see.
+Dialogue: 0,0:34:30.13,0:34:31.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}别读了\NDon't.
+Dialogue: 0,0:34:45.43,0:34:47.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你总是伴他左右  露丝\NYou was always there for him, Ruth.
+Dialogue: 0,0:34:51.86,0:34:53.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这对他来说很重要\NThat means a lot.
+Dialogue: 0,0:35:03.09,0:35:05.47,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你自己的儿子也死于暴行\NYou lost your own son to violence.
+Dialogue: 0,0:35:07.13,0:35:08.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}是的  乔舒亚\NYeah, Joshua.
+Dialogue: 0,0:35:10.10,0:35:11.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他跟以斯拉差不多大\NHe's about Ezra's age.
+Dialogue: 0,0:35:15.47,0:35:17.16,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你怎么能忍呢\NHow do you endure it?
+Dialogue: 0,0:35:26.34,0:35:27.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}没有什么能让你心安\NAin't nothin' brings peace.
+Dialogue: 0,0:35:38.97,0:35:43.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}等你找到那个杀死我孩子的恶魔\NWhen you find the devil who did this to my child,
+Dialogue: 0,0:35:45.46,0:35:48.28,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我希望你把他送回地狱\NI hope you return him to hell with my wish
+Dialogue: 0,0:35:48.29,0:35:50.43,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}让他深陷苦海\Nthat his suffering be deep,
+Dialogue: 0,0:35:51.86,0:35:53.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}永劫不复\Nand eternal.
+Dialogue: 0,0:36:36.02,0:36:37.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}早上好\NGood morning.
+Dialogue: 0,0:36:38.52,0:36:39.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}有老鼠吗\NRats?
+Dialogue: 0,0:36:41.52,0:36:43.28,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}更像是幽灵吧\NIt's ghosts, more like.
+Dialogue: 0,0:36:46.12,0:36:47.52,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}是啊\NYes, well...
+Dialogue: 0,0:36:48.62,0:36:50.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}汉娜离开我的时候  我...\NWhen Hannah left me, I...
+Dialogue: 0,0:36:51.06,0:36:53.72,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我其实更喜欢独自待在牢房里\NI actually preferred the solitude of my prison cell
+Dialogue: 0,0:36:53.72,0:36:56.80,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}而不是待在空荡荡的家里\Nto the empty rooms of the family house.
+Dialogue: 0,0:37:05.62,0:37:07.61,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}别因为你的新工作\NDon't let your new duties
+Dialogue: 0,0:37:07.62,0:37:10.03,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}耽误你征服谢尔曼峰\Nkeep you from conquering Sherman peak.
+Dialogue: 0,0:37:32.98,0:37:34.40,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我在写一篇文章\NI'm writing an article
+Dialogue: 0,0:37:35.51,0:37:37.99,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}关于夏安镇的司法行政\Nabout the administration of justice in Cheyenne.
+Dialogue: 0,0:37:48.89,0:37:50.52,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}恐怕你不会喜欢的\NI don't think you're going to like it.
+Dialogue: 0,0:38:04.52,0:38:05.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}该死\NAh, damn it!
+Dialogue: 0,0:38:07.79,0:38:09.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}它可不是个娇小姐啊  博汉南先生\NNot a delicate lady, Mr. Bohannon.
+Dialogue: 0,0:38:10.52,0:38:11.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}它是个\NWhat we have here
+Dialogue: 0,0:38:11.94,0:38:14.02,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}虎背熊腰的婊子\Nis a strong-backed, thick-thighed whore.
+Dialogue: 0,0:38:18.82,0:38:20.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我建议你用管道扳手\NI'd recommend a plumbing wrench.
+Dialogue: 0,0:38:21.13,0:38:23.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那就管道扳手吧  德莱尼先生\NPlumbing wrench it is, Mr. Delaney.
+Dialogue: 0,0:38:24.30,0:38:25.44,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}德莱尼先生\NMr. Delaney?
+Dialogue: 0,0:38:28.08,0:38:29.19,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}谢谢\NThank you.
+Dialogue: 0,0:38:35.32,0:38:37.00,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}假设我们\NSupposin' now we, um...
+Dialogue: 0,0:38:37.43,0:38:39.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}把你的这个设备修好了\Nget this contraption of your'n on up and runnin'.
+Dialogue: 0,0:38:40.57,0:38:42.47,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}恐怕对工人们不是好事\NWon't find it friend to the workin' man.
+Dialogue: 0,0:38:42.47,0:38:44.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}只要别让我被乱石砸死\NAnything that keeps me droppin' dead chuckin' rock
+Dialogue: 0,0:38:44.79,0:38:46.07,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就是好事\Nis a friend of mine.
+Dialogue: 0,0:38:46.66,0:38:48.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果这台蒸汽挖土机真像你说的\NThis steam shovel of your'n chew up Sherman Peak
+Dialogue: 0,0:38:48.83,0:38:50.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}能荡平谢尔曼峰\Nlike you say,
+Dialogue: 0,0:38:50.26,0:38:51.92,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那老帕萨姆还有什么用\NWhat use is old Psalms?
+Dialogue: 0,0:38:51.92,0:38:53.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你也没用了\NOr you, while we at it?
+Dialogue: 0,0:38:53.17,0:38:54.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这是明天的问题\NTomorrow's problem.
+Dialogue: 0,0:38:54.12,0:38:55.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}把扳手给我\NHand me that wrench right there.
+Dialogue: 0,0:38:59.21,0:39:00.66,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}卡伦·博汉南\NCullen Bohannon!
+Dialogue: 0,0:39:04.12,0:39:05.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}卡伦·博汉南\NCullen Bohannon!
+Dialogue: 0,0:39:14.03,0:39:16.14,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}卡伦·博汉南\NCullen Bohannon!
+Dialogue: 0,0:39:19.17,0:39:22.28,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你这个南方佬谋杀犯快滚出来\NGet your blue coat killin' ass out here, now!
+Dialogue: 0,0:39:24.16,0:39:25.56,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我在这里  西德\NI'm right here, Sid!
+Dialogue: 0,0:39:26.47,0:39:27.97,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你最好跟我聊聊\NYou best come and talk to me 'fore
+Dialogue: 0,0:39:27.97,0:39:30.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不然我会把这狗屎城镇射个稀巴烂\NI shoot the piss out of this pig shit town!
+Dialogue: 0,0:39:41.11,0:39:42.33,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好的\NAll right.
+Dialogue: 0,0:39:43.77,0:39:44.99,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们聊聊\NLet's talk.
+Dialogue: 0,0:39:47.67,0:39:49.05,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}瞧瞧你\NWell, look at you.
+Dialogue: 0,0:39:50.37,0:39:51.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你嫉妒我有警徽\NYou're jealous of my badge.
+Dialogue: 0,0:39:51.55,0:39:53.72,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}于是自己也去搞了一枚\Nyou had to go out and get one for yourself.
+Dialogue: 0,0:39:54.84,0:39:56.43,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你不该回来的\NYou should have kept ridin'.
+Dialogue: 0,0:39:56.75,0:39:58.33,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我也这样觉得\NYeah, I thought so too.
+Dialogue: 0,0:39:59.67,0:40:00.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我都快到丹佛了\NYou know, I was half way to Denver
+Dialogue: 0,0:40:00.80,0:40:04.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}才返身回来烧了那个北方妞的教堂\Nafter I set that cute lil' yankee twist's church on fire.
+Dialogue: 0,0:40:05.58,0:40:07.65,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你知道我为什么回来吗\NYou know what it was made me come back?
+Dialogue: 0,0:40:10.73,0:40:11.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}因为你\NIt was you.
+Dialogue: 0,0:40:13.60,0:40:14.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}博汉南\NBohannon.
+Dialogue: 0,0:40:21.05,0:40:23.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们有些事没了结\NYou and me got unfinished business.
+Dialogue: 0,0:40:24.75,0:40:26.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}恐怕是的\NSuppose that's right.
+Dialogue: 0,0:40:28.52,0:40:30.86,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们现在解决了怎么样\NWhat do you say we settle things right now?
+Dialogue: 0,0:40:32.67,0:40:34.07,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我不想再杀人了\NI'm all done with killin'.
+Dialogue: 0,0:40:34.70,0:40:37.61,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}或许你会被杀\NWell, maybe you gonna get killed.
+Dialogue: 0,0:40:39.16,0:40:40.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我会逮捕你的\NI'm gonna arrest you.
+Dialogue: 0,0:40:42.07,0:40:44.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你为什么不过来试试\NWell, why don't you come on over here and try.
+Dialogue: 0,0:40:47.37,0:40:48.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}放下枪\NDrop that gun.
+Dialogue: 0,0:40:51.83,0:40:53.28,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好  过来拿啊\NYeah, come on and take it.
+Dialogue: 0,0:41:36.13,0:41:38.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}真他妈绝了\NWell, dip me in dog shit.
+Dialogue: 0,0:41:45.49,0:41:46.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}教堂妞\NThe church lady?
+

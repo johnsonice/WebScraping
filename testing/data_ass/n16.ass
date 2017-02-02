@@ -1,0 +1,1230 @@
+[Script Info]
+ScriptType: V4.00+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Sans,18,&H00FFFFFF,&H0000FFFF,&H000078B4,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,20,20,20,0
+Style: Blue,AR PL UKai CN,16,&H00FFFFFF,&H0000FFFF,&H000078B4,&H00773301,0,0,0,0,100,100,0,0,1,0,1,2,20,20,10,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:35.80,0:01:39.50,Blue,,0000,0000,0000,,{\i1}现在, 戴尔, 仔细听好了.{\i0}
+Dialogue: 0,0:01:36.08,0:01:39.74,Default,,0000,0000,0000,,Now, Dale, listen carefully.
+Dialogue: 0,0:01:39.67,0:01:42.50,Blue,,0000,0000,0000,,{\i1}该你走了.{\i0}
+Dialogue: 0,0:01:39.91,0:01:42.78,Default,,0000,0000,0000,,lt's your move.
+Dialogue: 0,0:01:42.68,0:01:45.77,Blue,,0000,0000,0000,,{\i1}请你用心去走好每一步,\N你会的吧?{\i0}
+Dialogue: 0,0:01:42.95,0:01:46.01,Default,,0000,0000,0000,,Please put your heart into it,\Nwill you?
+Dialogue: 0,0:01:45.94,0:01:48.95,Blue,,0000,0000,0000,,{\i1}我已经注意到你思想里\N存在了某些犹豫不决的特性,{\i0}
+Dialogue: 0,0:01:46.19,0:01:49.21,Default,,0000,0000,0000,,l've noticed a certain tentative quality\Nin your thinking,
+Dialogue: 0,0:01:49.16,0:01:52.00,Blue,,0000,0000,0000,,{\i1}犹如你的头脑被一大堆\N棋盘之外的杂事{\i0}
+Dialogue: 0,0:01:49.39,0:01:52.26,Default,,0000,0000,0000,,as if your mind were occupied\Nwith issues
+Dialogue: 0,0:01:52.17,0:01:54.00,Blue,,0000,0000,0000,,{\i1}所占领了\N就在你眼前.{\i0}
+Dialogue: 0,0:01:52.43,0:01:54.22,Default,,0000,0000,0000,,other than those on the board\Nbefore you.
+Dialogue: 0,0:01:54.17,0:01:57.61,Blue,,0000,0000,0000,,{\i1}如此先入为主的成见\N不但会削弱一个人的决断力,{\i0}
+Dialogue: 0,0:01:54.39,0:01:57.85,Default,,0000,0000,0000,,Such preoccupation\Nnot only weakens one's resolve,
+Dialogue: 0,0:01:57.74,0:02:00.27,Blue,,0000,0000,0000,,{\i1}还有远见.{\i0}
+Dialogue: 0,0:01:58.03,0:02:00.56,Default,,0000,0000,0000,,but one's foresight as well.
+Dialogue: 0,0:02:00.44,0:02:02.36,Blue,,0000,0000,0000,,{\i1}这是任何竞赛中的致命弱点,\N你必须同意这点,{\i0}
+Dialogue: 0,0:02:00.73,0:02:02.63,Default,,0000,0000,0000,,A deadly failing in any match,\Nyou must agree,
+Dialogue: 0,0:02:02.53,0:02:07.93,Blue,,0000,0000,0000,,{\i1}而且在这场特别的争夺战中,\N损失会是相当惨重的灾难,{\i0}
+Dialogue: 0,0:02:02.80,0:02:08.21,Default,,0000,0000,0000,,but in this particular contest,\Nquite disastrous,
+Dialogue: 0,0:02:08.11,0:02:11.33,Blue,,0000,0000,0000,,{\i1}尤其我们押上命做赌注,{\i0}
+Dialogue: 0,0:02:08.38,0:02:11.61,Default,,0000,0000,0000,,as we play for grave stakes,
+Dialogue: 0,0:02:11.55,0:02:15.21,Blue,,0000,0000,0000,,{\i1}诸如此类的事\N你不容置疑.{\i0}
+Dialogue: 0,0:02:11.81,0:02:15.44,Default,,0000,0000,0000,,the likes of which\Nyou have no doubt surmised.
+Dialogue: 0,0:02:16.65,0:02:19.34,Blue,,0000,0000,0000,,{\i1}把你的行动印在明天的报纸上.{\i0}
+Dialogue: 0,0:02:16.88,0:02:19.58,Default,,0000,0000,0000,,Print your move in tomorrow's paper.
+Dialogue: 0,0:02:19.52,0:02:22.00,Blue,,0000,0000,0000,,{\i1}要不我就会替你印.{\i0}
+Dialogue: 0,0:02:19.75,0:02:22.24,Default,,0000,0000,0000,,Or l will make it for you.
+Dialogue: 0,0:02:22.26,0:02:26.62,Blue,,0000,0000,0000,,简直逼人太甚. 库珀,\N我不会让你离开我视线之内的.
+Dialogue: 0,0:02:22.49,0:02:26.89,Default,,0000,0000,0000,,That tears it. Cooper,\NI'm not Ietting you out of my sight.
+Dialogue: 0,0:02:26.79,0:02:29.97,Blue,,0000,0000,0000,,哈里, 如果云顿想要杀我,\N我早就死了.
+Dialogue: 0,0:02:27.06,0:02:30.22,Default,,0000,0000,0000,,Harry, if Windom wanted to kiII me,\NI'd aIready be dead.
+Dialogue: 0,0:02:32.37,0:02:33.98,Blue,,0000,0000,0000,,那是.
+Dialogue: 0,0:02:32.63,0:02:34.22,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:02:34.54,0:02:38.16,Blue,,0000,0000,0000,,- 还是打电话给皮特吧.\N- 对.
+Dialogue: 0,0:02:34.80,0:02:38.40,Default,,0000,0000,0000,,- Better get Pete on the horn.\N- Right.
+Dialogue: 0,0:02:38.99,0:02:41.64,Blue,,0000,0000,0000,,露西, 打电话给皮特·马爹利,\N叫他马上赶过来这里.
+Dialogue: 0,0:02:39.24,0:02:41.90,Default,,0000,0000,0000,,Lucy, caII Pete MarteII,\Nget him over here right away.
+Dialogue: 0,0:02:41.82,0:02:43.08,Blue,,0000,0000,0000,,然后打电话给报纸.
+Dialogue: 0,0:02:42.08,0:02:43.34,Default,,0000,0000,0000,,Then caII the paper.
+Dialogue: 0,0:02:43.25,0:02:47.09,Blue,,0000,0000,0000,,查一下明天个人信息栏的\N最迟截稿时间.
+Dialogue: 0,0:02:43.51,0:02:47.31,Default,,0000,0000,0000,,Find out the Iatest possibIe deadIine\Nfor tomorrow's personaIs coIumn.
+Dialogue: 0,0:02:47.83,0:02:51.44,Blue,,0000,0000,0000,,{\i1}报纸和皮特, 收到.\N我会按章办事.{\i0}
+Dialogue: 0,0:02:48.08,0:02:51.71,Default,,0000,0000,0000,,Paper and Pete, got it.\Nl'll do it alphabetically.
+Dialogue: 0,0:02:57.45,0:02:59.06,Blue,,0000,0000,0000,,她真美.
+Dialogue: 0,0:02:57.72,0:02:59.32,Default,,0000,0000,0000,,She was beautifuI.
+Dialogue: 0,0:03:02.42,0:03:05.07,Blue,,0000,0000,0000,,我视她的爱如生命, 哈里.
+Dialogue: 0,0:03:02.66,0:03:05.32,Default,,0000,0000,0000,,She was the Iove of my Iife, Harry.
+Dialogue: 0,0:03:09.91,0:03:11.95,Blue,,0000,0000,0000,,好的, 露西.
+Dialogue: 0,0:03:10.17,0:03:12.20,Default,,0000,0000,0000,,Okay, Lucy.
+Dialogue: 0,0:03:12.13,0:03:15.87,Blue,,0000,0000,0000,,好的, 知道, 告诉哈里\N我马上就到, 好吗?
+Dialogue: 0,0:03:12.37,0:03:16.17,Default,,0000,0000,0000,,Okay, yeah, just teII Harry\NI'II be right there, okay?
+Dialogue: 0,0:03:16.05,0:03:17.57,Blue,,0000,0000,0000,,好.
+Dialogue: 0,0:03:16.34,0:03:17.87,Default,,0000,0000,0000,,Right.
+Dialogue: 0,0:03:38.09,0:03:39.39,Blue,,0000,0000,0000,,皮特.
+Dialogue: 0,0:03:38.33,0:03:39.63,Default,,0000,0000,0000,,Peter.
+Dialogue: 0,0:03:39.96,0:03:41.87,Blue,,0000,0000,0000,,盐和胡椒粉.
+Dialogue: 0,0:03:40.20,0:03:42.13,Default,,0000,0000,0000,,SaIt and pepper.
+Dialogue: 0,0:03:42.31,0:03:44.36,Blue,,0000,0000,0000,,马上来, 小松狮.
+Dialogue: 0,0:03:42.57,0:03:44.63,Default,,0000,0000,0000,,Coming right up, poodIe.
+Dialogue: 0,0:03:47.14,0:03:49.76,Blue,,0000,0000,0000,,你们俩一起\N就知道使坏.
+Dialogue: 0,0:03:47.41,0:03:50.00,Default,,0000,0000,0000,,You two bring out the worst\Nin each other.
+Dialogue: 0,0:03:49.93,0:03:54.63,Blue,,0000,0000,0000,,- 哦, 皮特真是个人才.\N- 一个宫廷小丑人才.
+Dialogue: 0,0:03:50.18,0:03:54.91,Default,,0000,0000,0000,,- Oh, Pete's a prince of a man.\N- A court jester.
+Dialogue: 0,0:03:57.90,0:04:01.04,Blue,,0000,0000,0000,,好了, 我要出去溜达了.
+Dialogue: 0,0:03:58.15,0:04:01.28,Default,,0000,0000,0000,,WeII, I've got to mosey.
+Dialogue: 0,0:04:10.84,0:04:16.76,Blue,,0000,0000,0000,,再见, 可爱的帕卡族.
+Dialogue: 0,0:04:11.10,0:04:17.04,Default,,0000,0000,0000,,Goodbye, you sweet Packards.
+Dialogue: 0,0:04:21.98,0:04:23.81,Blue,,0000,0000,0000,,噢, 凯萨琳.
+Dialogue: 0,0:04:22.24,0:04:24.07,Default,,0000,0000,0000,,Oh, Catherine.
+Dialogue: 0,0:04:23.99,0:04:27.82,Blue,,0000,0000,0000,,凯萨琳, 我一直冀望\N在你体内那股狂怒的暴风雨
+Dialogue: 0,0:04:24.24,0:04:28.08,Default,,0000,0000,0000,,Catherine, I'd aIways have hoped\Nthat time and age wouId meIIow
+Dialogue: 0,0:04:28.08,0:04:30.65,Blue,,0000,0000,0000,,会随着时间推移有所收敛.
+Dialogue: 0,0:04:28.32,0:04:30.91,Default,,0000,0000,0000,,that tempest raging inside you.
+Dialogue: 0,0:04:30.83,0:04:33.31,Blue,,0000,0000,0000,,看着你们俩\N十足一对傻帽似的
+Dialogue: 0,0:04:31.08,0:04:33.55,Default,,0000,0000,0000,,Watching you two act\NIike the Hardy Boys
+Dialogue: 0,0:04:33.48,0:04:36.31,Blue,,0000,0000,0000,,我气就不打哪一处来.
+Dialogue: 0,0:04:33.72,0:04:36.59,Default,,0000,0000,0000,,aIways brings on stormy weather.
+Dialogue: 0,0:04:36.62,0:04:39.01,Blue,,0000,0000,0000,,格斯伍的事怎样了?
+Dialogue: 0,0:04:36.89,0:04:39.29,Default,,0000,0000,0000,,What's happening with Ghostwood?
+Dialogue: 0,0:04:39.19,0:04:41.10,Blue,,0000,0000,0000,,我和投资人谈过了,\N会面都安排好了.
+Dialogue: 0,0:04:39.46,0:04:41.36,Default,,0000,0000,0000,,I taIked to the investors,\Nthe meeting is set.
+Dialogue: 0,0:04:41.28,0:04:42.58,Blue,,0000,0000,0000,,我明天就去巴黎.
+Dialogue: 0,0:04:41.53,0:04:42.86,Default,,0000,0000,0000,,I Ieave for Paris tomorrow.
+Dialogue: 0,0:04:44.15,0:04:46.33,Blue,,0000,0000,0000,,噢, 伙伴回来了.
+Dialogue: 0,0:04:44.43,0:04:46.59,Default,,0000,0000,0000,,Oh, company.
+Dialogue: 0,0:04:46.90,0:04:49.33,Blue,,0000,0000,0000,,亲爱的乔西...
+Dialogue: 0,0:04:47.13,0:04:49.57,Default,,0000,0000,0000,,Dear Josie...
+Dialogue: 0,0:04:54.30,0:04:56.13,Blue,,0000,0000,0000,,我回家来了, 你想我么?
+Dialogue: 0,0:04:54.54,0:04:56.37,Default,,0000,0000,0000,,I'm home, did you miss me?
+Dialogue: 0,0:05:00.66,0:05:03.62,Blue,,0000,0000,0000,,噢, 她看来惊喜过度了.
+Dialogue: 0,0:05:00.91,0:05:03.91,Default,,0000,0000,0000,,Oh, she Iooked surprised.
+Dialogue: 0,0:05:04.97,0:05:08.63,Blue,,0000,0000,0000,,- 可怜的乔西.\N- 噢, 再怎么说, 她还是有魅力的.
+Dialogue: 0,0:05:05.25,0:05:08.88,Default,,0000,0000,0000,,- Poor Josie.\N- Oh, she has her charms, though.
+Dialogue: 0,0:05:08.85,0:05:11.81,Blue,,0000,0000,0000,,是, 可惜不长久了.
+Dialogue: 0,0:05:09.09,0:05:12.08,Default,,0000,0000,0000,,Yes, but not for Iong.
+Dialogue: 0,0:05:25.52,0:05:27.18,Blue,,0000,0000,0000,,进来.
+Dialogue: 0,0:05:25.74,0:05:27.43,Default,,0000,0000,0000,,Come in.
+Dialogue: 0,0:05:29.18,0:05:32.32,Blue,,0000,0000,0000,,- 嗨, 哈里.\N- 省点气吧, 汉克.
+Dialogue: 0,0:05:29.44,0:05:32.57,Default,,0000,0000,0000,,- Hi, Harry.\N- Save it, Hank.
+Dialogue: 0,0:05:33.10,0:05:36.54,Blue,,0000,0000,0000,,怎么啦? 心情不好?\N今早上撞邪啦 ?
+Dialogue: 0,0:05:33.38,0:05:36.82,Default,,0000,0000,0000,,What happened? Did you get up on\Nthe wrong side of the bed this morning?
+Dialogue: 0,0:05:36.72,0:05:39.24,Blue,,0000,0000,0000,,我是违反了保释条例. 我泪流成河行了吧.
+Dialogue: 0,0:05:36.98,0:05:39.51,Default,,0000,0000,0000,,So I broke paroIe. Cry me a river.
+Dialogue: 0,0:05:39.72,0:05:42.38,Blue,,0000,0000,0000,,你越过边境去加拿大.
+Dialogue: 0,0:05:39.99,0:05:42.65,Default,,0000,0000,0000,,You crossed the border into Canada.
+Dialogue: 0,0:05:42.73,0:05:44.86,Blue,,0000,0000,0000,,你联系和安排毒贩\N在死狗庄进行交易.
+Dialogue: 0,0:05:42.96,0:05:45.12,Default,,0000,0000,0000,,You consorted with the drug deaIers\Nat Dead Dog Farm.
+Dialogue: 0,0:05:45.04,0:05:47.39,Blue,,0000,0000,0000,,你还意图谋杀.
+Dialogue: 0,0:05:45.29,0:05:47.62,Default,,0000,0000,0000,,You tried to kiII somebody.
+Dialogue: 0,0:05:48.22,0:05:51.87,Blue,,0000,0000,0000,,我准备起诉你\N企图谋杀里欧·强生.
+Dialogue: 0,0:05:48.46,0:05:52.12,Default,,0000,0000,0000,,I'm charging you with\Nthe attempted murder of Leo Johnson.
+Dialogue: 0,0:05:53.62,0:05:55.92,Blue,,0000,0000,0000,,好了, 我想里欧被枪击那晚\N我正好在餐厅呢
+Dialogue: 0,0:05:53.90,0:05:56.20,Default,,0000,0000,0000,,WeII, I think it's safe to assume\Nthat I was at the diner
+Dialogue: 0,0:05:56.14,0:05:57.84,Blue,,0000,0000,0000,,这够保平安了吧.
+Dialogue: 0,0:05:56.40,0:05:58.10,Default,,0000,0000,0000,,the night that Leo was pIugged.
+Dialogue: 0,0:05:58.01,0:06:00.06,Blue,,0000,0000,0000,,- 不信，欢迎你打电话去问--\N- 我有目击证人.
+Dialogue: 0,0:05:58.27,0:06:00.33,Default,,0000,0000,0000,,- But you're weIcome to caII--\N- I got a witness.
+Dialogue: 0,0:06:00.24,0:06:02.67,Blue,,0000,0000,0000,,看见你\N手里握着枪.
+Dialogue: 0,0:06:00.51,0:06:02.94,Default,,0000,0000,0000,,Puts you at the scene\Nwith a gun in your hand.
+Dialogue: 0,0:06:02.85,0:06:05.81,Blue,,0000,0000,0000,,哈里, 看来你这次\N是动真格了,
+Dialogue: 0,0:06:03.11,0:06:06.04,Default,,0000,0000,0000,,Harry, you obviousIy seem serious\Nabout this,
+Dialogue: 0,0:06:05.94,0:06:10.47,Blue,,0000,0000,0000,,那么我打算提议来个交易.
+Dialogue: 0,0:06:06.21,0:06:10.71,Default,,0000,0000,0000,,so I'm going to propose a trade.
+Dialogue: 0,0:06:10.77,0:06:12.95,Blue,,0000,0000,0000,,一个可以将杀害安德鲁·帕卡\N的凶手逮捕
+Dialogue: 0,0:06:11.02,0:06:13.21,Default,,0000,0000,0000,,How about information\NIeading to the arrest
+Dialogue: 0,0:06:13.17,0:06:17.31,Blue,,0000,0000,0000,,和定罪的\N信息交换怎样?
+Dialogue: 0,0:06:13.42,0:06:17.55,Default,,0000,0000,0000,,and conviction\Nof Andrew Packard's murderer?
+Dialogue: 0,0:06:17.61,0:06:21.53,Blue,,0000,0000,0000,,汉克·詹宁斯,\N污点证人.
+Dialogue: 0,0:06:17.86,0:06:21.79,Default,,0000,0000,0000,,Hank Jennings,\Nwitness for the prosecution.
+Dialogue: 0,0:06:22.71,0:06:24.14,Blue,,0000,0000,0000,,没门.
+Dialogue: 0,0:06:23.00,0:06:24.40,Default,,0000,0000,0000,,No deaIs.
+Dialogue: 0,0:06:24.32,0:06:25.97,Blue,,0000,0000,0000,,你是在告诉我\N你对企图谋杀里欧·强生
+Dialogue: 0,0:06:24.56,0:06:26.23,Default,,0000,0000,0000,,You're teIIing me\Nyou're more interested
+Dialogue: 0,0:06:26.15,0:06:29.41,Blue,,0000,0000,0000,,这个案子，\N比杀安德鲁·帕卡的重犯,
+Dialogue: 0,0:06:26.43,0:06:29.66,Default,,0000,0000,0000,,in the attempted murder\Nof Leo Johnson, feIon,
+Dialogue: 0,0:06:29.59,0:06:31.07,Blue,,0000,0000,0000,,更感兴趣是吧?
+Dialogue: 0,0:06:29.84,0:06:31.33,Default,,0000,0000,0000,,than Andrew Packard?
+Dialogue: 0,0:06:31.24,0:06:33.38,Blue,,0000,0000,0000,,你怎么对得住\N你的选民?
+Dialogue: 0,0:06:31.50,0:06:33.63,Default,,0000,0000,0000,,How's that gonna sit\Nwith your constituents?
+Dialogue: 0,0:06:33.55,0:06:35.47,Blue,,0000,0000,0000,,你是彻底没救了, 汉克.
+Dialogue: 0,0:06:33.81,0:06:35.71,Default,,0000,0000,0000,,You're through, Hank.
+Dialogue: 0,0:06:35.64,0:06:38.78,Blue,,0000,0000,0000,,我猜, 哈里, 这不太好.
+Dialogue: 0,0:06:35.88,0:06:39.00,Default,,0000,0000,0000,,My guess is, Harry, not too weII.
+Dialogue: 0,0:06:38.95,0:06:41.43,Blue,,0000,0000,0000,,特别是一旦他们发现了\N是谁暗算了安德鲁
+Dialogue: 0,0:06:39.18,0:06:41.67,Default,,0000,0000,0000,,EspeciaIIy once they find out\Nwho pushed the button on Andrew
+Dialogue: 0,0:06:41.61,0:06:43.92,Blue,,0000,0000,0000,,而你正好和她同床共枕.
+Dialogue: 0,0:06:41.85,0:06:44.15,Default,,0000,0000,0000,,and that you're sIeeping with her.
+Dialogue: 0,0:06:50.62,0:06:53.11,Blue,,0000,0000,0000,,真糟糕, 不好意思了.
+Dialogue: 0,0:06:50.89,0:06:53.36,Default,,0000,0000,0000,,Gee, I'm sorry.
+Dialogue: 0,0:06:53.28,0:06:55.24,Blue,,0000,0000,0000,,带他出去.
+Dialogue: 0,0:06:53.56,0:06:55.49,Default,,0000,0000,0000,,Get him out of here.
+Dialogue: 0,0:06:55.41,0:06:56.94,Blue,,0000,0000,0000,,让他滚出去!
+Dialogue: 0,0:06:55.66,0:06:57.19,Default,,0000,0000,0000,,Get him out of here!
+Dialogue: 0,0:07:01.42,0:07:03.21,Blue,,0000,0000,0000,,那个给我.
+Dialogue: 0,0:07:01.67,0:07:03.47,Default,,0000,0000,0000,,Give me that.
+Dialogue: 0,0:07:08.83,0:07:11.31,Blue,,0000,0000,0000,,这是我们从你身上\N取出来的子弹.
+Dialogue: 0,0:07:09.08,0:07:11.60,Default,,0000,0000,0000,,This is the buIIet we removed\Nfrom you.
+Dialogue: 0,0:07:11.48,0:07:14.10,Blue,,0000,0000,0000,,而这一颗是从\N那个死人的头骨的挖出来的.
+Dialogue: 0,0:07:11.78,0:07:14.37,Default,,0000,0000,0000,,This is the one that was excavated\Nfrom the dead man's skuII.
+Dialogue: 0,0:07:14.27,0:07:18.45,Blue,,0000,0000,0000,,同一种子弹, 同一把枪, 同一个杀手.\N我们去抓她吧.
+Dialogue: 0,0:07:14.55,0:07:18.71,Default,,0000,0000,0000,,Same buIIets, same gun, same kiIIer.\NLet's go get her.
+Dialogue: 0,0:07:18.63,0:07:20.80,Blue,,0000,0000,0000,,- 艾伯特, 稳住.\N- 库,
+Dialogue: 0,0:07:18.89,0:07:21.08,Default,,0000,0000,0000,,- AIbert, hoId your horses.\N- Coop,
+Dialogue: 0,0:07:20.98,0:07:23.94,Blue,,0000,0000,0000,,我体谅你是极不情愿\N逮捕你老友记的女人,
+Dialogue: 0,0:07:21.25,0:07:24.19,Default,,0000,0000,0000,,I appreciate any reIuctance you have\Nfor busting your paI's oId Iady,
+Dialogue: 0,0:07:24.11,0:07:26.86,Blue,,0000,0000,0000,,但这女人在你身上开了天窗\N由你躺在那儿去死.
+Dialogue: 0,0:07:24.36,0:07:27.09,Default,,0000,0000,0000,,but the woman ventiIated you\Nand Ieft you for dead.
+Dialogue: 0,0:07:27.03,0:07:30.52,Blue,,0000,0000,0000,,艾伯特, 我不是为了私人原因.
+Dialogue: 0,0:07:27.26,0:07:30.75,Default,,0000,0000,0000,,AIbert, I don't take it personaIIy.
+Dialogue: 0,0:07:30.69,0:07:32.56,Blue,,0000,0000,0000,,那手套呢,\N火药测试结果?
+Dialogue: 0,0:07:30.93,0:07:32.80,Default,,0000,0000,0000,,What about the gIoves,\Nthe powder tests?
+Dialogue: 0,0:07:32.78,0:07:34.61,Blue,,0000,0000,0000,,5点才有消息.\N好了, 好了, 你不是傻子,
+Dialogue: 0,0:07:33.00,0:07:34.86,Default,,0000,0000,0000,,News at 5.\NAII right, fine, you're not mad,
+Dialogue: 0,0:07:34.78,0:07:36.74,Blue,,0000,0000,0000,,但这些如此类似的\N枪伤像传染病一样
+Dialogue: 0,0:07:35.03,0:07:37.03,Default,,0000,0000,0000,,but there's an epidemic\Nof muItipIe gunshot wounds
+Dialogue: 0,0:07:36.92,0:07:39.44,Blue,,0000,0000,0000,,反覆出现在这个女人所到之处.\N她是个危险人物.
+Dialogue: 0,0:07:37.20,0:07:39.69,Default,,0000,0000,0000,,foIIowing this chick around.\NShe is a menace.
+Dialogue: 0,0:07:39.62,0:07:40.92,Blue,,0000,0000,0000,,我会和她谈谈的.
+Dialogue: 0,0:07:39.87,0:07:41.20,Default,,0000,0000,0000,,I'II taIk to her.
+Dialogue: 0,0:07:41.10,0:07:43.89,Blue,,0000,0000,0000,,也许她会认罪, 自首.
+Dialogue: 0,0:07:41.37,0:07:44.14,Default,,0000,0000,0000,,Maybe she'II confess, turn herseIf in.
+Dialogue: 0,0:07:44.76,0:07:47.54,Blue,,0000,0000,0000,,她或许还会长出天使之翼\N以后可以在马戏团表演呢.
+Dialogue: 0,0:07:45.01,0:07:47.81,Default,,0000,0000,0000,,Maybe she'II grow wings\Nand join the circus.
+Dialogue: 0,0:08:03.44,0:08:05.97,Blue,,0000,0000,0000,,阮迪, 不重名嘉宾的名单\N我已经做好了.
+Dialogue: 0,0:08:03.73,0:08:06.22,Default,,0000,0000,0000,,Randy, I've got a Iist\Nof aII our non-repeat guests.
+Dialogue: 0,0:08:06.14,0:08:09.28,Blue,,0000,0000,0000,,我们要寄特别邀请卡给他们\N请他们到大北方来.
+Dialogue: 0,0:08:06.40,0:08:09.56,Default,,0000,0000,0000,,We're gonna send them a speciaI\Ninvitation to the Great Northern.
+Dialogue: 0,0:08:09.45,0:08:12.41,Blue,,0000,0000,0000,,你的狂热和积极\N的确让我热泪盈眶.
+Dialogue: 0,0:08:09.74,0:08:12.67,Default,,0000,0000,0000,,Your enthusiasm brings\Na saIty tear to the eye.
+Dialogue: 0,0:08:12.59,0:08:13.89,Blue,,0000,0000,0000,,只不过,
+Dialogue: 0,0:08:12.84,0:08:14.14,Default,,0000,0000,0000,,However,
+Dialogue: 0,0:08:14.07,0:08:16.33,Blue,,0000,0000,0000,,我想你慢慢会发现\N我对工作的要求不单只是
+Dialogue: 0,0:08:14.31,0:08:16.57,Default,,0000,0000,0000,,I think you wiII find my job requires\Na IittIe more
+Dialogue: 0,0:08:16.51,0:08:19.38,Blue,,0000,0000,0000,,衣冠整洁\N和进取态度.
+Dialogue: 0,0:08:16.74,0:08:19.64,Default,,0000,0000,0000,,than a tight sweater\Nand a perky attitude.
+Dialogue: 0,0:08:19.86,0:08:21.34,Blue,,0000,0000,0000,,阮迪, 我正在熟习业务呢.
+Dialogue: 0,0:08:20.11,0:08:21.60,Default,,0000,0000,0000,,Randy, I'm Iearning the business.
+Dialogue: 0,0:08:21.56,0:08:24.04,Blue,,0000,0000,0000,,每周换一个不同的部门.\N我不是非在你这儿不可的.
+Dialogue: 0,0:08:21.78,0:08:24.27,Default,,0000,0000,0000,,Every week a different department.\NI don't want your job.
+Dialogue: 0,0:08:24.21,0:08:27.57,Blue,,0000,0000,0000,,对, 我期待着\N你最好只留在家里料理家事.
+Dialogue: 0,0:08:24.45,0:08:27.78,Default,,0000,0000,0000,,Yes, I Iook forward\Nto your stint in housekeeping.
+Dialogue: 0,0:08:28.70,0:08:31.09,Blue,,0000,0000,0000,,这是今早送来给你的.
+Dialogue: 0,0:08:28.99,0:08:31.35,Default,,0000,0000,0000,,This came for you this morning.
+Dialogue: 0,0:08:32.05,0:08:35.93,Blue,,0000,0000,0000,,祝你走运, 荷恩小姐.\N你会需要它的.
+Dialogue: 0,0:08:32.33,0:08:36.19,Default,,0000,0000,0000,,Good Iuck, Miss Horne.\NYou'II need it.
+Dialogue: 0,0:08:53.26,0:08:54.61,Blue,,0000,0000,0000,,嗨.
+Dialogue: 0,0:08:53.51,0:08:54.88,Default,,0000,0000,0000,,Hi.
+Dialogue: 0,0:08:55.18,0:08:59.36,Blue,,0000,0000,0000,,- 我刚住进2了15房.\N- 恭喜了.
+Dialogue: 0,0:08:55.45,0:08:59.61,Default,,0000,0000,0000,,- I just checked into Room 21 5.\N- CongratuIations.
+Dialogue: 0,0:09:00.23,0:09:02.84,Blue,,0000,0000,0000,,怪了, 前台的人告诉我\N应该来找你.
+Dialogue: 0,0:09:00.49,0:09:03.11,Default,,0000,0000,0000,,Strange, they toId me at the front desk\NI shouId taIk to you.
+Dialogue: 0,0:09:03.63,0:09:05.37,Blue,,0000,0000,0000,,那我能帮你点什么?
+Dialogue: 0,0:09:03.89,0:09:05.62,Default,,0000,0000,0000,,What is it I can do for you?
+Dialogue: 0,0:09:05.54,0:09:07.63,Blue,,0000,0000,0000,,抱歉, 还以为你正工作中呢.
+Dialogue: 0,0:09:05.79,0:09:07.89,Default,,0000,0000,0000,,Sorry, thought you were working.
+Dialogue: 0,0:09:07.85,0:09:09.81,Blue,,0000,0000,0000,,我是在工作.
+Dialogue: 0,0:09:08.09,0:09:10.09,Default,,0000,0000,0000,,I am working.
+Dialogue: 0,0:09:10.47,0:09:12.95,Blue,,0000,0000,0000,,我正工作呢, 看?
+Dialogue: 0,0:09:10.70,0:09:13.19,Default,,0000,0000,0000,,I'm working, see?
+Dialogue: 0,0:09:13.34,0:09:14.60,Blue,,0000,0000,0000,,我看见了.
+Dialogue: 0,0:09:13.60,0:09:14.86,Default,,0000,0000,0000,,I see.
+Dialogue: 0,0:09:14.78,0:09:16.47,Blue,,0000,0000,0000,,欧蕊.
+Dialogue: 0,0:09:15.03,0:09:16.70,Default,,0000,0000,0000,,Audrey.
+Dialogue: 0,0:09:20.09,0:09:23.01,Blue,,0000,0000,0000,,- 荷恩?\N- 随时为你效劳.
+Dialogue: 0,0:09:20.31,0:09:23.30,Default,,0000,0000,0000,,- Horne?\N- At your service.
+Dialogue: 0,0:09:23.18,0:09:24.88,Blue,,0000,0000,0000,,你能派个人\N去机场吗?
+Dialogue: 0,0:09:23.48,0:09:25.14,Default,,0000,0000,0000,,CouId you send someone out\Nto the airport?
+Dialogue: 0,0:09:25.06,0:09:27.06,Blue,,0000,0000,0000,,我这次出行\N带了些很重的仪器.
+Dialogue: 0,0:09:25.31,0:09:27.34,Default,,0000,0000,0000,,I'm traveIing with some\Nheavy equipment this trip.
+Dialogue: 0,0:09:27.23,0:09:28.76,Blue,,0000,0000,0000,,车里不够空间了.
+Dialogue: 0,0:09:27.51,0:09:29.04,Default,,0000,0000,0000,,Didn't have enough room in the van.
+Dialogue: 0,0:09:28.97,0:09:31.50,Blue,,0000,0000,0000,,- 你乘的哪一班机?\N- 我自己的.
+Dialogue: 0,0:09:29.22,0:09:31.74,Default,,0000,0000,0000,,- What fIight were you on?\N- My own.
+Dialogue: 0,0:09:32.55,0:09:34.77,Blue,,0000,0000,0000,,就外面那台喷气机.\N应该不难找.
+Dialogue: 0,0:09:32.82,0:09:35.01,Default,,0000,0000,0000,,On the jet out there.\NShouIdn't be hard to find.
+Dialogue: 0,0:09:37.60,0:09:40.43,Blue,,0000,0000,0000,,还有其他什么可以\N帮到你吗, 洛克菲勒先生?
+Dialogue: 0,0:09:37.86,0:09:40.66,Default,,0000,0000,0000,,Is there anything eIse I can do\Nfor you, Mr. RockefeIIer?
+Dialogue: 0,0:09:41.47,0:09:43.69,Blue,,0000,0000,0000,,没了, 谢谢你.
+Dialogue: 0,0:09:41.73,0:09:43.92,Default,,0000,0000,0000,,No, thank you.
+Dialogue: 0,0:09:44.17,0:09:45.83,Blue,,0000,0000,0000,,对了.
+Dialogue: 0,0:09:44.43,0:09:46.06,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:47.44,0:09:48.83,Blue,,0000,0000,0000,,我有你的一张照片.
+Dialogue: 0,0:09:47.73,0:09:49.10,Default,,0000,0000,0000,,I have a picture of you.
+Dialogue: 0,0:09:49.01,0:09:52.32,Blue,,0000,0000,0000,,你穿着一条紧身连衣小短裙,\N带一条白围裙, 扎一条小猪尾辫子.
+Dialogue: 0,0:09:49.27,0:09:52.57,Default,,0000,0000,0000,,You're wearing a IittIe dirndI skirt, got\Na white apron on, you have pigtaiIs.
+Dialogue: 0,0:09:52.49,0:09:53.80,Blue,,0000,0000,0000,,无比可爱.
+Dialogue: 0,0:09:52.74,0:09:54.07,Default,,0000,0000,0000,,It's unbeIievabIy cute.
+Dialogue: 0,0:09:55.89,0:09:57.46,Blue,,0000,0000,0000,,我不穿紧身连衣裙.
+Dialogue: 0,0:09:56.14,0:09:57.73,Default,,0000,0000,0000,,I don't wear dirndI.
+Dialogue: 0,0:09:57.63,0:09:59.50,Blue,,0000,0000,0000,,那你以前穿.
+Dialogue: 0,0:09:57.91,0:09:59.74,Default,,0000,0000,0000,,You did then.
+Dialogue: 0,0:09:59.68,0:10:03.51,Blue,,0000,0000,0000,,就在这儿.\N大北方餐厅.
+Dialogue: 0,0:09:59.91,0:10:03.75,Default,,0000,0000,0000,,It was right here.\NThe Great Northern dining room.
+Dialogue: 0,0:10:05.82,0:10:08.17,Blue,,0000,0000,0000,,我闭上双眼,\N那情景几乎就在我眼前.
+Dialogue: 0,0:10:06.05,0:10:08.42,Default,,0000,0000,0000,,If I cIose my eyes,\NI can aImost see it.
+Dialogue: 0,0:10:08.91,0:10:12.35,Blue,,0000,0000,0000,,小欧蕊·荷恩就像快乐的海蒂精灵.
+Dialogue: 0,0:10:09.16,0:10:12.59,Default,,0000,0000,0000,,LittIe Audrey Horne as Heidi.
+Dialogue: 0,0:10:16.88,0:10:20.58,Blue,,0000,0000,0000,,嗯, 总之, 令人难以忘怀.
+Dialogue: 0,0:10:17.16,0:10:20.86,Default,,0000,0000,0000,,WeII, anyway, it's unforgettabIe.
+Dialogue: 0,0:10:23.15,0:10:24.76,Blue,,0000,0000,0000,,海蒂精灵.
+Dialogue: 0,0:10:23.40,0:10:25.03,Default,,0000,0000,0000,,Heidi.
+Dialogue: 0,0:10:24.94,0:10:27.42,Blue,,0000,0000,0000,,我那时才10岁. 嘿!
+Dialogue: 0,0:10:25.20,0:10:27.67,Default,,0000,0000,0000,,I was 1 0. Hey!
+Dialogue: 0,0:10:29.82,0:10:32.30,Blue,,0000,0000,0000,,谢谢你.
+Dialogue: 0,0:10:30.04,0:10:32.53,Default,,0000,0000,0000,,Thank you.
+Dialogue: 0,0:10:53.72,0:10:54.99,Blue,,0000,0000,0000,,"救一个你爱的人.
+Dialogue: 0,0:10:53.97,0:10:55.23,Default,,0000,0000,0000,,''Save the one you Iove.
+Dialogue: 0,0:10:55.16,0:10:58.99,Blue,,0000,0000,0000,,请出席今晚的天使集会\N公路酒吧, 9:30."
+Dialogue: 0,0:10:55.40,0:10:59.24,Default,,0000,0000,0000,,PIease attend gathering of angeIs\Ntonight at the Road House, 9:30.''
+Dialogue: 0,0:11:10.67,0:11:12.54,Blue,,0000,0000,0000,,纳丁?
+Dialogue: 0,0:11:10.95,0:11:12.82,Default,,0000,0000,0000,,Nadine?
+Dialogue: 0,0:11:16.98,0:11:19.51,Blue,,0000,0000,0000,,小蜜糖, 回家来干嘛\N放学了?
+Dialogue: 0,0:11:17.22,0:11:19.75,Default,,0000,0000,0000,,Honey, what are you doing home\Nfrom schooI?
+Dialogue: 0,0:11:19.68,0:11:21.60,Blue,,0000,0000,0000,,还是你不舒服?
+Dialogue: 0,0:11:19.93,0:11:21.83,Default,,0000,0000,0000,,Are you feeIing poorIy?
+Dialogue: 0,0:11:21.73,0:11:23.56,Blue,,0000,0000,0000,,别.
+Dialogue: 0,0:11:22.00,0:11:23.79,Default,,0000,0000,0000,,Don't.
+Dialogue: 0,0:11:25.78,0:11:27.61,Blue,,0000,0000,0000,,别什么?
+Dialogue: 0,0:11:26.00,0:11:27.83,Default,,0000,0000,0000,,Don't what?
+Dialogue: 0,0:11:27.91,0:11:31.40,Blue,,0000,0000,0000,,噢, 小艾艾. 我们得谈谈了.
+Dialogue: 0,0:11:28.17,0:11:31.63,Default,,0000,0000,0000,,Oh, Eddie. We have to taIk.
+Dialogue: 0,0:11:32.09,0:11:33.36,Blue,,0000,0000,0000,,好.
+Dialogue: 0,0:11:32.37,0:11:33.63,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,0:11:33.75,0:11:36.97,Blue,,0000,0000,0000,,迈克和我相爱了.
+Dialogue: 0,0:11:34.01,0:11:37.24,Default,,0000,0000,0000,,Mike and I are in Iove.
+Dialogue: 0,0:11:41.59,0:11:44.11,Blue,,0000,0000,0000,,- 相爱?\N- 我希望你不会伤心.
+Dialogue: 0,0:11:41.85,0:11:44.37,Default,,0000,0000,0000,,- In Iove?\N- I hope you're not hurt.
+Dialogue: 0,0:11:46.42,0:11:49.86,Blue,,0000,0000,0000,,我不愿让这世上的任何事\N而伤害到你.
+Dialogue: 0,0:11:46.69,0:11:50.12,Default,,0000,0000,0000,,I wouIdn't wanna hurt you\Nfor anything in the worId.
+Dialogue: 0,0:11:50.04,0:11:52.60,Blue,,0000,0000,0000,,坦白说吧, 你不得不信.
+Dialogue: 0,0:11:50.29,0:11:52.85,Default,,0000,0000,0000,,Honest, you have to beIieve that.
+Dialogue: 0,0:11:53.21,0:11:57.39,Blue,,0000,0000,0000,,迈克和我, 在去参加摔跤比赛的旅途上,
+Dialogue: 0,0:11:53.46,0:11:57.66,Default,,0000,0000,0000,,But Mike and I, on that wrestIing trip,
+Dialogue: 0,0:11:57.74,0:12:02.93,Blue,,0000,0000,0000,,我们一起渡过了\N一个充满魔力的夜晚.
+Dialogue: 0,0:11:58.03,0:12:03.20,Default,,0000,0000,0000,,we had the most\NmagicaI night together.
+Dialogue: 0,0:12:03.88,0:12:05.19,Blue,,0000,0000,0000,,整晚?
+Dialogue: 0,0:12:04.17,0:12:05.47,Default,,0000,0000,0000,,AII night?
+Dialogue: 0,0:12:08.20,0:12:10.24,Blue,,0000,0000,0000,,嗯, 你和诺玛不也是吗.
+Dialogue: 0,0:12:08.47,0:12:10.50,Default,,0000,0000,0000,,WeII, you and Norma did it.
+Dialogue: 0,0:12:12.33,0:12:14.51,Blue,,0000,0000,0000,,那好, 那很公平.
+Dialogue: 0,0:12:12.58,0:12:14.77,Default,,0000,0000,0000,,WeII, that's fair.
+Dialogue: 0,0:12:16.56,0:12:17.95,Blue,,0000,0000,0000,,那, 这是什么意思呢?
+Dialogue: 0,0:12:16.82,0:12:18.18,Default,,0000,0000,0000,,So, what's this mean?
+Dialogue: 0,0:12:20.48,0:12:22.26,Blue,,0000,0000,0000,,小艾艾.
+Dialogue: 0,0:12:20.72,0:12:22.52,Default,,0000,0000,0000,,Eddie.
+Dialogue: 0,0:12:23.44,0:12:28.45,Blue,,0000,0000,0000,,我们不妨直说了吧.
+Dialogue: 0,0:12:23.72,0:12:28.72,Default,,0000,0000,0000,,We have to caII a spade a spade.
+Dialogue: 0,0:12:29.54,0:12:31.80,Blue,,0000,0000,0000,,我们完了.
+Dialogue: 0,0:12:29.80,0:12:32.06,Default,,0000,0000,0000,,We're breaking up.
+Dialogue: 0,0:12:34.15,0:12:35.72,Blue,,0000,0000,0000,,小艾艾,
+Dialogue: 0,0:12:34.40,0:12:35.99,Default,,0000,0000,0000,,Eddie,
+Dialogue: 0,0:12:36.68,0:12:39.42,Blue,,0000,0000,0000,,对不起了.
+Dialogue: 0,0:12:36.94,0:12:39.67,Default,,0000,0000,0000,,I'm so sorry.
+Dialogue: 0,0:12:47.70,0:12:51.66,Blue,,0000,0000,0000,,乔西, 我想你对我坦白\N在西雅图到底发生了什么.
+Dialogue: 0,0:12:47.95,0:12:51.94,Default,,0000,0000,0000,,Josie, I want you to IeveI with me\Nabout what happened in SeattIe.
+Dialogue: 0,0:12:51.83,0:12:53.49,Blue,,0000,0000,0000,,我告诉过你了.
+Dialogue: 0,0:12:52.12,0:12:53.75,Default,,0000,0000,0000,,I toId you.
+Dialogue: 0,0:12:53.66,0:12:56.10,Blue,,0000,0000,0000,,我还要\N说几遍啊?
+Dialogue: 0,0:12:53.92,0:12:56.39,Default,,0000,0000,0000,,How many times\Ndo I have to say it?
+Dialogue: 0,0:12:56.28,0:12:59.41,Blue,,0000,0000,0000,,我从乔纳森手上逃跑了\N就在机场那儿
+Dialogue: 0,0:12:56.56,0:12:59.68,Default,,0000,0000,0000,,I escaped from Jonathan\Nin the airport
+Dialogue: 0,0:12:59.59,0:13:02.68,Blue,,0000,0000,0000,,再之后他发生了什么\N我就不知道了.
+Dialogue: 0,0:12:59.86,0:13:02.95,Default,,0000,0000,0000,,and I don't know\Nwhat happened to him after that.
+Dialogue: 0,0:13:02.90,0:13:05.81,Blue,,0000,0000,0000,,你知道吗\N我立刻就能逮捕你?
+Dialogue: 0,0:13:03.13,0:13:06.06,Default,,0000,0000,0000,,Do you understand\NI couId arrest you right now?
+Dialogue: 0,0:13:05.99,0:13:08.16,Blue,,0000,0000,0000,,我是以哈里朋友的身份来的.
+Dialogue: 0,0:13:06.23,0:13:08.43,Default,,0000,0000,0000,,I came here as a friend of Harry's.
+Dialogue: 0,0:13:08.78,0:13:11.65,Blue,,0000,0000,0000,,现在, 我不知道他\N在你心目中占什么地位,
+Dialogue: 0,0:13:09.04,0:13:11.87,Default,,0000,0000,0000,,Now, I don't know what pIace\Nhe occupies in your heart,
+Dialogue: 0,0:13:11.78,0:13:14.74,Blue,,0000,0000,0000,,但我知道你欠他的.
+Dialogue: 0,0:13:12.04,0:13:14.97,Default,,0000,0000,0000,,but I do know that you own his.
+Dialogue: 0,0:13:14.92,0:13:18.01,Blue,,0000,0000,0000,,我只想你能有个机会\N自己向他解释.
+Dialogue: 0,0:13:15.14,0:13:18.27,Default,,0000,0000,0000,,I wouId think you'd Iike a chance\Nto expIain yourseIf to him.
+Dialogue: 0,0:13:18.18,0:13:20.01,Blue,,0000,0000,0000,,请你走吧.
+Dialogue: 0,0:13:18.44,0:13:20.28,Default,,0000,0000,0000,,PIease go.
+Dialogue: 0,0:13:28.68,0:13:32.38,Blue,,0000,0000,0000,,这是终点了, 乔西.\N别无选择.
+Dialogue: 0,0:13:28.92,0:13:32.62,Default,,0000,0000,0000,,This is the end of it, Josie.\NThere are no other options.
+Dialogue: 0,0:13:36.04,0:13:39.22,Blue,,0000,0000,0000,,我想你9点在\N警察局出现.
+Dialogue: 0,0:13:36.30,0:13:39.46,Default,,0000,0000,0000,,I want you at the station house\Nby 9:00.
+Dialogue: 0,0:13:39.39,0:13:41.57,Blue,,0000,0000,0000,,要不我就来找你.
+Dialogue: 0,0:13:39.63,0:13:41.86,Default,,0000,0000,0000,,Or I come and find you.
+Dialogue: 0,0:13:52.11,0:13:55.59,Blue,,0000,0000,0000,,噢, 乔西,\N我刚看见库珀探员走了.
+Dialogue: 0,0:13:52.38,0:13:55.84,Default,,0000,0000,0000,,Oh, Josie,\NI just saw Agent Cooper Ieave.
+Dialogue: 0,0:13:55.77,0:13:57.68,Blue,,0000,0000,0000,,是来做社会访问吗?
+Dialogue: 0,0:13:56.02,0:13:57.95,Default,,0000,0000,0000,,Was this a sociaI caII?
+Dialogue: 0,0:14:04.91,0:14:08.27,Blue,,0000,0000,0000,,亲爱的, 你脸色难看极了.
+Dialogue: 0,0:14:05.16,0:14:08.53,Default,,0000,0000,0000,,Dear, you Iook awfuI.
+Dialogue: 0,0:14:09.53,0:14:11.44,Blue,,0000,0000,0000,,一切都还好吧?
+Dialogue: 0,0:14:09.80,0:14:11.70,Default,,0000,0000,0000,,Is everything aII right?
+Dialogue: 0,0:14:11.62,0:14:15.10,Blue,,0000,0000,0000,,- 我觉得不太舒服.\N- 哦, 我为你难过.
+Dialogue: 0,0:14:11.90,0:14:15.36,Default,,0000,0000,0000,,- I don't feeI very weII.\N- Oh, I'm sorry.
+Dialogue: 0,0:14:15.28,0:14:17.72,Blue,,0000,0000,0000,,我希望我带来的消息好些.
+Dialogue: 0,0:14:15.54,0:14:17.97,Default,,0000,0000,0000,,I wish I had better news.
+Dialogue: 0,0:14:17.89,0:14:20.42,Blue,,0000,0000,0000,,我代表你的利益\N再和埃卡先生谈过一次了.
+Dialogue: 0,0:14:18.14,0:14:20.66,Default,,0000,0000,0000,,I've spoken to Mr. Eckhardt again\Non your behaIf.
+Dialogue: 0,0:14:20.59,0:14:22.33,Blue,,0000,0000,0000,,他还没\N完全和我达成共识,
+Dialogue: 0,0:14:20.84,0:14:22.60,Default,,0000,0000,0000,,WhiIe he's not\NentireIy unsympathetic,
+Dialogue: 0,0:14:22.51,0:14:25.25,Blue,,0000,0000,0000,,他坚持要单独见你.
+Dialogue: 0,0:14:22.78,0:14:25.51,Default,,0000,0000,0000,,he does insist on seeing you aIone.
+Dialogue: 0,0:14:26.47,0:14:28.26,Blue,,0000,0000,0000,,今晚.
+Dialogue: 0,0:14:26.71,0:14:28.51,Default,,0000,0000,0000,,Tonight.
+Dialogue: 0,0:14:28.82,0:14:30.56,Blue,,0000,0000,0000,,他会杀了我的.
+Dialogue: 0,0:14:29.05,0:14:30.81,Default,,0000,0000,0000,,He'II kiII me.
+Dialogue: 0,0:14:30.74,0:14:32.30,Blue,,0000,0000,0000,,老实跟你说了吧,
+Dialogue: 0,0:14:30.98,0:14:32.54,Default,,0000,0000,0000,,To teII you the truth,
+Dialogue: 0,0:14:32.57,0:14:34.35,Blue,,0000,0000,0000,,我最大的担忧是\N当他发现安德鲁
+Dialogue: 0,0:14:32.79,0:14:34.62,Default,,0000,0000,0000,,my biggest worry is\Nwhat he's going to do
+Dialogue: 0,0:14:34.53,0:14:37.23,Blue,,0000,0000,0000,,原来还活生生时\N他会怎么做呢.
+Dialogue: 0,0:14:34.79,0:14:37.52,Default,,0000,0000,0000,,when he finds out\Nthat Andrew is aIive.
+Dialogue: 0,0:14:37.40,0:14:40.58,Blue,,0000,0000,0000,,难道埃卡先生不会觉得\N你已经背叛他了吗?
+Dialogue: 0,0:14:37.69,0:14:40.85,Default,,0000,0000,0000,,Won't Mr. Eckhardt think\Nthat you've betrayed him?
+Dialogue: 0,0:14:40.89,0:14:43.02,Blue,,0000,0000,0000,,当然了, 你可以告诉他\N你没有.
+Dialogue: 0,0:14:41.16,0:14:43.29,Default,,0000,0000,0000,,But of course, you can teII him\Nthat you didn't.
+Dialogue: 0,0:14:43.19,0:14:46.98,Blue,,0000,0000,0000,,毕竟, 你真的以为\N安德鲁死了.
+Dialogue: 0,0:14:43.46,0:14:47.23,Default,,0000,0000,0000,,After aII, you did actuaIIy think\Nthat Andrew was dead.
+Dialogue: 0,0:14:47.90,0:14:49.81,Blue,,0000,0000,0000,,噢, 不.
+Dialogue: 0,0:14:48.17,0:14:50.07,Default,,0000,0000,0000,,Oh, no.
+Dialogue: 0,0:14:52.51,0:14:56.22,Blue,,0000,0000,0000,,我不知道. 我不知道.
+Dialogue: 0,0:14:52.74,0:14:56.47,Default,,0000,0000,0000,,I don't know. I don't know.
+Dialogue: 0,0:14:57.13,0:15:01.35,Blue,,0000,0000,0000,,或许你能帮我.\N我想我快发疯了.
+Dialogue: 0,0:14:57.38,0:15:01.64,Default,,0000,0000,0000,,Maybe you can heIp me.\NI think I'm going mad.
+Dialogue: 0,0:15:05.40,0:15:08.10,Blue,,0000,0000,0000,,你早晚都要\N直接面对
+Dialogue: 0,0:15:05.65,0:15:08.35,Default,,0000,0000,0000,,You wiII simpIy have to face\NMr. Eckhardt
+Dialogue: 0,0:15:08.28,0:15:10.37,Blue,,0000,0000,0000,,埃卡先生的.
+Dialogue: 0,0:15:08.52,0:15:10.65,Default,,0000,0000,0000,,sooner or Iater.
+Dialogue: 0,0:15:11.20,0:15:13.16,Blue,,0000,0000,0000,,告诉他真相就好了.
+Dialogue: 0,0:15:11.46,0:15:13.39,Default,,0000,0000,0000,,TeII him the truth.
+Dialogue: 0,0:15:15.20,0:15:17.29,Blue,,0000,0000,0000,,把你想的都告诉他.
+Dialogue: 0,0:15:15.46,0:15:17.55,Default,,0000,0000,0000,,TeII him whatever you want.
+Dialogue: 0,0:15:23.30,0:15:27.18,Blue,,0000,0000,0000,,然后祈求他会相信你.
+Dialogue: 0,0:15:23.54,0:15:27.47,Default,,0000,0000,0000,,Just pray that he beIieves you.
+Dialogue: 0,0:15:27.92,0:15:30.23,Blue,,0000,0000,0000,,噢, 找到了.
+Dialogue: 0,0:15:28.17,0:15:30.51,Default,,0000,0000,0000,,Oh, there they are.
+Dialogue: 0,0:16:05.50,0:16:07.99,Blue,,0000,0000,0000,,没人接. 他肯定在来的路上.
+Dialogue: 0,0:16:05.75,0:16:08.24,Default,,0000,0000,0000,,No answer. He must be on his way.
+Dialogue: 0,0:16:08.16,0:16:09.51,Blue,,0000,0000,0000,,谢谢, 波比.
+Dialogue: 0,0:16:08.41,0:16:09.75,Default,,0000,0000,0000,,Thanks, Bobby.
+Dialogue: 0,0:16:09.69,0:16:11.82,Blue,,0000,0000,0000,,瞧, 为什么不加入我们呢?
+Dialogue: 0,0:16:09.92,0:16:12.08,Default,,0000,0000,0000,,Look, why don't you join us?
+Dialogue: 0,0:16:11.99,0:16:13.43,Blue,,0000,0000,0000,,- 什么?\N- 是啊.
+Dialogue: 0,0:16:12.25,0:16:13.65,Default,,0000,0000,0000,,- Yeah?\N- Yeah.
+Dialogue: 0,0:16:13.56,0:16:18.83,Blue,,0000,0000,0000,,要知道, 董事会议\N无非就是
+Dialogue: 0,0:16:13.82,0:16:19.12,Default,,0000,0000,0000,,You know, board meetings are usuaIIy\Nnothing more than a gathering
+Dialogue: 0,0:16:19.01,0:16:20.88,Blue,,0000,0000,0000,,集合众智,
+Dialogue: 0,0:16:19.29,0:16:21.16,Default,,0000,0000,0000,,of seIf-minded individuaIs,
+Dialogue: 0,0:16:21.05,0:16:23.71,Blue,,0000,0000,0000,,多一个人\N多一分力.
+Dialogue: 0,0:16:21.33,0:16:23.96,Default,,0000,0000,0000,,each more intent\Nthan the other on financiaI gain.
+Dialogue: 0,0:16:23.88,0:16:25.15,Blue,,0000,0000,0000,,不要了, 谢谢你.
+Dialogue: 0,0:16:24.13,0:16:25.43,Default,,0000,0000,0000,,No, thank you.
+Dialogue: 0,0:16:25.32,0:16:27.06,Blue,,0000,0000,0000,,但今天...
+Dialogue: 0,0:16:25.60,0:16:27.33,Default,,0000,0000,0000,,But today...
+Dialogue: 0,0:16:27.50,0:16:30.85,Blue,,0000,0000,0000,,今天有些局面将会\N完全不同.
+Dialogue: 0,0:16:27.77,0:16:31.10,Default,,0000,0000,0000,,Today is going to be\Nsomething compIeteIy different.
+Dialogue: 0,0:16:32.38,0:16:37.08,Blue,,0000,0000,0000,,我迟到了吗? 猛将来啦, 本,\N看看你. 你好吗?
+Dialogue: 0,0:16:32.64,0:16:37.34,Default,,0000,0000,0000,,Am I Iate? Hot dog, Ben,\NIook at you. How are you?
+Dialogue: 0,0:16:39.52,0:16:42.83,Blue,,0000,0000,0000,,- 你真是贵客临门啊.\N- 看你说的.
+Dialogue: 0,0:16:39.78,0:16:43.08,Default,,0000,0000,0000,,- You are a sight for sore eyes.\N- Look who's taIking.
+Dialogue: 0,0:16:43.00,0:16:45.35,Blue,,0000,0000,0000,,- 你觉得我们的服务还行吧?\N- 顶级.
+Dialogue: 0,0:16:43.25,0:16:45.62,Default,,0000,0000,0000,,- We taking good care of you?\N- The best.
+Dialogue: 0,0:16:45.53,0:16:47.49,Blue,,0000,0000,0000,,我的行李到了.\N谢谢你, 欧蕊.
+Dialogue: 0,0:16:45.79,0:16:47.75,Default,,0000,0000,0000,,My Iuggage arrived.\NThank you, Audrey.
+Dialogue: 0,0:16:49.10,0:16:52.10,Blue,,0000,0000,0000,,- 你们俩已经见过了?\N- 简单见过了.
+Dialogue: 0,0:16:49.36,0:16:52.35,Default,,0000,0000,0000,,- You two have met?\N- BriefIy.
+Dialogue: 0,0:16:52.89,0:16:55.37,Blue,,0000,0000,0000,,庄·爵斯廷·维乐.
+Dialogue: 0,0:16:53.16,0:16:55.65,Default,,0000,0000,0000,,John Justice WheeIer.
+Dialogue: 0,0:16:55.59,0:16:57.29,Blue,,0000,0000,0000,,以前做建筑的.
+Dialogue: 0,0:16:55.83,0:16:57.52,Default,,0000,0000,0000,,Used to be in construction.
+Dialogue: 0,0:16:57.46,0:16:59.51,Blue,,0000,0000,0000,,- 靠自己出人头地.\N- 真不错.
+Dialogue: 0,0:16:57.70,0:16:59.76,Default,,0000,0000,0000,,- Came up the hard way.\N- How nice.
+Dialogue: 0,0:17:00.73,0:17:02.21,Blue,,0000,0000,0000,,你还记得我弟弟杰里?
+Dialogue: 0,0:17:00.97,0:17:02.43,Default,,0000,0000,0000,,You remember my brother Jerry?
+Dialogue: 0,0:17:02.38,0:17:04.39,Blue,,0000,0000,0000,,- 那就是杰里. 噢, 我的天.\N- 嗨, 杰克.
+Dialogue: 0,0:17:02.64,0:17:04.63,Default,,0000,0000,0000,,- That is Jerry. Oh, my God.\N- Hi, Jack.
+Dialogue: 0,0:17:04.91,0:17:09.39,Blue,,0000,0000,0000,,这是我的行政助理,\N波比·布里格斯.
+Dialogue: 0,0:17:05.17,0:17:09.61,Default,,0000,0000,0000,,And this is my executive assistant,\NBob Briggs.
+Dialogue: 0,0:17:09.52,0:17:11.18,Blue,,0000,0000,0000,,- 波.\N- 嘿, 好吗?
+Dialogue: 0,0:17:09.78,0:17:11.47,Default,,0000,0000,0000,,- Bob.\N- Hey, what's up?
+Dialogue: 0,0:17:11.35,0:17:14.53,Blue,,0000,0000,0000,,- 高兴认识你.\N- 为什么你们不坐下谈呢?
+Dialogue: 0,0:17:11.64,0:17:14.81,Default,,0000,0000,0000,,- PIeasure.\N- Why don't you aII just take a seat?
+Dialogue: 0,0:17:15.32,0:17:21.37,Blue,,0000,0000,0000,,我邀请维乐先生\N加入我们的董事会.
+Dialogue: 0,0:17:15.58,0:17:21.65,Default,,0000,0000,0000,,I've asked Mr. WheeIer\Nto join us on the board.
+Dialogue: 0,0:17:22.42,0:17:26.38,Blue,,0000,0000,0000,,几年前,\N我在他身上,
+Dialogue: 0,0:17:22.66,0:17:26.65,Default,,0000,0000,0000,,Years ago,\NI made an investment in him,
+Dialogue: 0,0:17:26.60,0:17:27.95,Blue,,0000,0000,0000,,投资了一点小钱,
+Dialogue: 0,0:17:26.83,0:17:28.19,Default,,0000,0000,0000,,a pittance,
+Dialogue: 0,0:17:28.12,0:17:30.56,Blue,,0000,0000,0000,,而他却因此构建了一个王国.
+Dialogue: 0,0:17:28.36,0:17:30.80,Default,,0000,0000,0000,,which he buiIt into an empire.
+Dialogue: 0,0:17:30.73,0:17:34.17,Blue,,0000,0000,0000,,现在, 我再也贷不到款了,
+Dialogue: 0,0:17:30.96,0:17:34.40,Default,,0000,0000,0000,,Now, I don't take any credit,
+Dialogue: 0,0:17:34.48,0:17:38.14,Blue,,0000,0000,0000,,但我相信杰克
+Dialogue: 0,0:17:34.70,0:17:38.40,Default,,0000,0000,0000,,but I beIieved in Jack
+Dialogue: 0,0:17:38.31,0:17:42.14,Blue,,0000,0000,0000,,即使当他还是个一文不名\N的小子时.
+Dialogue: 0,0:17:38.60,0:17:42.40,Default,,0000,0000,0000,,even when he was a IocaI boy\Npounding naiIs.
+Dialogue: 0,0:17:42.36,0:17:46.76,Blue,,0000,0000,0000,,我现在也请他相信我\N帮回我一个忙.
+Dialogue: 0,0:17:42.61,0:17:47.01,Default,,0000,0000,0000,,I've asked him to return the favor\Nand beIieve in me now.
+Dialogue: 0,0:17:47.59,0:17:50.94,Blue,,0000,0000,0000,,本, 你在考验我\N到底有多谦逊.
+Dialogue: 0,0:17:47.85,0:17:51.18,Default,,0000,0000,0000,,Ben, you're testing\Nmy weII-worn modesty.
+Dialogue: 0,0:17:52.99,0:17:55.73,Blue,,0000,0000,0000,,好了, 足可以这样说,
+Dialogue: 0,0:17:53.25,0:17:55.98,Default,,0000,0000,0000,,AII right, suffice to say,
+Dialogue: 0,0:17:55.91,0:18:00.91,Blue,,0000,0000,0000,,荷恩企业公司\N已经陷入困境了.
+Dialogue: 0,0:17:56.16,0:18:01.15,Default,,0000,0000,0000,,Horne Industries Incorporated\Nhave faIIen on hard times.
+Dialogue: 0,0:18:01.09,0:18:02.53,Blue,,0000,0000,0000,,锯木厂,
+Dialogue: 0,0:18:01.33,0:18:02.76,Default,,0000,0000,0000,,The miII,
+Dialogue: 0,0:18:02.70,0:18:06.62,Blue,,0000,0000,0000,,格斯伍的土地, 现在全部\N为凯萨琳·马爹利独家拥有.
+Dialogue: 0,0:18:02.93,0:18:06.89,Default,,0000,0000,0000,,the Ghostwood Iands, are now\NsoIeIy owned by Catherine MarteII.
+Dialogue: 0,0:18:06.88,0:18:10.50,Blue,,0000,0000,0000,,我们不羡慕她,\N毕竟, 锯木厂从前至今, 原本就是她的.
+Dialogue: 0,0:18:07.13,0:18:10.76,Default,,0000,0000,0000,,We don't begrudge her,\Nthe miII was and is, after aII, hers.
+Dialogue: 0,0:18:10.67,0:18:12.72,Blue,,0000,0000,0000,,所以,
+Dialogue: 0,0:18:10.94,0:18:13.00,Default,,0000,0000,0000,,So,
+Dialogue: 0,0:18:12.93,0:18:15.59,Blue,,0000,0000,0000,,理所当然回转到她手里
+Dialogue: 0,0:18:13.21,0:18:15.83,Default,,0000,0000,0000,,in spite of these reversaIs
+Dialogue: 0,0:18:15.77,0:18:19.42,Blue,,0000,0000,0000,,那么在撕下成功的\N外衣后,
+Dialogue: 0,0:18:16.01,0:18:19.67,Default,,0000,0000,0000,,and stripped of aII the trappings\Nof success,
+Dialogue: 0,0:18:19.60,0:18:20.90,Blue,,0000,0000,0000,,我们还剩下什么呢?
+Dialogue: 0,0:18:19.85,0:18:21.14,Default,,0000,0000,0000,,what are we Ieft with?
+Dialogue: 0,0:18:22.26,0:18:24.21,Blue,,0000,0000,0000,,人性.
+Dialogue: 0,0:18:22.52,0:18:24.45,Default,,0000,0000,0000,,The human spirit.
+Dialogue: 0,0:18:30.14,0:18:32.58,Blue,,0000,0000,0000,,一个人能施与别人的
+Dialogue: 0,0:18:30.39,0:18:32.86,Default,,0000,0000,0000,,What is the greatest gift
+Dialogue: 0,0:18:32.75,0:18:36.54,Blue,,0000,0000,0000,,最大的恩赐\N是什么呢?
+Dialogue: 0,0:18:33.03,0:18:36.79,Default,,0000,0000,0000,,that one human being can give\Nto another?
+Dialogue: 0,0:18:40.33,0:18:42.42,Blue,,0000,0000,0000,,是未来.
+Dialogue: 0,0:18:40.60,0:18:42.69,Default,,0000,0000,0000,,The future.
+Dialogue: 0,0:18:45.29,0:18:47.34,Blue,,0000,0000,0000,,我将赠与你们的...
+Dialogue: 0,0:18:45.54,0:18:47.60,Default,,0000,0000,0000,,I give you...
+Dialogue: 0,0:18:50.39,0:18:53.92,Blue,,0000,0000,0000,,...就是这小松鼬.
+Dialogue: 0,0:18:50.61,0:18:54.17,Default,,0000,0000,0000,,...the IittIe pine weaseI.
+Dialogue: 0,0:18:54.48,0:18:58.62,Blue,,0000,0000,0000,,被发现只在我们三县地区才有的品种,
+Dialogue: 0,0:18:54.71,0:18:58.88,Default,,0000,0000,0000,,Found onIy in our tri-county area,
+Dialogue: 0,0:18:59.53,0:19:01.49,Blue,,0000,0000,0000,,快濒临绝种了.
+Dialogue: 0,0:18:59.79,0:19:01.78,Default,,0000,0000,0000,,it is nearIy extinct.
+Dialogue: 0,0:19:01.71,0:19:04.28,Blue,,0000,0000,0000,,它们烤起来一定无比美味.
+Dialogue: 0,0:19:01.99,0:19:04.55,Default,,0000,0000,0000,,They're incredibIe roasted.
+Dialogue: 0,0:19:04.93,0:19:09.11,Blue,,0000,0000,0000,,根据环境影响\N报告,
+Dialogue: 0,0:19:05.19,0:19:09.39,Default,,0000,0000,0000,,According to an environmentaI\Nimpact report,
+Dialogue: 0,0:19:09.38,0:19:13.73,Blue,,0000,0000,0000,,仅存的几只松鼬\N将会被
+Dialogue: 0,0:19:09.63,0:19:13.96,Default,,0000,0000,0000,,what few pine weaseIs remain\NwiII be aII but wiped out
+Dialogue: 0,0:19:13.91,0:19:17.35,Blue,,0000,0000,0000,,发展格斯伍的帕卡计划\N赶尽杀绝.
+Dialogue: 0,0:19:14.13,0:19:17.59,Default,,0000,0000,0000,,with the Packard pIans\Nfor Ghostwood deveIopment.
+Dialogue: 0,0:19:17.56,0:19:21.48,Blue,,0000,0000,0000,,所以你想拯救松鼬吗?
+Dialogue: 0,0:19:17.80,0:19:21.74,Default,,0000,0000,0000,,So you wanna save the weaseI?
+Dialogue: 0,0:19:21.66,0:19:23.75,Blue,,0000,0000,0000,,不, 波比.
+Dialogue: 0,0:19:21.94,0:19:24.00,Default,,0000,0000,0000,,No, Bobby.
+Dialogue: 0,0:19:24.62,0:19:27.01,Blue,,0000,0000,0000,,不单只是松鼬.
+Dialogue: 0,0:19:24.91,0:19:27.28,Default,,0000,0000,0000,,Not just the weaseI.
+Dialogue: 0,0:19:28.10,0:19:31.24,Blue,,0000,0000,0000,,而是人人皆知的生活.
+Dialogue: 0,0:19:28.35,0:19:31.51,Default,,0000,0000,0000,,But Iife as we know it.
+Dialogue: 0,0:19:32.02,0:19:34.90,Blue,,0000,0000,0000,,我要双峰镇
+Dialogue: 0,0:19:32.28,0:19:35.15,Default,,0000,0000,0000,,I want Twin Peaks
+Dialogue: 0,0:19:35.07,0:19:37.60,Blue,,0000,0000,0000,,在这场空前巨大的
+Dialogue: 0,0:19:35.32,0:19:37.85,Default,,0000,0000,0000,,to remain unspoiIed
+Dialogue: 0,0:19:37.77,0:19:42.00,Blue,,0000,0000,0000,,环境大屠杀中\N完好无损的保存下来.
+Dialogue: 0,0:19:38.02,0:19:42.26,Default,,0000,0000,0000,,in an era\Nof vast environmentaI carnage.
+Dialogue: 0,0:19:42.21,0:19:46.26,Blue,,0000,0000,0000,,因此，直到幸运之轮回转\N和我们能再次出击之前
+Dialogue: 0,0:19:42.46,0:19:46.49,Default,,0000,0000,0000,,So we bIock Catherine's deveIopment\NuntiI the wheeI turns
+Dialogue: 0,0:19:46.44,0:19:47.70,Blue,,0000,0000,0000,,我们要阻止凯瑟琳的发展.
+Dialogue: 0,0:19:46.67,0:19:47.96,Default,,0000,0000,0000,,and we get another shot.
+Dialogue: 0,0:19:47.88,0:19:50.75,Blue,,0000,0000,0000,,简直太有才了, 本. 简直太有才了.
+Dialogue: 0,0:19:48.13,0:19:51.03,Default,,0000,0000,0000,,That's briIIiant, Ben. That's briIIiant.
+Dialogue: 0,0:19:50.97,0:19:54.23,Blue,,0000,0000,0000,,我计划好了
+Dialogue: 0,0:19:51.24,0:19:54.50,Default,,0000,0000,0000,,I pIan to fight
+Dialogue: 0,0:19:54.41,0:19:57.59,Blue,,0000,0000,0000,,我将利用一切可能的武器\N在这片格斯伍发展的
+Dialogue: 0,0:19:54.67,0:19:57.84,Default,,0000,0000,0000,,this Ghostwood deveIopment\Non every ground
+Dialogue: 0,0:19:57.76,0:20:01.11,Blue,,0000,0000,0000,,每一寸土地上战斗到底.
+Dialogue: 0,0:19:58.01,0:20:01.38,Default,,0000,0000,0000,,and with every avaiIabIe weapon.
+Dialogue: 0,0:20:02.60,0:20:05.90,Blue,,0000,0000,0000,,这小松鼬...
+Dialogue: 0,0:20:02.85,0:20:06.15,Default,,0000,0000,0000,,The IittIe pine weaseI...
+Dialogue: 0,0:20:06.99,0:20:11.31,Blue,,0000,0000,0000,,...即将成为\N一个家喻户晓的名字.
+Dialogue: 0,0:20:07.25,0:20:11.55,Default,,0000,0000,0000,,...is about to become\Na househoId word.
+Dialogue: 0,0:20:13.74,0:20:15.27,Blue,,0000,0000,0000,,之后呢?
+Dialogue: 0,0:20:14.03,0:20:15.55,Default,,0000,0000,0000,,Then what?
+Dialogue: 0,0:20:18.14,0:20:22.72,Blue,,0000,0000,0000,,然后我会考虑
+Dialogue: 0,0:20:18.40,0:20:22.96,Default,,0000,0000,0000,,Then I am considering
+Dialogue: 0,0:20:22.89,0:20:25.28,Blue,,0000,0000,0000,,去参议院竞选.
+Dialogue: 0,0:20:23.14,0:20:25.54,Default,,0000,0000,0000,,a run for the Senate.
+Dialogue: 0,0:20:33.82,0:20:35.61,Blue,,0000,0000,0000,,谢谢你.
+Dialogue: 0,0:20:34.08,0:20:35.84,Default,,0000,0000,0000,,Thank you.
+Dialogue: 0,0:20:45.23,0:20:47.15,Blue,,0000,0000,0000,,安妮, 没问题.\N我有空房.
+Dialogue: 0,0:20:45.49,0:20:47.43,Default,,0000,0000,0000,,Annie, it's no probIem.\NI've got pIenty of room.
+Dialogue: 0,0:20:48.76,0:20:52.24,Blue,,0000,0000,0000,,你就乘下一趟车来吧, 好吗?\N我等你.
+Dialogue: 0,0:20:49.03,0:20:52.52,Default,,0000,0000,0000,,You just get on the next bus, okay?\NAnd I'II be waiting.
+Dialogue: 0,0:20:53.33,0:20:55.55,Blue,,0000,0000,0000,,噢, 蜜糖儿, 别哭.
+Dialogue: 0,0:20:53.57,0:20:55.80,Default,,0000,0000,0000,,Oh, honey, don't cry.
+Dialogue: 0,0:20:55.77,0:20:57.95,Blue,,0000,0000,0000,,很快就没事了.
+Dialogue: 0,0:20:56.00,0:20:58.20,Default,,0000,0000,0000,,It's gonna be aII right.
+Dialogue: 0,0:20:58.12,0:20:59.99,Blue,,0000,0000,0000,,等会儿见.
+Dialogue: 0,0:20:58.37,0:21:00.24,Default,,0000,0000,0000,,I'II see you soon.
+Dialogue: 0,0:21:00.43,0:21:02.04,Blue,,0000,0000,0000,,我也爱你.
+Dialogue: 0,0:21:00.67,0:21:02.27,Default,,0000,0000,0000,,I Iove you too.
+Dialogue: 0,0:21:02.22,0:21:03.92,Blue,,0000,0000,0000,,再见.
+Dialogue: 0,0:21:02.44,0:21:04.17,Default,,0000,0000,0000,,Bye.
+Dialogue: 0,0:21:05.44,0:21:08.84,Blue,,0000,0000,0000,,- 你姐姐要来了?\N- 明天.
+Dialogue: 0,0:21:05.68,0:21:09.11,Default,,0000,0000,0000,,- So your sister coming?\N- Tomorrow.
+Dialogue: 0,0:21:09.62,0:21:13.06,Blue,,0000,0000,0000,,上帝, 你得做什么\N才能离开修道院呢?
+Dialogue: 0,0:21:09.88,0:21:13.32,Default,,0000,0000,0000,,God, what do you have to do\Nto get out of a convent?
+Dialogue: 0,0:21:13.41,0:21:15.85,Blue,,0000,0000,0000,,就这样走啊, 又不是监狱.
+Dialogue: 0,0:21:13.69,0:21:16.09,Default,,0000,0000,0000,,You just Ieave, it's not a prison.
+Dialogue: 0,0:21:15.98,0:21:20.29,Blue,,0000,0000,0000,,我听起来就像监狱.\N没电视, 没男友.
+Dialogue: 0,0:21:16.26,0:21:20.52,Default,,0000,0000,0000,,Sounds Iike prison to me.\NNo TV, no boyfriends.
+Dialogue: 0,0:21:20.86,0:21:22.99,Blue,,0000,0000,0000,,你知道吗, 她小的时候,\N我就总在想
+Dialogue: 0,0:21:21.09,0:21:23.25,Default,,0000,0000,0000,,You know, when she was IittIe,\NI aIways used to think
+Dialogue: 0,0:21:23.16,0:21:26.34,Blue,,0000,0000,0000,,安妮是从\N另一个时空里来的.
+Dialogue: 0,0:21:23.43,0:21:26.59,Default,,0000,0000,0000,,that Annie was\Nfrom another pIace and time.
+Dialogue: 0,0:21:26.52,0:21:29.48,Blue,,0000,0000,0000,,我觉得，在某种程度上来说\N修道院倒是挺适合她的.
+Dialogue: 0,0:21:26.77,0:21:29.73,Default,,0000,0000,0000,,I guess the convent has been good\Nfor her in a way.
+Dialogue: 0,0:21:30.00,0:21:32.83,Blue,,0000,0000,0000,,很难想像她出来以后会是怎样.
+Dialogue: 0,0:21:30.24,0:21:33.10,Default,,0000,0000,0000,,Hard to imagine her out in the worId.
+Dialogue: 0,0:21:34.01,0:21:37.01,Blue,,0000,0000,0000,,噢, 看, 有东西给你.
+Dialogue: 0,0:21:34.27,0:21:37.27,Default,,0000,0000,0000,,Oh, Iook, here's something for you.
+Dialogue: 0,0:21:37.19,0:21:40.63,Blue,,0000,0000,0000,,- 谁的?\N- 我想是刚刚坐那儿的人留下的吧.
+Dialogue: 0,0:21:37.44,0:21:40.88,Default,,0000,0000,0000,,- Who from?\N- I guess who was ever sitting there.
+Dialogue: 0,0:21:45.25,0:21:46.55,Blue,,0000,0000,0000,,看这个.
+Dialogue: 0,0:21:45.48,0:21:46.78,Default,,0000,0000,0000,,Look at this.
+Dialogue: 0,0:21:46.68,0:21:48.55,Blue,,0000,0000,0000,,"山轻吻, 浪轻拥.
+Dialogue: 0,0:21:46.95,0:21:48.82,Default,,0000,0000,0000,,''Mountains kiss, waves cIasp.
+Dialogue: 0,0:21:48.73,0:21:52.52,Blue,,0000,0000,0000,,鲜花, 阳光, 月色,\N这一切都是, 汝之吻."
+Dialogue: 0,0:21:48.99,0:21:52.75,Default,,0000,0000,0000,,FIower, sunIight, the moonbeams,\Nis aII this, thou kiss.''
+Dialogue: 0,0:21:52.69,0:21:54.00,Blue,,0000,0000,0000,,无厘头.
+Dialogue: 0,0:21:52.93,0:21:54.22,Default,,0000,0000,0000,,None of this makes sense.
+Dialogue: 0,0:21:56.44,0:21:57.66,Blue,,0000,0000,0000,,"拯救你爱的人.
+Dialogue: 0,0:21:56.66,0:21:57.92,Default,,0000,0000,0000,,''Save the one you Iove.
+Dialogue: 0,0:21:57.83,0:22:01.23,Blue,,0000,0000,0000,,请出席今晚的天使集会\N公路酒吧, 9:30."
+Dialogue: 0,0:21:58.10,0:22:01.50,Default,,0000,0000,0000,,PIease attend a gathering of the angeIs\Ntonight at the Road House, 9:30.''
+Dialogue: 0,0:22:01.49,0:22:03.97,Blue,,0000,0000,0000,,听起来像是恶作剧,
+Dialogue: 0,0:22:01.77,0:22:04.24,Default,,0000,0000,0000,,Sounds intriguing in a way,
+Dialogue: 0,0:22:04.15,0:22:05.71,Blue,,0000,0000,0000,,而且感觉挺危险的.
+Dialogue: 0,0:22:04.40,0:22:06.00,Default,,0000,0000,0000,,but it sounds dangerous.
+Dialogue: 0,0:22:07.41,0:22:09.85,Blue,,0000,0000,0000,,我想知道是谁拿来的.
+Dialogue: 0,0:22:07.67,0:22:10.11,Default,,0000,0000,0000,,I wonder who this is from.
+Dialogue: 0,0:22:24.83,0:22:28.10,Blue,,0000,0000,0000,,诺玛·詹宁斯, 在过去的20年里\N我每天都爱着你
+Dialogue: 0,0:22:25.09,0:22:28.36,Default,,0000,0000,0000,,Norma Jennings, I've Ioved you\Nevery day for the past 20 years
+Dialogue: 0,0:22:28.27,0:22:30.71,Blue,,0000,0000,0000,,每夜都梦见你.
+Dialogue: 0,0:22:28.53,0:22:30.96,Default,,0000,0000,0000,,and I dream about you every night.
+Dialogue: 0,0:22:30.89,0:22:33.06,Blue,,0000,0000,0000,,我们是时候在一起了.
+Dialogue: 0,0:22:31.13,0:22:33.33,Default,,0000,0000,0000,,It's time for us to be together.
+Dialogue: 0,0:22:33.24,0:22:35.33,Blue,,0000,0000,0000,,你愿意嫁给我吗?
+Dialogue: 0,0:22:33.50,0:22:35.59,Default,,0000,0000,0000,,WiII you marry me?
+Dialogue: 0,0:22:35.55,0:22:38.59,Blue,,0000,0000,0000,,- 艾德?\N- 我们应得幸福快乐.
+Dialogue: 0,0:22:35.80,0:22:38.86,Default,,0000,0000,0000,,- Ed?\N- We deserve to be happy.
+Dialogue: 0,0:22:38.77,0:22:41.34,Blue,,0000,0000,0000,,终于轮到我们了, 宝贝.
+Dialogue: 0,0:22:39.04,0:22:41.60,Default,,0000,0000,0000,,It's our turn, baby.
+Dialogue: 0,0:23:15.66,0:23:19.27,Blue,,0000,0000,0000,,{\i1}我整夜拥她在怀{\i0}
+Dialogue: 0,0:23:15.94,0:23:19.54,Default,,0000,0000,0000,,All night long l held her in my arms
+Dialogue: 0,0:23:19.45,0:23:24.11,Blue,,0000,0000,0000,,{\i1}只为了保护她\N远离深雾般, 深雾般的晨露{\i0}
+Dialogue: 0,0:23:19.71,0:23:24.38,Default,,0000,0000,0000,,Just to keep her\NFrom the foggy, foggy dew
+Dialogue: 0,0:23:24.28,0:23:26.67,Blue,,0000,0000,0000,,干的好, 伙计.
+Dialogue: 0,0:23:24.55,0:23:26.92,Default,,0000,0000,0000,,Good job, feIIa.
+Dialogue: 0,0:23:26.85,0:23:29.20,Blue,,0000,0000,0000,,好孩子.
+Dialogue: 0,0:23:27.09,0:23:29.45,Default,,0000,0000,0000,,Good boy.
+Dialogue: 0,0:23:30.46,0:23:33.69,Blue,,0000,0000,0000,,再多做几根, 我们就去吃饭了.
+Dialogue: 0,0:23:30.72,0:23:33.92,Default,,0000,0000,0000,,Just a few more, and then we'II eat.
+Dialogue: 0,0:23:33.86,0:23:38.52,Blue,,0000,0000,0000,,{\i1}飞向我的胸膛,\N刺进我色彩斑斓的秋天,{\i0}
+Dialogue: 0,0:23:34.09,0:23:38.76,Default,,0000,0000,0000,,Fly to my breast,\NPierce me in colors autumnal,
+Dialogue: 0,0:23:38.74,0:23:42.44,Blue,,0000,0000,0000,,{\i1}只对我倾诉爱意.{\i0}
+Dialogue: 0,0:23:38.96,0:23:42.73,Default,,0000,0000,0000,,speak to me only of love.
+Dialogue: 0,0:23:43.18,0:23:46.01,Blue,,0000,0000,0000,,里欧, 你的训练\N还未完成.
+Dialogue: 0,0:23:43.47,0:23:46.27,Default,,0000,0000,0000,,Leo, you have\Nan incompIete education.
+Dialogue: 0,0:23:46.19,0:23:49.19,Blue,,0000,0000,0000,,比如,\N在野外生存?
+Dialogue: 0,0:23:46.47,0:23:49.44,Default,,0000,0000,0000,,For instance,\NsurvivaI in the wiIderness?
+Dialogue: 0,0:23:49.37,0:23:51.63,Blue,,0000,0000,0000,,一个关乎你性命的重大课题,\N我的朋友.
+Dialogue: 0,0:23:49.61,0:23:51.87,Default,,0000,0000,0000,,A reIevant issue in your Iife,\Nmy friend.
+Dialogue: 0,0:23:51.80,0:23:57.29,Blue,,0000,0000,0000,,现在, 接着来进行\N实践教学.
+Dialogue: 0,0:23:52.04,0:23:57.54,Default,,0000,0000,0000,,Now, this comes under the heading\Nof practicaI instruction.
+Dialogue: 0,0:23:57.47,0:24:00.43,Blue,,0000,0000,0000,,我希望你留心听讲.
+Dialogue: 0,0:23:57.72,0:24:00.69,Default,,0000,0000,0000,,I hope you've been paying attention.
+Dialogue: 0,0:24:04.04,0:24:05.52,Blue,,0000,0000,0000,,大自然是残酷无情的.
+Dialogue: 0,0:24:04.29,0:24:05.78,Default,,0000,0000,0000,,Nature is crueI.
+Dialogue: 0,0:24:06.70,0:24:08.96,Blue,,0000,0000,0000,,这也算是一课吧.
+Dialogue: 0,0:24:06.93,0:24:09.26,Default,,0000,0000,0000,,This is aIso a Iesson.
+Dialogue: 0,0:24:27.86,0:24:29.82,Blue,,0000,0000,0000,,嗨, 蜜糖儿.
+Dialogue: 0,0:24:28.11,0:24:30.08,Default,,0000,0000,0000,,Hi, honey.
+Dialogue: 0,0:24:30.56,0:24:32.17,Blue,,0000,0000,0000,,你现在感觉如何?
+Dialogue: 0,0:24:30.78,0:24:32.41,Default,,0000,0000,0000,,How are you feeIing?
+Dialogue: 0,0:24:33.70,0:24:37.79,Blue,,0000,0000,0000,,噢, 好极了, 现在你来了.
+Dialogue: 0,0:24:33.92,0:24:38.08,Default,,0000,0000,0000,,Oh, great, now that you're here.
+Dialogue: 0,0:24:41.06,0:24:43.54,Blue,,0000,0000,0000,,汉克, 我来这里\N是要求你离婚的.
+Dialogue: 0,0:24:41.33,0:24:43.82,Default,,0000,0000,0000,,Hank, I came here\Nto ask you for a divorce.
+Dialogue: 0,0:24:45.50,0:24:49.64,Blue,,0000,0000,0000,,好, 让我先说,\N我不怪你.
+Dialogue: 0,0:24:45.76,0:24:49.89,Default,,0000,0000,0000,,WeII, first Iet me say,\NI don't bIame you.
+Dialogue: 0,0:24:49.81,0:24:52.34,Blue,,0000,0000,0000,,你给了我第二次机会\N但我搞砸了.
+Dialogue: 0,0:24:50.07,0:24:52.59,Default,,0000,0000,0000,,You gave me a second chance\Nand I bIew it.
+Dialogue: 0,0:24:53.34,0:24:56.35,Blue,,0000,0000,0000,,我不知道\N我为啥这样自我毁灭,
+Dialogue: 0,0:24:53.61,0:24:56.57,Default,,0000,0000,0000,,I don't know\Nwhy I'm so seIf-destructive,
+Dialogue: 0,0:24:56.52,0:24:58.44,Blue,,0000,0000,0000,,但我能看到
+Dialogue: 0,0:24:56.78,0:24:58.68,Default,,0000,0000,0000,,but I can see
+Dialogue: 0,0:24:58.61,0:25:01.48,Blue,,0000,0000,0000,,我越来越会分轻重了.
+Dialogue: 0,0:24:58.84,0:25:01.78,Default,,0000,0000,0000,,that that's my priority in getting weII.
+Dialogue: 0,0:25:01.70,0:25:03.71,Blue,,0000,0000,0000,,我有很多事可以干.
+Dialogue: 0,0:25:01.98,0:25:03.97,Default,,0000,0000,0000,,I got a Iot of work to do.
+Dialogue: 0,0:25:03.88,0:25:05.67,Blue,,0000,0000,0000,,事实上, 我决定
+Dialogue: 0,0:25:04.15,0:25:05.91,Default,,0000,0000,0000,,In fact, I decided
+Dialogue: 0,0:25:05.80,0:25:08.50,Blue,,0000,0000,0000,,尝试去做治疗.
+Dialogue: 0,0:25:06.08,0:25:08.75,Default,,0000,0000,0000,,I'm gonna try to go into therapy.
+Dialogue: 0,0:25:09.19,0:25:11.37,Blue,,0000,0000,0000,,我再也不会这样了.
+Dialogue: 0,0:25:09.45,0:25:11.62,Default,,0000,0000,0000,,I don't wanna be Iike this anymore.
+Dialogue: 0,0:25:13.81,0:25:16.12,Blue,,0000,0000,0000,,那会非常有意思, 汉克.
+Dialogue: 0,0:25:14.06,0:25:16.36,Default,,0000,0000,0000,,That's very interesting, Hank.
+Dialogue: 0,0:25:17.08,0:25:19.12,Blue,,0000,0000,0000,,但我得继续过我的生活.
+Dialogue: 0,0:25:17.33,0:25:19.35,Default,,0000,0000,0000,,But I have to get on with my Iife.
+Dialogue: 0,0:25:22.96,0:25:24.35,Blue,,0000,0000,0000,,我知道.
+Dialogue: 0,0:25:23.20,0:25:24.57,Default,,0000,0000,0000,,I know.
+Dialogue: 0,0:25:25.92,0:25:27.92,Blue,,0000,0000,0000,,我知道你要过活.
+Dialogue: 0,0:25:26.14,0:25:28.20,Default,,0000,0000,0000,,I know you do.
+Dialogue: 0,0:25:28.09,0:25:30.58,Blue,,0000,0000,0000,,我只是想你过的快乐.
+Dialogue: 0,0:25:28.37,0:25:30.86,Default,,0000,0000,0000,,I just want you to be happy.
+Dialogue: 0,0:25:30.93,0:25:32.71,Blue,,0000,0000,0000,,谢谢你了.
+Dialogue: 0,0:25:31.18,0:25:32.97,Default,,0000,0000,0000,,Thank you.
+Dialogue: 0,0:25:35.72,0:25:38.68,Blue,,0000,0000,0000,,我想你帮我最后一个忙.
+Dialogue: 0,0:25:35.98,0:25:38.95,Default,,0000,0000,0000,,I want you to do me one Iast favor.
+Dialogue: 0,0:25:39.24,0:25:41.12,Blue,,0000,0000,0000,,我要你帮我\N离开这儿.
+Dialogue: 0,0:25:39.52,0:25:41.35,Default,,0000,0000,0000,,I want you to heIp me\Nget out of here.
+Dialogue: 0,0:25:42.86,0:25:45.73,Blue,,0000,0000,0000,,如果他们把我送回监狱,\N我会死的.
+Dialogue: 0,0:25:43.09,0:25:45.99,Default,,0000,0000,0000,,If they send me back to prison,\NI'II die.
+Dialogue: 0,0:25:46.08,0:25:47.91,Blue,,0000,0000,0000,,告诉警长\N里欧·强生中枪那晚
+Dialogue: 0,0:25:46.33,0:25:48.16,Default,,0000,0000,0000,,TeII the sheriff\Nthat I was at the restaurant
+Dialogue: 0,0:25:48.08,0:25:50.13,Blue,,0000,0000,0000,,我在\N餐馆里呆着.
+Dialogue: 0,0:25:48.33,0:25:50.39,Default,,0000,0000,0000,,the night\Nthat Leo Johnson was shot.
+Dialogue: 0,0:25:50.35,0:25:53.57,Blue,,0000,0000,0000,,我当时正在回家的路上.\N我不能证明, 但你可以.
+Dialogue: 0,0:25:50.60,0:25:53.86,Default,,0000,0000,0000,,I was on my way home.\NI can't prove it, but you can.
+Dialogue: 0,0:25:53.75,0:25:55.40,Blue,,0000,0000,0000,,不要再撒谎了, 汉克.
+Dialogue: 0,0:25:54.03,0:25:55.66,Default,,0000,0000,0000,,No more Iies, Hank.
+Dialogue: 0,0:25:55.62,0:25:58.36,Blue,,0000,0000,0000,,这不是撒谎,\N这可是救我的命啊.
+Dialogue: 0,0:25:55.87,0:25:58.63,Default,,0000,0000,0000,,It's not Iying,\Nit's trying to save my Iife.
+Dialogue: 0,0:25:58.88,0:26:00.54,Blue,,0000,0000,0000,,不.
+Dialogue: 0,0:25:59.14,0:26:00.80,Default,,0000,0000,0000,,No.
+Dialogue: 0,0:26:03.63,0:26:05.94,Blue,,0000,0000,0000,,你想我死在这儿, 诺玛.
+Dialogue: 0,0:26:03.88,0:26:06.17,Default,,0000,0000,0000,,You're kiIIing me here, Norma.
+Dialogue: 0,0:26:06.42,0:26:08.90,Blue,,0000,0000,0000,,别怪到我头上.\N你怎么敢这样.
+Dialogue: 0,0:26:06.68,0:26:09.17,Default,,0000,0000,0000,,Don't bIame this on me.\NDon't you dare.
+Dialogue: 0,0:26:09.42,0:26:11.17,Blue,,0000,0000,0000,,是艾德吧?
+Dialogue: 0,0:26:09.68,0:26:11.41,Default,,0000,0000,0000,,Is it Ed?
+Dialogue: 0,0:26:11.38,0:26:12.78,Blue,,0000,0000,0000,,那个你要投怀送抱的人?
+Dialogue: 0,0:26:11.62,0:26:13.02,Default,,0000,0000,0000,,Is that who you're running to?
+Dialogue: 0,0:26:17.70,0:26:19.40,Blue,,0000,0000,0000,,好.
+Dialogue: 0,0:26:17.92,0:26:19.65,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,0:26:20.23,0:26:21.53,Blue,,0000,0000,0000,,那就来个交易.
+Dialogue: 0,0:26:20.49,0:26:21.82,Default,,0000,0000,0000,,Then here's the deaI.
+Dialogue: 0,0:26:22.66,0:26:26.58,Blue,,0000,0000,0000,,你给我不在场证据\N我就跟你离婚.
+Dialogue: 0,0:26:22.93,0:26:26.86,Default,,0000,0000,0000,,You give me my aIibi\Nand I give you your divorce.
+Dialogue: 0,0:26:26.80,0:26:29.63,Blue,,0000,0000,0000,,我可不是到这儿来\N和你谈判的.
+Dialogue: 0,0:26:27.07,0:26:29.90,Default,,0000,0000,0000,,I didn't come here\Nto negotiate with you.
+Dialogue: 0,0:26:29.81,0:26:31.46,Blue,,0000,0000,0000,,就这样了, 一切都结束了.
+Dialogue: 0,0:26:30.07,0:26:31.73,Default,,0000,0000,0000,,This is it, it's over.
+Dialogue: 0,0:26:31.68,0:26:33.46,Blue,,0000,0000,0000,,好.
+Dialogue: 0,0:26:31.94,0:26:33.70,Default,,0000,0000,0000,,Fine.
+Dialogue: 0,0:26:35.51,0:26:37.34,Blue,,0000,0000,0000,,随你吧.
+Dialogue: 0,0:26:35.77,0:26:37.57,Default,,0000,0000,0000,,Go ahead.
+Dialogue: 0,0:26:39.82,0:26:42.09,Blue,,0000,0000,0000,,你是他的妓女, 诺玛.
+Dialogue: 0,0:26:40.05,0:26:42.34,Default,,0000,0000,0000,,You're his whore, Norma.
+Dialogue: 0,0:26:44.26,0:26:49.14,Blue,,0000,0000,0000,,我宁愿做他的妓女\N也不愿做你妻子.
+Dialogue: 0,0:26:44.52,0:26:49.42,Default,,0000,0000,0000,,I'd rather be his whore\Nthan your wife.
+Dialogue: 0,0:26:54.02,0:26:55.33,Blue,,0000,0000,0000,,诺玛!
+Dialogue: 0,0:26:54.26,0:26:55.59,Default,,0000,0000,0000,,Norma!
+Dialogue: 0,0:26:55.54,0:26:57.90,Blue,,0000,0000,0000,,诺玛!
+Dialogue: 0,0:26:55.79,0:26:58.16,Default,,0000,0000,0000,,Norma!
+Dialogue: 0,0:26:59.16,0:27:03.04,Blue,,0000,0000,0000,,现在, 可以用4到5个不同的方法\N来走这步棋,
+Dialogue: 0,0:26:59.43,0:27:03.30,Default,,0000,0000,0000,,Now, there are four or five\Ndifferent ways of doing this thing,
+Dialogue: 0,0:27:03.21,0:27:05.21,Blue,,0000,0000,0000,,而且各有长处.
+Dialogue: 0,0:27:03.47,0:27:05.44,Default,,0000,0000,0000,,and they aII have their virtues.
+Dialogue: 0,0:27:05.34,0:27:09.35,Blue,,0000,0000,0000,,我还记得1914年，在圣彼得堡,
+Dialogue: 0,0:27:05.60,0:27:09.60,Default,,0000,0000,0000,,I remember CapabIanca and Lasker,
+Dialogue: 0,0:27:09.52,0:27:12.01,Blue,,0000,0000,0000,,卡柏布兰卡对战拉斯卡--
+Dialogue: 0,0:27:09.78,0:27:12.30,Default,,0000,0000,0000,,St. Petersburg, 1 91 4--
+Dialogue: 0,0:27:12.22,0:27:13.62,Blue,,0000,0000,0000,,- 皮特.\N- 是.
+Dialogue: 0,0:27:12.48,0:27:13.88,Default,,0000,0000,0000,,- Pete.\N- Yeah.
+Dialogue: 0,0:27:13.79,0:27:15.45,Blue,,0000,0000,0000,,我们只有五分钟.
+Dialogue: 0,0:27:14.05,0:27:15.71,Default,,0000,0000,0000,,We've onIy got five minutes.
+Dialogue: 0,0:27:15.62,0:27:17.62,Blue,,0000,0000,0000,,好吧.
+Dialogue: 0,0:27:15.88,0:27:17.91,Default,,0000,0000,0000,,AII right.
+Dialogue: 0,0:27:19.41,0:27:20.63,Blue,,0000,0000,0000,,{\i1}- 露西.\N- 警长?{\i0}
+Dialogue: 0,0:27:19.69,0:27:20.88,Default,,0000,0000,0000,,- Lucy.\N- Sheriff?
+Dialogue: 0,0:27:20.80,0:27:22.02,Blue,,0000,0000,0000,,打电话给报社.
+Dialogue: 0,0:27:21.05,0:27:22.28,Default,,0000,0000,0000,,Get the Gazette on the phone.
+Dialogue: 0,0:27:22.20,0:27:24.64,Blue,,0000,0000,0000,,叫他们的个人信息栏目部\N先别下班. 我们还需要多点时间.
+Dialogue: 0,0:27:22.45,0:27:24.89,Default,,0000,0000,0000,,TeII them not to cIose out\Nthe personaIs. We need more time.
+Dialogue: 0,0:27:24.81,0:27:27.68,Blue,,0000,0000,0000,,- 报社.\N- 好了.
+Dialogue: 0,0:27:25.06,0:27:27.92,Default,,0000,0000,0000,,- The Gazette.\N- Okay.
+Dialogue: 0,0:27:28.73,0:27:30.56,Blue,,0000,0000,0000,,就是这个了.
+Dialogue: 0,0:27:28.99,0:27:30.79,Default,,0000,0000,0000,,That's it.
+Dialogue: 0,0:27:31.04,0:27:34.48,Blue,,0000,0000,0000,,保证能导致\N好些个不眠之夜了.
+Dialogue: 0,0:27:31.26,0:27:34.72,Default,,0000,0000,0000,,Guaranteed to cause\Nsome sIeepIess nights.
+Dialogue: 0,0:27:34.65,0:27:36.87,Blue,,0000,0000,0000,,这样他就不能\N吃掉棋盘上的任何一只棋.
+Dialogue: 0,0:27:34.90,0:27:37.16,Default,,0000,0000,0000,,As Iong as he can't remove\Nanother piece from the board.
+Dialogue: 0,0:27:37.05,0:27:40.66,Blue,,0000,0000,0000,,他不能吧.\N至少5、6步之内.
+Dialogue: 0,0:27:37.34,0:27:40.93,Default,,0000,0000,0000,,He can't do it.\NNot at Ieast for five, six more moves.
+Dialogue: 0,0:27:40.84,0:27:42.80,Blue,,0000,0000,0000,,反正，他还是会杀人的.
+Dialogue: 0,0:27:41.11,0:27:43.07,Default,,0000,0000,0000,,Maybe he'II kiII anyway.
+Dialogue: 0,0:27:42.97,0:27:45.98,Blue,,0000,0000,0000,,- 或许这只能挫败一下他的锐气.\N- 我不这么认为, 哈里.
+Dialogue: 0,0:27:43.24,0:27:46.23,Default,,0000,0000,0000,,- Maybe it'II just frustrate him.\N- I don't think so, Harry.
+Dialogue: 0,0:27:46.15,0:27:48.85,Blue,,0000,0000,0000,,厄尔很乖张的\N面子对他至关重要.
+Dialogue: 0,0:27:46.41,0:27:49.11,Default,,0000,0000,0000,,EarIe has a perverse sense of honor\Nabout these things.
+Dialogue: 0,0:27:49.02,0:27:52.51,Blue,,0000,0000,0000,,我从没听过一个人\N会按章法杀人的.
+Dialogue: 0,0:27:49.28,0:27:52.77,Default,,0000,0000,0000,,I never heard of a man\Nwho murdered by the ruIes.
+Dialogue: 0,0:27:52.68,0:27:54.08,Blue,,0000,0000,0000,,库?
+Dialogue: 0,0:27:52.95,0:27:54.32,Default,,0000,0000,0000,,Coop?
+Dialogue: 0,0:27:54.69,0:27:55.99,Blue,,0000,0000,0000,,艾伯特.
+Dialogue: 0,0:27:54.95,0:27:56.22,Default,,0000,0000,0000,,AIbert.
+Dialogue: 0,0:27:57.21,0:27:59.26,Blue,,0000,0000,0000,,干的好, 皮特.
+Dialogue: 0,0:27:57.46,0:27:59.52,Default,,0000,0000,0000,,Good work, Pete.
+Dialogue: 0,0:28:04.35,0:28:06.49,Blue,,0000,0000,0000,,是这样的, 开门见山吧.
+Dialogue: 0,0:28:04.63,0:28:06.76,Default,,0000,0000,0000,,Here it is, straight up.
+Dialogue: 0,0:28:07.06,0:28:09.71,Blue,,0000,0000,0000,,我核对过袭击你的那把枪上\N的火药残余物
+Dialogue: 0,0:28:07.33,0:28:09.99,Default,,0000,0000,0000,,I got a match on the gun that\Nwhacked you with the powder residue
+Dialogue: 0,0:28:09.89,0:28:11.41,Blue,,0000,0000,0000,,和乔西·帕卡手套上残留的一样.
+Dialogue: 0,0:28:10.17,0:28:11.69,Default,,0000,0000,0000,,on Josie Packard's gIoves.
+Dialogue: 0,0:28:11.63,0:28:13.67,Blue,,0000,0000,0000,,西雅图警方还\N找到了一个目击证人
+Dialogue: 0,0:28:11.87,0:28:13.93,Default,,0000,0000,0000,,SeattIe poIice have aIso\Ncome up with an eyewitness
+Dialogue: 0,0:28:13.85,0:28:16.90,Blue,,0000,0000,0000,,确认就是乔西\N在发现尸体的地方下车的.
+Dialogue: 0,0:28:14.11,0:28:17.13,Default,,0000,0000,0000,,who positiveIy ID'd Josie Ieaving\Nthe car where they found the stiff.
+Dialogue: 0,0:28:17.07,0:28:18.60,Blue,,0000,0000,0000,,如果你还不打算逮捕这个婊子的话,
+Dialogue: 0,0:28:17.31,0:28:18.83,Default,,0000,0000,0000,,If you ain't gonna bust this bitch,
+Dialogue: 0,0:28:18.77,0:28:22.73,Blue,,0000,0000,0000,,- 我会把这当作是私人原因--\N- 艾伯特, 我能处理这事儿.
+Dialogue: 0,0:28:19.01,0:28:22.97,Default,,0000,0000,0000,,- I wouId consider it a personaI--\N- AIbert, I can handIe it.
+Dialogue: 0,0:28:33.97,0:28:36.06,Blue,,0000,0000,0000,,我想你刚已经处理了.
+Dialogue: 0,0:28:34.26,0:28:36.32,Default,,0000,0000,0000,,I think you just did.
+Dialogue: 0,0:28:47.73,0:28:49.43,Blue,,0000,0000,0000,,进来.
+Dialogue: 0,0:28:47.97,0:28:49.67,Default,,0000,0000,0000,,Come in.
+Dialogue: 0,0:29:01.32,0:29:03.11,Blue,,0000,0000,0000,,我猜想\N你仍喜欢香槟酒的味道.
+Dialogue: 0,0:29:01.59,0:29:03.35,Default,,0000,0000,0000,,I assume\Nyou stiII have a taste for bubbIy.
+Dialogue: 0,0:29:03.28,0:29:05.80,Blue,,0000,0000,0000,,我们在一起时\N不知干掉了多少瓶.
+Dialogue: 0,0:29:03.52,0:29:06.08,Default,,0000,0000,0000,,We've kiIIed enough bottIes\Nin our time.
+Dialogue: 0,0:29:08.81,0:29:10.81,Blue,,0000,0000,0000,,为自始.
+Dialogue: 0,0:29:09.06,0:29:11.05,Default,,0000,0000,0000,,To beginnings.
+Dialogue: 0,0:29:11.47,0:29:14.56,Blue,,0000,0000,0000,,至终, 还有为能洞悉不同的智慧\N干一杯.
+Dialogue: 0,0:29:11.70,0:29:14.79,Default,,0000,0000,0000,,And endings, and the wisdom\Nto know the difference.
+Dialogue: 0,0:29:16.43,0:29:19.13,Blue,,0000,0000,0000,,我对不起你, 安德鲁.
+Dialogue: 0,0:29:16.67,0:29:19.36,Default,,0000,0000,0000,,I am sorry, Andrew.
+Dialogue: 0,0:29:21.05,0:29:23.31,Blue,,0000,0000,0000,,的确，我刚开始是恨你.
+Dialogue: 0,0:29:21.34,0:29:23.57,Default,,0000,0000,0000,,I hated you at first, of course.
+Dialogue: 0,0:29:23.49,0:29:26.01,Blue,,0000,0000,0000,,再正常不过的反应.
+Dialogue: 0,0:29:23.74,0:29:26.30,Default,,0000,0000,0000,,PerfectIy normaI response.
+Dialogue: 0,0:29:31.06,0:29:34.33,Blue,,0000,0000,0000,,但当我的愤怒渐渐平息,
+Dialogue: 0,0:29:31.32,0:29:34.58,Default,,0000,0000,0000,,As my anger diminished,
+Dialogue: 0,0:29:34.51,0:29:38.47,Blue,,0000,0000,0000,,我就回想起埃卡总有办法\N去说服别人做任何事.
+Dialogue: 0,0:29:34.75,0:29:38.71,Default,,0000,0000,0000,,I recaIIed that Eckhardt has a way\Nof persuading peopIe to do anything.
+Dialogue: 0,0:29:38.64,0:29:42.26,Blue,,0000,0000,0000,,- 肯定是他的主意.\N- 对.
+Dialogue: 0,0:29:38.89,0:29:42.52,Default,,0000,0000,0000,,- It was his idea, of course.\N- Yes.
+Dialogue: 0,0:29:42.87,0:29:45.17,Blue,,0000,0000,0000,,是他让我干的.
+Dialogue: 0,0:29:43.13,0:29:45.43,Default,,0000,0000,0000,,He made me do it.
+Dialogue: 0,0:29:45.48,0:29:47.70,Blue,,0000,0000,0000,,他还说你从没爱过我.
+Dialogue: 0,0:29:45.73,0:29:47.96,Default,,0000,0000,0000,,And he said you never Ioved me.
+Dialogue: 0,0:29:47.88,0:29:50.79,Blue,,0000,0000,0000,,你娶我只是\N为了报复他.
+Dialogue: 0,0:29:48.13,0:29:51.07,Default,,0000,0000,0000,,You just married me\Nto get back at him.
+Dialogue: 0,0:29:51.01,0:29:52.67,Blue,,0000,0000,0000,,那不是真的,\N我真的非常爱你.
+Dialogue: 0,0:29:51.27,0:29:52.93,Default,,0000,0000,0000,,That's not true,\NI did Iove you very much.
+Dialogue: 0,0:29:54.15,0:29:57.59,Blue,,0000,0000,0000,,当然了,\N那已经成为过去了.
+Dialogue: 0,0:29:54.41,0:29:57.86,Default,,0000,0000,0000,,Of course,\Nthe same cannot be said for you.
+Dialogue: 0,0:29:57.81,0:29:59.11,Blue,,0000,0000,0000,,别, 乔西,
+Dialogue: 0,0:29:58.04,0:29:59.37,Default,,0000,0000,0000,,PIease, Josie,
+Dialogue: 0,0:29:59.29,0:30:01.81,Blue,,0000,0000,0000,,我们之间不要再互相欺骗了.
+Dialogue: 0,0:29:59.54,0:30:02.07,Default,,0000,0000,0000,,Iet there be no more Iies between us.
+Dialogue: 0,0:30:02.12,0:30:06.73,Blue,,0000,0000,0000,,既然你做了.\N现在就得付出代价.
+Dialogue: 0,0:30:02.35,0:30:06.98,Default,,0000,0000,0000,,You had a job to do and you did it.\NNow you're paying the price.
+Dialogue: 0,0:30:06.91,0:30:09.30,Blue,,0000,0000,0000,,做任何事都是有后果的,\N我亲爱的.
+Dialogue: 0,0:30:07.15,0:30:09.55,Default,,0000,0000,0000,,Every action has its consequence,\Nmy dear.
+Dialogue: 0,0:30:11.00,0:30:13.18,Blue,,0000,0000,0000,,警察已经离你很近了.\N如果你再不行动,
+Dialogue: 0,0:30:11.26,0:30:13.45,Default,,0000,0000,0000,,The poIice are cIosing in.\NIf you don't take action,
+Dialogue: 0,0:30:13.35,0:30:16.40,Blue,,0000,0000,0000,,你今晚就要在牢房里过夜了.
+Dialogue: 0,0:30:13.63,0:30:16.65,Default,,0000,0000,0000,,you'II be sIeeping in a jaiI ceII tonight.
+Dialogue: 0,0:30:16.58,0:30:19.23,Blue,,0000,0000,0000,,我能做什么? 请救救我.
+Dialogue: 0,0:30:16.86,0:30:19.49,Default,,0000,0000,0000,,What can I do? PIease heIp me.
+Dialogue: 0,0:30:19.45,0:30:21.15,Blue,,0000,0000,0000,,你必须去见埃卡.
+Dialogue: 0,0:30:19.73,0:30:21.39,Default,,0000,0000,0000,,You must see Eckhardt.
+Dialogue: 0,0:30:23.20,0:30:26.90,Blue,,0000,0000,0000,,或许你们永远在一起\N才是有意义的.
+Dialogue: 0,0:30:23.44,0:30:27.13,Default,,0000,0000,0000,,Perhaps you were meant\Nto be together aII aIong.
+Dialogue: 0,0:30:27.38,0:30:30.21,Blue,,0000,0000,0000,,我相信他是真的爱你.
+Dialogue: 0,0:30:27.64,0:30:30.44,Default,,0000,0000,0000,,I'm sure he truIy Ioves you.
+Dialogue: 0,0:30:32.21,0:30:35.95,Blue,,0000,0000,0000,,他不知道我还活着.\N他能带你离开这个国家.
+Dialogue: 0,0:30:32.44,0:30:36.18,Default,,0000,0000,0000,,He doesn't know I'm aIive.\NHe can get you out of this country.
+Dialogue: 0,0:30:38.39,0:30:40.53,Blue,,0000,0000,0000,,去找他吧, 乔西.
+Dialogue: 0,0:30:38.62,0:30:40.81,Default,,0000,0000,0000,,Go to him, Josie.
+Dialogue: 0,0:30:42.84,0:30:44.49,Blue,,0000,0000,0000,,马上.
+Dialogue: 0,0:30:43.09,0:30:44.75,Default,,0000,0000,0000,,Now.
+Dialogue: 0,0:30:50.20,0:30:51.68,Blue,,0000,0000,0000,,安德鲁.
+Dialogue: 0,0:30:50.46,0:30:51.93,Default,,0000,0000,0000,,Andrew.
+Dialogue: 0,0:30:52.51,0:30:54.77,Blue,,0000,0000,0000,,我们不会再见了.
+Dialogue: 0,0:30:52.76,0:30:55.03,Default,,0000,0000,0000,,We won't speak again.
+Dialogue: 0,0:31:14.24,0:31:15.54,Blue,,0000,0000,0000,,嗨.
+Dialogue: 0,0:31:14.49,0:31:15.82,Default,,0000,0000,0000,,Hi.
+Dialogue: 0,0:31:15.72,0:31:17.46,Blue,,0000,0000,0000,,嗨.
+Dialogue: 0,0:31:15.99,0:31:17.72,Default,,0000,0000,0000,,Hi.
+Dialogue: 0,0:31:18.16,0:31:20.20,Blue,,0000,0000,0000,,真美啊.
+Dialogue: 0,0:31:18.42,0:31:20.45,Default,,0000,0000,0000,,It's beautifuI.
+Dialogue: 0,0:31:20.42,0:31:24.04,Blue,,0000,0000,0000,,我想去些\N我们从没去过的地方.
+Dialogue: 0,0:31:20.69,0:31:24.29,Default,,0000,0000,0000,,I wanted us to go somepIace\Nwe've never been before.
+Dialogue: 0,0:31:24.47,0:31:26.30,Blue,,0000,0000,0000,,来吧.
+Dialogue: 0,0:31:24.73,0:31:26.56,Default,,0000,0000,0000,,Come on.
+Dialogue: 0,0:31:28.61,0:31:30.61,Blue,,0000,0000,0000,,警方怎么处理?
+Dialogue: 0,0:31:28.87,0:31:30.86,Default,,0000,0000,0000,,How did it go with the poIice?
+Dialogue: 0,0:31:30.79,0:31:33.88,Blue,,0000,0000,0000,,他们问了无数个\N我都不知道答案的问题.
+Dialogue: 0,0:31:31.04,0:31:34.13,Default,,0000,0000,0000,,They asked a miIIion questions\Nthat I didn't know the answers to.
+Dialogue: 0,0:31:34.05,0:31:37.01,Blue,,0000,0000,0000,,但有一个我知道\N我想知道了这一个已经足够了.
+Dialogue: 0,0:31:34.31,0:31:37.30,Default,,0000,0000,0000,,But the ones I did\Nmust have been enough.
+Dialogue: 0,0:31:37.93,0:31:41.37,Blue,,0000,0000,0000,,伊夫林将会被审判\N而我将是证人.
+Dialogue: 0,0:31:38.18,0:31:41.63,Default,,0000,0000,0000,,EveIyn's gonna stand triaI\Nand I'II be a witness.
+Dialogue: 0,0:31:43.63,0:31:45.55,Blue,,0000,0000,0000,,你没戴那戒指.
+Dialogue: 0,0:31:43.88,0:31:45.82,Default,,0000,0000,0000,,You're not wearing the ring.
+Dialogue: 0,0:31:45.72,0:31:48.21,Blue,,0000,0000,0000,,我知道你和伊夫林的事了.
+Dialogue: 0,0:31:45.98,0:31:48.45,Default,,0000,0000,0000,,I know about you and EveIyn.
+Dialogue: 0,0:31:50.73,0:31:53.17,Blue,,0000,0000,0000,,如果你恨我\N我不会怪你.
+Dialogue: 0,0:31:50.96,0:31:53.39,Default,,0000,0000,0000,,I wouIdn't bIame you\Nif you hated me.
+Dialogue: 0,0:31:53.82,0:31:57.40,Blue,,0000,0000,0000,,詹姆斯,\N我了解你的感受.
+Dialogue: 0,0:31:54.06,0:31:57.69,Default,,0000,0000,0000,,James,\NI know what you were feeIing.
+Dialogue: 0,0:31:57.57,0:31:59.92,Blue,,0000,0000,0000,,我也有同样的感受.
+Dialogue: 0,0:31:57.86,0:32:00.19,Default,,0000,0000,0000,,I was feeIing it too.
+Dialogue: 0,0:32:00.10,0:32:02.32,Blue,,0000,0000,0000,,只不过让伊夫林有机可乘罢了.
+Dialogue: 0,0:32:00.37,0:32:02.60,Default,,0000,0000,0000,,EveIyn just took advantage of it.
+Dialogue: 0,0:32:03.06,0:32:06.24,Blue,,0000,0000,0000,,嗯, 我本来知道\N那是错误的.
+Dialogue: 0,0:32:03.34,0:32:06.50,Default,,0000,0000,0000,,WeII, it was wrong\Nand I shouId've known that.
+Dialogue: 0,0:32:06.41,0:32:11.46,Blue,,0000,0000,0000,,瞧, 你对发生的事感到沮丧\N那很正常,
+Dialogue: 0,0:32:06.67,0:32:11.70,Default,,0000,0000,0000,,Look, it's okay for you to feeI bad\Nabout what happened to you,
+Dialogue: 0,0:32:11.64,0:32:13.64,Blue,,0000,0000,0000,,但我不想你为我\N感到沮丧.
+Dialogue: 0,0:32:11.88,0:32:13.90,Default,,0000,0000,0000,,but I don't want you to feeI bad\Nfor me.
+Dialogue: 0,0:32:14.95,0:32:16.99,Blue,,0000,0000,0000,,如果我们可以从头再来...
+Dialogue: 0,0:32:15.18,0:32:17.24,Default,,0000,0000,0000,,If we couId just start over again...
+Dialogue: 0,0:32:18.43,0:32:20.52,Blue,,0000,0000,0000,,请你跟我回家吧.
+Dialogue: 0,0:32:18.68,0:32:20.74,Default,,0000,0000,0000,,PIease come home with me.
+Dialogue: 0,0:32:21.17,0:32:23.00,Blue,,0000,0000,0000,,现在，我还不能.
+Dialogue: 0,0:32:21.42,0:32:23.22,Default,,0000,0000,0000,,I can't. Not right now.
+Dialogue: 0,0:32:28.84,0:32:32.50,Blue,,0000,0000,0000,,你是对的. 你该离开.
+Dialogue: 0,0:32:29.09,0:32:32.76,Default,,0000,0000,0000,,You're right. You shouId go.
+Dialogue: 0,0:32:35.46,0:32:37.16,Blue,,0000,0000,0000,,但你怎么办?
+Dialogue: 0,0:32:35.73,0:32:37.43,Default,,0000,0000,0000,,But what about you?
+Dialogue: 0,0:32:37.37,0:32:40.03,Blue,,0000,0000,0000,,不用再为我担心了.
+Dialogue: 0,0:32:37.64,0:32:40.30,Default,,0000,0000,0000,,Can't worry about me anymore.
+Dialogue: 0,0:32:40.64,0:32:42.47,Blue,,0000,0000,0000,,发生了那么多可怕的事\N我都
+Dialogue: 0,0:32:40.91,0:32:42.70,Default,,0000,0000,0000,,I've been a part\Nof aII the horribIe things
+Dialogue: 0,0:32:42.64,0:32:44.47,Blue,,0000,0000,0000,,身在其中.
+Dialogue: 0,0:32:42.87,0:32:44.71,Default,,0000,0000,0000,,that have happened.
+Dialogue: 0,0:32:44.65,0:32:47.65,Blue,,0000,0000,0000,,现在，我打算\N融入新生活了.
+Dialogue: 0,0:32:44.88,0:32:47.90,Default,,0000,0000,0000,,I wanna be a part\Nof something good now.
+Dialogue: 0,0:32:49.92,0:32:51.35,Blue,,0000,0000,0000,,詹姆斯, 走吧.
+Dialogue: 0,0:32:50.22,0:32:51.61,Default,,0000,0000,0000,,James, go.
+Dialogue: 0,0:32:51.53,0:32:54.10,Blue,,0000,0000,0000,,给自己足够的时间.
+Dialogue: 0,0:32:51.82,0:32:54.38,Default,,0000,0000,0000,,Take aII the time you need.
+Dialogue: 0,0:32:54.27,0:32:56.19,Blue,,0000,0000,0000,,我爱你.
+Dialogue: 0,0:32:54.55,0:32:56.45,Default,,0000,0000,0000,,I Iove you.
+Dialogue: 0,0:32:58.45,0:33:01.33,Blue,,0000,0000,0000,,我会想你想到发疯的.
+Dialogue: 0,0:32:58.72,0:33:01.59,Default,,0000,0000,0000,,I'm gonna miss you Iike crazy.
+Dialogue: 0,0:33:02.37,0:33:03.81,Blue,,0000,0000,0000,,但你去奔吧
+Dialogue: 0,0:33:02.63,0:33:04.06,Default,,0000,0000,0000,,But you'II go away
+Dialogue: 0,0:33:03.99,0:33:05.86,Blue,,0000,0000,0000,,然后带着\N好故事回来.
+Dialogue: 0,0:33:04.23,0:33:06.09,Default,,0000,0000,0000,,and you'II come back\Nwith great stories.
+Dialogue: 0,0:33:06.99,0:33:11.34,Blue,,0000,0000,0000,,主角不会再是劳拉\N马蒂或者伊夫林了.
+Dialogue: 0,0:33:07.23,0:33:11.57,Default,,0000,0000,0000,,And none of them are gonna be\Nabout Laura or Maddy or EveIyn.
+Dialogue: 0,0:33:12.74,0:33:14.35,Blue,,0000,0000,0000,,我会在这儿等你.
+Dialogue: 0,0:33:12.97,0:33:14.60,Default,,0000,0000,0000,,And I'II be here.
+Dialogue: 0,0:33:15.83,0:33:19.36,Blue,,0000,0000,0000,,- 跟我走吧.\N- 不.
+Dialogue: 0,0:33:16.11,0:33:19.63,Default,,0000,0000,0000,,- Come with me.\N- No.
+Dialogue: 0,0:33:22.28,0:33:25.72,Blue,,0000,0000,0000,,好, 那, 我会回来, 我保证.
+Dialogue: 0,0:33:22.55,0:33:25.98,Default,,0000,0000,0000,,WeII, then, I'II come back, I promise.
+Dialogue: 0,0:34:02.30,0:34:04.39,Blue,,0000,0000,0000,,来了.
+Dialogue: 0,0:34:02.52,0:34:04.61,Default,,0000,0000,0000,,Coming.
+Dialogue: 0,0:34:05.74,0:34:07.48,Blue,,0000,0000,0000,,来了.
+Dialogue: 0,0:34:05.99,0:34:07.72,Default,,0000,0000,0000,,Coming.
+Dialogue: 0,0:34:15.71,0:34:18.63,Blue,,0000,0000,0000,,- 皮特, 我要见乔西.\N- 进来说.
+Dialogue: 0,0:34:15.97,0:34:18.90,Default,,0000,0000,0000,,- Pete, I need to see Josie.\N- Come on in.
+Dialogue: 0,0:34:18.85,0:34:21.94,Blue,,0000,0000,0000,,- 我想她已经走了.\N- 就是, 相当奇怪.
+Dialogue: 0,0:34:19.10,0:34:22.20,Default,,0000,0000,0000,,- I think she's gone out.\N- Yes, it's rather odd.
+Dialogue: 0,0:34:22.11,0:34:23.90,Blue,,0000,0000,0000,,她二话不说\N就把我的车开走了.
+Dialogue: 0,0:34:22.37,0:34:24.17,Default,,0000,0000,0000,,She took my car\Nwithout saying a word.
+Dialogue: 0,0:34:24.08,0:34:26.25,Blue,,0000,0000,0000,,对, 她和我说过\N大北方.
+Dialogue: 0,0:34:24.34,0:34:26.50,Default,,0000,0000,0000,,WeII, she toId me\Nthe Great Northern.
+Dialogue: 0,0:34:26.69,0:34:29.17,Blue,,0000,0000,0000,,噢, 她说过吗? 嗯,\N她还拿了很多她的东西走.
+Dialogue: 0,0:34:26.91,0:34:29.40,Default,,0000,0000,0000,,Oh, did she? WeII,\Nshe took a Iot of things with her.
+Dialogue: 0,0:34:29.39,0:34:30.65,Blue,,0000,0000,0000,,我不知道她打算去哪儿.
+Dialogue: 0,0:34:29.61,0:34:30.91,Default,,0000,0000,0000,,I don't know where she was going.
+Dialogue: 0,0:34:30.87,0:34:33.83,Blue,,0000,0000,0000,,但我可以说\N她会计划停留一阵子的.
+Dialogue: 0,0:34:31.12,0:34:34.09,Default,,0000,0000,0000,,But I'd say she was pIanning\Nto stay a whiIe.
+Dialogue: 0,0:34:34.00,0:34:35.75,Blue,,0000,0000,0000,,她还说了其它什么, 皮特?
+Dialogue: 0,0:34:34.25,0:34:36.02,Default,,0000,0000,0000,,What eIse did she say, Pete?
+Dialogue: 0,0:34:36.92,0:34:40.36,Blue,,0000,0000,0000,,哦, 她打算去见\N一个老朋友.
+Dialogue: 0,0:34:37.19,0:34:40.65,Default,,0000,0000,0000,,WeII, that she was going to see\Nan oId friend.
+Dialogue: 0,0:34:40.67,0:34:41.97,Blue,,0000,0000,0000,,是谁?
+Dialogue: 0,0:34:40.93,0:34:42.26,Default,,0000,0000,0000,,Who?
+Dialogue: 0,0:34:45.41,0:34:47.98,Blue,,0000,0000,0000,,警长, 对我们大家来说\N知道乔西的真面目
+Dialogue: 0,0:34:45.66,0:34:48.26,Default,,0000,0000,0000,,Sheriff, I suppose it's been very hard\Non aII of us
+Dialogue: 0,0:34:48.16,0:34:50.47,Blue,,0000,0000,0000,,是件相当难受的事.
+Dialogue: 0,0:34:48.43,0:34:50.70,Default,,0000,0000,0000,,Iearning the truth about Josie.
+Dialogue: 0,0:34:51.77,0:34:54.26,Blue,,0000,0000,0000,,凯萨琳.
+Dialogue: 0,0:34:52.04,0:34:54.50,Default,,0000,0000,0000,,Catherine.
+Dialogue: 0,0:34:54.43,0:34:55.82,Blue,,0000,0000,0000,,到底是谁?
+Dialogue: 0,0:34:54.67,0:34:56.07,Default,,0000,0000,0000,,Who?
+Dialogue: 0,0:34:57.39,0:35:00.74,Blue,,0000,0000,0000,,埃卡. 托马斯·埃卡.
+Dialogue: 0,0:34:57.64,0:35:01.01,Default,,0000,0000,0000,,Eckhardt. Thomas Eckhardt.
+Dialogue: 0,0:35:02.36,0:35:04.18,Blue,,0000,0000,0000,,可怜的人.
+Dialogue: 0,0:35:02.65,0:35:04.44,Default,,0000,0000,0000,,Poor man.
+Dialogue: 0,0:35:17.16,0:35:19.86,Blue,,0000,0000,0000,,到大堂, 谢谢.
+Dialogue: 0,0:35:17.40,0:35:20.09,Default,,0000,0000,0000,,Lobby, pIease.
+Dialogue: 0,0:35:25.44,0:35:27.18,Blue,,0000,0000,0000,,托马斯.
+Dialogue: 0,0:35:25.67,0:35:27.47,Default,,0000,0000,0000,,Thomas.
+Dialogue: 0,0:35:30.49,0:35:32.49,Blue,,0000,0000,0000,,我们又见面了.
+Dialogue: 0,0:35:30.78,0:35:32.74,Default,,0000,0000,0000,,We meet again.
+Dialogue: 0,0:35:34.50,0:35:36.93,Blue,,0000,0000,0000,,我不相信鬼魂的.
+Dialogue: 0,0:35:34.75,0:35:37.18,Default,,0000,0000,0000,,I don't beIieve in ghosts.
+Dialogue: 0,0:35:37.11,0:35:39.20,Blue,,0000,0000,0000,,真可惜, 鬼魂其实是个很有趣的概念.
+Dialogue: 0,0:35:37.38,0:35:39.44,Default,,0000,0000,0000,,Pity, it's an appeaIing notion.
+Dialogue: 0,0:35:39.37,0:35:42.86,Blue,,0000,0000,0000,,一个从坟墓回归的\N恐怖魅影.
+Dialogue: 0,0:35:39.62,0:35:43.11,Default,,0000,0000,0000,,The return of the grisIy phantom\Nfrom the grave.
+Dialogue: 0,0:35:43.03,0:35:45.95,Blue,,0000,0000,0000,,你要真闹鬼了, 那才好呢.
+Dialogue: 0,0:35:43.29,0:35:46.19,Default,,0000,0000,0000,,You deserve haunting, to be sure.
+Dialogue: 0,0:35:46.52,0:35:49.30,Blue,,0000,0000,0000,,看真点, 托马斯.
+Dialogue: 0,0:35:46.76,0:35:49.56,Default,,0000,0000,0000,,Look cIoser, Thomas.
+Dialogue: 0,0:35:49.48,0:35:52.00,Blue,,0000,0000,0000,,我还活着.
+Dialogue: 0,0:35:49.73,0:35:52.22,Default,,0000,0000,0000,,I'm aIive.
+Dialogue: 0,0:35:53.48,0:35:55.14,Blue,,0000,0000,0000,,怎么回事?
+Dialogue: 0,0:35:53.77,0:35:55.43,Default,,0000,0000,0000,,How?
+Dialogue: 0,0:35:55.31,0:35:57.84,Blue,,0000,0000,0000,,猜猜看. 不明摆着的吗.
+Dialogue: 0,0:35:55.60,0:35:58.13,Default,,0000,0000,0000,,Guess. It's reaIIy very simpIe.
+Dialogue: 0,0:35:59.06,0:36:00.23,Blue,,0000,0000,0000,,乔西.
+Dialogue: 0,0:35:59.30,0:36:00.50,Default,,0000,0000,0000,,Josie.
+Dialogue: 0,0:36:01.32,0:36:03.20,Blue,,0000,0000,0000,,她亲自警告我离开的.
+Dialogue: 0,0:36:01.57,0:36:03.44,Default,,0000,0000,0000,,She warned me off herseIf.
+Dialogue: 0,0:36:03.37,0:36:06.81,Blue,,0000,0000,0000,,不忍心看着自己\N心爱的丈夫死去.
+Dialogue: 0,0:36:03.61,0:36:07.07,Default,,0000,0000,0000,,CouIdn't bear to see\Nher beIoved husband perish.
+Dialogue: 0,0:36:06.99,0:36:08.47,Blue,,0000,0000,0000,,再现实点说吧, 我想,
+Dialogue: 0,0:36:07.25,0:36:08.74,Default,,0000,0000,0000,,Or more reaIisticaIIy, I suppose,
+Dialogue: 0,0:36:08.68,0:36:10.86,Blue,,0000,0000,0000,,她觉得\N这样对她更有利.
+Dialogue: 0,0:36:08.91,0:36:11.11,Default,,0000,0000,0000,,she feIt there was\Nsome advantage to be gained.
+Dialogue: 0,0:36:11.82,0:36:13.34,Blue,,0000,0000,0000,,她背叛了我.
+Dialogue: 0,0:36:12.08,0:36:13.57,Default,,0000,0000,0000,,She betrayed me.
+Dialogue: 0,0:36:14.56,0:36:17.44,Blue,,0000,0000,0000,,我们都被耍了.
+Dialogue: 0,0:36:14.82,0:36:17.65,Default,,0000,0000,0000,,We're aII famiIiar with betrayaI.
+Dialogue: 0,0:36:17.87,0:36:20.70,Blue,,0000,0000,0000,,乔西是我的. 她属于我.
+Dialogue: 0,0:36:18.09,0:36:20.99,Default,,0000,0000,0000,,Josie is mine. She beIongs to me.
+Dialogue: 0,0:36:20.97,0:36:26.54,Blue,,0000,0000,0000,,噢, 托马斯,\N爱使人心碎.
+Dialogue: 0,0:36:21.23,0:36:26.79,Default,,0000,0000,0000,,Oh, Thomas,\NIove wiII break your heart.
+Dialogue: 0,0:36:27.02,0:36:30.90,Blue,,0000,0000,0000,,幸好, 很久以前, 我就对此失去兴趣了.
+Dialogue: 0,0:36:27.30,0:36:31.17,Default,,0000,0000,0000,,HappiIy, Iong ago, I Iost interest.
+Dialogue: 0,0:36:31.77,0:36:36.21,Blue,,0000,0000,0000,,但乔西的恐惧性\N常规失心疯.
+Dialogue: 0,0:36:32.04,0:36:36.44,Default,,0000,0000,0000,,But Josie Ioses her heart\Nwith aIarming reguIarity.
+Dialogue: 0,0:36:36.38,0:36:39.08,Blue,,0000,0000,0000,,让她在所有人当中, 偏偏选中了那个土警长.
+Dialogue: 0,0:36:36.61,0:36:39.34,Default,,0000,0000,0000,,The IocaI sheriff, of aII peopIe.
+Dialogue: 0,0:36:39.26,0:36:42.26,Blue,,0000,0000,0000,,- 我会处理那事的.\N- 我对此毋庸置疑.
+Dialogue: 0,0:36:39.51,0:36:42.50,Default,,0000,0000,0000,,- I have taken care of that.\N- I don't doubt it.
+Dialogue: 0,0:36:43.13,0:36:47.05,Blue,,0000,0000,0000,,有时我真的很怀疑\N我们的乔西是否
+Dialogue: 0,0:36:43.38,0:36:47.32,Default,,0000,0000,0000,,Sometimes I wonder\Nif our Josie
+Dialogue: 0,0:36:47.23,0:36:49.80,Blue,,0000,0000,0000,,故意的要去做这些\N扭曲的事.
+Dialogue: 0,0:36:47.49,0:36:50.05,Default,,0000,0000,0000,,does these twisted things\NdeIiberateIy.
+Dialogue: 0,0:36:50.01,0:36:51.80,Blue,,0000,0000,0000,,你说呢?
+Dialogue: 0,0:36:50.29,0:36:52.05,Default,,0000,0000,0000,,Don't you?
+Dialogue: 0,0:36:53.76,0:36:57.02,Blue,,0000,0000,0000,,作为你\N已故的朋友,
+Dialogue: 0,0:36:54.03,0:36:57.29,Default,,0000,0000,0000,,As someone\Nwho was once your friend,
+Dialogue: 0,0:36:57.20,0:36:59.81,Blue,,0000,0000,0000,,我是特意回来给你提个醒.
+Dialogue: 0,0:36:57.46,0:37:00.06,Default,,0000,0000,0000,,I come back with a warning.
+Dialogue: 0,0:37:00.81,0:37:03.12,Blue,,0000,0000,0000,,乔西正来找你呢,\N千万小心咯.
+Dialogue: 0,0:37:01.07,0:37:03.36,Default,,0000,0000,0000,,Josie is coming back to you,\Nbe very carefuI.
+Dialogue: 0,0:37:04.65,0:37:07.43,Blue,,0000,0000,0000,,我一向小心谨慎.
+Dialogue: 0,0:37:04.90,0:37:07.67,Default,,0000,0000,0000,,I'm aIways carefuI.
+Dialogue: 0,0:37:09.39,0:37:12.05,Blue,,0000,0000,0000,,那好, 我们到了, 大堂.
+Dialogue: 0,0:37:09.64,0:37:12.34,Default,,0000,0000,0000,,WeII, here we are, the Iobby.
+Dialogue: 0,0:37:12.62,0:37:14.45,Blue,,0000,0000,0000,,我要回到楼下\N车房去了.
+Dialogue: 0,0:37:12.91,0:37:14.71,Default,,0000,0000,0000,,I'II be going back down\Nto the garage.
+Dialogue: 0,0:37:14.62,0:37:18.02,Blue,,0000,0000,0000,,我的复活还是\N个无人知晓的秘密.
+Dialogue: 0,0:37:14.88,0:37:18.28,Default,,0000,0000,0000,,My resurrection remains\Na weII-kept secret.
+Dialogue: 0,0:37:24.29,0:37:25.99,Blue,,0000,0000,0000,,托马斯.
+Dialogue: 0,0:37:24.56,0:37:26.22,Default,,0000,0000,0000,,Thomas.
+Dialogue: 0,0:37:28.69,0:37:30.12,Blue,,0000,0000,0000,,再见.
+Dialogue: 0,0:37:28.93,0:37:30.36,Default,,0000,0000,0000,,Bye.
+Dialogue: 0,0:37:36.18,0:37:40.14,Blue,,0000,0000,0000,,我知道我还有好多要学习.
+Dialogue: 0,0:37:36.40,0:37:40.43,Default,,0000,0000,0000,,I know that I have a Iot to Iearn.
+Dialogue: 0,0:37:40.32,0:37:42.75,Blue,,0000,0000,0000,,杰克,
+Dialogue: 0,0:37:40.61,0:37:43.04,Default,,0000,0000,0000,,Jack,
+Dialogue: 0,0:37:42.93,0:37:45.37,Blue,,0000,0000,0000,,你将是我的老师.
+Dialogue: 0,0:37:43.21,0:37:45.61,Default,,0000,0000,0000,,you shaII be my teacher.
+Dialogue: 0,0:37:45.54,0:37:49.33,Blue,,0000,0000,0000,,把我当作是一本打开的书,
+Dialogue: 0,0:37:45.81,0:37:49.58,Default,,0000,0000,0000,,Think of me as an open book,
+Dialogue: 0,0:37:49.50,0:37:54.25,Blue,,0000,0000,0000,,你可以在这干净的页面上\N随意书写.
+Dialogue: 0,0:37:49.75,0:37:54.51,Default,,0000,0000,0000,,upon whose virgin pages\Nyou shaII scribe.
+Dialogue: 0,0:37:56.78,0:37:58.52,Blue,,0000,0000,0000,,你没事吧?
+Dialogue: 0,0:37:57.02,0:37:58.75,Default,,0000,0000,0000,,You okay?
+Dialogue: 0,0:37:59.96,0:38:04.79,Blue,,0000,0000,0000,,那, 维乐先生,\N你到底是做什么的?
+Dialogue: 0,0:38:00.19,0:38:05.06,Default,,0000,0000,0000,,So, Mr. WheeIer,\Nwhat is it exactIy you do do?
+Dialogue: 0,0:38:04.96,0:38:06.88,Blue,,0000,0000,0000,,首先, 请叫我杰克吧.
+Dialogue: 0,0:38:05.23,0:38:07.13,Default,,0000,0000,0000,,First off, caII me Jack, pIease.
+Dialogue: 0,0:38:07.06,0:38:10.45,Blue,,0000,0000,0000,,我买进破产，经营失败的企业.
+Dialogue: 0,0:38:07.33,0:38:10.70,Default,,0000,0000,0000,,I buy bankrupt, faiIing businesses.
+Dialogue: 0,0:38:10.63,0:38:12.63,Blue,,0000,0000,0000,,我会重整它们的资源,\N让它们回到正常运作的轨道
+Dialogue: 0,0:38:10.87,0:38:12.89,Default,,0000,0000,0000,,I streamIine them,\Nbring them back up to speed
+Dialogue: 0,0:38:12.80,0:38:15.02,Blue,,0000,0000,0000,,然后，通常会卖掉它们.
+Dialogue: 0,0:38:13.07,0:38:15.27,Default,,0000,0000,0000,,and then usuaIIy seII them.
+Dialogue: 0,0:38:15.20,0:38:16.72,Blue,,0000,0000,0000,,利润可观啊.
+Dialogue: 0,0:38:15.44,0:38:16.96,Default,,0000,0000,0000,,At a substantiaI profit.
+Dialogue: 0,0:38:16.90,0:38:18.38,Blue,,0000,0000,0000,,但是, 我要加上一点,
+Dialogue: 0,0:38:17.14,0:38:18.63,Default,,0000,0000,0000,,But not, I shouId add,
+Dialogue: 0,0:38:18.60,0:38:21.64,Blue,,0000,0000,0000,,要在得到重要的环境特许\N前提下进行.
+Dialogue: 0,0:38:18.84,0:38:21.90,Default,,0000,0000,0000,,before making significant\NenvironmentaI concessions.
+Dialogue: 0,0:38:21.82,0:38:27.35,Blue,,0000,0000,0000,,不止, 当杰克完成后,\N垃圾要改道而行, 空气...
+Dialogue: 0,0:38:22.08,0:38:27.58,Default,,0000,0000,0000,,No, when Jack is finished,\Nthe waste is rerouted, the air...
+Dialogue: 0,0:38:31.18,0:38:35.62,Blue,,0000,0000,0000,,空气会更亲新.
+Dialogue: 0,0:38:31.46,0:38:35.89,Default,,0000,0000,0000,,The air is cIeaner.
+Dialogue: 0,0:38:35.80,0:38:37.24,Blue,,0000,0000,0000,,而人们也更快乐了.
+Dialogue: 0,0:38:36.06,0:38:37.49,Default,,0000,0000,0000,,And the peopIe happier.
+Dialogue: 0,0:38:37.41,0:38:40.24,Blue,,0000,0000,0000,,本, 你把我说的\N像圣诞老人.
+Dialogue: 0,0:38:37.66,0:38:40.50,Default,,0000,0000,0000,,Ben, you make me sound\NIike Santa CIaus.
+Dialogue: 0,0:38:40.42,0:38:42.90,Blue,,0000,0000,0000,,我只是一个商人, 仅此而已.
+Dialogue: 0,0:38:40.67,0:38:43.13,Default,,0000,0000,0000,,I'm a businessman, that's aII.
+Dialogue: 0,0:38:47.34,0:38:51.39,Blue,,0000,0000,0000,,请恕我失陪了,\N厨师刚要拿刀刺杰里呢.
+Dialogue: 0,0:38:47.61,0:38:51.63,Default,,0000,0000,0000,,You'II have to excuse me,\Nthe chef just tried to stab Jerry.
+Dialogue: 0,0:38:51.56,0:38:53.52,Blue,,0000,0000,0000,,孩子们，你们继续吧.
+Dialogue: 0,0:38:51.81,0:38:53.78,Default,,0000,0000,0000,,You kids carry on.
+Dialogue: 0,0:38:53.70,0:38:55.40,Blue,,0000,0000,0000,,留心了.
+Dialogue: 0,0:38:53.95,0:38:55.67,Default,,0000,0000,0000,,Pay attention.
+Dialogue: 0,0:39:02.32,0:39:03.71,Blue,,0000,0000,0000,,那, 维乐先生,
+Dialogue: 0,0:39:02.59,0:39:03.99,Default,,0000,0000,0000,,So, Mr. WheeIer,
+Dialogue: 0,0:39:03.89,0:39:06.72,Blue,,0000,0000,0000,,我们算是哪一个呢,\N破产还是经营不善?
+Dialogue: 0,0:39:04.16,0:39:06.99,Default,,0000,0000,0000,,which is it,\Nare we bankrupt or just faiIing?
+Dialogue: 0,0:39:06.89,0:39:09.64,Blue,,0000,0000,0000,,我是来帮老朋友一个忙.\N还有是杰克.
+Dialogue: 0,0:39:07.16,0:39:09.89,Default,,0000,0000,0000,,I came to do an oId friend a favor.\NAnd it's Jack.
+Dialogue: 0,0:39:09.85,0:39:12.77,Blue,,0000,0000,0000,,我爸爸的朋友\N比松鼬还珍稀.
+Dialogue: 0,0:39:10.09,0:39:13.03,Default,,0000,0000,0000,,My father's friends are rarer\Nthan the pine weaseI.
+Dialogue: 0,0:39:14.04,0:39:15.30,Blue,,0000,0000,0000,,那, 让我们这样说好了
+Dialogue: 0,0:39:14.30,0:39:15.53,Default,,0000,0000,0000,,WeII, Iet's just say
+Dialogue: 0,0:39:15.47,0:39:17.61,Blue,,0000,0000,0000,,本曾经是我\N一个非常要好的朋友.
+Dialogue: 0,0:39:15.70,0:39:17.83,Default,,0000,0000,0000,,that Ben was once\Na very good friend to me.
+Dialogue: 0,0:39:18.22,0:39:20.57,Blue,,0000,0000,0000,,那么你来就是要\N把我们带回到正常运作轨道咯.
+Dialogue: 0,0:39:18.44,0:39:20.80,Default,,0000,0000,0000,,So you came back\Nto bring us aII up to speed.
+Dialogue: 0,0:39:20.70,0:39:24.23,Blue,,0000,0000,0000,,你是圣诞老人, 维乐先生.\N我最好把我的袜子先挂起来.
+Dialogue: 0,0:39:20.97,0:39:24.50,Default,,0000,0000,0000,,You are Santa CIaus, Mr. WheeIer.\NI'd better hang up my stocking.
+Dialogue: 0,0:39:26.67,0:39:29.32,Blue,,0000,0000,0000,,你不太喜欢我,\N对吗, 欧蕊?
+Dialogue: 0,0:39:26.94,0:39:29.61,Default,,0000,0000,0000,,You don't Iike me very much,\Ndo you, Audrey?
+Dialogue: 0,0:39:32.68,0:39:34.68,Blue,,0000,0000,0000,,反正我没意见.
+Dialogue: 0,0:39:32.95,0:39:34.94,Default,,0000,0000,0000,,I don't have an opinion either way.
+Dialogue: 0,0:39:35.11,0:39:37.42,Blue,,0000,0000,0000,,但如果你有呢?
+Dialogue: 0,0:39:35.35,0:39:37.65,Default,,0000,0000,0000,,But if you did?
+Dialogue: 0,0:39:38.42,0:39:39.69,Blue,,0000,0000,0000,,如果我有,
+Dialogue: 0,0:39:38.69,0:39:39.95,Default,,0000,0000,0000,,If I did,
+Dialogue: 0,0:39:39.86,0:39:42.87,Blue,,0000,0000,0000,,我会说，这么多年以来\N荷恩家族一直把自己管理的好好的
+Dialogue: 0,0:39:40.12,0:39:43.12,Default,,0000,0000,0000,,I'd say that the Hornes have managed\Nto take care of themseIves just fine
+Dialogue: 0,0:39:43.04,0:39:44.43,Blue,,0000,0000,0000,,远比你看起来的价值重要.
+Dialogue: 0,0:39:43.29,0:39:44.69,Default,,0000,0000,0000,,for more years than you can count.
+Dialogue: 0,0:39:44.70,0:39:46.44,Blue,,0000,0000,0000,,尽管我们可能看起来\N很绝望的样子,
+Dialogue: 0,0:39:44.93,0:39:46.69,Default,,0000,0000,0000,,And desperate\Nthough we may seem,
+Dialogue: 0,0:39:46.61,0:39:50.27,Blue,,0000,0000,0000,,在可见的将来\N这情形还会持续下去.
+Dialogue: 0,0:39:46.86,0:39:50.56,Default,,0000,0000,0000,,wiII probabIy continue to do so\Nin the foreseeabIe future.
+Dialogue: 0,0:39:56.28,0:39:58.37,Blue,,0000,0000,0000,,那倒是.
+Dialogue: 0,0:39:56.54,0:39:58.63,Default,,0000,0000,0000,,Indeed.
+Dialogue: 0,0:40:02.25,0:40:04.77,Blue,,0000,0000,0000,,你之前都去哪儿了?
+Dialogue: 0,0:40:02.51,0:40:05.04,Default,,0000,0000,0000,,Where have you been aII this time?
+Dialogue: 0,0:40:04.99,0:40:07.95,Blue,,0000,0000,0000,,我指, 你不是忙着去拯救\N寡妇和孤儿，就是忙着要把我们的
+Dialogue: 0,0:40:05.22,0:40:08.19,Default,,0000,0000,0000,,I mean, when you weren't busy\Nrescuing widows and orphans
+Dialogue: 0,0:40:08.13,0:40:11.00,Blue,,0000,0000,0000,,世界改造的更美好，适宜居住\N但除此之外呢.
+Dialogue: 0,0:40:08.35,0:40:11.22,Default,,0000,0000,0000,,and making our worId\Na better pIace to Iive in.
+Dialogue: 0,0:40:13.13,0:40:14.61,Blue,,0000,0000,0000,,在天涯海角.
+Dialogue: 0,0:40:13.36,0:40:14.88,Default,,0000,0000,0000,,The far corners of the earth.
+Dialogue: 0,0:40:16.10,0:40:18.97,Blue,,0000,0000,0000,,我告诉你, 外面的世界很精彩,\N欧蕊.
+Dialogue: 0,0:40:16.36,0:40:19.23,Default,,0000,0000,0000,,I teII you, it's gIorious out there,\NAudrey.
+Dialogue: 0,0:40:21.63,0:40:25.50,Blue,,0000,0000,0000,,但再什么说, 回到家的感觉还真好.
+Dialogue: 0,0:40:21.90,0:40:25.77,Default,,0000,0000,0000,,AII in aII, it's good to be home.
+Dialogue: 0,0:40:28.86,0:40:31.47,Blue,,0000,0000,0000,,我才18.
+Dialogue: 0,0:40:29.11,0:40:31.70,Default,,0000,0000,0000,,I'm onIy 1 8.
+Dialogue: 0,0:40:32.78,0:40:35.78,Blue,,0000,0000,0000,,还有，鸡蛋的价格\N究竟怎么回事?
+Dialogue: 0,0:40:33.01,0:40:36.04,Default,,0000,0000,0000,,And what exactIy does that have to do\Nwith the price of eggs?
+Dialogue: 0,0:40:36.78,0:40:38.74,Blue,,0000,0000,0000,,没事了.
+Dialogue: 0,0:40:37.01,0:40:38.98,Default,,0000,0000,0000,,Nothing.
+Dialogue: 0,0:40:41.92,0:40:43.84,Blue,,0000,0000,0000,,上帝, 看时间都过了.\N我还有个预约呢.
+Dialogue: 0,0:40:42.19,0:40:44.09,Default,,0000,0000,0000,,God, Iook at the time.\NI have an appointment.
+Dialogue: 0,0:40:43.97,0:40:46.15,Blue,,0000,0000,0000,,- 你能转告我父亲吗?\N- 当然了.
+Dialogue: 0,0:40:44.26,0:40:46.42,Default,,0000,0000,0000,,- CouId you teII my father?\N- Sure.
+Dialogue: 0,0:40:46.32,0:40:48.28,Blue,,0000,0000,0000,,好的. 再见.
+Dialogue: 0,0:40:46.59,0:40:48.56,Default,,0000,0000,0000,,Okay. See you.
+Dialogue: 0,0:40:49.33,0:40:50.94,Blue,,0000,0000,0000,,再见.
+Dialogue: 0,0:40:49.59,0:40:51.19,Default,,0000,0000,0000,,Bye.
+Dialogue: 0,0:40:54.94,0:40:57.12,Blue,,0000,0000,0000,,回见, 杰克.
+Dialogue: 0,0:40:55.20,0:40:57.36,Default,,0000,0000,0000,,I'II see you Iater, Jack.
+Dialogue: 0,0:41:00.34,0:41:02.91,Blue,,0000,0000,0000,,回见, 欧蕊.
+Dialogue: 0,0:41:00.57,0:41:03.13,Default,,0000,0000,0000,,I'II see you, Audrey.
+Dialogue: 0,0:41:18.33,0:41:21.07,Blue,,0000,0000,0000,,- 雪莉? 嗨.\N- 嗨. 你好吗?
+Dialogue: 0,0:41:18.59,0:41:21.32,Default,,0000,0000,0000,,- SheIIy? Hi.\N- Hi. How are you?
+Dialogue: 0,0:41:21.29,0:41:23.90,Blue,,0000,0000,0000,,还好. 你过得怎样?
+Dialogue: 0,0:41:21.53,0:41:24.15,Default,,0000,0000,0000,,I'm okay. How are you doing?
+Dialogue: 0,0:41:24.08,0:41:27.00,Blue,,0000,0000,0000,,就过日子呗. 来一口?
+Dialogue: 0,0:41:24.33,0:41:27.23,Default,,0000,0000,0000,,You know Iife. Drag?
+Dialogue: 0,0:41:27.22,0:41:29.52,Blue,,0000,0000,0000,,你在等詹姆斯?
+Dialogue: 0,0:41:27.47,0:41:29.76,Default,,0000,0000,0000,,Are you waiting for James?
+Dialogue: 0,0:41:29.70,0:41:31.00,Blue,,0000,0000,0000,,不.
+Dialogue: 0,0:41:29.93,0:41:31.23,Default,,0000,0000,0000,,No.
+Dialogue: 0,0:41:31.13,0:41:33.96,Blue,,0000,0000,0000,,其实，我是收到这些怪字条才来的.
+Dialogue: 0,0:41:31.40,0:41:34.24,Default,,0000,0000,0000,,ActuaIIy I got this reaIIy weird note.
+Dialogue: 0,0:41:34.14,0:41:36.53,Blue,,0000,0000,0000,,有人想我\N来这见他们.
+Dialogue: 0,0:41:34.41,0:41:36.81,Default,,0000,0000,0000,,Somebody wants me\Nto meet them here.
+Dialogue: 0,0:41:36.71,0:41:38.71,Blue,,0000,0000,0000,,怪吧?
+Dialogue: 0,0:41:36.97,0:41:38.97,Default,,0000,0000,0000,,That strange?
+Dialogue: 0,0:41:39.06,0:41:42.15,Blue,,0000,0000,0000,,那就怪了, 看我有什么.
+Dialogue: 0,0:41:39.31,0:41:42.40,Default,,0000,0000,0000,,That is strange, Iook what I have.
+Dialogue: 0,0:41:42.94,0:41:45.33,Blue,,0000,0000,0000,,看来我们好像都有事\N要一起谈了.
+Dialogue: 0,0:41:43.18,0:41:45.58,Default,,0000,0000,0000,,It Iooks Iike we aII have something\Nto taIk about.
+Dialogue: 0,0:41:47.29,0:41:49.03,Blue,,0000,0000,0000,,刚好.
+Dialogue: 0,0:41:47.55,0:41:49.28,Default,,0000,0000,0000,,It fits.
+Dialogue: 0,0:41:50.04,0:41:54.43,Blue,,0000,0000,0000,,{\i1}看那山峰高耸入云,\N犹如波涛延绵不断{\i0}
+Dialogue: 0,0:41:50.29,0:41:54.69,Default,,0000,0000,0000,,See the mountains kiss high heaven,\NAnd the waves clasp one another
+Dialogue: 0,0:41:54.61,0:41:58.70,Blue,,0000,0000,0000,,{\i1}没有一朵姐妹花会被宽恕\N如果它鄙视它的兄弟{\i0}
+Dialogue: 0,0:41:54.86,0:41:58.99,Default,,0000,0000,0000,,No sister-flower would be forgiven\Nlf it disdain'd its brother
+Dialogue: 0,0:41:58.88,0:42:03.06,Blue,,0000,0000,0000,,{\i1}阳光紧扣着大地,\N月光则亲吻着大海--{\i0}
+Dialogue: 0,0:41:59.16,0:42:03.33,Default,,0000,0000,0000,,And the sunlight clasps the earth,\NAnd the moonbeams kiss the sea--
+Dialogue: 0,0:42:03.23,0:42:07.85,Blue,,0000,0000,0000,,{\i1}如果汝不吻我,\N这世间一切的甜蜜之事价值何在呢?{\i0}
+Dialogue: 0,0:42:03.50,0:42:08.10,Default,,0000,0000,0000,,What is all this sweet work worth,\Nlf thou kiss not me?
+Dialogue: 0,0:42:08.72,0:42:11.07,Blue,,0000,0000,0000,,- 我只能说.\N- 这太奇怪了.
+Dialogue: 0,0:42:08.97,0:42:11.31,Default,,0000,0000,0000,,- This is weird.\N- I'II say.
+Dialogue: 0,0:42:31.63,0:42:34.59,Blue,,0000,0000,0000,,我是库珀. 是的, 凯萨琳.
+Dialogue: 0,0:42:31.90,0:42:34.83,Default,,0000,0000,0000,,Cooper here. Yes, Catherine.
+Dialogue: 0,0:42:34.76,0:42:37.94,Blue,,0000,0000,0000,,不, 不, 我刚回来不久.
+Dialogue: 0,0:42:35.00,0:42:38.20,Default,,0000,0000,0000,,No, no, I was just on my way over.
+Dialogue: 0,0:42:38.46,0:42:40.16,Blue,,0000,0000,0000,,她在这儿?
+Dialogue: 0,0:42:38.74,0:42:40.40,Default,,0000,0000,0000,,She's here?
+Dialogue: 0,0:42:40.95,0:42:43.30,Blue,,0000,0000,0000,,在托马斯·埃卡的房间.
+Dialogue: 0,0:42:41.21,0:42:43.54,Default,,0000,0000,0000,,Thomas Eckhardt's suite.
+Dialogue: 0,0:42:44.21,0:42:45.95,Blue,,0000,0000,0000,,我知道了.
+Dialogue: 0,0:42:44.48,0:42:46.20,Default,,0000,0000,0000,,I see.
+Dialogue: 0,0:42:59.85,0:43:01.63,Blue,,0000,0000,0000,,救命!
+Dialogue: 0,0:43:00.12,0:43:01.89,Default,,0000,0000,0000,,HeIp!
+Dialogue: 0,0:43:01.98,0:43:03.51,Blue,,0000,0000,0000,,- 救命啊.\N- 我爱你.
+Dialogue: 0,0:43:02.23,0:43:03.75,Default,,0000,0000,0000,,- PIease heIp.\N- I Iove you.
+Dialogue: 0,0:43:03.68,0:43:06.07,Blue,,0000,0000,0000,,- 别!\N- 乔西, 别这样. 看在上帝的份上--
+Dialogue: 0,0:43:03.93,0:43:06.33,Default,,0000,0000,0000,,- No!\N- Josie, pIease. For God's sake--
+Dialogue: 0,0:43:06.25,0:43:09.65,Blue,,0000,0000,0000,,别碰我. 别摸我!\N别伤害我.
+Dialogue: 0,0:43:06.50,0:43:09.90,Default,,0000,0000,0000,,Don't touch me. Don't touch me!\NDon't hurt me.
+Dialogue: 0,0:43:34.30,0:43:35.56,Blue,,0000,0000,0000,,你给我站住.
+Dialogue: 0,0:43:34.56,0:43:35.79,Default,,0000,0000,0000,,Stay where you are.
+Dialogue: 0,0:43:44.31,0:43:46.14,Blue,,0000,0000,0000,,他想杀我.
+Dialogue: 0,0:43:44.60,0:43:46.43,Default,,0000,0000,0000,,He tried to kiII me.
+Dialogue: 0,0:43:46.49,0:43:50.02,Blue,,0000,0000,0000,,你也打算这样形容我吗,\N乔西? 我也想杀你?
+Dialogue: 0,0:43:46.74,0:43:50.26,Default,,0000,0000,0000,,Is that what you'II say about me,\NJosie? That I tried to kiII you?
+Dialogue: 0,0:43:51.02,0:43:53.02,Blue,,0000,0000,0000,,那乔纳森呢?
+Dialogue: 0,0:43:51.28,0:43:53.27,Default,,0000,0000,0000,,What about Jonathan?
+Dialogue: 0,0:43:53.20,0:43:54.85,Blue,,0000,0000,0000,,难道他也想杀你吗?
+Dialogue: 0,0:43:53.44,0:43:55.11,Default,,0000,0000,0000,,Did he try to kiII you too?
+Dialogue: 0,0:43:55.03,0:43:58.29,Blue,,0000,0000,0000,,他要抓我回去.
+Dialogue: 0,0:43:55.28,0:43:58.54,Default,,0000,0000,0000,,He was taking me back.
+Dialogue: 0,0:43:58.82,0:44:00.73,Blue,,0000,0000,0000,,你为什么要开枪打我, 乔西?
+Dialogue: 0,0:43:59.05,0:44:00.98,Default,,0000,0000,0000,,Why did you shoot me, Josie?
+Dialogue: 0,0:44:01.51,0:44:03.82,Blue,,0000,0000,0000,,因为你的到来.
+Dialogue: 0,0:44:01.75,0:44:04.08,Default,,0000,0000,0000,,Because you came here.
+Dialogue: 0,0:44:04.00,0:44:06.35,Blue,,0000,0000,0000,,我就知道会有这么一天的.
+Dialogue: 0,0:44:04.26,0:44:06.59,Default,,0000,0000,0000,,I knew this day was going to come.
+Dialogue: 0,0:44:06.52,0:44:09.48,Blue,,0000,0000,0000,,我不要坐牢. 我不可以.
+Dialogue: 0,0:44:06.76,0:44:09.75,Default,,0000,0000,0000,,I'm not going to jaiI. I can't.
+Dialogue: 0,0:44:11.88,0:44:13.36,Blue,,0000,0000,0000,,把枪放下, 乔西.
+Dialogue: 0,0:44:12.13,0:44:13.62,Default,,0000,0000,0000,,Put it down, Josie.
+Dialogue: 0,0:44:15.32,0:44:18.41,Blue,,0000,0000,0000,,- 哈里.\N- 把枪放下!
+Dialogue: 0,0:44:15.57,0:44:18.69,Default,,0000,0000,0000,,- Harry.\N- Put it down!
+Dialogue: 0,0:44:18.63,0:44:21.59,Blue,,0000,0000,0000,,哈里, 原谅我吧.
+Dialogue: 0,0:44:18.90,0:44:21.84,Default,,0000,0000,0000,,Harry, forgive me.
+Dialogue: 0,0:44:21.77,0:44:24.25,Blue,,0000,0000,0000,,我从来没想过要伤害你的.
+Dialogue: 0,0:44:22.01,0:44:24.50,Default,,0000,0000,0000,,I never meant to hurt you.
+Dialogue: 0,0:44:37.58,0:44:40.84,Blue,,0000,0000,0000,,乔西. 乔西.
+Dialogue: 0,0:44:37.86,0:44:41.09,Default,,0000,0000,0000,,Josie. Josie.
+Dialogue: 0,0:44:41.54,0:44:42.76,Blue,,0000,0000,0000,,乔西.
+Dialogue: 0,0:44:41.79,0:44:43.02,Default,,0000,0000,0000,,Josie.
+Dialogue: 0,0:44:48.55,0:44:50.03,Blue,,0000,0000,0000,,她死了.
+Dialogue: 0,0:44:48.80,0:44:50.29,Default,,0000,0000,0000,,She's dead.
+Dialogue: 0,0:44:53.56,0:44:54.91,Blue,,0000,0000,0000,,乔西.
+Dialogue: 0,0:44:53.80,0:44:55.14,Default,,0000,0000,0000,,Josie.
+Dialogue: 0,0:45:09.11,0:45:14.29,Blue,,0000,0000,0000,,库, 死鬼乔西到底发生什么了?
+Dialogue: 0,0:45:09.39,0:45:14.55,Default,,0000,0000,0000,,Coop, what happened to dead Josie?
+Dialogue: 0,0:45:44.56,0:45:47.13,Blue,,0000,0000,0000,,哦, 乔西.
+Dialogue: 0,0:45:44.79,0:45:47.38,Default,,0000,0000,0000,,Oh, Josie.
+Dialogue: 0,0:45:56.62,0:45:59.06,Blue,,0000,0000,0000,,哦, 乔西.
+Dialogue: 0,0:45:56.90,0:45:59.34,Default,,0000,0000,0000,,Oh, Josie.

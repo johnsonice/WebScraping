@@ -1,0 +1,962 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: chs&eng,STKaiti,20,&H00F5F5F5,&H0000FFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,0,2,0,2,0,0,2,1
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.00,0:00:07.00,Default,,0,0,1,,
+Dialogue: 0,0:00:08.00,0:00:11.00,Default,,0,0,8,,
+Dialogue: 0,0:00:46.65,0:00:47.61,chs&eng,,0,0,0,,{\fad(500,0)\an4\fn微软雅黑\fs38\fsp10\fscx80\bord6\1c&H00E7F8EE\3c&HE77433&\pos(146,211.2)}警察学校
+Dialogue: 0,0:00:47.61,0:00:55.78,chs&eng,,0,0,0,,{\fad(0,350)\an4\fn微软雅黑\fs38\fsp10\fscx80\bord6\1c&H00E7F8EE\3c&HE77433&\pos(146,211.2)}警察学校{\bord4\1c&HE77433&}:
+Dialogue: 0,0:00:48.27,0:00:54.11,chs&eng,,0,0,0,,{\be2}{\fn微软雅黑\fs20\b1\bord0.5\shad5\move(-10,222,215,222)\c&H1544EE&\3c&H2947E9&\4c&H000000&}莫斯科
+Dialogue: 0,0:00:48.27,0:00:54.11,chs&eng,,0,0,0,,{\be2}{\fn微软雅黑\fs20\b1\bord0.5\shad6\move(394,222,170,222)\c&H1544EE&\3c&H2947E9&}进军
+Dialogue: 0,0:00:54.11,0:00:57.24,chs&eng,,0,0,0,,{\be2}{\fad(0,350)\fn微软雅黑\fs20\b1\bord0.5\shad5\pos(215,222)\c&H1544EE&\3c&H2947E9&\4c&H000000&}莫斯科
+Dialogue: 0,0:00:54.11,0:00:57.24,chs&eng,,0,0,0,,{\be2}{\fad(0,350)\fn微软雅黑\fs20\b1\bord0.5\shad5\pos(170,222)\c&H1544EE&\3c&H2947E9&\4c&H000000&}进军
+Dialogue: 0,0:01:01.96,0:01:06.88,chs&eng,,0,0,0,,{\blur3}准备 开拍 5 4 3 2…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And ready, here we go. Five, four, three, two{\r}
+Dialogue: 0,0:01:07.42,0:01:09.51,chs&eng,,0,0,0,,{\blur3}晚上好 台湾惨案\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Good evening. Tragedy in Taiwan.{\r}
+Dialogue: 0,0:01:09.68,0:01:12.72,chs&eng,,0,0,0,,{\blur3}丹麦天灾 马来人祸\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Disaster in Denmark. Mayhem in Malaysia.{\r}
+Dialogue: 0,0:01:12.89,0:01:15.01,chs&eng,,0,0,0,,{\blur3}稍后将向您进行详细报道\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Those stories and more coming up later.{\r}
+Dialogue: 0,0:01:15.26,0:01:18.23,chs&eng,,0,0,0,,{\blur3}今晚话题：声称为俄国黑手党领袖的康斯坦丁·康那利…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}the computer game phenomenon...{\r}
+Dialogue: 0,0:01:18.43,0:01:22.69,chs&eng,,0,0,0,,{\blur3}…发布的电子游戏如暴风雨般席卷整个世界\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...distributed by alleged Russian Mafia leader Konstantine Konali...{\r}
+Dialogue: 0,0:01:22.86,0:01:28.03,chs&eng,,0,0,0,,{\blur3}…天寒地冻的俄罗斯…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...has taken the world by storm. Out of the cold climates of Russia...{\r}
+Dialogue: 0,0:01:28.19,0:01:30.70,chs&eng,,0,0,0,,{\blur3}…制造了一股火热的游戏浪潮…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...comes the hottest computer game sensation...{\r}
+Dialogue: 0,0:01:30.91,0:01:32.91,chs&eng,,0,0,0,,{\blur3}…游戏的名字非常简单 叫做…"游戏"埃得?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...simply called ''The Game. '' Ed?{\r}
+Dialogue: 0,0:01:33.99,0:01:37.91,chs&eng,,0,0,0,,{\blur3}- 埃得 你在干嘛? - 你也应该玩玩这个游戏 它棒极了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Ed, what are you doing? - You gotta try this game. lt's great.{\r}
+Dialogue: 0,0:01:38.83,0:01:41.12,chs&eng,,0,0,0,,{\blur3}现在不成 埃得在过去的六个月里…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Not now, Ed. ln the past six months...{\r}
+Dialogue: 0,0:01:41.29,0:01:45.29,chs&eng,,0,0,0,,{\blur3}"游戏"使得国家税收增加了15亿美元\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}... ''The Game'' has generated over $ 1 .5 billion in revenue...{\r}
+Dialogue: 0,0:01:45.46,0:01:49.92,chs&eng,,0,0,0,,{\blur3}- …打破了以往的任何纪录 - 抓住他! 你这个可怜的小熊!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- ...breaking all previous records. - Get him, you miserable bear!{\r}
+Dialogue: 0,0:01:50.09,0:01:54.01,chs&eng,,0,0,0,,{\blur3}是什么使得这项游戏如此与众不同? 这是首次电子游戏…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What makes this game stand out? This is the first time that a video game...{\r}
+Dialogue: 0,0:01:54.18,0:01:56.05,chs&eng,,0,0,0,,{\blur3}…同时占据了少年… - 埃得!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...has appealed to a youthful... - Ed!{\r}
+Dialogue: 0,0:01:56.22,0:01:58.22,chs&eng,,0,0,0,,{\blur3}…与成年人的市场\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...as well as a more sophisticated market.{\r}
+Dialogue: 0,0:01:58.39,0:02:01.31,chs&eng,,0,0,0,,{\blur3}- 噢 嘘 - "游戏"不仅有游戏卡…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Oh, sh    - ''The Game,'' available in cartridges...{\r}
+Dialogue: 0,0:02:01.48,0:02:04.73,chs&eng,,0,0,0,,{\blur3}也有电脑磁盘每个人都在玩它\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...as well as floppy disks for computer, has everybody playing.{\r}
+Dialogue: 0,0:02:04.90,0:02:06.48,chs&eng,,0,0,0,,{\blur3}把它抢过来 林德茜 抢过来!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Take it, Lindsay, take it.{\r}
+Dialogue: 0,0:02:06.65,0:02:10.95,chs&eng,,0,0,0,,{\blur3}"游戏"的发明者及发行者都是康斯坦丁·康那利…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The creator and mass - marketer of ''The Game'' is Konstantine Konali...{\r}
+Dialogue: 0,0:02:11.11,0:02:14.62,chs&eng,,0,0,0,,{\blur3}- …俄国黑手党的领袖 - 不 不 不!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- ...allegedly head of the Russian Mafia. - No, no, no!{\r}
+Dialogue: 0,0:02:14.78,0:02:17.99,chs&eng,,0,0,0,,{\blur3}康那利和…他在莫斯科干什么?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Konali and   What is he up to in Moscow?{\r}
+Dialogue: 0,0:02:18.16,0:02:19.45,chs&eng,,0,0,0,,{\blur3}别再玩了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get your hands off it.{\r}
+Dialogue: 0,0:02:19.62,0:02:22.29,chs&eng,,0,0,0,,{\blur3}- 把你的手拿开! - 把它给我!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Get your hands off the game! - l want that game!{\r}
+Dialogue: 0,0:02:22.79,0:02:26.63,chs&eng,,0,0,0,,{\blur3}我才不会把我的东西给你! 把它给我!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm not giving you my game! Give it to me!{\r}
+Dialogue: 0,0:02:26.79,0:02:29.46,chs&eng,,0,0,0,,{\blur3}- 你在这家电视台玩完了 - 你才玩蛋了呢!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're through at this station. You're through.{\r}
+Dialogue: 0,0:03:00.62,0:03:03.04,chs&eng,,0,0,0,,{\blur3}米沙 好好照顾我的小日本妞儿\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Misha, take care of Skippy.{\r}
+Dialogue: 0,0:03:09.67,0:03:11.21,chs&eng,,0,0,0,,{\blur3}哎…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ay.{\r}
+Dialogue: 0,0:03:11.42,0:03:13.55,chs&eng,,0,0,0,,{\blur3}狮子流星啊狮子流星…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Leonid, Leonid, Leonid.{\r}
+Dialogue: 0,0:03:14.05,0:03:18.56,chs&eng,,0,0,0,,{\blur3}已经受够了黑暗下的生活\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Enough living in the shadows.{\r}
+Dialogue: 0,0:03:26.11,0:03:27.82,chs&eng,,0,0,0,,{\blur3}总有一天…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Someday...{\r}
+Dialogue: 0,0:03:29.19,0:03:33.11,chs&eng,,0,0,0,,{\blur3}…这一切将…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...this will all...{\r}
+Dialogue: 0,0:03:33.74,0:03:35.99,chs&eng,,0,0,0,,{\blur3}…都是我的!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...be mine!{\r}
+Dialogue: 0,0:03:37.53,0:03:41.20,chs&eng,,0,0,0,,{\blur3}- 犯罪问题已经无法控制 - 是的 鲍里斯·尼古拉耶维奇\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}MAN 1 : This crime problem is out of hand. MAN 2: Yes, Boris Nikolayevich.{\r}
+Dialogue: 0,0:03:41.37,0:03:43.41,chs&eng,,0,0,0,,{\blur3}我们需要帮助\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We need help.{\r}
+Dialogue: 0,0:03:43.58,0:03:46.88,chs&eng,,0,0,0,,{\blur3}我推荐一个我在国际会议上认识的一个人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I can recommend a man I met during the international conference.{\r}
+Dialogue: 0,0:03:47.08,0:03:49.84,chs&eng,,0,0,0,,{\blur3}我听说他在康那利还在美国的时候…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I understand he has already had dealings with Konali...{\r}
+Dialogue: 0,0:03:50.05,0:03:51.38,chs&eng,,0,0,0,,{\blur3}…就和他有过接触\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}... when Konali was in America.{\r}
+Dialogue: 0,0:03:51.55,0:03:53.97,chs&eng,,0,0,0,,{\blur3}我会把这调查清楚\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l will make this very clear.{\r}
+Dialogue: 0,0:03:54.18,0:03:57.72,chs&eng,,0,0,0,,{\blur3}他能帮我们抓到康那利吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Can he help us get Konali?{\r}
+Dialogue: 0,0:03:57.89,0:04:02.98,chs&eng,,0,0,0,,{\blur3}是的 鲍里斯·尼古拉耶维奇他正是这项工作的恰当人选\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, Boris Nikolayevich. He is just the man for the job.{\r}
+Dialogue: 0,0:04:03.14,0:04:05.77,chs&eng,,0,0,0,,{\blur3}随时向我报告\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Keep me informed.{\r}
+Dialogue: 0,0:04:27.88,0:04:29.34,chs&eng,,0,0,0,,{\blur3}啊\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ah.{\r}
+Dialogue: 0,0:04:44.56,0:04:46.02,chs&eng,,0,0,0,,{\blur3}噢\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh.{\r}
+Dialogue: 0,0:04:47.60,0:04:49.69,chs&eng,,0,0,0,,{\blur3}过去啰 孩子\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There you are, son.{\r}
+Dialogue: 0,0:04:54.82,0:04:56.45,chs&eng,,0,0,0,,{\blur3}新学员们做的怎么样?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}How are the new recruits doing?{\r}
+Dialogue: 0,0:04:56.61,0:04:59.57,chs&eng,,0,0,0,,{\blur3}这是有史以来最棒的一个班 但除了一个人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt might be the best class ever, except for one man.{\r}
+Dialogue: 0,0:04:59.83,0:05:04.00,chs&eng,,0,0,0,,{\blur3}- 他有恐高症 - 看看你能为他做什么\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- He's afraid of heights. - See what you can do for him.{\r}
+Dialogue: 0,0:05:04.16,0:05:09.63,chs&eng,,0,0,0,,{\blur3}有时最糟糕的学员会成长为最棒的军官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l find that sometimes the least likely cadets make the finest police officers.{\r}
+Dialogue: 0,0:05:09.79,0:05:11.92,chs&eng,,0,0,0,,{\blur3}拉萨校长 请把球扔给我们!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Commandant Lassard, throw us the ball.{\r}
+Dialogue: 0,0:05:15.59,0:05:16.88,chs&eng,,0,0,0,,{\blur3}打到记分牌上…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Off the scoreboard...{\r}
+Dialogue: 0,0:05:17.43,0:05:19.97,chs&eng,,0,0,0,,{\blur3}…再经地板 撞到墙上…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...off the floor, off the wall...{\r}
+Dialogue: 0,0:05:20.14,0:05:21.47,chs&eng,,0,0,0,,{\blur3}…打到红发小妞的头上…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...off the redhead.{\r}
+Dialogue: 0,0:05:22.10,0:05:23.43,chs&eng,,0,0,0,,{\blur3}完美无瑕\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nothing but net.{\r}
+Dialogue: 0,0:05:35.69,0:05:39.82,chs&eng,,0,0,0,,{\blur3}- 不错 - 我爱这项运动\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Not bad. - l love this game.{\r}
+Dialogue: 0,0:05:44.70,0:05:46.37,chs&eng,,0,0,0,,{\blur3}康那斯? 康那斯在哪?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Connors. Where's Connors?{\r}
+Dialogue: 0,0:05:46.58,0:05:48.96,chs&eng,,0,0,0,,{\blur3}谢谢 康那斯 你把它修好了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Thanks, Connors. You fixed it.{\r}
+Dialogue: 0,0:05:51.21,0:05:53.00,chs&eng,,0,0,0,,{\blur3}这是警察机密文件\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That's a classified police file.{\r}
+Dialogue: 0,0:05:53.21,0:05:56.97,chs&eng,,0,0,0,,{\blur3}"学校组织了一个小队去莫斯科执行特殊任务"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}''The academy has assembled a special team for a mission to Moscow. ''{\r}
+Dialogue: 0,0:05:57.13,0:05:59.34,chs&eng,,0,0,0,,{\blur3}我会为这个任务疯狂的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'd kill for that job.{\r}
+Dialogue: 0,0:06:00.89,0:06:02.72,chs&eng,,0,0,0,,{\blur3}名单上有韦伯斯特 为什么是他?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Webster's on the list. Why him?{\r}
+Dialogue: 0,0:06:02.89,0:06:05.10,chs&eng,,0,0,0,,{\blur3}可能因为我们班上他最先毕业\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Because he graduated first in our class.{\r}
+Dialogue: 0,0:06:07.81,0:06:10.27,chs&eng,,0,0,0,,{\blur3}嗯 好…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, well...{\r}
+Dialogue: 0,0:06:11.02,0:06:12.48,chs&eng,,0,0,0,,{\blur3}…他能这样吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...can he do this?{\r}
+Dialogue: 0,0:06:15.11,0:06:16.49,chs&eng,,0,0,0,,{\blur3}能\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yep.{\r}
+Dialogue: 0,0:06:17.36,0:06:18.86,chs&eng,,0,0,0,,{\blur3}这个呢?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Can he do this?{\r}
+Dialogue: 0,0:06:21.37,0:06:24.45,chs&eng,,0,0,0,,{\blur3}- 能 - 我也就会这些了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yep. - That's all l got.{\r}
+Dialogue: 0,0:06:30.25,0:06:31.63,chs&eng,,0,0,0,,{\blur3}你这是干什么?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing?{\r}
+Dialogue: 0,0:06:31.84,0:06:35.88,chs&eng,,0,0,0,,{\blur3}- 噢 我从没有去过俄罗斯 - 行了 现在把它改回去\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Well, l've never been to Russia. - Okay, now put it back.{\r}
+Dialogue: 0,0:06:36.05,0:06:38.17,chs&eng,,0,0,0,,{\blur3}康那斯 中士要见你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Connors. Sergeant wants you.{\r}
+Dialogue: 0,0:06:39.09,0:06:41.84,chs&eng,,0,0,0,,{\blur3}- 是的 - 现在\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yeah. MAN: Now.{\r}
+Dialogue: 0,0:06:52.02,0:06:55.82,chs&eng,,0,0,0,,{\blur3}见到你们我真是太太太高兴了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm so very, very glad to see you.{\r}
+Dialogue: 0,0:06:56.15,0:06:59.32,chs&eng,,0,0,0,,{\blur3}莫斯科警方请求我们携助他们…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The Moscow police have asked us to assist them...{\r}
+Dialogue: 0,0:06:59.49,0:07:03.45,chs&eng,,0,0,0,,{\blur3}- …抓捕康斯坦丁·康那利 - 俄国佬?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- ...in apprehending Konstantine Konali. MAN: Russkies?{\r}
+Dialogue: 0,0:07:03.66,0:07:06.37,chs&eng,,0,0,0,,{\blur3}俄国的教父在组织犯罪活动\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The godfather of Russian organized crime.{\r}
+Dialogue: 0,0:07:07.00,0:07:08.58,chs&eng,,0,0,0,,{\blur3}啊…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Men... .{\r}
+Dialogue: 0,0:07:10.08,0:07:11.96,chs&eng,,0,0,0,,{\blur3}6年前…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Six years ago...{\r}
+Dialogue: 0,0:07:12.13,0:07:15.75,chs&eng,,0,0,0,,{\blur3}…康那利帮助俄国黑手党在我们这…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...Konali helped to establish a branch of the Russian Mafia here...{\r}
+Dialogue: 0,0:07:15.92,0:07:18.26,chs&eng,,0,0,0,,{\blur3}…在我们国家里成立了分支\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...in our country.{\r}
+Dialogue: 0,0:07:18.42,0:07:20.26,chs&eng,,0,0,0,,{\blur3}那时候就差点抓到他\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nearly got him then.{\r}
+Dialogue: 0,0:07:20.43,0:07:25.10,chs&eng,,0,0,0,,{\blur3}不幸的是 他从我们的指缝间遛走 逃回了莫斯科…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Unfortunately, he slipped through our fingers and escaped back to Moscow...{\r}
+Dialogue: 0,0:07:25.26,0:07:27.93,chs&eng,,0,0,0,,{\blur3}…并继续从事他的犯罪活动…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}... where he continues his criminal activities...{\r}
+Dialogue: 0,0:07:28.10,0:07:32.98,chs&eng,,0,0,0,,{\blur3}…同时得到了他兄弟米克黑尔和他的宠物蛇小日本妞的帮助\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...aided by his brother Mikhail and pet snake Skippy.{\r}
+Dialogue: 0,0:07:35.02,0:07:36.28,chs&eng,,0,0,0,,{\blur3}本垒打!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Home run!{\r}
+Dialogue: 0,0:07:36.44,0:07:41.57,chs&eng,,0,0,0,,{\blur3}现在我们又有机会抓住他了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now we get another chance to apprehend him.{\r}
+Dialogue: 0,0:07:50.37,0:07:51.71,chs&eng,,0,0,0,,{\blur3}噢 真是个笨蛋!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Man, what a wimp.{\r}
+Dialogue: 0,0:07:54.79,0:07:58.13,chs&eng,,0,0,0,,{\blur3}康那斯 下来! 你永远也过不了考试\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Connors, get down here. You're never gonna pass the test.{\r}
+Dialogue: 0,0:07:58.30,0:08:00.84,chs&eng,,0,0,0,,{\blur3}我一定要过! 我爸爸曾经就是警察!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l've gotta pass. My father was a cop.{\r}
+Dialogue: 0,0:08:01.01,0:08:04.76,chs&eng,,0,0,0,,{\blur3}他的爸爸也是个警察嗯 他的爸爸是个盗马贼\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}His father was a cop. His father was a horse thief.{\r}
+Dialogue: 0,0:08:04.93,0:08:08.39,chs&eng,,0,0,0,,{\blur3}- 你已经晕菜了 快下来! - 晕菜? 哈!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You got vertigo. Let's go. - Vertigo. Ha!{\r}
+Dialogue: 0,0:08:08.64,0:08:10.02,chs&eng,,0,0,0,,{\blur3}我才没有\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l don't have vertigo.{\r}
+Dialogue: 0,0:08:10.18,0:08:12.02,chs&eng,,0,0,0,,{\blur3}唷 康那斯 想来个甜甜圈吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yo, Connors, you want a doughnut?{\r}
+Dialogue: 0,0:08:15.31,0:08:17.69,chs&eng,,0,0,0,,{\blur3}- 不错 - 康那斯 我们应该面对现实\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Not bad. Connors, let's face it.{\r}
+Dialogue: 0,0:08:17.90,0:08:20.74,chs&eng,,0,0,0,,{\blur3}要做警察你还不够格\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You don't have what it takes to be a cop.{\r}
+Dialogue: 0,0:08:20.95,0:08:23.16,chs&eng,,0,0,0,,{\blur3}拿着这个去拉萨校长的办公室\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Take this to Commandant Lassard's office.{\r}
+Dialogue: 0,0:08:23.32,0:08:27.37,chs&eng,,0,0,0,,{\blur3}- 他会在你的开除学籍证明上签字 - 娇生惯养的公子哥儿\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- He'll sign off on your dismissal papers. CADET 4: Bummer, dude.{\r}
+Dialogue: 0,0:08:27.54,0:08:28.79,chs&eng,,0,0,0,,{\blur3}现在 我想让你见一下…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, l want you to meet...{\r}
+Dialogue: 0,0:08:30.46,0:08:32.25,chs&eng,,0,0,0,,{\blur3}…我们队里的新成员\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...a new addition to our team.{\r}
+Dialogue: 0,0:08:33.88,0:08:35.79,chs&eng,,0,0,0,,{\blur3}- 你一定就是学员康那斯 - 嗨\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You must be Cadet Connors. - Hi.{\r}
+Dialogue: 0,0:08:35.96,0:08:39.51,chs&eng,,0,0,0,,{\blur3}你的资料给我留下了非常非常深刻的印象\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm very, very impressed by your file.{\r}
+Dialogue: 0,0:08:39.67,0:08:41.51,chs&eng,,0,0,0,,{\blur3}- 凯尔·康那斯学员 - 嗯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Cadet Kyle Connors. - Mm.{\r}
+Dialogue: 0,0:08:41.67,0:08:44.30,chs&eng,,0,0,0,,{\blur3}班级里平均分数最高的学员\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Top grade average in the class.{\r}
+Dialogue: 0,0:08:44.47,0:08:46.47,chs&eng,,0,0,0,,{\blur3}长官 我得跟您说件事情\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sir, I have to tell you something.{\r}
+Dialogue: 0,0:08:46.81,0:08:49.02,chs&eng,,0,0,0,,{\blur3}祝贺你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Congratulations.{\r}
+Dialogue: 0,0:08:49.18,0:08:52.27,chs&eng,,0,0,0,,{\blur3}谢谢 但我真的不是文件里说的那个人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Thanks, but l'm not really the man in that file.{\r}
+Dialogue: 0,0:08:52.48,0:08:54.48,chs&eng,,0,0,0,,{\blur3}噢 我懂你的意思\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, l know what you mean.{\r}
+Dialogue: 0,0:08:54.65,0:08:58.82,chs&eng,,0,0,0,,{\blur3}这些报告从来无法反映真实的我们\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}These reports never do give an accurate picture of who we really are.{\r}
+Dialogue: 0,0:08:58.98,0:09:01.28,chs&eng,,0,0,0,,{\blur3}- 啊? - 是的 但是\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Hm? - Yes, but{\r}
+Dialogue: 0,0:09:01.44,0:09:02.78,chs&eng,,0,0,0,,{\blur3}啊噢!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ow!{\r}
+Dialogue: 0,0:09:02.99,0:09:05.03,chs&eng,,0,0,0,,{\blur3}噢!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ooh!{\r}
+Dialogue: 0,0:09:05.24,0:09:06.49,chs&eng,,0,0,0,,{\blur3}这到底是什么玩意儿?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What the hell is this?{\r}
+Dialogue: 0,0:09:10.91,0:09:12.37,chs&eng,,0,0,0,,{\blur3}啊哈\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Uh - huh.{\r}
+Dialogue: 0,0:09:12.58,0:09:15.04,chs&eng,,0,0,0,,{\blur3}快 快 快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, come on. Come on.{\r}
+Dialogue: 0,0:09:19.55,0:09:22.80,chs&eng,,0,0,0,,{\blur3}- 我们一起 - 好的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Let's all pull together. WOMAN: Okay.{\r}
+Dialogue: 0,0:09:25.05,0:09:29.89,chs&eng,,0,0,0,,{\blur3}好了 我数到三 大伙一起拉! 一 二 三!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, all together, on three! One, two, three!{\r}
+Dialogue: 0,0:09:34.06,0:09:35.85,chs&eng,,0,0,0,,{\blur3}- 噢 上帝! - 长官!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, God. - Sir!{\r}
+Dialogue: 0,0:09:36.06,0:09:40.11,chs&eng,,0,0,0,,{\blur3}啊! 哈里斯上尉! 我们的密探 也来加入我们了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ah! Captain Harris, our expert in surveillance, will be accompanying us.{\r}
+Dialogue: 0,0:09:40.32,0:09:42.86,chs&eng,,0,0,0,,{\blur3}队员们 我们一起进军莫斯科…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Team, we're all off to Russia...{\r}
+Dialogue: 0,0:09:43.03,0:09:46.11,chs&eng,,0,0,0,,{\blur3}…去踢许多许多的俄国佬的屁股!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...to kick many, many butt - skis.{\r}
+Dialogue: 0,0:10:08.93,0:10:12.39,chs&eng,,0,0,0,,{\blur3}啊 亚力山大·尼古拉维奇\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ah, Alexander Nikolaivitch.{\r}
+Dialogue: 0,0:10:21.07,0:10:22.61,chs&eng,,0,0,0,,{\blur3}伙计们…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Men...{\r}
+Dialogue: 0,0:10:23.11,0:10:28.91,chs&eng,,0,0,0,,{\blur3}…这就是伟大的亚力山大·尼古拉维奇·拉科夫指挥官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...this is the honorable Commandant Alexander Nikolaivitch Rakov.{\r}
+Dialogue: 0,0:10:29.49,0:10:31.91,chs&eng,,0,0,0,,{\blur3}- （俄语）你好 - 我能不能这样说：伟大的拉萨指挥官的来访…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Sasha. - May l say it is an honor...{\r}
+Dialogue: 0,0:10:32.08,0:10:35.46,chs&eng,,0,0,0,,{\blur3}…真是我们国家的荣耀\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...to have the great Commandant Lassard visiting our country?{\r}
+Dialogue: 0,0:10:35.62,0:10:37.79,chs&eng,,0,0,0,,{\blur3}- 是的 你能 - 我能再亲您一次吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yes, you may. - May l kiss you again?{\r}
+Dialogue: 0,0:10:37.96,0:10:40.34,chs&eng,,0,0,0,,{\blur3}- 不 不能 - 我能护送您进去吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- No, you may not. - May l escort you inside?{\r}
+Dialogue: 0,0:10:40.50,0:10:41.84,chs&eng,,0,0,0,,{\blur3}是的 你能\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, you may.{\r}
+Dialogue: 0,0:10:43.13,0:10:45.88,chs&eng,,0,0,0,,{\blur3}您能来俄罗斯真是太棒了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt is really wonderful to have you here in Russia.{\r}
+Dialogue: 0,0:10:46.05,0:10:48.09,chs&eng,,0,0,0,,{\blur3}请代我向您夫人问好…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Please say hello to your lovely wife...{\r}
+Dialogue: 0,0:10:48.26,0:10:50.47,chs&eng,,0,0,0,,{\blur3}…并转达我对她未能前来的遗憾\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...and tell her l'm sorry she's not here with you.{\r}
+Dialogue: 0,0:10:52.14,0:10:54.02,chs&eng,,0,0,0,,{\blur3}噢 对了 尤里·塔林斯基中尉\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yes. Lieutenant Yuri Talinsky.{\r}
+Dialogue: 0,0:10:54.18,0:10:56.90,chs&eng,,0,0,0,,{\blur3}我们的有组织犯罪侦察科的领导\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Head of our organized crime unit.{\r}
+Dialogue: 0,0:10:57.73,0:11:02.28,chs&eng,,0,0,0,,{\blur3}不要低估俄国黑手党的力量…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Please, don't underestimate the power of the Russian Mafia...{\r}
+Dialogue: 0,0:11:02.44,0:11:05.57,chs&eng,,0,0,0,,{\blur3}…他们是世界上最邪恶的组织\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...the most sadistic organization in the world.{\r}
+Dialogue: 0,0:11:06.11,0:11:07.49,chs&eng,,0,0,0,,{\blur3}卡特娅\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Katya.{\r}
+Dialogue: 0,0:11:12.33,0:11:14.54,chs&eng,,0,0,0,,{\blur3}这是卡特娅·赛尔盖中士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is Sergeant Katya Sergei.{\r}
+Dialogue: 0,0:11:14.71,0:11:17.67,chs&eng,,0,0,0,,{\blur3}她被选中作您们的导游与翻译\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}She has been handpicked to be your guide and translator.{\r}
+Dialogue: 0,0:11:17.83,0:11:20.84,chs&eng,,0,0,0,,{\blur3}塔林斯基中尉 我授权你负责…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Lieutenant Talinsky, l hold you personally responsible...{\r}
+Dialogue: 0,0:11:21.00,0:11:25.01,chs&eng,,0,0,0,,{\blur3}…拉萨指挥官及其一行人的舒适与安全问题\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...for the comfort and safety of the Americans and Commandant Lassard.{\r}
+Dialogue: 0,0:11:25.30,0:11:29.05,chs&eng,,0,0,0,,{\blur3}- 是 长官 - 现在 美俄联手…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yes, sir. - Now, Americans and Russians...{\r}
+Dialogue: 0,0:11:29.34,0:11:32.14,chs&eng,,0,0,0,,{\blur3}…我们一起抓住这个毒虫康那利…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...we must grab Konali like the insect that he is...{\r}
+Dialogue: 0,0:11:32.35,0:11:34.68,chs&eng,,0,0,0,,{\blur3}…然后踩死他!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...and we must then crush him!{\r}
+Dialogue: 0,0:11:35.52,0:11:37.98,chs&eng,,0,0,0,,{\blur3}- 上帝 - 让开 让开 琼斯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- God. HARRlS: Make way. Jones. Jones.{\r}
+Dialogue: 0,0:11:38.15,0:11:39.73,chs&eng,,0,0,0,,{\blur3}- 琼斯 让道 让道! - 噢!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Jones. Make way. Make way. - Oh!{\r}
+Dialogue: 0,0:11:39.90,0:11:42.69,chs&eng,,0,0,0,,{\blur3}我是赛德伊斯·哈里斯上尉 在这个箱子里…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l am Captain Thaddeus Harris and in this case...{\r}
+Dialogue: 0,0:11:42.86,0:11:45.90,chs&eng,,0,0,0,,{\blur3}…有我们美国技术一流的监视装备\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...l have state - of - the - art American surveillance equipment.{\r}
+Dialogue: 0,0:11:46.07,0:11:49.41,chs&eng,,0,0,0,,{\blur3}我会为您在几天之内将康那利的事情解决掉\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'll have this Konali business wrapped up for you in a few days.{\r}
+Dialogue: 0,0:11:50.12,0:11:53.79,chs&eng,,0,0,0,,{\blur3}对不起 里基我必须去趟洗手间\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me, Ricky. l must go to the toilet.{\r}
+Dialogue: 0,0:11:53.95,0:11:55.29,chs&eng,,0,0,0,,{\blur3}当然 您请\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, of course.{\r}
+Dialogue: 0,0:11:55.62,0:11:58.62,chs&eng,,0,0,0,,{\blur3}- 对不起 哪辆车是我的? - 前面那辆\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Pardon me. Which is my car? - The one in front.{\r}
+Dialogue: 0,0:11:58.87,0:12:01.67,chs&eng,,0,0,0,,{\blur3}前面的…噢 是了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The one in front. Oh, yeah.{\r}
+Dialogue: 0,0:12:01.88,0:12:03.96,chs&eng,,0,0,0,,{\blur3}（俄语）
+Dialogue: 0,0:12:05.67,0:12:08.38,chs&eng,,0,0,0,,{\blur3}- 他说什么? - 嗯 他说您的态度非常虔诚…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What did he say? - Well, he said that you had...{\r}
+Dialogue: 0,0:12:08.55,0:12:13.06,chs&eng,,0,0,0,,{\blur3}…跟您一起共事真是愉快 长官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...a marvelous attitude and you're a pleasure to work with, sir.{\r}
+Dialogue: 0,0:12:14.72,0:12:17.60,chs&eng,,0,0,0,,{\blur3}我会一直盯着你的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm going to keep my eye on you.{\r}
+Dialogue: 0,0:12:21.19,0:12:25.86,chs&eng,,0,0,0,,{\blur3}红色区域为共产党员专用车位\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The red zone is for Communist parking only.{\r}
+Dialogue: 0,0:12:28.57,0:12:30.61,chs&eng,,0,0,0,,{\blur3}前面的那辆…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The one in front.{\r}
+Dialogue: 0,0:12:30.78,0:12:35.24,chs&eng,,0,0,0,,{\blur3}红色区域为共产党员专用车位\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The red zone is for Communist parking only.{\r}
+Dialogue: 0,0:12:35.50,0:12:37.71,chs&eng,,0,0,0,,{\blur3}噢 您好\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, hello.{\r}
+Dialogue: 0,0:12:38.08,0:12:41.25,chs&eng,,0,0,0,,{\blur3}塔林斯基没告诉我他的家人也来了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Lieutenant Talinsky didn't tell me his family would be here.{\r}
+Dialogue: 0,0:12:41.42,0:12:43.96,chs&eng,,0,0,0,,{\blur3}你们能来接我真是太好了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Very nice of you to come and greet me.{\r}
+Dialogue: 0,0:12:44.30,0:12:48.42,chs&eng,,0,0,0,,{\blur3}卡特琳娜 我想让你把我当成友好的美国使馆大使\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Katrina, l want you to think of me as America's goodwill ambassador.{\r}
+Dialogue: 0,0:12:48.63,0:12:51.34,chs&eng,,0,0,0,,{\blur3}你把我当成翻译和导游就成了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And you think of me as translator and guide.{\r}
+Dialogue: 0,0:12:58.02,0:13:01.35,chs&eng,,0,0,0,,{\blur3}停下! 停下!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Stop! Stop!{\r}
+Dialogue: 0,0:13:01.52,0:13:05.27,chs&eng,,0,0,0,,{\blur3}唉! 唉呀呀呀呀!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ay! Ay - yai - yai - yai - yai.{\r}
+Dialogue: 0,0:13:05.61,0:13:07.19,chs&eng,,0,0,0,,{\blur3}我惨了…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm in deep borscht.{\r}
+Dialogue: 0,0:13:07.40,0:13:09.49,chs&eng,,0,0,0,,{\blur3}（俄语）
+Dialogue: 0,0:13:27.05,0:13:32.47,chs&eng,,0,0,0,,{\blur3}卡拉汉上尉 511房琼斯中士 513\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Captain Callahan, 51 1 . Sergeant Jones, 51 3.{\r}
+Dialogue: 0,0:13:32.64,0:13:38.64,chs&eng,,0,0,0,,{\blur3}塔克贝利中士 514康那斯学员 520\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sergeant Tackleberry, 51 4. Cadet Connors, 520.{\r}
+Dialogue: 0,0:13:38.81,0:13:42.69,chs&eng,,0,0,0,,{\blur3}哈里斯上尉 515\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Captain Harris, 51 5.{\r}
+Dialogue: 0,0:13:42.86,0:13:45.32,chs&eng,,0,0,0,,{\blur3}这不是真正的四星级酒店吧 啊?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Not exactly a four - star hotel, is it?{\r}
+Dialogue: 0,0:13:45.48,0:13:48.74,chs&eng,,0,0,0,,{\blur3}我们的经费都用在与犯罪分子作斗争上…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Well, we spend our police budget on fighting criminals...{\r}
+Dialogue: 0,0:13:48.90,0:13:51.07,chs&eng,,0,0,0,,{\blur3}…而不是用在外地旅游者身上\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...not on pampering out - of - town visitors.{\r}
+Dialogue: 0,0:13:51.24,0:13:53.28,chs&eng,,0,0,0,,{\blur3}是你们的政府带我们来的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Your government brought us here.{\r}
+Dialogue: 0,0:13:53.45,0:13:55.45,chs&eng,,0,0,0,,{\blur3}他们也为动物园带来猴子…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}They also bring in monkeys for zoo...{\r}
+Dialogue: 0,0:13:55.62,0:13:59.12,chs&eng,,0,0,0,,{\blur3}…我们也不会把它们送进四星级酒店\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...but we don't put them in four - star hotel either.{\r}
+Dialogue: 0,0:14:00.46,0:14:04.38,chs&eng,,0,0,0,,{\blur3}嗯 我现在去看看拉萨指挥官\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Well, l just go check on Commandant Lassard.{\r}
+Dialogue: 0,0:14:10.55,0:14:13.68,chs&eng,,0,0,0,,{\blur3}拉萨 拉萨 你!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Lassard. Lassard. You!{\r}
+Dialogue: 0,0:14:17.01,0:14:18.35,chs&eng,,0,0,0,,{\blur3}你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You.{\r}
+Dialogue: 0,0:14:18.81,0:14:21.31,chs&eng,,0,0,0,,{\blur3}- 嗯哼 - 你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Hm - mm. - You.{\r}
+Dialogue: 0,0:14:28.23,0:14:31.11,chs&eng,,0,0,0,,{\blur3}我给你找了个活干\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l have job for you.{\r}
+Dialogue: 0,0:14:31.57,0:14:34.99,chs&eng,,0,0,0,,{\blur3}再说一遍：当你听见敲门时 你就说：\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Again. When you hear door, you say:{\r}
+Dialogue: 0,0:14:35.16,0:14:37.29,chs&eng,,0,0,0,,{\blur3}"我在洗澡 我一会儿去找你"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}''l'm in the bathroom. l'll meet you there. ''{\r}
+Dialogue: 0,0:14:37.49,0:14:41.04,chs&eng,,0,0,0,,{\blur3}"我在洗澡 在那等我"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}''l'm in the bathroom. Meet me there. ''{\r}
+Dialogue: 0,0:14:42.92,0:14:44.25,chs&eng,,0,0,0,,{\blur3}再来一遍\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Again.{\r}
+Dialogue: 0,0:14:44.42,0:14:48.67,chs&eng,,0,0,0,,{\blur3}"我在洗澡 我一会儿去找你"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}''l'm in the bathroom. l'll meet you there. ''{\r}
+Dialogue: 0,0:14:48.88,0:14:52.97,chs&eng,,0,0,0,,{\blur3}"我在洗澡 一会儿去找你"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}''l'm in the bathroom. Meet you there. ''{\r}
+Dialogue: 0,0:14:57.39,0:14:59.14,chs&eng,,0,0,0,,{\blur3}请进\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come in.{\r}
+Dialogue: 0,0:15:00.93,0:15:02.52,chs&eng,,0,0,0,,{\blur3}再来一遍!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Again!{\r}
+Dialogue: 0,0:15:04.10,0:15:08.73,chs&eng,,0,0,0,,{\blur3}"我在洗澡 在那等我"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}''ln the bathroom. Meet me there. ''{\r}
+Dialogue: 0,0:15:14.70,0:15:16.78,chs&eng,,0,0,0,,{\blur3}对不起 指挥官在吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me. ls the commandant in?{\r}
+Dialogue: 0,0:15:16.95,0:15:22.29,chs&eng,,0,0,0,,{\blur3}噢 我刚见过他 他非常累 想休息一会儿\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Well, l just saw him. He's very tired and enjoying moment of rest.{\r}
+Dialogue: 0,0:15:22.50,0:15:23.79,chs&eng,,0,0,0,,{\blur3}啊 谢谢\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ah. Thank you.{\r}
+Dialogue: 0,0:15:23.96,0:15:25.21,chs&eng,,0,0,0,,{\blur3}（俄语）
+Dialogue: 0,0:15:33.63,0:15:37.51,chs&eng,,0,0,0,,{\blur3}我得过关 哦…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l have to get to next level. Eh... .{\r}
+Dialogue: 0,0:15:41.81,0:15:46.65,chs&eng,,0,0,0,,{\blur3}- 在找什么吗 上尉? - 虫子 你不能不细心\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Looking for something, captain? - Bugs. You can never be too careful.{\r}
+Dialogue: 0,0:15:46.90,0:15:50.44,chs&eng,,0,0,0,,{\blur3}- 因为我小心谨慎 - 你是多疑症\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Call me paranoid. - You're paranoid.{\r}
+Dialogue: 0,0:15:50.99,0:15:54.20,chs&eng,,0,0,0,,{\blur3}我只剩一条命了 我老过不去\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm down to one life. l can't make it.{\r}
+Dialogue: 0,0:15:54.53,0:15:56.49,chs&eng,,0,0,0,,{\blur3}我能教您点小技巧吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Can l show you a little trick?{\r}
+Dialogue: 0,0:15:59.12,0:16:02.45,chs&eng,,0,0,0,,{\blur3}看着 你就想让小熊往后走三步 是吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Watch. You just want the bear to go back three spaces. Right?{\r}
+Dialogue: 0,0:16:06.25,0:16:07.63,chs&eng,,0,0,0,,{\blur3}瞧见了?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}See?{\r}
+Dialogue: 0,0:16:09.59,0:16:12.05,chs&eng,,0,0,0,,{\blur3}啊 它过关了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt makes it to next level.{\r}
+Dialogue: 0,0:16:12.30,0:16:14.43,chs&eng,,0,0,0,,{\blur3}- 我过关了 谢谢 - 游戏\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- l made it. Thank you. - Game.{\r}
+Dialogue: 0,0:16:18.60,0:16:20.43,chs&eng,,0,0,0,,{\blur3}早上好\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Good morning, everyone.{\r}
+Dialogue: 0,0:16:23.89,0:16:27.40,chs&eng,,0,0,0,,{\blur3}我了解到你们的指挥官今天不能出席\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l understand that your commandant will not be joining us today.{\r}
+Dialogue: 0,0:16:27.65,0:16:30.69,chs&eng,,0,0,0,,{\blur3}不管怎样 我们还是继续我们的情况介绍\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}However, we will proceed with briefing anyway.{\r}
+Dialogue: 0,0:16:31.53,0:16:35.07,chs&eng,,0,0,0,,{\blur3}康斯坦丁·康那利 俄国黑手党的教父\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Konstantine Konali, Russian Mafia godfather.{\r}
+Dialogue: 0,0:16:37.49,0:16:38.95,chs&eng,,0,0,0,,{\blur3}琼斯!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Jones!{\r}
+Dialogue: 0,0:16:41.83,0:16:45.29,chs&eng,,0,0,0,,{\blur3}他的兄弟 也就是二头目 米克黑尔·康那利\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}His brother and second - in - command, Mikhail Konali.{\r}
+Dialogue: 0,0:16:55.72,0:16:59.35,chs&eng,,0,0,0,,{\blur3}康斯坦丁·康那利涉嫌敲诈勒索…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Konstantine Konali is involved in extortion...{\r}
+Dialogue: 0,0:16:59.51,0:17:02.64,chs&eng,,0,0,0,,{\blur3}…赌博 买卖脏物及军火交易\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...gambling, fencing jewelry, arms dealing.{\r}
+Dialogue: 0,0:17:02.81,0:17:04.77,chs&eng,,0,0,0,,{\blur3}但他自己却从不卷入…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}But he does not choose to involve himself...{\r}
+Dialogue: 0,0:17:06.39,0:17:09.61,chs&eng,,0,0,0,,{\blur3}- 卷心菜吃多了 - …每天的犯罪活动\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}JONES: Too much cabbage. - ...in day - to - day running of operations...{\r}
+Dialogue: 0,0:17:09.77,0:17:13.19,chs&eng,,0,0,0,,{\blur3}…这让我们很难抓住他 尽管如此…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...which makes it rather difficult to catch him. However...{\r}
+Dialogue: 0,0:17:13.44,0:17:16.95,chs&eng,,0,0,0,,{\blur3}…我们知道他经常出没的三个地点…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...we know three places that he frequents regularly.{\r}
+Dialogue: 0,0:17:17.16,0:17:18.74,chs&eng,,0,0,0,,{\blur3}一 他的酒店…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}his restaurant...{\r}
+Dialogue: 0,0:17:18.91,0:17:21.37,chs&eng,,0,0,0,,{\blur3}…他经常在后面办公室里开会\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...where he conducts meetings in back of office.{\r}
+Dialogue: 0,0:17:21.62,0:17:23.91,chs&eng,,0,0,0,,{\blur3}二 他的别墅三…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}his dacha.{\r}
+Dialogue: 0,0:17:24.08,0:17:25.54,chs&eng,,0,0,0,,{\blur3}喂 喂\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hello. Hello.{\r}
+Dialogue: 0,0:17:25.75,0:17:30.63,chs&eng,,0,0,0,,{\blur3}他的商店 他在那里经营合法的游戏生意现在…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}His warehouse, where he conducts legitimate video games business. Now...{\r}
+Dialogue: 0,0:17:32.55,0:17:35.05,chs&eng,,0,0,0,,{\blur3}…我们有理由相信康那利在进行着大的阴谋活动\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...we believe Konali is up to something big.{\r}
+Dialogue: 0,0:17:35.22,0:17:38.97,chs&eng,,0,0,0,,{\blur3}不幸的是 我们曾试图诱使他行动但没有成功…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Unfortunately, attempts to infiltrate his operations have failed...{\r}
+Dialogue: 0,0:17:39.14,0:17:43.85,chs&eng,,0,0,0,,{\blur3}…但现在我们一起共事 我们一定会抓住康那利的!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...but we will now work together and we will capture Konali.{\r}
+Dialogue: 0,0:17:50.52,0:17:53.40,chs&eng,,0,0,0,,{\blur3}康那利的酒店
+Dialogue: 0,0:18:03.08,0:18:05.04,chs&eng,,0,0,0,,{\blur3}- 打扰一下 - 啊喔!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Excuse me. MALE VOlCE: Ow!{\r}
+Dialogue: 0,0:18:07.21,0:18:09.12,chs&eng,,0,0,0,,{\blur3}亚当\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Adam.{\r}
+Dialogue: 0,0:18:09.29,0:18:11.00,chs&eng,,0,0,0,,{\blur3}见到你真高兴\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}So good to see you.{\r}
+Dialogue: 0,0:18:11.17,0:18:14.92,chs&eng,,0,0,0,,{\blur3}谢谢您邀请我 康那利先生不过您的快递服务…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Thank you for inviting me, Mr. Konali. However, your delivery service...{\r}
+Dialogue: 0,0:18:15.09,0:18:18.05,chs&eng,,0,0,0,,{\blur3}…还有待改善\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...leaves a little bit to be desired.{\r}
+Dialogue: 0,0:18:18.22,0:18:22.26,chs&eng,,0,0,0,,{\blur3}我有一个完美的计划 需要你的帮助\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l have the perfect plan, but l need your help.{\r}
+Dialogue: 0,0:18:22.43,0:18:25.60,chs&eng,,0,0,0,,{\blur3}- 我的帮助? - 我要你设计一个程序…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- My help? - l want you to design a program...{\r}
+Dialogue: 0,0:18:25.77,0:18:29.23,chs&eng,,0,0,0,,{\blur3}…一个可以让我通过世界上任何一台电脑的安全系统…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...that will bypass any computer security system in the world...{\r}
+Dialogue: 0,0:18:29.40,0:18:32.27,chs&eng,,0,0,0,,{\blur3}…并得到秘密文件的程序\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...letting me have access to secret files.{\r}
+Dialogue: 0,0:18:32.44,0:18:34.07,chs&eng,,0,0,0,,{\blur3}您指的是…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're talking about...{\r}
+Dialogue: 0,0:18:34.94,0:18:37.36,chs&eng,,0,0,0,,{\blur3}- …一把密码钥匙? - 对了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- ...a passkey? - Bingo.{\r}
+Dialogue: 0,0:18:37.90,0:18:40.49,chs&eng,,0,0,0,,{\blur3}- 世上不存在这种东西 - 那就创造它\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Nothing like this exists. - Create it.{\r}
+Dialogue: 0,0:18:42.16,0:18:44.91,chs&eng,,0,0,0,,{\blur3}我要进入世界银行系统…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l want to be able to tap into the world's banks...{\r}
+Dialogue: 0,0:18:45.12,0:18:50.37,chs&eng,,0,0,0,,{\blur3}…操纵全世界的股市还要知道国家的头儿们都知道什么\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...manipulate the world's stock markets, know what heads of countries know.{\r}
+Dialogue: 0,0:18:50.54,0:18:53.09,chs&eng,,0,0,0,,{\blur3}我们要控制全世界!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We could control the world!{\r}
+Dialogue: 0,0:18:53.25,0:18:56.76,chs&eng,,0,0,0,,{\blur3}再大点声 啊? 我觉得整个莫斯科听不到你的声音\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Louder, Misha. l don't think all of Moscow heard you.{\r}
+Dialogue: 0,0:18:56.92,0:19:02.47,chs&eng,,0,0,0,,{\blur3}即使我真的创造了这个程序 你又如何用它进入他们的电脑呢?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Even if l did create this passkey, how will you get it into their computers?{\r}
+Dialogue: 0,0:19:02.68,0:19:04.72,chs&eng,,0,0,0,,{\blur3}我早就想过了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l have already thought of that.{\r}
+Dialogue: 0,0:19:04.89,0:19:10.90,chs&eng,,0,0,0,,{\blur3}你 我亲爱的亚当 要开发新版本的"游戏"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You, my dear Adam, will design a new version of ''The Game. ''{\r}
+Dialogue: 0,0:19:11.19,0:19:13.27,chs&eng,,0,0,0,,{\blur3}我们就给它起名叫…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We will call it...{\r}
+Dialogue: 0,0:19:14.94,0:19:17.40,chs&eng,,0,0,0,,{\blur3}…"新游戏"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}... ''The New Game. ''{\r}
+Dialogue: 0,0:19:17.61,0:19:20.28,chs&eng,,0,0,0,,{\blur3}然后在其中加上这个程序\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And we will put the passkey in it.{\r}
+Dialogue: 0,0:19:20.45,0:19:23.83,chs&eng,,0,0,0,,{\blur3}当你把它插入你的电脑后巴达叮!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}When you slip it into your computer, bada - bing!{\r}
+Dialogue: 0,0:19:23.99,0:19:28.62,chs&eng,,0,0,0,,{\blur3}我就能得到那些秘密文件了不错吧?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l will have access to impenetrable files. Pretty good, no?{\r}
+Dialogue: 0,0:19:30.54,0:19:32.50,chs&eng,,0,0,0,,{\blur3}拉萨\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Lassard.{\r}
+Dialogue: 0,0:19:32.71,0:19:35.80,chs&eng,,0,0,0,,{\blur3}呸! 美国条子!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Bah! Yankee police.{\r}
+Dialogue: 0,0:19:36.38,0:19:37.46,chs&eng,,0,0,0,,{\blur3}噢喔!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ow!{\r}
+Dialogue: 0,0:19:41.51,0:19:43.64,chs&eng,,0,0,0,,{\blur3}伙计们 盯着他们\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Boys, watch them.{\r}
+Dialogue: 0,0:19:43.80,0:19:46.06,chs&eng,,0,0,0,,{\blur3}我要知道他们的每一步行动\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l want to know their every move.{\r}
+Dialogue: 0,0:19:49.69,0:19:52.15,chs&eng,,0,0,0,,{\blur3}好运 （俄语）老女人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Good luck, babushka.{\r}
+Dialogue: 0,0:19:52.40,0:19:53.69,chs&eng,,0,0,0,,{\blur3}哦\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Uh... .{\r}
+Dialogue: 0,0:19:55.48,0:19:59.78,chs&eng,,0,0,0,,{\blur3}在洗澡 一会儿见在洗\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}''ln the bathroom. Meet you there. ln the{\r}
+Dialogue: 0,0:19:59.95,0:20:01.53,chs&eng,,0,0,0,,{\blur3}在洗澡 是的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}ln the bathroom. '' Yes.{\r}
+Dialogue: 0,0:20:05.87,0:20:07.79,chs&eng,,0,0,0,,{\blur3}长官 我们得走了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sir, we have to go now.{\r}
+Dialogue: 0,0:20:10.83,0:20:12.54,chs&eng,,0,0,0,,{\blur3}- 长官? - 在洗澡!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Sir? - ln the bathroom.{\r}
+Dialogue: 0,0:20:12.92,0:20:16.46,chs&eng,,0,0,0,,{\blur3}- 一会见 - 出什么事了吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Meet you there. - ls everything okay?{\r}
+Dialogue: 0,0:20:16.67,0:20:21.93,chs&eng,,0,0,0,,{\blur3}长官正在解决一些个人问题\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The commandant is having some problems adjusting.{\r}
+Dialogue: 0,0:20:22.09,0:20:23.93,chs&eng,,0,0,0,,{\blur3}- 他一会去找我们 - 哼\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- He's gonna meet us there. - Oh.{\r}
+Dialogue: 0,0:20:27.06,0:20:28.35,chs&eng,,0,0,0,,{\blur3}呼!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Whew!{\r}
+Dialogue: 0,0:20:29.02,0:20:32.44,chs&eng,,0,0,0,,{\blur3}你知道 在美国葬礼是用英语的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You know, in America, funerals are in English.{\r}
+Dialogue: 0,0:20:32.60,0:20:34.52,chs&eng,,0,0,0,,{\blur3}您住在这儿?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This where you live?{\r}
+Dialogue: 0,0:20:35.57,0:20:37.28,chs&eng,,0,0,0,,{\blur3}您好\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Good day.{\r}
+Dialogue: 0,0:20:37.78,0:20:40.03,chs&eng,,0,0,0,,{\blur3}- （俄语）这个怪老头儿是谁? - 我不知道
+Dialogue: 0,0:20:43.03,0:20:44.32,chs&eng,,0,0,0,,{\blur3}我也有一条鱼\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l have a fish.{\r}
+Dialogue: 0,0:20:46.83,0:20:48.62,chs&eng,,0,0,0,,{\blur3}他也住在一个缸里\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}He lives in a bowl too.{\r}
+Dialogue: 0,0:20:52.92,0:20:56.54,chs&eng,,0,0,0,,{\blur3}您的公寓真是非常非常可爱\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You have a lovely, lovely apartment.{\r}
+Dialogue: 0,0:20:57.17,0:21:01.26,chs&eng,,0,0,0,,{\blur3}我在这感觉就像家一样\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Somehow, l feel quite at home here.{\r}
+Dialogue: 0,0:21:01.47,0:21:03.38,chs&eng,,0,0,0,,{\blur3}俄国佬的警察学校? 真可笑\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}A Russki police academy. What a joke.{\r}
+Dialogue: 0,0:21:03.43,0:21:06.14,chs&eng,,0,0,0,,{\blur3}莫斯科警察学校
+Dialogue: 0,0:21:06.60,0:21:09.27,chs&eng,,0,0,0,,{\blur3}在拉萨不在的时候 我来作发言人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}ln Lassard's absence, l will do all the talking.{\r}
+Dialogue: 0,0:21:09.43,0:21:12.27,chs&eng,,0,0,0,,{\blur3}你们什么都不许说 也不许做注意你们的行动\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You'll say nothing, do nothing, watch your every move.{\r}
+Dialogue: 0,0:21:12.44,0:21:15.81,chs&eng,,0,0,0,,{\blur3}都给我老实点儿任何错误的行动都会让我们所有人丢尽颜面\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Be on your toes. Any false move could embarrass us all.{\r}
+Dialogue: 0,0:21:15.98,0:21:17.61,chs&eng,,0,0,0,,{\blur3}不要相信这群人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And don't trust these guys.{\r}
+Dialogue: 0,0:21:17.86,0:21:20.65,chs&eng,,0,0,0,,{\blur3}不要因为我们现在是合作关系…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Just because we're buddy - buddy with them now...{\r}
+Dialogue: 0,0:21:20.86,0:21:24.11,chs&eng,,0,0,0,,{\blur3}…就忘记了我们曾是不共戴天的敌人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...don't forget they were our sworn enemies just{\r}
+Dialogue: 0,0:21:26.62,0:21:29.45,chs&eng,,0,0,0,,{\blur3}一小会儿之前\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Just a little while ago.{\r}
+Dialogue: 0,0:21:30.08,0:21:33.08,chs&eng,,0,0,0,,{\blur3}- 让开 让开 让开! - 白痴\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Move it. Move it, move it. MAN: Moron.{\r}
+Dialogue: 0,0:21:33.46,0:21:37.42,chs&eng,,0,0,0,,{\blur3}今天的话题是警察战术\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The topic for today is police field tactics.{\r}
+Dialogue: 0,0:21:37.75,0:21:40.42,chs&eng,,0,0,0,,{\blur3}俄国与美国警察工作方法比较\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The Russian and the American approach.{\r}
+Dialogue: 0,0:21:40.59,0:21:43.30,chs&eng,,0,0,0,,{\blur3}啊 一个美国警察 很好\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}American police. Good.{\r}
+Dialogue: 0,0:21:44.01,0:21:47.35,chs&eng,,0,0,0,,{\blur3}也许你能向我们讲述一下如何抓捕罪犯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Perhaps you can tell us about apprehending criminals.{\r}
+Dialogue: 0,0:21:47.81,0:21:49.39,chs&eng,,0,0,0,,{\blur3}- 我? - 你 就是你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Me? - You. You.{\r}
+Dialogue: 0,0:22:04.41,0:22:05.95,chs&eng,,0,0,0,,{\blur3}看在上帝的份儿上\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Goodness' sakes.{\r}
+Dialogue: 0,0:22:06.82,0:22:08.24,chs&eng,,0,0,0,,{\blur3}- 少校 - 中士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Major. - Sergeant.{\r}
+Dialogue: 0,0:22:08.41,0:22:12.16,chs&eng,,0,0,0,,{\blur3}同学们 这是塔克贝利中士\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Class, this is Sergeant Tackleberry.{\r}
+Dialogue: 0,0:22:14.33,0:22:17.38,chs&eng,,0,0,0,,{\blur3}嗯 你们知道 作为警察\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. You know, as cops{\r}
+Dialogue: 0,0:22:17.54,0:22:19.46,chs&eng,,0,0,0,,{\blur3}我用不着告诉你们这些\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l don't have to tell you this.{\r}
+Dialogue: 0,0:22:19.63,0:22:22.21,chs&eng,,0,0,0,,{\blur3}维护法律不是容易的事情而且在美国…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt's tough to uphold the law, but in the States...{\r}
+Dialogue: 0,0:22:22.38,0:22:26.22,chs&eng,,0,0,0,,{\blur3}…我们必须应对不断变化的警察规则\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...we have to deal with constantly changing police regulations.{\r}
+Dialogue: 0,0:22:26.39,0:22:30.26,chs&eng,,0,0,0,,{\blur3}我的意思是 例如滥用暴力\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l mean, take for example the excessive force issue.{\r}
+Dialogue: 0,0:22:31.10,0:22:34.60,chs&eng,,0,0,0,,{\blur3}- 我需要一个志愿者 - 塔克贝利 你在干什么?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- l could use a volunteer. - Tackleberry, what are you doing?{\r}
+Dialogue: 0,0:22:34.77,0:22:36.27,chs&eng,,0,0,0,,{\blur3}这里我负责\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l am in charge here.{\r}
+Dialogue: 0,0:22:36.44,0:22:39.40,chs&eng,,0,0,0,,{\blur3}哈里斯上尉 也许你该来做个示范\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Captain Harris, perhaps you should demonstrate.{\r}
+Dialogue: 0,0:22:39.57,0:22:43.40,chs&eng,,0,0,0,,{\blur3}- 哼 这才像话 - 在以前…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Well, that's more like it. - Back in the old days...{\r}
+Dialogue: 0,0:22:43.57,0:22:47.32,chs&eng,,0,0,0,,{\blur3}…为了抓住嫌疑犯没有什么你不能做的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...there wasn't anything you couldn't do trying to apprehend a perpetrator.{\r}
+Dialogue: 0,0:22:47.70,0:22:51.29,chs&eng,,0,0,0,,{\blur3}比如最有效的扼住喉咙\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Take for example the highly effective chokehold.{\r}
+Dialogue: 0,0:22:51.49,0:22:53.04,chs&eng,,0,0,0,,{\blur3}塔克贝利!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Tackleberry!{\r}
+Dialogue: 0,0:22:53.20,0:22:57.21,chs&eng,,0,0,0,,{\blur3}现在这被认作滥用暴力\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Well, nowadays this is considered to be excessive force.{\r}
+Dialogue: 0,0:23:00.13,0:23:01.63,chs&eng,,0,0,0,,{\blur3}或者…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Or...{\r}
+Dialogue: 0,0:23:01.80,0:23:06.30,chs&eng,,0,0,0,,{\blur3}…一直最值得信赖 最有效的PK - 24警棍…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...the ever - dependable, always reliable PK - 24 police baton...{\r}
+Dialogue: 0,0:23:06.47,0:23:09.26,chs&eng,,0,0,0,,{\blur3}…只要往身上敲一下…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...which, with a single blow to the body...{\r}
+Dialogue: 0,0:23:09.43,0:23:11.26,chs&eng,,0,0,0,,{\blur3}…击打下肢…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...say to the lower thigh... .{\r}
+Dialogue: 0,0:23:13.85,0:23:17.23,chs&eng,,0,0,0,,{\blur3}…致使对方完全丧失行为能力\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Renders a subject completely incapacitated.{\r}
+Dialogue: 0,0:23:19.06,0:23:20.57,chs&eng,,0,0,0,,{\blur3}不 噢 不\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}But, no, no.{\r}
+Dialogue: 0,0:23:20.73,0:23:24.90,chs&eng,,0,0,0,,{\blur3}现在这两样都被视力滥用暴力\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nowadays this too is considered to be excessive force.{\r}
+Dialogue: 0,0:23:28.66,0:23:30.87,chs&eng,,0,0,0,,{\blur3}他们想让我维护法律…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}They want me to uphold the law...{\r}
+Dialogue: 0,0:23:31.03,0:23:34.00,chs&eng,,0,0,0,,{\blur3}…但他们捆住我的手脚\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...but they tie my hands.{\r}
+Dialogue: 0,0:23:36.79,0:23:39.46,chs&eng,,0,0,0,,{\blur3}幸运的是…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Fortunately...{\r}
+Dialogue: 0,0:23:40.50,0:23:43.42,chs&eng,,0,0,0,,{\blur3}…我一直有它 我的老伙计\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...there's always Old Reliable.{\r}
+Dialogue: 0,0:23:44.46,0:23:46.13,chs&eng,,0,0,0,,{\blur3}为什么要阻碍成功?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Why mess with success?{\r}
+Dialogue: 0,0:23:49.39,0:23:51.76,chs&eng,,0,0,0,,{\blur3}哦 谢谢\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Uh, thanks.{\r}
+Dialogue: 0,0:23:54.06,0:23:55.35,chs&eng,,0,0,0,,{\blur3}- 你见过拉萨了吗? - （俄语）没有\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Have you seen Lassard?{\r}
+Dialogue: 0,0:23:57.06,0:23:58.73,chs&eng,,0,0,0,,{\blur3}我受够你们这群笨蛋了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l have had it with you losers.{\r}
+Dialogue: 0,0:23:58.90,0:24:02.23,chs&eng,,0,0,0,,{\blur3}我会抓住康那利 因为我会用脑\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l will capture Konali because l use my head.{\r}
+Dialogue: 0,0:24:02.40,0:24:06.03,chs&eng,,0,0,0,,{\blur3}- 是的 没错 - 以为我们抓不到他吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}TACKLEBERRY: Yeah, right. CALLAHAN: Think we can lose him?{\r}
+Dialogue: 0,0:24:07.03,0:24:10.91,chs&eng,,0,0,0,,{\blur3}对不起 你能帮我吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me. ls possible you help me?{\r}
+Dialogue: 0,0:24:11.08,0:24:13.79,chs&eng,,0,0,0,,{\blur3}当然 哦…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sure. Uh... .{\r}
+Dialogue: 0,0:24:13.99,0:24:16.87,chs&eng,,0,0,0,,{\blur3}你们能不能先走? 我一会儿就赶上你们\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Why don't you guys run along and l'll catch up with you later.{\r}
+Dialogue: 0,0:24:17.08,0:24:20.13,chs&eng,,0,0,0,,{\blur3}嗯哼 当然可以\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Uh - huh. Sure.{\r}
+Dialogue: 0,0:24:25.17,0:24:27.17,chs&eng,,0,0,0,,{\blur3}卡特琳娜 我能为你做什么?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Katrina, how can l help you?{\r}
+Dialogue: 0,0:24:27.34,0:24:30.22,chs&eng,,0,0,0,,{\blur3}你有没有如此渴望过一件事情?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You ever want something so badly it hurts?{\r}
+Dialogue: 0,0:24:30.64,0:24:33.60,chs&eng,,0,0,0,,{\blur3}- 有过 - 无论你怎样等待…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yes. - And no matter how much you wait...{\r}
+Dialogue: 0,0:24:33.76,0:24:37.64,chs&eng,,0,0,0,,{\blur3}…盼望着等待着 你却得不到你所想要的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...and hope and wait more, you don't get what you want?{\r}
+Dialogue: 0,0:24:37.81,0:24:39.60,chs&eng,,0,0,0,,{\blur3}嗯 是的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Well, yeah.{\r}
+Dialogue: 0,0:24:39.77,0:24:44.98,chs&eng,,0,0,0,,{\blur3}我的建议是：不要放弃 尽管去争取\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}But my advice is don't give up. Just go for it.{\r}
+Dialogue: 0,0:24:46.15,0:24:49.57,chs&eng,,0,0,0,,{\blur3}- 我想… - 好姑娘 让你的心告诉你该怎样做\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- l want    - Thattagirl. Follow your heart.{\r}
+Dialogue: 0,0:24:50.66,0:24:53.37,chs&eng,,0,0,0,,{\blur3}- 我想… - 说吧!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- l want    - Say it.{\r}
+Dialogue: 0,0:24:54.74,0:24:56.79,chs&eng,,0,0,0,,{\blur3}- 我想休假 - 什么?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- l want my vacation. - What's that?{\r}
+Dialogue: 0,0:24:56.96,0:25:01.21,chs&eng,,0,0,0,,{\blur3}我等了三年 三年! 然后你们这群美国人来了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l wait three years. Three years. Then you Americans come.{\r}
+Dialogue: 0,0:25:01.38,0:25:03.21,chs&eng,,0,0,0,,{\blur3}塔林斯基 他把我派给你们\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Talinsky, he assign me to you.{\r}
+Dialogue: 0,0:25:03.38,0:25:06.01,chs&eng,,0,0,0,,{\blur3}- 嗯 - 现在我没法休假了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Mm - hm. - Now l can't go.{\r}
+Dialogue: 0,0:25:07.51,0:25:09.34,chs&eng,,0,0,0,,{\blur3}我有个计划\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l have plan.{\r}
+Dialogue: 0,0:25:09.51,0:25:12.14,chs&eng,,0,0,0,,{\blur3}康那斯 我不离开你…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Connors, l don't leave you...{\r}
+Dialogue: 0,0:25:14.26,0:25:16.14,chs&eng,,0,0,0,,{\blur3}…除非是没有人了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...without anyone.{\r}
+Dialogue: 0,0:25:16.35,0:25:20.02,chs&eng,,0,0,0,,{\blur3}过来 我给你们选择了合适的替代人选\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come. l select suitable replacement for you.{\r}
+Dialogue: 0,0:25:20.23,0:25:22.69,chs&eng,,0,0,0,,{\blur3}她是部门里最棒的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}She's best in department.{\r}
+Dialogue: 0,0:25:24.19,0:25:26.44,chs&eng,,0,0,0,,{\blur3}噢 我相信\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yeah, l'm sure she is.{\r}
+Dialogue: 0,0:25:26.65,0:25:30.15,chs&eng,,0,0,0,,{\blur3}看 我所知道的一切就是拉萨在机场就不见了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Look, all l know is Lassard disappear at airport.{\r}
+Dialogue: 0,0:25:30.41,0:25:34.70,chs&eng,,0,0,0,,{\blur3}组织搜索 但要保密\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Organize search, find Lassard, but keep quiet.{\r}
+Dialogue: 0,0:25:34.91,0:25:37.00,chs&eng,,0,0,0,,{\blur3}- 你们来这干这什么? - 只是随便看看\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What are you doing here? - Just browsing.{\r}
+Dialogue: 0,0:25:37.16,0:25:38.45,chs&eng,,0,0,0,,{\blur3}啊\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ah.{\r}
+Dialogue: 0,0:25:38.62,0:25:43.54,chs&eng,,0,0,0,,{\blur3}嘿 尤里 那个翻译卡特琳娜 她很好 非常棒\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, Yuri, that translator, Katrina? Very good. She's excellent.{\r}
+Dialogue: 0,0:25:43.71,0:25:45.63,chs&eng,,0,0,0,,{\blur3}我们的人都很棒\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}All our people are excellent.{\r}
+Dialogue: 0,0:25:45.80,0:25:49.13,chs&eng,,0,0,0,,{\blur3}比如说 艾琳娜·佩特罗夫斯卡娅\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}For instance, this is lrina Petrovskaya.{\r}
+Dialogue: 0,0:25:49.30,0:25:51.51,chs&eng,,0,0,0,,{\blur3}她是人类分析专家\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}She is expert in forensics.{\r}
+Dialogue: 0,0:25:51.76,0:25:54.14,chs&eng,,0,0,0,,{\blur3}她只需通过人的一根头发…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}She can tell you everything about person...{\r}
+Dialogue: 0,0:25:54.30,0:25:56.72,chs&eng,,0,0,0,,{\blur3}…就能分析出他的一切情况\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...just by looking at one hair from head.{\r}
+Dialogue: 0,0:25:56.93,0:25:58.22,chs&eng,,0,0,0,,{\blur3}哟!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ow!{\r}
+Dialogue: 0,0:26:02.10,0:26:07.65,chs&eng,,0,0,0,,{\blur3}嗯 通过我的观察 我得出了这些结论：这个家伙非常挑食…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hmm. My observations conclude this man is picky eater...{\r}
+Dialogue: 0,0:26:07.90,0:26:09.32,chs&eng,,0,0,0,,{\blur3}…有恐高症…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...afraid of heights...{\r}
+Dialogue: 0,0:26:10.70,0:26:14.12,chs&eng,,0,0,0,,{\blur3}- …现在还是个处男 - 什么?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- ...and still a virgin. CONNORS: What?{\r}
+Dialogue: 0,0:26:17.33,0:26:19.04,chs&eng,,0,0,0,,{\blur3}我一点也不挑食\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm not a picky eater.{\r}
+Dialogue: 0,0:26:20.87,0:26:23.67,chs&eng,,0,0,0,,{\blur3}康那斯学员也是个人娄分析学家\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Cadet Connors is also a forensics expert.{\r}
+Dialogue: 0,0:26:23.83,0:26:27.38,chs&eng,,0,0,0,,{\blur3}也许您能慷慨地与我们一道分享您宝贵的专业经验\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Maybe you'd be so generous as to share with us your expertise.{\r}
+Dialogue: 0,0:26:27.55,0:26:32.80,chs&eng,,0,0,0,,{\blur3}- 哦 当然 - 这个样品一直让我们很困惑\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Uh, sure. - This one puzzles us.{\r}
+Dialogue: 0,0:26:32.97,0:26:37.60,chs&eng,,0,0,0,,{\blur3}我们在犯罪现场只采到了一枚指纹\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We were able to remove only one fingerprint from scene of crime.{\r}
+Dialogue: 0,0:26:37.77,0:26:39.68,chs&eng,,0,0,0,,{\blur3}这是我们唯一的…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is our only clue...{\r}
+Dialogue: 0,0:26:39.85,0:26:41.48,chs&eng,,0,0,0,,{\blur3}…能够证明罪犯的线索\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...to identity of criminal.{\r}
+Dialogue: 0,0:26:42.10,0:26:43.69,chs&eng,,0,0,0,,{\blur3}好 没问题\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Okey - dokey.{\r}
+Dialogue: 0,0:26:46.86,0:26:49.19,chs&eng,,0,0,0,,{\blur3}怪不得你们弄不明白玻璃已经全碎了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No wonder you're puzzled. This glass is all cracked.{\r}
+Dialogue: 0,0:26:50.45,0:26:52.03,chs&eng,,0,0,0,,{\blur3}够了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Enough!{\r}
+Dialogue: 0,0:26:53.20,0:26:56.12,chs&eng,,0,0,0,,{\blur3}下个任务 切尔诺贝利\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Next assignment, Chernobyl.{\r}
+Dialogue: 0,0:26:56.37,0:26:58.08,chs&eng,,0,0,0,,{\blur3}对不起 中尉…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me, lieutenant...{\r}
+Dialogue: 0,0:26:58.24,0:27:02.04,chs&eng,,0,0,0,,{\blur3}…您的指挥官说过您和您的人会帮助我们\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...but the chief said you and your men would be available to us.{\r}
+Dialogue: 0,0:27:02.96,0:27:09.38,chs&eng,,0,0,0,,{\blur3}完全正确 卡拉汉上尉 我这有合适的人选\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Absolutely, Captain Callahan, and l have just the men for you.{\r}
+Dialogue: 0,0:27:17.93,0:27:19.72,chs&eng,,0,0,0,,{\blur3}这些人也是警察?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}These guys are cops?{\r}
+Dialogue: 0,0:27:20.56,0:27:23.35,chs&eng,,0,0,0,,{\blur3}你有没有觉得我们在这里不受欢迎?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You get the feeling that we're not wanted here?{\r}
+Dialogue: 0,0:27:23.52,0:27:25.48,chs&eng,,0,0,0,,{\blur3}我来告诉你们我们该做什么\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'll tell you what we need to do.{\r}
+Dialogue: 0,0:27:25.65,0:27:28.44,chs&eng,,0,0,0,,{\blur3}- 我们应该让康那利知道我们在这 - 在他的地盘上\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- We need to let Konali know we're here. - On his turf.{\r}
+Dialogue: 0,0:27:28.61,0:27:31.03,chs&eng,,0,0,0,,{\blur3}- 打他的痛处 - 我喜欢\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Hit him where it hurts. TACKLEBERRY: l like that.{\r}
+Dialogue: 0,0:27:31.19,0:27:33.40,chs&eng,,0,0,0,,{\blur3}- 揍他的脸 - 踹他的屁股\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Get in his face. - Kick some butt.{\r}
+Dialogue: 0,0:27:33.61,0:27:34.91,chs&eng,,0,0,0,,{\blur3}最好带上卡特琳娜\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Better get Katrina.{\r}
+Dialogue: 0,0:27:46.38,0:27:49.75,chs&eng,,0,0,0,,{\blur3}嘿 伙计 干得不错嘛!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, bud. Nice work.{\r}
+Dialogue: 0,0:27:49.96,0:27:53.09,chs&eng,,0,0,0,,{\blur3}这些要是全被烧光的话可真可惜\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt would be a shame to see this all go up in smoke.{\r}
+Dialogue: 0,0:27:53.26,0:27:55.72,chs&eng,,0,0,0,,{\blur3}- 你什么意思? - 发生了意外事件\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- How do you mean? - Accidents happen.{\r}
+Dialogue: 0,0:27:55.93,0:27:58.35,chs&eng,,0,0,0,,{\blur3}突发火灾 房梁倒塌 工人…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Fire breaks out, beam gives way, workers{\r}
+Dialogue: 0,0:27:58.51,0:27:59.85,chs&eng,,0,0,0,,{\blur3}滚开!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get out.{\r}
+Dialogue: 0,0:28:00.06,0:28:02.60,chs&eng,,0,0,0,,{\blur3}告诉康那利我不会给他一分钱\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Tell Konali l won't pay his extortion money.{\r}
+Dialogue: 0,0:28:08.94,0:28:14.03,chs&eng,,0,0,0,,{\blur3}嘿 哥们 拉萨指挥官向你致敬\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, buddy. Commandant Lassard sends his regards.{\r}
+Dialogue: 0,0:28:14.86,0:28:19.03,chs&eng,,0,0,0,,{\blur3}我真是难以形容…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l can't tell you how it makes me feel...{\r}
+Dialogue: 0,0:28:19.20,0:28:24.25,chs&eng,,0,0,0,,{\blur3}…你们全家对我真是太 太 太慷慨了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...to be received so very, very generously into your family.{\r}
+Dialogue: 0,0:28:24.46,0:28:26.50,chs&eng,,0,0,0,,{\blur3}（俄语）
+Dialogue: 0,0:28:34.34,0:28:36.43,chs&eng,,0,0,0,,{\blur3}（俄语）
+Dialogue: 0,0:28:40.89,0:28:42.35,chs&eng,,0,0,0,,{\blur3}噢\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh.{\r}
+Dialogue: 0,0:29:07.96,0:29:09.92,chs&eng,,0,0,0,,{\blur3}我自己来干\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'll take matters into my own hands.{\r}
+Dialogue: 0,0:29:10.09,0:29:11.75,chs&eng,,0,0,0,,{\blur3}他在干什么?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What is he doing?{\r}
+Dialogue: 0,0:29:22.47,0:29:26.10,chs&eng,,0,0,0,,{\blur3}- 长官 午饭时间了 - 在卧室里等我\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Sir, would you like to have lunch? - Meet me in the bedroom.{\r}
+Dialogue: 0,0:29:27.98,0:29:29.27,chs&eng,,0,0,0,,{\blur3}在浴室里\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}ln the bathroom.{\r}
+Dialogue: 0,0:29:30.36,0:29:32.94,chs&eng,,0,0,0,,{\blur3}- 长官? 在那等我!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Sir? BELL HOP: Meet me there!{\r}
+Dialogue: 0,0:29:33.11,0:29:35.57,chs&eng,,0,0,0,,{\blur3}在那等你! 在那等你!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Meet you there! Meet you there!{\r}
+Dialogue: 0,0:29:37.95,0:29:40.20,chs&eng,,0,0,0,,{\blur3}这下水道真臭!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This sewer stinks.{\r}
+Dialogue: 0,0:29:44.91,0:29:49.96,chs&eng,,0,0,0,,{\blur3}于是美国人没说再见就走了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}So Americans leave without saying goodbye.{\r}
+Dialogue: 0,0:29:50.13,0:29:54.13,chs&eng,,0,0,0,,{\blur3}俄国人说了再见却不走\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Russians say goodbye without leaving.{\r}
+Dialogue: 0,0:30:02.60,0:30:04.81,chs&eng,,0,0,0,,{\blur3}噢 让我来\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, allow me.{\r}
+Dialogue: 0,0:30:07.35,0:30:09.44,chs&eng,,0,0,0,,{\blur3}（俄语）
+Dialogue: 0,0:30:09.65,0:30:11.73,chs&eng,,0,0,0,,{\blur3}"牧场是我家"
+Dialogue: 0,0:30:15.28,0:30:16.61,chs&eng,,0,0,0,,{\blur3}呕!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ooh!{\r}
+Dialogue: 0,0:30:16.82,0:30:18.32,chs&eng,,0,0,0,,{\blur3}汤都臭了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This went rancid.{\r}
+Dialogue: 0,0:30:32.42,0:30:33.96,chs&eng,,0,0,0,,{\blur3}我向你保证…
+Dialogue: 0,0:30:34.13,0:30:36.67,chs&eng,,0,0,0,,{\blur3}过了今天 康那利就会知道这些警察已经在这儿了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}After today, Konali's gonna know this cop's in town.{\r}
+Dialogue: 0,0:30:36.88,0:30:40.84,chs&eng,,0,0,0,,{\blur3}这是典型的俄罗斯浴室\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is a typical Russian bathhouse.{\r}
+Dialogue: 0,0:30:45.47,0:30:47.85,chs&eng,,0,0,0,,{\blur3}这么说这就是康那利的桑拿室了?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Okay. So this is Konali's sauna.{\r}
+Dialogue: 0,0:30:48.10,0:30:51.86,chs&eng,,0,0,0,,{\blur3}这只是前台 人们把偷来的珠宝拿到这里进行交易\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt's just a front. People come here to fence stolen jewels.{\r}
+Dialogue: 0,0:30:52.06,0:30:54.69,chs&eng,,0,0,0,,{\blur3}好吧 我们去脱衣服吧\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}All right. Let's get naked.{\r}
+Dialogue: 0,0:30:54.86,0:30:56.94,chs&eng,,0,0,0,,{\blur3}来吧 快点\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on. Come on.{\r}
+Dialogue: 0,0:31:11.46,0:31:12.71,chs&eng,,0,0,0,,{\blur3}姑娘们 你们好啊\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hello, ladies.{\r}
+Dialogue: 0,0:31:19.05,0:31:20.89,chs&eng,,0,0,0,,{\blur3}嗨\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hi.{\r}
+Dialogue: 0,0:31:21.05,0:31:22.89,chs&eng,,0,0,0,,{\blur3}不错的浴室\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nice place you got here.{\r}
+Dialogue: 0,0:31:36.57,0:31:37.82,chs&eng,,0,0,0,,{\blur3}不许动!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Freeze!{\r}
+Dialogue: 0,0:31:41.66,0:31:45.12,chs&eng,,0,0,0,,{\blur3}你们继续吧…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You may resume...{\r}
+Dialogue: 0,0:31:45.29,0:31:48.33,chs&eng,,0,0,0,,{\blur3}…无论做什么\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...whatever it is you were doing.{\r}
+Dialogue: 0,0:31:53.50,0:31:57.51,chs&eng,,0,0,0,,{\blur3}好了好了 我现在应该在康那利酒店的下面\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, okay. l should be right under Konali's restaurant.{\r}
+Dialogue: 0,0:32:12.48,0:32:15.94,chs&eng,,0,0,0,,{\blur3}- 喜欢那条项链吗? - 噢 当然 我亲爱的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Did you like the necklace? WOMAN: Oh, yes, my pushki.{\r}
+Dialogue: 0,0:32:16.11,0:32:20.36,chs&eng,,0,0,0,,{\blur3}- 有多喜欢? - 事实上 我现在只穿着它…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- How much? - In fact, it is all that I am wearing.{\r}
+Dialogue: 0,0:32:20.53,0:32:22.07,chs&eng,,0,0,0,,{\blur3}我决定从现在起…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}I decided that from now on...{\r}
+Dialogue: 0,0:32:22.24,0:32:26.95,chs&eng,,0,0,0,,{\blur3}我只戴钻石 钻石 钻石\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...I will only wear diamonds, diamonds and diamonds.{\r}
+Dialogue: 0,0:32:28.62,0:32:31.17,chs&eng,,0,0,0,,{\blur3}- 是的 - 真的?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yes. - Really?{\r}
+Dialogue: 0,0:32:31.33,0:32:34.67,chs&eng,,0,0,0,,{\blur3}- 我一会儿去见你 怎么样? - 噢 我盼望着\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}KONALl: l'm going to see you later, right? WOMAN: Oh, I hope so.{\r}
+Dialogue: 0,0:32:34.88,0:32:37.25,chs&eng,,0,0,0,,{\blur3}我会给你一个惊喜\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm going to bring you big surprise.{\r}
+Dialogue: 0,0:32:37.76,0:32:40.13,chs&eng,,0,0,0,,{\blur3}- 啊? 是什么? - 一条大日本蛇怎么样?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What? - How about Big Skippy?{\r}
+Dialogue: 0,0:32:40.30,0:32:42.63,chs&eng,,0,0,0,,{\blur3}- 我喜欢大的 - 还有小的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- I love Big Skippy. - And Little Skippy.{\r}
+Dialogue: 0,0:32:42.80,0:32:44.64,chs&eng,,0,0,0,,{\blur3}不 不要小的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No, not the little one.{\r}
+Dialogue: 0,0:32:44.80,0:32:48.35,chs&eng,,0,0,0,,{\blur3}- 他让我心烦 - 好吧 我一会儿再给你打电话\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- He bothers me. - All right. l call you later.{\r}
+Dialogue: 0,0:32:48.52,0:32:51.64,chs&eng,,0,0,0,,{\blur3}嘿 让开 别挡道!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, move it. Down in front.{\r}
+Dialogue: 0,0:32:59.40,0:33:02.24,chs&eng,,0,0,0,,{\blur3}康那利先生 坏消息\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Mr. Konali, we've got bad news.{\r}
+Dialogue: 0,0:33:02.45,0:33:03.74,chs&eng,,0,0,0,,{\blur3}关于美国警察的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt's American police.{\r}
+Dialogue: 0,0:33:03.91,0:33:07.87,chs&eng,,0,0,0,,{\blur3}他们又给我们捣乱了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}They're messing with our operation again.{\r}
+Dialogue: 0,0:33:14.17,0:33:16.71,chs&eng,,0,0,0,,{\blur3}这是最后一次了! 听到了没有?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No more. You hear me?{\r}
+Dialogue: 0,0:33:19.59,0:33:24.18,chs&eng,,0,0,0,,{\blur3}从现在起 我要把拉萨还有他的队员们一起赶走!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}As of this moment l am putting a contract out on Lassard and his team!{\r}
+Dialogue: 0,0:33:24.34,0:33:26.43,chs&eng,,0,0,0,,{\blur3}揍扁他们!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We squash them!{\r}
+Dialogue: 0,0:33:28.22,0:33:30.73,chs&eng,,0,0,0,,{\blur3}我的小鱼 游游·拉萨\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}My fish, Swimmy Lassard.{\r}
+Dialogue: 0,0:33:30.93,0:33:34.02,chs&eng,,0,0,0,,{\blur3}每天这个时候他都要吃东西\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}He eats at this time every day.{\r}
+Dialogue: 0,0:33:34.81,0:33:39.19,chs&eng,,0,0,0,,{\blur3}高尔基公园
+Dialogue: 0,0:33:41.19,0:33:44.36,chs&eng,,0,0,0,,{\blur3}这会很好玩 弗拉迪\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This will be fun, Vlady.{\r}
+Dialogue: 0,0:34:06.68,0:34:08.47,chs&eng,,0,0,0,,{\blur3}嘿 小屁孩儿 没长眼啊!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, you little punk, get lost!{\r}
+Dialogue: 0,0:34:08.68,0:34:11.89,chs&eng,,0,0,0,,{\blur3}嘿 滚开!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, spread out!{\r}
+Dialogue: 0,0:34:13.69,0:34:15.60,chs&eng,,0,0,0,,{\blur3}- 你没事吧? - 嗯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You okay? - Yeah.{\r}
+Dialogue: 0,0:34:15.81,0:34:19.11,chs&eng,,0,0,0,,{\blur3}听着 不要认为他们有好车骑就是好人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Listen, just because they're good on bikes doesn't make them nice guys.{\r}
+Dialogue: 0,0:34:19.28,0:34:21.57,chs&eng,,0,0,0,,{\blur3}噢 瞧瞧你 好了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Man, look at you. Come on.{\r}
+Dialogue: 0,0:34:24.36,0:34:26.07,chs&eng,,0,0,0,,{\blur3}这是给你的 孩子\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This one's for you, kid.{\r}
+Dialogue: 0,0:34:26.24,0:34:28.58,chs&eng,,0,0,0,,{\blur3}瞧好了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, check this.{\r}
+Dialogue: 0,0:34:37.96,0:34:39.84,chs&eng,,0,0,0,,{\blur3}那 别打歪了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There. Don't miss.{\r}
+Dialogue: 0,0:34:53.68,0:34:55.14,chs&eng,,0,0,0,,{\blur3}起来 弗拉迪\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Vlady, get up.{\r}
+Dialogue: 0,0:34:59.94,0:35:04.11,chs&eng,,0,0,0,,{\blur3}我恨透狗了 再让我见着它们我要把它们杀光光\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l hate dogs. l'm gonna shoot every dog l ever see.{\r}
+Dialogue: 0,0:35:15.08,0:35:19.34,chs&eng,,0,0,0,,{\blur3}瞧瞧这是什么一根火柴上一条红线\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What have we got here? A match with a red line through{\r}
+Dialogue: 0,0:35:51.54,0:35:54.08,chs&eng,,0,0,0,,{\blur3}我在这儿已经呆了30分钟了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l've been here for 30 minutes.{\r}
+Dialogue: 0,0:35:54.25,0:35:56.62,chs&eng,,0,0,0,,{\blur3}如果康那利在里面我们还会看见他吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Shouldn't we see if Konali's inside?{\r}
+Dialogue: 0,0:35:58.25,0:35:59.67,chs&eng,,0,0,0,,{\blur3}俄国人办事真讲原则\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The Russian work ethic.{\r}
+Dialogue: 0,0:35:59.84,0:36:02.50,chs&eng,,0,0,0,,{\blur3}知道吗 卡特琳娜 你对工作太认真了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You know, Katrina, you take this job too seriously.{\r}
+Dialogue: 0,0:36:02.71,0:36:04.88,chs&eng,,0,0,0,,{\blur3}你应该学会放松一下自己\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You have to learn to loosen up.{\r}
+Dialogue: 0,0:36:05.05,0:36:07.76,chs&eng,,0,0,0,,{\blur3}我想放松\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l want to loosen up.{\r}
+Dialogue: 0,0:36:07.89,0:36:10.68,chs&eng,,0,0,0,,{\blur3}我已经计划休假 去海滨\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Had vacation planned. Go to beach.{\r}
+Dialogue: 0,0:36:10.89,0:36:13.89,chs&eng,,0,0,0,,{\blur3}现在我却跟你坐在长凳上\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now l sit on bench here with you.{\r}
+Dialogue: 0,0:36:14.02,0:36:16.02,chs&eng,,0,0,0,,{\blur3}你肯定跟塔林斯基说了?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You sure you speak with Talinsky?{\r}
+Dialogue: 0,0:36:16.77,0:36:20.94,chs&eng,,0,0,0,,{\blur3}- （俄语）是的 塔林斯基 - 我不明白\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Da, Talinsky. - l not understand.{\r}
+Dialogue: 0,0:36:21.11,0:36:23.11,chs&eng,,0,0,0,,{\blur3}我不该还呆在这\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l should not be here.{\r}
+Dialogue: 0,0:36:23.28,0:36:28.61,chs&eng,,0,0,0,,{\blur3}嗯 你知道 卡特琳娜 有时你必须面对无法预知的事情\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Well, you know, Katrina, sometimes you have to expect the unexpected.{\r}
+Dialogue: 0,0:36:33.62,0:36:35.91,chs&eng,,0,0,0,,{\blur3}- 我知道你这种人 - 我这种人?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- l know your type. - My type?{\r}
+Dialogue: 0,0:36:36.37,0:36:40.13,chs&eng,,0,0,0,,{\blur3}你们只喜欢猎艳 喜欢追赶\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You just like to hunt fox. You like the chase.{\r}
+Dialogue: 0,0:36:40.33,0:36:44.80,chs&eng,,0,0,0,,{\blur3}卡特琳娜 今晚跟我出去吧 就一次\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Katrina, go out with me tonight. Just one date.{\r}
+Dialogue: 0,0:36:45.09,0:36:47.97,chs&eng,,0,0,0,,{\blur3}给我次机会\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Give me a chance.{\r}
+Dialogue: 0,0:36:50.01,0:36:51.51,chs&eng,,0,0,0,,{\blur3}（俄语）好吧
+Dialogue: 0,0:36:51.72,0:36:54.39,chs&eng,,0,0,0,,{\blur3}我今晚跟你出去\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l go out with you tonight.{\r}
+Dialogue: 0,0:36:54.60,0:36:55.98,chs&eng,,0,0,0,,{\blur3}太棒了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excellent.{\r}
+Dialogue: 0,0:36:56.23,0:36:58.06,chs&eng,,0,0,0,,{\blur3}女士们先生们…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ladies and gentlemen.{\r}
+Dialogue: 0,0:36:58.27,0:37:00.15,chs&eng,,0,0,0,,{\blur3}（俄语）女士们先生们…
+Dialogue: 0,0:37:00.35,0:37:02.23,chs&eng,,0,0,0,,{\blur3}…我向你们隆重介绍…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l would like to introduce to you...{\r}
+Dialogue: 0,0:37:02.40,0:37:07.15,chs&eng,,0,0,0,,{\blur3}…著名的马戏世家 赞姆斯科夫一家!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...the world - famous circus family, Zemskova.{\r}
+Dialogue: 0,0:37:18.25,0:37:20.42,chs&eng,,0,0,0,,{\blur3}是赞姆斯科夫一家! 他们可棒了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt's the Zemskov family. They're great.{\r}
+Dialogue: 0,0:37:25.26,0:37:28.26,chs&eng,,0,0,0,,{\blur3}他们从事马戏表演已经100多年了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}They've been doing this act for over 1 00 years.{\r}
+Dialogue: 0,0:37:28.43,0:37:31.30,chs&eng,,0,0,0,,{\blur3}100多岁还这么敏捷\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}They look amazingly spry for their age.{\r}
+Dialogue: 0,0:37:34.43,0:37:36.93,chs&eng,,0,0,0,,{\blur3}赞姆斯科夫一家把马戏表演从…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The Zemskov family passed the act down...{\r}
+Dialogue: 0,0:37:37.10,0:37:40.02,chs&eng,,0,0,0,,{\blur3}…祖父传给父亲 再传给儿女\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...from grandfather to father to son and daughter.{\r}
+Dialogue: 0,0:37:40.19,0:37:43.02,chs&eng,,0,0,0,,{\blur3}这成为传统 并对外保密\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt's tradition. Keep secrets in family.{\r}
+Dialogue: 0,0:37:53.41,0:37:54.87,chs&eng,,0,0,0,,{\blur3}哎唷!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ooh.{\r}
+Dialogue: 0,0:37:55.08,0:37:57.66,chs&eng,,0,0,0,,{\blur3}也许他们该对这事保密\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Maybe that's one they should keep a secret.{\r}
+Dialogue: 0,0:37:57.83,0:38:01.00,chs&eng,,0,0,0,,{\blur3}再来几个这样的 赞姆斯科夫一家就该绝了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}One more of those, it could be the end of the Zemskov family.{\r}
+Dialogue: 0,0:38:12.34,0:38:17.35,chs&eng,,0,0,0,,{\blur3}现在伊万·赞姆斯科夫将表演高难度动作!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And now lvan Zemskovi will perform the impossible!{\r}
+Dialogue: 0,0:38:18.06,0:38:21.81,chs&eng,,0,0,0,,{\blur3}三个后空翻!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The triple Salto Mortale.{\r}
+Dialogue: 0,0:38:32.36,0:38:34.70,chs&eng,,0,0,0,,{\blur3}伊万·赞姆斯科夫!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lvan Zemskovi!{\r}
+Dialogue: 0,0:38:34.99,0:38:36.37,chs&eng,,0,0,0,,{\blur3}我明白了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l know.{\r}
+Dialogue: 0,0:38:36.49,0:38:38.66,chs&eng,,0,0,0,,{\blur3}- 明白什么? - 你说谎了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Know what? - You lie.{\r}
+Dialogue: 0,0:38:38.83,0:38:42.17,chs&eng,,0,0,0,,{\blur3}你说要帮我休假的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You tell me you get me off case as translator.{\r}
+Dialogue: 0,0:38:42.33,0:38:44.92,chs&eng,,0,0,0,,{\blur3}- 什么? - 而你却这样对塔林斯基说…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- l'm sorry? - lnstead you tell Talinsky...{\r}
+Dialogue: 0,0:38:45.09,0:38:48.51,chs&eng,,0,0,0,,{\blur3}…说我是个好翻译也就是说\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...l'm great translator. Translation:{\r}
+Dialogue: 0,0:38:48.71,0:38:51.17,chs&eng,,0,0,0,,{\blur3}我根本休不了假\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No vacation for me.{\r}
+Dialogue: 0,0:38:51.34,0:38:53.09,chs&eng,,0,0,0,,{\blur3}所以…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}So...{\r}
+Dialogue: 0,0:38:53.26,0:38:55.64,chs&eng,,0,0,0,,{\blur3}…今晚我要报复一下 （俄语）明白?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...tonight l get even. Da?{\r}
+Dialogue: 0,0:38:55.85,0:39:01.18,chs&eng,,0,0,0,,{\blur3}让我们掌声感谢赞姆斯科夫一家!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let's hear it for the great artist family, Zemskov.{\r}
+Dialogue: 0,0:39:07.61,0:39:12.36,chs&eng,,0,0,0,,{\blur3}女士们先生们 伊果和安德柳莎!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ladies and gentlemen, lgor and Andrusha.{\r}
+Dialogue: 0,0:39:12.57,0:39:15.99,chs&eng,,0,0,0,,{\blur3}不好意思 我要去一下厕所\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me. l have to go to the little clowns' room.{\r}
+Dialogue: 0,0:39:17.91,0:39:20.46,chs&eng,,0,0,0,,{\blur3}抓住他!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get him.{\r}
+Dialogue: 0,0:39:21.00,0:39:24.13,chs&eng,,0,0,0,,{\blur3}不不不! 我很想 但我不能…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No, no, no, no. No, no, l'd like to, but l{\r}
+Dialogue: 0,0:39:24.33,0:39:26.34,chs&eng,,0,0,0,,{\blur3}不! 不!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No, no.{\r}
+Dialogue: 0,0:39:26.50,0:39:30.42,chs&eng,,0,0,0,,{\blur3}5分钟后我就回来 真的 我发誓\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'll come back in five minutes. l will. l promise you.{\r}
+Dialogue: 0,0:39:31.09,0:39:33.59,chs&eng,,0,0,0,,{\blur3}这是什么? 我会受伤吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What is that? ls this gonna hurt?{\r}
+Dialogue: 0,0:39:33.76,0:39:36.47,chs&eng,,0,0,0,,{\blur3}我会晕的 啊! 喔!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt's not even lubricated. Ah! Whoa!{\r}
+Dialogue: 0,0:40:03.29,0:40:05.38,chs&eng,,0,0,0,,{\blur3}你们这些小丑什么时候停下来啊?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Don't you clowns know when to stop?{\r}
+Dialogue: 0,0:40:05.54,0:40:09.84,chs&eng,,0,0,0,,{\blur3}好了 该开始了 别害怕 闭上眼睛\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let's do it. Don't be afraid. Close your eyes.{\r}
+Dialogue: 0,0:40:10.05,0:40:12.26,chs&eng,,0,0,0,,{\blur3}观众们 请安静!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Everybody, quiet!{\r}
+Dialogue: 0,0:40:18.35,0:40:21.93,chs&eng,,0,0,0,,{\blur3}啊? 好吧 听着 壮汉们 啊\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Huh? All right, listen here, Bozo{\r}
+Dialogue: 0,0:40:40.70,0:40:43.91,chs&eng,,0,0,0,,{\blur3}别忘了 是你们请我们来帮忙的 小鬼\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Don't forget, you're the one that called us for help, buster.{\r}
+Dialogue: 0,0:40:44.08,0:40:47.21,chs&eng,,0,0,0,,{\blur3}噢 对不起 小鬼 不是我打的电话\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Well, excuse me, buster, but l didn't place the call.{\r}
+Dialogue: 0,0:40:51.21,0:40:53.97,chs&eng,,0,0,0,,{\blur3}地铁真 真棒 太棒了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Great, great subway. Terrific.{\r}
+Dialogue: 0,0:40:54.13,0:40:58.30,chs&eng,,0,0,0,,{\blur3}我是说 纽约就是屎 这里才叫棒\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l mean, New York is a shithouse, but this is great.{\r}
+Dialogue: 0,0:40:58.47,0:41:00.81,chs&eng,,0,0,0,,{\blur3}你现在有本事抓住康那利了吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Well, have you been able to capture Konali?{\r}
+Dialogue: 0,0:41:01.02,0:41:02.56,chs&eng,,0,0,0,,{\blur3}我们就差一点儿\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We were this close.{\r}
+Dialogue: 0,0:41:02.77,0:41:04.85,chs&eng,,0,0,0,,{\blur3}（俄语）是! 是! 是!
+Dialogue: 0,0:41:09.48,0:41:12.61,chs&eng,,0,0,0,,{\blur3}只要按我说的做 再加上我的先进装备两天之内保准你抓住他\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Listen to me and use my equipment, you can capture him in two days.{\r}
+Dialogue: 0,0:41:12.78,0:41:14.28,chs&eng,,0,0,0,,{\blur3}（俄语）不! 不! 不! 不! 不! 不!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Na, na, na, na, na, na.{\r}
+Dialogue: 0,0:41:15.07,0:41:16.53,chs&eng,,0,0,0,,{\blur3}（俄语）不! 不! 不! 不! 不! 不!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Na, na, na, na, na, na?{\r}
+Dialogue: 0,0:41:23.20,0:41:26.62,chs&eng,,0,0,0,,{\blur3}不\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nah.{\r}
+Dialogue: 0,0:41:26.76,0:41:29.67,chs&eng,,0,0,0,,{\blur3}- 俄国菜怎么样? - 想喝罗宋汤? 走?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What about this Russian food? - You want borscht? We stop.{\r}
+Dialogue: 0,0:41:29.84,0:41:31.26,chs&eng,,0,0,0,,{\blur3}我才不想喝什么罗宋汤\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l don't want any borscht.{\r}
+Dialogue: 0,0:41:31.55,0:41:34.55,chs&eng,,0,0,0,,{\blur3}我们现在打平了 （俄语）是吧?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}So now we're even. Da?{\r}
+Dialogue: 0,0:41:34.72,0:41:38.31,chs&eng,,0,0,0,,{\blur3}不 卡特琳娜 今晚上我真得很愉快\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Katrina, no. l had a wonderful time.{\r}
+Dialogue: 0,0:41:38.52,0:41:41.27,chs&eng,,0,0,0,,{\blur3}不过被人扔得很可怕…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}All right. l had an awful time and l almost hurled...{\r}
+Dialogue: 0,0:41:41.48,0:41:45.02,chs&eng,,0,0,0,,{\blur3}…但至少我能跟你在一起\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...but at least l got to spend some time with you.{\r}
+Dialogue: 0,0:41:45.73,0:41:49.02,chs&eng,,0,0,0,,{\blur3}我也很开心\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l had good time too.{\r}
+Dialogue: 0,0:41:50.11,0:41:52.11,chs&eng,,0,0,0,,{\blur3}我为我所做的向你道歉 我只是\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm sorry for what l did. l just{\r}
+Dialogue: 0,0:41:52.28,0:41:56.32,chs&eng,,0,0,0,,{\blur3}我只是想把你留在身边\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l just wanted to keep you around.{\r}
+Dialogue: 0,0:41:57.20,0:41:59.66,chs&eng,,0,0,0,,{\blur3}没关系\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt's okay.{\r}
+Dialogue: 0,0:42:00.70,0:42:03.46,chs&eng,,0,0,0,,{\blur3}你在想什么?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What are you thinking about?{\r}
+Dialogue: 0,0:42:03.62,0:42:06.33,chs&eng,,0,0,0,,{\blur3}俄语"吻我"怎么说?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What's Russian for ''kiss me''?{\r}
+Dialogue: 0,0:42:08.38,0:42:11.09,chs&eng,,0,0,0,,{\blur3}我小声告诉你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l whisper it.{\r}
+Dialogue: 0,0:42:23.85,0:42:27.81,chs&eng,,0,0,0,,{\blur3}这样的翻译很准\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt doesn't seem to lose anything in the translation.{\r}
+Dialogue: 0,0:42:30.77,0:42:32.94,chs&eng,,0,0,0,,{\blur3}你知道 康那利…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You know, Konali...{\r}
+Dialogue: 0,0:42:33.11,0:42:36.28,chs&eng,,0,0,0,,{\blur3}…做了很多坏事\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...he's done many bad things.{\r}
+Dialogue: 0,0:42:36.65,0:42:38.49,chs&eng,,0,0,0,,{\blur3}但他把你带到了我身边\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}But he brought you here.{\r}
+Dialogue: 0,0:42:40.32,0:42:42.83,chs&eng,,0,0,0,,{\blur3}康那利晚上会在哪里?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Where does Konali hang out at night?{\r}
+Dialogue: 0,0:42:42.99,0:42:47.20,chs&eng,,0,0,0,,{\blur3}- 赌场 - 我突然有种想赌一把的冲动\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- The casino. - Suddenly l feel the need to gamble.{\r}
+Dialogue: 0,0:42:53.34,0:42:57.01,chs&eng,,0,0,0,,{\blur3}停止下注了 停止下注了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No more bets, please. No more bets.{\r}
+Dialogue: 0,0:42:58.51,0:43:01.68,chs&eng,,0,0,0,,{\blur3}康那利先生 见到您真是高兴\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Mr. Konali, always a pleasure to see you, sir.{\r}
+Dialogue: 0,0:43:01.88,0:43:04.68,chs&eng,,0,0,0,,{\blur3}雅克 请把康那利先生带到他的桌旁\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Jacquot, would you show Mr. Konali to his table?{\r}
+Dialogue: 0,0:43:06.26,0:43:07.85,chs&eng,,0,0,0,,{\blur3}那就是他\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That's him.{\r}
+Dialogue: 0,0:43:08.06,0:43:10.27,chs&eng,,0,0,0,,{\blur3}请下注吧\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Place your bets.{\r}
+Dialogue: 0,0:43:10.43,0:43:13.85,chs&eng,,0,0,0,,{\blur3}- 愿您玩得开心 先生 - 万一他发现你是警察怎么办?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Have a nice evening, sir. - What if he finds out you're cop?{\r}
+Dialogue: 0,0:43:14.02,0:43:17.90,chs&eng,,0,0,0,,{\blur3}噢 他会发现的 在我逮捕他的时候\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, he will, when l arrest him.{\r}
+Dialogue: 0,0:43:18.78,0:43:22.82,chs&eng,,0,0,0,,{\blur3}待者 来杯玛格丽塔\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Bartender, margarita, please.{\r}
+Dialogue: 0,0:43:42.30,0:43:46.55,chs&eng,,0,0,0,,{\blur3}- 请吧 邦德先生 - 我想我还是要毕雷矿泉水吧 瓶装的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- There you go, Monsieur Bond. - How about a Perrier in a bottle?{\r}
+Dialogue: 0,0:43:49.97,0:43:52.05,chs&eng,,0,0,0,,{\blur3}"他怎能这样做?
+Dialogue: 0,0:43:53.09,0:43:56.30,chs&eng,,0,0,0,,{\blur3}"他为何这样做?
+Dialogue: 0,0:43:57.69,0:43:59.15,chs&eng,,0,0,0,,{\blur3}- 喔噢! - "他从未这样做过\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Whoa.{\r}
+Dialogue: 0,0:44:02.77,0:44:05.77,chs&eng,,0,0,0,,{\blur3}"我是否伤心?
+Dialogue: 0,0:44:06.36,0:44:11.02,chs&eng,,0,0,0,,{\blur3}"我是否伤心?
+Dialogue: 0,0:44:11.36,0:44:19.78,chs&eng,,0,0,0,,{\blur3}"我的双眼会告诉你
+Dialogue: 0,0:44:20.79,0:44:23.62,chs&eng,,0,0,0,,{\blur3}"我是否伤心?
+Dialogue: 0,0:44:24.63,0:44:29.62,chs&eng,,0,0,0,,{\blur3}"这是命中注定
+Dialogue: 0,0:44:30.71,0:44:32.13,chs&eng,,0,0,0,,{\blur3}"如果他愿意"
+Dialogue: 0,0:44:38.30,0:44:39.72,chs&eng,,0,0,0,,{\blur3}啊…噢
+Dialogue: 0,0:44:40.02,0:44:41.48,chs&eng,,0,0,0,,{\blur3}不错吧 啊 康那利先生?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Not bad, huh, Mr. Konali?{\r}
+Dialogue: 0,0:44:41.69,0:44:44.60,chs&eng,,0,0,0,,{\blur3}我从没见过这样的小妖精\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Never before have l seen such an apparition.{\r}
+Dialogue: 0,0:44:44.81,0:44:47.19,chs&eng,,0,0,0,,{\blur3}嘿 快起来吧\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let's get up.{\r}
+Dialogue: 0,0:44:47.36,0:44:49.61,chs&eng,,0,0,0,,{\blur3}啊 是\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Right.{\r}
+Dialogue: 0,0:44:50.36,0:44:52.94,chs&eng,,0,0,0,,{\blur3}真有女人味\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Such a vision of womanhood.{\r}
+Dialogue: 0,0:44:58.16,0:45:01.90,chs&eng,,0,0,0,,{\blur3}"曾几何时
+Dialogue: 0,0:45:02.54,0:45:07.24,chs&eng,,0,0,0,,{\blur3}"我是他的唯一
+Dialogue: 0,0:45:07.67,0:45:16.29,chs&eng,,0,0,0,,{\blur3}"但现在却如此孤独
+Dialogue: 0,0:45:16.51,0:45:19.25,chs&eng,,0,0,0,,{\blur3}"噢 宝贝儿
+Dialogue: 0,0:45:19.84,0:45:23.26,chs&eng,,0,0,0,,{\blur3}"我是否伤心?
+Dialogue: 0,0:45:24.85,0:45:28.55,chs&eng,,0,0,0,,{\blur3}"直到今天
+Dialogue: 0,0:45:29.27,0:45:35.27,chs&eng,,0,0,0,,{\blur3}"现在他已离去
+Dialogue: 0,0:45:36.02,0:45:47.28,chs&eng,,0,0,0,,{\blur3}"我是否伤心?
+Dialogue: 0,0:45:48.58,0:45:51.62,chs&eng,,0,0,0,,{\blur3}- "噢 是的" - 康那利先生 这是黛比\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Oh, yeah. - Mr. Konali, meet Debbie.{\r}
+Dialogue: 0,0:45:51.79,0:45:56.55,chs&eng,,0,0,0,,{\blur3}黛比 你的名字像首歌\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Debbie. The name sings to me.{\r}
+Dialogue: 0,0:45:57.05,0:46:00.01,chs&eng,,0,0,0,,{\blur3}黛 比\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Debbie{\r}
+Dialogue: 0,0:46:01.30,0:46:02.80,chs&eng,,0,0,0,,{\blur3}- 耶! - 啊!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Yeah! - Ah.{\r}
+Dialogue: 0,0:46:04.26,0:46:07.68,chs&eng,,0,0,0,,{\blur3}我敢说她成功了 我马上回来\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'd say she's in. Be right back.{\r}
+Dialogue: 0,0:46:17.90,0:46:22.19,chs&eng,,0,0,0,,{\blur3}- 您能给我签个名吗? - 嘿 我们老板正忙着呢\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Could l get an autograph? - Hey, the boss is busy.{\r}
+Dialogue: 0,0:46:22.36,0:46:25.95,chs&eng,,0,0,0,,{\blur3}- 对不起 我只耽误几秒钟 - 我说了 老板正忙着\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Sorry. This'll only take a second. - l said, the boss is busy.{\r}
+Dialogue: 0,0:46:26.12,0:46:29.62,chs&eng,,0,0,0,,{\blur3}- 噢 上帝 - 我跟你说 我们为什么不…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Oh, God. - l tell you what. Why don't we... .{\r}
+Dialogue: 0,0:46:29.79,0:46:32.20,chs&eng,,0,0,0,,{\blur3}…抛硬币赌一下呢? 如果我赢了…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Why don't we flip for it? lf l win...{\r}
+Dialogue: 0,0:46:32.37,0:46:34.04,chs&eng,,0,0,0,,{\blur3}…就给我签名\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...l get the autograph.{\r}
+Dialogue: 0,0:46:34.21,0:46:36.42,chs&eng,,0,0,0,,{\blur3}如果你赢了 我马上就离开\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lf you win, l go away.{\r}
+Dialogue: 0,0:46:36.58,0:46:38.38,chs&eng,,0,0,0,,{\blur3}准备好了? 下注吧!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ready? Call it.{\r}
+Dialogue: 0,0:46:46.05,0:46:48.43,chs&eng,,0,0,0,,{\blur3}请您给费雷迪签个名\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lf you could just make it out to Freddie.{\r}
+Dialogue: 0,0:46:48.59,0:46:49.85,chs&eng,,0,0,0,,{\blur3}嘿 孩子\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, kid.{\r}
+Dialogue: 0,0:46:50.22,0:46:53.31,chs&eng,,0,0,0,,{\blur3}- 有工作吗? - 没有 我只是来这钓鱼的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You got a job? - No. l'm just here for the herring.{\r}
+Dialogue: 0,0:46:54.10,0:46:55.73,chs&eng,,0,0,0,,{\blur3}你可以跟着我干\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You should come work for me.{\r}
+Dialogue: 0,0:46:58.85,0:47:01.56,chs&eng,,0,0,0,,{\blur3}像你这样的孩子很有前途\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Kid like you can go far.{\r}
+Dialogue: 0,0:47:01.73,0:47:04.90,chs&eng,,0,0,0,,{\blur3}你是牙医吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Do you offer a dental plan?{\r}
+Dialogue: 0,0:47:07.70,0:47:09.78,chs&eng,,0,0,0,,{\blur3}我喜欢这个孩子!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l love this kid!{\r}
+Dialogue: 0,0:47:09.95,0:47:11.66,chs&eng,,0,0,0,,{\blur3}好 好 好\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Well, well, well.{\r}
+Dialogue: 0,0:47:11.82,0:47:15.33,chs&eng,,0,0,0,,{\blur3}你们就玩你们的化装游戏吧…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You can all go and play your little undercover games...{\r}
+Dialogue: 0,0:47:15.54,0:47:19.08,chs&eng,,0,0,0,,{\blur3}…等时候一到 我就会抓住康那利\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...and when the time is right, l will arrest Konali.{\r}
+Dialogue: 0,0:47:33.72,0:47:35.97,chs&eng,,0,0,0,,{\blur3}给你看些我的宝贝儿的照片\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l want to show you picture of my baby.{\r}
+Dialogue: 0,0:47:36.14,0:47:37.43,chs&eng,,0,0,0,,{\blur3}啊哈\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Uh - huh.{\r}
+Dialogue: 0,0:47:37.60,0:47:39.39,chs&eng,,0,0,0,,{\blur3}这天我把她买回了家\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is the day l brought her home.{\r}
+Dialogue: 0,0:47:39.56,0:47:40.85,chs&eng,,0,0,0,,{\blur3}嗯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hmm.{\r}
+Dialogue: 0,0:47:41.02,0:47:43.35,chs&eng,,0,0,0,,{\blur3}- 这是她的10000英里纪念 - 噢!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}KONALl: Here she is at 1 0,000 miles. CALLAHAN: Ooh.{\r}
+Dialogue: 0,0:47:43.52,0:47:46.36,chs&eng,,0,0,0,,{\blur3}这是她第一次修理之后\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}KONALl: And this is after her first tune - up.{\r}
+Dialogue: 0,0:47:46.56,0:47:47.82,chs&eng,,0,0,0,,{\blur3}嗯哼\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Mm - hm.{\r}
+Dialogue: 0,0:47:48.15,0:47:50.11,chs&eng,,0,0,0,,{\blur3}车真不错\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nice car.{\r}
+Dialogue: 0,0:47:53.40,0:47:57.70,chs&eng,,0,0,0,,{\blur3}- 是你的还是租的? - 只要是我碰过的东西…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Do you own or lease? - Everything l touch...{\r}
+Dialogue: 0,0:47:57.87,0:47:59.78,chs&eng,,0,0,0,,{\blur3}…都是我的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...l own.{\r}
+Dialogue: 0,0:48:02.50,0:48:05.96,chs&eng,,0,0,0,,{\blur3}你的钱肯定很多\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You must have an awfully large payroll.{\r}
+Dialogue: 0,0:48:06.79,0:48:08.83,chs&eng,,0,0,0,,{\blur3}还算够\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Enough about me.{\r}
+Dialogue: 0,0:48:12.09,0:48:14.09,chs&eng,,0,0,0,,{\blur3}告诉我…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Tell me...{\r}
+Dialogue: 0,0:48:14.26,0:48:16.88,chs&eng,,0,0,0,,{\blur3}…这是真发吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...is that your real hair?{\r}
+Dialogue: 0,0:48:18.59,0:48:22.14,chs&eng,,0,0,0,,{\blur3}我的一切…都是真的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Everything about me is real.{\r}
+Dialogue: 0,0:48:23.89,0:48:25.18,chs&eng,,0,0,0,,{\blur3}真的?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Really?{\r}
+Dialogue: 0,0:48:27.02,0:48:28.31,chs&eng,,0,0,0,,{\blur3}真的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Really.{\r}
+Dialogue: 0,0:48:28.48,0:48:32.57,chs&eng,,0,0,0,,{\blur3}我想知道你的一切 我为你着魔\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l want to know all about you. l find you fascinating.{\r}
+Dialogue: 0,0:48:32.77,0:48:35.61,chs&eng,,0,0,0,,{\blur3}命运让我们相会在此\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We have an appointment with destiny.{\r}
+Dialogue: 0,0:48:36.69,0:48:38.07,chs&eng,,0,0,0,,{\blur3}但不是今晚\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}But not tonight.{\r}
+Dialogue: 0,0:48:39.66,0:48:41.24,chs&eng,,0,0,0,,{\blur3}那在什么时候?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}When?{\r}
+Dialogue: 0,0:48:42.12,0:48:43.99,chs&eng,,0,0,0,,{\blur3}明天\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Tomorrow.{\r}
+Dialogue: 0,0:48:45.79,0:48:47.75,chs&eng,,0,0,0,,{\blur3}有咖啡还有蛋糕\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Coffee and cake.{\r}
+Dialogue: 0,0:48:48.33,0:48:50.08,chs&eng,,0,0,0,,{\blur3}我派车去接你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l send my car for you.{\r}
+Dialogue: 0,0:48:50.87,0:48:52.58,chs&eng,,0,0,0,,{\blur3}真是好车\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nice car.{\r}
+Dialogue: 0,0:49:19.69,0:49:22.86,chs&eng,,0,0,0,,{\blur3}哟嗬! 拉萨指挥官!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yoo - hoo! Commandant Lassard!{\r}
+Dialogue: 0,0:49:23.49,0:49:26.32,chs&eng,,0,0,0,,{\blur3}不管你在哪儿 出来 快出来吧!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come out, come out, wherever you are!{\r}
+Dialogue: 0,0:49:26.66,0:49:29.66,chs&eng,,0,0,0,,{\blur3}- 嘿 给我支烟 - 瞧见康那利的新妞儿了吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}MAN 1 : Give me a cigarette. MAN 2: Did you see Konali's girlfriend?{\r}
+Dialogue: 0,0:49:29.87,0:49:32.41,chs&eng,,0,0,0,,{\blur3}美国佬\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}MAN 1 : American - ski.{\r}
+Dialogue: 0,0:49:35.12,0:49:37.54,chs&eng,,0,0,0,,{\blur3}噢 领带不错\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, nice tie - ski.{\r}
+Dialogue: 0,0:49:44.84,0:49:48.05,chs&eng,,0,0,0,,{\blur3}嘿 给我来瓶伏特加\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, get me some vodka.{\r}
+Dialogue: 0,0:50:09.20,0:50:10.61,chs&eng,,0,0,0,,{\blur3}可恶!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Damn!{\r}
+Dialogue: 0,0:50:10.74,0:50:14.95,chs&eng,,0,0,0,,{\blur3}干嘛不试试"俄罗斯之爱"?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Why don't you try ''from Russia with love''?{\r}
+Dialogue: 0,0:50:18.08,0:50:20.91,chs&eng,,0,0,0,,{\blur3}"俄罗斯之爱"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}''Russia with love. ''{\r}
+Dialogue: 0,0:50:21.87,0:50:24.00,chs&eng,,0,0,0,,{\blur3}- 你是谁? - 不关你事\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}CONNORS: Who are you? - None of your business.{\r}
+Dialogue: 0,0:50:24.17,0:50:26.59,chs&eng,,0,0,0,,{\blur3}- 你在这干什么? - 玩游戏\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What are you doing here? - Playing games.{\r}
+Dialogue: 0,0:50:27.76,0:50:30.59,chs&eng,,0,0,0,,{\blur3}嘿 停下!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, knock it off.{\r}
+Dialogue: 0,0:50:32.09,0:50:34.09,chs&eng,,0,0,0,,{\blur3}嘿 停下!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, cut it out.{\r}
+Dialogue: 0,0:50:34.60,0:50:36.56,chs&eng,,0,0,0,,{\blur3}我知道你要什么…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l know what you want...{\r}
+Dialogue: 0,0:50:36.72,0:50:38.93,chs&eng,,0,0,0,,{\blur3}…但你得不到\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...but you can't have it.{\r}
+Dialogue: 0,0:50:40.23,0:50:42.31,chs&eng,,0,0,0,,{\blur3}- 你怎么了? - 你知道吗…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What's wrong with you? - Did you know...{\r}
+Dialogue: 0,0:50:42.48,0:50:47.02,chs&eng,,0,0,0,,{\blur3}…我已经连着72小时没吃东西了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...that l have been in this room for 72 hours straight with no food?{\r}
+Dialogue: 0,0:50:47.77,0:50:50.28,chs&eng,,0,0,0,,{\blur3}这屋里只有我…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Just me...{\r}
+Dialogue: 0,0:50:51.40,0:50:52.78,chs&eng,,0,0,0,,{\blur3}…和这只小熊\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...and the bear.{\r}
+Dialogue: 0,0:50:52.95,0:50:54.95,chs&eng,,0,0,0,,{\blur3}没吃东西?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No food?{\r}
+Dialogue: 0,0:50:55.41,0:50:56.91,chs&eng,,0,0,0,,{\blur3}没吃\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No.{\r}
+Dialogue: 0,0:50:57.07,0:50:58.33,chs&eng,,0,0,0,,{\blur3}那兹饼干怎么样?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nuts?{\r}
+Dialogue: 0,0:51:00.79,0:51:03.95,chs&eng,,0,0,0,,{\blur3}- 你的小游戏结束了 - 不 还没有!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Your little game is over. - No, not yet.{\r}
+Dialogue: 0,0:51:04.12,0:51:06.54,chs&eng,,0,0,0,,{\blur3}明天一切都会结束…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Tomorrow it'll all be over...{\r}
+Dialogue: 0,0:51:06.92,0:51:09.46,chs&eng,,0,0,0,,{\blur3}…康那利就能控制全世界!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...and Konali will have the power.{\r}
+Dialogue: 0,0:51:09.67,0:51:12.30,chs&eng,,0,0,0,,{\blur3}现在能让我起来了吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Could you let me up now, please?{\r}
+Dialogue: 0,0:51:12.46,0:51:14.38,chs&eng,,0,0,0,,{\blur3}我的期限已经快到了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm on kind of a deadline.{\r}
+Dialogue: 0,0:51:18.39,0:51:20.22,chs&eng,,0,0,0,,{\blur3}只要康那利说句话…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And with Konali...{\r}
+Dialogue: 0,0:51:20.39,0:51:23.47,chs&eng,,0,0,0,,{\blur3}…我的期限就到了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...he takes ''deadline'' literally.{\r}
+Dialogue: 0,0:51:27.64,0:51:30.06,chs&eng,,0,0,0,,{\blur3}我要让全世界的人见识一下…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm about to show the world something bigger...{\r}
+Dialogue: 0,0:51:30.23,0:51:33.57,chs&eng,,0,0,0,,{\blur3}…他们从未见过的伟大的事情\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...than they have ever seen in their puny existence.{\r}
+Dialogue: 0,0:51:33.73,0:51:35.94,chs&eng,,0,0,0,,{\blur3}但是…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}But...{\r}
+Dialogue: 0,0:51:36.78,0:51:40.32,chs&eng,,0,0,0,,{\blur3}…我想先让你知道\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...l want to show you my thing first.{\r}
+Dialogue: 0,0:51:41.16,0:51:44.41,chs&eng,,0,0,0,,{\blur3}是不是能在我脖子上绕圈的东西?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}ls it something l could wrap around my neck?{\r}
+Dialogue: 0,0:51:44.78,0:51:46.37,chs&eng,,0,0,0,,{\blur3}你很激动\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're warm.{\r}
+Dialogue: 0,0:51:46.54,0:51:50.37,chs&eng,,0,0,0,,{\blur3}是能让我玩的东西?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}ls it something l could play with?{\r}
+Dialogue: 0,0:51:50.54,0:51:54.84,chs&eng,,0,0,0,,{\blur3}- 你有点着急了 - 噢 我快受不了了 康尼\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You're getting warmer. - Oh, the suspense is killing me, Koni.{\r}
+Dialogue: 0,0:51:55.00,0:51:58.67,chs&eng,,0,0,0,,{\blur3}- 告诉我吧 - 是个游戏!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Tell me what it is. - lt's a game!{\r}
+Dialogue: 0,0:51:59.72,0:52:01.72,chs&eng,,0,0,0,,{\blur3}但不是一般的游戏\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}But not just any game.{\r}
+Dialogue: 0,0:52:01.88,0:52:03.84,chs&eng,,0,0,0,,{\blur3}是旧游戏的新版本\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}New version of old game...{\r}
+Dialogue: 0,0:52:04.01,0:52:06.97,chs&eng,,0,0,0,,{\blur3}- 我会赢得一切… - 噢!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- ...where l become big winner... - Oh.{\r}
+Dialogue: 0,0:52:07.14,0:52:10.68,chs&eng,,0,0,0,,{\blur3}- 通过一把神秘钥匙的帮助 - 神秘钥匙?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- ...with the help of a secret key. - Secret key?{\r}
+Dialogue: 0,0:52:10.85,0:52:12.85,chs&eng,,0,0,0,,{\blur3}钥匙?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Key?{\r}
+Dialogue: 0,0:52:15.02,0:52:17.19,chs&eng,,0,0,0,,{\blur3}- 你在干嘛? - 哦…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What are you doing? - Uh... .{\r}
+Dialogue: 0,0:52:18.44,0:52:20.36,chs&eng,,0,0,0,,{\blur3}没什么\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nothing.{\r}
+Dialogue: 0,0:52:20.53,0:52:22.78,chs&eng,,0,0,0,,{\blur3}老板要从这间屋里拿他的电脑钥匙\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Boss wants his computer key from his office.{\r}
+Dialogue: 0,0:52:22.99,0:52:25.32,chs&eng,,0,0,0,,{\blur3}不在这 在他的另一间办公室里…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt's not here. lt's at his other office...{\r}
+Dialogue: 0,0:52:25.49,0:52:27.70,chs&eng,,0,0,0,,{\blur3}…在酒店里\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...in the restaurant.{\r}
+Dialogue: 0,0:52:28.16,0:52:29.70,chs&eng,,0,0,0,,{\blur3}再见\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Bye.{\r}
+Dialogue: 0,0:53:03.07,0:53:04.36,chs&eng,,0,0,0,,{\blur3}喔啊!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Whoa!{\r}
+Dialogue: 0,0:53:04.53,0:53:07.07,chs&eng,,0,0,0,,{\blur3}是激光报警器 我们只要一踏上地板…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}That's a laser grid. We set one foot on that floor...{\r}
+Dialogue: 0,0:53:07.24,0:53:09.82,chs&eng,,0,0,0,,{\blur3}…就会触动这里所有的警报\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...and every alarm in this place goes off.{\r}
+Dialogue: 0,0:53:09.99,0:53:12.87,chs&eng,,0,0,0,,{\blur3}我们必须想办法到达开关那里\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We've got to get to that cutoff switch over there.{\r}
+Dialogue: 0,0:53:53.49,0:53:56.66,chs&eng,,0,0,0,,{\blur3}嘿 塔克 我找到了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, Tack, l got it.{\r}
+Dialogue: 0,0:53:57.78,0:54:01.41,chs&eng,,0,0,0,,{\blur3}好 靠后站 只有这样才能把保险箱弄开\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Okay, stand back. There's only one way to get this safe open.{\r}
+Dialogue: 0,0:54:01.62,0:54:06.00,chs&eng,,0,0,0,,{\blur3}等一下 你把这玩意儿炸开 康那利就知道我们在这儿了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Wait a minute. You blow that thing, Konali's gonna know we were here.{\r}
+Dialogue: 0,0:54:06.17,0:54:09.92,chs&eng,,0,0,0,,{\blur3}嗯 那我们怎么办?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hmm. What are we gonna do?{\r}
+Dialogue: 0,0:54:33.32,0:54:35.36,chs&eng,,0,0,0,,{\blur3}你可真神奇\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're amazing.{\r}
+Dialogue: 0,0:54:37.82,0:54:39.78,chs&eng,,0,0,0,,{\blur3}这没什么钥匙\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There's no key in here.{\r}
+Dialogue: 0,0:54:54.92,0:54:56.67,chs&eng,,0,0,0,,{\blur3}钥匙!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Keys!{\r}
+Dialogue: 0,0:54:56.84,0:55:00.17,chs&eng,,0,0,0,,{\blur3}- 快走 你个小骗子 - 别伤害我 好吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Move, you little weasel. - Don't hurt me, okay{\r}
+Dialogue: 0,0:55:01.88,0:55:04.68,chs&eng,,0,0,0,,{\blur3}- 嘿! - 亚当\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Hey! - Adam.{\r}
+Dialogue: 0,0:55:05.80,0:55:09.18,chs&eng,,0,0,0,,{\blur3}- 游戏带来了吗? - 当然\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You have game? - Sure.{\r}
+Dialogue: 0,0:55:09.77,0:55:12.35,chs&eng,,0,0,0,,{\blur3}我超越了我自己 这个游戏…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l surpassed myself. This game...{\r}
+Dialogue: 0,0:55:12.52,0:55:14.77,chs&eng,,0,0,0,,{\blur3}…比以往的任何游戏都要伟大\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...will be even bigger than the last one.{\r}
+Dialogue: 0,0:55:14.98,0:55:17.77,chs&eng,,0,0,0,,{\blur3}世界是我的了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The world is mine.{\r}
+Dialogue: 0,0:55:19.19,0:55:21.86,chs&eng,,0,0,0,,{\blur3}去复制几份 我们要测试一下\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Go run off a dozen copies. We have to test it.{\r}
+Dialogue: 0,0:55:22.07,0:55:26.07,chs&eng,,0,0,0,,{\blur3}把它们送给我们的几个游戏迷：\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Send it to some of our more dedicated game players:{\r}
+Dialogue: 0,0:55:26.28,0:55:28.28,chs&eng,,0,0,0,,{\blur3}总统 市长…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The president, the mayor...{\r}
+Dialogue: 0,0:55:28.45,0:55:31.04,chs&eng,,0,0,0,,{\blur3}…拉科夫局长\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...Chief of Police Rakov.{\r}
+Dialogue: 0,0:55:31.24,0:55:33.70,chs&eng,,0,0,0,,{\blur3}我现在能得到酬金了吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Can l get paid now?{\r}
+Dialogue: 0,0:55:33.87,0:55:35.16,chs&eng,,0,0,0,,{\blur3}噢\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh.{\r}
+Dialogue: 0,0:55:35.37,0:55:37.00,chs&eng,,0,0,0,,{\blur3}在邮包里\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt's in the mail.{\r}
+Dialogue: 0,0:55:37.71,0:55:40.00,chs&eng,,0,0,0,,{\blur3}你也是\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And so are you.{\r}
+Dialogue: 0,0:55:42.92,0:55:45.63,chs&eng,,0,0,0,,{\blur3}噢 不 又来了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, no. Not again.{\r}
+Dialogue: 0,0:55:45.76,0:55:47.47,chs&eng,,0,0,0,,{\blur3}还有…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}So...{\r}
+Dialogue: 0,0:55:47.68,0:55:51.43,chs&eng,,0,0,0,,{\blur3}- …你们有没有抓住拉萨的队员? - 没有\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- ...did you get any of Lassard's team? - No.{\r}
+Dialogue: 0,0:55:53.77,0:55:56.27,chs&eng,,0,0,0,,{\blur3}但你们确实白领拉萨了 是吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}But you did get Lassard, yes?{\r}
+Dialogue: 0,0:55:56.43,0:55:58.10,chs&eng,,0,0,0,,{\blur3}没有\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}No.{\r}
+Dialogue: 0,0:56:00.27,0:56:02.82,chs&eng,,0,0,0,,{\blur3}你们这群废物!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You bumbling nincompoops!{\r}
+Dialogue: 0,0:56:02.98,0:56:06.07,chs&eng,,0,0,0,,{\blur3}你们还配叫自己男人?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You call yourselves men?!{\r}
+Dialogue: 0,0:56:07.07,0:56:10.86,chs&eng,,0,0,0,,{\blur3}我们肯定能找人帮忙\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There must be someone we can call.{\r}
+Dialogue: 0,0:56:12.95,0:56:16.12,chs&eng,,0,0,0,,{\blur3}嗯 我们还没找过警察\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We haven't called the police.{\r}
+Dialogue: 0,0:56:52.44,0:56:55.28,chs&eng,,0,0,0,,{\blur3}"致美国警察们：\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}''To American police - ski:{\r}
+Dialogue: 0,0:56:55.45,0:56:57.66,chs&eng,,0,0,0,,{\blur3}"今晚 波尔绍剧院…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Bolshoi Theatre, tonight.{\r}
+Dialogue: 0,0:56:57.91,0:57:01.83,chs&eng,,0,0,0,,{\blur3}"…康那利进行偷来的武器交易\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Konali to buy stolen shipment of weapons.{\r}
+Dialogue: 0,0:57:01.99,0:57:03.29,chs&eng,,0,0,0,,{\blur3}"你们一定要制止他\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You must stop him.{\r}
+Dialogue: 0,0:57:03.45,0:57:05.96,chs&eng,,0,0,0,,{\blur3}"一位朋友"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}A friend. ''{\r}
+Dialogue: 0,0:57:07.12,0:57:09.00,chs&eng,,0,0,0,,{\blur3}你知道我不懂俄语\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You know l don't speak Russian.{\r}
+Dialogue: 0,0:57:09.17,0:57:11.50,chs&eng,,0,0,0,,{\blur3}但是 亲爱的 这只是场芭蕾\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}But, sweetheart, it's a ballet.{\r}
+Dialogue: 0,0:57:11.67,0:57:15.13,chs&eng,,0,0,0,,{\blur3}嘿 谁要榛果 新鲜的榛果! 接着!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, who wants some nuts?! l got fresh nuts over here. Catch.{\r}
+Dialogue: 0,0:57:15.67,0:57:19.22,chs&eng,,0,0,0,,{\blur3}给你 先生! 噢 不 你那太远 够不着\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}There you go, mister. No, it didn't reach you long enough.{\r}
+Dialogue: 0,0:57:19.34,0:57:21.97,chs&eng,,0,0,0,,{\blur3}二层的 接着!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Up, topside!{\r}
+Dialogue: 0,0:57:22.47,0:57:25.47,chs&eng,,0,0,0,,{\blur3}哈 班尼先生 给你!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l gotcha! There you go, Mr. Benny!{\r}
+Dialogue: 0,0:57:25.73,0:57:28.60,chs&eng,,0,0,0,,{\blur3}- 啊! - 对不起 女士!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ah! Sorry, lady.{\r}
+Dialogue: 0,0:57:30.98,0:57:33.90,chs&eng,,0,0,0,,{\blur3}谁还要? 这还有!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Who wants nuts? Right over here!{\r}
+Dialogue: 0,0:58:12.56,0:58:16.23,chs&eng,,0,0,0,,{\blur3}让开 老女人 噢 对不起 请原谅 夫人\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me, babushka. l'm sorry. Excuse me, ma'am.{\r}
+Dialogue: 0,0:58:16.40,0:58:18.48,chs&eng,,0,0,0,,{\blur3}- 您的票 先生 - 我没票\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Ticket, please. - l don't have a ticket.{\r}
+Dialogue: 0,0:58:18.65,0:58:21.86,chs&eng,,0,0,0,,{\blur3}- 您需要买张票 - 我是个美国警察…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You need a ticket. - l'm an American police captain...{\r}
+Dialogue: 0,0:58:22.03,0:58:24.65,chs&eng,,0,0,0,,{\blur3}…正在执行公务 我不需要什么票\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...on assignment. l don't need a ticket.{\r}
+Dialogue: 0,0:58:24.82,0:58:27.95,chs&eng,,0,0,0,,{\blur3}- 很抱歉 您必须得买票 - 你难道还不明白?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- l'm sorry. You must have ticket. - Don't you understand?{\r}
+Dialogue: 0,0:58:28.12,0:58:30.12,chs&eng,,0,0,0,,{\blur3}我要进去逮捕罪犯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l have to arrest somebody in there.{\r}
+Dialogue: 0,0:58:30.28,0:58:32.70,chs&eng,,0,0,0,,{\blur3}没有票您不能进去逮捕罪犯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You cannot arrest anyone without a ticket.{\r}
+Dialogue: 0,0:58:32.87,0:58:37.04,chs&eng,,0,0,0,,{\blur3}你这样想? 好吧 我们走着瞧\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You think so? Well, we'll just see about that.{\r}
+Dialogue: 0,0:58:37.21,0:58:40.50,chs&eng,,0,0,0,,{\blur3}对不起 让开 让开\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me. Make way. Make way.{\r}
+Dialogue: 0,0:59:27.00,0:59:29.17,chs&eng,,0,0,0,,{\blur3}肯定是个替补\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Must be a replacement.{\r}
+Dialogue: 0,0:59:31.51,0:59:34.76,chs&eng,,0,0,0,,{\blur3}- 哈里斯上尉 快走开! - 塔克贝利!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Captain Harris! Get out of here. HARRlS: Tackleberry!{\r}
+Dialogue: 0,0:59:34.93,0:59:36.55,chs&eng,,0,0,0,,{\blur3}- 快! - 你在这干什么?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Now! HARRlS: What are you doing here?{\r}
+Dialogue: 0,0:59:36.80,0:59:38.10,chs&eng,,0,0,0,,{\blur3}我们该下去!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We've got to get off!{\r}
+Dialogue: 0,0:59:38.56,0:59:40.31,chs&eng,,0,0,0,,{\blur3}快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Go!{\r}
+Dialogue: 0,0:59:44.81,0:59:46.06,chs&eng,,0,0,0,,{\blur3}噢!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh!{\r}
+Dialogue: 0,0:59:46.27,0:59:48.40,chs&eng,,0,0,0,,{\blur3}- 塔克贝利 康那利! - 这边!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Tackleberry! Konali! - Over here.{\r}
+Dialogue: 0,0:59:48.57,0:59:50.90,chs&eng,,0,0,0,,{\blur3}- 起开! - 我们应该离开这!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}DANCER: Go away! - We gotta get out of here!{\r}
+Dialogue: 0,0:59:51.07,0:59:52.32,chs&eng,,0,0,0,,{\blur3}是康那利!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt's Konali!{\r}
+Dialogue: 0,0:59:55.07,0:59:58.78,chs&eng,,0,0,0,,{\blur3}快点 别让他看见我们! 快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on, before he sees us! Come on!{\r}
+Dialogue: 0,1:00:05.66,1:00:08.79,chs&eng,,0,0,0,,{\blur3}我看见康那利了! 康那利! 我看见康那利了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l saw Konali. Konali! l saw Konali!{\r}
+Dialogue: 0,1:00:08.96,1:00:11.96,chs&eng,,0,0,0,,{\blur3}- 那是康那利! 把我放下来! - 我知道 长官 我知道!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- That's Konali! Put me down! - l know, sir! l know, sir!{\r}
+Dialogue: 0,1:00:12.13,1:00:14.55,chs&eng,,0,0,0,,{\blur3}- 康那利! - 我知道!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Konali! - l know!{\r}
+Dialogue: 0,1:00:16.42,1:00:17.68,chs&eng,,0,0,0,,{\blur3}不许动!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Freeze!{\r}
+Dialogue: 0,1:00:18.84,1:00:20.14,chs&eng,,0,0,0,,{\blur3}你被捕了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're under arrest.{\r}
+Dialogue: 0,1:00:20.30,1:00:22.51,chs&eng,,0,0,0,,{\blur3}- 你们在干什么? - 逮捕你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What are you doing? - Arresting you.{\r}
+Dialogue: 0,1:00:22.68,1:00:25.31,chs&eng,,0,0,0,,{\blur3}他是我的! 我要抓住他!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}His butt is mine! l'll arrest him!{\r}
+Dialogue: 0,1:00:25.52,1:00:28.14,chs&eng,,0,0,0,,{\blur3}因为你卖给罪犯武器\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}For selling weapons to a known criminal.{\r}
+Dialogue: 0,1:00:32.48,1:00:34.32,chs&eng,,0,0,0,,{\blur3}"阳光孩子"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}''Sunshine Kids. ''{\r}
+Dialogue: 0,1:00:38.15,1:00:40.86,chs&eng,,0,0,0,,{\blur3}我们中计了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}We've been set up.{\r}
+Dialogue: 0,1:00:43.99,1:00:46.66,chs&eng,,0,0,0,,{\blur3}我对你们感到非常厌恶\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l am completely disgusted with you all.{\r}
+Dialogue: 0,1:00:46.87,1:00:50.91,chs&eng,,0,0,0,,{\blur3}我很高兴我的好朋友拉萨不知道这事\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l am glad my good friend, Commandant Lassard, knew nothing about this.{\r}
+Dialogue: 0,1:00:51.08,1:00:53.79,chs&eng,,0,0,0,,{\blur3}你们让你们的制服受辱…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You are a disgrace to your uniforms...{\r}
+Dialogue: 0,1:00:54.00,1:00:57.75,chs&eng,,0,0,0,,{\blur3}…也让我尴尬无比\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...and an embarrassment to me.{\r}
+Dialogue: 0,1:00:57.92,1:01:00.26,chs&eng,,0,0,0,,{\blur3}尤里 你知道该怎么办 去吧\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yuri, you know what to do. Do it.{\r}
+Dialogue: 0,1:01:14.85,1:01:17.27,chs&eng,,0,0,0,,{\blur3}从他从莫斯科回来…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ever since he return from Moscow...{\r}
+Dialogue: 0,1:01:17.48,1:01:21.36,chs&eng,,0,0,0,,{\blur3}…我就一直努力想把康那利抓住 哪怕流血牺牲!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...l have been trying to capture Konali red - handed!{\r}
+Dialogue: 0,1:01:22.86,1:01:29.03,chs&eng,,0,0,0,,{\blur3}但现在你们这群跳华尔兹的牛仔把我的工作击了个粉碎!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And now you cowboys waltz in and smash my work to pieces!{\r}
+Dialogue: 0,1:01:30.20,1:01:34.54,chs&eng,,0,0,0,,{\blur3}现在 要是我的人稍微瞧康那利一眼…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}So now, if my police look at Konali wrong...{\r}
+Dialogue: 0,1:01:34.75,1:01:37.54,chs&eng,,0,0,0,,{\blur3}…他都会叫唤这是骚扰!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...Konali will scream harassment!{\r}
+Dialogue: 0,1:01:39.21,1:01:41.04,chs&eng,,0,0,0,,{\blur3}美国人…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Americans...{\r}
+Dialogue: 0,1:01:42.17,1:01:46.05,chs&eng,,0,0,0,,{\blur3}…你们因此被命令离开俄国\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...you are hereby ordered to leave Russia.{\r}
+Dialogue: 0,1:01:47.88,1:01:50.18,chs&eng,,0,0,0,,{\blur3}懂了吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You understand?{\r}
+Dialogue: 0,1:01:52.14,1:01:53.81,chs&eng,,0,0,0,,{\blur3}出去!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get out!{\r}
+Dialogue: 0,1:01:55.64,1:01:57.43,chs&eng,,0,0,0,,{\blur3}在明早3点以前!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}By 3:00 tomorrow!{\r}
+Dialogue: 0,1:02:00.40,1:02:02.48,chs&eng,,0,0,0,,{\blur3}你也是!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Or else!{\r}
+Dialogue: 0,1:02:04.36,1:02:05.65,chs&eng,,0,0,0,,{\blur3}还有你…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And as for you... .{\r}
+Dialogue: 0,1:02:29.42,1:02:33.30,chs&eng,,0,0,0,,{\blur3}长官? 提醒您一下飞机3点起飞\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sir? Wanna remind you the plane leaves at 3:00.{\r}
+Dialogue: 0,1:02:33.47,1:02:35.93,chs&eng,,0,0,0,,{\blur3}在浴室里!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}ln the bathroom.{\r}
+Dialogue: 0,1:02:36.97,1:02:38.81,chs&eng,,0,0,0,,{\blur3}长官?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sir?{\r}
+Dialogue: 0,1:02:42.23,1:02:45.44,chs&eng,,0,0,0,,{\blur3}这个牌子让我觉得有点不对劲\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Something about that sign disturbs me.{\r}
+Dialogue: 0,1:02:46.36,1:02:47.81,chs&eng,,0,0,0,,{\blur3}妈妈\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Mama.{\r}
+Dialogue: 0,1:02:48.61,1:02:51.82,chs&eng,,0,0,0,,{\blur3}- 你想我们应该 ? - 我在你前面\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- What do you say we   ? - l'm way ahead of you.{\r}
+Dialogue: 0,1:03:00.45,1:03:02.04,chs&eng,,0,0,0,,{\blur3}长官?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sir?{\r}
+Dialogue: 0,1:03:02.29,1:03:03.86,chs&eng,,0,0,0,,{\blur3}在浴室里!
+Dialogue: 0,1:03:18.01,1:03:19.33,chs&eng,,0,0,0,,{\blur3}（俄语）不 不 不!
+Dialogue: 0,1:03:19.51,1:03:24.68,chs&eng,,0,0,0,,{\blur3}另一个包 另一个大包! 大包! 把它给我! 噢喔!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The other bag. The other   Big bag - ski, big bag. Here, give it to me. Ow!{\r}
+Dialogue: 0,1:03:25.14,1:03:27.02,chs&eng,,0,0,0,,{\blur3}琼斯! 把我扶起来!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Jones! Get me up!{\r}
+Dialogue: 0,1:03:27.18,1:03:30.15,chs&eng,,0,0,0,,{\blur3}我从未受过这样的奇耻大辱!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l have never been humiliated like this before!{\r}
+Dialogue: 0,1:03:30.31,1:03:33.61,chs&eng,,0,0,0,,{\blur3}- 那你受过其它样的奇耻大辱? - 闭嘴吧 琼斯 闭嘴!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- So you've been humiliated other ways? - Just shut up, Jones.{\r}
+Dialogue: 0,1:03:33.82,1:03:35.48,chs&eng,,0,0,0,,{\blur3}- 噢 是 长官 - 康那斯!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Oh, yes, sir. - Connors!{\r}
+Dialogue: 0,1:03:35.65,1:03:37.86,chs&eng,,0,0,0,,{\blur3}我还以为你不来了呢\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l thought you weren't coming.{\r}
+Dialogue: 0,1:03:40.15,1:03:43.03,chs&eng,,0,0,0,,{\blur3}我不想让我的心碎了现在一切都太晚了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Didn't want my heart to be broken. Now it's too late.{\r}
+Dialogue: 0,1:03:52.00,1:03:53.67,chs&eng,,0,0,0,,{\blur3}卡拉汉! 他们抓走了卡拉汉!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Callahan! They got Callahan!{\r}
+Dialogue: 0,1:03:58.00,1:03:59.84,chs&eng,,0,0,0,,{\blur3}- 怎么回事? - 卡拉汉!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}CALLAHAN: Who the hell? - Callahan!{\r}
+Dialogue: 0,1:04:00.01,1:04:02.55,chs&eng,,0,0,0,,{\blur3}- 康那斯! - 快追!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Connors! HARRlS: Let's go!{\r}
+Dialogue: 0,1:04:02.72,1:04:06.05,chs&eng,,0,0,0,,{\blur3}别管我! 小心你自己!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Don't worry about me! Take care of yourself!{\r}
+Dialogue: 0,1:04:06.60,1:04:09.14,chs&eng,,0,0,0,,{\blur3}快 快 快 快 快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Go! Go! Go! Go!{\r}
+Dialogue: 0,1:04:10.81,1:04:12.73,chs&eng,,0,0,0,,{\blur3}停 停 停 停 停!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Stop! Stop! Stop! Stop!{\r}
+Dialogue: 0,1:04:12.89,1:04:19.02,chs&eng,,0,0,0,,{\blur3}快! 上来! 快 快 快! 走! 快开车! 快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Come on! Move - ski, move - ski, move - ski! Go! Go! Start it up! Go!{\r}
+Dialogue: 0,1:04:19.94,1:04:23.36,chs&eng,,0,0,0,,{\blur3}康那斯! 坚持住! 康那斯!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Connors! Hang on, Connors!{\r}
+Dialogue: 0,1:04:26.24,1:04:27.53,chs&eng,,0,0,0,,{\blur3}闭嘴!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Shut up.{\r}
+Dialogue: 0,1:04:28.91,1:04:31.66,chs&eng,,0,0,0,,{\blur3}军士 你就不能开快点? 让这玩意儿开快点!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sergeant, can't you go any faster? Make this thing go!{\r}
+Dialogue: 0,1:04:31.91,1:04:35.87,chs&eng,,0,0,0,,{\blur3}- 他会死的! - 不 不! 我的队员是不会死的…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}KATRlNA: He's going to get killed! - Nobody on my team gets killed...{\r}
+Dialogue: 0,1:04:36.08,1:04:39.38,chs&eng,,0,0,0,,{\blur3}- …这是命令! - 我会死的!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- ...and that's an order! CONNORS: l'm gonna get killed!{\r}
+Dialogue: 0,1:04:39.54,1:04:40.96,chs&eng,,0,0,0,,{\blur3}呀!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Jeez!{\r}
+Dialogue: 0,1:04:43.30,1:04:45.05,chs&eng,,0,0,0,,{\blur3}把他甩下去!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Shake him off!{\r}
+Dialogue: 0,1:04:52.56,1:04:54.01,chs&eng,,0,0,0,,{\blur3}喔!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Whoa!{\r}
+Dialogue: 0,1:04:54.47,1:04:56.68,chs&eng,,0,0,0,,{\blur3}- 塔克贝利 把你的枪给我! - 是 长官!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Tackleberry, give me your gun. - Yes, sir!{\r}
+Dialogue: 0,1:04:56.89,1:05:01.40,chs&eng,,0,0,0,,{\blur3}这是颗跟踪子弹 只要把它打到车上 我们就能一直跟着它!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This is a locator bullet. lf we can hit the car with it, we can follow it anywhere.{\r}
+Dialogue: 0,1:05:02.23,1:05:03.52,chs&eng,,0,0,0,,{\blur3}是 长官!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Yes, sir!{\r}
+Dialogue: 0,1:05:03.69,1:05:06.23,chs&eng,,0,0,0,,{\blur3}（俄语）好吧 瞧好吧\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sasha, just get me one clean shot.{\r}
+Dialogue: 0,1:05:06.40,1:05:08.95,chs&eng,,0,0,0,,{\blur3}开枪 塔克! 开枪! 快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Fire it, Tack. Fire it, let's go!{\r}
+Dialogue: 0,1:05:10.20,1:05:13.24,chs&eng,,0,0,0,,{\blur3}塔克贝利 干漂亮点! 打中那辆车!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Tackleberry, do something right for a change. Hit that car!{\r}
+Dialogue: 0,1:05:15.66,1:05:16.91,chs&eng,,0,0,0,,{\blur3}打中啦!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Gotcha.{\r}
+Dialogue: 0,1:05:26.25,1:05:28.33,chs&eng,,0,0,0,,{\blur3}（俄语）嘿 同志 美国警察!
+Dialogue: 0,1:05:29.63,1:05:31.59,chs&eng,,0,0,0,,{\blur3}- 哥们 帮帮忙! - 俄国人!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- My buddy! Help! HARRlS: Russkies!{\r}
+Dialogue: 0,1:05:31.76,1:05:33.88,chs&eng,,0,0,0,,{\blur3}俄国人 俄国人 上摩托车!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Russkies, in the motorcycle!{\r}
+Dialogue: 0,1:05:40.43,1:05:43.43,chs&eng,,0,0,0,,{\blur3}快 快 快 快 快 快 快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Go, go, go, go, go, go, go!{\r}
+Dialogue: 0,1:05:49.65,1:05:52.44,chs&eng,,0,0,0,,{\blur3}你听不懂英语吗? 再快点!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Don't you understand English? Faster!{\r}
+Dialogue: 0,1:05:54.20,1:05:56.45,chs&eng,,0,0,0,,{\blur3}这是干什么? 牛仔竞技吗? 快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What is this, a rodeo? Come on!{\r}
+Dialogue: 0,1:06:04.75,1:06:06.29,chs&eng,,0,0,0,,{\blur3}开近点!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Get closer!{\r}
+Dialogue: 0,1:06:18.68,1:06:20.26,chs&eng,,0,0,0,,{\blur3}康那斯!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Connors!{\r}
+Dialogue: 0,1:06:30.31,1:06:34.32,chs&eng,,0,0,0,,{\blur3}康那斯! 因为我的计划你该庆幸你还活着!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Connors! You better be glad you weren't killed, because l've got a plan.{\r}
+Dialogue: 0,1:06:34.48,1:06:36.57,chs&eng,,0,0,0,,{\blur3}快点 上车! 快! 快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hurry up. Move it, move it, move it!{\r}
+Dialogue: 0,1:06:38.44,1:06:40.03,chs&eng,,0,0,0,,{\blur3}它起效了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt works.{\r}
+Dialogue: 0,1:06:48.12,1:06:51.12,chs&eng,,0,0,0,,{\blur3}康那利的别墅
+Dialogue: 0,1:06:52.83,1:06:57.67,chs&eng,,0,0,0,,{\blur3}真丢人! 在我的人面前! 在同族面前!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Shamed. ln front of my men! My peers!{\r}
+Dialogue: 0,1:06:58.46,1:07:01.67,chs&eng,,0,0,0,,{\blur3}- 还有我的妈妈! - 真对不起!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- My mommy! - Sorry about that.{\r}
+Dialogue: 0,1:07:10.39,1:07:13.77,chs&eng,,0,0,0,,{\blur3}你! 你要为你所做的付出代价!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You. You will pay dearly for what you have done!{\r}
+Dialogue: 0,1:07:16.40,1:07:18.02,chs&eng,,0,0,0,,{\blur3}我知道\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l know.{\r}
+Dialogue: 0,1:07:26.16,1:07:30.28,chs&eng,,0,0,0,,{\blur3}- 你得嫁给我! - 哇喔!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You will marry me. - Wow.{\r}
+Dialogue: 0,1:07:30.45,1:07:33.54,chs&eng,,0,0,0,,{\blur3}- 多漂亮的衣服 - 谢谢\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Nice getup. - Thanks.{\r}
+Dialogue: 0,1:07:35.96,1:07:41.29,chs&eng,,0,0,0,,{\blur3}- 我们可以分享一切 - 好的\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- We're going to share everything. - Okay.{\r}
+Dialogue: 0,1:07:53.68,1:07:55.77,chs&eng,,0,0,0,,{\blur3}正中要害!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Right in bull's - eye!{\r}
+Dialogue: 0,1:07:59.31,1:08:04.23,chs&eng,,0,0,0,,{\blur3}我不能相信你的固执! 你本可以拥有一切的!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l cannot believe your obstinacy! You could have had it all!{\r}
+Dialogue: 0,1:08:04.52,1:08:07.82,chs&eng,,0,0,0,,{\blur3}而你却背着我! 我要埋了你!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lnstead you betray me? l am going to bury you!{\r}
+Dialogue: 0,1:08:10.07,1:08:12.53,chs&eng,,0,0,0,,{\blur3}- 噢! - 什么? 什么? 我忙着呢!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Ooh! - What? What? l'm busy!{\r}
+Dialogue: 0,1:08:12.70,1:08:15.16,chs&eng,,0,0,0,,{\blur3}游戏已经进入警局的电脑!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}The game is in the police station computer.{\r}
+Dialogue: 0,1:08:20.96,1:08:23.12,chs&eng,,0,0,0,,{\blur3}进去了 耶!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm in! Yes!{\r}
+Dialogue: 0,1:08:23.29,1:08:28.13,chs&eng,,0,0,0,,{\blur3}现在输入密码 你转过去!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now for the key. My secret code. Turn around.{\r}
+Dialogue: 0,1:08:28.38,1:08:31.05,chs&eng,,0,0,0,,{\blur3}3 4 5 哈!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Three, four, five. KONALl: Yes.{\r}
+Dialogue: 0,1:08:31.34,1:08:36.05,chs&eng,,0,0,0,,{\blur3}商店那准备好了? 我得走了 小蛋糕\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Everything ready at the warehouse? Got to go, cupcake.{\r}
+Dialogue: 0,1:08:37.72,1:08:40.43,chs&eng,,0,0,0,,{\blur3}一会儿再跟人联系 看看你是否回心转意\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l get in touch with you later. See if you change your mind.{\r}
+Dialogue: 0,1:08:40.55,1:08:42.01,chs&eng,,0,0,0,,{\blur3}（俄语）再见!
+Dialogue: 0,1:08:43.85,1:08:45.31,chs&eng,,0,0,0,,{\blur3}啊!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ah!{\r}
+Dialogue: 0,1:08:58.82,1:09:01.16,chs&eng,,0,0,0,,{\blur3}打倒你了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Shoot him.{\r}
+Dialogue: 0,1:09:09.00,1:09:11.13,chs&eng,,0,0,0,,{\blur3}瞧啊 他给我们留了个妞儿\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Look, he left us play toy.{\r}
+Dialogue: 0,1:09:12.59,1:09:14.59,chs&eng,,0,0,0,,{\blur3}我很需要这样\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l really need this.{\r}
+Dialogue: 0,1:09:14.80,1:09:16.72,chs&eng,,0,0,0,,{\blur3}塔克贝利 从左面窗户进去\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Tackleberry, crash the left window.{\r}
+Dialogue: 0,1:09:16.88,1:09:19.47,chs&eng,,0,0,0,,{\blur3}琼斯 康那斯 卡特琳娜 从右边\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Jones, Connors, Katrina, the right window.{\r}
+Dialogue: 0,1:09:19.84,1:09:22.76,chs&eng,,0,0,0,,{\blur3}我跟这些家伙从房顶上进去\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'll go through the roof with the guys.{\r}
+Dialogue: 0,1:09:23.56,1:09:26.85,chs&eng,,0,0,0,,{\blur3}- 从门进怎么样? - 行了 走吧 走吧 走!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- How about the door? - Well, move it, move it, move it.{\r}
+Dialogue: 0,1:09:27.77,1:09:30.10,chs&eng,,0,0,0,,{\blur3}尝尝这个 你个变态!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Take that, perverts!{\r}
+Dialogue: 0,1:09:30.31,1:09:33.69,chs&eng,,0,0,0,,{\blur3}应该是旁边这屋 数到三我们冲进去!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}This next room has to be it. Crash through on the count of three.{\r}
+Dialogue: 0,1:09:33.86,1:09:36.82,chs&eng,,0,0,0,,{\blur3}- 1 2 - 不许动!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- One, two    - Freeze!{\r}
+Dialogue: 0,1:09:36.98,1:09:40.20,chs&eng,,0,0,0,,{\blur3}- 你们听见我喊三了吗? - 我已经控制这里了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Did anyone hear me say ''three''? - l took care of it.{\r}
+Dialogue: 0,1:09:40.82,1:09:42.11,chs&eng,,0,0,0,,{\blur3}- 他在哪? - 他走了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Where is he? - He's gone.{\r}
+Dialogue: 0,1:09:42.57,1:09:45.12,chs&eng,,0,0,0,,{\blur3}康那利已经从这房子里逃走了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Konali has left the building.{\r}
+Dialogue: 0,1:09:45.28,1:09:48.25,chs&eng,,0,0,0,,{\blur3}他得到了某种程序 使得他能进入警局的计算机系统\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Some command let him break into the police computer system.{\r}
+Dialogue: 0,1:09:48.41,1:09:52.12,chs&eng,,0,0,0,,{\blur3}- 如果他真进去了 我们就没办法制止他了 - 康那利的黑客在他的游戏上做了手脚\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- lf he gets in, we can't stop him. - His hacker was working on the game.{\r}
+Dialogue: 0,1:09:52.29,1:09:55.04,chs&eng,,0,0,0,,{\blur3}- 这就是那把神秘的钥匙 - 他们正用船出一批货\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- The key must be on it. CALLAHAN: They're sending a shipment.{\r}
+Dialogue: 0,1:09:55.21,1:09:57.84,chs&eng,,0,0,0,,{\blur3}- 他们在他的商店 - 走!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- They're at the warehouse. - Let's go.{\r}
+Dialogue: 0,1:09:58.92,1:10:03.17,chs&eng,,0,0,0,,{\blur3}等会儿 塔林斯基说如果你们三点还不走就会缉捕你们\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Wait. Talinsky said if you're not on the 3:00 flight he'll arrest you.{\r}
+Dialogue: 0,1:10:03.38,1:10:06.64,chs&eng,,0,0,0,,{\blur3}她说的对 我们快走\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}She's right. Let's go anyway.{\r}
+Dialogue: 0,1:10:11.27,1:10:14.35,chs&eng,,0,0,0,,{\blur3}- 没问题 - 在那! 是他们! 快 快 快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}JONES: No problem. - There, that's them! Go, go, go!{\r}
+Dialogue: 0,1:10:14.52,1:10:16.65,chs&eng,,0,0,0,,{\blur3}- 是塔林斯基 - 行了 这下有麻烦了\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}CALLAHAN: lt's Talinsky. - Okay, it's a problem.{\r}
+Dialogue: 0,1:10:23.40,1:10:25.48,chs&eng,,0,0,0,,{\blur3}（俄语）
+Dialogue: 0,1:10:47.80,1:10:51.22,chs&eng,,0,0,0,,{\blur3}好 很好\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Good. Good.{\r}
+Dialogue: 0,1:10:51.39,1:10:55.22,chs&eng,,0,0,0,,{\blur3}48小时后 全世界的商店里都会有"新游戏"销售\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}ln 48 hours, ''The New Game'' will be in stores worldwide.{\r}
+Dialogue: 0,1:11:05.40,1:11:07.23,chs&eng,,0,0,0,,{\blur3}我们怎么停车?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}How we gonna park?{\r}
+Dialogue: 0,1:11:14.20,1:11:15.95,chs&eng,,0,0,0,,{\blur3}（俄语）天哪!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Sasha!{\r}
+Dialogue: 0,1:11:23.92,1:11:28.30,chs&eng,,0,0,0,,{\blur3}走! 我们走! 快! 快! 快!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Let's go! Let's go! Move it! Move it! Move it!{\r}
+Dialogue: 0,1:11:28.46,1:11:31.76,chs&eng,,0,0,0,,{\blur3}好了 听着! 听着! 琼斯 把手铐给我\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}All right, listen up! Listen up! Jones, give me those handcuffs.{\r}
+Dialogue: 0,1:11:31.92,1:11:35.59,chs&eng,,0,0,0,,{\blur3}- 现在 记住 我来抓拿康那利 - 快开 快开 快开!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Now, remember: l will arrest Konali. - Come on. Come on. Come on.{\r}
+Dialogue: 0,1:11:35.76,1:11:39.10,chs&eng,,0,0,0,,{\blur3}现在 我数到三 然后进攻1 2\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Now, we attack on three. One, two{\r}
+Dialogue: 0,1:11:42.27,1:11:44.10,chs&eng,,0,0,0,,{\blur3}停 停 停!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Stop! Stop! Stop!{\r}
+Dialogue: 0,1:11:49.69,1:11:53.44,chs&eng,,0,0,0,,{\blur3}广告将持续不断地播出三个月\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Advertising spots will run consecutive days for the next three months.{\r}
+Dialogue: 0,1:11:53.61,1:11:56.32,chs&eng,,0,0,0,,{\blur3}还有电视台想请您坐客《早安莫斯科》\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And A.M. Moscow wants you for a guest spot.{\r}
+Dialogue: 0,1:11:57.91,1:12:00.07,chs&eng,,0,0,0,,{\blur3}别让车熄火!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Keep car running!{\r}
+Dialogue: 0,1:12:00.24,1:12:03.95,chs&eng,,0,0,0,,{\blur3}- 母盘和密码在哪? - 正如您要求…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Where is master disk and passkey? - lt's back inside your safe.{\r}
+Dialogue: 0,1:12:04.16,1:12:06.33,chs&eng,,0,0,0,,{\blur3}…在您酒店保险箱的最里面\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}ln the restaurant office, as you requested.{\r}
+Dialogue: 0,1:12:06.50,1:12:08.33,chs&eng,,0,0,0,,{\blur3}很好\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Good.{\r}
+Dialogue: 0,1:12:08.50,1:12:11.21,chs&eng,,0,0,0,,{\blur3}嘿 娜塔莎!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hey, Natasha.{\r}
+Dialogue: 0,1:12:11.34,1:12:15.09,chs&eng,,0,0,0,,{\blur3}- 我要是还需要什么我会告诉你的 - 你需要找个好律师\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- l'll let you know if l need anything else. CONNORS: You need a good attorney.{\r}
+Dialogue: 0,1:12:15.34,1:12:18.63,chs&eng,,0,0,0,,{\blur3}康斯坦丁·康那利 我以法律的名义逮捕你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Konstantine Konali, l arrest you in the name of the law.{\r}
+Dialogue: 0,1:12:18.80,1:12:20.64,chs&eng,,0,0,0,,{\blur3}住手! 你们都住手!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Stop. Everybody stop.{\r}
+Dialogue: 0,1:12:20.80,1:12:25.47,chs&eng,,0,0,0,,{\blur3}- 把枪抬起来! - 我已经把康那利抓住了 他是我的囚犯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Put up gun! - l have arrested Konali. He's my prisoner.{\r}
+Dialogue: 0,1:12:25.64,1:12:28.68,chs&eng,,0,0,0,,{\blur3}你们别再做在波尔绍剧院那些让我蒙羞的事了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l will not be humiliated again like Bolshoi disaster.{\r}
+Dialogue: 0,1:12:29.60,1:12:31.60,chs&eng,,0,0,0,,{\blur3}我已经见过这个\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l've seen this before.{\r}
+Dialogue: 0,1:12:31.77,1:12:34.02,chs&eng,,0,0,0,,{\blur3}我在拉科夫的办公室里玩过这个\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l was playing with this in Rakov's office.{\r}
+Dialogue: 0,1:12:34.19,1:12:37.53,chs&eng,,0,0,0,,{\blur3}我的律师会对你们这些恶意行为进行起诉…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}My lawyer's going to sue for malicious prosecution...{\r}
+Dialogue: 0,1:12:37.69,1:12:41.61,chs&eng,,0,0,0,,{\blur3}…你们对我进行国际性的骚扰 严重伤害了我的感情\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...intentional harassment and breaking a guy's heart.{\r}
+Dialogue: 0,1:12:42.16,1:12:45.83,chs&eng,,0,0,0,,{\blur3}你起诉不了谁的 因为我会把你送进监狱\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're not going to sue anybody, because l am sending you to jail.{\r}
+Dialogue: 0,1:12:45.99,1:12:50.12,chs&eng,,0,0,0,,{\blur3}- 你们有证据吗? - 证据? 证据?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Do you have proof? - Proof? Proof.{\r}
+Dialogue: 0,1:12:50.91,1:12:53.29,chs&eng,,0,0,0,,{\blur3}- 我们有证据吗? - 有\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Do we have proof? CALLAHAN: Yes.{\r}
+Dialogue: 0,1:12:53.67,1:12:56.63,chs&eng,,0,0,0,,{\blur3}中尉 就在你鼻子下面\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Lieutenant, it's right under your nose.{\r}
+Dialogue: 0,1:12:59.46,1:13:01.63,chs&eng,,0,0,0,,{\blur3}警局电脑的号码是多少?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}What's the number of the police computer?{\r}
+Dialogue: 0,1:13:01.80,1:13:03.18,chs&eng,,0,0,0,,{\blur3}291 3855\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}291 3855.{\r}
+Dialogue: 0,1:13:03.34,1:13:06.09,chs&eng,,0,0,0,,{\blur3}- 那是机密 - 输入"康那利"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- That's top security    - Type in ''Konali. ''{\r}
+Dialogue: 0,1:13:12.64,1:13:15.64,chs&eng,,0,0,0,,{\blur3}- 快点 康那斯 再试试 - 试试"康斯坦丁"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}JONES: Come on, Connors. Keep trying. - Try ''Konstantine. ''{\r}
+Dialogue: 0,1:13:20.07,1:13:22.53,chs&eng,,0,0,0,,{\blur3}- 不行 - 等一下 我记的是五个字母\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- No. - Wait. lt was five letters.{\r}
+Dialogue: 0,1:13:22.69,1:13:24.74,chs&eng,,0,0,0,,{\blur3}我看见康那利敲了五下键盘\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l saw Konali type five letters.{\r}
+Dialogue: 0,1:13:25.90,1:13:27.24,chs&eng,,0,0,0,,{\blur3}"贪婪"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}''Greed. ''{\r}
+Dialogue: 0,1:13:28.66,1:13:30.37,chs&eng,,0,0,0,,{\blur3}输入"贪婪"\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Type in ''greed. ''{\r}
+Dialogue: 0,1:13:35.75,1:13:37.37,chs&eng,,0,0,0,,{\blur3}机密信息!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Classified information!{\r}
+Dialogue: 0,1:13:37.58,1:13:39.79,chs&eng,,0,0,0,,{\blur3}康那利在他的电脑游戏里加入了一个程序\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Konali hid a program in his computer game.{\r}
+Dialogue: 0,1:13:39.96,1:13:44.05,chs&eng,,0,0,0,,{\blur3}他能人不知鬼不晓地得到用户的文件\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Nobody would know it was there. lt allowed him access to the user's files.{\r}
+Dialogue: 0,1:13:44.21,1:13:46.21,chs&eng,,0,0,0,,{\blur3}就像从小孩嘴里抢糖果一样简单\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}lt's like stealing candy from a baby.{\r}
+Dialogue: 0,1:13:46.38,1:13:49.72,chs&eng,,0,0,0,,{\blur3}也能得到政府的高级机密文件\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Or top - secret information from a government.{\r}
+Dialogue: 0,1:13:50.68,1:13:54.64,chs&eng,,0,0,0,,{\blur3}我终于抓住你了 康那利 哈!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l finally got you, Konali. Ha!{\r}
+Dialogue: 0,1:13:55.06,1:13:57.56,chs&eng,,0,0,0,,{\blur3}哈里斯上尉?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Captain Harris?{\r}
+Dialogue: 0,1:13:58.06,1:13:59.47,chs&eng,,0,0,0,,{\blur3}啊!
+Dialogue: 0,1:13:59.64,1:14:01.69,chs&eng,,0,0,0,,{\blur3}噢 不\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, no.{\r}
+Dialogue: 0,1:14:07.36,1:14:12.41,chs&eng,,0,0,0,,{\blur3}为我的俄罗斯家庭干杯!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}A toast to my new Russian family.{\r}
+Dialogue: 0,1:14:14.53,1:14:15.99,chs&eng,,0,0,0,,{\blur3}（俄语）
+Dialogue: 0,1:14:25.00,1:14:29.09,chs&eng,,0,0,0,,{\blur3}不好意思 我要去一下洗手间\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Excuse me. l have to go to the boys' room.{\r}
+Dialogue: 0,1:14:39.43,1:14:41.14,chs&eng,,0,0,0,,{\blur3}噢 对不起\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Oh, excuse me.{\r}
+Dialogue: 0,1:14:41.31,1:14:43.43,chs&eng,,0,0,0,,{\blur3}- 我还以为这里是洗手间 - 你!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- l thought this was the bathroom. - You!{\r}
+Dialogue: 0,1:14:44.56,1:14:46.44,chs&eng,,0,0,0,,{\blur3}- 拉萨! - 啊 是的!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Lassard. - Why, yes.{\r}
+Dialogue: 0,1:14:46.60,1:14:49.52,chs&eng,,0,0,0,,{\blur3}您认识我真让我感到无比荣耀我不知道我们在哪\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l'm flattered you recognize me. l'm not sure where{\r}
+Dialogue: 0,1:14:49.69,1:14:51.94,chs&eng,,0,0,0,,{\blur3}- 你抓不到我! - 我不想抓你\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You can't have me! - l don't want you.{\r}
+Dialogue: 0,1:14:53.78,1:14:55.24,chs&eng,,0,0,0,,{\blur3}- （法语）防卫吧! - 防什么?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- En garde! - On what?{\r}
+Dialogue: 0,1:15:13.63,1:15:15.34,chs&eng,,0,0,0,,{\blur3}有什么临终请求吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You have any last requests?{\r}
+Dialogue: 0,1:15:17.38,1:15:19.97,chs&eng,,0,0,0,,{\blur3}上帝! 上帝! 我的脚!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}God! God! Sonny Bono!{\r}
+Dialogue: 0,1:15:26.68,1:15:28.02,chs&eng,,0,0,0,,{\blur3}起来 乖宝宝!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}LASSARD: Upsy - daisy!{\r}
+Dialogue: 0,1:15:30.02,1:15:31.48,chs&eng,,0,0,0,,{\blur3}啊哈!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ah - ha!{\r}
+Dialogue: 0,1:15:31.90,1:15:34.44,chs&eng,,0,0,0,,{\blur3}- 你看上去挺眼熟 - 别跟我耍花样 拉萨!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- You look familiar. - Don't play with me, Lassard.{\r}
+Dialogue: 0,1:15:35.40,1:15:37.32,chs&eng,,0,0,0,,{\blur3}- 是在巴黎吗? - 不 不在那\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Was it Paris? - No, not Paris.{\r}
+Dialogue: 0,1:15:37.48,1:15:39.69,chs&eng,,0,0,0,,{\blur3}- 罗马? - 不是\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Rome? - Not Rome.{\r}
+Dialogue: 0,1:15:39.90,1:15:42.32,chs&eng,,0,0,0,,{\blur3}你以为你能把我当傻子耍吗?\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You think you can play me the fool?{\r}
+Dialogue: 0,1:15:45.78,1:15:47.83,chs&eng,,0,0,0,,{\blur3}你永远也抓不到我 拉萨!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You'll never take me, Lassard!{\r}
+Dialogue: 0,1:15:49.50,1:15:52.83,chs&eng,,0,0,0,,{\blur3}抓不到康斯坦丁·康那利!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Not Konstantine Konali!{\r}
+Dialogue: 0,1:15:54.63,1:15:58.25,chs&eng,,0,0,0,,{\blur3}啊! 我想起你了!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Ah! l remember you now.{\r}
+Dialogue: 0,1:16:02.55,1:16:06.68,chs&eng,,0,0,0,,{\blur3}你因反俄国 反美国…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}You're under arrest for crimes against Russia...{\r}
+Dialogue: 0,1:16:06.85,1:16:11.02,chs&eng,,0,0,0,,{\blur3}…及人民罪被捕! 哈!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...and America and their citizens! Ha!{\r}
+Dialogue: 0,1:16:21.73,1:16:23.32,chs&eng,,0,0,0,,{\blur3}噢! 真棒!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Do it!{\r}
+Dialogue: 0,1:16:29.03,1:16:31.24,chs&eng,,0,0,0,,{\blur3}- 今天… - 今天 今天\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- Today... - Today, today.{\r}
+Dialogue: 0,1:16:32.58,1:16:35.16,chs&eng,,0,0,0,,{\blur3}- …我们向…. - 我们向 我们向\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- ...we have shown... JONES: We have shown, we have shown.{\r}
+Dialogue: 0,1:16:35.50,1:16:37.00,chs&eng,,0,0,0,,{\blur3}嗯\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Hm.{\r}
+Dialogue: 0,1:16:40.04,1:16:43.67,chs&eng,,0,0,0,,{\blur3}- …全世界的人民… - 全世界的人民\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}- ...people everywhere... - People everywhere{\r}
+Dialogue: 0,1:16:46.09,1:16:49.93,chs&eng,,0,0,0,,{\blur3}…表明美俄两国亲如兄弟\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...that Americans and Russians are brothers.{\r}
+Dialogue: 0,1:16:53.76,1:16:56.02,chs&eng,,0,0,0,,{\blur3}我向您还有您的队员致敬!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}l honor you and your team.{\r}
+Dialogue: 0,1:16:56.22,1:16:59.89,chs&eng,,0,0,0,,{\blur3}请拉萨指挥官到台前来\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Would Commandant Lassard please join me at podium?{\r}
+Dialogue: 0,1:17:16.08,1:17:17.74,chs&eng,,0,0,0,,{\blur3}同志!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}Comrade.{\r}
+Dialogue: 0,1:17:17.91,1:17:23.71,chs&eng,,0,0,0,,{\blur3}现在 向我的美国朋友送上特殊的礼物…\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}And now, as a special tribute to our American friends...{\r}
+Dialogue: 0,1:17:23.88,1:17:26.42,chs&eng,,0,0,0,,{\blur3}…向你们致敬!\N{\fncronos Pro Subhead\fs14\1c&H3CF1F3&}...l salute you all.{\r}
+

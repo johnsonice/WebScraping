@@ -1,0 +1,812 @@
+﻿[Script Info]
+;SrtEdit 6.2.2012.322
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.47,0:00:03.98,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们被监视着\NWe are being watched.
+Dialogue: 0,0:00:04.93,0:00:07.08,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}政府有一套秘密系统\NThe government has a secret system--
+Dialogue: 0,0:00:07.19,0:00:11.00,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一台每时每刻都在监控你的机器\Na machine that spies on you every hour of every day.
+Dialogue: 0,0:00:11.51,0:00:13.99,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我设计这台机器是为了侦测恐怖行动\NI designed the machine to detect acts of terror,
+Dialogue: 0,0:00:13.99,0:00:15.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但它却看到了一切\Nbut it sees everything...
+Dialogue: 0,0:00:15.84,0:00:18.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}牵涉普通人的暴力罪行\NViolent crimes involving ordinary people.
+Dialogue: 0,0:00:19.27,0:00:22.07,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}政府认为这些人无关紧要\NThe government considers these people irrelevant.
+Dialogue: 0,0:00:22.23,0:00:23.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们不\NWe don't.
+Dialogue: 0,0:00:24.37,0:00:28.43,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}受当局追捕  我们只能秘密活动\NHunted by the authorities, we work in secret.
+Dialogue: 0,0:00:28.90,0:00:30.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你永远找不到我们\NYou will never find us.
+Dialogue: 0,0:00:30.69,0:00:32.87,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但无论是受害人还是行凶者\NBut victim or perpetrator,
+Dialogue: 0,0:00:32.87,0:00:36.07,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}只要你的号码被列出来  我们就会找到你\Nif your number's up, we'll find you.
+Dialogue: 0,0:00:35.74,0:00:38.91,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}第四季 第七集
+Dialogue: 0,0:00:35.74,0:00:38.91,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}疑犯追踪
+Dialogue: 0,0:00:43.76,0:00:46.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}快点儿  抓紧了  各位\NCome on, any second, guys.
+Dialogue: 0,0:00:48.03,0:00:49.65,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不是时候啊  哈罗德\NNot a good time, Harold.
+Dialogue: 0,0:00:49.65,0:00:52.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}从来没"是时候"之时  肖女士\NIt never is these days, Ms. Shaw.
+Dialogue: 0,0:00:52.09,0:00:53.56,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}惠斯勒教授也同样\NIt's not as if Professor Whistler
+Dialogue: 0,0:00:53.56,0:00:56.60,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}有一堆期中考试卷要批\Ndoesn't have a stack of abysmal midterms to grade.
+Dialogue: 0,0:00:56.60,0:01:00.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我这边的情况要更加"争分夺秒"\NMy situation is slightly more time sensitive.
+Dialogue: 0,0:01:00.72,0:01:02.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但号码还是跳出来了\NAnd yet numbers keep coming.
+Dialogue: 0,0:01:02.25,0:01:03.46,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}业余\NAmateurs.
+Dialogue: 0,0:01:04.29,0:01:06.52,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这位新无关号码名叫\NOur newest irrelevant is named--
+Dialogue: 0,0:01:08.00,0:01:10.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}肖女士  那是枪声吗\NMs. Shaw, is that gunfire?
+Dialogue: 0,0:01:10.11,0:01:11.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}说了我在忙了\NI told you I was busy.
+Dialogue: 0,0:01:11.64,0:01:13.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}现在你得给我调出阴影地图\NNow I'm gonna need you to call up that shadow map
+Dialogue: 0,0:01:13.91,0:01:16.44,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}获取纽约警局的调度信号\Nand access the NYPD dispatch feeds.
+Dialogue: 0,0:01:16.72,0:01:18.53,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}走走走\NGo, go, go, go, go! Go, go!
+Dialogue: 0,0:01:22.97,0:01:25.28,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}全体人员注意  正在追踪黑色轿车\NAll units, pursuit in progress, black sedan.
+Dialogue: 0,0:01:25.28,0:01:27.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}追丢了  最后跟到了116西街\NLost them. Last seen on Westbound 116.
+Dialogue: 0,0:01:27.55,0:01:29.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}调度  1048  没有发现\NDispatch, 1048. No sign of them here.
+Dialogue: 0,0:01:36.53,0:01:37.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好极了\NNice.
+Dialogue: 0,0:01:39.07,0:01:41.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}妞儿  击掌\NHottie. Up top!
+Dialogue: 0,0:01:49.54,0:01:51.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们说好的  记得吗\NWe had a deal, remember?
+Dialogue: 0,0:01:52.49,0:01:55.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你及时出来  否则我走\NYou get out in time or I walk.
+Dialogue: 0,0:01:56.53,0:01:58.03,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这就是后果\NSo now this happens.
+Dialogue: 0,0:02:05.20,0:02:06.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}天啊\NOh, God.
+Dialogue: 0,0:02:06.17,0:02:07.52,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}抱歉了  罗密欧\NSorry, Romeo.
+Dialogue: 0,0:02:08.91,0:02:10.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看来我们是分手了\NThink we just broke up.
+Dialogue: 0,0:02:19.16,0:02:22.40,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}纽约警察刚在东河发现了你的车\NNYPD just found your getaway car by the East River.
+Dialogue: 0,0:02:22.55,0:02:24.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}希望不会查到你头上\NHope they can't trace it back to you.
+Dialogue: 0,0:02:25.19,0:02:27.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我要是拷你  可就难看了\NBe a shame if I had to slap the cuffs on.
+Dialogue: 0,0:02:28.42,0:02:30.86,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你敢试试  你就难看了\NIt's be a shame for you if you tried.
+Dialogue: 0,0:02:31.77,0:02:33.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这次是哪位\NNow who's our boy?
+Dialogue: 0,0:02:34.03,0:02:35.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}托马斯·考罗拉\NTomas Koroa.
+Dialogue: 0,0:02:36.36,0:02:38.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}美国和西班牙双重国籍\NDual U.S., Spanish citizen.
+Dialogue: 0,0:02:38.66,0:02:40.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}三十一岁  未婚\N31 years old, unmarried.
+Dialogue: 0,0:02:41.01,0:02:44.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}每年持短期商务活动签证到此\NSpends part of each year here on a B1 visa.
+Dialogue: 0,0:02:46.34,0:02:47.54,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}干嘛\NDoing what?
+Dialogue: 0,0:02:47.54,0:02:49.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}国际酒商\NInternational wine dealer.
+Dialogue: 0,0:02:49.49,0:02:53.06,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}往来于纽约  伦敦  巴黎和迪拜\NDivides his time between New York, London, Paris, and Dubai.
+Dialogue: 0,0:02:53.36,0:02:55.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}温馨提示噢  这瓶圣艾美隆\NNow fair warning, this St. Emillion
+Dialogue: 0,0:02:55.73,0:02:57.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}会让你恨不得马上辞了工作\Nis gonna make you both wanna quit your jobs
+Dialogue: 0,0:02:57.95,0:02:59.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}直奔波尔多[法国南部]\Nand run way to Bordeaux.
+Dialogue: 0,0:03:00.37,0:03:03.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}到处旅行  进口外国商品\NA lot of travel, importing foreign goods.
+Dialogue: 0,0:03:03.55,0:03:05.67,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也许他是走私\NMaybe he's wrapped up in smuggling.
+Dialogue: 0,0:03:05.67,0:03:07.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}有可能  不过我黑进他的手机\NThat's possible, but I didn't see anything fishy
+Dialogue: 0,0:03:07.89,0:03:09.62,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}没发现可疑之处\Nwhen I bluejacked his phone.
+Dialogue: 0,0:03:09.62,0:03:12.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也许问题不是出在生意上\NThen maybe business isn't his problem.
+Dialogue: 0,0:03:12.04,0:03:13.87,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这种男人肯定满世界勾妹子\NA guy like that could have a girl in every port.
+Dialogue: 0,0:03:13.87,0:03:17.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}可能是一脚踩的船太多了  要滚下水了\NMaybe infidelity is about to spank him on the ass.
+Dialogue: 0,0:03:21.05,0:03:24.19,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我在努力查找威胁  约翰\NI'm just trying to identify the threat, John.
+Dialogue: 0,0:03:24.63,0:03:26.87,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}扮你的警察玩儿吧\NYou just go play detective.
+Dialogue: 0,0:03:26.87,0:03:28.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我会盯好托马斯\NI can keep an eye on Tomas.
+Dialogue: 0,0:03:28.99,0:03:30.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}知道了\NI noticed.
+Dialogue: 0,0:03:31.11,0:03:32.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好吧  那芬奇呢\NAll right, what about Finch?
+Dialogue: 0,0:03:32.58,0:03:36.43,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他不是应该在查托马斯的网络数据资料吗\NShouldn't he be digging up Tomas' digital footprint?
+Dialogue: 0,0:03:36.43,0:03:39.67,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他会的  不过他现在另有要事处理\NHe will, but he had other business to attend to first.
+Dialogue: 0,0:03:40.41,0:03:42.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们现在都是双重身份  记得吗\NWe're all two people now, remember?
+Dialogue: 0,0:03:55.35,0:03:57.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你们乖乖去游乐场玩\NIf you play nice on the playground,
+Dialogue: 0,0:03:57.11,0:04:00.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}等会儿就给你们冰激凌吃  好不好\NThen after you will have the ice creams, yes?
+Dialogue: 0,0:04:00.58,0:04:01.67,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-好  -好的\N- Yes. - Okay.
+Dialogue: 0,0:04:01.67,0:04:03.44,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}[法语]
+Dialogue: 0,0:04:06.08,0:04:08.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}孩子真可爱  但愿不是你的\NLovely children. Not yours, I hope.
+Dialogue: 0,0:04:08.90,0:04:10.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}放松  哈罗德\NRelax, Harold.
+Dialogue: 0,0:04:10.94,0:04:12.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我只是保姆\NI'm just the nanny.
+Dialogue: 0,0:04:13.48,0:04:16.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我这两周的第六个新身份\NMy sixth new identity in two weeks.
+Dialogue: 0,0:04:17.49,0:04:19.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}想必是必要的预防措施\NA necessary precaution, I imagine,
+Dialogue: 0,0:04:19.91,0:04:23.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}鉴于你在选举事件中从撒马利亚人的特工手里死里逃生\Nafter your close call with Samaritan's operatives during the election.
+Dialogue: 0,0:04:23.59,0:04:25.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}是必要  但累啊\NNecessary but exhausting.
+Dialogue: 0,0:04:26.47,0:04:27.80,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}法版《欢乐满人间》保姆\NFrench Mary Poppins BarBie
+Dialogue: 0,0:04:27.80,0:04:29.96,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}算是唯一的乐子了\Nis the only me that's been any fun.
+Dialogue: 0,0:04:30.04,0:04:31.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过要是孩子的父母知道我杀过多少人\NThough I'm not sure how the parents would feel
+Dialogue: 0,0:04:31.55,0:04:34.19,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就不知要做何感想了\Nif they knew how many people I've killed.
+Dialogue: 0,0:04:35.84,0:04:38.13,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们来这儿干嘛\NSo why are we here?
+Dialogue: 0,0:04:38.26,0:04:39.98,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}机器只告诉我来这个游乐场\NThe machine just told me to come to this playground
+Dialogue: 0,0:04:39.98,0:04:41.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}按你的计划行事\Nand follow your plan.
+Dialogue: 0,0:04:42.63,0:04:44.33,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但愿是个好计划\NThen let's hope it's a good one.
+Dialogue: 0,0:04:46.46,0:04:47.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}尼古拉斯·道森\NNicholas Dawson.
+Dialogue: 0,0:04:47.95,0:04:51.62,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}撒马利亚人非民主选出的州长\NSamaritan's undemocratically elected choice for governor.
+Dialogue: 0,0:04:52.12,0:04:53.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们要扳倒他吗\NAre we bringing him down?
+Dialogue: 0,0:04:54.12,0:04:55.86,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}遗憾的是  现在撒马利亚人\NUnfortunately, now that Samaritan
+Dialogue: 0,0:04:55.87,0:04:58.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}已经派了格里尔先生前去联系\Nhas sent Mr. Greer to make contact,
+Dialogue: 0,0:04:58.64,0:05:01.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们不能冒险接近这位新州长\NWe can't risk going anywhere near our new governor.
+Dialogue: 0,0:05:02.54,0:05:07.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但我们可以破坏他的一举一动\NBut we can work to undermine every single thing he tries to do.
+Dialogue: 0,0:05:07.83,0:05:10.01,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}道森身为州长的第一步\NAnd one of Dawson's first acts as governor
+Dialogue: 0,0:05:10.01,0:05:14.54,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就是批款一千两百万给那个人\Nwas to approve a $12 million grant for that man,
+Dialogue: 0,0:05:14.54,0:05:17.06,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}杰罗德·威尔金斯  软件工程师\NJerrod Wilkins, software engineer,
+Dialogue: 0,0:05:17.07,0:05:19.50,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}四十一岁  刚刚离婚\N41 years old, recently divorced.
+Dialogue: 0,0:05:19.50,0:05:20.31,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}两周前\NTwo weeks ago,
+Dialogue: 0,0:05:20.31,0:05:22.92,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}威尔金斯辞去了收入颇丰的技术职务\NWilkins left a lucrative job in the tech sector
+Dialogue: 0,0:05:22.92,0:05:26.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}创建了一个慈善组织  名叫OTPS\Nto found a new charity called O.T.P.S.
+Dialogue: 0,0:05:26.04,0:05:27.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}做什么\NWhich stands for?
+Dialogue: 0,0:05:27.39,0:05:28.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}似乎无人知晓\NNo one seems to know.
+Dialogue: 0,0:05:29.28,0:05:32.22,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}OTPS没办公室  没网站\NO.T.P.S. has no office, no website.
+Dialogue: 0,0:05:32.25,0:05:34.03,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们得查出他要用这些钱干什么\NWe need to find out what he plans to do with that money
+Dialogue: 0,0:05:34.03,0:05:35.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}并加以阻止\Nand put a stop to it.
+Dialogue: 0,0:05:35.90,0:05:39.31,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}爸爸  我要便便\NDaddy, I made a boom-boom.
+Dialogue: 0,0:05:39.71,0:05:40.53,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好\NOkay.
+Dialogue: 0,0:05:41.86,0:05:43.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好  去吧\NOkay, just go ahead and--
+Dialogue: 0,0:05:43.63,0:05:44.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}等等  等一下  等一下\NWait, hold on, hold on.
+Dialogue: 0,0:05:44.74,0:05:47.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}等一下  别坐\NHold on, just-- don't sit.
+Dialogue: 0,0:05:49.91,0:05:52.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}现在知道我为什么是保姆了\NAnd now I know why I'm a nanny.
+Dialogue: 0,0:05:53.50,0:05:55.30,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}[法语]再见  亲亲\NAu revoir, mon cher.
+Dialogue: 0,0:06:00.10,0:06:01.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}打扰一下\NExcuse me.
+Dialogue: 0,0:06:02.29,0:06:05.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看起来你需要帮助\NIt seems to me as if you might need some assistance.
+Dialogue: 0,0:06:12.21,0:06:13.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好了  六箱加利西亚白葡萄酒\NOkay, so that's six cases of Albario,
+Dialogue: 0,0:06:13.90,0:06:16.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}十二箱教皇干红  我下次去[法国东北部]兰斯\N12 of the neuf-du-pape, and next time I'm in Reims,
+Dialogue: 0,0:06:16.15,0:06:17.86,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}给你寄一箱那种巧克力\NI'm sending you a box of those chocolates.
+Dialogue: 0,0:06:17.86,0:06:20.27,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}考罗拉先生那边进展如何  肖女士\NAnd how is Mr. Koroa faring, Ms. Shaw?
+Dialogue: 0,0:06:20.27,0:06:21.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}发现威胁了吗\NAny sign of the threat?
+Dialogue: 0,0:06:21.71,0:06:26.14,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}四个小时了  托马斯走出不到三百米\NIn four hours, Tomas has barely gone 900 feet.
+Dialogue: 0,0:06:26.23,0:06:28.99,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一直不停地从一家餐厅到另一家餐厅\NHe just keeps moving from one restaurant to the next,
+Dialogue: 0,0:06:28.99,0:06:30.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不停絮叨那些酒\Nblabbing about wine.
+Dialogue: 0,0:06:31.41,0:06:34.62,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}唯一能让我打起精神的就是他的\NThe only thing keeping me awake is his...
+Dialogue: 0,0:06:35.51,0:06:36.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}个性\Npersonality.
+Dialogue: 0,0:06:37.64,0:06:39.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}是啊\NIndeed.
+Dialogue: 0,0:06:39.96,0:06:40.97,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}稍等\NHang on a sec.
+Dialogue: 0,0:06:40.97,0:06:43.03,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那姑娘今早在他身边出现过\NThat's the girl who checked him out this morning.
+Dialogue: 0,0:06:43.03,0:06:45.14,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}托马斯可能被跟踪了\NTomas may have a tail.
+Dialogue: 0,0:06:45.15,0:06:47.52,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那几个工人今早也出现过\NSame workmen from this morning too.
+Dialogue: 0,0:06:47.94,0:06:48.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那不是跟踪\NThat's not a tail.
+Dialogue: 0,0:06:48.74,0:06:50.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这是支杀手分队\NWe're looking at some kind of a hit squad.
+Dialogue: 0,0:06:55.22,0:06:56.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}再想想\NOn second thought,
+Dialogue: 0,0:06:58.00,0:07:00.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也许不是要杀\Nthis may not be that kinda hit.
+Dialogue: 0,0:07:09.56,0:07:10.65,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}十秒\NTen seconds.
+Dialogue: 0,0:07:10.80,0:07:14.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}九  八  七  六\NNine, eight, seven, six,
+Dialogue: 0,0:07:14.94,0:07:17.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}五  四  三\Nfive, four, three,
+Dialogue: 0,0:07:18.13,0:07:19.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}二  一\Ntwo, one.
+Dialogue: 0,0:07:20.18,0:07:23.24,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看来过双重生活的不只是我们啊  芬奇\NLooks like we're not the only ones leading double lives, Finch.
+Dialogue: 0,0:07:26.96,0:07:29.50,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}托马斯不是酒商  他是大盗\NTomas isn't a wine dealer. He's a thief.
+Dialogue: 0,0:07:30.25,0:07:32.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}相当牛的那种\NAnd a damn good one.
+Dialogue: 0,0:07:41.91,0:07:44.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}进出十秒内搞定\NIn and out in under ten seconds.
+Dialogue: 0,0:07:44.74,0:07:46.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}完美的飞速抢劫\NA perfect smash-and-grab.
+Dialogue: 0,0:07:46.67,0:07:49.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这位托马斯业务精通啊\NOur boy Tomas really knows what he's doing.
+Dialogue: 0,0:07:49.89,0:07:52.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你能否别如此兴致勃勃\NPerhaps you could try not to sound quite so enthused.
+Dialogue: 0,0:07:53.68,0:07:54.49,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}犯罪是我的正职啊\NCrime is my day job.
+Dialogue: 0,0:07:54.49,0:07:57.07,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我  我只是欣赏他的技术啊\NI'm--I'm just admiring his technique.
+Dialogue: 0,0:07:57.08,0:07:58.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}区域警觉系统发现了劫案\NDomain Awareness caught the robbery,
+Dialogue: 0,0:07:58.95,0:08:02.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但没有摄像头拍到托马斯及其团伙上车\Nbut not camera saw Tomas and his crew getting into the car,
+Dialogue: 0,0:08:02.11,0:08:04.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那车两天前就报失了\Nwhich was reported stolen two days ago.
+Dialogue: 0,0:08:04.96,0:08:06.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这么说警察没查出他的身份\NSo the cops haven't I.D.'d him yet?
+Dialogue: 0,0:08:06.68,0:08:08.49,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我非常肯定除了纽约警察\NI'm fairly certain that the NYPD
+Dialogue: 0,0:08:08.49,0:08:10.44,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}还有其他人在找他们\Nisn't the only agency trying to find them.
+Dialogue: 0,0:08:10.44,0:08:12.14,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他们的犯罪手法\NTheir modus operandi matches that
+Dialogue: 0,0:08:12.14,0:08:15.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}和一个屡犯大案的盗窃团伙相似\Nof a highly successful team of thieves
+Dialogue: 0,0:08:15.12,0:08:18.81,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}国际刑警称其为"墙孔帮"\Nthat the Interpol has dubbed "The hole in the wall" Gang
+Dialogue: 0,0:08:19.01,0:08:21.06,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}原因一目了然\Nfor obvious reasons.
+Dialogue: 0,0:08:21.27,0:08:22.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}在过去七年里\NIn the past seven years,
+Dialogue: 0,0:08:22.55,0:08:24.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}托马斯和他的团伙在四个大洲\NTomas and his team have hit over 50
+Dialogue: 0,0:08:24.93,0:08:27.67,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}窃取了超过50件高价值目标\Nhigh value targets on four continents.
+Dialogue: 0,0:08:27.67,0:08:30.24,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}托马斯可不乖噢\NSo Tomas is a real bad boy.
+Dialogue: 0,0:08:31.79,0:08:36.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就是说可能他是行凶者\NWhich means that he is probably our perpetrator.
+Dialogue: 0,0:08:36.79,0:08:38.47,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这种人也许会不惜杀人\NGuy like this might be willing to kill
+Dialogue: 0,0:08:38.47,0:08:40.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}来达到目的\Nto take down his next score.
+Dialogue: 0,0:08:40.25,0:08:41.53,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}或者我们要找的是\NOr our target might be someone
+Dialogue: 0,0:08:41.53,0:08:44.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}已经知道托马斯秘密的人\Nwho already knows Tomas' secrets.
+Dialogue: 0,0:08:44.81,0:08:48.28,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}马可·耶夫蒂奇是托马斯团伙里唯一一个\NMarko Jevtic was the only member of Tomas' crew
+Dialogue: 0,0:08:48.29,0:08:49.44,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}曾被抓住的人\Nto ever get caught.
+Dialogue: 0,0:08:49.44,0:08:51.62,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他在布拉格一次犯案后被警方所抓\NPicked up by the police after a robbery in Prague.
+Dialogue: 0,0:08:51.62,0:08:53.61,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}十个小时后  他死在拘留所\NTen hours later, he died in custody
+Dialogue: 0,0:08:53.62,0:08:56.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}死状可疑\Nunder suspicious circumstances.
+Dialogue: 0,0:08:56.09,0:08:59.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就是说托马斯不惜杀掉自己人\NSo maybe Tomas isn't above bumping off one of his own.
+Dialogue: 0,0:08:59.62,0:09:02.13,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这伙人可一点都不可靠\NThey're not the most trustworthy bunch.
+Dialogue: 0,0:09:02.13,0:09:03.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}麦克斯·达尔格林\NMax Dahlgren
+Dialogue: 0,0:09:04.82,0:09:06.66,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}亨里克·兰菲尔德\Nand Henrik Lengfelder,
+Dialogue: 0,0:09:06.66,0:09:09.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}都有一长串犯罪记录\Nboth had well-documented issues with authority.
+Dialogue: 0,0:09:09.68,0:09:13.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}卡迪亚·罗德琴科则有很长的吸毒史\NAnd Katya Rodchenko has a long history of drug abuse.
+Dialogue: 0,0:09:13.32,0:09:15.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看起来我们无意中发现了\NIt appears that we have inadvertently captured
+Dialogue: 0,0:09:15.26,0:09:17.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一群臭名昭著的罪犯\Na group of notorious criminals.
+Dialogue: 0,0:09:18.20,0:09:20.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们要不要通知国际刑警算了\NShould we turn them over to interpol and call it a day?
+Dialogue: 0,0:09:20.75,0:09:22.42,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们是阻止暴力的好吧\NWe're here to stop violence, okay?
+Dialogue: 0,0:09:22.43,0:09:24.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不是找失窃珠宝的\Nnot recover stolen jewels.
+Dialogue: 0,0:09:24.48,0:09:26.24,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果我们没查出楚托马斯的意图就行动\NIf we move before we know what Tomas is up to,
+Dialogue: 0,0:09:26.24,0:09:27.87,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也许会出岔子啊\Nthen this whole thing could go sideways,
+Dialogue: 0,0:09:27.87,0:09:29.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们就没机会阻止了\Nand we'll miss our chance to stop it.
+Dialogue: 0,0:09:29.68,0:09:31.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你也没机会再看他了\NPlus you won't get to look at him anymore.
+Dialogue: 0,0:09:31.70,0:09:33.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你想逼我宰了你吗\NAre you trying to make me kill you?
+Dialogue: 0,0:09:33.64,0:09:35.10,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们还是把专心解决\NLet's try to stay focused on the murder
+Dialogue: 0,0:09:35.10,0:09:37.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}考罗拉先生即将犯下的谋杀吧\NThat Mr. Koroa is poised to commit.
+Dialogue: 0,0:09:38.01,0:09:39.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}要查出他的计划\NTo uncover his plans,
+Dialogue: 0,0:09:39.55,0:09:41.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们需要有人打入内部\Nwe would need to have a man on the inside.
+Dialogue: 0,0:09:41.17,0:09:43.08,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}或者  一个女人\NOr in this case, a woman.
+Dialogue: 0,0:09:55.16,0:09:57.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我预定了顶层套房\NI have reservation for penthouse suite.
+Dialogue: 0,0:09:59.40,0:10:00.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}安静  小熊\NOh, easy, bear?
+Dialogue: 0,0:10:00.99,0:10:02.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这是缉毒犬\NHe's trained to smell drugs.
+Dialogue: 0,0:10:03.78,0:10:05.54,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}坐下  别动  安静\NSit, stall, stil.
+Dialogue: 0,0:10:08.22,0:10:10.14,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}纽约警察  女士\NYeah, NYPD, ma'am.
+Dialogue: 0,0:10:10.14,0:10:11.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我要查看一下你的包\NI need to take a look at your bag.
+Dialogue: 0,0:10:11.63,0:10:14.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}自便吧  我没什么要藏的\NEnjoy yourself. I have nothing to hide.
+Dialogue: 0,0:10:19.55,0:10:21.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你确定吗\NYou sure about that?
+Dialogue: 0,0:10:33.93,0:10:35.61,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}还说她不吸毒了\NTold me she wasn't using anymore.
+Dialogue: 0,0:10:35.61,0:10:36.99,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}现在我们有麻烦了\NNow we have a problem.
+Dialogue: 0,0:10:37.00,0:10:38.53,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你猜怎么着  肖\NGuess what, Shaw.
+Dialogue: 0,0:10:38.87,0:10:42.60,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}托马斯有麻烦了  你可以英雄救美了\NTomas has a problem, and you're the solution.
+Dialogue: 0,0:10:42.60,0:10:44.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我去联系我的犯罪联络人\NI'll reach out to my criminal contacts
+Dialogue: 0,0:10:44.35,0:10:45.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}安排见面\Nand set up a meeting.
+Dialogue: 0,0:10:47.14,0:10:48.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不  不  不  没什么需要担心的\NNo, no, no, there is nothing to worry about.
+Dialogue: 0,0:10:48.88,0:10:50.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们会成功的\NWe are going to make this happen.
+Dialogue: 0,0:10:50.83,0:10:53.78,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}相信我  这绝对会是场重大变革\NTrust me, this will be nothing short of a revolution.
+Dialogue: 0,0:10:53.79,0:10:54.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}州长和他的团队都参与了\NWith the governor and his people on board,
+Dialogue: 0,0:10:54.89,0:10:56.20,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-我们的力量可以影响整个国家  -好了\N- we have the power we need to impact the entire country, - All right.
+Dialogue: 0,0:10:56.20,0:10:58.29,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-整个世界  -我通过婴儿监视器看到他了\N- the world! - I've got him on a baby monitor,
+Dialogue: 0,0:10:58.29,0:11:01.07,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你现在应该有信号了  哈罗德\Nand you should have a signal now, Harold.
+Dialogue: 0,0:11:02.23,0:11:04.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看来你轻易赢得了\NI take it you had no trouble ingratiating yourself
+Dialogue: 0,0:11:04.55,0:11:06.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}威尔金斯父子的欢心\Nwith Mr. Wilkins and his son.
+Dialogue: 0,0:11:06.39,0:11:08.92,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}塞巴斯蒂安真是天使\NSebastian's an angel.
+Dialogue: 0,0:11:08.99,0:11:10.80,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就是有点不受拘束\NJust a little free spirit
+Dialogue: 0,0:11:10.81,0:11:13.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}要好好培养创造力\Nwho needs his creativity nurtured.
+Dialogue: 0,0:11:14.04,0:11:16.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}而他爸爸  则有点A型性格\NHis dad, on the other hand, is a little more type-a.
+Dialogue: 0,0:11:16.94,0:11:19.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}OTPS的结果一出来\NWhen O.T.P.S. starts generating results,
+Dialogue: 0,0:11:19.51,0:11:21.03,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你会希望自己参与其中\Nyou're gonna want to be on board.
+Dialogue: 0,0:11:21.03,0:11:24.19,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}查出他欺诈慈善的真正目的了吗\NAny luck finding out what his fraudulent charity is really up to?
+Dialogue: 0,0:11:24.19,0:11:25.81,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}耐心点  哈罗德\NPatience, Harold.
+Dialogue: 0,0:11:25.81,0:11:28.00,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不然我就只好让你暂停一下了\NOr I'll have to give you a time-out.
+Dialogue: 0,0:11:29.94,0:11:32.14,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一切准备就绪了\NWe are ready to go right now.
+Dialogue: 0,0:11:33.04,0:11:34.78,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好  进去了\NOkay, we're in.
+Dialogue: 0,0:11:34.92,0:11:37.31,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}很快就能找到\NIt'll take me just a minute to locate--
+Dialogue: 0,0:11:37.82,0:11:39.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}天啊\NOh, my.
+Dialogue: 0,0:11:39.40,0:11:41.24,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看起来威尔金斯先生的慈善\NIt turns out that Mr. Wilkins' charity
+Dialogue: 0,0:11:41.24,0:11:44.05,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}并不太欺诈\Nmay not be so fraudulent after all.
+Dialogue: 0,0:11:44.18,0:11:47.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}OTPS的意思是"一学生一平板"\NO.T.P.S. stands for "One tablet per student."
+Dialogue: 0,0:11:47.88,0:11:50.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}要发放平板电脑\NA plan to issue free tablet computers
+Dialogue: 0,0:11:50.33,0:11:52.96,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}给全州每一个小学生\Nto every elementary school student in the state.
+Dialogue: 0,0:11:52.96,0:11:54.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}每台只要二十美元\NFor just $20 each,
+Dialogue: 0,0:11:54.58,0:11:56.86,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们就能给每个孩子\NWe can give every single child
+Dialogue: 0,0:11:56.86,0:11:58.56,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一台自己的电脑\Na computer to call their own,
+Dialogue: 0,0:11:58.56,0:12:00.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}上面装满了教育软件\Nloaded with educational software.
+Dialogue: 0,0:12:00.75,0:12:03.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}"撒马利亚人"提供的软件\NSoftware provided by Samaritan.
+Dialogue: 0,0:12:03.38,0:12:04.60,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}每家一台平板\NTablet in every home,
+Dialogue: 0,0:12:04.60,0:12:07.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}摄像头对准了每一个孩子的脸\Nand a camera pointed at the face of every child,
+Dialogue: 0,0:12:07.48,0:12:11.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}"撒马利亚人"控制他们的所见  所学  所思\NWhile Samaritan controls everything they see, learn, think.
+Dialogue: 0,0:12:14.01,0:12:15.43,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}刚说到魔鬼\NSpeak of the devil.
+Dialogue: 0,0:12:15.76,0:12:18.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}有东西正在黑我的手机\NSomething just started hacking my phone.
+Dialogue: 0,0:12:18.89,0:12:21.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}"撒马利亚人"  它利用了威尔金斯先生的电脑\NSamaritan. It's coming through Wilkins' computer!
+Dialogue: 0,0:12:21.26,0:12:22.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}快离开\NGet out of there now!
+Dialogue: 0,0:12:26.35,0:12:27.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}维罗妮卡  我电话打完了\NVeronique, I'm off the phone.
+Dialogue: 0,0:12:28.38,0:12:30.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你和塞巴斯蒂安\NHow are you and Sebastian getting--
+Dialogue: 0,0:12:31.93,0:12:33.97,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}漂漂\NPretty.
+Dialogue: 0,0:12:45.92,0:12:48.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}把你包里的枪拿出来放到我手上\NTake the gun out of your purse and put it in my hand.
+Dialogue: 0,0:12:53.83,0:12:56.98,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}I can't give it up
+Dialogue: 0,0:12:57.83,0:13:01.46,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}To someone else's touch
+Dialogue: 0,0:13:03.31,0:13:04.69,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}还有你大腿上那把\NAnd the one on your thigh.
+Dialogue: 0,0:13:04.79,0:13:10.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}Too much
+Dialogue: 0,0:13:11.29,0:13:14.47,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}I can't give it up
+Dialogue: 0,0:13:14.65,0:13:17.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}听说你在都柏林给奥班农做过事\NI heard you did a job for the O`Bannons in Dublin.
+Dialogue: 0,0:13:17.26,0:13:19.65,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果我向派迪·麦凯恩问起你\NIf I were to call Paddy Mccann about you,
+Dialogue: 0,0:13:19.98,0:13:21.54,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他会帮你说好话吗\Nwill he say good things?
+Dialogue: 0,0:13:21.67,0:13:22.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}恐怕不会\NProbably not,
+Dialogue: 0,0:13:22.36,0:13:24.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}派迪两年前就死了\Nsince Paddy died two years ago.
+Dialogue: 0,0:13:25.36,0:13:27.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但是你可以找西西里岛的恩佐·卡佩齐\NBut you can call Enzo Capizzi in Sicily,
+Dialogue: 0,0:13:27.84,0:13:31.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}或者问问洛杉矶的麦考雷我为他做的事\Nor you can check up on the work I did for Mccauley's crew in L.A.
+Dialogue: 0,0:13:31.38,0:13:34.60,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}或者也可以不要浪费时间\NOr you can just quit wasting your time,
+Dialogue: 0,0:13:34.60,0:13:36.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}开始谈正事\Nand we can talk business.
+Dialogue: 0,0:13:37.91,0:13:40.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}难怪罗密欧强烈推荐你\NI can see why Romeo recommended you so highly.
+Dialogue: 0,0:13:41.18,0:13:43.66,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}漂亮是女人的通行证啊\NNothing unlocks doors like a beautiful woman.
+Dialogue: 0,0:13:44.82,0:13:45.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他挺辣呢\NHe's hot.
+Dialogue: 0,0:13:46.41,0:13:50.31,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}虽然不是"打包捆好扔到中情局安全屋\NI mean, not "Hood and zip ties in a CIA safe house
+Dialogue: 0,0:13:50.31,0:13:52.46,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}纠缠十个小时"那种性感  不过\Nwith ten hours to kill" hot, but...
+Dialogue: 0,0:13:52.46,0:13:53.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}酒保  两杯香槟\NBartender, two champagnes.
+Dialogue: 0,0:13:53.90,0:13:55.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我懂\NI kind of get it.
+Dialogue: 0,0:13:55.47,0:13:59.19,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}根  你在干什么呢\NRoot, what the hell are you doing?
+Dialogue: 0,0:13:59.46,0:14:01.46,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}哈罗德要我躲一阵子\NHarold wanted me off the streets for a while
+Dialogue: 0,0:14:01.46,0:14:03.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}刚才遭遇了"撒马利亚人"\Nafter my latest brush with Samaritan,
+Dialogue: 0,0:14:03.58,0:14:07.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}所以我想帮你看着点\NSo I thought I'd help keep an ear on you.
+Dialogue: 0,0:14:08.23,0:14:10.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他毕竟是个危险的犯罪分子\NHe is a dangerous criminal after all,
+Dialogue: 0,0:14:11.40,0:14:13.91,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我可不能忍受你被人伤害\Nand I just couldn't bear it if anyone hurt you.
+Dialogue: 0,0:14:14.93,0:14:17.42,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}除我之外  谁都不行\NI mean, besides me.
+Dialogue: 0,0:14:18.18,0:14:19.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那么\NSo...
+Dialogue: 0,0:14:19.04,0:14:20.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}马上就好\NComing right up.
+Dialogue: 0,0:14:21.62,0:14:23.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你想让我干什么\NWhat do you need me for?
+Dialogue: 0,0:14:23.38,0:14:25.13,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我想让你干很多事\NI can think of several things.
+Dialogue: 0,0:14:25.82,0:14:27.05,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}含蓄\NSubtle.
+Dialogue: 0,0:14:27.47,0:14:28.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我猜也是\NI'll bet.
+Dialogue: 0,0:14:28.65,0:14:31.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过  我们现在还是\NBut, uh, for now let's just
+Dialogue: 0,0:14:32.98,0:14:34.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}专业点\Nkeep it professional.
+Dialogue: 0,0:14:35.35,0:14:38.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我猜昨天晚上的活只是测试\NNow, I'm willing to guess that last night's job was a test
+Dialogue: 0,0:14:38.77,0:14:41.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}是为了记录纽约警察的反应时间\Nto check the NYPD's response time,
+Dialogue: 0,0:14:41.45,0:14:46.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也就是说你  有更大的活\NWhich means that you have something bigger lined up.
+Dialogue: 0,0:14:47.20,0:14:49.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}瞧  这才叫含蓄\NSee, now that was subtle.
+Dialogue: 0,0:14:49.74,0:14:50.91,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那么\NSo...
+Dialogue: 0,0:14:51.70,0:14:54.41,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你准备好大干一场了吗\Nare you ready for another score?
+Dialogue: 0,0:14:54.42,0:14:56.81,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不够含蓄了\NThat not so much.
+Dialogue: 0,0:14:57.04,0:14:58.23,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也许吧\NMaybe.
+Dialogue: 0,0:14:59.65,0:15:01.98,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过我不喜欢操之过急\NBut I'm not the kind of man who likes to rush.
+Dialogue: 0,0:15:03.59,0:15:04.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一个完美的计划\NA perfectly planned job
+Dialogue: 0,0:15:04.73,0:15:07.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如同诱惑\Nis a kind of seduction.
+Dialogue: 0,0:15:08.42,0:15:11.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}长时间的关注  渴望\NHours looking, wanting,
+Dialogue: 0,0:15:11.73,0:15:14.03,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}在脑海中反复意淫目标\Nturning your target around in your mind.
+Dialogue: 0,0:15:15.26,0:15:16.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}然后\NAnd then...
+Dialogue: 0,0:15:17.91,0:15:19.21,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}缓缓接近\Nyou move closer,
+Dialogue: 0,0:15:19.73,0:15:21.10,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}擦肩而过\Nbrushing past,
+Dialogue: 0,0:15:22.67,0:15:24.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}慢慢接触\Nmaking contact
+Dialogue: 0,0:15:25.91,0:15:27.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}观察反应\Njust to see what will happen.
+Dialogue: 0,0:15:28.88,0:15:30.29,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}当一切就绪\NAnd when everything's ready
+Dialogue: 0,0:15:31.39,0:15:32.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一切到位\Nand when everything is right,
+Dialogue: 0,0:15:34.07,0:15:35.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}所有的前戏\Nall of that preparation
+Dialogue: 0,0:15:36.77,0:15:40.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}将会换来天雷勾动地火的燃情一刻\Npays off in one sudden, intense, crashing moment.
+Dialogue: 0,0:15:41.04,0:15:42.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他不过\NHe's good.
+Dialogue: 0,0:15:42.43,0:15:43.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过这种台词\NBut a line like that
+Dialogue: 0,0:15:43.32,0:15:46.07,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}绝对打动不了你这种职业特\Nwould never work on a trained operative like--
+Dialogue: 0,0:15:48.76,0:15:50.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}要换个地方吗\NDo you want to get out of here?
+Dialogue: 0,0:15:57.55,0:15:58.67,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好吧\NOkay.
+Dialogue: 0,0:15:59.78,0:16:02.01,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}的确性感\NNow, this is sexy.
+Dialogue: 0,0:16:09.52,0:16:12.60,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}计划下一次征服\NPlans for your next conquest?
+Dialogue: 0,0:16:12.67,0:16:13.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也许是\NMaybe.
+Dialogue: 0,0:16:14.34,0:16:15.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也许不是\NMaybe not.
+Dialogue: 0,0:16:18.10,0:16:18.99,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}伙计们\NGentlemen,
+Dialogue: 0,0:16:18.99,0:16:20.47,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们得做个决定\Nwe have a decision to make.
+Dialogue: 0,0:16:21.19,0:16:22.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们有人今天被抓了\NOne of us got arrested today.
+Dialogue: 0,0:16:22.38,0:16:23.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}只是毒品问题\NIt's just a drug charge,
+Dialogue: 0,0:16:23.34,0:16:25.50,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但我们的行动可能被泄露了\Nbut our operation could be compromised.
+Dialogue: 0,0:16:26.07,0:16:27.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}她的背景查了没问题\NEverything about her checks out.
+Dialogue: 0,0:16:27.86,0:16:28.80,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但无法确知\NBut there's no way for us to know
+Dialogue: 0,0:16:28.80,0:16:30.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}她是否为警察工作\Nwhether she's working with the police or not.
+Dialogue: 0,0:16:31.28,0:16:33.62,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}下一票的风险很高\NThis next job comes with a very high risk factor,
+Dialogue: 0,0:16:33.63,0:16:35.49,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但奖赏更丰\Nbut it also comes with very high reward.
+Dialogue: 0,0:16:35.83,0:16:37.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}雇我们的客户愿意付给每人两百万\NThe client who hired us is paying $2 million each
+Dialogue: 0,0:16:37.86,0:16:39.98,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}偷一个保险箱里的珠宝\Nfor the jewels inside of a single vault.
+Dialogue: 0,0:16:40.82,0:16:44.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那么  我们是信她干了这票\NSo do we trust her and take the score,
+Dialogue: 0,0:16:45.86,0:16:47.99,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}还是处理了证据走人呢\Nor do we walk away and get rid of the evidence?
+Dialogue: 0,0:16:55.62,0:16:57.23,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}要我说干吧\NI say let's go for it.
+Dialogue: 0,0:17:01.51,0:17:02.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那开始干活吧\NThen let's get to work.
+Dialogue: 0,0:17:04.91,0:17:06.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}计划已经定好了\NThe plan's ready to go.
+Dialogue: 0,0:17:07.71,0:17:08.91,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}只缺你了\NAll we need is you.
+Dialogue: 0,0:17:09.05,0:17:11.27,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你打算什么时候开始\NOkay, so when were you planning on doing this?
+Dialogue: 0,0:17:11.62,0:17:12.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}二十分钟后\N20 minutes.
+Dialogue: 0,0:17:26.13,0:17:27.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}打扰一下\NExcuse me.
+Dialogue: 0,0:17:27.47,0:17:28.99,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你是礼宾人员吗\NAre you the concierge?
+Dialogue: 0,0:17:28.99,0:17:30.67,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}是的  有什么能帮您  小姐\NYes. How may I help you, miss...
+Dialogue: 0,0:17:30.67,0:17:31.80,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}史蒂文斯\NStevens.
+Dialogue: 0,0:17:31.83,0:17:33.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我有些珠宝\NI have some jewelry that--
+Dialogue: 0,0:17:34.22,0:17:36.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}可能价值比这酒店还高\Nit costs slightly more than this hotel,
+Dialogue: 0,0:17:36.34,0:17:38.40,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我觉得要是放在房间的小保险箱里\Nand I don't think I'll sleep well
+Dialogue: 0,0:17:38.57,0:17:40.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我恐怕睡不安稳\Nif it's in that little safe in the room.
+Dialogue: 0,0:17:40.45,0:17:45.05,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你们有  更安全的地方吗\NCould you offer me anything more secure?
+Dialogue: 0,0:17:45.05,0:17:46.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}当然\NOf course.
+Dialogue: 0,0:17:46.12,0:17:48.62,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我很乐意将您的东西存在酒店的保险柜里\NI'd be happy to store your items in the hotel's vault.
+Dialogue: 0,0:17:49.72,0:17:53.92,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我能先看看保险箱吗\NAnd I don't suppose I could see this vault first, could I?
+Dialogue: 0,0:17:56.32,0:17:59.86,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}门是用高碳钢做的  时刻上锁\NBars are high-carbon steel, locked at all times.
+Dialogue: 0,0:17:59.86,0:18:02.00,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}保险柜本身是\NThe vault itself, it's--
+Dialogue: 0,0:18:02.78,0:18:04.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}后退  马上\NBack up! Now! Now!
+Dialogue: 0,0:18:11.79,0:18:12.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}监控关了\NCameras are dead.
+Dialogue: 0,0:18:13.18,0:18:15.00,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}有你的片段已经删了\Nfootage of you is being erased.
+Dialogue: 0,0:18:18.07,0:18:20.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你真觉得能在警察来前打开它吗\NYou really think you can crack that before the cops get here?
+Dialogue: 0,0:18:27.89,0:18:30.16,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}有趣  但动静会很大\NCute, but that's gonna make one hell of a noise.
+Dialogue: 0,0:18:32.59,0:18:33.97,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好了  可以走了\NAll right, good to go.
+Dialogue: 0,0:18:39.27,0:18:40.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}今天是退伍军人节\NIt's Veterans Day.
+Dialogue: 0,0:18:41.28,0:18:44.22,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们离无畏号博物馆的庆祝地点只有三条街\NAnd we're three blocks away from the celebration at the Intrepid.
+Dialogue: 0,0:18:45.10,0:18:47.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你现在肯定很骄傲是吧\NYou're pretty proud of yourself right now, huh?
+Dialogue: 0,0:18:57.66,0:18:58.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看看吧\NLet's see.
+Dialogue: 0,0:18:59.44,0:19:01.27,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}拖这一路触发了二重锁\NThe ride here tripped the relockers,
+Dialogue: 0,0:19:01.27,0:19:03.27,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}所以前门没戏了\Nso the front door's dead.
+Dialogue: 0,0:19:03.35,0:19:04.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过一路和混凝土的摩擦\NBut the friction with the concrete
+Dialogue: 0,0:19:04.95,0:19:07.62,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}把背板磨掉了  露出了焊接面\Nground down the back plate, exposing the welds.
+Dialogue: 0,0:19:08.19,0:19:09.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}聪明啊\NClever boy.
+Dialogue: 0,0:19:09.80,0:19:11.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}让他来吧\NLet him play.
+Dialogue: 0,0:19:11.48,0:19:12.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你的工作结束了\NYour work is done.
+Dialogue: 0,0:19:16.63,0:19:17.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}恭喜\NProst.
+Dialogue: 0,0:19:22.12,0:19:24.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}虽未阻止谋杀\NWe have yet to prevent a murder,
+Dialogue: 0,0:19:24.04,0:19:26.03,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过我们算是完成了"加上重大盗窃"\Nbut we can add another grand larceny
+Dialogue: 0,0:19:26.03,0:19:27.80,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这一光辉目标了\Nto our list of accomplishments.
+Dialogue: 0,0:19:27.92,0:19:30.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我正在黑酒店的安保系统\NI'm hacking the hotel security
+Dialogue: 0,0:19:30.53,0:19:33.56,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看你们究竟偷了什么珠宝\Nto determine precisely what jewels you've stolen.
+Dialogue: 0,0:19:33.56,0:19:35.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也许他们价值很高  托马斯不惜\NPerhaps they're so valuable that Tomas is willing
+Dialogue: 0,0:19:35.51,0:19:38.40,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}背叛客户并杀掉同伴据为己有\Nto betray a client and kill his teammates just to keep them.
+Dialogue: 0,0:19:38.40,0:19:41.28,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}肖  你的约会怎么样\NShaw. How's your date?
+Dialogue: 0,0:19:57.94,0:19:59.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不对劲  芬奇\NSomething's wrong here, Finch.
+Dialogue: 0,0:20:00.10,0:20:01.72,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}确实不对劲\NSomething's wrong indeed.
+Dialogue: 0,0:20:01.92,0:20:03.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那个保险柜里唯一的东西\NThe only item in that vault
+Dialogue: 0,0:20:03.57,0:20:06.52,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}是酒店的一个客人昨天放进去的\Nwas placed there yesterday by a guest of the hotel,
+Dialogue: 0,0:20:06.52,0:20:10.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}朱莉安娜·佩特洛娃博士  疾控中心的研究员\NDr. Juilianna Petrova, a researcher at the CDC.
+Dialogue: 0,0:20:11.12,0:20:14.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}她是四级传染病专家\NShe's an expert on level four infectious diseases.
+Dialogue: 0,0:20:14.10,0:20:17.78,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}肖女士  我不确定你们偷的是珠宝了\NMiss Shaw, I'm no longer certain that you were stealing jewels.
+Dialogue: 0,0:20:27.01,0:20:28.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我觉得托马斯也许\NI'm kind of thinking maybe Tomas
+Dialogue: 0,0:20:28.35,0:20:30.47,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}根本不是行凶者  芬奇\Nisn't the perpetrator after all, Finch.
+Dialogue: 0,0:20:31.31,0:20:32.30,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}走\NGo!
+Dialogue: 0,0:20:49.87,0:20:51.54,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这里没人  肖\NPlace is clear, Shaw.
+Dialogue: 0,0:20:51.54,0:20:53.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}麦克斯和亨里克不在\NNo sign of Max or Henrik.
+Dialogue: 0,0:20:55.41,0:20:57.41,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我和他俩合作了六年\NSix years I've been working with those two.
+Dialogue: 0,0:20:57.58,0:20:59.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}六年  他们就这么把我卖了\NSix years and they just turn on me like that.
+Dialogue: 0,0:21:02.30,0:21:03.65,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}赃物在吗\NAny sign of the loot?
+Dialogue: 0,0:21:03.65,0:21:05.69,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你在跟谁说话  我们到底在哪里\NWho you talking to? And where the hell are we?
+Dialogue: 0,0:21:05.69,0:21:07.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我查过你的地址  不在这儿\NI checked your address out. This isn't it.
+Dialogue: 0,0:21:07.60,0:21:09.67,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}现在你要知道的唯一地址\NRight now the only address you need
+Dialogue: 0,0:21:09.67,0:21:12.16,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}是那边酒柜的威士忌\Nis the whiskey in that cabinet.
+Dialogue: 0,0:21:12.51,0:21:15.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}给我调一杯特浓的  你也一样\NSo make mine a double, yours too.
+Dialogue: 0,0:21:18.76,0:21:21.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}保险柜里有个金属箱\NInside the safe, there was a metal case
+Dialogue: 0,0:21:21.12,0:21:23.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}标有"马尔夫"\Nwith "Marv" on the label.
+Dialogue: 0,0:21:23.71,0:21:24.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}马尔夫\NMarv?
+Dialogue: 0,0:21:27.33,0:21:29.96,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}反正东西被托马斯的兄弟拿走了\NWhatever it was, Tomas' buddies have it now.
+Dialogue: 0,0:21:29.97,0:21:31.08,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}天啊  不妙了\NOh, dear, this is bad.
+Dialogue: 0,0:21:31.08,0:21:32.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}大事不妙了\NThis is very, very bad.
+Dialogue: 0,0:21:32.71,0:21:33.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那些标签不是写"马尔夫"\NThose labels don't say "Marv."
+Dialogue: 0,0:21:33.71,0:21:34.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}而是"马毒"\NThey say "Mar-v,"
+Dialogue: 0,0:21:34.82,0:21:36.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}"马堡病毒"\Nas in "Marburg virus,"
+Dialogue: 0,0:21:37.32,0:21:39.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}能引起出血性高烧\NA viral hemorrhagic fever
+Dialogue: 0,0:21:39.12,0:21:41.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}死亡率接近九成\Nwith a mortality rate approaching 90%.
+Dialogue: 0,0:21:41.39,0:21:43.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}埃博拉的邪恶双胞胎\NIt's like Ebola's evil twin.
+Dialogue: 0,0:21:43.40,0:21:44.69,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}佩特洛娃博士在乌干达\NDr. Petrova was in Uganda
+Dialogue: 0,0:21:44.69,0:21:46.41,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}搜集这种病毒的样本\Ncollecting samples of the virus.
+Dialogue: 0,0:21:46.41,0:21:49.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但是由于西非埃博拉病毒爆发\NBut due to the outbreak of Ebola in western Africa,
+Dialogue: 0,0:21:49.45,0:21:51.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}她把样本送回疾控中心的要求\Nher request to ship them to the CDC
+Dialogue: 0,0:21:51.34,0:21:53.61,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}被国安局拒绝了\Nwas denied by Homeland Security.
+Dialogue: 0,0:21:53.61,0:21:55.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不想让多月的研究付诸一炬\NRather than lose months of research,
+Dialogue: 0,0:21:55.64,0:21:58.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}佩特洛娃博士选择把样本非法偷运回美国\NDr. Petrova chose to smuggle them into the U.S. illegally.
+Dialogue: 0,0:21:58.82,0:22:00.44,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}现在却被人偷了\NAnd now somebody stole them.
+Dialogue: 0,0:22:00.45,0:22:01.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果能让你舒服点的话\NIf it makes you feel better,
+Dialogue: 0,0:22:01.48,0:22:03.50,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}佩博士现在心急如焚\NDr. P's freaking out about it.
+Dialogue: 0,0:22:03.50,0:22:06.87,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}她刚向疾控中心的负责人自首了\NShe just turned herself in to her bosses at the CDC.
+Dialogue: 0,0:22:07.17,0:22:08.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}十瓶马堡病毒威力无穷\NIt would be difficult to overstate the degree
+Dialogue: 0,0:22:08.95,0:22:11.22,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一旦被释放在纽约  后果不堪设想\Nto which we do not need ten vials of Marburg
+Dialogue: 0,0:22:11.22,0:22:13.08,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们不能让这种事发生\Nfloating around the streets of New York City.
+Dialogue: 0,0:22:13.09,0:22:16.06,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们得尽快找到病毒和盗窃者\NWe have to find the virus and the people who stole it fast.
+Dialogue: 0,0:22:16.06,0:22:18.62,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好  我去追踪麦克斯和亨里克\NOkay, I'll track down Max and Henrik,
+Dialogue: 0,0:22:18.79,0:22:20.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但我们得知道他们是替谁干活\Nbut we need to know who they're working for.
+Dialogue: 0,0:22:21.03,0:22:22.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}可能和当初雇佣\NIt was probably the same client
+Dialogue: 0,0:22:22.35,0:22:24.29,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}托马斯的是同一个客户\Nwho hired Tomas in the first place.
+Dialogue: 0,0:22:24.90,0:22:26.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}其他人不知道抢劫的事\NNobody else knew about the robbery.
+Dialogue: 0,0:22:26.72,0:22:28.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}再说  给钱他们俩去杀了托马斯\NPlus, paying those two to kill Tomas
+Dialogue: 0,0:22:28.25,0:22:30.29,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}比付三个人的酬金要便宜\Nis cheaper than paying all three.
+Dialogue: 0,0:22:32.63,0:22:33.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}没错啊\NIt is.
+Dialogue: 0,0:22:36.06,0:22:36.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那么\NSo...
+Dialogue: 0,0:22:37.50,0:22:38.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你的客户是谁\Nwho's your client?
+Dialogue: 0,0:22:41.03,0:22:42.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你的又是谁\NWho's yours?
+Dialogue: 0,0:22:42.89,0:22:44.31,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你不止是小偷\NYou're not just a thief,
+Dialogue: 0,0:22:44.31,0:22:45.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}而且你肯定不是单独行动\Nand you're definitely not working alone.
+Dialogue: 0,0:22:45.90,0:22:49.13,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}所以我为什么要相信你\NSo why should I even trust you?
+Dialogue: 0,0:22:50.25,0:22:52.05,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你想谈信任问题啊\NYou wanna talk about trust, huh?
+Dialogue: 0,0:22:52.45,0:22:55.41,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你刚替极度危险份子\NYou just stole a very dangerous virus
+Dialogue: 0,0:22:55.41,0:22:56.97,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}偷了极度危险的病毒\Nfor some very dangerous people.
+Dialogue: 0,0:22:56.97,0:22:57.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果我知道目标是什么\NLook, I never would have done that
+Dialogue: 0,0:22:57.82,0:22:59.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我是绝对不会动手的\Nif I knew what I was taking.
+Dialogue: 0,0:22:59.34,0:23:00.47,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我不是圣人\NI'm not a saint,
+Dialogue: 0,0:23:00.47,0:23:02.14,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但有些事过了线\Nbut some things are too far,
+Dialogue: 0,0:23:02.92,0:23:04.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我这种人也不肯做\Neven for a man like me.
+Dialogue: 0,0:23:05.80,0:23:09.69,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你的客户可没这么高的道德准则了\NI doubt your client has the same high moral standards.
+Dialogue: 0,0:23:09.91,0:23:11.14,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}告诉我名字\NI need a name.
+Dialogue: 0,0:23:11.16,0:23:12.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}没有\NNever got one.
+Dialogue: 0,0:23:12.36,0:23:13.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}匿名邮件\NAnonymous emails,
+Dialogue: 0,0:23:13.04,0:23:15.31,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一次性转账的付款\Npayments by one-time wire transfer.
+Dialogue: 0,0:23:15.79,0:23:18.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不提名字对大家都好\NIt's better for everyone if we don't use names.
+Dialogue: 0,0:23:19.56,0:23:21.56,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但我会找到幕后黑手的\NBut I'm gonna find the bastard behind this.
+Dialogue: 0,0:23:22.80,0:23:24.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我会把那些瓶子偷回来\NI'm gonna steal those vials back,
+Dialogue: 0,0:23:25.51,0:23:26.92,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}要他付出代价\Nand I'm gonna make him pay.
+Dialogue: 0,0:23:29.05,0:23:29.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你加入吗\NYou in?
+Dialogue: 0,0:23:31.42,0:23:32.44,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你觉得呢\NWhat do you think?
+Dialogue: 0,0:23:35.49,0:23:36.67,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我有个朋友\NI have a friend
+Dialogue: 0,0:23:37.73,0:23:40.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}可以把那些匿名邮件\Nwho can make those anonymous emails
+Dialogue: 0,0:23:40.64,0:23:42.07,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}变得没那么匿名\Nway less anonymous.
+Dialogue: 0,0:23:46.98,0:23:49.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这里就是见证奇迹的地方\NSo this is where the magic happens.
+Dialogue: 0,0:23:50.06,0:23:52.78,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}租的一万平方尺办公室  装满了\NRented 10,000 square feet of office space and filled it
+Dialogue: 0,0:23:52.78,0:23:55.19,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}最先进的3D打印机\Nwith state-of-the-art 3-D printers.
+Dialogue: 0,0:23:56.18,0:23:58.07,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一千两百万几乎全都花在这上面了\NAlmost all the 12 million went to paying for these,
+Dialogue: 0,0:23:58.07,0:24:00.61,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过一旦运行起来\Nbut once they're up and running,
+Dialogue: 0,0:24:01.21,0:24:03.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们就会在这里制造全部的平板\Nwe'll be making all the tablets right here
+Dialogue: 0,0:24:03.93,0:24:05.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}在纽约\Nin New York.
+Dialogue: 0,0:24:05.12,0:24:06.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这是样机\NThat's our prototype.
+Dialogue: 0,0:24:07.91,0:24:10.41,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}想像下全国的孩子们人手一台平板\NJust imagine giving one of those to every kid in the state.
+Dialogue: 0,0:24:11.08,0:24:12.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}太棒了\NAmazing.
+Dialogue: 0,0:24:12.40,0:24:13.03,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我会告诉州长\NI'll tell the governor
+Dialogue: 0,0:24:13.03,0:24:15.28,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}拨款得到了妥善使用\Nour grant money is in good hands.
+Dialogue: 0,0:24:17.66,0:24:19.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你们为什么要装摄像头\NWhy are you guys putting up cameras?
+Dialogue: 0,0:24:21.65,0:24:24.13,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我是公关办公室的  杰罗德\NI'm from the public relations office, Jerrod.
+Dialogue: 0,0:24:24.13,0:24:25.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}州长想在我们的网站上\NThe governor wants a time lapse
+Dialogue: 0,0:24:25.36,0:24:27.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}放上你平板制作的定时拍摄画面\NOf your tablets being made to put on our website.
+Dialogue: 0,0:24:27.90,0:24:30.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}或者一个邪恶的人工智能想盯紧\NOr an evil A.I. wants to keep a close eye
+Dialogue: 0,0:24:30.71,0:24:32.27,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}它的洗脑工具\Non its baby brainwashers.
+Dialogue: 0,0:24:32.27,0:24:33.87,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们入侵威尔金斯的电脑\NOur intrusion into Wilkins' computer
+Dialogue: 0,0:24:33.87,0:24:35.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}肯定引起了撒马利亚人的警惕\Nmust have put Samaritan on alert,
+Dialogue: 0,0:24:35.74,0:24:39.54,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}现在想做什么肯定更困难了\NMaking it that much more difficult to do what we must.
+Dialogue: 0,0:24:40.57,0:24:42.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}难是难  不过\NDifficult but...
+Dialogue: 0,0:24:42.90,0:24:44.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们有办法的\Nwe'll find a way in.
+Dialogue: 0,0:24:51.23,0:24:53.21,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过我们先要去买点东西\NBut first we'll need to go shopping.
+Dialogue: 0,0:24:56.33,0:24:58.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}找到病毒了吗  里瑟先生\NAny progress finding the virus, Mr. Reese?
+Dialogue: 0,0:24:58.59,0:25:00.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我找到了麦克斯和亨里克\NI tracked down Max and Henrik,
+Dialogue: 0,0:25:01.03,0:25:02.87,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但他们开不了口了\Nbut I don't think they're gonna talk.
+Dialogue: 0,0:25:02.93,0:25:04.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我查了他们的尸体\NI searched their bodies.
+Dialogue: 0,0:25:04.71,0:25:06.81,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}没有手机  没有钱包\NNo phones, no wallets,
+Dialogue: 0,0:25:06.81,0:25:08.53,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也没看到病毒\Nand no sign of the virus.
+Dialogue: 0,0:25:08.54,0:25:10.52,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}看来托马斯并非唯一\NSo it would seem that Tomas is not the only one
+Dialogue: 0,0:25:10.52,0:25:12.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}上了这位客户当的人\Nthat this client has double-crossed.
+Dialogue: 0,0:25:12.45,0:25:14.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果这俩人知道他是谁\NIf these guys knew who he was,
+Dialogue: 0,0:25:15.20,0:25:17.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}或许别人也知道\Nmaybe someone else does too.
+Dialogue: 0,0:25:23.98,0:25:25.06,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你在浪费我时间\NYou waste my time.
+Dialogue: 0,0:25:25.14,0:25:28.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那袋毒品是栽赃\NYour drug charge is podrobka.
+Dialogue: 0,0:25:28.63,0:25:30.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你定不了罪\NYou'll never make it stick.
+Dialogue: 0,0:25:30.11,0:25:31.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我没必要\NI won't have to.
+Dialogue: 0,0:25:31.73,0:25:34.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}现在是在调查凶杀案\NSee, it's a homicide investigation now.
+Dialogue: 0,0:25:36.92,0:25:37.67,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你不想谈谈\NYou wouldn't want to tell me
+Dialogue: 0,0:25:37.67,0:25:39.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你的朋友托马斯吗\Nabout your friend Tomas, would you?
+Dialogue: 0,0:25:40.24,0:25:42.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我从昨天就关在这里\NI've been here since yesterday.
+Dialogue: 0,0:25:42.51,0:25:44.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他的死和我没关系\NI have nothing to do with his death.
+Dialogue: 0,0:25:44.45,0:25:46.23,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我没说他是受害人\NI never said he was the one who died.
+Dialogue: 0,0:25:46.59,0:25:50.66,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这起凶案  死了两个人\NThe homicide I'm working, it's a double.
+Dialogue: 0,0:25:50.79,0:25:53.28,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不管是谁雇你们仨杀掉托马斯\NSee, whoever hired you three to take out Tomas,
+Dialogue: 0,0:25:53.48,0:25:55.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这才是他通盘计划\NThis is how they settled the check.
+Dialogue: 0,0:25:56.18,0:25:57.28,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果我是你\NNow, if I were you,
+Dialogue: 0,0:25:57.28,0:25:59.72,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我就会坐上第一班飞机\NI'd like to be sipping a nice glass of champagne
+Dialogue: 0,0:25:59.85,0:26:01.53,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}喝着香槟  远走高飞\Non our first flight to nowhere,
+Dialogue: 0,0:26:01.53,0:26:03.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不会等着坐牢\NInstead of a sitting duck in a jail cell.
+Dialogue: 0,0:26:04.72,0:26:07.97,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过  也许我在浪费你的时间\NBut maybe I'm wasting your time.
+Dialogue: 0,0:26:10.92,0:26:12.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我喜欢托马斯\NI like Tomas.
+Dialogue: 0,0:26:13.58,0:26:15.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但公事归公事\NBut business is business.
+Dialogue: 0,0:26:16.22,0:26:17.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你们怎么谈的\NWhat was the deal?
+Dialogue: 0,0:26:20.35,0:26:21.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}每人再多五十万\NHalf a million extra each
+Dialogue: 0,0:26:21.96,0:26:24.46,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}给我  麦克斯和亨里克\NFor me, Max, and Henrik.
+Dialogue: 0,0:26:25.19,0:26:27.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}托马斯撬开金库  然后\NTomas cracks the vault and...
+Dialogue: 0,0:26:30.41,0:26:31.86,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这是原本的计划\NThat was the plan anyway.
+Dialogue: 0,0:26:31.86,0:26:34.42,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}计划  谁的计划  客户是谁\NPlan? Whose plan? Who was the client?
+Dialogue: 0,0:26:34.42,0:26:36.31,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}和其他活计一样\NIt was like the rest of the job.
+Dialogue: 0,0:26:36.43,0:26:39.43,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一次性转账  匿名邮件\None-time wires, no-name emails.
+Dialogue: 0,0:26:39.83,0:26:41.33,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过这个人\NBut whoever he was,
+Dialogue: 0,0:26:41.96,0:26:43.20,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他无所不知\Nhe knew everything.
+Dialogue: 0,0:26:43.52,0:26:45.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他知道托马斯是唯一一个\NHe knew Tomas was the only person
+Dialogue: 0,0:26:45.51,0:26:47.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}能偷取成功的人\Nto pull off a plan like this.
+Dialogue: 0,0:26:48.16,0:26:51.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他也知道  如果托马斯知道里面是什么\NHe also knew Tomas wouldn't have done it
+Dialogue: 0,0:26:51.63,0:26:53.46,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他不会去偷\Nif he knew what he was stealing.
+Dialogue: 0,0:26:57.25,0:26:58.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他还知道你们仨\NAnd he knew for the right price
+Dialogue: 0,0:26:58.59,0:27:00.24,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}出卖朋友的价钱\Nyou three would turn on a friend.
+Dialogue: 0,0:27:09.80,0:27:12.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}哈罗德  我们到这里干嘛\NOkay, Harold, why are we here?
+Dialogue: 0,0:27:13.22,0:27:14.78,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}面包屑  肖女士\NIt's bread crumbs, Ms. Shaw.
+Dialogue: 0,0:27:14.79,0:27:17.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我追踪了托马斯和卡迪亚提供的\NMy attempts to trace the emails and wire transfers
+Dialogue: 0,0:27:17.68,0:27:19.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}邮件和转账记录\Nprovided by Tomas and Katya
+Dialogue: 0,0:27:19.75,0:27:22.29,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}仍无法得知客户的身份\NHave yet to reveal their client's identity.
+Dialogue: 0,0:27:22.30,0:27:24.53,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但昨天那位客户转了一笔钱\NBut yesterday the client wired money
+Dialogue: 0,0:27:24.53,0:27:27.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}支付这里的储藏费用\Nto pay for storage at that address.
+Dialogue: 0,0:27:27.34,0:27:28.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}奈特和莫里斯公司\NKnight & Morris,
+Dialogue: 0,0:27:28.88,0:27:32.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}纽约最安全的储藏公司\NThe oldest and most secure storage facility in New York,
+Dialogue: 0,0:27:32.34,0:27:34.96,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}存放物品包括从价值连城的传家宝\NHousing everything from priceless heirlooms
+Dialogue: 0,0:27:34.96,0:27:36.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}到文艺复兴艺术品\Nto renaissance art.
+Dialogue: 0,0:27:36.38,0:27:37.98,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}在它九十五年的历史中\NIn their 95-year history,
+Dialogue: 0,0:27:37.98,0:27:40.37,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}从未被盗取过\Nthey have never been robbed.
+Dialogue: 0,0:27:40.37,0:27:42.69,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这里  简单点说  就是座堡垒\NThey are, simply put, a fortress.
+Dialogue: 0,0:27:42.70,0:27:44.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}所以无疑  病毒就在这里\NSo of course that's where the vials are now.
+Dialogue: 0,0:27:44.64,0:27:46.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}要知道它的确切位置\NTo locate them precisely,
+Dialogue: 0,0:27:46.83,0:27:49.08,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们仍要知道客户的名字\Nwe still need to know the client's name.
+Dialogue: 0,0:27:51.17,0:27:52.49,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}混蛋\NSon of a...
+Dialogue: 0,0:27:53.22,0:27:54.21,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}马可\NMarko.
+Dialogue: 0,0:27:54.47,0:27:55.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}马可\NMarko?
+Dialogue: 0,0:27:55.18,0:27:56.40,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}马克·耶夫蒂奇\NMarko Jevtic?
+Dialogue: 0,0:27:56.78,0:27:58.70,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}死在布拉格的搭档吗\NThe partner that died in Prague?
+Dialogue: 0,0:27:58.70,0:28:00.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}等等  你没杀他\NWait, didn't you kill that guy?
+Dialogue: 0,0:28:00.94,0:28:02.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我从没杀过人\NI've never killed anyone.
+Dialogue: 0,0:28:02.72,0:28:04.66,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}马可被抓后  我们想救他出来\NWe tried to spring Marko out after he got caught,
+Dialogue: 0,0:28:04.66,0:28:06.20,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但太冒险了\Nbut it was too risky.
+Dialogue: 0,0:28:07.23,0:28:10.44,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那他要么是保存完好的尸体\NSo either he's a really well-preserved corpse,
+Dialogue: 0,0:28:10.44,0:28:12.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}要么是他装死逃了出来\Nor he escaped by faking his own death.
+Dialogue: 0,0:28:12.90,0:28:14.54,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}马可认为我们弃他于不顾\NMarko thinks we left him to rot,
+Dialogue: 0,0:28:14.54,0:28:16.69,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这出背后捅刀的戏是他的复仇\Nand this whole double-cross is his revenge.
+Dialogue: 0,0:28:16.69,0:28:19.82,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}复不复仇且不说  耶夫蒂奇手上有致命病毒\NRevenge or not, Jevtic is in possession of a deadly virus,
+Dialogue: 0,0:28:19.82,0:28:21.16,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}而且我很想知道\Nand I would very much like to know
+Dialogue: 0,0:28:21.16,0:28:23.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他对病毒有何企图\Nwhat he intends to do with it.
+Dialogue: 0,0:28:24.75,0:28:27.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}买家刚转了一半的货款\NMy buyer just transferred half the money.
+Dialogue: 0,0:28:27.57,0:28:29.49,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}包裹移交后我们就能拿到另一半\NWe get the rest when the package is delivered.
+Dialogue: 0,0:28:29.49,0:28:31.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}午夜行动\NWe move at midnight.
+Dialogue: 0,0:28:31.73,0:28:33.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}那我们就只剩六小时\NSo that gives us less than six hours
+Dialogue: 0,0:28:33.26,0:28:35.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}计划怎么抢劫这里\Nto figure out how to rob this place.
+Dialogue: 0,0:28:38.55,0:28:40.81,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们还有个麻烦  哈罗德\NWe have another problem, Harold.
+Dialogue: 0,0:28:41.04,0:28:43.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我看到一个相关方的特工\NI'm looking at an operative from the relevant side.
+Dialogue: 0,0:28:43.74,0:28:44.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}政府特工吗\NA government agent?
+Dialogue: 0,0:28:44.90,0:28:47.00,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你确定吗  你怎么知道的\NAre you certain? How do you know?
+Dialogue: 0,0:28:47.00,0:28:48.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}因为是我训练的他\NBecause I trained him.
+Dialogue: 0,0:28:49.23,0:28:51.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}德文·格赖斯  深红6A\NDevon Grice, crimson six alpha.
+Dialogue: 0,0:28:51.67,0:28:53.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我认识他和他的搭档\NI know him and his partner.
+Dialogue: 0,0:28:54.63,0:28:56.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}现在马可手上有了病毒\NNow that Marko has the virus,
+Dialogue: 0,0:28:56.19,0:28:58.95,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}整件事升级为"相关"了\Nthis whole damn thing just went relevant.
+Dialogue: 0,0:29:05.39,0:29:09.30,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}主要行动\N目前威胁\N事关国家安全\N发现生物武器\N马堡病毒  4类病原体
+Dialogue: 0,0:29:10.38,0:29:11.43,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}上传正常\NUplink's good.
+Dialogue: 0,0:29:11.43,0:29:13.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}国安局信号上线\NNSA feeds online.
+Dialogue: 0,0:29:14.48,0:29:16.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你怀念过去吗  布鲁克斯\NYou ever miss the old days, Brooks?
+Dialogue: 0,0:29:17.87,0:29:18.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}旧系统\NThe old system?
+Dialogue: 0,0:29:18.64,0:29:19.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}为什么\NWhy?
+Dialogue: 0,0:29:19.76,0:29:23.02,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}探索者2.0版选出的威胁多过旧系统\NResearch 2.0 targets more threats than the old system ever did.
+Dialogue: 0,0:29:23.02,0:29:23.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这就是问题\NThat's just it.
+Dialogue: 0,0:29:23.73,0:29:25.13,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}以前  我们选定目标\NBack then, we did the targeting,
+Dialogue: 0,0:29:25.13,0:29:26.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们的情报网做调查\Nhad to scrutinize our own intel,
+Dialogue: 0,0:29:26.77,0:29:28.79,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们自己思考\Nthink for ourselves.
+Dialogue: 0,0:29:28.79,0:29:31.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们打击目标时  我们知道原因\NWhen we lit up a target, we knew why.
+Dialogue: 0,0:29:31.85,0:29:34.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}而现在不给号码去调查\NNow instead of numbers to investigate,
+Dialogue: 0,0:29:34.48,0:29:36.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}而是直接干掉号码\Nwe just get numbers to kill.
+Dialogue: 0,0:29:39.87,0:29:41.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你不觉得奇怪吗\NYou don't think that's strange?
+Dialogue: 0,0:29:41.76,0:29:43.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们不是雇来动脑子的  格赖斯\NWe don't get paid to think, Grice.
+Dialogue: 0,0:29:43.93,0:29:46.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}主控者不会喜欢你刚说的\NAnd Control wouldn't like what you're saying.
+Dialogue: 0,0:29:46.19,0:29:48.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}还记得靛蓝五号的事吧\NYou remember what happened to Indigo five, right?
+Dialogue: 0,0:29:48.48,0:29:50.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我听说肖活了下来\NI heard Shaw lived to fight another day.
+Dialogue: 0,0:29:52.05,0:29:53.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}没人幸存\NNobody lives,
+Dialogue: 0,0:29:53.65,0:29:56.31,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}问问题从来没有好结果\Nand no good comes of asking questions.
+Dialogue: 0,0:29:59.69,0:30:02.92,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们的命令是消灭所有目标\NOur orders are to eliminate all targets
+Dialogue: 0,0:30:02.92,0:30:05.16,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}销毁全部病毒\Nand destroy every last drop of this virus.
+Dialogue: 0,0:30:05.16,0:30:07.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}晚上十点行动\NWe strike at 2200.
+Dialogue: 0,0:30:11.40,0:30:13.71,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但要是相关方负责处理病毒\NBut if the relevant side is taking care of the virus,
+Dialogue: 0,0:30:13.71,0:30:15.72,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也许我们的任务就结束了\Nperhaps our work here is done.
+Dialogue: 0,0:30:15.72,0:30:16.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}现在是"撒马利亚人"\NNow that Samaritan is providing
+Dialogue: 0,0:30:16.90,0:30:18.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}向政府提供相关号码\Nthe relevant numbers to the government,
+Dialogue: 0,0:30:18.84,0:30:22.06,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}插手这些行动很容易就会\Nany encounter with those operatives
+Dialogue: 0,0:30:22.06,0:30:24.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}遇上"撒马利亚人"的特工\Ninto a run-in with Samaritan's agents.
+Dialogue: 0,0:30:24.34,0:30:27.20,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}为什么要冒不必要的风险\NWhy expose our operation to unnecessary risk?
+Dialogue: 0,0:30:27.20,0:30:29.50,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}因为我知道相关方如何运作  芬奇\NBecause I know how the relevant side works, Finch.
+Dialogue: 0,0:30:29.50,0:30:30.65,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}而且我认识格赖斯和布鲁克斯\NAnd I know Grice and Brooks.
+Dialogue: 0,0:30:30.66,0:30:32.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}干掉马可及其手下之后\NAfter they kill Marko and his men,
+Dialogue: 0,0:30:32.57,0:30:35.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他们会找到所有与病毒失窃有关联的人\NThey're gonna track down everyone involved in stealing the virus,
+Dialogue: 0,0:30:35.88,0:30:37.83,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}然后全部斩草除根\Nand they're gonna kill them too.
+Dialogue: 0,0:30:37.85,0:30:40.33,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}托马斯想纠正错误\NTomas is trying to make this right.
+Dialogue: 0,0:30:40.98,0:30:42.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}虽然他是个罪犯\NHe may be a criminal,
+Dialogue: 0,0:30:42.34,0:30:45.24,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但他罪不至死\Nbut he doesn't deserve to die.
+Dialogue: 0,0:30:45.30,0:30:47.23,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}而且我们的目标不正是为此么\NAnd isn't that what we're here for,
+Dialogue: 0,0:30:47.50,0:30:49.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}救他一命吗\Nto save his life?
+Dialogue: 0,0:30:49.18,0:30:50.99,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}她将住你了  芬奇\NShe's got you there, Finch.
+Dialogue: 0,0:30:50.99,0:30:54.01,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}再说  苏联人拿着武器化马堡病毒乱来过\NBesides, the Soviets messed around with weaponizing marburg.
+Dialogue: 0,0:30:54.01,0:30:55.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}美国人还没有过\NThe Americans never did.
+Dialogue: 0,0:30:55.35,0:30:56.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你真想让相关方\NDo you really want the relevant side
+Dialogue: 0,0:30:56.75,0:30:58.42,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}拿到病毒吗\Nto get their hands on that virus?
+Dialogue: 0,0:30:58.42,0:31:00.55,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}或者让他们转手交给"撒马利亚人"\NOr let them turn it over to Samaritan?
+Dialogue: 0,0:31:00.56,0:31:03.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}唯一能确保病毒被彻底销毁的方法\NThe only way to make sure those vials get destroyed
+Dialogue: 0,0:31:04.10,0:31:05.69,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就是我们亲自动手\Nis to do it ourselves.
+Dialogue: 0,0:31:05.70,0:31:07.69,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好吧  那就犯罪去吧\NFine, we'll commit your felony.
+Dialogue: 0,0:31:07.81,0:31:08.69,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过遗憾的是\NBut unfortunately,
+Dialogue: 0,0:31:08.69,0:31:12.21,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我还得先着手另一项犯罪计划\NI have another criminal act to attend to first.
+Dialogue: 0,0:31:12.44,0:31:14.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}格罗夫斯女士  我在路上了\NMs. Groves, I'm on my way.
+Dialogue: 0,0:31:14.32,0:31:16.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}很好  威尔金斯准备走了\NGood, Wilkins is about to leave for the night.
+Dialogue: 0,0:31:20.66,0:31:22.72,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}制作中\NAnd now we are cooking.
+Dialogue: 0,0:31:23.91,0:31:25.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}干得好  伙计们\NNice work, you guys.
+Dialogue: 0,0:31:26.04,0:31:27.69,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}第一批早上就可以完成了\NFirst batch should be done by morning.
+Dialogue: 0,0:32:29.32,0:32:31.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}撒马利亚人瞎了  哈罗德\NSamaritan's blind, Harold.
+Dialogue: 0,0:32:31.18,0:32:32.24,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}上吧\NYou're up.
+Dialogue: 0,0:32:37.21,0:32:38.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}进入系统\NAccessing the system.
+Dialogue: 0,0:32:38.36,0:32:39.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我大概需要十分钟\NI'll need about ten minutes.
+Dialogue: 0,0:32:45.83,0:32:48.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}-有事吗  -我接到短信说\N- Yes? - I got a text offering me 3,000 bucks
+Dialogue: 0,0:32:48.26,0:32:51.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果可以在五分钟内修复网络可以付我三千块\Nif I can fix your internet in the next five minutes.
+Dialogue: 0,0:32:51.37,0:32:52.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}真不想催你   哈罗德\NI don't want to rush you, Harold,
+Dialogue: 0,0:32:52.59,0:32:54.67,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过撒马利亚人开始对付我们了\Nbut I think Samaritan's onto us.
+Dialogue: 0,0:32:54.68,0:32:56.62,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}令人惊奇的是  格罗夫斯女士\NSurprisingly, Ms. Groves,
+Dialogue: 0,0:32:56.87,0:32:59.01,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这可不利于我集中精神\Nthat does not help me concentrate.
+Dialogue: 0,0:33:13.02,0:33:16.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}哈罗德  我要做点你不喜欢的事了\NHarold, I'm about to do something you're not gonna like.
+Dialogue: 0,0:33:18.88,0:33:20.13,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不用了  我搞定了\NNo need. I'm done.
+Dialogue: 0,0:33:33.97,0:33:36.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}好了  进去  拿上病毒  出来\NOkay, get in, get the virus, get out.
+Dialogue: 0,0:33:36.25,0:33:38.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}下个月在巴塞罗纳有活\NGot a job in Barcelona next month.
+Dialogue: 0,0:33:40.19,0:33:43.16,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们要是能活下来  你该和我一起\NIf we live through this, you should join me.
+Dialogue: 0,0:33:43.34,0:33:44.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我有工作了\NI already have a job.
+Dialogue: 0,0:33:46.12,0:33:48.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}很奇怪  工资挺低\NIt's weird, the pay sucks,
+Dialogue: 0,0:33:48.11,0:33:49.29,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过\Nbut, uh...
+Dialogue: 0,0:33:50.82,0:33:52.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们用得上你这样的人\Nwe could use a guy like you.
+Dialogue: 0,0:33:53.85,0:33:55.61,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我就位了  肖女士\NI'm in position, Ms. Shaw.
+Dialogue: 0,0:33:57.60,0:33:59.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我绕过了楼里的防火墙\NI've circumvented the building's firewall
+Dialogue: 0,0:33:59.18,0:34:00.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}进入了安保系统\Nand accessed their security.
+Dialogue: 0,0:34:01.94,0:34:03.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}等你准备好就行动\NReady when you are.
+Dialogue: 0,0:34:13.12,0:34:16.00,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}长官  我们正在行动中\NCommand, we're in the middle of something.
+Dialogue: 0,0:34:16.00,0:34:17.50,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}知道了  深红六\NWe're aware, Crimson Six.
+Dialogue: 0,0:34:17.50,0:34:19.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但有新指示\NBut new orders just came through.
+Dialogue: 0,0:34:19.32,0:34:21.96,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你们被要求清除所有目标\NYou are instructed to eliminate all targets
+Dialogue: 0,0:34:21.96,0:34:23.34,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}保护试剂\Nand secure the vials.
+Dialogue: 0,0:34:23.35,0:34:24.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们接到的命令是摧毁病毒  不是\NOur orders were to destroy that virus, not--
+Dialogue: 0,0:34:24.89,0:34:27.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你们要拿到试剂并把他们完好无损地\NYou are to secure the vials and turn them over intact
+Dialogue: 0,0:34:27.74,0:34:30.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}交给已经在路上的联系人\Nto a contact already en route.
+Dialogue: 0,0:34:31.23,0:34:32.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}谁的联系人\NA contact for whom?
+Dialogue: 0,0:34:32.57,0:34:34.49,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你就需要知道这些  深红六\NThat's need-to-know, Crimson Six.
+Dialogue: 0,0:34:34.49,0:34:35.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}明白了吗\NDo you acknowledge?
+Dialogue: 0,0:34:35.48,0:34:36.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}重复  明白了吗\NRepeat, do you acknowledge?
+Dialogue: 0,0:34:36.64,0:34:37.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}明白\NAcknowledged.
+Dialogue: 0,0:34:46.43,0:34:48.77,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们没上监控吧  芬奇\NWe're not on camera, are we, Finch?
+Dialogue: 0,0:34:48.77,0:34:49.46,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}还没\NNot yet.
+Dialogue: 0,0:34:49.46,0:34:51.20,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你该知道不止我们\NAnd you should know that you're not alone.
+Dialogue: 0,0:34:51.20,0:34:54.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}相关方的朋友也在楼里\NOur friends from the relevant side are in the building.
+Dialogue: 0,0:34:55.44,0:34:57.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就是说指挥中心是在一个移动地点\NWhich means central command will be running op-sec
+Dialogue: 0,0:34:57.74,0:34:59.75,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}指挥行动\Nfrom a remote location.
+Dialogue: 0,0:35:00.33,0:35:01.98,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果你能看到我们\NIf you see us,
+Dialogue: 0,0:35:01.98,0:35:03.29,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他们也能\Nso will they.
+Dialogue: 0,0:35:03.29,0:35:05.44,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}因此我在循环播放监控画面\NThat's why I'm looping the security feeds
+Dialogue: 0,0:35:05.44,0:35:07.06,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}掩盖你们的行踪\Nto cover your tracks.
+Dialogue: 0,0:35:34.48,0:35:37.25,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}马可的保险柜在你们左手第五个\NMarko's vault is fifth on your left.
+Dialogue: 0,0:35:37.25,0:35:39.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}请快点  其他人离你们不远了\NAnd please work quickly. The others aren't far behind.
+Dialogue: 0,0:35:50.65,0:35:51.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不赖嘛\NNot bad.
+Dialogue: 0,0:35:52.23,0:35:55.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你那灵巧的双手打算如何打开那个呢\NNow, how are those magic fingers gonna open that one?
+Dialogue: 0,0:36:10.47,0:36:11.92,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}抱歉  朋友\NSorry, my friend.
+Dialogue: 0,0:36:15.67,0:36:18.66,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不像你们  我从不把重要物品留下\NBut unlike you, I don't leave important things behind.
+Dialogue: 0,0:36:20.00,0:36:22.30,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我知道你会回来的  托马斯\NI knew you would come for these, Tomas,
+Dialogue: 0,0:36:23.41,0:36:25.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就像我知道你要是知道目标是什么\Njust like I knew you would never be bold enough
+Dialogue: 0,0:36:25.26,0:36:27.49,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}就是没胆动手了\Nto steal them if you really knew the score,
+Dialogue: 0,0:36:27.93,0:36:29.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这还真是方便\Nwhich is convenient.
+Dialogue: 0,0:36:29.63,0:36:32.01,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我的买家想病毒\NYou see, my buyer wants the virus delivered
+Dialogue: 0,0:36:32.02,0:36:33.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}在纽约交接\Nright here in New York city.
+Dialogue: 0,0:36:33.52,0:36:35.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}有什么比两个健康宿主\NAnd who better to start a pandemic
+Dialogue: 0,0:36:35.16,0:36:38.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}更适合扩散传染病呢\Nthan two healthy human hosts?
+Dialogue: 0,0:36:49.01,0:36:50.66,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们本来想救你出来的  马可\NWe were planning to get you out, Marko,
+Dialogue: 0,0:36:50.66,0:36:52.22,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但我们听说你死了\Nbut we got word that you died.
+Dialogue: 0,0:36:52.47,0:36:53.43,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}如果我知道你还\NIf I had known that you were still--
+Dialogue: 0,0:36:53.43,0:36:56.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你知道伪装自己的死亡有多痛苦吗\NYou know how painful it is to fake your own death?
+Dialogue: 0,0:36:57.52,0:37:01.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}造成类心搏停止的药物对健康有多大的影响\NWhat the toxins that simulate cardiac arrest do to your health?
+Dialogue: 0,0:37:06.49,0:37:07.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这个只会更糟\NThis will be worse.
+Dialogue: 0,0:37:08.13,0:37:09.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}真不想打扰你  肖女士\NI hate to trouble you, Ms. Shaw,
+Dialogue: 0,0:37:09.68,0:37:11.87,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但是相关方的人员\Nbut your counterparts from the relevant side
+Dialogue: 0,0:37:11.87,0:37:14.08,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}马上要把眼前的危险形势\Nare about to turn this perilous situation
+Dialogue: 0,0:37:14.08,0:37:16.33,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}推进得更加混乱了\Ninto something dangerously chaotic,
+Dialogue: 0,0:37:16.33,0:37:18.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}所以可能会有点吵\Nso it may get a bit loud.
+Dialogue: 0,0:37:29.03,0:37:30.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}动手  约翰\NNow, John!
+Dialogue: 0,0:37:32.14,0:37:33.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}搞什么\NWhat the--
+Dialogue: 0,0:37:39.90,0:37:41.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他们到底是谁\NWho the hell are these guys?
+Dialogue: 0,0:37:41.15,0:37:42.76,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}训练有素的政府杀手\NHighly trained government assassins
+Dialogue: 0,0:37:42.77,0:37:44.18,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}奉命杀人\Nwith orders to kill.
+Dialogue: 0,0:37:48.99,0:37:51.02,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}让我跟你做这事不厚道啊  伙计\NIt's not cool you ask me to do this stuff with you, man.
+Dialogue: 0,0:37:51.03,0:37:52.09,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不厚道\NNot cool!
+Dialogue: 0,0:38:08.56,0:38:09.41,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}承认吧\NAdmit it,
+Dialogue: 0,0:38:09.92,0:38:11.20,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们在一起不错\NWe're not bad together.
+Dialogue: 0,0:38:13.03,0:38:16.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我救了你小命你才这样说\NYou're just saying that because I saved your ass.
+Dialogue: 0,0:38:16.45,0:38:17.36,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}得了\NCome on.
+Dialogue: 0,0:38:18.11,0:38:22.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你  我  巴塞罗那  一笔一百六十万\NYou, me, Barcelona. Score worth 1.6 mil.
+Dialogue: 0,0:38:22.68,0:38:23.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你确定不来吗\NYou sure you won't come?
+Dialogue: 0,0:38:24.83,0:38:28.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你  我  这里  一个子儿没有\NYou, me, here, no pay.
+Dialogue: 0,0:38:28.35,0:38:30.04,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们最后都会死\NWe both eventually wind up dead.
+Dialogue: 0,0:38:30.04,0:38:31.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你确定不待在这里\NAre you sure you won't stay?
+Dialogue: 0,0:38:34.38,0:38:36.84,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}肖女士和克罗先生要走了  约翰\NMs. Shaw and Mr. Koroa are leaving, John.
+Dialogue: 0,0:38:36.84,0:38:39.13,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}考虑警察现在正赶过来\NAnd considering that the police are en route,
+Dialogue: 0,0:38:39.39,0:38:41.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}现在也许是你撤离的好时机了\Nnow might be a good time for you to make your exit too.
+Dialogue: 0,0:39:14.03,0:39:14.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}别动\NFreeze.
+Dialogue: 0,0:39:17.47,0:39:18.51,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}肖\NShaw?
+Dialogue: 0,0:39:25.81,0:39:26.60,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}走\NGo.
+Dialogue: 0,0:39:28.03,0:39:28.85,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}走\NGo!
+Dialogue: 0,0:39:47.82,0:39:49.52,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}有人打电话说二楼着火了\NI got a call about a fire on the second floor.
+Dialogue: 0,0:39:49.52,0:39:52.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}205室  3D打印机  东西没事吧\NSuite 205, the 3-d printers, are they okay?
+Dialogue: 0,0:39:52.15,0:39:54.02,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一整栋楼都没了  兄弟\NWhole building's trashed, buddy.
+Dialogue: 0,0:39:56.41,0:39:57.12,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不\NNo.
+Dialogue: 0,0:39:57.45,0:39:58.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不  不  不\NNo, no, no, no, no.
+Dialogue: 0,0:39:58.35,0:40:01.45,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}一千一百二十万就这样没了\N11.2 million up in smoke.
+Dialogue: 0,0:40:01.88,0:40:03.59,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}恐怕政府没法再给他更多的钱了\NI doubt the governor could give him any more money
+Dialogue: 0,0:40:03.59,0:40:06.80,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}否则就会引起关注  撒马利亚人可不希望\Nwithout attracting attention samaritan doesn't want.
+Dialogue: 0,0:40:06.80,0:40:08.94,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}现在  我植入的蠕虫病毒\NBy now, the worm I planted will have destroyed
+Dialogue: 0,0:40:08.94,0:40:11.62,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}会彻底摧毁威尔金斯的设计\Nevery last copy of Wilkins' design.
+Dialogue: 0,0:40:11.82,0:40:14.19,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}孩子们没有平板电脑了\NSo no tablets for the kids.
+Dialogue: 0,0:40:15.25,0:40:16.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}任务完成\NMission accomplished.
+Dialogue: 0,0:40:17.60,0:40:19.52,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}经典台词\NFamous last words.
+Dialogue: 0,0:40:21.79,0:40:23.15,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}在我破坏打印机的时候\NWhile I was sabotaging the printers,
+Dialogue: 0,0:40:23.15,0:40:25.81,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我看了一眼平板电脑的编码\NI took a quick look at the tablet's O.S.
+Dialogue: 0,0:40:26.94,0:40:29.93,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}有一行编码很奇怪\Nthere was maybe one suspicious line of code,
+Dialogue: 0,0:40:30.57,0:40:33.74,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我都不知道它有邪恶目的\Nand I'm not even sure it had any nefarious purpose.
+Dialogue: 0,0:40:33.74,0:40:37.17,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}哈罗德  你真认为撒马利亚人建这些东西\NHarold, you really think Samaritan was building those things
+Dialogue: 0,0:40:37.17,0:40:39.50,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}是出于良善之心吗\Nout of the goodness of its own heart?
+Dialogue: 0,0:40:39.98,0:40:41.65,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}当卡斯特罗成为古巴的领导人\NWhen Castro was coming to power in Cuba,
+Dialogue: 0,0:40:41.65,0:40:44.07,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他做的第一件事就是建学校  很好的学校\Nthe first thing he did was build schools, good schools,
+Dialogue: 0,0:40:44.07,0:40:45.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}以赢取人民的爱戴\Nso that the people would love him.
+Dialogue: 0,0:40:46.58,0:40:51.33,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我知道撒马利亚人的动机无关道德\NI know that Samaritan's motives are amoral at best,
+Dialogue: 0,0:40:52.42,0:40:55.21,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但是威尔金斯先生想做好事\Nbut the thing that Mr. Wilkins was trying to do
+Dialogue: 0,0:40:55.21,0:40:58.13,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}却被我们摧毁了\Nwas an absolute good, and we destroyed it.
+Dialogue: 0,0:40:58.41,0:41:00.24,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我不知道我们未来会变成怎样  格罗夫斯小姐\NI'm not sure what we're becoming, Ms. Groves,
+Dialogue: 0,0:41:00.24,0:41:01.39,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这让我疑惑\NAnd it does make me wonder:
+Dialogue: 0,0:41:01.39,0:41:04.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们还要以正义的名义做多少坏事\NHow much wrong are we willing to do in the name of right?
+Dialogue: 0,0:41:17.69,0:41:20.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我知道  机器不能在你耳边说话  让你挺难过\NI'm sure not having the machine in your ear anymore sucks and all,
+Dialogue: 0,0:41:20.48,0:41:25.01,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不过终于能偷偷吓你一跳还是挺爽的\Nbut it is pretty great finally being able to sneak up on you.
+Dialogue: 0,0:41:25.75,0:41:27.60,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我乐故我在\NI live to amuse.
+Dialogue: 0,0:41:28.85,0:41:30.41,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}托马斯呢\NWhere's Tomas?
+Dialogue: 0,0:41:30.96,0:41:32.38,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}去巴塞罗那的路上\NHalfway to Barcelona.
+Dialogue: 0,0:41:33.12,0:41:34.48,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}他给了我个挺好的提议\NHe gave me a pretty hard sell,
+Dialogue: 0,0:41:34.48,0:41:35.58,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}让我和他一起走\Ntrying to get me to go with him,
+Dialogue: 0,0:41:35.58,0:41:39.27,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}有那么一刻  我就快答应了\Nand for a hot second, I almost did.
+Dialogue: 0,0:41:39.27,0:41:40.26,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}但是呢\NBut?
+Dialogue: 0,0:41:43.01,0:41:46.35,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}也许这里还有我在乎的东西\NI guess there are things I care about here.
+Dialogue: 0,0:41:47.55,0:41:50.63,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}所以你跑来看我\NAnd is that why you came to see me?
+Dialogue: 0,0:41:51.32,0:41:52.11,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}不是\NNo.
+Dialogue: 0,0:41:53.13,0:41:55.02,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我需要你来翻译芬奇的指示\NI need you to translate finch's instructions
+Dialogue: 0,0:41:55.02,0:41:56.80,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}怎么摧毁病毒\Non how to destroy the virus.
+Dialogue: 0,0:41:57.03,0:41:59.54,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}这哥们就喜欢用大字眼的词儿\NDude never met a five-syllable word he didn't like.
+Dialogue: 0,0:42:00.16,0:42:01.90,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}全面净化\NFull decontamination.
+Dialogue: 0,0:42:02.33,0:42:03.89,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}得花上一整夜\NThis could take all night.
+Dialogue: 0,0:42:08.73,0:42:10.97,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们还没发现病毒\NWe haven't recovered the virus yet.
+Dialogue: 0,0:42:11.08,0:42:12.99,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}你确定我们不需要追踪病毒了吗\NAre you sure we shouldn't be tracking it down?
+Dialogue: 0,0:42:13.13,0:42:14.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}我们有新的命令\NWe have new orders
+Dialogue: 0,0:42:14.32,0:42:17.68,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}和一份南美的新号码列表\Nand a list of new numbers to take care of in south America.
+Dialogue: 0,0:42:19.01,0:42:21.31,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}问问题从来没有好结果\NNothing good comes out of asking questions.
+Dialogue: 0,0:42:23.86,0:42:24.73,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}记得吗\NRemember?
+Dialogue: 0,0:42:49.55,0:42:50.40,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}开始\NGo.
+Dialogue: 0,0:42:48.69,0:42:50.57,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}正在删除
+Dialogue: 0,0:42:50.57,0:42:52.32,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}覆盖
+Dialogue: 0,0:42:52.32,0:42:54.88,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}清除完成
+Dialogue: 0,0:42:55.75,0:43:03.64,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}数据恢复\N文件重建
+Dialogue: 0,0:43:03.64,0:43:07.24,Default,,0000,0000,0000,,{\fnMicrosoft YaHei\fs14\shad1\4a&H80&\b0}数据恢复\N文件重建\N面部提取\N额外目标检测\N身份  不明\N联系系统管理员
+

@@ -1,0 +1,831 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Nightwish - End of an Era
+Original Script: 
+Original Translation: LSI小组
+Original Timing: LSI小组
+Original Editing: LSI小组
+Script Updated By: LSI小组
+Update Details: 取自射手，修正大部分时间轴及歌词，加入特效
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: LSI小组
+WrapStyle: 1
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: geming,GoodDog,33,&H00FFFFFF,&H00000000,&H000D0500,&H000D0500,0,-1,0,0,100,100,0,0,0,1,1,2,0,0,6,1
+Style: geci,Arial,29,&H00FFFFFF,&H00000000,&H000D0500,&H000D0500,-1,0,0,0,100,100,0,0,0,1,1,2,0,0,6,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:36.12,0:00:39.37,geci,,0000,0000,0000,,"Once I had a dream and this is it"
+Dialogue: 0,0:01:37.61,0:01:42.37,geci,,0000,0000,0000,,"Once there was a child's dream"
+Dialogue: 0,0:01:42.95,0:01:45.11,geci,,0000,0000,0000,,One night the clock struck twelve
+Dialogue: 0,0:01:45.12,0:01:48.18,geci,,0000,0000,0000,,The window open wide
+Dialogue: 0,0:01:48.29,0:01:52.47,geci,,0000,0000,0000,,"Once there was a child's heart"
+Dialogue: 0,0:01:53.25,0:01:55.37,geci,,0000,0000,0000,,The age I learned to fly
+Dialogue: 0,0:01:55.40,0:01:59.50,geci,,0000,0000,0000,,And took a step outside
+Dialogue: 0,0:02:13.20,0:02:17.97,geci,,0000,0000,0000,,"Once I knew all the tales"
+Dialogue: 0,0:02:18.50,0:02:20.43,geci,,0000,0000,0000,,It's time to turn back time
+Dialogue: 0,0:02:20.68,0:02:23.27,geci,,0000,0000,0000,,Follow the pale moonlight
+Dialogue: 0,0:02:23.31,0:02:27.91,geci,,0000,0000,0000,,"Once I wished For this night"
+Dialogue: 0,0:02:28.69,0:02:30.04,geci,,0000,0000,0000,,Faith brought me here
+Dialogue: 0,0:02:30.09,0:02:32.44,geci,,0000,0000,0000,,It's time to cut the rope and fly
+Dialogue: 0,0:02:32.86,0:02:34.29,geci,,0000,0000,0000,,to a dream
+Dialogue: 0,0:02:34.33,0:02:36.55,geci,,0000,0000,0000,,Far across the sea
+Dialogue: 0,0:02:37.19,0:02:39.38,geci,,0000,0000,0000,,All the burdens gone
+Dialogue: 0,0:02:39.40,0:02:41.80,geci,,0000,0000,0000,,Open the chest once more
+Dialogue: 0,0:02:42.27,0:02:44.58,geci,,0000,0000,0000,,Dark chest of wonders
+Dialogue: 0,0:02:44.62,0:02:46.54,geci,,0000,0000,0000,,Seen through the eyes
+Dialogue: 0,0:02:46.88,0:02:50.59,geci,,0000,0000,0000,,Of the one with pure heart
+Dialogue: 0,0:02:51.02,0:02:55.73,geci,,0000,0000,0000,,Once so long ago
+Dialogue: 0,0:03:28.53,0:03:33.05,geci,,0000,0000,0000,,The one in the big blue
+Dialogue: 0,0:03:33.85,0:03:38.93,geci,,0000,0000,0000,,is what the world stole from me
+Dialogue: 0,0:03:39.89,0:03:51.00,geci,,0000,0000,0000,,This night will bring him back to me
+Dialogue: 0,0:04:10.58,0:04:12.94,geci,,0000,0000,0000,,Fly to a dream
+Dialogue: 0,0:04:13.18,0:04:15.56,geci,,0000,0000,0000,,Far across the sea
+Dialogue: 0,0:04:15.81,0:04:18.03,geci,,0000,0000,0000,,All the burdens gone
+Dialogue: 0,0:04:18.03,0:04:20.39,geci,,0000,0000,0000,,Open the chest once more
+Dialogue: 0,0:04:20.83,0:04:23.15,geci,,0000,0000,0000,,Dark chest of wonders
+Dialogue: 0,0:04:23.19,0:04:25.29,geci,,0000,0000,0000,,Seen through the eyes
+Dialogue: 0,0:04:25.75,0:04:28.98,geci,,0000,0000,0000,,Of the one with pure heart
+Dialogue: 0,0:04:29.60,0:04:33.39,geci,,0000,0000,0000,,Once so long ago
+Dialogue: 0,0:04:33.50,0:04:35.59,geci,,0000,0000,0000,,Fly to a dream
+Dialogue: 0,0:04:35.79,0:04:37.92,geci,,0000,0000,0000,,Far across the sea
+Dialogue: 0,0:04:38.30,0:04:40.45,geci,,0000,0000,0000,,All the burdens gone
+Dialogue: 0,0:04:40.79,0:04:43.26,geci,,0000,0000,0000,,Open the chest once more
+Dialogue: 0,0:04:43.37,0:04:45.98,geci,,0000,0000,0000,,Dark chest of wonders
+Dialogue: 0,0:04:46.22,0:04:48.08,geci,,0000,0000,0000,,Seen through the eyes
+Dialogue: 0,0:04:48.57,0:04:51.98,geci,,0000,0000,0000,,Of the one with pure heart
+Dialogue: 0,0:04:52.00,0:04:57.50,geci,,0000,0000,0000,,Once so long ago
+Dialogue: 0,0:06:20.30,0:06:23.41,geci,,0000,0000,0000,,Denying the lying
+Dialogue: 0,0:06:23.45,0:06:26.68,geci,,0000,0000,0000,,A million children fighting
+Dialogue: 0,0:06:26.71,0:06:29.94,geci,,0000,0000,0000,,For lives in strife
+Dialogue: 0,0:06:30.10,0:06:33.46,geci,,0000,0000,0000,,For hope beyond the horizon
+Dialogue: 0,0:06:33.65,0:06:35.07,geci,,0000,0000,0000,,A dead world
+Dialogue: 0,0:06:35.30,0:06:36.61,geci,,0000,0000,0000,,A dark path
+Dialogue: 0,0:06:36.65,0:06:39.84,geci,,0000,0000,0000,,Not even crossroads to choose from
+Dialogue: 0,0:06:39.88,0:06:43.09,geci,,0000,0000,0000,,All the bloodred carpets before me
+Dialogue: 0,0:06:43.12,0:06:48.40,geci,,0000,0000,0000,,Behold this fair creation of god!
+Dialogue: 0,0:06:49.06,0:06:54.45,geci,,0000,0000,0000,,My only wish to leave behind
+Dialogue: 0,0:06:54.49,0:07:00.54,geci,,0000,0000,0000,,All the days of the earth
+Dialogue: 0,0:07:00.58,0:07:03.79,geci,,0000,0000,0000,,An everyday
+Dialogue: 0,0:07:03.83,0:07:12.40,geci,,0000,0000,0000,,hell of my kingdom come
+Dialogue: 0,0:07:12.85,0:07:16.05,geci,,0000,0000,0000,,The first rock thrown again
+Dialogue: 0,0:07:16.09,0:07:19.58,geci,,0000,0000,0000,,Welcome to hell,little saint
+Dialogue: 0,0:07:19.61,0:07:22.74,geci,,0000,0000,0000,,Mother Gaia in slaughter
+Dialogue: 0,0:07:22.77,0:07:26.03,geci,,0000,0000,0000,,Welcome to paradise,soldier
+Dialogue: 0,0:07:26.07,0:07:29.20,geci,,0000,0000,0000,,My first cry never ending
+Dialogue: 0,0:07:29.23,0:07:32.48,geci,,0000,0000,0000,,All life is to fear for life
+Dialogue: 0,0:07:32.51,0:07:35.72,geci,,0000,0000,0000,,You fool,you wanderer
+Dialogue: 0,0:07:35.76,0:07:39.30,geci,,0000,0000,0000,,You challenged the gods and lost
+Dialogue: 0,0:07:40.30,0:07:43.97,geci,,0000,0000,0000,,Save yourself a penny for the ferryman
+Dialogue: 0,0:07:44.01,0:07:47.15,geci,,0000,0000,0000,,Save yourself and let them suffer
+Dialogue: 0,0:07:47.18,0:07:48.93,geci,,0000,0000,0000,,In hope
+Dialogue: 0,0:07:49.40,0:07:50.45,geci,,0000,0000,0000,,In love
+Dialogue: 0,0:07:50.49,0:07:53.94,geci,,0000,0000,0000,,This world ain't ready for the ark
+Dialogue: 0,0:07:53.98,0:07:56.94,geci,,0000,0000,0000,,Save yourself a penny for the ferryman
+Dialogue: 0,0:07:56.97,0:08:00.46,geci,,0000,0000,0000,,Save yourself and let them suffer
+Dialogue: 0,0:08:00.97,0:08:01.91,geci,,0000,0000,0000,,In hope
+Dialogue: 0,0:08:02.53,0:08:03.50,geci,,0000,0000,0000,,In love
+Dialogue: 0,0:08:03.54,0:08:09.82,geci,,0000,0000,0000,,Mankind works in mysterious ways
+Dialogue: 0,0:08:14.51,0:08:15.88,geci,,0000,0000,0000,,Welcome down
+Dialogue: 0,0:08:16.27,0:08:23.24,geci,,0000,0000,0000,,To my planet hell
+Dialogue: 0,0:09:00.88,0:09:04.55,geci,,0000,0000,0000,,Save yourself a penny for the ferryman
+Dialogue: 0,0:09:04.59,0:09:07.84,geci,,0000,0000,0000,,Save yourself and let them suffer
+Dialogue: 0,0:09:07.88,0:09:09.57,geci,,0000,0000,0000,,In hope
+Dialogue: 0,0:09:09.60,0:09:10.83,geci,,0000,0000,0000,,In love
+Dialogue: 0,0:09:10.86,0:09:14.23,geci,,0000,0000,0000,,This world ain't ready for the ark
+Dialogue: 0,0:09:14.27,0:09:17.52,geci,,0000,0000,0000,,Save yourself a penny for the ferryman
+Dialogue: 0,0:09:17.56,0:09:20.69,geci,,0000,0000,0000,,Save yourself and let them suffer
+Dialogue: 0,0:09:20.72,0:09:22.23,geci,,0000,0000,0000,,In hope
+Dialogue: 0,0:09:22.27,0:09:23.74,geci,,0000,0000,0000,,In love
+Dialogue: 0,0:09:23.78,0:09:30.50,geci,,0000,0000,0000,,Mankind works in mysterious ways
+Dialogue: 0,0:10:08.80,0:10:12.46,geci,,0000,0000,0000,,Ever felt away with me
+Dialogue: 0,0:10:12.49,0:10:16.80,geci,,0000,0000,0000,,Just once that all I need
+Dialogue: 0,0:10:16.83,0:10:23.43,geci,,0000,0000,0000,,Entwined in finding you one day
+Dialogue: 0,0:10:24.04,0:10:28.20,geci,,0000,0000,0000,,Ever felt away without me
+Dialogue: 0,0:10:28.24,0:10:31.74,geci,,0000,0000,0000,,My love,it lies so deep
+Dialogue: 0,0:10:31.77,0:10:39.68,geci,,0000,0000,0000,,Ever dream of me
+Dialogue: 0,0:11:31.40,0:11:34.47,geci,,0000,0000,0000,,Would you do it with me
+Dialogue: 0,0:11:34.51,0:11:38.18,geci,,0000,0000,0000,,Heal the scars and change the stars
+Dialogue: 0,0:11:38.22,0:11:40.76,geci,,0000,0000,0000,,Would you do it with me
+Dialogue: 0,0:11:40.79,0:11:44.49,geci,,0000,0000,0000,,Turn loose the heaven within
+Dialogue: 0,0:11:44.52,0:11:47.42,geci,,0000,0000,0000,,I'd take you away
+Dialogue: 0,0:11:47.46,0:11:51.02,geci,,0000,0000,0000,,Castaway on A lonely day
+Dialogue: 0,0:11:51.06,0:11:53.54,geci,,0000,0000,0000,,Bosom for A teary cheek
+Dialogue: 0,0:11:53.58,0:11:57.68,geci,,0000,0000,0000,,My song can but borrow your grace
+Dialogue: 0,0:11:57.71,0:12:01.00,geci,,0000,0000,0000,,Ever felt away with me
+Dialogue: 0,0:12:01.04,0:12:04.77,geci,,0000,0000,0000,,Just once that all I need
+Dialogue: 0,0:12:04.81,0:12:09.98,geci,,0000,0000,0000,,Entwined in finding you one day
+Dialogue: 0,0:12:10.90,0:12:14.35,geci,,0000,0000,0000,,Ever felt away without me
+Dialogue: 0,0:12:14.40,0:12:17.46,geci,,0000,0000,0000,,My love,it lies so deep
+Dialogue: 0,0:12:17.50,0:12:21.50,geci,,0000,0000,0000,,Ever dream of me
+Dialogue: 0,0:12:34.43,0:12:38.08,geci,,0000,0000,0000,,Come out,come out,wherever you are
+Dialogue: 0,0:12:38.11,0:12:41.26,geci,,0000,0000,0000,,So lost In your sea
+Dialogue: 0,0:12:41.29,0:12:44.19,geci,,0000,0000,0000,,Give in,give in for my touch
+Dialogue: 0,0:12:44.22,0:12:47.73,geci,,0000,0000,0000,,For my taste for my lust
+Dialogue: 0,0:12:47.76,0:12:51.41,geci,,0000,0000,0000,,Ever felt away with me
+Dialogue: 0,0:12:51.45,0:12:54.73,geci,,0000,0000,0000,,Just once that all I need
+Dialogue: 0,0:12:54.77,0:13:00.70,geci,,0000,0000,0000,,Entwined in finding you one day
+Dialogue: 0,0:13:01.00,0:13:04.45,geci,,0000,0000,0000,,Ever felt away without me
+Dialogue: 0,0:13:04.49,0:13:07.67,geci,,0000,0000,0000,,My love,it lies so deep
+Dialogue: 0,0:13:07.70,0:13:12.05,geci,,0000,0000,0000,,Ever dream of me
+Dialogue: 0,0:13:13.19,0:13:19.10,geci,,0000,0000,0000,,Your beauty cascaded on me
+Dialogue: 0,0:13:19.56,0:13:25.29,geci,,0000,0000,0000,,In this white night fantasy
+Dialogue: 0,0:13:53.30,0:13:56.59,geci,,0000,0000,0000,,Ever felt away with me
+Dialogue: 0,0:13:56.63,0:14:00.06,geci,,0000,0000,0000,,Just once that all I need
+Dialogue: 0,0:14:00.10,0:14:05.28,geci,,0000,0000,0000,,Entwined in finding you one day
+Dialogue: 0,0:14:05.32,0:14:09.71,geci,,0000,0000,0000,,Ever felt away without me
+Dialogue: 0,0:14:09.74,0:14:12.78,geci,,0000,0000,0000,,My love,it lies so deep
+Dialogue: 0,0:14:12.82,0:14:18.19,geci,,0000,0000,0000,,Ever dream of me
+Dialogue: 0,0:14:18.88,0:14:22.28,geci,,0000,0000,0000,,Ever felt away with me
+Dialogue: 0,0:14:22.31,0:14:25.53,geci,,0000,0000,0000,,Just once that all I need
+Dialogue: 0,0:14:25.57,0:14:30.83,geci,,0000,0000,0000,,Entwined in finding you one day
+Dialogue: 0,0:14:30.86,0:14:35.22,geci,,0000,0000,0000,,Ever felt away without me
+Dialogue: 0,0:14:35.26,0:14:38.57,geci,,0000,0000,0000,,My love,it lies so deep
+Dialogue: 0,0:14:38.61,0:14:42.07,geci,,0000,0000,0000,,Ever dream of me
+Dialogue: 0,0:14:45.29,0:14:48.25,geci,,0000,0000,0000,,Ever felt away with me
+Dialogue: 0,0:14:48.29,0:14:51.55,geci,,0000,0000,0000,,Just once that all I need
+Dialogue: 0,0:14:51.59,0:14:57.45,geci,,0000,0000,0000,,Entwined in finding you one day
+Dialogue: 0,0:14:58.12,0:15:01.10,geci,,0000,0000,0000,,Ever felt away without me
+Dialogue: 0,0:15:01.13,0:15:04.34,geci,,0000,0000,0000,,My love,it lies so deep
+Dialogue: 0,0:15:04.37,0:15:10.14,geci,,0000,0000,0000,,Ever dream of me
+Dialogue: 0,0:16:03.54,0:16:06.26,geci,,0000,0000,0000,,For whom the gun tolls
+Dialogue: 0,0:16:06.29,0:16:08.91,geci,,0000,0000,0000,,For whom the prey weeps
+Dialogue: 0,0:16:08.94,0:16:11.75,geci,,0000,0000,0000,,Bow before a war
+Dialogue: 0,0:16:11.79,0:16:14.19,geci,,0000,0000,0000,,Call it religion
+Dialogue: 0,0:16:14.23,0:16:17.30,geci,,0000,0000,0000,,Some wounds never heal
+Dialogue: 0,0:16:17.33,0:16:19.62,geci,,0000,0000,0000,,Some tears never will
+Dialogue: 0,0:16:19.83,0:16:22.63,geci,,0000,0000,0000,,Dry for the unkind
+Dialogue: 0,0:16:22.67,0:16:24.94,geci,,0000,0000,0000,,Cry for mankind
+Dialogue: 0,0:16:25.39,0:16:28.30,geci,,0000,0000,0000,,Even the dead cry
+Dialogue: 0,0:16:28.34,0:16:30.74,geci,,0000,0000,0000,,Their only comfort
+Dialogue: 0,0:16:30.77,0:16:33.43,geci,,0000,0000,0000,,Kill your friend,I don't care
+Dialogue: 0,0:16:33.47,0:16:36.20,geci,,0000,0000,0000,,Orchid kids,blinded stare
+Dialogue: 0,0:16:36.49,0:16:39.23,geci,,0000,0000,0000,,Need to understand
+Dialogue: 0,0:16:39.26,0:16:41.81,geci,,0000,0000,0000,,No need to forgive
+Dialogue: 0,0:16:41.85,0:16:46.83,geci,,0000,0000,0000,,No truth,no sense left to be followed
+Dialogue: 0,0:17:47.90,0:17:51.15,geci,,0000,0000,0000,,Facing this unbearable fear,
+Dialogue: 0,0:17:51.18,0:17:53.84,geci,,0000,0000,0000,,like meeting an old friend
+Dialogue: 0,0:17:53.91,0:17:55.77,geci,,0000,0000,0000,,"Time to die,poor mates,
+Dialogue: 0,0:17:55.80,0:17:58.59,geci,,0000,0000,0000,,You made me what I am!"
+Dialogue: 0,0:17:59.20,0:18:02.04,geci,,0000,0000,0000,,In this world of A million religions,
+Dialogue: 0,0:18:02.08,0:18:04.60,geci,,0000,0000,0000,,Everyone prays the same way
+Dialogue: 0,0:18:05.15,0:18:07.61,geci,,0000,0000,0000,,"Your praying is in vain,
+Dialogue: 0,0:18:07.71,0:18:09.61,geci,,0000,0000,0000,,It'll all be over soon"
+Dialogue: 0,0:18:21.34,0:18:23.39,geci,,0000,0000,0000,,Father help me,
+Dialogue: 0,0:18:23.42,0:18:26.63,geci,,0000,0000,0000,,Save me A place by your side!
+Dialogue: 0,0:18:26.94,0:18:28.17,geci,,0000,0000,0000,,"There is no god"
+Dialogue: 0,0:18:28.20,0:18:30.20,geci,,0000,0000,0000,,"Our creed is but for ourselves"
+Dialogue: 0,0:18:32.40,0:18:34.73,geci,,0000,0000,0000,,"Not a hero,unless you die"
+Dialogue: 0,0:18:35.09,0:18:38.03,geci,,0000,0000,0000,,"Our species eat the wounded ones"
+Dialogue: 0,0:18:38.15,0:18:40.58,geci,,0000,0000,0000,,Drunk with the blood of your victims I do,
+Dialogue: 0,0:18:40.62,0:18:43.12,geci,,0000,0000,0000,,feel your pity-wanting pain
+Dialogue: 0,0:18:43.16,0:18:45.82,geci,,0000,0000,0000,,Lust for fame,A deadly game
+Dialogue: 0,0:18:45.85,0:18:48.58,geci,,0000,0000,0000,,"Run away with your impeccable kin!"
+Dialogue: 0,0:18:49.30,0:18:53.72,geci,,0000,0000,0000,,Good wombs hath borne bad sons
+Dialogue: 0,0:18:53.76,0:18:56.39,geci,,0000,0000,0000,,Cursing God,why?
+Dialogue: 0,0:18:56.43,0:18:58.91,geci,,0000,0000,0000,,Falling for every lie
+Dialogue: 0,0:18:58.94,0:19:01.59,geci,,0000,0000,0000,,Survivors' guilt
+Dialogue: 0,0:19:01.63,0:19:04.30,geci,,0000,0000,0000,,In us forevermore
+Dialogue: 0,0:19:04.33,0:19:06.75,geci,,0000,0000,0000,,15 candles
+Dialogue: 0,0:19:06.79,0:19:09.70,geci,,0000,0000,0000,,Redeemers of this world
+Dialogue: 0,0:19:09.73,0:19:12.64,geci,,0000,0000,0000,,Dwell in hypocrisy:
+Dialogue: 0,0:19:12.67,0:19:15.63,geci,,0000,0000,0000,,How were we supposed to know?
+Dialogue: 0,0:19:44.18,0:19:48.48,geci,,0000,0000,0000,,In sleep he sang to me
+Dialogue: 0,0:19:48.52,0:19:52.38,geci,,0000,0000,0000,,In dreams he came
+Dialogue: 0,0:19:52.41,0:19:56.74,geci,,0000,0000,0000,,That voice which calls to me
+Dialogue: 0,0:19:57.20,0:20:00.89,geci,,0000,0000,0000,,And speaks my name
+Dialogue: 0,0:20:00.93,0:20:05.70,geci,,0000,0000,0000,,And do I dream again
+Dialogue: 0,0:20:06.15,0:20:11.03,geci,,0000,0000,0000,,For now I find
+Dialogue: 0,0:20:11.50,0:20:18.62,geci,,0000,0000,0000,,The phantom of the opera is there
+Dialogue: 0,0:20:18.66,0:20:27.00,geci,,0000,0000,0000,,Inside my mind
+Dialogue: 0,0:20:50.43,0:20:53.61,geci,,0000,0000,0000,,Sing once again with me
+Dialogue: 0,0:20:53.65,0:20:56.82,geci,,0000,0000,0000,,Our strange duet
+Dialogue: 0,0:20:57.45,0:21:00.52,geci,,0000,0000,0000,,My power over you
+Dialogue: 0,0:21:00.55,0:21:03.95,geci,,0000,0000,0000,,Grows stronger yet
+Dialogue: 0,0:21:04.33,0:21:07.74,geci,,0000,0000,0000,,And though you turn from me
+Dialogue: 0,0:21:08.30,0:21:12.50,geci,,0000,0000,0000,,To glance behind
+Dialogue: 0,0:21:12.69,0:21:18.50,geci,,0000,0000,0000,,The phantom of the opera is there
+Dialogue: 0,0:21:18.85,0:21:23.95,geci,,0000,0000,0000,,Inside your mind
+Dialogue: 0,0:21:29.88,0:21:33.17,geci,,0000,0000,0000,,Those who have seen your face
+Dialogue: 0,0:21:33.20,0:21:36.79,geci,,0000,0000,0000,,Draw back in fear
+Dialogue: 0,0:21:36.87,0:21:40.33,geci,,0000,0000,0000,,I am the mask you wear
+Dialogue: 0,0:21:40.36,0:21:43.01,geci,,0000,0000,0000,,but it's me they hear
+Dialogue: 0,0:21:44.00,0:21:47.28,geci,,0000,0000,0000,,My/your spirit and your/my voice,
+Dialogue: 0,0:21:47.31,0:21:51.79,geci,,0000,0000,0000,,In one combined
+Dialogue: 0,0:21:51.98,0:21:57.78,geci,,0000,0000,0000,,The phantom of the opera is there
+Dialogue: 0,0:21:57.88,0:22:02.07,geci,,0000,0000,0000,,Inside your/my mind
+Dialogue: 0,0:22:02.74,0:22:05.94,geci,,0000,0000,0000,,Opera
+Dialogue: 0,0:22:06.93,0:22:13.54,geci,,0000,0000,0000,,He's,the phantom of the opera
+Dialogue: 0,0:22:19.42,0:22:22.36,geci,,0000,0000,0000,,In all your fantasies
+Dialogue: 0,0:22:22.39,0:22:25.96,geci,,0000,0000,0000,,You always knew
+Dialogue: 0,0:22:26.18,0:22:29.46,geci,,0000,0000,0000,,That man and mystery
+Dialogue: 0,0:22:29.67,0:22:33.21,geci,,0000,0000,0000,,with both in you
+Dialogue: 0,0:22:33.25,0:22:36.47,geci,,0000,0000,0000,,And in this labyrinth,
+Dialogue: 0,0:22:36.49,0:22:40.80,geci,,0000,0000,0000,,Where night is blind
+Dialogue: 0,0:22:41.31,0:22:47.26,geci,,0000,0000,0000,,The phantom of the opera is there
+Dialogue: 0,0:22:47.31,0:22:52.76,geci,,0000,0000,0000,,Inside your / my mind
+Dialogue: 0,0:22:53.37,0:22:58.94,geci,,0000,0000,0000,,Sing,my angel of music!!!
+Dialogue: 0,0:23:14.55,0:23:15.67,geci,,0000,0000,0000,,Sing!!!
+Dialogue: 0,0:23:15.70,0:23:20.65,geci,,0000,0000,0000,,My angel!!!
+Dialogue: 0,0:23:30.39,0:23:36.48,geci,,0000,0000,0000,,Sing,sing,sing,my angel!!!
+Dialogue: 0,0:25:14.85,0:25:18.70,geci,,0000,0000,0000,,A lady with a violin,
+Dialogue: 0,0:25:19.27,0:25:22.39,geci,,0000,0000,0000,,playing to the seals
+Dialogue: 0,0:25:30.92,0:25:39.27,geci,,0000,0000,0000,,Harken to the sound of calling
+Dialogue: 0,0:25:51.04,0:25:56.58,geci,,0000,0000,0000,,Who tied my hands to the wheel?
+Dialogue: 0,0:25:58.80,0:26:03.86,geci,,0000,0000,0000,,The zodiac turns over me
+Dialogue: 0,0:26:03.90,0:26:06.63,geci,,0000,0000,0000,,"Come to me"
+Dialogue: 0,0:26:06.73,0:26:12.50,geci,,0000,0000,0000,,Somewhere there,my fate revealed
+Dialogue: 0,0:26:14.43,0:26:21.86,geci,,0000,0000,0000,,I hear but how will I see?
+Dialogue: 0,0:28:08.71,0:28:14.15,geci,,0000,0000,0000,,I tied myself to the wheel
+Dialogue: 0,0:28:16.43,0:28:21.26,geci,,0000,0000,0000,,The winds talk to my sails,not me
+Dialogue: 0,0:28:21.39,0:28:24.73,geci,,0000,0000,0000,,"Come to me"
+Dialogue: 0,0:28:24.74,0:28:30.72,geci,,0000,0000,0000,,Somewhere there,my fate revealed
+Dialogue: 0,0:28:32.36,0:28:40.80,geci,,0000,0000,0000,,I hear but how will I see?
+Dialogue: 0,0:30:23.15,0:30:27.65,geci,,0000,0000,0000,,The sun is sleeping quietly
+Dialogue: 0,0:30:27.68,0:30:32.02,geci,,0000,0000,0000,,Once upon a century
+Dialogue: 0,0:30:32.06,0:30:36.32,geci,,0000,0000,0000,,Wistful oceans calm and red
+Dialogue: 0,0:30:36.35,0:30:40.72,geci,,0000,0000,0000,,Ardent caresses laid to rest
+Dialogue: 0,0:30:40.75,0:30:45.05,geci,,0000,0000,0000,,For my dreams I hold my life
+Dialogue: 0,0:30:45.09,0:30:49.36,geci,,0000,0000,0000,,For wishes I behold my night
+Dialogue: 0,0:30:49.40,0:30:53.67,geci,,0000,0000,0000,,The truth at the end of time
+Dialogue: 0,0:30:53.70,0:31:00.00,geci,,0000,0000,0000,,Losing faith makes A crime
+Dialogue: 0,0:31:01.42,0:31:05.49,geci,,0000,0000,0000,,I wish for this night-time
+Dialogue: 0,0:31:05.52,0:31:09.80,geci,,0000,0000,0000,,To last for a lifetime
+Dialogue: 0,0:31:09.84,0:31:14.08,geci,,0000,0000,0000,,The darkness around me
+Dialogue: 0,0:31:14.12,0:31:18.67,geci,,0000,0000,0000,,Shores of a solar sea
+Dialogue: 0,0:31:19.68,0:31:27.40,geci,,0000,0000,0000,,Oh,how I wish to go down with the sun
+Dialogue: 0,0:31:27.44,0:31:29.54,geci,,0000,0000,0000,,Sleeping
+Dialogue: 0,0:31:29.58,0:31:31.76,geci,,0000,0000,0000,,Weeping
+Dialogue: 0,0:31:32.55,0:31:34.55,geci,,0000,0000,0000,,With you
+Dialogue: 0,0:31:35.64,0:31:39.33,geci,,0000,0000,0000,,Sorrow has a human heart
+Dialogue: 0,0:31:39.36,0:31:43.80,geci,,0000,0000,0000,,From my god it will depart
+Dialogue: 0,0:31:43.83,0:31:48.19,geci,,0000,0000,0000,,I'd sail before a thousand moons
+Dialogue: 0,0:31:48.22,0:31:52.28,geci,,0000,0000,0000,,Never finding where to go
+Dialogue: 0,0:31:52.32,0:31:56.59,geci,,0000,0000,0000,,Two hundred twenty-two days of light
+Dialogue: 0,0:31:56.63,0:32:01.04,geci,,0000,0000,0000,,Will be desired by A night
+Dialogue: 0,0:32:01.07,0:32:05.26,geci,,0000,0000,0000,,A moment for the poet's play
+Dialogue: 0,0:32:05.30,0:32:10.95,geci,,0000,0000,0000,,Until there's nothing left to say
+Dialogue: 0,0:32:13.30,0:32:17.15,geci,,0000,0000,0000,,I wish for this night-time
+Dialogue: 0,0:32:17.19,0:32:21.38,geci,,0000,0000,0000,,To last for a lifetime
+Dialogue: 0,0:32:21.41,0:32:25.89,geci,,0000,0000,0000,,The darkness around me
+Dialogue: 0,0:32:25.93,0:32:30.87,geci,,0000,0000,0000,,Shores of a solar sea
+Dialogue: 0,0:32:31.13,0:32:38.42,geci,,0000,0000,0000,,Oh,how I wish to go down with the sun
+Dialogue: 0,0:32:39.83,0:32:41.42,geci,,0000,0000,0000,,Sleeping
+Dialogue: 0,0:32:41.46,0:32:43.37,geci,,0000,0000,0000,,Weeping
+Dialogue: 0,0:32:44.01,0:32:46.39,geci,,0000,0000,0000,,With you
+Dialogue: 0,0:33:37.93,0:33:41.95,geci,,0000,0000,0000,,I wish for this night-time
+Dialogue: 0,0:33:41.98,0:33:46.29,geci,,0000,0000,0000,,To last for a lifetime
+Dialogue: 0,0:33:46.33,0:33:50.44,geci,,0000,0000,0000,,The darkness around me
+Dialogue: 0,0:33:50.47,0:33:55.04,geci,,0000,0000,0000,,Shores of a solar sea
+Dialogue: 0,0:33:56.10,0:34:04.03,geci,,0000,0000,0000,,Oh,how I wish to go down with the sun
+Dialogue: 0,0:34:04.79,0:34:06.38,geci,,0000,0000,0000,,Sleeping
+Dialogue: 0,0:34:06.41,0:34:08.33,geci,,0000,0000,0000,,Weeping
+Dialogue: 0,0:34:09.18,0:34:14.14,geci,,0000,0000,0000,,With you
+Dialogue: 0,0:34:52.38,0:34:55.38,geci,,0000,0000,0000,,Beyond the horizon
+Dialogue: 0,0:34:55.39,0:34:57.31,geci,,0000,0000,0000,,of the place we lived
+Dialogue: 0,0:34:57.35,0:34:58.81,geci,,0000,0000,0000,,when we were young
+Dialogue: 0,0:34:59.33,0:35:04.80,geci,,0000,0000,0000,,In a world of magnets and miracles
+Dialogue: 0,0:35:05.42,0:35:07.77,geci,,0000,0000,0000,,Our thoughts strayed constantly
+Dialogue: 0,0:35:07.80,0:35:10.16,geci,,0000,0000,0000,,And without boundary
+Dialogue: 0,0:35:10.48,0:35:13.86,geci,,0000,0000,0000,,The ringing of the division bell
+Dialogue: 0,0:35:13.90,0:35:16.09,geci,,0000,0000,0000,,had begun
+Dialogue: 0,0:35:17.86,0:35:20.22,geci,,0000,0000,0000,,Along the long road
+Dialogue: 0,0:35:20.25,0:35:22.84,geci,,0000,0000,0000,,and on down to the causeway
+Dialogue: 0,0:35:23.13,0:35:27.71,geci,,0000,0000,0000,,Do they still meet there by the cut
+Dialogue: 0,0:35:29.19,0:35:34.80,geci,,0000,0000,0000,,There was a ragged band that followed in our footsteps
+Dialogue: 0,0:35:35.53,0:35:40.24,geci,,0000,0000,0000,,Running before time took our dreams away
+Dialogue: 0,0:35:41.53,0:35:47.37,geci,,0000,0000,0000,,Leaving the myriad of small creatures that tried to tie us to the ground
+Dialogue: 0,0:35:47.41,0:35:52.36,geci,,0000,0000,0000,,To a life consumed by slow decay
+Dialogue: 0,0:35:52.55,0:35:55.63,geci,,0000,0000,0000,,The grass was greener
+Dialogue: 0,0:35:59.07,0:36:01.44,geci,,0000,0000,0000,,The light was brighter
+Dialogue: 0,0:36:05.00,0:36:08.75,geci,,0000,0000,0000,,With friends surrounded
+Dialogue: 0,0:36:10.90,0:36:13.58,geci,,0000,0000,0000,,The nights of wonder
+Dialogue: 0,0:36:17.99,0:36:23.31,geci,,0000,0000,0000,,Looking beyond the embers of bridges glowing behind us
+Dialogue: 0,0:36:23.34,0:36:28.78,geci,,0000,0000,0000,,To a glimpse of how green it was on the other side
+Dialogue: 0,0:36:30.68,0:36:35.56,geci,,0000,0000,0000,,Steps taken forwards but sleepwalking back again
+Dialogue: 0,0:36:35.59,0:36:41.13,geci,,0000,0000,0000,,Dragged by the force of some inner tide
+Dialogue: 0,0:36:43.01,0:36:47.30,geci,,0000,0000,0000,,At the highest altitude with flag unfurled
+Dialogue: 0,0:36:48.76,0:36:57.56,geci,,0000,0000,0000,,We reached the dizzy heights of that dreamed of world
+Dialogue: 0,0:37:53.67,0:37:58.22,geci,,0000,0000,0000,,Encumbered forever by desire and ambition
+Dialogue: 0,0:37:59.12,0:38:03.35,geci,,0000,0000,0000,,There's a hunger still unsatisfied
+Dialogue: 0,0:38:05.04,0:38:11.02,geci,,0000,0000,0000,,Our weary eyes still stray to the horizon
+Dialogue: 0,0:38:11.39,0:38:15.62,geci,,0000,0000,0000,,Though down this road we've been so many times
+Dialogue: 0,0:38:15.96,0:38:19.01,geci,,0000,0000,0000,,The grass was greener
+Dialogue: 0,0:38:22.32,0:38:25.26,geci,,0000,0000,0000,,The light was brighter
+Dialogue: 0,0:38:28.64,0:38:31.71,geci,,0000,0000,0000,,With friends surrounded
+Dialogue: 0,0:38:34.47,0:38:37.70,geci,,0000,0000,0000,,The nights of wonder
+Dialogue: 0,0:38:40.46,0:38:44.94,geci,,0000,0000,0000,,With friends surrounded
+Dialogue: 0,0:38:46.18,0:38:50.00,geci,,0000,0000,0000,,The dawn mist growing
+Dialogue: 0,0:38:52.26,0:38:57.00,geci,,0000,0000,0000,,The water flowing
+Dialogue: 0,0:38:57.36,0:39:01.55,geci,,0000,0000,0000,,The endless river
+Dialogue: 0,0:39:03.70,0:39:09.55,geci,,0000,0000,0000,,Forever and ever
+Dialogue: 0,0:39:49.68,0:39:53.80,geci,,0000,0000,0000,,The grass was greener
+Dialogue: 0,0:39:56.10,0:39:59.77,geci,,0000,0000,0000,,The light was brighter
+Dialogue: 0,0:40:01.63,0:40:05.78,geci,,0000,0000,0000,,The taste was sweeter
+Dialogue: 0,0:40:07.83,0:40:10.90,geci,,0000,0000,0000,,The nights of wonder
+Dialogue: 0,0:40:12.58,0:40:18.25,geci,,0000,0000,0000,,With friends surrounded
+Dialogue: 0,0:40:19.48,0:40:22.65,geci,,0000,0000,0000,,The dawn mist growing
+Dialogue: 0,0:40:25.21,0:40:28.44,geci,,0000,0000,0000,,The water flowing
+Dialogue: 0,0:40:31.25,0:40:33.88,geci,,0000,0000,0000,,The endless river
+Dialogue: 0,0:40:36.41,0:40:43.35,geci,,0000,0000,0000,,Forever and ever
+Dialogue: 0,0:41:56.01,0:41:58.47,geci,,0000,0000,0000,,"I was born amidst the purple waterfalls"
+Dialogue: 0,0:41:59.11,0:42:00.67,geci,,0000,0000,0000,,"I was weak,"
+Dialogue: 0,0:42:00.75,0:42:02.69,geci,,0000,0000,0000,,"Yet not unblessed"
+Dialogue: 0,0:42:03.82,0:42:05.40,geci,,0000,0000,0000,,"Dead to the world"
+Dialogue: 0,0:42:06.23,0:42:07.53,geci,,0000,0000,0000,,"Alive for the journey"
+Dialogue: 0,0:42:09.99,0:42:12.24,geci,,0000,0000,0000,,"One night I dreamt"
+Dialogue: 0,0:42:13.22,0:42:15.27,geci,,0000,0000,0000,,"A white rose withering,"
+Dialogue: 0,0:42:15.35,0:42:17.52,geci,,0000,0000,0000,,"A newborn drowning"
+Dialogue: 0,0:42:18.28,0:42:20.07,geci,,0000,0000,0000,,"A lifetime loneliness"
+Dialogue: 0,0:42:21.54,0:42:23.94,geci,,0000,0000,0000,,"I dreamt all my future"
+Dialogue: 0,0:42:24.03,0:42:25.49,geci,,0000,0000,0000,,"Relived my past"
+Dialogue: 0,0:42:26.52,0:42:28.40,geci,,0000,0000,0000,,"And witnessed the beauty"
+Dialogue: 0,0:42:28.62,0:42:29.62,geci,,0000,0000,0000,,"of the beast"
+Dialogue: 0,0:43:00.99,0:43:06.29,geci,,0000,0000,0000,,Where have all the feelings gone?
+Dialogue: 0,0:43:08.81,0:43:14.70,geci,,0000,0000,0000,,Why has all the laughter ceased?
+Dialogue: 0,0:43:16.60,0:43:19.66,geci,,0000,0000,0000,,Why am I loved
+Dialogue: 0,0:43:20.62,0:43:23.91,geci,,0000,0000,0000,,only when I'm gone?
+Dialogue: 0,0:43:24.48,0:43:31.10,geci,,0000,0000,0000,,Gone back in time to bless the child
+Dialogue: 0,0:43:48.18,0:43:53.36,geci,,0000,0000,0000,,How can I ever feel again?
+Dialogue: 0,0:43:56.04,0:44:01.70,geci,,0000,0000,0000,,Given the chance would I return?
+Dialogue: 0,0:44:03.83,0:44:06.88,geci,,0000,0000,0000,,Why am I loved
+Dialogue: 0,0:44:07.77,0:44:11.11,geci,,0000,0000,0000,,only when I'm gone?
+Dialogue: 0,0:44:11.65,0:44:18.17,geci,,0000,0000,0000,,Gone back in time to bless the child
+Dialogue: 0,0:44:19.59,0:44:22.50,geci,,0000,0000,0000,,Think of me long enough
+Dialogue: 0,0:44:22.81,0:44:24.64,geci,,0000,0000,0000,,to make a memory
+Dialogue: 0,0:44:27.48,0:44:31.24,geci,,0000,0000,0000,,Come bless the child one more time
+Dialogue: 0,0:44:43.71,0:44:48.20,geci,,0000,0000,0000,,I've never felt so alone in my life
+Dialogue: 0,0:44:49.14,0:44:51.29,geci,,0000,0000,0000,,As I drank from the cup
+Dialogue: 0,0:44:51.32,0:44:54.42,geci,,0000,0000,0000,,which was counting my time
+Dialogue: 0,0:44:55.44,0:44:57.55,geci,,0000,0000,0000,,There's a poison drop
+Dialogue: 0,0:44:57.60,0:45:00.56,geci,,0000,0000,0000,,in this cup of man
+Dialogue: 0,0:45:00.59,0:45:03.56,geci,,0000,0000,0000,,To drink it is to follow
+Dialogue: 0,0:45:03.59,0:45:10.40,geci,,0000,0000,0000,,the left hand path
+Dialogue: 0,0:45:40.78,0:45:44.28,geci,,0000,0000,0000,,Why am I loved
+Dialogue: 0,0:45:44.79,0:45:47.27,geci,,0000,0000,0000,,only when I'm gone?
+Dialogue: 0,0:45:48.82,0:45:55.55,geci,,0000,0000,0000,,Gone back in time to bless the child
+Dialogue: 0,0:45:56.57,0:45:59.32,geci,,0000,0000,0000,,Think of me long enough
+Dialogue: 0,0:45:59.36,0:46:02.87,geci,,0000,0000,0000,,to make a memory
+Dialogue: 0,0:46:04.28,0:46:09.50,geci,,0000,0000,0000,,Come bless the child one more time
+Dialogue: 0,0:46:12.21,0:46:15.11,geci,,0000,0000,0000,,Think of me long enough
+Dialogue: 0,0:46:15.15,0:46:19.35,geci,,0000,0000,0000,,to make a memory
+Dialogue: 0,0:46:20.09,0:46:26.18,geci,,0000,0000,0000,,Come bless the child one more time
+Dialogue: 0,0:46:44.23,0:46:46.71,geci,,0000,0000,0000,,"Where have all the feelings gone?"
+Dialogue: 0,0:46:46.83,0:46:49.39,geci,,0000,0000,0000,,"Why is the deadliest sin"
+Dialogue: 0,0:46:49.60,0:46:51.42,geci,,0000,0000,0000,,"to love as I loved you?"
+Dialogue: 0,0:46:52.36,0:46:54.64,geci,,0000,0000,0000,,"Now unblessed,homesick in time,"
+Dialogue: 0,0:46:54.97,0:46:57.11,geci,,0000,0000,0000,,"Soon to be freed from care,"
+Dialogue: 0,0:46:57.72,0:46:59.04,geci,,0000,0000,0000,,"From human pain"
+Dialogue: 0,0:47:00.35,0:47:03.28,geci,,0000,0000,0000,,"My tale is the most bitter truth"
+Dialogue: 0,0:47:04.61,0:47:06.27,geci,,0000,0000,0000,,"Time pays us but"
+Dialogue: 0,0:47:06.30,0:47:07.69,geci,,0000,0000,0000,,"with earth,dust,"
+Dialogue: 0,0:47:07.73,0:47:10.01,geci,,0000,0000,0000,,"And A dark,silent grave"
+Dialogue: 0,0:47:12.35,0:47:13.65,geci,,0000,0000,0000,,"Remember,my child:"
+Dialogue: 0,0:47:13.69,0:47:15.32,geci,,0000,0000,0000,,"Without innocence"
+Dialogue: 0,0:47:15.36,0:47:17.65,geci,,0000,0000,0000,,"The cross is only iron,"
+Dialogue: 0,0:47:19.05,0:47:20.87,geci,,0000,0000,0000,,"Hope is only an illusion"
+Dialogue: 0,0:47:21.20,0:47:22.75,geci,,0000,0000,0000,,"and ocean soul's"
+Dialogue: 0,0:47:23.09,0:47:25.32,geci,,0000,0000,0000,,"Nothing but a name"
+Dialogue: 0,0:47:26.89,0:47:28.96,geci,,0000,0000,0000,,"The child bless thee"
+Dialogue: 0,0:47:29.06,0:47:31.29,geci,,0000,0000,0000,,"and keep thee forever"
+Dialogue: 0,0:47:56.89,0:47:58.21,geci,,0000,0000,0000,,Master!
+Dialogue: 0,0:47:58.25,0:47:59.58,geci,,0000,0000,0000,,Apprentice!
+Dialogue: 0,0:47:59.62,0:48:02.05,geci,,0000,0000,0000,,Heartborne,7th seeker
+Dialogue: 0,0:48:02.09,0:48:03.23,geci,,0000,0000,0000,,Warrior!
+Dialogue: 0,0:48:04.20,0:48:05.16,geci,,0000,0000,0000,,Disciple!
+Dialogue: 0,0:48:05.19,0:48:07.67,geci,,0000,0000,0000,,In me the wishmaster
+Dialogue: 0,0:48:08.27,0:48:09.33,geci,,0000,0000,0000,,Master!
+Dialogue: 0,0:48:09.37,0:48:10.92,geci,,0000,0000,0000,,Apprentice!
+Dialogue: 0,0:48:10.95,0:48:13.13,geci,,0000,0000,0000,,Heartborne,7th seeker
+Dialogue: 0,0:48:13.75,0:48:14.94,geci,,0000,0000,0000,,Warrior!
+Dialogue: 0,0:48:14.97,0:48:15.94,geci,,0000,0000,0000,,Disciple!
+Dialogue: 0,0:48:16.52,0:48:18.71,geci,,0000,0000,0000,,In me the wishmaster
+Dialogue: 0,0:48:26.15,0:48:30.25,geci,,0000,0000,0000,,Elbereth
+Dialogue: 0,0:48:31.43,0:48:35.40,geci,,0000,0000,0000,,Lorien
+Dialogue: 0,0:48:35.64,0:48:38.01,geci,,0000,0000,0000,,A dreamy-eyed child staring into night
+Dialogue: 0,0:48:38.04,0:48:40.91,geci,,0000,0000,0000,,On a journey to storyteller's mind
+Dialogue: 0,0:48:40.95,0:48:43.72,geci,,0000,0000,0000,,Whispers A wish speaks with the stars
+Dialogue: 0,0:48:43.75,0:48:46.42,geci,,0000,0000,0000,,The words are silent in him
+Dialogue: 0,0:48:46.45,0:48:49.08,geci,,0000,0000,0000,,Distant sigh from A lonely heart
+Dialogue: 0,0:48:49.12,0:48:51.91,geci,,0000,0000,0000,,I'll be with you soon,my shalafi
+Dialogue: 0,0:48:51.94,0:48:56.20,geci,,0000,0000,0000,,Grey havens my destiny
+Dialogue: 0,0:48:59.19,0:49:00.02,geci,,0000,0000,0000,,Master!
+Dialogue: 0,0:49:00.25,0:49:01.54,geci,,0000,0000,0000,,Apprentice!
+Dialogue: 0,0:49:01.57,0:49:04.18,geci,,0000,0000,0000,,Heartborne,7th seeker
+Dialogue: 0,0:49:04.21,0:49:05.18,geci,,0000,0000,0000,,Warrior!
+Dialogue: 0,0:49:05.61,0:49:06.88,geci,,0000,0000,0000,,Disciple!
+Dialogue: 0,0:49:06.91,0:49:09.71,geci,,0000,0000,0000,,In me the wishmaster
+Dialogue: 0,0:49:17.13,0:49:20.83,geci,,0000,0000,0000,,Silvara
+Dialogue: 0,0:49:22.96,0:49:26.50,geci,,0000,0000,0000,,Starbreeze
+Dialogue: 0,0:49:26.74,0:49:29.30,geci,,0000,0000,0000,,Sla-mori the one known only by him
+Dialogue: 0,0:49:29.34,0:49:31.95,geci,,0000,0000,0000,,To august realms,the sorcery within
+Dialogue: 0,0:49:31.99,0:49:34.87,geci,,0000,0000,0000,,If you hear the call of arcane lore,
+Dialogue: 0,0:49:34.91,0:49:37.50,geci,,0000,0000,0000,,Your world shall rest on earth no more
+Dialogue: 0,0:49:37.53,0:49:40.06,geci,,0000,0000,0000,,A maiden elf calling with her cunning song
+Dialogue: 0,0:49:40.10,0:49:43.21,geci,,0000,0000,0000,,Meet me at the inn of last home
+Dialogue: 0,0:49:43.25,0:49:47.08,geci,,0000,0000,0000,,Heartborne will find the way!
+Dialogue: 0,0:49:50.22,0:49:50.90,geci,,0000,0000,0000,,Master!
+Dialogue: 0,0:49:51.73,0:49:52.37,geci,,0000,0000,0000,,Apprentice!
+Dialogue: 0,0:49:52.40,0:49:55.21,geci,,0000,0000,0000,,Heartborne,7th seeker
+Dialogue: 0,0:49:55.90,0:49:56.73,geci,,0000,0000,0000,,Warrior!
+Dialogue: 0,0:49:56.76,0:49:58.18,geci,,0000,0000,0000,,Disciple!
+Dialogue: 0,0:49:58.22,0:50:00.86,geci,,0000,0000,0000,,In me the wishmaster
+Dialogue: 0,0:50:01.63,0:50:02.37,geci,,0000,0000,0000,,Master!
+Dialogue: 0,0:50:02.76,0:50:03.67,geci,,0000,0000,0000,,Apprentice!
+Dialogue: 0,0:50:03.71,0:50:06.65,geci,,0000,0000,0000,,Heartborne,7th seeker
+Dialogue: 0,0:50:07.19,0:50:07.88,geci,,0000,0000,0000,,Warrior!
+Dialogue: 0,0:50:08.57,0:50:09.19,geci,,0000,0000,0000,,Disciple!
+Dialogue: 0,0:50:09.23,0:50:11.64,geci,,0000,0000,0000,,In me the wishmaster
+Dialogue: 0,0:50:50.74,0:50:53.05,geci,,0000,0000,0000,,Wishmaster
+Dialogue: 0,0:50:53.09,0:51:00.88,geci,,0000,0000,0000,,Crusade for your will
+Dialogue: 0,0:51:01.47,0:51:05.70,geci,,0000,0000,0000,,A child,dreamfinder
+Dialogue: 0,0:51:05.73,0:51:12.39,geci,,0000,0000,0000,,The apprentice becoming
+Dialogue: 0,0:51:39.23,0:51:39.93,geci,,0000,0000,0000,,Master!
+Dialogue: 0,0:51:40.26,0:51:41.63,geci,,0000,0000,0000,,Apprentice!
+Dialogue: 0,0:51:41.66,0:51:44.14,geci,,0000,0000,0000,,Heartborne,7th seeker
+Dialogue: 0,0:51:44.18,0:51:45.25,geci,,0000,0000,0000,,Warrior!
+Dialogue: 0,0:51:45.89,0:51:46.97,geci,,0000,0000,0000,,Disciple!
+Dialogue: 0,0:51:47.01,0:51:49.66,geci,,0000,0000,0000,,In me the wishmaster
+Dialogue: 0,0:51:50.63,0:51:51.79,geci,,0000,0000,0000,,Master!
+Dialogue: 0,0:51:51.82,0:51:52.40,geci,,0000,0000,0000,,Apprentice!
+Dialogue: 0,0:51:52.73,0:51:55.26,geci,,0000,0000,0000,,Heartborne,7th seeker
+Dialogue: 0,0:51:55.70,0:51:56.56,geci,,0000,0000,0000,,Warrior!
+Dialogue: 0,0:51:56.99,0:51:57.85,geci,,0000,0000,0000,,Disciple!
+Dialogue: 0,0:51:58.29,0:52:00.64,geci,,0000,0000,0000,,In me the wishmaster
+Dialogue: 0,0:52:01.07,0:52:02.17,geci,,0000,0000,0000,,Master!
+Dialogue: 0,0:52:02.78,0:52:03.41,geci,,0000,0000,0000,,Apprentice!
+Dialogue: 0,0:52:03.99,0:52:06.23,geci,,0000,0000,0000,,Heartborne,7th seeker
+Dialogue: 0,0:52:06.67,0:52:07.82,geci,,0000,0000,0000,,Warrior!
+Dialogue: 0,0:52:07.85,0:52:09.17,geci,,0000,0000,0000,,Disciple!
+Dialogue: 0,0:52:09.20,0:52:11.71,geci,,0000,0000,0000,,In me the wishmaster
+Dialogue: 0,0:53:10.49,0:53:15.02,geci,,0000,0000,0000,,I'm a priest for the poorest sacrifice
+Dialogue: 0,0:53:15.19,0:53:18.33,geci,,0000,0000,0000,,I'm but a raft in a sea
+Dialogue: 0,0:53:18.37,0:53:23.78,geci,,0000,0000,0000,,of sorrow,sorrow and greed
+Dialogue: 0,0:53:24.22,0:53:27.19,geci,,0000,0000,0000,,You bathed in my wine
+Dialogue: 0,0:53:27.22,0:53:28.69,geci,,0000,0000,0000,,Drank from my cup,
+Dialogue: 0,0:53:28.72,0:53:30.30,geci,,0000,0000,0000,,Mocked my rhyme
+Dialogue: 0,0:53:30.33,0:53:33.56,geci,,0000,0000,0000,,Your slit tongues licked
+Dialogue: 0,0:53:33.60,0:53:37.03,geci,,0000,0000,0000,,my aching wounds
+Dialogue: 0,0:53:37.64,0:53:40.53,geci,,0000,0000,0000,,Put a stake through my heart!
+Dialogue: 0,0:53:40.57,0:53:43.66,geci,,0000,0000,0000,,And drag me into sunlight
+Dialogue: 0,0:53:44.46,0:53:47.12,geci,,0000,0000,0000,,So awake for your greed
+Dialogue: 0,0:53:47.15,0:53:51.34,geci,,0000,0000,0000,,As you're slaying the dreamer
+Dialogue: 0,0:54:03.56,0:54:06.56,geci,,0000,0000,0000,,Swansong for the wish of night
+Dialogue: 0,0:54:06.59,0:54:10.05,geci,,0000,0000,0000,,God it hurts,give A name to the pain
+Dialogue: 0,0:54:10.08,0:54:12.71,geci,,0000,0000,0000,,Our primrose path
+Dialogue: 0,0:54:12.74,0:54:16.26,geci,,0000,0000,0000,,to hell is growing weed
+Dialogue: 0,0:54:17.07,0:54:19.99,geci,,0000,0000,0000,,Put a stake through my heart!
+Dialogue: 0,0:54:20.02,0:54:23.19,geci,,0000,0000,0000,,And drag me into sunlight
+Dialogue: 0,0:54:23.22,0:54:26.41,geci,,0000,0000,0000,,So awake for your greed
+Dialogue: 0,0:54:26.44,0:54:30.55,geci,,0000,0000,0000,,As you're slaying the dreamer
+Dialogue: 0,0:54:42.98,0:54:45.76,geci,,0000,0000,0000,,Blame me,it's me
+Dialogue: 0,0:54:45.79,0:54:49.36,geci,,0000,0000,0000,,Coward,A good for nothing scapegoat
+Dialogue: 0,0:54:49.40,0:54:52.46,geci,,0000,0000,0000,,Dumb kid,living a dream
+Dialogue: 0,0:54:52.49,0:54:56.17,geci,,0000,0000,0000,,Romantic only on paper
+Dialogue: 0,0:54:56.20,0:54:57.13,geci,,0000,0000,0000,,Tell me why
+Dialogue: 0,0:54:57.57,0:54:59.66,geci,,0000,0000,0000,,you took all that was mine!
+Dialogue: 0,0:54:59.69,0:55:03.08,geci,,0000,0000,0000,,Stay as you lay don't lead me astray!
+Dialogue: 0,0:55:03.11,0:55:04.38,geci,,0000,0000,0000,,Tell me why
+Dialogue: 0,0:55:04.42,0:55:06.61,geci,,0000,0000,0000,,you took all that was mine!
+Dialogue: 0,0:55:06.64,0:55:15.30,geci,,0000,0000,0000,,Stay as you lay don't lead me astray!
+Dialogue: 0,0:55:54.17,0:55:55.92,geci,,0000,0000,0000,,Wake up,mow the weed
+Dialogue: 0,0:55:55.95,0:55:58.07,geci,,0000,0000,0000,,You'd be nothing without me
+Dialogue: 0,0:55:58.10,0:56:01.04,geci,,0000,0000,0000,,Take my life if you have the heart
+Dialogue: 0,0:56:02.46,0:56:04.39,geci,,0000,0000,0000,,to die
+Dialogue: 0,0:56:11.55,0:56:13.87,geci,,0000,0000,0000,,You bastards tainted my tool
+Dialogue: 0,0:56:13.91,0:56:16.02,geci,,0000,0000,0000,,Raped my words,played me a fool
+Dialogue: 0,0:56:16.06,0:56:17.93,geci,,0000,0000,0000,,Gather your precious glitter
+Dialogue: 0,0:56:17.97,0:56:19.30,geci,,0000,0000,0000,,and leave me be
+Dialogue: 0,0:56:20.62,0:56:22.67,geci,,0000,0000,0000,,The great ones are all dead
+Dialogue: 0,0:56:22.70,0:56:24.74,geci,,0000,0000,0000,,And I'm tired,too
+Dialogue: 0,0:56:25.17,0:56:30.00,geci,,0000,0000,0000,,I truly hate you all!
+Dialogue: 0,0:57:48.81,0:57:56.15,geci,,0000,0000,0000,,Only once I could see my dream
+Dialogue: 0,0:57:56.41,0:58:05.04,geci,,0000,0000,0000,,Didn't feel the smallness under the stars
+Dialogue: 0,0:58:07.79,0:58:15.22,geci,,0000,0000,0000,,Once I got bars in my cradle
+Dialogue: 0,0:58:15.44,0:58:25.77,geci,,0000,0000,0000,,As a prisoner I write a letter from there
+Dialogue: 0,0:58:26.19,0:58:43.67,geci,,0000,0000,0000,,My lord,to you,let me become what my child thinks I am
+Dialogue: 0,0:58:45.27,0:59:03.72,geci,,0000,0000,0000,,In you is the beauty of the world,of which death made me an artist
+Dialogue: 0,0:59:04.38,0:59:23.22,geci,,0000,0000,0000,,My lord,to you,let me become what my child thinks I am
+Dialogue: 0,1:00:01.47,1:00:19.57,geci,,0000,0000,0000,,My lord,to you,let me become what my child thinks I am
+Dialogue: 0,1:00:21.64,1:00:30.29,geci,,0000,0000,0000,,My own heaven I created here
+Dialogue: 0,1:00:31.15,1:00:39.39,geci,,0000,0000,0000,,Let me get away
+Dialogue: 0,1:00:40.38,1:00:49.20,geci,,0000,0000,0000,,My own heaven I created here
+Dialogue: 0,1:00:49.78,1:01:01.87,geci,,0000,0000,0000,,Let me get away
+Dialogue: 0,1:02:00.13,1:02:03.50,geci,,0000,0000,0000,,This is me for forever
+Dialogue: 0,1:02:03.54,1:02:06.88,geci,,0000,0000,0000,,One of the lost ones
+Dialogue: 0,1:02:07.30,1:02:09.96,geci,,0000,0000,0000,,The one without a name
+Dialogue: 0,1:02:09.99,1:02:14.72,geci,,0000,0000,0000,,Without an honest heart as compass
+Dialogue: 0,1:02:15.05,1:02:18.65,geci,,0000,0000,0000,,This is me for forever
+Dialogue: 0,1:02:18.69,1:02:22.09,geci,,0000,0000,0000,,One without a name
+Dialogue: 0,1:02:22.13,1:02:26.33,geci,,0000,0000,0000,,These lines the last endeavor
+Dialogue: 0,1:02:26.39,1:02:30.26,geci,,0000,0000,0000,,To find the missing lifeline
+Dialogue: 0,1:02:31.22,1:02:32.50,geci,,0000,0000,0000,,Oh how I wish
+Dialogue: 0,1:02:33.00,1:02:34.68,geci,,0000,0000,0000,,For soothing rain
+Dialogue: 0,1:02:34.71,1:02:38.34,geci,,0000,0000,0000,,All I wish is to dream again
+Dialogue: 0,1:02:38.38,1:02:40.36,geci,,0000,0000,0000,,My loving heart
+Dialogue: 0,1:02:40.39,1:02:42.22,geci,,0000,0000,0000,,Lost in the dark
+Dialogue: 0,1:02:42.25,1:02:46.07,geci,,0000,0000,0000,,For hope I'd give my everything
+Dialogue: 0,1:02:46.50,1:02:49.51,geci,,0000,0000,0000,,A flower,withered between
+Dialogue: 0,1:02:49.54,1:02:52.81,geci,,0000,0000,0000,,the pages 2 and 3
+Dialogue: 0,1:02:53.89,1:02:56.02,geci,,0000,0000,0000,,The once and forever
+Dialogue: 0,1:02:56.06,1:03:01.04,geci,,0000,0000,0000,,bloom gone with my sins
+Dialogue: 0,1:03:01.45,1:03:03.09,geci,,0000,0000,0000,,Walk the dark path
+Dialogue: 0,1:03:03.12,1:03:04.65,geci,,0000,0000,0000,,Sleep with angels
+Dialogue: 0,1:03:04.69,1:03:08.09,geci,,0000,0000,0000,,Call the past for help
+Dialogue: 0,1:03:09.19,1:03:11.75,geci,,0000,0000,0000,,Touch me with your love
+Dialogue: 0,1:03:12.35,1:03:16.63,geci,,0000,0000,0000,,And reveal to me my true name
+Dialogue: 0,1:03:17.29,1:03:18.77,geci,,0000,0000,0000,,Oh how I wish
+Dialogue: 0,1:03:18.81,1:03:20.65,geci,,0000,0000,0000,,For soothing rain
+Dialogue: 0,1:03:20.68,1:03:24.37,geci,,0000,0000,0000,,All I wish is to dream again
+Dialogue: 0,1:03:24.40,1:03:26.48,geci,,0000,0000,0000,,My loving heart
+Dialogue: 0,1:03:26.52,1:03:28.29,geci,,0000,0000,0000,,Lost in the dark
+Dialogue: 0,1:03:28.33,1:03:32.00,geci,,0000,0000,0000,,For hope I'd give my everything
+Dialogue: 0,1:03:32.65,1:03:34.33,geci,,0000,0000,0000,,Oh how I wish
+Dialogue: 0,1:03:34.36,1:03:36.10,geci,,0000,0000,0000,,For soothing rain
+Dialogue: 0,1:03:36.13,1:03:39.59,geci,,0000,0000,0000,,Oh how I wish to dream again
+Dialogue: 0,1:03:40.33,1:03:41.93,geci,,0000,0000,0000,,Once and for all
+Dialogue: 0,1:03:41.97,1:03:43.93,geci,,0000,0000,0000,,And all for once
+Dialogue: 0,1:03:44.06,1:03:51.04,geci,,0000,0000,0000,,Nemo my name forevermore
+Dialogue: 0,1:04:33.86,1:04:40.47,geci,,0000,0000,0000,,Nemo sailing home
+Dialogue: 0,1:04:41.31,1:04:48.39,geci,,0000,0000,0000,,Nemo letting go
+Dialogue: 0,1:04:57.11,1:04:58.66,geci,,0000,0000,0000,,Oh how I wish
+Dialogue: 0,1:04:58.69,1:05:00.61,geci,,0000,0000,0000,,For soothing rain
+Dialogue: 0,1:05:00.65,1:05:04.23,geci,,0000,0000,0000,,All I wish is to dream again
+Dialogue: 0,1:05:04.26,1:05:06.24,geci,,0000,0000,0000,,My loving heart
+Dialogue: 0,1:05:06.27,1:05:08.14,geci,,0000,0000,0000,,Lost in the dark
+Dialogue: 0,1:05:08.17,1:05:11.61,geci,,0000,0000,0000,,For hope I'd give my everything
+Dialogue: 0,1:05:12.50,1:05:13.95,geci,,0000,0000,0000,,Oh how I wish
+Dialogue: 0,1:05:13.98,1:05:15.97,geci,,0000,0000,0000,,For soothing rain
+Dialogue: 0,1:05:16.01,1:05:19.38,geci,,0000,0000,0000,,Oh how I wish to dream again
+Dialogue: 0,1:05:20.15,1:05:21.69,geci,,0000,0000,0000,,Once and for all
+Dialogue: 0,1:05:21.72,1:05:23.56,geci,,0000,0000,0000,,And all for once
+Dialogue: 0,1:05:23.59,1:05:30.42,geci,,0000,0000,0000,,Nemo my name forevermore
+Dialogue: 0,1:05:33.48,1:05:39.43,geci,,0000,0000,0000,,My name forevermore
+Dialogue: 0,1:07:48.14,1:07:51.66,geci,,0000,0000,0000,,We used to swim
+Dialogue: 0,1:07:52.30,1:07:57.15,geci,,0000,0000,0000,,the same moonlight waters
+Dialogue: 0,1:07:57.64,1:08:01.45,geci,,0000,0000,0000,,Oceans away
+Dialogue: 0,1:08:01.70,1:08:07.16,geci,,0000,0000,0000,,from the wakeful day
+Dialogue: 0,1:08:07.28,1:08:09.24,geci,,0000,0000,0000,,"My fall will be for you"
+Dialogue: 0,1:08:09.75,1:08:11.66,geci,,0000,0000,0000,,"My love will be in you"
+Dialogue: 0,1:08:11.79,1:08:14.86,geci,,0000,0000,0000,,"If you be the one to cut me"
+Dialogue: 0,1:08:14.98,1:08:16.26,geci,,0000,0000,0000,,"I'll bleed forever"
+Dialogue: 0,1:08:16.91,1:08:18.95,geci,,0000,0000,0000,,"My fall will be for you"
+Dialogue: 0,1:08:18.98,1:08:21.10,geci,,0000,0000,0000,,"My love will be in you"
+Dialogue: 0,1:08:21.13,1:08:24.28,geci,,0000,0000,0000,,"If you be the one to cut me"
+Dialogue: 0,1:08:24.65,1:08:25.69,geci,,0000,0000,0000,,"I'll bleed forever"
+Dialogue: 0,1:08:26.11,1:08:29.72,geci,,0000,0000,0000,,Scent of the sea
+Dialogue: 0,1:08:29.75,1:08:34.64,geci,,0000,0000,0000,,before the waking of the world
+Dialogue: 0,1:08:35.58,1:08:38.46,geci,,0000,0000,0000,,Brings me to thee
+Dialogue: 0,1:08:39.77,1:08:44.28,geci,,0000,0000,0000,,Into the blue memory
+Dialogue: 0,1:08:45.41,1:08:47.22,geci,,0000,0000,0000,,"My fall will be for you"
+Dialogue: 0,1:08:47.73,1:08:49.62,geci,,0000,0000,0000,,"My love will be in you"
+Dialogue: 0,1:08:50.29,1:08:52.86,geci,,0000,0000,0000,,"If you be the one to cut me"
+Dialogue: 0,1:08:53.28,1:08:54.39,geci,,0000,0000,0000,,"I'll bleed forever"
+Dialogue: 0,1:08:54.95,1:08:56.77,geci,,0000,0000,0000,,"My fall will be for you"
+Dialogue: 0,1:08:57.30,1:08:59.05,geci,,0000,0000,0000,,"My love will be in you"
+Dialogue: 0,1:08:59.66,1:09:02.35,geci,,0000,0000,0000,,"If you be the one to cut me"
+Dialogue: 0,1:09:02.60,1:09:03.75,geci,,0000,0000,0000,,"I'll bleed forever"
+Dialogue: 0,1:09:04.16,1:09:12.40,geci,,0000,0000,0000,,Into the blue memory
+Dialogue: 0,1:09:23.06,1:09:25.87,geci,,0000,0000,0000,,A siren from the deep
+Dialogue: 0,1:09:26.41,1:09:27.49,geci,,0000,0000,0000,,came to me
+Dialogue: 0,1:09:27.53,1:09:31.83,geci,,0000,0000,0000,,He sang my name my longing
+Dialogue: 0,1:09:32.61,1:09:36.75,geci,,0000,0000,0000,,Still I write my songs
+Dialogue: 0,1:09:37.04,1:09:41.70,geci,,0000,0000,0000,,about that dream of mine
+Dialogue: 0,1:09:42.22,1:09:50.84,geci,,0000,0000,0000,,Worth everything I may ever be
+Dialogue: 0,1:09:51.32,1:09:54.91,geci,,0000,0000,0000,,The child will be born again
+Dialogue: 0,1:09:55.66,1:10:00.50,geci,,0000,0000,0000,,That siren carried him to me
+Dialogue: 0,1:10:01.15,1:10:05.56,geci,,0000,0000,0000,,First of them true loves
+Dialogue: 0,1:10:05.91,1:10:10.04,geci,,0000,0000,0000,,Singing on the shoulders
+Dialogue: 0,1:10:10.65,1:10:12.53,geci,,0000,0000,0000,,of an angel
+Dialogue: 0,1:10:12.85,1:10:19.80,geci,,0000,0000,0000,,Without care for love and loss
+Dialogue: 0,1:12:19.43,1:12:22.40,geci,,0000,0000,0000,,Bring me home or leave me be
+Dialogue: 0,1:12:22.60,1:12:25.99,geci,,0000,0000,0000,,My love in the dark heart of the night
+Dialogue: 0,1:12:26.10,1:12:29.34,geci,,0000,0000,0000,,I have lost the path before me
+Dialogue: 0,1:12:29.38,1:12:33.06,geci,,0000,0000,0000,,The one behind will lead me
+Dialogue: 0,1:12:33.54,1:12:36.64,geci,,0000,0000,0000,,Bring me home or leave me be
+Dialogue: 0,1:12:36.67,1:12:40.28,geci,,0000,0000,0000,,My love in the dark heart of the night
+Dialogue: 0,1:12:40.32,1:12:43.56,geci,,0000,0000,0000,,I have lost the path before me
+Dialogue: 0,1:12:43.59,1:12:47.28,geci,,0000,0000,0000,,The one behind will lead me
+Dialogue: 0,1:12:55.24,1:12:56.05,geci,,0000,0000,0000,,"Take me"
+Dialogue: 0,1:12:56.09,1:12:56.96,geci,,0000,0000,0000,,"Cure me"
+Dialogue: 0,1:12:57.00,1:12:57.70,geci,,0000,0000,0000,,"Kill me"
+Dialogue: 0,1:12:57.73,1:12:58.44,geci,,0000,0000,0000,,"Bring me home"
+Dialogue: 0,1:12:58.48,1:12:59.93,geci,,0000,0000,0000,,"Every way,every day"
+Dialogue: 0,1:12:59.97,1:13:02.16,geci,,0000,0000,0000,,"Just another loop in the hangman's noose"
+Dialogue: 0,1:13:02.27,1:13:05.75,geci,,0000,0000,0000,,Take me,cure me,kill me,bring me home
+Dialogue: 0,1:13:05.78,1:13:07.52,geci,,0000,0000,0000,,Every way,every day
+Dialogue: 0,1:13:07.55,1:13:09.47,geci,,0000,0000,0000,,I keep on watching us sleep
+Dialogue: 0,1:13:09.50,1:13:13.06,geci,,0000,0000,0000,,Relive the old sin of adam and eve
+Dialogue: 0,1:13:13.09,1:13:14.59,geci,,0000,0000,0000,,Of you and me
+Dialogue: 0,1:13:14.62,1:13:17.56,geci,,0000,0000,0000,,Forgive the adoring beast
+Dialogue: 0,1:14:28.99,1:14:33.90,geci,,0000,0000,0000,,Redeem me into childhood
+Dialogue: 0,1:14:34.04,1:14:38.50,geci,,0000,0000,0000,,Show me myself without the shell
+Dialogue: 0,1:14:39.03,1:14:42.91,geci,,0000,0000,0000,,Like the advent of may
+Dialogue: 0,1:14:43.30,1:14:47.50,geci,,0000,0000,0000,,I'll be there when you say
+Dialogue: 0,1:14:48.13,1:14:53.18,geci,,0000,0000,0000,,Time to never hold our love
+Dialogue: 0,1:14:53.77,1:14:55.62,geci,,0000,0000,0000,,"My fall will be for you"
+Dialogue: 0,1:14:55.66,1:14:57.98,geci,,0000,0000,0000,,"My love will be in you"
+Dialogue: 0,1:14:58.02,1:15:00.93,geci,,0000,0000,0000,,"If you be the one to cut me"
+Dialogue: 0,1:15:00.97,1:15:02.99,geci,,0000,0000,0000,,"So I'll bleed forever"
+Dialogue: 0,1:15:03.19,1:15:05.02,geci,,0000,0000,0000,,"My fall will be for you"
+Dialogue: 0,1:15:05.54,1:15:07.49,geci,,0000,0000,0000,,"My love will be in you"
+Dialogue: 0,1:15:07.53,1:15:09.91,geci,,0000,0000,0000,,"If you be the one to cut me"
+Dialogue: 0,1:15:09.95,1:15:12.16,geci,,0000,0000,0000,,"So I'll bleed forever"
+Dialogue: 0,1:15:12.19,1:15:14.67,geci,,0000,0000,0000,,"My fall will be for you"
+Dialogue: 0,1:15:14.71,1:15:17.01,geci,,0000,0000,0000,,"My love will be in you"
+Dialogue: 0,1:15:17.04,1:15:19.39,geci,,0000,0000,0000,,"If you be the one to cut me"
+Dialogue: 0,1:15:19.42,1:15:21.53,geci,,0000,0000,0000,,"So I'll bleed forever"
+Dialogue: 0,1:15:21.57,1:15:24.03,geci,,0000,0000,0000,,"My fall will be for you"
+Dialogue: 0,1:15:24.07,1:15:26.33,geci,,0000,0000,0000,,"My love will be in you"
+Dialogue: 0,1:15:26.36,1:15:28.84,geci,,0000,0000,0000,,"If you be the one to cut me"
+Dialogue: 0,1:15:28.87,1:15:31.65,geci,,0000,0000,0000,,"So I'll bleed forever"
+Dialogue: 0,1:22:03.66,1:22:10.84,geci,,0000,0000,0000,,Soon I will be here no more
+Dialogue: 0,1:22:11.05,1:22:13.97,geci,,0000,0000,0000,,You'll hear the tale
+Dialogue: 0,1:22:14.77,1:22:17.86,geci,,0000,0000,0000,,Through my blood
+Dialogue: 0,1:22:17.97,1:22:22.00,geci,,0000,0000,0000,,Through my people
+Dialogue: 0,1:22:22.10,1:22:25.84,geci,,0000,0000,0000,,And the eagle's cry
+Dialogue: 0,1:22:26.03,1:22:33.50,geci,,0000,0000,0000,,The bear within will never lay to rest
+Dialogue: 0,1:22:33.55,1:22:40.75,geci,,0000,0000,0000,,Wandering on horizon road
+Dialogue: 0,1:22:40.88,1:22:51.34,geci,,0000,0000,0000,,Following the trail of tears
+Dialogue: 0,1:22:52.85,1:22:55.65,geci,,0000,0000,0000,,White man came
+Dialogue: 0,1:22:55.69,1:22:59.34,geci,,0000,0000,0000,,Saw the blessed land
+Dialogue: 0,1:22:59.39,1:23:03.02,geci,,0000,0000,0000,,We cared,you took
+Dialogue: 0,1:23:03.10,1:23:06.73,geci,,0000,0000,0000,,You fought,we lost
+Dialogue: 0,1:23:06.76,1:23:13.83,geci,,0000,0000,0000,,Not the war but an unfair fight
+Dialogue: 0,1:23:14.31,1:23:21.54,geci,,0000,0000,0000,,Sceneries painted beautiful in blood
+Dialogue: 0,1:23:22.24,1:23:29.07,geci,,0000,0000,0000,,Wandering on horizon road
+Dialogue: 0,1:23:29.46,1:23:37.10,geci,,0000,0000,0000,,Following the trail of tears
+Dialogue: 0,1:23:37.57,1:23:42.60,geci,,0000,0000,0000,,Once we were here
+Dialogue: 0,1:23:43.46,1:23:45.03,geci,,0000,0000,0000,,Where we have lived
+Dialogue: 0,1:23:45.06,1:23:47.12,geci,,0000,0000,0000,,since the world began
+Dialogue: 0,1:23:47.16,1:23:58.55,geci,,0000,0000,0000,,since time itself gave us this land
+Dialogue: 0,1:26:18.33,1:26:21.10,geci,,0000,0000,0000,,Our souls
+Dialogue: 0,1:26:21.14,1:26:25.21,geci,,0000,0000,0000,,will join again the wild
+Dialogue: 0,1:26:25.35,1:26:34.19,geci,,0000,0000,0000,,Our home in peace and war and death
+Dialogue: 0,1:26:48.23,1:26:55.00,geci,,0000,0000,0000,,Wandering on horizon road
+Dialogue: 0,1:26:55.37,1:27:02.97,geci,,0000,0000,0000,,Following the trail of tears
+Dialogue: 0,1:27:03.45,1:27:08.61,geci,,0000,0000,0000,,Once we were here
+Dialogue: 0,1:27:09.32,1:27:11.08,geci,,0000,0000,0000,,Where we have lived
+Dialogue: 0,1:27:11.50,1:27:12.98,geci,,0000,0000,0000,,since the world began
+Dialogue: 0,1:27:13.01,1:27:22.90,geci,,0000,0000,0000,,Since time itself gave us this land
+Dialogue: 0,1:27:24.05,1:27:30.75,geci,,0000,0000,0000,,Wandering on horizon road
+Dialogue: 0,1:27:31.19,1:27:38.83,geci,,0000,0000,0000,,Following the trail of tears
+Dialogue: 0,1:27:39.22,1:27:44.68,geci,,0000,0000,0000,,Once we were here
+Dialogue: 0,1:27:45.15,1:27:46.74,geci,,0000,0000,0000,,Where we have lived
+Dialogue: 0,1:27:47.34,1:27:49.34,geci,,0000,0000,0000,,since the world began
+Dialogue: 0,1:27:49.38,1:28:00.50,geci,,0000,0000,0000,,Since time itself gave us this land
+Dialogue: 0,1:28:01.09,1:28:05.27,geci,,0000,0000,0000,,I still dream every night of them wolves,
+Dialogue: 0,1:28:05.38,1:28:08.67,geci,,0000,0000,0000,,Them mustangs,
+Dialogue: 0,1:28:08.70,1:28:11.61,geci,,0000,0000,0000,,Those endless prairies
+Dialogue: 0,1:28:11.61,1:28:14.51,geci,,0000,0000,0000,,The restless winds
+Dialogue: 0,1:28:14.51,1:28:16.45,geci,,0000,0000,0000,,over mountaintops
+Dialogue: 0,1:28:16.45,1:28:21.62,geci,,0000,0000,0000,,The unspoilt frontier of my kith and kin
+Dialogue: 0,1:28:21.62,1:28:27.68,geci,,0000,0000,0000,,The hallowed land of the great spirit
+Dialogue: 0,1:28:27.68,1:28:29.62,geci,,0000,0000,0000,,I still believe
+Dialogue: 0,1:28:29.62,1:28:32.95,geci,,0000,0000,0000,,In every night
+Dialogue: 0,1:28:32.95,1:28:34.30,geci,,0000,0000,0000,,In every day
+Dialogue: 0,1:28:34.72,1:28:36.82,geci,,0000,0000,0000,,I am like the caribou
+Dialogue: 0,1:28:36.82,1:28:39.82,geci,,0000,0000,0000,,And you like the wolves
+Dialogue: 0,1:28:39.90,1:28:42.91,geci,,0000,0000,0000,,that make me stronger
+Dialogue: 0,1:28:42.91,1:28:49.26,geci,,0000,0000,0000,,We never owed you anything
+Dialogue: 0,1:28:49.26,1:28:50.58,geci,,0000,0000,0000,,Our only debt
+Dialogue: 0,1:28:50.58,1:28:53.59,geci,,0000,0000,0000,,is one life for our mother
+Dialogue: 0,1:28:53.59,1:28:54.92,geci,,0000,0000,0000,,It was A good day
+Dialogue: 0,1:28:54.92,1:28:57.54,geci,,0000,0000,0000,,to chant this song for her
+Dialogue: 0,1:28:57.54,1:29:00.28,geci,,0000,0000,0000,,Our spirit was here
+Dialogue: 0,1:29:00.29,1:29:04.64,geci,,0000,0000,0000,,long before you
+Dialogue: 0,1:29:04.64,1:29:07.71,geci,,0000,0000,0000,,Long before us
+Dialogue: 0,1:29:07.71,1:29:11.78,geci,,0000,0000,0000,,And long will it be
+Dialogue: 0,1:29:11.78,1:29:14.10,geci,,0000,0000,0000,,after your pride
+Dialogue: 0,1:29:14.10,1:29:17.56,geci,,0000,0000,0000,,Brings you to your end
+Dialogue: 0,1:29:59.95,1:30:02.89,geci,,0000,0000,0000,,They came for him one winter's night
+Dialogue: 0,1:30:03.16,1:30:06.69,geci,,0000,0000,0000,,Arrested,he was bound
+Dialogue: 0,1:30:06.74,1:30:09.92,geci,,0000,0000,0000,,They said there'd been A robbery,
+Dialogue: 0,1:30:10.27,1:30:13.51,geci,,0000,0000,0000,,His pistol had been found
+Dialogue: 0,1:30:28.37,1:30:31.34,geci,,0000,0000,0000,,They marched him to the station house,
+Dialogue: 0,1:30:31.98,1:30:34.39,geci,,0000,0000,0000,,He waited for the dawn
+Dialogue: 0,1:30:35.44,1:30:38.15,geci,,0000,0000,0000,,And as they led him to the dock,
+Dialogue: 0,1:30:38.57,1:30:42.04,geci,,0000,0000,0000,,He knew that he'd been wronged
+Dialogue: 0,1:30:42.35,1:30:45.40,geci,,0000,0000,0000,,"You stand accused of robbery,"
+Dialogue: 0,1:30:45.92,1:30:48.67,geci,,0000,0000,0000,,He heard the bailiff say
+Dialogue: 0,1:30:49.62,1:30:52.90,geci,,0000,0000,0000,,He knew without an alibi,
+Dialogue: 0,1:30:52.95,1:30:54.41,geci,,0000,0000,0000,,Tomorrow's light
+Dialogue: 0,1:30:54.46,1:30:56.40,geci,,0000,0000,0000,,would mourn his freedom
+Dialogue: 0,1:30:56.44,1:30:59.63,geci,,0000,0000,0000,,Over the hills and far away,
+Dialogue: 0,1:31:00.15,1:31:01.58,geci,,0000,0000,0000,,For ten long years
+Dialogue: 0,1:31:01.75,1:31:03.45,geci,,0000,0000,0000,,he'll count the days
+Dialogue: 0,1:31:03.50,1:31:06.77,geci,,0000,0000,0000,,Over the mountains and the seas,
+Dialogue: 0,1:31:06.81,1:31:10.39,geci,,0000,0000,0000,,A prisoner's life for him there'll be
+Dialogue: 0,1:31:14.05,1:31:17.12,geci,,0000,0000,0000,,He knew that it would cost him dear,
+Dialogue: 0,1:31:17.16,1:31:20.35,geci,,0000,0000,0000,,But yet he dare not say
+Dialogue: 0,1:31:20.36,1:31:23.02,geci,,0000,0000,0000,,where he had been
+Dialogue: 0,1:31:23.06,1:31:24.28,geci,,0000,0000,0000,,that fateful night,
+Dialogue: 0,1:31:24.32,1:31:27.21,geci,,0000,0000,0000,,A secret it must stay
+Dialogue: 0,1:31:28.42,1:31:31.16,geci,,0000,0000,0000,,He had to fight back tears of rage
+Dialogue: 0,1:31:31.20,1:31:34.11,geci,,0000,0000,0000,,His heart beat like a drum
+Dialogue: 0,1:31:35.35,1:31:38.16,geci,,0000,0000,0000,,For with the wife of his best friend,
+Dialogue: 0,1:31:38.44,1:31:42.07,geci,,0000,0000,0000,,He spent his final night of freedom
+Dialogue: 0,1:31:42.26,1:31:45.43,geci,,0000,0000,0000,,Over the hills and far away,
+Dialogue: 0,1:31:45.46,1:31:48.85,geci,,0000,0000,0000,,He swears he will return one day
+Dialogue: 0,1:31:49.16,1:31:52.51,geci,,0000,0000,0000,,Far from the mountains and the seas,
+Dialogue: 0,1:31:52.55,1:31:56.08,geci,,0000,0000,0000,,Back in her arms he swear he'll be
+Dialogue: 0,1:31:56.27,1:32:03.25,geci,,0000,0000,0000,,Over the hills and far away
+Dialogue: 0,1:32:06.46,1:32:07.64,geci,,0000,0000,0000,,Over the hills and,
+Dialogue: 0,1:32:08.17,1:32:09.51,geci,,0000,0000,0000,,Over the hills and,
+Dialogue: 0,1:32:09.55,1:32:13.34,geci,,0000,0000,0000,,Over the hills and far away
+Dialogue: 0,1:32:55.68,1:32:58.79,geci,,0000,0000,0000,,Each night within his prison cell,
+Dialogue: 0,1:32:58.88,1:33:01.73,geci,,0000,0000,0000,,He looks out through the bars
+Dialogue: 0,1:33:02.79,1:33:05.54,geci,,0000,0000,0000,,He reads the letters that she wrote
+Dialogue: 0,1:33:06.24,1:33:07.66,geci,,0000,0000,0000,,One day he'll know
+Dialogue: 0,1:33:07.70,1:33:09.54,geci,,0000,0000,0000,,the taste of freedom
+Dialogue: 0,1:33:10.02,1:33:12.71,geci,,0000,0000,0000,,Over the hills and far away,
+Dialogue: 0,1:33:13.41,1:33:16.23,geci,,0000,0000,0000,,She prays he will return one day
+Dialogue: 0,1:33:17.03,1:33:19.69,geci,,0000,0000,0000,,As sure as the rivers reach the seas,
+Dialogue: 0,1:33:20.48,1:33:23.41,geci,,0000,0000,0000,,Back in his arms he swears she'll be
+Dialogue: 0,1:33:23.61,1:33:26.89,geci,,0000,0000,0000,,Over the hills and far away,
+Dialogue: 0,1:33:26.92,1:33:30.63,geci,,0000,0000,0000,,He swears he will return one day
+Dialogue: 0,1:33:31.24,1:33:33.85,geci,,0000,0000,0000,,Over the mountains and the seas
+Dialogue: 0,1:33:33.88,1:33:37.48,geci,,0000,0000,0000,,Back in her arms he swear he'll be
+Dialogue: 0,1:33:38.23,1:33:40.99,geci,,0000,0000,0000,,Over the hills and far away,
+Dialogue: 0,1:33:41.03,1:33:44.49,geci,,0000,0000,0000,,She prays he will return one day
+Dialogue: 0,1:33:44.63,1:33:47.79,geci,,0000,0000,0000,,As sure as the rivers reach the sea,
+Dialogue: 0,1:33:47.90,1:33:51.46,geci,,0000,0000,0000,,Back in his arms he swears she'll be
+Dialogue: 0,1:33:52.26,1:33:54.63,geci,,0000,0000,0000,,Over the hills
+Dialogue: 0,1:33:55.87,1:33:58.54,geci,,0000,0000,0000,,Over the hills and far away,
+Dialogue: 0,1:34:00.02,1:34:02.08,geci,,0000,0000,0000,,Over the hills
+Dialogue: 0,1:34:02.56,1:34:09.78,geci,,0000,0000,0000,,Over the hills and far away
+Dialogue: 0,1:35:23.12,1:35:25.65,geci,,0000,0000,0000,,I wish I had an angel
+Dialogue: 0,1:35:25.69,1:35:28.41,geci,,0000,0000,0000,,For one moment of love
+Dialogue: 0,1:35:29.03,1:35:34.20,geci,,0000,0000,0000,,I wish I had your angel tonight
+Dialogue: 0,1:35:44.96,1:35:49.83,geci,,0000,0000,0000,,Deep into a dying day
+Dialogue: 0,1:35:50.60,1:35:56.80,geci,,0000,0000,0000,,I took A step outside an innocent heart
+Dialogue: 0,1:35:56.94,1:36:01.20,geci,,0000,0000,0000,,Prepare to hate me,fall when I may
+Dialogue: 0,1:36:02.65,1:36:08.78,geci,,0000,0000,0000,,This night will hurt you like never before
+Dialogue: 0,1:36:09.13,1:36:14.91,geci,,0000,0000,0000,,Old loves they die hard
+Dialogue: 0,1:36:15.20,1:36:19.89,geci,,0000,0000,0000,,Old lies they die harder
+Dialogue: 0,1:36:20.48,1:36:23.02,geci,,0000,0000,0000,,I wish I had an angel
+Dialogue: 0,1:36:23.06,1:36:25.91,geci,,0000,0000,0000,,For one moment of love
+Dialogue: 0,1:36:26.48,1:36:29.90,geci,,0000,0000,0000,,I wish I had your angel,your
+Dialogue: 0,1:36:29.92,1:36:31.97,geci,,0000,0000,0000,,virgin mary undone
+Dialogue: 0,1:36:32.01,1:36:34.80,geci,,0000,0000,0000,,I'm in love with my lust
+Dialogue: 0,1:36:34.83,1:36:37.81,geci,,0000,0000,0000,,Burning angelwings to dust
+Dialogue: 0,1:36:38.63,1:36:44.28,geci,,0000,0000,0000,,I wish I had your angel tonight
+Dialogue: 0,1:36:45.39,1:36:50.16,geci,,0000,0000,0000,,I'm going down so frail and cruel
+Dialogue: 0,1:36:51.36,1:36:57.00,geci,,0000,0000,0000,,Drunken disguise changes all the rules
+Dialogue: 0,1:36:57.55,1:37:03.05,geci,,0000,0000,0000,,Old loves they die hard
+Dialogue: 0,1:37:03.47,1:37:08.60,geci,,0000,0000,0000,,Old lies they die harder
+Dialogue: 0,1:37:08.82,1:37:11.31,geci,,0000,0000,0000,,I wish I had an angel
+Dialogue: 0,1:37:11.34,1:37:14.19,geci,,0000,0000,0000,,For one moment of love
+Dialogue: 0,1:37:14.81,1:37:17.97,geci,,0000,0000,0000,,I wish I had your angel your
+Dialogue: 0,1:37:18.01,1:37:20.35,geci,,0000,0000,0000,,virgin mary undone
+Dialogue: 0,1:37:20.39,1:37:23.08,geci,,0000,0000,0000,,I'm in love with my lust
+Dialogue: 0,1:37:23.54,1:37:26.10,geci,,0000,0000,0000,,Burning angelwings to dust
+Dialogue: 0,1:37:26.89,1:37:33.11,geci,,0000,0000,0000,,I wish I had your angel tonight
+Dialogue: 0,1:37:48.79,1:37:51.16,geci,,0000,0000,0000,,Greatest thrill not to kill!
+Dialogue: 0,1:37:51.74,1:37:54.09,geci,,0000,0000,0000,,But to have the prize of the night!
+Dialogue: 0,1:37:54.81,1:37:55.58,geci,,0000,0000,0000,,Hypocrite!
+Dialogue: 0,1:37:56.32,1:37:57.45,geci,,0000,0000,0000,,Wanna be friend!
+Dialogue: 0,1:37:57.49,1:38:01.44,geci,,0000,0000,0000,,13th disciple who betrayed me for nothing!
+Dialogue: 0,1:38:01.57,1:38:06.33,geci,,0000,0000,0000,,Last dance,first kiss,your touch,my bliss
+Dialogue: 0,1:38:06.91,1:38:14.15,geci,,0000,0000,0000,,Beauty always comes with dark thoughts
+Dialogue: 0,1:38:37.75,1:38:40.38,geci,,0000,0000,0000,,I wish I had an angel
+Dialogue: 0,1:38:40.42,1:38:43.30,geci,,0000,0000,0000,,For one moment of love
+Dialogue: 0,1:38:43.87,1:38:46.25,geci,,0000,0000,0000,,I wish I had your angel
+Dialogue: 0,1:38:46.29,1:38:49.28,geci,,0000,0000,0000,,Your virgin mary undone
+Dialogue: 0,1:38:49.32,1:38:52.06,geci,,0000,0000,0000,,I'm in love with my lust
+Dialogue: 0,1:38:52.59,1:38:55.35,geci,,0000,0000,0000,,Burning angelwings to dust
+Dialogue: 0,1:38:56.01,1:39:01.56,geci,,0000,0000,0000,,I wish I had your angel tonight
+Dialogue: 0,1:39:11.13,1:39:13.52,geci,,0000,0000,0000,,I wish I had an angel
+Dialogue: 0,1:39:13.95,1:39:16.42,geci,,0000,0000,0000,,I wish I had an angel
+Dialogue: 0,1:39:17.12,1:39:19.17,geci,,0000,0000,0000,,I wish I had an angel
+Dialogue: 0,1:39:20.21,1:39:27.39,geci,,0000,0000,0000,,I wish I had an angel!!!
+Dialogue: 0,0:00:01.00,0:00:06.00,geming,,0000,0000,0000,,[ Intro - Red Warrior ]
+Dialogue: 0,0:00:39.90,0:00:44.90,geming,,0000,0000,0000,,[ Dark Chest of Wonders ]
+Dialogue: 0,0:05:09.50,0:05:14.50,geming,,0000,0000,0000,,[ Planet Hell ]
+Dialogue: 0,0:09:53.70,0:09:58.70,geming,,0000,0000,0000,,[ Ever Dream ]
+Dialogue: 0,0:15:21.25,0:15:26.25,geming,,0000,0000,0000,,[ The Kinslayer ]
+Dialogue: 0,0:19:30.25,0:19:35.25,geming,,0000,0000,0000,,[ The Phantom of The Opera ]
+Dialogue: 0,0:24:36.25,0:24:41.25,geming,,0000,0000,0000,,[ The Siren ]
+Dialogue: 0,0:29:55.50,0:30:00.50,geming,,0000,0000,0000,,[ Sleeping Sun ]
+Dialogue: 0,0:34:28.43,0:34:33.43,geming,,0000,0000,0000,,[ High Hopes ]
+Dialogue: 0,0:41:23.25,0:41:28.25,geming,,0000,0000,0000,,[ Bless The Child ]
+Dialogue: 0,0:47:46.62,0:47:51.62,geming,,0000,0000,0000,,[ Wishmaster ]
+Dialogue: 0,0:52:30.55,0:52:35.55,geming,,0000,0000,0000,,[ Slayng The Dreamer ]
+Dialogue: 0,0:57:31.20,0:57:36.20,geming,,0000,0000,0000,,[ Kuolema Tekee Taiteilijan ]
+Dialogue: 0,1:01:44.26,1:01:49.26,geming,,0000,0000,0000,,[ Nemo ]
+Dialogue: 0,1:06:30.26,1:06:35.26,geming,,0000,0000,0000,,[ Ghost Love Score ]
+Dialogue: 0,1:16:58.26,1:17:03.26,geming,,0000,0000,0000,,[ Stone People ]
+Dialogue: 0,1:21:07.26,1:21:12.26,geming,,0000,0000,0000,,[ Creek Mary's Blood ]
+Dialogue: 0,1:29:45.26,1:29:50.26,geming,,0000,0000,0000,,[ Over The Hills and Far Away ]
+Dialogue: 0,1:35:12.26,1:35:17.26,geming,,0000,0000,0000,,[ Wish I Had an Angel ]
+

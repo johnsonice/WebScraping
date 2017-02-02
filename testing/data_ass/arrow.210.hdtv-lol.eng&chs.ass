@@ -1,0 +1,761 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 720
+PlayResY: 404
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.03,0:00:03.50,Default,,0000,0000,0000,,我叫Oliver Queen\NMy name is Oliver Queen.
+Dialogue: 0,0:00:03.73,0:00:06.66,Default,,0000,0000,0000,,经历岛上地狱般的五年后\NAfter five years on a hellish island,
+Dialogue: 0,0:00:06.66,0:00:09.10,Default,,0000,0000,0000,,我回来了 心怀一个目标...\NI have come home with only one goal...
+Dialogue: 0,0:00:09.10,0:00:11.43,Default,,0000,0000,0000,,拯救这座城市\Nto save my city.
+Dialogue: 0,0:00:11.43,0:00:16.50,Default,,0000,0000,0000,,但为此我不能再像以前一样杀戮\NBut to do so, I can't be the killer I once was.
+Dialogue: 0,0:00:16.50,0:00:21.70,Default,,0000,0000,0000,,为了祭奠我的好友 我必须重塑自己\NTo honor my friend's memory, I must be someone else.
+Dialogue: 0,0:00:20.83,0:00:21.40,Default,,0000,0000,0000,,{\an8}Thomas Merlyn之墓 1985-2013
+Dialogue: 0,0:00:21.70,0:00:25.10,Default,,0000,0000,0000,,我必须伪装自身\NI must be something else.
+Dialogue: 0,0:00:25.10,0:00:28.26,Default,,0000,0000,0000,,"绿箭侠" 前情提要...\NPreviously on "Arrow"...
+Dialogue: 0,0:00:30.60,0:00:33.00,Default,,0000,0000,0000,,该做决定了 Oliver\NTime to choose, Oliver.
+Dialogue: 0,0:00:33.00,0:00:35.06,Default,,0000,0000,0000,,谁生谁死\NWho lives and who dies.
+Dialogue: 0,0:00:35.06,0:00:36.20,Default,,0000,0000,0000,,因为再过30秒 我就会把她俩都杀了\NBecause in 30 seconds, I will shoot them both.
+Dialogue: 0,0:00:36.20,0:00:38.40,Default,,0000,0000,0000,,你的目的已经达到了!\NYou got what you came for!
+Dialogue: 0,0:00:38.40,0:00:40.23,Default,,0000,0000,0000,,看来你选好了 时间到\NI guess you made your choice. Time's up.
+Dialogue: 0,0:00:40.23,0:00:41.83,Default,,0000,0000,0000,,不!\NNo!
+Dialogue: 0,0:00:44.03,0:00:46.60,Default,,0000,0000,0000,,你敢给我注射 我就杀了你\NIf you stick that in me, I'll kill you.
+Dialogue: 0,0:00:46.60,0:00:48.60,Default,,0000,0000,0000,,不 Roy兄弟 你会为我杀戮\NNo, brother Roy, you'll kill for me.
+Dialogue: 0,0:00:48.60,0:00:50.60,Default,,0000,0000,0000,,你从哪得到奇迹药的?\NWhere'd you get the mirakuru?
+Dialogue: 0,0:00:50.60,0:00:52.36,Default,,0000,0000,0000,,这是一份礼物 我要用它来\NIt was a gift. A gift I would use
+Dialogue: 0,0:00:52.36,0:00:54.73,Default,,0000,0000,0000,,拯救这座城市\Nto save this city from itself.
+Dialogue: 0,0:00:55.36,0:00:58.73,Default,,0000,0000,0000,,-=圣城家园SCG字幕组 http://hd.cnscg.com/=-\N仅供翻译交流使用, 禁止用于商业用途
+Dialogue: 0,0:00:58.76,0:01:02.73,Default,,0000,0000,0000,,-=圣城家园SCG字幕组 http://hd.cnscg.com/=-\N协调: Tracy\N时间轴: 潇妹纸\N翻译: 初见 yjk8654 水果哥 Tracy\N校对: 潇妹纸
+Dialogue: 0,0:02:10.70,0:02:10.73,Default,,0000,0000,0000,,哇 啊!\NWhoa, oh, ahh!
+Dialogue: 0,0:02:12.53,0:02:14.13,Default,,0000,0000,0000,,啊! 哦!\NAhh! Oh!
+Dialogue: 0,0:02:14.13,0:02:16.13,Default,,0000,0000,0000,,带骷髅面具的男人是谁?! 快说\NThe man in the skull mask, who is he?!
+Dialogue: 0,0:02:16.13,0:02:18.23,Default,,0000,0000,0000,,我不知道!\NI-I don't know!
+Dialogue: 0,0:02:18.23,0:02:20.60,Default,,0000,0000,0000,,你是这里街头最大的毒贩\NYou're the biggest street dealer in crescent circle.
+Dialogue: 0,0:02:20.60,0:02:23.10,Default,,0000,0000,0000,,这里发生的一切你都了如指掌\NYou know everything that goes on over there.
+Dialogue: 0,0:02:23.10,0:02:24.53,Default,,0000,0000,0000,,他是谁?!\NWho is he?!
+Dialogue: 0,0:02:24.53,0:02:26.06,Default,,0000,0000,0000,,我以前没见过他!\NI ain't seen the guy before!
+Dialogue: 0,0:02:26.06,0:02:28.36,Default,,0000,0000,0000,,带着骷髅面具 我真的不知道!\NA skull mask, are you freaking kidding me?!
+Dialogue: 0,0:02:28.36,0:02:30.03,Default,,0000,0000,0000,,别这样 我还在假释期!\NCome on, man, I'm still on parole!
+Dialogue: 0,0:02:30.03,0:02:32.03,Default,,0000,0000,0000,,结束了\NNot anymore.
+Dialogue: 0,0:02:35.03,0:02:37.83,Default,,0000,0000,0000,,绿箭侠 第二季第十集
+Dialogue: 0,0:02:37.30,0:02:39.70,Default,,0000,0000,0000,,中心城市长发言人已证实\NA spokesman for the central city mayor's office confirmed
+Dialogue: 0,0:02:39.70,0:02:42.76,Default,,0000,0000,0000,,五周前S.T.A.R.实验室发生的爆炸\Nthe lack of any damage or radioactive fallout
+Dialogue: 0,0:02:42.76,0:02:46.23,Default,,0000,0000,0000,,并未造成放射性尘埃泄露\Nfrom the explosion that rocked S.T.A.R. Labs five weeks ago.
+Dialogue: 0,0:02:47.73,0:02:51.06,Default,,0000,0000,0000,,Felicity还没回来吗?\NIs Felicity not back yet?
+Dialogue: 0,0:02:51.06,0:02:53.43,Default,,0000,0000,0000,,她说想再照顾Barry几天\NShe said she wanted to spend a few more days with Barry.
+Dialogue: 0,0:02:53.43,0:02:56.90,Default,,0000,0000,0000,,他的情况有好转了吗?\NAny improvement in his condition?
+Dialogue: 0,0:02:56.90,0:02:58.56,Default,,0000,0000,0000,,还在昏迷\NStill comatose.
+Dialogue: 0,0:02:58.56,0:03:00.33,Default,,0000,0000,0000,,今天晚上收获如何?\NHow'd it go out there tonight?
+Dialogue: 0,0:03:00.33,0:03:02.20,Default,,0000,0000,0000,,与前几天在新月城的\NSame as every other pointed conversation
+Dialogue: 0,0:03:02.20,0:03:04.36,Default,,0000,0000,0000,,那些下三滥说的一样\NI have with these lowlifes in Crescent circle.
+Dialogue: 0,0:03:04.36,0:03:05.90,Default,,0000,0000,0000,,没人...\NNobody...
+Dialogue: 0,0:03:05.90,0:03:08.73,Default,,0000,0000,0000,,见过带着骷髅面具的人\Nhas seen a man in a skull mask.
+Dialogue: 0,0:03:10.13,0:03:12.10,Default,,0000,0000,0000,,但他还在逍遥法外\NBut he's still out there.
+Dialogue: 0,0:03:12.10,0:03:14.13,Default,,0000,0000,0000,,Oliver 过去的五周\NOliver, for the past five weeks,
+Dialogue: 0,0:03:14.13,0:03:15.93,Default,,0000,0000,0000,,你用尽全力想要找到那个人\Nyou've pushed yourself pretty hard looking for this guy.
+Dialogue: 0,0:03:15.93,0:03:17.90,Default,,0000,0000,0000,,奇迹药他手上 Diggle!\NHe has the mirakuru, Diggle!
+Dialogue: 0,0:03:17.90,0:03:22.16,Default,,0000,0000,0000,,你见过要杀掉被注射的人\NI mean, you saw what it took to kill one guy
+Dialogue: 0,0:03:22.16,0:03:23.50,Default,,0000,0000,0000,,是多么不容易\Nthat had been injected.
+Dialogue: 0,0:03:23.50,0:03:25.20,Default,,0000,0000,0000,,要用一栋大楼才能压垮他\NWe practically had to drop a building on him.
+Dialogue: 0,0:03:25.20,0:03:27.40,Default,,0000,0000,0000,,所以如果他们有十人 一百人\NSo imagine ten or a hundred,
+Dialogue: 0,0:03:27.40,0:03:29.40,Default,,0000,0000,0000,,一千人 怎么办\Nimagine a thousand.
+Dialogue: 0,0:03:29.40,0:03:31.40,Default,,0000,0000,0000,,你说Roy被注射了\NYou said Roy was injected.
+Dialogue: 0,0:03:31.40,0:03:32.90,Default,,0000,0000,0000,,是的\NYeah.
+Dialogue: 0,0:03:32.90,0:03:35.76,Default,,0000,0000,0000,,我从没看过你这么恐惧\NI've just never seen you spooked like this before.
+Dialogue: 0,0:03:35.76,0:03:38.76,Default,,0000,0000,0000,,有件事应该告诉你\NThat should tell you something.
+Dialogue: 0,0:03:51.80,0:03:54.96,Default,,0000,0000,0000,,Shado总是对我说 我不会死在这里\NShado always told me that I wouldn't die here.
+Dialogue: 0,0:03:56.30,0:03:57.80,Default,,0000,0000,0000,,但回头想想 我发现\NBut looking back, I realized
+Dialogue: 0,0:03:57.80,0:04:00.23,Default,,0000,0000,0000,,她从来没有对自己说过这句话\Nthat she never once said that about herself.
+Dialogue: 0,0:04:00.03,0:04:03.00,Default,,0000,0000,0000,,{\an8}Shado之墓
+Dialogue: 0,0:04:00.23,0:04:04.00,Default,,0000,0000,0000,,希望她和她爸爸团聚了\NI just hope she's with her father now.
+Dialogue: 0,0:04:16.66,0:04:18.96,Default,,0000,0000,0000,,给你\NHere, kid.
+Dialogue: 0,0:04:22.06,0:04:23.80,Default,,0000,0000,0000,,她会希望你留着它的\NShe'd want you to have that.
+Dialogue: 0,0:04:23.80,0:04:26.80,Default,,0000,0000,0000,,她真正在乎的是你\NYou're the one she cared for.
+Dialogue: 0,0:04:42.30,0:04:44.26,Default,,0000,0000,0000,,Slade啊...\NSlade...
+Dialogue: 0,0:04:44.26,0:04:46.63,Default,,0000,0000,0000,,嘿 Ollie 让他一个人静一静\NHey, Ollie, just give him space.
+Dialogue: 0,0:04:46.63,0:04:48.33,Default,,0000,0000,0000,,我不能再骗他了 Sara\NI can't keep lying to him, Sara.
+Dialogue: 0,0:04:48.33,0:04:49.96,Default,,0000,0000,0000,,我要告诉她Shado死亡的真相\NI need to tell him how Shado really died.
+Dialogue: 0,0:04:49.96,0:04:53.06,Default,,0000,0000,0000,,是Ivo开枪杀了Shado\NIvo killed Shado. He pulled the trigger.
+Dialogue: 0,0:04:53.06,0:04:55.40,Default,,0000,0000,0000,,因为我选择救你\NBecause I chose to save you.
+Dialogue: 0,0:04:57.43,0:04:59.66,Default,,0000,0000,0000,,他需要知道真相\NHe needs to know the truth.
+Dialogue: 0,0:04:59.66,0:05:01.46,Default,,0000,0000,0000,,- 等等 Ollie 他...  - 放开我\N- Wait, Ollie, he...  - Get off me.
+Dialogue: 0,0:05:01.46,0:05:03.63,Default,,0000,0000,0000,,他手里现在有奇迹药\NHe has the mirakuru in his system now.
+Dialogue: 0,0:05:03.63,0:05:05.96,Default,,0000,0000,0000,,那又有什么关系?\NWhat does that have to do with anything?
+Dialogue: 0,0:05:05.96,0:05:08.16,Default,,0000,0000,0000,,日本人在成千上百个人身上\NLook, the Japanese, they experimented
+Dialogue: 0,0:05:08.16,0:05:10.70,Default,,0000,0000,0000,,做实验才研制出了奇迹药\Non hundreds of men working to develop mirakuru.
+Dialogue: 0,0:05:10.70,0:05:12.66,Default,,0000,0000,0000,,我读过他们的报告\Nand I read the research.
+Dialogue: 0,0:05:12.66,0:05:14.33,Default,,0000,0000,0000,,那些死去的人?\NThe people who died?
+Dialogue: 0,0:05:14.33,0:05:15.86,Default,,0000,0000,0000,,他们算是幸运的\NThey were the lucky ones.
+Dialogue: 0,0:05:15.86,0:05:18.20,Default,,0000,0000,0000,,那些活下来的人 身陷残缺\NThe ones who survived, they were deformed.
+Dialogue: 0,0:05:18.20,0:05:20.03,Default,,0000,0000,0000,,身体和精神上的残缺\NEither their bones or their minds.
+Dialogue: 0,0:05:20.03,0:05:21.86,Default,,0000,0000,0000,,他们变得面目全非\NThey became someone else.
+Dialogue: 0,0:05:31.90,0:05:35.30,Default,,0000,0000,0000,,你叫我过来就是为了喝酒?\NYou summoned me here for a drink?
+Dialogue: 0,0:05:35.30,0:05:36.73,Default,,0000,0000,0000,,看来你还打扮了一番\NYou certainly look dressed for it.
+Dialogue: 0,0:05:36.73,0:05:39.26,Default,,0000,0000,0000,,不 我... 要去约会\NNo, I... have a date.
+Dialogue: 0,0:05:39.26,0:05:40.73,Default,,0000,0000,0000,,你在忙什么呢?\NWhat are you working on?
+Dialogue: 0,0:05:40.73,0:05:42.66,Default,,0000,0000,0000,,我在调查Sebastian Blood\NSomething to do with Sebastian Blood.
+Dialogue: 0,0:05:42.66,0:05:45.16,Default,,0000,0000,0000,,据说他是Starling市的下一任市长\NAKA the next mayor of Starling city.
+Dialogue: 0,0:05:45.16,0:05:46.53,Default,,0000,0000,0000,,也许他当不上\NWell, maybe he shouldn't be.
+Dialogue: 0,0:05:46.53,0:05:48.26,Default,,0000,0000,0000,,- 这话怎讲?  - 我做了一些\N- What does that mean?  - I've just been doing
+Dialogue: 0,0:05:48.26,0:05:50.56,Default,,0000,0000,0000,,调查 Blood与兰福德精神病学研究所\Nsome investigating. Blood had a connection
+Dialogue: 0,0:05:50.56,0:05:52.90,Default,,0000,0000,0000,,有点瓜葛\Nto the Langford Psychiatric Institute.
+Dialogue: 0,0:05:52.90,0:05:54.90,Default,,0000,0000,0000,,就是那个被神秘\NThe one that burnt down under very
+Dialogue: 0,0:05:54.90,0:05:56.90,Default,,0000,0000,0000,,烧毁的研究所\Nmysterious circumstances.
+Dialogue: 0,0:05:56.90,0:05:59.20,Default,,0000,0000,0000,,- 警察抓到纵火犯了吗?  - 没有\N- Do the police suspect arson?  - No.
+Dialogue: 0,0:05:59.20,0:06:00.73,Default,,0000,0000,0000,,警察说调查毫无结果\NThey're saying that it's inconclusive.
+Dialogue: 0,0:06:00.73,0:06:03.33,Default,,0000,0000,0000,,而且Blood还认识Cyrus Gold...\NBut Blood also knew Cyrus Gold...
+Dialogue: 0,0:06:03.33,0:06:06.56,Default,,0000,0000,0000,,他曾开枪打死四个警察\Nthe man that shot and killed four police officers.
+Dialogue: 0,0:06:06.56,0:06:08.23,Default,,0000,0000,0000,,Laurel 你要把这些给谁看?\NLaurel, where are you going with this?
+Dialogue: 0,0:06:08.23,0:06:10.56,Default,,0000,0000,0000,,不知道 但我得走了\NI don't know. But I do have to go.
+Dialogue: 0,0:06:10.56,0:06:12.93,Default,,0000,0000,0000,,我要迟到了\NI'm going to be late.
+Dialogue: 0,0:06:12.93,0:06:15.06,Default,,0000,0000,0000,,谁今晚有幸与你相约?\NSo who's the lucky guy?
+Dialogue: 0,0:06:15.06,0:06:18.40,Default,,0000,0000,0000,,是Sebastian Blood\NSebastian Blood.
+Dialogue: 0,0:06:18.96,0:06:23.13,Default,,0000,0000,0000,,他应该荣膺市长 请大家与我一起\NHe's the man we need to see in the mayor's office. So, please, join me in our efforts
+Dialogue: 0,0:06:23.13,0:06:25.20,Default,,0000,0000,0000,,欢迎Starling市之子\Nto send Starling's favorite son there.
+Dialogue: 0,0:06:25.20,0:06:28.13,Default,,0000,0000,0000,,为Sebastian Blood干杯 谢谢他带领Starling市\NTo Sebastian Blood. Sebastian for Starling.
+Dialogue: 0,0:06:32.60,0:06:34.13,Default,,0000,0000,0000,,谢谢 Oliver\NThank you, Oliver.
+Dialogue: 0,0:06:34.13,0:06:36.43,Default,,0000,0000,0000,,不仅是因为你对我的支持\NAnd not just for your support,
+Dialogue: 0,0:06:36.43,0:06:38.56,Default,,0000,0000,0000,,更是为了我们的友谊\Nbut also for your friendship.
+Dialogue: 0,0:06:38.56,0:06:40.73,Default,,0000,0000,0000,,感谢大家的到来\NAnd thank all of you for coming.
+Dialogue: 0,0:06:40.73,0:06:43.96,Default,,0000,0000,0000,,刚才Oliver称我为Starling市之子\NYou know, when Oliver calls me a son of Starling city,
+Dialogue: 0,0:06:43.96,0:06:46.03,Default,,0000,0000,0000,,这样说的确没错\Nit feels like the literal truth.
+Dialogue: 0,0:06:46.03,0:06:47.96,Default,,0000,0000,0000,,我曾是无家可归的孤儿\NI was a street orphan,
+Dialogue: 0,0:06:47.96,0:06:50.26,Default,,0000,0000,0000,,是这座城市养育了我\Nand this city raised me as one of its own.
+Dialogue: 0,0:06:50.26,0:06:54.16,Default,,0000,0000,0000,,我能有今天的一切 都是因为Starling市这个大家庭的帮助\NI am the man that I am today because of my Starling city family.
+Dialogue: 0,0:06:54.16,0:06:56.43,Default,,0000,0000,0000,,所以我应该有所回报了\NSo it's time that I start to give back.
+Dialogue: 0,0:06:56.43,0:06:58.36,Default,,0000,0000,0000,,谢谢你们的支持\NSo thank you all for your support.
+Dialogue: 0,0:07:05.96,0:07:08.96,Default,,0000,0000,0000,,演讲很精彩 Ollie\NNice speech, Ollie.
+Dialogue: 0,0:07:08.96,0:07:10.63,Default,,0000,0000,0000,,你什么时候对政治感兴趣了?\NWho knew you cared so much about politics?
+Dialogue: 0,0:07:10.63,0:07:12.80,Default,,0000,0000,0000,,哦 我关心这座城市 而且...\NWell, I care about the city, and...
+Dialogue: 0,0:07:12.80,0:07:15.40,Default,,0000,0000,0000,,Sebastian现在算是我的朋友\NSebastian has become something of a friend.
+Dialogue: 0,0:07:15.40,0:07:19.16,Default,,0000,0000,0000,,很显然 他混的如鱼得水\NHe's got a way of doing that, apparently.
+Dialogue: 0,0:07:19.16,0:07:22.36,Default,,0000,0000,0000,,一点没错\NThat's very cute.
+Dialogue: 0,0:07:22.36,0:07:23.86,Default,,0000,0000,0000,,哦 对了 Roy怎么样?\NSpeaking of which, how's Roy?
+Dialogue: 0,0:07:23.86,0:07:27.00,Default,,0000,0000,0000,,还是那么英俊 深沉\NHandsome, brooding, usual.
+Dialogue: 0,0:07:27.00,0:07:29.96,Default,,0000,0000,0000,,你怎么关心起来我男朋友了?\NWhy is my boyfriend such a topic of interest?
+Dialogue: 0,0:07:29.96,0:07:33.30,Default,,0000,0000,0000,,哦 Thea 他的偶像给了他一支箭 我只是...\NWell, Thea, his idol put an arrow in him, and I just...
+Dialogue: 0,0:07:33.30,0:07:35.26,Default,,0000,0000,0000,,想知道没遇到其他的麻烦吧\Nwanted to make sure there weren't any lingering issues.
+Dialogue: 0,0:07:35.26,0:07:37.66,Default,,0000,0000,0000,,天啊 听你这么说我才发现\NOh, my god. Now that I think about it,
+Dialogue: 0,0:07:37.66,0:07:41.06,Default,,0000,0000,0000,,他今天早上做了一件很奇怪的事情\Nyou know, he did something completely out of character this morning.
+Dialogue: 0,0:07:41.06,0:07:42.20,Default,,0000,0000,0000,,什么事?\NWhat?
+Dialogue: 0,0:07:42.20,0:07:43.96,Default,,0000,0000,0000,,他按时来上班了\NHe showed up for work on time.
+Dialogue: 0,0:07:45.46,0:07:47.20,Default,,0000,0000,0000,,Thea! 哦...\NThea! Oh, it's...
+Dialogue: 0,0:07:47.20,0:07:48.40,Default,,0000,0000,0000,,派对太棒了\Nit's just wonderful.
+Dialogue: 0,0:07:48.40,0:07:50.36,Default,,0000,0000,0000,,很高兴能尽到市民的责任\NProud to my civic duty.
+Dialogue: 0,0:07:50.36,0:07:52.10,Default,,0000,0000,0000,,我真为你骄傲\NNo, I'm the one who's proud.
+Dialogue: 0,0:07:52.10,0:07:55.83,Default,,0000,0000,0000,,你把Oliver的... 爱好变成了\NYou've taken Oliver's... hobby, and turned it into
+Dialogue: 0,0:07:55.83,0:07:57.23,Default,,0000,0000,0000,,一项成功的事业\Na successful business.
+Dialogue: 0,0:07:57.23,0:08:01.06,Default,,0000,0000,0000,,- 爱好?  - 哦 宝贝\N- Hobby?  - Oh, sweetheart.
+Dialogue: 0,0:08:02.50,0:08:04.73,Default,,0000,0000,0000,,Oliver啊\NOliver.
+Dialogue: 0,0:08:04.73,0:08:06.00,Default,,0000,0000,0000,,啊\NAh.
+Dialogue: 0,0:08:06.00,0:08:07.86,Default,,0000,0000,0000,,谢谢你刚才的称赞\NThank you so much for your kind words.
+Dialogue: 0,0:08:07.86,0:08:10.00,Default,,0000,0000,0000,,我只是实话实说\NI'm just speaking the truth.
+Dialogue: 0,0:08:10.00,0:08:12.36,Default,,0000,0000,0000,,哦 失陪一下 有个朋友来了\NOh, forgive me, a friend just walked in.
+Dialogue: 0,0:08:15.96,0:08:17.90,Default,,0000,0000,0000,,- 嗨  - 嗨\N- Hi.  - Hi.
+Dialogue: 0,0:08:17.90,0:08:19.40,Default,,0000,0000,0000,,很高兴你能来\NGlad you could come.
+Dialogue: 0,0:08:19.40,0:08:21.60,Default,,0000,0000,0000,,Sebastian邀请了我\NSebastian invited me.
+Dialogue: 0,0:08:21.60,0:08:24.90,Default,,0000,0000,0000,,是的 我听说你们俩整天在一起\NYes, I hear the two of you have been spending a lot of time together.
+Dialogue: 0,0:08:24.90,0:08:27.63,Default,,0000,0000,0000,,我们只是朋友\NWe're just friends.
+Dialogue: 0,0:08:27.63,0:08:29.63,Default,,0000,0000,0000,,他也这么想吗?\NDoes he know that?
+Dialogue: 0,0:08:29.63,0:08:31.20,Default,,0000,0000,0000,,啊哦\NUh-oh.
+Dialogue: 0,0:08:31.20,0:08:33.20,Default,,0000,0000,0000,,你还有什么可犹豫的?\NWhat's holding you back?
+Dialogue: 0,0:08:33.20,0:08:36.43,Default,,0000,0000,0000,,有时候我摸不透Sebastian\NSometimes I feel like I don't know the real Sebastian.
+Dialogue: 0,0:08:36.43,0:08:39.56,Default,,0000,0000,0000,,他让我想起了你\NHe reminds me a little of you that way.
+Dialogue: 0,0:08:39.56,0:08:42.43,Default,,0000,0000,0000,,嗯\NHmm.
+Dialogue: 0,0:08:42.43,0:08:44.23,Default,,0000,0000,0000,,自由\NFreedom.
+Dialogue: 0,0:08:44.23,0:08:45.96,Default,,0000,0000,0000,,独立\NLiberty.
+Dialogue: 0,0:08:45.96,0:08:47.76,Default,,0000,0000,0000,,正义\NJustice.
+Dialogue: 0,0:08:47.76,0:08:52.56,Default,,0000,0000,0000,,人们已经被腐败的政府\NLong have the people of this city suffered
+Dialogue: 0,0:08:52.56,0:08:56.03,Default,,0000,0000,0000,,自私自利的政客...\Nunder the shackles of a corrupt government...
+Dialogue: 0,0:08:56.03,0:08:59.73,Default,,0000,0000,0000,,还有傀儡般的游说者\Nslaves to self-interested politicians
+Dialogue: 0,0:08:59.73,0:09:03.93,Default,,0000,0000,0000,,折磨得够长时间了...\Nand their lobbyist puppeteers.
+Dialogue: 0,0:09:05.56,0:09:08.60,Default,,0000,0000,0000,,我向你们所有人宣战\NI declare war on them all.
+Dialogue: 0,0:09:19.66,0:09:20.83,Default,,0000,0000,0000,,大楼里有人吗?\NAnyone in the building?
+Dialogue: 0,0:09:20.83,0:09:22.16,Default,,0000,0000,0000,,有清洁工和一些上晚班的\NCleaning crew and a group of bankers
+Dialogue: 0,0:09:22.16,0:09:23.50,Default,,0000,0000,0000,,银行工作人员\Nworking out a late night deal.
+Dialogue: 0,0:09:23.50,0:09:24.80,Default,,0000,0000,0000,,能帮我进入警察局和消防队的网络吗?\NCan you patch me into police and fire?
+Dialogue: 0,0:09:24.80,0:09:26.83,Default,,0000,0000,0000,,这就进\NI'm on it.
+Dialogue: 0,0:09:32.30,0:09:33.70,Default,,0000,0000,0000,,Diggle啊...\NDiggle...
+Dialogue: 0,0:09:33.70,0:09:37.03,Default,,0000,0000,0000,,嘿 兄弟 我可不擅长电脑\NHey, man, this is not my thing.
+Dialogue: 0,0:09:37.03,0:09:39.53,Default,,0000,0000,0000,,没法上去 都被困住了\NCan't get up there. Everything's blocked.
+Dialogue: 0,0:09:39.53,0:09:41.53,Default,,0000,0000,0000,,19层还有人没出来\NYou've still got people on the 19th floor.
+Dialogue: 0,0:09:41.53,0:09:43.16,Default,,0000,0000,0000,,温度太高 我们进不去\NIt's too hot. We're falling back.
+Dialogue: 0,0:09:50.06,0:09:52.73,Default,,0000,0000,0000,,救命!\NHelp!
+Dialogue: 0,0:09:52.73,0:09:54.20,Default,,0000,0000,0000,,Gary还在里面\NGary's still back there.
+Dialogue: 0,0:09:54.20,0:09:56.20,Default,,0000,0000,0000,,快去安全地带\NGet to safety.
+Dialogue: 0,0:10:05.66,0:10:08.20,Default,,0000,0000,0000,,伸手过来\NGive me your hand.
+Dialogue: 0,0:10:15.16,0:10:17.93,Default,,0000,0000,0000,,谢谢\NThank you.
+Dialogue: 0,0:10:33.86,0:10:37.10,Default,,0000,0000,0000,,嘿\NHey.
+Dialogue: 0,0:10:37.10,0:10:40.06,Default,,0000,0000,0000,,你还好吧?\NYou ok?
+Dialogue: 0,0:10:40.06,0:10:43.40,Default,,0000,0000,0000,,你要去哪?\NWhere you going?
+Dialogue: 0,0:10:43.40,0:10:46.36,Default,,0000,0000,0000,,去发动飞机\NTo the plane, to get geared up.
+Dialogue: 0,0:10:46.36,0:10:47.93,Default,,0000,0000,0000,,为什么?\NFor what?
+Dialogue: 0,0:10:47.93,0:10:50.30,Default,,0000,0000,0000,,Ivo还在这里\NIvo is still out there.
+Dialogue: 0,0:10:50.30,0:10:51.86,Default,,0000,0000,0000,,我要去找他\NI'm going to find him, and when I do,
+Dialogue: 0,0:10:51.86,0:10:53.20,Default,,0000,0000,0000,,我要把他撕成碎片\NI'm going to cut pieces of him.
+Dialogue: 0,0:10:53.20,0:10:55.56,Default,,0000,0000,0000,,你不能去 Ivo有一船的手下\NYou can't. Ivo has a ship
+Dialogue: 0,0:10:55.56,0:10:57.76,Default,,0000,0000,0000,,他们都是杀手 不管你以前\Nfull of men, of killers. And I don't care
+Dialogue: 0,0:10:57.76,0:10:59.86,Default,,0000,0000,0000,,有多英勇 你不能以一当百\Nwhat you did before, you can't take them all out.
+Dialogue: 0,0:10:59.86,0:11:03.33,Default,,0000,0000,0000,,你现在应该找个安全的地方躲着 等他现身\NYour only play here is to find safe ground and wait him out.
+Dialogue: 0,0:11:03.33,0:11:05.23,Default,,0000,0000,0000,,你当然会这么说\NWell, of course you would say that.
+Dialogue: 0,0:11:05.23,0:11:06.83,Default,,0000,0000,0000,,你为他卖命\NYou were working for him.
+Dialogue: 0,0:11:06.83,0:11:08.63,Default,,0000,0000,0000,,你还在为他卖命\NYou're probably still working for him!
+Dialogue: 0,0:11:08.63,0:11:10.96,Default,,0000,0000,0000,,嘿 嘿!\NHey, hey!
+Dialogue: 0,0:11:10.96,0:11:12.53,Default,,0000,0000,0000,,她不是的\NShe's not.
+Dialogue: 0,0:11:12.53,0:11:14.30,Default,,0000,0000,0000,,别拦着我 小子\NGet out of my way, kid.
+Dialogue: 0,0:11:14.30,0:11:16.16,Default,,0000,0000,0000,,我们先冷静一下\NLook, let's just take it easy...
+Dialogue: 0,0:11:16.16,0:11:19.60,Default,,0000,0000,0000,,我说了...\NI said...
+Dialogue: 0,0:11:19.60,0:11:21.96,Default,,0000,0000,0000,,别拦着我\Nget out of my way.
+Dialogue: 0,0:11:23.56,0:11:25.73,Default,,0000,0000,0000,,你没事吧? 昨晚很累吧\NYou ok? Long night.
+Dialogue: 0,0:11:25.73,0:11:28.26,Default,,0000,0000,0000,,嗯 新闻上说爆炸犯没有偷钱\NYeah. News report said the bomber didn't steal any money.
+Dialogue: 0,0:11:28.26,0:11:31.16,Default,,0000,0000,0000,,我想他只是想昭告天下\NI think this guy just wants to make a statement.
+Dialogue: 0,0:11:31.16,0:11:33.10,Default,,0000,0000,0000,,一小时前网上就传播开来了\NThat went online an hour ago.
+Dialogue: 0,0:11:33.10,0:11:36.76,Default,,0000,0000,0000,,他发表了足足300页反政府声明\NHis manifesto. 300 pages of anti-government hate.
+Dialogue: 0,0:11:36.76,0:11:39.90,Default,,0000,0000,0000,,你觉得这个疯子跟那个骷髅面具男有关系吗?\NYou think this psycho's any way connected to our psycho in the skull mask?
+Dialogue: 0,0:11:39.90,0:11:41.86,Default,,0000,0000,0000,,这个人是单独行动\NThis guy has a completely separate agenda.
+Dialogue: 0,0:11:41.86,0:11:42.66,Default,,0000,0000,0000,,他是匹独狼\NHe's a lone wolf, but we need
+Dialogue: 0,0:11:42.66,0:11:45.13,Default,,0000,0000,0000,,但是我们必须在他锁定下个目标前找到他\Nto find him before he finds his next target.
+Dialogue: 0,0:11:45.13,0:11:47.46,Default,,0000,0000,0000,,我从炸弹上开找线索 每个人都是独一无二的\NI'd start with the bomb. Everyone's unique.
+Dialogue: 0,0:11:47.46,0:11:49.96,Default,,0000,0000,0000,,也许能找到有关他的线索\NMaybe we can get some kind of signature on the guy.
+Dialogue: 0,0:11:49.96,0:11:51.86,Default,,0000,0000,0000,,但是弹片残余在警察手里\NBut the bomb residue is with the SCPD.
+Dialogue: 0,0:11:51.86,0:11:54.96,Default,,0000,0000,0000,,幸运的是 我们在警局里有内应\NFortunately we have an in with one of the officers at the department.
+Dialogue: 0,0:11:54.96,0:11:57.66,Default,,0000,0000,0000,,我以为你还要在中心城多留几天呢\NI thought you were staying in central city for a few more days.
+Dialogue: 0,0:11:57.66,0:11:59.46,Default,,0000,0000,0000,,我看到了关于爆炸的新闻\NI got a news alert about the bombing.
+Dialogue: 0,0:11:59.46,0:12:01.00,Default,,0000,0000,0000,,坐着今早的第一班火车就赶回来了\NCaught the first train out this morning.
+Dialogue: 0,0:12:01.00,0:12:02.36,Default,,0000,0000,0000,,太好了\NGood.
+Dialogue: 0,0:12:02.36,0:12:03.83,Default,,0000,0000,0000,,我们需要你\NWe need you here.
+Dialogue: 0,0:12:04.80,0:12:07.26,Default,,0000,0000,0000,,Barry的状况如何?\NHow's Barry?
+Dialogue: 0,0:12:07.26,0:12:09.43,Default,,0000,0000,0000,,呃 还在昏睡中\NAh, he's still sleeping.
+Dialogue: 0,0:12:09.43,0:12:11.90,Default,,0000,0000,0000,,我比较喜欢用昏睡 而不用昏迷\NI prefer sleeping to coma,
+Dialogue: 0,0:12:11.90,0:12:15.76,Default,,0000,0000,0000,,因为昏迷听起来不爽\Nbecause coma sounds, you know, not fun.
+Dialogue: 0,0:12:17.43,0:12:19.46,Default,,0000,0000,0000,,我去联系Lance警探\NI'll reach out to detective Lance.
+Dialogue: 0,0:12:35.40,0:12:37.70,Default,,0000,0000,0000,,嘿\NHey.
+Dialogue: 0,0:12:37.70,0:12:39.43,Default,,0000,0000,0000,,- 我们约好吃午饭了吗?  - 没有\N- Did we have a lunch today?  - No.
+Dialogue: 0,0:12:39.43,0:12:41.20,Default,,0000,0000,0000,,我刚好在附近\NI was just in the neighborhood.
+Dialogue: 0,0:12:41.20,0:12:43.70,Default,,0000,0000,0000,,想来拜访一下 要是不凑巧的话\NThought I'd stop by. But if this is
+Dialogue: 0,0:12:43.70,0:12:46.30,Default,,0000,0000,0000,,我其他时间再来\Na bad time, I mean, I can always come back.
+Dialogue: 0,0:12:46.30,0:12:50.33,Default,,0000,0000,0000,,没有 他们还在布置\NOh, no, not at all, they're still setting up out there.
+Dialogue: 0,0:12:50.33,0:12:52.26,Default,,0000,0000,0000,,哇哦\NWow.
+Dialogue: 0,0:12:52.26,0:12:55.53,Default,,0000,0000,0000,,真是一位让人刮目相看的街头孤儿啊\NThis is pretty impressive for a street orphan.
+Dialogue: 0,0:12:55.53,0:12:59.93,Default,,0000,0000,0000,,你是不是觉得我昨晚的言辞有点过了?\NAre you suggesting I spread it on a bit too thick last night?
+Dialogue: 0,0:12:59.93,0:13:01.86,Default,,0000,0000,0000,,没有\NNo.
+Dialogue: 0,0:13:01.86,0:13:03.90,Default,,0000,0000,0000,,只是...\NIt's just...
+Dialogue: 0,0:13:03.90,0:13:05.26,Default,,0000,0000,0000,,Laurel 要是有什么事情\NLaurel, if there's something on your mind,
+Dialogue: 0,0:13:05.26,0:13:07.43,Default,,0000,0000,0000,,尽管直说\NGive it voice.
+Dialogue: 0,0:13:07.43,0:13:09.20,Default,,0000,0000,0000,,我不介意\NI don't bite.
+Dialogue: 0,0:13:09.20,0:13:11.40,Default,,0000,0000,0000,,我说话算数\NI promise.
+Dialogue: 0,0:13:11.40,0:13:15.00,Default,,0000,0000,0000,,- 你也知道我父亲在警局工作  - 是的\N- You know my father's with the department.  - Yes.
+Dialogue: 0,0:13:15.00,0:13:17.40,Default,,0000,0000,0000,,他说他和他的同事遇袭时\NHe said the suspect that he was investigating
+Dialogue: 0,0:13:17.40,0:13:19.23,Default,,0000,0000,0000,,调查的那个嫌疑人\Nwhen he and his partner were attacked
+Dialogue: 0,0:13:19.23,0:13:22.03,Default,,0000,0000,0000,,叫做Cyrus Gold的人\Nwas a man named Cyrus Gold.
+Dialogue: 0,0:13:25.53,0:13:28.76,Default,,0000,0000,0000,,Cyrus Gold啊...\NCyrus Gold...
+Dialogue: 0,0:13:28.76,0:13:30.26,Default,,0000,0000,0000,,曾经是牧师\Nwas a preacher
+Dialogue: 0,0:13:30.26,0:13:32.36,Default,,0000,0000,0000,,他当时在我被收养的孤儿院工作\Nat the orphanage where I was raised.
+Dialogue: 0,0:13:32.36,0:13:34.93,Default,,0000,0000,0000,,Cyrus那时是我最好的朋友...\NCyrus was a very good friend to me...
+Dialogue: 0,0:13:34.93,0:13:36.40,Default,,0000,0000,0000,,就像兄长一样待我\Nlike an older brother.
+Dialogue: 0,0:13:36.40,0:13:39.33,Default,,0000,0000,0000,,说实话 他更像位长者\NOr even a father figure, to be honest.
+Dialogue: 0,0:13:39.33,0:13:41.63,Default,,0000,0000,0000,,他曾是我第一个愿意开口讲话的人\NHe was the first person I said a word to,
+Dialogue: 0,0:13:41.63,0:13:43.93,Default,,0000,0000,0000,,当时我已经一个月没开口讲过话了\Nand this was after a month of not speaking at all.
+Dialogue: 0,0:13:43.93,0:13:46.83,Default,,0000,0000,0000,,你经常说起孤儿时的经历\NYou talk a lot about being an orphan,
+Dialogue: 0,0:13:46.83,0:13:50.20,Default,,0000,0000,0000,,但是却从没提起过你的父母\NBut you don't talk about your parents.
+Dialogue: 0,0:13:51.70,0:13:54.10,Default,,0000,0000,0000,,你对他们有何了解?\NDid you know them?
+Dialogue: 0,0:13:57.16,0:14:00.16,Default,,0000,0000,0000,,我父亲是个阴郁的人\NMy father was a very unhappy man.
+Dialogue: 0,0:14:00.16,0:14:04.30,Default,,0000,0000,0000,,有天晚上 他喝了很多威士忌酒回家\NOne night he came home soaked in whiskey.
+Dialogue: 0,0:14:04.30,0:14:07.70,Default,,0000,0000,0000,,他又把工作丢了 所以他打断了我母亲的手臂\NHe lost his job again, so he broke her arm.
+Dialogue: 0,0:14:08.96,0:14:11.60,Default,,0000,0000,0000,,我想要阻止他 却被他推到一边\NI tried to stop him, but he threw me off.
+Dialogue: 0,0:14:11.60,0:14:15.76,Default,,0000,0000,0000,,之后就看到母亲拿着他的枪\NAnd the next thing I saw was my mother holding my father's gun in her hand.
+Dialogue: 0,0:14:17.00,0:14:19.40,Default,,0000,0000,0000,,我亲眼看着母亲向他开枪\NAnd I watched her shoot him.
+Dialogue: 0,0:14:19.40,0:14:22.90,Default,,0000,0000,0000,,她恐慌极了\NShe panicked.
+Dialogue: 0,0:14:22.90,0:14:26.33,Default,,0000,0000,0000,,在警察到来之前就匆匆逃跑\NRan and was gone before the police even arrived.
+Dialogue: 0,0:14:27.93,0:14:31.13,Default,,0000,0000,0000,,那是我最后一次见到他们\NIt was the last time I saw my parents.
+Dialogue: 0,0:14:31.13,0:14:34.00,Default,,0000,0000,0000,,很抱歉\NI'm so sorry.
+Dialogue: 0,0:14:36.83,0:14:38.80,Default,,0000,0000,0000,,我不知道...\NI don't know...
+Dialogue: 0,0:14:38.80,0:14:41.10,Default,,0000,0000,0000,,Cyrus为何会变成这样\Nwhy Cyrus' life took the turn that it did,
+Dialogue: 0,0:14:41.10,0:14:43.80,Default,,0000,0000,0000,,很抱歉\NI'm sad to say.
+Dialogue: 0,0:14:43.80,0:14:45.93,Default,,0000,0000,0000,,我只知道...\NAll I know...
+Dialogue: 0,0:14:45.93,0:14:48.26,Default,,0000,0000,0000,,他曾帮助过一个恐慌无助的小男孩\Nis that he helped a very young,
+Dialogue: 0,0:14:48.26,0:14:51.13,Default,,0000,0000,0000,,让他重新开口讲话\Nvery frightened boy find his voice again.
+Dialogue: 0,0:14:53.76,0:14:56.93,Default,,0000,0000,0000,,抱歉\NAhem. I'm sorry.
+Dialogue: 0,0:14:56.93,0:14:59.63,Default,,0000,0000,0000,,晚点好吗?\NMore later?
+Dialogue: 0,0:15:20.93,0:15:23.63,Default,,0000,0000,0000,,{\fs28\bord0\shad0\pos(640,170)\frz335\1c&H000080&}发票
+Dialogue: 0,0:15:20.93,0:15:23.63,Default,,0000,0000,0000,,{\fs22\bord0\shad0\pos(439,96)\frz335\1c&H000000&}圣沃克医院
+Dialogue: 0,0:15:20.93,0:15:23.63,Default,NTP,0000,0000,0000,,{\fnMicrosoft YaHei\fs16\bord0\shad0\pos(135,324)\frz335\an1\1c&H000000&}Maya Resik\N支付人 Sebastian Blood\NStarling市Oakwood街5531号\N邮编 98114
+Dialogue: 0,0:15:31.86,0:15:35.20,Default,,0000,0000,0000,,我都没听到你进来了\NDidn't hear you come in.
+Dialogue: 0,0:15:35.20,0:15:39.13,Default,,0000,0000,0000,,抱歉 我... 我来早了\NYeah, sorry, I... I got here early.
+Dialogue: 0,0:15:39.13,0:15:42.03,Default,,0000,0000,0000,,我就是想在午饭之前把这些箱子拆好\NI just want to get these crates unpacked before lunch.
+Dialogue: 0,0:15:42.03,0:15:44.93,Default,,0000,0000,0000,,你还好吧?\NAre you ok?
+Dialogue: 0,0:15:44.93,0:15:47.53,Default,,0000,0000,0000,,是啊 我挺好的\NYeah, I'm fine.
+Dialogue: 0,0:15:47.53,0:15:50.23,Default,,0000,0000,0000,,只是... 最近睡眠有点不足\NJust... I haven't been sleeping much lately.
+Dialogue: 0,0:15:50.23,0:15:51.93,Default,,0000,0000,0000,,脑子里乱七八糟的\NI got a lot on my mind.
+Dialogue: 0,0:15:51.93,0:15:53.53,Default,,0000,0000,0000,,想跟我聊聊吗?\NYou want to talk about it?
+Dialogue: 0,0:15:53.53,0:15:55.53,Default,,0000,0000,0000,,聊什么?\NTalk about what?
+Dialogue: 0,0:15:55.53,0:15:58.83,Default,,0000,0000,0000,,过去五周里你身上发生的事\NWhatever's been going on with you the last five weeks.
+Dialogue: 0,0:16:00.60,0:16:02.40,Default,,0000,0000,0000,,看啊 我不挺好的吗\NLook, I'm fine.
+Dialogue: 0,0:16:02.40,0:16:04.00,Default,,0000,0000,0000,,自从被绿箭侠射伤后\NEver since the Arrow shot you,
+Dialogue: 0,0:16:04.00,0:16:05.53,Default,,0000,0000,0000,,你就变得怪怪的 Roy\Nyou've been acting really weird, Roy.
+Dialogue: 0,0:16:05.53,0:16:07.53,Default,,0000,0000,0000,,无论是对我 还是其他事\NWith me, with everything.
+Dialogue: 0,0:16:07.53,0:16:10.56,Default,,0000,0000,0000,,不关绿箭侠的事\NThis isn't about the Arrow.
+Dialogue: 0,0:16:10.56,0:16:13.00,Default,,0000,0000,0000,,是因为我吗?\NIs it me?
+Dialogue: 0,0:16:13.00,0:16:14.53,Default,,0000,0000,0000,,还是我们之间怎么了?\NIs it us?
+Dialogue: 0,0:16:14.53,0:16:17.93,Default,,0000,0000,0000,,听我说 我真的只是想尽快恢复正常 好吗?\NLook, I really just want to get through this, ok?
+Dialogue: 0,0:16:17.93,0:16:19.56,Default,,0000,0000,0000,,好的\NOk.
+Dialogue: 0,0:16:19.56,0:16:23.60,Default,,0000,0000,0000,,有需要我帮忙的 尽管开口\NLet me know if there's anything I can do to help.
+Dialogue: 0,0:16:23.60,0:16:26.56,Default,,0000,0000,0000,,Thea啊\NThea.
+Dialogue: 0,0:16:30.53,0:16:32.43,Default,,0000,0000,0000,,你一直在帮我\NYou do help.
+Dialogue: 0,0:16:32.43,0:16:34.56,Default,,0000,0000,0000,,一直都在\NEvery day.
+Dialogue: 0,0:16:34.56,0:16:37.10,Default,,0000,0000,0000,,不得不说 现在你是唯一\NAnd honestly, right now you're the only thing
+Dialogue: 0,0:16:37.10,0:16:38.96,Default,,0000,0000,0000,,能让我不崩溃的人\Nthat's keeping me together.
+Dialogue: 0,0:16:38.96,0:16:41.53,Default,,0000,0000,0000,,我只是尽力而为\NI do what I can.
+Dialogue: 0,0:16:41.53,0:16:43.86,Default,,0000,0000,0000,,我怎么会这么幸运呢?\NHow did I get to be so lucky?
+Dialogue: 0,0:16:43.86,0:16:47.26,Default,,0000,0000,0000,,因为... 你偷了我的包\NYou... stole my purse.
+Dialogue: 0,0:16:47.26,0:16:49.43,Default,,0000,0000,0000,,没错\NHmm.
+Dialogue: 0,0:17:07.50,0:17:08.46,Default,,0000,0000,0000,,Roy啊?!\NRoy?!
+Dialogue: 0,0:17:08.46,0:17:11.60,Default,,0000,0000,0000,,- Thea 你没事吧?  - 没事\N- Thea,are you ok?  - Yeah.
+Dialogue: 0,0:17:12.73,0:17:14.66,Default,,0000,0000,0000,,天啊 你的手臂...\NOh, your arm...
+Dialogue: 0,0:17:20.76,0:17:22.76,Default,,0000,0000,0000,,呃 伤口看起来很深\NUm, that looks really deep.
+Dialogue: 0,0:17:22.76,0:17:25.20,Default,,0000,0000,0000,,可能需要缝针 我去楼下拿急救箱\NIt might need stitches. Um, I'm going to go downstairs
+Dialogue: 0,0:17:25.20,0:17:26.93,Default,,0000,0000,0000,,你能行吗?\Nand get the first aid kit, ok?
+Dialogue: 0,0:17:26.93,0:17:29.10,Default,,0000,0000,0000,,没事\NOk.
+Dialogue: 0,0:17:52.16,0:17:53.76,Default,,0000,0000,0000,,大多数警察\NYou know, most cops,
+Dialogue: 0,0:17:53.76,0:17:55.60,Default,,0000,0000,0000,,都是在巡逻车的后座跟线人见面\Nthey meet their informants in the backseat of a cruiser
+Dialogue: 0,0:17:55.60,0:17:58.20,Default,,0000,0000,0000,,或者是咖啡馆什么的 但是...\Nor maybe a coffee shop or something, but...
+Dialogue: 0,0:17:58.20,0:18:00.10,Default,,0000,0000,0000,,你怎么戴上面具了?\NWhat's with the mask?
+Dialogue: 0,0:18:00.10,0:18:02.26,Default,,0000,0000,0000,,- 朋友送的  - 你竟然有朋友?\N- Gift from a friend.  - You got friends?
+Dialogue: 0,0:18:02.26,0:18:04.70,Default,,0000,0000,0000,,我要的东西带来了吗?\NDid you bring me what I asked for?
+Dialogue: 0,0:18:07.86,0:18:12.06,Default,,0000,0000,0000,,里面有取证部门在爆炸现场找到所有东西的样本\NThat's a sample of everything the CSU collected from the blast.
+Dialogue: 0,0:18:12.06,0:18:14.36,Default,,0000,0000,0000,,有融化了的玻璃 爆炸物的碎片\NThere's melted glass, multiple explosive fragments,
+Dialogue: 0,0:18:14.36,0:18:16.93,Default,,0000,0000,0000,,还有爆破物残料 看起来像硝化甘油\Nand trace residue, and it looks like nitroglycerine.
+Dialogue: 0,0:18:16.93,0:18:19.00,Default,,0000,0000,0000,,看起来不像是个普通的疯子在作案\NWhich means that we're dealing with more than just a basement nutjob.
+Dialogue: 0,0:18:19.00,0:18:21.60,Default,,0000,0000,0000,,他受过训练\NSomeone with training.
+Dialogue: 0,0:18:21.60,0:18:25.53,Default,,0000,0000,0000,,谢谢你 警探\NThank you, detective.
+Dialogue: 0,0:18:25.53,0:18:27.80,Default,,0000,0000,0000,,我也需要你帮个忙\NI need a favor, too.
+Dialogue: 0,0:18:31.10,0:18:33.00,Default,,0000,0000,0000,,杀死我同事和搭档的那个罪该万死的人...\NThe son of a bitch who killed my men, my partner...
+Dialogue: 0,0:18:33.00,0:18:34.80,Default,,0000,0000,0000,,他死了\NHe's dead.
+Dialogue: 0,0:18:34.80,0:18:37.30,Default,,0000,0000,0000,,还有给他通风报信的人\NAnd whoever tipped him off, told him we were coming,
+Dialogue: 0,0:18:37.30,0:18:38.66,Default,,0000,0000,0000,,他还没事\Nhe's doing just fine.
+Dialogue: 0,0:18:38.66,0:18:40.96,Default,,0000,0000,0000,,需要我做什么?\NWhat do you need?
+Dialogue: 0,0:18:40.96,0:18:43.33,Default,,0000,0000,0000,,我辖区所有警察的通话记录\NCell phone records for every cop in my precinct.
+Dialogue: 0,0:18:43.33,0:18:45.10,Default,,0000,0000,0000,,你觉得有内鬼?\NYou think there's a leak in the department?
+Dialogue: 0,0:18:45.10,0:18:46.36,Default,,0000,0000,0000,,我觉得通话记录能让一切明了\NI think those phone records are the only way
+Dialogue: 0,0:18:46.36,0:18:47.70,Default,,0000,0000,0000,,你的那位金发朋友\Nto know for sure, and your blonde friend,
+Dialogue: 0,0:18:47.70,0:18:49.00,Default,,0000,0000,0000,,她的电脑技术不是很好嘛\Nshe's pretty good with computers.
+Dialogue: 0,0:18:49.00,0:18:51.50,Default,,0000,0000,0000,,我会找她帮忙的...\NI'll ask her...
+Dialogue: 0,0:18:54.53,0:18:59.20,Default,,0000,0000,0000,,Dc-52向总局汇报 市中心发生爆炸!\NDc-52 to central, 10-80, downtown!
+Dialogue: 0,0:18:59.20,0:19:00.56,Default,,0000,0000,0000,,他又行动了\NHe's hit again.
+Dialogue: 0,0:19:00.56,0:19:02.70,Default,,0000,0000,0000,,Starling市行政大楼\NStarling city municipal building.
+Dialogue: 0,0:19:02.70,0:19:04.33,Default,,0000,0000,0000,,- 地址告诉我  - 我给你比地址还有用的...\N- Give me a location.  - I'll give you one better...
+Dialogue: 0,0:19:04.33,0:19:06.66,Default,,0000,0000,0000,,我正在搜索附近的信号塔\NI'm checking the surrounding cell towers.
+Dialogue: 0,0:19:06.66,0:19:08.33,Default,,0000,0000,0000,,爆炸前两秒钟\NThere was a GSM spike
+Dialogue: 0,0:19:08.33,0:19:10.63,Default,,0000,0000,0000,,曾经出现3800兆赫的定位脉冲\Nof 3,800 megahertz two seconds before the blast.
+Dialogue: 0,0:19:10.63,0:19:12.53,Default,,0000,0000,0000,,这个频率甚至比\NThat frequency's way outside the approved frequency
+Dialogue: 0,0:19:12.53,0:19:14.60,Default,,0000,0000,0000,,美国航运频率还高\Nfor U.S. Carriers.
+Dialogue: 0,0:19:17.23,0:19:20.36,Default,,0000,0000,0000,,信号在转移 他乘了交通工具\NSignal's moving. I think he's mobile.
+Dialogue: 0,0:19:20.36,0:19:21.50,Default,,0000,0000,0000,,地址给我\NGive me an intersection.
+Dialogue: 0,0:19:25.40,0:19:27.73,Default,,0000,0000,0000,,你正前方400米处\NRight in front of you, 400 meters.
+Dialogue: 0,0:19:27.73,0:19:29.16,Default,,0000,0000,0000,,我看到他了\NI see him.
+Dialogue: 0,0:19:40.70,0:19:43.13,Default,,0000,0000,0000,,第67街左转\NTurn left on 67th.
+Dialogue: 0,0:20:25.70,0:20:27.46,Default,,0000,0000,0000,,Felicity 我跟丢了\NFelicity, I've lost him.
+Dialogue: 0,0:20:27.46,0:20:27.96,Default,,0000,0000,0000,,什么?\NWhat?
+Dialogue: 0,0:20:27.96,0:20:30.53,Default,,0000,0000,0000,,我也是 等下\NMe, too, hold on.
+Dialogue: 0,0:20:30.53,0:20:33.03,Default,,0000,0000,0000,,发现他了 Gerrard街左转\NGot him. Bank left on Gerrard street.
+Dialogue: 0,0:20:33.03,0:20:35.23,Default,,0000,0000,0000,,你差不多就在他正上方\NYou're almost right on top of him.
+Dialogue: 0,0:20:47.46,0:20:50.20,Default,,0000,0000,0000,,不是他 Felicity 你的信号定位错了\NIt's not him, Felicity. You picked up the wrong signal.
+Dialogue: 0,0:20:50.20,0:20:53.33,Default,,0000,0000,0000,,什么? 我以为... 他一定是干扰信号了\NWhat? I thought... he must have scrambled the signal.
+Dialogue: 0,0:20:53.33,0:20:55.76,Default,,0000,0000,0000,,无所谓了\NIt doesn't matter.
+Dialogue: 0,0:20:56.89,0:20:57.96,Default,,0000,0000,0000,,他逃掉了\NHe is gone.
+Dialogue: 0,0:21:03.95,0:21:06.58,Default,,0000,0000,0000,,到底怎么回事?\NWhat happened?
+Dialogue: 0,0:21:06.58,0:21:10.05,Default,,0000,0000,0000,,他使用蜂窝技术引爆炸弹\NHe's using cellular technology to detonate his bombs.
+Dialogue: 0,0:21:10.05,0:21:12.75,Default,,0000,0000,0000,,而且 他很擅长隐藏信号\NClearly, his expertise extends to obscuring that signal.
+Dialogue: 0,0:21:12.75,0:21:15.55,Default,,0000,0000,0000,,Felicity 你的能力应该比他强啊?\NFelicity, your expertise was supposed to trump his.
+Dialogue: 0,0:21:15.55,0:21:17.75,Default,,0000,0000,0000,,你什么意思?\NExcuse me?
+Dialogue: 0,0:21:17.75,0:21:21.01,Default,,0000,0000,0000,,有话直说 Oliver\NIf you have something to say to me, Oliver, say it.
+Dialogue: 0,0:21:21.01,0:21:23.45,Default,,0000,0000,0000,,人们的性命危在旦夕 希望你能够把思绪从中心城收回来\NPeople are dying. So I would like you to pull your head
+Dialogue: 0,0:21:23.45,0:21:25.38,Default,,0000,0000,0000,,对这里的事上上心\Nout of central city and get back in the game.
+Dialogue: 0,0:21:25.38,0:21:27.45,Default,,0000,0000,0000,,还是先把你的头绪理清吧\NSure, right after you get yours out of your ass.
+Dialogue: 0,0:21:27.45,0:21:29.48,Default,,0000,0000,0000,,- 你说什么?  - 够了\N- Excuse me?  - All right.
+Dialogue: 0,0:21:29.48,0:21:31.35,Default,,0000,0000,0000,,大家淡定一下\NMaybe we should just take a breath here.
+Dialogue: 0,0:21:31.35,0:21:32.88,Default,,0000,0000,0000,,不行 我要弄明白 你提中心城\NNo, wait, I want to know, what exactly was that crack
+Dialogue: 0,0:21:32.88,0:21:34.41,Default,,0000,0000,0000,,到底是什么意思?\Nabout central city meant to imply?
+Dialogue: 0,0:21:34.41,0:21:36.98,Default,,0000,0000,0000,,第一起爆炸案发生的时候 你不在这里\NWhen the first bomb went off, you weren't here.
+Dialogue: 0,0:21:36.98,0:21:39.75,Default,,0000,0000,0000,,第二起爆炸案发生的时候 你又给我指错了路\NAnd when the second bomb went off, you sent me the wrong way.
+Dialogue: 0,0:21:39.75,0:21:41.41,Default,,0000,0000,0000,,是你先跟丢了的!\NAfter you didn't catch him in the first place!
+Dialogue: 0,0:21:41.41,0:21:44.48,Default,,0000,0000,0000,,别因为你的失误埋怨我\NDon't blame me because you didn't have it tonight.
+Dialogue: 0,0:21:44.48,0:21:47.21,Default,,0000,0000,0000,,我出去透透透气\NI need some air.
+Dialogue: 0,0:21:53.91,0:21:56.58,Default,,0000,0000,0000,,冒着掉头的危险也得说句话啊...\NAt the risk of me getting my head knocked off...
+Dialogue: 0,0:21:56.58,0:21:59.01,Default,,0000,0000,0000,,互相埋怨可不能\NPlaying the blame game's not going to help us
+Dialogue: 0,0:21:59.01,0:22:00.45,Default,,0000,0000,0000,,帮助我们抓到他\Ncatch this son of a bitch.
+Dialogue: 0,0:22:00.45,0:22:02.65,Default,,0000,0000,0000,,半途而废也不能\NNeither is doing things halfway.
+Dialogue: 0,0:22:02.65,0:22:04.31,Default,,0000,0000,0000,,你觉得她会这样吗 Oliver?\NIs that what you think's going on here, Oliver?
+Dialogue: 0,0:22:04.31,0:22:05.75,Default,,0000,0000,0000,,你觉得她不上心?\NYou think she was distracted?
+Dialogue: 0,0:22:05.75,0:22:07.18,Default,,0000,0000,0000,,她没有尽心尽力?\NShe wasn't giving it her all?
+Dialogue: 0,0:22:07.18,0:22:09.41,Default,,0000,0000,0000,,她差点让我撞到公交车上 Diggle\NShe almost ran me into a bus, Diggle.
+Dialogue: 0,0:22:09.41,0:22:10.91,Default,,0000,0000,0000,,你觉得呢?\NWhat do you think?
+Dialogue: 0,0:22:10.91,0:22:12.65,Default,,0000,0000,0000,,我觉得你是因为Barry Allen\NI think you didn't have a problem
+Dialogue: 0,0:22:12.65,0:22:15.41,Default,,0000,0000,0000,,才埋怨Felicity的状态\Nwith Felicity's performance until she met Barry Allen.
+Dialogue: 0,0:22:44.18,0:22:47.15,Default,,0000,0000,0000,,对不起\NI'm sorry.
+Dialogue: 0,0:22:52.55,0:22:54.85,Default,,0000,0000,0000,,你很不正常 Slade\NYou're not well, Slade.
+Dialogue: 0,0:22:54.85,0:22:57.78,Default,,0000,0000,0000,,我知道了\NHey...
+Dialogue: 0,0:22:57.78,0:22:59.41,Default,,0000,0000,0000,,是奇迹药水\NIt's the mirakuru.
+Dialogue: 0,0:23:01.05,0:23:02.75,Default,,0000,0000,0000,,它扰乱了你的思维\NIt's messing with your head.
+Dialogue: 0,0:23:05.01,0:23:09.55,Default,,0000,0000,0000,,天快黑了 我们得赶紧扎营\NIt's going to be dark soon. We should make camp.
+Dialogue: 0,0:23:18.21,0:23:19.88,Default,,0000,0000,0000,,怎么了? 你还好吧?\NWhat's going on? You ok?
+Dialogue: 0,0:23:19.88,0:23:22.65,Default,,0000,0000,0000,,没事 只不过一受凉胳膊就疼\NYeah, it's just, arm still hurts when it's cold.
+Dialogue: 0,0:23:22.65,0:23:25.35,Default,,0000,0000,0000,,医生给的止疼药我还给弄丢了\NAnd I lost the pain meds that the doctor gave me.
+Dialogue: 0,0:23:25.35,0:23:26.85,Default,,0000,0000,0000,,你的伤怎么样了?\NHow's yours healing up?
+Dialogue: 0,0:23:26.85,0:23:28.91,Default,,0000,0000,0000,,时好时坏\NAh, you know, good days and bad.
+Dialogue: 0,0:23:28.91,0:23:31.75,Default,,0000,0000,0000,,等会聊\NI'll see you later.
+Dialogue: 0,0:23:31.75,0:23:34.05,Default,,0000,0000,0000,,嘿\NHey.
+Dialogue: 0,0:23:34.05,0:23:35.41,Default,,0000,0000,0000,,不可思议\NPretty crazy.
+Dialogue: 0,0:23:35.41,0:23:37.05,Default,,0000,0000,0000,,是啊 你还好吧?\NYeah. You doing all right?
+Dialogue: 0,0:23:37.05,0:23:39.31,Default,,0000,0000,0000,,你要是有空的话 帮个忙\NI thought I could use your help, if you have a second.
+Dialogue: 0,0:23:39.31,0:23:41.05,Default,,0000,0000,0000,,你现在是地区检察官了\NYou being at the DA's office now,
+Dialogue: 0,0:23:41.05,0:23:43.45,Default,,0000,0000,0000,,就像谈家事一样 过来\Nit's almost like you joined the family business. Come on.
+Dialogue: 0,0:23:46.08,0:23:47.78,Default,,0000,0000,0000,,我在找一个叫"Maya Resik"的人\NI'm trying to find someone
+Dialogue: 0,0:23:47.78,0:23:50.71,Default,,0000,0000,0000,,我在网上搜过\Nnamed "Maya Resik." I searched the internet,
+Dialogue: 0,0:23:50.71,0:23:54.18,Default,,0000,0000,0000,,查了车管所和社保记录 没有任何信息\Nthe dmv records, social security... nothing.
+Dialogue: 0,0:23:54.18,0:23:55.75,Default,,0000,0000,0000,,找这样一个鬼魂干嘛?\NWhy are you looking for a ghost?
+Dialogue: 0,0:23:55.75,0:23:57.48,Default,,0000,0000,0000,,Sebastian在给她钱\NSebastian's paying her bills.
+Dialogue: 0,0:23:57.48,0:23:58.95,Default,,0000,0000,0000,,一个不存在的女人\NA woman who doesn't seem to exist,
+Dialogue: 0,0:23:58.95,0:24:00.41,Default,,0000,0000,0000,,我觉得很可疑\NI find that suspicious.
+Dialogue: 0,0:24:00.41,0:24:02.18,Default,,0000,0000,0000,,你男朋友不怀好意\NThinking that your boyfriend's up to no good,
+Dialogue: 0,0:24:02.18,0:24:04.25,Default,,0000,0000,0000,,我应该比你还上心\Nthat's typically more my thing than yours.
+Dialogue: 0,0:24:04.25,0:24:05.95,Default,,0000,0000,0000,,准确地说 他不是我男朋友\NOh, he's not exactly my boyfriend.
+Dialogue: 0,0:24:05.95,0:24:07.25,Default,,0000,0000,0000,,那窥探他的生活\NWell, that makes digging into his life
+Dialogue: 0,0:24:07.25,0:24:09.58,Default,,0000,0000,0000,,也就失去了些乐趣\Na little less fun, then.
+Dialogue: 0,0:24:09.58,0:24:11.28,Default,,0000,0000,0000,,等等 Laurel\NHey, Laurel.
+Dialogue: 0,0:24:11.28,0:24:13.45,Default,,0000,0000,0000,,如果我帮你查出点东西\NIf I bring you something back,
+Dialogue: 0,0:24:13.45,0:24:15.11,Default,,0000,0000,0000,,我要知道为什么\Nyou know I'm going to want to know why.
+Dialogue: 0,0:24:15.11,0:24:16.95,Default,,0000,0000,0000,,你会的\NOf course you are.
+Dialogue: 0,0:24:26.61,0:24:30.01,Default,,0000,0000,0000,,你回来的正是时候 刚好赶上表演\NAh, you're just in time to see the show.
+Dialogue: 0,0:24:30.01,0:24:31.61,Default,,0000,0000,0000,,他在干吗?\NWhat's he doing?
+Dialogue: 0,0:24:31.61,0:24:33.28,Default,,0000,0000,0000,,把整个城市的人聚集起来\NBringing the city together.
+Dialogue: 0,0:24:33.28,0:24:36.28,Default,,0000,0000,0000,,要是我没弄错的话 竞选\NAnd if I'm not mistaken, campaigning.
+Dialogue: 0,0:24:36.28,0:24:41.01,Default,,0000,0000,0000,,明天晚上 我要在城市大厦召开第一次联合大会\NTomorrow night, I am holding starling's first ever unity rally at city plaza.
+Dialogue: 0,0:24:41.01,0:24:44.58,Default,,0000,0000,0000,,我们要向世界证明 这座伟大城市的人民\NWe are going to show the world that the people of this great city
+Dialogue: 0,0:24:44.58,0:24:47.21,Default,,0000,0000,0000,,不会向恐怖势力妥协\Nwill not back down to terrorists.
+Dialogue: 0,0:24:47.21,0:24:48.98,Default,,0000,0000,0000,,他想自杀\NHe's committing suicide and he just invited
+Dialogue: 0,0:24:48.98,0:24:50.25,Default,,0000,0000,0000,,还要叫上全市的人和他一起\Nthe entire city to join him.
+Dialogue: 0,0:24:50.25,0:24:51.61,Default,,0000,0000,0000,,你是Sebastian的朋友\NSebastian's your friend.
+Dialogue: 0,0:24:51.61,0:24:54.31,Default,,0000,0000,0000,,你能不能劝劝他?\NCan't you talk him out of this, Oliver?
+Dialogue: 0,0:24:54.31,0:24:55.41,Default,,0000,0000,0000,,就是今天\NWell, that day is now.
+Dialogue: 0,0:24:55.41,0:24:58.15,Default,,0000,0000,0000,,他不会听我的\NWell, he won't listen to me.
+Dialogue: 0,0:25:04.28,0:25:07.88,Default,,0000,0000,0000,,Sebastian Blood议员...\NSebastian Blood...
+Dialogue: 0,0:25:09.31,0:25:11.88,Default,,0000,0000,0000,,明晚的集会\NThis rally tomorrow night,
+Dialogue: 0,0:25:11.88,0:25:14.65,Default,,0000,0000,0000,,你要取消\Nyou need to call it off.
+Dialogue: 0,0:25:14.65,0:25:18.65,Default,,0000,0000,0000,,绿箭侠亲自来给我送行\NThe starling city vigilante paying a visit to wave me off.
+Dialogue: 0,0:25:18.65,0:25:20.65,Default,,0000,0000,0000,,我很荣幸\NI'm flattered.
+Dialogue: 0,0:25:20.65,0:25:22.98,Default,,0000,0000,0000,,Mr. Blood 这次集会\NThis event, Mr. Blood,
+Dialogue: 0,0:25:22.98,0:25:26.65,Default,,0000,0000,0000,,你应该知道 是玩火自焚\NYou might as well be painting a giant bulls eye on your chest.
+Dialogue: 0,0:25:30.35,0:25:33.28,Default,,0000,0000,0000,,这座城市需要团结\NThis city needs to come together.
+Dialogue: 0,0:25:33.28,0:25:35.41,Default,,0000,0000,0000,,而我会告诉他们怎么做\NAnd I need to show them how.
+Dialogue: 0,0:25:35.41,0:25:39.01,Default,,0000,0000,0000,,你死了 就什么都做不了\NYou won't be able to show them anything if you're dead.
+Dialogue: 0,0:25:39.01,0:25:42.35,Default,,0000,0000,0000,,每天晚上 你冒着生命危险\NEvery night, you risk your life
+Dialogue: 0,0:25:42.35,0:25:44.85,Default,,0000,0000,0000,,保卫这座城市的人民\Nfor the people of this city.
+Dialogue: 0,0:25:44.85,0:25:46.85,Default,,0000,0000,0000,,我怎么能作壁上观?\NHow can you expect me to do any less?
+Dialogue: 0,0:25:46.85,0:25:50.85,Default,,0000,0000,0000,,你就不顾参加集会人们的生命吗?\NAnd what about the lives of the people coming to your rally?
+Dialogue: 0,0:25:50.85,0:25:52.75,Default,,0000,0000,0000,,这次集会\NThis rally is about Starling City
+Dialogue: 0,0:25:52.75,0:25:54.48,Default,,0000,0000,0000,,是要让Starling市坚强起来\Nstanding up and declaring with one voice
+Dialogue: 0,0:25:54.48,0:25:55.91,Default,,0000,0000,0000,,告诉人们恐惧中的生活不能叫生活\Nthat living afraid isn't living.
+Dialogue: 0,0:25:55.91,0:25:57.91,Default,,0000,0000,0000,,我不会告诉市民们待在家里\NI won't send a contrary message to people
+Dialogue: 0,0:25:57.91,0:26:00.51,Default,,0000,0000,0000,,担惊受怕\Ntelling them to stay home, to stay scared.
+Dialogue: 0,0:26:02.81,0:26:05.35,Default,,0000,0000,0000,,我意已决\NI've made my decision.
+Dialogue: 0,0:26:05.35,0:26:07.35,Default,,0000,0000,0000,,听好了 议员\NThat's the thing, Alderman...
+Dialogue: 0,0:26:07.35,0:26:10.95,Default,,0000,0000,0000,,明晚发生的事\NWhatever happens tomorrow night,
+Dialogue: 0,0:26:10.95,0:26:14.05,Default,,0000,0000,0000,,并非你能决定的\Nit's not up to you.
+Dialogue: 0,0:26:26.28,0:26:28.71,Default,,0000,0000,0000,,# 我醒来了 而她已不在 #\N# I wake up and she's not there #
+Dialogue: 0,0:26:28.71,0:26:31.18,Default,,0000,0000,0000,,是Fazekas女士啊\NAh, Mrs. Fazekas.
+Dialogue: 0,0:26:31.18,0:26:33.98,Default,,0000,0000,0000,,给你外甥准备的火车刚刚到\NThe train set for your nephew
+Dialogue: 0,0:26:33.98,0:26:37.21,Default,,0000,0000,0000,,他一定爱死了\Njust came in. He's going to love it.
+Dialogue: 0,0:26:37.21,0:26:40.51,Default,,0000,0000,0000,,您真是太敬业了 Scheffer先生\NOh. You are a miracle worker, Mr. Scheffer.
+Dialogue: 0,0:26:40.51,0:26:41.91,Default,,0000,0000,0000,,我应该给你多少钱?\NHow much do I owe you?
+Dialogue: 0,0:26:41.91,0:26:44.25,Default,,0000,0000,0000,,50就好\N$50 even.
+Dialogue: 0,0:26:44.25,0:26:46.35,Default,,0000,0000,0000,,销售税就不用了\NForget the sales tax.
+Dialogue: 0,0:26:46.35,0:26:49.21,Default,,0000,0000,0000,,明晚会去参加议员的集会吗?\NGoing to the alderman's unity rally tomorrow night?
+Dialogue: 0,0:26:49.21,0:26:50.41,Default,,0000,0000,0000,,当然不会错过\NI wouldn't miss it.
+Dialogue: 0,0:26:57.15,0:26:58.45,Default,,0000,0000,0000,,无视爆炸给城市带来的困扰\NGathered here despite the rash of bombings
+Dialogue: 0,0:26:58.45,0:27:00.18,Default,,0000,0000,0000,,而聚集在这里\Nthat have plagued the city,
+Dialogue: 0,0:27:00.18,0:27:02.64,Default,,0000,0000,0000,,有人说Sebastian Blood召开的这次集会\NSome have called Sebastian Blood's unity rally
+Dialogue: 0,0:27:02.64,0:27:04.38,Default,,0000,0000,0000,,是他为了竞选市长组织的\Na cynical and dangerous pr stunt
+Dialogue: 0,0:27:04.38,0:27:05.78,Default,,0000,0000,0000,,一次危险而不负责任的公关噱头\Nfor his mayoral campaign.
+Dialogue: 0,0:27:05.78,0:27:07.74,Default,,0000,0000,0000,,但是参与的人数还在增加\NBut the crowd continues to grow.
+Dialogue: 0,0:27:07.74,0:27:10.21,Default,,0000,0000,0000,,我劝过他了\NTried to get him to stand down.
+Dialogue: 0,0:27:10.21,0:27:12.71,Default,,0000,0000,0000,,他回击的时候和你一样固执\NHe seems as stubborn as you when it comes to fighting back.
+Dialogue: 0,0:27:12.71,0:27:14.18,Default,,0000,0000,0000,,- 不光是回击的时候  - 是不以后\N- Or everything.  - Hey, is this how
+Dialogue: 0,0:27:14.18,0:27:15.51,Default,,0000,0000,0000,,你俩就一直这样了?\Nit's going to be with you two from now on?
+Dialogue: 0,0:27:15.51,0:27:17.24,Default,,0000,0000,0000,,我们应该去集会现场\NMaybe we should just head down to the rally.
+Dialogue: 0,0:27:17.24,0:27:18.71,Default,,0000,0000,0000,,不一定要去\NMaybe we won't have to.
+Dialogue: 0,0:27:18.71,0:27:21.48,Default,,0000,0000,0000,,我分析了Lance给的爆炸残留物\NI analyzed the bomb remnants we got from Lance.
+Dialogue: 0,0:27:21.48,0:27:23.18,Default,,0000,0000,0000,,它的设计和以前叫行动的反政府民兵部队\NThe design's identical to the bombs used by
+Dialogue: 0,0:27:23.18,0:27:26.14,Default,,0000,0000,0000,,所使用的炸弹一样\Nan anti government militia group called the Movement.
+Dialogue: 0,0:27:26.14,0:27:29.94,Default,,0000,0000,0000,,幸运的是 我们可以黑进他们活跃的留言板\NLucky for us, they have a very active and hackable message board.
+Dialogue: 0,0:27:29.94,0:27:32.71,Default,,0000,0000,0000,,其中一个很多产的粉丝的IP地址就在Starling\NOne of their most prolific fans has an ip address right here in Starling.
+Dialogue: 0,0:27:32.71,0:27:34.71,Default,,0000,0000,0000,,- 在哪?  - 那台电脑在一家纪念品商店\N- Tell me.  - The computer's in a local souvenir shop.
+Dialogue: 0,0:27:34.71,0:27:37.68,Default,,0000,0000,0000,,所找少年的用户名叫Shrapnel\NThe whackadoo in question goes by the username Shrapnel.
+Dialogue: 0,0:27:37.68,0:27:38.71,Default,,0000,0000,0000,,需要后援吗？\NYou want back-up?
+Dialogue: 0,0:27:38.71,0:27:40.18,Default,,0000,0000,0000,,不 你去集会\NNo, I need you at the rally.
+Dialogue: 0,0:27:40.18,0:27:41.61,Default,,0000,0000,0000,,掩护我们的基地\NCover our bases.
+Dialogue: 0,0:27:47.74,0:27:49.44,Default,,0000,0000,0000,,这都是给我的?\NIs this all for me?
+Dialogue: 0,0:27:49.44,0:27:51.64,Default,,0000,0000,0000,,不 是我的 警察局的通话记录\NNo, for me. SCPD phone records.
+Dialogue: 0,0:27:51.64,0:27:53.81,Default,,0000,0000,0000,,你为什么要查警局的通话记录?\NWhy are you going through the department's phone records?
+Dialogue: 0,0:27:53.81,0:27:57.91,Default,,0000,0000,0000,,我查了你那个不算男朋友的男朋友\NUm, so I checked up on your not exactly boyfriend.
+Dialogue: 0,0:27:57.91,0:28:00.08,Default,,0000,0000,0000,,然后呢? 有什么发现吗?\NAnd? Did you find anything?
+Dialogue: 0,0:28:00.08,0:28:01.84,Default,,0000,0000,0000,,当然 我发现他不是个好人\NYeah, it turns out he's a hell of a guy.
+Dialogue: 0,0:28:01.84,0:28:05.41,Default,,0000,0000,0000,,替她姑姑付钱...\NCovers the expenses of his dear aunt...
+Dialogue: 0,0:28:05.41,0:28:07.11,Default,,0000,0000,0000,,他姑姑就是Maya Resik\NYour Maya Resik.
+Dialogue: 0,0:28:07.11,0:28:08.91,Default,,0000,0000,0000,,如果Sebastian还有其他家人\NIf Sebastian has other family,
+Dialogue: 0,0:28:08.91,0:28:11.64,Default,,0000,0000,0000,,那他为什么在孤儿院?\Nthen why was he placed in an orphanage?
+Dialogue: 0,0:28:11.64,0:28:15.48,Default,,0000,0000,0000,,也许是他的Maya姑姑脑子有问题\NWell, maybe 'cause aunt Maya is nuttier than a snickers bar.
+Dialogue: 0,0:28:15.48,0:28:17.84,Default,,0000,0000,0000,,她是圣沃克斯医院的病人\NShe's a patient at St.Walker's hospital.
+Dialogue: 0,0:28:17.84,0:28:19.74,Default,,0000,0000,0000,,那是家精神病院 你根本不会去查的地方\NIt's a mental institution, it's the kind you don't check out of.
+Dialogue: 0,0:28:19.74,0:28:22.04,Default,,0000,0000,0000,,你到底要不要告诉我发生了什么?\NNow, listen, you going to tell me what this is all about?
+Dialogue: 0,0:28:22.04,0:28:25.41,Default,,0000,0000,0000,,他似乎不太正常\NSomething about him just seems off.
+Dialogue: 0,0:28:25.41,0:28:27.11,Default,,0000,0000,0000,,Laurel 替自己唯一\NLaurel, there is nothing sinister
+Dialogue: 0,0:28:27.11,0:28:29.08,Default,,0000,0000,0000,,在世的亲人付钱\Nabout a guy who is covering the expenses
+Dialogue: 0,0:28:29.08,0:28:31.01,Default,,0000,0000,0000,,没什么比这更可怕的了\Nof his only living relative.
+Dialogue: 0,0:28:31.01,0:28:32.44,Default,,0000,0000,0000,,而事实是 这很好\NThe truth is, it's kind of nice.
+Dialogue: 0,0:28:32.44,0:28:35.24,Default,,0000,0000,0000,,我要去城市大厦了\NListen, I gotta get to city plaza.
+Dialogue: 0,0:28:35.24,0:28:36.94,Default,,0000,0000,0000,,Pike要召集所有人手\NPike wants all hands at this unity rally.
+Dialogue: 0,0:28:36.94,0:28:38.48,Default,,0000,0000,0000,,你不会去的 对吧?\NYou're not going, right?
+Dialogue: 0,0:28:38.48,0:28:40.11,Default,,0000,0000,0000,,我不去了 我还要继续深入调查\NNo, I need to look into this more.
+Dialogue: 0,0:28:40.11,0:28:45.24,Default,,0000,0000,0000,,Laurel 他看起来是个好孩子\NLaurel, he seems like a good guy
+Dialogue: 0,0:28:45.24,0:28:46.34,Default,,0000,0000,0000,,他配得上你\Nand you deserve good.
+Dialogue: 0,0:28:46.34,0:28:47.64,Default,,0000,0000,0000,,别纠结于这些\NOk, so stop looking for reasons
+Dialogue: 0,0:28:47.64,0:28:49.54,Default,,0000,0000,0000,,又把自己撇出去了\Nto talk yourself out of it.
+Dialogue: 0,0:28:49.54,0:28:52.91,Default,,0000,0000,0000,,求你了\NPlease.
+Dialogue: 0,0:28:55.38,0:28:56.98,Default,,0000,0000,0000,,Blood议员 这很危险你知道吗?\NAlderman Blood, is this not dangerous?
+Dialogue: 0,0:28:56.98,0:28:58.61,Default,,0000,0000,0000,,恐怕是的\NI'm afraid so.
+Dialogue: 0,0:28:58.61,0:29:00.14,Default,,0000,0000,0000,,你为什么要把这么多人聚集在这当活靶子?\NWhy are you gathering all these people here to be targets?
+Dialogue: 0,0:29:00.14,0:29:02.48,Default,,0000,0000,0000,,稍后我会一一回答你的问题\NPlease, I'll get to all of your questions later.
+Dialogue: 0,0:29:03.74,0:29:04.98,Default,,0000,0000,0000,,感谢你们能来\NThank you all for coming.
+Dialogue: 0,0:29:26.81,0:29:28.98,Default,,0000,0000,0000,,砰\NBoom.
+Dialogue: 0,0:29:28.98,0:29:30.74,Default,,0000,0000,0000,,你已经死了\NYou're dead.
+Dialogue: 0,0:29:30.74,0:29:34.24,Default,,0000,0000,0000,,你敢往前走一步\NOr will be if you take one more step
+Dialogue: 0,0:29:34.24,0:29:35.94,Default,,0000,0000,0000,,或者稍微动一下就真死了\Nor move a single muscle.
+Dialogue: 0,0:29:35.94,0:29:37.78,Default,,0000,0000,0000,,那你就看不到接下来的表演了\NAnd then you'll miss the show.
+Dialogue: 0,0:29:37.78,0:29:40.18,Default,,0000,0000,0000,,候选人Blood的集会\NCandidate Blood's unity rally.
+Dialogue: 0,0:29:40.18,0:29:43.61,Default,,0000,0000,0000,,我在那儿装好了50磅的烈性旋风炸药\NAlready rigged with 50 pounds of RDX high explosives.
+Dialogue: 0,0:29:43.61,0:29:46.48,Default,,0000,0000,0000,,和我店里石膏板后边装的可不一样\NNot unlike what's packed inside the drywall of my store.
+Dialogue: 0,0:29:46.48,0:29:49.41,Default,,0000,0000,0000,,市民们觉得Sebastian Blood能保证他们的安全\NThis city thinks Sebastian Blood can keep them safe.
+Dialogue: 0,0:29:49.41,0:29:50.94,Default,,0000,0000,0000,,今晚 他们会明白\NTonight, they learn that the only thing politicians
+Dialogue: 0,0:29:50.94,0:29:53.78,Default,,0000,0000,0000,,政治家们只关心他们的前途\Ncare about protecting is their jobs.
+Dialogue: 0,0:30:10.93,0:30:12.39,Default,,0000,0000,0000,,- Felicity  - 在\N- Felicity.  - Here.
+Dialogue: 0,0:30:12.39,0:30:13.39,Default,,0000,0000,0000,,你抓住他了?\NDid you get him?
+Dialogue: 0,0:30:13.39,0:30:15.89,Default,,0000,0000,0000,,没有 他说他的爆炸装置\NNo. He said he rigged the plaza
+Dialogue: 0,0:30:15.89,0:30:17.39,Default,,0000,0000,0000,,能炸毁整栋大楼\Nwith an explosive device.
+Dialogue: 0,0:30:17.39,0:30:18.36,Default,,0000,0000,0000,,Oliver 那人山人海\NOliver, it's crazy-town there.
+Dialogue: 0,0:30:18.36,0:30:19.56,Default,,0000,0000,0000,,炸弹可能在任何地方\NThat bomb could be anywhere.
+Dialogue: 0,0:30:19.56,0:30:22.23,Default,,0000,0000,0000,,我能缩小范围 给我接通Diggle\NI can narrow that down. Get me Diggle.
+Dialogue: 0,0:30:22.23,0:30:23.66,Default,,0000,0000,0000,,说吧\NGo.
+Dialogue: 0,0:30:23.66,0:30:27.09,Default,,0000,0000,0000,,Shrapnel说他在周围装好了旋风炸药\NShrapnel said he ringed the perimeter with RDX.
+Dialogue: 0,0:30:27.09,0:30:28.99,Default,,0000,0000,0000,,我去找\NI'm on it.
+Dialogue: 0,0:30:28.99,0:30:30.36,Default,,0000,0000,0000,,你在去大厦的路上吧?\NYou're heading to the plaza, too, right?
+Dialogue: 0,0:30:30.36,0:30:31.89,Default,,0000,0000,0000,,还没有\NNot yet.
+Dialogue: 0,0:30:31.89,0:30:34.13,Default,,0000,0000,0000,,我要你把关于这个商店所有的东西找出来\NI need you to pull me up anything you can on the store.
+Dialogue: 0,0:30:34.13,0:30:37.26,Default,,0000,0000,0000,,规划设计图 示意图 所有东西\NBlue prints, permit schematics, anything.
+Dialogue: 0,0:30:37.26,0:30:38.33,Default,,0000,0000,0000,,怎么了?\NWhat's going on?
+Dialogue: 0,0:30:38.33,0:30:40.06,Default,,0000,0000,0000,,Shrapnel给我留了个惊喜\NShrapnel left behind a surprise.
+Dialogue: 0,0:30:40.06,0:30:42.19,Default,,0000,0000,0000,,说他在石膏板后边也放好了炸药\NSaid he packed the drywall with explosives,
+Dialogue: 0,0:30:42.19,0:30:44.06,Default,,0000,0000,0000,,但是要触发需要...\Nbut the trigger needs to be...
+Dialogue: 0,0:30:44.06,0:30:45.79,Default,,0000,0000,0000,,需要连接到电源\NWould need to be hooked up to some sort of power supply.
+Dialogue: 0,0:30:45.79,0:30:47.56,Default,,0000,0000,0000,,导火索连接到商店的电路\NThat's assuming that the detonator's connected
+Dialogue: 0,0:30:47.56,0:30:49.56,Default,,0000,0000,0000,,而且不是汽车电池那种独立的电流\Nto the store's electricity and not something independent
+Dialogue: 0,0:30:49.56,0:30:53.43,Default,,0000,0000,0000,,我明白 但是没什么帮助\Nlike a car battery. I know, not helpful.
+Dialogue: 0,0:30:53.43,0:30:54.69,Default,,0000,0000,0000,,你确定要我做这个?\NYou sure you want me doing this?
+Dialogue: 0,0:30:54.69,0:30:56.43,Default,,0000,0000,0000,,我的思路可能不在这场斗争里\NMy head might not exactly be in the game.
+Dialogue: 0,0:30:56.43,0:30:57.66,Default,,0000,0000,0000,,Felicity! 别闹!\NFelicity!
+Dialogue: 0,0:30:57.66,0:30:58.86,Default,,0000,0000,0000,,那栋楼是70年代建的\NThe building was built in the seventies.
+Dialogue: 0,0:30:58.86,0:31:00.53,Default,,0000,0000,0000,,这是好消息\NThat's good news.
+Dialogue: 0,0:31:00.53,0:31:02.96,Default,,0000,0000,0000,,那时的建筑里线路有很多缺陷\NThe wiring in a lot of construction back then is defective.
+Dialogue: 0,0:31:02.96,0:31:04.93,Default,,0000,0000,0000,,如果你切断了一条线\NSo if you sever one wire,
+Dialogue: 0,0:31:04.93,0:31:06.23,Default,,0000,0000,0000,,就会烧断整栋楼的保险丝\Nit will blow fuses in the entire building
+Dialogue: 0,0:31:06.23,0:31:07.46,Default,,0000,0000,0000,,然后切断炸弹的电源\Nand shot off power to the bomb.
+Dialogue: 0,0:31:07.46,0:31:09.86,Default,,0000,0000,0000,,注意了 我看见保险盒了\NHold tight. I see a fuse box.
+Dialogue: 0,0:31:09.86,0:31:11.03,Default,,0000,0000,0000,,Oliver 小心点\NOliver, be careful.
+Dialogue: 0,0:31:22.86,0:31:24.33,Default,,0000,0000,0000,,Oliver 你在吗?\NOliver?
+Dialogue: 0,0:31:25.86,0:31:28.36,Default,,0000,0000,0000,,Oliver啊?\NOliver?
+Dialogue: 0,0:31:30.46,0:31:33.56,Default,,0000,0000,0000,,没事 我没事\NIt's all right. I'm all right.
+Dialogue: 0,0:31:33.56,0:31:35.13,Default,,0000,0000,0000,,去集会吧\NGet to the rally.
+Dialogue: 0,0:31:35.13,0:31:38.29,Default,,0000,0000,0000,,去帮Diggle 我这就去\NHelp Diggle. I'm on my way.
+Dialogue: 0,0:31:52.06,0:31:56.26,Default,,0000,0000,0000,,Thea 我真觉得不该来这里\NThea, I really don't think coming here was a good idea.
+Dialogue: 0,0:31:56.26,0:31:57.43,Default,,0000,0000,0000,,不会有事的\NIt's gonna be fine.
+Dialogue: 0,0:31:57.43,0:31:58.86,Default,,0000,0000,0000,,我们去找Roy\NLet's just go find Roy.
+Dialogue: 0,0:32:02.89,0:32:04.83,Default,,0000,0000,0000,,请安静\NPlease, please.
+Dialogue: 0,0:32:04.83,0:32:07.36,Default,,0000,0000,0000,,应该给你们鼓掌喝彩\NYou're the ones who deserve an ovation.
+Dialogue: 0,0:32:07.36,0:32:12.03,Default,,0000,0000,0000,,8个月前 这座城市从毁灭性的袭击中存活下来...\N8 months ago this city survived a devastating attack...
+Dialogue: 0,0:32:13.19,0:32:15.16,Default,,0000,0000,0000,,但是我们站起来了\NBut we rose up.
+Dialogue: 0,0:32:15.16,0:32:18.49,Default,,0000,0000,0000,,你们站起来了\NYou rose up
+Dialogue: 0,0:32:18.49,0:32:21.39,Default,,0000,0000,0000,,并且团结起来 就像今晚一样\Nand banded together, just like we are tonight.
+Dialogue: 0,0:32:21.39,0:32:23.13,Default,,0000,0000,0000,,Dig 我到了\NDig, I'm on site.
+Dialogue: 0,0:32:23.13,0:32:25.69,Default,,0000,0000,0000,,我在东边 应该是找到触发器了\NI'm on the east side. Think I found the trigger.
+Dialogue: 0,0:32:25.69,0:32:26.76,Default,,0000,0000,0000,,并向全世界证明\NAnd prove to the world
+Dialogue: 0,0:32:26.76,0:32:28.89,Default,,0000,0000,0000,,我们是打不倒的\Nthat we cannot be broken.
+Dialogue: 0,0:32:30.26,0:32:31.86,Default,,0000,0000,0000,,这座城市的人们\NThat the people of this city
+Dialogue: 0,0:32:31.86,0:32:33.39,Default,,0000,0000,0000,,非常坚强\Nare too strong.
+Dialogue: 0,0:32:33.39,0:32:36.16,Default,,0000,0000,0000,,不是炸弹和地震\NAnd that no bomb and no earthquake
+Dialogue: 0,0:32:36.16,0:32:39.26,Default,,0000,0000,0000,,就能摧毁的\Nis strong enough to tear us apart.
+Dialogue: 0,0:32:39.26,0:32:40.46,Default,,0000,0000,0000,,Oliver说这个地方\NOliver said that the whole place
+Dialogue: 0,0:32:40.46,0:32:41.76,Default,,0000,0000,0000,,到处都是炸药\Nwas ringed with explosives.
+Dialogue: 0,0:32:41.76,0:32:43.53,Default,,0000,0000,0000,,在这个音响设备里\NIt's in the sound equipment.
+Dialogue: 0,0:32:43.53,0:32:44.96,Default,,0000,0000,0000,,这就是触发器\Nand this is the trigger.
+Dialogue: 0,0:32:44.96,0:32:47.26,Default,,0000,0000,0000,,Shrapnel通过手机信号启动它\NShrapnel activates it by cellular transmission.
+Dialogue: 0,0:32:47.26,0:32:49.99,Default,,0000,0000,0000,,听着 没必要拆除它 废掉它就行\NListen, we don't have to disarm it, just disable it.
+Dialogue: 0,0:32:49.99,0:32:51.83,Default,,0000,0000,0000,,我可以\NI can do that.
+Dialogue: 0,0:32:51.83,0:32:53.79,Default,,0000,0000,0000,,我想是的\NI think.
+Dialogue: 0,0:32:53.79,0:32:55.16,Default,,0000,0000,0000,,希望是\NI hope.
+Dialogue: 0,0:32:55.16,0:32:56.29,Default,,0000,0000,0000,,Felicity 听好 你要小心\NFelicity, listen, you be careful.
+Dialogue: 0,0:32:56.29,0:32:57.43,Default,,0000,0000,0000,,他也许用了保障措施\NHe probably put in a safeguard.
+Dialogue: 0,0:32:57.43,0:32:58.53,Default,,0000,0000,0000,,进行干预\NTampering with it
+Dialogue: 0,0:32:58.53,0:32:59.73,Default,,0000,0000,0000,,也许会触发死人键\Nwill set off a deadman's switch.
+Dialogue: 0,0:32:59.73,0:33:01.53,Default,,0000,0000,0000,,那个词真压抑\NThat's a really depressing term.
+Dialogue: 0,0:33:01.53,0:33:04.16,Default,,0000,0000,0000,,而且有性别歧视之嫌\NAnd a little bit sexist.
+Dialogue: 0,0:33:05.26,0:33:07.23,Default,,0000,0000,0000,,走开\NStep away.
+Dialogue: 0,0:33:07.23,0:33:09.39,Default,,0000,0000,0000,,否则谁都活不成\NOr we all know how this ends.
+Dialogue: 0,0:33:09.39,0:33:11.49,Default,,0000,0000,0000,,Dig啊!\NDig!
+Dialogue: 0,0:33:47.93,0:33:50.26,Default,,0000,0000,0000,,妈妈!\NMom!
+Dialogue: 0,0:33:50.26,0:33:53.23,Default,,0000,0000,0000,,我没事 我没事\NI'm OK. I'm OK.
+Dialogue: 0,0:34:17.46,0:34:19.56,Default,,0000,0000,0000,,把弓放下\NDrop the bow.
+Dialogue: 0,0:34:19.56,0:34:23.63,Default,,0000,0000,0000,,我在Starling市埋满了炸药\NI've got charges planted all over Starling.
+Dialogue: 0,0:34:23.63,0:34:27.96,Default,,0000,0000,0000,,我按了这个 就会爆炸\NI drop this stick, they all blow.
+Dialogue: 0,0:34:29.69,0:34:31.46,Default,,0000,0000,0000,,你听到我刚才说的话了吗?\NDid you just hear what I said?
+Dialogue: 0,0:34:31.46,0:34:33.06,Default,,0000,0000,0000,,听到了\NYep.
+Dialogue: 0,0:34:48.96,0:34:50.43,Default,,0000,0000,0000,,嘿\NHey.
+Dialogue: 0,0:34:50.43,0:34:51.76,Default,,0000,0000,0000,,你妈妈怎么样了?\NHow's your mom?
+Dialogue: 0,0:34:51.76,0:34:53.93,Default,,0000,0000,0000,,她没事 有点吓到了\NShe's fine. Just a little shooken up.
+Dialogue: 0,0:34:55.16,0:34:56.89,Default,,0000,0000,0000,,你救了她\NYou saved her.
+Dialogue: 0,0:34:56.89,0:34:58.09,Default,,0000,0000,0000,,是我走运\NI got lucky.
+Dialogue: 0,0:34:58.09,0:34:59.13,Default,,0000,0000,0000,,那不是运气\NThat wasn't luck.
+Dialogue: 0,0:34:59.13,0:35:01.43,Default,,0000,0000,0000,,那简直不可能\NThat was impossible.
+Dialogue: 0,0:35:01.43,0:35:03.99,Default,,0000,0000,0000,,你知道有妈妈把车抬起来救自己的孩子吗?\NYou know those stories of mom's lifting cars to save their kids?
+Dialogue: 0,0:35:03.99,0:35:05.76,Default,,0000,0000,0000,,肾上腺素飙升时 啥都能做到\NThings you can do when adrenaline hits.
+Dialogue: 0,0:35:05.76,0:35:07.66,Default,,0000,0000,0000,,我... 我就是那样\NIt was... It was one of those.
+Dialogue: 0,0:35:08.93,0:35:11.83,Default,,0000,0000,0000,,你的手臂\NYour arm.
+Dialogue: 0,0:35:11.83,0:35:14.29,Default,,0000,0000,0000,,连个疤痕都没留下\NThere's not even a mark.
+Dialogue: 0,0:35:14.29,0:35:16.09,Default,,0000,0000,0000,,是... 我伤口愈合快\NIt's... I heal fast.
+Dialogue: 0,0:35:16.09,0:35:17.99,Default,,0000,0000,0000,,- 没事  - 嗯\N- It's fine.  - Right.
+Dialogue: 0,0:35:17.99,0:35:20.63,Default,,0000,0000,0000,,我有点累了 今天晚上太多事了\NI'm kind of tired. It's been a long night, you know.
+Dialogue: 0,0:35:20.63,0:35:22.63,Default,,0000,0000,0000,,我走了\NI gotta go.
+Dialogue: 0,0:35:23.66,0:35:25.43,Default,,0000,0000,0000,,Roy啊\NRoy.
+Dialogue: 0,0:35:31.86,0:35:33.29,Default,,0000,0000,0000,,你杀的人越来越少\NWith you dropping fewer bodies,
+Dialogue: 0,0:35:33.29,0:35:35.93,Default,,0000,0000,0000,,Starling市大概应该建一个大点的监狱\NStarling city should probably build a bigger jail.
+Dialogue: 0,0:35:35.93,0:35:38.79,Default,,0000,0000,0000,,又要去找骷髅面具人吗?\NAnother night of skull mask hunting?
+Dialogue: 0,0:35:38.79,0:35:40.79,Default,,0000,0000,0000,,不是\NNot exactly.
+Dialogue: 0,0:35:40.79,0:35:42.09,Default,,0000,0000,0000,,你肩膀怎样了?\NHow's your shoulder?
+Dialogue: 0,0:35:42.09,0:35:43.33,Default,,0000,0000,0000,,不严重\NOh, just a through-and-through.
+Dialogue: 0,0:35:43.33,0:35:44.99,Default,,0000,0000,0000,,小意思\NWalk in the park.
+Dialogue: 0,0:35:44.99,0:35:49.46,Default,,0000,0000,0000,,但是Diggle 你还是应该回家休息一下\NStill, Diggle, you should go home and get some rest.
+Dialogue: 0,0:36:03.56,0:36:06.16,Default,,0000,0000,0000,,对不起\NI'm sorry.
+Dialogue: 0,0:36:08.09,0:36:10.89,Default,,0000,0000,0000,,你在向我道歉\NAre you apologizing to me
+Dialogue: 0,0:36:10.89,0:36:14.16,Default,,0000,0000,0000,,还是在跟你的箭袋说话\Nor were you talking to your quiver?
+Dialogue: 0,0:36:14.16,0:36:16.39,Default,,0000,0000,0000,,我又没跟我箭袋发脾气\NI didn't snap at my quiver.
+Dialogue: 0,0:36:16.39,0:36:18.93,Default,,0000,0000,0000,,你不止是发脾气吧\NYou kind of more than snapped.
+Dialogue: 0,0:36:18.93,0:36:20.49,Default,,0000,0000,0000,,我知道\NI know.
+Dialogue: 0,0:36:20.49,0:36:22.53,Default,,0000,0000,0000,,很抱歉\NAnd I'm sorry.
+Dialogue: 0,0:36:25.09,0:36:30.03,Default,,0000,0000,0000,,我知道奇迹药的事让你很害怕\NI understand that this mirakuru thing has you freaked out
+Dialogue: 0,0:36:32.06,0:36:35.29,Default,,0000,0000,0000,,而我又在中心城待了太久\Nand I have been in central city a lot.
+Dialogue: 0,0:36:35.29,0:36:37.93,Default,,0000,0000,0000,,Felicity 不是因为那个\NFelicity, it's not that.
+Dialogue: 0,0:36:39.76,0:36:41.36,Default,,0000,0000,0000,,你在那里的时候\NWhen you are there,
+Dialogue: 0,0:36:41.36,0:36:46.79,Default,,0000,0000,0000,,就更让我意识到 这里多需要你\NWell, it just made me realize how much I need you here.
+Dialogue: 0,0:36:48.43,0:36:50.56,Default,,0000,0000,0000,,开... 开始的时候\NIn the beg... beginning,
+Dialogue: 0,0:36:50.56,0:36:55.53,Default,,0000,0000,0000,,我准备... 我准备自己做这些事\NI was just gonna... I was gonna do all of this by myself.
+Dialogue: 0,0:36:58.39,0:37:01.09,Default,,0000,0000,0000,,如今有了你和Diggle...\NAnd now with you and Diggle...
+Dialogue: 0,0:37:04.33,0:37:07.06,Default,,0000,0000,0000,,我依赖你们\NI rely on you.
+Dialogue: 0,0:37:11.16,0:37:14.83,Default,,0000,0000,0000,,那是否意味着\NDoes that mean I have a shot
+Dialogue: 0,0:37:14.83,0:37:17.09,Default,,0000,0000,0000,,我有可能成为明星雇员呢?\Nat employee of the month?
+Dialogue: 0,0:37:17.09,0:37:18.56,Default,,0000,0000,0000,,不是\NNo.
+Dialogue: 0,0:37:18.56,0:37:20.99,Default,,0000,0000,0000,,因为你不是我的员工\NBecause you're not my employee.
+Dialogue: 0,0:37:20.99,0:37:23.93,Default,,0000,0000,0000,,你是我的同伴\NYou're my partner.
+Dialogue: 0,0:37:30.16,0:37:33.49,Default,,0000,0000,0000,,Barry会醒来的\NBarry's gonna wake up.
+Dialogue: 0,0:37:33.49,0:37:35.56,Default,,0000,0000,0000,,当他醒来时 你要在他身边\NAnd when he does, you will be there.
+Dialogue: 0,0:37:35.56,0:37:37.43,Default,,0000,0000,0000,,终于有人喜欢我了\NI finally have a guy who's interested in me
+Dialogue: 0,0:37:37.43,0:37:40.76,Default,,0000,0000,0000,,他却被闪电击中了\Nand he's struck by lightning,
+Dialogue: 0,0:37:40.76,0:37:42.86,Default,,0000,0000,0000,,还处于昏迷中\Nends up in a coma.
+Dialogue: 0,0:37:42.86,0:37:43.96,Default,,0000,0000,0000,,真神奇\NTypical.
+Dialogue: 0,0:37:46.26,0:37:48.86,Default,,0000,0000,0000,,也许他梦到你呢\NWell, maybe he's dreaming about you.
+Dialogue: 0,0:37:48.86,0:37:52.39,Default,,0000,0000,0000,,知道吗 对于处于昏迷的病人\NYou know, actually there's conflicting cases
+Dialogue: 0,0:37:52.39,0:37:55.69,Default,,0000,0000,0000,,是真的在做梦还是产生幻觉\Nabout whether coma patients can in fact dream normally
+Dialogue: 0,0:37:55.69,0:37:59.79,Default,,0000,0000,0000,,还不能确定\NOr they're more like hallucinating.
+Dialogue: 0,0:38:03.33,0:38:05.49,Default,,0000,0000,0000,,谢谢\NThank you.
+Dialogue: 0,0:38:12.43,0:38:14.49,Default,,0000,0000,0000,,Sara啊\NSara.
+Dialogue: 0,0:38:16.03,0:38:19.49,Default,,0000,0000,0000,,Sara 我知道你在听 回答我\NSara, I know you're listening. Answer me.
+Dialogue: 0,0:38:20.43,0:38:22.03,Default,,0000,0000,0000,,事情非常简单 Sara\NThis is very simple, Sara.
+Dialogue: 0,0:38:22.03,0:38:24.96,Default,,0000,0000,0000,,我知道你和你的新朋友有奇迹药\NI know you and your new friends have the mirakuru.
+Dialogue: 0,0:38:24.96,0:38:29.69,Default,,0000,0000,0000,,就算将这里夷为平地 我也要得到它\NYou know I will lay waste to this entire island to get it.
+Dialogue: 0,0:38:29.69,0:38:30.93,Default,,0000,0000,0000,,去叫Slade\NGet Slade.
+Dialogue: 0,0:38:30.93,0:38:31.99,Default,,0000,0000,0000,,但不必那样\NBut it doesn't have to be that way.
+Dialogue: 0,0:38:31.99,0:38:33.96,Default,,0000,0000,0000,,我只想要血清\NAll I want is the serum.
+Dialogue: 0,0:38:33.96,0:38:35.99,Default,,0000,0000,0000,,作为交换 我可以向你和你的朋友保证\NIn exchange, I'll promise you and your friends
+Dialogue: 0,0:38:35.99,0:38:38.33,Default,,0000,0000,0000,,你们可以安全离开这个岛\Nsafe passage off this island, I promise.
+Dialogue: 0,0:38:38.33,0:38:41.43,Default,,0000,0000,0000,,十天之内 你和你的新朋友\NWithin 10 days, you and your new friends
+Dialogue: 0,0:38:41.43,0:38:43.66,Default,,0000,0000,0000,,就可以到达上海\Ncould be making port in Shanghai.
+Dialogue: 0,0:38:43.66,0:38:45.89,Default,,0000,0000,0000,,我也可以派我的手下\NThe alternative is I send my men
+Dialogue: 0,0:38:45.89,0:38:48.43,Default,,0000,0000,0000,,到丛林里找到你们 拿到血清\Ninto the jungle to take the serum from you.
+Dialogue: 0,0:38:48.43,0:38:50.06,Default,,0000,0000,0000,,他们奉我的命令 不杀你们\NThey'll be under orders not to kill any of you.
+Dialogue: 0,0:38:50.06,0:38:51.93,Default,,0000,0000,0000,,反而 你们会活着\NInstead, you'll remain alive enough
+Dialogue: 0,0:38:51.93,0:38:57.93,Default,,0000,0000,0000,,满足我的科学好奇心\Nfor me to indulge my scientific curiosity.
+Dialogue: 0,0:38:57.93,0:39:00.99,Default,,0000,0000,0000,,考虑一下吧 Sara\NThink about it, Sara.
+Dialogue: 0,0:39:05.36,0:39:09.39,Default,,0000,0000,0000,,- 他走了  - 什么?\N- He's gone.  - What?
+Dialogue: 0,0:39:09.39,0:39:12.16,Default,,0000,0000,0000,,Slade走了 把奇迹药也带走了\NSlade's gone and he took the mirakuru with him.
+Dialogue: 0,0:39:16.89,0:39:19.06,Default,,0000,0000,0000,,你可以问任何问题\NYou can ask all the questions you want,
+Dialogue: 0,0:39:19.06,0:39:23.66,Default,,0000,0000,0000,,但是估计也问不出什么来\Nbut I wouldn't count on getting anything back.
+Dialogue: 0,0:39:23.66,0:39:25.26,Default,,0000,0000,0000,,她也许都不会知道你在她身边\NShe probably won't even know you're there.
+Dialogue: 0,0:39:29.33,0:39:32.33,Default,,0000,0000,0000,,如果你需要什么 我就在楼下\NI'll be down the hall if you need anything.
+Dialogue: 0,0:39:43.33,0:39:45.06,Default,,0000,0000,0000,,Maya啊?\NMaya?
+Dialogue: 0,0:39:45.06,0:39:47.73,Default,,0000,0000,0000,,我来跟你谈谈关于你侄子的事\NI'm here to talk about your nephew.
+Dialogue: 0,0:39:47.73,0:39:51.23,Default,,0000,0000,0000,,有一个男孩\NUn buen chico.
+Dialogue: 0,0:39:51.23,0:39:55.96,Default,,0000,0000,0000,,Maya 我叫Laurel Lance\NMaya, my name's Laurel Lance.
+Dialogue: 0,0:39:55.96,0:39:57.16,Default,,0000,0000,0000,,Maya啊?\NMaya?
+Dialogue: 0,0:39:57.16,0:39:59.56,Default,,0000,0000,0000,,我来跟你谈谈关于你侄子的事\NI'm here to talk about your nephew.
+Dialogue: 0,0:39:59.56,0:40:03.73,Default,,0000,0000,0000,,有一个男孩\NUn buen chico,
+Dialogue: 0,0:40:03.73,0:40:07.29,Default,,0000,0000,0000,,有一个男孩\NUn chico listo,
+Dialogue: 0,0:40:07.29,0:40:10.86,Default,,0000,0000,0000,,有一个男孩\NUn chico hermoso.
+Dialogue: 0,0:40:10.86,0:40:15.76,Default,,0000,0000,0000,,Maya? Maya 知道吗?\NMaya? Maya, que chico?
+Dialogue: 0,0:40:15.76,0:40:17.76,Default,,0000,0000,0000,,知道吗? Sebastian?\NQue chico? Sebastian?
+Dialogue: 0,0:40:18.59,0:40:20.76,Default,,0000,0000,0000,,Sebastian啊\NSebastian.
+Dialogue: 0,0:40:20.76,0:40:24.29,Default,,0000,0000,0000,,是的 是的 Sebastian Blood\NYes, yes. Sebastian Blood.
+Dialogue: 0,0:40:24.29,0:40:26.56,Default,,0000,0000,0000,,总会有人要伤害我们\NThere will always be those who seek to harm us,
+Dialogue: 0,0:40:26.56,0:40:28.16,Default,,0000,0000,0000,,但那不会让我们变弱\Nbut it will not weaken us.
+Dialogue: 0,0:40:28.16,0:40:29.73,Default,,0000,0000,0000,,那只会让我们更强大\NIt will only make us stronger.
+Dialogue: 0,0:40:31.63,0:40:32.86,Default,,0000,0000,0000,,做得好 议员\NWell done, Alderman.
+Dialogue: 0,0:40:32.86,0:40:35.63,Default,,0000,0000,0000,,多亏了你\NThanks to you.
+Dialogue: 0,0:40:35.63,0:40:38.33,Default,,0000,0000,0000,,但还是冒了很大的险\NStill a very big risk to take.
+Dialogue: 0,0:40:41.16,0:40:44.33,Default,,0000,0000,0000,,今晚我们一同支持Starling市\NTonight we both stood up for Starling city.
+Dialogue: 0,0:40:46.16,0:40:50.63,Default,,0000,0000,0000,,你和我 如果我们合作\NYou and me, we can save this city,
+Dialogue: 0,0:40:50.63,0:40:53.19,Default,,0000,0000,0000,,就可以拯救这个城市\Nif we work together.
+Dialogue: 0,0:40:53.19,0:40:56.89,Default,,0000,0000,0000,,Maya 你能跟我说说Sebastian的事吗?\NMaya, can you talk to me about Sebastian?
+Dialogue: 0,0:40:56.89,0:41:01.59,Default,,0000,0000,0000,,没事的 你可以信任我\NIt's OK. You can trust me.
+Dialogue: 0,0:41:01.59,0:41:03.96,Default,,0000,0000,0000,,好吗?\NOK?
+Dialogue: 0,0:41:03.96,0:41:06.63,Default,,0000,0000,0000,,Sebastian是我的朋友\NSebastian is my friend.
+Dialogue: 0,0:41:06.63,0:41:09.33,Default,,0000,0000,0000,,Sebastian是恶魔\NSebastian is the devil.
+Dialogue: 0,0:41:10.29,0:41:13.23,Default,,0000,0000,0000,,他把我扔到这里\NHe the one who put me here.
+Dialogue: 0,0:41:13.23,0:41:16.26,Default,,0000,0000,0000,,他让所有人认为我疯了\NHe made everybody think I'm insane.
+Dialogue: 0,0:41:16.26,0:41:19.09,Default,,0000,0000,0000,,但是他为什么那么做?\NBut why would he do that?
+Dialogue: 0,0:41:22.09,0:41:25.46,Default,,0000,0000,0000,,他杀了自己的父亲\NHe killed his father.
+Dialogue: 0,0:41:25.46,0:41:28.83,Default,,0000,0000,0000,,我当时在场\NAnd I was there.
+Dialogue: 0,0:41:28.83,0:41:31.66,Default,,0000,0000,0000,,我看见了\NI saw it.
+Dialogue: 0,0:41:35.63,0:41:39.86,Default,,0000,0000,0000,,天啊\NOh, my god.
+Dialogue: 0,0:41:39.86,0:41:45.16,Default,,0000,0000,0000,,Sebastian不是你的侄子\NSebastian isn't your nephew,
+Dialogue: 0,0:41:45.16,0:41:47.39,Default,,0000,0000,0000,,他是你儿子\Nhe's your son.
+Dialogue: 0,0:41:50.96,0:41:54.83,Default,,0000,0000,0000,,不要相信他的话\NDon't trust a word he says.
+Dialogue: 0,0:41:56.99,0:42:01.56,Default,,0000,0000,0000,,绝不能相信Sebastian Blood\NYou can't trust Sebastian Blood.
+Dialogue: 0,0:42:01.56,0:42:02.56,Default,,0000,0000,0000,,-=圣城家园SCG字幕组 http://hd.cnscg.com/=-\N仅供翻译交流使用, 禁止用于商业用途
+Dialogue: 0,0:42:02.56,0:42:04.56,*Default,NTP,0000,0000,0000,,-=圣城家园SCG字幕组 http://hd.cnscg.com/=-\N协调: Tracy\N时间轴: 潇妹纸\N翻译: 初见 yjk8654 水果哥 Tracy\N校对: 潇妹纸

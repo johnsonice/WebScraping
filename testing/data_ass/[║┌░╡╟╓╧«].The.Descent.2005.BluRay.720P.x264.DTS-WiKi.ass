@@ -1,0 +1,1404 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 544
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 简体中文,FangSong,36,&H00E1E1E1,&H80000000,&H01000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,10,10,134
+Style: 英语,Tahoma,24,&H003CFFFF,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:45.64,0:00:47.21,英语,NTP,0,0,0,,Come on!
+Dialogue: 0,0:00:51.51,0:00:53.88,英语,NTP,0,0,0,,Look out girls, here we go.
+Dialogue: 0,0:00:53.93,0:00:55.80,英语,NTP,0,0,0,,Look to the left.
+Dialogue: 0,0:00:55.84,0:00:57.26,英语,NTP,0,0,0,,Paddle!
+Dialogue: 0,0:00:57.30,0:00:59.72,英语,NTP,0,0,0,,-Can you see her? -Mummy!
+Dialogue: 0,0:01:08.51,0:01:10.05,英语,NTP,0,0,0,,Come on!
+Dialogue: 0,0:01:11.76,0:01:13.09,英语,NTP,0,0,0,,Hold on!
+Dialogue: 0,0:01:29.81,0:01:30.92,英语,NTP,0,0,0,,Christ!
+Dialogue: 0,0:01:33.34,0:01:34.51,英语,NTP,0,0,0,,Yes!
+Dialogue: 0,0:01:38.02,0:01:39.60,英语,NTP,0,0,0,,-Mummy! -Hi, guys!
+Dialogue: 0,0:01:39.64,0:01:42.13,英语,NTP,0,0,0,,Oh, Jessie. Yeah!
+Dialogue: 0,0:01:42.17,0:01:44.18,英语,NTP,0,0,0,,That was amazing.
+Dialogue: 0,0:01:47.05,0:01:51.09,英语,NTP,0,0,0,,-Oh, you girls were screaming. -All right, Jessie?
+Dialogue: 0,0:01:51.13,0:01:54.09,英语,NTP,0,0,0,,-That wasn't so bad, was it? -No, it was a piece of piss.
+Dialogue: 0,0:02:04.34,0:02:06.30,英语,NTP,0,0,0,,Bitch!
+Dialogue: 0,0:02:10.80,0:02:13.42,英语,NTP,0,0,0,,-Bit more, bit more. -Go on, Paul. Fish her out.
+Dialogue: 0,0:02:13.47,0:02:14.93,英语,NTP,0,0,0,,There. Got you.
+Dialogue: 0,0:02:14.97,0:02:16.93,英语,NTP,0,0,0,,-You all right? -Yeah.
+Dialogue: 0,0:02:18.64,0:02:20.55,英语,NTP,0,0,0,,It's freezing. I can't feel my fingers.
+Dialogue: 0,0:02:21.63,0:02:22.88,英语,NTP,0,0,0,,Heave!
+Dialogue: 0,0:02:25.34,0:02:26.93,英语,NTP,0,0,0,,Jessie, Jessie.
+Dialogue: 0,0:02:26.97,0:02:29.68,英语,NTP,0,0,0,,Ah, come here. Oh, babe.
+Dialogue: 0,0:02:34.43,0:02:37.76,英语,NTP,0,0,0,,It was just amazing. Would you like to do that?
+Dialogue: 0,0:02:38.89,0:02:41.59,英语,NTP,0,0,0,,Come on, Jessie, it's freezing. Let's go back to the car.
+Dialogue: 0,0:02:41.63,0:02:43.17,英语,NTP,0,0,0,,Go with your Daddy.
+Dialogue: 0,0:02:43.22,0:02:45.30,英语,NTP,0,0,0,,-I'll just help the girls. -All right.
+Dialogue: 0,0:02:45.34,0:02:47.55,英语,NTP,0,0,0,,It's OK, you go on. We can finish up here.
+Dialogue: 0,0:02:47.60,0:02:50.05,英语,NTP,0,0,0,,You sure? Thanks, guys. I'll see you at the hotel.
+Dialogue: 0,0:02:50.09,0:02:51.71,英语,NTP,0,0,0,,See you.
+Dialogue: 0,0:03:04.26,0:03:06.43,英语,NTP,0,0,0,,Jess, shall I phone Rachel's mum?
+Dialogue: 0,0:03:06.47,0:03:09.35,英语,NTP,0,0,0,,See if Rachel wants to come to dinner on Thursday?
+Dialogue: 0,0:03:09.39,0:03:11.38,英语,NTP,0,0,0,,Yeah? OK.
+Dialogue: 0,0:03:11.42,0:03:15.51,英语,NTP,0,0,0,,When she comes round, she can help us plan your birthday party.
+Dialogue: 0,0:03:15.55,0:03:18.76,英语,NTP,0,0,0,,Are you going to invite any boys this time?
+Dialogue: 0,0:03:23.63,0:03:25.59,英语,NTP,0,0,0,,Are you OK? You seem a bit distant.
+Dialogue: 0,0:03:26.68,0:03:28.14,英语,NTP,0,0,0,,I'm fine.
+Dialogue: 0,0:04:42.21,0:04:43.26,英语,NTP,0,0,0,,Jess?
+Dialogue: 0,0:04:51.05,0:04:52.09,英语,NTP,0,0,0,,Jessie!
+Dialogue: 0,0:05:16.97,0:05:18.01,英语,NTP,0,0,0,,Jessie!
+Dialogue: 0,0:05:19.55,0:05:22.76,英语,NTP,0,0,0,,I'm sorry. She's gone.
+Dialogue: 0,0:05:22.80,0:05:25.51,英语,NTP,0,0,0,,-I'm sorry. -No!
+Dialogue: 0,0:05:25.55,0:05:26.89,英语,NTP,0,0,0,,No, no.
+Dialogue: 0,0:05:26.93,0:05:29.14,英语,NTP,0,0,0,,No, no, no.
+Dialogue: 0,0:05:29.18,0:05:31.76,英语,NTP,0,0,0,,She's gone, Sarah.
+Dialogue: 0,0:06:42.63,0:06:45.76,英语,NTP,0,0,0,,Well, it's mud, blood and beer...
+Dialogue: 0,0:06:45.80,0:06:48.14,英语,NTP,0,0,0,,or sweet Jesus.
+Dialogue: 0,0:06:48.18,0:06:50.25,英语,NTP,0,0,0,,Great. Turn that shite off.
+Dialogue: 0,0:07:00.80,0:07:02.30,英语,NTP,0,0,0,,That's frightening.
+Dialogue: 0,0:07:03.80,0:07:06.93,英语,NTP,0,0,0,,Listen, we don't have to do this, you know.
+Dialogue: 0,0:07:07.93,0:07:10.21,英语,NTP,0,0,0,,We can head back and stay in town.
+Dialogue: 0,0:07:11.21,0:07:13.67,英语,NTP,0,0,0,,Get wasted, go to a barn dance.
+Dialogue: 0,0:07:14.97,0:07:16.72,英语,NTP,0,0,0,,Now that is frightening.
+Dialogue: 0,0:07:21.96,0:07:23.32,英语,NTP,0,0,0,,You're right, we don't have to do this.
+Dialogue: 0,0:07:24.06,0:07:26.00,英语,NTP,0,0,0,,But I'm not going to be the one to tell Juno.
+Dialogue: 0,0:07:27.72,0:07:31.42,英语,NTP,0,0,0,,She's a piece of work, man. She always brings us out into the middle of...
+Dialogue: 0,0:07:31.46,0:07:32.96,英语,NTP,0,0,0,,Well, look at it.
+Dialogue: 0,0:07:33.01,0:07:36.93,英语,NTP,0,0,0,,-She came to Scotland last year. -Yeah, and left pretty quickly.
+Dialogue: 0,0:08:14.80,0:08:16.76,英语,NTP,0,0,0,,Sarah! Beth!
+Dialogue: 0,0:08:17.72,0:08:19.43,英语,NTP,0,0,0,,Juno.
+Dialogue: 0,0:08:19.47,0:08:21.55,英语,NTP,0,0,0,,You look fantastic.
+Dialogue: 0,0:08:23.84,0:08:26.09,英语,NTP,0,0,0,,Ah, come here. Oh.
+Dialogue: 0,0:08:26.13,0:08:28.30,英语,NTP,0,0,0,,Let me look at you. Wow!
+Dialogue: 0,0:08:28.34,0:08:30.17,英语,NTP,0,0,0,,Everything is going to be fine.
+Dialogue: 0,0:08:30.21,0:08:31.88,英语,NTP,0,0,0,,Better. It's going to be great.
+Dialogue: 0,0:08:31.92,0:08:34.67,英语,NTP,0,0,0,,Becca and Sam can't wait to see you. Why don't you go in?
+Dialogue: 0,0:08:34.71,0:08:37.01,英语,NTP,0,0,0,,-Give me these. -Yeah.
+Dialogue: 0,0:08:37.05,0:08:38.09,英语,NTP,0,0,0,,Thanks.
+Dialogue: 0,0:08:38.13,0:08:40.38,英语,NTP,0,0,0,,-OK? -Yeah, OK.
+Dialogue: 0,0:08:43.59,0:08:45.30,英语,NTP,0,0,0,,Ooh, very nice.
+Dialogue: 0,0:08:45.34,0:08:48.18,英语,NTP,0,0,0,,-How is she? -Well, she's here.
+Dialogue: 0,0:08:48.97,0:08:50.67,英语,NTP,0,0,0,,One step at a time, eh?
+Dialogue: 0,0:08:51.75,0:08:54.38,英语,NTP,0,0,0,,Hey, hey, hey! Who are you calling a fucking cheater?
+Dialogue: 0,0:08:54.42,0:08:56.13,英语,NTP,0,0,0,,I'm calling you a fucking cheater.
+Dialogue: 0,0:08:56.17,0:08:57.97,英语,NTP,0,0,0,,Hello!
+Dialogue: 0,0:08:58.01,0:08:59.50,英语,NTP,0,0,0,,Hey!
+Dialogue: 0,0:09:00.25,0:09:01.88,英语,NTP,0,0,0,,Hello.
+Dialogue: 0,0:09:03.17,0:09:05.84,英语,NTP,0,0,0,,-You do look really good. -Oh, you look amazing.
+Dialogue: 0,0:09:05.88,0:09:08.13,英语,NTP,0,0,0,,-Hey! -Let me put the bags down.
+Dialogue: 0,0:09:11.92,0:09:14.05,英语,NTP,0,0,0,,Oh, so nice to see you.
+Dialogue: 0,0:09:14.88,0:09:16.76,英语,NTP,0,0,0,,-We're starving. -OK, go, go.
+Dialogue: 0,0:09:16.80,0:09:19.54,英语,NTP,0,0,0,,-What have you got? -Er, well, there's a bit of...
+Dialogue: 0,0:09:19.58,0:09:20.96,英语,NTP,0,0,0,,Sam. Sam.
+Dialogue: 0,0:09:21.00,0:09:23.59,英语,NTP,0,0,0,,Thank you so much for your letter. It meant a lot to me.
+Dialogue: 0,0:09:23.63,0:09:26.55,英语,NTP,0,0,0,,Oh, Sarah, look, I'm so sorry that I couldn't be there.
+Dialogue: 0,0:09:26.59,0:09:28.68,英语,NTP,0,0,0,,You know, mid-terms and...
+Dialogue: 0,0:09:28.72,0:09:33.13,英语,NTP,0,0,0,,You know, Sam is going to be Doctor Van Ney in like a year's time.
+Dialogue: 0,0:09:33.17,0:09:34.21,英语,NTP,0,0,0,,No!
+Dialogue: 0,0:09:34.26,0:09:38.43,英语,NTP,0,0,0,,-Please tell me it's longer than that? -I am so proud of my little sister.
+Dialogue: 0,0:09:38.47,0:09:41.42,英语,NTP,0,0,0,,-Who wants a drink? -Yes! Me!
+Dialogue: 0,0:09:41.46,0:09:44.17,英语,NTP,0,0,0,,-Brandy shot? -Yeah, yeah.
+Dialogue: 0,0:09:44.21,0:09:46.05,英语,NTP,0,0,0,,-So, Beth... -Mm-hm?
+Dialogue: 0,0:09:46.09,0:09:49.39,英语,NTP,0,0,0,,I hear it all starts falling apart past 25?
+Dialogue: 0,0:09:50.46,0:09:53.88,英语,NTP,0,0,0,,Is that what they teach you at medical school, yeah? To take the piss?
+Dialogue: 0,0:09:53.92,0:09:55.97,英语,NTP,0,0,0,,Cheeky bitch!
+Dialogue: 0,0:09:56.01,0:09:58.18,英语,NTP,0,0,0,,Can anyone make me feel any older?
+Dialogue: 0,0:09:58.22,0:10:00.59,英语,NTP,0,0,0,,-Oh, here we go. -Hello.
+Dialogue: 0,0:10:00.63,0:10:04.42,英语,NTP,0,0,0,,-Hi, you must be the teacher. -Beth, Sarah, this is Holly.
+Dialogue: 0,0:10:04.46,0:10:06.76,英语,NTP,0,0,0,,Juno's protege.
+Dialogue: 0,0:10:06.80,0:10:10.21,英语,NTP,0,0,0,,I always thought Juno would eat her young.
+Dialogue: 0,0:10:10.25,0:10:12.67,英语,NTP,0,0,0,,I'm well able to handle myself, thanks very much.
+Dialogue: 0,0:10:12.71,0:10:16.26,英语,NTP,0,0,0,,I've heard about you. You're that mentalist that jumps off buildings.
+Dialogue: 0,0:10:16.30,0:10:20.13,英语,NTP,0,0,0,,-Base jumping. You should try it, seriously. -So you live in America now?
+Dialogue: 0,0:10:20.17,0:10:22.71,英语,NTP,0,0,0,,Ran out of things to jump off in Galway, you know.
+Dialogue: 0,0:10:22.75,0:10:25.34,英语,NTP,0,0,0,,I'm always searching for the next big high.
+Dialogue: 0,0:10:25.38,0:10:27.68,英语,NTP,0,0,0,,-Sure you'd know all about that. -Sorry?
+Dialogue: 0,0:10:27.72,0:10:30.63,英语,NTP,0,0,0,,Juno showed me a photo of when you used to climb together.
+Dialogue: 0,0:10:30.67,0:10:34.34,英语,NTP,0,0,0,,I found this classic picture. Ah!
+Dialogue: 0,0:10:34.38,0:10:36.59,英语,NTP,0,0,0,,Oh, no!
+Dialogue: 0,0:10:36.63,0:10:40.63,英语,NTP,0,0,0,,-Look at the state of us! -Oh, my God. That's bad.
+Dialogue: 0,0:10:40.67,0:10:42.54,英语,NTP,0,0,0,,Sexy!
+Dialogue: 0,0:10:43.96,0:10:45.67,英语,NTP,0,0,0,,Love each day.
+Dialogue: 0,0:10:47.51,0:10:49.96,英语,NTP,0,0,0,,Used to be something Paul used to say.
+Dialogue: 0,0:10:52.34,0:10:54.46,英语,NTP,0,0,0,,Anyway...cheers.
+Dialogue: 0,0:10:54.51,0:10:57.38,英语,NTP,0,0,0,,Here's to our adventure.
+Dialogue: 0,0:10:58.30,0:11:00.33,英语,NTP,0,0,0,,Cheers.
+Dialogue: 0,0:11:05.63,0:11:07.34,英语,NTP,0,0,0,,Come on, light, you bastard.
+Dialogue: 0,0:11:10.83,0:11:13.63,英语,NTP,0,0,0,,So, have you done Boreham Caverns before?
+Dialogue: 0,0:11:13.67,0:11:16.92,英语,NTP,0,0,0,,I saw it in a book once. It's for tourists. It's not adventure.
+Dialogue: 0,0:11:16.97,0:11:20.54,英语,NTP,0,0,0,,Might as well have hand rails and a fucking gift shop.
+Dialogue: 0,0:11:20.58,0:11:22.96,英语,NTP,0,0,0,,If you're a caver, jumper, climber...
+Dialogue: 0,0:11:24.00,0:11:26.34,英语,NTP,0,0,0,,...you just do it and not give a shite.
+Dialogue: 0,0:11:26.38,0:11:29.05,英语,NTP,0,0,0,,Or the thing that's bigger than you will get you.
+Dialogue: 0,0:11:34.96,0:11:38.18,英语,NTP,0,0,0,,You want adventure, Holly? When have I ever let you down?
+Dialogue: 0,0:11:40.08,0:11:41.96,英语,NTP,0,0,0,,What?
+Dialogue: 0,0:11:42.00,0:11:45.05,英语,NTP,0,0,0,,Holly, tomorrow is going to be awesome. OK?
+Dialogue: 0,0:11:46.72,0:11:49.62,英语,NTP,0,0,0,,Take this. You need it.
+Dialogue: 0,0:11:59.29,0:12:02.25,英语,NTP,0,0,0,,What about Josh, Sam? Are you guys still together?
+Dialogue: 0,0:12:02.29,0:12:04.92,英语,NTP,0,0,0,,Kind of. Sort of.
+Dialogue: 0,0:12:04.96,0:12:07.26,英语,NTP,0,0,0,,Different...shifts.
+Dialogue: 0,0:12:07.97,0:12:10.21,英语,NTP,0,0,0,,Oh, my God.
+Dialogue: 0,0:12:11.67,0:12:14.75,英语,NTP,0,0,0,,-Oh, my Jesus! -What do you think, eh?
+Dialogue: 0,0:12:17.47,0:12:19.92,英语,NTP,0,0,0,,Don't say a fucking word, all right?
+Dialogue: 0,0:12:19.96,0:12:21.71,英语,NTP,0,0,0,,It was a Christmas present.
+Dialogue: 0,0:12:27.88,0:12:29.37,英语,NTP,0,0,0,,Shut up.
+Dialogue: 0,0:12:30.92,0:12:33.38,英语,NTP,0,0,0,,What about you Holly? Got a man?
+Dialogue: 0,0:12:33.42,0:12:34.96,英语,NTP,0,0,0,,I'm a sports fuck like Juno.
+Dialogue: 0,0:12:35.00,0:12:37.76,英语,NTP,0,0,0,,-What? -Rebecca, too, I think.
+Dialogue: 0,0:12:41.46,0:12:44.59,英语,NTP,0,0,0,,But when I'm older, I want to have lots of babies.
+Dialogue: 0,0:12:46.30,0:12:49.01,英语,NTP,0,0,0,,Beth, did Sarah tell you that...
+Dialogue: 0,0:14:38.51,0:14:40.21,英语,NTP,0,0,0,,Wakey.
+Dialogue: 0,0:14:40.25,0:14:41.63,英语,NTP,0,0,0,,Wakey.
+Dialogue: 0,0:14:41.67,0:14:44.75,英语,NTP,0,0,0,,I feel like road kill. Give me five minutes.
+Dialogue: 0,0:14:44.80,0:14:46.67,英语,NTP,0,0,0,,Five minutes.
+Dialogue: 0,0:15:04.04,0:15:07.13,英语,NTP,0,0,0,,Good morning, my little ones. Wakey, wakey.
+Dialogue: 0,0:15:07.80,0:15:12.13,英语,NTP,0,0,0,,-Good morning. -Is that what you call it? It's fucking freezing!
+Dialogue: 0,0:15:12.17,0:15:13.63,英语,NTP,0,0,0,,Holly!
+Dialogue: 0,0:15:19.05,0:15:22.13,英语,NTP,0,0,0,,We're leaving at seven. Don't be late.
+Dialogue: 0,0:15:22.17,0:15:23.63,英语,NTP,0,0,0,,Try that.
+Dialogue: 0,0:15:25.17,0:15:27.26,英语,NTP,0,0,0,,The queen is dead.
+Dialogue: 0,0:15:27.30,0:15:30.37,英语,NTP,0,0,0,,Long live...the fucking queen.
+Dialogue: 0,0:15:40.04,0:15:41.71,英语,NTP,0,0,0,,Beth, you're not driving.
+Dialogue: 0,0:15:41.75,0:15:44.71,英语,NTP,0,0,0,,-If you drive we'll never get there. -Paper, scissors, stone.
+Dialogue: 0,0:15:44.75,0:15:46.55,英语,NTP,0,0,0,,-Come on. -Oh, you're a dick.
+Dialogue: 0,0:15:46.59,0:15:47.88,英语,NTP,0,0,0,,-Go on. -OK.
+Dialogue: 0,0:15:49.05,0:15:51.33,英语,NTP,0,0,0,,-There you go. -No, wait, babe. Best of three.
+Dialogue: 0,0:15:51.37,0:15:52.83,英语,NTP,0,0,0,,I'll drive. Right?
+Dialogue: 0,0:15:52.88,0:15:54.50,英语,NTP,0,0,0,,Ladies, group photo.
+Dialogue: 0,0:15:54.54,0:15:56.67,英语,NTP,0,0,0,,You'd better hurry it up. We're running late.
+Dialogue: 0,0:15:56.71,0:16:00.42,英语,NTP,0,0,0,,-I look like shit. -We all look like shit. Just give me a smile.
+Dialogue: 0,0:16:00.46,0:16:02.21,英语,NTP,0,0,0,,-Hat? No hat? -No hat.
+Dialogue: 0,0:16:02.25,0:16:03.71,英语,NTP,0,0,0,,-No hat, no hat. -All right.
+Dialogue: 0,0:16:03.75,0:16:06.59,英语,NTP,0,0,0,,-Run, run, run, run. -Say "sausage"!
+Dialogue: 0,0:16:06.63,0:16:08.42,英语,NTP,0,0,0,,Sausage!
+Dialogue: 0,0:16:37.13,0:16:40.25,英语,NTP,0,0,0,,-Sarah, slow down a bit. -I'm having fun.
+Dialogue: 0,0:16:40.29,0:16:41.92,英语,NTP,0,0,0,,She's having fun.
+Dialogue: 0,0:16:41.96,0:16:43.71,英语,NTP,0,0,0,,Whoa! Turn, turn, turn there.
+Dialogue: 0,0:16:43.75,0:16:45.63,英语,NTP,0,0,0,,-Let's off road. -Great.
+Dialogue: 0,0:16:48.80,0:16:50.87,英语,NTP,0,0,0,,You should have some water.
+Dialogue: 0,0:16:50.92,0:16:55.04,英语,NTP,0,0,0,,Trying to set this watch is impossible. The buttons are too fucking small.
+Dialogue: 0,0:16:55.09,0:16:57.17,英语,NTP,0,0,0,,-Leave it alone. -Why do you wear it, anyway?
+Dialogue: 0,0:16:57.21,0:17:00.62,英语,NTP,0,0,0,,-My boyfriend gave it to me, it's sentimental. -It's fucking mental.
+Dialogue: 0,0:17:00.67,0:17:02.96,英语,NTP,0,0,0,,Any guy that gave that to me, I'd dump him.
+Dialogue: 0,0:17:05.75,0:17:07.88,英语,NTP,0,0,0,,BETH: Juno, are you sure this is the right way?
+Dialogue: 0,0:17:07.92,0:17:11.29,英语,NTP,0,0,0,,-Relax, I've never been lost in my life. -Marvellous.
+Dialogue: 0,0:17:23.63,0:17:26.21,英语,NTP,0,0,0,,-So have you done these caves before? -No.
+Dialogue: 0,0:17:26.25,0:17:28.92,英语,NTP,0,0,0,,But they are only level two. Quite safe, don't worry.
+Dialogue: 0,0:17:28.95,0:17:32.42,英语,NTP,0,0,0,,-I wasn't. -The only danger is that I might fall asleep.
+Dialogue: 0,0:17:32.46,0:17:35.34,英语,NTP,0,0,0,,Boreham Caves. More like boredom caves.
+Dialogue: 0,0:18:03.58,0:18:05.34,英语,NTP,0,0,0,,-Nice parking. -Thanks.
+Dialogue: 0,0:18:15.21,0:18:18.71,英语,NTP,0,0,0,,This one time in Galway. when I free-climbed the cathedral,
+Dialogue: 0,0:18:18.76,0:18:21.92,英语,NTP,0,0,0,,a priest chased me down the whole of the ground floor.
+Dialogue: 0,0:18:21.96,0:18:24.29,英语,NTP,0,0,0,,That was brilliant.
+Dialogue: 0,0:18:24.33,0:18:27.88,英语,NTP,0,0,0,,-I shouldn't have wasted the effort, though. -Holly, shut up.
+Dialogue: 0,0:18:27.92,0:18:30.04,英语,NTP,0,0,0,,Rebecca, leave her alone.
+Dialogue: 0,0:18:30.08,0:18:32.92,英语,NTP,0,0,0,,OK, guys, let's get moving. We're running late.
+Dialogue: 0,0:18:41.29,0:18:43.79,英语,NTP,0,0,0,,Come on, keep up.
+Dialogue: 0,0:18:45.34,0:18:48.46,英语,NTP,0,0,0,,-Hey, Holly, wait up. -Move it, short arse.
+Dialogue: 0,0:18:52.04,0:18:55.75,英语,NTP,0,0,0,,-Oi, Carter, get to the back. -Come on, you lazy bastard.
+Dialogue: 0,0:19:02.87,0:19:04.96,英语,NTP,0,0,0,,You finally caught up with me.
+Dialogue: 0,0:19:08.80,0:19:13.33,英语,NTP,0,0,0,,-Juno, are we there yet? -There's a river about half a mile ahead.
+Dialogue: 0,0:19:13.38,0:19:16.54,英语,NTP,0,0,0,,When we reach it, we follow it up to the mouth of the cave, OK?
+Dialogue: 0,0:19:16.59,0:19:19.54,英语,NTP,0,0,0,,How does she know there's a river up ahead? I can't hear a thing.
+Dialogue: 0,0:19:19.58,0:19:21.08,英语,NTP,0,0,0,,She can probably smell it.
+Dialogue: 0,0:19:21.12,0:19:23.71,英语,NTP,0,0,0,,She came up here last week to check the route out.
+Dialogue: 0,0:19:23.75,0:19:27.17,英语,NTP,0,0,0,,It's rule number one, file a flight plan and stick to it.
+Dialogue: 0,0:19:27.21,0:19:29.95,英语,NTP,0,0,0,,-And rule number two? -Don't go wandering off.
+Dialogue: 0,0:19:30.00,0:19:32.00,英语,NTP,0,0,0,,You think it's dark when you turn out the lights.
+Dialogue: 0,0:19:32.00,0:19:34.62,英语,NTP,0,0,0,,Well, down there it's pitch black.
+Dialogue: 0,0:19:35.96,0:19:39.54,英语,NTP,0,0,0,,-You can get dehydration, disorientation... -Yeah, yeah, yeah.
+Dialogue: 0,0:19:39.58,0:19:41.50,英语,NTP,0,0,0,,-...claustrophobia... -Blah, blah.
+Dialogue: 0,0:19:41.54,0:19:45.59,英语,NTP,0,0,0,,...panic attacks, paranoia, hallucinations,
+Dialogue: 0,0:19:45.63,0:19:48.30,英语,NTP,0,0,0,,visual and aural deterioration...
+Dialogue: 0,0:20:08.00,0:20:09.04,英语,NTP,0,0,0,,Hey!
+Dialogue: 0,0:20:13.42,0:20:16.79,英语,NTP,0,0,0,,Yeah, lovely, Holly. A real Kodak moment.
+Dialogue: 0,0:20:16.84,0:20:19.75,英语,NTP,0,0,0,,-Don't touch it. -You wouldn't want to piss it off.
+Dialogue: 0,0:20:19.79,0:20:22.37,英语,NTP,0,0,0,,What do you think did that, Sam? A bear?
+Dialogue: 0,0:20:22.42,0:20:24.58,英语,NTP,0,0,0,,What is this? Nature Detectives?
+Dialogue: 0,0:20:24.63,0:20:26.19,英语,NTP,0,0,0,,It could have been Big Foot. Come on.
+Dialogue: 0,0:20:26.19,0:20:28.16,英语,NTP,0,0,0,,Sam, stop poking it with a fucking stick.
+Dialogue: 0,0:20:50.75,0:20:52.08,英语,NTP,0,0,0,,This is it.
+Dialogue: 0,0:20:55.71,0:20:58.42,英语,NTP,0,0,0,,-You're having a laugh! -Afraid not.
+Dialogue: 0,0:21:00.29,0:21:03.00,英语,NTP,0,0,0,,I'm an English teacher, not fucking Tomb Raider.
+Dialogue: 0,0:21:04.42,0:21:06.09,英语,NTP,0,0,0,,You'll be fine.
+Dialogue: 0,0:21:12.96,0:21:16.29,英语,NTP,0,0,0,,OK, Sarah, Beth, you're up next. Sam, stay with Becca.
+Dialogue: 0,0:21:16.34,0:21:18.13,英语,NTP,0,0,0,,Do what she does and you'll be fine.
+Dialogue: 0,0:21:18.17,0:21:21.62,英语,NTP,0,0,0,,Holly, safety first. I don't want any stunts this time.
+Dialogue: 0,0:21:22.46,0:21:24.17,英语,NTP,0,0,0,,-You OK? See you down there. -No.
+Dialogue: 0,0:21:24.21,0:21:26.95,英语,NTP,0,0,0,,Make sure your cow's tail is locked there and there.
+Dialogue: 0,0:21:26.95,0:21:28.37,英语,NTP,0,0,0,,You hold on to this like that.
+Dialogue: 0,0:21:28.37,0:21:30.70,英语,NTP,0,0,0,,Look, I have done this before, you know?
+Dialogue: 0,0:21:30.75,0:21:35.17,英语,NTP,0,0,0,,-I'm only looking after you. -And I appreciate it, in small doses.
+Dialogue: 0,0:21:59.16,0:22:00.79,英语,NTP,0,0,0,,You gotta see this place.
+Dialogue: 0,0:22:00.83,0:22:03.17,英语,NTP,0,0,0,,It's beautiful!
+Dialogue: 0,0:22:03.21,0:22:06.84,英语,NTP,0,0,0,,-You won't believe this, Beth. -Oh, shit!
+Dialogue: 0,0:22:13.58,0:22:15.92,英语,NTP,0,0,0,,Oh, my God, I'm gonna die.
+Dialogue: 0,0:22:23.67,0:22:25.25,英语,NTP,0,0,0,,Ah, piece of piss.
+Dialogue: 0,0:22:27.96,0:22:29.49,英语,NTP,0,0,0,,Oh, my God!
+Dialogue: 0,0:22:29.54,0:22:31.00,英语,NTP,0,0,0,,It's incredible.
+Dialogue: 0,0:22:31.04,0:22:32.54,英语,NTP,0,0,0,,Clear!
+Dialogue: 0,0:22:39.62,0:22:42.04,英语,NTP,0,0,0,,It's Holly.
+Dialogue: 0,0:22:42.08,0:22:43.37,英语,NTP,0,0,0,,Shit, move!
+Dialogue: 0,0:22:44.87,0:22:49.49,英语,NTP,0,0,0,,Holly, you do this safely, in order, following my lead. OK?
+Dialogue: 0,0:22:49.54,0:22:51.25,英语,NTP,0,0,0,,Take it slow and easy.
+Dialogue: 0,0:23:00.58,0:23:03.21,英语,NTP,0,0,0,,-Juno. -Smart arse.
+Dialogue: 0,0:23:35.12,0:23:36.54,英语,NTP,0,0,0,,It's OK. It's OK. It's OK.
+Dialogue: 0,0:23:36.58,0:23:39.33,英语,NTP,0,0,0,,They're gone. They're gone now. Look.
+Dialogue: 0,0:23:42.62,0:23:45.25,英语,NTP,0,0,0,,One bat, two bats.
+Dialogue: 0,0:23:45.29,0:23:46.71,英语,NTP,0,0,0,,50 bats.
+Dialogue: 0,0:23:48.42,0:23:50.54,英语,NTP,0,0,0,,Holly, fuck off.
+Dialogue: 0,0:23:54.62,0:23:56.38,英语,NTP,0,0,0,,Which way?
+Dialogue: 0,0:23:56.42,0:23:59.70,英语,NTP,0,0,0,,There's only one way out of this chamber and that's down the pipe.
+Dialogue: 0,0:24:10.41,0:24:11.45,英语,NTP,0,0,0,,OK.
+Dialogue: 0,0:24:56.92,0:24:58.38,英语,NTP,0,0,0,,It's a drop.
+Dialogue: 0,0:25:03.87,0:25:05.17,英语,NTP,0,0,0,,OK?
+Dialogue: 0,0:25:09.20,0:25:10.87,英语,NTP,0,0,0,,Holly, chuck us your bag.
+Dialogue: 0,0:25:27.58,0:25:29.83,英语,NTP,0,0,0,,Oh, my God!
+Dialogue: 0,0:26:53.12,0:26:55.37,英语,NTP,0,0,0,,Find anything good?
+Dialogue: 0,0:26:55.42,0:26:58.49,英语,NTP,0,0,0,,-Jesus Christ! -Come on, let's eat.
+Dialogue: 0,0:27:04.00,0:27:08.00,英语,NTP,0,0,0,,-Holly, would you take a break? -I just want to take a few more shots.
+Dialogue: 0,0:27:08.04,0:27:10.79,英语,NTP,0,0,0,,This cave is a lot cooler than I thought.
+Dialogue: 0,0:27:15.25,0:27:16.29,英语,NTP,0,0,0,,Hey?
+Dialogue: 0,0:27:16.33,0:27:18.33,英语,NTP,0,0,0,,Not hungry.
+Dialogue: 0,0:27:19.08,0:27:20.62,英语,NTP,0,0,0,,Are you OK?
+Dialogue: 0,0:27:21.70,0:27:24.16,英语,NTP,0,0,0,,Juno, I won't break. I'm fine.
+Dialogue: 0,0:27:25.37,0:27:27.46,英语,NTP,0,0,0,,-I asked you for this. -I know.
+Dialogue: 0,0:27:30.58,0:27:32.66,英语,NTP,0,0,0,,Um, Sarah?
+Dialogue: 0,0:27:33.41,0:27:36.50,英语,NTP,0,0,0,,I haven't had a chance to say that I'm...
+Dialogue: 0,0:27:36.54,0:27:39.74,英语,NTP,0,0,0,,really sorry I didn't stay around longer after the accident.
+Dialogue: 0,0:27:45.71,0:27:47.58,英语,NTP,0,0,0,,Anyway...
+Dialogue: 0,0:27:48.99,0:27:50.87,英语,NTP,0,0,0,,...we're all here for you now, OK?
+Dialogue: 0,0:27:51.66,0:27:53.29,英语,NTP,0,0,0,,Yeah.
+Dialogue: 0,0:27:53.33,0:27:56.37,英语,NTP,0,0,0,,Look, sorry. I'm feeling a bit out of it. It's probably jet lag.
+Dialogue: 0,0:27:56.42,0:27:59.66,英语,NTP,0,0,0,,-So I'm just going to take a look around, OK? -Yeah, OK.
+Dialogue: 0,0:27:59.70,0:28:02.29,英语,NTP,0,0,0,,Why don't you try and find us the way through, huh?
+Dialogue: 0,0:28:02.33,0:28:04.58,英语,NTP,0,0,0,,Hey, don't go too far.
+Dialogue: 0,0:28:11.87,0:28:14.87,英语,NTP,0,0,0,,What's up with her? She looks like she's seen a ghost.
+Dialogue: 0,0:28:14.91,0:28:16.33,英语,NTP,0,0,0,,She's fine.
+Dialogue: 0,0:28:34.91,0:28:37.00,英语,NTP,0,0,0,,I've found the next passage!
+Dialogue: 0,0:28:45.71,0:28:48.95,英语,NTP,0,0,0,,-That's it? It's a bit small, isn't it? -Hey, hey, hey!
+Dialogue: 0,0:28:48.99,0:28:51.91,英语,NTP,0,0,0,,-I don't get this. -What?
+Dialogue: 0,0:28:51.95,0:28:54.66,英语,NTP,0,0,0,,This is not how I imagined it from reading the book.
+Dialogue: 0,0:28:54.71,0:28:58.25,英语,NTP,0,0,0,,That's why I don't trust books. Leaves too much room for interpretation.
+Dialogue: 0,0:28:58.28,0:28:59.83,英语,NTP,0,0,0,,Something wrong?
+Dialogue: 0,0:28:59.87,0:29:01.16,英语,NTP,0,0,0,,-No. -It's nothing.
+Dialogue: 0,0:29:02.49,0:29:04.04,英语,NTP,0,0,0,,I'm taking point, guys.
+Dialogue: 0,0:29:05.50,0:29:08.82,英语,NTP,0,0,0,,Careful. Just find the way through. We'll wait here.
+Dialogue: 0,0:32:03.49,0:32:04.54,英语,NTP,0,0,0,,Sarah?
+Dialogue: 0,0:32:05.66,0:32:07.83,英语,NTP,0,0,0,,-Shit. -Are you still behind me?
+Dialogue: 0,0:32:07.87,0:32:09.28,英语,NTP,0,0,0,,Yes.
+Dialogue: 0,0:32:11.16,0:32:12.20,英语,NTP,0,0,0,,Shit!
+Dialogue: 0,0:32:13.04,0:32:14.70,英语,NTP,0,0,0,,Shit!
+Dialogue: 0,0:32:14.75,0:32:18.45,英语,NTP,0,0,0,,Sarah? Guys, it's Sarah, I think she might be stuck.
+Dialogue: 0,0:32:18.49,0:32:20.24,英语,NTP,0,0,0,,I am stuck!
+Dialogue: 0,0:32:20.99,0:32:23.24,英语,NTP,0,0,0,,All right, Sarah. Calm down, just relax.
+Dialogue: 0,0:32:25.16,0:32:27.58,英语,NTP,0,0,0,,I can't fucking relax.
+Dialogue: 0,0:32:27.62,0:32:28.95,英语,NTP,0,0,0,,Fuck, fuck!
+Dialogue: 0,0:32:28.99,0:32:30.50,英语,NTP,0,0,0,,Sarah, you have to calm down
+Dialogue: 0,0:32:30.50,0:32:33.24,英语,NTP,0,0,0,,and the only way you're going to do that is to breathe.
+Dialogue: 0,0:32:33.29,0:32:36.96,英语,NTP,0,0,0,,OK, breathe slowly. Just keep breathing.
+Dialogue: 0,0:32:39.78,0:32:42.53,英语,NTP,0,0,0,,I can't. I can't.
+Dialogue: 0,0:32:42.58,0:32:46.75,英语,NTP,0,0,0,,-I can't fucking breathe. -Sarah, OK, listen to me.
+Dialogue: 0,0:32:46.79,0:32:48.70,英语,NTP,0,0,0,,Just listen to my voice, yeah?
+Dialogue: 0,0:32:49.78,0:32:53.49,英语,NTP,0,0,0,,Sarah, I'm coming. I'm coming back. OK? OK.
+Dialogue: 0,0:32:54.33,0:32:56.50,英语,NTP,0,0,0,,Sarah, OK?
+Dialogue: 0,0:32:56.54,0:33:00.32,英语,NTP,0,0,0,,Listen to me, keep breathing. OK? Hey.
+Dialogue: 0,0:33:04.20,0:33:07.75,英语,NTP,0,0,0,,OK. OK. OK.
+Dialogue: 0,0:33:07.79,0:33:11.99,英语,NTP,0,0,0,,-Look here at me, Sarah, hey? -Help me.
+Dialogue: 0,0:33:12.03,0:33:15.37,英语,NTP,0,0,0,,What are you so worried about, Sarah? Look at me.
+Dialogue: 0,0:33:15.41,0:33:17.50,英语,NTP,0,0,0,,OK, breathe. Breathe, OK?
+Dialogue: 0,0:33:17.54,0:33:19.91,英语,NTP,0,0,0,,Hey, hey, hey. Listen to me.
+Dialogue: 0,0:33:19.95,0:33:24.24,英语,NTP,0,0,0,,-Listen to me. What are you so afraid of? -I can't fucking move!
+Dialogue: 0,0:33:24.29,0:33:27.50,英语,NTP,0,0,0,,You can move. Sarah, look at me, look at me.
+Dialogue: 0,0:33:28.53,0:33:32.11,英语,NTP,0,0,0,,The worst thing that could have happened to you has already happened...
+Dialogue: 0,0:33:32.11,0:33:33.16,英语,NTP,0,0,0,,...and you're still here.
+Dialogue: 0,0:33:33.20,0:33:37.33,英语,NTP,0,0,0,,This is just a poxy cave and there's nothing left to be afraid of, I promise.
+Dialogue: 0,0:33:37.37,0:33:39.20,英语,NTP,0,0,0,,OK? OK?
+Dialogue: 0,0:33:39.24,0:33:41.32,英语,NTP,0,0,0,,Hey. Hey, listen, listen.
+Dialogue: 0,0:33:41.37,0:33:45.29,英语,NTP,0,0,0,,Listen to me, you'll love this one. How do you give a lemon an orgasm?
+Dialogue: 0,0:33:45.33,0:33:49.28,英语,NTP,0,0,0,,God damn it, let me hear you say it. How do you give a lemon an orgasm?
+Dialogue: 0,0:33:49.32,0:33:51.78,英语,NTP,0,0,0,,What do you do? You tickle its citrus.
+Dialogue: 0,0:33:51.82,0:33:53.58,英语,NTP,0,0,0,,OK, that's better. Come on.
+Dialogue: 0,0:33:53.62,0:33:57.46,英语,NTP,0,0,0,,OK, OK. All right, we're going to move now. Take hold of my arm, all right?
+Dialogue: 0,0:33:57.50,0:34:00.24,英语,NTP,0,0,0,,We're going to move slowly. That's it, grab my arm, OK?
+Dialogue: 0,0:34:00.28,0:34:01.53,英语,NTP,0,0,0,,OK, come on.
+Dialogue: 0,0:34:01.57,0:34:04.24,英语,NTP,0,0,0,,Just slowly. Pull on me, OK? OK, come on.
+Dialogue: 0,0:34:07.04,0:34:10.03,英语,NTP,0,0,0,,The rope bag. I forgot the rope bag.
+Dialogue: 0,0:34:10.07,0:34:10.95,英语,NTP,0,0,0,,OK.
+Dialogue: 0,0:34:17.54,0:34:21.16,英语,NTP,0,0,0,,OK, fuck the rope bag. OK, move, now!
+Dialogue: 0,0:34:21.20,0:34:22.28,英语,NTP,0,0,0,,Now!
+Dialogue: 0,0:34:22.33,0:34:23.41,英语,NTP,0,0,0,,Hurry up!
+Dialogue: 0,0:34:24.49,0:34:26.37,英语,NTP,0,0,0,,Sarah, come on!
+Dialogue: 0,0:34:27.08,0:34:29.16,英语,NTP,0,0,0,,Sarah, keep hold of the rope!
+Dialogue: 0,0:34:49.95,0:34:51.74,英语,NTP,0,0,0,,Sarah?
+Dialogue: 0,0:34:52.95,0:34:54.87,英语,NTP,0,0,0,,-Are you OK? -I'm all right.
+Dialogue: 0,0:34:54.91,0:34:57.79,英语,NTP,0,0,0,,Is everybody OK? Is everybody OK?
+Dialogue: 0,0:34:57.83,0:34:59.78,英语,NTP,0,0,0,,-Don't fucking touch me. -Rebecca?
+Dialogue: 0,0:34:59.82,0:35:02.20,英语,NTP,0,0,0,,I'm here, I'm OK. Beth, are you injured?
+Dialogue: 0,0:35:02.24,0:35:03.49,英语,NTP,0,0,0,,No, I'm fine.
+Dialogue: 0,0:35:03.53,0:35:05.78,英语,NTP,0,0,0,,Nobody move until the dust has settled.
+Dialogue: 0,0:35:05.78,0:35:08.03,英语,NTP,0,0,0,,Don't worry, Juno, we're not going anywhere.
+Dialogue: 0,0:35:11.53,0:35:13.41,英语,NTP,0,0,0,,You might be right about that.
+Dialogue: 0,0:35:13.45,0:35:15.20,英语,NTP,0,0,0,,Jesus.
+Dialogue: 0,0:35:17.50,0:35:19.57,英语,NTP,0,0,0,,So what's the story now?
+Dialogue: 0,0:35:20.41,0:35:24.08,英语,NTP,0,0,0,,According to the guidebook, this cave system has three ways out.
+Dialogue: 0,0:35:24.12,0:35:27.50,英语,NTP,0,0,0,,This is just one of them. Isn't that right, Juno?
+Dialogue: 0,0:35:28.24,0:35:29.99,英语,NTP,0,0,0,,Juno, that's right, isn't it?
+Dialogue: 0,0:35:30.91,0:35:32.37,英语,NTP,0,0,0,,Check the book.
+Dialogue: 0,0:35:34.24,0:35:36.33,英语,NTP,0,0,0,,-I didn't bring it. -What?
+Dialogue: 0,0:35:37.62,0:35:39.11,英语,NTP,0,0,0,,No point.
+Dialogue: 0,0:35:40.20,0:35:42.32,英语,NTP,0,0,0,,For Christ's sake, Juno.
+Dialogue: 0,0:35:42.37,0:35:44.87,英语,NTP,0,0,0,,I knew it. I knew this wasn't right.
+Dialogue: 0,0:35:44.91,0:35:47.14,英语,NTP,0,0,0,,You filed a flight plan to mountain rescue?
+Dialogue: 0,0:35:47.14,0:35:49.36,英语,NTP,0,0,0,,If we don't report in, they'll come looking for us.
+Dialogue: 0,0:35:49.40,0:35:54.24,英语,NTP,0,0,0,,That's how it's supposed to work except I put in a flight plan for Boreham Caverns
+Dialogue: 0,0:35:54.28,0:35:57.16,英语,NTP,0,0,0,,and this isn't Boreham Caverns, is it, Juno?
+Dialogue: 0,0:35:57.20,0:35:59.07,英语,NTP,0,0,0,,We're in the wrong fucking cave?
+Dialogue: 0,0:35:59.11,0:36:01.99,英语,NTP,0,0,0,,Holly was right. Boreham Caverns was a tourist trap.
+Dialogue: 0,0:36:02.03,0:36:04.97,英语,NTP,0,0,0,,Don't try and pin this fucking shite on me!
+Dialogue: 0,0:36:04.97,0:36:07.90,英语,NTP,0,0,0,,This is not caving. This is an ego trip.
+Dialogue: 0,0:36:07.94,0:36:10.74,英语,NTP,0,0,0,,Rebecca, I didn't know this was going to happen.
+Dialogue: 0,0:36:10.78,0:36:12.53,英语,NTP,0,0,0,,This is exactly what we believe in.
+Dialogue: 0,0:36:12.57,0:36:14.99,英语,NTP,0,0,0,,We said, if there's no risk, what's the point?
+Dialogue: 0,0:36:15.04,0:36:17.37,英语,NTP,0,0,0,,Don't try and justify this.
+Dialogue: 0,0:36:17.41,0:36:19.28,英语,NTP,0,0,0,,Where... Where are we?
+Dialogue: 0,0:36:19.99,0:36:22.82,英语,NTP,0,0,0,,It hasn't got a name. It's a new system.
+Dialogue: 0,0:36:22.87,0:36:25.49,英语,NTP,0,0,0,,I wanted us all to discover it.
+Dialogue: 0,0:36:25.54,0:36:28.28,英语,NTP,0,0,0,,No-one's ever been down here before.
+Dialogue: 0,0:36:28.32,0:36:30.99,英语,NTP,0,0,0,,-You're fucking kidding me. -Oh, God!
+Dialogue: 0,0:36:32.57,0:36:35.95,英语,NTP,0,0,0,,-How the hell do we get out? -There may not be a way out.
+Dialogue: 0,0:36:35.99,0:36:38.61,英语,NTP,0,0,0,,Look, there's no going back now.
+Dialogue: 0,0:36:38.65,0:36:41.82,英语,NTP,0,0,0,,We have to find a way out of this chamber and keep pushing forward.
+Dialogue: 0,0:36:41.87,0:36:44.20,英语,NTP,0,0,0,,What the fuck do you think you're doing?
+Dialogue: 0,0:36:44.24,0:36:47.70,英语,NTP,0,0,0,,We all trusted you. You told me this was going to be good for Sarah.
+Dialogue: 0,0:36:48.61,0:36:51.24,英语,NTP,0,0,0,,Have you any idea what she's been through?
+Dialogue: 0,0:36:51.28,0:36:54.12,英语,NTP,0,0,0,,No, cos you couldn't get away fast enough, you selfish cow.
+Dialogue: 0,0:36:54.16,0:36:56.16,英语,NTP,0,0,0,,You know what, Beth?
+Dialogue: 0,0:36:56.20,0:36:59.65,英语,NTP,0,0,0,,We all lost something in that crash.
+Dialogue: 0,0:37:04.03,0:37:06.12,英语,NTP,0,0,0,,Just get us out of here.
+Dialogue: 0,0:37:08.61,0:37:13.74,英语,NTP,0,0,0,,Look, cave systems sometimes break ground. It's a small chance.
+Dialogue: 0,0:37:13.78,0:37:15.95,英语,NTP,0,0,0,,But if we stay here, we'll die.
+Dialogue: 0,0:37:15.99,0:37:17.99,英语,NTP,0,0,0,,Let's go.
+Dialogue: 0,0:37:50.07,0:37:51.45,英语,NTP,0,0,0,,-Wait! -What?
+Dialogue: 0,0:37:51.49,0:37:53.78,英语,NTP,0,0,0,,Don't move, Sam. Just don't move.
+Dialogue: 0,0:37:53.82,0:37:55.70,英语,NTP,0,0,0,,Stay right there.
+Dialogue: 0,0:38:23.03,0:38:24.91,英语,NTP,0,0,0,,Oh, shit. No more.
+Dialogue: 0,0:38:36.33,0:38:38.90,英语,NTP,0,0,0,,Thanks, Beth.
+Dialogue: 0,0:38:38.94,0:38:41.53,英语,NTP,0,0,0,,Now I know how far down it is.
+Dialogue: 0,0:38:41.57,0:38:43.37,英语,NTP,0,0,0,,So, what now?
+Dialogue: 0,0:38:43.41,0:38:47.90,英语,NTP,0,0,0,,One of us has to get all the way across there so they can rig a line for you guys.
+Dialogue: 0,0:38:49.70,0:38:54.16,英语,NTP,0,0,0,,I have three cams, I need at least three more. Where's the other rope bag?
+Dialogue: 0,0:38:55.24,0:38:56.74,英语,NTP,0,0,0,,Where is it?
+Dialogue: 0,0:38:57.78,0:38:59.86,英语,NTP,0,0,0,,We lost it, when the cave collapsed.
+Dialogue: 0,0:39:01.11,0:39:02.16,英语,NTP,0,0,0,,Sorry.
+Dialogue: 0,0:39:20.24,0:39:21.70,英语,NTP,0,0,0,,Help me.
+Dialogue: 0,0:39:48.86,0:39:50.45,英语,NTP,0,0,0,,Come on, Becca.
+Dialogue: 0,0:40:12.28,0:40:14.24,英语,NTP,0,0,0,,-Aargh! -You got it.
+Dialogue: 0,0:40:23.95,0:40:25.41,英语,NTP,0,0,0,,Come on, come on.
+Dialogue: 0,0:40:26.24,0:40:28.65,英语,NTP,0,0,0,,Come on, Rebecca.
+Dialogue: 0,0:40:28.69,0:40:30.82,英语,NTP,0,0,0,,Come on, Rebecca.
+Dialogue: 0,0:40:30.86,0:40:32.95,英语,NTP,0,0,0,,What are you waiting for?
+Dialogue: 0,0:40:35.62,0:40:36.99,英语,NTP,0,0,0,,-Fuck. -Are you OK?
+Dialogue: 0,0:40:37.04,0:40:38.86,英语,NTP,0,0,0,,What's wrong?
+Dialogue: 0,0:40:38.90,0:40:41.65,英语,NTP,0,0,0,,It's nothing. I'm all right.
+Dialogue: 0,0:40:41.70,0:40:42.95,英语,NTP,0,0,0,,OK.
+Dialogue: 0,0:40:54.12,0:40:56.53,英语,NTP,0,0,0,,All right, more slack.
+Dialogue: 0,0:40:57.94,0:40:59.40,英语,NTP,0,0,0,,More slack, thanks.
+Dialogue: 0,0:41:05.16,0:41:06.20,英语,NTP,0,0,0,,Fuck!
+Dialogue: 0,0:41:18.90,0:41:20.99,英语,NTP,0,0,0,,-OK. -Well done.
+Dialogue: 0,0:41:22.20,0:41:26.53,英语,NTP,0,0,0,,OK. Throw me the right rope.
+Dialogue: 0,0:41:30.19,0:41:31.24,英语,NTP,0,0,0,,OK.
+Dialogue: 0,0:41:33.20,0:41:34.24,英语,NTP,0,0,0,,OK.
+Dialogue: 0,0:41:40.99,0:41:42.20,英语,NTP,0,0,0,,Come on.
+Dialogue: 0,0:41:54.62,0:41:55.91,英语,NTP,0,0,0,,Yeah!
+Dialogue: 0,0:41:55.95,0:42:00.28,英语,NTP,0,0,0,,-Now, you make it look easy. -Yeah, well, you make it look hard.
+Dialogue: 0,0:42:06.03,0:42:09.15,英语,NTP,0,0,0,,-Oh. -Don't look down, Beth. Keep going.
+Dialogue: 0,0:42:09.19,0:42:12.15,英语,NTP,0,0,0,,-Just keep going. -You're OK. You're safe.
+Dialogue: 0,0:42:15.95,0:42:18.69,英语,NTP,0,0,0,,Good. There you go.
+Dialogue: 0,0:42:25.70,0:42:27.78,英语,NTP,0,0,0,,Was this about me or you?
+Dialogue: 0,0:42:30.57,0:42:33.99,英语,NTP,0,0,0,,It's about us, getting back to what we used to be.
+Dialogue: 0,0:42:35.03,0:42:37.28,英语,NTP,0,0,0,,I wanted us to claim this place, name it.
+Dialogue: 0,0:42:38.11,0:42:40.53,英语,NTP,0,0,0,,I thought maybe your name.
+Dialogue: 0,0:42:40.57,0:42:42.03,英语,NTP,0,0,0,,Or maybe yours.
+Dialogue: 0,0:42:48.32,0:42:50.40,英语,NTP,0,0,0,,You're doing well. Come on.
+Dialogue: 0,0:42:51.15,0:42:52.61,英语,NTP,0,0,0,,Come on.
+Dialogue: 0,0:42:54.99,0:42:57.61,英语,NTP,0,0,0,,There you are. Come on, give me your hand.
+Dialogue: 0,0:43:12.86,0:43:13.91,英语,NTP,0,0,0,,Juno?
+Dialogue: 0,0:43:14.99,0:43:17.37,英语,NTP,0,0,0,,We'll need everything we've got.
+Dialogue: 0,0:43:18.78,0:43:20.78,英语,NTP,0,0,0,,Haul it in.
+Dialogue: 0,0:44:02.07,0:44:03.11,英语,NTP,0,0,0,,Yes!
+Dialogue: 0,0:44:07.08,0:44:08.48,英语,NTP,0,0,0,,Reach.
+Dialogue: 0,0:44:08.52,0:44:10.15,英语,NTP,0,0,0,,Reach out.
+Dialogue: 0,0:44:12.86,0:44:14.45,英语,NTP,0,0,0,,Juno!
+Dialogue: 0,0:44:14.49,0:44:15.53,英语,NTP,0,0,0,,No!
+Dialogue: 0,0:44:31.82,0:44:34.16,英语,NTP,0,0,0,,Juno, it's OK, we've got you.
+Dialogue: 0,0:44:34.20,0:44:35.62,英语,NTP,0,0,0,,OK, pull!
+Dialogue: 0,0:44:39.23,0:44:41.53,英语,NTP,0,0,0,,-Sam! -Holly, let me pass.
+Dialogue: 0,0:44:42.57,0:44:44.28,英语,NTP,0,0,0,,Rebecca, show me your hand.
+Dialogue: 0,0:44:59.53,0:45:01.11,英语,NTP,0,0,0,,Let go, let go.
+Dialogue: 0,0:45:01.15,0:45:04.07,英语,NTP,0,0,0,,-What does it mean? -It means we're not the first.
+Dialogue: 0,0:45:04.82,0:45:06.87,英语,NTP,0,0,0,,It's a piton, right?
+Dialogue: 0,0:45:06.91,0:45:10.11,英语,NTP,0,0,0,,If cavers were here, there's a better chance of us getting out.
+Dialogue: 0,0:45:10.15,0:45:14.41,英语,NTP,0,0,0,,This equipment is at least 1 00 years old. No-one uses stuff like this any more.
+Dialogue: 0,0:45:14.45,0:45:17.44,英语,NTP,0,0,0,,Besides, if anyone had been down here and made it out,
+Dialogue: 0,0:45:17.48,0:45:19.19,英语,NTP,0,0,0,,they would have named it already.
+Dialogue: 0,0:45:20.32,0:45:22.86,英语,NTP,0,0,0,,Becca, are you OK?
+Dialogue: 0,0:45:22.90,0:45:24.03,英语,NTP,0,0,0,,I'll live.
+Dialogue: 0,0:45:28.52,0:45:30.90,英语,NTP,0,0,0,,Holly, how does it look?
+Dialogue: 0,0:45:30.94,0:45:33.03,英语,NTP,0,0,0,,It's tight again, but I can get through.
+Dialogue: 0,0:45:33.07,0:45:35.57,英语,NTP,0,0,0,,OK, keep going. We'll be right behind you.
+Dialogue: 0,0:45:48.69,0:45:50.78,英语,NTP,0,0,0,,Hey, there's something down here.
+Dialogue: 0,0:46:22.49,0:46:26.49,英语,NTP,0,0,0,,Guys, it's amazing, but the batteries on our lights will run out.
+Dialogue: 0,0:46:26.53,0:46:29.94,英语,NTP,0,0,0,,-So I suggest we keep moving. -Wait a minute. Wait.
+Dialogue: 0,0:46:29.98,0:46:33.49,英语,NTP,0,0,0,,-What is it, Beth? -Juno, light up one of your flares.
+Dialogue: 0,0:46:33.53,0:46:36.99,英语,NTP,0,0,0,,-We don't have time for this. -Just light a flare.
+Dialogue: 0,0:46:48.57,0:46:52.65,英语,NTP,0,0,0,,-Really lovely, Beth, but it's fucking useless. -No, look at it. What do you see?
+Dialogue: 0,0:46:52.69,0:46:54.78,英语,NTP,0,0,0,,You've got the mountain, the cave...
+Dialogue: 0,0:46:54.82,0:46:57.40,英语,NTP,0,0,0,,and there's two entrances.
+Dialogue: 0,0:47:00.94,0:47:04.24,英语,NTP,0,0,0,,-You are a fucking genius. -I have my moments.
+Dialogue: 0,0:47:04.28,0:47:07.16,英语,NTP,0,0,0,,-This means there's another way out? -Let's find out.
+Dialogue: 0,0:47:08.36,0:47:09.69,英语,NTP,0,0,0,,Come on!
+Dialogue: 0,0:47:28.73,0:47:30.82,英语,NTP,0,0,0,,-Bastard! -Which way?
+Dialogue: 0,0:47:30.86,0:47:32.94,英语,NTP,0,0,0,,Holly, give me your lighter.
+Dialogue: 0,0:47:34.82,0:47:36.53,英语,NTP,0,0,0,,-Come on. -Here.
+Dialogue: 0,0:47:41.28,0:47:42.44,英语,NTP,0,0,0,,Fuck!
+Dialogue: 0,0:47:43.53,0:47:46.49,英语,NTP,0,0,0,,-Come on! Come on! -Shit!
+Dialogue: 0,0:47:49.77,0:47:52.65,英语,NTP,0,0,0,,-That one! -Hey! Holly!
+Dialogue: 0,0:47:54.70,0:47:56.86,英语,NTP,0,0,0,,Holly, slow down!
+Dialogue: 0,0:47:59.61,0:48:03.15,英语,NTP,0,0,0,,Holly! Careful!
+Dialogue: 0,0:48:04.24,0:48:06.41,英语,NTP,0,0,0,,Daylight! I can see daylight!
+Dialogue: 0,0:48:09.40,0:48:12.36,英语,NTP,0,0,0,,Holly! Careful! Slow down!
+Dialogue: 0,0:48:12.40,0:48:15.24,英语,NTP,0,0,0,,Holly, it's not daylight!
+Dialogue: 0,0:48:21.69,0:48:22.99,英语,NTP,0,0,0,,-Help me! -Hold on!
+Dialogue: 0,0:48:24.20,0:48:26.36,英语,NTP,0,0,0,,Guys! Hold...
+Dialogue: 0,0:48:27.07,0:48:28.98,英语,NTP,0,0,0,,Holly!
+Dialogue: 0,0:48:35.53,0:48:37.73,英语,NTP,0,0,0,,Sam! Get down here!
+Dialogue: 0,0:48:37.77,0:48:39.02,英语,NTP,0,0,0,,Holly!
+Dialogue: 0,0:48:40.48,0:48:42.32,英语,NTP,0,0,0,,Holly!
+Dialogue: 0,0:48:55.99,0:48:58.27,英语,NTP,0,0,0,,Holly! Answer me!
+Dialogue: 0,0:49:05.86,0:49:07.31,英语,NTP,0,0,0,,I think I hurt my leg!
+Dialogue: 0,0:49:07.35,0:49:10.57,英语,NTP,0,0,0,,Don't move! We're coming down to you.
+Dialogue: 0,0:49:29.94,0:49:32.36,英语,NTP,0,0,0,,Someone better get down here!
+Dialogue: 0,0:49:41.90,0:49:45.24,英语,NTP,0,0,0,,-Oh, that's fucking disgusting. -Beth! Not here, not now!
+Dialogue: 0,0:49:45.28,0:49:48.86,英语,NTP,0,0,0,,We need help. Everybody grab a corner. We need to move her out of the water.
+Dialogue: 0,0:49:50.11,0:49:53.44,英语,NTP,0,0,0,,Nice and easy now. And...lift!
+Dialogue: 0,0:49:56.74,0:49:59.90,英语,NTP,0,0,0,,-You fuckers! -Juno, find something to make a splint out of.
+Dialogue: 0,0:49:59.94,0:50:02.94,英语,NTP,0,0,0,,-It's OK, I've got her. -Hey, Juno, use one of the ice axes.
+Dialogue: 0,0:50:02.98,0:50:04.78,英语,NTP,0,0,0,,You'll be all right, sweetheart.
+Dialogue: 0,0:50:17.85,0:50:19.94,英语,NTP,0,0,0,,OK.
+Dialogue: 0,0:50:21.48,0:50:24.11,英语,NTP,0,0,0,,-Sarah! -Juno, I'm gonna need your help here.
+Dialogue: 0,0:50:24.15,0:50:25.86,英语,NTP,0,0,0,,-Sarah! -Juno!
+Dialogue: 0,0:50:26.70,0:50:29.19,英语,NTP,0,0,0,,Take hold of her arm. You'll have to hold her down.
+Dialogue: 0,0:50:29.23,0:50:30.69,英语,NTP,0,0,0,,What are you gonna do?
+Dialogue: 0,0:50:30.73,0:50:34.74,英语,NTP,0,0,0,,I need to dress the wound and rig up a splint, but I can't while the bone is protruding.
+Dialogue: 0,0:50:34.78,0:50:36.74,英语,NTP,0,0,0,,I need to push it back in.
+Dialogue: 0,0:50:37.81,0:50:40.52,英语,NTP,0,0,0,,-I hate you. -I know.
+Dialogue: 0,0:50:40.57,0:50:41.61,英语,NTP,0,0,0,,Do it.
+Dialogue: 0,0:50:56.70,0:50:58.98,英语,NTP,0,0,0,,Bite down on this.
+Dialogue: 0,0:50:59.02,0:51:01.82,英语,NTP,0,0,0,,-Keep hold of her. -Just fucking bite down, OK?
+Dialogue: 0,0:51:01.86,0:51:03.94,英语,NTP,0,0,0,,Go!
+Dialogue: 0,0:51:07.48,0:51:09.11,英语,NTP,0,0,0,,Come on!
+Dialogue: 0,0:51:16.53,0:51:18.69,英语,NTP,0,0,0,,Just keep biting down, baby.
+Dialogue: 0,0:51:18.73,0:51:20.86,英语,NTP,0,0,0,,Come on.
+Dialogue: 0,0:51:22.69,0:51:25.40,英语,NTP,0,0,0,,OK, someone get me a medical kit.
+Dialogue: 0,0:51:27.23,0:51:30.48,英语,NTP,0,0,0,,OK, OK, OK. Calm down. It'll be all right.
+Dialogue: 0,0:52:06.74,0:52:08.81,英语,NTP,0,0,0,,What are you doing?
+Dialogue: 0,0:52:08.85,0:52:11.23,英语,NTP,0,0,0,,I just saw something ahead in the tunnel.
+Dialogue: 0,0:52:14.19,0:52:17.19,英语,NTP,0,0,0,,Sarah, I promise you, I'm gonna get you out of here.
+Dialogue: 0,0:52:17.23,0:52:19.40,英语,NTP,0,0,0,,But I can't do it unless you're with me.
+Dialogue: 0,0:52:19.44,0:52:21.52,英语,NTP,0,0,0,,Sarah?
+Dialogue: 0,0:52:22.57,0:52:24.53,英语,NTP,0,0,0,,Sarah!
+Dialogue: 0,0:52:25.57,0:52:27.65,英语,NTP,0,0,0,,Sarah, look at me.
+Dialogue: 0,0:52:28.44,0:52:30.52,英语,NTP,0,0,0,,There's nothing there.
+Dialogue: 0,0:52:35.07,0:52:36.36,英语,NTP,0,0,0,,That's the best I can do.
+Dialogue: 0,0:52:36.40,0:52:40.27,英语,NTP,0,0,0,,It'll hurt like hell and you can't put any weight on it, but at least you can move.
+Dialogue: 0,0:52:40.31,0:52:44.28,英语,NTP,0,0,0,,They combed these mountains centuries ago. Anyone trapped would be a skeleton now.
+Dialogue: 0,0:52:44.32,0:52:46.28,英语,NTP,0,0,0,,-That is just what it looked like. -What?
+Dialogue: 0,0:52:46.32,0:52:48.44,英语,NTP,0,0,0,,-Sarah thinks she saw someone. -Saw what?
+Dialogue: 0,0:52:48.48,0:52:51.02,英语,NTP,0,0,0,,I don't think l saw someone, I saw someone.
+Dialogue: 0,0:52:51.07,0:52:53.82,英语,NTP,0,0,0,,No, you heard something and saw what you wanted to see.
+Dialogue: 0,0:52:53.86,0:52:57.56,英语,NTP,0,0,0,,-It's the dark. It plays tricks on people. -I can describe exactly what I saw.
+Dialogue: 0,0:52:57.60,0:53:00.69,英语,NTP,0,0,0,,-What did you see? -A man. I saw a man.
+Dialogue: 0,0:53:00.73,0:53:02.82,英语,NTP,0,0,0,,-Are you sure? -Yes!
+Dialogue: 0,0:53:02.86,0:53:06.53,英语,NTP,0,0,0,,And it's not the first time. I thought I saw someone before, but now I'm sure.
+Dialogue: 0,0:53:06.57,0:53:10.36,英语,NTP,0,0,0,,Look, if there is somebody down here, then maybe they can help get us out.
+Dialogue: 0,0:53:10.40,0:53:13.07,英语,NTP,0,0,0,,Sarah, there's no-one down here. Forget about it!
+Dialogue: 0,0:53:13.11,0:53:15.40,英语,NTP,0,0,0,,Hey, we have to get Holly out of here.
+Dialogue: 0,0:53:15.44,0:53:17.64,英语,NTP,0,0,0,,OK? This is all that matters right now.
+Dialogue: 0,0:53:18.81,0:53:21.48,英语,NTP,0,0,0,,-Beth! -It's OK.
+Dialogue: 0,0:53:21.52,0:53:23.61,英语,NTP,0,0,0,,Is it? Fuck!
+Dialogue: 0,0:53:26.78,0:53:28.85,英语,NTP,0,0,0,,You've got to keep warm.
+Dialogue: 0,0:53:30.15,0:53:33.11,英语,NTP,0,0,0,,Why are we walking away? There was daylight back there.
+Dialogue: 0,0:53:33.15,0:53:35.44,英语,NTP,0,0,0,,It wasn't. It was phosphorus in the rock.
+Dialogue: 0,0:53:35.49,0:53:38.60,英语,NTP,0,0,0,,We're two miles underground, the only light down here is ours.
+Dialogue: 0,0:53:38.65,0:53:41.77,英语,NTP,0,0,0,,Argh! Well, it looked like fucking daylight to me.
+Dialogue: 0,0:53:56.24,0:53:57.81,英语,NTP,0,0,0,,Right tunnel!
+Dialogue: 0,0:54:15.03,0:54:17.56,英语,NTP,0,0,0,,I got you. OK?
+Dialogue: 0,0:55:27.14,0:55:30.27,英语,NTP,0,0,0,,Jesus! What is this place?
+Dialogue: 0,0:55:30.31,0:55:33.40,英语,NTP,0,0,0,,Holly, where's the infrared button?
+Dialogue: 0,0:55:41.56,0:55:42.98,英语,NTP,0,0,0,,Dead animals.
+Dialogue: 0,0:55:43.02,0:55:45.36,英语,NTP,0,0,0,,Hundreds of them.
+Dialogue: 0,0:55:45.40,0:55:46.93,英语,NTP,0,0,0,,This is not good, guys.
+Dialogue: 0,0:55:46.98,0:55:49.06,英语,NTP,0,0,0,,Can we get out of here? Which way?
+Dialogue: 0,0:55:53.52,0:55:56.15,英语,NTP,0,0,0,,-I don't know. -What do you mean, you don't know?
+Dialogue: 0,0:55:56.19,0:56:00.31,英语,NTP,0,0,0,,There's no breeze. It could be any one of these tunnels. Take your pick.
+Dialogue: 0,0:56:00.35,0:56:02.90,英语,NTP,0,0,0,,Oh, fuck it! Hello!
+Dialogue: 0,0:56:02.94,0:56:06.98,英语,NTP,0,0,0,,-Please! -Is there anybody there?
+Dialogue: 0,0:56:07.02,0:56:09.10,英语,NTP,0,0,0,,Hello!
+Dialogue: 0,0:56:15.19,0:56:18.35,英语,NTP,0,0,0,,It's there! It's up there! It's there on the roof!
+Dialogue: 0,0:56:25.69,0:56:29.23,英语,NTP,0,0,0,,Fucking hell, did you see...? What the fuck was that?
+Dialogue: 0,0:56:29.27,0:56:31.90,英语,NTP,0,0,0,,I don't know! It moved so fast, I could barely see it!
+Dialogue: 0,0:56:31.94,0:56:35.23,英语,NTP,0,0,0,,-I've never seen anyone climb like that! -I told you I saw someone!
+Dialogue: 0,0:56:35.28,0:56:37.48,英语,NTP,0,0,0,,-That was not a human being! -Screw this.
+Dialogue: 0,0:56:37.52,0:56:40.15,英语,NTP,0,0,0,,Let's take our chances and pick a tunnel. Move!
+Dialogue: 0,0:56:50.60,0:56:52.69,英语,NTP,0,0,0,,What's happening?
+Dialogue: 0,0:56:52.73,0:56:55.40,英语,NTP,0,0,0,,Oh, shit! It's circling us.
+Dialogue: 0,0:57:03.69,0:57:07.43,英语,NTP,0,0,0,,-Where is it? -This way! Move!
+Dialogue: 0,0:57:07.48,0:57:12.40,英语,NTP,0,0,0,,-Holly! We've got to move. We've got to move. -Come on! Move it!
+Dialogue: 0,0:57:12.44,0:57:15.82,英语,NTP,0,0,0,,Come on, Holly! Move it! Let's go!
+Dialogue: 0,0:57:17.14,0:57:19.94,英语,NTP,0,0,0,,Juno, the flare! Get rid of it!
+Dialogue: 0,0:57:20.94,0:57:24.52,英语,NTP,0,0,0,,Holly, keep moving, come on!
+Dialogue: 0,0:57:39.64,0:57:41.65,英语,NTP,0,0,0,,Holly! Holly!
+Dialogue: 0,0:57:42.52,0:57:43.98,英语,NTP,0,0,0,,Sarah!
+Dialogue: 0,0:57:45.07,0:57:47.77,英语,NTP,0,0,0,,Holly!
+Dialogue: 0,0:57:59.77,0:58:01.65,英语,NTP,0,0,0,,Sarah!
+Dialogue: 0,0:58:03.15,0:58:05.61,英语,NTP,0,0,0,,Sarah! Run!
+Dialogue: 0,0:58:08.89,0:58:10.81,英语,NTP,0,0,0,,Sarah!
+Dialogue: 0,0:58:22.90,0:58:24.65,英语,NTP,0,0,0,,Get off!
+Dialogue: 0,0:58:24.69,0:58:26.60,英语,NTP,0,0,0,,Get away, you fucker!
+Dialogue: 0,0:59:59.77,1:00:01.69,英语,NTP,0,0,0,,Don't leave me.
+Dialogue: 0,1:00:25.61,1:00:28.52,英语,NTP,0,0,0,,Oh, fuck. My battery's gone dead.
+Dialogue: 0,1:00:30.06,1:00:31.52,英语,NTP,0,0,0,,Where are they?
+Dialogue: 0,1:00:34.56,1:00:36.64,英语,NTP,0,0,0,,What's happened to the others?
+Dialogue: 0,1:00:36.68,1:00:39.68,英语,NTP,0,0,0,,Becca, please say we're gonna get out of here.
+Dialogue: 0,1:00:40.98,1:00:43.06,英语,NTP,0,0,0,,OK. OK.
+Dialogue: 0,1:00:43.10,1:00:45.19,英语,NTP,0,0,0,,OK.
+Dialogue: 0,1:00:49.64,1:00:51.73,英语,NTP,0,0,0,,Go. Go!
+Dialogue: 0,1:01:08.02,1:01:10.81,英语,NTP,0,0,0,,Mummy. Mummy.
+Dialogue: 0,1:01:10.85,1:01:12.52,英语,NTP,0,0,0,,If you're really ready...
+Dialogue: 0,1:03:58.52,1:04:00.60,英语,NTP,0,0,0,,Turn the light off.
+Dialogue: 0,1:04:06.39,1:04:08.47,英语,NTP,0,0,0,,Quiet.
+Dialogue: 0,1:04:41.68,1:04:43.52,英语,NTP,0,0,0,,Sarah! Sarah!
+Dialogue: 0,1:04:45.52,1:04:46.76,英语,NTP,0,0,0,,Sarah!
+Dialogue: 0,1:06:02.23,1:06:04.31,英语,NTP,0,0,0,,It can't see us.
+Dialogue: 0,1:06:27.76,1:06:29.81,英语,NTP,0,0,0,,Sam? Becca?
+Dialogue: 0,1:06:31.60,1:06:34.23,英语,NTP,0,0,0,,Becca!
+Dialogue: 0,1:06:35.10,1:06:36.55,英语,NTP,0,0,0,,-Becca! -It's Juno.
+Dialogue: 0,1:06:36.60,1:06:37.89,英语,NTP,0,0,0,,Becca!
+Dialogue: 0,1:06:37.93,1:06:41.73,英语,NTP,0,0,0,,The noise she's making, she'll bring every one of those things down on her head.
+Dialogue: 0,1:06:41.77,1:06:44.23,英语,NTP,0,0,0,,As long as it's not on mine.
+Dialogue: 0,1:06:50.52,1:06:52.60,英语,NTP,0,0,0,,Becca!
+Dialogue: 0,1:06:56.18,1:06:58.26,英语,NTP,0,0,0,,Sam!
+Dialogue: 0,1:07:51.68,1:07:53.77,英语,NTP,0,0,0,,Sam!
+Dialogue: 0,1:07:56.09,1:07:58.18,英语,NTP,0,0,0,,Sam!
+Dialogue: 0,1:07:59.76,1:08:01.85,英语,NTP,0,0,0,,Anyone?
+Dialogue: 0,1:08:01.89,1:08:03.39,英语,NTP,0,0,0,,Sam!
+Dialogue: 0,1:08:25.89,1:08:28.05,英语,NTP,0,0,0,,I'm sorry. I'm sorry.
+Dialogue: 0,1:08:30.97,1:08:32.89,英语,NTP,0,0,0,,I'm sorry.
+Dialogue: 0,1:09:56.47,1:09:58.55,英语,NTP,0,0,0,,Fuck. OK.
+Dialogue: 0,1:10:01.72,1:10:03.06,英语,NTP,0,0,0,,OK.
+Dialogue: 0,1:10:07.85,1:10:09.22,英语,NTP,0,0,0,,OK.
+Dialogue: 0,1:10:09.26,1:10:11.35,英语,NTP,0,0,0,,It's all clear.
+Dialogue: 0,1:10:43.31,1:10:44.81,英语,NTP,0,0,0,,Sam, run!
+Dialogue: 0,1:11:29.01,1:11:31.10,英语,NTP,0,0,0,,We heard you crying for Sarah.
+Dialogue: 0,1:11:34.68,1:11:36.30,英语,NTP,0,0,0,,Where are the others?
+Dialogue: 0,1:11:38.51,1:11:40.60,英语,NTP,0,0,0,,They... They took Holly.
+Dialogue: 0,1:11:42.22,1:11:44.31,英语,NTP,0,0,0,,Beth...
+Dialogue: 0,1:11:46.80,1:11:48.43,英语,NTP,0,0,0,,Beth's dead.
+Dialogue: 0,1:12:03.73,1:12:05.80,英语,NTP,0,0,0,,Sam...
+Dialogue: 0,1:12:07.39,1:12:09.01,英语,NTP,0,0,0,,...what is that thing?
+Dialogue: 0,1:12:14.02,1:12:17.01,英语,NTP,0,0,0,,I don't know. Well, it does look human.
+Dialogue: 0,1:12:17.05,1:12:21.47,英语,NTP,0,0,0,,Come on, we need to find the way out before those things find us.
+Dialogue: 0,1:12:21.51,1:12:23.06,英语,NTP,0,0,0,,No.
+Dialogue: 0,1:12:23.10,1:12:26.47,英语,NTP,0,0,0,,Sam, tell us what we're fighting.
+Dialogue: 0,1:12:27.30,1:12:29.01,英语,NTP,0,0,0,,Well...
+Dialogue: 0,1:12:30.18,1:12:32.27,英语,NTP,0,0,0,,...they're totally blind.
+Dialogue: 0,1:12:32.31,1:12:36.32,英语,NTP,0,0,0,,And judging from what we've seen, I'd say they use sound to hunt with.
+Dialogue: 0,1:12:36.32,1:12:37.59,英语,NTP,0,0,0,,Like a bat.
+Dialogue: 0,1:12:40.10,1:12:43.18,英语,NTP,0,0,0,,And they've evolved perfectly to live down here in the dark.
+Dialogue: 0,1:12:45.76,1:12:50.68,英语,NTP,0,0,0,,Whatever they are, they go to the surface to hunt.
+Dialogue: 0,1:12:50.72,1:12:54.68,英语,NTP,0,0,0,,And they bring their food back down here to eat, through an entrance.
+Dialogue: 0,1:12:55.88,1:13:00.72,英语,NTP,0,0,0,,Listen, if we can stay quiet enough and evade these fuckers...
+Dialogue: 0,1:13:02.10,1:13:03.85,英语,NTP,0,0,0,,...I think I found the way out.
+Dialogue: 0,1:13:03.89,1:13:05.56,英语,NTP,0,0,0,,You think?
+Dialogue: 0,1:13:05.60,1:13:07.53,英语,NTP,0,0,0,,The climbing gear we found...
+Dialogue: 0,1:13:07.53,1:13:11.31,英语,NTP,0,0,0,,...whoever brought that down here marked their route.
+Dialogue: 0,1:13:12.43,1:13:15.48,英语,NTP,0,0,0,,-I found those markings. -Well, what are we waiting for?
+Dialogue: 0,1:13:15.52,1:13:17.55,英语,NTP,0,0,0,,Sarah.
+Dialogue: 0,1:13:19.85,1:13:21.93,英语,NTP,0,0,0,,I'm not leaving without Sarah.
+Dialogue: 0,1:13:44.14,1:13:46.22,英语,NTP,0,0,0,,Sarah!
+Dialogue: 0,1:13:47.80,1:13:49.89,英语,NTP,0,0,0,,Oh, God.
+Dialogue: 0,1:13:53.89,1:13:55.97,英语,NTP,0,0,0,,Oh, God. No.
+Dialogue: 0,1:13:56.84,1:13:58.14,英语,NTP,0,0,0,,Sarah...
+Dialogue: 0,1:13:59.76,1:14:01.47,英语,NTP,0,0,0,,I'm getting you out of here.
+Dialogue: 0,1:14:04.10,1:14:06.47,英语,NTP,0,0,0,,Don't touch me. Don't touch me.
+Dialogue: 0,1:14:08.73,1:14:10.88,英语,NTP,0,0,0,,I heard Juno calling me.
+Dialogue: 0,1:14:10.92,1:14:13.97,英语,NTP,0,0,0,,I'm gonna go and find her, and we're gonna come back and get you out.
+Dialogue: 0,1:14:13.97,1:14:16.59,英语,NTP,0,0,0,,-No, stay away from her. -What?
+Dialogue: 0,1:14:16.63,1:14:19.64,英语,NTP,0,0,0,,-She did this to me. -What?
+Dialogue: 0,1:14:19.68,1:14:22.60,英语,NTP,0,0,0,,She left me.
+Dialogue: 0,1:14:22.64,1:14:24.27,英语,NTP,0,0,0,,No, she didn't. No.
+Dialogue: 0,1:14:24.31,1:14:26.38,英语,NTP,0,0,0,,Sarah...
+Dialogue: 0,1:14:28.14,1:14:30.22,英语,NTP,0,0,0,,Don't trust her.
+Dialogue: 0,1:14:31.22,1:14:33.47,英语,NTP,0,0,0,,You find your own way out.
+Dialogue: 0,1:14:33.52,1:14:35.59,英语,NTP,0,0,0,,It's OK. It's all right.
+Dialogue: 0,1:14:35.63,1:14:39.18,英语,NTP,0,0,0,,I'm not gonna leave you, Beth. I'm not gonna leave you.
+Dialogue: 0,1:14:39.22,1:14:41.30,英语,NTP,0,0,0,,I'm not leaving you here, OK?
+Dialogue: 0,1:14:41.35,1:14:43.64,英语,NTP,0,0,0,,Come here. Beth!
+Dialogue: 0,1:14:50.43,1:14:52.85,英语,NTP,0,0,0,,This is Juno's.
+Dialogue: 0,1:14:56.42,1:14:58.51,英语,NTP,0,0,0,,It's from Paul.
+Dialogue: 0,1:15:00.30,1:15:02.39,英语,NTP,0,0,0,,Oh, no.
+Dialogue: 0,1:15:12.39,1:15:14.47,英语,NTP,0,0,0,,Sorry.
+Dialogue: 0,1:15:25.02,1:15:28.34,英语,NTP,0,0,0,,Please... Oh, that's them. Please, come with me.
+Dialogue: 0,1:15:28.38,1:15:30.09,英语,NTP,0,0,0,,Please.
+Dialogue: 0,1:15:30.14,1:15:31.72,英语,NTP,0,0,0,,Sarah...
+Dialogue: 0,1:15:32.81,1:15:35.92,英语,NTP,0,0,0,,...don't leave me like this.
+Dialogue: 0,1:15:37.97,1:15:41.14,英语,NTP,0,0,0,,No, please don't ask me to do that.
+Dialogue: 0,1:15:41.18,1:15:43.81,英语,NTP,0,0,0,,-Please. -I can't. I can't do that.
+Dialogue: 0,1:15:43.85,1:15:45.55,英语,NTP,0,0,0,,I can't do that.
+Dialogue: 0,1:15:45.59,1:15:47.68,英语,NTP,0,0,0,,Please.
+Dialogue: 0,1:15:59.72,1:16:02.18,英语,NTP,0,0,0,,OK.
+Dialogue: 0,1:16:02.22,1:16:03.85,英语,NTP,0,0,0,,Close your eyes.
+Dialogue: 0,1:19:53.22,1:19:55.30,英语,NTP,0,0,0,,Hurry! Move!
+Dialogue: 0,1:19:59.63,1:20:01.72,英语,NTP,0,0,0,,Sarah?
+Dialogue: 0,1:20:02.89,1:20:04.97,英语,NTP,0,0,0,,Sarah?
+Dialogue: 0,1:20:06.17,1:20:07.63,英语,NTP,0,0,0,,Sarah?
+Dialogue: 0,1:20:07.67,1:20:11.64,英语,NTP,0,0,0,,Look, she's dead, Juno. We can't wait for her.
+Dialogue: 0,1:20:11.68,1:20:13.01,英语,NTP,0,0,0,,Come on!
+Dialogue: 0,1:20:14.31,1:20:17.01,英语,NTP,0,0,0,,Sarah!
+Dialogue: 0,1:20:18.05,1:20:19.93,英语,NTP,0,0,0,,Sarah!
+Dialogue: 0,1:20:29.59,1:20:31.68,英语,NTP,0,0,0,,Sarah?
+Dialogue: 0,1:20:33.26,1:20:35.34,英语,NTP,0,0,0,,Sarah?
+Dialogue: 0,1:20:39.63,1:20:42.09,英语,NTP,0,0,0,,Run!
+Dialogue: 0,1:21:10.47,1:21:12.55,英语,NTP,0,0,0,,Oh, fuck!
+Dialogue: 0,1:21:47.42,1:21:50.63,英语,NTP,0,0,0,,Juno, stop her! I'll be right behind you!
+Dialogue: 0,1:22:13.05,1:22:16.00,英语,NTP,0,0,0,,Sam! What are you doing?
+Dialogue: 0,1:22:16.05,1:22:17.59,英语,NTP,0,0,0,,Come back!
+Dialogue: 0,1:22:17.63,1:22:19.30,英语,NTP,0,0,0,,Becca!
+Dialogue: 0,1:22:19.34,1:22:21.38,英语,NTP,0,0,0,,You haven't got enough rope!
+Dialogue: 0,1:22:21.43,1:22:24.18,英语,NTP,0,0,0,,Sam! Turn around!
+Dialogue: 0,1:22:25.37,1:22:28.34,英语,NTP,0,0,0,,-What are you doing? Turn around! -Sam, baby!
+Dialogue: 0,1:22:28.38,1:22:32.72,英语,NTP,0,0,0,,-Sam! Sam! -Sam, turn around. You can come back.
+Dialogue: 0,1:22:32.76,1:22:36.42,英语,NTP,0,0,0,,Please, baby, listen to me. Please!
+Dialogue: 0,1:22:39.83,1:22:40.63,英语,NTP,0,0,0,,Sam!
+Dialogue: 0,1:22:44.13,1:22:45.54,英语,NTP,0,0,0,,No!
+Dialogue: 0,1:22:46.54,1:22:48.71,英语,NTP,0,0,0,,What are you doing?
+Dialogue: 0,1:22:58.92,1:23:00.54,英语,NTP,0,0,0,,Sam!
+Dialogue: 0,1:23:07.29,1:23:10.25,英语,NTP,0,0,0,,Sam! No!
+Dialogue: 0,1:25:24.80,1:25:26.75,英语,NTP,0,0,0,,What happened to you?
+Dialogue: 0,1:25:30.25,1:25:32.46,英语,NTP,0,0,0,,Rebecca?
+Dialogue: 0,1:25:37.92,1:25:39.92,英语,NTP,0,0,0,,What about Beth?
+Dialogue: 0,1:25:43.80,1:25:45.25,英语,NTP,0,0,0,,Didn't make it.
+Dialogue: 0,1:25:51.67,1:25:53.25,英语,NTP,0,0,0,,You saw her die?
+Dialogue: 0,1:26:05.44,1:26:07.33,英语,NTP,0,0,0,,Come on.
+Dialogue: 0,1:27:05.04,1:27:07.58,英语,NTP,0,0,0,,Come on. Come on.
+Dialogue: 0,1:30:15.24,1:30:17.95,英语,NTP,0,0,0,,No! No!
+Dialogue: 0,1:31:58.00,1:31:59.41,英语,NTP,0,0,0,,Oh, God!
+Dialogue: 0,0:00:45.64,0:00:47.21,简体中文,NTP,0,0,0,,加油
+Dialogue: 0,0:00:51.51,0:00:53.88,简体中文,NTP,0,0,0,,坐稳 要冲下去了
+Dialogue: 0,0:00:53.93,0:00:55.80,简体中文,NTP,0,0,0,,小心左边
+Dialogue: 0,0:00:55.84,0:00:57.26,简体中文,NTP,0,0,0,,用力划
+Dialogue: 0,0:00:57.30,0:00:59.72,简体中文,NTP,0,0,0,,- 看见她了吗 - 妈妈
+Dialogue: 0,0:01:08.51,0:01:10.05,简体中文,NTP,0,0,0,,加把劲
+Dialogue: 0,0:01:11.76,0:01:13.09,简体中文,NTP,0,0,0,,抓稳了
+Dialogue: 0,0:01:29.81,0:01:30.92,简体中文,NTP,0,0,0,,天哪
+Dialogue: 0,0:01:33.34,0:01:34.51,简体中文,NTP,0,0,0,,万岁
+Dialogue: 0,0:01:38.02,0:01:39.60,简体中文,NTP,0,0,0,,- 妈妈 - 你们好
+Dialogue: 0,0:01:39.64,0:01:42.13,简体中文,NTP,0,0,0,,杰西 你好
+Dialogue: 0,0:01:42.17,0:01:44.18,简体中文,NTP,0,0,0,,好惊险
+Dialogue: 0,0:01:47.05,0:01:51.09,简体中文,NTP,0,0,0,,- 唉 你们叫声真大 - 走吧 杰西
+Dialogue: 0,0:01:51.13,0:01:54.09,简体中文,NTP,0,0,0,,- 玩得很爽吧 - 还凑合
+Dialogue: 0,0:02:04.34,0:02:06.30,简体中文,NTP,0,0,0,,混蛋
+Dialogue: 0,0:02:10.80,0:02:13.42,简体中文,NTP,0,0,0,,- 靠近一点 再近一点 - 保罗 去把她捞上来
+Dialogue: 0,0:02:13.47,0:02:14.93,简体中文,NTP,0,0,0,,抓到了
+Dialogue: 0,0:02:14.97,0:02:16.93,简体中文,NTP,0,0,0,,- 你还好吧 - 是的
+Dialogue: 0,0:02:18.64,0:02:20.55,简体中文,NTP,0,0,0,,冷死了 我手指都冻僵了
+Dialogue: 0,0:02:21.63,0:02:22.88,简体中文,NTP,0,0,0,,拉上来
+Dialogue: 0,0:02:25.34,0:02:26.93,简体中文,NTP,0,0,0,,杰西
+Dialogue: 0,0:02:26.97,0:02:29.68,简体中文,NTP,0,0,0,,过来 宝贝
+Dialogue: 0,0:02:34.43,0:02:37.76,简体中文,NTP,0,0,0,,真不错 你想试试吗
+Dialogue: 0,0:02:38.89,0:02:41.59,简体中文,NTP,0,0,0,,杰西 走吧 天气太冷 咱们回车里去
+Dialogue: 0,0:02:41.63,0:02:43.17,简体中文,NTP,0,0,0,,去 跟爸爸走
+Dialogue: 0,0:02:43.22,0:02:45.30,简体中文,NTP,0,0,0,,- 我去帮帮她们 - 好的
+Dialogue: 0,0:02:45.34,0:02:47.55,简体中文,NTP,0,0,0,,没关系 你走吧 这里交给我们
+Dialogue: 0,0:02:47.60,0:02:50.05,简体中文,NTP,0,0,0,,真的 谢谢 咱们旅馆见
+Dialogue: 0,0:02:50.09,0:02:51.71,简体中文,NTP,0,0,0,,回头见
+Dialogue: 0,0:03:04.26,0:03:06.43,简体中文,NTP,0,0,0,,杰西 要不要我给瑞琪尔的妈妈打个电话
+Dialogue: 0,0:03:06.47,0:03:09.35,简体中文,NTP,0,0,0,,问问瑞琪尔周四晚上要不要来吃饭
+Dialogue: 0,0:03:09.39,0:03:11.38,简体中文,NTP,0,0,0,,是吗 那好吧
+Dialogue: 0,0:03:11.42,0:03:15.51,简体中文,NTP,0,0,0,,她来了以后还可以帮忙准备你的生日聚会
+Dialogue: 0,0:03:15.55,0:03:18.76,简体中文,NTP,0,0,0,,这次你要不要请些男孩子来
+Dialogue: 0,0:03:23.63,0:03:25.59,简体中文,NTP,0,0,0,,你没事吧 看起来心不在焉的
+Dialogue: 0,0:03:26.68,0:03:28.14,简体中文,NTP,0,0,0,,我很好
+Dialogue: 0,0:04:42.21,0:04:43.26,简体中文,NTP,0,0,0,,杰西
+Dialogue: 0,0:04:51.05,0:04:52.09,简体中文,NTP,0,0,0,,杰西
+Dialogue: 0,0:05:16.97,0:05:18.01,简体中文,NTP,0,0,0,,杰西
+Dialogue: 0,0:05:19.55,0:05:22.76,简体中文,NTP,0,0,0,,对不起 她死了
+Dialogue: 0,0:05:22.80,0:05:25.51,简体中文,NTP,0,0,0,,- 对不起 - 不
+Dialogue: 0,0:05:25.55,0:05:26.89,简体中文,NTP,0,0,0,,不 不会的
+Dialogue: 0,0:05:26.93,0:05:29.14,简体中文,NTP,0,0,0,,不会的 不会的
+Dialogue: 0,0:05:29.18,0:05:31.76,简体中文,NTP,0,0,0,,她去了 莎拉
+Dialogue: 0,0:05:51.59,0:05:57.84,简体中文,NTP,0,0,0,,片名: 黑暗侵袭
+Dialogue: 0,0:06:05.09,0:06:08.26,简体中文,NTP,0,0,0,,美国阿巴拉契亚山脉
+Dialogue: 0,0:06:12.38,0:06:14.51,简体中文,NTP,0,0,0,,一年以后
+Dialogue: 0,0:06:42.63,0:06:45.76,简体中文,NTP,0,0,0,,有泥巴 有鲜血 有啤酒
+Dialogue: 0,0:06:45.80,0:06:48.14,简体中文,NTP,0,0,0,,还有天晓得什么东西
+Dialogue: 0,0:06:48.18,0:06:50.25,简体中文,NTP,0,0,0,,把那破玩意儿关掉
+Dialogue: 0,0:07:00.80,0:07:02.30,简体中文,NTP,0,0,0,,想想就害怕
+Dialogue: 0,0:07:02.30,0:07:03.50,简体中文,NTP,0,0,0,,(欢迎来到查图嘎国家公园)
+Dialogue: 0,0:07:03.80,0:07:06.93,简体中文,NTP,0,0,0,,听着 咱们不必这样做 知道吗
+Dialogue: 0,0:07:07.93,0:07:10.21,简体中文,NTP,0,0,0,,不如掉头回城里吧
+Dialogue: 0,0:07:11.21,0:07:13.67,简体中文,NTP,0,0,0,,喝个烂醉 参加个舞会之类的
+Dialogue: 0,0:07:14.97,0:07:16.72,简体中文,NTP,0,0,0,,你说的才叫人害怕
+Dialogue: 0,0:07:21.96,0:07:23.32,简体中文,NTP,0,0,0,,你说得对 咱们不必这样做
+Dialogue: 0,0:07:24.06,0:07:26.00,简体中文,NTP,0,0,0,,但是我不会去和朱诺说
+Dialogue: 0,0:07:27.72,0:07:31.42,简体中文,NTP,0,0,0,,她就是那种人 总把咱们带到…
+Dialogue: 0,0:07:31.46,0:07:32.96,简体中文,NTP,0,0,0,,你自己看吧
+Dialogue: 0,0:07:33.01,0:07:36.93,简体中文,NTP,0,0,0,,- 去年她去了苏格兰 - 对 没过几天又离开了
+Dialogue: 0,0:08:14.80,0:08:16.76,简体中文,NTP,0,0,0,,莎拉 贝丝
+Dialogue: 0,0:08:17.72,0:08:19.43,简体中文,NTP,0,0,0,,朱诺
+Dialogue: 0,0:08:19.47,0:08:21.55,简体中文,NTP,0,0,0,,你真漂亮
+Dialogue: 0,0:08:23.84,0:08:26.09,简体中文,NTP,0,0,0,,啊 过来抱抱
+Dialogue: 0,0:08:26.13,0:08:28.30,简体中文,NTP,0,0,0,,让我瞧瞧
+Dialogue: 0,0:08:28.34,0:08:30.17,简体中文,NTP,0,0,0,,一切都会好起来的
+Dialogue: 0,0:08:30.21,0:08:31.88,简体中文,NTP,0,0,0,,会比预料的还好
+Dialogue: 0,0:08:31.92,0:08:34.67,简体中文,NTP,0,0,0,,丽贝卡和珊姆等不及见你了 进去看看吧
+Dialogue: 0,0:08:34.71,0:08:37.01,简体中文,NTP,0,0,0,,- 行李给我 - 好的
+Dialogue: 0,0:08:37.05,0:08:38.09,简体中文,NTP,0,0,0,,谢谢
+Dialogue: 0,0:08:38.13,0:08:40.38,简体中文,NTP,0,0,0,,- 你还好吧 - 是的
+Dialogue: 0,0:08:43.59,0:08:45.30,简体中文,NTP,0,0,0,,噢 真漂亮
+Dialogue: 0,0:08:45.34,0:08:48.18,简体中文,NTP,0,0,0,,- 她最近怎么样 - 就是现在这样
+Dialogue: 0,0:08:48.97,0:08:50.67,简体中文,NTP,0,0,0,,路要一步一步走 对吧
+Dialogue: 0,0:08:51.75,0:08:54.38,简体中文,NTP,0,0,0,,嘿 妈的 你说谁作弊
+Dialogue: 0,0:08:54.42,0:08:56.13,简体中文,NTP,0,0,0,,我说你他妈的作弊
+Dialogue: 0,0:08:56.17,0:08:57.97,简体中文,NTP,0,0,0,,大家好
+Dialogue: 0,0:08:58.01,0:08:59.50,简体中文,NTP,0,0,0,,你好
+Dialogue: 0,0:09:00.25,0:09:01.88,简体中文,NTP,0,0,0,,你好
+Dialogue: 0,0:09:03.17,0:09:05.84,简体中文,NTP,0,0,0,,- 你气色真的不错 - 你真漂亮
+Dialogue: 0,0:09:05.88,0:09:08.13,简体中文,NTP,0,0,0,,- 你好啊 - 我先把行李放下
+Dialogue: 0,0:09:11.92,0:09:14.05,简体中文,NTP,0,0,0,,很高兴能够见到你
+Dialogue: 0,0:09:14.88,0:09:16.76,简体中文,NTP,0,0,0,,- 我们快饿死了 - 好了 别聚着
+Dialogue: 0,0:09:16.80,0:09:19.54,简体中文,NTP,0,0,0,,- 有什么吃的 - 这个…还有一点…
+Dialogue: 0,0:09:19.58,0:09:20.96,简体中文,NTP,0,0,0,,珊姆 珊姆
+Dialogue: 0,0:09:21.00,0:09:23.59,简体中文,NTP,0,0,0,,谢谢你给我写信 对我帮助很大
+Dialogue: 0,0:09:23.63,0:09:26.55,简体中文,NTP,0,0,0,,唉 莎拉 对不起 我没能亲自过去
+Dialogue: 0,0:09:26.59,0:09:28.68,简体中文,NTP,0,0,0,,因为忙着应付期中考试 还有…
+Dialogue: 0,0:09:28.72,0:09:33.13,简体中文,NTP,0,0,0,,知道吗 大概一年以后珊姆就要做医生了
+Dialogue: 0,0:09:33.17,0:09:34.21,简体中文,NTP,0,0,0,,不会吧
+Dialogue: 0,0:09:34.26,0:09:38.43,简体中文,NTP,0,0,0,,- 不会这么快吧 - 我真为我妹妹自豪
+Dialogue: 0,0:09:38.47,0:09:41.42,简体中文,NTP,0,0,0,,- 谁想喝酒 - 我
+Dialogue: 0,0:09:41.46,0:09:44.17,简体中文,NTP,0,0,0,,- 白兰地 - 没错
+Dialogue: 0,0:09:44.21,0:09:46.05,简体中文,NTP,0,0,0,,- 那个 贝丝… - 啥
+Dialogue: 0,0:09:46.09,0:09:49.39,简体中文,NTP,0,0,0,,听说过了25岁 日子就变得一团糟
+Dialogue: 0,0:09:50.46,0:09:53.88,简体中文,NTP,0,0,0,,这是医学院里教的 教你惹人生气
+Dialogue: 0,0:09:53.92,0:09:55.97,简体中文,NTP,0,0,0,,贱人
+Dialogue: 0,0:09:56.01,0:09:58.18,简体中文,NTP,0,0,0,,我简直要变成老太太了
+Dialogue: 0,0:09:58.22,0:10:00.59,简体中文,NTP,0,0,0,,- 开始吧 - 你好
+Dialogue: 0,0:10:00.63,0:10:04.42,简体中文,NTP,0,0,0,,- 你好 你就是那个老师吧 - 贝丝 莎拉 这位是荷莉
+Dialogue: 0,0:10:04.46,0:10:06.76,简体中文,NTP,0,0,0,,朱诺是她的监护人
+Dialogue: 0,0:10:06.80,0:10:10.21,简体中文,NTP,0,0,0,,我一直以为朱诺会把她的孩子吃掉
+Dialogue: 0,0:10:10.25,0:10:12.67,简体中文,NTP,0,0,0,,我很会照顾自己 多谢
+Dialogue: 0,0:10:12.71,0:10:16.26,简体中文,NTP,0,0,0,,我听说过你的事 你是那个从楼顶往下跳的精神论者
+Dialogue: 0,0:10:16.30,0:10:20.13,简体中文,NTP,0,0,0,,- 低空跳伞 强烈建议你也试一下 - 你如今住在美国
+Dialogue: 0,0:10:20.17,0:10:22.71,简体中文,NTP,0,0,0,,在戈耳韦找不到可跳的建筑了
+Dialogue: 0,0:10:22.75,0:10:25.34,简体中文,NTP,0,0,0,,我一直在寻找下一个目标
+Dialogue: 0,0:10:25.38,0:10:27.68,简体中文,NTP,0,0,0,,- 你应该都知道了吧 - 什么
+Dialogue: 0,0:10:27.72,0:10:30.63,简体中文,NTP,0,0,0,,朱诺给我看过你们俩一起登山的照片
+Dialogue: 0,0:10:30.67,0:10:34.34,简体中文,NTP,0,0,0,,啊 这就是我找到的经典照片
+Dialogue: 0,0:10:34.38,0:10:36.59,简体中文,NTP,0,0,0,,不会吧
+Dialogue: 0,0:10:36.63,0:10:40.63,简体中文,NTP,0,0,0,,- 看看咱们从前的样子 - 天啊好难看
+Dialogue: 0,0:10:40.67,0:10:42.54,简体中文,NTP,0,0,0,,性感
+Dialogue: 0,0:10:43.96,0:10:45.67,简体中文,NTP,0,0,0,,热爱每一天
+Dialogue: 0,0:10:47.51,0:10:49.96,简体中文,NTP,0,0,0,,保罗生前的口头禅
+Dialogue: 0,0:10:52.34,0:10:54.46,简体中文,NTP,0,0,0,,无论如何 干杯
+Dialogue: 0,0:10:54.51,0:10:57.38,简体中文,NTP,0,0,0,,为我们的探险干杯
+Dialogue: 0,0:10:58.30,0:11:00.33,简体中文,NTP,0,0,0,,干杯
+Dialogue: 0,0:11:05.63,0:11:07.34,简体中文,NTP,0,0,0,,快点上 王八蛋
+Dialogue: 0,0:11:10.83,0:11:13.63,简体中文,NTP,0,0,0,,你去过博莱翰岩洞群
+Dialogue: 0,0:11:13.67,0:11:16.92,简体中文,NTP,0,0,0,,在书上看到过一次 那是给游客玩的地方 不适合探险
+Dialogue: 0,0:11:16.97,0:11:20.54,简体中文,NTP,0,0,0,,里面可能还有围栏和该死的礼品店
+Dialogue: 0,0:11:20.58,0:11:22.96,简体中文,NTP,0,0,0,,如果你是钻洞的 跳伞的 或者登山的
+Dialogue: 0,0:11:24.00,0:11:26.34,简体中文,NTP,0,0,0,,探险就不能这么安逸
+Dialogue: 0,0:11:26.38,0:11:29.05,简体中文,NTP,0,0,0,,否则迟早都会遭遇灾难
+Dialogue: 0,0:11:34.96,0:11:38.18,简体中文,NTP,0,0,0,,荷莉 你想要探险 我让你失望过吗
+Dialogue: 0,0:11:40.08,0:11:41.96,简体中文,NTP,0,0,0,,什么
+Dialogue: 0,0:11:42.00,0:11:45.05,简体中文,NTP,0,0,0,,明天让你如愿以偿
+Dialogue: 0,0:11:46.72,0:11:49.62,简体中文,NTP,0,0,0,,拿着 你用得着
+Dialogue: 0,0:11:59.29,0:12:02.25,简体中文,NTP,0,0,0,,珊姆 乔希怎么样了 你们还在一起
+Dialogue: 0,0:12:02.29,0:12:04.92,简体中文,NTP,0,0,0,,算是吧
+Dialogue: 0,0:12:04.96,0:12:07.26,简体中文,NTP,0,0,0,,很少有时间在一起
+Dialogue: 0,0:12:07.97,0:12:10.21,简体中文,NTP,0,0,0,,老天爷啊
+Dialogue: 0,0:12:11.67,0:12:14.75,简体中文,NTP,0,0,0,,- 天哪 - 你们有什么意见
+Dialogue: 0,0:12:17.47,0:12:19.92,简体中文,NTP,0,0,0,,别起哄好不好
+Dialogue: 0,0:12:19.96,0:12:21.71,简体中文,NTP,0,0,0,,这件是圣诞礼物
+Dialogue: 0,0:12:27.88,0:12:29.37,简体中文,NTP,0,0,0,,给我闭嘴
+Dialogue: 0,0:12:30.92,0:12:33.38,简体中文,NTP,0,0,0,,荷莉呢 有男人了吗
+Dialogue: 0,0:12:33.42,0:12:34.96,简体中文,NTP,0,0,0,,我和朱诺只爱运动
+Dialogue: 0,0:12:35.00,0:12:37.76,简体中文,NTP,0,0,0,,- 什么 - 我猜丽贝卡也是同一种人
+Dialogue: 0,0:12:41.46,0:12:44.59,简体中文,NTP,0,0,0,,但是等我老了 我要生一大群孩子
+Dialogue: 0,0:12:46.30,0:12:49.01,简体中文,NTP,0,0,0,,贝丝 莎拉对你讲没讲过…
+Dialogue: 0,0:14:38.51,0:14:40.21,简体中文,NTP,0,0,0,,起床
+Dialogue: 0,0:14:40.25,0:14:41.63,简体中文,NTP,0,0,0,,起床
+Dialogue: 0,0:14:41.67,0:14:44.75,简体中文,NTP,0,0,0,,我累死了 等我五分钟
+Dialogue: 0,0:14:44.80,0:14:46.67,简体中文,NTP,0,0,0,,五分钟
+Dialogue: 0,0:15:04.04,0:15:07.13,简体中文,NTP,0,0,0,,孩子们早上好 起床 起床
+Dialogue: 0,0:15:07.80,0:15:12.13,简体中文,NTP,0,0,0,,- 早上好 - 好个屁 冻死了
+Dialogue: 0,0:15:12.17,0:15:13.63,简体中文,NTP,0,0,0,,荷莉
+Dialogue: 0,0:15:19.05,0:15:22.13,简体中文,NTP,0,0,0,,七点出发 别迟到
+Dialogue: 0,0:15:22.17,0:15:23.63,简体中文,NTP,0,0,0,,试试这个
+Dialogue: 0,0:15:25.17,0:15:27.26,简体中文,NTP,0,0,0,,女王已死
+Dialogue: 0,0:15:27.30,0:15:30.37,简体中文,NTP,0,0,0,,女王万岁
+Dialogue: 0,0:15:40.04,0:15:41.71,简体中文,NTP,0,0,0,,贝丝 不能让你开车
+Dialogue: 0,0:15:41.75,0:15:44.71,简体中文,NTP,0,0,0,,- 让你开车 咱们一辈子也到不了 - 猜拳决定
+Dialogue: 0,0:15:44.75,0:15:46.55,简体中文,NTP,0,0,0,,- 来啊 - 真会耍花样
+Dialogue: 0,0:15:46.59,0:15:47.88,简体中文,NTP,0,0,0,,- 来吧 - 好
+Dialogue: 0,0:15:49.05,0:15:51.33,简体中文,NTP,0,0,0,,- 开始 - 不 等我数到三
+Dialogue: 0,0:15:51.37,0:15:52.83,简体中文,NTP,0,0,0,,我开车行了吧
+Dialogue: 0,0:15:52.88,0:15:54.50,简体中文,NTP,0,0,0,,女士们 拍张全家福
+Dialogue: 0,0:15:54.54,0:15:56.67,简体中文,NTP,0,0,0,,速度快一点 时间不多了
+Dialogue: 0,0:15:56.71,0:16:00.42,简体中文,NTP,0,0,0,,- 我这样子不好看 - 咱们都不好看 给我笑一个
+Dialogue: 0,0:16:00.46,0:16:02.21,简体中文,NTP,0,0,0,,- 帽子呢 不戴帽子 - 不戴
+Dialogue: 0,0:16:02.25,0:16:03.71,简体中文,NTP,0,0,0,,- 不戴 不戴 - 好的
+Dialogue: 0,0:16:03.75,0:16:06.59,简体中文,NTP,0,0,0,,- 快快快 - 说"茄子"
+Dialogue: 0,0:16:06.63,0:16:08.42,简体中文,NTP,0,0,0,,茄…子
+Dialogue: 0,0:16:37.13,0:16:40.25,简体中文,NTP,0,0,0,,- 莎拉 慢一点 - 我玩得正爽
+Dialogue: 0,0:16:40.29,0:16:41.92,简体中文,NTP,0,0,0,,她玩得正爽呢
+Dialogue: 0,0:16:41.96,0:16:43.71,简体中文,NTP,0,0,0,,转弯 在那里转弯
+Dialogue: 0,0:16:43.75,0:16:45.63,简体中文,NTP,0,0,0,,- 开越野车喽 - 真棒
+Dialogue: 0,0:16:48.80,0:16:50.87,简体中文,NTP,0,0,0,,你该喝点水了
+Dialogue: 0,0:16:50.92,0:16:55.04,简体中文,NTP,0,0,0,,这破表总也调不好 按钮太小了
+Dialogue: 0,0:16:55.09,0:16:57.17,简体中文,NTP,0,0,0,,- 别管它了 - 干嘛非要戴它
+Dialogue: 0,0:16:57.21,0:17:00.62,简体中文,NTP,0,0,0,,- 这是我男朋友送的 有纪念意义 - 扯淡
+Dialogue: 0,0:17:00.67,0:17:02.96,简体中文,NTP,0,0,0,,谁要送我这东西 我就甩了他
+Dialogue: 0,0:17:05.75,0:17:07.88,简体中文,NTP,0,0,0,,朱诺 你确定是这条路
+Dialogue: 0,0:17:07.92,0:17:11.29,简体中文,NTP,0,0,0,,- 放心 我从来没迷过路 - 不可思议
+Dialogue: 0,0:17:23.63,0:17:26.21,简体中文,NTP,0,0,0,,- 你以前探过这些岩洞吗 - 没
+Dialogue: 0,0:17:26.25,0:17:28.92,简体中文,NTP,0,0,0,,但是别担心 这里的分级只有2级 相当安全
+Dialogue: 0,0:17:28.95,0:17:32.42,简体中文,NTP,0,0,0,,- 我没担心 - 唯一的危险是我可能中途睡着
+Dialogue: 0,0:17:32.46,0:17:35.34,简体中文,NTP,0,0,0,,博莱翰岩洞群 不如叫无聊岩洞群
+Dialogue: 0,0:18:03.58,0:18:05.34,简体中文,NTP,0,0,0,,- 停的漂亮 - 谢谢
+Dialogue: 0,0:18:15.21,0:18:18.71,简体中文,NTP,0,0,0,,有一次在戈耳韦 我用大教堂练攀岩
+Dialogue: 0,0:18:18.76,0:18:21.92,简体中文,NTP,0,0,0,,一个牧师追着我一直爬到第二层
+Dialogue: 0,0:18:21.96,0:18:24.29,简体中文,NTP,0,0,0,,他真不错
+Dialogue: 0,0:18:24.33,0:18:27.88,简体中文,NTP,0,0,0,,- 但是我根本不该在那地方浪费时间 - 荷莉 别说了
+Dialogue: 0,0:18:27.92,0:18:30.04,简体中文,NTP,0,0,0,,别管她 丽贝卡
+Dialogue: 0,0:18:30.08,0:18:32.92,简体中文,NTP,0,0,0,,好了 赶快出发吧 时间不多了
+Dialogue: 0,0:18:41.29,0:18:43.79,简体中文,NTP,0,0,0,,快 跟上
+Dialogue: 0,0:18:45.34,0:18:48.46,简体中文,NTP,0,0,0,,- 荷莉 等等 - 快走 矮矬子
+Dialogue: 0,0:18:52.04,0:18:55.75,简体中文,NTP,0,0,0,,- 快点赶上去 - 来啊 懒鬼
+Dialogue: 0,0:19:02.87,0:19:04.96,简体中文,NTP,0,0,0,,你终于跟上了
+Dialogue: 0,0:19:08.80,0:19:13.33,简体中文,NTP,0,0,0,,- 朱诺 还没到吗 - 前面半英里处有一条小溪
+Dialogue: 0,0:19:13.38,0:19:16.54,简体中文,NTP,0,0,0,,沿着溪流走就能找到洞口
+Dialogue: 0,0:19:16.59,0:19:19.54,简体中文,NTP,0,0,0,,她怎么知道有小溪 我听不见水声啊
+Dialogue: 0,0:19:19.58,0:19:21.08,简体中文,NTP,0,0,0,,可能她是闻到的
+Dialogue: 0,0:19:21.12,0:19:23.71,简体中文,NTP,0,0,0,,她上周来探过路
+Dialogue: 0,0:19:23.75,0:19:27.17,简体中文,NTP,0,0,0,,第一条规则: 制定一个计划 不要随意改变
+Dialogue: 0,0:19:27.21,0:19:29.95,简体中文,NTP,0,0,0,,- 第二条呢 - 不许离队
+Dialogue: 0,0:19:30.00,0:19:32.00,简体中文,NTP,0,0,0,,关掉灯的瞬间你会感觉四周很暗
+Dialogue: 0,0:19:32.00,0:19:34.62,简体中文,NTP,0,0,0,,其实下面本来就一片黑暗
+Dialogue: 0,0:19:35.96,0:19:39.54,简体中文,NTP,0,0,0,,- 你有可能脱水 可能失去方向感 - 对 对 对
+Dialogue: 0,0:19:39.58,0:19:41.50,简体中文,NTP,0,0,0,,- 还有幽闭恐惧症 - 废话 废话 废话
+Dialogue: 0,0:19:41.54,0:19:45.59,简体中文,NTP,0,0,0,,恐慌 妄想症 幻视
+Dialogue: 0,0:19:45.63,0:19:48.30,简体中文,NTP,0,0,0,,视听障碍
+Dialogue: 0,0:20:08.00,0:20:09.04,简体中文,NTP,0,0,0,,喂
+Dialogue: 0,0:20:13.42,0:20:16.79,简体中文,NTP,0,0,0,,漂亮 荷莉来拍个特写
+Dialogue: 0,0:20:16.84,0:20:19.75,简体中文,NTP,0,0,0,,- 别碰 - 别碰这东西
+Dialogue: 0,0:20:19.79,0:20:22.37,简体中文,NTP,0,0,0,,珊姆 你认为凶手是谁 熊
+Dialogue: 0,0:20:22.42,0:20:24.58,简体中文,NTP,0,0,0,,问这个干嘛 你是野生侦探
+Dialogue: 0,0:20:24.63,0:20:26.19,简体中文,NTP,0,0,0,,说不定是雪人干的 走吧
+Dialogue: 0,0:20:26.19,0:20:28.16,简体中文,NTP,0,0,0,,珊姆 别拿棍子戳
+Dialogue: 0,0:20:50.75,0:20:52.08,简体中文,NTP,0,0,0,,就是这里
+Dialogue: 0,0:20:55.71,0:20:58.42,简体中文,NTP,0,0,0,,- 就这么个东西 - 不止如此
+Dialogue: 0,0:21:00.29,0:21:03.00,简体中文,NTP,0,0,0,,我是英文老师 不是盗墓贼
+Dialogue: 0,0:21:04.42,0:21:06.09,简体中文,NTP,0,0,0,,别害怕
+Dialogue: 0,0:21:12.96,0:21:16.29,简体中文,NTP,0,0,0,,莎拉和贝丝跟着我 珊姆 你和丽贝卡一起
+Dialogue: 0,0:21:16.34,0:21:18.13,简体中文,NTP,0,0,0,,照着她做 不会有事的
+Dialogue: 0,0:21:18.17,0:21:21.62,简体中文,NTP,0,0,0,,荷莉 安全第一 这次不许耍杂技
+Dialogue: 0,0:21:22.46,0:21:24.17,简体中文,NTP,0,0,0,,- 明白了 下面见 - 不对
+Dialogue: 0,0:21:24.21,0:21:26.95,简体中文,NTP,0,0,0,,把那边的绳子拴好
+Dialogue: 0,0:21:26.95,0:21:28.37,简体中文,NTP,0,0,0,,像这样握住
+Dialogue: 0,0:21:28.37,0:21:30.70,简体中文,NTP,0,0,0,,知道吗 我这不是第一次
+Dialogue: 0,0:21:30.75,0:21:35.17,简体中文,NTP,0,0,0,,- 我只想照顾你嘛 - 我领情了 只领那么一丁点
+Dialogue: 0,0:21:59.16,0:22:00.79,简体中文,NTP,0,0,0,,下来看看
+Dialogue: 0,0:22:00.83,0:22:03.17,简体中文,NTP,0,0,0,,太美了
+Dialogue: 0,0:22:03.21,0:22:06.84,简体中文,NTP,0,0,0,,- 贝丝 真难以置信 - 倒霉
+Dialogue: 0,0:22:13.58,0:22:15.92,简体中文,NTP,0,0,0,,上帝啊 我要死了
+Dialogue: 0,0:22:23.67,0:22:25.25,简体中文,NTP,0,0,0,,小意思
+Dialogue: 0,0:22:27.96,0:22:29.49,简体中文,NTP,0,0,0,,天啊
+Dialogue: 0,0:22:29.54,0:22:31.00,简体中文,NTP,0,0,0,,真不可思议
+Dialogue: 0,0:22:31.04,0:22:32.54,简体中文,NTP,0,0,0,,没有危险
+Dialogue: 0,0:22:39.62,0:22:42.04,简体中文,NTP,0,0,0,,是荷莉
+Dialogue: 0,0:22:42.08,0:22:43.37,简体中文,NTP,0,0,0,,妈的 闪开
+Dialogue: 0,0:22:44.87,0:22:49.49,简体中文,NTP,0,0,0,,荷莉 安全第一 听我的命令 懂不懂
+Dialogue: 0,0:22:49.54,0:22:51.25,简体中文,NTP,0,0,0,,小心 慢慢来
+Dialogue: 0,0:23:00.58,0:23:03.21,简体中文,NTP,0,0,0,,- 朱诺 - 小滑头
+Dialogue: 0,0:23:35.12,0:23:36.54,简体中文,NTP,0,0,0,,没事了 没事了
+Dialogue: 0,0:23:36.58,0:23:39.33,简体中文,NTP,0,0,0,,都飞走了 你看
+Dialogue: 0,0:23:42.62,0:23:45.25,简体中文,NTP,0,0,0,,一只蝙蝠 两只蝙蝠
+Dialogue: 0,0:23:45.29,0:23:46.71,简体中文,NTP,0,0,0,,50只蝙蝠
+Dialogue: 0,0:23:48.42,0:23:50.54,简体中文,NTP,0,0,0,,荷莉 闭嘴
+Dialogue: 0,0:23:54.62,0:23:56.38,简体中文,NTP,0,0,0,,往哪边走
+Dialogue: 0,0:23:56.42,0:23:59.70,简体中文,NTP,0,0,0,,要离开这个石室只有一条路 就是那条管道
+Dialogue: 0,0:24:10.41,0:24:11.45,简体中文,NTP,0,0,0,,好了
+Dialogue: 0,0:24:56.92,0:24:58.38,简体中文,NTP,0,0,0,,有个台阶
+Dialogue: 0,0:25:03.87,0:25:05.17,简体中文,NTP,0,0,0,,没事吧
+Dialogue: 0,0:25:09.20,0:25:10.87,简体中文,NTP,0,0,0,,荷莉 把你的袋子扔过来
+Dialogue: 0,0:25:27.58,0:25:29.83,简体中文,NTP,0,0,0,,天啊
+Dialogue: 0,0:26:53.12,0:26:55.37,简体中文,NTP,0,0,0,,找到好东西了
+Dialogue: 0,0:26:55.42,0:26:58.49,简体中文,NTP,0,0,0,,- 天啊 - 来吃饭吧
+Dialogue: 0,0:27:04.00,0:27:08.00,简体中文,NTP,0,0,0,,- 荷莉 先停一下好不好 - 我再拍几段
+Dialogue: 0,0:27:08.04,0:27:10.79,简体中文,NTP,0,0,0,,洞里比我想的冷多了
+Dialogue: 0,0:27:15.25,0:27:16.29,简体中文,NTP,0,0,0,,给你
+Dialogue: 0,0:27:16.33,0:27:18.33,简体中文,NTP,0,0,0,,我不饿
+Dialogue: 0,0:27:19.08,0:27:20.62,简体中文,NTP,0,0,0,,没事吧
+Dialogue: 0,0:27:21.70,0:27:24.16,简体中文,NTP,0,0,0,,我很好 朱诺
+Dialogue: 0,0:27:25.37,0:27:27.46,简体中文,NTP,0,0,0,,- 我跟你说过这个 - 我知道
+Dialogue: 0,0:27:30.58,0:27:32.66,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,0:27:33.41,0:27:36.50,简体中文,NTP,0,0,0,,我一直没有机会说
+Dialogue: 0,0:27:36.54,0:27:39.74,简体中文,NTP,0,0,0,,对不起 车祸之后我没有多陪你一段日子
+Dialogue: 0,0:27:45.71,0:27:47.58,简体中文,NTP,0,0,0,,无论如何
+Dialogue: 0,0:27:48.99,0:27:50.87,简体中文,NTP,0,0,0,,现在我们又在一起了 好吗
+Dialogue: 0,0:27:51.66,0:27:53.29,简体中文,NTP,0,0,0,,很好
+Dialogue: 0,0:27:53.33,0:27:56.37,简体中文,NTP,0,0,0,,对不起 我有点心不在焉 可能是时差问题
+Dialogue: 0,0:27:56.42,0:27:59.66,简体中文,NTP,0,0,0,,- 我去四处转转 可以吗 - 去吧
+Dialogue: 0,0:27:59.70,0:28:02.29,简体中文,NTP,0,0,0,,帮我们找找出口吧
+Dialogue: 0,0:28:02.33,0:28:04.58,简体中文,NTP,0,0,0,,喂 别走太远
+Dialogue: 0,0:28:11.87,0:28:14.87,简体中文,NTP,0,0,0,,她怎么了 好象见了鬼似的
+Dialogue: 0,0:28:14.91,0:28:16.33,简体中文,NTP,0,0,0,,她很好
+Dialogue: 0,0:28:34.91,0:28:37.00,简体中文,NTP,0,0,0,,我找到下一条路了
+Dialogue: 0,0:28:45.71,0:28:48.95,简体中文,NTP,0,0,0,,- 就是这个 太窄了吧 - 喂喂喂
+Dialogue: 0,0:28:48.99,0:28:51.91,简体中文,NTP,0,0,0,,- 我不明白 - 什么
+Dialogue: 0,0:28:51.95,0:28:54.66,简体中文,NTP,0,0,0,,这和我从书上看来的不一样
+Dialogue: 0,0:28:54.71,0:28:58.25,简体中文,NTP,0,0,0,,所以我不相信书本 上面写得太简略
+Dialogue: 0,0:28:58.28,0:28:59.83,简体中文,NTP,0,0,0,,出问题了
+Dialogue: 0,0:28:59.87,0:29:01.16,简体中文,NTP,0,0,0,,- 没 - 没有问题
+Dialogue: 0,0:29:02.49,0:29:04.04,简体中文,NTP,0,0,0,,我断后
+Dialogue: 0,0:29:05.50,0:29:08.82,简体中文,NTP,0,0,0,,探路的时候小心 我们在这里等着
+Dialogue: 0,0:32:03.49,0:32:04.54,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,0:32:05.66,0:32:07.83,简体中文,NTP,0,0,0,,- 妈的 - 你在我后面吗
+Dialogue: 0,0:32:07.87,0:32:09.28,简体中文,NTP,0,0,0,,没错
+Dialogue: 0,0:32:11.16,0:32:12.20,简体中文,NTP,0,0,0,,妈的
+Dialogue: 0,0:32:13.04,0:32:14.70,简体中文,NTP,0,0,0,,他妈的
+Dialogue: 0,0:32:14.75,0:32:18.45,简体中文,NTP,0,0,0,,莎拉 伙计们 是莎拉 她好象卡住了
+Dialogue: 0,0:32:18.49,0:32:20.24,简体中文,NTP,0,0,0,,我卡住了
+Dialogue: 0,0:32:20.99,0:32:23.24,简体中文,NTP,0,0,0,,没事的 莎拉 冷静 放松
+Dialogue: 0,0:32:25.16,0:32:27.58,简体中文,NTP,0,0,0,,妈的我不能放松
+Dialogue: 0,0:32:27.62,0:32:28.95,简体中文,NTP,0,0,0,,靠
+Dialogue: 0,0:32:28.99,0:32:30.50,简体中文,NTP,0,0,0,,莎拉 你必须放松
+Dialogue: 0,0:32:30.50,0:32:33.24,简体中文,NTP,0,0,0,,调整呼吸才能放松
+Dialogue: 0,0:32:33.29,0:32:36.96,简体中文,NTP,0,0,0,,继续 慢慢呼吸
+Dialogue: 0,0:32:39.78,0:32:42.53,简体中文,NTP,0,0,0,,我 我做不到
+Dialogue: 0,0:32:42.58,0:32:46.75,简体中文,NTP,0,0,0,,- 我喘不上气 - 莎拉 听我说
+Dialogue: 0,0:32:46.79,0:32:48.70,简体中文,NTP,0,0,0,,听着我的声音 好不好
+Dialogue: 0,0:32:49.78,0:32:53.49,简体中文,NTP,0,0,0,,莎拉 我回来帮你 好吗
+Dialogue: 0,0:32:54.33,0:32:56.50,简体中文,NTP,0,0,0,,还好吗 莎拉
+Dialogue: 0,0:32:56.54,0:33:00.32,简体中文,NTP,0,0,0,,听我说 继续呼吸 懂了
+Dialogue: 0,0:33:04.20,0:33:07.75,简体中文,NTP,0,0,0,,好 好 好
+Dialogue: 0,0:33:07.79,0:33:11.99,简体中文,NTP,0,0,0,,- 看着我 莎拉 - 救命
+Dialogue: 0,0:33:12.03,0:33:15.37,简体中文,NTP,0,0,0,,莎拉 看着我 你在害怕什么
+Dialogue: 0,0:33:15.41,0:33:17.50,简体中文,NTP,0,0,0,,很好 呼吸 呼吸
+Dialogue: 0,0:33:17.54,0:33:19.91,简体中文,NTP,0,0,0,,听我说
+Dialogue: 0,0:33:19.95,0:33:24.24,简体中文,NTP,0,0,0,,- 听我说 你在害怕什么 - 妈的 我动不了
+Dialogue: 0,0:33:24.29,0:33:27.50,简体中文,NTP,0,0,0,,你可以动的 莎拉 看着我 看着我
+Dialogue: 0,0:33:28.53,0:33:32.11,简体中文,NTP,0,0,0,,你已经遭遇过最悲惨的事
+Dialogue: 0,0:33:32.11,0:33:33.16,简体中文,NTP,0,0,0,,如今还好好活着
+Dialogue: 0,0:33:33.20,0:33:37.33,简体中文,NTP,0,0,0,,这只是个石洞 里面没什么可怕的 我保证
+Dialogue: 0,0:33:37.37,0:33:39.20,简体中文,NTP,0,0,0,,好吗 好吗
+Dialogue: 0,0:33:39.24,0:33:41.32,简体中文,NTP,0,0,0,,听我说 听我说
+Dialogue: 0,0:33:41.37,0:33:45.29,简体中文,NTP,0,0,0,,听我说 给你讲个笑话 怎样才能让柠檬高潮
+Dialogue: 0,0:33:45.33,0:33:49.28,简体中文,NTP,0,0,0,,妈的 快回答 怎样才能让柠檬高潮
+Dialogue: 0,0:33:49.32,0:33:51.78,简体中文,NTP,0,0,0,,该做什么 "爱抚"它的"把"
+Dialogue: 0,0:33:51.82,0:33:53.58,简体中文,NTP,0,0,0,,现在好些了吗 来
+Dialogue: 0,0:33:53.62,0:33:57.46,简体中文,NTP,0,0,0,,好 咱们走 抓住我的胳膊 明白吗
+Dialogue: 0,0:33:57.50,0:34:00.24,简体中文,NTP,0,0,0,,咱们慢慢来 抓着我的胳膊 明白
+Dialogue: 0,0:34:00.28,0:34:01.53,简体中文,NTP,0,0,0,,好 来吧
+Dialogue: 0,0:34:01.57,0:34:04.24,简体中文,NTP,0,0,0,,慢慢跟我来 好吗 走
+Dialogue: 0,0:34:07.04,0:34:10.03,简体中文,NTP,0,0,0,,背包 我忘了拿背包
+Dialogue: 0,0:34:10.07,0:34:10.95,简体中文,NTP,0,0,0,,好吧
+Dialogue: 0,0:34:17.54,0:34:21.16,简体中文,NTP,0,0,0,,去他妈的背包 赶快爬
+Dialogue: 0,0:34:21.20,0:34:22.28,简体中文,NTP,0,0,0,,快
+Dialogue: 0,0:34:22.33,0:34:23.41,简体中文,NTP,0,0,0,,快点
+Dialogue: 0,0:34:24.49,0:34:26.37,简体中文,NTP,0,0,0,,快点啊莎拉
+Dialogue: 0,0:34:27.08,0:34:29.16,简体中文,NTP,0,0,0,,莎拉 抓住绳子
+Dialogue: 0,0:34:49.95,0:34:51.74,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,0:34:52.95,0:34:54.87,简体中文,NTP,0,0,0,,- 你没事吧 - 没事
+Dialogue: 0,0:34:54.91,0:34:57.79,简体中文,NTP,0,0,0,,大家都还好吗
+Dialogue: 0,0:34:57.83,0:34:59.78,简体中文,NTP,0,0,0,,- 别碰我 - 丽贝卡
+Dialogue: 0,0:34:59.82,0:35:02.20,简体中文,NTP,0,0,0,,- 我在这里 我很好 - 贝丝 你受伤没
+Dialogue: 0,0:35:02.24,0:35:03.49,简体中文,NTP,0,0,0,,没 我也没事
+Dialogue: 0,0:35:03.53,0:35:05.78,简体中文,NTP,0,0,0,,灰尘落定以前谁也不许动
+Dialogue: 0,0:35:05.78,0:35:08.03,简体中文,NTP,0,0,0,,放心吧朱诺 我们哪也去不了
+Dialogue: 0,0:35:11.53,0:35:13.41,简体中文,NTP,0,0,0,,这句说得一点也没错
+Dialogue: 0,0:35:13.45,0:35:15.20,简体中文,NTP,0,0,0,,天啊
+Dialogue: 0,0:35:17.50,0:35:19.57,简体中文,NTP,0,0,0,,现在怎么办
+Dialogue: 0,0:35:20.41,0:35:24.08,简体中文,NTP,0,0,0,,根据导游手册上说的 这个岩洞群有三个出口
+Dialogue: 0,0:35:24.12,0:35:27.50,简体中文,NTP,0,0,0,,这只是其中一个而已 对不对 朱诺
+Dialogue: 0,0:35:28.24,0:35:29.99,简体中文,NTP,0,0,0,,朱诺 对不对啊
+Dialogue: 0,0:35:30.91,0:35:32.37,简体中文,NTP,0,0,0,,查一下书
+Dialogue: 0,0:35:34.24,0:35:36.33,简体中文,NTP,0,0,0,,- 我没带 - 什么
+Dialogue: 0,0:35:37.62,0:35:39.11,简体中文,NTP,0,0,0,,带了也没用
+Dialogue: 0,0:35:40.20,0:35:42.32,简体中文,NTP,0,0,0,,朱诺 怎么会这样
+Dialogue: 0,0:35:42.37,0:35:44.87,简体中文,NTP,0,0,0,,我就知道事情不对
+Dialogue: 0,0:35:44.91,0:35:47.14,简体中文,NTP,0,0,0,,你在山区救援组登记了吧
+Dialogue: 0,0:35:47.14,0:35:49.36,简体中文,NTP,0,0,0,,如果我们不去报到 他们会来搜救
+Dialogue: 0,0:35:49.40,0:35:54.24,简体中文,NTP,0,0,0,,如果我们来的是博莱翰岩洞群 他们确实会来
+Dialogue: 0,0:35:54.28,0:35:57.16,简体中文,NTP,0,0,0,,不过这里不是博莱翰岩洞群 对吧 朱诺
+Dialogue: 0,0:35:57.20,0:35:59.07,简体中文,NTP,0,0,0,,咱们走错山洞了
+Dialogue: 0,0:35:59.11,0:36:01.99,简体中文,NTP,0,0,0,,荷莉说的对 博莱翰岩洞群是坑骗游客的
+Dialogue: 0,0:36:02.03,0:36:04.97,简体中文,NTP,0,0,0,,别跟我说这些屁话
+Dialogue: 0,0:36:04.97,0:36:07.90,简体中文,NTP,0,0,0,,这不是探险 是拐骗
+Dialogue: 0,0:36:07.94,0:36:10.74,简体中文,NTP,0,0,0,,丽贝卡 我没想到会发生这种事
+Dialogue: 0,0:36:10.78,0:36:12.53,简体中文,NTP,0,0,0,,我们一直认为
+Dialogue: 0,0:36:12.57,0:36:14.99,简体中文,NTP,0,0,0,,如果没有风险 就没有意思了
+Dialogue: 0,0:36:15.04,0:36:17.37,简体中文,NTP,0,0,0,,不要狡辩
+Dialogue: 0,0:36:17.41,0:36:19.28,简体中文,NTP,0,0,0,,我们在哪
+Dialogue: 0,0:36:19.99,0:36:22.82,简体中文,NTP,0,0,0,,这是个全新的岩洞系统 还没有名字
+Dialogue: 0,0:36:22.87,0:36:25.49,简体中文,NTP,0,0,0,,我想让我们共同享有发现权
+Dialogue: 0,0:36:25.54,0:36:28.28,简体中文,NTP,0,0,0,,从来没有人下来过
+Dialogue: 0,0:36:28.32,0:36:30.99,简体中文,NTP,0,0,0,,- 妈的你开玩笑吧 - 哦老天
+Dialogue: 0,0:36:32.57,0:36:35.95,简体中文,NTP,0,0,0,,- 咱们怎么出去 - 可能没有出口
+Dialogue: 0,0:36:35.99,0:36:38.61,简体中文,NTP,0,0,0,,现在已经没法回头了
+Dialogue: 0,0:36:38.65,0:36:41.82,简体中文,NTP,0,0,0,,我们只能继续前进 寻找出口
+Dialogue: 0,0:36:41.87,0:36:44.20,简体中文,NTP,0,0,0,,你以为你在干嘛
+Dialogue: 0,0:36:44.24,0:36:47.70,简体中文,NTP,0,0,0,,我们都信任你 你说探险是为了莎拉好
+Dialogue: 0,0:36:48.61,0:36:51.24,简体中文,NTP,0,0,0,,你了解她的心情吗
+Dialogue: 0,0:36:51.28,0:36:54.12,简体中文,NTP,0,0,0,,不了解 因为你掉头就跑了 自私的婊子
+Dialogue: 0,0:36:54.16,0:36:56.16,简体中文,NTP,0,0,0,,贝丝 你知道吗
+Dialogue: 0,0:36:56.20,0:36:59.65,简体中文,NTP,0,0,0,,那次车祸 我和她都失去了某些东西
+Dialogue: 0,0:37:04.03,0:37:06.12,简体中文,NTP,0,0,0,,快带我们出去
+Dialogue: 0,0:37:08.61,0:37:13.74,简体中文,NTP,0,0,0,,岩洞有时会崩塌 这个概率很小
+Dialogue: 0,0:37:13.78,0:37:15.95,简体中文,NTP,0,0,0,,但是如果我们留在这里 就一定会死
+Dialogue: 0,0:37:15.99,0:37:17.99,简体中文,NTP,0,0,0,,咱们走吧
+Dialogue: 0,0:37:50.07,0:37:51.45,简体中文,NTP,0,0,0,,- 等等 - 怎么
+Dialogue: 0,0:37:51.49,0:37:53.78,简体中文,NTP,0,0,0,,别动 珊姆
+Dialogue: 0,0:37:53.82,0:37:55.70,简体中文,NTP,0,0,0,,站在原地
+Dialogue: 0,0:38:23.03,0:38:24.91,简体中文,NTP,0,0,0,,妈的 没路了
+Dialogue: 0,0:38:36.33,0:38:38.90,简体中文,NTP,0,0,0,,谢谢 贝丝
+Dialogue: 0,0:38:38.94,0:38:41.53,简体中文,NTP,0,0,0,,我试试它有多深
+Dialogue: 0,0:38:41.57,0:38:43.37,简体中文,NTP,0,0,0,,现在怎么办
+Dialogue: 0,0:38:43.41,0:38:47.90,简体中文,NTP,0,0,0,,得有一个人过到对面去 扯一条线 让其他人也过去
+Dialogue: 0,0:38:49.70,0:38:54.16,简体中文,NTP,0,0,0,,我有三个凸轮 至少再有三个才够 背包呢
+Dialogue: 0,0:38:55.24,0:38:56.74,简体中文,NTP,0,0,0,,哪去了
+Dialogue: 0,0:38:57.78,0:38:59.86,简体中文,NTP,0,0,0,,洞穴崩塌的时候丢了
+Dialogue: 0,0:39:01.11,0:39:02.16,简体中文,NTP,0,0,0,,对不起
+Dialogue: 0,0:39:20.24,0:39:21.70,简体中文,NTP,0,0,0,,帮我一把
+Dialogue: 0,0:39:48.86,0:39:50.45,简体中文,NTP,0,0,0,,加油 丽贝卡
+Dialogue: 0,0:40:12.28,0:40:14.24,简体中文,NTP,0,0,0,,成功了
+Dialogue: 0,0:40:23.95,0:40:25.41,简体中文,NTP,0,0,0,,加油 加油
+Dialogue: 0,0:40:26.24,0:40:28.65,简体中文,NTP,0,0,0,,加油啊 丽贝卡
+Dialogue: 0,0:40:28.69,0:40:30.82,简体中文,NTP,0,0,0,,加油 丽贝卡
+Dialogue: 0,0:40:30.86,0:40:32.95,简体中文,NTP,0,0,0,,你等什么呢
+Dialogue: 0,0:40:35.62,0:40:36.99,简体中文,NTP,0,0,0,,- 靠 - 你怎么了
+Dialogue: 0,0:40:37.04,0:40:38.86,简体中文,NTP,0,0,0,,有问题吗
+Dialogue: 0,0:40:38.90,0:40:41.65,简体中文,NTP,0,0,0,,没事 我很好
+Dialogue: 0,0:40:41.70,0:40:42.95,简体中文,NTP,0,0,0,,好吧
+Dialogue: 0,0:40:54.12,0:40:56.53,简体中文,NTP,0,0,0,,好了 放绳子过来
+Dialogue: 0,0:40:57.94,0:40:59.40,简体中文,NTP,0,0,0,,再放一些 谢谢
+Dialogue: 0,0:41:05.16,0:41:06.20,简体中文,NTP,0,0,0,,妈的
+Dialogue: 0,0:41:18.90,0:41:20.99,简体中文,NTP,0,0,0,,- 好了 - 干得漂亮
+Dialogue: 0,0:41:22.20,0:41:26.53,简体中文,NTP,0,0,0,,好 把右边的绳子抛过来
+Dialogue: 0,0:41:30.19,0:41:31.24,简体中文,NTP,0,0,0,,好
+Dialogue: 0,0:41:33.20,0:41:34.24,简体中文,NTP,0,0,0,,准备好了
+Dialogue: 0,0:41:40.99,0:41:42.20,简体中文,NTP,0,0,0,,过来
+Dialogue: 0,0:41:54.62,0:41:55.91,简体中文,NTP,0,0,0,,来了
+Dialogue: 0,0:41:55.95,0:42:00.28,简体中文,NTP,0,0,0,,- 这不是很容易嘛 - 你刚好相反
+Dialogue: 0,0:42:06.03,0:42:09.15,简体中文,NTP,0,0,0,,别往下看 贝丝 一直向前
+Dialogue: 0,0:42:09.19,0:42:12.15,简体中文,NTP,0,0,0,,- 继续爬 - 放心 很安全的
+Dialogue: 0,0:42:15.95,0:42:18.69,简体中文,NTP,0,0,0,,好 上来了
+Dialogue: 0,0:42:25.70,0:42:27.78,简体中文,NTP,0,0,0,,到底是为了你 还是为了我
+Dialogue: 0,0:42:30.57,0:42:33.99,简体中文,NTP,0,0,0,,为了我们 为了让我们恢复过去的样子
+Dialogue: 0,0:42:35.03,0:42:37.28,简体中文,NTP,0,0,0,,我们要申请这地方的发现权 给它命名
+Dialogue: 0,0:42:38.11,0:42:40.53,简体中文,NTP,0,0,0,,我想可能是用你的名字
+Dialogue: 0,0:42:40.57,0:42:42.03,简体中文,NTP,0,0,0,,也可能是你的名字
+Dialogue: 0,0:42:48.32,0:42:50.40,简体中文,NTP,0,0,0,,干得不错 继续
+Dialogue: 0,0:42:51.15,0:42:52.61,简体中文,NTP,0,0,0,,过来
+Dialogue: 0,0:42:54.99,0:42:57.61,简体中文,NTP,0,0,0,,到了 把手给我
+Dialogue: 0,0:43:12.86,0:43:13.91,简体中文,NTP,0,0,0,,朱诺
+Dialogue: 0,0:43:14.99,0:43:17.37,简体中文,NTP,0,0,0,,已经用不到这些了
+Dialogue: 0,0:43:18.78,0:43:20.78,简体中文,NTP,0,0,0,,收回去
+Dialogue: 0,0:44:02.07,0:44:03.11,简体中文,NTP,0,0,0,,成功
+Dialogue: 0,0:44:07.08,0:44:08.48,简体中文,NTP,0,0,0,,伸手
+Dialogue: 0,0:44:08.52,0:44:10.15,简体中文,NTP,0,0,0,,用力
+Dialogue: 0,0:44:12.86,0:44:14.45,简体中文,NTP,0,0,0,,朱诺
+Dialogue: 0,0:44:14.49,0:44:15.53,简体中文,NTP,0,0,0,,不
+Dialogue: 0,0:44:31.82,0:44:34.16,简体中文,NTP,0,0,0,,朱诺 放心 拉住你了
+Dialogue: 0,0:44:34.20,0:44:35.62,简体中文,NTP,0,0,0,,好 往上拉
+Dialogue: 0,0:44:39.23,0:44:41.53,简体中文,NTP,0,0,0,,- 珊姆 - 荷莉 让我过去
+Dialogue: 0,0:44:42.57,0:44:44.28,简体中文,NTP,0,0,0,,丽贝卡 把手给我
+Dialogue: 0,0:44:59.53,0:45:01.11,简体中文,NTP,0,0,0,,放松 放松
+Dialogue: 0,0:45:01.15,0:45:04.07,简体中文,NTP,0,0,0,,- 这是什么意思 - 意思是 我们不是第一个来的
+Dialogue: 0,0:45:04.82,0:45:06.87,简体中文,NTP,0,0,0,,是个岩钉
+Dialogue: 0,0:45:06.91,0:45:10.11,简体中文,NTP,0,0,0,,如果有其他人来过 我们找到出口的概率会更大
+Dialogue: 0,0:45:10.15,0:45:14.41,简体中文,NTP,0,0,0,,这东西至少有100年了 如今没人用这种东西
+Dialogue: 0,0:45:14.45,0:45:17.44,简体中文,NTP,0,0,0,,另外 如果有人来过这里而且又出去了
+Dialogue: 0,0:45:17.48,0:45:19.19,简体中文,NTP,0,0,0,,这洞穴就早该有名字了
+Dialogue: 0,0:45:20.32,0:45:22.86,简体中文,NTP,0,0,0,,丽贝卡 你怎么样
+Dialogue: 0,0:45:22.90,0:45:24.03,简体中文,NTP,0,0,0,,还没死
+Dialogue: 0,0:45:28.52,0:45:30.90,简体中文,NTP,0,0,0,,荷莉 前面的路怎么样
+Dialogue: 0,0:45:30.94,0:45:33.03,简体中文,NTP,0,0,0,,又变窄了 但是我能过去
+Dialogue: 0,0:45:33.07,0:45:35.57,简体中文,NTP,0,0,0,,好的 你先走 我们随后
+Dialogue: 0,0:45:48.69,0:45:50.78,简体中文,NTP,0,0,0,,喂 这下边有什么东西
+Dialogue: 0,0:46:22.49,0:46:26.49,简体中文,NTP,0,0,0,,真漂亮 但是咱们的灯要没电了
+Dialogue: 0,0:46:26.53,0:46:29.94,简体中文,NTP,0,0,0,,- 按我说 咱们继续走吧 - 等等 等一下
+Dialogue: 0,0:46:29.98,0:46:33.49,简体中文,NTP,0,0,0,,- 什么事 贝丝 - 朱诺 给我一个照明弹
+Dialogue: 0,0:46:33.53,0:46:36.99,简体中文,NTP,0,0,0,,- 没有必要 - 扔一个照明弹
+Dialogue: 0,0:46:48.57,0:46:52.65,简体中文,NTP,0,0,0,,- 真漂亮 但是这东西没用 贝丝 - 不 仔细看 你看到什么
+Dialogue: 0,0:46:52.69,0:46:54.78,简体中文,NTP,0,0,0,,山脉 洞窟
+Dialogue: 0,0:46:54.82,0:46:57.40,简体中文,NTP,0,0,0,,一共有两个开口
+Dialogue: 0,0:47:00.94,0:47:04.24,简体中文,NTP,0,0,0,,- 你是天才 - 我也有走运的时候
+Dialogue: 0,0:47:04.28,0:47:07.16,简体中文,NTP,0,0,0,,- 就是说 还有条路可以出去 - 咱们找找看
+Dialogue: 0,0:47:08.36,0:47:09.69,简体中文,NTP,0,0,0,,走吧
+Dialogue: 0,0:47:28.73,0:47:30.82,简体中文,NTP,0,0,0,,- 混蛋 - 该走哪边
+Dialogue: 0,0:47:30.86,0:47:32.94,简体中文,NTP,0,0,0,,荷莉 打火机给我
+Dialogue: 0,0:47:34.82,0:47:36.53,简体中文,NTP,0,0,0,,- 快点 - 给
+Dialogue: 0,0:47:41.28,0:47:42.44,简体中文,NTP,0,0,0,,靠
+Dialogue: 0,0:47:43.53,0:47:46.49,简体中文,NTP,0,0,0,,- 快 赶快 - 倒霉
+Dialogue: 0,0:47:49.77,0:47:52.65,简体中文,NTP,0,0,0,,- 这一条 - 喂 荷莉
+Dialogue: 0,0:47:54.70,0:47:56.86,简体中文,NTP,0,0,0,,荷莉 慢慢来
+Dialogue: 0,0:47:59.61,0:48:03.15,简体中文,NTP,0,0,0,,小心 荷莉
+Dialogue: 0,0:48:04.24,0:48:06.41,简体中文,NTP,0,0,0,,日光 我看见日光了
+Dialogue: 0,0:48:09.40,0:48:12.36,简体中文,NTP,0,0,0,,荷莉 小心 慢一点
+Dialogue: 0,0:48:12.40,0:48:15.24,简体中文,NTP,0,0,0,,荷莉 那不是日光
+Dialogue: 0,0:48:21.69,0:48:22.99,简体中文,NTP,0,0,0,,- 救命 - 坚持住
+Dialogue: 0,0:48:24.20,0:48:26.36,简体中文,NTP,0,0,0,,抓住
+Dialogue: 0,0:48:27.07,0:48:28.98,简体中文,NTP,0,0,0,,荷莉
+Dialogue: 0,0:48:35.53,0:48:37.73,简体中文,NTP,0,0,0,,珊姆 快过来
+Dialogue: 0,0:48:37.77,0:48:39.02,简体中文,NTP,0,0,0,,荷莉
+Dialogue: 0,0:48:40.48,0:48:42.32,简体中文,NTP,0,0,0,,荷莉
+Dialogue: 0,0:48:55.99,0:48:58.27,简体中文,NTP,0,0,0,,荷莉 回答我
+Dialogue: 0,0:49:05.86,0:49:07.31,简体中文,NTP,0,0,0,,我的腿好象断了
+Dialogue: 0,0:49:07.35,0:49:10.57,简体中文,NTP,0,0,0,,别动 我们下来救你
+Dialogue: 0,0:49:29.94,0:49:32.36,简体中文,NTP,0,0,0,,快下来救我
+Dialogue: 0,0:49:41.90,0:49:45.24,简体中文,NTP,0,0,0,,- 真恶心 - 贝丝 现在不行
+Dialogue: 0,0:49:45.28,0:49:48.86,简体中文,NTP,0,0,0,,每人抓一个角 把她从水里抬出来
+Dialogue: 0,0:49:50.11,0:49:53.44,简体中文,NTP,0,0,0,,全身放松 预备 抬
+Dialogue: 0,0:49:56.74,0:49:59.90,简体中文,NTP,0,0,0,,- 你们这群王八蛋 - 朱诺 去找些东西做夹板
+Dialogue: 0,0:49:59.94,0:50:02.94,简体中文,NTP,0,0,0,,- 好 按住她 - 朱诺 把你的破冰斧给我一把
+Dialogue: 0,0:50:02.98,0:50:04.78,简体中文,NTP,0,0,0,,你会好起来的 宝贝
+Dialogue: 0,0:50:17.85,0:50:19.94,简体中文,NTP,0,0,0,,好了
+Dialogue: 0,0:50:21.48,0:50:24.11,简体中文,NTP,0,0,0,,- 莎拉 - 朱诺 我还需要你帮忙
+Dialogue: 0,0:50:24.15,0:50:25.86,简体中文,NTP,0,0,0,,- 莎拉 - 朱诺
+Dialogue: 0,0:50:26.70,0:50:29.19,简体中文,NTP,0,0,0,,你们抓住她的胳膊 把她按住
+Dialogue: 0,0:50:29.23,0:50:30.69,简体中文,NTP,0,0,0,,你要干什么
+Dialogue: 0,0:50:30.73,0:50:34.74,简体中文,NTP,0,0,0,,断骨支出来了 没法缝合伤口 也不能上夹板
+Dialogue: 0,0:50:34.78,0:50:36.74,简体中文,NTP,0,0,0,,我要把它推回去
+Dialogue: 0,0:50:37.81,0:50:40.52,简体中文,NTP,0,0,0,,- 我恨你 - 我知道
+Dialogue: 0,0:50:40.57,0:50:41.61,简体中文,NTP,0,0,0,,来吧
+Dialogue: 0,0:50:56.70,0:50:58.98,简体中文,NTP,0,0,0,,咬住这个
+Dialogue: 0,0:50:59.02,0:51:01.82,简体中文,NTP,0,0,0,,- 按住她 - 紧紧咬着 明白
+Dialogue: 0,0:51:01.86,0:51:03.94,简体中文,NTP,0,0,0,,开始
+Dialogue: 0,0:51:07.48,0:51:09.11,简体中文,NTP,0,0,0,,加把劲
+Dialogue: 0,0:51:16.53,0:51:18.69,简体中文,NTP,0,0,0,,用力咬着
+Dialogue: 0,0:51:18.73,0:51:20.86,简体中文,NTP,0,0,0,,用力
+Dialogue: 0,0:51:22.69,0:51:25.40,简体中文,NTP,0,0,0,,好了 帮我拿医药箱来
+Dialogue: 0,0:51:27.23,0:51:30.48,简体中文,NTP,0,0,0,,好了 好了 冷静一下 全都过去了
+Dialogue: 0,0:52:06.74,0:52:08.81,简体中文,NTP,0,0,0,,你在干什么
+Dialogue: 0,0:52:08.85,0:52:11.23,简体中文,NTP,0,0,0,,我刚刚看见隧道那边有人
+Dialogue: 0,0:52:14.19,0:52:17.19,简体中文,NTP,0,0,0,,莎拉 我保证 一定会带你出去
+Dialogue: 0,0:52:17.23,0:52:19.40,简体中文,NTP,0,0,0,,但是你不肯配合的话我也没办法
+Dialogue: 0,0:52:19.44,0:52:21.52,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,0:52:22.57,0:52:24.53,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,0:52:25.57,0:52:27.65,简体中文,NTP,0,0,0,,莎拉 看着我
+Dialogue: 0,0:52:28.44,0:52:30.52,简体中文,NTP,0,0,0,,那里什么也没有
+Dialogue: 0,0:52:35.07,0:52:36.36,简体中文,NTP,0,0,0,,我能做的就这么多
+Dialogue: 0,0:52:36.40,0:52:40.27,简体中文,NTP,0,0,0,,你会疼得想死 这条腿也不能承受任何重量 但是至少你可以走路了
+Dialogue: 0,0:52:40.31,0:52:44.28,简体中文,NTP,0,0,0,,他们几百年前就搜过山 不管谁被困在这里 如今也变成骷髅了
+Dialogue: 0,0:52:44.32,0:52:46.28,简体中文,NTP,0,0,0,,- 看上去就是这样 - 什么事
+Dialogue: 0,0:52:46.32,0:52:48.44,简体中文,NTP,0,0,0,,- 莎拉认为她看见人了 - 看见什么
+Dialogue: 0,0:52:48.48,0:52:51.02,简体中文,NTP,0,0,0,,没有"认为" 我就是看见人了
+Dialogue: 0,0:52:51.07,0:52:53.82,简体中文,NTP,0,0,0,,不 你听见了什么声音 然后骗自己说那是人
+Dialogue: 0,0:52:53.86,0:52:57.56,简体中文,NTP,0,0,0,,- 是黑暗让你产生了错觉 - 我能详细描述出看见的东西
+Dialogue: 0,0:52:57.60,0:53:00.69,简体中文,NTP,0,0,0,,- 你看见的是什么 - 男人 我看见一个男人
+Dialogue: 0,0:53:00.73,0:53:02.82,简体中文,NTP,0,0,0,,- 你确定 - 是的
+Dialogue: 0,0:53:02.86,0:53:06.53,简体中文,NTP,0,0,0,,从前我有过错觉 但这次我敢肯定是真的
+Dialogue: 0,0:53:06.57,0:53:10.36,简体中文,NTP,0,0,0,,如果这下边有人 也许他们能帮我们出去
+Dialogue: 0,0:53:10.40,0:53:13.07,简体中文,NTP,0,0,0,,莎拉 算了吧 这下面没有人
+Dialogue: 0,0:53:13.11,0:53:15.40,简体中文,NTP,0,0,0,,咱们得把荷莉搬出去
+Dialogue: 0,0:53:15.44,0:53:17.64,简体中文,NTP,0,0,0,,这才是眼下最重要的事
+Dialogue: 0,0:53:18.81,0:53:21.48,简体中文,NTP,0,0,0,,- 贝丝 - 算了吧
+Dialogue: 0,0:53:21.52,0:53:23.61,简体中文,NTP,0,0,0,,算了 见鬼
+Dialogue: 0,0:53:26.78,0:53:28.85,简体中文,NTP,0,0,0,,你要注意保暖
+Dialogue: 0,0:53:30.15,0:53:33.11,简体中文,NTP,0,0,0,,为什么走这个方向 后面就有日光啊
+Dialogue: 0,0:53:33.15,0:53:35.44,简体中文,NTP,0,0,0,,不是日光 是岩石的磷光
+Dialogue: 0,0:53:35.49,0:53:38.60,简体中文,NTP,0,0,0,,咱们在地下两英里深的地方 唯一的光就是电灯光
+Dialogue: 0,0:53:38.65,0:53:41.77,简体中文,NTP,0,0,0,,在我看真像日光
+Dialogue: 0,0:53:56.24,0:53:57.81,简体中文,NTP,0,0,0,,右面的隧道
+Dialogue: 0,0:54:15.03,0:54:17.56,简体中文,NTP,0,0,0,,我来帮你
+Dialogue: 0,0:55:27.14,0:55:30.27,简体中文,NTP,0,0,0,,老天 这是什么地方
+Dialogue: 0,0:55:30.31,0:55:33.40,简体中文,NTP,0,0,0,,荷莉 红外线模式的开关在哪
+Dialogue: 0,0:55:41.56,0:55:42.98,简体中文,NTP,0,0,0,,动物遗体
+Dialogue: 0,0:55:43.02,0:55:45.36,简体中文,NTP,0,0,0,,好几百具
+Dialogue: 0,0:55:45.40,0:55:46.93,简体中文,NTP,0,0,0,,这可不是什么好地方
+Dialogue: 0,0:55:46.98,0:55:49.06,简体中文,NTP,0,0,0,,快离开吧 走哪条路
+Dialogue: 0,0:55:53.52,0:55:56.15,简体中文,NTP,0,0,0,,- 我不知道 - 你不知道 什么意思
+Dialogue: 0,0:55:56.19,0:56:00.31,简体中文,NTP,0,0,0,,这里没有风 每条隧道都可能是出口 你们选吧
+Dialogue: 0,0:56:00.35,0:56:02.90,简体中文,NTP,0,0,0,,去他妈的 有人吗
+Dialogue: 0,0:56:02.94,0:56:06.98,简体中文,NTP,0,0,0,,- 小点声 - 有没有人
+Dialogue: 0,0:56:07.02,0:56:09.10,简体中文,NTP,0,0,0,,有人吗
+Dialogue: 0,0:56:15.19,0:56:18.35,简体中文,NTP,0,0,0,,在那里 上面 在洞壁顶上
+Dialogue: 0,0:56:25.69,0:56:29.23,简体中文,NTP,0,0,0,,你看见了吗 那是什么鬼东西
+Dialogue: 0,0:56:29.27,0:56:31.90,简体中文,NTP,0,0,0,,不知道 它动作太快 我几乎看不见
+Dialogue: 0,0:56:31.94,0:56:35.23,简体中文,NTP,0,0,0,,- 我从没见过会这样爬墙的 - 我说过我看见人了
+Dialogue: 0,0:56:35.28,0:56:37.48,简体中文,NTP,0,0,0,,- 那不是人类 - 少废话了
+Dialogue: 0,0:56:37.52,0:56:40.15,简体中文,NTP,0,0,0,,碰运气吧 选一条路 快走
+Dialogue: 0,0:56:50.60,0:56:52.69,简体中文,NTP,0,0,0,,怎么了
+Dialogue: 0,0:56:52.73,0:56:55.40,简体中文,NTP,0,0,0,,见鬼 它围着咱们转
+Dialogue: 0,0:57:03.69,0:57:07.43,简体中文,NTP,0,0,0,,- 它在哪里 - 那条路 快走
+Dialogue: 0,0:57:07.48,0:57:12.40,简体中文,NTP,0,0,0,,- 荷莉 咱们走 - 快啊 快走
+Dialogue: 0,0:57:12.44,0:57:15.82,简体中文,NTP,0,0,0,,快 荷莉 走路啊 赶快
+Dialogue: 0,0:57:17.14,0:57:19.94,简体中文,NTP,0,0,0,,朱诺 把照明弹扔掉
+Dialogue: 0,0:57:20.94,0:57:24.52,简体中文,NTP,0,0,0,,荷莉 坚持住 快走
+Dialogue: 0,0:57:39.64,0:57:41.65,简体中文,NTP,0,0,0,,荷莉 荷莉
+Dialogue: 0,0:57:42.52,0:57:43.98,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,0:57:45.07,0:57:47.77,简体中文,NTP,0,0,0,,荷莉
+Dialogue: 0,0:57:59.77,0:58:01.65,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,0:58:03.15,0:58:05.61,简体中文,NTP,0,0,0,,莎拉 快跑
+Dialogue: 0,0:58:08.89,0:58:10.81,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,0:58:22.90,0:58:24.65,简体中文,NTP,0,0,0,,滚
+Dialogue: 0,0:58:24.69,0:58:26.60,简体中文,NTP,0,0,0,,滚远点 王八蛋
+Dialogue: 0,0:59:59.77,1:00:01.69,简体中文,NTP,0,0,0,,别丢下我
+Dialogue: 0,1:00:25.61,1:00:28.52,简体中文,NTP,0,0,0,,靠 我的电池没电了
+Dialogue: 0,1:00:30.06,1:00:31.52,简体中文,NTP,0,0,0,,它们去哪了
+Dialogue: 0,1:00:34.56,1:00:36.64,简体中文,NTP,0,0,0,,其他人呢
+Dialogue: 0,1:00:36.68,1:00:39.68,简体中文,NTP,0,0,0,,丽贝卡 求求你 告诉我说咱们能出去
+Dialogue: 0,1:00:40.98,1:00:43.06,简体中文,NTP,0,0,0,,好吧好吧
+Dialogue: 0,1:00:43.10,1:00:45.19,简体中文,NTP,0,0,0,,谢谢
+Dialogue: 0,1:00:49.64,1:00:51.73,简体中文,NTP,0,0,0,,走吧 走
+Dialogue: 0,1:01:08.02,1:01:10.81,简体中文,NTP,0,0,0,,妈妈 妈妈
+Dialogue: 0,1:01:10.85,1:01:12.52,简体中文,NTP,0,0,0,,如果你真的准备好了
+Dialogue: 0,1:03:58.52,1:04:00.60,简体中文,NTP,0,0,0,,把灯关掉
+Dialogue: 0,1:04:06.39,1:04:08.47,简体中文,NTP,0,0,0,,别出声
+Dialogue: 0,1:04:41.68,1:04:43.52,简体中文,NTP,0,0,0,,莎拉 莎拉
+Dialogue: 0,1:04:45.52,1:04:46.76,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:06:02.23,1:06:04.31,简体中文,NTP,0,0,0,,它看不见咱们
+Dialogue: 0,1:06:27.76,1:06:29.81,简体中文,NTP,0,0,0,,珊姆 丽贝卡
+Dialogue: 0,1:06:31.60,1:06:34.23,简体中文,NTP,0,0,0,,丽贝卡
+Dialogue: 0,1:06:35.10,1:06:36.55,简体中文,NTP,0,0,0,,- 丽贝卡 - 是朱诺
+Dialogue: 0,1:06:36.60,1:06:37.89,简体中文,NTP,0,0,0,,丽贝卡
+Dialogue: 0,1:06:37.93,1:06:41.73,简体中文,NTP,0,0,0,,这么大嗓门 她会把所有怪物全引过去的
+Dialogue: 0,1:06:41.77,1:06:44.23,简体中文,NTP,0,0,0,,只要别引过来就行
+Dialogue: 0,1:06:50.52,1:06:52.60,简体中文,NTP,0,0,0,,丽贝卡
+Dialogue: 0,1:06:56.18,1:06:58.26,简体中文,NTP,0,0,0,,珊姆
+Dialogue: 0,1:07:51.68,1:07:53.77,简体中文,NTP,0,0,0,,珊姆
+Dialogue: 0,1:07:56.09,1:07:58.18,简体中文,NTP,0,0,0,,珊姆
+Dialogue: 0,1:07:59.76,1:08:01.85,简体中文,NTP,0,0,0,,有人吗
+Dialogue: 0,1:08:01.89,1:08:03.39,简体中文,NTP,0,0,0,,珊姆
+Dialogue: 0,1:08:25.89,1:08:28.05,简体中文,NTP,0,0,0,,对不起 对不起
+Dialogue: 0,1:08:30.97,1:08:32.89,简体中文,NTP,0,0,0,,对不起
+Dialogue: 0,1:09:56.47,1:09:58.55,简体中文,NTP,0,0,0,,好
+Dialogue: 0,1:10:01.72,1:10:03.06,简体中文,NTP,0,0,0,,好的
+Dialogue: 0,1:10:07.85,1:10:09.22,简体中文,NTP,0,0,0,,很好
+Dialogue: 0,1:10:09.26,1:10:11.35,简体中文,NTP,0,0,0,,没有怪物
+Dialogue: 0,1:10:43.31,1:10:44.81,简体中文,NTP,0,0,0,,快跑 珊姆
+Dialogue: 0,1:11:29.01,1:11:31.10,简体中文,NTP,0,0,0,,我们听见你喊莎拉
+Dialogue: 0,1:11:34.68,1:11:36.30,简体中文,NTP,0,0,0,,其他人呢
+Dialogue: 0,1:11:38.51,1:11:40.60,简体中文,NTP,0,0,0,,荷莉被它们杀了
+Dialogue: 0,1:11:42.22,1:11:44.31,简体中文,NTP,0,0,0,,贝丝
+Dialogue: 0,1:11:46.80,1:11:48.43,简体中文,NTP,0,0,0,,贝丝死了
+Dialogue: 0,1:12:03.73,1:12:05.80,简体中文,NTP,0,0,0,,珊姆
+Dialogue: 0,1:12:07.39,1:12:09.01,简体中文,NTP,0,0,0,,那东西是什么
+Dialogue: 0,1:12:14.02,1:12:17.01,简体中文,NTP,0,0,0,,我不大清楚 看起来很像人类
+Dialogue: 0,1:12:17.05,1:12:21.47,简体中文,NTP,0,0,0,,在被那些东西找到之前 我们要找到出口
+Dialogue: 0,1:12:21.51,1:12:23.06,简体中文,NTP,0,0,0,,不
+Dialogue: 0,1:12:23.10,1:12:26.47,简体中文,NTP,0,0,0,,珊姆 告诉我 我们在和什么东西战斗
+Dialogue: 0,1:12:27.30,1:12:29.01,简体中文,NTP,0,0,0,,好吧
+Dialogue: 0,1:12:30.18,1:12:32.27,简体中文,NTP,0,0,0,,这东西完全没有视觉
+Dialogue: 0,1:12:32.31,1:12:36.32,简体中文,NTP,0,0,0,,根据我们所看到的 我认为它们根据声音寻找猎物
+Dialogue: 0,1:12:36.32,1:12:37.59,简体中文,NTP,0,0,0,,和蝙蝠相似
+Dialogue: 0,1:12:40.10,1:12:43.18,简体中文,NTP,0,0,0,,它们进化得非常适应地底生活
+Dialogue: 0,1:12:45.76,1:12:50.68,简体中文,NTP,0,0,0,,不管它们是什么 它们会去地表狩猎
+Dialogue: 0,1:12:50.72,1:12:54.68,简体中文,NTP,0,0,0,,然后通过一个洞口把猎物带回来
+Dialogue: 0,1:12:55.88,1:13:00.72,简体中文,NTP,0,0,0,,听着 我认为 如果我们能悄悄避开这些怪物
+Dialogue: 0,1:13:02.10,1:13:03.85,简体中文,NTP,0,0,0,,就有可能找到出口
+Dialogue: 0,1:13:03.89,1:13:05.56,简体中文,NTP,0,0,0,,你这么想
+Dialogue: 0,1:13:05.60,1:13:07.53,简体中文,NTP,0,0,0,,还记得我们找到的那些攀岩工具吗
+Dialogue: 0,1:13:07.53,1:13:11.31,简体中文,NTP,0,0,0,,留下这些东西的人标出了他们的路线
+Dialogue: 0,1:13:12.43,1:13:15.48,简体中文,NTP,0,0,0,,- 我找到了那些标记 - 那还等什么
+Dialogue: 0,1:13:15.52,1:13:17.55,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:13:19.85,1:13:21.93,简体中文,NTP,0,0,0,,没有莎拉我不走
+Dialogue: 0,1:13:44.14,1:13:46.22,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:13:47.80,1:13:49.89,简体中文,NTP,0,0,0,,上帝
+Dialogue: 0,1:13:53.89,1:13:55.97,简体中文,NTP,0,0,0,,上帝啊 不
+Dialogue: 0,1:13:56.84,1:13:58.14,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:13:59.76,1:14:01.47,简体中文,NTP,0,0,0,,我带你出去
+Dialogue: 0,1:14:04.10,1:14:06.47,简体中文,NTP,0,0,0,,别碰我 别碰我
+Dialogue: 0,1:14:08.73,1:14:10.88,简体中文,NTP,0,0,0,,我听见朱诺在叫我
+Dialogue: 0,1:14:10.92,1:14:13.97,简体中文,NTP,0,0,0,,我去找她 然后回来带你走
+Dialogue: 0,1:14:13.97,1:14:16.59,简体中文,NTP,0,0,0,,- 不 不要靠近她 - 怎么
+Dialogue: 0,1:14:16.63,1:14:19.64,简体中文,NTP,0,0,0,,- 她把我弄成这样 - 怎么会
+Dialogue: 0,1:14:19.68,1:14:22.60,简体中文,NTP,0,0,0,,她把我丢下
+Dialogue: 0,1:14:22.64,1:14:24.27,简体中文,NTP,0,0,0,,不 她不会的 不
+Dialogue: 0,1:14:24.31,1:14:26.38,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:14:28.14,1:14:30.22,简体中文,NTP,0,0,0,,别相信她
+Dialogue: 0,1:14:31.22,1:14:33.47,简体中文,NTP,0,0,0,,你自己找路出去
+Dialogue: 0,1:14:33.52,1:14:35.59,简体中文,NTP,0,0,0,,放心 一切都会好的
+Dialogue: 0,1:14:35.63,1:14:39.18,简体中文,NTP,0,0,0,,我不会离开你的 贝丝 绝不离开你
+Dialogue: 0,1:14:39.22,1:14:41.30,简体中文,NTP,0,0,0,,我不会离开你 好吗
+Dialogue: 0,1:14:41.35,1:14:43.64,简体中文,NTP,0,0,0,,起来 贝丝
+Dialogue: 0,1:14:50.43,1:14:52.85,简体中文,NTP,0,0,0,,这是朱诺的
+Dialogue: 0,1:14:56.42,1:14:58.51,简体中文,NTP,0,0,0,,保罗送给她的
+Dialogue: 0,1:15:00.30,1:15:02.39,简体中文,NTP,0,0,0,,哦 不
+Dialogue: 0,1:15:12.39,1:15:14.47,简体中文,NTP,0,0,0,,对不起
+Dialogue: 0,1:15:25.02,1:15:28.34,简体中文,NTP,0,0,0,,它们来了 快 快跟我走
+Dialogue: 0,1:15:28.38,1:15:30.09,简体中文,NTP,0,0,0,,求求你
+Dialogue: 0,1:15:30.14,1:15:31.72,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:15:32.81,1:15:35.92,简体中文,NTP,0,0,0,,杀了我吧
+Dialogue: 0,1:15:37.97,1:15:41.14,简体中文,NTP,0,0,0,,不 别让我做这种事
+Dialogue: 0,1:15:41.18,1:15:43.81,简体中文,NTP,0,0,0,,- 求求你 - 我做不到
+Dialogue: 0,1:15:43.85,1:15:45.55,简体中文,NTP,0,0,0,,我做不到
+Dialogue: 0,1:15:45.59,1:15:47.68,简体中文,NTP,0,0,0,,求你了
+Dialogue: 0,1:15:59.72,1:16:02.18,简体中文,NTP,0,0,0,,好吧
+Dialogue: 0,1:16:02.22,1:16:03.85,简体中文,NTP,0,0,0,,闭上眼睛
+Dialogue: 0,1:19:53.22,1:19:55.30,简体中文,NTP,0,0,0,,快 快跑
+Dialogue: 0,1:19:59.63,1:20:01.72,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:20:02.89,1:20:04.97,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:20:06.17,1:20:07.63,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:20:07.67,1:20:11.64,简体中文,NTP,0,0,0,,看吧 她死了 朱诺 咱们不能等她
+Dialogue: 0,1:20:11.68,1:20:13.01,简体中文,NTP,0,0,0,,走啊
+Dialogue: 0,1:20:14.31,1:20:17.01,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:20:18.05,1:20:19.93,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:20:29.59,1:20:31.68,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:20:33.26,1:20:35.34,简体中文,NTP,0,0,0,,莎拉
+Dialogue: 0,1:20:39.63,1:20:42.09,简体中文,NTP,0,0,0,,快跑
+Dialogue: 0,1:21:10.47,1:21:12.55,简体中文,NTP,0,0,0,,妈的倒霉
+Dialogue: 0,1:21:47.42,1:21:50.63,简体中文,NTP,0,0,0,,朱诺 拦住她 我马上跟上
+Dialogue: 0,1:22:13.05,1:22:16.00,简体中文,NTP,0,0,0,,珊姆 你干什么
+Dialogue: 0,1:22:16.05,1:22:17.59,简体中文,NTP,0,0,0,,回来
+Dialogue: 0,1:22:17.63,1:22:19.30,简体中文,NTP,0,0,0,,丽贝卡
+Dialogue: 0,1:22:19.34,1:22:21.38,简体中文,NTP,0,0,0,,你的绳子不够长
+Dialogue: 0,1:22:21.43,1:22:24.18,简体中文,NTP,0,0,0,,珊姆 快回来
+Dialogue: 0,1:22:25.37,1:22:28.34,简体中文,NTP,0,0,0,,- 你要干嘛 快回来 - 珊姆
+Dialogue: 0,1:22:28.38,1:22:32.72,简体中文,NTP,0,0,0,,- 珊姆 珊姆 - 珊姆 赶快回来 还来得及
+Dialogue: 0,1:22:32.76,1:22:36.42,简体中文,NTP,0,0,0,,求你了 听我的吧 求你
+Dialogue: 0,1:22:39.83,1:22:40.63,简体中文,NTP,0,0,0,,珊姆
+Dialogue: 0,1:22:44.13,1:22:45.54,简体中文,NTP,0,0,0,,不
+Dialogue: 0,1:22:46.54,1:22:48.71,简体中文,NTP,0,0,0,,你要干什么
+Dialogue: 0,1:22:58.92,1:23:00.54,简体中文,NTP,0,0,0,,珊姆
+Dialogue: 0,1:23:07.29,1:23:10.25,简体中文,NTP,0,0,0,,珊姆 不要
+Dialogue: 0,1:25:24.80,1:25:26.75,简体中文,NTP,0,0,0,,你怎么了
+Dialogue: 0,1:25:30.25,1:25:32.46,简体中文,NTP,0,0,0,,丽贝卡呢
+Dialogue: 0,1:25:37.92,1:25:39.92,简体中文,NTP,0,0,0,,贝丝呢
+Dialogue: 0,1:25:43.80,1:25:45.25,简体中文,NTP,0,0,0,,她没能挺过来
+Dialogue: 0,1:25:51.67,1:25:53.25,简体中文,NTP,0,0,0,,你亲眼见她死的
+Dialogue: 0,1:26:05.44,1:26:07.33,简体中文,NTP,0,0,0,,走吧
+Dialogue: 0,1:27:05.04,1:27:07.58,简体中文,NTP,0,0,0,,过来啊 来啊
+Dialogue: 0,1:30:15.24,1:30:17.95,简体中文,NTP,0,0,0,,不 不要
+Dialogue: 0,1:31:58.00,1:31:59.41,简体中文,NTP,0,0,0,,上帝啊
+
