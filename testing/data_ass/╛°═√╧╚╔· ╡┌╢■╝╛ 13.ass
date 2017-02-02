@@ -1,0 +1,554 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: op,DFPLeiSho-SB,27,&H0032329A,&H80000000,&H10FFFFFF,&H20454545,-1,0,0,0,100,105,1,0,1,2,1,2,15,15,8,1
+Style: riwen,麗流隷書,26,&H00FFFFFF,&H004080FF,&H00C14F0D,&HFFFCAE3A,-1,0,0,0,90,100,0,0,1,2,1,2,30,30,18,1
+Style: neta,方正准圆_GBK,18,&H00FFFFFF,&H004080FF,&H00C14F0D,&HFFFCAE3A,0,0,0,0,100,100,0,0,1,2,1,8,30,30,12,1
+Style: zhushiriwen,麗流隷書,18,&H00FFFFFF,&H004080FF,&H00C14F0D,&HFFFCAE3A,-1,0,0,0,90,100,0,0,1,2,1,8,30,30,15,1
+Style: jinggao,方正准圆_GBK,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,8,5,5,10,1
+Style: Default,方正准圆_GBK,30,&H00FFFFFF,&H004080FF,&H00C14F0D,&HFFFCAE3A,0,0,0,0,100,100,0,0,1,2,1,2,30,30,15,1
+Style: Default1,方正准圆_GBK,30,&H00FFFFFF,&H004080FF,&H00C14F0D,&HFFFCAE3A,0,0,0,0,100,100,0,0,1,2,1,2,30,30,3,1
+Style: zhushi1,@方正准圆_GBK,22,&H00FFFFFF,&H004080FF,&H00C14F0D,&HFFFCAE3A,0,0,0,0,100,100,0,0,1,2,1,7,30,30,12,1
+Style: zhushi,方正准圆_GBK,22,&H00FFFFFF,&H004080FF,&H00C14F0D,&HFFFCAE3A,0,0,0,0,100,100,0,0,1,2,1,8,30,30,12,1
+Style: ed,DFGLeiGaSo-W9,23,&H000000A9,&H80000000,&H11000000,&H20111111,-1,0,0,0,100,100,1,0,1,1,1,2,15,15,12,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:24.51,0:01:27.16,op,NTP,0,0,0,,{\fad(200,200)\be1}（ルンバルンバルンバルンバルンバ）
+Dialogue: 0,0:01:27.18,0:01:29.78,op,NTP,0,0,0,,{\fad(200,200)\be1}（ルンバルンバルンバルンバルンバ）
+Dialogue: 0,0:01:29.81,0:01:32.53,op,NTP,0,0,0,,{\fad(200,200)\be1}（ルンバルンバルンバルンバルンバ）
+Dialogue: 0,0:01:32.56,0:01:35.23,op,NTP,0,0,0,,{\fad(200,200)\be1}（ルンバルンバルンバルンバルンバ）
+Dialogue: 0,0:01:35.30,0:01:38.03,op,NTP,0,0,0,,{\fad(200,200)\be1}さまよう姿はさながらルンバ
+Dialogue: 0,0:01:38.04,0:01:40.73,op,NTP,0,0,0,,{\fad(200,200)\be1}（よろめく姿も目茶苦茶ルンバ）
+Dialogue: 0,0:01:40.74,0:01:43.40,op,NTP,0,0,0,,{\fad(200,200)\be1}ふらつきながらも生きていルンバ
+Dialogue: 0,0:01:43.44,0:01:46.16,op,NTP,0,0,0,,{\fad(200,200)\be1}（はたからみりゃダンスに見えルンバ）
+Dialogue: 0,0:01:46.18,0:01:48.92,op,NTP,0,0,0,,{\fad(200,200)\be1}よければ一緒に踊りませんか？
+Dialogue: 0,0:01:48.95,0:01:51.69,op,NTP,0,0,0,,{\fad(200,200)\be1}（いえいえアナタじゃ踊れませんわ）
+Dialogue: 0,0:01:51.70,0:01:54.36,op,NTP,0,0,0,,{\fad(200,200)\be1}一人じゃむなしい踊ろよルンバ
+Dialogue: 0,0:01:54.40,0:01:57.12,op,NTP,0,0,0,,{\fad(200,200)\be1}（おととい来やがれ一人でルンバ）
+Dialogue: 0,0:01:57.12,0:02:02.33,op,NTP,0,0,0,,{\fad(200,200)\be1}俺の値段を誰が決めた？
+Dialogue: 0,0:02:02.42,0:02:08.01,op,NTP,0,0,0,,{\fad(200,200)\be1}虎や豹が僕らの心にも
+Dialogue: 0,0:02:08.04,0:02:13.29,op,NTP,0,0,0,,{\fad(200,200)\be1}（獣たちがひそむこと 知らないからやつら）
+Dialogue: 0,0:02:13.36,0:02:16.00,op,NTP,0,0,0,,{\fad(200,200)\be1}安い値をつけやがって
+Dialogue: 0,0:02:16.05,0:02:18.68,op,NTP,0,0,0,,{\fad(200,200)\be1}解き放つぜ！
+Dialogue: 0,0:02:18.82,0:02:23.77,op,NTP,0,0,0,,{\fad(200,200)\be1}さぁ、逃げまどえその隙に
+Dialogue: 0,0:02:24.20,0:02:29.19,op,NTP,0,0,0,,{\fad(200,200)\be1}踊ろよ僕たちはルンバ
+Dialogue: 0,0:02:29.64,0:02:34.78,op,NTP,0,0,0,,{\fad(200,200)\be1}微笑み軽やかに君と
+Dialogue: 0,0:02:35.14,0:02:38.19,op,NTP,0,0,0,,{\fad(200,200)\be1}その日は来るのか
+Dialogue: 0,0:02:38.30,0:02:42.60,op,NTP,0,0,0,,{\fad(200,200)\be1}わからなくて
+Dialogue: 0,0:21:32.64,0:21:38.24,ed,NTP,0,0,0,,{\be1}赤の修羅場を 駆けぬける
+Dialogue: 0,0:21:38.67,0:21:44.45,ed,NTP,0,0,0,,{\be1}街に棲みつく少女たち
+Dialogue: 0,0:21:44.84,0:21:49.76,ed,NTP,0,0,0,,{\be1}さらいたいなら すればいい
+Dialogue: 0,0:21:49.92,0:21:56.26,ed,NTP,0,0,0,,{\be1}そんなの全然 こわくはないわ
+Dialogue: 0,0:21:56.85,0:21:59.72,ed,NTP,0,0,0,,{\be1}甘酸っぱいような感情
+Dialogue: 0,0:21:59.93,0:22:02.92,ed,NTP,0,0,0,,{\be1}潰れちゃってた ザクロみたい
+Dialogue: 0,0:22:03.09,0:22:08.20,ed,NTP,0,0,0,,{\be1}わるいコトはそれ以上 ないでしょう
+Dialogue: 0,0:22:09.10,0:22:15.18,ed,NTP,0,0,0,,{\be1}花を召しませ ポワゾン キスの後
+Dialogue: 0,0:22:15.37,0:22:21.12,ed,NTP,0,0,0,,{\be1}希望のトゲが 舌に突き刺さる
+Dialogue: 0,0:22:21.45,0:22:27.47,ed,NTP,0,0,0,,{\be1}ここで死んだら 死に損 まっぴらよ
+Dialogue: 0,0:22:27.63,0:22:33.55,ed,NTP,0,0,0,,{\be1}このタマシイは 誰にもあげない
+Dialogue: 0,0:22:33.85,0:22:39.58,ed,NTP,0,0,0,,{\be1}あなたが教えてくれた
+Dialogue: 0,0:22:39.95,0:22:47.90,ed,NTP,0,0,0,,{\fad(0,500)\be1}絶望、それがオマモリよ
+Dialogue: 0,0:00:01.48,0:00:02.96,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}恶鬼赶出去
+Dialogue: 0,0:00:03.64,0:00:05.09,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}福气迎进门
+Dialogue: 0,0:00:06.04,0:00:07.59,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}恶鬼赶出去
+Dialogue: 0,0:00:08.67,0:00:10.50,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}福气迎进门
+Dialogue: 0,0:00:19.13,0:00:20.40,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}恶鬼赶出去
+Dialogue: 0,0:00:27.74,0:00:31.16,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}被赶走的恶鬼  该去哪里才好呢？
+Dialogue: 0,0:00:31.36,0:00:32.02,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}啊？
+Dialogue: 0,0:00:32.17,0:00:33.11,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}鬼之岛咯？
+Dialogue: 0,0:00:33.77,0:00:35.52,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}事实上那种地方并不存在吧！
+Dialogue: 0,0:00:35.88,0:00:39.85,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}无处可去的鬼为了生活不得不走向犯罪…
+Dialogue: 0,0:00:40.02,0:00:42.52,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…也许他们会就这样被黑暗社会给吞没
+Dialogue: 0,0:00:43.03,0:00:44.91,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}人类不负责任地将鬼赶走…
+Dialogue: 0,0:00:45.35,0:00:47.28,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…也要替他们的将来着想啊！
+Dialogue: 0,0:00:47.39,0:00:48.39,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}去死  秃子
+Dialogue: 0,0:00:49.87,0:00:52.25,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}最近不只是鬼  就连其他人也常被赶走
+Dialogue: 0,0:00:53.22,0:00:55.48,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}赶走高年薪的运动选手…
+Dialogue: 0,0:00:56.32,0:00:58.39,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}被赶出传统技艺的世界…
+Dialogue: 0,0:00:58.93,0:01:01.66,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}赶走还没找到工作的大学六年级学生…
+Dialogue: 0,0:01:02.00,0:01:04.04,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你们要帮他们找到下一个去处…
+Dialogue: 0,0:01:04.50,0:01:06.99,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…为他们的事业新起点设想才行啊！
+Dialogue: 0,0:01:07.32,0:01:08.49,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（钢珠）
+Dialogue: 0,0:01:11.54,0:01:12.79,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}真扫兴…
+Dialogue: 0,0:01:12.91,0:01:13.82,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我们回家吧
+Dialogue: 0,0:01:11.66,0:01:13.37,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}秃～～子～～
+Dialogue: 0,0:02:45.47,0:02:45.67,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}无论是打工者
+Dialogue: 0,0:02:45.67,0:02:45.83,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}还是合同员工
+Dialogue: 0,0:02:45.83,0:02:46.00,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}或正式员工
+Dialogue: 0,0:02:46.00,0:02:46.17,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}没有正当理由公司不能解雇劳动者
+Dialogue: 0,0:02:46.17,0:02:46.33,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}但还是会经常看见无能之人霸占职位
+Dialogue: 0,0:02:46.33,0:02:46.61,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}搞得职场一片混乱
+Dialogue: 0,0:03:01.29,0:03:02.57,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}木津同学的惨叫！？
+Dialogue: 0,0:03:03.37,0:03:04.19,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}怎么啦
+Dialogue: 0,0:03:04.31,0:03:06.17,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}都怪我们赶走了恶鬼…
+Dialogue: 0,0:03:06.46,0:03:08.88,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…现在产生了大量的孤魂野鬼！
+Dialogue: 0,0:03:09.41,0:03:10.93,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}哼！  看吧！
+Dialogue: 0,0:03:11.21,0:03:13.50,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}都怪人类擅自赶走他们嘛！
+Dialogue: 0,0:03:14.68,0:03:16.27,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}快  这里很危险  跟我来！
+Dialogue: 0,0:03:16.79,0:03:18.77,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}稍后卫生局会来善后的！
+Dialogue: 0,0:03:18.90,0:03:20.99,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}被卫生局抓走的鬼会怎么样？
+Dialogue: 0,0:03:22.85,0:03:24.49,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你还是不要知道的好…
+Dialogue: 0,0:03:31.54,0:03:32.89,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你在藏东西？！
+Dialogue: 0,0:03:33.03,0:03:34.19,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}没有啦…
+Dialogue: 0,0:03:41.88,0:03:44.57,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这怎么行啊！  怎么可以捡孤魂野鬼回家呢！
+Dialogue: 0,0:03:44.73,0:03:45.47,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}鬼？
+Dialogue: 0,0:03:45.54,0:03:46.94,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我会好好照顾他的！
+Dialogue: 0,0:03:47.02,0:03:48.42,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不是这个问题！
+Dialogue: 0,0:03:48.58,0:03:50.34,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我们家不可以养鬼！
+Dialogue: 0,0:03:50.98,0:03:54.27,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}要不是你们胡乱驱逐  孤魂野鬼又怎么会增加呢！
+Dialogue: 0,0:03:55.21,0:03:57.31,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这么说来  难不成…不仅仅是鬼…
+Dialogue: 0,0:03:57.94,0:03:58.64,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}老师…
+Dialogue: 0,0:04:00.69,0:04:02.81,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}可以养在老师这里吗？
+Dialogue: 0,0:04:03.57,0:04:05.28,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}流浪职棒选手？！
+Dialogue: 0,0:04:05.61,0:04:07.52,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这怎么行！  你怎么能捡他回来啊！
+Dialogue: 0,0:04:07.66,0:04:11.31,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我们家是公寓  禁止饲养职棒选手的…
+Dialogue: 0,0:04:11.38,0:04:12.86,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我们家也不能养啦！
+Dialogue: 0,0:04:13.03,0:04:13.73,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}请问…
+Dialogue: 0,0:04:14.07,0:04:16.08,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…可以养在老师这里吗？
+Dialogue: 0,0:04:16.79,0:04:19.50,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}因为政变被驱逐出国的流浪首相！
+Dialogue: 0,0:04:19.69,0:04:21.71,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这怎么行！  你怎么能捡他回来啊！
+Dialogue: 0,0:04:21.93,0:04:24.05,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…可以养在老师这里吗？
+Dialogue: 0,0:04:24.65,0:04:26.33,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}被逐出党的流浪议员…
+Dialogue: 0,0:04:26.93,0:04:28.80,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}被逐出公司的流浪社长…
+Dialogue: 0,0:04:29.18,0:04:31.90,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}被逐出F1界的流浪车手！
+Dialogue: 0,0:04:32.29,0:04:34.35,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…可以养在老师这里吗？
+Dialogue: 0,0:04:36.73,0:04:38.05,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}流浪教团！？
+Dialogue: 0,0:04:38.33,0:04:40.32,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}他们到处都被人驱赶嘛…
+Dialogue: 0,0:04:40.45,0:04:41.77,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我家也不能养！
+Dialogue: 0,0:04:41.96,0:04:43.29,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}公安会找上门的！
+Dialogue: 0,0:04:46.05,0:04:52.47,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}绝望了！对甚至波及到我这种胆小鬼的「恶鬼赶出门」社会绝望了！
+Dialogue: 0,0:04:45.93,0:04:52.47,zhushi,NTP,0,0,0,,{\an7\pos(350,38)\fs20}被逐出早●少女组的流浪偶像\N被逐出电影公司的流浪好莱坞明星\N被逐出宫廷的流浪厨师\N被逐出后宫的流浪总管\N被逐出大学医院的流浪天才外科医\N被逐出木叶的传说中的流浪叛逃忍者\N由于库●鲁的出生而被逐出家门的流浪骑士\N被逐出漫研的眼神凶恶的流浪同人女\N被逐出祖国的流浪贵族部队（蔷薇骑士连队）\N被逐出扎●家的吉●家\N被逐出星球的流浪宇宙猿人\N被共产党逐出国家的流浪总统\N被逐离总书记一职的流浪次男\N被逐出滚●乐队的Jon●s\N被逐出杂志的漫画家
+Dialogue: 0,0:04:52.80,0:04:54.65,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}大家快点出去！
+Dialogue: 0,0:04:55.05,0:04:57.21,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}老师  你不养他们吗？
+Dialogue: 0,0:04:58.48,0:05:02.74,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}玛莉亚就因为有这个国家收留才活下来的
+Dialogue: 0,0:05:03.69,0:05:06.52,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这倒是…  是我错了…
+Dialogue: 0,0:05:06.91,0:05:10.21,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我要尽全力帮这些流浪者找到容身之处！
+Dialogue: 0,0:05:10.33,0:05:12.68,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不幸的是  您现在也自身难保咯…
+Dialogue: 0,0:05:14.99,0:05:15.99,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}解雇通知\N鉴于您在校内无端会集可疑人物之与教师身份不符之行为，\N本校于昭和82年2月3日解雇您，特此通告
+Dialogue: 0,0:05:15.90,0:05:16.70,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}解雇！？
+Dialogue: 0,0:05:16.95,0:05:20.29,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}看来错就错在不该和一群诡异的人同居呢…
+Dialogue: 0,0:05:20.39,0:05:21.81,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这是慈善行为啊！
+Dialogue: 0,0:05:22.38,0:05:24.88,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这么说来  老师不就成了…
+Dialogue: 0,0:05:25.18,0:05:27.66,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…流·浪·教·师！
+Dialogue: 0,0:05:27.90,0:05:29.43,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我成了流浪教师？！
+Dialogue: 0,0:05:29.51,0:05:33.78,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}才不要呢！  我得赶快找到自己的容身之处！
+Dialogue: 0,0:05:35.38,0:05:37.46,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我们这养不了教师…
+Dialogue: 0,0:05:37.64,0:05:38.45,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}人满了啦…
+Dialogue: 0,0:05:38.70,0:05:39.43,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不需要…
+Dialogue: 0,0:05:38.45,0:05:39.43,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（2月6日  水树奈奈CD发售  2月14日  Aice5 Live DVD）
+Dialogue: 0,0:05:39.64,0:05:40.36,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}请回吧…
+Dialogue: 0,0:05:40.71,0:05:41.20,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}请回吧…
+Dialogue: 0,0:05:41.52,0:05:41.99,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不收你！
+Dialogue: 0,0:05:42.47,0:05:43.04,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}再会…
+Dialogue: 0,0:05:45.75,0:05:50.03,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}仔细想想  这种肥差怎么会那么容易有空缺呢…
+Dialogue: 0,0:05:51.16,0:05:54.69,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}望为了找寻容身之处只身北上…
+Dialogue: 0,0:05:55.90,0:05:57.51,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}终于有一天…
+Dialogue: 0,0:05:57.85,0:06:00.67,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}极北之处有间学校在招人哦…
+Dialogue: 0,0:06:00.87,0:06:01.68,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}真的吗？
+Dialogue: 0,0:06:03.75,0:06:06.39,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}那么…我们开始上课…
+Dialogue: 0,0:06:06.65,0:06:09.08,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}话说为什么你们也在…
+Dialogue: 0,0:06:09.25,0:06:10.16,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不为什么…
+Dialogue: 0,0:06:10.36,0:06:12.99,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}事出突然…这里还是废校了…
+Dialogue: 0,0:06:13.05,0:06:14.48,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}什么！  哪有这么突然的！？
+Dialogue: 0,0:06:14.67,0:06:16.13,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不要啊！！
+Dialogue: 0,0:06:16.70,0:06:19.14,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我不要再当回流浪教师啊！
+Dialogue: 0,0:06:19.29,0:06:20.37,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}暴风雨就要来了…
+Dialogue: 0,0:06:20.47,0:06:22.50,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这里很危险  快回船上来！
+Dialogue: 0,0:06:22.75,0:06:24.11,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}可老师他还…
+Dialogue: 0,0:06:24.31,0:06:26.34,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不能等了  快上船！
+Dialogue: 0,0:06:26.39,0:06:28.16,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}老师！！
+Dialogue: 0,0:06:28.39,0:06:29.67,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}老师！！
+Dialogue: 0,0:06:30.03,0:06:32.15,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}老师！！
+Dialogue: 0,0:06:32.74,0:06:36.01,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}老师！！老师！！
+Dialogue: 0,0:06:36.27,0:06:37.65,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不要紧吧…
+Dialogue: 0,0:06:39.47,0:06:40.42,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…老师
+Dialogue: 0,0:06:44.19,0:06:45.79,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}老师！！
+Dialogue: 0,0:06:46.14,0:06:47.62,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}老师！！
+Dialogue: 0,0:06:47.88,0:06:49.39,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不可能活着的啦
+Dialogue: 0,0:06:49.59,0:06:51.73,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}在那种狂风暴雨下…
+Dialogue: 0,0:06:52.36,0:06:54.35,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}对不起  老师…
+Dialogue: 0,0:06:55.02,0:06:56.82,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}对不起  老师…
+Dialogue: 0,0:07:04.27,0:07:06.41,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}老师！  您还活着啊！
+Dialogue: 0,0:07:07.86,0:07:09.05,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}好哦  尾巴
+Dialogue: 0,0:07:09.12,0:07:10.56,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}好哦  老师  尾巴
+Dialogue: 0,0:07:11.46,0:07:12.99,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你以为演南极物语啊！
+Dialogue: 0,0:07:13.27,0:07:15.44,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}皆大欢喜呀  老师
+Dialogue: 0,0:07:15.47,0:07:18.18,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（这个故事通过地方电视台让部分人倍受感动。）
+Dialogue: 0,0:07:18.34,0:07:20.51,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}多亏幕张展览馆的赶鬼出门…
+Dialogue: 0,0:07:20.73,0:07:23.71,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…这些人才有了容身之处  真是可喜可贺
+Dialogue: 0,0:07:23.71,0:07:24.44,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（什么时候的事啊）
+Dialogue: 0,0:07:46.54,0:07:49.32,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}常言道  大人物不谙世事
+Dialogue: 0,0:07:49.52,0:07:52.52,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}公主殿下实可谓其中之甚
+Dialogue: 0,0:07:52.81,0:07:56.10,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}「今日好天气  何不赏红叶」
+Dialogue: 0,0:07:56.20,0:07:58.44,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}公主殿下一声令下
+Dialogue: 0,0:07:58.65,0:08:03.22,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}欲赴往离家不远之目黑散步
+Dialogue: 0,0:08:03.64,0:08:07.49,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}经过一番梳妆打扮  率领家仆奔出家门
+Dialogue: 0,0:08:07.81,0:08:10.60,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}欲在银杏之树下读书
+Dialogue: 0,0:08:10.68,0:08:12.52,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}奈何家仆无人携带
+Dialogue: 0,0:08:12.84,0:08:16.25,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}环顾四周  却发现一家专门书店
+Dialogue: 0,0:08:16.54,0:08:18.68,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}于是进门搜罗
+Dialogue: 0,0:08:18.81,0:08:21.68,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}所获之物便是那所谓的BL同人志
+Dialogue: 0,0:08:22.52,0:08:25.26,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}对平素看惯乏味书卷的公主殿下而言
+Dialogue: 0,0:08:25.36,0:08:28.17,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}此同人志是何等地有趣
+Dialogue: 0,0:08:28.40,0:08:29.94,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}公主殿下惊喜不断  读完一本又一本
+Dialogue: 0,0:08:30.00,0:08:31.88,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}终究为其魅力所折服
+Dialogue: 0,0:08:31.88,0:08:32.86,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}哎呀  不得了
+Dialogue: 0,0:08:33.32,0:08:37.62,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}回到城内依旧朝思暮想着同人志
+Dialogue: 0,0:08:37.77,0:08:39.78,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}家臣不忍看见公主殿下日渐憔悴  只好前往同人志贩卖会
+Dialogue: 0,0:08:39.85,0:08:42.64,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}于该作家专柜直接购买
+Dialogue: 0,0:08:43.04,0:08:44.53,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}鉴于此书内容过激
+Dialogue: 0,0:08:44.60,0:08:46.40,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}又为了公主殿下的身体着想
+Dialogue: 0,0:08:46.49,0:08:48.79,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}家臣召集了江户的一流工匠们
+Dialogue: 0,0:08:48.88,0:08:51.28,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}对其进行了彻底修正  随后交到公主殿下的手上
+Dialogue: 0,0:08:51.79,0:08:53.86,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}然而修正之后  各幅图案大抵相似
+Dialogue: 0,0:08:53.95,0:08:56.10,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}此等货色何来有趣之处
+Dialogue: 0,0:08:56.38,0:08:58.56,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}「此同人志出自何处？」
+Dialogue: 0,0:08:58.78,0:09:00.98,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}「回公主  出自同人志贩卖会」
+Dialogue: 0,0:09:01.39,0:09:04.79,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}「不成  同人志还是目黑的精彩」
+Dialogue: 0,0:09:09.32,0:09:09.48,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}通过超音波诊断头盖骨的尺寸厚度
+Dialogue: 0,0:09:09.48,0:09:09.65,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}从而算出，生成骨传导音波计
+Dialogue: 0,0:09:09.65,0:09:09.82,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}随后利用气导管及骨导管同时发声
+Dialogue: 0,0:09:09.82,0:09:09.98,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}就可以让别人听见自己所听见的声音
+Dialogue: 0,0:09:09.98,0:09:10.15,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}又，通过逆相位的音波消除声音的骨传导
+Dialogue: 0,0:09:10.15,0:09:10.42,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}据说这样就可以当场听见他人听见的声音
+Dialogue: 0,0:09:10.42,0:09:14.32,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}大导寺信辅的音声
+Dialogue: 0,0:09:14.84,0:09:17.17,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}哦！  音无同学也在啊
+Dialogue: 0,0:09:17.58,0:09:20.24,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}要是你也能像他那样能说会道就好了…
+Dialogue: 0,0:09:21.14,0:09:23.79,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}啊  对不起  怪我说话不经大脑…
+Dialogue: 0,0:09:23.96,0:09:26.38,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你把Merumeru弄哭了！
+Dialogue: 0,0:09:35.77,0:09:36.80,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你是谁！
+Dialogue: 0,0:09:36.87,0:09:38.50,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}干嘛突然打人啊！
+Dialogue: 0,0:09:38.57,0:09:40.59,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我是Merumeru的父亲
+Dialogue: 0,0:09:40.68,0:09:41.53,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}Merumeru？
+Dialogue: 0,0:09:41.72,0:09:44.98,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}音无的父亲一直叫她Merumeru
+Dialogue: 0,0:09:45.08,0:09:47.73,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}Merumeru之所以会极度口吃…
+Dialogue: 0,0:09:47.75,0:09:52.54,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…全因为小学同学的一句缺德玩笑话所造成的精神创伤
+Dialogue: 0,0:09:54.54,0:09:57.34,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}音无的嗓音很奇怪哦
+Dialogue: 0,0:09:58.39,0:10:01.29,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}奇怪嗓音  奇怪嗓音  奇怪嗓音
+Dialogue: 0,0:10:07.41,0:10:11.16,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}录下自己的嗓音听后感觉的确很奇怪
+Dialogue: 0,0:10:11.20,0:10:13.99,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}从那以后就再也不怎么说话了
+Dialogue: 0,0:10:14.27,0:10:17.97,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不过  自己的嗓音录下来听本来就很奇怪啦…
+Dialogue: 0,0:10:18.16,0:10:24.01,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}当然咯  嘲笑Merumeru嗓音奇怪的那几位同学早已入土为安咯
+Dialogue: 0,0:10:24.74,0:10:29.11,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不过  其实我并不喜欢自己的嗓音  并对此感到自卑呢
+Dialogue: 0,0:10:29.22,0:10:31.52,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}老师的嗓音好得不得了哦
+Dialogue: 0,0:10:34.44,0:10:38.08,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}如果能有一副欧美电影配音员的完美嗓音  那该有多美啊！
+Dialogue: 0,0:10:38.33,0:10:39.39,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}说对了！
+Dialogue: 0,0:10:42.22,0:10:43.69,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这么多人挤在一起干嘛？
+Dialogue: 0,0:10:43.88,0:10:45.57,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}大概是什么活动的选拔赛吧…
+Dialogue: 0,0:10:46.57,0:10:47.93,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（音无Music主办  Merumeru配音试验）
+Dialogue: 0,0:10:48.17,0:10:49.01,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这什么嘛…
+Dialogue: 0,0:10:49.31,0:10:51.74,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}选拔给Merumeru配音的人
+Dialogue: 0,0:10:52.00,0:10:53.89,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}驱使金钱和权力…
+Dialogue: 0,0:10:54.04,0:10:59.73,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…召集了全国的声优、演员、歌唱家等拥有美丽嗓音的人
+Dialogue: 0,0:10:59.73,0:11:00.73,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（Merumeru大小姐的休息室）
+Dialogue: 0,0:11:00.97,0:11:04.41,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}给活生生的人配音  真是闻所未闻…
+Dialogue: 0,0:11:04.63,0:11:08.36,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}既然Merumeru不喜欢自己的嗓音那我也拿她没办法…
+Dialogue: 0,0:11:08.48,0:11:11.83,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}但是至今为止Merumeru想要的东西我都买了给她…
+Dialogue: 0,0:11:11.89,0:11:13.79,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…即便是嗓音也别想例外！
+Dialogue: 0,0:11:13.95,0:11:16.31,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你那爱的表达方式根本不对！
+Dialogue: 0,0:11:16.45,0:11:20.29,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}只要是为了Merumeru  这点事我可以若无其事地摆平
+Dialogue: 0,0:11:20.45,0:11:22.71,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}芽留你答应这事了？
+Dialogue: 0,0:11:24.96,0:11:27.96,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}顺带一提  颈部早已安上了小型扬声器
+Dialogue: 0,0:11:30.34,0:11:32.92,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}让我们有请第一位选手…
+Dialogue: 0,0:11:33.17,0:11:38.45,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}化作千之垃圾…
+Dialogue: 0,0:11:36.88,0:11:38.59,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}哦～好嗓音
+Dialogue: 0,0:11:38.98,0:11:42.24,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}吹向那片广阔的…
+Dialogue: 0,0:11:41.14,0:11:42.14,zhushi1,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}望\N「不过声线有点粗」
+Dialogue: 0,0:11:42.14,0:11:43.10,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（这不是重点吧～）
+Dialogue: 0,0:11:43.48,0:11:44.97,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}有请下一位
+Dialogue: 0,0:11:45.01,0:11:46.63,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}咱叫音无芽留
+Dialogue: 0,0:11:47.19,0:11:48.70,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（英语流利状）
+Dialogue: 0,0:11:49.29,0:11:51.44,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你好  我叫芽留
+Dialogue: 0,0:11:51.66,0:11:53.96,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你好啊  我是音无芽留
+Dialogue: 0,0:11:54.24,0:11:55.56,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你好  我也是芽留
+Dialogue: 0,0:11:56.05,0:11:58.26,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}大家的嗓音都不错呀！
+Dialogue: 0,0:11:58.46,0:12:01.38,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不过这些都不太适合她…
+Dialogue: 0,0:12:01.94,0:12:04.26,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你们也来试试吧
+Dialogue: 0,0:12:05.18,0:12:06.49,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}挺有意思…
+Dialogue: 0,0:12:07.41,0:12:11.16,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我是芽留  下礼拜还会去涉谷买内衣
+Dialogue: 0,0:12:11.36,0:12:13.08,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}啊  不错嘛
+Dialogue: 0,0:12:13.47,0:12:14.47,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（再也不会去买了）
+Dialogue: 0,0:12:14.68,0:12:16.58,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我也不小了
+Dialogue: 0,0:12:16.70,0:12:18.53,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}差不多该恋爱了meru
+Dialogue: 0,0:12:18.86,0:12:20.23,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}还挺不错的嘛
+Dialogue: 0,0:12:20.64,0:12:21.88,zhushi,NTP,0,0,0,,{\an7}语尾\N不要给我加\Nmeru\N杀杀\N杀杀
+Dialogue: 0,0:12:22.94,0:12:24.81,zhushi1,NTP,0,0,0,,{\frz-90\pos(300,95)}蠢货  烦不烦
+Dialogue: 0,0:12:24.95,0:12:27.45,zhushi1,NTP,0,0,0,,{\frz-90\pos(350,65)}你不就是秀内裤的存在嘛
+Dialogue: 0,0:12:27.58,0:12:30.22,zhushi1,NTP,0,0,0,,{\frz-90\pos(300,95)}希望老师的假发不要穿帮
+Dialogue: 0,0:12:30.32,0:12:31.45,zhushi1,NTP,0,0,0,,{\frz-90\pos(400,125)}merumeru
+Dialogue: 0,0:12:33.69,0:12:37.16,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}各位观众  刚才那段画面用的是pH值试纸哦
+Dialogue: 0,0:12:37.25,0:12:39.29,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}听到声音的观众就算输了
+Dialogue: 0,0:12:39.99,0:12:40.90,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（糟糕的绝对音感）
+Dialogue: 0,0:12:41.20,0:12:44.00,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}啊  大家表现都不错  很难取舍呀
+Dialogue: 0,0:12:44.10,0:12:48.19,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}既然如此  不如大家轮流为她配音吧
+Dialogue: 0,0:12:48.32,0:12:49.83,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}啊  好主意哦
+Dialogue: 0,0:12:53.57,0:12:54.24,zhushi1,NTP,0,0,0,,{\frz-90\pos(500,115)}别开玩笑了…
+Dialogue: 0,0:12:55.51,0:12:56.48,zhushi1,NTP,0,0,0,,{\frz-90\pos(500,115)}倒大霉了\N\N搞什么嘛
+Dialogue: 0,0:12:58.15,0:12:58.88,zhushi1,NTP,0,0,0,,{\frz-90\pos(500,135)}啊\N\N这东西\N\N取不下来
+Dialogue: 0,0:13:01.06,0:13:02.58,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}哇  我喜欢的类型
+Dialogue: 0,0:13:05.81,0:13:08.00,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}没事的  不用害怕
+Dialogue: 0,0:13:08.32,0:13:10.91,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}只要穿上这件湿湿的衣服就可以啦
+Dialogue: 0,0:13:13.27,0:13:13.88,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}胸部…
+Dialogue: 0,0:13:15.08,0:13:17.02,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}嗓音和本人的差别太大了…
+Dialogue: 0,0:13:17.31,0:13:18.01,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}胸部…
+Dialogue: 0,0:13:19.80,0:13:21.61,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}拯救了这名少女的一句话
+Dialogue: 0,0:13:21.70,0:13:24.48,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}未曾出现在历史上
+Dialogue: 0,0:13:30.70,0:13:32.68,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}可符香你不玩吗？
+Dialogue: 0,0:13:32.85,0:13:34.15,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}诶！？  我吗？
+Dialogue: 0,0:13:34.48,0:13:37.22,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不过我只会说很普通的台词哦…
+Dialogue: 0,0:13:45.79,0:13:46.79,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（走路不长眼啊）
+Dialogue: 0,0:13:47.39,0:13:48.07,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}喜欢
+Dialogue: 0,0:13:48.50,0:13:49.14,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}喜欢你
+Dialogue: 0,0:13:55.34,0:13:56.17,zhushi1,NTP,0,0,0,,{\frz-90\pos(500,145)}才不是呢～
+Dialogue: 0,0:13:58.01,0:14:00.17,zhushi1,NTP,0,0,0,,{\fad(160,0)\frz-90\pos(480,80)}极其微弱的一线希望
+Dialogue: 0,0:13:58.01,0:14:00.17,zhushi1,NTP,0,0,0,,{\fad(160,0)\frz-90\pos(250,80)}就足以点燃爱的火花
+Dialogue: 0,0:13:58.01,0:14:00.17,zhushi1,NTP,0,0,0,,{\fad(160,0)\frz-90\pos(70,195)}司汤达\N\N（一七八三-一八四二  法）
+Dialogue: 0,0:14:00.46,0:14:01.80,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这个嘛…
+Dialogue: 0,0:14:01.87,0:14:04.74,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}在这世上  小的最怕的就是动画化
+Dialogue: 0,0:14:05.33,0:14:08.32,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}既然如此  看我来个动画化治你
+Dialogue: 0,0:14:09.09,0:14:11.77,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}哇～  是片头动画  好吓人哦
+Dialogue: 0,0:14:11.85,0:14:15.06,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}哇～  有声还有色  好吓人哦
+Dialogue: 0,0:14:15.63,0:14:17.89,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}那小子怎么如此兴高采烈
+Dialogue: 0,0:14:18.26,0:14:19.72,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}好吓人哦
+Dialogue: 0,0:14:19.85,0:14:21.72,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}啊  居然摆我一道
+Dialogue: 0,0:14:21.92,0:14:23.61,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}动画化惹你如此开心
+Dialogue: 0,0:14:24.19,0:14:26.27,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}将你最害怕的事物讲出来！
+Dialogue: 0,0:14:26.75,0:14:27.55,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}嘿嘿
+Dialogue: 0,0:14:28.42,0:14:31.10,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}其实  小的最怕2期（动画）
+Dialogue: 0,0:14:33.60,0:14:34.78,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}害怕3期
+Dialogue: 0,0:14:34.86,0:14:35.94,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}害怕日剧化
+Dialogue: 0,0:14:36.05,0:14:38.33,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}害怕小学馆漫画奖
+Dialogue: 0,0:14:38.58,0:14:39.69,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}害怕死期（4期）来临
+Dialogue: 0,0:14:43.47,0:14:45.64,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我们什么时候去看网王电影版？
+Dialogue: 0,0:14:46.85,0:14:48.09,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}怎么用我肯定去的前提来问？
+Dialogue: 0,0:14:48.18,0:14:49.60,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}咦？  你不去？
+Dialogue: 0,0:14:49.68,0:14:50.51,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我才不去！
+Dialogue: 0,0:14:50.63,0:14:51.31,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我才不去！
+Dialogue: 0,0:14:51.41,0:14:52.29,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我才不去呢！
+Dialogue: 0,0:14:52.57,0:14:54.74,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不要用我肯定去这一前提来问我！
+Dialogue: 0,0:14:55.44,0:14:57.44,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我还以为你肯定去呢…
+Dialogue: 0,0:14:57.75,0:14:59.44,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这事可真不好办…
+Dialogue: 0,0:14:59.85,0:15:02.76,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}最近社会上什么事都要加个前提！
+Dialogue: 0,0:15:02.94,0:15:03.10,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}续篇
+Dialogue: 0,0:15:03.10,0:15:03.27,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}成功
+Dialogue: 0,0:15:03.27,0:15:03.44,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}的例子
+Dialogue: 0,0:15:03.44,0:15:03.60,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}几乎
+Dialogue: 0,0:15:03.60,0:15:03.77,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}没
+Dialogue: 0,0:15:03.77,0:15:04.04,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}有
+Dialogue: 0,0:15:04.04,0:15:07.94,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}在兄妹的前提下
+Dialogue: 0,0:15:09.91,0:15:16.45,zhushi,NTP,0,0,0,,{\an7\pos(420,35)\fs20}赞助商少导致同一个广告要放好几遍\N好想做一个单元的改藏…\N三个故事一集需要花费1.3倍的劳力\N但辛苦程度却可以高达3倍\NED和OP都在压迫正片\N现在都压迫到暖阳2期了\N还想做一回千里的…
+Dialogue: 0,0:15:10.32,0:15:12.85,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}打意大利一定要派三后卫才行…
+Dialogue: 0,0:15:09.91,0:15:16.45,zhushi,NTP,0,0,0,,{\pos(320,35)\fs20}怪物猎人活动\NSHAFT队参加\N目标打入第二轮
+Dialogue: 0,0:15:13.05,0:15:16.49,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}右边中后卫要派速度快的坪井上…
+Dialogue: 0,0:15:18.17,0:15:21.08,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不要以打进第二轮为前提讲！
+Dialogue: 0,0:15:21.26,0:15:23.33,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}讲话还设前提…  太没礼貌了！
+Dialogue: 0,0:15:23.32,0:15:26.29,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（到了打我手机）
+Dialogue: 0,0:15:23.72,0:15:26.29,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}比如以对方有手机为前提的会面…
+Dialogue: 0,0:15:26.74,0:15:29.00,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}以观众看过原作为前提的电影…
+Dialogue: 0,0:15:29.43,0:15:33.10,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}以理所当然应缴费为前提的N○K的态度…
+Dialogue: 0,0:15:35.97,0:15:39.00,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}绝望了！  对前提社会绝望了！
+Dialogue: 0,0:15:39.33,0:15:43.09,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}该问的东西事先不问好  我受够这样的现代社会了
+Dialogue: 0,0:15:44.13,0:15:45.18,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}大伙去看看…
+Dialogue: 0,0:15:45.45,0:15:47.99,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…前提在社会上横行的惨状
+Dialogue: 0,0:15:44.13,0:15:47.99,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（贴纸：想和京A●处好关系）
+Dialogue: 0,0:15:50.04,0:15:52.01,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}马上就被我找到了一个前提！
+Dialogue: 0,0:15:52.63,0:15:54.90,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}好耶  我录取啦
+Dialogue: 0,0:15:53.94,0:15:57.14,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}企业以大学毕业为前提录取内定人选
+Dialogue: 0,0:15:57.53,0:15:59.94,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}天晓得他究竟能否顺利毕业…
+Dialogue: 0,0:16:00.46,0:16:02.57,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}应该等毕业后再内定！
+Dialogue: 0,0:16:02.70,0:16:04.16,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}胡说八道…
+Dialogue: 0,0:16:04.25,0:16:06.13,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}否则还叫什么「内定」啊！
+Dialogue: 0,0:16:06.72,0:16:08.13,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这里怎么样？
+Dialogue: 0,0:16:08.50,0:16:09.61,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}那边也是…
+Dialogue: 0,0:16:09.88,0:16:13.15,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}以考上大学为前提去找房子
+Dialogue: 0,0:16:13.28,0:16:16.09,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}否则好房子都会被租光的嘛！
+Dialogue: 0,0:16:16.37,0:16:17.96,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}大学也半斤八两…
+Dialogue: 0,0:16:18.12,0:16:19.76,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…明明科系什么的还没宣布
+Dialogue: 0,0:16:19.96,0:16:22.91,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…就以人家会入学为前提索取学费！
+Dialogue: 0,0:16:23.22,0:16:26.79,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}于是爸爸被迫负担儿子的巨额学费…
+Dialogue: 0,0:16:27.00,0:16:30.40,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…只好参加以自己能活到80岁为前提的贷款！
+Dialogue: 0,0:16:30.61,0:16:32.06,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}如果进公司和上学都有前提…
+Dialogue: 0,0:16:32.26,0:16:33.71,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…那么离职也要有前提啊！
+Dialogue: 0,0:16:36.88,0:16:39.85,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}以逼你离职为前提的职位调动！
+Dialogue: 0,0:16:40.19,0:16:43.08,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}啊啦  真巧  绝望老师
+Dialogue: 0,0:16:45.17,0:16:47.89,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我想你会喜欢所以特意为你留的…
+Dialogue: 0,0:16:48.97,0:16:51.96,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}请不要以我会买为前提而特意保留它好不好！
+Dialogue: 0,0:16:52.18,0:16:54.61,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}啊？  人家觉得很合适你嘛！
+Dialogue: 0,0:16:54.92,0:16:56.90,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}那件低俗的衣服是怎么回事…
+Dialogue: 0,0:16:57.25,0:16:59.86,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你平时穿那种吊儿郎当的衣服吗？
+Dialogue: 0,0:17:00.01,0:17:01.69,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}怎么可能嘛！
+Dialogue: 0,0:17:04.96,0:17:07.35,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}哎呀  前提也不都是坏事啊！
+Dialogue: 0,0:17:07.95,0:17:10.97,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我们就在以结婚为前提交往
+Dialogue: 0,0:17:12.14,0:17:14.60,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}跟这样的美女结婚  我真幸福啊
+Dialogue: 0,0:17:14.80,0:17:16.80,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这对她来说…
+Dialogue: 0,0:17:17.13,0:17:19.83,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…仅仅是以离婚赡养费为前提的婚姻！
+Dialogue: 0,0:17:20.06,0:17:22.10,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你不用说得那么绝吧
+Dialogue: 0,0:17:22.34,0:17:25.17,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}好莱坞女演员或山○萌都是这样！
+Dialogue: 0,0:17:25.53,0:17:29.36,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}总之奉劝你们做事不要设下前提！
+Dialogue: 0,0:17:29.61,0:17:32.52,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}看！  这就是做事设前提的下场！
+Dialogue: 0,0:17:33.82,0:17:39.07,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我是以1999年世界末日为前提生活到现在
+Dialogue: 0,0:17:39.23,0:17:40.97,zhushi,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}（横竖是一死！）
+Dialogue: 0,0:17:39.59,0:17:40.97,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}以世界末日为前提！
+Dialogue: 0,0:17:42.24,0:17:45.64,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}那个前提除了丢人现眼  还很令人火大！
+Dialogue: 0,0:17:45.94,0:17:46.78,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}吵架了？
+Dialogue: 0,0:17:47.03,0:17:50.07,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}以重修旧好为前提的情侣吵架…
+Dialogue: 0,0:17:51.21,0:17:52.38,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}讨厌你！
+Dialogue: 0,0:17:52.62,0:17:53.53,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你给我站住！
+Dialogue: 0,0:17:54.02,0:17:55.12,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我们玩完了！
+Dialogue: 0,0:17:55.29,0:17:56.86,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}真的和你分手哦！
+Dialogue: 0,0:18:15.69,0:18:17.23,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我还是爱你的啊！
+Dialogue: 0,0:18:17.34,0:18:18.45,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我也是！
+Dialogue: 0,0:18:23.23,0:18:26.08,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}感觉是为了炒热气氛而故意吵架…
+Dialogue: 0,0:18:26.18,0:18:27.50,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}啊…  的确…
+Dialogue: 0,0:18:27.38,0:18:28.04,zhushi1,NTP,0,0,0,,{\frz-90\pos(500,25)}部分人的失礼行为将导致全盘皆输\N\N为对方着想的同时尽情地玩下去吧。
+Dialogue: 0,0:18:29.54,0:18:32.35,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这里是前提指数特别高的地区
+Dialogue: 0,0:18:32.57,0:18:35.82,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}接下来的解说对老师来说太沉重了
+Dialogue: 0,0:18:35.89,0:18:38.08,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}所以由我来代劳
+Dialogue: 0,0:18:38.45,0:18:39.41,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}万世桥同学…
+Dialogue: 0,0:18:39.64,0:18:43.20,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我也对这地方前提过剩的情况感到厌烦
+Dialogue: 0,0:18:43.54,0:18:45.79,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}光是商品就有一堆前提！
+Dialogue: 0,0:18:46.12,0:18:47.97,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}以动画化为前提的漫画…
+Dialogue: 0,0:18:48.20,0:18:51.76,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}出场角色以18岁以上为前提的色情游戏…
+Dialogue: 0,0:18:51.91,0:18:56.52,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}以特定发烧友购买为前提所制作的低预算动画DVD…
+Dialogue: 0,0:18:56.79,0:18:59.56,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}以故障为前提的操作系统！
+Dialogue: 0,0:18:59.84,0:19:03.33,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}还有明明不想要却以转卖为前提的团购人渣！
+Dialogue: 0,0:19:03.53,0:19:05.85,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}要知道死宅也是有品格的啊…
+Dialogue: 0,0:19:05.99,0:19:09.28,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}虽然我不太懂  但好像情况的确不妙…
+Dialogue: 0,0:19:09.94,0:19:13.08,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不过这里人好多  我都有点累了
+Dialogue: 0,0:19:13.08,0:19:14.12,zhushi,NTP,0,0,0,,{\an7\fs20}顾客注意事项\N①不准拍照\N②请勿给店员及其他顾客添麻烦\N（比如招惹店员或顾客间的纷争…）\N③高峰时期请勿无端招呼，挽留店员\N无法遵守以上条款的顾客请离开本店\N请您帮忙\N全体员工
+Dialogue: 0,0:19:14.34,0:19:16.04,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}在这家咖啡店休息片刻吧
+Dialogue: 0,0:19:17.12,0:19:18.49,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}你来干嘛？
+Dialogue: 0,0:19:19.63,0:19:20.46,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}没礼貌！
+Dialogue: 0,0:19:20.61,0:19:22.71,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}待客态度大有问题！
+Dialogue: 0,0:19:23.10,0:19:25.53,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}老师  刚才那根本不算什么哦！
+Dialogue: 0,0:19:25.66,0:19:29.78,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这里是以客人都心知肚明为大前提的傲娇咖啡店嘛！
+Dialogue: 0,0:19:30.02,0:19:33.35,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}为什么你在这工作啊！  不上课啦！
+Dialogue: 0,0:19:33.47,0:19:36.06,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}好啦  您别那么古板嘛
+Dialogue: 0,0:19:36.18,0:19:38.26,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}傲娇咖啡店又是什么意思？
+Dialogue: 0,0:19:38.45,0:19:42.65,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}就是女孩子开始的态度很高傲  最后再娇羞一记的咖啡店啊！
+Dialogue: 0,0:19:42.83,0:19:45.97,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}是吗…  我还不太懂啦…
+Dialogue: 0,0:19:46.28,0:19:49.11,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}客人好的就是这一口哦！
+Dialogue: 0,0:19:49.37,0:19:52.20,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}人家才不要你来呢！
+Dialogue: 0,0:19:55.20,0:19:58.28,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}这个…  有件事实在难以启齿…
+Dialogue: 0,0:19:58.42,0:20:01.21,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}以她那年龄做这种事实在是…
+Dialogue: 0,0:20:02.32,0:20:03.58,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}嘘～
+Dialogue: 0,0:20:03.97,0:20:07.26,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}那是以永远的17岁为前提的行为
+Dialogue: 0,0:20:08.77,0:20:11.05,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}那位妙龄女子是…  17岁！？
+Dialogue: 0,0:20:11.55,0:20:14.04,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}总之世界上设前提的事太多了！
+Dialogue: 0,0:20:15.22,0:20:16.45,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}全是前提！
+Dialogue: 0,0:20:14.82,0:20:17.05,zhushi,NTP,0,0,0,,{\an7\pos(300,20)\fs20}·以9月辞职为前提的政治\N·以单行本热卖为前提的杂志经营\N·以秃头为前提而早早剃光头\N·以美国会保护我们为前提的国防\N·以小孩子不会做坏事为前提的少年法\N·以对方喜欢自己为前提的跟踪狂行为\N·以点咖啡一定送点心为前提的名古屋咖啡店\N·由于以开玩笑为前提的留言（攻击小学）而被逮捕
+Dialogue: 0,0:20:19.93,0:20:21.35,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}终于找到你了！
+Dialogue: 0,0:20:24.93,0:20:27.45,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}绝望拳不需要两个继承人
+Dialogue: 0,0:20:28.30,0:20:29.46,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我要杀了你！
+Dialogue: 0,0:20:31.17,0:20:31.90,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}真是高潮迭起！
+Dialogue: 0,0:20:32.12,0:20:34.31,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}想要取老师性命的敌人出现了！
+Dialogue: 0,0:20:40.81,0:20:43.62,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}他是以成为伙伴为前提的敌人哦！
+Dialogue: 0,0:20:43.79,0:20:44.41,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}太快了吧
+Dialogue: 0,0:20:44.61,0:20:47.05,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}少年漫画常有的桥段啦
+Dialogue: 0,0:20:47.13,0:20:48.73,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}或许你说得对…
+Dialogue: 0,0:20:49.15,0:20:50.77,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我们去打击练习场吧
+Dialogue: 0,0:20:50.89,0:20:51.51,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}好
+Dialogue: 0,0:20:51.73,0:20:53.80,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}绝望拳究竟算什么嘛！
+Dialogue: 0,0:20:53.89,0:20:55.45,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}随口乱说的吧
+Dialogue: 0,0:20:58.47,0:21:00.34,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}嗯…这样也很好嘛…
+Dialogue: 0,0:21:00.39,0:21:01.97,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}好什么好！
+Dialogue: 0,0:21:02.07,0:21:06.10,zhushi,NTP,0,0,0,,{\an7\fs20}李·仲直\N喜欢的东西：弱者害怕的表情\N讨厌的东西：标榜正义的人\N特技：无声息地站在别人身后\N武器：魔刃「我罗纱」\N性格：高傲，无情。讨厌别人侮辱自己\N<设定>\N眼罩其实是用来控制他的力量的，\N拿掉就会狂暴化。\N狂暴化以后在他消灭周围一切\N会动的物体前谁也阻止不了他。\N然后他会睡三天三夜。\N虽然无情但却拥有爱好艺术的一面，\N特别喜欢毕加索的画作「格尔尼卡」。\N为了与即将来临的魔光团决战，\N他正在找寻拥有七个印记及属性的战士。\N因为自己蕴含着的水属性能力过于强大，\N所以平时用师父的遗物，\N火属性防具「火焰裙裤」封住其力。
+Dialogue: 0,0:21:06.34,0:21:07.85,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我还有机会出场的吧？
+Dialogue: 0,0:21:08.04,0:21:08.91,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我们是朋友嘛！
+Dialogue: 0,0:21:09.01,0:21:10.75,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我想大概没机会了…
+Dialogue: 0,0:21:11.35,0:21:12.20,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}再会！
+Dialogue: 0,0:21:17.96,0:21:19.93,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}绝望啦！
+Dialogue: 0,0:22:49.98,0:22:52.91,zhushi1,NTP,0,0,0,,{\frz-90\pos(400,52)}本节目纯属虚构\N\N与实际存在的太郎和次郎\N\N野泽雅子，微软\N\N无任何关联
+Dialogue: 0,0:22:53.58,0:22:54.74,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不怕动画
+Dialogue: 0,0:22:54.84,0:22:56.88,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不怕动画  不怕有人投诉
+Dialogue: 0,0:22:56.94,0:22:58.87,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不怕没人气更不怕NETA没人懂
+Dialogue: 0,0:22:58.94,0:23:00.42,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}拥有不被腰斩的连载作品
+Dialogue: 0,0:23:00.45,0:23:02.08,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}健康向上  絕不松手
+Dialogue: 0,0:23:02.10,0:23:03.85,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}东边如果有家里蹲的小孩
+Dialogue: 0,0:23:03.91,0:23:05.44,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}就去劝她家人别放她出门
+Dialogue: 0,0:23:05.54,0:23:07.21,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}西边如果有被跟踪狂附体之人
+Dialogue: 0,0:23:07.33,0:23:08.67,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}就去背上她与其同行
+Dialogue: 0,0:23:08.71,0:23:10.06,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}南边如果有个猎奇之人
+Dialogue: 0,0:23:10.13,0:23:11.71,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}就去安慰她不要害怕
+Dialogue: 0,0:23:11.82,0:23:13.31,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}北边如果有个著作权诉讼
+Dialogue: 0,0:23:13.35,0:23:14.69,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}就去告戒她别做这种蠢事
+Dialogue: 0,0:23:14.74,0:23:16.23,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}独自一人之时为自己伤心落泪
+Dialogue: 0,0:23:16.34,0:23:17.03,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不需要别人赞美
+Dialogue: 0,0:23:17.13,0:23:17.89,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}不需要别人批评
+Dialogue: 0,0:23:17.99,0:23:19.49,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}我想成为这样的人
+Dialogue: 0,0:23:19.61,0:23:20.50,Default,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}…吗
+Dialogue: 0,0:00:13.66,0:00:15.10,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[人名均出自SMAP乐队成员]
+Dialogue: 0,0:00:53.22,0:00:55.48,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[指职棒选手中村纪洋]
+Dialogue: 0,0:00:56.32,0:00:58.39,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[指狂言师和泉元弥]
+Dialogue: 0,0:01:09.14,0:01:09.96,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[出自「YES!光之美少女5」中的「PreCure Shooting Star」及「龙珠」中的「天空X字拳」]
+Dialogue: 0,0:02:08.11,0:02:10.58,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[背景出自歌川国芳的某著名浮世绘]
+Dialogue: 0,0:02:46.61,0:02:49.99,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[捏自国木田独步的诗「镰仓妙本寺回顾」]
+Dialogue: 0,0:02:58.85,0:03:00.97,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[出自机动警察2剧场版(1993)中的飞船，Ultima Ratio为拉丁语，意为「最后的手段」]
+Dialogue: 0,0:04:16.79,0:04:19.50,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[指06年由于军政变而流亡的泰国前总理他信]
+Dialogue: 0,0:04:24.65,0:04:26.33,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[指前邮政大臣野田圣子]
+Dialogue: 0,0:04:26.93,0:04:28.80,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[指「Yellow Cab」艺人事务所前所长野田义治]
+Dialogue: 0,0:04:29.18,0:04:31.90,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[有可能是指野田英树]
+Dialogue: 0,0:04:45.93,0:04:52.47,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[含「五岛医生诊疗所」的五岛健助、火影中大蛇丸、现视研中荻上千佳、「银河英雄传说」及久米田自己…]
+Dialogue: 0,0:06:42.39,0:06:43.77,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[此处KUSO日本“白濑”号AGB-5002破冰船]
+Dialogue: 0,0:07:11.46,0:07:12.99,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[1957年日本南极探险队被遗弃的雪橇犬的存活经历，之后曾两度被改编为电影]
+Dialogue: 0,0:07:23.71,0:07:24.44,neta,NTP,0,0,0,,{\pos(320,37)}[指COMIC MARKET举办地点1990年冬搬离幕张的事…]
+Dialogue: 0,0:07:34.02,0:07:35.65,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[育津亭蛇亜鈴→そだつていだありん→「育ってダーリン!」（期待你长大）\N勝亭二階蔵→かつていにかいぞう→「かってに改蔵」，均为久米田旧作…]
+Dialogue: 0,0:07:35.65,0:07:38.17,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[见敌必杀：出自电影「全金属外壳」（Full Metal Jacket）中「BORN TO KILL」的意思]
+Dialogue: 0,0:08:07.47,0:08:12.52,neta,NTP,0,0,0,,{\fad(500,0)}[「茑屋目黑店」：「茑屋」为江户时代出版家茑屋重三郎所开书店的屋号]
+Dialogue: 0,0:09:01.39,0:09:04.79,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[这个故事模仿自古典江户落语「目黑的秋刀鱼」]
+Dialogue: 0,0:09:10.42,0:09:14.32,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[捏自芥川龙之介的小说「大导寺信辅的前半生」]
+Dialogue: 0,0:09:26.48,0:09:29.14,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[模仿自天元突破中西蒙揍罗修一幕…]
+Dialogue: 0,0:09:38.57,0:09:40.59,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[CV是麦人，新房作品里的常客了…]
+Dialogue: 0,0:10:03.11,0:10:04.07,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[豆打异母兄弟：出自1999年儿歌「团子三兄弟」后推出的食品「豆打饼」]
+Dialogue: 0,0:10:03.11,0:10:04.07,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[Pocket：Pocket Monster…]
+Dialogue: 0,0:10:29.22,0:10:31.52,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[出自绝望广播剧「再见绝望放送」01回台词]
+Dialogue: 0,0:10:34.44,0:10:38.08,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[背景人物先后为美国电影演员Charlie Sheen和其日文配音堀内贤雄]
+Dialogue: 0,0:10:52.00,0:10:59.73,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[此场景内由右向左含镜音Rin&Len、KAITO、MEIKO，只不过变更了一下色指定…]
+Dialogue: 0,0:11:33.17,0:11:38.45,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[来自秋川雅史美声唱法的「千の風になって」]
+Dialogue: 0,0:11:45.01,0:11:46.63,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[CV野泽雅子，担任过龙珠中的孙悟空]
+Dialogue: 0,0:11:51.66,0:11:53.96,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[初音MIKU…直接由藤田咲担当CV]
+Dialogue: 0,0:12:31.59,0:12:33.30,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[一旧这里讲的是1期第4话芽留发出的声音]
+Dialogue: 0,0:13:48.14,0:13:49.14,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[可符香手中台本捏自「在世界中心呼唤爱」]
+Dialogue: 0,0:14:19.47,0:14:23.61,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[外道◎身灵波光线：指特摄节目「Diamond-eye」中招式「外道照身灵波光线」]
+Dialogue: 0,0:14:33.60,0:14:35.94,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[Negima…]
+Dialogue: 0,0:14:36.05,0:14:38.33,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[这里就是指久米田自己了…]
+Dialogue: 0,0:14:38.58,0:14:39.69,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[来自著名落语「害怕馒头」，这段看不怎么明白的话可以自行GG到相关内容]
+Dialogue: 0,0:14:38.58,0:14:39.69,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[指NGM/绝望有可能到4期么…]
+Dialogue: 0,0:14:40.09,0:14:41.35,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[北荣高校：出自「彼男彼女的事情」]
+Dialogue: 0,0:14:43.47,0:14:45.39,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[网王实写电影版于20060513公映…]
+Dialogue: 0,0:14:45.39,0:14:46.40,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[二○○八年三月二十六日　命运之日→败诉：俗绝望第一卷DVD发售日…]
+Dialogue: 0,0:14:55.44,0:14:59.44,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[140kg→77kg：指本篇副监督龙轮直征瘦了62kg的事？]
+Dialogue: 0,0:15:02.94,0:15:04.04,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[算是制作方自嘲么…XD]
+Dialogue: 0,0:15:04.04,0:15:07.94,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[捏自室生犀星的小说「兄妹」]
+Dialogue: 0,0:15:09.91,0:15:16.45,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[字被遮住看不见的部分就可惜了…]
+Dialogue: 0,0:15:18.17,0:15:21.08,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[2006年世界杯赛程相关…]
+Dialogue: 0,0:16:06.32,0:16:09.61,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[不动产情报「RX-75」「0080」：高达相关…]
+Dialogue: 0,0:18:46.12,0:18:47.97,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[再见LOVE老师：绝望+To LOVE；顺便一提原作为「LOVE炼金」（To LOVE+武装炼金）]
+Dialogue: 0,0:18:48.20,0:18:51.76,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[lolipop：应指Boogiepop…]
+Dialogue: 0,0:18:51.91,0:18:56.52,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[下级生2+妹妹公主+少女爱上姐姐…]
+Dialogue: 0,0:18:59.84,0:19:03.33,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[等身大看板模仿自蝉鸣中的北条沙都子？]
+Dialogue: 0,0:19:36.18,0:19:38.26,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[背景…ef又出现了…]
+Dialogue: 0,0:19:54.95,0:20:01.21,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[背景左：GS美神；右：绝对可怜children]
+Dialogue: 0,0:20:08.42,0:20:11.05,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[背景仍出自绝对可怜children…]
+Dialogue: 0,0:22:53.58,0:22:54.74,neta,NTP,0,0,0,,{\fnKaiTi\fs32\2c&H000000&\3c&HA00000&\4c&H000000&\b1}[捏自宫泽贤治的诗「不畏风雨」]
+

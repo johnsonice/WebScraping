@@ -1,0 +1,777 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 片头介绍,Microsoft YaHei,20,&H00C2E0EC,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: 正文,Microsoft YaHei,26,&H00C2E0EC,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: 人物介绍+,Microsoft YaHei,20,&H00C2E0EC,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,4,10,10,10,1
+Style: 人物介绍,Microsoft YaHei,20,&H00C2E0EC,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: Default,SimHei,20,&H00FFFFFF,&HF0000000,&H006C3300,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,5,5,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.10,0:00:06.75,Default,,0000,0000,0000,,{\fad(500,500)}{\3c&H000000&}{\pos(320,348)}{\fs135}{\fscx580}{\alpha&H9F&\c&H000000&}{\bord1}{\shad0}■
+Dialogue: 0,0:00:07.10,0:00:10.37,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\c&HFFFFFF&}{\pos(320,305)}{\fs20}{\b1}{\bord0}{\c&HC2E0EC&}双语特效字幕\N{\b0}百度贴吧{\fs25}{\c&HFFFFFF&}{\b1}衣柜字幕组{\fs16\b0}{\c&HC2E0EC&}\N{\b1}专注GOT剧集 华语冰火最专业字幕{\b0}
+Dialogue: 0,0:00:11.00,0:00:13.10,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(450,260)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}翻译{\fs22}    {\b1} 唐朝栗子{\b0}
+Dialogue: 0,0:00:13.60,0:00:15.10,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(430,270)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}翻译{\fs22}   {\b1} 托曼{\b0}
+Dialogue: 0,0:00:15.80,0:00:17.40,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(200,265)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}翻译{\fs22}   {\b1} 泰温公爵{\b0}
+Dialogue: 0,0:00:29.40,0:00:30.90,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(380,200)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}翻译{\fs22}   {\b1} 麻绳力攻{\b0}
+Dialogue: 0,0:00:38.80,0:00:41.10,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(380,200)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}校对{\fs22}   {\b1} xiadamaozi{\b0}
+Dialogue: 0,0:00:41.10,0:00:43.10,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(220,205)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}校对{\fs22}   {\b1} suerhine{\b0}
+Dialogue: 0,0:00:49.60,0:00:51.40,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(220,210)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}复校{\fs22}   {\b1}守誓剑\Nbran的夏天{\b0}
+Dialogue: 0,0:00:51.60,0:00:53.60,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(440,215)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}复校{\fs22}   {\b1} Violet_rosa{\b0}
+Dialogue: 0,0:00:58.10,0:00:59.60,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(330,150)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}精校{\fs22}  {\b1} CCXX{\b0}
+Dialogue: 0,0:00:59.60,0:01:01.90,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(210,205)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}监制{\fs22}   {\b1} 旧镇老翁{\b0}
+Dialogue: 0,0:01:06.10,0:01:07.70,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(420,215)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}后期{\fs22}   {\b1}加文·维斯特林  poplar{\b0}
+Dialogue: 0,0:01:08.60,0:01:10.40,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(210,220)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}策划{\fs22}   {\b1} baozhenyuawabi{\b0}
+Dialogue: 0,0:01:10.60,0:01:12.40,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(430,90)}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}特别顾问{\fs22}   {\b1}屈畅(ccxx){\b0}
+Dialogue: 0,0:00:17.60,0:00:22.00,片头介绍,,0000,0000,0000,,{\fad(300,500)}{\frx360}{\t(20,200,\frx0)}{\pos(320,250)}{\fs25\b1}君临{\fs12\b0} King's Landing
+Dialogue: 0,0:00:23.60,0:00:27.60,片头介绍,,0000,0000,0000,,{\fad(300,500)}{\fs25\b1}{\move(380,235,380,240)}红堡
+Dialogue: 0,0:00:23.60,0:00:27.60,片头介绍,,0000,0000,0000,,{\fad(300,500)}{\fs12\b0} {\move(425,245,425,235)}Red Keep
+Dialogue: 0,0:00:31.60,0:00:38.80,片头介绍,,0000,0000,0000,,{\fad(300,500)}{\frx45\t(\frx0)\t(700\fry20)}{\move(400,240,450,240,50,10)}{\fs26\b1}赫伦堡{\fs17\b0} Harrenhal
+Dialogue: 0,0:00:43.60,0:00:46.60,片头介绍,,0000,0000,0000,,{\fad(300,0)}{\fs20} {\b1} {\move(100,145,100,140,1000,500)}派{\fs20}{\b0}
+Dialogue: 0,0:00:43.60,0:00:46.60,片头介绍,,0000,0000,0000,,{\fad(300,0)}{\fs20} {\b1} {\move(160,145,160,140,1000,500)}{\fs20}{\b0}Pyke
+Dialogue: 0,0:00:46.60,0:00:48.60,片头介绍,,0000,0000,0000,,{\fad(0,500)}{\fs20} {\b1} {\move(100,140,100,150,1000,500)}派{\fs20}{\b0}
+Dialogue: 0,0:00:46.60,0:00:48.60,片头介绍,,0000,0000,0000,,{\fad(0,500)}{\fs20} {\b1} {\move(160,140,160,150,1000,500)}{\fs20}{\b0}Pyke
+Dialogue: 0,0:00:43.60,0:00:46.60,片头介绍,,0000,0000,0000,,{\fad(300,0)}{\fs20} {\b1} {\move(115,135,115,140,1000,500)}克
+Dialogue: 0,0:00:46.60,0:00:48.60,片头介绍,,0000,0000,0000,,{\fad(0,500)}{\fs20} {\b1} {\move(115,140,115,146,1000,500)}克
+Dialogue: 0,0:00:43.60,0:00:46.60,片头介绍,,0000,0000,0000,,{\fad(300,0)}{\fs20} {\b1} {\move(130,145,130,140,1000,500)}城
+Dialogue: 0,0:00:46.60,0:00:48.60,片头介绍,,0000,0000,0000,,{\fad(0,500)}{\fs20} {\b1} {\move(130,140,130,148,1000,500)}城
+Dialogue: 0,0:00:53.60,0:00:55.10,片头介绍,,0000,0000,0000,,{\fad(300,0)}{\frx45}{\pos(340,190)}{\fs25\b1}临冬城{\fs12\b0} Winterfell
+Dialogue: 0,0:00:55.10,0:00:57.60,片头介绍,,0000,0000,0000,,{\fad(0,500)}{\pos(340,190)}{\fs22\b1}临冬城{\fs10\b0} Winterfell
+Dialogue: 0,0:01:26.10,0:01:28.00,片头介绍,,0000,0000,0000,,{\fad(0,500)}{\move(240,150,200,110)}{\fs22\b1}颤抖海{\fs10\b0} Shivering Sea
+Dialogue: 0,0:01:12.60,0:01:14.60,片头介绍,,0000,0000,0000,,{\fad(300,0)}{\frx45}{\move(340,240,340,240)}{\fs25} {\b1}绝境长城{\fs12\b0} the Wall
+Dialogue: 0,0:01:14.60,0:01:20.60,片头介绍,,0000,0000,0000,,{\fad(0,500)}{\move(340,240,340,180)}{\fs25} {\b1}绝境长城{\fs12\b0} the Wall
+Dialogue: 0,0:01:20.70,0:01:26.00,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(320,320)}{\fs25}{\c&HC2E0EC&}衣柜军团力作《权力的游戏：漫画小说》实体书即将发售{\b0}\N{\fs22}最新进度请关注新浪微博@指文图书        敬请期待！
+Dialogue: 0,0:01:34.60,0:01:38.90,片头介绍,,0000,0000,0000,,{\fad(300,500)}{\frx45\t(\frx0)}{\pos(200,140)}{\fs25} {\b1}魁尔斯{\fs12\b0}Qarth
+Dialogue: 0,0:01:31.10,0:01:33.60,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(400,240)}{\fs12} {\c&HC2E0EC&}根据长篇小说
+Dialogue: 0,0:01:31.10,0:01:33.60,片头介绍,,0000,0000,0000,,{\fad(500,500)} {\pos(450,270)}{\fs24}《{\b1}冰与火之歌{\b0}》{\fs12} 改编
+Dialogue: 0,0:01:31.10,0:01:33.60,片头介绍,,0000,0000,0000,,{\fad(500,500)} {\pos(540,295)}{\fs12} 原著 {\fs20} 乔治·R·R·马丁
+Dialogue: 0,0:01:28.60,0:01:30.90,片头介绍,,0000,0000,0000,,{\fad(500,500)} {\pos(240,225)}{\fs18} 百度冰与火之歌贴吧  &  百度权力的游戏贴吧   {\fs12} 联合出品
+Dialogue: 0,0:01:43.86,0:01:48.11,Default,,0000,0000,0000,,{\fe134}{\fad(500,500)}{\c&HFFFFFF&}{\pos(320,285)}{\fs25} {\fn微软雅黑}{\bord0}{\c&H24EFFF&\fn微软雅黑\fs24}权力的游戏{\c&H24EFFF&}\N{\fe134}{\fn微软雅黑}{\fn微软雅黑\fs14}第二季 第九集\N{\fscy100}{\fe134}{\fn微软雅黑}{\c&HFFFFFF&}{\fs20}衣柜字幕组
+Dialogue: 0,0:01:51.60,0:01:54.11,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(335,235)}{\fs18}{\fn微软雅黑}{\bord1}{\c&HC2E0EC&}{\fs12}第九集 {\fs18} “黑水大战”\N{\fs12}"Blackwater"
+Dialogue: 0,0:53:04.60,0:58:31.60,片头介绍,,0000,0000,0000,,{\fad(500,500)}{\pos(320,120)}{\fs18}{\fn微软雅黑}{\bord1}{\c&HFFFFFF&}{\fs18\b1}衣柜字幕组出品{\b0} {\fs18}
+Dialogue: 0,0:02:13.05,0:02:18.00,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(310,250)}{\fs16} {\fn微软雅黑}{\bord1\b1}戴佛斯·席渥斯{\b0}\N{\fs12}洋葱骑士
+Dialogue: 0,0:02:43.90,0:02:50.00,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(180,280)}{\fs16} {\fn微软雅黑}{\bord1\b1}史坦尼斯·拜拉席恩{\b0}\N{\fs12}狭海中的王
+Dialogue: 0,0:03:26.50,0:03:30.00,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(390,250)}{\fs16} {\fn微软雅黑}{\bord1\b1}马索斯·席渥斯{\b0}\N{\fs12}戴佛斯·席渥斯之子
+Dialogue: 0,0:05:02.50,0:05:07.00,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(80,200)}{\fs16} {\fn微软雅黑}{\bord1\b1}提利昂·兰尼斯特{\b0}\N{\fs12}“小恶魔” 代理首相
+Dialogue: 0,0:05:02.50,0:05:07.00,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(180,200)}{\fs16} {\fn微软雅黑}{\bord1\b1}雪伊{\b0}\N{\fs12}珊莎的侍女
+Dialogue: 0,0:06:31.70,0:06:35.90,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(400,280)}{\fs16} {\fn微软雅黑}{\bord1\b1}瑟曦·兰尼斯特{\b0}\N{\fs12}摄政太后
+Dialogue: 0,0:06:36.90,0:06:41.50,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(260,260)}{\fs16} {\fn微软雅黑}{\bord1\b1}派席尔{\b0}\N{\fs12}首席学士
+Dialogue: 0,0:08:11.50,0:08:16.00,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(280,250)}{\fs16} {\fn微软雅黑}{\bord1\b1}波隆{\b0}\N{\fs12}都城守备队队长
+Dialogue: 0,0:09:38.00,0:09:40.80,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(280,250)}{\fs16} {\fn微软雅黑}{\bord1\b1}桑铎·克里冈{\b0}\N{\fs12}“猎狗” 御林铁卫
+Dialogue: 0,0:12:09.50,0:12:14.50,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(240,240)}{\fs16} {\fn微软雅黑}{\bord1\b1}瓦里斯{\b0}\N{\fs12}“八爪蜘蛛” 情报总管
+Dialogue: 0,0:12:17.50,0:12:20.05,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(550,240)}{\fs16} {\fn微软雅黑}{\bord1\b1}波德瑞克·派恩{\b0}\N{\fs12}提利昂·兰尼斯特的侍从
+Dialogue: 0,0:16:23.80,0:16:26.00,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(200,250)}{\fs16} {\fn微软雅黑}{\bord1\b1}珊莎·史塔克{\b0}\N{\fs12}
+Dialogue: 0,0:16:47.80,0:16:49.50,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(420,250)}{\fs16} {\fn微软雅黑}{\bord1\b1}乔佛里·拜拉席恩{\b0}\N{\fs12}铁王座上的王
+Dialogue: 0,0:18:47.80,0:18:49.70,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(420,190)}{\fs16} {\fn微软雅黑}{\bord1\b1}蓝赛尔·兰尼斯特{\b0}\N{\fs12}凯冯·兰尼斯特之子
+Dialogue: 0,0:20:36.80,0:20:39.70,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(330,250)}{\fs16} {\fn微软雅黑}{\bord1\b1}托曼·拜拉席恩{\b0}\N{\fs12}乔佛里·拜拉席恩之弟
+Dialogue: 0,0:21:32.50,0:21:36.70,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(390,200)}{\fs16} {\fn微软雅黑}{\bord1\b1}伊林·派恩{\b0}\N{\fs12}御前执法官
+Dialogue: 0,0:21:54.80,0:21:58.50,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(450,250)}{\fs16} {\fn微软雅黑}{\bord1\b1}曼登·穆尔{\b0}\N{\fs12}御林铁卫
+Dialogue: 0,0:24:13.50,0:24:16.70,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(280,280)}{\fs16} {\fn微软雅黑}{\bord1\b1}哈林{\b0}\N{\fs12}火术士
+Dialogue: 0,0:27:27.50,0:27:29.70,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(350,280)}{\fs16} {\fn微软雅黑}{\bord1\b1}唐托斯·霍拉德{\b0}\N{\fs12}弄臣
+Dialogue: 0,0:52:46.50,0:52:48.00,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(380,280)}{\fs16} {\fn微软雅黑}{\bord1\b1}洛拉斯·提利尔{\b0}\N{\fs12}“百花骑士”
+Dialogue: 0,0:52:46.60,0:52:48.00,人物介绍,,0000,0000,0000,,{\fad(300,500)}{\pos(250,280)}{\fs16} {\fn微软雅黑}{\bord1\b1}泰温·兰尼斯特{\b0}\N{\fs12}凯岩城公爵 西境守护
+Dialogue: 0,0:02:12.44,0:02:14.50,正文,,0000,0000,0000,,就这样\NThat's it
+Dialogue: 0,0:03:29.11,0:03:31.15,正文,,0000,0000,0000,,潮汐对我们不利\NThe tide's against us
+Dialogue: 0,0:03:31.18,0:03:32.75,正文,,0000,0000,0000,,是 但风向对我们有利\NAye, but we have the wind
+Dialogue: 0,0:03:32.78,0:03:35.48,正文,,0000,0000,0000,,足以送我们直抵城门\NShe'll blow us straight to the gate.
+Dialogue: 0,0:03:35.52,0:03:36.95,正文,,0000,0000,0000,,你要回家了\NYou're coming home.
+Dialogue: 0,0:03:36.99,0:03:40.62,正文,,0000,0000,0000,,我离开君临这家已有20年之久\NKing's Landing hasn't been home for 20 years.
+Dialogue: 0,0:03:40.66,0:03:45.49,正文,,0000,0000,0000,,大半辈子都在跟王家舰队躲迷藏\NI spent most of my life dodging the Royal Fleet.
+Dialogue: 0,0:03:47.26,0:03:49.80,正文,,0000,0000,0000,,现在却要与他们正面交锋\NAnd now I'm sailing right at them.
+Dialogue: 0,0:03:49.83,0:03:51.97,正文,,0000,0000,0000,,我们就是王家舰队\NThis is the Royal Fleet.
+Dialogue: 0,0:03:52.00,0:03:53.97,正文,,0000,0000,0000,,你也不再是走私者了 你是王家舰队总司令\NAnd you're not a smuggler anymore, you're the high captain.
+Dialogue: 0,0:03:54.00,0:03:57.24,正文,,0000,0000,0000,,现在的王家舰队可不止一个\NOf course there are several Royal Fleets at the moment.
+Dialogue: 0,0:03:57.27,0:03:59.84,正文,,0000,0000,0000,,过了今晚就不是了 当太阳升起之后\NNot after tonight. When the sun rises,
+Dialogue: 0,0:03:59.88,0:04:01.91,正文,,0000,0000,0000,,史坦尼斯会坐上铁王座\NStannis will sit on the Iron Throne
+Dialogue: 0,0:04:01.94,0:04:03.34,正文,,0000,0000,0000,,你会当上首相\Nand you will be his Hand.
+Dialogue: 0,0:04:03.38,0:04:05.68,正文,,0000,0000,0000,,- 诸神保佑  - 只有一个神\N- Gods be good. - God.
+Dialogue: 0,0:04:05.71,0:04:07.78,正文,,0000,0000,0000,,父亲 一个真神 他看顾着我们\NFather, there is only one and he watches over us.
+Dialogue: 0,0:04:07.82,0:04:10.52,正文,,0000,0000,0000,,- 但不看顾他们？ - 他看顾着所有人\N- But not over them? - Over all of us.
+Dialogue: 0,0:04:10.55,0:04:12.62,正文,,0000,0000,0000,,君临的百姓不会支持伪王\NThe people of King's Landing did not choose the false King
+Dialogue: 0,0:04:12.64,0:04:14.16,正文,,0000,0000,0000,,乔佛里·拜拉席恩\NJoffrey Baratheon.
+Dialogue: 0,0:04:14.16,0:04:16.72,正文,,0000,0000,0000,,他们很乐意看到他的头被插在枪上\NThey will be glad to see his head on a spike.
+Dialogue: 0,0:04:16.76,0:04:19.36,正文,,0000,0000,0000,,不管怎么说 我们得先把他的头砍下来才行\NWell, first we have to put it there.
+Dialogue: 0,0:04:19.40,0:04:21.93,正文,,0000,0000,0000,,我们的船是他们的十倍\NOur ships outnumber theirs 10 to one.
+Dialogue: 0,0:04:21.96,0:04:24.07,正文,,0000,0000,0000,,我们的人马是他们的五倍\NOur army outnumber theirs five to one.
+Dialogue: 0,0:04:24.10,0:04:26.33,正文,,0000,0000,0000,,君临城从没被攻破过\NThose walls have never been breached.
+Dialogue: 0,0:04:26.37,0:04:28.54,正文,,0000,0000,0000,,而守城的那些人\NAnd the men guarding the walls,
+Dialogue: 0,0:04:28.57,0:04:31.54,正文,,0000,0000,0000,,可不会把你当解放者\Nwhen they see you, they don't see a liberator.
+Dialogue: 0,0:04:31.57,0:04:34.91,正文,,0000,0000,0000,,在他们眼中  你是想要烧毁他们城市的陌生人\NThey see a stranger come to set their city on fire.
+Dialogue: 0,0:04:34.94,0:04:37.65,正文,,0000,0000,0000,,我相信光之王\NI have faith in the Lord of Light.
+Dialogue: 0,0:04:37.68,0:04:39.58,正文,,0000,0000,0000,,相信我们的事业\NI have faith in our cause.
+Dialogue: 0,0:04:41.08,0:04:42.75,正文,,0000,0000,0000,,相信司令大人你\NAnd I have faith in my captain.
+Dialogue: 0,0:05:17.42,0:05:19.72,正文,,0000,0000,0000,,害怕吗 我的狮子？\NAre you afraid, my lion?
+Dialogue: 0,0:05:23.89,0:05:28.90,正文,,0000,0000,0000,,如果君临城破 史坦尼斯会烧死城内每一个兰尼斯特\NIf the city falls, Stannis will burn every Lannister he can find.
+Dialogue: 0,0:05:30.63,0:05:33.03,正文,,0000,0000,0000,,我当然害怕\NOf course I'm afraid.
+Dialogue: 0,0:05:35.47,0:05:37.64,正文,,0000,0000,0000,,我不会让他们伤害你的\NI won't let them hurt you.
+Dialogue: 0,0:05:42.14,0:05:43.98,正文,,0000,0000,0000,,我是兰尼斯特家的人\NI'm a Lannister.
+Dialogue: 0,0:05:44.01,0:05:47.68,正文,,0000,0000,0000,,没法选择自己的命运\NI don't have a choice in all this.
+Dialogue: 0,0:05:47.72,0:05:49.82,正文,,0000,0000,0000,,但这场战争与你无关\NBut it's not your war.
+Dialogue: 0,0:05:56.32,0:05:58.06,正文,,0000,0000,0000,,现在与我有关了\NIt is now.
+Dialogue: 0,0:06:01.43,0:06:05.30,正文,,0000,0000,0000,,不是万事都能靠你的身子解决的\NYou can't fuck your way out of everything.
+Dialogue: 0,0:06:06.67,0:06:08.47,正文,,0000,0000,0000,,但到目前为止都很顺利\NI have so far.
+Dialogue: 0,0:06:11.67,0:06:14.68,正文,,0000,0000,0000,,还记得初次见面时 你在帐篷里对我说的话吗？\NDo you remember what you said when you met me in your tent?
+Dialogue: 0,0:06:16.65,0:06:18.09,正文,,0000,0000,0000,,你要我拿出世界末日的劲头\NThat I should make love to you like it was your
+Dialogue: 0,0:06:18.12,0:06:20.02,正文,,0000,0000,0000,,跟你做爱\Nlast day on this earth.
+Dialogue: 0,0:06:33.06,0:06:35.19,正文,,0000,0000,0000,,如你所知 陛下\NAs you know, Your Grace,
+Dialogue: 0,0:06:35.23,0:06:37.86,正文,,0000,0000,0000,,学士对他所效力的家族的责任\Nit is not only the sworn duty of a Maester
+Dialogue: 0,0:06:37.90,0:06:41.27,正文,,0000,0000,0000,,不止是执行主人的命令\Nto carry out the wishes of the house he serves,
+Dialogue: 0,0:06:41.30,0:06:44.07,正文,,0000,0000,0000,,更要在战争时期\Nbut also to offer guidance
+Dialogue: 0,0:06:44.10,0:06:47.34,正文,,0000,0000,0000,,为主人提供必要的指导和建议\Nand counsel in times of war.
+Dialogue: 0,0:06:47.37,0:06:49.78,正文,,0000,0000,0000,,你的谏言一直都明智而慎重\NYour words are always wise and measured.
+Dialogue: 0,0:06:49.81,0:06:52.28,正文,,0000,0000,0000,,- 如果你可以……  - 如果有什么不同的话\N- If you could... - If anything,
+Dialogue: 0,0:06:52.31,0:06:56.38,正文,,0000,0000,0000,,那就是学士的责任\Na Maester's duties become more urgent
+Dialogue: 0,0:06:56.42,0:07:00.92,正文,,0000,0000,0000,,在战争和骚乱中变得更加重要\Nin times of war and turmoil.
+Dialogue: 0,0:07:00.96,0:07:04.29,正文,,0000,0000,0000,,我记得在先王……\NI remember back in the days of king...
+Dialogue: 0,0:07:04.33,0:07:06.03,正文,,0000,0000,0000,,你给我带了东西来？\NYou brought me something?
+Dialogue: 0,0:07:06.06,0:07:08.20,正文,,0000,0000,0000,,是的\NYes.
+Dialogue: 0,0:07:11.67,0:07:13.90,正文,,0000,0000,0000,,夜影之水\NEssence of Nightshade
+Dialogue: 0,0:07:13.94,0:07:18.84,正文,,0000,0000,0000,,极其有效也非常危险\Nis as dangerous as it is efficacious.
+Dialogue: 0,0:07:18.88,0:07:21.34,正文,,0000,0000,0000,,在红酒中加入一滴\NA single drop in a cup of wine
+Dialogue: 0,0:07:21.38,0:07:25.51,正文,,0000,0000,0000,,就能缓和紧绷的神经\Nsuffices to soothe ragged nerves.
+Dialogue: 0,0:07:25.55,0:07:28.32,正文,,0000,0000,0000,,三滴会带来\NThree drops will bring on a deep
+Dialogue: 0,0:07:28.35,0:07:31.29,正文,,0000,0000,0000,,无梦的深眠\Nand dreamless sleep.
+Dialogue: 0,0:07:31.32,0:07:33.05,正文,,0000,0000,0000,,十滴的话...\Nten drops, however...
+Dialogue: 0,0:07:33.09,0:07:35.32,正文,,0000,0000,0000,,我知道十滴的后果\NI know what 10 drops will bring.
+Dialogue: 0,0:07:35.36,0:07:39.39,正文,,0000,0000,0000,,- 陛下 可否容我冒昧地问... - 不可\N- Your Grace, if I may ask... - You may not.
+Dialogue: 0,0:07:41.20,0:07:43.36,正文,,0000,0000,0000,,你一定有很多事要忙\NYou must have a lot of work to do.
+Dialogue: 0,0:07:43.40,0:07:46.40,正文,,0000,0000,0000,,众多勇士很快就会需要你的谏言了\NI'm sure many brave men will need your wisdom soon.
+Dialogue: 0,0:07:47.67,0:07:50.70,正文,,0000,0000,0000,,是的 围城往往...\NYes. A siege is very...
+Dialogue: 0,0:07:50.74,0:07:53.31,正文,,0000,0000,0000,,注意楼梯台阶 大学士 对你来说太多了\NBe careful on the stairs, Grand Maester. There are so many.
+Dialogue: 0,0:07:55.51,0:07:57.91,正文,,0000,0000,0000,,陛下\NYour Grace.
+Dialogue: 0,0:08:00.85,0:08:03.78,正文,,0000,0000,0000,,{\i1}噢 他这样说\N{\fs14\i1}and so he spoke{\r\i1}
+Dialogue: 0,0:08:03.82,0:08:08.39,正文,,0000,0000,0000,,{\i1}卡斯特梅的爵爷他这样说\N{\fs14\i1}that Lord of Castamere{\r\i1}
+Dialogue: 0,0:08:08.42,0:08:11.19,正文,,0000,0000,0000,,{\i1}然而今天 每逢雨季\N{\fs14\i1}but now the rains{\r\i1}
+Dialogue: 0,0:08:11.23,0:08:13.46,正文,,0000,0000,0000,,{\i1}雨水在大厅哭泣\N{\fs14\i1}weep o'er his halls{\r\i1}
+Dialogue: 0,0:08:13.50,0:08:18.07,正文,,0000,0000,0000,,{\i1}内里却无人影\N{\fs14\i1}with no one there to hear{\r\i1}
+Dialogue: 0,0:08:18.10,0:08:20.64,正文,,0000,0000,0000,,{\i1}然而今天 每逢雨季\N{\fs14\i1}yes, now the rains{\r\i1}
+Dialogue: 0,0:08:20.67,0:08:23.07,正文,,0000,0000,0000,,{\i1}雨水在大厅哭泣\N{\fs14\i1}weep o'er his halls{\r\i1}
+Dialogue: 0,0:08:23.11,0:08:28.88,正文,,0000,0000,0000,,{\i1}内里却无魂灵\N{\fs14\i1}and not a soul to hear.{\r\i1}
+Dialogue: 0,0:08:28.91,0:08:32.58,正文,,0000,0000,0000,,- 敬大伙！   - 兰尼斯特万岁！\N- To the boys! - Lannisters!
+Dialogue: 0,0:08:32.61,0:08:34.85,正文,,0000,0000,0000,,你从哪学到这首兰尼斯特的歌？\NWhere'd you learn the Lannister song?
+Dialogue: 0,0:08:34.88,0:08:37.32,正文,,0000,0000,0000,,喝醉的兰尼斯特呗\NDrunk Lannisters.
+Dialogue: 0,0:08:38.65,0:08:40.35,正文,,0000,0000,0000,,你的嗓子真不赖\NYou've got a pretty voice.
+Dialogue: 0,0:08:40.39,0:08:42.22,正文,,0000,0000,0000,,承蒙夸奖\NThank you very much.
+Dialogue: 0,0:08:42.26,0:08:43.72,正文,,0000,0000,0000,,我也喜欢你的鼻子\NAnd I like your nose.
+Dialogue: 0,0:08:43.76,0:08:46.69,正文,,0000,0000,0000,,你的鼻子被打破过多少次？\NHow many times you break it?
+Dialogue: 0,0:08:48.46,0:08:50.26,正文,,0000,0000,0000,,哦 让我想想\NWell, now let's see.
+Dialogue: 0,0:08:50.30,0:08:54.00,正文,,0000,0000,0000,,第一次我才五岁\NFirst time I was five.
+Dialogue: 0,0:08:54.04,0:08:55.81,正文,,0000,0000,0000,,我老妈用拨火棍给了我一下子\NMe mom smacked me with an iron poker.
+Dialogue: 0,0:08:55.84,0:08:57.34,正文,,0000,0000,0000,,哦--\NOoh.
+Dialogue: 0,0:08:57.34,0:08:59.64,正文,,0000,0000,0000,,哦 她其实不是想打我\NOh, it wasn't me she was aiming at.
+Dialogue: 0,0:08:59.67,0:09:01.71,正文,,0000,0000,0000,,是想打我弟弟\NShe was trying for me little brother.
+Dialogue: 0,0:09:01.74,0:09:03.38,正文,,0000,0000,0000,,他可是个真正的讨厌鬼\NNow he was a real pest.
+Dialogue: 0,0:09:03.41,0:09:07.31,正文,,0000,0000,0000,,第二次我九岁\NSecond time I was nine.
+Dialogue: 0,0:09:07.35,0:09:10.45,正文,,0000,0000,0000,,跟几个大孩子打了起来\NGot in a scrap with a few older boys.
+Dialogue: 0,0:09:10.48,0:09:12.69,正文,,0000,0000,0000,,他们赢了\NThey won.
+Dialogue: 0,0:09:12.72,0:09:14.32,正文,,0000,0000,0000,,第三次嘛...\NThird time...
+Dialogue: 0,0:09:21.73,0:09:24.66,正文,,0000,0000,0000,,嘿 你不会想知道第三次发生了什么的\NEh, you don't want to know about the third time.
+Dialogue: 0,0:09:28.34,0:09:30.34,正文,,0000,0000,0000,,可怜的鼻子\NPoor nose.
+Dialogue: 0,0:09:30.37,0:09:32.17,正文,,0000,0000,0000,,不用可怜它\NDon't feel sorry for him.
+Dialogue: 0,0:09:32.21,0:09:34.41,正文,,0000,0000,0000,,不等今晚过完它就会爬上你的屁股\NHe'll be halfway up your ass before the night's through.
+Dialogue: 0,0:09:46.06,0:09:48.09,正文,,0000,0000,0000,,欢迎之至 朋友们\NWelcome, friends.
+Dialogue: 0,0:09:51.86,0:09:53.80,正文,,0000,0000,0000,,这轮算我的\NThis round's on me.
+Dialogue: 0,0:10:03.37,0:10:05.27,正文,,0000,0000,0000,,我想他大概不喜欢我\NI don't think he likes me.
+Dialogue: 0,0:10:18.52,0:10:20.22,正文,,0000,0000,0000,,你觉得自己是条硬汉？\NYou think you're a hard man?
+Dialogue: 0,0:10:22.16,0:10:25.66,正文,,0000,0000,0000,,我确实是\NI know it.
+Dialogue: 0,0:10:28.90,0:10:31.10,正文,,0000,0000,0000,,这里又暖和\NIt's warm in here.
+Dialogue: 0,0:10:31.14,0:10:33.14,正文,,0000,0000,0000,,又有漂亮女人\NWe've got beautiful women
+Dialogue: 0,0:10:33.17,0:10:34.80,正文,,0000,0000,0000,,还有不错的麦芽酒\Nand good brown ale.
+Dialogue: 0,0:10:34.84,0:10:37.81,正文,,0000,0000,0000,,足够每个人喝的\NPlenty for everyone.
+Dialogue: 0,0:10:37.84,0:10:39.54,正文,,0000,0000,0000,,你却只想着\NAnd all you want
+Dialogue: 0,0:10:39.58,0:10:42.58,正文,,0000,0000,0000,,把我们中的某个人送往冰冷地底下\Nis to put one of us in the cold ground
+Dialogue: 0,0:10:42.61,0:10:44.51,正文,,0000,0000,0000,,那边甚至没有女人陪伴\Nwith no women to keep us company.
+Dialogue: 0,0:10:44.55,0:10:47.48,正文,,0000,0000,0000,,哦 那边有女人\NOh, there's women in the ground.
+Dialogue: 0,0:10:47.52,0:10:50.15,正文,,0000,0000,0000,,我亲手便送过去不少\NI put some there myself.
+Dialogue: 0,0:10:50.19,0:10:53.36,正文,,0000,0000,0000,,你也送过\NSo have you.
+Dialogue: 0,0:10:53.39,0:10:55.82,正文,,0000,0000,0000,,你喜欢干女人\NYou like fucking
+Dialogue: 0,0:10:55.86,0:10:57.73,正文,,0000,0000,0000,,喝酒 唱歌\Nand drinking and singing.
+Dialogue: 0,0:10:59.76,0:11:02.30,正文,,0000,0000,0000,,但是杀人--\NBut killing--
+Dialogue: 0,0:11:02.33,0:11:05.17,正文,,0000,0000,0000,,杀人才是你的最爱\Nkilling's the thing you love.
+Dialogue: 0,0:11:05.20,0:11:08.27,正文,,0000,0000,0000,,你就跟我一样\NYou're just like me.
+Dialogue: 0,0:11:11.01,0:11:13.11,正文,,0000,0000,0000,,只不过小了一号\NOnly smaller.
+Dialogue: 0,0:11:15.01,0:11:16.78,正文,,0000,0000,0000,,但快得多\NAnd quicker.
+Dialogue: 0,0:11:16.81,0:11:19.68,正文,,0000,0000,0000,,嘿？\NEh?
+Dialogue: 0,0:11:21.12,0:11:23.85,正文,,0000,0000,0000,,你的主子小恶魔会想念你的\NYour Lord Imp is gonna miss you.
+Dialogue: 0,0:11:29.69,0:11:32.49,正文,,0000,0000,0000,,是啊\NAye.
+Dialogue: 0,0:11:34.20,0:11:37.37,正文,,0000,0000,0000,,我想他有一天会的\NI expect he will someday.
+Dialogue: 0,0:11:40.50,0:11:43.84,正文,,0000,0000,0000,,是集合钟\NHere we are.
+Dialogue: 0,0:11:54.68,0:11:57.15,正文,,0000,0000,0000,,开战之前再来一杯？\NOne more drink before the war?
+Dialogue: 0,0:11:57.19,0:11:59.29,正文,,0000,0000,0000,,怎样？\NShall we?
+Dialogue: 0,0:12:10.16,0:12:12.60,正文,,0000,0000,0000,,我一直很讨厌钟声\NI've always hated the bells.
+Dialogue: 0,0:12:12.63,0:12:14.43,正文,,0000,0000,0000,,响起来就没好事--\NThey ring for horror--
+Dialogue: 0,0:12:14.47,0:12:17.14,正文,,0000,0000,0000,,国王逝世 城市被围困\Na dead king, a city under siege.
+Dialogue: 0,0:12:17.17,0:12:19.37,正文,,0000,0000,0000,,- 还有婚礼  - 是的\N- A wedding. - Exactly.
+Dialogue: 0,0:12:21.51,0:12:23.41,正文,,0000,0000,0000,,他叫波德瑞克 对吗？\NPodrick, is that it?
+Dialogue: 0,0:12:23.45,0:12:25.78,正文,,0000,0000,0000,,“是吗？” 装得真像\N"Is that it?" Nice touch.
+Dialogue: 0,0:12:25.81,0:12:29.28,正文,,0000,0000,0000,,好像你不知道城里每个男孩的名字似的\NAs if you don't know the name of every boy in town.
+Dialogue: 0,0:12:29.32,0:12:32.02,正文,,0000,0000,0000,,我不明白您在暗示什么\NI'm not entirely sure what you're suggesting.
+Dialogue: 0,0:12:32.06,0:12:35.49,正文,,0000,0000,0000,,我很肯定你明白我在暗示什么\NI'm entirely sure you're entirely sure what I'm suggesting.
+Dialogue: 0,0:12:35.53,0:12:38.06,正文,,0000,0000,0000,,您信任他吗？\NDo you trust him?
+Dialogue: 0,0:12:41.43,0:12:43.27,正文,,0000,0000,0000,,说来也怪 我很信任他\NOddly enough, I do.
+Dialogue: 0,0:12:44.43,0:12:46.40,正文,,0000,0000,0000,,很好\NGood.
+Dialogue: 0,0:12:51.57,0:12:53.71,正文,,0000,0000,0000,,您要的地图\NThe map you asked for.
+Dialogue: 0,0:12:58.15,0:13:00.55,正文,,0000,0000,0000,,城市地下看来有二十里长的隧道\NThere must be 20 miles of tunnels beneath the city.
+Dialogue: 0,0:13:00.58,0:13:02.28,正文,,0000,0000,0000,,将近五十里\NCloser to 50.
+Dialogue: 0,0:13:02.32,0:13:05.99,正文,,0000,0000,0000,,坦格利安家建城时不仅考虑了城防工事\NThe Targaryens built this city to withstand a siege
+Dialogue: 0,0:13:06.02,0:13:09.76,正文,,0000,0000,0000,,还预留了必要的逃跑路线\Nand to provide escape if necessary.
+Dialogue: 0,0:13:09.79,0:13:11.73,正文,,0000,0000,0000,,我不会逃跑\NI'm not escaping.
+Dialogue: 0,0:13:11.76,0:13:13.73,正文,,0000,0000,0000,,听起来有点奇怪 但我是这艘船的船长\NStrange as it sounds, I'm the captain of the ship.
+Dialogue: 0,0:13:13.76,0:13:15.43,正文,,0000,0000,0000,,船在人在  船亡人亡\NAnd if the ship goes down, I go with her.
+Dialogue: 0,0:13:15.47,0:13:17.30,正文,,0000,0000,0000,,的确是豪言壮语\NThat is good to hear.
+Dialogue: 0,0:13:17.33,0:13:19.47,正文,,0000,0000,0000,,不过当船尚未沉没时\NThough I'm sure many captains say the same
+Dialogue: 0,0:13:19.50,0:13:22.97,正文,,0000,0000,0000,,很多船长都夸下过这样的海口\Nwhile their ship is afloat.
+Dialogue: 0,0:13:23.01,0:13:25.74,正文,,0000,0000,0000,,您看上去作好了打架的准备 大人\NYou look well suited for battle, My Lord.
+Dialogue: 0,0:13:25.78,0:13:27.14,正文,,0000,0000,0000,,不 我才没有\NWell, I'm not.
+Dialogue: 0,0:13:27.18,0:13:30.11,正文,,0000,0000,0000,,为了我们彼此 我希望您是错的\NFor all our sakes, I hope you are wrong.
+Dialogue: 0,0:13:30.15,0:13:34.25,正文,,0000,0000,0000,,小小鸟告诉我 史坦尼斯·拜拉席恩\NMy little birds tell me that Stannis Baratheon
+Dialogue: 0,0:13:34.28,0:13:37.82,正文,,0000,0000,0000,,和一位亚夏红袍女祭司鬼混在一起\Nhas taken up with a Red Priestess from Asshai.
+Dialogue: 0,0:13:37.85,0:13:39.19,正文,,0000,0000,0000,,那又如何？\NWhat of it?
+Dialogue: 0,0:13:39.22,0:13:42.73,正文,,0000,0000,0000,,您不相信古老的力量 大人？\NYou don't believe in the old powers, My Lord?
+Dialogue: 0,0:13:42.79,0:13:45.93,正文,,0000,0000,0000,,血魔法 诅咒 易形者 —— 你相信否？\NBlood spells, curses, shape-shifting-- what do you think?
+Dialogue: 0,0:13:45.96,0:13:50.50,正文,,0000,0000,0000,,我猜您笃信眼见为实\NI think you believe in what you see
+Dialogue: 0,0:13:50.53,0:13:53.30,正文,,0000,0000,0000,,也相信您信任的人看见的事\Nand in what those you trust have seen.
+Dialogue: 0,0:13:54.50,0:13:57.44,正文,,0000,0000,0000,,您大概不会完全信任我\NYou probably don't entirely trust me.
+Dialogue: 0,0:13:57.47,0:13:59.37,正文,,0000,0000,0000,,嗯 别把它当成私人恩怨\NMm, don't take it personally.
+Dialogue: 0,0:13:59.41,0:14:01.34,正文,,0000,0000,0000,,其实我连我自己都不敢完全相信\NI don't entirely trust myself.
+Dialogue: 0,0:14:01.38,0:14:04.21,正文,,0000,0000,0000,,但我确实看过一些事情\NAnd yet I have seen things
+Dialogue: 0,0:14:04.25,0:14:06.88,正文,,0000,0000,0000,,听过一些事情\Nand heard things--
+Dialogue: 0,0:14:06.92,0:14:11.58,正文,,0000,0000,0000,,那些您不曾见闻 我也宁愿自己未曾见闻的事情\Nthings you have not, things I wish I had not.
+Dialogue: 0,0:14:14.12,0:14:17.26,正文,,0000,0000,0000,,我好像没告诉过您我是怎么被阉割的\NI don't believe I've ever told you how I was cut.
+Dialogue: 0,0:14:18.49,0:14:20.86,正文,,0000,0000,0000,,是的 你应该没说过\NNo, I don't believe you have.
+Dialogue: 0,0:14:22.50,0:14:24.70,正文,,0000,0000,0000,,某天我会告诉您的\NOne day I will.
+Dialogue: 0,0:14:26.57,0:14:30.31,正文,,0000,0000,0000,,黑暗的魔法为史坦尼斯大人带来了军队\NThe dark arts have provided Lord Stannis with his armies
+Dialogue: 0,0:14:30.37,0:14:33.64,正文,,0000,0000,0000,,为他铺好抵达君临城门的道路\Nand paved his path to our door.
+Dialogue: 0,0:14:33.68,0:14:37.88,正文,,0000,0000,0000,,侍奉此等力量的人倘若坐上铁王座\NFor a man in service to such powers to sit on the Iron Throne,
+Dialogue: 0,0:14:37.92,0:14:41.28,正文,,0000,0000,0000,,没有比这更可怕的事了\NI can think of nothing worse.
+Dialogue: 0,0:14:41.32,0:14:42.78,正文,,0000,0000,0000,,今夜\NAnd tonight,
+Dialogue: 0,0:14:42.82,0:14:47.09,正文,,0000,0000,0000,,我相信您是唯一能阻止他的人\NI believe you are the only man who can stop him.
+Dialogue: 0,0:15:13.52,0:15:15.65,正文,,0000,0000,0000,,他们在欢迎新王\NThey're welcoming the new king.
+Dialogue: 0,0:15:15.69,0:15:18.52,正文,,0000,0000,0000,,我从未听说鸣钟意味投降\NI've never known bells to mean surrender.
+Dialogue: 0,0:15:19.86,0:15:21.79,正文,,0000,0000,0000,,他们想奏音乐？那就合奏个痛快\NThey want to play music with us? Let's play.
+Dialogue: 0,0:15:21.83,0:15:24.73,正文,,0000,0000,0000,,- 击鼓 -击鼓！\N- Drums. - Drums!
+Dialogue: 0,0:15:50.15,0:15:51.29,正文,,0000,0000,0000,,记住  等船——\NRemember, wait till the shit--
+Dialogue: 0,0:15:51.32,0:15:53.26,正文,,0000,0000,0000,,史坦尼斯的船已经进了海湾\NThe ships are in the bay.
+Dialogue: 0,0:15:53.26,0:15:54.61,正文,,0000,0000,0000,,放他们深入 别让他们——\NThey must be far enough in so they won't be--
+Dialogue: 0,0:15:54.63,0:15:56.26,正文,,0000,0000,0000,,我懂什么是“深入”\NI know what "in" means.
+Dialogue: 0,0:15:56.26,0:15:58.63,正文,,0000,0000,0000,,- 知道怎么使这家伙吗？	- 我砍过树\N-Do you know how to use that? - I chopped wood once.
+Dialogue: 0,0:15:58.66,0:16:01.10,正文,,0000,0000,0000,,不 我是见过我老哥砍树\NNo, I watched my brother chopping wood.
+Dialogue: 0,0:16:01.13,0:16:03.00,正文,,0000,0000,0000,,我见过你用盾牌杀人\NI saw you kill a man with a shield.
+Dialogue: 0,0:16:03.03,0:16:04.93,正文,,0000,0000,0000,,拿斧子的你勇不可挡\NYou'll be unstoppable with an axe.
+Dialogue: 0,0:16:06.24,0:16:08.77,正文,,0000,0000,0000,,- 别被杀了 - 你也一样 朋友\N- Don't get killed. - Nor you, my friend.
+Dialogue: 0,0:16:08.81,0:16:12.18,正文,,0000,0000,0000,,- 噢 我们现在是朋友了？	- 当然是\N- Oh, are we friends now? - Of course we are.
+Dialogue: 0,0:16:12.21,0:16:13.92,正文,,0000,0000,0000,,我付钱你效劳\NJust because I pay you for your services doesn't
+Dialogue: 0,0:16:13.94,0:16:15.24,正文,,0000,0000,0000,,并不会消减我们的友谊\Ndiminish our friendship.
+Dialogue: 0,0:16:15.25,0:16:16.71,正文,,0000,0000,0000,,反而因此升华 可不是\NEnhances it, really.
+Dialogue: 0,0:16:16.75,0:16:19.52,正文,,0000,0000,0000,,噢 佣兵嘴里居然吐出“升华”这种高雅词\NOh, enhances. Fancy word for a sellsword.
+Dialogue: 0,0:16:19.55,0:16:22.38,正文,,0000,0000,0000,,和高雅的爷们儿混久了呗\NBeen spending time with fancy folks.
+Dialogue: 0,0:16:33.46,0:16:36.66,正文,,0000,0000,0000,,珊莎小姐 和 嗯 雪拉\NLady Sansa and, uh, Sheila.
+Dialogue: 0,0:16:36.70,0:16:38.33,正文,,0000,0000,0000,,雪伊\NShae.
+Dialogue: 0,0:16:38.37,0:16:39.93,正文,,0000,0000,0000,,雪伊 对\NShae, yes.
+Dialogue: 0,0:16:39.97,0:16:42.07,正文,,0000,0000,0000,,想必我姐姐邀请你跟其他贵妇人\NSurely my sister has asked you to join
+Dialogue: 0,0:16:42.10,0:16:43.74,正文,,0000,0000,0000,,一起去梅葛楼了吧？\Nthe other highborn ladies in Maegor's holdfast.
+Dialogue: 0,0:16:43.77,0:16:45.16,正文,,0000,0000,0000,,是的 大人\NShe has, My Lord,
+Dialogue: 0,0:16:45.19,0:16:47.31,正文,,0000,0000,0000,,但乔佛里国王召我来为他送行\Nbut King Joffrey sent for me to see him off.
+Dialogue: 0,0:16:47.51,0:16:49.55,正文,,0000,0000,0000,,珊莎\NSansa.
+Dialogue: 0,0:16:49.58,0:16:51.75,正文,,0000,0000,0000,,我外甥还真浪漫啊\NHe's been a great romantic, my nephew.
+Dialogue: 0,0:16:51.78,0:16:53.68,正文,,0000,0000,0000,,珊莎 过来\NSansa, come here.
+Dialogue: 0,0:16:56.05,0:16:58.45,正文,,0000,0000,0000,,我会祈祷您平安归来的 大人\NI will pray for your safe return, My Lord.
+Dialogue: 0,0:16:58.49,0:16:59.99,正文,,0000,0000,0000,,真的\NWill you?
+Dialogue: 0,0:17:00.02,0:17:02.52,正文,,0000,0000,0000,,就像我为国王祈祷的一样\NJust as I pray for the King's.
+Dialogue: 0,0:17:06.83,0:17:08.26,正文,,0000,0000,0000,,保护好自己 我的女士\NStay safe, My Lady.
+Dialogue: 0,0:17:08.30,0:17:10.43,正文,,0000,0000,0000,,你也是 我的狮子\NAnd you, my lion.
+Dialogue: 0,0:17:15.64,0:17:18.51,正文,,0000,0000,0000,,你的国王即将出征\NYour king rides forth to battle.
+Dialogue: 0,0:17:18.54,0:17:21.48,正文,,0000,0000,0000,,你要吻别他\NYou should see him off with a kiss.
+Dialogue: 0,0:17:21.51,0:17:23.74,正文,,0000,0000,0000,,这是我的新剑\NMy new blade.
+Dialogue: 0,0:17:23.78,0:17:25.55,正文,,0000,0000,0000,,我命名它为“噬心”\NHearteater I've named it.
+Dialogue: 0,0:17:27.95,0:17:29.62,正文,,0000,0000,0000,,吻它\NKiss it.
+Dialogue: 0,0:17:39.19,0:17:41.16,正文,,0000,0000,0000,,等我回来 你要再吻它\NYou'll kiss it again when I return
+Dialogue: 0,0:17:41.20,0:17:43.13,正文,,0000,0000,0000,,到时你会尝到我叔叔的鲜血\Nand taste my Uncle's blood.
+Dialogue: 0,0:17:43.16,0:17:44.93,正文,,0000,0000,0000,,您会亲自杀掉他么\NWill you slay him yourself?
+Dialogue: 0,0:17:44.97,0:17:48.40,正文,,0000,0000,0000,,只要史坦尼斯蠢到向我挑战\NIf Stannis is fool enough to come near me.
+Dialogue: 0,0:17:48.44,0:17:51.44,正文,,0000,0000,0000,,那您会率领前锋 冲出城门喽？\NSo you'll be outside the gates fighting in the Vanguard?
+Dialogue: 0,0:17:51.47,0:17:54.21,正文,,0000,0000,0000,,国王可不会跟愚蠢的姑娘家\NA king doesn't discuss
+Dialogue: 0,0:17:54.24,0:17:56.64,正文,,0000,0000,0000,,讨论战术\Nbattle plans with stupid girls.
+Dialogue: 0,0:17:56.68,0:17:59.61,正文,,0000,0000,0000,,抱歉 陛下 您说得对 我很愚蠢\NI'm sorry, Your Grace. You're right, I'm stupid.
+Dialogue: 0,0:17:59.65,0:18:01.85,正文,,0000,0000,0000,,您当然会率领前锋\NOf course you'll be in the Vanguard.
+Dialogue: 0,0:18:01.88,0:18:03.85,正文,,0000,0000,0000,,听说我哥哥罗柏\NThey say my brother Robb always goes
+Dialogue: 0,0:18:03.89,0:18:05.55,正文,,0000,0000,0000,,总往战况最激烈的地方去\Nwhere the fighting is thickest.
+Dialogue: 0,0:18:05.59,0:18:07.39,正文,,0000,0000,0000,,而他还不是真正的国王呢\NAnd he is only a pretender.
+Dialogue: 0,0:18:07.42,0:18:10.02,正文,,0000,0000,0000,,有一天会轮到你哥哥的\NYour brother's turn will come.
+Dialogue: 0,0:18:10.06,0:18:13.03,正文,,0000,0000,0000,,等着在“噬心”上尝到他的鲜血吧\NThen you can lick his blood off Hearteater, too.
+Dialogue: 0,0:18:25.14,0:18:27.98,正文,,0000,0000,0000,,这些男孩好多都会一去不返\NSome of those boys will never come back.
+Dialogue: 0,0:18:28.01,0:18:30.14,正文,,0000,0000,0000,,乔佛里会\NJoffrey will.
+Dialogue: 0,0:18:30.18,0:18:31.91,正文,,0000,0000,0000,,恶人总是能活下来\NThe worst ones always live.
+Dialogue: 0,0:18:31.95,0:18:34.95,正文,,0000,0000,0000,,嘘 跟我来 小姐\NShh. Come, My Lady.
+Dialogue: 0,0:19:22.07,0:19:25.97,正文,,0000,0000,0000,,- 我们的舰队哪去了？ - 待会就到\N- Where's our fleet? - On the way.
+Dialogue: 0,0:19:26.18,0:19:29.42,正文,,0000,0000,0000,,为何眼下不在？ 敌人已经来了\NWhy isn't it here now? They're coming.
+Dialogue: 0,0:19:30.18,0:19:33.78,正文,,0000,0000,0000,,猎狗 告诉首相 国王问他问题呢\NHound, tell the Hand that his King has asked him a question.
+Dialogue: 0,0:19:33.81,0:19:35.85,正文,,0000,0000,0000,,国王刚刚问你问题呢\NThe King has asked you a question.
+Dialogue: 0,0:19:35.88,0:19:38.32,正文,,0000,0000,0000,,蓝赛尔爵士 让猎狗告诉国王\NSer Lancel, tell the Hound to tell the king
+Dialogue: 0,0:19:38.35,0:19:40.15,正文,,0000,0000,0000,,首相忙不过来\Nthat the Hand is extremely busy.
+Dialogue: 0,0:19:40.19,0:19:41.96,正文,,0000,0000,0000,,国王之手让我告诉你\NThe Hand of the King would like me to tell
+Dialogue: 0,0:19:41.99,0:19:43.35,正文,,0000,0000,0000,,再让你转告国王--\Nyou to tell the King--
+Dialogue: 0,0:19:43.36,0:19:45.09,正文,,0000,0000,0000,,要是我让猎狗把你砍成两半\NIf I tell the Hound to cut you in half,
+Dialogue: 0,0:19:45.12,0:19:46.66,正文,,0000,0000,0000,,他想都不用想 直接就会动手\Nhe'll do it without a second thought.
+Dialogue: 0,0:19:46.69,0:19:48.49,正文,,0000,0000,0000,,那我就成了“半半人”\NThat would make me the Quarterman.
+Dialogue: 0,0:19:48.53,0:19:51.56,正文,,0000,0000,0000,,听起来可不怎么动听\NIt just doesn't have the same ring to it.
+Dialogue: 0,0:19:51.60,0:19:54.40,正文,,0000,0000,0000,,把我剁了 我就没法放出信号\NCut me in half and I won't be able to give the signal.
+Dialogue: 0,0:19:54.43,0:19:56.07,正文,,0000,0000,0000,,没有信号 计划就得泡汤\NNo signal, no plan.
+Dialogue: 0,0:19:56.10,0:19:58.14,正文,,0000,0000,0000,,计划泡汤 史坦尼斯·拜拉席恩就会轻易拿下都城\NNo plan and Stannis Baratheon sacks this city,
+Dialogue: 0,0:19:58.16,0:20:01.01,正文,,0000,0000,0000,,夺走铁王座 再把你的小脑袋\Ntakes the Iron Throne, puts your pinched
+Dialogue: 0,0:20:01.01,0:20:02.56,正文,,0000,0000,0000,,找扇城门插上去\Nlittle head atop a gate somewhere.
+Dialogue: 0,0:20:02.81,0:20:05.18,正文,,0000,0000,0000,,说不定挺喜感的\NIt might be quite amusing,
+Dialogue: 0,0:20:05.21,0:20:07.04,正文,,0000,0000,0000,,只不过我的脑袋也得插在那\Nexcept that my head would be up there, too.
+Dialogue: 0,0:20:07.08,0:20:08.95,正文,,0000,0000,0000,,虽说我的脑袋不怎么可爱\NI've never much liked my head,
+Dialogue: 0,0:20:08.98,0:20:12.48,正文,,0000,0000,0000,,但我还不想把它丢掉\Nbut I don't want to see it removed just yet.
+Dialogue: 0,0:20:14.89,0:20:16.56,正文,,0000,0000,0000,,怎不见敌船\NWhere are their ships?
+Dialogue: 0,0:20:16.59,0:20:19.42,正文,,0000,0000,0000,,看样子我们夜袭是对的 让他们措手不及了\NIt is wise to attack at night. We took them by surprise.
+Dialogue: 0,0:20:19.46,0:20:22.56,正文,,0000,0000,0000,,瓦里斯大人知道你三天前的早餐吃了啥\NLord Varys knows what you had for breakfast three days ago.
+Dialogue: 0,0:20:22.60,0:20:24.20,正文,,0000,0000,0000,,他们对一切都了如指掌\NThere are no surprises here.
+Dialogue: 0,0:20:24.23,0:20:26.16,正文,,0000,0000,0000,,听说敌营中意见不合\NIf it's true there is dissension in their ranks,
+Dialogue: 0,0:20:26.20,0:20:28.37,正文,,0000,0000,0000,,说不定他们的水手兵变了\Nmaybe their sailors have mutinied.
+Dialogue: 0,0:20:28.40,0:20:30.50,正文,,0000,0000,0000,,但愿吧\NMaybe.
+Dialogue: 0,0:20:46.25,0:20:48.29,正文,,0000,0000,0000,,不知道她为什么让我到这来\NI don't know why she wants me here.
+Dialogue: 0,0:20:48.32,0:20:51.26,正文,,0000,0000,0000,,她总说我多么的笨 她讨厌我\NShe's always saying how stupid I am. She hates me.
+Dialogue: 0,0:20:51.29,0:20:55.49,正文,,0000,0000,0000,,也许她更讨厌其他人呢\NMaybe she hates you less than she hates everyone else.
+Dialogue: 0,0:20:55.53,0:20:57.50,正文,,0000,0000,0000,,我不信\NI doubt it.
+Dialogue: 0,0:20:57.53,0:21:00.43,正文,,0000,0000,0000,,或者她嫉妒你呢\NMaybe she's jealous of you.
+Dialogue: 0,0:21:00.47,0:21:02.43,正文,,0000,0000,0000,,我有什么好嫉妒的？\NWhy would she be jealous?
+Dialogue: 0,0:21:02.47,0:21:04.47,正文,,0000,0000,0000,,珊莎\NSansa.
+Dialogue: 0,0:21:07.64,0:21:10.51,正文,,0000,0000,0000,,我刚还在想 小白鸽飞到哪去了\NI was wondering where our little dove had flown.
+Dialogue: 0,0:21:10.54,0:21:13.98,正文,,0000,0000,0000,,你脸色不太好 孩子\NYou look pale, child.
+Dialogue: 0,0:21:14.01,0:21:16.12,正文,,0000,0000,0000,,初潮还在继续？\NIs your red flower still blooming?
+Dialogue: 0,0:21:16.15,0:21:18.32,正文,,0000,0000,0000,,是的\NYes.
+Dialogue: 0,0:21:18.35,0:21:20.02,正文,,0000,0000,0000,,真巧 不是么？\NFitting, isn't it?
+Dialogue: 0,0:21:20.05,0:21:23.99,正文,,0000,0000,0000,,男人在外面流血 你却在里面流\NThe men will bleed out there and you will bleed in here.
+Dialogue: 0,0:21:24.02,0:21:26.03,正文,,0000,0000,0000,,给珊莎小姐倒酒\NPour Lady Sansa some wine.
+Dialogue: 0,0:21:26.06,0:21:27.89,正文,,0000,0000,0000,,我不渴 陛下\NI'm not thirsty, Your Grace.
+Dialogue: 0,0:21:27.93,0:21:31.46,正文,,0000,0000,0000,,那又怎样？ 又不是让你喝水\NSo? I didn't offer you water.
+Dialogue: 0,0:21:35.84,0:21:37.30,正文,,0000,0000,0000,,他在这做什么？\NWhat's he doing here?
+Dialogue: 0,0:21:37.34,0:21:39.71,正文,,0000,0000,0000,,伊林爵士？\NSer Ilyn?
+Dialogue: 0,0:21:39.74,0:21:42.34,正文,,0000,0000,0000,,他在这保护我们\NHe's here to defend us.
+Dialogue: 0,0:21:42.38,0:21:44.08,正文,,0000,0000,0000,,当利斧劈开这扇门时\NWhen the axes smash down those doors,
+Dialogue: 0,0:21:44.11,0:21:45.51,正文,,0000,0000,0000,,你就会庆幸他在这儿了\Nyou may be glad to have him.
+Dialogue: 0,0:21:45.55,0:21:47.81,正文,,0000,0000,0000,,但我们有卫兵啊\NBut we have guards to defend us.
+Dialogue: 0,0:21:47.85,0:21:49.48,正文,,0000,0000,0000,,雇来的佣兵而已\NGuards we have paid.
+Dialogue: 0,0:21:49.52,0:21:51.45,正文,,0000,0000,0000,,如果城池陷落 他们会争先恐后地\NShould the city fall, they'll be the first ones
+Dialogue: 0,0:21:51.47,0:21:53.05,正文,,0000,0000,0000,,逃之夭夭\Nout of the doors.
+Dialogue: 0,0:21:56.92,0:21:59.46,正文,,0000,0000,0000,,小伙子们逮到一个马夫和两个女仆 他们偷了匹马\NThe lads caught a groom and two maids trying to sneak away
+Dialogue: 0,0:21:59.49,0:22:01.96,正文,,0000,0000,0000,,和几个黄金杯子 想溜出城门\Nwith a stolen horse and some gold cups.
+Dialogue: 0,0:22:02.00,0:22:04.26,正文,,0000,0000,0000,,战斗中的第一批叛徒\NThe battle's first traitors.
+Dialogue: 0,0:22:04.30,0:22:05.93,正文,,0000,0000,0000,,交给伊林爵士处置\NHave Ser Ilyn see to them.
+Dialogue: 0,0:22:05.97,0:22:09.74,正文,,0000,0000,0000,,把头插在枪上 挂在马厩外以儆效尤\NPut their heads on spikes outside the stables as a warning.
+Dialogue: 0,0:22:11.97,0:22:13.81,正文,,0000,0000,0000,,让臣民保持忠诚的唯一办法\NThe only way to keep the small folk loyal
+Dialogue: 0,0:22:13.84,0:22:16.98,正文,,0000,0000,0000,,就是确保他们惧怕你胜过惧怕你的敌人\Nis to make certain they fear you more than they do the enemy.
+Dialogue: 0,0:22:17.01,0:22:21.78,正文,,0000,0000,0000,,如果你想成为王后的话 记住这一点\NRemember that if you ever hope to become a queen.
+Dialogue: 0,0:22:23.09,0:22:25.52,正文,,0000,0000,0000,,您说他在这里是要保护我们\NYou said he was here to protect us.
+Dialogue: 0,0:22:27.63,0:22:29.49,正文,,0000,0000,0000,,没错\NHe is.
+Dialogue: 0,0:22:29.53,0:22:32.26,正文,,0000,0000,0000,,叛徒对我们所有人都是威胁\NTraitors are a danger to us all.
+Dialogue: 0,0:22:32.30,0:22:34.03,正文,,0000,0000,0000,,再来一杯\NMore wine.
+Dialogue: 0,0:22:48.51,0:22:50.45,正文,,0000,0000,0000,,他们来了\NThere they are.
+Dialogue: 0,0:22:53.58,0:22:57.72,正文,,0000,0000,0000,,- 弓箭手就位 -弓箭手 就位！\N- Archers to their marks. - Archers, to your marks!
+Dialogue: 0,0:22:59.42,0:23:01.56,正文,,0000,0000,0000,,弓箭手！\NArchers!
+Dialogue: 0,0:23:07.36,0:23:08.56,正文,,0000,0000,0000,,拉箭上弦！\NNock your arrows!
+Dialogue: 0,0:23:08.60,0:23:11.17,正文,,0000,0000,0000,,拉箭上弦！\NNock arrows!
+Dialogue: 0,0:23:12.20,0:23:15.04,正文,,0000,0000,0000,,- 稳住 - 稳住！\N- Hold fast. - Hold fast!
+Dialogue: 0,0:23:15.07,0:23:17.27,正文,,0000,0000,0000,,你在想什么？ 我们得攻击才行\NWhat are you doing? We need to attack them.
+Dialogue: 0,0:23:17.31,0:23:21.58,正文,,0000,0000,0000,,- 稳住 - 石头准备好！\N- Hold fast. - Boulders ready!
+Dialogue: 0,0:23:21.61,0:23:23.91,正文,,0000,0000,0000,,稳住！\NHold fast!
+Dialogue: 0,0:23:25.35,0:23:28.55,正文,,0000,0000,0000,,怎么只有一条船 其他的船在哪？\NThere's only one ship. Where are the rest of them?
+Dialogue: 0,0:23:29.49,0:23:31.55,正文,,0000,0000,0000,,其他的船在哪？\NWhere are the rest of them?!
+Dialogue: 0,0:23:35.93,0:23:37.43,正文,,0000,0000,0000,,他们只有一条船\NThere's only one ship.
+Dialogue: 0,0:23:41.10,0:23:43.20,正文,,0000,0000,0000,,弓箭手 准备！\NArchers, stand to!
+Dialogue: 0,0:23:43.23,0:23:44.63,正文,,0000,0000,0000,,舱下预备\NMan the below!
+Dialogue: 0,0:23:44.67,0:23:47.20,正文,,0000,0000,0000,,- 上弦！ - 上弦装膛\N- Nock! - Nock and set!
+Dialogue: 0,0:23:48.27,0:23:50.24,正文,,0000,0000,0000,,拉弓！\NDraw!
+Dialogue: 0,0:23:55.31,0:23:56.85,正文,,0000,0000,0000,,稳住\NHold.
+Dialogue: 0,0:23:56.88,0:23:58.92,正文,,0000,0000,0000,,稳住！\NHold!
+Dialogue: 0,0:24:06.66,0:24:08.29,正文,,0000,0000,0000,,船上没人\NThere's no one on board.
+Dialogue: 0,0:24:15.00,0:24:17.94,正文,,0000,0000,0000,,更多石头运来了！\NMore rocks coming up!
+Dialogue: 0,0:24:32.89,0:24:34.75,正文,,0000,0000,0000,,稳住\NHold.
+Dialogue: 0,0:24:41.70,0:24:42.90,正文,,0000,0000,0000,,野火\NWildfire.
+Dialogue: 0,0:24:42.93,0:24:46.10,正文,,0000,0000,0000,,绕开！绕开！\NSteer clear! Steer clear!
+Dialogue: 0,0:25:10.86,0:25:13.33,正文,,0000,0000,0000,,马索斯！ 趴下！\NMatthos! Get down!
+Dialogue: 0,0:26:47.12,0:26:49.49,正文,,0000,0000,0000,,- 准备登陆 -陛下……\N- Prepare to land. - Your Grace...
+Dialogue: 0,0:26:49.52,0:26:51.62,正文,,0000,0000,0000,,侏儒的小把戏玩得不错\NThe dwarf has played his little trick.
+Dialogue: 0,0:26:51.66,0:26:54.09,正文,,0000,0000,0000,,- 那可是野火—— - 这种把戏他只能玩一次\N- The wildfire-- - He can only play it once.
+Dialogue: 0,0:26:54.12,0:26:56.39,正文,,0000,0000,0000,,我们离城门太远\NWe're too far from the gates.
+Dialogue: 0,0:26:56.43,0:26:59.23,正文,,0000,0000,0000,,野火 弓箭手\NThe fire, their archers--
+Dialogue: 0,0:26:59.26,0:27:02.10,正文,,0000,0000,0000,,过河会死几百人\Nhundreds will die.
+Dialogue: 0,0:27:02.13,0:27:04.27,正文,,0000,0000,0000,,几千人\NThousands.
+Dialogue: 0,0:27:17.45,0:27:19.55,正文,,0000,0000,0000,,跟我上 拿下都城！\NCome with me and take this city!
+Dialogue: 0,0:27:38.30,0:27:40.10,正文,,0000,0000,0000,,珊莎 过来吧 小白鸽\NSansa, come here, little dove.
+Dialogue: 0,0:27:46.51,0:27:48.51,正文,,0000,0000,0000,,太后陛下\NMy queen.
+Dialogue: 0,0:27:48.54,0:27:50.61,正文,,0000,0000,0000,,你在做什么\NWhat are you doing?
+Dialogue: 0,0:27:50.65,0:27:51.95,正文,,0000,0000,0000,,祈祷\NPraying.
+Dialogue: 0,0:27:51.98,0:27:54.42,正文,,0000,0000,0000,,你是个完美的女孩 对么？\NYou're perfect, aren't you?
+Dialogue: 0,0:27:54.45,0:27:56.78,正文,,0000,0000,0000,,祈祷\NPraying.
+Dialogue: 0,0:27:56.82,0:27:58.65,正文,,0000,0000,0000,,你在祈祷什么？\NWhat are you praying for?
+Dialogue: 0,0:27:58.69,0:28:01.09,正文,,0000,0000,0000,,祈祷诸神赐予大家慈悲\NFor the Gods to have mercy on us all.
+Dialogue: 0,0:28:01.12,0:28:04.32,正文,,0000,0000,0000,,噢 大家？\NOh. On all of us?
+Dialogue: 0,0:28:04.36,0:28:06.96,正文,,0000,0000,0000,,- 是的 陛下  - 连我在内？\N- Yes, Your Grace. - Even me?
+Dialogue: 0,0:28:06.99,0:28:08.89,正文,,0000,0000,0000,,当然 陛下\NOf course, Your Grace.
+Dialogue: 0,0:28:08.93,0:28:10.60,正文,,0000,0000,0000,,乔佛里也在内？\NEven Joffrey?
+Dialogue: 0,0:28:12.53,0:28:16.03,正文,,0000,0000,0000,,- 乔佛里是我的--  - 噢 闭嘴吧 你这个小傻瓜\N- Joffrey is my-- - Oh, shut up, you little fool.
+Dialogue: 0,0:28:16.07,0:28:19.10,正文,,0000,0000,0000,,祈祷诸神赐予大家慈悲\NPraying to the Gods to have mercy on us all.
+Dialogue: 0,0:28:19.14,0:28:21.61,正文,,0000,0000,0000,,诸神没有慈悲 所以他们才是神\NThe Gods have no mercy. That's why they're Gods.
+Dialogue: 0,0:28:22.94,0:28:25.95,正文,,0000,0000,0000,,我父亲在我祈祷的时候曾这么教诲我\NMy father told me that when he caught me praying.
+Dialogue: 0,0:28:27.15,0:28:29.38,正文,,0000,0000,0000,,你瞧 那时我母亲刚去世\NMy mother just died, you see.
+Dialogue: 0,0:28:29.42,0:28:31.89,正文,,0000,0000,0000,,我还不懂得什么是死亡\NI didn't really understand the concept of death,
+Dialogue: 0,0:28:31.92,0:28:34.42,正文,,0000,0000,0000,,什么是终结\Nthe finality of it.
+Dialogue: 0,0:28:34.46,0:28:36.86,正文,,0000,0000,0000,,我以为只要非常非常虔诚地祈祷\NI thought that if I prayed very, very hard,
+Dialogue: 0,0:28:36.89,0:28:40.09,正文,,0000,0000,0000,,诸神就会把母亲还给我 毕竟我才四岁\Nthe Gods would return my mother to me. I was four.
+Dialogue: 0,0:28:40.13,0:28:42.90,正文,,0000,0000,0000,,您父亲不信仰诸神吗？\NYour father doesn't believe in the Gods?
+Dialogue: 0,0:28:42.93,0:28:45.67,正文,,0000,0000,0000,,他信仰诸神 只是不大喜欢他们\NHe believes in them, he just doesn't like them very much.
+Dialogue: 0,0:28:48.77,0:28:50.70,正文,,0000,0000,0000,,给她来一杯\NOne for her.
+Dialogue: 0,0:28:54.34,0:28:56.17,正文,,0000,0000,0000,,拿去\NHere.
+Dialogue: 0,0:28:57.54,0:28:58.91,正文,,0000,0000,0000,,坐下\NSit.
+Dialogue: 0,0:28:58.94,0:29:00.95,正文,,0000,0000,0000,,喝吧\NDrink.
+Dialogue: 0,0:29:03.78,0:29:06.32,正文,,0000,0000,0000,,不对不对 是喝 小丫头\NNot like that. Drink, girl.
+Dialogue: 0,0:29:09.46,0:29:11.66,正文,,0000,0000,0000,,我本该生为男子\NI should have been born a man.
+Dialogue: 0,0:29:11.69,0:29:14.86,正文,,0000,0000,0000,,我宁可面对千百刀剑 也胜过无助地困在这里\NI'd rather face 1,000 swords than be shut up inside
+Dialogue: 0,0:29:14.90,0:29:17.43,正文,,0000,0000,0000,,跟这群受惊的母鸡为伴\Nwith this flock of frightened hens.
+Dialogue: 0,0:29:17.47,0:29:19.80,正文,,0000,0000,0000,,她们是受您保护的客人\NThey are your guests under your protection.
+Dialogue: 0,0:29:19.84,0:29:21.27,正文,,0000,0000,0000,,您邀请她们来的\NYou asked them here.
+Dialogue: 0,0:29:21.30,0:29:23.44,正文,,0000,0000,0000,,我当然要这样\NIt was expected of me,
+Dialogue: 0,0:29:23.47,0:29:27.78,正文,,0000,0000,0000,,将来如果你成为乔佛里的王后 你也得这么做\Nas it will be of you if you ever become Joffrey's queen.
+Dialogue: 0,0:29:27.81,0:29:31.15,正文,,0000,0000,0000,,若我那可恶的弟弟侥幸成功\NIf my wretched brother should somehow prevail,
+Dialogue: 0,0:29:31.18,0:29:35.02,正文,,0000,0000,0000,,这些母鸡就会回到她们的公鸡身边\Nthese hens will return to their cocks
+Dialogue: 0,0:29:35.08,0:29:38.49,正文,,0000,0000,0000,,宣传我是如何勇敢地激励她们\Nand crow of how my courage inspired them,
+Dialogue: 0,0:29:38.52,0:29:40.32,正文,,0000,0000,0000,,振作她们的精神\Nlifted their spirits.
+Dialogue: 0,0:29:40.36,0:29:42.63,正文,,0000,0000,0000,,要是城堡陷落呢？\NAnd if the city should fall?
+Dialogue: 0,0:29:44.59,0:29:47.43,正文,,0000,0000,0000,,你就希望那样 对不对？\NYou'd like that, wouldn't you?
+Dialogue: 0,0:29:47.46,0:29:49.56,正文,,0000,0000,0000,,红堡或许还能坚守一时\NThe Red Keep should hold for a time,
+Dialogue: 0,0:29:49.60,0:29:51.40,正文,,0000,0000,0000,,令我有时间登上城墙\Nlong enough for me to go to the walls
+Dialogue: 0,0:29:51.43,0:29:54.40,正文,,0000,0000,0000,,亲自向史坦尼斯公爵请降\Nand yield to Lord Stannis in person.
+Dialogue: 0,0:29:54.44,0:29:56.97,正文,,0000,0000,0000,,城外若是换做别人\NIf it were anyone else outside those gates,
+Dialogue: 0,0:29:57.01,0:29:58.94,正文,,0000,0000,0000,,我还能试试去哄他\NI might have hoped for a private audience.
+Dialogue: 0,0:29:58.98,0:30:01.84,正文,,0000,0000,0000,,但这是史坦尼斯·拜拉席恩\NBut this is Stannis Baratheon.
+Dialogue: 0,0:30:01.88,0:30:05.65,正文,,0000,0000,0000,,我还不如去哄他的马\NI'd have a better chance of seducing his horse.
+Dialogue: 0,0:30:08.68,0:30:10.89,正文,,0000,0000,0000,,我吓到你了 小白鸽？\NHave I shocked you, little dove?
+Dialogue: 0,0:30:10.92,0:30:14.02,正文,,0000,0000,0000,,眼泪并非女人唯一的武器\NTears aren't a woman's only weapon.
+Dialogue: 0,0:30:15.92,0:30:18.23,正文,,0000,0000,0000,,最好的那件在你两腿之间\NThe best one's between your legs.
+Dialogue: 0,0:30:18.26,0:30:21.50,正文,,0000,0000,0000,,要学会如何用它 喝啊\NLearn how to use it. Drink.
+Dialogue: 0,0:30:24.83,0:30:26.97,正文,,0000,0000,0000,,你知道当一座城市陷落时\NDo you have any notion of what happens
+Dialogue: 0,0:30:27.00,0:30:29.87,正文,,0000,0000,0000,,会发生什么事吗？\Nwhen a city is sacked?
+Dialogue: 0,0:30:29.91,0:30:32.51,正文,,0000,0000,0000,,不 你不知道 对吧？\NNo, you wouldn't, would you?
+Dialogue: 0,0:30:33.58,0:30:37.65,正文,,0000,0000,0000,,如果都城沦陷 这些贵妇人们\NIf the city falls, these fine women
+Dialogue: 0,0:30:37.68,0:30:40.72,正文,,0000,0000,0000,,恐怕都得忍受一点强暴\Nshould be in for a bit of a rape.
+Dialogue: 0,0:30:40.75,0:30:42.59,正文,,0000,0000,0000,,到第二天早上 她们中的一半人\NHalf of them will have bastards
+Dialogue: 0,0:30:42.62,0:30:45.16,正文,,0000,0000,0000,,肚子里都会怀上野种\Nin their bellies come the morning.
+Dialogue: 0,0:30:45.19,0:30:48.02,正文,,0000,0000,0000,,到时候你就会为你的小红花高兴了\NYou'll be glad of your red flower then.
+Dialogue: 0,0:30:49.03,0:30:50.49,正文,,0000,0000,0000,,当男人血气上涌时\NWhen a man's blood is up,
+Dialogue: 0,0:30:50.53,0:30:53.50,正文,,0000,0000,0000,,所有长乳头的对他来说都很美妙\Nanything with tits looks good.
+Dialogue: 0,0:30:53.53,0:30:55.16,正文,,0000,0000,0000,,像你这么个尤物\NA precious thing like you
+Dialogue: 0,0:30:55.20,0:30:59.17,正文,,0000,0000,0000,,简直没法、没法抗拒\Nwill look very, very good.
+Dialogue: 0,0:30:59.20,0:31:01.44,正文,,0000,0000,0000,,就像是一块\NA slice of cake
+Dialogue: 0,0:31:01.47,0:31:03.71,正文,,0000,0000,0000,,送上门的甜美蛋糕\Njust waiting to be eaten.
+Dialogue: 0,0:31:06.08,0:31:09.28,正文,,0000,0000,0000,,加把劲！\NMore pressure!
+Dialogue: 0,0:31:18.76,0:31:21.76,正文,,0000,0000,0000,,- 划啊！划啊！ - 就这样 弟兄们！\N- Pull! Pull! - That's it, men!
+Dialogue: 0,0:31:21.79,0:31:24.99,正文,,0000,0000,0000,,划啊！划啊！\NPull! Pull!
+Dialogue: 0,0:31:25.03,0:31:28.76,正文,,0000,0000,0000,,就这样！稳住！\NThat's it! Steady!
+Dialogue: 0,0:31:28.80,0:31:32.00,正文,,0000,0000,0000,,真是个难缠的家伙——史坦尼斯·拜拉席恩\NHe's a serious man-- Stannis Baratheon.
+Dialogue: 0,0:31:32.04,0:31:34.47,正文,,0000,0000,0000,,他们来了 要上岸了\NThey're coming. They're coming ashore.
+Dialogue: 0,0:31:35.34,0:31:37.21,正文,,0000,0000,0000,,给他们来场火雨\NRain fire on them.
+Dialogue: 0,0:31:37.24,0:31:38.97,正文,,0000,0000,0000,,弓箭手！\NArchers!
+Dialogue: 0,0:31:39.01,0:31:40.41,正文,,0000,0000,0000,,他们人太多了\NThere are too many.
+Dialogue: 0,0:31:40.44,0:31:43.35,正文,,0000,0000,0000,,猎狗 为挣扎上岸的拜拉席恩军队\NHound, form a welcome party for any Baratheon troop
+Dialogue: 0,0:31:43.41,0:31:45.71,正文,,0000,0000,0000,,组织一场欢迎晚宴\Nthat manages to touch solid ground.
+Dialogue: 0,0:31:47.12,0:31:50.49,正文,,0000,0000,0000,,波德 立刻跑去国王大门\NPod, run to the King's gate.
+Dialogue: 0,0:31:50.52,0:31:52.25,正文,,0000,0000,0000,,把那里所有的守卫都带过来\NBring any men guarding it here now.
+Dialogue: 0,0:31:52.29,0:31:54.32,正文,,0000,0000,0000,,是 大人\NYes, My Lord.
+Dialogue: 0,0:31:55.62,0:31:58.23,正文,,0000,0000,0000,,跟我上 史坦尼斯送鲜肉来了\NLet's go. Stannis is sending us fresh meat.
+Dialogue: 0,0:31:58.26,0:32:00.19,正文,,0000,0000,0000,,你也给我上\NYou, too.
+Dialogue: 0,0:32:01.60,0:32:04.30,正文,,0000,0000,0000,,如果有一根该死的火箭靠近了我\NAny of these flaming fucking arrows come near me,
+Dialogue: 0,0:32:04.33,0:32:06.74,正文,,0000,0000,0000,,我就用你的肠子勒死你\NI'll strangle you with your own guts.
+Dialogue: 0,0:32:11.28,0:32:13.88,正文,,0000,0000,0000,,划啊 划啊！上啊！\NPull, pull! Go!
+Dialogue: 0,0:32:13.91,0:32:16.01,正文,,0000,0000,0000,,搭箭！\NNock!
+Dialogue: 0,0:32:18.78,0:32:21.62,正文,,0000,0000,0000,,拉弓！\NDraw!
+Dialogue: 0,0:32:21.65,0:32:24.96,正文,,0000,0000,0000,,- 拉弓！ - 拉弓！\N- Draw! - Draw!
+Dialogue: 0,0:32:33.03,0:32:34.97,正文,,0000,0000,0000,,干翻兰尼斯特！\NKill the Lannisters!
+Dialogue: 0,0:32:35.00,0:32:36.57,正文,,0000,0000,0000,,放！\NLoose!
+Dialogue: 0,0:32:36.60,0:32:37.97,正文,,0000,0000,0000,,放！\NLoose!
+Dialogue: 0,0:32:40.37,0:32:43.14,正文,,0000,0000,0000,,成列！\NForm the line!
+Dialogue: 0,0:32:45.28,0:32:47.28,正文,,0000,0000,0000,,史坦尼斯万岁！\NStannis!
+Dialogue: 0,0:32:47.31,0:32:49.01,正文,,0000,0000,0000,,- 拉弓！ - 拉弓！\N- Draw! - Draw!
+Dialogue: 0,0:32:49.05,0:32:51.62,正文,,0000,0000,0000,,- 放！ - 放！\N- Loose! - Loose!
+Dialogue: 0,0:33:13.97,0:33:16.07,正文,,0000,0000,0000,,他们攻不破城墙！\NThey cannot breach the wall!
+Dialogue: 0,0:33:36.26,0:33:38.06,正文,,0000,0000,0000,,去烂泥门！立刻！\NThe mud gate, go now!
+Dialogue: 0,0:33:38.10,0:33:41.27,正文,,0000,0000,0000,,第一小队和第二小队 去城门！去烂泥门！\NFirst and second squads, to the gate! To the mud gate!
+Dialogue: 0,0:33:41.30,0:33:43.30,正文,,0000,0000,0000,,谁要是死的时候还留着把干净的剑\NAny man dies with a clean sword,
+Dialogue: 0,0:33:43.33,0:33:46.30,正文,,0000,0000,0000,,我就操烂谁的尸体\NI'll rape his fucking corpse.
+Dialogue: 0,0:34:21.17,0:34:22.94,正文,,0000,0000,0000,,小时候\NWhen we were young, Jaime and I,
+Dialogue: 0,0:34:22.98,0:34:24.38,正文,,0000,0000,0000,,詹姆和我长得太像\Nwe looked so much alike.
+Dialogue: 0,0:34:24.41,0:34:26.78,正文,,0000,0000,0000,,甚至连我们的父亲也常分不清\NEven our father couldn't tell us apart.
+Dialogue: 0,0:34:26.81,0:34:31.42,正文,,0000,0000,0000,,我永远无法理解为何彼此会受到迥异的对待\NI could never understand why they treated us differently.
+Dialogue: 0,0:34:31.45,0:34:35.32,正文,,0000,0000,0000,,詹姆练习长剑、枪矛和钉头锤\NJaime was taught to fight with sword and lance and mace,
+Dialogue: 0,0:34:35.35,0:34:38.16,正文,,0000,0000,0000,,我却练习微笑\Nand I was taught to smile
+Dialogue: 0,0:34:38.19,0:34:40.09,正文,,0000,0000,0000,,唱歌和讨人欢喜\Nand sing and please.
+Dialogue: 0,0:34:40.13,0:34:43.13,正文,,0000,0000,0000,,他成了凯岩城的继承人\NHe was heir to Casterly Rock
+Dialogue: 0,0:34:43.16,0:34:45.73,正文,,0000,0000,0000,,我则像马一样被卖给陌生人\Nand I was sold to some stranger like a horse
+Dialogue: 0,0:34:45.76,0:34:48.00,正文,,0000,0000,0000,,新主人想骑就骑\Nto be ridden whenever he desired.
+Dialogue: 0,0:34:48.03,0:34:50.73,正文,,0000,0000,0000,,您是劳勃的王后\NYou were Robert's queen.
+Dialogue: 0,0:34:50.77,0:34:52.74,正文,,0000,0000,0000,,而你将成为乔佛里的王后 好好享受吧\NAnd you will be Joffrey's. Enjoy.
+Dialogue: 0,0:34:56.74,0:34:58.37,正文,,0000,0000,0000,,我想我不认识这个人\NI don't think I know this one.
+Dialogue: 0,0:35:04.41,0:35:06.25,正文,,0000,0000,0000,,很漂亮\NPretty.
+Dialogue: 0,0:35:12.29,0:35:14.42,正文,,0000,0000,0000,,这是我见过最糟糕的屈膝礼\NThat's the worst curtsy I've ever seen.
+Dialogue: 0,0:35:14.46,0:35:17.36,正文,,0000,0000,0000,,实际上 这并不难 我四岁时就学会了\NHere, it's not difficult. I mastered it when I was four.
+Dialogue: 0,0:35:17.39,0:35:20.60,正文,,0000,0000,0000,,挺直你的背 然后屈膝\NStraighten your back and bend.
+Dialogue: 0,0:35:22.97,0:35:25.23,正文,,0000,0000,0000,,好多了 你学得挺快\NBetter. You learn fast.
+Dialogue: 0,0:35:25.27,0:35:29.24,正文,,0000,0000,0000,,你当珊莎小姐的侍女多久了？\NHow long have you been in Lady Sansa's service?
+Dialogue: 0,0:35:29.27,0:35:32.21,正文,,0000,0000,0000,,数周 陛下\NA few weeks, Your Grace.
+Dialogue: 0,0:35:34.94,0:35:37.31,正文,,0000,0000,0000,,你离开罗拉斯多久了？\NWhen did you leave Lorath?
+Dialogue: 0,0:35:38.68,0:35:41.28,正文,,0000,0000,0000,,我有过一个罗拉斯女仆\NI had a Lorathi handmaiden once.
+Dialogue: 0,0:35:44.09,0:35:46.49,正文,,0000,0000,0000,,但她是个贵族小姐\NBut she was a nobleman's daughter.
+Dialogue: 0,0:35:46.52,0:35:48.39,正文,,0000,0000,0000,,你不是\NYou're not.
+Dialogue: 0,0:35:52.16,0:35:53.99,正文,,0000,0000,0000,,你什么时候来维斯特洛的？\NWhen did you come to Westeros?
+Dialogue: 0,0:35:54.03,0:35:57.36,正文,,0000,0000,0000,,十年前 陛下\N10 years ago, Your Grace.
+Dialogue: 0,0:35:57.40,0:36:00.60,正文,,0000,0000,0000,,十年来 你从一介罗拉斯平民\NFrom Lorathi commoner to the Red Keep
+Dialogue: 0,0:36:00.63,0:36:04.50,正文,,0000,0000,0000,,混到进红堡当差 却还没学会屈膝礼\Nin 10 years, all without learning how to curtsy.
+Dialogue: 0,0:36:05.67,0:36:08.17,正文,,0000,0000,0000,,我想这是个非常有趣的故事\NI imagine that's a very interesting story.
+Dialogue: 0,0:36:09.04,0:36:10.51,正文,,0000,0000,0000,,你叫什么？\NWhat's your name?
+Dialogue: 0,0:36:10.54,0:36:13.05,正文,,0000,0000,0000,,雪伊 陛下\NShae, Your Grace.
+Dialogue: 0,0:36:13.08,0:36:15.28,正文,,0000,0000,0000,,给我们讲讲故事吧 雪伊\NTell us a story, Shae.
+Dialogue: 0,0:36:21.09,0:36:23.66,正文,,0000,0000,0000,,我十三岁时——\NWhen I was 13, I--
+Dialogue: 0,0:36:25.19,0:36:26.63,正文,,0000,0000,0000,,陛下！\NYour Grace!
+Dialogue: 0,0:36:26.66,0:36:29.73,正文,,0000,0000,0000,,战况如何？\NWhat news?
+Dialogue: 0,0:36:29.77,0:36:31.83,正文,,0000,0000,0000,,小恶魔把整条河点着了\NThe Imp has set the river afire.
+Dialogue: 0,0:36:31.87,0:36:34.40,正文,,0000,0000,0000,,上百条船在燃烧 或许更多\NHundreds of ships are burning, maybe more.
+Dialogue: 0,0:36:34.44,0:36:37.91,正文,,0000,0000,0000,,史坦尼斯的舰队毁了 可……\NStannis's fleet destroyed, but...
+Dialogue: 0,0:36:37.94,0:36:41.14,正文,,0000,0000,0000,,可—可他的军队\NBut-- but his troops
+Dialogue: 0,0:36:41.18,0:36:43.68,正文,,0000,0000,0000,,在城外登陆了\Nhave landed outside the city walls.
+Dialogue: 0,0:36:43.71,0:36:45.81,正文,,0000,0000,0000,,乔佛里在哪？\NWhere is Joffrey?
+Dialogue: 0,0:36:45.85,0:36:48.12,正文,,0000,0000,0000,,跟提利昂大人一起在城墙上\NOn the battlements with Lord Tyrion.
+Dialogue: 0,0:36:48.15,0:36:50.38,正文,,0000,0000,0000,,立刻把他带回来\NBring him back inside at once.
+Dialogue: 0,0:36:50.42,0:36:53.35,正文,,0000,0000,0000,,- 可是 陛下——  - 什么？\N- But, Your Grace-- - What?
+Dialogue: 0,0:36:53.39,0:36:55.62,正文,,0000,0000,0000,,国王留在前线会极大地鼓舞士气\NThe King's presence is good for morale.
+Dialogue: 0,0:36:55.66,0:36:58.26,正文,,0000,0000,0000,,立刻带他回房\NBring him back to his chambers now.
+Dialogue: 0,0:36:58.29,0:37:00.26,正文,,0000,0000,0000,,- 不是这里？ - 跟妇女孩子们一起？\N- Not here? - With the women and children?
+Dialogue: 0,0:37:00.29,0:37:02.96,正文,,0000,0000,0000,,你希望他的余生一直被嘲笑为懦夫吗？\NDo you want him to be mocked as a coward for the rest of his life?
+Dialogue: 0,0:37:03.00,0:37:05.33,正文,,0000,0000,0000,,- 不  可我—— - 快去！\N- No, but I-- - Now!
+Dialogue: 0,0:37:10.61,0:37:13.57,正文,,0000,0000,0000,,之前跟你说伊林·派恩爵士的时候 我撒了谎\NWhen I told you about Ser Ilyn earlier, I lied.
+Dialogue: 0,0:37:15.34,0:37:17.34,正文,,0000,0000,0000,,想不想听实话？\NDo you want to hear the truth?
+Dialogue: 0,0:37:17.38,0:37:19.41,正文,,0000,0000,0000,,想不想知道我叫他来的真正原因？\NYou want to know why he's really here?
+Dialogue: 0,0:37:21.38,0:37:23.18,正文,,0000,0000,0000,,他为我们而来\NHe's here for us.
+Dialogue: 0,0:37:23.22,0:37:26.42,正文,,0000,0000,0000,,史坦尼斯也许能攻进都城 夺取王位\NStannis may take the city, he may take the throne,
+Dialogue: 0,0:37:26.45,0:37:29.56,正文,,0000,0000,0000,,但他绝不可能生擒我们\Nbut he will not take us alive.
+Dialogue: 0,0:38:02.16,0:38:04.93,正文,,0000,0000,0000,,啊！救命！\NAh! Help me!
+Dialogue: 0,0:38:24.21,0:38:25.68,正文,,0000,0000,0000,,快跑！\NWe'd better run!
+Dialogue: 0,0:38:25.72,0:38:28.42,正文,,0000,0000,0000,,撤退！\NFall back!
+Dialogue: 0,0:38:35.29,0:38:36.73,正文,,0000,0000,0000,,把梯子架起来！\NGet the ladders up!
+Dialogue: 0,0:39:09.63,0:39:12.80,正文,,0000,0000,0000,,快点 杂种！快点！\NFaster, you bastards! Faster!
+Dialogue: 0,0:39:12.83,0:39:14.87,正文,,0000,0000,0000,,给我上 宰了那些人渣！\NCome on, kill the scum!
+Dialogue: 0,0:39:16.74,0:39:19.04,正文,,0000,0000,0000,,给我拿点喝的\NSomeone bring me a drink.
+Dialogue: 0,0:39:25.24,0:39:28.28,正文,,0000,0000,0000,,操你妈的水 拿酒来\NFuck the water. Bring me wine.
+Dialogue: 0,0:39:38.63,0:39:40.73,正文,,0000,0000,0000,,要我给你来杯冰牛奶么？\NCan I get you some iced milk
+Dialogue: 0,0:39:40.76,0:39:43.16,正文,,0000,0000,0000,,外加一碗可口的果莓？\Nand a nice bowl of raspberries, too?
+Dialogue: 0,0:39:43.20,0:39:44.83,正文,,0000,0000,0000,,吃屎吧 侏儒\NEat shit, dwarf.
+Dialogue: 0,0:39:44.90,0:39:47.53,正文,,0000,0000,0000,,你该待在城墙外面杀敌才对\NYou're on the wrong side of the wall.
+Dialogue: 0,0:39:47.57,0:39:50.60,正文,,0000,0000,0000,,我损失了一半人手\NI lost half my men.
+Dialogue: 0,0:39:50.64,0:39:53.01,正文,,0000,0000,0000,,黑水河在燃烧\NThe Blackwater's on fire.
+Dialogue: 0,0:39:53.04,0:39:56.14,正文,,0000,0000,0000,,狗 我命令你回到那边继续战斗\NDog, I command you to go back out there and fight.
+Dialogue: 0,0:40:00.18,0:40:02.15,正文,,0000,0000,0000,,你是御林铁卫 克里冈\NYou're Kingsguard, Clegane.
+Dialogue: 0,0:40:02.18,0:40:04.95,正文,,0000,0000,0000,,你必须打退他们 否则他们就要拿下这座城——\NYou must beat them back or they're going to take this city--
+Dialogue: 0,0:40:04.99,0:40:07.42,正文,,0000,0000,0000,,你国王的都城\Nyour king's city.
+Dialogue: 0,0:40:07.46,0:40:10.66,正文,,0000,0000,0000,,操你妈的御林铁卫\NFuck the Kingsguard.
+Dialogue: 0,0:40:11.93,0:40:14.16,正文,,0000,0000,0000,,操你妈的都城\NFuck the city.
+Dialogue: 0,0:40:14.19,0:40:16.00,正文,,0000,0000,0000,,操你妈的国王\NFuck the King.
+Dialogue: 0,0:40:33.78,0:40:34.88,正文,,0000,0000,0000,,放！\NLoose!
+Dialogue: 0,0:40:34.92,0:40:37.75,正文,,0000,0000,0000,,身子藏到里面！\NPut your backs into it!
+Dialogue: 0,0:40:37.79,0:40:40.02,正文,,0000,0000,0000,,好 举起来！\NAll right, get up!
+Dialogue: 0,0:40:43.03,0:40:43.96,正文,,0000,0000,0000,,放！\NLoose!
+Dialogue: 0,0:40:43.99,0:40:45.26,正文,,0000,0000,0000,,准备！\NClear!
+Dialogue: 0,0:40:45.30,0:40:48.37,正文,,0000,0000,0000,,向前！\NForward!
+Dialogue: 0,0:40:48.40,0:40:50.47,正文,,0000,0000,0000,,放！\NLoose!
+Dialogue: 0,0:41:01.68,0:41:04.28,正文,,0000,0000,0000,,云梯上前！\NForward ladders!
+Dialogue: 0,0:41:17.73,0:41:20.83,正文,,0000,0000,0000,,他们要上城墙了！\NThey're coming up the wall!
+Dialogue: 0,0:41:20.86,0:41:23.27,正文,,0000,0000,0000,,北墙弓箭手准备！\NArchers on the north wall!
+Dialogue: 0,0:41:23.30,0:41:24.90,正文,,0000,0000,0000,,撞！\N-\N- Heave!
+Dialogue: 0,0:41:24.94,0:41:26.67,正文,,0000,0000,0000,,撞！\N- Heave!
+Dialogue: 0,0:41:26.70,0:41:28.37,正文,,0000,0000,0000,,陛下\NYour Grace,
+Dialogue: 0,0:41:28.40,0:41:31.74,正文,,0000,0000,0000,,太后命我带您返回红堡\Nthe queen has sent me to bring you back to the Red Keep.
+Dialogue: 0,0:41:33.84,0:41:36.34,正文,,0000,0000,0000,,如果你都不保卫自己的都城 他们又为什么要拼命？\NIf you won't defend your own city, why should they?
+Dialogue: 0,0:41:36.38,0:41:38.15,正文,,0000,0000,0000,,你想让我怎么做？\NWhat would you have me do?
+Dialogue: 0,0:41:38.18,0:41:39.25,正文,,0000,0000,0000,,留下来\NLead.
+Dialogue: 0,0:41:39.28,0:41:41.45,正文,,0000,0000,0000,,下到战场 统率你的士兵\NGet down there and lead your people
+Dialogue: 0,0:41:41.48,0:41:43.05,正文,,0000,0000,0000,,打败嗜血的入侵者\Nagainst the invaders who want to kill them.
+Dialogue: 0,0:41:43.09,0:41:45.05,正文,,0000,0000,0000,,我母亲到底是怎么说的？\NWhat did my mother say exactly?
+Dialogue: 0,0:41:45.09,0:41:46.86,正文,,0000,0000,0000,,她是否有要事与我商讨？\NDid she have urgent business with me?
+Dialogue: 0,0:41:46.89,0:41:48.66,正文,,0000,0000,0000,,她没有详说 陛下\NShe did not say, Your Grace.
+Dialogue: 0,0:41:50.26,0:41:52.83,正文,,0000,0000,0000,,所有人到城垛顶住！\NAll men to the battlements!
+Dialogue: 0,0:41:54.06,0:41:55.76,正文,,0000,0000,0000,,柏洛斯爵士  曼登爵士\NSer Boros, Ser Mandon,
+Dialogue: 0,0:41:55.80,0:41:58.03,正文,,0000,0000,0000,,和我舅舅呆在一起  在战场上\Nstay with my Uncle and represent the king
+Dialogue: 0,0:41:58.06,0:41:59.80,正文,,0000,0000,0000,,代表国王\Non the field on battle.
+Dialogue: 0,0:42:01.10,0:42:03.64,正文,,0000,0000,0000,,弓箭手 稳住阵线\NArchers, hold your line
+Dialogue: 0,0:42:03.67,0:42:05.51,正文,,0000,0000,0000,,否则我宰了你们\Nor I'll kill you myself.
+Dialogue: 0,0:42:08.88,0:42:11.18,正文,,0000,0000,0000,,稳住阵脚！\NStand fast!
+Dialogue: 0,0:42:18.55,0:42:20.32,正文,,0000,0000,0000,,不！\NNo!
+Dialogue: 0,0:42:21.92,0:42:23.42,正文,,0000,0000,0000,,起来 你这蠢货\NGet up, you fool.
+Dialogue: 0,0:42:23.46,0:42:26.60,正文,,0000,0000,0000,,我们需要更多的箭\NWe need more arrows!
+Dialogue: 0,0:42:29.43,0:42:31.07,正文,,0000,0000,0000,,国王在哪儿？\NWhere is the king?
+Dialogue: 0,0:42:31.10,0:42:34.50,正文,,0000,0000,0000,,- 他为什么不和我们在一起？ - 我们这是为谁而战？\N- Why isn't he with us? - Who are we fighting for?
+Dialogue: 0,0:42:35.97,0:42:37.57,正文,,0000,0000,0000,,谁来领军？\NWho leads us?
+Dialogue: 0,0:42:37.61,0:42:40.08,正文,,0000,0000,0000,,我来带领突击\NI'll lead the attack.
+Dialogue: 0,0:42:40.11,0:42:41.78,正文,,0000,0000,0000,,我来带领突击！\NI'll lead the attack!
+Dialogue: 0,0:42:41.81,0:42:45.15,正文,,0000,0000,0000,,- 什么？ - 你说什么？\N- Yes? - What are you talking about?
+Dialogue: 0,0:42:45.18,0:42:46.82,正文,,0000,0000,0000,,波德 我的头盔\NPod, my helmet.
+Dialogue: 0,0:42:49.09,0:42:51.26,正文,,0000,0000,0000,,曼登爵士 由你执掌国王的旗帜\NSer Mandon, you will bear the King's banner.
+Dialogue: 0,0:42:51.29,0:42:53.83,正文,,0000,0000,0000,,士兵整队\NMen, form up.
+Dialogue: 0,0:42:55.56,0:42:57.50,正文,,0000,0000,0000,,士兵——\NMen--
+Dialogue: 0,0:42:57.53,0:42:59.70,正文,,0000,0000,0000,,- 士兵们！  -算了吧\N- men! - Come on.
+Dialogue: 0,0:42:59.73,0:43:02.40,正文,,0000,0000,0000,,他们说我是个半人\NThey say I'm half a man.
+Dialogue: 0,0:43:02.43,0:43:05.14,正文,,0000,0000,0000,,那你们这些“完人”比我多出了什么？\NBut what does that make the lot of you?
+Dialogue: 0,0:43:05.17,0:43:07.71,正文,,0000,0000,0000,,城门是唯一的出路\NThe only way out is through the gates.
+Dialogue: 0,0:43:07.74,0:43:09.47,正文,,0000,0000,0000,,却被他们堵住了\NAnd they're at the gates.
+Dialogue: 0,0:43:09.51,0:43:12.01,正文,,0000,0000,0000,,还有一条路 我带你们走\NThere's another way out. I'm going to show you.
+Dialogue: 0,0:43:12.04,0:43:14.91,正文,,0000,0000,0000,,从背后偷袭 狠操他们的屁眼\NWe'll come out behind them and fuck them in their asses.
+Dialogue: 0,0:43:17.02,0:43:19.92,正文,,0000,0000,0000,,撞！\NHeave!
+Dialogue: 0,0:43:19.95,0:43:22.05,正文,,0000,0000,0000,,撞！\NHeave!
+Dialogue: 0,0:43:22.09,0:43:23.89,正文,,0000,0000,0000,,你们不是为国王\NDon't fight for your king
+Dialogue: 0,0:43:23.92,0:43:26.72,正文,,0000,0000,0000,,也不是为王国而战\Nand don't fight for his kingdoms.
+Dialogue: 0,0:43:27.99,0:43:30.33,正文,,0000,0000,0000,,不为头衔 不为荣誉\NDon't fight for honor. Don't fight for glory.
+Dialogue: 0,0:43:30.36,0:43:32.76,正文,,0000,0000,0000,,也不为金银珠宝 这些统统都是屁话\NDon't fight for riches, because you won't get any.
+Dialogue: 0,0:43:32.80,0:43:35.26,正文,,0000,0000,0000,,史坦尼斯要洗劫你们的城市\NThis is your city Stannis means to sack.
+Dialogue: 0,0:43:35.30,0:43:37.33,正文,,0000,0000,0000,,要撞开你们的城门\NThat's your gate he's ramming.
+Dialogue: 0,0:43:37.37,0:43:41.44,正文,,0000,0000,0000,,如果他得逞 被烧的将是你们的房子\NIf he gets in, it will be your houses he burns,
+Dialogue: 0,0:43:41.47,0:43:43.97,正文,,0000,0000,0000,,被抢的将是你们的金子\Nyour gold he steals,
+Dialogue: 0,0:43:44.01,0:43:46.84,正文,,0000,0000,0000,,被操的将是你们的女人\Nyour women he will rape.
+Dialogue: 0,0:43:46.88,0:43:49.88,正文,,0000,0000,0000,,撞！ 撞！\NHeave! Heave!
+Dialogue: 0,0:43:49.91,0:43:53.62,正文,,0000,0000,0000,,撞！ 撞！\NHeave! Heave!
+Dialogue: 0,0:43:55.02,0:43:57.79,正文,,0000,0000,0000,,撞城的都是些勇士\NThose are brave me knocking at our door.
+Dialogue: 0,0:43:58.89,0:44:00.32,正文,,0000,0000,0000,,让我们杀光他们！\NLet's go kill them.
+Dialogue: 0,0:44:22.88,0:44:24.95,正文,,0000,0000,0000,,我们输定了 陛下\NThe battle is lost, Your Grace.
+Dialogue: 0,0:44:26.05,0:44:28.52,正文,,0000,0000,0000,,史坦尼斯兵临城下\NStannis's troops are at the gates.
+Dialogue: 0,0:44:28.55,0:44:30.99,正文,,0000,0000,0000,,金袍子却眼睁睁看着国王溜走\NWhen the Gold Cloaks saw the king leaving,
+Dialogue: 0,0:44:31.02,0:44:32.66,正文,,0000,0000,0000,,军心顿时涣散\Nthey lost all heart.
+Dialogue: 0,0:44:32.69,0:44:35.19,正文,,0000,0000,0000,,我儿子在哪里？\NWhere is my son?
+Dialogue: 0,0:44:35.23,0:44:37.26,正文,,0000,0000,0000,,我希望能护送他回战场\NI want to escort him back to the battle.
+Dialogue: 0,0:44:37.40,0:44:39.09,正文,,0000,0000,0000,,你的想法关我什么事？\NWhy do I care what you want?
+Dialogue: 0,0:44:40.23,0:44:42.83,正文,,0000,0000,0000,,- 给我—— - 听我说 - 啊！\N- Bring me-- - Now listen to me-- ah!
+Dialogue: 0,0:44:48.74,0:44:52.01,正文,,0000,0000,0000,,别害怕 太后升起了吊桥\NDon't be afraid. The queen has raised the drawbridge.
+Dialogue: 0,0:44:52.04,0:44:54.27,正文,,0000,0000,0000,,这里是全城最安全的地方\NThis is the safest place we can be.
+Dialogue: 0,0:44:54.31,0:44:57.31,正文,,0000,0000,0000,,乔佛里毫发无伤 他正在英勇奋战\NJoffrey's not hurt. He's fighting bravely.
+Dialogue: 0,0:44:57.34,0:44:59.21,正文,,0000,0000,0000,,骑士们团结在他身后\NHis knights have rallied behind him.
+Dialogue: 0,0:44:59.25,0:45:00.78,正文,,0000,0000,0000,,他们会拯救这个城市\NThey will save the city.
+Dialogue: 0,0:45:00.81,0:45:03.35,正文,,0000,0000,0000,,让我们唱首圣歌吧？\NShall we sing a hymn?
+Dialogue: 0,0:45:03.38,0:45:06.52,正文,,0000,0000,0000,,温柔的圣母\NGentle mother
+Dialogue: 0,0:45:06.55,0:45:09.22,正文,,0000,0000,0000,,慈悲的源泉\Nfont of mercy
+Dialogue: 0,0:45:09.26,0:45:13.59,正文,,0000,0000,0000,,保佑您的儿子穿越鏖战\Nsave our sons from war, we pray
+Dialogue: 0,0:45:13.63,0:45:16.00,正文,,0000,0000,0000,,- 温柔的圣母 - 你得快走\N- gentle--  - You must go.
+Dialogue: 0,0:45:16.03,0:45:18.93,正文,,0000,0000,0000,,回房间去 插好门闩\NRun to your chamber and bar your door.
+Dialogue: 0,0:45:18.97,0:45:22.34,正文,,0000,0000,0000,,史坦尼斯不会伤害你 这个人会\NStannis won't hurt you. This one will.
+Dialogue: 0,0:45:24.57,0:45:26.27,正文,,0000,0000,0000,,跟我一起走\NCome with me.
+Dialogue: 0,0:45:26.30,0:45:28.01,正文,,0000,0000,0000,,我还要和一个人道别\NI need to say goodbye to someone.
+Dialogue: 0,0:45:28.01,0:45:30.18,正文,,0000,0000,0000,,太后说他们会强奸每一个女人\NThe queen said they'd rape everyone.
+Dialogue: 0,0:45:30.21,0:45:32.15,正文,,0000,0000,0000,,没人能强奸我\NNo one is raping me.
+Dialogue: 0,0:45:34.18,0:45:37.29,正文,,0000,0000,0000,,走吧 快\NGo. Run.
+Dialogue: 0,0:45:37.32,0:45:42.43,正文,,0000,0000,0000,,保佑您的儿子穿越鏖战\Nsave our sons from war, we pray.
+Dialogue: 0,0:46:14.76,0:46:17.63,正文,,0000,0000,0000,,小淑女也开始恐慌了\NThe lady is starting to panic.
+Dialogue: 0,0:46:17.66,0:46:19.96,正文,,0000,0000,0000,,你在这里干什么？\NWhat are you doing here?
+Dialogue: 0,0:46:20.00,0:46:22.10,正文,,0000,0000,0000,,我不会久留\NNot here for long.
+Dialogue: 0,0:46:22.13,0:46:24.77,正文,,0000,0000,0000,,- 我要离开 - 去哪儿？\N- I'm going. - Where?
+Dialogue: 0,0:46:24.80,0:46:28.37,正文,,0000,0000,0000,,随便哪里 只要没有火焰\NSomeplace that isn't burning.
+Dialogue: 0,0:46:29.87,0:46:31.61,正文,,0000,0000,0000,,也许是北方\NNorth, might be.
+Dialogue: 0,0:46:31.64,0:46:34.31,正文,,0000,0000,0000,,可以是北方\NCould be.
+Dialogue: 0,0:46:34.34,0:46:36.98,正文,,0000,0000,0000,,国王怎么办？\NWhat about the king?
+Dialogue: 0,0:46:37.01,0:46:40.32,正文,,0000,0000,0000,,他一个人也可以死\NHe can die just fine on his own.
+Dialogue: 0,0:46:45.69,0:46:48.02,正文,,0000,0000,0000,,我可以带上你\NI can take you with me.
+Dialogue: 0,0:46:48.06,0:46:50.46,正文,,0000,0000,0000,,带你去临冬城\NTake you to Winterfell.
+Dialogue: 0,0:46:55.53,0:46:57.73,正文,,0000,0000,0000,,保你一路平安\NI'll keep you safe.
+Dialogue: 0,0:46:59.67,0:47:02.74,正文,,0000,0000,0000,,你想回家吗？\NDo you want to go home?
+Dialogue: 0,0:47:05.37,0:47:07.21,正文,,0000,0000,0000,,我留在这里很安全\NI'll be safe here.
+Dialogue: 0,0:47:07.24,0:47:08.94,正文,,0000,0000,0000,,史坦尼斯不会伤害我\NStannis won't hurt me.
+Dialogue: 0,0:47:10.81,0:47:13.82,正文,,0000,0000,0000,,看着我\NLook at me.
+Dialogue: 0,0:47:13.85,0:47:16.19,正文,,0000,0000,0000,,史坦尼斯是个凶手\NStannis is a killer.
+Dialogue: 0,0:47:16.22,0:47:18.19,正文,,0000,0000,0000,,就像兰尼斯特\NThe Lannisters are killers.
+Dialogue: 0,0:47:18.22,0:47:20.99,正文,,0000,0000,0000,,就像你父亲\NYour father was a killer.
+Dialogue: 0,0:47:21.02,0:47:23.86,正文,,0000,0000,0000,,就像你哥哥一样\NYour brother is a killer.
+Dialogue: 0,0:47:25.33,0:47:27.53,正文,,0000,0000,0000,,总有一天 你的儿子也会变成凶手\NYour sons will be killers someday.
+Dialogue: 0,0:47:29.43,0:47:32.33,正文,,0000,0000,0000,,世界属于这帮凶手\NThe world is built by killers.
+Dialogue: 0,0:47:35.77,0:47:38.27,正文,,0000,0000,0000,,所以你最好习惯看着他们\NSo you'd better get used to looking at them.
+Dialogue: 0,0:47:41.98,0:47:44.68,正文,,0000,0000,0000,,你不会伤害我\NYou won't hurt me.
+Dialogue: 0,0:47:50.59,0:47:53.49,正文,,0000,0000,0000,,对 小小鸟 我不会伤害你\NNo, little bird, I won't hurt you.
+Dialogue: 0,0:48:16.48,0:48:19.42,正文,,0000,0000,0000,,撞！ 撞！\NHeave! Heave!
+Dialogue: 0,0:48:24.32,0:48:26.02,正文,,0000,0000,0000,,快啊 杂种们！上梯！\NCome on, you bastards! Get up those ladders!
+Dialogue: 0,0:48:26.06,0:48:28.23,正文,,0000,0000,0000,,啊！\NAh!
+Dialogue: 0,0:48:31.26,0:48:33.06,正文,,0000,0000,0000,,进攻！\NAttack!
+Dialogue: 0,0:48:47.01,0:48:48.51,正文,,0000,0000,0000,,掀翻它！\NRoll it over!
+Dialogue: 0,0:48:55.39,0:48:59.46,正文,,0000,0000,0000,,半人万岁！半人万岁！\NHalfman! Halfman! Halfman! Halfman!
+Dialogue: 0,0:48:59.49,0:49:03.66,正文,,0000,0000,0000,,半人万岁！半人万岁！\NHalfman! Halfman! Halfman! Halfman!
+Dialogue: 0,0:49:10.67,0:49:12.64,正文,,0000,0000,0000,,噢 操蛋\NOh, fuck me.
+Dialogue: 0,0:50:03.92,0:50:06.59,正文,,0000,0000,0000,,嘘\NShh.
+Dialogue: 0,0:50:06.63,0:50:08.23,正文,,0000,0000,0000,,别动 小甜心\NBe calm, my sweet.
+Dialogue: 0,0:50:08.26,0:50:10.33,正文,,0000,0000,0000,,外面还在打\NThey're still fighting.
+Dialogue: 0,0:50:11.66,0:50:14.93,正文,,0000,0000,0000,,没人会伤害你的\NNo one's going to hurt you.
+Dialogue: 0,0:50:18.30,0:50:20.60,正文,,0000,0000,0000,,我来给你讲个故事\NI'll tell you a story.
+Dialogue: 0,0:50:20.64,0:50:23.97,正文,,0000,0000,0000,,你听过狮子妈妈和小狮子的故事吗？\NYou know the one about the mother lion and her little cub?
+Dialogue: 0,0:50:24.01,0:50:26.98,正文,,0000,0000,0000,,- 他们住在树林里 - 是御林\N- They lived in the woods. - The Kingswood.
+Dialogue: 0,0:50:27.01,0:50:29.28,正文,,0000,0000,0000,,对 亲爱的\NYes, my love.
+Dialogue: 0,0:50:29.31,0:50:32.75,正文,,0000,0000,0000,,御林里住着狮子妈妈和她的小狮子\NIn the Kingswood there lived a mother and her cub.
+Dialogue: 0,0:50:32.78,0:50:34.88,正文,,0000,0000,0000,,她非常爱他\NShe loved him very much.
+Dialogue: 0,0:50:34.92,0:50:38.56,正文,,0000,0000,0000,,但林子里有其他动物\NBut there were other things that lived in the woods.
+Dialogue: 0,0:50:38.59,0:50:41.53,正文,,0000,0000,0000,,- 坏动物 - 比如说？\N- Evil things. - Like what?
+Dialogue: 0,0:50:43.46,0:50:45.23,正文,,0000,0000,0000,,比如雄鹿\NLike stags.
+Dialogue: 0,0:50:45.26,0:50:47.37,正文,,0000,0000,0000,,雄鹿才不坏呢\NStags aren't evil.
+Dialogue: 0,0:50:47.40,0:50:49.73,正文,,0000,0000,0000,,它们只吃草\NThey only eat grass.
+Dialogue: 0,0:50:49.77,0:50:51.27,正文,,0000,0000,0000,,还有狼\NAnd wolves.
+Dialogue: 0,0:50:51.30,0:50:52.87,正文,,0000,0000,0000,,大人\NMy Lord.
+Dialogue: 0,0:50:52.91,0:50:55.21,正文,,0000,0000,0000,,夜里 小狮子总能听到狼的嗥叫\NHe could hear them howling in the night.
+Dialogue: 0,0:50:55.24,0:50:57.28,正文,,0000,0000,0000,,他非常害怕\NThe little cub was frightened.
+Dialogue: 0,0:50:57.31,0:51:00.54,正文,,0000,0000,0000,,于是狮子妈妈说:“好孩子 你是狮子\NHis mother said, "You are a lion, my son.
+Dialogue: 0,0:51:00.58,0:51:02.21,正文,,0000,0000,0000,,你不能害怕\NYou mustn't be afraid.
+Dialogue: 0,0:51:15.23,0:51:18.30,正文,,0000,0000,0000,,总有一天 所有的野兽都会臣服于你\NFor one day all the beasts will bow to you.
+Dialogue: 0,0:51:18.30,0:51:20.30,正文,,0000,0000,0000,,尊你为王\NYou will be king.
+Dialogue: 0,0:51:22.07,0:51:26.00,正文,,0000,0000,0000,,雄鹿和狼会在你面前屈膝\NAll the stags will bow.all the wolves will bow.
+Dialogue: 0,0:51:26.04,0:51:30.31,正文,,0000,0000,0000,,还有北边的熊与南边的狐狸\NThe bears in the north and the foxes of the south,
+Dialogue: 0,0:51:30.34,0:51:34.88,正文,,0000,0000,0000,,天上的飞鸟 水里的海怪\Nall the birds in the sky and the beasts in the sea--
+Dialogue: 0,0:51:36.48,0:51:39.02,正文,,0000,0000,0000,,小狮子 他们都会伏在你脚下……\Nthey will all come to you, little lion...
+Dialogue: 0,0:51:40.29,0:51:42.02,正文,,0000,0000,0000,,把王冠放在你头顶”\Nto rest a crown upon your head."
+Dialogue: 0,0:51:48.33,0:51:49.73,正文,,0000,0000,0000,,小狮子说\NAnd the cub said,
+Dialogue: 0,0:51:49.76,0:51:52.97,正文,,0000,0000,0000,,“我会不会像我父亲那样强壮凶猛？”\N"Will I be strong and fierce like my father?"
+Dialogue: 0,0:51:54.07,0:51:56.54,正文,,0000,0000,0000,,“当然了” 狮子妈妈说\N"Yes," said his mother.
+Dialogue: 0,0:51:56.57,0:51:59.97,正文,,0000,0000,0000,,“你会强壮凶猛 和你父亲一模一样”\N"You will be strong and fierce just like your father."
+Dialogue: 0,0:52:18.16,0:52:22.29,正文,,0000,0000,0000,,亲爱的 我会保护你\NI will keep you safe, my love.
+Dialogue: 0,0:52:22.33,0:52:24.30,正文,,0000,0000,0000,,我向你保证\NI promise you.
+Dialogue: 0,0:52:33.31,0:52:35.61,正文,,0000,0000,0000,,撤回船上！\NBack to the boats!
+Dialogue: 0,0:52:37.31,0:52:39.88,正文,,0000,0000,0000,,留下来战斗！\NStand and fight!
+Dialogue: 0,0:52:39.91,0:52:43.48,正文,,0000,0000,0000,,留下来战斗！该死的！\NStand and fight, damn you!
+Dialogue: 0,0:52:43.52,0:52:46.35,正文,,0000,0000,0000,,不！\NNo!
+Dialogue: 0,0:52:48.35,0:52:49.99,正文,,0000,0000,0000,,父亲\NFather.
+Dialogue: 0,0:52:54.83,0:52:58.23,正文,,0000,0000,0000,,战斗结束了 我们大获全胜\NThe battle is over. We have won.
+Dialogue: 0,0:53:06.94,0:53:12.14,正文,,0000,0000,0000,,{\i1}“汝何德何能？” 爵爷傲然宣称\N{\fs14\i1}"And who are you," the proud lord said{\r\i1}
+Dialogue: 0,0:53:12.18,0:53:17.35,正文,,0000,0000,0000,,{\i1}“须令吾躬首称臣？\N{\fs14\i1}"that I must bow so low?{\r\i1}
+Dialogue: 0,0:53:17.38,0:53:22.22,正文,,0000,0000,0000,,{\i1}颜色有别 威力不逊\N{\fs14\i1}only a cat of a different coat{\r\i1}
+Dialogue: 0,0:53:22.25,0:53:27.26,正文,,0000,0000,0000,,{\i1}各显神通分个高低\N{\fs14\i1}that's all the truth I know{\r\i1}
+Dialogue: 0,0:53:27.29,0:53:32.40,正文,,0000,0000,0000,,{\i1}红狮子斗黄狮子\N{\fs14\i1}in a coat of gold or a coat of red{\r\i1}
+Dialogue: 0,0:53:32.43,0:53:37.40,正文,,0000,0000,0000,,{\i1}爪牙锋利不留情\N{\fs14\i1}a lion still has claws{\r\i1}
+Dialogue: 0,0:53:37.44,0:53:42.61,正文,,0000,0000,0000,,{\i1}出手致命招招狠\N{\fs14\i1}and mine are long and sharp, My Lord{\r\i1}
+Dialogue: 0,0:53:42.64,0:53:47.34,正文,,0000,0000,0000,,{\i1}汝子莫忘记 汝子莫忘记”\N{\fs14\i1}as long and sharp as yours"{\r\i1}
+Dialogue: 0,0:53:49.91,0:53:55.08,正文,,0000,0000,0000,,{\i1}噢 他这样说 他这样说\N{\fs14\i1}and so he spoke, and so he spoke{\r\i1}
+Dialogue: 0,0:53:55.12,0:54:00.09,正文,,0000,0000,0000,,{\i1}卡斯特梅的爵爷他这样说\N{\fs14\i1}that Lord of Castamere{\r\i1}
+Dialogue: 0,0:54:00.12,0:54:05.16,正文,,0000,0000,0000,,{\i1}然而今天 每逢雨季\N{\fs14\i1}but now the rains weep o'ver his hall{\r\i1}
+Dialogue: 0,0:54:05.20,0:54:09.83,正文,,0000,0000,0000,,{\i1}雨水在大厅哭泣 内里却无人影\N{\fs14\i1}with no one there to hear{\r\i1}
+Dialogue: 0,0:54:09.87,0:54:15.11,正文,,0000,0000,0000,,{\i1}然而今天 每逢雨季\N{\fs14\i1}yes, now the rains weep o'er his hall{\r\i1}
+Dialogue: 0,0:54:15.14,0:54:20.51,正文,,0000,0000,0000,,{\i1}雨水在大厅哭泣 内里却无魂灵\N{\fs14\i1}and not a soul to hear.{\r\i1}
+Dialogue: 0,0:53:06.94,0:54:20.51,正文,,0000,0000,0000,Banner;32;0;50,{\an8}维斯特洛名曲《卡斯特梅的雨季》：高傲的塔贝克家与卡斯特梅家不服兰尼斯特家的统治，于是泰温公爵亲自带军把这两家满门抄斩，城堡摧毁，然后找歌手作歌一曲——《卡斯特梅的雨季》。
+

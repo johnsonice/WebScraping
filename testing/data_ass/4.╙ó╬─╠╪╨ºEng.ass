@@ -1,0 +1,779 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:21.10,0:00:31.30,Default,,0000,0000,0000,,{\fnSimSun\bord0\shad2\pos(192,286)\1c&H008080&}影片压制：andydexin   字幕转制：木子丁{\r}
+Dialogue: 0,0:00:21.10,0:00:31.30,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\pos(192,269)\fscx195\fscy80\3c&H008080&\4c&HFFFFFF&}====  N O R M  T E A M  ===={\r}
+Dialogue: 0,0:00:26.10,0:00:31.30,Default,,0000,0000,0000,,{\fs16\3c&H008080&\xbord60\ybord3\blur20\t(0,500,1,\blur0)\move(461,250,308,250,0,300)}译文源自TLF字幕组{\r}
+Dialogue: 0,0:01:01.82,0:01:04.88,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I want to propose a toast.{\r}
+Dialogue: 0,0:01:05.49,0:01:07.32,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Today is a very special day\nfor me...{\r}
+Dialogue: 0,0:01:07.32,0:01:12.23,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...so I'm nervous,\nand I wrote down my speech.{\r}
+Dialogue: 0,0:01:12.60,0:01:15.17,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}A toast to the kindest, most gentle...{\r}
+Dialogue: 0,0:01:15.17,0:01:17.80,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...and most wonderful man\nin the world:{\r}
+Dialogue: 0,0:01:17.87,0:01:19.43,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Papa.{\r}
+Dialogue: 0,0:01:19.73,0:01:23.20,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Thank you for making my dream\ncome true.{\r}
+Dialogue: 0,0:01:25.08,0:01:27.57,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And now maybe let's dance.{\r}
+Dialogue: 0,0:02:12.49,0:02:13.52,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Stop.{\r}
+Dialogue: 0,0:02:17.47,0:02:18.49,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He's okay.{\r}
+Dialogue: 0,0:02:33.98,0:02:38.00,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Hey! What are you doing?  - Sorry. I'm so sorry.{\r}
+Dialogue: 0,0:02:38.02,0:02:40.08,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'll get more towels. Be right back.{\r}
+Dialogue: 0,0:02:55.50,0:02:56.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Ivan Borisovich?{\r}
+Dialogue: 0,0:02:58.67,0:02:59.77,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Ivan Borisovich!{\r}
+Dialogue: 0,0:03:02.61,0:03:06.77,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The boss is down!\nThe hitter's dressed like a waiter!{\r}
+Dialogue: 0,0:03:07.38,0:03:09.85,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Cover all exits! Cover all exits!{\r}
+Dialogue: 0,0:03:53.90,0:03:56.23,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Sasha! Sasha!\nHe's heading your way!{\r}
+Dialogue: 0,0:03:57.33,0:03:58.36,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Sasha!{\r}
+Dialogue: 0,0:04:00.44,0:04:02.80,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Sasha, you hear me?{\r}
+Dialogue: 0,0:04:05.04,0:04:06.73,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Sasha?{\r}
+Dialogue: 0,0:09:16.75,0:09:18.78,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You told me\nthere'll be no loose ends.{\r}
+Dialogue: 0,0:09:19.65,0:09:21.45,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- We got it down to one.  - Who?{\r}
+Dialogue: 0,0:09:22.86,0:09:24.35,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Flint.{\r}
+Dialogue: 0,0:09:25.49,0:09:27.48,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You have access to the best\ntechnology...{\r}
+Dialogue: 0,0:09:27.48,0:09:31.06,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...and yet a man with a comatose\nwife in tow can elude you for--{\r}
+Dialogue: 0,0:09:31.06,0:09:32.32,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}For how many years now?{\r}
+Dialogue: 0,0:09:32.32,0:09:34.76,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}This is what he does best,\nand he is the best.{\r}
+Dialogue: 0,0:09:34.76,0:09:37.93,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He's also the only one outside\nthis room who can bury us.{\r}
+Dialogue: 0,0:09:37.93,0:09:40.30,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Okay, guys, look, let's think.{\r}
+Dialogue: 0,0:09:40.30,0:09:42.64,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Is Flint really that much\nof a problem?{\r}
+Dialogue: 0,0:09:42.64,0:09:45.28,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I mean, look, if he shows,\nwe can easily take him out.{\r}
+Dialogue: 0,0:09:48.45,0:09:51.04,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You had a good idea to start.\nGet rid of the bad guys.{\r}
+Dialogue: 0,0:09:51.04,0:09:54.42,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Hire professionals for the job.\nFine. I backed you.{\r}
+Dialogue: 0,0:09:54.42,0:09:58.03,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}But then you two idiots got greedy\nselling weapons back to criminals.{\r}
+Dialogue: 0,0:09:58.03,0:10:00.35,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Hey, you got your share.{\r}
+Dialogue: 0,0:10:00.35,0:10:01.62,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Shut up.{\r}
+Dialogue: 0,0:10:07.50,0:10:10.70,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The U.N. hearings\nabout this whole mess of yours...{\r}
+Dialogue: 0,0:10:10.70,0:10:13.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...start at the end of the month.{\r}
+Dialogue: 0,0:10:13.07,0:10:15.50,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}If there's any fallout,\nany problem whatsoever...{\r}
+Dialogue: 0,0:10:15.50,0:10:19.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...I promise I will land this clusterfuck\nsquarely on your shoulders.{\r}
+Dialogue: 0,0:10:19.13,0:10:23.04,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And you both will spend the rest\nof your natural lives behind bars.{\r}
+Dialogue: 0,0:10:24.09,0:10:25.68,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Okay. We get it.{\r}
+Dialogue: 0,0:10:25.68,0:10:28.45,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}For your sake, I hope you do.{\r}
+Dialogue: 0,0:10:28.45,0:10:32.18,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Because I hear they just love\ncute, dirty cops in prison.{\r}
+Dialogue: 0,0:10:39.07,0:10:41.90,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Asshole.  - But he's a smart asshole.{\r}
+Dialogue: 0,0:10:41.90,0:10:45.27,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And he'll waste no time burying us\nto protect himself.{\r}
+Dialogue: 0,0:10:45.27,0:10:48.37,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- So, what do we do?  - Find Flint.{\r}
+Dialogue: 0,0:10:48.37,0:10:50.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Take him out.{\r}
+Dialogue: 0,0:10:50.88,0:10:52.31,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}How?{\r}
+Dialogue: 0,0:10:53.15,0:10:54.67,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He was the best on our payroll.{\r}
+Dialogue: 0,0:10:54.67,0:10:56.87,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- You said so yourself.  - We use bait.{\r}
+Dialogue: 0,0:10:56.87,0:10:58.71,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You mean Polo.{\r}
+Dialogue: 0,0:11:00.32,0:11:03.76,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}We pay off the Ukrainians,\nrelease Polo, put a price on his head.{\r}
+Dialogue: 0,0:11:03.76,0:11:05.55,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What makes you think Flint'll show?{\r}
+Dialogue: 0,0:11:05.55,0:11:09.06,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's personal, he's obsessed.\nLet's use that.{\r}
+Dialogue: 0,0:11:09.10,0:11:11.19,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's our only play.{\r}
+Dialogue: 0,0:11:23.88,0:11:25.35,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Good morning, Mr. Flint.{\r}
+Dialogue: 0,0:11:25.35,0:11:27.57,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I've got the morning shift\nat the clinic.{\r}
+Dialogue: 0,0:11:27.57,0:11:30.11,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Hang on, Mrs. Pavlescu.{\r}
+Dialogue: 0,0:11:30.11,0:11:33.12,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I just wanted to give you this.{\r}
+Dialogue: 0,0:11:33.12,0:11:35.78,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Oh, thank you.\nYou are much too kind.{\r}
+Dialogue: 0,0:11:35.78,0:11:39.62,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- As always.  - Please. Anna and I...{\r}
+Dialogue: 0,0:11:39.62,0:11:41.56,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}We owe you a lot more than that.{\r}
+Dialogue: 0,0:11:41.56,0:11:44.56,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Honestly, I don't know\nwhat we'd do without you.{\r}
+Dialogue: 0,0:11:44.56,0:11:47.26,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Have a good day.  - Thank you.{\r}
+Dialogue: 0,0:11:48.97,0:11:50.40,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Oh, almost forgot.{\r}
+Dialogue: 0,0:11:51.17,0:11:52.94,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I was getting groceries yesterday...{\r}
+Dialogue: 0,0:11:52.94,0:11:57.64,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...and Gabi at the store\nsaid there was a man in town.{\r}
+Dialogue: 0,0:11:57.64,0:12:00.68,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- What man?  - A foreigner.{\r}
+Dialogue: 0,0:12:01.25,0:12:03.08,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He's staying at the motel.{\r}
+Dialogue: 0,0:12:03.48,0:12:05.95,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I thought you'd like to know.{\r}
+Dialogue: 0,0:12:09.06,0:12:10.92,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Okay, thanks, Mrs. Pavlescu.{\r}
+Dialogue: 0,0:12:12.36,0:12:13.72,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Bye.{\r}
+Dialogue: 0,0:12:58.11,0:13:00.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}How did you find me?{\r}
+Dialogue: 0,0:13:00.37,0:13:02.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Good to see you too.  - How did you find me?{\r}
+Dialogue: 0,0:13:02.60,0:13:05.18,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm not gonna ask you again.{\r}
+Dialogue: 0,0:13:05.65,0:13:07.44,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It was just a hunch.{\r}
+Dialogue: 0,0:13:07.44,0:13:09.91,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}There's no way\nI could have been followed.{\r}
+Dialogue: 0,0:13:10.75,0:13:12.31,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Anna...{\r}
+Dialogue: 0,0:13:13.85,0:13:17.22,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Anna told me how much you two loved\ncoming up here when you first met.{\r}
+Dialogue: 0,0:13:17.22,0:13:21.45,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I've been driving through every village\nbetween here and the Austrian border.{\r}
+Dialogue: 0,0:13:21.45,0:13:23.53,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What do you want'?{\r}
+Dialogue: 0,0:13:24.06,0:13:26.50,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- There's a job.  - I'm out of the business.{\r}
+Dialogue: 0,0:13:26.50,0:13:29.53,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Ticket's a million.  - I don't need the money.{\r}
+Dialogue: 0,0:13:31.31,0:13:33.30,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I see you again...{\r}
+Dialogue: 0,0:13:33.57,0:13:35.87,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...I'm sending you home in a box.{\r}
+Dialogue: 0,0:13:36.58,0:13:38.55,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Target's Polo.{\r}
+Dialogue: 0,0:13:39.48,0:13:41.51,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He's being released.{\r}
+Dialogue: 0,0:13:42.48,0:13:44.21,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Released?{\r}
+Dialogue: 0,0:13:44.21,0:13:46.25,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The Ukrainians are letting him go.{\r}
+Dialogue: 0,0:13:46.25,0:13:49.91,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm willing to bet he either out a deal\nor snitched on someone. Whatever.{\r}
+Dialogue: 0,0:13:50.66,0:13:53.63,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Or he's bait.  - For you?{\r}
+Dialogue: 0,0:13:53.83,0:13:56.76,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}New administration.\nMaybe Interpol cleaning house.{\r}
+Dialogue: 0,0:13:56.76,0:13:59.37,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}They still want their money back.\nI mean, you did--{\r}
+Dialogue: 0,0:14:00.87,0:14:03.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland, don't.{\r}
+Dialogue: 0,0:14:03.13,0:14:05.14,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Why not?{\r}
+Dialogue: 0,0:14:06.67,0:14:10.17,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Because I wasn't followed.\nBecause I'm not setting you up.{\r}
+Dialogue: 0,0:14:10.98,0:14:13.85,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I just thought we could make\na few bucks together, you know?{\r}
+Dialogue: 0,0:14:13.85,0:14:15.35,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Turn on the music.{\r}
+Dialogue: 0,0:14:16.68,0:14:18.68,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- What?  - The radio.{\r}
+Dialogue: 0,0:14:23.59,0:14:25.15,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Louden{\r}
+Dialogue: 0,0:14:29.66,0:14:31.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland, come on.{\r}
+Dialogue: 0,0:14:32.20,0:14:34.10,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Close your eyes.{\r}
+Dialogue: 0,0:14:35.20,0:14:40.04,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- You've been in these woods too long.  - Close your eyes now.{\r}
+Dialogue: 0,0:14:42.44,0:14:44.41,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland, think about\nwhat you're doing, man.{\r}
+Dialogue: 0,0:14:44.41,0:14:45.98,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Just think about it, will you?{\r}
+Dialogue: 0,0:14:45.98,0:14:49.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I mean, I'm not setting you up.\nAll these years I didn't say nothing.{\r}
+Dialogue: 0,0:14:49.60,0:14:53.88,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I mean, come on, man, just think.\nWe've got a history here.{\r}
+Dialogue: 0,0:14:56.96,0:14:57.98,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland?{\r}
+Dialogue: 0,0:16:01.66,0:16:03.68,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Welcome, my friend.{\r}
+Dialogue: 0,0:16:06.26,0:16:08.49,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The Russian project\nwent perfectly.{\r}
+Dialogue: 0,0:16:09.20,0:16:11.76,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The Bulgarians send their thanks.{\r}
+Dialogue: 0,0:16:11.76,0:16:13.80,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Chocolate?  - Too fattening.{\r}
+Dialogue: 0,0:16:15.07,0:16:19.03,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Very well, but I have goodies\nyou cannot refuse.{\r}
+Dialogue: 0,0:16:24.81,0:16:27.47,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Your usual.\nSouth African, special cut.{\r}
+Dialogue: 0,0:16:27.47,0:16:29.98,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Today's value exactly...{\r}
+Dialogue: 0,0:16:30.32,0:16:34.99,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...550,000.{\r}
+Dialogue: 0,0:16:37.02,0:16:39.19,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The extra 5O is a bonus.{\r}
+Dialogue: 0,0:16:39.19,0:16:42.30,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The clients are extremely happy.{\r}
+Dialogue: 0,0:16:43.33,0:16:44.35,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I aim to please.{\r}
+Dialogue: 0,0:16:46.70,0:16:49.53,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And even better news,\nanother potential contract.{\r}
+Dialogue: 0,0:16:49.53,0:16:51.19,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Double your usual fee.{\r}
+Dialogue: 0,0:16:51.84,0:16:53.50,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Who's the mark?{\r}
+Dialogue: 0,0:16:54.84,0:16:59.34,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Polo Yakur. A well-connected\ngentleman of some reputation.{\r}
+Dialogue: 0,0:17:01.12,0:17:02.91,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He's in prison.{\r}
+Dialogue: 0,0:17:04.02,0:17:06.85,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- It will be a difficult job.  - He's being released today.{\r}
+Dialogue: 0,0:17:06.85,0:17:09.55,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'll have more details shortly.{\r}
+Dialogue: 0,0:17:11.39,0:17:13.88,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- And the client?  - Wishes to remain anonymous.{\r}
+Dialogue: 0,0:17:16.06,0:17:17.53,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'll take it.{\r}
+Dialogue: 0,0:17:18.00,0:17:19.83,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I was hoping you'd say that.{\r}
+Dialogue: 0,0:17:19.83,0:17:22.70,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I wonder if one day you'll feel\nyou've made enough money...{\r}
+Dialogue: 0,0:17:22.70,0:17:25.20,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...to move to a better neighborhood.{\r}
+Dialogue: 0,0:17:26.17,0:17:27.77,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I like my neighborhood.{\r}
+Dialogue: 0,0:17:27.77,0:17:30.38,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}People mind their own business.{\r}
+Dialogue: 0,0:17:32.45,0:17:34.24,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Of course.{\r}
+Dialogue: 0,0:18:16.72,0:18:18.62,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Hey, boys.{\r}
+Dialogue: 0,0:18:19.13,0:18:20.59,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Welcome home.{\r}
+Dialogue: 0,0:18:27.07,0:18:29.00,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Where's my brother?{\r}
+Dialogue: 0,0:18:29.40,0:18:33.53,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Sorry, boss. He got picked up.  - When?{\r}
+Dialogue: 0,0:18:33.53,0:18:35.83,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Last week.\nSome guy talked too much.{\r}
+Dialogue: 0,0:18:37.14,0:18:38.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Let's drive.{\r}
+Dialogue: 0,0:18:56.30,0:18:57.89,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland.{\r}
+Dialogue: 0,0:18:59.73,0:19:01.33,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland.{\r}
+Dialogue: 0,0:19:03.30,0:19:06.36,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland, help. Roland!{\r}
+Dialogue: 0,0:19:07.41,0:19:08.50,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland.{\r}
+Dialogue: 0,0:19:08.50,0:19:10.40,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland. Roland.{\r}
+Dialogue: 0,0:19:13.38,0:19:14.94,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland, help!{\r}
+Dialogue: 0,0:19:20.99,0:19:22.72,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland.{\r}
+Dialogue: 0,0:19:25.83,0:19:26.85,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland.{\r}
+Dialogue: 0,0:20:22.52,0:20:26.75,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Bullshit. When I'm back all this shit\nbetter be inside, unpacked.{\r}
+Dialogue: 0,0:20:26.75,0:20:29.58,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And you'd better be dressed\nto go to work, understand?{\r}
+Dialogue: 0,0:20:29.58,0:20:30.78,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Do you understand?{\r}
+Dialogue: 0,0:20:34.76,0:20:36.66,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Hey, how you doing?{\r}
+Dialogue: 0,0:20:36.66,0:20:40.06,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}We're your new neighbors.\nOctober and me.{\r}
+Dialogue: 0,0:20:43.84,0:20:45.70,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}That your place?{\r}
+Dialogue: 0,0:20:47.24,0:20:48.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Yeah.{\r}
+Dialogue: 0,0:20:49.04,0:20:52.14,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}See, I'm looking\ninto expanding my business...{\r}
+Dialogue: 0,0:20:52.14,0:20:54.91,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...and I'm thinking\nabout buying the whole ﬂoor.{\r}
+Dialogue: 0,0:20:56.82,0:20:58.65,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'd make it worth your while, huh?{\r}
+Dialogue: 0,0:20:59.25,0:21:00.88,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I doubt it.{\r}
+Dialogue: 0,0:21:11.03,0:21:13.26,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What the fuck you looking at?\nMove the boxes.{\r}
+Dialogue: 0,0:22:47.93,0:22:50.76,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Hello.  - it's me. I want in.{\r}
+Dialogue: 0,0:22:50.76,0:22:54.23,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- I'll take the Polo job.  - it's off the market.{\r}
+Dialogue: 0,0:22:54.23,0:22:56.56,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}A million bucks\nis a tough ticket to keep open.{\r}
+Dialogue: 0,0:22:56.56,0:22:58.47,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I don't care about the money.{\r}
+Dialogue: 0,0:22:58.47,0:23:00.73,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Just get me the intel,\nmaybe some gear.{\r}
+Dialogue: 0,0:23:00.73,0:23:03.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's a bad idea.{\r}
+Dialogue: 0,0:23:03.07,0:23:05.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}We don't want to get\nin someone's way.{\r}
+Dialogue: 0,0:23:05.07,0:23:07.87,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}This type of money,\nthere's serious people involved.{\r}
+Dialogue: 0,0:23:07.87,0:23:10.45,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Culley. You owe me.{\r}
+Dialogue: 0,0:23:12.42,0:23:16.22,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Look, I'm sorry\nfor looking for you, all right?{\r}
+Dialogue: 0,0:23:16.22,0:23:17.45,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Just lay low.{\r}
+Dialogue: 0,0:23:17.45,0:23:19.59,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You're safe. Anna's safe.{\r}
+Dialogue: 0,0:23:19.59,0:23:21.25,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}How long is that gonna last?{\r}
+Dialogue: 0,0:23:21.25,0:23:23.49,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I took out half his outfit\nand put Polo away.{\r}
+Dialogue: 0,0:23:23.49,0:23:25.65,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He's gonna come after me\nto finish the job.{\r}
+Dialogue: 0,0:23:25.65,0:23:28.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}No, it's better if I hit him first.{\r}
+Dialogue: 0,0:23:30.27,0:23:33.47,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Come on, man.\nI need your help here.{\r}
+Dialogue: 0,0:23:36.54,0:23:38.98,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}All right, all right.{\r}
+Dialogue: 0,0:23:39.38,0:23:41.64,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- You can come stay here.  - That's good.{\r}
+Dialogue: 0,0:23:42.05,0:23:43.78,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- See you soon.  - Yeah.{\r}
+Dialogue: 0,0:23:43.78,0:23:46.15,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I should have my head examined.{\r}
+Dialogue: 0,0:25:01.23,0:25:03.82,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Here. Looks like\nPolo's brother, Danzo...{\r}
+Dialogue: 0,0:25:03.82,0:25:05.26,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...is gonna walk\nat the trial tomorrow.{\r}
+Dialogue: 0,0:25:05.26,0:25:07.70,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The prosecution's witness\nis mysteriously missing.{\r}
+Dialogue: 0,0:25:07.70,0:25:11.50,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}That's our shot. Now, if we're lucky,\nPolo comes to get him in person.{\r}
+Dialogue: 0,0:25:11.50,0:25:12.90,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Okay, let's leak it out.{\r}
+Dialogue: 0,0:25:13.44,0:25:17.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Good idea. Flint'll have\nhis ears to the ground.{\r}
+Dialogue: 0,0:25:30.99,0:25:33.08,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}My sources say our friend\nmight be visiting...{\r}
+Dialogue: 0,0:25:33.08,0:25:35.89,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...a downtown courthouse tomorrow.{\r}
+Dialogue: 0,0:25:37.86,0:25:38.89,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Checkmate.{\r}
+Dialogue: 0,0:25:44.24,0:25:47.30,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You are full of surprises, my friend.{\r}
+Dialogue: 0,0:25:56.22,0:25:58.48,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Municipal courthouse.{\r}
+Dialogue: 0,0:25:59.19,0:26:00.58,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Yup.{\r}
+Dialogue: 0,0:26:03.79,0:26:06.62,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- How good's the intel?  - Solid.{\r}
+Dialogue: 0,0:26:06.62,0:26:08.95,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Double-blind, the usual.{\r}
+Dialogue: 0,0:26:09.86,0:26:11.76,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Could be your old friends\nfrom Interpol.{\r}
+Dialogue: 0,0:26:17.34,0:26:19.24,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Sure you wanna go through with it?{\r}
+Dialogue: 0,0:26:19.24,0:26:21.34,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Don't worry about me, Mom.{\r}
+Dialogue: 0,0:26:22.48,0:26:24.97,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I've done this once or twice before.{\r}
+Dialogue: 0,0:26:40.16,0:26:42.42,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You see something you like?{\r}
+Dialogue: 0,0:28:40.45,0:28:41.88,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Danzo.{\r}
+Dialogue: 0,0:28:42.52,0:28:44.11,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Danzo. Danzo. Can you hear me?{\r}
+Dialogue: 0,0:28:44.55,0:28:47.11,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Look at me. Look at me, Danzo.\nDanzo.{\r}
+Dialogue: 0,0:28:47.11,0:28:49.48,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Shooter in the van.\nShooter in the van.{\r}
+Dialogue: 0,0:28:51.79,0:28:53.32,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The motherfucker shot my brother.{\r}
+Dialogue: 0,0:28:53.32,0:28:54.55,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Please settle down.{\r}
+Dialogue: 0,0:28:54.55,0:28:56.46,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What the fuck you mean\n"settle down"?{\r}
+Dialogue: 0,0:29:07.07,0:29:08.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Fuck.{\r}
+Dialogue: 0,0:29:12.95,0:29:15.28,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Danzo. Careful. Watch his head.{\r}
+Dialogue: 0,0:29:15.78,0:29:18.51,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Come on. Where's the ambulance?{\r}
+Dialogue: 0,0:29:20.45,0:29:23.48,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Come on. Come on.{\r}
+Dialogue: 0,0:29:39.91,0:29:41.43,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Gun.{\r}
+Dialogue: 0,0:29:41.43,0:29:43.27,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}GO, go!{\r}
+Dialogue: 0,0:29:58.99,0:30:01.48,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Stop. Hey you, freeze.{\r}
+Dialogue: 0,0:30:03.83,0:30:07.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Stop, stop, StOP-  - Stop, stop.{\r}
+Dialogue: 0,0:30:17.94,0:30:20.14,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Move, move, move.{\r}
+Dialogue: 0,0:30:37.13,0:30:38.86,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- We're dead.  - No, we're not.{\r}
+Dialogue: 0,0:30:39.03,0:30:41.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's working. We drew Flint out.{\r}
+Dialogue: 0,0:30:41.30,0:30:43.67,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- You don't think we spooked him?  - You see his face?{\r}
+Dialogue: 0,0:30:43.84,0:30:46.53,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}We've got him hooked.\nHe won't quit till Polo's dead.{\r}
+Dialogue: 0,0:30:47.31,0:30:50.11,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}We need more guns, hardware.{\r}
+Dialogue: 0,0:30:50.28,0:30:53.44,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- We can't do this alone.  - Good point. Time to call Herrod.{\r}
+Dialogue: 0,0:31:09.73,0:31:11.32,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I talked to the doctor.{\r}
+Dialogue: 0,0:31:11.50,0:31:14.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It was poison-tipped.\nVery fast-acting.{\r}
+Dialogue: 0,0:31:14.30,0:31:17.53,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He said whoever did this\nknows his toxins.{\r}
+Dialogue: 0,0:31:18.61,0:31:20.73,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Keep it safe...{\r}
+Dialogue: 0,0:31:21.14,0:31:24.91,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...so when I find the animal\nthat killed my brother...{\r}
+Dialogue: 0,0:31:25.65,0:31:28.84,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...I can use it to carve out his eyes.{\r}
+Dialogue: 0,0:31:35.92,0:31:38.08,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I don't believe in fairy tales.{\r}
+Dialogue: 0,0:31:39.16,0:31:41.99,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The minute they told me\nI was being released...{\r}
+Dialogue: 0,0:31:42.16,0:31:43.82,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...I smelled something rotten.{\r}
+Dialogue: 0,0:31:44.00,0:31:46.33,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I don't think either\nthe sniper that missed...{\r}
+Dialogue: 0,0:31:46.50,0:31:50.27,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...or Robin Hood\nwas there by coincidence.{\r}
+Dialogue: 0,0:31:50.87,0:31:54.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Maybe you should lay low.\nWe could be on a boat tonight.{\r}
+Dialogue: 0,0:31:54.24,0:31:57.04,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm not going anywhere\nuntil I find who killed Danzo.{\r}
+Dialogue: 0,0:32:00.21,0:32:02.94,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Come on, we have work to do.{\r}
+Dialogue: 0,0:32:05.45,0:32:06.92,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Now we know it was a setup.{\r}
+Dialogue: 0,0:32:07.09,0:32:09.65,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'll make calls,\nhave you out of the country by tonight.{\r}
+Dialogue: 0,0:32:09.82,0:32:11.81,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- I'll handle it.  - No.{\r}
+Dialogue: 0,0:32:12.39,0:32:15.95,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Find out if Polo's cousin\nstill owns those factories by the docks.{\r}
+Dialogue: 0,0:32:16.90,0:32:18.63,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You sure about that?{\r}
+Dialogue: 0,0:32:19.27,0:32:23.00,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Yeah.  - All right. I'll make some calls.{\r}
+Dialogue: 0,0:32:48.26,0:32:50.46,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Nobody talks shit to me.{\r}
+Dialogue: 0,0:32:51.40,0:32:54.09,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You always got something to say.{\r}
+Dialogue: 0,0:32:55.47,0:32:58.40,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Talk some more shit to me.\nStupid bitch.{\r}
+Dialogue: 0,0:33:01.64,0:33:04.63,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Stop it.  - That's enough.{\r}
+Dialogue: 0,0:33:16.59,0:33:19.25,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You still got something to say?{\r}
+Dialogue: 0,0:33:26.27,0:33:27.53,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You're disturbing me.{\r}
+Dialogue: 0,0:33:31.90,0:33:33.20,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Go and cool off.{\r}
+Dialogue: 0,0:33:38.21,0:33:39.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Go.{\r}
+Dialogue: 0,0:33:48.86,0:33:50.35,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You Okay?{\r}
+Dialogue: 0,0:33:51.82,0:33:52.85,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}No.{\r}
+Dialogue: 0,0:34:29.43,0:34:30.56,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Excuse me.{\r}
+Dialogue: 0,0:34:34.03,0:34:35.83,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm trying to practice.{\r}
+Dialogue: 0,0:34:37.04,0:34:38.40,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm locked out.{\r}
+Dialogue: 0,0:34:49.68,0:34:51.21,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Sit.{\r}
+Dialogue: 0,0:35:12.17,0:35:14.20,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Put this on. It will help.{\r}
+Dialogue: 0,0:35:19.75,0:35:22.74,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Hello?  - Despite your unforeseen difficulties...{\r}
+Dialogue: 0,0:35:22.92,0:35:25.85,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}-...the contract remains open.  - Wait.{\r}
+Dialogue: 0,0:35:28.75,0:35:32.69,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Don't move. Stay there. Okay?{\r}
+Dialogue: 0,0:35:35.19,0:35:38.06,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}There was another shooter.\nI thought it was exclusive.{\r}
+Dialogue: 0,0:35:38.23,0:35:43.10,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It is. The client has confirmed\nthat a third party may be involved.{\r}
+Dialogue: 0,0:35:43.27,0:35:46.57,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}A third party with personal issues.{\r}
+Dialogue: 0,0:35:46.74,0:35:50.33,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I also have a possible location\nfor our polo-playing friend.{\r}
+Dialogue: 0,0:36:03.29,0:36:04.69,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You need to leave now.{\r}
+Dialogue: 0,0:36:05.06,0:36:06.35,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm locked out.{\r}
+Dialogue: 0,0:36:07.66,0:36:09.09,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You can wait in the hallway.{\r}
+Dialogue: 0,0:36:10.23,0:36:11.75,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Please.{\r}
+Dialogue: 0,0:36:13.07,0:36:14.76,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Come on, you have to go now.{\r}
+Dialogue: 0,0:36:14.93,0:36:18.77,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Please, can I stay here\njust for tonight?{\r}
+Dialogue: 0,0:36:19.67,0:36:21.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Come on, out.{\r}
+Dialogue: 0,0:36:21.24,0:36:23.67,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It'll take him till tomorrow\nto calm down.{\r}
+Dialogue: 0,0:36:24.34,0:36:27.44,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He sees me now,\nhe'll put me in the hospital again.{\r}
+Dialogue: 0,0:36:39.66,0:36:42.99,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You need to be gone\nin the morning, okay?{\r}
+Dialogue: 0,0:36:53.77,0:36:56.11,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And don't touch anything.{\r}
+Dialogue: 0,0:38:44.72,0:38:47.28,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The Polo contract is mine.\nExclusive.{\r}
+Dialogue: 0,0:38:47.45,0:38:50.32,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I don't care about the money.\nIt's personal.{\r}
+Dialogue: 0,0:38:50.56,0:38:53.53,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You lose me my fee,\nit's personal to me.{\r}
+Dialogue: 0,0:39:51.45,0:39:52.97,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Sure those antiques still work?{\r}
+Dialogue: 0,0:39:54.55,0:39:57.82,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- One way to find out.  - You're the guy from the courthouse.{\r}
+Dialogue: 0,0:39:58.52,0:40:00.96,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Blocked my shot.  - You made me miss.{\r}
+Dialogue: 0,0:40:01.66,0:40:03.49,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Touché.{\r}
+Dialogue: 0,0:40:04.66,0:40:07.63,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Look, we're both professionals.{\r}
+Dialogue: 0,0:40:08.10,0:40:10.30,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Sure we can come to some sort\nof understanding.{\r}
+Dialogue: 0,0:40:10.47,0:40:13.63,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What I understand\nis you're getting in my way.{\r}
+Dialogue: 0,0:40:13.81,0:40:16.21,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Exactly my point.\nWe keep chasing the same target...{\r}
+Dialogue: 0,0:40:16.38,0:40:18.24,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...we'll keep getting\nin each other's way.{\r}
+Dialogue: 0,0:40:18.41,0:40:19.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Then stay out of it.{\r}
+Dialogue: 0,0:40:20.21,0:40:23.51,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}After that mess at the courthouse,\nPolo's gonna be on full guard.{\r}
+Dialogue: 0,0:40:23.68,0:40:26.85,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The best way for us to get him\nis if we work together.{\r}
+Dialogue: 0,0:40:27.02,0:40:29.08,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You get the money\neither way, pal. All right?{\r}
+Dialogue: 0,0:40:29.26,0:40:32.42,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The whole million.\nAnd a free pair of hands.{\r}
+Dialogue: 0,0:40:35.66,0:40:38.82,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Nothing in life is for free.\nWhat's in it for you?{\r}
+Dialogue: 0,0:40:39.00,0:40:40.33,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I got history with Polo.{\r}
+Dialogue: 0,0:40:40.50,0:40:43.96,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Oh, great. A partner with a vendetta.{\r}
+Dialogue: 0,0:40:44.14,0:40:45.63,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Just what I need.{\r}
+Dialogue: 0,0:40:45.81,0:40:47.97,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You'll never find him. I will.{\r}
+Dialogue: 0,0:40:48.14,0:40:51.20,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I've been doing this\nfor a long time, my friend.{\r}
+Dialogue: 0,0:40:51.38,0:40:54.18,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Oh, you'll find him eventually.\nI'll find him tonight.{\r}
+Dialogue: 0,0:40:56.05,0:40:59.04,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Like I said, I got history with Polo.{\r}
+Dialogue: 0,0:40:59.22,0:41:01.55,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I spent two years of my life\ninfiltrating his crew.{\r}
+Dialogue: 0,0:41:01.72,0:41:03.45,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He's never gonna come back here.{\r}
+Dialogue: 0,0:41:03.62,0:41:06.06,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He will sever all his usual contacts\nexcept for one.{\r}
+Dialogue: 0,0:41:06.23,0:41:08.49,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Who?  - We got a deal?{\r}
+Dialogue: 0,0:41:09.36,0:41:12.30,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}If your intel's for real.\nWho's your lead?{\r}
+Dialogue: 0,0:41:12.90,0:41:15.16,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The guy who makes his hardware.{\r}
+Dialogue: 0,0:41:15.97,0:41:18.56,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Polo loves his toys.{\r}
+Dialogue: 0,0:42:05.78,0:42:08.01,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I read about these things.{\r}
+Dialogue: 0,0:42:08.19,0:42:09.35,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Very cool.{\r}
+Dialogue: 0,0:42:09.82,0:42:11.48,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Careful.{\r}
+Dialogue: 0,0:42:11.92,0:42:14.62,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Careful, that's a half-a-million-dollar\npiece of equipment.{\r}
+Dialogue: 0,0:42:14.79,0:42:16.85,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Spoken like a true businessman.{\r}
+Dialogue: 0,0:42:17.03,0:42:20.06,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}But the question\nyou should be asking...{\r}
+Dialogue: 0,0:42:20.57,0:42:24.02,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...is whether the weapon is loaded.{\r}
+Dialogue: 0,0:42:24.20,0:42:25.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Wait, wait, wait. No, don't.{\r}
+Dialogue: 0,0:42:27.07,0:42:29.47,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}God, okay. Hey. Okay.{\r}
+Dialogue: 0,0:42:31.41,0:42:32.81,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What do you want'?{\r}
+Dialogue: 0,0:42:44.39,0:42:46.32,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Holy shit.{\r}
+Dialogue: 0,0:42:47.69,0:42:48.75,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland Flint.{\r}
+Dialogue: 0,0:42:49.63,0:42:52.15,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You remember me, that's good.{\r}
+Dialogue: 0,0:42:52.43,0:42:53.59,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And you know what I want.{\r}
+Dialogue: 0,0:42:54.80,0:42:56.86,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You're the one who called.{\r}
+Dialogue: 0,0:42:58.57,0:43:01.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- So there's no job?  - Quit stalling.{\r}
+Dialogue: 0,0:43:02.51,0:43:04.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I have no idea where he is.{\r}
+Dialogue: 0,0:43:05.01,0:43:09.91,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You know, I read these things\ncan even memorize a pattern.{\r}
+Dialogue: 0,0:43:13.02,0:43:17.96,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}No, no, stop. Hey, stop.\nNo, hey. Stop.{\r}
+Dialogue: 0,0:43:21.79,0:43:25.32,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}All right, all right. Calm down.\nI'm not gonna kill you.{\r}
+Dialogue: 0,0:43:25.50,0:43:28.47,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Just gonna blow you apart\nlimb by limb.{\r}
+Dialogue: 0,0:43:29.10,0:43:32.00,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Please, I have a family.{\r}
+Dialogue: 0,0:43:32.17,0:43:34.14,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I had a family too, you piece of shit.{\r}
+Dialogue: 0,0:43:34.31,0:43:36.27,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Okay, okay, hey. I'll tell you.{\r}
+Dialogue: 0,0:43:36.44,0:43:37.53,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Talk fast.{\r}
+Dialogue: 0,0:43:38.68,0:43:40.24,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'll tell you.{\r}
+Dialogue: 0,0:43:40.95,0:43:42.71,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He knows he's got a price\non his head.{\r}
+Dialogue: 0,0:43:42.88,0:43:45.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He's moving around hotels\nhe once used as a front.{\r}
+Dialogue: 0,0:43:45.78,0:43:48.41,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Give me an address.  - I don't know where he is right now.{\r}
+Dialogue: 0,0:43:48.59,0:43:53.29,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}But Thursday and Friday\nhe'll be at the Royal Grand.{\r}
+Dialogue: 0,0:43:54.23,0:43:55.39,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}If you're lying to me...{\r}
+Dialogue: 0,0:43:56.26,0:44:01.29,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I understand. I know what you do.\nPlease.{\r}
+Dialogue: 0,0:44:02.94,0:44:04.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Good.{\r}
+Dialogue: 0,0:44:15.18,0:44:16.88,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What the hell was that?{\r}
+Dialogue: 0,0:44:17.05,0:44:18.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What the hell was what?{\r}
+Dialogue: 0,0:44:18.78,0:44:22.81,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Why did you kill him?\nI wanted the guy alive.{\r}
+Dialogue: 0,0:44:24.16,0:44:26.15,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I had a plan.{\r}
+Dialogue: 0,0:44:26.99,0:44:30.02,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I was gonna introduce you.\nHe was gonna run off to Polo...{\r}
+Dialogue: 0,0:44:30.20,0:44:32.66,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...with a line on the guy\nthat killed his brother...{\r}
+Dialogue: 0,0:44:32.83,0:44:35.27,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...and I was gonna use that\nto lure him in.{\r}
+Dialogue: 0,0:44:36.57,0:44:37.83,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You didn't tell me that.{\r}
+Dialogue: 0,0:44:39.24,0:44:41.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Because it was a new idea,\nall right?{\r}
+Dialogue: 0,0:44:41.77,0:44:43.40,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I was thinking on the fly.{\r}
+Dialogue: 0,0:44:43.58,0:44:44.97,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}If you want a partner...{\r}
+Dialogue: 0,0:44:45.14,0:44:48.08,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...you've got to learn\nhow to communicate better.{\r}
+Dialogue: 0,0:44:51.42,0:44:53.89,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You know, you're lucky\nwe have a lead.{\r}
+Dialogue: 0,0:44:57.22,0:45:00.28,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- You trust him?  - As much as I trust you.{\r}
+Dialogue: 0,0:45:01.06,0:45:03.62,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'll get my people\nto confirm his info, okay?{\r}
+Dialogue: 0,0:45:03.80,0:45:07.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Yeah, you do that. I'll get\nthe layout for the Royal Grand.{\r}
+Dialogue: 0,0:45:07.30,0:45:09.56,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}We'll meet, figure it out.{\r}
+Dialogue: 0,0:45:09.74,0:45:11.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Half a million for this?{\r}
+Dialogue: 0,0:45:14.21,0:45:16.11,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You know, we should just take that.{\r}
+Dialogue: 0,0:45:16.28,0:45:19.27,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Probably better to make it look\nlike a break-in anyway.{\r}
+Dialogue: 0,0:45:20.15,0:45:22.67,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Can we take something lighter?{\r}
+Dialogue: 0,0:45:53.41,0:45:55.11,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What?{\r}
+Dialogue: 0,0:45:59.59,0:46:02.18,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I reached out to a guy\nat the courthouse.{\r}
+Dialogue: 0,0:46:02.35,0:46:04.45,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Got this off a security camera.{\r}
+Dialogue: 0,0:46:16.64,0:46:20.33,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Get this out to everybody.\nI mean everybody.{\r}
+Dialogue: 0,0:46:22.61,0:46:27.10,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Let's find this fucker and bury him.{\r}
+Dialogue: 0,0:47:36.38,0:47:37.97,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Wake up.{\r}
+Dialogue: 0,0:47:40.35,0:47:43.32,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Come on. Get out.  - Sorry.{\r}
+Dialogue: 0,0:47:43.89,0:47:47.29,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You left the door open.\nI saw the fruit.{\r}
+Dialogue: 0,0:47:47.46,0:47:49.09,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}L got hungry-{\r}
+Dialogue: 0,0:47:49.26,0:47:52.66,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Okay, you ate, you slept.\nNow you're going out. Come on.{\r}
+Dialogue: 0,0:47:53.87,0:47:55.56,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Come on. Get out.{\r}
+Dialogue: 0,0:47:56.74,0:47:58.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Get out.  - Fine.{\r}
+Dialogue: 0,0:48:08.51,0:48:10.24,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What are you doing?{\r}
+Dialogue: 0,0:48:11.05,0:48:12.71,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Have a good life, turtle.{\r}
+Dialogue: 0,0:48:17.19,0:48:19.09,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}How did you do that?{\r}
+Dialogue: 0,0:48:20.33,0:48:23.39,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Do what?  - How did you get him to come out?{\r}
+Dialogue: 0,0:48:28.70,0:48:32.66,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Come here. I'll show you.{\r}
+Dialogue: 0,0:48:36.17,0:48:40.24,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You just have to pet him right here.{\r}
+Dialogue: 0,0:48:48.09,0:48:49.99,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Amazing.{\r}
+Dialogue: 0,0:49:14.48,0:49:15.97,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Wait.{\r}
+Dialogue: 0,0:49:28.63,0:49:30.93,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You should put something\non your back.{\r}
+Dialogue: 0,0:49:40.97,0:49:42.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It hurt?{\r}
+Dialogue: 0,0:50:45.24,0:50:46.70,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What?{\r}
+Dialogue: 0,0:50:51.01,0:50:52.67,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Go get Anna.{\r}
+Dialogue: 0,0:50:53.35,0:50:55.21,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Get out of the country.{\r}
+Dialogue: 0,0:50:56.21,0:50:59.71,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Better yet, go to the States.{\r}
+Dialogue: 0,0:51:00.25,0:51:01.58,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I gotta see this through.{\r}
+Dialogue: 0,0:51:02.25,0:51:03.62,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You gotta see it through?{\r}
+Dialogue: 0,0:51:03.79,0:51:05.98,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Or you wanna be the one\nwho pulls the trigger?{\r}
+Dialogue: 0,0:51:07.73,0:51:10.70,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I mean, you said this other\nguy's good, right? Good.{\r}
+Dialogue: 0,0:51:10.86,0:51:13.23,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He's got the contract.\nHe's a pro, he's motivated.{\r}
+Dialogue: 0,0:51:13.40,0:51:14.89,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Let him take care of Polo.{\r}
+Dialogue: 0,0:51:15.07,0:51:16.69,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's not just Polo though, is it?{\r}
+Dialogue: 0,0:51:16.87,0:51:20.67,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's those dirty Interpol cops that set\nme up. They want my head on a stick.{\r}
+Dialogue: 0,0:51:20.84,0:51:24.14,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}They want their money back. They're\ngonna keep coming till they get it.{\r}
+Dialogue: 0,0:51:24.31,0:51:26.68,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}So, what are you gonna do?\nYou take them all on?{\r}
+Dialogue: 0,0:51:28.58,0:51:30.10,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You're insane.{\r}
+Dialogue: 0,0:51:30.28,0:51:34.18,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You can sit there\ninsulting me or you can help.{\r}
+Dialogue: 0,0:51:34.55,0:51:36.49,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What's it gonna be?{\r}
+Dialogue: 0,0:51:38.59,0:51:41.15,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}All right. What?{\r}
+Dialogue: 0,0:52:01.35,0:52:03.75,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm going to bed. You coming up?{\r}
+Dialogue: 0,0:52:04.58,0:52:06.45,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}In a minute.{\r}
+Dialogue: 0,0:52:20.23,0:52:22.63,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I know you like\nto keep your hands clean.{\r}
+Dialogue: 0,0:52:23.27,0:52:24.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}But I promise...{\r}
+Dialogue: 0,0:52:24.77,0:52:29.21,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...if you don't get your pit bulls off my\nback, I'm gonna come back here.{\r}
+Dialogue: 0,0:52:30.04,0:52:33.84,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'll carve your wife's heart out\nand make you eat it. Understand?{\r}
+Dialogue: 0,0:52:34.01,0:52:35.04,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm not...{\r}
+Dialogue: 0,0:52:35.21,0:52:37.98,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}No, you're not listening.{\r}
+Dialogue: 0,0:52:38.82,0:52:41.84,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Goodbye.  - Don't.{\r}
+Dialogue: 0,0:52:55.70,0:52:57.17,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}In my home!{\r}
+Dialogue: 0,0:52:57.34,0:53:01.77,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He threatened me in my own home\nwith my family upstairs!{\r}
+Dialogue: 0,0:53:02.21,0:53:04.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Well, he's just trying\nto psych you out.{\r}
+Dialogue: 0,0:53:04.24,0:53:05.83,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You want resources, fine.{\r}
+Dialogue: 0,0:53:06.01,0:53:08.04,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'll give you extra men,\nweapons, whatever.{\r}
+Dialogue: 0,0:53:08.21,0:53:10.94,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}But I want him dead.\nI don't care what it takes.{\r}
+Dialogue: 0,0:53:11.12,0:53:13.74,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I just want him dead\nin the next 48 hours.{\r}
+Dialogue: 0,0:53:13.92,0:53:18.29,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Or I will personally turn\nthe two of you in.{\r}
+Dialogue: 0,0:53:24.66,0:53:28.16,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You know, maybe the problem\nwith our plan is that...{\r}
+Dialogue: 0,0:53:28.73,0:53:29.96,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...Polo isn't in on it.{\r}
+Dialogue: 0,0:53:31.60,0:53:34.20,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You wanna make that headcase\nour partner?{\r}
+Dialogue: 0,0:54:10.24,0:54:12.34,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I've been expecting you.{\r}
+Dialogue: 0,0:54:13.61,0:54:14.77,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You Nalbandian?{\r}
+Dialogue: 0,0:54:15.35,0:54:17.37,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}At your service.{\r}
+Dialogue: 0,0:54:18.12,0:54:21.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I want to know who\nthe players are. Who set it up.{\r}
+Dialogue: 0,0:54:21.79,0:54:24.15,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Who the hitters are. Everything.{\r}
+Dialogue: 0,0:54:24.32,0:54:26.62,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And I know that you know.{\r}
+Dialogue: 0,0:54:27.13,0:54:30.75,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Let's imagine\nthat you are right. Now what?{\r}
+Dialogue: 0,0:54:30.93,0:54:34.70,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Now you tell me\nbefore I start hurting you.{\r}
+Dialogue: 0,0:54:36.07,0:54:39.00,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Your reputation is well-deserved.{\r}
+Dialogue: 0,0:54:40.94,0:54:44.00,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}So is mine. Gentlemen.{\r}
+Dialogue: 0,0:55:01.76,0:55:03.39,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Agent Godfrey.{\r}
+Dialogue: 0,0:55:03.56,0:55:06.86,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I see that your schemes\naren't getting any smarter.{\r}
+Dialogue: 0,0:55:07.03,0:55:08.56,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Which is why we need your help.{\r}
+Dialogue: 0,0:55:09.33,0:55:11.03,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Really?{\r}
+Dialogue: 0,0:55:11.20,0:55:12.93,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Why would I help you?{\r}
+Dialogue: 0,0:55:13.00,0:55:13.90,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Immunity. Lifetime guarantee...{\r}
+Dialogue: 0,0:55:14.10,0:55:16.40,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...by both the E.U.\nand the U.S. governments.{\r}
+Dialogue: 0,0:55:16.57,0:55:18.54,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}No strings attached\nexcept a one-way ticket...{\r}
+Dialogue: 0,0:55:18.71,0:55:21.18,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...to anywhere outside\nof Europe and North America.{\r}
+Dialogue: 0,0:55:22.41,0:55:23.90,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}In exchange for...?{\r}
+Dialogue: 0,0:55:24.65,0:55:26.84,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Helping to intercept Roland Flint.{\r}
+Dialogue: 0,0:55:30.19,0:55:31.85,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Flint.{\r}
+Dialogue: 0,0:55:32.02,0:55:35.42,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Things begin to make\na little more sense.{\r}
+Dialogue: 0,0:55:35.59,0:55:38.76,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's a limited-time offer.\nWe need to know.{\r}
+Dialogue: 0,0:55:42.23,0:55:43.26,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Now.{\r}
+Dialogue: 0,0:55:47.27,0:55:49.93,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- One condition.  - What?{\r}
+Dialogue: 0,0:55:57.95,0:56:00.92,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I want the man\nwho killed my brother.{\r}
+Dialogue: 0,0:56:02.89,0:56:04.55,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Impossible.{\r}
+Dialogue: 0,0:56:08.99,0:56:10.89,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Unless the price is right.{\r}
+Dialogue: 0,0:56:41.39,0:56:42.95,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You feel better?{\r}
+Dialogue: 0,0:56:46.73,0:56:48.67,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I guess I got new Tellys now.{\r}
+Dialogue: 0,0:56:50.40,0:56:51.77,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What?{\r}
+Dialogue: 0,0:56:52.60,0:56:54.50,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}My scars.{\r}
+Dialogue: 0,0:56:55.34,0:56:58.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I name them after the man\nwho gave them to me.{\r}
+Dialogue: 0,0:57:01.41,0:57:03.28,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You're judging me.{\r}
+Dialogue: 0,0:57:04.98,0:57:07.42,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Like you're so much better.{\r}
+Dialogue: 0,0:57:12.66,0:57:15.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Would you kill me if someone\noffered you enough money?{\r}
+Dialogue: 0,0:57:16.03,0:57:17.09,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What do you want'?{\r}
+Dialogue: 0,0:57:19.06,0:57:20.79,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Nothing.{\r}
+Dialogue: 0,0:57:21.67,0:57:25.10,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}People choose their death\nwhen they choose how they live.{\r}
+Dialogue: 0,0:57:30.44,0:57:31.97,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Does that let you sleep at night?{\r}
+Dialogue: 0,0:57:33.85,0:57:35.81,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I sleep fine.{\r}
+Dialogue: 0,0:57:36.08,0:57:37.81,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm a weapon.{\r}
+Dialogue: 0,0:57:38.75,0:57:40.55,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I don't choose where I'm pointed.{\r}
+Dialogue: 0,0:57:42.22,0:57:44.31,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Of course. You just follow orders.{\r}
+Dialogue: 0,0:57:45.86,0:57:49.99,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm not different\nthan a doctor or a waiter.{\r}
+Dialogue: 0,0:57:50.16,0:57:51.69,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I serve a function.{\r}
+Dialogue: 0,0:57:51.86,0:57:53.46,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I get it.{\r}
+Dialogue: 0,0:57:54.37,0:57:55.99,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm in the service industry too.{\r}
+Dialogue: 0,0:57:57.67,0:57:58.83,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You calling me a whore?{\r}
+Dialogue: 0,0:57:59.54,0:58:01.73,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}A service provider.{\r}
+Dialogue: 0,0:58:05.71,0:58:07.34,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Actually I'm nothing like you.{\r}
+Dialogue: 0,0:58:08.81,0:58:13.34,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I don't have a choice.\nI have nothing and no one.{\r}
+Dialogue: 0,0:58:13.52,0:58:15.51,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You have money, power.{\r}
+Dialogue: 0,0:58:15.69,0:58:18.71,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You can get out of the life\nanytime you want.{\r}
+Dialogue: 0,0:58:18.89,0:58:21.42,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You choose not to.{\r}
+Dialogue: 0,0:58:25.60,0:58:27.29,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm going out.{\r}
+Dialogue: 0,0:58:39.14,0:58:42.34,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Hey. You cost me business.{\r}
+Dialogue: 0,0:58:44.05,0:58:45.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}She's done with you.{\r}
+Dialogue: 0,0:58:46.35,0:58:48.44,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You don't want me as an enemy.{\r}
+Dialogue: 0,0:58:49.92,0:58:52.25,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I bet that scares the girls.{\r}
+Dialogue: 0,0:59:04.54,0:59:05.63,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Who is he?{\r}
+Dialogue: 0,0:59:05.80,0:59:08.83,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Some guy we found snooping\naround, asking about you.{\r}
+Dialogue: 0,0:59:09.01,0:59:11.34,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I don't think he's a cop.{\r}
+Dialogue: 0,0:59:24.62,0:59:25.82,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Who are you?{\r}
+Dialogue: 0,0:59:28.99,0:59:30.05,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Santa Claus.{\r}
+Dialogue: 0,0:59:31.90,0:59:33.63,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Oh, good.{\r}
+Dialogue: 0,0:59:34.33,0:59:36.39,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}A comedian.{\r}
+Dialogue: 0,0:59:37.67,0:59:39.26,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Once more.{\r}
+Dialogue: 0,0:59:39.44,0:59:41.06,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Who are you?{\r}
+Dialogue: 0,0:59:41.57,0:59:44.57,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Are you deaf? I'm Santa Claus.{\r}
+Dialogue: 0,0:59:45.41,0:59:47.04,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Deaf.{\r}
+Dialogue: 0,1:00:29.25,1:00:30.38,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What's going on?{\r}
+Dialogue: 0,1:00:30.82,1:00:32.45,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}We have a new offer.{\r}
+Dialogue: 0,1:00:32.92,1:00:36.19,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The client will double your usual fee\nfor a fraction of the work.{\r}
+Dialogue: 0,1:00:36.83,1:00:39.42,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What you need to do\nis bring your new friend...{\r}
+Dialogue: 0,1:00:39.60,1:00:43.56,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...to a specific place\nat a specific time.{\r}
+Dialogue: 0,1:00:45.00,1:00:46.87,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It will never work.{\r}
+Dialogue: 0,1:00:47.77,1:00:51.00,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- He will smell the trap.  - Polo would be there as an incentive.{\r}
+Dialogue: 0,1:00:51.18,1:00:53.04,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You will lead him in.\nPut him at ease.{\r}
+Dialogue: 0,1:00:53.21,1:00:57.01,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}That's all you have to do.\nOnce it starts, you're out.{\r}
+Dialogue: 0,1:01:04.69,1:01:07.02,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's good to have friends.{\r}
+Dialogue: 0,1:01:07.83,1:01:09.85,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}But this is a dangerous friend\nto have.{\r}
+Dialogue: 0,1:01:11.33,1:01:15.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He's a loose cannon.\nFor him, it's personal.{\r}
+Dialogue: 0,1:01:17.74,1:01:20.90,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Flint did a lot of damage\nto Polo's organization.{\r}
+Dialogue: 0,1:01:21.07,1:01:25.10,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}But his mistake was leaving\nthe snake's head for last.{\r}
+Dialogue: 0,1:01:25.28,1:01:26.87,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Polo got Flint where it hurt most.{\r}
+Dialogue: 0,1:01:27.51,1:01:31.04,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Family. Wanted to send a strong\nmessage to his enemies.{\r}
+Dialogue: 0,1:01:31.58,1:01:33.81,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}So he made Flint watch...{\r}
+Dialogue: 0,1:01:33.99,1:01:36.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...while he and his men\ngang-raped his wife...{\r}
+Dialogue: 0,1:01:36.79,1:01:39.22,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...and beat her into a coma.{\r}
+Dialogue: 0,1:01:40.12,1:01:43.25,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Lucky for your new friend, the local\ngendarmes had a tail on Polo...{\r}
+Dialogue: 0,1:01:43.43,1:01:46.19,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...and intervened\nbefore Flint was killed.{\r}
+Dialogue: 0,1:01:46.36,1:01:48.09,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Then Flint vanished.{\r}
+Dialogue: 0,1:01:48.27,1:01:51.79,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Along with a sizable chunk\nof lnterpol's dirty money.{\r}
+Dialogue: 0,1:01:53.47,1:01:56.91,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}So this whole job on Polo\nis a smoke screen.{\r}
+Dialogue: 0,1:01:58.48,1:02:03.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's dirty cops using Polo\nas bait to get Mr. Flint, right?{\r}
+Dialogue: 0,1:02:05.25,1:02:07.77,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The money is real.{\r}
+Dialogue: 0,1:02:09.39,1:02:13.02,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}A third now. The rest on completion.{\r}
+Dialogue: 0,1:02:39.62,1:02:41.11,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Good.{\r}
+Dialogue: 0,1:02:41.65,1:02:44.82,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I was worried Mr. Flint's\npersonal vendetta was infectious.{\r}
+Dialogue: 0,1:02:46.09,1:02:48.85,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Where do I take him?  - City hall.{\r}
+Dialogue: 0,1:02:49.03,1:02:52.29,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Tomorrow, 9:00.{\r}
+Dialogue: 0,1:03:02.61,1:03:05.63,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}City hall tomorrow at 9:00.{\r}
+Dialogue: 0,1:03:05.81,1:03:09.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}My source says Polo's meeting\na councilman he's got on his payroll.{\r}
+Dialogue: 0,1:03:09.78,1:03:11.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Trust your source?{\r}
+Dialogue: 0,1:03:11.85,1:03:14.34,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}As much as I trust you.{\r}
+Dialogue: 0,1:03:17.05,1:03:20.49,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- I worry about you.  - What?{\r}
+Dialogue: 0,1:03:21.13,1:03:23.18,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm worried\nbecause for you it's personal.{\r}
+Dialogue: 0,1:03:23.66,1:03:25.69,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You care too much.{\r}
+Dialogue: 0,1:03:25.86,1:03:28.70,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's going to get you dead.\nMaybe me too.{\r}
+Dialogue: 0,1:03:29.73,1:03:32.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Ask yourself this:{\r}
+Dialogue: 0,1:03:33.07,1:03:36.51,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}If you never really cared about\nanyone or anything...{\r}
+Dialogue: 0,1:03:36.94,1:03:39.47,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...then were you ever really alive?{\r}
+Dialogue: 0,1:03:42.58,1:03:44.98,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You sound like someone I know.{\r}
+Dialogue: 0,1:03:51.02,1:03:53.18,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Yeah, city hall's good.{\r}
+Dialogue: 0,1:03:53.49,1:03:57.26,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The only way in is through the main\nlobby. Lots of high vantage points.{\r}
+Dialogue: 0,1:03:57.43,1:04:00.23,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- I like it.  - Okay. Let's take a look.{\r}
+Dialogue: 0,1:04:00.40,1:04:01.76,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Here you go.{\r}
+Dialogue: 0,1:04:03.50,1:04:05.09,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'll take it.{\r}
+Dialogue: 0,1:04:06.30,1:04:07.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Cheers.{\r}
+Dialogue: 0,1:04:38.44,1:04:40.40,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Do you ever pray?{\r}
+Dialogue: 0,1:04:41.67,1:04:46.74,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Been a long time. No one answered.{\r}
+Dialogue: 0,1:04:47.11,1:04:48.14,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I gave HP-{\r}
+Dialogue: 0,1:04:49.98,1:04:51.71,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}That's sad.{\r}
+Dialogue: 0,1:04:51.88,1:04:56.25,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Where I come from, priests\nand crooks, they're all the same.{\r}
+Dialogue: 0,1:05:06.00,1:05:07.79,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Do you dream?{\r}
+Dialogue: 0,1:05:09.63,1:05:11.10,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}No.{\r}
+Dialogue: 0,1:05:12.77,1:05:14.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Ever think about your future?{\r}
+Dialogue: 0,1:05:16.54,1:05:20.64,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}No, it will come soon enough.\nAnd you?{\r}
+Dialogue: 0,1:05:22.51,1:05:26.51,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I just want out. Out of the city.{\r}
+Dialogue: 0,1:05:27.32,1:05:29.29,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Out of the life.{\r}
+Dialogue: 0,1:05:30.19,1:05:32.42,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}With someone I can trust.{\r}
+Dialogue: 0,1:05:32.92,1:05:35.05,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Trust to do what?{\r}
+Dialogue: 0,1:05:37.13,1:05:40.06,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Light a candle for me\nwhen I'm gone.{\r}
+Dialogue: 0,1:06:12.10,1:06:15.12,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Our selection for the evening.{\r}
+Dialogue: 0,1:06:16.03,1:06:17.23,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm busy.{\r}
+Dialogue: 0,1:06:19.37,1:06:20.74,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I think you wanna see this.{\r}
+Dialogue: 0,1:06:23.21,1:06:25.51,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I need the room. Please.{\r}
+Dialogue: 0,1:06:41.09,1:06:43.49,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You don't trust the African\nto come through.{\r}
+Dialogue: 0,1:06:43.66,1:06:44.99,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}So I got us a backup.{\r}
+Dialogue: 0,1:06:45.93,1:06:49.99,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Our friend here runs girls\nfor Benny Black in the district.{\r}
+Dialogue: 0,1:06:50.17,1:06:53.73,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He saw the picture. He says he\nknows the guy with the crossbow.{\r}
+Dialogue: 0,1:06:55.27,1:06:58.04,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You know the animal\nthat killed my brother?{\r}
+Dialogue: 0,1:06:58.91,1:07:02.35,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Yes, sir. We're neighbors.{\r}
+Dialogue: 0,1:07:30.84,1:07:32.33,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Wait.{\r}
+Dialogue: 0,1:07:46.22,1:07:48.32,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Be careful.{\r}
+Dialogue: 0,1:10:02.59,1:10:05.69,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Excuse me, what's going on here?{\r}
+Dialogue: 0,1:10:06.76,1:10:08.89,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Police, madam. Police.{\r}
+Dialogue: 0,1:10:09.07,1:10:12.93,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The situation's under control.\nYou can step back into your office.{\r}
+Dialogue: 0,1:10:13.74,1:10:16.00,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Get back into your office.{\r}
+Dialogue: 0,1:10:24.05,1:10:26.78,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You can come quietly,\nor I can use this again, okay?{\r}
+Dialogue: 0,1:10:27.72,1:10:29.28,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Move it.{\r}
+Dialogue: 0,1:10:57.38,1:10:59.41,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Your fat friend tried to hold out.{\r}
+Dialogue: 0,1:10:59.58,1:11:02.28,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He really did. But finally...{\r}
+Dialogue: 0,1:11:03.85,1:11:06.62,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...he sang like a fucking soprano.{\r}
+Dialogue: 0,1:11:09.83,1:11:13.35,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Told me all about you\nand your little country hideaway.{\r}
+Dialogue: 0,1:11:13.53,1:11:18.02,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Who knows?\nMaybe I pay our girl a visit.{\r}
+Dialogue: 0,1:11:34.79,1:11:35.95,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Excellent work.{\r}
+Dialogue: 0,1:11:37.29,1:11:39.55,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The client is very pleased.{\r}
+Dialogue: 0,1:11:44.80,1:11:47.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You're not going to examine them?{\r}
+Dialogue: 0,1:11:47.97,1:11:48.99,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I trust you.{\r}
+Dialogue: 0,1:11:52.40,1:11:54.00,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I have another prospect.{\r}
+Dialogue: 0,1:11:55.37,1:11:57.14,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm going to take some time off.{\r}
+Dialogue: 0,1:12:04.48,1:12:05.74,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Hello?{\r}
+Dialogue: 0,1:12:05.92,1:12:08.58,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}My friend. It's for you.{\r}
+Dialogue: 0,1:12:22.43,1:12:27.17,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Hello.  - Your friend has been a lovely hostess.{\r}
+Dialogue: 0,1:12:27.71,1:12:29.40,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Here she is.{\r}
+Dialogue: 0,1:12:35.71,1:12:38.05,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I hear you are a hard man.{\r}
+Dialogue: 0,1:12:38.22,1:12:41.84,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}But even hard men like us\nhave something we care about.{\r}
+Dialogue: 0,1:12:42.45,1:12:44.42,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}For example...{\r}
+Dialogue: 0,1:12:44.72,1:12:47.56,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...I loved my brother very much.{\r}
+Dialogue: 0,1:12:47.73,1:12:49.96,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The brother that you murdered.{\r}
+Dialogue: 0,1:12:51.76,1:12:54.49,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I suggest an exchange.{\r}
+Dialogue: 0,1:12:54.67,1:12:56.22,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You for her.{\r}
+Dialogue: 0,1:13:00.34,1:13:01.80,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You don't really have a choice.{\r}
+Dialogue: 0,1:13:02.64,1:13:04.40,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}As a wise man once said:{\r}
+Dialogue: 0,1:13:04.58,1:13:08.31,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}We are all prisoners\nof our own passions.{\r}
+Dialogue: 0,1:13:13.45,1:13:15.68,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You're wrong about me.{\r}
+Dialogue: 0,1:13:16.42,1:13:18.98,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm not a prisoner of anything.{\r}
+Dialogue: 0,1:13:29.13,1:13:30.93,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He wanted to gamble.{\r}
+Dialogue: 0,1:13:31.10,1:13:34.73,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I told him it was impossible\nto get to you.{\r}
+Dialogue: 0,1:13:37.37,1:13:39.64,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You went behind my back.{\r}
+Dialogue: 0,1:13:40.28,1:13:42.97,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}-It's done between you and I.  - Oh, come.{\r}
+Dialogue: 0,1:13:43.15,1:13:44.41,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You're overreacting.{\r}
+Dialogue: 0,1:13:45.02,1:13:47.92,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}If I overreacted, you'd be dead.{\r}
+Dialogue: 0,1:14:01.67,1:14:04.86,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Tell me where the money is\nand I'll make it quick.{\r}
+Dialogue: 0,1:14:06.40,1:14:09.84,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Just let me go right now.\nYou'll never see me again.{\r}
+Dialogue: 0,1:14:11.91,1:14:12.93,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And if we don't?{\r}
+Dialogue: 0,1:14:14.85,1:14:16.18,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Then I'll fucking kill you.{\r}
+Dialogue: 0,1:14:17.65,1:14:18.67,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Easy.{\r}
+Dialogue: 0,1:14:19.65,1:14:21.14,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Let's get our money back first.{\r}
+Dialogue: 0,1:14:22.45,1:14:23.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Okay, last chance.{\r}
+Dialogue: 0,1:14:24.15,1:14:27.45,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Now, Gabor here, he's an expert.{\r}
+Dialogue: 0,1:14:27.62,1:14:30.12,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He can make this last quite a while.{\r}
+Dialogue: 0,1:14:31.26,1:14:32.99,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Where's the money?{\r}
+Dialogue: 0,1:14:34.60,1:14:36.36,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I don't know\nwhat you're talking about.{\r}
+Dialogue: 0,1:16:29.51,1:16:30.84,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He's expecting you?{\r}
+Dialogue: 0,1:16:46.43,1:16:47.99,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I was hoping you'd reconsider.{\r}
+Dialogue: 0,1:16:48.43,1:16:50.37,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I need to know\nwhere they took Flint.{\r}
+Dialogue: 0,1:16:50.87,1:16:52.84,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You're breaking your own code.{\r}
+Dialogue: 0,1:16:53.00,1:16:55.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Risking your life\nbecause of feelings.{\r}
+Dialogue: 0,1:16:56.17,1:16:59.27,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}If I don't feel, am I really alive?{\r}
+Dialogue: 0,1:17:01.58,1:17:04.48,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And all this time,\nI thought I understood you.{\r}
+Dialogue: 0,1:17:04.65,1:17:07.62,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You and I understand\neach other perfectly.{\r}
+Dialogue: 0,1:17:09.09,1:17:11.32,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}We speak the same language.{\r}
+Dialogue: 0,1:17:11.49,1:17:14.15,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I need to know where Flint is.\nWe're losing time.{\r}
+Dialogue: 0,1:17:18.20,1:17:20.66,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I don't want payment.{\r}
+Dialogue: 0,1:17:21.13,1:17:25.33,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I do this in hopes\nof repairing our partnership.{\r}
+Dialogue: 0,1:17:25.50,1:17:29.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Which I'm certain will have\na long and profitable future.{\r}
+Dialogue: 0,1:17:29.77,1:17:32.67,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}If memory serves me correctly,\nMr. Polo suggested...{\r}
+Dialogue: 0,1:17:32.84,1:17:37.64,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...his cousin's old factory as a suitable\nplace to question Mr. Flint.{\r}
+Dialogue: 0,1:18:03.84,1:18:04.86,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Where's the money?{\r}
+Dialogue: 0,1:18:43.45,1:18:44.94,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland.{\r}
+Dialogue: 0,1:18:45.12,1:18:48.08,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Roland. Roland, help!{\r}
+Dialogue: 0,1:18:52.69,1:18:53.71,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}0K8)'-{\r}
+Dialogue: 0,1:19:04.77,1:19:08.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Where's the money?\nI won't ask again.{\r}
+Dialogue: 0,1:19:13.71,1:19:15.23,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's where?{\r}
+Dialogue: 0,1:19:16.71,1:19:18.15,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Spent it.{\r}
+Dialogue: 0,1:19:22.09,1:19:23.18,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Finish it.{\r}
+Dialogue: 0,1:19:26.92,1:19:27.95,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Gabor.{\r}
+Dialogue: 0,1:19:29.79,1:19:30.82,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Gabor.{\r}
+Dialogue: 0,1:19:39.30,1:19:41.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Shit.  - Okay, hold it together.{\r}
+Dialogue: 0,1:19:41.24,1:19:42.43,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Just hold it together.{\r}
+Dialogue: 0,1:19:42.61,1:19:44.87,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- You go check that way.  - I'm not going out there.{\r}
+Dialogue: 0,1:19:45.64,1:19:47.54,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- What?  - I'm not going out there.{\r}
+Dialogue: 0,1:19:48.15,1:19:49.84,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What? Jesus Chri--{\r}
+Dialogue: 0,1:19:50.01,1:19:51.78,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Okay, do something\nuseful then, yeah?{\r}
+Dialogue: 0,1:19:51.95,1:19:53.42,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Take care of--{\r}
+Dialogue: 0,1:20:16.21,1:20:18.83,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Come out now,\nor I'll shoot him right here.{\r}
+Dialogue: 0,1:20:25.02,1:20:28.01,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Show yourself or I swear to God\nI'll blow his fucking head off.{\r}
+Dialogue: 0,1:20:43.10,1:20:44.57,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Should have let me be.{\r}
+Dialogue: 0,1:21:08.09,1:21:09.39,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You set me up.{\r}
+Dialogue: 0,1:21:10.83,1:21:15.46,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It was a mistake. I came back.{\r}
+Dialogue: 0,1:21:17.20,1:21:18.22,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Yeah, you did.{\r}
+Dialogue: 0,1:21:41.22,1:21:44.75,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Yes.  - Sorry to interrupt, sir. Still no word.{\r}
+Dialogue: 0,1:21:44.93,1:21:48.66,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Keep trying.  - it's Flint, isn't it?{\r}
+Dialogue: 0,1:21:48.83,1:21:51.96,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}They went to finish him\nand now they're missing.{\r}
+Dialogue: 0,1:21:52.14,1:21:53.73,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's no concern of yours.{\r}
+Dialogue: 0,1:21:53.90,1:21:57.50,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Oh, no, I think Mr. Flint\nis a shared concern of ours.{\r}
+Dialogue: 0,1:21:57.67,1:21:59.84,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}We have both caused him\na great deal of grief.{\r}
+Dialogue: 0,1:22:00.01,1:22:01.77,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And left to his own devices...{\r}
+Dialogue: 0,1:22:01.95,1:22:04.97,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...he will stop at nothing\nto return the favor...{\r}
+Dialogue: 0,1:22:05.15,1:22:06.31,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...to both of us.{\r}
+Dialogue: 0,1:22:07.02,1:22:09.65,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What can you do\nthat we're not already doing?{\r}
+Dialogue: 0,1:22:20.90,1:22:23.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You're pretty good with the AK.{\r}
+Dialogue: 0,1:22:23.60,1:22:26.09,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Thought you were more\nof a knife man.{\r}
+Dialogue: 0,1:22:26.27,1:22:29.53,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Use the best tool for the job.  - You got that right.{\r}
+Dialogue: 0,1:22:30.14,1:22:32.54,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It was one of yours, actually.{\r}
+Dialogue: 0,1:22:54.26,1:22:57.53,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Hello?  - Mrs. Pavlescu, it's me, it's Roland.{\r}
+Dialogue: 0,1:22:57.70,1:23:00.14,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I need you to get Anna\nout of the house now.{\r}
+Dialogue: 0,1:23:00.30,1:23:03.64,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What? Hello?{\r}
+Dialogue: 0,1:23:04.04,1:23:05.20,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Hello?{\r}
+Dialogue: 0,1:23:11.35,1:23:12.54,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Line was cut.{\r}
+Dialogue: 0,1:23:13.38,1:23:14.41,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Hello?{\r}
+Dialogue: 0,1:23:20.99,1:23:23.36,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Turn around.  - Okay.{\r}
+Dialogue: 0,1:23:44.35,1:23:46.82,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Hello?  - Goodbye.{\r}
+Dialogue: 0,1:24:36.00,1:24:37.30,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}They drew the curtains.{\r}
+Dialogue: 0,1:24:37.47,1:24:39.96,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Cutting off lines of sight.{\r}
+Dialogue: 0,1:24:44.67,1:24:46.67,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}At least two at the front.{\r}
+Dialogue: 0,1:24:48.34,1:24:50.97,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}All right, we're gonna have\nto draw them out.{\r}
+Dialogue: 0,1:24:52.58,1:24:53.61,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Grenades.{\r}
+Dialogue: 0,1:24:55.12,1:24:56.35,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}My wife's in there.{\r}
+Dialogue: 0,1:25:01.69,1:25:05.65,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I guess I'm not too good\nwith hostage situation.{\r}
+Dialogue: 0,1:25:12.24,1:25:16.26,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Welcome home, Mr. Flint.\nCheck your webcam.{\r}
+Dialogue: 0,1:25:25.88,1:25:26.94,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}So beautiful.{\r}
+Dialogue: 0,1:25:27.62,1:25:29.21,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Don't you fucking touch her.{\r}
+Dialogue: 0,1:25:29.39,1:25:32.15,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What? Connection not too good.{\r}
+Dialogue: 0,1:25:34.02,1:25:35.68,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm gonna make this real simple.{\r}
+Dialogue: 0,1:25:38.73,1:25:40.63,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}If you and your friend...{\r}
+Dialogue: 0,1:25:41.06,1:25:44.36,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...don't surrender to us\nunarmed in 15 minutes...{\r}
+Dialogue: 0,1:25:44.93,1:25:49.10,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...first, I will let each of my men\ntake turns with her.{\r}
+Dialogue: 0,1:25:49.27,1:25:53.21,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Then I'll let you watch\nwhile I skin her alive.{\r}
+Dialogue: 0,1:25:53.38,1:25:57.84,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And if that doesn't wake her up,\nnothing will.{\r}
+Dialogue: 0,1:25:59.25,1:26:01.27,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Fifteen minutes.{\r}
+Dialogue: 0,1:26:05.09,1:26:06.82,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What do you want to do?{\r}
+Dialogue: 0,1:27:18.80,1:27:21.42,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}The thing about fairy tale endings...{\r}
+Dialogue: 0,1:27:22.30,1:27:24.43,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}...is that they're bullshit.{\r}
+Dialogue: 0,1:27:27.50,1:27:29.60,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You got me. Just leave her alone.{\r}
+Dialogue: 0,1:27:30.97,1:27:32.41,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I tell you what.{\r}
+Dialogue: 0,1:27:34.74,1:27:36.27,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I do her last.{\r}
+Dialogue: 0,1:27:36.45,1:27:40.28,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}That way you don't have\nto watch this time.{\r}
+Dialogue: 0,1:27:43.05,1:27:44.18,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I have money.{\r}
+Dialogue: 0,1:27:46.66,1:27:49.92,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}No money\ncan bring my brother back.{\r}
+Dialogue: 0,1:27:50.09,1:27:51.96,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}But you will pay in a different way.{\r}
+Dialogue: 0,1:27:52.60,1:27:53.69,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And slowly.{\r}
+Dialogue: 0,1:27:54.26,1:27:55.86,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I have 12 million.{\r}
+Dialogue: 0,1:27:58.60,1:27:59.80,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Bullshit.{\r}
+Dialogue: 0,1:28:00.54,1:28:02.16,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Show him.{\r}
+Dialogue: 0,1:28:20.32,1:28:22.22,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}That's about 1.2 million.{\r}
+Dialogue: 0,1:28:22.69,1:28:24.39,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I got 10 times more hidden inside.{\r}
+Dialogue: 0,1:28:25.83,1:28:27.46,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Bullshit.{\r}
+Dialogue: 0,1:28:27.63,1:28:30.12,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You let me leave\nand I'll show it to you.{\r}
+Dialogue: 0,1:28:33.97,1:28:36.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- What the hell are you doing?  - What?{\r}
+Dialogue: 0,1:28:37.34,1:28:38.74,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}What the hell is this?{\r}
+Dialogue: 0,1:28:38.91,1:28:40.57,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}That's life.{\r}
+Dialogue: 0,1:28:42.31,1:28:44.97,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}That's life? That's fucking life?{\r}
+Dialogue: 0,1:28:47.55,1:28:49.35,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}That's my wife over there.{\r}
+Dialogue: 0,1:28:50.09,1:28:51.99,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You're telling me that's fucking life?{\r}
+Dialogue: 0,1:29:58.22,1:29:59.69,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Wait.{\r}
+Dialogue: 0,1:30:15.37,1:30:17.13,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}He's yours.{\r}
+Dialogue: 0,1:30:24.05,1:30:25.27,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Get up.{\r}
+Dialogue: 0,1:30:31.42,1:30:32.45,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Now beg.{\r}
+Dialogue: 0,1:30:34.92,1:30:36.15,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Fuck you.{\r}
+Dialogue: 0,1:30:42.50,1:30:44.83,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Beg.  - No.{\r}
+Dialogue: 0,1:30:48.47,1:30:50.20,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Beg her.{\r}
+Dialogue: 0,1:30:54.31,1:30:55.83,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Please forgive me.{\r}
+Dialogue: 0,1:30:56.65,1:30:59.55,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}You can do better than that.\nLouden{\r}
+Dialogue: 0,1:30:59.72,1:31:02.12,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Forgive me!{\r}
+Dialogue: 0,1:31:02.29,1:31:05.72,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}- Again.  - Please forgive me!{\r}
+Dialogue: 0,1:31:10.39,1:31:12.19,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}That's good.{\r}
+Dialogue: 0,1:31:13.30,1:31:14.73,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}There's just one problem.{\r}
+Dialogue: 0,1:31:20.87,1:31:24.07,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}She can't hear you.{\r}
+Dialogue: 0,1:31:49.43,1:31:51.76,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm sorry, sweetheart.{\r}
+Dialogue: 0,1:31:55.91,1:31:57.63,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I'm sorry.{\r}
+Dialogue: 0,1:32:26.04,1:32:27.26,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}It's over.{\r}
+Dialogue: 0,1:32:28.37,1:32:29.46,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Not yet.{\r}
+Dialogue: 0,1:33:38.24,1:33:41.80,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}There's no guarantee of success.\nIt's a new procedure.{\r}
+Dialogue: 0,1:33:41.98,1:33:43.34,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}And it is quite expensive.{\r}
+Dialogue: 0,1:33:43.51,1:33:45.24,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Oh, don't worry about that.{\r}
+Dialogue: 0,1:33:45.41,1:33:46.88,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I've got the money.{\r}
+Dialogue: 0,1:33:47.05,1:33:50.08,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Okay, then,\nwe should start right away.{\r}
+Dialogue: 0,1:34:44.57,1:34:45.90,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}I just want out.{\r}
+Dialogue: 0,1:34:47.88,1:34:51.90,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Out of the city. Out of the life.{\r}
+Dialogue: 0,1:34:55.82,1:34:57.18,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}With someone I can trust.{\r}
+Dialogue: 0,1:34:59.09,1:35:00.28,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Trust to do what?{\r}
+Dialogue: 0,1:35:02.39,1:35:05.12,Default,,0000,0000,0000,,{\fnTimes New Roman\fs14\bord1\pos(192,284)\3c&H008080&}Light a candle for me\nwhen I'm gone.{\r}
+

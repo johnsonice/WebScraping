@@ -1,0 +1,131 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Default Aegisub file
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 720
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,28,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,1,2,10,10,10,1
+Style: 英语字幕,Tahoma,32,&H00039CFD,&H0011E9F1,&H0001090A,&H00090909,-1,0,0,0,100,100,0,0,1,0,1,2,10,10,15,1
+Style: 中文部分,Tahoma,28,&H00E3E749,&H000000FF,&H0042BDFD,&H00000000,-1,0,0,0,100,100,0,0,1,0,1,2,5,5,15,1
+Style: GeMing,Tahoma,28,&H00FDFDFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: BanQuan,Tahoma,27,&H00FFFFFF,&H000000FF,&H00000002,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.01,BanQuan,,0,0,0,,{\pos(90,80)}压制:随Feng
+Dialogue: 0,0:00:00.01,0:00:05.00,中文部分,,0,0,0025,,歌手：Adele 阿黛尔
+Dialogue: 0,0:00:06.70,0:00:10.72,中文部分,,0,0,0025,,我把心 抛下
+Dialogue: 0,0:00:11.02,0:00:15.24,中文部分,,0,0,0025,,坠落之际 你挺身认领
+Dialogue: 0,0:00:15.24,0:00:19.89,中文部分,,0,0,0025,,漆黑一片 我命休矣
+Dialogue: 0,0:00:20.19,0:00:24.46,中文部分,,0,0,0025,,这时你吻我唇 救我一命
+Dialogue: 0,0:00:25.26,0:00:33.34,中文部分,,0,0,0025,,我这双手 苍劲有力 可双膝却弱不禁风
+Dialogue: 0,0:00:34.14,0:00:41.73,中文部分,,0,0,0025,,站在你怀里 才不会瘫倒于地
+Dialogue: 0,0:00:42.42,0:00:47.33,中文部分,,0,0,0025,,可你藏有一面 不曾为我知 为我知
+Dialogue: 0,0:00:47.43,0:00:51.90,中文部分,,0,0,0025,,你所有的言语 不曾发于心 发于心
+Dialogue: 0,0:00:51.90,0:00:57.36,中文部分,,0,0,0025,,你所有的游戏 赢家总是你 总是你
+Dialogue: 0,0:00:57.51,0:01:01.89,中文部分,,0,0,0025,,而我烧起了一场雨
+Dialogue: 0,0:01:02.29,0:01:06.92,中文部分,,0,0,0025,,轻抚你脸庞 细看雨滂沱
+Dialogue: 0,0:01:06.92,0:01:09.61,中文部分,,0,0,0025,,雨在烧 我落泪
+Dialogue: 0,0:01:09.61,0:01:15.89,中文部分,,0,0,0025,,因为我听到它在拼命喊着你 喊着你
+Dialogue: 0,0:01:16.27,0:01:22.82,中文部分,,0,0,0025,,与你共枕 我方可暂留那儿
+Dialogue: 0,0:01:23.02,0:01:28.94,中文部分,,0,0,0025,,合上双眼 感受你永留这儿
+Dialogue: 0,0:01:29.04,0:01:33.15,中文部分,,0,0,0025,,你与我手相携 胜过世间一切
+Dialogue: 0,0:01:33.57,0:01:38.58,中文部分,,0,0,0025,,可你藏有一面 不曾为我知 为我知
+Dialogue: 0,0:01:38.68,0:01:43.09,中文部分,,0,0,0025,,你所有的言语 不曾发于心 发于心
+Dialogue: 0,0:01:43.09,0:01:48.90,中文部分,,0,0,0025,,你所有的游戏 赢家总是你 总是你
+Dialogue: 0,0:01:49.13,0:01:53.32,中文部分,,0,0,0025,,而我烧起了一场雨
+Dialogue: 0,0:01:53.62,0:01:57.89,中文部分,,0,0,0025,,轻抚你脸庞 细看雨滂沱
+Dialogue: 0,0:01:57.99,0:02:00.65,中文部分,,0,0,0025,,雨在烧 我落泪
+Dialogue: 0,0:02:00.75,0:02:06.71,中文部分,,0,0,0025,,因为我听到它在拼命喊着你 喊着你
+Dialogue: 0,0:02:06.71,0:02:11.15,中文部分,,0,0,0025,,我烧起了一场雨
+Dialogue: 0,0:02:11.45,0:02:15.84,中文部分,,0,0,0025,,再把你我丢进火海
+Dialogue: 0,0:02:15.94,0:02:18.45,中文部分,,0,0,0025,,雨正酣 了一念
+Dialogue: 0,0:02:18.55,0:02:24.60,中文部分,,0,0,0025,,因为我知道了却的是前缘 是前缘
+Dialogue: 0,0:02:24.70,0:02:28.59,中文部分,,0,0,0025,,有时我于门口醒来
+Dialogue: 0,0:02:28.69,0:02:33.57,中文部分,,0,0,0025,,你曾捕获的心定是在等你
+Dialogue: 0,0:02:33.67,0:02:37.87,中文部分,,0,0,0025,,尽管如今 你我再无瓜葛
+Dialogue: 0,0:02:38.07,0:02:42.71,中文部分,,0,0,0025,,我仍禁不住要把你找寻
+Dialogue: 0,0:02:42.93,0:02:46.79,中文部分,,0,0,0025,,我烧起了一场雨
+Dialogue: 0,0:02:46.89,0:02:51.32,中文部分,,0,0,0025,,轻抚你脸庞 细看雨滂沱
+Dialogue: 0,0:02:51.42,0:02:53.94,中文部分,,0,0,0025,,雨在烧 我落泪
+Dialogue: 0,0:02:54.04,0:03:00.05,中文部分,,0,0,0025,,因为我听到它在拼命喊着你 喊着你
+Dialogue: 0,0:03:00.15,0:03:04.77,中文部分,,0,0,0025,,我放火烧了雨
+Dialogue: 0,0:03:04.87,0:03:08.98,中文部分,,0,0,0025,,再把你我丢进火海
+Dialogue: 0,0:03:09.08,0:03:11.60,中文部分,,0,0,0025,,雨正酣 了一念
+Dialogue: 0,0:03:11.70,0:03:22.93,中文部分,,0,0,0025,,因为我知道了却的是前缘 是前缘 噢
+Dialogue: 0,0:03:23.03,0:03:27.16,中文部分,,0,0,0025,,噢 不
+Dialogue: 0,0:03:27.26,0:03:35.99,中文部分,,0,0,0025,,让雨烧 噢
+Dialogue: 0,0:03:36.09,0:03:45.03,中文部分,,0,0,0025,,让雨烧
+Dialogue: 0,0:03:45.13,0:03:55.50,中文部分,,0,0,0025,,让雨烧
+Dialogue: 0,0:03:57.02,0:04:01.62,中文部分,,0,0,0025,,我烧起了一场雨
+Dialogue: 0,0:04:02.25,0:04:06.35,中文部分,,0,0,0025,,再把你我丢进火海
+Dialogue: 0,0:04:06.37,0:04:08.87,中文部分,,0,0,0025,,我感觉到什么东西死亡了
+Dialogue: 0,0:04:09.00,0:04:20.10,中文部分,,0,0,0025,,因为我知道 那是最后一次 最后一次 哦
+Dialogue: 0,0:04:20.22,0:04:23.22,中文部分,,0,0,0025,,噢 不
+Dialogue: 2,0:00:00.00,0:04:23.00,GeMing,,0,0,0055,,{\pos(360,60)}Set The Fire To Rain
+Dialogue: 2,0:00:06.70,0:00:10.72,英语字幕,,0,0,0055,,I let it fall, my heart
+Dialogue: 2,0:00:11.02,0:00:15.24,英语字幕,,0,0,0055,,And as it fell, you rose to claim it
+Dialogue: 2,0:00:15.24,0:00:19.89,英语字幕,,0,0,0055,,It was dark and I was over
+Dialogue: 2,0:00:20.19,0:00:24.46,英语字幕,,0,0,0055,,Until you kissed my lips and you saved me
+Dialogue: 2,0:00:25.26,0:00:33.34,英语字幕,,0,0,0055,,My hands, they were strong, but my knees were far too weak
+Dialogue: 2,0:00:34.14,0:00:41.73,英语字幕,,0,0,0055,,To stand in your arms without falling to your feet
+Dialogue: 2,0:00:42.42,0:00:47.33,英语字幕,,0,0,0055,,But there's a side to you that I never knew, never knew
+Dialogue: 2,0:00:47.43,0:00:51.90,英语字幕,,0,0,0055,,All the things you'd say, they were never true, never true
+Dialogue: 2,0:00:51.90,0:00:57.36,英语字幕,,0,0,0055,,And the games you'd play, you would always win, always win
+Dialogue: 2,0:00:57.51,0:01:01.89,英语字幕,,0,0,0055,,But I set fire to the rain
+Dialogue: 2,0:01:02.29,0:01:06.92,英语字幕,,0,0,0055,,Watched it pour as I touched your face
+Dialogue: 2,0:01:06.92,0:01:09.61,英语字幕,,0,0,0055,,Well, it burned while I cried
+Dialogue: 2,0:01:09.61,0:01:15.89,英语字幕,,0,0,0055,,'Cause I heard it screaming out your name, your name
+Dialogue: 2,0:01:16.27,0:01:22.82,英语字幕,,0,0,0055,,When laying with you I could stay ther
+Dialogue: 2,0:01:23.02,0:01:28.94,英语字幕,,0,0,0055,,Close my eyes, feel you here forever
+Dialogue: 2,0:01:29.04,0:01:33.15,英语字幕,,0,0,0055,,You and me together, nothing is better
+Dialogue: 2,0:01:33.57,0:01:38.58,英语字幕,,0,0,0055,,'Cause there's a side to you that I never knew, never knew
+Dialogue: 2,0:01:38.68,0:01:43.09,英语字幕,,0,0,0055,,All the things you'd say, they were never true, never true
+Dialogue: 2,0:01:43.09,0:01:48.90,英语字幕,,0,0,0055,,And the games you'd play, you would always win, always win
+Dialogue: 2,0:01:49.13,0:01:53.32,英语字幕,,0,0,0055,,But I set fire to the rain
+Dialogue: 2,0:01:53.62,0:01:57.89,英语字幕,,0,0,0055,,Watched it pour as I touched your face
+Dialogue: 2,0:01:57.99,0:02:00.65,英语字幕,,0,0,0055,,Well, it burned while I cried
+Dialogue: 2,0:02:00.75,0:02:06.71,英语字幕,,0,0,0055,,'Cause I heard it screaming out your name, your name
+Dialogue: 2,0:02:06.71,0:02:11.15,英语字幕,,0,0,0055,,I set fire to the rain
+Dialogue: 2,0:02:11.45,0:02:15.84,英语字幕,,0,0,0055,,And I threw us into the flames
+Dialogue: 2,0:02:15.94,0:02:18.45,英语字幕,,0,0,0055,,While it fell, something died
+Dialogue: 2,0:02:18.55,0:02:24.60,英语字幕,,0,0,0055,,'Cause I knew that that was the last time, the last time
+Dialogue: 2,0:02:24.70,0:02:28.59,英语字幕,,0,0,0055,,Sometimes I wake up by the door
+Dialogue: 2,0:02:28.69,0:02:33.57,英语字幕,,0,0,0055,,That heart you caught must be waiting for you
+Dialogue: 2,0:02:33.67,0:02:37.87,英语字幕,,0,0,0055,,Even now when we're already over
+Dialogue: 2,0:02:38.07,0:02:42.71,英语字幕,,0,0,0055,,I can't help myself from looking for you
+Dialogue: 2,0:02:42.93,0:02:46.79,英语字幕,,0,0,0055,,I set fire to the rain
+Dialogue: 2,0:02:46.89,0:02:51.32,英语字幕,,0,0,0055,,Watched it pour as I touched your face
+Dialogue: 2,0:02:51.42,0:02:53.94,英语字幕,,0,0,0055,,Well, it burned while I cried
+Dialogue: 2,0:02:54.04,0:03:00.05,英语字幕,,0,0,0055,,'Cause I heard it screaming out your name, your name
+Dialogue: 2,0:03:00.15,0:03:04.77,英语字幕,,0,0,0055,,I set fire to the rain
+Dialogue: 2,0:03:04.87,0:03:08.98,英语字幕,,0,0,0055,,And I threw us into the flames
+Dialogue: 2,0:03:09.08,0:03:11.60,英语字幕,,0,0,0055,,While it fell, something died
+Dialogue: 2,0:03:11.70,0:03:22.93,英语字幕,,0,0,0055,,'Cause I knew that that was the last time, the last time, oh
+Dialogue: 2,0:03:23.03,0:03:27.16,英语字幕,,0,0,0055,,Oh, no
+Dialogue: 2,0:03:27.26,0:03:35.99,英语字幕,,0,0,0055,,Let it burn, oh
+Dialogue: 2,0:03:36.09,0:03:45.03,英语字幕,,0,0,0055,,Let it burn
+Dialogue: 2,0:03:45.13,0:03:55.50,英语字幕,,0,0,0055,,Let it burn
+Dialogue: 2,0:03:57.02,0:04:01.62,英语字幕,,0,0,0055,,I set fire to the rain
+Dialogue: 2,0:04:02.25,0:04:06.35,英语字幕,,0,0,0055,,And I threw us into the flames
+Dialogue: 2,0:04:06.37,0:04:08.87,英语字幕,,0,0,0055,,While it fell, something died
+Dialogue: 2,0:04:09.00,0:04:20.10,英语字幕,,0,0,0055,,'Cause I knew that that was the last time, the last time, oh
+Dialogue: 2,0:04:20.22,0:04:23.22,英语字幕,,0,0,0055,,Oh, no
+Dialogue: 0,0:04:13.00,0:04:23.00,BanQuan,,0,0,0,,{\pos(630,80)}压制:随Feng
+

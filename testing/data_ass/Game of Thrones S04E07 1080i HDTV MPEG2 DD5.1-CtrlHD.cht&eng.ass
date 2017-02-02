@@ -1,0 +1,1586 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Default Aegisub file
+Original Script: Future Xu
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: eng_1 - 1080,Arial,40,&H0024F4E4,&H0000FFFF,&H00000000,&H80000000,0,-1,0,0,100,100,0,0,1,2,2,2,20,20,65,1
+Style: chs_2 - 1080,KaiTi,60,&H00FFFFFF,&HFFFFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,3,2,20,20,45,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:45.98,0:01:49.50,Default,,0,0,0,,{\fad(150,150)\fscx60\fscy60\p1\3c&H000000&\3a&HFF&\4c&H2B2B2C&\4a&HFF&\c&H24EDF0&\pos(959,953)}mm 200 0 l 0 0 l 0 200 l 50 200 l 80 70 l 20 70 l 30 35 l 180 35 l 170 70 l 120 70 l 90 200 l 200 200 {\c&H25F035&} m 0 50 l 80 50 l 45 204 l 160 204 l 170 170 l 90 170 l 120 50 l 200 50 l 200 250 l 0 250 {\c&H24EDF0&} m 0 0 l 200 0 l 200 200 l 70 200 l 86 130 l 154 130 l 161 102 l 93 102 l 99 75 l 169 75 l 177 45 l 70 45 l 35 200 l 0 200   {\p0}
+Dialogue: 0,0:01:45.98,0:01:49.50,Default,,0,0,0,,{\fn方正瘦金书繁体\fs70\b1\fad(300,300)}-=TLF字幕組=- 榮譽出品
+Dialogue: 0,0:01:49.50,0:01:51.63,Default,,0,0,0,,{\fn方正瘦金书繁体\b1\be30\fs70\fsp3\fad(500,500)\c&H68AFE0&\4c&H000000&\4a&H82&\3c&H000000&\3a&H2C&\pos(1257.134,758.254)}翻譯：飛翔的雞
+Dialogue: 0,0:01:51.63,0:01:53.63,Default,,0,0,0,,{\fn方正瘦金书繁体\b1\be30\fs70\fsp3\fad(500,500)\c&H68AFE0&\4c&H000000&\4a&H82&\3c&H000000&\3a&H2C&\pos(942.95,316.34)}翻譯：Jason Lee
+Dialogue: 0,0:01:53.73,0:01:55.63,Default,,0,0,0,,{\fn方正瘦金书繁体\b1\be30\fs70\fsp3\fad(500,500)\c&H68AFE0&\4c&H000000&\4a&H82&\3c&H000000&\3a&H2C&\pos(1309.559,1064.347)}翻譯：versus
+Dialogue: 0,0:01:56.99,0:01:58.99,Default,,0,0,0,,{\fn方正瘦金书繁体\b1\be30\fs70\fsp3\fad(500,500)\c&H68AFE0&\4c&H000000&\4a&H82&\3c&H000000&\3a&H2C&\pos(498.835,1045.397)}翻譯：Hello_Agnes
+Dialogue: 0,0:01:56.88,0:01:58.01,Default,,0,0,0,,{\fn方正古隶繁体\b1\fs82\t(\fs260)\4c&H939393&\fad(500,100)\pos(944.94,433.351)\4c&H939393&\c&HFFFFFF&\1a&H55&\shad5}君臨\NKing's Landing
+Dialogue: 0,0:01:59.54,0:02:01.62,Default,,0,0,0,,{\fn方正瘦金书繁体\b1\be30\fs70\fsp3\fad(500,500)\c&H68AFE0&\4c&H000000&\4a&H82&\3c&H000000&\3a&H2C&\pos(1339.355,314.722)}翻譯&校對：lydia萌
+Dialogue: 0,0:02:03.04,0:02:05.00,Default,,0,0,0,,{\fn方正瘦金书繁体\b1\be30\fs70\fsp3\fad(500,500)\c&H68AFE0&\4c&H000000&\4a&H82&\3c&H000000&\3a&H2C&\pos(441.134,1057.66)}特效：飛翔的雞
+Dialogue: 0,0:02:06.33,0:02:08.29,Default,,0,0,0,,{\fn方正瘦金书繁体\b1\be30\fs70\fsp3\fad(500,500)\c&H68AFE0&\4c&H000000&\4a&H82&\3c&H000000&\3a&H2C&\pos(1077.021,1057.564)}統籌：飯離燁
+Dialogue: 0,0:02:10.53,0:02:15.43,Default,,0,0,0,,{\fn方正古隶繁体\b1\fs48\t(0,1300,\fs82)\4c&H939393&\c&HFFFFFF&\1a&H55&\shad5\shad5\fad(200,200)\frz318.8\t(0,1300,\frz360)\move(536.357,296.346,676.243,761.083,0,1300)}恐怖堡\NDreadfort
+Dialogue: 0,0:02:18.52,0:02:23.96,Default,,0,0,0,,{\fn方正古隶繁体\b1\fs82\4c&H939393&\c&HFFFFFF&\1a&H55&\shad5\fad(500,500)\frx40\t(0,500,\frx0)\pos(758.91,845.206)}臨冬城\NWinterFell
+Dialogue: 0,0:02:38.71,0:02:44.30,Default,,0,0,0,,{\fn方正古隶繁体\b1\fs86\4c&H939393&\c&HFFFFFF&\1a&H55&\shad5\fad(500,500)\frx40\t(0,500,\frx0)\pos(1280.881,872.741)}絕境長城\NThe Wall
+Dialogue: 0,0:02:54.51,0:03:00.26,Default,,0,0,0,,{\fn方正古隶繁体\b1\fs86\4c&H939393&\c&HFFFFFF&\1a&H55&\shad5\fad(500,500)\pos(1280.881,872.741)\frz60\t(0,1500,\frz0)\frx34\t(0,1500,\frx0)}布拉佛斯\NBraavos
+Dialogue: 0,0:03:08.73,0:03:13.98,Default,,0,0,0,,{\fn方正古隶繁体\b1\fs86\fad(500,500)\fry10\t(0,2000,\fry0)\frz20\t(0,2000,\frz0)\frx50\t(0,2000,0.4,\frx0)\4c&H939393&\c&HFFFFFF&\1a&H55&\shad5\pos(619.431,727.492)}彌林\NMeereen
+Dialogue: 0,0:03:13.40,0:03:15.36,Default,,0,0,0,,{\fn方正瘦金书繁体\b1\be30\fs70\fsp3\fad(500,500)\c&H68AFE0&\4c&H000000&\4a&H82&\3c&H000000&\3a&H2C&\pos(1159.798,1047.842)}根據喬治·R·R·馬丁著{\c&H0059C6&}《冰與火之歌》{\c&H68AFE0&}改編
+Dialogue: 0,0:03:21.01,0:03:26.47,Default,,0,0,0,,{\fn方正古隶繁体\b1\be20\fs140\fsp6\shad4\c&H3DD8FF&\3c&H92A0A7&\4c&H002A52&\bord5\4a&H16&\fad(2000,0)\pos(960,830.584)}權力{\fs90}的{\fs140}遊戲\N{\fs70}第四季   第七集
+Dialogue: 0,0:03:22.01,0:03:26.47,Default,,0,0,0,,{\fn方正瘦金书繁体\fs60\b1\fad(300,300)}-=THE LAST FANTASY=-\N榮譽出品\N本字幕僅供學習交流，嚴禁用於商業用途
+Dialogue: 0,0:03:27.08,0:03:29.87,Default,,0,0,0,,{\an4\fn方正瘦金书繁体\b1\be30\fs55\fsp3\fad(500,500)\c&H68AFE0&\4c&H000000&\4a&H82&\3c&H000000&\3a&H2C&\pos(451.902,662.515)}電視劇編劇\N{\fs70}戴維·貝尼奧夫 & D·B·威斯
+Dialogue: 0,0:03:29.87,0:03:32.50,Default,,0,0,0,,{\an4\fn方正瘦金书繁体\b1\be30\fs55\fsp3\fad(500,500)\c&H68AFE0&\4c&H000000&\4a&H82&\3c&H000000&\3a&H2C&\pos(637.334,667.673)}導演\N{\fs70}埃裏克·薩哈洛夫
+Dialogue: 0,0:03:32.50,0:03:34.30,Default,,0,0,0,,{\fn方正瘦金书繁体\b1\be20\fs140\fsp6\shad4\c&H3DD8FF&\3c&H92A0A7&\4c&H002A52&\bord5\4a&H16&\fad(200,500)\pos(952,640.782)}學舌鳥
+Dialogue: 0,0:51:25.06,0:51:30.11,Default,,0,0,0,,{\fn方正瘦金书繁体\fs60\b1\fad(300,0)}-=TLF字幕組=-\N謝謝觀賞
+Dialogue: 0,0:51:30.11,0:51:36.12,Default,,0,0,0,,{\fn方正瘦金书繁体\fs60\b1\fad(0,0)}TLF中文字幕站 http://sub.eastgame.org/\N微博地址：http://weibo.com/tlfsubs\N豆瓣小站：http://site.douban.com/127446/
+Dialogue: 0,0:51:36.12,0:51:43.62,Default,,0,0,0,,{\fscx60\fscy60\p1\3c&H000000&\3a&HFF&\4c&H2B2B2C&\4a&HFF&\c&H24EDF0&\pos(962,881)}mm 200 0 l 0 0 l 0 200 l 50 200 l 80 70 l 20 70 l 30 35 l 180 35 l 170 70 l 120 70 l 90 200 l 200 200 {\c&H25F035&} m 0 50 l 80 50 l 45 204 l 160 204 l 170 170 l 90 170 l 120 50 l 200 50 l 200 250 l 0 250 {\c&H24EDF0&} m 0 0 l 200 0 l 200 200 l 70 200 l 86 130 l 154 130 l 161 102 l 93 102 l 99 75 l 169 75 l 177 45 l 70 45 l 35 200 l 0 200   {\p0}
+Dialogue: 0,0:51:36.12,0:51:43.62,Default,,0,0,0,,{\fscx60\fscy60\p1\3c&H000000&\3a&HFF&\4c&H2B2B2C&\4a&H00&\pos(951,1021)}m 25 19 b 19 21 19 26 25 28 l 43 28 b 45 28 47 30 47 32 l 47 70 b 49 75 56 75 58 70 l 58 32 b 58 30 60 28 62 28 l 80 28 b 86 26 86 21 80 19 m 95 23 b 97 18 102 18 104 23 l 104 43 b 104 45 105 46 107 46 l 141 46 b 143 46 144 45 144 43 l 144 23 b 146 18 151 18 153 23 l 153 69 b 151 74 146 74 144 69 l 144 55 b 144 53 143 52 141 52 l 107 52 b 105 52 104 53 104 55 l 104 69 b 102 74 97 74 95 69 m 180 26 b 180 22 183 19 187 19 l 227 19 b 231 20 231 25 227 26 l 192 26 b 189 26 187 28 187 31 l 187 40 b 187 43 189 45 192 45 l 209 45 b 213 46 213 50 209 51 l 192 51 b 189 51 187 53 187 56 l 187 60 b 187 63 189 65 192 65 l 224 65 b 228 66 228 71 224 72 l 187 72 b 183 72 180 69 180 65 m 284 26 b 286 18 294 18 296 26 l 296 61 b 296 63 298 65 300 65 l 341 65 b 344 65 347 64 349 61 l 370 24 b 373 19 377 19 380 24 l 404 66 b 409 74 399 74 397 68 l 391 58 b 390 56 389 55 387 55 l 375 55 l 375 51 l 384 51 b 386 51 387 49 385 46 l 377 31 b 376 29 374 29 373 31 l 364 46 b 363 49 364 51 366 51 l 375 51 l 375 55 l 363 55 b 361 55 360 56 359 58 l 354 67 b 351 70 347 72 342 72 l 289 72 b 286 72 284 69 284 66 m 426 27 b 426 24 429 21 432 21 l 467 21 b 471 21 473 24 473 27 l 473 33 b 471 36 469 36 467 33 l 467 29 b 467 27 467 27 465 27 l 434 27 b 432 27 432 27 432 29 l 432 42 b 432 45 434 47 437 47 l 471 47 b 473 47 475 49 475 50 l 475 66 b 475 69 473 71 470 71 l 431 71 b 427 71 425 69 425 64 l 425 59 b 426 56 429 56 430 59 l 430 64 b 430 66 430 66 432 66 l 467 66 b 469 66 469 66 469 64 l 469 55 b 469 52 468 51 465 51 l 432 51 b 429 51 426 48 426 44 m 490 19 b 484 21 484 26 490 28 l 508 28 b 510 28 512 30 512 32 l 512 70 b 514 75 521 75 523 70 l 523 32 b 523 30 525 28 527 28 l 545 28 b 551 26 551 21 545 19 m 37 107 b 37 103 40 99 43 99 l 85 99 b 89 101 89 106 85 108 l 52 108 b 50 108 48 110 48 112 l 48 118 b 48 120 50 122 52 122 l 69 122 b 72 123 72 129 69 130 l 52 130 b 50 130 48 132 48 134 l 48 147 b 46 152 39 152 37 147 m 107 146 b 104 152 94 152 100 144 l 126 102 b 129 97 134 97 137 102 l 162 143 b 168 152 158 152 156 146 l 151 139 b 149 138 148 137 146 137 l 131 137 l 131 131 l 142 131 b 145 131 146 129 144 126 l 134 109 b 133 107 130 107 129 109 l 119 126 b 118 129 119 131 121 131 l 131 131 l 131 137 l 116 137 b 114 137 113 138 112 140 m 186 103 b 186 100 192 98 196 102 l 231 132 b 235 135 238 135 238 129 l 238 102 b 240 99 245 99 247 102 l 247 145 b 247 151 242 152 236 147 l 201 118 b 197 114 195 116 195 120 l 195 147 b 193 152 188 152 186 147 m 265 98 b 259 100 259 105 265 107 l 283 107 b 285 107 287 109 287 111 l 287 147 b 289 152 296 152 298 147 l 298 111 b 298 109 300 107 302 107 l 320 107 b 326 105 326 100 320 98 m 340 146 b 337 152 327 152 333 144 l 359 102 b 362 97 367 97 370 102 l 395 143 b 401 152 391 152 389 146 l 384 139 b 382 138 381 137 379 137 l 364 137 l 364 131 l 375 131 b 378 131 379 129 377 126 l 367 109 b 366 107 363 107 362 109 l 352 126 b 351 129 352 131 354 131 l 364 131 l 364 137 l 349 137 b 347 137 346 138 345 140 m 420 106 b 420 102 425 99 429 99 l 468 99 b 471 99 474 102 474 105 l 474 111 b 472 114 468 114 466 111 l 466 109 b 466 107 466 107 464 107 l 432 107 b 430 107 428 109 428 111 l 428 116 b 428 119 431 121 434 121 l 469 121 b 471 121 474 124 474 126 l 474 144 b 474 147 472 149 468 149 l 424 149 b 421 149 419 147 419 142 l 419 137 b 420 134 426 134 427 137 l 427 140 b 427 142 427 142 429 142 l 462 142 b 464 142 465 141 465 139 l 465 133 b 465 130 464 129 461 129 l 430 129 b 425 129 420 126 420 121 m 493 100 b 493 98 501 98 504 101 l 518 116 b 521 118 524 118 527 116 l 542 101 b 545 98 553 98 553 100 l 531 123 b 529 125 527 127 527 129 l 527 147 l 527 147 b 526 150 518 150 517 147 l 517 129 b 517 127 515 125 513 123  {\p0}
+Dialogue: 0,0:03:32.45,0:03:35.52,eng_1 - 1080,,0,0,0,,I made a deal for you to keep your ungrateful head
+Dialogue: 0,0:03:32.45,0:03:35.52,chs_2 - 1080,,0,0,0,,我為你跟父親做交易，讓你忘恩負義的腦袋
+Dialogue: 0,0:03:35.56,0:03:37.49,eng_1 - 1080,,0,0,0,,on your ungrateful neck a little while longer.
+Dialogue: 0,0:03:35.56,0:03:37.49,chs_2 - 1080,,0,0,0,,在你忘恩負義脖子上多呆一會
+Dialogue: 0,0:03:37.52,0:03:39.36,eng_1 - 1080,,0,0,0,,I'm sorry, what am I grateful for?
+Dialogue: 0,0:03:37.52,0:03:39.36,chs_2 - 1080,,0,0,0,,<i>抱歉，我該感謝什麼？</i>
+Dialogue: 0,0:03:39.39,0:03:41.16,eng_1 - 1080,,0,0,0,,The opportunity to live and die at the Wall
+Dialogue: 0,0:03:39.39,0:03:41.16,chs_2 - 1080,,0,0,0,,在長城待到死
+Dialogue: 0,0:03:41.20,0:03:43.16,eng_1 - 1080,,0,0,0,,as punishment for a crime I did not commit?
+Dialogue: 0,0:03:41.20,0:03:43.16,chs_2 - 1080,,0,0,0,,作為我莫須有罪名的懲罰？
+Dialogue: 0,0:03:43.20,0:03:45.40,eng_1 - 1080,,0,0,0,,You threw your life away. You threw it away.
+Dialogue: 0,0:03:43.20,0:03:45.40,chs_2 - 1080,,0,0,0,,你自己放棄了生命，自己放棄了
+Dialogue: 0,0:03:45.43,0:03:48.13,eng_1 - 1080,,0,0,0,,It's not a joke. You understand that, don't you?
+Dialogue: 0,0:03:45.43,0:03:48.13,chs_2 - 1080,,0,0,0,,這不是開玩笑，你懂嗎？
+Dialogue: 0,0:03:48.17,0:03:50.87,eng_1 - 1080,,0,0,0,,Of course it's a joke, just not a very funny one.
+Dialogue: 0,0:03:48.17,0:03:50.87,chs_2 - 1080,,0,0,0,,這當然是玩笑，只是不怎麼好笑
+Dialogue: 0,0:03:53.64,0:03:55.58,eng_1 - 1080,,0,0,0,,I couldn't--
+Dialogue: 0,0:03:53.64,0:03:55.58,chs_2 - 1080,,0,0,0,,我無法…
+Dialogue: 0,0:03:55.61,0:03:57.51,eng_1 - 1080,,0,0,0,,I couldn't listen to her
+Dialogue: 0,0:03:55.61,0:03:57.51,chs_2 - 1080,,0,0,0,,我無法聽她
+Dialogue: 0,0:03:57.54,0:03:59.95,eng_1 - 1080,,0,0,0,,standing there telling her lies.
+Dialogue: 0,0:03:57.54,0:03:59.95,chs_2 - 1080,,0,0,0,,站在那滿嘴謊言
+Dialogue: 0,0:03:59.98,0:04:01.35,eng_1 - 1080,,0,0,0,,I couldn't do it.
+Dialogue: 0,0:03:59.98,0:04:01.35,chs_2 - 1080,,0,0,0,,我做不到
+Dialogue: 0,0:04:01.38,0:04:03.95,eng_1 - 1080,,0,0,0,,You fell in love with a whore.
+Dialogue: 0,0:04:01.38,0:04:03.95,chs_2 - 1080,,0,0,0,,你愛上了一個妓女
+Dialogue: 0,0:04:03.98,0:04:06.05,eng_1 - 1080,,0,0,0,,Yes, I fell in love with a whore.
+Dialogue: 0,0:04:03.98,0:04:06.05,chs_2 - 1080,,0,0,0,,是，我愛上了一個妓女
+Dialogue: 0,0:04:06.09,0:04:09.82,eng_1 - 1080,,0,0,0,,And I was stupid enough to think that she had fallen in love with me.
+Dialogue: 0,0:04:06.09,0:04:09.82,chs_2 - 1080,,0,0,0,,而且我還愚蠢地以為她也愛我
+Dialogue: 0,0:04:14.13,0:04:16.23,eng_1 - 1080,,0,0,0,,That deal you made,
+Dialogue: 0,0:04:14.13,0:04:16.23,chs_2 - 1080,,0,0,0,,你做的交易
+Dialogue: 0,0:04:16.26,0:04:19.03,eng_1 - 1080,,0,0,0,,it was everything Father wanted.
+Dialogue: 0,0:04:16.26,0:04:19.03,chs_2 - 1080,,0,0,0,,是父親畢生所願
+Dialogue: 0,0:04:19.07,0:04:20.37,eng_1 - 1080,,0,0,0,,You do see that?
+Dialogue: 0,0:04:19.07,0:04:20.37,chs_2 - 1080,,0,0,0,,<i>你知道嗎？</i>
+Dialogue: 0,0:04:20.40,0:04:22.27,eng_1 - 1080,,0,0,0,,He gets you back as his heir.
+Dialogue: 0,0:04:20.40,0:04:22.27,chs_2 - 1080,,0,0,0,,<i>他有你做繼承人</i>
+Dialogue: 0,0:04:22.30,0:04:24.50,eng_1 - 1080,,0,0,0,,The future Lord of the Rock.
+Dialogue: 0,0:04:22.30,0:04:24.50,chs_2 - 1080,,0,0,0,,<i>未來的凱巖城領主</i>
+Dialogue: 0,0:04:24.54,0:04:27.21,eng_1 - 1080,,0,0,0,,And he ships me off to Castle Black,
+Dialogue: 0,0:04:24.54,0:04:27.21,chs_2 - 1080,,0,0,0,,然後把我發配到黑城堡
+Dialogue: 0,0:04:27.24,0:04:29.04,eng_1 - 1080,,0,0,0,,out of sight at last.
+Dialogue: 0,0:04:27.24,0:04:29.04,chs_2 - 1080,,0,0,0,,終於不用見到我了
+Dialogue: 0,0:04:30.48,0:04:32.51,eng_1 - 1080,,0,0,0,,All so perfect.
+Dialogue: 0,0:04:30.48,0:04:32.51,chs_2 - 1080,,0,0,0,,一切都那麼完美
+Dialogue: 0,0:04:34.55,0:04:36.98,eng_1 - 1080,,0,0,0,,It felt good to take that from him.
+Dialogue: 0,0:04:34.55,0:04:36.98,chs_2 - 1080,,0,0,0,,把這些從他手裏奪去感覺真好
+Dialogue: 0,0:04:38.69,0:04:42.42,eng_1 - 1080,,0,0,0,,He knows I'm innocent and he's willing to sacrifice me anyway.
+Dialogue: 0,0:04:38.69,0:04:42.42,chs_2 - 1080,,0,0,0,,他知道我是無辜的，他還願意犧牲我
+Dialogue: 0,0:04:42.46,0:04:44.39,eng_1 - 1080,,0,0,0,,He's willing to sacrifice any of us.
+Dialogue: 0,0:04:42.46,0:04:44.39,chs_2 - 1080,,0,0,0,,他願意犧牲我們所有人
+Dialogue: 0,0:04:44.43,0:04:46.16,eng_1 - 1080,,0,0,0,,Not you.
+Dialogue: 0,0:04:44.43,0:04:46.16,chs_2 - 1080,,0,0,0,,除了你
+Dialogue: 0,0:04:46.19,0:04:48.33,eng_1 - 1080,,0,0,0,,You're the golden son.
+Dialogue: 0,0:04:46.19,0:04:48.33,chs_2 - 1080,,0,0,0,,你是他的愛子
+Dialogue: 0,0:04:48.36,0:04:50.70,eng_1 - 1080,,0,0,0,,You could kill a king, lose a hand,
+Dialogue: 0,0:04:48.36,0:04:50.70,chs_2 - 1080,,0,0,0,,就算你殺了國王，丟了一隻手
+Dialogue: 0,0:04:50.76,0:04:52.97,eng_1 - 1080,,0,0,0,,fuck your own sister, you'll always be the golden son.
+Dialogue: 0,0:04:50.76,0:04:52.97,chs_2 - 1080,,0,0,0,,上了你親姐姐，你還是他的愛子
+Dialogue: 0,0:04:53.00,0:04:54.43,eng_1 - 1080,,0,0,0,,Careful.
+Dialogue: 0,0:04:53.00,0:04:54.43,chs_2 - 1080,,0,0,0,,小心點
+Dialogue: 0,0:04:54.47,0:04:56.84,eng_1 - 1080,,0,0,0,,I'm the last friend you've got.
+Dialogue: 0,0:04:54.47,0:04:56.84,chs_2 - 1080,,0,0,0,,你就只有我這一個朋友了
+Dialogue: 0,0:05:00.87,0:05:03.88,eng_1 - 1080,,0,0,0,,At least I got to tell them what they really are.
+Dialogue: 0,0:05:00.87,0:05:03.88,chs_2 - 1080,,0,0,0,,至少我終於揭穿了他們的真面目
+Dialogue: 0,0:05:03.91,0:05:06.05,eng_1 - 1080,,0,0,0,,Yes, brilliant speech.
+Dialogue: 0,0:05:03.91,0:05:06.05,chs_2 - 1080,,0,0,0,,對，出色的演講
+Dialogue: 0,0:05:06.08,0:05:08.41,eng_1 - 1080,,0,0,0,,They'll be talking about it for days to come.
+Dialogue: 0,0:05:06.08,0:05:08.41,chs_2 - 1080,,0,0,0,,他們會談論上幾天的
+Dialogue: 0,0:05:08.45,0:05:10.85,eng_1 - 1080,,0,0,0,,I thought you were a realist.
+Dialogue: 0,0:05:08.45,0:05:10.85,chs_2 - 1080,,0,0,0,,<i>我一直以為你是現實主義者</i>
+Dialogue: 0,0:05:10.88,0:05:13.52,eng_1 - 1080,,0,0,0,,Didn't realize you'd die for pride.
+Dialogue: 0,0:05:10.88,0:05:13.52,chs_2 - 1080,,0,0,0,,沒想到你會為尊嚴而死
+Dialogue: 0,0:05:13.55,0:05:16.29,eng_1 - 1080,,0,0,0,,Don't give up on me just yet.
+Dialogue: 0,0:05:13.55,0:05:16.29,chs_2 - 1080,,0,0,0,,先別對我絕望
+Dialogue: 0,0:05:16.32,0:05:18.86,eng_1 - 1080,,0,0,0,,I survived one trial by combat,
+Dialogue: 0,0:05:16.32,0:05:18.86,chs_2 - 1080,,0,0,0,,我在上次比武審判中活下來了
+Dialogue: 0,0:05:18.89,0:05:20.96,eng_1 - 1080,,0,0,0,,even though you weren't there to save me.
+Dialogue: 0,0:05:18.89,0:05:20.96,chs_2 - 1080,,0,0,0,,即使你沒來救我
+Dialogue: 0,0:05:20.99,0:05:23.46,eng_1 - 1080,,0,0,0,,I can't save you this time either.
+Dialogue: 0,0:05:20.99,0:05:23.46,chs_2 - 1080,,0,0,0,,這次我也不能救你
+Dialogue: 0,0:05:24.80,0:05:27.17,eng_1 - 1080,,0,0,0,,My training has proved
+Dialogue: 0,0:05:24.80,0:05:27.17,chs_2 - 1080,,0,0,0,,<i>我的訓練已經證明了</i>
+Dialogue: 0,0:05:27.20,0:05:30.04,eng_1 - 1080,,0,0,0,,that I can't beat a stable boy with my left hand.
+Dialogue: 0,0:05:27.20,0:05:30.04,chs_2 - 1080,,0,0,0,,我用左手連個馬童都打不贏
+Dialogue: 0,0:05:30.07,0:05:33.17,eng_1 - 1080,,0,0,0,,Where's your sense of adventure?
+Dialogue: 0,0:05:30.07,0:05:33.17,chs_2 - 1080,,0,0,0,,你的冒險精神哪去了？
+Dialogue: 0,0:05:34.41,0:05:36.44,eng_1 - 1080,,0,0,0,,Even if you lose, imagine the look
+Dialogue: 0,0:05:34.41,0:05:36.44,chs_2 - 1080,,0,0,0,,即使你輸了，想想
+Dialogue: 0,0:05:36.48,0:05:37.71,eng_1 - 1080,,0,0,0,,on Father's face when you fall.
+Dialogue: 0,0:05:36.48,0:05:37.71,chs_2 - 1080,,0,0,0,,你倒下時候父親的表情
+Dialogue: 0,0:05:37.74,0:05:40.08,eng_1 - 1080,,0,0,0,,Our family name snuffed out
+Dialogue: 0,0:05:37.74,0:05:40.08,chs_2 - 1080,,0,0,0,,一劍砍下
+Dialogue: 0,0:05:40.11,0:05:42.85,eng_1 - 1080,,0,0,0,,with a single swing of the sword.
+Dialogue: 0,0:05:40.11,0:05:42.85,chs_2 - 1080,,0,0,0,,我們家族就滅絕了
+Dialogue: 0,0:05:42.88,0:05:44.48,eng_1 - 1080,,0,0,0,,It is tempting.
+Dialogue: 0,0:05:42.88,0:05:44.48,chs_2 - 1080,,0,0,0,,很誘人啊
+Dialogue: 0,0:06:00.63,0:06:02.20,eng_1 - 1080,,0,0,0,,Well...
+Dialogue: 0,0:06:00.63,0:06:02.20,chs_2 - 1080,,0,0,0,,那麼…
+Dialogue: 0,0:06:02.24,0:06:05.14,eng_1 - 1080,,0,0,0,,Bronn fought for me once, he'll do it again.
+Dialogue: 0,0:06:02.24,0:06:05.14,chs_2 - 1080,,0,0,0,,波隆為我戰鬥過，他可以再戰
+Dialogue: 0,0:06:06.51,0:06:08.64,eng_1 - 1080,,0,0,0,,If he wins,
+Dialogue: 0,0:06:06.51,0:06:08.64,chs_2 - 1080,,0,0,0,,如果他贏了
+Dialogue: 0,0:06:08.68,0:06:10.68,eng_1 - 1080,,0,0,0,,I expect I'll be in his debt
+Dialogue: 0,0:06:08.68,0:06:10.68,chs_2 - 1080,,0,0,0,,我會一生
+Dialogue: 0,0:06:10.71,0:06:12.55,eng_1 - 1080,,0,0,0,,for the rest of my life.
+Dialogue: 0,0:06:10.71,0:06:12.55,chs_2 - 1080,,0,0,0,,都欠他人情
+Dialogue: 0,0:06:12.58,0:06:14.25,eng_1 - 1080,,0,0,0,,If he wins.
+Dialogue: 0,0:06:12.58,0:06:14.25,chs_2 - 1080,,0,0,0,,如果他能贏
+Dialogue: 0,0:06:14.28,0:06:15.68,eng_1 - 1080,,0,0,0,,Will you find him for me?
+Dialogue: 0,0:06:14.28,0:06:15.68,chs_2 - 1080,,0,0,0,,你能替我找到他嗎？
+Dialogue: 0,0:06:18.55,0:06:21.65,eng_1 - 1080,,0,0,0,,Who does Cersei plan on naming as a champion?
+Dialogue: 0,0:06:18.55,0:06:21.65,chs_2 - 1080,,0,0,0,,瑟曦準備讓誰代表？
+Dialogue: 0,0:06:21.69,0:06:24.42,eng_1 - 1080,,0,0,0,,I hope it's Ser Meryn Trant.
+Dialogue: 0,0:06:21.69,0:06:24.42,chs_2 - 1080,,0,0,0,,我希望是馬林·特蘭爵士
+Dialogue: 0,0:06:24.46,0:06:27.93,eng_1 - 1080,,0,0,0,,I'd enjoy watching Bronn disembowel that pompous child beater.
+Dialogue: 0,0:06:24.46,0:06:27.93,chs_2 - 1080,,0,0,0,,我想看波隆開了那浮誇傢伙的膛
+Dialogue: 0,0:06:27.96,0:06:29.83,eng_1 - 1080,,0,0,0,,No.
+Dialogue: 0,0:06:27.96,0:06:29.83,chs_2 - 1080,,0,0,0,,不是
+Dialogue: 0,0:06:29.86,0:06:32.40,eng_1 - 1080,,0,0,0,,Not Ser Meryn.
+Dialogue: 0,0:06:29.86,0:06:32.40,chs_2 - 1080,,0,0,0,,不是馬林爵士
+Dialogue: 0,0:06:42.31,0:06:44.14,eng_1 - 1080,,0,0,0,,Go on, move it.
+Dialogue: 0,0:06:42.31,0:06:44.14,chs_2 - 1080,,0,0,0,,<i>繼續</i>
+Dialogue: 0,0:06:44.18,0:06:46.55,eng_1 - 1080,,0,0,0,,And you.
+Dialogue: 0,0:06:44.18,0:06:46.55,chs_2 - 1080,,0,0,0,,到你了
+Dialogue: 0,0:06:46.58,0:06:48.41,eng_1 - 1080,,0,0,0,,Come on.
+Dialogue: 0,0:06:46.58,0:06:48.41,chs_2 - 1080,,0,0,0,,快點
+Dialogue: 0,0:06:58.06,0:07:00.59,eng_1 - 1080,,0,0,0,,Mercy.
+Dialogue: 0,0:06:58.06,0:07:00.59,chs_2 - 1080,,0,0,0,,求你了
+Dialogue: 0,0:07:00.63,0:07:02.23,eng_1 - 1080,,0,0,0,,Please.
+Dialogue: 0,0:07:00.63,0:07:02.23,chs_2 - 1080,,0,0,0,,求你了
+Dialogue: 0,0:07:02.26,0:07:04.20,eng_1 - 1080,,0,0,0,,Please, mercy.
+Dialogue: 0,0:07:02.26,0:07:04.20,chs_2 - 1080,,0,0,0,,求你饒了我吧
+Dialogue: 0,0:07:14.07,0:07:17.61,eng_1 - 1080,,0,0,0,,Ser Gregor. Welcome to the capital.
+Dialogue: 0,0:07:14.07,0:07:17.61,chs_2 - 1080,,0,0,0,,格雷果爵士，歡迎來都城
+Dialogue: 0,0:07:19.15,0:07:21.48,eng_1 - 1080,,0,0,0,,Thank you for riding here so quickly.
+Dialogue: 0,0:07:19.15,0:07:21.48,chs_2 - 1080,,0,0,0,,感謝你這麼快就到了
+Dialogue: 0,0:07:24.69,0:07:27.45,eng_1 - 1080,,0,0,0,,You seem to be in good form.
+Dialogue: 0,0:07:24.69,0:07:27.45,chs_2 - 1080,,0,0,0,,你看來狀態不錯
+Dialogue: 0,0:07:27.49,0:07:29.46,eng_1 - 1080,,0,0,0,,Who am I fighting?
+Dialogue: 0,0:07:27.49,0:07:29.46,chs_2 - 1080,,0,0,0,,我的對手是誰？
+Dialogue: 0,0:07:29.49,0:07:31.66,eng_1 - 1080,,0,0,0,,Does it matter?
+Dialogue: 0,0:07:29.49,0:07:31.66,chs_2 - 1080,,0,0,0,,有關係嗎？
+Dialogue: 0,0:07:55.45,0:07:56.95,eng_1 - 1080,,0,0,0,,Could be food.
+Dialogue: 0,0:07:55.45,0:07:56.95,chs_2 - 1080,,0,0,0,,可能有吃的
+Dialogue: 0,0:07:56.98,0:07:59.02,eng_1 - 1080,,0,0,0,,Could be soldiers.
+Dialogue: 0,0:07:56.98,0:07:59.02,chs_2 - 1080,,0,0,0,,可能有士兵
+Dialogue: 0,0:08:23.74,0:08:26.08,eng_1 - 1080,,0,0,0,,You shouldn't be sitting out here like this.
+Dialogue: 0,0:08:23.74,0:08:26.08,chs_2 - 1080,,0,0,0,,你不能這樣坐在這兒
+Dialogue: 0,0:08:26.11,0:08:28.51,eng_1 - 1080,,0,0,0,,Where else to sit?
+Dialogue: 0,0:08:26.11,0:08:28.51,chs_2 - 1080,,0,0,0,,還能坐哪？
+Dialogue: 0,0:08:28.55,0:08:31.35,eng_1 - 1080,,0,0,0,,Tried to walk back to my hut,
+Dialogue: 0,0:08:28.55,0:08:31.35,chs_2 - 1080,,0,0,0,,試過回我的小屋
+Dialogue: 0,0:08:31.39,0:08:33.85,eng_1 - 1080,,0,0,0,,hurt too much.
+Dialogue: 0,0:08:31.39,0:08:33.85,chs_2 - 1080,,0,0,0,,但傷太重
+Dialogue: 0,0:08:34.99,0:08:37.29,eng_1 - 1080,,0,0,0,,Then I remembered they burned my hut down.
+Dialogue: 0,0:08:34.99,0:08:37.29,chs_2 - 1080,,0,0,0,,然後我想起來他們把我的小屋燒了
+Dialogue: 0,0:08:37.32,0:08:39.39,eng_1 - 1080,,0,0,0,,Who were "they"?
+Dialogue: 0,0:08:37.32,0:08:39.39,chs_2 - 1080,,0,0,0,,他們是誰？
+Dialogue: 0,0:08:39.43,0:08:41.96,eng_1 - 1080,,0,0,0,,I stopped asking a while ago.
+Dialogue: 0,0:08:39.43,0:08:41.96,chs_2 - 1080,,0,0,0,,我已經放棄追究了
+Dialogue: 0,0:08:46.17,0:08:48.70,eng_1 - 1080,,0,0,0,,That's not gonna get better.
+Dialogue: 0,0:08:46.17,0:08:48.70,chs_2 - 1080,,0,0,0,,這傷口不會好的
+Dialogue: 0,0:08:48.74,0:08:50.00,eng_1 - 1080,,0,0,0,,Doesn't seem so.
+Dialogue: 0,0:08:48.74,0:08:50.00,chs_2 - 1080,,0,0,0,,不像能好
+Dialogue: 0,0:08:50.10,0:08:52.07,eng_1 - 1080,,0,0,0,,A bad way to go.
+Dialogue: 0,0:08:50.10,0:08:52.07,chs_2 - 1080,,0,0,0,,會越來越糟
+Dialogue: 0,0:08:53.77,0:08:55.64,eng_1 - 1080,,0,0,0,,Haven't you had enough?
+Dialogue: 0,0:08:53.77,0:08:55.64,chs_2 - 1080,,0,0,0,,你還沒受夠嗎？
+Dialogue: 0,0:08:55.68,0:08:57.41,eng_1 - 1080,,0,0,0,,Of what?
+Dialogue: 0,0:08:55.68,0:08:57.41,chs_2 - 1080,,0,0,0,,受夠什麼？
+Dialogue: 0,0:09:00.45,0:09:02.48,eng_1 - 1080,,0,0,0,,I know.
+Dialogue: 0,0:09:00.45,0:09:02.48,chs_2 - 1080,,0,0,0,,知道了
+Dialogue: 0,0:09:02.52,0:09:04.72,eng_1 - 1080,,0,0,0,,Time to go.
+Dialogue: 0,0:09:02.52,0:09:04.72,chs_2 - 1080,,0,0,0,,是時候了
+Dialogue: 0,0:09:04.75,0:09:07.59,eng_1 - 1080,,0,0,0,,Take matters into my own hands.
+Dialogue: 0,0:09:04.75,0:09:07.59,chs_2 - 1080,,0,0,0,,我想自己解決
+Dialogue: 0,0:09:09.82,0:09:12.39,eng_1 - 1080,,0,0,0,,The thought has occurred to me.
+Dialogue: 0,0:09:09.82,0:09:12.39,chs_2 - 1080,,0,0,0,,我有這樣想過
+Dialogue: 0,0:09:15.93,0:09:17.90,eng_1 - 1080,,0,0,0,,So why go on?
+Dialogue: 0,0:09:15.93,0:09:17.90,chs_2 - 1080,,0,0,0,,為什麼還堅持？
+Dialogue: 0,0:09:18.90,0:09:20.77,eng_1 - 1080,,0,0,0,,Habit.
+Dialogue: 0,0:09:18.90,0:09:20.77,chs_2 - 1080,,0,0,0,,習慣
+Dialogue: 0,0:09:23.20,0:09:25.40,eng_1 - 1080,,0,0,0,,Nothing could be worse than this.
+Dialogue: 0,0:09:23.20,0:09:25.40,chs_2 - 1080,,0,0,0,,沒有什麼能比這更糟了
+Dialogue: 0,0:09:25.44,0:09:28.97,eng_1 - 1080,,0,0,0,,Maybe nothing is worse than this.
+Dialogue: 0,0:09:25.44,0:09:28.97,chs_2 - 1080,,0,0,0,,也許「沒有了」比這更糟
+Dialogue: 0,0:09:30.28,0:09:34.75,eng_1 - 1080,,0,0,0,,Nothing isn't better or worse than anything.
+Dialogue: 0,0:09:30.28,0:09:34.75,chs_2 - 1080,,0,0,0,,「沒有了」不比任何事更好或更糟
+Dialogue: 0,0:09:37.18,0:09:39.62,eng_1 - 1080,,0,0,0,,Nothing is just nothing.
+Dialogue: 0,0:09:37.18,0:09:39.62,chs_2 - 1080,,0,0,0,,沒有了就是沒有了
+Dialogue: 0,0:09:43.76,0:09:46.03,eng_1 - 1080,,0,0,0,,Who are you?
+Dialogue: 0,0:09:43.76,0:09:46.03,chs_2 - 1080,,0,0,0,,你是誰？
+Dialogue: 0,0:09:47.99,0:09:50.26,eng_1 - 1080,,0,0,0,,My name is Arya.
+Dialogue: 0,0:09:47.99,0:09:50.26,chs_2 - 1080,,0,0,0,,我叫艾莉亞
+Dialogue: 0,0:09:50.30,0:09:52.57,eng_1 - 1080,,0,0,0,,Arya Stark.
+Dialogue: 0,0:09:50.30,0:09:52.57,chs_2 - 1080,,0,0,0,,艾莉亞·史塔克
+Dialogue: 0,0:09:55.74,0:09:57.84,eng_1 - 1080,,0,0,0,,You her father?
+Dialogue: 0,0:09:55.74,0:09:57.84,chs_2 - 1080,,0,0,0,,你是她父親？
+Dialogue: 0,0:09:57.87,0:09:59.67,eng_1 - 1080,,0,0,0,,Her captor.
+Dialogue: 0,0:09:57.87,0:09:59.67,chs_2 - 1080,,0,0,0,,她是我的俘虜
+Dialogue: 0,0:09:59.71,0:10:02.81,eng_1 - 1080,,0,0,0,,Bringing her to her aunt for ransom.
+Dialogue: 0,0:09:59.71,0:10:02.81,chs_2 - 1080,,0,0,0,,我帶她去她姨媽家要贖金
+Dialogue: 0,0:10:02.84,0:10:06.71,eng_1 - 1080,,0,0,0,,A fair exchange, that is.
+Dialogue: 0,0:10:02.84,0:10:06.71,chs_2 - 1080,,0,0,0,,公平交換
+Dialogue: 0,0:10:09.45,0:10:12.28,eng_1 - 1080,,0,0,0,,Always held to the notion of fair exchange
+Dialogue: 0,0:10:09.45,0:10:12.28,chs_2 - 1080,,0,0,0,,凡是我做生意
+Dialogue: 0,0:10:12.32,0:10:14.92,eng_1 - 1080,,0,0,0,,in all my dealings.
+Dialogue: 0,0:10:12.32,0:10:14.92,chs_2 - 1080,,0,0,0,,都堅守公平交換原則
+Dialogue: 0,0:10:14.96,0:10:18.36,eng_1 - 1080,,0,0,0,,You give me, I give you.
+Dialogue: 0,0:10:14.96,0:10:18.36,chs_2 - 1080,,0,0,0,,你給我要的，我給你要的
+Dialogue: 0,0:10:19.56,0:10:21.33,eng_1 - 1080,,0,0,0,,Fair.
+Dialogue: 0,0:10:19.56,0:10:21.33,chs_2 - 1080,,0,0,0,,<i>買賣公平</i>
+Dialogue: 0,0:10:21.36,0:10:23.83,eng_1 - 1080,,0,0,0,,A balance.
+Dialogue: 0,0:10:21.36,0:10:23.83,chs_2 - 1080,,0,0,0,,平衡互利
+Dialogue: 0,0:10:25.97,0:10:28.07,eng_1 - 1080,,0,0,0,,No balance anymore.
+Dialogue: 0,0:10:25.97,0:10:28.07,chs_2 - 1080,,0,0,0,,再無平衡可言了
+Dialogue: 0,0:10:33.64,0:10:35.81,eng_1 - 1080,,0,0,0,,Could I have a drink?
+Dialogue: 0,0:10:33.64,0:10:35.81,chs_2 - 1080,,0,0,0,,能給我喝一口嗎？
+Dialogue: 0,0:10:35.84,0:10:38.14,eng_1 - 1080,,0,0,0,,Dying is thirsty work.
+Dialogue: 0,0:10:35.84,0:10:38.14,chs_2 - 1080,,0,0,0,,等死叫人口渴
+Dialogue: 0,0:10:48.19,0:10:49.89,eng_1 - 1080,,0,0,0,,Wish it were wine.
+Dialogue: 0,0:10:48.19,0:10:49.89,chs_2 - 1080,,0,0,0,,要是酒就好了
+Dialogue: 0,0:10:51.19,0:10:52.99,eng_1 - 1080,,0,0,0,,So do I.
+Dialogue: 0,0:10:51.19,0:10:52.99,chs_2 - 1080,,0,0,0,,我也希望
+Dialogue: 0,0:11:12.15,0:11:14.05,eng_1 - 1080,,0,0,0,,That's where the heart is.
+Dialogue: 0,0:11:12.15,0:11:14.05,chs_2 - 1080,,0,0,0,,這才是心臟的位置
+Dialogue: 0,0:11:17.98,0:11:19.65,eng_1 - 1080,,0,0,0,,That's how you kill a man.
+Dialogue: 0,0:11:17.98,0:11:19.65,chs_2 - 1080,,0,0,0,,這才是殺人的正確方法
+Dialogue: 0,0:11:27.13,0:11:28.93,eng_1 - 1080,,0,0,0,,The fuck you doing?
+Dialogue: 0,0:11:27.13,0:11:28.93,chs_2 - 1080,,0,0,0,,你們他媽搞什麼？
+Dialogue: 0,0:11:30.76,0:11:32.80,eng_1 - 1080,,0,0,0,,There's a price on your head.
+Dialogue: 0,0:11:30.76,0:11:32.80,chs_2 - 1080,,0,0,0,,<i>拿你的人頭有賞錢</i>
+Dialogue: 0,0:11:32.83,0:11:35.60,eng_1 - 1080,,0,0,0,,Guess that's what the king does when you tell him to fuck off.
+Dialogue: 0,0:11:32.83,0:11:35.60,chs_2 - 1080,,0,0,0,,我猜是因為我罵國王去他媽的
+Dialogue: 0,0:11:35.64,0:11:37.00,eng_1 - 1080,,0,0,0,,The king's dead.
+Dialogue: 0,0:11:35.64,0:11:37.00,chs_2 - 1080,,0,0,0,,國王死了
+Dialogue: 0,0:11:37.04,0:11:40.17,eng_1 - 1080,,0,0,0,,He drank poisoned wine at his own wedding.
+Dialogue: 0,0:11:37.04,0:11:40.17,chs_2 - 1080,,0,0,0,,<i>他在婚宴上喝了毒酒</i>
+Dialogue: 0,0:11:40.21,0:11:43.21,eng_1 - 1080,,0,0,0,,The bounty on you is for killing Lannister soldiers.
+Dialogue: 0,0:11:40.21,0:11:43.21,chs_2 - 1080,,0,0,0,,你殺了蘭尼斯特的士兵，所以懸賞你
+Dialogue: 0,0:11:43.24,0:11:44.64,eng_1 - 1080,,0,0,0,,100 silver stags.
+Dialogue: 0,0:11:43.24,0:11:44.64,chs_2 - 1080,,0,0,0,,一百個銀鹿幣
+Dialogue: 0,0:11:44.68,0:11:46.55,eng_1 - 1080,,0,0,0,,And you thought you were going to collect it?
+Dialogue: 0,0:11:44.68,0:11:46.55,chs_2 - 1080,,0,0,0,,你以為你能領到手嗎？
+Dialogue: 0,0:11:46.58,0:11:49.68,eng_1 - 1080,,0,0,0,,Didn't think very hard, did you?
+Dialogue: 0,0:11:46.58,0:11:49.68,chs_2 - 1080,,0,0,0,,<i>沒想清楚是吧？</i>
+Dialogue: 0,0:11:49.72,0:11:53.32,eng_1 - 1080,,0,0,0,,You were Yoren's prisoners when he was taking me to the Wall.
+Dialogue: 0,0:11:49.72,0:11:53.32,chs_2 - 1080,,0,0,0,,尤倫帶我去長城的時候，你是他的犯人
+Dialogue: 0,0:11:53.35,0:11:56.62,eng_1 - 1080,,0,0,0,,He told me he'd fuck me bloody with a stick.
+Dialogue: 0,0:11:53.35,0:11:56.62,chs_2 - 1080,,0,0,0,,他說會用根棍子把我搞死
+Dialogue: 0,0:11:56.66,0:12:00.56,eng_1 - 1080,,0,0,0,,This day's really not working out the way you planned.
+Dialogue: 0,0:11:56.66,0:12:00.56,chs_2 - 1080,,0,0,0,,真沒想到在這裏冤家路窄了
+Dialogue: 0,0:12:00.59,0:12:02.73,eng_1 - 1080,,0,0,0,,He on your little list?
+Dialogue: 0,0:12:00.59,0:12:02.73,chs_2 - 1080,,0,0,0,,你名單上有他嗎？
+Dialogue: 0,0:12:02.76,0:12:05.13,eng_1 - 1080,,0,0,0,,He can't be.
+Dialogue: 0,0:12:02.76,0:12:05.13,chs_2 - 1080,,0,0,0,,不可能有
+Dialogue: 0,0:12:05.17,0:12:07.57,eng_1 - 1080,,0,0,0,,I don't know his name.
+Dialogue: 0,0:12:05.17,0:12:07.57,chs_2 - 1080,,0,0,0,,我不知道他的名字
+Dialogue: 0,0:12:08.80,0:12:10.37,eng_1 - 1080,,0,0,0,,What's your name?
+Dialogue: 0,0:12:08.80,0:12:10.37,chs_2 - 1080,,0,0,0,,你叫什麼？
+Dialogue: 0,0:12:11.87,0:12:13.91,eng_1 - 1080,,0,0,0,,- Rorge. - Thank you.
+Dialogue: 0,0:12:11.87,0:12:13.91,chs_2 - 1080,,0,0,0,,- 羅爾傑\N- 謝謝
+Dialogue: 0,0:12:20.71,0:12:22.75,eng_1 - 1080,,0,0,0,,You're learning.
+Dialogue: 0,0:12:20.71,0:12:22.75,chs_2 - 1080,,0,0,0,,孺子可教
+Dialogue: 0,0:12:27.65,0:12:30.62,eng_1 - 1080,,0,0,0,,Rangers returning!
+Dialogue: 0,0:12:27.65,0:12:30.62,chs_2 - 1080,,0,0,0,,<i>守夜人回來啦！</i>
+Dialogue: 0,0:12:32.96,0:12:34.96,eng_1 - 1080,,0,0,0,,They return!
+Dialogue: 0,0:12:32.96,0:12:34.96,chs_2 - 1080,,0,0,0,,<i>他們回來啦！</i>
+Dialogue: 0,0:12:35.00,0:12:37.86,eng_1 - 1080,,0,0,0,,- Rangers returning! - Greetings.
+Dialogue: 0,0:12:35.00,0:12:37.86,chs_2 - 1080,,0,0,0,,- <i>守夜人回來啦！</i>\N- 別來無恙
+Dialogue: 0,0:12:37.90,0:12:40.07,eng_1 - 1080,,0,0,0,,Didn't think I'd see you again.
+Dialogue: 0,0:12:37.90,0:12:40.07,chs_2 - 1080,,0,0,0,,<i>還以為我再也</i>\N<i>見不到你了</i>
+Dialogue: 0,0:12:40.10,0:12:41.70,eng_1 - 1080,,0,0,0,,All right, Jon?
+Dialogue: 0,0:12:40.10,0:12:41.70,chs_2 - 1080,,0,0,0,,挺好的吧，瓊恩
+Dialogue: 0,0:12:41.74,0:12:43.37,eng_1 - 1080,,0,0,0,,Welcome back, brother.
+Dialogue: 0,0:12:41.74,0:12:43.37,chs_2 - 1080,,0,0,0,,歡迎歸來，兄弟
+Dialogue: 0,0:12:52.31,0:12:54.41,eng_1 - 1080,,0,0,0,,Lord Snow.
+Dialogue: 0,0:12:52.31,0:12:54.41,chs_2 - 1080,,0,0,0,,雪諾大人
+Dialogue: 0,0:12:59.62,0:13:01.95,eng_1 - 1080,,0,0,0,,This is no place for wild beasts.
+Dialogue: 0,0:12:59.62,0:13:01.95,chs_2 - 1080,,0,0,0,,<i>野獸可不能待在這裏</i>
+Dialogue: 0,0:13:01.99,0:13:03.92,eng_1 - 1080,,0,0,0,,Lock him away
+Dialogue: 0,0:13:01.99,0:13:03.92,chs_2 - 1080,,0,0,0,,把它關起來
+Dialogue: 0,0:13:03.96,0:13:06.09,eng_1 - 1080,,0,0,0,,or I'll let Hobb throw him in tonight's stew.
+Dialogue: 0,0:13:03.96,0:13:06.09,chs_2 - 1080,,0,0,0,,否則我讓哈布拿它燉湯
+Dialogue: 0,0:13:17.14,0:13:19.00,eng_1 - 1080,,0,0,0,,Come on, Ghost.
+Dialogue: 0,0:13:17.14,0:13:19.00,chs_2 - 1080,,0,0,0,,來吧，白靈
+Dialogue: 0,0:13:21.07,0:13:25.28,eng_1 - 1080,,0,0,0,,Mance's army was closing in on Craster's Keep when we left.
+Dialogue: 0,0:13:21.07,0:13:25.28,chs_2 - 1080,,0,0,0,,我們離開時，曼斯的軍隊正逼近卡斯特堡
+Dialogue: 0,0:13:25.31,0:13:28.11,eng_1 - 1080,,0,0,0,,We saw their campfires from Osric's Hill.
+Dialogue: 0,0:13:25.31,0:13:28.11,chs_2 - 1080,,0,0,0,,我們從歐斯裏克山看到他們的篝火
+Dialogue: 0,0:13:28.18,0:13:29.95,eng_1 - 1080,,0,0,0,,They'll reach the Wall before the next full moon.
+Dialogue: 0,0:13:28.18,0:13:29.95,chs_2 - 1080,,0,0,0,,他們會趕在下次月圓前到達長城
+Dialogue: 0,0:13:29.98,0:13:32.32,eng_1 - 1080,,0,0,0,,I'm surprised you didn't ride over and say hello.
+Dialogue: 0,0:13:29.98,0:13:32.32,chs_2 - 1080,,0,0,0,,你竟然沒跑去打聲招呼
+Dialogue: 0,0:13:32.35,0:13:34.55,eng_1 - 1080,,0,0,0,,The King-beyond-the-Wall is your old friend, isn't he?
+Dialogue: 0,0:13:32.35,0:13:34.55,chs_2 - 1080,,0,0,0,,塞外之王是你的故交，不是嗎？
+Dialogue: 0,0:13:34.59,0:13:36.12,eng_1 - 1080,,0,0,0,,We need to prepare.
+Dialogue: 0,0:13:34.59,0:13:36.12,chs_2 - 1080,,0,0,0,,我們要有防備
+Dialogue: 0,0:13:36.19,0:13:37.52,eng_1 - 1080,,0,0,0,,We've been preparing.
+Dialogue: 0,0:13:36.19,0:13:37.52,chs_2 - 1080,,0,0,0,,我們一直在防備
+Dialogue: 0,0:13:37.56,0:13:38.92,eng_1 - 1080,,0,0,0,,We should seal the tunnel.
+Dialogue: 0,0:13:37.56,0:13:38.92,chs_2 - 1080,,0,0,0,,我們應該把隧道封起來
+Dialogue: 0,0:13:40.69,0:13:42.23,eng_1 - 1080,,0,0,0,,Plug it with rocks and ice.
+Dialogue: 0,0:13:40.69,0:13:42.23,chs_2 - 1080,,0,0,0,,用石頭和冰塊堵起來
+Dialogue: 0,0:13:42.26,0:13:43.70,eng_1 - 1080,,0,0,0,,Flood it and let it freeze.
+Dialogue: 0,0:13:42.26,0:13:43.70,chs_2 - 1080,,0,0,0,,往裏面灌水，讓它凍住
+Dialogue: 0,0:13:43.73,0:13:45.16,eng_1 - 1080,,0,0,0,,And how would we range north?
+Dialogue: 0,0:13:43.73,0:13:45.16,chs_2 - 1080,,0,0,0,,<i>那我們如何去北方巡邏？</i>
+Dialogue: 0,0:13:45.20,0:13:47.23,eng_1 - 1080,,0,0,0,,- We wouldn't. - Coward.
+Dialogue: 0,0:13:45.20,0:13:47.23,chs_2 - 1080,,0,0,0,,- 不去\N<i>- 你個懦夫</i>
+Dialogue: 0,0:13:47.27,0:13:49.07,eng_1 - 1080,,0,0,0,,You would cut off our legs,
+Dialogue: 0,0:13:47.27,0:13:49.07,chs_2 - 1080,,0,0,0,,你想砍下我們的雙腿
+Dialogue: 0,0:13:49.10,0:13:50.70,eng_1 - 1080,,0,0,0,,pluck out our eyes,
+Dialogue: 0,0:13:49.10,0:13:50.70,chs_2 - 1080,,0,0,0,,剜出我們雙眼
+Dialogue: 0,0:13:50.74,0:13:52.64,eng_1 - 1080,,0,0,0,,leave us cowering behind the Wall
+Dialogue: 0,0:13:50.74,0:13:52.64,chs_2 - 1080,,0,0,0,,讓我們畏縮在長城之後
+Dialogue: 0,0:13:52.67,0:13:54.54,eng_1 - 1080,,0,0,0,,hoping for the storm to pass?
+Dialogue: 0,0:13:52.67,0:13:54.54,chs_2 - 1080,,0,0,0,,指望風暴能平息？
+Dialogue: 0,0:13:54.57,0:13:57.14,eng_1 - 1080,,0,0,0,,We can't defend the gate against 100,000 men.
+Dialogue: 0,0:13:54.57,0:13:57.14,chs_2 - 1080,,0,0,0,,與十萬大軍作戰，我們守不住城門
+Dialogue: 0,0:13:57.18,0:13:59.65,eng_1 - 1080,,0,0,0,,This castle has stood for thousands of years.
+Dialogue: 0,0:13:57.18,0:13:59.65,chs_2 - 1080,,0,0,0,,這座城堡矗立了幾千年
+Dialogue: 0,0:13:59.68,0:14:03.02,eng_1 - 1080,,0,0,0,,The Night's Watch has defended her for thousands of years.
+Dialogue: 0,0:13:59.68,0:14:03.02,chs_2 - 1080,,0,0,0,,守夜人也已捍衛了它幾千年
+Dialogue: 0,0:14:03.05,0:14:06.15,eng_1 - 1080,,0,0,0,,And in all those centuries, we have never sealed the tunnel.
+Dialogue: 0,0:14:03.05,0:14:06.15,chs_2 - 1080,,0,0,0,,千百年以來，我們從沒封過隧道
+Dialogue: 0,0:14:06.19,0:14:08.45,eng_1 - 1080,,0,0,0,,Have you ever seen a giant, Ser Alliser?
+Dialogue: 0,0:14:06.19,0:14:08.45,chs_2 - 1080,,0,0,0,,你見過巨人嗎，艾裏沙大人？
+Dialogue: 0,0:14:08.49,0:14:10.66,eng_1 - 1080,,0,0,0,,I have.
+Dialogue: 0,0:14:08.49,0:14:10.66,chs_2 - 1080,,0,0,0,,<i>我見過</i>
+Dialogue: 0,0:14:10.69,0:14:12.63,eng_1 - 1080,,0,0,0,,The tunnel's gate won't stop them.
+Dialogue: 0,0:14:10.69,0:14:12.63,chs_2 - 1080,,0,0,0,,隧道大門阻擋不住他們
+Dialogue: 0,0:14:12.66,0:14:14.73,eng_1 - 1080,,0,0,0,,The bars on those gates are four inches thick.
+Dialogue: 0,0:14:12.66,0:14:14.73,chs_2 - 1080,,0,0,0,,門閂厚四寸
+Dialogue: 0,0:14:14.76,0:14:16.46,eng_1 - 1080,,0,0,0,,Cold-rolled steel.
+Dialogue: 0,0:14:14.76,0:14:16.46,chs_2 - 1080,,0,0,0,,外包冷凝鋼
+Dialogue: 0,0:14:16.50,0:14:18.70,eng_1 - 1080,,0,0,0,,They won't stop them.
+Dialogue: 0,0:14:16.50,0:14:18.70,chs_2 - 1080,,0,0,0,,那也擋不住
+Dialogue: 0,0:14:20.20,0:14:23.04,eng_1 - 1080,,0,0,0,,Remind me which order you belong to, Lord Snow.
+Dialogue: 0,0:14:20.20,0:14:23.04,chs_2 - 1080,,0,0,0,,你到底擔任什麼職務，雪諾大人
+Dialogue: 0,0:14:23.07,0:14:25.04,eng_1 - 1080,,0,0,0,,The stewards.
+Dialogue: 0,0:14:23.07,0:14:25.04,chs_2 - 1080,,0,0,0,,事務官
+Dialogue: 0,0:14:25.07,0:14:28.01,eng_1 - 1080,,0,0,0,,Are the stewards responsible for maintaining the tunnel?
+Dialogue: 0,0:14:25.07,0:14:28.01,chs_2 - 1080,,0,0,0,,事務官是否有責任維護隧道？
+Dialogue: 0,0:14:28.04,0:14:30.44,eng_1 - 1080,,0,0,0,,No.
+Dialogue: 0,0:14:28.04,0:14:30.44,chs_2 - 1080,,0,0,0,,沒有
+Dialogue: 0,0:14:30.51,0:14:32.14,eng_1 - 1080,,0,0,0,,Who would that be?
+Dialogue: 0,0:14:30.51,0:14:32.14,chs_2 - 1080,,0,0,0,,那是誰有的職責？
+Dialogue: 0,0:14:33.81,0:14:35.91,eng_1 - 1080,,0,0,0,,- The builders. - Ah, the builders.
+Dialogue: 0,0:14:33.81,0:14:35.91,chs_2 - 1080,,0,0,0,,- 工匠\N- 是啊，工匠
+Dialogue: 0,0:14:35.95,0:14:38.15,eng_1 - 1080,,0,0,0,,First Builder Yarwyck,
+Dialogue: 0,0:14:35.95,0:14:38.15,chs_2 - 1080,,0,0,0,,首席工匠亞威克
+Dialogue: 0,0:14:38.18,0:14:41.15,eng_1 - 1080,,0,0,0,,Lord Snow here recommends sealing the tunnel,
+Dialogue: 0,0:14:38.18,0:14:41.15,chs_2 - 1080,,0,0,0,,雪諾大人下令封鎖隧道
+Dialogue: 0,0:14:41.19,0:14:43.86,eng_1 - 1080,,0,0,0,,leaving us unable to carry out our duties
+Dialogue: 0,0:14:41.19,0:14:43.86,chs_2 - 1080,,0,0,0,,讓我們誓守邊關的守夜兄弟
+Dialogue: 0,0:14:43.89,0:14:46.69,eng_1 - 1080,,0,0,0,,as sworn brothers of the Night's Watch.
+Dialogue: 0,0:14:43.89,0:14:46.69,chs_2 - 1080,,0,0,0,,束手無策，坐以待斃
+Dialogue: 0,0:14:46.73,0:14:48.86,eng_1 - 1080,,0,0,0,,Do you agree with him?
+Dialogue: 0,0:14:46.73,0:14:48.86,chs_2 - 1080,,0,0,0,,你可同意？
+Dialogue: 0,0:14:57.50,0:14:59.10,eng_1 - 1080,,0,0,0,,No.
+Dialogue: 0,0:14:57.50,0:14:59.10,chs_2 - 1080,,0,0,0,,不
+Dialogue: 0,0:15:00.81,0:15:03.78,eng_1 - 1080,,0,0,0,,Given your deep knowledge of the wildling army, Lord Snow,
+Dialogue: 0,0:15:00.81,0:15:03.78,chs_2 - 1080,,0,0,0,,<i>鑒於你對蠻族軍隊的淵博知識，雪諾大人</i>
+Dialogue: 0,0:15:03.81,0:15:07.18,eng_1 - 1080,,0,0,0,,you and Tarly will take night duties atop the Wall
+Dialogue: 0,0:15:03.81,0:15:07.18,chs_2 - 1080,,0,0,0,,你和塔利負責城頭守夜
+Dialogue: 0,0:15:07.21,0:15:09.08,eng_1 - 1080,,0,0,0,,until the full moon.
+Dialogue: 0,0:15:07.21,0:15:09.08,chs_2 - 1080,,0,0,0,,直到月圓之夜
+Dialogue: 0,0:15:11.08,0:15:12.89,eng_1 - 1080,,0,0,0,,Moving on.
+Dialogue: 0,0:15:11.08,0:15:12.89,chs_2 - 1080,,0,0,0,,<i>繼續</i>
+Dialogue: 0,0:15:12.92,0:15:16.79,eng_1 - 1080,,0,0,0,,First Builder, we'll need 100 barrels of pitch brought atop the wall.
+Dialogue: 0,0:15:12.92,0:15:16.79,chs_2 - 1080,,0,0,0,,<i>首席工匠，我們要在城頭準備一百桶瀝青</i>
+Dialogue: 0,0:15:16.82,0:15:18.39,eng_1 - 1080,,0,0,0,,Aye.
+Dialogue: 0,0:15:16.82,0:15:18.39,chs_2 - 1080,,0,0,0,,<i>遵命</i>
+Dialogue: 0,0:15:42.18,0:15:44.22,eng_1 - 1080,,0,0,0,,My lord.
+Dialogue: 0,0:15:42.18,0:15:44.22,chs_2 - 1080,,0,0,0,,大人
+Dialogue: 0,0:15:45.95,0:15:48.19,eng_1 - 1080,,0,0,0,,You have new clothes.
+Dialogue: 0,0:15:45.95,0:15:48.19,chs_2 - 1080,,0,0,0,,你換了一身新行頭
+Dialogue: 0,0:15:48.22,0:15:50.52,eng_1 - 1080,,0,0,0,,Do you like 'em? Eh?
+Dialogue: 0,0:15:48.22,0:15:50.52,chs_2 - 1080,,0,0,0,,喜歡嗎？
+Dialogue: 0,0:15:52.03,0:15:53.93,eng_1 - 1080,,0,0,0,,Gloves are doeskin.
+Dialogue: 0,0:15:52.03,0:15:53.93,chs_2 - 1080,,0,0,0,,母鹿皮的手套
+Dialogue: 0,0:15:53.96,0:15:55.39,eng_1 - 1080,,0,0,0,,Softer than a virgin's thighs.
+Dialogue: 0,0:15:53.96,0:15:55.39,chs_2 - 1080,,0,0,0,,比處女的大腿還柔滑
+Dialogue: 0,0:15:55.43,0:15:56.83,eng_1 - 1080,,0,0,0,,I sent for you days ago.
+Dialogue: 0,0:15:55.43,0:15:56.83,chs_2 - 1080,,0,0,0,,<i>我好幾天前就派人找你來</i>
+Dialogue: 0,0:15:56.86,0:15:59.70,eng_1 - 1080,,0,0,0,,- I've been a bit busy. - Doing what?
+Dialogue: 0,0:15:56.86,0:15:59.70,chs_2 - 1080,,0,0,0,,- 我一直在忙\N- 忙什麼？
+Dialogue: 0,0:16:02.20,0:16:05.34,eng_1 - 1080,,0,0,0,,My lonesome bachelor days are over.
+Dialogue: 0,0:16:02.20,0:16:05.34,chs_2 - 1080,,0,0,0,,我寂寞單身漢的日子到頭了
+Dialogue: 0,0:16:07.07,0:16:09.21,eng_1 - 1080,,0,0,0,,I'm to wed Lollys Stokeworth.
+Dialogue: 0,0:16:07.07,0:16:09.21,chs_2 - 1080,,0,0,0,,我要迎娶洛麗絲·史鐸克渥斯
+Dialogue: 0,0:16:10.51,0:16:12.44,eng_1 - 1080,,0,0,0,,Lollys Stokeworth?
+Dialogue: 0,0:16:10.51,0:16:12.44,chs_2 - 1080,,0,0,0,,洛麗絲·史鐸克渥斯？
+Dialogue: 0,0:16:12.48,0:16:16.05,eng_1 - 1080,,0,0,0,,She doesn't strike me as your sort of girl.
+Dialogue: 0,0:16:12.48,0:16:16.05,chs_2 - 1080,,0,0,0,,<i>我想這種姑娘並不合你的口味吧</i>
+Dialogue: 0,0:16:16.08,0:16:19.08,eng_1 - 1080,,0,0,0,,I wouldn't say I had a single sort of girl.
+Dialogue: 0,0:16:16.08,0:16:19.08,chs_2 - 1080,,0,0,0,,我不認為我對姑娘有特定口味
+Dialogue: 0,0:16:19.12,0:16:20.69,eng_1 - 1080,,0,0,0,,She's dim-witted.
+Dialogue: 0,0:16:19.12,0:16:20.69,chs_2 - 1080,,0,0,0,,她是個傻子
+Dialogue: 0,0:16:20.72,0:16:22.12,eng_1 - 1080,,0,0,0,,If I wanted wits, I'd marry you.
+Dialogue: 0,0:16:20.72,0:16:22.12,chs_2 - 1080,,0,0,0,,如果要聰明的，我就娶你好了
+Dialogue: 0,0:16:22.16,0:16:25.09,eng_1 - 1080,,0,0,0,,When my sister arranged this love match,
+Dialogue: 0,0:16:22.16,0:16:25.09,chs_2 - 1080,,0,0,0,,我姐姐安排這樁婚事的時候
+Dialogue: 0,0:16:25.13,0:16:28.26,eng_1 - 1080,,0,0,0,,did she mention that Lollys has an older sister?
+Dialogue: 0,0:16:25.13,0:16:28.26,chs_2 - 1080,,0,0,0,,她有提過洛麗絲有個姐姐嗎？
+Dialogue: 0,0:16:28.29,0:16:29.70,eng_1 - 1080,,0,0,0,,Falyse.
+Dialogue: 0,0:16:28.29,0:16:29.70,chs_2 - 1080,,0,0,0,,法麗絲
+Dialogue: 0,0:16:29.73,0:16:32.10,eng_1 - 1080,,0,0,0,,Aye, I did know about the older sister.
+Dialogue: 0,0:16:29.73,0:16:32.10,chs_2 - 1080,,0,0,0,,是的，我知道她有姐姐
+Dialogue: 0,0:16:32.13,0:16:34.17,eng_1 - 1080,,0,0,0,,And you understand the rules of inheritance?
+Dialogue: 0,0:16:32.13,0:16:34.17,chs_2 - 1080,,0,0,0,,你也明白血脈延續的規矩
+Dialogue: 0,0:16:34.20,0:16:35.50,eng_1 - 1080,,0,0,0,,Falyse is 40 and barren.
+Dialogue: 0,0:16:34.20,0:16:35.50,chs_2 - 1080,,0,0,0,,法麗絲四十歲了，無法生育
+Dialogue: 0,0:16:35.54,0:16:38.74,eng_1 - 1080,,0,0,0,,She still gets Castle Stokeworth when her father dies.
+Dialogue: 0,0:16:35.54,0:16:38.74,chs_2 - 1080,,0,0,0,,<i>她父親一死，她仍然擁有史鐸克渥斯堡</i>
+Dialogue: 0,0:16:38.77,0:16:40.21,eng_1 - 1080,,0,0,0,,She does.
+Dialogue: 0,0:16:38.77,0:16:40.21,chs_2 - 1080,,0,0,0,,是的
+Dialogue: 0,0:16:40.24,0:16:42.47,eng_1 - 1080,,0,0,0,,Unless she happens to perish before her father.
+Dialogue: 0,0:16:40.24,0:16:42.47,chs_2 - 1080,,0,0,0,,除非她死在她父親之前
+Dialogue: 0,0:16:42.51,0:16:44.38,eng_1 - 1080,,0,0,0,,Then Lollys gets the castle.
+Dialogue: 0,0:16:42.51,0:16:44.38,chs_2 - 1080,,0,0,0,,然後洛麗絲就繼承了城堡
+Dialogue: 0,0:16:46.48,0:16:48.45,eng_1 - 1080,,0,0,0,,What? Ladies fall from their horses
+Dialogue: 0,0:16:46.48,0:16:48.45,chs_2 - 1080,,0,0,0,,怎麼了？姑娘從馬上摔下來
+Dialogue: 0,0:16:48.48,0:16:50.58,eng_1 - 1080,,0,0,0,,and snap their pretty necks all the time.
+Dialogue: 0,0:16:48.48,0:16:50.58,chs_2 - 1080,,0,0,0,,弄斷脖子，這種事司空見慣了
+Dialogue: 0,0:16:50.62,0:16:53.05,eng_1 - 1080,,0,0,0,,You and my sister deserve each other.
+Dialogue: 0,0:16:50.62,0:16:53.05,chs_2 - 1080,,0,0,0,,你跟我姐可真是天生一對
+Dialogue: 0,0:16:53.09,0:16:55.89,eng_1 - 1080,,0,0,0,,Why did you bother to come here?
+Dialogue: 0,0:16:53.09,0:16:55.89,chs_2 - 1080,,0,0,0,,<i>那你幹嘛還來這？</i>
+Dialogue: 0,0:17:01.66,0:17:05.63,eng_1 - 1080,,0,0,0,,You once said if anyone ever asked me to sell you out,
+Dialogue: 0,0:17:01.66,0:17:05.63,chs_2 - 1080,,0,0,0,,你說過，要是有人想讓我出賣你
+Dialogue: 0,0:17:05.67,0:17:07.23,eng_1 - 1080,,0,0,0,,you'd double their price.
+Dialogue: 0,0:17:05.67,0:17:07.23,chs_2 - 1080,,0,0,0,,你會把價格翻倍
+Dialogue: 0,0:17:07.27,0:17:09.60,eng_1 - 1080,,0,0,0,,Is it two wives you want or two castles?
+Dialogue: 0,0:17:07.27,0:17:09.60,chs_2 - 1080,,0,0,0,,你想要兩個老婆，還是兩座城堡？
+Dialogue: 0,0:17:09.64,0:17:11.34,eng_1 - 1080,,0,0,0,,One of each will do.
+Dialogue: 0,0:17:09.64,0:17:11.34,chs_2 - 1080,,0,0,0,,哪個都行
+Dialogue: 0,0:17:11.37,0:17:14.91,eng_1 - 1080,,0,0,0,,But if you want me to kill the Mountain for you,
+Dialogue: 0,0:17:11.37,0:17:14.91,chs_2 - 1080,,0,0,0,,但如果你要我幫你殺魔山
+Dialogue: 0,0:17:14.94,0:17:16.71,eng_1 - 1080,,0,0,0,,it'd better be a damn big castle.
+Dialogue: 0,0:17:14.94,0:17:16.71,chs_2 - 1080,,0,0,0,,最好給我座無比巨大的城堡
+Dialogue: 0,0:17:16.74,0:17:19.11,eng_1 - 1080,,0,0,0,,I'm bit short on castles at the moment.
+Dialogue: 0,0:17:16.74,0:17:19.11,chs_2 - 1080,,0,0,0,,我現在手裏沒城堡
+Dialogue: 0,0:17:19.15,0:17:20.95,eng_1 - 1080,,0,0,0,,But I can offer you gold and gratitude.
+Dialogue: 0,0:17:19.15,0:17:20.95,chs_2 - 1080,,0,0,0,,不過可以給你金子和感激之情
+Dialogue: 0,0:17:20.98,0:17:22.65,eng_1 - 1080,,0,0,0,,I have gold.
+Dialogue: 0,0:17:20.98,0:17:22.65,chs_2 - 1080,,0,0,0,,我有金子
+Dialogue: 0,0:17:22.68,0:17:24.12,eng_1 - 1080,,0,0,0,,What can I buy with gratitude?
+Dialogue: 0,0:17:22.68,0:17:24.12,chs_2 - 1080,,0,0,0,,感激能買什麼東西？
+Dialogue: 0,0:17:24.15,0:17:25.68,eng_1 - 1080,,0,0,0,,You might be surprised.
+Dialogue: 0,0:17:24.15,0:17:25.68,chs_2 - 1080,,0,0,0,,你可能沒聽過
+Dialogue: 0,0:17:25.72,0:17:28.55,eng_1 - 1080,,0,0,0,,A Lannister always pays his debts.
+Dialogue: 0,0:17:25.72,0:17:28.55,chs_2 - 1080,,0,0,0,,蘭尼斯特有債必還
+Dialogue: 0,0:17:28.62,0:17:30.39,eng_1 - 1080,,0,0,0,,Your sister's a Lannister, too.
+Dialogue: 0,0:17:28.62,0:17:30.39,chs_2 - 1080,,0,0,0,,你姐姐也是蘭尼斯特的
+Dialogue: 0,0:17:30.42,0:17:32.16,eng_1 - 1080,,0,0,0,,My wife is heir to Winterfell.
+Dialogue: 0,0:17:30.42,0:17:32.16,chs_2 - 1080,,0,0,0,,我妻子是臨冬城的繼承人
+Dialogue: 0,0:17:32.19,0:17:36.03,eng_1 - 1080,,0,0,0,,If I emerge from this with my head still on my shoulders,
+Dialogue: 0,0:17:32.19,0:17:36.03,chs_2 - 1080,,0,0,0,,<i>我這次若能全身而退</i>
+Dialogue: 0,0:17:36.06,0:17:39.83,eng_1 - 1080,,0,0,0,,I may one day rule the North in her name.
+Dialogue: 0,0:17:36.06,0:17:39.83,chs_2 - 1080,,0,0,0,,<i>也許有一天我能以她的名義統治北境</i>
+Dialogue: 0,0:17:39.87,0:17:42.97,eng_1 - 1080,,0,0,0,,I could carve you out a big piece of it.
+Dialogue: 0,0:17:39.87,0:17:42.97,chs_2 - 1080,,0,0,0,,我可以分一大塊土地給你
+Dialogue: 0,0:17:43.00,0:17:44.97,eng_1 - 1080,,0,0,0,,If and may and could.
+Dialogue: 0,0:17:43.00,0:17:44.97,chs_2 - 1080,,0,0,0,,若能，也許，可以…
+Dialogue: 0,0:17:45.00,0:17:47.51,eng_1 - 1080,,0,0,0,,It's bloody cold up north.
+Dialogue: 0,0:17:45.00,0:17:47.51,chs_2 - 1080,,0,0,0,,北境冷得要命
+Dialogue: 0,0:17:47.54,0:17:49.98,eng_1 - 1080,,0,0,0,,Lollys is soft and warm.
+Dialogue: 0,0:17:47.54,0:17:49.98,chs_2 - 1080,,0,0,0,,洛麗絲溫暖柔軟
+Dialogue: 0,0:17:50.01,0:17:51.78,eng_1 - 1080,,0,0,0,,And close.
+Dialogue: 0,0:17:50.01,0:17:51.78,chs_2 - 1080,,0,0,0,,離得又近
+Dialogue: 0,0:17:51.81,0:17:54.48,eng_1 - 1080,,0,0,0,,If I gave you the choice between fucking Lollys
+Dialogue: 0,0:17:51.81,0:17:54.48,chs_2 - 1080,,0,0,0,,如果我要你選擇，是和洛麗絲上床
+Dialogue: 0,0:17:54.51,0:17:56.48,eng_1 - 1080,,0,0,0,,and fighting the Mountain, you'd have your britches down
+Dialogue: 0,0:17:54.51,0:17:56.48,chs_2 - 1080,,0,0,0,,還是和魔山決鬥，你眨眼的功夫
+Dialogue: 0,0:17:56.52,0:17:57.85,eng_1 - 1080,,0,0,0,,and your cock out before I could blink.
+Dialogue: 0,0:17:56.52,0:17:57.85,chs_2 - 1080,,0,0,0,,就嚇得褲子落地，老二橫飛了
+Dialogue: 0,0:17:57.88,0:17:59.69,eng_1 - 1080,,0,0,0,,Does he frighten you so much?
+Dialogue: 0,0:17:57.88,0:17:59.69,chs_2 - 1080,,0,0,0,,你就這麼怕他？
+Dialogue: 0,0:17:59.72,0:18:01.92,eng_1 - 1080,,0,0,0,,I'd be a bloody fool if he didn't frighten me.
+Dialogue: 0,0:17:59.72,0:18:01.92,chs_2 - 1080,,0,0,0,,我要是不怕他，我就是個傻子
+Dialogue: 0,0:18:01.96,0:18:03.82,eng_1 - 1080,,0,0,0,,He's freakish big and freakish strong.
+Dialogue: 0,0:18:01.96,0:18:03.82,chs_2 - 1080,,0,0,0,,他身強體壯，厲害得不像話
+Dialogue: 0,0:18:03.86,0:18:06.66,eng_1 - 1080,,0,0,0,,And quicker than you'd expect for a man of that size.
+Dialogue: 0,0:18:03.86,0:18:06.66,chs_2 - 1080,,0,0,0,,身材巨大，還動作敏捷，讓你猝不及防
+Dialogue: 0,0:18:08.80,0:18:10.30,eng_1 - 1080,,0,0,0,,Maybe I could take him,
+Dialogue: 0,0:18:08.80,0:18:10.30,chs_2 - 1080,,0,0,0,,或許我可以跟他周旋
+Dialogue: 0,0:18:10.33,0:18:12.56,eng_1 - 1080,,0,0,0,,dance around until he's so tired
+Dialogue: 0,0:18:10.33,0:18:12.56,chs_2 - 1080,,0,0,0,,直到他砍膩味了
+Dialogue: 0,0:18:12.60,0:18:14.33,eng_1 - 1080,,0,0,0,,of hacking at me, he dropped his sword,
+Dialogue: 0,0:18:12.60,0:18:14.33,chs_2 - 1080,,0,0,0,,劍一脫手
+Dialogue: 0,0:18:14.37,0:18:16.40,eng_1 - 1080,,0,0,0,,get him off his feet somehow.
+Dialogue: 0,0:18:14.37,0:18:16.40,chs_2 - 1080,,0,0,0,,我再把他放倒
+Dialogue: 0,0:18:16.44,0:18:18.37,eng_1 - 1080,,0,0,0,,But one misstep...
+Dialogue: 0,0:18:16.44,0:18:18.37,chs_2 - 1080,,0,0,0,,但要是有絲毫差錯…
+Dialogue: 0,0:18:18.40,0:18:20.11,eng_1 - 1080,,0,0,0,,...and I'm dead.
+Dialogue: 0,0:18:18.40,0:18:20.11,chs_2 - 1080,,0,0,0,,…那我就死翹翹了
+Dialogue: 0,0:18:20.14,0:18:22.37,eng_1 - 1080,,0,0,0,,Why should I risk it?
+Dialogue: 0,0:18:20.14,0:18:22.37,chs_2 - 1080,,0,0,0,,我為什麼要冒這個險？
+Dialogue: 0,0:18:22.41,0:18:24.91,eng_1 - 1080,,0,0,0,,Because you're my friend.
+Dialogue: 0,0:18:22.41,0:18:24.91,chs_2 - 1080,,0,0,0,,因為你是我的朋友
+Dialogue: 0,0:18:24.94,0:18:27.08,eng_1 - 1080,,0,0,0,,Aye, I'm your friend.
+Dialogue: 0,0:18:24.94,0:18:27.08,chs_2 - 1080,,0,0,0,,是啊，我是你朋友
+Dialogue: 0,0:18:27.11,0:18:30.52,eng_1 - 1080,,0,0,0,,And when have you ever risked your life for me?
+Dialogue: 0,0:18:27.11,0:18:30.52,chs_2 - 1080,,0,0,0,,而你什麼時候為我挺身而出過？
+Dialogue: 0,0:18:40.33,0:18:41.69,eng_1 - 1080,,0,0,0,,I like you,
+Dialogue: 0,0:18:40.33,0:18:41.69,chs_2 - 1080,,0,0,0,,我喜歡你
+Dialogue: 0,0:18:41.73,0:18:44.16,eng_1 - 1080,,0,0,0,,pampered little shit that you are.
+Dialogue: 0,0:18:41.73,0:18:44.16,chs_2 - 1080,,0,0,0,,儘管你為人放縱了點
+Dialogue: 0,0:18:44.20,0:18:46.53,eng_1 - 1080,,0,0,0,,I just like myself more.
+Dialogue: 0,0:18:44.20,0:18:46.53,chs_2 - 1080,,0,0,0,,但我更喜歡自己
+Dialogue: 0,0:18:46.57,0:18:48.17,eng_1 - 1080,,0,0,0,,I understand.
+Dialogue: 0,0:18:46.57,0:18:48.17,chs_2 - 1080,,0,0,0,,我理解
+Dialogue: 0,0:18:48.20,0:18:49.87,eng_1 - 1080,,0,0,0,,I'm sorry it has to be this way.
+Dialogue: 0,0:18:48.20,0:18:49.87,chs_2 - 1080,,0,0,0,,很抱歉事情發展成這樣
+Dialogue: 0,0:18:49.90,0:18:51.54,eng_1 - 1080,,0,0,0,,Why are you sorry?
+Dialogue: 0,0:18:49.90,0:18:51.54,chs_2 - 1080,,0,0,0,,為何要道歉?
+Dialogue: 0,0:18:51.57,0:18:53.61,eng_1 - 1080,,0,0,0,,Because you're an evil bastard
+Dialogue: 0,0:18:51.57,0:18:53.61,chs_2 - 1080,,0,0,0,,因為你是個沒心沒肺的
+Dialogue: 0,0:18:53.64,0:18:55.57,eng_1 - 1080,,0,0,0,,with no conscience and no heart?
+Dialogue: 0,0:18:53.64,0:18:55.57,chs_2 - 1080,,0,0,0,,邪惡私生子?
+Dialogue: 0,0:18:55.61,0:18:58.31,eng_1 - 1080,,0,0,0,,That's what I liked about you in the first place.
+Dialogue: 0,0:18:55.61,0:18:58.31,chs_2 - 1080,,0,0,0,,那正是我當初看上你的原因
+Dialogue: 0,0:19:04.72,0:19:06.79,eng_1 - 1080,,0,0,0,,We had some good days together.
+Dialogue: 0,0:19:04.72,0:19:06.79,chs_2 - 1080,,0,0,0,,我們曾經很開心
+Dialogue: 0,0:19:06.82,0:19:08.65,eng_1 - 1080,,0,0,0,,Yes, we did.
+Dialogue: 0,0:19:06.82,0:19:08.65,chs_2 - 1080,,0,0,0,,沒錯
+Dialogue: 0,0:19:23.27,0:19:24.87,eng_1 - 1080,,0,0,0,,What will you do?
+Dialogue: 0,0:19:23.27,0:19:24.87,chs_2 - 1080,,0,0,0,,你準備怎麼辦
+Dialogue: 0,0:19:24.90,0:19:28.37,eng_1 - 1080,,0,0,0,,I suppose I'll have to kill the Mountain myself.
+Dialogue: 0,0:19:24.90,0:19:28.37,chs_2 - 1080,,0,0,0,,我不得不親自殺魔山了
+Dialogue: 0,0:19:30.11,0:19:32.31,eng_1 - 1080,,0,0,0,,Won't that make for a great song?
+Dialogue: 0,0:19:30.11,0:19:32.31,chs_2 - 1080,,0,0,0,,這會被編成偉大的歌謠, 對嗎?
+Dialogue: 0,0:19:35.35,0:19:38.15,eng_1 - 1080,,0,0,0,,I hope to hear them sing it one day.
+Dialogue: 0,0:19:35.35,0:19:38.15,chs_2 - 1080,,0,0,0,,希望有朝一日我能聽到
+Dialogue: 0,0:19:56.30,0:19:57.94,eng_1 - 1080,,0,0,0,,How did you get in here?
+Dialogue: 0,0:19:56.30,0:19:57.94,chs_2 - 1080,,0,0,0,,你怎麼進來的?
+Dialogue: 0,0:19:57.97,0:19:59.60,eng_1 - 1080,,0,0,0,,Your door is well guarded,
+Dialogue: 0,0:19:57.97,0:19:59.60,chs_2 - 1080,,0,0,0,,你的大門有嚴密的守衛
+Dialogue: 0,0:19:59.64,0:20:01.77,eng_1 - 1080,,0,0,0,,but your window is not.
+Dialogue: 0,0:19:59.64,0:20:01.77,chs_2 - 1080,,0,0,0,,窗戶卻沒有
+Dialogue: 0,0:20:08.08,0:20:11.12,eng_1 - 1080,,0,0,0,,I swam to an island a mile offshore for these.
+Dialogue: 0,0:20:08.08,0:20:11.12,chs_2 - 1080,,0,0,0,,我游到了一里外的一個島上，採來了這花
+Dialogue: 0,0:20:11.15,0:20:13.65,eng_1 - 1080,,0,0,0,,Don't do that again.
+Dialogue: 0,0:20:11.15,0:20:13.65,chs_2 - 1080,,0,0,0,,別再做這種事了
+Dialogue: 0,0:20:15.02,0:20:17.62,eng_1 - 1080,,0,0,0,,Never met a woman who didn't like wildflowers.
+Dialogue: 0,0:20:15.02,0:20:17.62,chs_2 - 1080,,0,0,0,,我還沒見過不喜歡野花的女人
+Dialogue: 0,0:20:17.66,0:20:20.09,eng_1 - 1080,,0,0,0,,These are my private quarters.
+Dialogue: 0,0:20:17.66,0:20:20.09,chs_2 - 1080,,0,0,0,,這是我的私人地盤
+Dialogue: 0,0:20:20.13,0:20:22.66,eng_1 - 1080,,0,0,0,,If I want you here, I will summon you.
+Dialogue: 0,0:20:20.13,0:20:22.66,chs_2 - 1080,,0,0,0,,需要你的時候我會召喚你的
+Dialogue: 0,0:20:24.16,0:20:27.10,eng_1 - 1080,,0,0,0,,Forgive me, my queen. I live to serve you.
+Dialogue: 0,0:20:24.16,0:20:27.10,chs_2 - 1080,,0,0,0,,很抱歉，女王陛下，我活著就是為了侍奉你
+Dialogue: 0,0:20:33.21,0:20:35.41,eng_1 - 1080,,0,0,0,,Tell me why you're here.
+Dialogue: 0,0:20:33.21,0:20:35.41,chs_2 - 1080,,0,0,0,,告訴我你來這裏的目的吧
+Dialogue: 0,0:20:39.38,0:20:41.28,eng_1 - 1080,,0,0,0,,I came to ask a favor.
+Dialogue: 0,0:20:39.38,0:20:41.28,chs_2 - 1080,,0,0,0,,我有個不情之請
+Dialogue: 0,0:20:41.35,0:20:43.65,eng_1 - 1080,,0,0,0,,I only have two talents in this world--
+Dialogue: 0,0:20:41.35,0:20:43.65,chs_2 - 1080,,0,0,0,,在這個世界上，我只有兩個才能
+Dialogue: 0,0:20:43.68,0:20:46.02,eng_1 - 1080,,0,0,0,,war and women.
+Dialogue: 0,0:20:43.68,0:20:46.02,chs_2 - 1080,,0,0,0,,戰爭和女人
+Dialogue: 0,0:20:46.05,0:20:48.72,eng_1 - 1080,,0,0,0,,You are staying here in Meereen to rule.
+Dialogue: 0,0:20:46.05,0:20:48.72,chs_2 - 1080,,0,0,0,,你要留在彌林統治
+Dialogue: 0,0:20:48.76,0:20:50.96,eng_1 - 1080,,0,0,0,,That is a wise decision. I respect it.
+Dialogue: 0,0:20:48.76,0:20:50.96,chs_2 - 1080,,0,0,0,,我尊重這個英明的決定
+Dialogue: 0,0:20:50.99,0:20:52.87,eng_1 - 1080,,0,0,0,,But here in Meereen, I cannot pursue my talents.
+Dialogue: 0,0:20:50.99,0:20:52.87,chs_2 - 1080,,0,0,0,,但在彌林，我無法施展我的才能
+Dialogue: 0,0:20:52.89,0:20:55.53,eng_1 - 1080,,0,0,0,,I've ordered the Second Sons to patrol the streets
+Dialogue: 0,0:20:52.89,0:20:55.53,chs_2 - 1080,,0,0,0,,我讓次子團在街道巡邏
+Dialogue: 0,0:20:55.56,0:20:57.30,eng_1 - 1080,,0,0,0,,to stop the revenge killing.
+Dialogue: 0,0:20:55.56,0:20:57.30,chs_2 - 1080,,0,0,0,,以阻止復仇殺戮
+Dialogue: 0,0:20:57.33,0:20:58.60,eng_1 - 1080,,0,0,0,,You've ordered us to be night watchmen.
+Dialogue: 0,0:20:57.33,0:20:58.60,chs_2 - 1080,,0,0,0,,你讓我們做夜間看守
+Dialogue: 0,0:20:58.63,0:21:00.57,eng_1 - 1080,,0,0,0,,And as for women,
+Dialogue: 0,0:20:58.63,0:21:00.57,chs_2 - 1080,,0,0,0,,至於女人
+Dialogue: 0,0:21:00.60,0:21:04.34,eng_1 - 1080,,0,0,0,,there are thousands in Meereen you can pursue.
+Dialogue: 0,0:21:00.60,0:21:04.34,chs_2 - 1080,,0,0,0,,彌林有大把女人可以追求
+Dialogue: 0,0:21:05.34,0:21:07.14,eng_1 - 1080,,0,0,0,,There is only one,
+Dialogue: 0,0:21:05.34,0:21:07.14,chs_2 - 1080,,0,0,0,,只有一個
+Dialogue: 0,0:21:07.17,0:21:09.81,eng_1 - 1080,,0,0,0,,and she does not want me.
+Dialogue: 0,0:21:07.17,0:21:09.81,chs_2 - 1080,,0,0,0,,但她對我沒興趣
+Dialogue: 0,0:21:11.34,0:21:12.64,eng_1 - 1080,,0,0,0,,You swore me your sword.
+Dialogue: 0,0:21:11.34,0:21:12.64,chs_2 - 1080,,0,0,0,,你曾用劍對我起誓
+Dialogue: 0,0:21:12.68,0:21:15.25,eng_1 - 1080,,0,0,0,,My sword is yours till the day I die.
+Dialogue: 0,0:21:12.68,0:21:15.25,chs_2 - 1080,,0,0,0,,我的劍為你所用直到我生命盡頭
+Dialogue: 0,0:21:15.28,0:21:17.45,eng_1 - 1080,,0,0,0,,So if I command you to stay in Meereen
+Dialogue: 0,0:21:15.28,0:21:17.45,chs_2 - 1080,,0,0,0,,那如果我命令你在彌林
+Dialogue: 0,0:21:17.48,0:21:18.92,eng_1 - 1080,,0,0,0,,and patrol the streets?
+Dialogue: 0,0:21:17.48,0:21:18.92,chs_2 - 1080,,0,0,0,,巡視街道呢？
+Dialogue: 0,0:21:18.95,0:21:21.65,eng_1 - 1080,,0,0,0,,I'll stay in Meereen and patrol the streets.
+Dialogue: 0,0:21:18.95,0:21:21.65,chs_2 - 1080,,0,0,0,,我會在彌林巡視街道
+Dialogue: 0,0:21:21.69,0:21:24.16,eng_1 - 1080,,0,0,0,,Send me to kill your enemies.
+Dialogue: 0,0:21:21.69,0:21:24.16,chs_2 - 1080,,0,0,0,,讓我殺死你的敵人
+Dialogue: 0,0:21:24.19,0:21:26.49,eng_1 - 1080,,0,0,0,,Any enemy anywhere.
+Dialogue: 0,0:21:24.19,0:21:26.49,chs_2 - 1080,,0,0,0,,任何地方，任何敵人
+Dialogue: 0,0:21:27.56,0:21:30.06,eng_1 - 1080,,0,0,0,,Let me do what I do best.
+Dialogue: 0,0:21:27.56,0:21:30.06,chs_2 - 1080,,0,0,0,,讓我做我最擅長的事情
+Dialogue: 0,0:21:31.46,0:21:33.27,eng_1 - 1080,,0,0,0,,Very well.
+Dialogue: 0,0:21:31.46,0:21:33.27,chs_2 - 1080,,0,0,0,,很好
+Dialogue: 0,0:21:39.27,0:21:41.31,eng_1 - 1080,,0,0,0,,Do what you do best.
+Dialogue: 0,0:21:39.27,0:21:41.31,chs_2 - 1080,,0,0,0,,那就做你最擅長的事情吧
+Dialogue: 0,0:21:52.15,0:21:54.35,eng_1 - 1080,,0,0,0,,Take off your clothes.
+Dialogue: 0,0:21:52.15,0:21:54.35,chs_2 - 1080,,0,0,0,,脫掉衣服
+Dialogue: 0,0:22:26.32,0:22:28.35,eng_1 - 1080,,0,0,0,,Come in, my queen. Please.
+Dialogue: 0,0:22:26.32,0:22:28.35,chs_2 - 1080,,0,0,0,,請進來，王后
+Dialogue: 0,0:22:28.39,0:22:30.32,eng_1 - 1080,,0,0,0,,I didn't mean to disturb you, my lady.
+Dialogue: 0,0:22:28.39,0:22:30.32,chs_2 - 1080,,0,0,0,,我不是有意打擾你，夫人
+Dialogue: 0,0:22:30.36,0:22:31.86,eng_1 - 1080,,0,0,0,,You could never disturb me.
+Dialogue: 0,0:22:30.36,0:22:31.86,chs_2 - 1080,,0,0,0,,你不會打擾我
+Dialogue: 0,0:22:31.89,0:22:34.26,eng_1 - 1080,,0,0,0,,I just wanted to speak with you before we left.
+Dialogue: 0,0:22:31.89,0:22:34.26,chs_2 - 1080,,0,0,0,,只是想在我離開之前和你談談
+Dialogue: 0,0:22:34.29,0:22:37.13,eng_1 - 1080,,0,0,0,,Could you bring me that vial over there?
+Dialogue: 0,0:22:34.29,0:22:37.13,chs_2 - 1080,,0,0,0,,能幫我把那邊的瓶子拿來嗎？
+Dialogue: 0,0:22:40.00,0:22:41.60,eng_1 - 1080,,0,0,0,,The blue one.
+Dialogue: 0,0:22:40.00,0:22:41.60,chs_2 - 1080,,0,0,0,,藍色的
+Dialogue: 0,0:22:43.54,0:22:46.14,eng_1 - 1080,,0,0,0,,No, no, no. Not that one.
+Dialogue: 0,0:22:43.54,0:22:46.14,chs_2 - 1080,,0,0,0,,不不不，不是那個
+Dialogue: 0,0:22:46.17,0:22:48.37,eng_1 - 1080,,0,0,0,,You don't even want to touch that one.
+Dialogue: 0,0:22:46.17,0:22:48.37,chs_2 - 1080,,0,0,0,,你不會想碰它的
+Dialogue: 0,0:22:48.41,0:22:50.58,eng_1 - 1080,,0,0,0,,Next to it.
+Dialogue: 0,0:22:48.41,0:22:50.58,chs_2 - 1080,,0,0,0,,旁邊那個
+Dialogue: 0,0:22:50.61,0:22:52.61,eng_1 - 1080,,0,0,0,,That's the one.
+Dialogue: 0,0:22:50.61,0:22:52.61,chs_2 - 1080,,0,0,0,,就是這個
+Dialogue: 0,0:23:11.26,0:23:13.30,eng_1 - 1080,,0,0,0,,When I looked into the flames this morning,
+Dialogue: 0,0:23:11.26,0:23:13.30,chs_2 - 1080,,0,0,0,,今天早上我觀察火焰時
+Dialogue: 0,0:23:13.33,0:23:15.57,eng_1 - 1080,,0,0,0,,the Lord spoke to me.
+Dialogue: 0,0:23:13.33,0:23:15.57,chs_2 - 1080,,0,0,0,,光之王跟我說話了
+Dialogue: 0,0:23:15.60,0:23:17.47,eng_1 - 1080,,0,0,0,,He said,
+Dialogue: 0,0:23:15.60,0:23:17.47,chs_2 - 1080,,0,0,0,,他說
+Dialogue: 0,0:23:17.50,0:23:21.97,eng_1 - 1080,,0,0,0,,"Tonight, you will have your last good bath in a long while.
+Dialogue: 0,0:23:17.50,0:23:21.97,chs_2 - 1080,,0,0,0,,今晚之後的很長一段時間你都不能好好洗澡了
+Dialogue: 0,0:23:22.01,0:23:24.24,eng_1 - 1080,,0,0,0,,Make it count."
+Dialogue: 0,0:23:22.01,0:23:24.24,chs_2 - 1080,,0,0,0,,好好享受吧
+Dialogue: 0,0:23:27.51,0:23:28.85,eng_1 - 1080,,0,0,0,,A joke.
+Dialogue: 0,0:23:27.51,0:23:28.85,chs_2 - 1080,,0,0,0,,開玩笑的
+Dialogue: 0,0:23:30.78,0:23:32.65,eng_1 - 1080,,0,0,0,,Not a very good one, I'm afraid.
+Dialogue: 0,0:23:30.78,0:23:32.65,chs_2 - 1080,,0,0,0,,不是很好笑
+Dialogue: 0,0:23:32.69,0:23:34.52,eng_1 - 1080,,0,0,0,,It was. I--
+Dialogue: 0,0:23:32.69,0:23:34.52,chs_2 - 1080,,0,0,0,,挺好笑的. 我…
+Dialogue: 0,0:23:34.55,0:23:37.16,eng_1 - 1080,,0,0,0,,humor isn't my strength.
+Dialogue: 0,0:23:34.55,0:23:37.16,chs_2 - 1080,,0,0,0,,並不擅長幽默
+Dialogue: 0,0:23:37.19,0:23:38.82,eng_1 - 1080,,0,0,0,,That's because st jokes are lies
+Dialogue: 0,0:23:37.19,0:23:38.82,chs_2 - 1080,,0,0,0,,因為大多數玩笑都是謊言
+Dialogue: 0,0:23:38.86,0:23:41.56,eng_1 - 1080,,0,0,0,,and you're devoted to the truth.
+Dialogue: 0,0:23:38.86,0:23:41.56,chs_2 - 1080,,0,0,0,,而你卻致力於真實
+Dialogue: 0,0:23:41.59,0:23:44.83,eng_1 - 1080,,0,0,0,,If they're lies, my lady, aren't they best avoided?
+Dialogue: 0,0:23:41.59,0:23:44.83,chs_2 - 1080,,0,0,0,,夫人，如果這些是謊言的話，不是該避免麼？
+Dialogue: 0,0:23:44.86,0:23:47.33,eng_1 - 1080,,0,0,0,,Not always.
+Dialogue: 0,0:23:44.86,0:23:47.33,chs_2 - 1080,,0,0,0,,不總是
+Dialogue: 0,0:23:56.71,0:23:58.91,eng_1 - 1080,,0,0,0,,Most of these powders and potions
+Dialogue: 0,0:23:56.71,0:23:58.91,chs_2 - 1080,,0,0,0,,這些粉末和藥水絕大多數
+Dialogue: 0,0:23:58.95,0:24:00.55,eng_1 - 1080,,0,0,0,,are lies.
+Dialogue: 0,0:23:58.95,0:24:00.55,chs_2 - 1080,,0,0,0,,是假的
+Dialogue: 0,0:24:00.58,0:24:05.12,eng_1 - 1080,,0,0,0,,Deceptions to make men think they witnessed our Lord's power.
+Dialogue: 0,0:24:00.58,0:24:05.12,chs_2 - 1080,,0,0,0,,為了欺騙別人，讓人以為看到了光之王的力量
+Dialogue: 0,0:24:05.15,0:24:08.62,eng_1 - 1080,,0,0,0,,Once they step into his light, they will see the lie for what it was--
+Dialogue: 0,0:24:05.15,0:24:08.62,chs_2 - 1080,,0,0,0,,一旦他們走入了光之王的光芒之中\N就會知道謊話背後的真實
+Dialogue: 0,0:24:08.65,0:24:11.96,eng_1 - 1080,,0,0,0,,a trick that led them to the truth.
+Dialogue: 0,0:24:08.65,0:24:11.96,chs_2 - 1080,,0,0,0,,讓他們瞭解事實的詭計
+Dialogue: 0,0:24:11.99,0:24:14.76,eng_1 - 1080,,0,0,0,,A pinch of this powder in a bonfire
+Dialogue: 0,0:24:11.99,0:24:14.76,chs_2 - 1080,,0,0,0,,在篝火中放入少許這種粉末
+Dialogue: 0,0:24:14.79,0:24:18.03,eng_1 - 1080,,0,0,0,,will send a flaming column screaming towards the sky.
+Dialogue: 0,0:24:14.79,0:24:18.03,chs_2 - 1080,,0,0,0,,就會產生直插天空的火柱
+Dialogue: 0,0:24:18.06,0:24:20.83,eng_1 - 1080,,0,0,0,,And this one creates a black smoke
+Dialogue: 0,0:24:18.06,0:24:20.83,chs_2 - 1080,,0,0,0,,這種則會產生黑色煙霧
+Dialogue: 0,0:24:20.87,0:24:23.30,eng_1 - 1080,,0,0,0,,that will make the bravest man piss himself with fear.
+Dialogue: 0,0:24:20.87,0:24:23.30,chs_2 - 1080,,0,0,0,,即使最勇敢的人看到了也會嚇得失禁
+Dialogue: 0,0:24:23.34,0:24:26.77,eng_1 - 1080,,0,0,0,,And a drop of this in any man's wine
+Dialogue: 0,0:24:23.34,0:24:26.77,chs_2 - 1080,,0,0,0,,而這種，滴一滴在酒裏
+Dialogue: 0,0:24:26.81,0:24:29.11,eng_1 - 1080,,0,0,0,,will drive him wild with lust.
+Dialogue: 0,0:24:26.81,0:24:29.11,chs_2 - 1080,,0,0,0,,就會讓男人慾火焚身
+Dialogue: 0,0:24:32.41,0:24:34.55,eng_1 - 1080,,0,0,0,,Did you use it with Stannis?
+Dialogue: 0,0:24:32.41,0:24:34.55,chs_2 - 1080,,0,0,0,,你給史坦尼斯也用了這個？
+Dialogue: 0,0:24:34.58,0:24:35.95,eng_1 - 1080,,0,0,0,,No.
+Dialogue: 0,0:24:34.58,0:24:35.95,chs_2 - 1080,,0,0,0,,沒有
+Dialogue: 0,0:24:38.65,0:24:40.22,eng_1 - 1080,,0,0,0,,Don't be upset.
+Dialogue: 0,0:24:38.65,0:24:40.22,chs_2 - 1080,,0,0,0,,不要煩心
+Dialogue: 0,0:24:40.25,0:24:43.46,eng_1 - 1080,,0,0,0,,Men never crave what they already have.
+Dialogue: 0,0:24:40.25,0:24:43.46,chs_2 - 1080,,0,0,0,,男人從不渴望已經有的東西
+Dialogue: 0,0:24:45.29,0:24:47.23,eng_1 - 1080,,0,0,0,,It's only flesh.
+Dialogue: 0,0:24:45.29,0:24:47.23,chs_2 - 1080,,0,0,0,,只是肉慾
+Dialogue: 0,0:24:47.26,0:24:49.89,eng_1 - 1080,,0,0,0,,It needs what it needs.
+Dialogue: 0,0:24:47.26,0:24:49.89,chs_2 - 1080,,0,0,0,,肉體有需要而已
+Dialogue: 0,0:24:53.17,0:24:56.10,eng_1 - 1080,,0,0,0,,No act done in service of the Lord
+Dialogue: 0,0:24:53.17,0:24:56.10,chs_2 - 1080,,0,0,0,,對大人的侍奉都不能
+Dialogue: 0,0:24:56.14,0:24:58.94,eng_1 - 1080,,0,0,0,,can ever be called a sin.
+Dialogue: 0,0:24:56.14,0:24:58.94,chs_2 - 1080,,0,0,0,,被稱為犯罪
+Dialogue: 0,0:24:58.97,0:25:02.41,eng_1 - 1080,,0,0,0,,I thank God every day for bringing you to us.
+Dialogue: 0,0:24:58.97,0:25:02.41,chs_2 - 1080,,0,0,0,,每天我都感謝諸神把你帶給我們
+Dialogue: 0,0:25:02.44,0:25:05.01,eng_1 - 1080,,0,0,0,,And Stannis to you.
+Dialogue: 0,0:25:02.44,0:25:05.01,chs_2 - 1080,,0,0,0,,以及把史坦尼斯帶給你
+Dialogue: 0,0:25:05.04,0:25:09.55,eng_1 - 1080,,0,0,0,,He wants to bring Shireen with us.
+Dialogue: 0,0:25:05.04,0:25:09.55,chs_2 - 1080,,0,0,0,,他想要帶希琳和我們一起走
+Dialogue: 0,0:25:10.82,0:25:14.02,eng_1 - 1080,,0,0,0,,I think that would be ill-advised.
+Dialogue: 0,0:25:10.82,0:25:14.02,chs_2 - 1080,,0,0,0,,我覺得這不明智
+Dialogue: 0,0:25:14.05,0:25:17.69,eng_1 - 1080,,0,0,0,,My daughter has heretical tendencies, as you're well aware.
+Dialogue: 0,0:25:14.05,0:25:17.69,chs_2 - 1080,,0,0,0,,你很清楚我女兒有異端傾向
+Dialogue: 0,0:25:17.72,0:25:21.53,eng_1 - 1080,,0,0,0,,I don't know if her doubt is real or simply meant to spite me,
+Dialogue: 0,0:25:17.72,0:25:21.53,chs_2 - 1080,,0,0,0,,我不知道她是真那麼想還是只為了頂撞我
+Dialogue: 0,0:25:21.56,0:25:24.96,eng_1 - 1080,,0,0,0,,but whichever the case, she should stay home.
+Dialogue: 0,0:25:21.56,0:25:24.96,chs_2 - 1080,,0,0,0,,但無論如何，她應該呆在家裏
+Dialogue: 0,0:25:29.24,0:25:31.27,eng_1 - 1080,,0,0,0,,I understand how you feel.
+Dialogue: 0,0:25:29.24,0:25:31.27,chs_2 - 1080,,0,0,0,,我理解你的感受
+Dialogue: 0,0:25:32.71,0:25:34.91,eng_1 - 1080,,0,0,0,,But that is impossible.
+Dialogue: 0,0:25:32.71,0:25:34.91,chs_2 - 1080,,0,0,0,,但這不可能
+Dialogue: 0,0:25:37.71,0:25:39.74,eng_1 - 1080,,0,0,0,,Why?
+Dialogue: 0,0:25:37.71,0:25:39.74,chs_2 - 1080,,0,0,0,,為什麼？
+Dialogue: 0,0:25:39.78,0:25:43.62,eng_1 - 1080,,0,0,0,,You don't need powders and potions, my queen.
+Dialogue: 0,0:25:39.78,0:25:43.62,chs_2 - 1080,,0,0,0,,你不需要粉末和藥水，王后
+Dialogue: 0,0:25:43.65,0:25:45.78,eng_1 - 1080,,0,0,0,,You don't need lies.
+Dialogue: 0,0:25:43.65,0:25:45.78,chs_2 - 1080,,0,0,0,,你不需要謊言
+Dialogue: 0,0:25:45.82,0:25:49.29,eng_1 - 1080,,0,0,0,,You are strong enough to look into the Lord's light
+Dialogue: 0,0:25:45.82,0:25:49.29,chs_2 - 1080,,0,0,0,,你足夠強大，強大到能看見光之王的光芒
+Dialogue: 0,0:25:49.32,0:25:51.66,eng_1 - 1080,,0,0,0,,and see his truth for yourself.
+Dialogue: 0,0:25:49.32,0:25:51.66,chs_2 - 1080,,0,0,0,,看到真實的情況
+Dialogue: 0,0:25:57.40,0:25:59.60,eng_1 - 1080,,0,0,0,,However harsh it is.
+Dialogue: 0,0:25:57.40,0:25:59.60,chs_2 - 1080,,0,0,0,,不管這是多麼嚴苛
+Dialogue: 0,0:25:59.63,0:26:02.13,eng_1 - 1080,,0,0,0,,However hard for us to understand.
+Dialogue: 0,0:25:59.63,0:26:02.13,chs_2 - 1080,,0,0,0,,對我們而言多麼難以理解
+Dialogue: 0,0:26:03.80,0:26:05.20,eng_1 - 1080,,0,0,0,,You don't need my help,
+Dialogue: 0,0:26:03.80,0:26:05.20,chs_2 - 1080,,0,0,0,,你不需要我的幫助
+Dialogue: 0,0:26:05.24,0:26:08.04,eng_1 - 1080,,0,0,0,,but I will need yours soon.
+Dialogue: 0,0:26:05.24,0:26:08.04,chs_2 - 1080,,0,0,0,,但很快我就會需要你幫助
+Dialogue: 0,0:26:08.07,0:26:11.11,eng_1 - 1080,,0,0,0,,When we set sail, your daughter must be with us.
+Dialogue: 0,0:26:08.07,0:26:11.11,chs_2 - 1080,,0,0,0,,我們揚帆起航的時候，你女兒必須和我們一起
+Dialogue: 0,0:26:14.65,0:26:16.82,eng_1 - 1080,,0,0,0,,The Lord needs her.
+Dialogue: 0,0:26:14.65,0:26:16.82,chs_2 - 1080,,0,0,0,,光之王需要她
+Dialogue: 0,0:26:24.12,0:26:26.52,eng_1 - 1080,,0,0,0,,Jorah the Andal.
+Dialogue: 0,0:26:24.12,0:26:26.52,chs_2 - 1080,,0,0,0,,安達爾的喬拉
+Dialogue: 0,0:26:27.66,0:26:29.86,eng_1 - 1080,,0,0,0,,Are you here to see our queen?
+Dialogue: 0,0:26:27.66,0:26:29.86,chs_2 - 1080,,0,0,0,,你來看我們的女王？
+Dialogue: 0,0:26:31.60,0:26:33.70,eng_1 - 1080,,0,0,0,,She's in a good mood.
+Dialogue: 0,0:26:31.60,0:26:33.70,chs_2 - 1080,,0,0,0,,她現在心情正好
+Dialogue: 0,0:26:48.35,0:26:50.65,eng_1 - 1080,,0,0,0,,Khaleesi.
+Dialogue: 0,0:26:48.35,0:26:50.65,chs_2 - 1080,,0,0,0,,卡麗熙
+Dialogue: 0,0:26:50.68,0:26:53.08,eng_1 - 1080,,0,0,0,,- You're here early. - Later than some.
+Dialogue: 0,0:26:50.68,0:26:53.08,chs_2 - 1080,,0,0,0,,- 你來的真早\N- 不比某人早
+Dialogue: 0,0:26:55.39,0:26:56.86,eng_1 - 1080,,0,0,0,,You don't approve?
+Dialogue: 0,0:26:55.39,0:26:56.86,chs_2 - 1080,,0,0,0,,你不同意？
+Dialogue: 0,0:26:56.89,0:26:59.29,eng_1 - 1080,,0,0,0,,It's not a question of approval, it's a question of trust.
+Dialogue: 0,0:26:56.89,0:26:59.29,chs_2 - 1080,,0,0,0,,這不是同意而是信任的問題
+Dialogue: 0,0:26:59.33,0:27:01.66,eng_1 - 1080,,0,0,0,,You neither approve nor trust.
+Dialogue: 0,0:26:59.33,0:27:01.66,chs_2 - 1080,,0,0,0,,你既不同意也不信任
+Dialogue: 0,0:27:01.69,0:27:03.29,eng_1 - 1080,,0,0,0,,Why would I? The man's a sellsword.
+Dialogue: 0,0:27:01.69,0:27:03.29,chs_2 - 1080,,0,0,0,,他是個僱傭兵
+Dialogue: 0,0:27:03.33,0:27:04.86,eng_1 - 1080,,0,0,0,,Didn't you fight for the Golden Company
+Dialogue: 0,0:27:03.33,0:27:04.86,chs_2 - 1080,,0,0,0,,你在宣誓效忠我哥哥之前
+Dialogue: 0,0:27:04.90,0:27:06.43,eng_1 - 1080,,0,0,0,,before pledging your sword to my brother?
+Dialogue: 0,0:27:04.90,0:27:06.43,chs_2 - 1080,,0,0,0,,不是為黃金團幹活？
+Dialogue: 0,0:27:06.47,0:27:08.13,eng_1 - 1080,,0,0,0,,I did.
+Dialogue: 0,0:27:06.47,0:27:08.13,chs_2 - 1080,,0,0,0,,是的
+Dialogue: 0,0:27:08.17,0:27:09.60,eng_1 - 1080,,0,0,0,,I trust you.
+Dialogue: 0,0:27:08.17,0:27:09.60,chs_2 - 1080,,0,0,0,,我信任你
+Dialogue: 0,0:27:09.64,0:27:12.10,eng_1 - 1080,,0,0,0,,Daario Naharis killed his captains
+Dialogue: 0,0:27:09.64,0:27:12.10,chs_2 - 1080,,0,0,0,,達裏奧·納哈里斯，因為厭倦了團長們的命令
+Dialogue: 0,0:27:12.14,0:27:15.31,eng_1 - 1080,,0,0,0,,and dumped their heads at your feet when he grew tired of their commands.
+Dialogue: 0,0:27:12.14,0:27:15.31,chs_2 - 1080,,0,0,0,,就殺了他們並把頭扔到你的腳邊
+Dialogue: 0,0:27:15.34,0:27:17.84,eng_1 - 1080,,0,0,0,,How could you ever have faith in a man like that?
+Dialogue: 0,0:27:15.34,0:27:17.84,chs_2 - 1080,,0,0,0,,你怎麼能信任這樣的人？
+Dialogue: 0,0:27:17.88,0:27:21.25,eng_1 - 1080,,0,0,0,,I could never have faith in a man like Daario.
+Dialogue: 0,0:27:17.88,0:27:21.25,chs_2 - 1080,,0,0,0,,我永遠不會信任達裏奧這樣的人
+Dialogue: 0,0:27:22.78,0:27:25.42,eng_1 - 1080,,0,0,0,,That's why I've sent him and the Second Sons to retake Yunkai.
+Dialogue: 0,0:27:22.78,0:27:25.42,chs_2 - 1080,,0,0,0,,所以我派他和次子團去奪回淵凱
+Dialogue: 0,0:27:27.55,0:27:29.65,eng_1 - 1080,,0,0,0,,- You have? - I have.
+Dialogue: 0,0:27:27.55,0:27:29.65,chs_2 - 1080,,0,0,0,,- 是嗎？\N- 是的
+Dialogue: 0,0:27:29.69,0:27:31.76,eng_1 - 1080,,0,0,0,,Without you there to rule, Khaleesi,
+Dialogue: 0,0:27:29.69,0:27:31.76,chs_2 - 1080,,0,0,0,,卡麗熙，沒有你在那裏統領
+Dialogue: 0,0:27:31.79,0:27:34.06,eng_1 - 1080,,0,0,0,,I fear the masters will simply bide their time,
+Dialogue: 0,0:27:31.79,0:27:34.06,chs_2 - 1080,,0,0,0,,我懷疑那些領主們只會拖延時間
+Dialogue: 0,0:27:34.09,0:27:36.33,eng_1 - 1080,,0,0,0,,wait for the invaders to leave and reassert control.
+Dialogue: 0,0:27:34.09,0:27:36.33,chs_2 - 1080,,0,0,0,,等侵略者們離開以後就重申控制權
+Dialogue: 0,0:27:36.36,0:27:40.50,eng_1 - 1080,,0,0,0,,That is why I've ordered Daario to execute every master in Yunkai.
+Dialogue: 0,0:27:36.36,0:27:40.50,chs_2 - 1080,,0,0,0,,因此我命令達裏奧殺死淵凱的每一個領主
+Dialogue: 0,0:27:41.93,0:27:44.50,eng_1 - 1080,,0,0,0,,The masters tear babies from their mothers' arms.
+Dialogue: 0,0:27:41.93,0:27:44.50,chs_2 - 1080,,0,0,0,,那些領主從母親們的胳膊裏搶走嬰兒
+Dialogue: 0,0:27:44.54,0:27:47.01,eng_1 - 1080,,0,0,0,,They mutilate little boys by the thousands.
+Dialogue: 0,0:27:44.54,0:27:47.01,chs_2 - 1080,,0,0,0,,殺死的小男孩數以千計
+Dialogue: 0,0:27:47.04,0:27:49.44,eng_1 - 1080,,0,0,0,,They train little girls in the art of pleasuring old men.
+Dialogue: 0,0:27:47.04,0:27:49.44,chs_2 - 1080,,0,0,0,,訓練小女孩取悅老男人
+Dialogue: 0,0:27:49.48,0:27:52.58,eng_1 - 1080,,0,0,0,,They treat men like beasts, as you said yourself.
+Dialogue: 0,0:27:49.48,0:27:52.58,chs_2 - 1080,,0,0,0,,如你所說，他們像訓野獸一樣訓練男人
+Dialogue: 0,0:27:52.61,0:27:56.15,eng_1 - 1080,,0,0,0,,Herding the masters into pens and slaughtering them by the thousands
+Dialogue: 0,0:27:52.61,0:27:56.15,chs_2 - 1080,,0,0,0,,像削筆一樣砍他們，數以千計地屠殺他們
+Dialogue: 0,0:27:56.18,0:27:58.18,eng_1 - 1080,,0,0,0,,is also treating men like beasts.
+Dialogue: 0,0:27:56.18,0:27:58.18,chs_2 - 1080,,0,0,0,,與像訓野獸一樣訓男人沒什麼兩樣
+Dialogue: 0,0:27:58.22,0:28:00.39,eng_1 - 1080,,0,0,0,,The slaves you freed,
+Dialogue: 0,0:27:58.22,0:28:00.39,chs_2 - 1080,,0,0,0,,你釋放的奴隸們
+Dialogue: 0,0:28:00.42,0:28:02.52,eng_1 - 1080,,0,0,0,,brutality is all they've ever known.
+Dialogue: 0,0:28:00.42,0:28:02.52,chs_2 - 1080,,0,0,0,,只知道獸行
+Dialogue: 0,0:28:02.56,0:28:04.66,eng_1 - 1080,,0,0,0,,If you want them to know something else,
+Dialogue: 0,0:28:02.56,0:28:04.66,chs_2 - 1080,,0,0,0,,如果你想讓他們知道些別的
+Dialogue: 0,0:28:04.69,0:28:06.06,eng_1 - 1080,,0,0,0,,you'll have to show it to them.
+Dialogue: 0,0:28:04.69,0:28:06.06,chs_2 - 1080,,0,0,0,,你要示範給他們看
+Dialogue: 0,0:28:06.09,0:28:08.16,eng_1 - 1080,,0,0,0,,And repay the slavers with what? Kindness?
+Dialogue: 0,0:28:06.09,0:28:08.16,chs_2 - 1080,,0,0,0,,怎麼酬謝他們呢？仁慈？
+Dialogue: 0,0:28:08.19,0:28:09.69,eng_1 - 1080,,0,0,0,,A fine? A stern warning?
+Dialogue: 0,0:28:08.19,0:28:09.69,chs_2 - 1080,,0,0,0,,罰款？警告？
+Dialogue: 0,0:28:09.73,0:28:12.86,eng_1 - 1080,,0,0,0,,It's tempting to see your enemies as evil, all of them,
+Dialogue: 0,0:28:09.73,0:28:12.86,chs_2 - 1080,,0,0,0,,把所有的敵人都看成惡人是很誘人
+Dialogue: 0,0:28:12.90,0:28:15.63,eng_1 - 1080,,0,0,0,,but there's good and evil on both sides in every war ever fought.
+Dialogue: 0,0:28:12.90,0:28:15.63,chs_2 - 1080,,0,0,0,,但在任何戰爭中，雙方都有好人和惡人
+Dialogue: 0,0:28:15.67,0:28:18.14,eng_1 - 1080,,0,0,0,,Let the priests argue over good and evil.
+Dialogue: 0,0:28:15.67,0:28:18.14,chs_2 - 1080,,0,0,0,,讓祭祀們去討論好人和惡人
+Dialogue: 0,0:28:18.17,0:28:19.70,eng_1 - 1080,,0,0,0,,Slavery is real.
+Dialogue: 0,0:28:18.17,0:28:19.70,chs_2 - 1080,,0,0,0,,奴隸制是事實
+Dialogue: 0,0:28:19.74,0:28:21.97,eng_1 - 1080,,0,0,0,,I can end it. I will end it.
+Dialogue: 0,0:28:19.74,0:28:21.97,chs_2 - 1080,,0,0,0,,我可以並且將會制止它
+Dialogue: 0,0:28:22.01,0:28:24.31,eng_1 - 1080,,0,0,0,,And I will end those behind it.
+Dialogue: 0,0:28:22.01,0:28:24.31,chs_2 - 1080,,0,0,0,,也會制止其根源
+Dialogue: 0,0:28:24.34,0:28:26.54,eng_1 - 1080,,0,0,0,,I sold men into slavery, Khaleesi.
+Dialogue: 0,0:28:24.34,0:28:26.54,chs_2 - 1080,,0,0,0,,我販賣過奴隸，卡麗熙
+Dialogue: 0,0:28:26.58,0:28:31.42,eng_1 - 1080,,0,0,0,,And now you are helping me show them to freedom.
+Dialogue: 0,0:28:26.58,0:28:31.42,chs_2 - 1080,,0,0,0,,但現在你幫助我還他們自由
+Dialogue: 0,0:28:31.45,0:28:34.82,eng_1 - 1080,,0,0,0,,I wouldn't be here to help you if Ned Stark had done to me
+Dialogue: 0,0:28:31.45,0:28:34.82,chs_2 - 1080,,0,0,0,,如果奈德·史塔克像你對淵凱的領主那樣對我
+Dialogue: 0,0:28:34.85,0:28:37.69,eng_1 - 1080,,0,0,0,,what you want to do to the masters of Yunkai.
+Dialogue: 0,0:28:34.85,0:28:37.69,chs_2 - 1080,,0,0,0,,我就不會在這裏了
+Dialogue: 0,0:28:42.23,0:28:45.13,eng_1 - 1080,,0,0,0,,The man who came to me the other day about burying his father.
+Dialogue: 0,0:28:42.23,0:28:45.13,chs_2 - 1080,,0,0,0,,前幾天找我談埋葬父親事情的那個人
+Dialogue: 0,0:28:45.16,0:28:47.23,eng_1 - 1080,,0,0,0,,Hizdahr zo Loraq?
+Dialogue: 0,0:28:45.16,0:28:47.23,chs_2 - 1080,,0,0,0,,西茨達拉·佐·洛拉克？
+Dialogue: 0,0:28:47.27,0:28:49.97,eng_1 - 1080,,0,0,0,,He will accompany the Second Sons
+Dialogue: 0,0:28:47.27,0:28:49.97,chs_2 - 1080,,0,0,0,,他會伴隨次子團
+Dialogue: 0,0:28:50.00,0:28:51.94,eng_1 - 1080,,0,0,0,,and serve as my ambassador to Yunkai.
+Dialogue: 0,0:28:50.00,0:28:51.94,chs_2 - 1080,,0,0,0,,作為我的大使去淵凱
+Dialogue: 0,0:28:51.97,0:28:54.94,eng_1 - 1080,,0,0,0,,He will tell the masters what has happened in Meereen.
+Dialogue: 0,0:28:51.97,0:28:54.94,chs_2 - 1080,,0,0,0,,告訴領主們彌林發生的事情
+Dialogue: 0,0:28:54.97,0:28:58.54,eng_1 - 1080,,0,0,0,,He will explain the choice they have before them.
+Dialogue: 0,0:28:54.97,0:28:58.54,chs_2 - 1080,,0,0,0,,解釋他們面臨的選擇
+Dialogue: 0,0:28:58.58,0:29:00.51,eng_1 - 1080,,0,0,0,,They can live in my new world
+Dialogue: 0,0:28:58.58,0:29:00.51,chs_2 - 1080,,0,0,0,,他們可以在我的新世界活下去
+Dialogue: 0,0:29:00.55,0:29:03.58,eng_1 - 1080,,0,0,0,,or they can die in their old one.
+Dialogue: 0,0:29:00.55,0:29:03.58,chs_2 - 1080,,0,0,0,,或者在他們的舊世界死去
+Dialogue: 0,0:29:07.72,0:29:10.19,eng_1 - 1080,,0,0,0,,Well, go and catch Daario before he leaves.
+Dialogue: 0,0:29:07.72,0:29:10.19,chs_2 - 1080,,0,0,0,,快在達裏奧離開之前找到他
+Dialogue: 0,0:29:10.22,0:29:12.09,eng_1 - 1080,,0,0,0,,Tell him I changed my mind.
+Dialogue: 0,0:29:10.22,0:29:12.09,chs_2 - 1080,,0,0,0,,告訴他我改變主意了
+Dialogue: 0,0:29:12.12,0:29:14.49,eng_1 - 1080,,0,0,0,,Yes, Khaleesi.
+Dialogue: 0,0:29:12.12,0:29:14.49,chs_2 - 1080,,0,0,0,,是的，卡麗熙
+Dialogue: 0,0:29:19.73,0:29:21.47,eng_1 - 1080,,0,0,0,,No.
+Dialogue: 0,0:29:19.73,0:29:21.47,chs_2 - 1080,,0,0,0,,不
+Dialogue: 0,0:29:24.34,0:29:27.04,eng_1 - 1080,,0,0,0,,Tell him you changed my mind.
+Dialogue: 0,0:29:24.34,0:29:27.04,chs_2 - 1080,,0,0,0,,告訴他你讓我改主意了
+Dialogue: 0,0:29:37.78,0:29:40.69,eng_1 - 1080,,0,0,0,,Rat cunts.
+Dialogue: 0,0:29:37.78,0:29:40.69,chs_2 - 1080,,0,0,0,,龜孫子
+Dialogue: 0,0:29:42.12,0:29:44.42,eng_1 - 1080,,0,0,0,,Fucking whore.
+Dialogue: 0,0:29:42.12,0:29:44.42,chs_2 - 1080,,0,0,0,,該死的妓女
+Dialogue: 0,0:29:46.29,0:29:47.96,eng_1 - 1080,,0,0,0,,You're doing it wrong.
+Dialogue: 0,0:29:46.29,0:29:47.96,chs_2 - 1080,,0,0,0,,<i>你處理得不對</i>
+Dialogue: 0,0:29:47.99,0:29:50.93,eng_1 - 1080,,0,0,0,,You need to burn away that horrible bit there.
+Dialogue: 0,0:29:47.99,0:29:50.93,chs_2 - 1080,,0,0,0,,你得把那糟糕的傷口燒一下
+Dialogue: 0,0:29:50.96,0:29:53.70,eng_1 - 1080,,0,0,0,,Otherwise it's gonna get infected and fester.
+Dialogue: 0,0:29:50.96,0:29:53.70,chs_2 - 1080,,0,0,0,,<i>否則會感染化膿</i>
+Dialogue: 0,0:29:56.17,0:29:59.14,eng_1 - 1080,,0,0,0,,I know you don't like fire, but if you don't do it right--
+Dialogue: 0,0:29:56.17,0:29:59.14,chs_2 - 1080,,0,0,0,,我知道你不喜歡火，但如果處理不當…
+Dialogue: 0,0:29:59.17,0:30:01.11,eng_1 - 1080,,0,0,0,,No fire.
+Dialogue: 0,0:29:59.17,0:30:01.11,chs_2 - 1080,,0,0,0,,不要火
+Dialogue: 0,0:30:02.21,0:30:04.41,eng_1 - 1080,,0,0,0,,It'll only take a second.
+Dialogue: 0,0:30:02.21,0:30:04.41,chs_2 - 1080,,0,0,0,,只要一會兒
+Dialogue: 0,0:30:04.44,0:30:06.84,eng_1 - 1080,,0,0,0,,- It won't hurt that much. - No fire!
+Dialogue: 0,0:30:04.44,0:30:06.84,chs_2 - 1080,,0,0,0,,- 不會很痛的\N- 不要火！
+Dialogue: 0,0:30:21.53,0:30:23.53,eng_1 - 1080,,0,0,0,,Shut up about it.
+Dialogue: 0,0:30:21.53,0:30:23.53,chs_2 - 1080,,0,0,0,,別再提這事
+Dialogue: 0,0:30:26.23,0:30:28.27,eng_1 - 1080,,0,0,0,,Shut up about everything.
+Dialogue: 0,0:30:26.23,0:30:28.27,chs_2 - 1080,,0,0,0,,別再提任何事
+Dialogue: 0,0:30:28.30,0:30:30.97,eng_1 - 1080,,0,0,0,,Thanks to you, I'm a walking bag of silver
+Dialogue: 0,0:30:28.30,0:30:30.97,chs_2 - 1080,,0,0,0,,多虧了你，我現在在蘭尼斯特家的地盤
+Dialogue: 0,0:30:31.00,0:30:33.27,eng_1 - 1080,,0,0,0,,anywhere the Lannisters hold sway.
+Dialogue: 0,0:30:31.00,0:30:33.27,chs_2 - 1080,,0,0,0,,成了行走的銀袋了
+Dialogue: 0,0:30:34.97,0:30:36.81,eng_1 - 1080,,0,0,0,,Which is everywhere between where we are now
+Dialogue: 0,0:30:34.97,0:30:36.81,chs_2 - 1080,,0,0,0,,而我們現在就身處此地
+Dialogue: 0,0:30:36.84,0:30:38.84,eng_1 - 1080,,0,0,0,,and where we're going.
+Dialogue: 0,0:30:36.84,0:30:38.84,chs_2 - 1080,,0,0,0,,我們要去的地方也是
+Dialogue: 0,0:30:41.38,0:30:44.52,eng_1 - 1080,,0,0,0,,I'm as stupid as that hog you stuck back in the village,
+Dialogue: 0,0:30:41.38,0:30:44.52,chs_2 - 1080,,0,0,0,,我跟你困在村裏的豬一樣蠢
+Dialogue: 0,0:30:44.55,0:30:48.72,eng_1 - 1080,,0,0,0,,getting myself cut and stabbed and bitten.
+Dialogue: 0,0:30:44.55,0:30:48.72,chs_2 - 1080,,0,0,0,,被人割傷，刺傷，咬傷
+Dialogue: 0,0:30:51.26,0:30:53.63,eng_1 - 1080,,0,0,0,,No reward is worth this much trouble.
+Dialogue: 0,0:30:51.26,0:30:53.63,chs_2 - 1080,,0,0,0,,沒有什麼獎勵值得這麼多麻煩
+Dialogue: 0,0:30:53.66,0:30:56.59,eng_1 - 1080,,0,0,0,,Wish I'd never laid eyes on you.
+Dialogue: 0,0:30:53.66,0:30:56.59,chs_2 - 1080,,0,0,0,,<i>真希望我從沒見過你</i>
+Dialogue: 0,0:31:06.84,0:31:09.84,eng_1 - 1080,,0,0,0,,You say your brother gave you that sword.
+Dialogue: 0,0:31:06.84,0:31:09.84,chs_2 - 1080,,0,0,0,,你說你哥哥給了你那把劍
+Dialogue: 0,0:31:12.21,0:31:14.28,eng_1 - 1080,,0,0,0,,My brother gave me this.
+Dialogue: 0,0:31:12.21,0:31:14.28,chs_2 - 1080,,0,0,0,,我哥哥給了我這個
+Dialogue: 0,0:31:16.28,0:31:18.52,eng_1 - 1080,,0,0,0,,It was just like you said a while back.
+Dialogue: 0,0:31:16.28,0:31:18.52,chs_2 - 1080,,0,0,0,,就像你說的那樣
+Dialogue: 0,0:31:18.55,0:31:20.35,eng_1 - 1080,,0,0,0,,Pressed me to the fire
+Dialogue: 0,0:31:18.55,0:31:20.35,chs_2 - 1080,,0,0,0,,<i>我被壓在火上</i>
+Dialogue: 0,0:31:20.39,0:31:23.29,eng_1 - 1080,,0,0,0,,like I was a nice juicy mutton chop.
+Dialogue: 0,0:31:20.39,0:31:23.29,chs_2 - 1080,,0,0,0,,就像我是鮮嫩多汁的羊排一樣
+Dialogue: 0,0:31:26.36,0:31:28.06,eng_1 - 1080,,0,0,0,,Why?
+Dialogue: 0,0:31:26.36,0:31:28.06,chs_2 - 1080,,0,0,0,,為什麼？
+Dialogue: 0,0:31:28.09,0:31:29.96,eng_1 - 1080,,0,0,0,,Thought I stole one of his toys.
+Dialogue: 0,0:31:28.09,0:31:29.96,chs_2 - 1080,,0,0,0,,他以為我偷了他一個玩具
+Dialogue: 0,0:31:30.00,0:31:32.56,eng_1 - 1080,,0,0,0,,I didn't steal it. I was just playing with it.
+Dialogue: 0,0:31:30.00,0:31:32.56,chs_2 - 1080,,0,0,0,,我沒偷，我只是在玩
+Dialogue: 0,0:31:37.47,0:31:39.44,eng_1 - 1080,,0,0,0,,The pain was bad.
+Dialogue: 0,0:31:37.47,0:31:39.44,chs_2 - 1080,,0,0,0,,疼痛很糟糕
+Dialogue: 0,0:31:39.47,0:31:41.51,eng_1 - 1080,,0,0,0,,The smell was worse.
+Dialogue: 0,0:31:39.47,0:31:41.51,chs_2 - 1080,,0,0,0,,氣味更糟糕
+Dialogue: 0,0:31:44.58,0:31:48.85,eng_1 - 1080,,0,0,0,,But the worst thing was that it was my brother who did it.
+Dialogue: 0,0:31:44.58,0:31:48.85,chs_2 - 1080,,0,0,0,,最糟糕的是這是我哥哥干的
+Dialogue: 0,0:31:52.99,0:31:55.92,eng_1 - 1080,,0,0,0,,My father, who protected him...
+Dialogue: 0,0:31:52.99,0:31:55.92,chs_2 - 1080,,0,0,0,,我父親護著他…
+Dialogue: 0,0:31:57.89,0:32:00.59,eng_1 - 1080,,0,0,0,,told everyone my bedding caught fire.
+Dialogue: 0,0:31:57.89,0:32:00.59,chs_2 - 1080,,0,0,0,,告訴別人我的床著火了
+Dialogue: 0,0:32:13.27,0:32:15.71,eng_1 - 1080,,0,0,0,,You think you're on your own?
+Dialogue: 0,0:32:13.27,0:32:15.71,chs_2 - 1080,,0,0,0,,你以為你只有自己一人？
+Dialogue: 0,0:32:18.61,0:32:20.31,eng_1 - 1080,,0,0,0,,Let me wash it out
+Dialogue: 0,0:32:18.61,0:32:20.31,chs_2 - 1080,,0,0,0,,至少讓我沖洗一下
+Dialogue: 0,0:32:20.35,0:32:22.58,eng_1 - 1080,,0,0,0,,and help you sew it up at least.
+Dialogue: 0,0:32:20.35,0:32:22.58,chs_2 - 1080,,0,0,0,,幫你縫起來
+Dialogue: 0,0:32:49.21,0:32:51.48,eng_1 - 1080,,0,0,0,,Bit of comfort never hurt anyone.
+Dialogue: 0,0:32:49.21,0:32:51.48,chs_2 - 1080,,0,0,0,,舒服些又無礙於人
+Dialogue: 0,0:32:51.51,0:32:53.71,eng_1 - 1080,,0,0,0,,We've been sleeping in ditches the last few weeks.
+Dialogue: 0,0:32:51.51,0:32:53.71,chs_2 - 1080,,0,0,0,,過去幾周我們都睡在溝渠裏
+Dialogue: 0,0:32:53.75,0:32:56.58,eng_1 - 1080,,0,0,0,,I think we can treat ourselves to a featherbed for the night
+Dialogue: 0,0:32:53.75,0:32:56.58,chs_2 - 1080,,0,0,0,,我認為今晚我們可以犒勞自己睡羽毛床
+Dialogue: 0,0:32:56.62,0:32:59.48,eng_1 - 1080,,0,0,0,,and a hot meal not cooked by you.
+Dialogue: 0,0:32:56.62,0:32:59.48,chs_2 - 1080,,0,0,0,,吃一頓不是你做的飯
+Dialogue: 0,0:32:59.55,0:33:00.99,eng_1 - 1080,,0,0,0,,Couldn't agree more, my lady.
+Dialogue: 0,0:32:59.55,0:33:00.99,chs_2 - 1080,,0,0,0,,萬分同意，夫人
+Dialogue: 0,0:33:01.02,0:33:02.92,eng_1 - 1080,,0,0,0,,Just don't start expecting silk underclothes.
+Dialogue: 0,0:33:01.02,0:33:02.92,chs_2 - 1080,,0,0,0,,但別期待絲綢內衣
+Dialogue: 0,0:33:02.96,0:33:05.19,eng_1 - 1080,,0,0,0,,Not working for your former lord any longer.
+Dialogue: 0,0:33:02.96,0:33:05.19,chs_2 - 1080,,0,0,0,,你已經不為你前任大人辦事了
+Dialogue: 0,0:33:05.22,0:33:07.53,eng_1 - 1080,,0,0,0,,- Yes, my lady. - Don't get drunk.
+Dialogue: 0,0:33:05.22,0:33:07.53,chs_2 - 1080,,0,0,0,,- 是，夫人\N- 別喝醉了
+Dialogue: 0,0:33:09.23,0:33:10.33,eng_1 - 1080,,0,0,0,,No, my lady.
+Dialogue: 0,0:33:09.23,0:33:10.33,chs_2 - 1080,,0,0,0,,不會的，夫人
+Dialogue: 0,0:33:10.36,0:33:11.83,eng_1 - 1080,,0,0,0,,Can I get you anything else?
+Dialogue: 0,0:33:10.36,0:33:11.83,chs_2 - 1080,,0,0,0,,<i>還需要別的嗎？</i>
+Dialogue: 0,0:33:11.86,0:33:13.63,eng_1 - 1080,,0,0,0,,No, this will do nicely, thank you.
+Dialogue: 0,0:33:11.86,0:33:13.63,chs_2 - 1080,,0,0,0,,不用，這些夠了，謝謝
+Dialogue: 0,0:33:13.67,0:33:15.20,eng_1 - 1080,,0,0,0,,Kidney pie is wonderful.
+Dialogue: 0,0:33:13.67,0:33:15.20,chs_2 - 1080,,0,0,0,,腰子餡餅很棒
+Dialogue: 0,0:33:15.23,0:33:17.17,eng_1 - 1080,,0,0,0,,Thanks.
+Dialogue: 0,0:33:15.23,0:33:17.17,chs_2 - 1080,,0,0,0,,謝謝誇獎
+Dialogue: 0,0:33:17.20,0:33:19.40,eng_1 - 1080,,0,0,0,,I do my best.
+Dialogue: 0,0:33:17.20,0:33:19.40,chs_2 - 1080,,0,0,0,,我盡我所能
+Dialogue: 0,0:33:21.04,0:33:23.61,eng_1 - 1080,,0,0,0,,A good kidney pie is all about the ingredients.
+Dialogue: 0,0:33:21.04,0:33:23.61,chs_2 - 1080,,0,0,0,,好的腰子餡餅全靠原料
+Dialogue: 0,0:33:23.64,0:33:26.61,eng_1 - 1080,,0,0,0,,Flour, lard, water, eggs, milk.
+Dialogue: 0,0:33:23.64,0:33:26.61,chs_2 - 1080,,0,0,0,,<i>麵粉，豬油，水，雞蛋，牛奶</i>
+Dialogue: 0,0:33:26.65,0:33:28.45,eng_1 - 1080,,0,0,0,,Easy enough. But the meat,
+Dialogue: 0,0:33:26.65,0:33:28.45,chs_2 - 1080,,0,0,0,,都容易，但是肉
+Dialogue: 0,0:33:28.48,0:33:31.45,eng_1 - 1080,,0,0,0,,peacetime or not, getting your hands on a good bottom round steak
+Dialogue: 0,0:33:28.48,0:33:31.45,chs_2 - 1080,,0,0,0,,無論是否和平時期，都得拿到好的底部後腿肉
+Dialogue: 0,0:33:31.48,0:33:33.15,eng_1 - 1080,,0,0,0,,and calves' kidneys is not easy.
+Dialogue: 0,0:33:31.48,0:33:33.15,chs_2 - 1080,,0,0,0,,牛犢腰子也不好弄到
+Dialogue: 0,0:33:33.19,0:33:35.75,eng_1 - 1080,,0,0,0,,I mean, some people settle for plain old beef kidneys.
+Dialogue: 0,0:33:33.19,0:33:35.75,chs_2 - 1080,,0,0,0,,我是說，有些人會將就用普通老牛腰子
+Dialogue: 0,0:33:35.79,0:33:38.06,eng_1 - 1080,,0,0,0,,Got no right to cook anything, them.
+Dialogue: 0,0:33:35.79,0:33:38.06,chs_2 - 1080,,0,0,0,,他們沒資格做烹飪
+Dialogue: 0,0:33:38.09,0:33:39.66,eng_1 - 1080,,0,0,0,,Oh, and the gravy.
+Dialogue: 0,0:33:38.09,0:33:39.66,chs_2 - 1080,,0,0,0,,還有肉汁
+Dialogue: 0,0:33:39.69,0:33:41.53,eng_1 - 1080,,0,0,0,,Don't get me started on the gravy.
+Dialogue: 0,0:33:39.69,0:33:41.53,chs_2 - 1080,,0,0,0,,別讓我說肉汁
+Dialogue: 0,0:33:41.56,0:33:42.93,eng_1 - 1080,,0,0,0,,Very difficult to get right.
+Dialogue: 0,0:33:41.56,0:33:42.93,chs_2 - 1080,,0,0,0,,<i>很難弄到合適的</i>
+Dialogue: 0,0:33:42.96,0:33:44.76,eng_1 - 1080,,0,0,0,,See, a lot of people give up on the gravy.
+Dialogue: 0,0:33:42.96,0:33:44.76,chs_2 - 1080,,0,0,0,,<i>很多人放棄了肉汁</i>
+Dialogue: 0,0:33:44.80,0:33:47.00,eng_1 - 1080,,0,0,0,,You cannot give up on the gravy.
+Dialogue: 0,0:33:44.80,0:33:47.00,chs_2 - 1080,,0,0,0,,你可不能放棄肉汁啊
+Dialogue: 0,0:33:47.03,0:33:48.60,eng_1 - 1080,,0,0,0,,No gravy, no pie.
+Dialogue: 0,0:33:47.03,0:33:48.60,chs_2 - 1080,,0,0,0,,沒有肉汁，就沒有餡餅
+Dialogue: 0,0:33:48.63,0:33:51.04,eng_1 - 1080,,0,0,0,,Simple as that.
+Dialogue: 0,0:33:48.63,0:33:51.04,chs_2 - 1080,,0,0,0,,就這麼簡單
+Dialogue: 0,0:33:51.07,0:33:54.41,eng_1 - 1080,,0,0,0,,That's nice armor. Are you a knight?
+Dialogue: 0,0:33:51.07,0:33:54.41,chs_2 - 1080,,0,0,0,,盔甲不錯，你是騎士嗎？
+Dialogue: 0,0:33:56.51,0:33:57.98,eng_1 - 1080,,0,0,0,,No.
+Dialogue: 0,0:33:56.51,0:33:57.98,chs_2 - 1080,,0,0,0,,不是
+Dialogue: 0,0:33:58.01,0:34:01.15,eng_1 - 1080,,0,0,0,,Oh, it's just people with armor are usually knights.
+Dialogue: 0,0:33:58.01,0:34:01.15,chs_2 - 1080,,0,0,0,,穿盔甲的人一般都是騎士
+Dialogue: 0,0:34:01.18,0:34:02.80,eng_1 - 1080,,0,0,0,,Generally speaking.
+Dialogue: 0,0:34:01.18,0:34:02.80,chs_2 - 1080,,0,0,0,,<i>一般來說</i>
+Dialogue: 0,0:34:02.80,0:34:03.85,eng_1 - 1080,,0,0,0,,From King's Landing, though, aren't you?
+Dialogue: 0,0:34:02.80,0:34:03.85,chs_2 - 1080,,0,0,0,,<i>不過，你是君臨城來的吧？</i>
+Dialogue: 0,0:34:03.88,0:34:06.72,eng_1 - 1080,,0,0,0,,From there myself originally. Flea Bottom born and bred.
+Dialogue: 0,0:34:03.88,0:34:06.72,chs_2 - 1080,,0,0,0,,<i>我也是那裏來的，跳蚤窩土生土長</i>
+Dialogue: 0,0:34:06.75,0:34:08.55,eng_1 - 1080,,0,0,0,,What brings you to these parts?
+Dialogue: 0,0:34:06.75,0:34:08.55,chs_2 - 1080,,0,0,0,,<i>你們為什麼來這裏？</i>
+Dialogue: 0,0:34:08.59,0:34:10.59,eng_1 - 1080,,0,0,0,,We're looking for someone.
+Dialogue: 0,0:34:08.59,0:34:10.59,chs_2 - 1080,,0,0,0,,我們在找人
+Dialogue: 0,0:34:10.62,0:34:13.06,eng_1 - 1080,,0,0,0,,Someone in particular? Maybe they came in here.
+Dialogue: 0,0:34:10.62,0:34:13.06,chs_2 - 1080,,0,0,0,,特別的人？也許他們來過這兒
+Dialogue: 0,0:34:13.09,0:34:15.45,eng_1 - 1080,,0,0,0,,A lot of people come in here. Just the other day we had 17--
+Dialogue: 0,0:34:13.09,0:34:15.45,chs_2 - 1080,,0,0,0,,很多人來過這兒，前幾天有17個…
+Dialogue: 0,0:34:15.46,0:34:17.40,eng_1 - 1080,,0,0,0,,A girl, tall, red hair, very pretty.
+Dialogue: 0,0:34:15.46,0:34:17.40,chs_2 - 1080,,0,0,0,,一個女孩，高個子，紅頭髮，很漂亮
+Dialogue: 0,0:34:17.43,0:34:20.93,eng_1 - 1080,,0,0,0,,Her name is Sansa Stark, but she may be using a different name.
+Dialogue: 0,0:34:17.43,0:34:20.93,chs_2 - 1080,,0,0,0,,她叫珊莎·史塔克，但她可能會用別的名字
+Dialogue: 0,0:34:20.97,0:34:22.90,eng_1 - 1080,,0,0,0,,Starks?
+Dialogue: 0,0:34:20.97,0:34:22.90,chs_2 - 1080,,0,0,0,,史塔克？
+Dialogue: 0,0:34:26.04,0:34:28.91,eng_1 - 1080,,0,0,0,,What, like them lot from "Winterhell"?
+Dialogue: 0,0:34:26.04,0:34:28.91,chs_2 - 1080,,0,0,0,,就是凜冬城那些人的姓？
+Dialogue: 0,0:34:32.34,0:34:34.48,eng_1 - 1080,,0,0,0,,No, ain't seen anyone like that.
+Dialogue: 0,0:34:32.34,0:34:34.48,chs_2 - 1080,,0,0,0,,沒有，沒見過那樣的人
+Dialogue: 0,0:34:34.51,0:34:36.25,eng_1 - 1080,,0,0,0,,I heard they was all traitors.
+Dialogue: 0,0:34:34.51,0:34:36.25,chs_2 - 1080,,0,0,0,,我聽說他們都是叛徒
+Dialogue: 0,0:34:36.28,0:34:38.58,eng_1 - 1080,,0,0,0,,Don't need no traitors in here.
+Dialogue: 0,0:34:36.28,0:34:38.58,chs_2 - 1080,,0,0,0,,這裏不需要叛徒
+Dialogue: 0,0:34:38.62,0:34:41.95,eng_1 - 1080,,0,0,0,,I pledged my life to their mother Catelyn Stark.
+Dialogue: 0,0:34:38.62,0:34:41.95,chs_2 - 1080,,0,0,0,,<i>我用生命向她們的母親凱特琳·史塔克起誓</i>
+Dialogue: 0,0:34:41.99,0:34:44.19,eng_1 - 1080,,0,0,0,,I swore to her I'd bring her daughters home.
+Dialogue: 0,0:34:41.99,0:34:44.19,chs_2 - 1080,,0,0,0,,我向她發誓會帶她的女兒們回家
+Dialogue: 0,0:34:48.63,0:34:51.16,eng_1 - 1080,,0,0,0,,Sure I can't get you a bit more kidney pie?
+Dialogue: 0,0:34:48.63,0:34:51.16,chs_2 - 1080,,0,0,0,,確定不要餡餅了嗎？
+Dialogue: 0,0:35:05.31,0:35:06.44,eng_1 - 1080,,0,0,0,,What?
+Dialogue: 0,0:35:05.31,0:35:06.44,chs_2 - 1080,,0,0,0,,怎麼了？
+Dialogue: 0,0:35:06.48,0:35:08.08,eng_1 - 1080,,0,0,0,,It's nothing, my lady.
+Dialogue: 0,0:35:06.48,0:35:08.08,chs_2 - 1080,,0,0,0,,沒什麼，夫人
+Dialogue: 0,0:35:08.11,0:35:11.45,eng_1 - 1080,,0,0,0,,You wouldn't be screwing your face up like that if it was nothing.
+Dialogue: 0,0:35:08.11,0:35:11.45,chs_2 - 1080,,0,0,0,,你沒事不會那樣抬著頭
+Dialogue: 0,0:35:11.48,0:35:13.95,eng_1 - 1080,,0,0,0,,Don't want to offend, my lady. Truly, I don't.
+Dialogue: 0,0:35:11.48,0:35:13.95,chs_2 - 1080,,0,0,0,,無意冒犯，夫人，真的
+Dialogue: 0,0:35:13.99,0:35:15.79,eng_1 - 1080,,0,0,0,,You're not interesting enough to be offensive.
+Dialogue: 0,0:35:13.99,0:35:15.79,chs_2 - 1080,,0,0,0,,你想冒犯還不夠格
+Dialogue: 0,0:35:17.59,0:35:19.89,eng_1 - 1080,,0,0,0,,The Lannisters want Lady Sansa.
+Dialogue: 0,0:35:17.59,0:35:19.89,chs_2 - 1080,,0,0,0,,蘭尼斯特家想抓到珊莎小姐
+Dialogue: 0,0:35:19.93,0:35:22.59,eng_1 - 1080,,0,0,0,,The Lannisters have money.
+Dialogue: 0,0:35:19.93,0:35:22.59,chs_2 - 1080,,0,0,0,,蘭尼斯特家有錢
+Dialogue: 0,0:35:22.63,0:35:24.43,eng_1 - 1080,,0,0,0,,People kill for money.
+Dialogue: 0,0:35:22.63,0:35:24.43,chs_2 - 1080,,0,0,0,,人會為了錢殺人
+Dialogue: 0,0:35:25.66,0:35:27.53,eng_1 - 1080,,0,0,0,,I don't think we should be telling people
+Dialogue: 0,0:35:25.66,0:35:27.53,chs_2 - 1080,,0,0,0,,我認為我們不應該告訴別人
+Dialogue: 0,0:35:27.57,0:35:29.13,eng_1 - 1080,,0,0,0,,we're searching for Lady Sansa.
+Dialogue: 0,0:35:27.57,0:35:29.13,chs_2 - 1080,,0,0,0,,我們在找珊莎小姐
+Dialogue: 0,0:35:38.91,0:35:41.85,eng_1 - 1080,,0,0,0,,My lady. My lord. Could I have a word?
+Dialogue: 0,0:35:38.91,0:35:41.85,chs_2 - 1080,,0,0,0,,夫人，大人，能說句話嗎？
+Dialogue: 0,0:35:41.88,0:35:43.81,eng_1 - 1080,,0,0,0,,What about? Not kidney pie.
+Dialogue: 0,0:35:41.88,0:35:43.81,chs_2 - 1080,,0,0,0,,什麼事？別說腰子餡餅了
+Dialogue: 0,0:35:43.85,0:35:45.42,eng_1 - 1080,,0,0,0,,You seem like a proper lady.
+Dialogue: 0,0:35:43.85,0:35:45.42,chs_2 - 1080,,0,0,0,,<i>你像是有教養的小姐</i>
+Dialogue: 0,0:35:45.45,0:35:47.89,eng_1 - 1080,,0,0,0,,Someone who could be trusted.
+Dialogue: 0,0:35:45.45,0:35:47.89,chs_2 - 1080,,0,0,0,,<i>值得信任</i>
+Dialogue: 0,0:35:49.89,0:35:52.02,eng_1 - 1080,,0,0,0,,I never met no Sansa Stark.
+Dialogue: 0,0:35:49.89,0:35:52.02,chs_2 - 1080,,0,0,0,,我沒見過珊莎·史塔克
+Dialogue: 0,0:35:52.06,0:35:54.13,eng_1 - 1080,,0,0,0,,But I know her sister...
+Dialogue: 0,0:35:52.06,0:35:54.13,chs_2 - 1080,,0,0,0,,但我認識她妹妹…
+Dialogue: 0,0:35:54.16,0:35:55.99,eng_1 - 1080,,0,0,0,,Arya.
+Dialogue: 0,0:35:54.16,0:35:55.99,chs_2 - 1080,,0,0,0,,艾莉亞
+Dialogue: 0,0:35:58.13,0:36:01.77,eng_1 - 1080,,0,0,0,,No one's seen Arya Stark since her father was beheaded.
+Dialogue: 0,0:35:58.13,0:36:01.77,chs_2 - 1080,,0,0,0,,她父親被砍頭後就沒人見過艾莉亞·史塔克了
+Dialogue: 0,0:36:01.80,0:36:04.60,eng_1 - 1080,,0,0,0,,She's presumed dead.
+Dialogue: 0,0:36:01.80,0:36:04.60,chs_2 - 1080,,0,0,0,,大家都認為她死了
+Dialogue: 0,0:36:04.64,0:36:06.57,eng_1 - 1080,,0,0,0,,She weren't when I last spoke to her.
+Dialogue: 0,0:36:04.64,0:36:06.57,chs_2 - 1080,,0,0,0,,我上次跟她說話時她還沒死
+Dialogue: 0,0:36:06.61,0:36:07.43,eng_1 - 1080,,0,0,0,,When was that?
+Dialogue: 0,0:36:06.61,0:36:07.43,chs_2 - 1080,,0,0,0,,什麼時候？
+Dialogue: 0,0:36:07.45,0:36:09.01,eng_1 - 1080,,0,0,0,,Heading up north with the Night's Watch.
+Dialogue: 0,0:36:07.45,0:36:09.01,chs_2 - 1080,,0,0,0,,<i>跟守夜人一起北上</i>
+Dialogue: 0,0:36:09.01,0:36:10.51,eng_1 - 1080,,0,0,0,,She was all dressed up as a boy.
+Dialogue: 0,0:36:09.01,0:36:10.51,chs_2 - 1080,,0,0,0,,她打扮成男孩
+Dialogue: 0,0:36:10.54,0:36:13.38,eng_1 - 1080,,0,0,0,,Like your ladyship, only without the armor.
+Dialogue: 0,0:36:10.54,0:36:13.38,chs_2 - 1080,,0,0,0,,和小姐你一樣，只是沒穿盔甲
+Dialogue: 0,0:36:13.41,0:36:15.25,eng_1 - 1080,,0,0,0,,Going by the name Arry.
+Dialogue: 0,0:36:13.41,0:36:15.25,chs_2 - 1080,,0,0,0,,<i>化名阿利</i>
+Dialogue: 0,0:36:15.28,0:36:17.05,eng_1 - 1080,,0,0,0,,- So what happened to her? - Well--
+Dialogue: 0,0:36:15.28,0:36:17.05,chs_2 - 1080,,0,0,0,,她發生什麼事了？
+Dialogue: 0,0:36:17.08,0:36:19.25,eng_1 - 1080,,0,0,0,,The quick version.
+Dialogue: 0,0:36:17.08,0:36:19.25,chs_2 - 1080,,0,0,0,,長話短說
+Dialogue: 0,0:36:19.28,0:36:21.12,eng_1 - 1080,,0,0,0,,The Lannisters took us prisoner.
+Dialogue: 0,0:36:19.28,0:36:21.12,chs_2 - 1080,,0,0,0,,蘭尼斯特抓了我們
+Dialogue: 0,0:36:21.15,0:36:22.99,eng_1 - 1080,,0,0,0,,We escaped.
+Dialogue: 0,0:36:21.15,0:36:22.99,chs_2 - 1080,,0,0,0,,我們逃跑了
+Dialogue: 0,0:36:23.02,0:36:25.22,eng_1 - 1080,,0,0,0,,The Brotherhood took us prisoner.
+Dialogue: 0,0:36:23.02,0:36:25.22,chs_2 - 1080,,0,0,0,,兄弟會抓了我們
+Dialogue: 0,0:36:25.26,0:36:26.72,eng_1 - 1080,,0,0,0,,They sold me to the innkeep.
+Dialogue: 0,0:36:25.26,0:36:26.72,chs_2 - 1080,,0,0,0,,他們把我賣給旅店老闆
+Dialogue: 0,0:36:26.76,0:36:29.33,eng_1 - 1080,,0,0,0,,They were gonna sell Arya to her mother at Riverrun
+Dialogue: 0,0:36:26.76,0:36:29.33,chs_2 - 1080,,0,0,0,,<i>他們要把阿利和另一個囚犯</i>
+Dialogue: 0,0:36:29.36,0:36:30.66,eng_1 - 1080,,0,0,0,,along with another prisoner.
+Dialogue: 0,0:36:29.36,0:36:30.66,chs_2 - 1080,,0,0,0,,<i>賣給她奔流城的母親</i>
+Dialogue: 0,0:36:30.70,0:36:32.60,eng_1 - 1080,,0,0,0,,Big ugly fellow. Foul mouth
+Dialogue: 0,0:36:30.70,0:36:32.60,chs_2 - 1080,,0,0,0,,醜陋的大塊頭，嘴臭
+Dialogue: 0,0:36:32.63,0:36:34.63,eng_1 - 1080,,0,0,0,,and a face like a half-burnt ham.
+Dialogue: 0,0:36:32.63,0:36:34.63,chs_2 - 1080,,0,0,0,,臉像烤得半熟的火腿
+Dialogue: 0,0:36:34.67,0:36:36.60,eng_1 - 1080,,0,0,0,,- Not friendly. - The Hound.
+Dialogue: 0,0:36:34.67,0:36:36.60,chs_2 - 1080,,0,0,0,,- <i>很不友好</i>\N- 獵狗
+Dialogue: 0,0:36:36.64,0:36:38.40,eng_1 - 1080,,0,0,0,,That's the one.
+Dialogue: 0,0:36:36.64,0:36:38.40,chs_2 - 1080,,0,0,0,,就是他
+Dialogue: 0,0:36:38.44,0:36:41.74,eng_1 - 1080,,0,0,0,,If you find her, could you give her this?
+Dialogue: 0,0:36:38.44,0:36:41.74,chs_2 - 1080,,0,0,0,,如果你找到她，能不能把這個給她？
+Dialogue: 0,0:36:41.77,0:36:43.57,eng_1 - 1080,,0,0,0,,She liked the last one I gave her,
+Dialogue: 0,0:36:41.77,0:36:43.57,chs_2 - 1080,,0,0,0,,她很喜歡我上次給她做的那個
+Dialogue: 0,0:36:43.61,0:36:45.94,eng_1 - 1080,,0,0,0,,but, well, this one turned out better.
+Dialogue: 0,0:36:43.61,0:36:45.94,chs_2 - 1080,,0,0,0,,不過這個更好
+Dialogue: 0,0:36:55.52,0:36:58.26,eng_1 - 1080,,0,0,0,,Um, you were saying?
+Dialogue: 0,0:36:55.52,0:36:58.26,chs_2 - 1080,,0,0,0,,你剛剛說什麼來著？
+Dialogue: 0,0:37:02.29,0:37:05.00,eng_1 - 1080,,0,0,0,,Her mother's dead, grandfather's dead,
+Dialogue: 0,0:37:02.29,0:37:05.00,chs_2 - 1080,,0,0,0,,<i>她母親死了，祖父死了</i>
+Dialogue: 0,0:37:05.03,0:37:07.40,eng_1 - 1080,,0,0,0,,Walder Frey is the new lord of Riverrun.
+Dialogue: 0,0:37:05.03,0:37:07.40,chs_2 - 1080,,0,0,0,,瓦德·佛雷是奔流城的新領主
+Dialogue: 0,0:37:07.43,0:37:09.30,eng_1 - 1080,,0,0,0,,The Brotherhood isn't going to Riverrun.
+Dialogue: 0,0:37:07.43,0:37:09.30,chs_2 - 1080,,0,0,0,,兄弟會不會去奔流城
+Dialogue: 0,0:37:09.33,0:37:11.27,eng_1 - 1080,,0,0,0,,They'll take her to the Eyrie, my lady.
+Dialogue: 0,0:37:09.33,0:37:11.27,chs_2 - 1080,,0,0,0,,他們會帶她去鷹巢城，夫人
+Dialogue: 0,0:37:11.30,0:37:13.10,eng_1 - 1080,,0,0,0,,Why the Eyrie?
+Dialogue: 0,0:37:11.30,0:37:13.10,chs_2 - 1080,,0,0,0,,為什麼是鷹巢城？
+Dialogue: 0,0:37:13.14,0:37:15.61,eng_1 - 1080,,0,0,0,,Her aunt, Lysa Arryn.
+Dialogue: 0,0:37:13.14,0:37:15.61,chs_2 - 1080,,0,0,0,,他姨母，萊莎·艾林
+Dialogue: 0,0:37:15.64,0:37:17.71,eng_1 - 1080,,0,0,0,,Catelyn Stark's sister.
+Dialogue: 0,0:37:15.64,0:37:17.71,chs_2 - 1080,,0,0,0,,凱特琳·史塔克的妹妹
+Dialogue: 0,0:37:17.74,0:37:20.78,eng_1 - 1080,,0,0,0,,She's Arya's last living relative with money.
+Dialogue: 0,0:37:17.74,0:37:20.78,chs_2 - 1080,,0,0,0,,她是艾莉亞最後一個在世又有錢的親戚
+Dialogue: 0,0:37:20.81,0:37:23.55,eng_1 - 1080,,0,0,0,,She hates the Lannisters.
+Dialogue: 0,0:37:20.81,0:37:23.55,chs_2 - 1080,,0,0,0,,她恨蘭尼斯特
+Dialogue: 0,0:37:25.65,0:37:27.85,eng_1 - 1080,,0,0,0,,Lord Tyrion made sure I knew
+Dialogue: 0,0:37:25.65,0:37:27.85,chs_2 - 1080,,0,0,0,,提利昂大人教我記住
+Dialogue: 0,0:37:27.89,0:37:30.99,eng_1 - 1080,,0,0,0,,which house married which and who hated who.
+Dialogue: 0,0:37:27.89,0:37:30.99,chs_2 - 1080,,0,0,0,,哪個家族與哪個家族聯姻，誰恨誰
+Dialogue: 0,0:37:31.02,0:37:32.72,eng_1 - 1080,,0,0,0,,Sansa could be there, too.
+Dialogue: 0,0:37:31.02,0:37:32.72,chs_2 - 1080,,0,0,0,,珊莎可能也在那裏
+Dialogue: 0,0:37:32.76,0:37:35.23,eng_1 - 1080,,0,0,0,,Aye, my lady.
+Dialogue: 0,0:37:32.76,0:37:35.23,chs_2 - 1080,,0,0,0,,是的，夫人
+Dialogue: 0,0:37:35.26,0:37:36.96,eng_1 - 1080,,0,0,0,,Could be.
+Dialogue: 0,0:37:35.26,0:37:36.96,chs_2 - 1080,,0,0,0,,也許
+Dialogue: 0,0:37:43.37,0:37:45.27,eng_1 - 1080,,0,0,0,,You sure about this?
+Dialogue: 0,0:37:43.37,0:37:45.27,chs_2 - 1080,,0,0,0,,你確定該走那？
+Dialogue: 0,0:37:48.57,0:37:50.17,eng_1 - 1080,,0,0,0,,No.
+Dialogue: 0,0:37:48.57,0:37:50.17,chs_2 - 1080,,0,0,0,,不確定
+Dialogue: 0,0:38:21.24,0:38:24.11,eng_1 - 1080,,0,0,0,,I imagined you'd be back at the brothel at this hour.
+Dialogue: 0,0:38:21.24,0:38:24.11,chs_2 - 1080,,0,0,0,,還以為這會兒你會在妓院呢
+Dialogue: 0,0:38:24.14,0:38:27.41,eng_1 - 1080,,0,0,0,,I did spend some time with an absolutely stunning
+Dialogue: 0,0:38:24.14,0:38:27.41,chs_2 - 1080,,0,0,0,,我前幾天的確在一個漂亮的金髮妓女那裏
+Dialogue: 0,0:38:27.43,0:38:28.91,eng_1 - 1080,,0,0,0,,blonde the other day.
+Dialogue: 0,0:38:27.43,0:38:28.91,chs_2 - 1080,,0,0,0,,待過一會兒
+Dialogue: 0,0:38:28.91,0:38:31.72,eng_1 - 1080,,0,0,0,,Mm, do tell.
+Dialogue: 0,0:38:28.91,0:38:31.72,chs_2 - 1080,,0,0,0,,說吧
+Dialogue: 0,0:38:31.75,0:38:35.15,eng_1 - 1080,,0,0,0,,I've got every kind of filth down here
+Dialogue: 0,0:38:31.75,0:38:35.15,chs_2 - 1080,,0,0,0,,我什麼齷齪事都遇到了
+Dialogue: 0,0:38:35.19,0:38:36.72,eng_1 - 1080,,0,0,0,,except the kind I like.
+Dialogue: 0,0:38:35.19,0:38:36.72,chs_2 - 1080,,0,0,0,,就是沒有我喜歡的那種
+Dialogue: 0,0:38:36.76,0:38:38.76,eng_1 - 1080,,0,0,0,,Your sister.
+Dialogue: 0,0:38:36.76,0:38:38.76,chs_2 - 1080,,0,0,0,,你姐姐
+Dialogue: 0,0:38:46.83,0:38:49.60,eng_1 - 1080,,0,0,0,,Cersei approached me.
+Dialogue: 0,0:38:46.83,0:38:49.60,chs_2 - 1080,,0,0,0,,瑟曦找過我
+Dialogue: 0,0:38:50.90,0:38:52.94,eng_1 - 1080,,0,0,0,,We spoke a great deal about her daughter.
+Dialogue: 0,0:38:50.90,0:38:52.94,chs_2 - 1080,,0,0,0,,<i>我們就她女兒談了很多</i>
+Dialogue: 0,0:38:52.97,0:38:56.07,eng_1 - 1080,,0,0,0,,How worried your sister is about her.
+Dialogue: 0,0:38:52.97,0:38:56.07,chs_2 - 1080,,0,0,0,,你姐姐真的很擔心她
+Dialogue: 0,0:38:56.11,0:38:59.01,eng_1 - 1080,,0,0,0,,She was trying very hard to pretend
+Dialogue: 0,0:38:56.11,0:38:59.01,chs_2 - 1080,,0,0,0,,<i>她竭力假裝</i>
+Dialogue: 0,0:38:59.04,0:39:01.05,eng_1 - 1080,,0,0,0,,she had not come to sway me against you.
+Dialogue: 0,0:38:59.04,0:39:01.05,chs_2 - 1080,,0,0,0,,<i>她不是來說服我對付你的</i>
+Dialogue: 0,0:39:01.08,0:39:03.38,eng_1 - 1080,,0,0,0,,I think she may have even believed it herself.
+Dialogue: 0,0:39:01.08,0:39:03.38,chs_2 - 1080,,0,0,0,,<i>我認為她可能自己都信了</i>
+Dialogue: 0,0:39:03.42,0:39:06.45,eng_1 - 1080,,0,0,0,,Making honest feelings do dishonest work
+Dialogue: 0,0:39:03.42,0:39:06.45,chs_2 - 1080,,0,0,0,,給人感覺正直，行為卻不正直
+Dialogue: 0,0:39:06.49,0:39:08.92,eng_1 - 1080,,0,0,0,,is one of her many gifts.
+Dialogue: 0,0:39:06.49,0:39:08.92,chs_2 - 1080,,0,0,0,,是她眾多的天賦之一
+Dialogue: 0,0:39:08.95,0:39:11.96,eng_1 - 1080,,0,0,0,,It was difficult for her to hide her true intentions.
+Dialogue: 0,0:39:08.95,0:39:11.96,chs_2 - 1080,,0,0,0,,對她來說隱藏真實意圖很難
+Dialogue: 0,0:39:13.13,0:39:16.76,eng_1 - 1080,,0,0,0,,It is rare to meet a Lannister
+Dialogue: 0,0:39:13.13,0:39:16.76,chs_2 - 1080,,0,0,0,,遇到一個跟我一樣希望蘭尼斯特死的
+Dialogue: 0,0:39:16.80,0:39:20.80,eng_1 - 1080,,0,0,0,,who shares my enthusiasm for dead Lannisters.
+Dialogue: 0,0:39:16.80,0:39:20.80,chs_2 - 1080,,0,0,0,,蘭尼斯特真是稀奇
+Dialogue: 0,0:39:23.27,0:39:25.37,eng_1 - 1080,,0,0,0,,She desperately wants to see you killed.
+Dialogue: 0,0:39:23.27,0:39:25.37,chs_2 - 1080,,0,0,0,,她迫切想看你死
+Dialogue: 0,0:39:25.40,0:39:27.61,eng_1 - 1080,,0,0,0,,She didn't need to bother you.
+Dialogue: 0,0:39:25.40,0:39:27.61,chs_2 - 1080,,0,0,0,,她不需要麻煩你
+Dialogue: 0,0:39:27.64,0:39:31.44,eng_1 - 1080,,0,0,0,,It looks as though I've taken care of that myself.
+Dialogue: 0,0:39:27.64,0:39:31.44,chs_2 - 1080,,0,0,0,,看來好像我已經自己解決了自己
+Dialogue: 0,0:39:31.48,0:39:34.04,eng_1 - 1080,,0,0,0,,The joy she will feel
+Dialogue: 0,0:39:31.48,0:39:34.04,chs_2 - 1080,,0,0,0,,<i>當我的腦袋離開我的脖子時</i>
+Dialogue: 0,0:39:34.08,0:39:36.65,eng_1 - 1080,,0,0,0,,when my head leaves my neck.
+Dialogue: 0,0:39:34.08,0:39:36.65,chs_2 - 1080,,0,0,0,,<i>她會感到愉悅</i>
+Dialogue: 0,0:39:36.72,0:39:39.92,eng_1 - 1080,,0,0,0,,She's wanted this for a long time.
+Dialogue: 0,0:39:36.72,0:39:39.92,chs_2 - 1080,,0,0,0,,這種愉悅她期待很久了
+Dialogue: 0,0:39:39.95,0:39:42.75,eng_1 - 1080,,0,0,0,,Yes, I know.
+Dialogue: 0,0:39:39.95,0:39:42.75,chs_2 - 1080,,0,0,0,,是的，我知道
+Dialogue: 0,0:39:42.79,0:39:45.79,eng_1 - 1080,,0,0,0,,We met, you and I.
+Dialogue: 0,0:39:42.79,0:39:45.79,chs_2 - 1080,,0,0,0,,<i>我們以前見過</i>
+Dialogue: 0,0:39:45.82,0:39:47.42,eng_1 - 1080,,0,0,0,,Many years ago.
+Dialogue: 0,0:39:45.82,0:39:47.42,chs_2 - 1080,,0,0,0,,很多年前
+Dialogue: 0,0:39:47.46,0:39:50.39,eng_1 - 1080,,0,0,0,,I think I would have remembered that.
+Dialogue: 0,0:39:47.46,0:39:50.39,chs_2 - 1080,,0,0,0,,那我應該會記得
+Dialogue: 0,0:39:50.43,0:39:53.76,eng_1 - 1080,,0,0,0,,Unlikely. You had just been born.
+Dialogue: 0,0:39:50.43,0:39:53.76,chs_2 - 1080,,0,0,0,,不會，那時你剛出生
+Dialogue: 0,0:39:56.23,0:39:58.70,eng_1 - 1080,,0,0,0,,Our father brought me and my sister Elia with him
+Dialogue: 0,0:39:56.23,0:39:58.70,chs_2 - 1080,,0,0,0,,我父親帶著我和我姐姐伊莉亞
+Dialogue: 0,0:39:58.74,0:40:00.44,eng_1 - 1080,,0,0,0,,on a visit to Casterly Rock.
+Dialogue: 0,0:39:58.74,0:40:00.44,chs_2 - 1080,,0,0,0,,來訪問凱巖城
+Dialogue: 0,0:40:00.47,0:40:02.44,eng_1 - 1080,,0,0,0,,My first time away from Dorne.
+Dialogue: 0,0:40:00.47,0:40:02.44,chs_2 - 1080,,0,0,0,,<i>是我第一次離開多恩</i>
+Dialogue: 0,0:40:02.47,0:40:04.84,eng_1 - 1080,,0,0,0,,I didn't like anything about the Rock.
+Dialogue: 0,0:40:02.47,0:40:04.84,chs_2 - 1080,,0,0,0,,我不喜歡凱巖城的一切
+Dialogue: 0,0:40:06.38,0:40:08.81,eng_1 - 1080,,0,0,0,,Not the food, not the weather,
+Dialogue: 0,0:40:06.38,0:40:08.81,chs_2 - 1080,,0,0,0,,不喜歡食物，不喜歡天氣
+Dialogue: 0,0:40:08.85,0:40:10.51,eng_1 - 1080,,0,0,0,,not your accents.
+Dialogue: 0,0:40:08.85,0:40:10.51,chs_2 - 1080,,0,0,0,,不喜歡你們的口音
+Dialogue: 0,0:40:10.55,0:40:12.18,eng_1 - 1080,,0,0,0,,Nothing.
+Dialogue: 0,0:40:10.55,0:40:12.18,chs_2 - 1080,,0,0,0,,不喜歡一切
+Dialogue: 0,0:40:13.59,0:40:16.12,eng_1 - 1080,,0,0,0,,But the biggest disappointment...
+Dialogue: 0,0:40:13.59,0:40:16.12,chs_2 - 1080,,0,0,0,,但最失望的…
+Dialogue: 0,0:40:16.15,0:40:18.46,eng_1 - 1080,,0,0,0,,you.
+Dialogue: 0,0:40:16.15,0:40:18.46,chs_2 - 1080,,0,0,0,,是你
+Dialogue: 0,0:40:20.29,0:40:23.26,eng_1 - 1080,,0,0,0,,You and my family have more in common than you might admit.
+Dialogue: 0,0:40:20.29,0:40:23.26,chs_2 - 1080,,0,0,0,,你和我們家族的共同點比你所承認的更多
+Dialogue: 0,0:40:23.30,0:40:25.50,eng_1 - 1080,,0,0,0,,The whole way from Dorne
+Dialogue: 0,0:40:23.30,0:40:25.50,chs_2 - 1080,,0,0,0,,<i>從多恩來的一路上</i>
+Dialogue: 0,0:40:25.53,0:40:28.37,eng_1 - 1080,,0,0,0,,all anyone talked about was the monster
+Dialogue: 0,0:40:25.53,0:40:28.37,chs_2 - 1080,,0,0,0,,所有人談論的都是
+Dialogue: 0,0:40:28.40,0:40:31.37,eng_1 - 1080,,0,0,0,,that had been born to Tywin Lannister.
+Dialogue: 0,0:40:28.40,0:40:31.37,chs_2 - 1080,,0,0,0,,泰溫·蘭尼斯特生的怪胎
+Dialogue: 0,0:40:31.40,0:40:34.27,eng_1 - 1080,,0,0,0,,A head twice the size of his body,
+Dialogue: 0,0:40:31.40,0:40:34.27,chs_2 - 1080,,0,0,0,,<i>頭有身體的兩倍大</i>
+Dialogue: 0,0:40:34.31,0:40:36.21,eng_1 - 1080,,0,0,0,,a tail between his legs,
+Dialogue: 0,0:40:34.31,0:40:36.21,chs_2 - 1080,,0,0,0,,<i>兩腿之間有尾巴</i>
+Dialogue: 0,0:40:36.24,0:40:38.34,eng_1 - 1080,,0,0,0,,claws, one red eye,
+Dialogue: 0,0:40:36.24,0:40:38.34,chs_2 - 1080,,0,0,0,,有爪子，一隻紅眼
+Dialogue: 0,0:40:38.38,0:40:41.28,eng_1 - 1080,,0,0,0,,the privates of both a girl and a boy.
+Dialogue: 0,0:40:38.38,0:40:41.28,chs_2 - 1080,,0,0,0,,既有女孩也有男孩的生殖器
+Dialogue: 0,0:40:41.31,0:40:43.25,eng_1 - 1080,,0,0,0,,That would have made things so much easier.
+Dialogue: 0,0:40:41.31,0:40:43.25,chs_2 - 1080,,0,0,0,,真是那樣就好辦多了
+Dialogue: 0,0:40:43.28,0:40:47.15,eng_1 - 1080,,0,0,0,,When we met your sister, she promised she would show you to us.
+Dialogue: 0,0:40:43.28,0:40:47.15,chs_2 - 1080,,0,0,0,,<i>我們見到你姐姐時，她答應帶我們去看你</i>
+Dialogue: 0,0:40:47.19,0:40:48.82,eng_1 - 1080,,0,0,0,,Every day we would ask.
+Dialogue: 0,0:40:47.19,0:40:48.82,chs_2 - 1080,,0,0,0,,每天我們都問她
+Dialogue: 0,0:40:48.85,0:40:51.29,eng_1 - 1080,,0,0,0,,Every day she would say, "Soon."
+Dialogue: 0,0:40:48.85,0:40:51.29,chs_2 - 1080,,0,0,0,,每天她都說「快了」
+Dialogue: 0,0:40:51.32,0:40:54.63,eng_1 - 1080,,0,0,0,,Then she and your brother
+Dialogue: 0,0:40:51.32,0:40:54.63,chs_2 - 1080,,0,0,0,,然後她和你哥哥
+Dialogue: 0,0:40:54.66,0:40:58.03,eng_1 - 1080,,0,0,0,,took us to your nursery and...
+Dialogue: 0,0:40:54.66,0:40:58.03,chs_2 - 1080,,0,0,0,,帶我們去了你的嬰兒房…
+Dialogue: 0,0:40:59.46,0:41:02.40,eng_1 - 1080,,0,0,0,,she unveiled the freak.
+Dialogue: 0,0:40:59.46,0:41:02.40,chs_2 - 1080,,0,0,0,,她揭開了那個怪胎的布
+Dialogue: 0,0:41:04.60,0:41:06.44,eng_1 - 1080,,0,0,0,,Your head was a bit large.
+Dialogue: 0,0:41:04.60,0:41:06.44,chs_2 - 1080,,0,0,0,,<i>你的頭有點大</i>
+Dialogue: 0,0:41:06.47,0:41:08.37,eng_1 - 1080,,0,0,0,,Your arms and legs were a bit small,
+Dialogue: 0,0:41:06.47,0:41:08.37,chs_2 - 1080,,0,0,0,,<i>你的手和腿有點小</i>
+Dialogue: 0,0:41:08.41,0:41:10.07,eng_1 - 1080,,0,0,0,,but no claw.
+Dialogue: 0,0:41:08.41,0:41:10.07,chs_2 - 1080,,0,0,0,,但沒有爪子
+Dialogue: 0,0:41:10.11,0:41:13.41,eng_1 - 1080,,0,0,0,,No red eye. No tail between your legs.
+Dialogue: 0,0:41:10.11,0:41:13.41,chs_2 - 1080,,0,0,0,,沒有紅眼睛，腿中間也沒有尾巴
+Dialogue: 0,0:41:13.45,0:41:15.78,eng_1 - 1080,,0,0,0,,Just a tiny pink cock.
+Dialogue: 0,0:41:13.45,0:41:15.78,chs_2 - 1080,,0,0,0,,只有個小粉雞巴
+Dialogue: 0,0:41:15.81,0:41:18.58,eng_1 - 1080,,0,0,0,,We didn't try to hide our disappointment.
+Dialogue: 0,0:41:15.81,0:41:18.58,chs_2 - 1080,,0,0,0,,<i>我們沒有掩飾失望之情</i>
+Dialogue: 0,0:41:18.65,0:41:21.05,eng_1 - 1080,,0,0,0,,"That's not a monster," I told Cersei.
+Dialogue: 0,0:41:18.65,0:41:21.05,chs_2 - 1080,,0,0,0,,<i>我跟瑟曦說：「這不是魔鬼」</i>
+Dialogue: 0,0:41:21.09,0:41:24.09,eng_1 - 1080,,0,0,0,,"That's just a baby."
+Dialogue: 0,0:41:21.09,0:41:24.09,chs_2 - 1080,,0,0,0,,「只是個嬰孩」
+Dialogue: 0,0:41:25.59,0:41:28.23,eng_1 - 1080,,0,0,0,,And she said, "He killed my mother."
+Dialogue: 0,0:41:25.59,0:41:28.23,chs_2 - 1080,,0,0,0,,<i>而她說：「他害死了我母親」</i>
+Dialogue: 0,0:41:28.26,0:41:30.76,eng_1 - 1080,,0,0,0,,And she pinched your little cock so hard,
+Dialogue: 0,0:41:28.26,0:41:30.76,chs_2 - 1080,,0,0,0,,<i>她使勁捏著你的小雞巴</i>
+Dialogue: 0,0:41:30.80,0:41:32.80,eng_1 - 1080,,0,0,0,,I thought she might pull it off.
+Dialogue: 0,0:41:30.80,0:41:32.80,chs_2 - 1080,,0,0,0,,<i>我以為她會拽下來</i>
+Dialogue: 0,0:41:32.83,0:41:34.93,eng_1 - 1080,,0,0,0,,Until your brother made her stop.
+Dialogue: 0,0:41:32.83,0:41:34.93,chs_2 - 1080,,0,0,0,,<i>但你哥哥制止了她</i>
+Dialogue: 0,0:41:34.97,0:41:37.03,eng_1 - 1080,,0,0,0,,"It doesn't matter," she told us.
+Dialogue: 0,0:41:34.97,0:41:37.03,chs_2 - 1080,,0,0,0,,<i>她跟我們說：「無所謂」</i>
+Dialogue: 0,0:41:37.07,0:41:40.04,eng_1 - 1080,,0,0,0,,"Everyone says he will die soon.
+Dialogue: 0,0:41:37.07,0:41:40.04,chs_2 - 1080,,0,0,0,,<i>「大家都說他很快就會死」</i>
+Dialogue: 0,0:41:40.07,0:41:41.71,eng_1 - 1080,,0,0,0,,I hope they are right.
+Dialogue: 0,0:41:40.07,0:41:41.71,chs_2 - 1080,,0,0,0,,<i>「希望他們說的是真的」</i>
+Dialogue: 0,0:41:41.74,0:41:44.41,eng_1 - 1080,,0,0,0,,He should not have lived this long."
+Dialogue: 0,0:41:41.74,0:41:44.41,chs_2 - 1080,,0,0,0,,<i>「他不應該活這麼久」</i>
+Dialogue: 0,0:41:47.95,0:41:49.61,eng_1 - 1080,,0,0,0,,Well...
+Dialogue: 0,0:41:47.95,0:41:49.61,chs_2 - 1080,,0,0,0,,好吧…
+Dialogue: 0,0:41:52.22,0:41:56.89,eng_1 - 1080,,0,0,0,,sooner or later, Cersei always gets what she wants.
+Dialogue: 0,0:41:52.22,0:41:56.89,chs_2 - 1080,,0,0,0,,瑟曦總能得到她想要的
+Dialogue: 0,0:41:58.96,0:42:01.93,eng_1 - 1080,,0,0,0,,And what about what I want?
+Dialogue: 0,0:41:58.96,0:42:01.93,chs_2 - 1080,,0,0,0,,那我想要的呢？
+Dialogue: 0,0:42:04.26,0:42:06.50,eng_1 - 1080,,0,0,0,,Justice
+Dialogue: 0,0:42:04.26,0:42:06.50,chs_2 - 1080,,0,0,0,,公正
+Dialogue: 0,0:42:06.53,0:42:10.13,eng_1 - 1080,,0,0,0,,for my sister and her children.
+Dialogue: 0,0:42:06.53,0:42:10.13,chs_2 - 1080,,0,0,0,,為我姐姐和她的孩子
+Dialogue: 0,0:42:10.17,0:42:12.17,eng_1 - 1080,,0,0,0,,If you want justice,
+Dialogue: 0,0:42:10.17,0:42:12.17,chs_2 - 1080,,0,0,0,,如果你想要公正
+Dialogue: 0,0:42:12.20,0:42:15.11,eng_1 - 1080,,0,0,0,,you've come to the wrong place.
+Dialogue: 0,0:42:12.20,0:42:15.11,chs_2 - 1080,,0,0,0,,那可來錯地方了
+Dialogue: 0,0:42:15.14,0:42:17.37,eng_1 - 1080,,0,0,0,,I disagree.
+Dialogue: 0,0:42:15.14,0:42:17.37,chs_2 - 1080,,0,0,0,,不見得
+Dialogue: 0,0:42:24.88,0:42:27.92,eng_1 - 1080,,0,0,0,,I've come to the perfect place.
+Dialogue: 0,0:42:24.88,0:42:27.92,chs_2 - 1080,,0,0,0,,我來得正合適
+Dialogue: 0,0:42:29.65,0:42:31.99,eng_1 - 1080,,0,0,0,,I want to bring those who have wronged me to justice.
+Dialogue: 0,0:42:29.65,0:42:31.99,chs_2 - 1080,,0,0,0,,我想把折磨過我的人繩之以法
+Dialogue: 0,0:42:32.02,0:42:35.13,eng_1 - 1080,,0,0,0,,And all those who have wronged me are right here.
+Dialogue: 0,0:42:32.02,0:42:35.13,chs_2 - 1080,,0,0,0,,而所有折磨過我的人就在這
+Dialogue: 0,0:42:37.46,0:42:39.66,eng_1 - 1080,,0,0,0,,I will begin with Ser Gregor Clegane,
+Dialogue: 0,0:42:37.46,0:42:39.66,chs_2 - 1080,,0,0,0,,我要先拿格雷果·克裏岡開刀
+Dialogue: 0,0:42:39.70,0:42:42.47,eng_1 - 1080,,0,0,0,,who killed my sister's children
+Dialogue: 0,0:42:39.70,0:42:42.47,chs_2 - 1080,,0,0,0,,<i>他殺了我姐姐的孩子</i>
+Dialogue: 0,0:42:42.50,0:42:45.87,eng_1 - 1080,,0,0,0,,and then raped her with their blood still on his hands
+Dialogue: 0,0:42:42.50,0:42:45.87,chs_2 - 1080,,0,0,0,,用沾著孩子們的血的手強姦了她
+Dialogue: 0,0:42:45.90,0:42:48.64,eng_1 - 1080,,0,0,0,,before killing her, too.
+Dialogue: 0,0:42:45.90,0:42:48.64,chs_2 - 1080,,0,0,0,,之後也殺了她
+Dialogue: 0,0:42:57.15,0:42:59.42,eng_1 - 1080,,0,0,0,,I will be your champion.
+Dialogue: 0,0:42:57.15,0:42:59.42,chs_2 - 1080,,0,0,0,,我會當你的比武代表
+Dialogue: 0,0:43:53.57,0:43:55.47,eng_1 - 1080,,0,0,0,,Hello, Robin.
+Dialogue: 0,0:43:53.57,0:43:55.47,chs_2 - 1080,,0,0,0,,你好，羅賓
+Dialogue: 0,0:43:58.04,0:43:59.38,eng_1 - 1080,,0,0,0,,What are you doing?
+Dialogue: 0,0:43:58.04,0:43:59.38,chs_2 - 1080,,0,0,0,,你在幹什麼？
+Dialogue: 0,0:43:59.41,0:44:01.35,eng_1 - 1080,,0,0,0,,I'm building my home, Winterfell.
+Dialogue: 0,0:43:59.41,0:44:01.35,chs_2 - 1080,,0,0,0,,我在建我的家，臨冬城
+Dialogue: 0,0:44:01.38,0:44:03.41,eng_1 - 1080,,0,0,0,,At least I think I am.
+Dialogue: 0,0:44:01.38,0:44:03.41,chs_2 - 1080,,0,0,0,,可能不太像
+Dialogue: 0,0:44:03.45,0:44:06.12,eng_1 - 1080,,0,0,0,,I haven't been back there in a very long time.
+Dialogue: 0,0:44:03.45,0:44:06.12,chs_2 - 1080,,0,0,0,,我很久沒有回去了
+Dialogue: 0,0:44:06.15,0:44:08.52,eng_1 - 1080,,0,0,0,,Why did you leave?
+Dialogue: 0,0:44:06.15,0:44:08.52,chs_2 - 1080,,0,0,0,,你為什麼離開？
+Dialogue: 0,0:44:08.55,0:44:10.92,eng_1 - 1080,,0,0,0,,It's a long story.
+Dialogue: 0,0:44:08.55,0:44:10.92,chs_2 - 1080,,0,0,0,,說來話長
+Dialogue: 0,0:44:12.59,0:44:14.16,eng_1 - 1080,,0,0,0,,I stay here in the Eyrie.
+Dialogue: 0,0:44:12.59,0:44:14.16,chs_2 - 1080,,0,0,0,,我就待在鷹巢城
+Dialogue: 0,0:44:14.19,0:44:16.96,eng_1 - 1080,,0,0,0,,Mother says it's dangerous on the roads and I have to keep myself safe
+Dialogue: 0,0:44:14.19,0:44:16.96,chs_2 - 1080,,0,0,0,,母親說外面很危險，我必須保證自己安全
+Dialogue: 0,0:44:17.00,0:44:18.63,eng_1 - 1080,,0,0,0,,because I'm the Lord of the Vale
+Dialogue: 0,0:44:17.00,0:44:18.63,chs_2 - 1080,,0,0,0,,因為我是谷地的領主
+Dialogue: 0,0:44:18.66,0:44:20.96,eng_1 - 1080,,0,0,0,,and the Lord of the Vale is a very important person.
+Dialogue: 0,0:44:18.66,0:44:20.96,chs_2 - 1080,,0,0,0,,谷地的領主是非常重要的人物
+Dialogue: 0,0:44:21.00,0:44:23.30,eng_1 - 1080,,0,0,0,,Yes, you certainly are.
+Dialogue: 0,0:44:21.00,0:44:23.30,chs_2 - 1080,,0,0,0,,是啊，你當然是
+Dialogue: 0,0:44:23.33,0:44:25.57,eng_1 - 1080,,0,0,0,,When will you go back?
+Dialogue: 0,0:44:23.33,0:44:25.57,chs_2 - 1080,,0,0,0,,你什麼時候回去？
+Dialogue: 0,0:44:25.60,0:44:28.31,eng_1 - 1080,,0,0,0,,Probably never.
+Dialogue: 0,0:44:25.60,0:44:28.31,chs_2 - 1080,,0,0,0,,也許回不去了
+Dialogue: 0,0:44:28.34,0:44:30.44,eng_1 - 1080,,0,0,0,,My family doesn't live there anymore
+Dialogue: 0,0:44:28.34,0:44:30.44,chs_2 - 1080,,0,0,0,,我家已經不住在那了
+Dialogue: 0,0:44:30.48,0:44:32.94,eng_1 - 1080,,0,0,0,,and someone burned it down.
+Dialogue: 0,0:44:30.48,0:44:32.94,chs_2 - 1080,,0,0,0,,而且有人把它燒燬了
+Dialogue: 0,0:44:34.15,0:44:35.81,eng_1 - 1080,,0,0,0,,Oh.
+Dialogue: 0,0:44:34.15,0:44:35.81,chs_2 - 1080,,0,0,0,,哦
+Dialogue: 0,0:44:35.85,0:44:38.62,eng_1 - 1080,,0,0,0,,Does Winterfell have a Moon Door?
+Dialogue: 0,0:44:35.85,0:44:38.62,chs_2 - 1080,,0,0,0,,臨冬城有月門嗎？
+Dialogue: 0,0:44:38.65,0:44:40.42,eng_1 - 1080,,0,0,0,,No, I'm afraid not.
+Dialogue: 0,0:44:38.65,0:44:40.42,chs_2 - 1080,,0,0,0,,恐怕沒有
+Dialogue: 0,0:44:40.45,0:44:42.59,eng_1 - 1080,,0,0,0,,It's not high up in the mountains. It's down on the ground.
+Dialogue: 0,0:44:40.45,0:44:42.59,chs_2 - 1080,,0,0,0,,臨冬城不在高山上，而是建在地面
+Dialogue: 0,0:44:42.62,0:44:44.46,eng_1 - 1080,,0,0,0,,That sounds dangerous.
+Dialogue: 0,0:44:42.62,0:44:44.46,chs_2 - 1080,,0,0,0,,感覺很危險
+Dialogue: 0,0:44:44.49,0:44:47.29,eng_1 - 1080,,0,0,0,,- How do you make people fly? - We don't.
+Dialogue: 0,0:44:44.49,0:44:47.29,chs_2 - 1080,,0,0,0,,- 那你怎麼讓人飛走？\N- 我不那麼做
+Dialogue: 0,0:44:47.33,0:44:48.73,eng_1 - 1080,,0,0,0,,What do you do with all the bad people
+Dialogue: 0,0:44:47.33,0:44:48.73,chs_2 - 1080,,0,0,0,,那你怎麼處置壞蛋
+Dialogue: 0,0:44:48.76,0:44:51.23,eng_1 - 1080,,0,0,0,,and the scary people and the people you don't like?
+Dialogue: 0,0:44:48.76,0:44:51.23,chs_2 - 1080,,0,0,0,,和討厭的人啊？
+Dialogue: 0,0:44:51.26,0:44:52.80,eng_1 - 1080,,0,0,0,,I never did anything with them at all.
+Dialogue: 0,0:44:51.26,0:44:52.80,chs_2 - 1080,,0,0,0,,我從沒處置過那些人
+Dialogue: 0,0:44:52.83,0:44:55.47,eng_1 - 1080,,0,0,0,,Girls didn't take part in that where I came from.
+Dialogue: 0,0:44:52.83,0:44:55.47,chs_2 - 1080,,0,0,0,,在我家，女孩不許參與這種事
+Dialogue: 0,0:44:55.50,0:44:58.80,eng_1 - 1080,,0,0,0,,Well, I'm Lord of the Vale.
+Dialogue: 0,0:44:55.50,0:44:58.80,chs_2 - 1080,,0,0,0,,我是谷地的領主
+Dialogue: 0,0:44:58.84,0:45:02.14,eng_1 - 1080,,0,0,0,,When I grow up, I'll be able to fly anybody who bothers me.
+Dialogue: 0,0:44:58.84,0:45:02.14,chs_2 - 1080,,0,0,0,,等我長大了，誰煩我我就能讓誰飛走
+Dialogue: 0,0:45:02.17,0:45:04.51,eng_1 - 1080,,0,0,0,,Or you. When we get married,
+Dialogue: 0,0:45:02.17,0:45:04.51,chs_2 - 1080,,0,0,0,,你也能，等我們結婚了
+Dialogue: 0,0:45:04.54,0:45:06.31,eng_1 - 1080,,0,0,0,,you can tell me if you don't like somebody
+Dialogue: 0,0:45:04.54,0:45:06.31,chs_2 - 1080,,0,0,0,,你不喜歡誰，可以告訴我
+Dialogue: 0,0:45:06.34,0:45:08.61,eng_1 - 1080,,0,0,0,,and then we can bring them back here and, whoosh!
+Dialogue: 0,0:45:06.34,0:45:08.61,chs_2 - 1080,,0,0,0,,我們就把他們帶來，然後嗖！
+Dialogue: 0,0:45:08.65,0:45:10.48,eng_1 - 1080,,0,0,0,,Right through the Moon Door.
+Dialogue: 0,0:45:08.65,0:45:10.48,chs_2 - 1080,,0,0,0,,推下月門
+Dialogue: 0,0:45:12.18,0:45:14.12,eng_1 - 1080,,0,0,0,,I like the sound of that.
+Dialogue: 0,0:45:12.18,0:45:14.12,chs_2 - 1080,,0,0,0,,聽上去不錯
+Dialogue: 0,0:45:14.15,0:45:15.89,eng_1 - 1080,,0,0,0,,Let's put a Moon Door in your Winterfell.
+Dialogue: 0,0:45:14.15,0:45:15.89,chs_2 - 1080,,0,0,0,,我們在你的臨冬城上也弄個月門吧！
+Dialogue: 0,0:45:15.92,0:45:17.35,eng_1 - 1080,,0,0,0,,All right.
+Dialogue: 0,0:45:15.92,0:45:17.35,chs_2 - 1080,,0,0,0,,好的
+Dialogue: 0,0:45:17.39,0:45:19.36,eng_1 - 1080,,0,0,0,,It can go in here in this big tower.
+Dialogue: 0,0:45:17.39,0:45:19.36,chs_2 - 1080,,0,0,0,,可以在這個高塔裏弄一個
+Dialogue: 0,0:45:19.39,0:45:21.46,eng_1 - 1080,,0,0,0,,Careful. You've ruined it.
+Dialogue: 0,0:45:19.39,0:45:21.46,chs_2 - 1080,,0,0,0,,小心！你把它弄壞了
+Dialogue: 0,0:45:21.49,0:45:22.93,eng_1 - 1080,,0,0,0,,Now I'm going to have to rebuild the whole thing.
+Dialogue: 0,0:45:21.49,0:45:22.93,chs_2 - 1080,,0,0,0,,我只能全部重建
+Dialogue: 0,0:45:22.96,0:45:24.50,eng_1 - 1080,,0,0,0,,- I didn't ruin it. - You did.
+Dialogue: 0,0:45:22.96,0:45:24.50,chs_2 - 1080,,0,0,0,,- 我沒弄壞它\N- 你有
+Dialogue: 0,0:45:24.53,0:45:26.50,eng_1 - 1080,,0,0,0,,It was already ruined because it didn't have a Moon Door.
+Dialogue: 0,0:45:24.53,0:45:26.50,chs_2 - 1080,,0,0,0,,本來就是壞的，因為沒有月門
+Dialogue: 0,0:45:26.53,0:45:27.87,eng_1 - 1080,,0,0,0,,I was fixing it.
+Dialogue: 0,0:45:26.53,0:45:27.87,chs_2 - 1080,,0,0,0,,我是在修理
+Dialogue: 0,0:45:27.90,0:45:29.23,eng_1 - 1080,,0,0,0,,Knocking things down isn't fixing them.
+Dialogue: 0,0:45:27.90,0:45:29.23,chs_2 - 1080,,0,0,0,,把東西撞倒不叫修理
+Dialogue: 0,0:45:29.27,0:45:31.03,eng_1 - 1080,,0,0,0,,- It's ruining them. - I didn't ruin it!
+Dialogue: 0,0:45:29.27,0:45:31.03,chs_2 - 1080,,0,0,0,,- 叫破壞\N- 我沒弄壞！
+Dialogue: 0,0:45:31.07,0:45:33.54,eng_1 - 1080,,0,0,0,,- You're being stupid. - I didn't ruin it!
+Dialogue: 0,0:45:31.07,0:45:33.54,chs_2 - 1080,,0,0,0,,- 你無理取鬧\N- 我沒弄壞！
+Dialogue: 0,0:45:43.92,0:45:46.65,eng_1 - 1080,,0,0,0,,Robin, I'm sorry, I--
+Dialogue: 0,0:45:43.92,0:45:46.65,chs_2 - 1080,,0,0,0,,羅賓，對不起，我…
+Dialogue: 0,0:45:47.62,0:45:49.29,eng_1 - 1080,,0,0,0,,Children.
+Dialogue: 0,0:45:47.62,0:45:49.29,chs_2 - 1080,,0,0,0,,<i>小孩子</i>
+Dialogue: 0,0:45:51.82,0:45:55.26,eng_1 - 1080,,0,0,0,,- I hit him. - Yes, I saw.
+Dialogue: 0,0:45:51.82,0:45:55.26,chs_2 - 1080,,0,0,0,,- <i>我打了他</i>\N- 是，我看見了
+Dialogue: 0,0:45:55.29,0:45:56.63,eng_1 - 1080,,0,0,0,,I shouldn't have done that.
+Dialogue: 0,0:45:55.29,0:45:56.63,chs_2 - 1080,,0,0,0,,我不該打他
+Dialogue: 0,0:45:56.66,0:45:59.76,eng_1 - 1080,,0,0,0,,No, his mother should have
+Dialogue: 0,0:45:56.66,0:45:59.76,chs_2 - 1080,,0,0,0,,是不該，但他母親
+Dialogue: 0,0:45:59.80,0:46:02.10,eng_1 - 1080,,0,0,0,,a long time ago.
+Dialogue: 0,0:45:59.80,0:46:02.10,chs_2 - 1080,,0,0,0,,早就該打他了
+Dialogue: 0,0:46:02.13,0:46:05.50,eng_1 - 1080,,0,0,0,,Consider it a step in the right direction.
+Dialogue: 0,0:46:02.13,0:46:05.50,chs_2 - 1080,,0,0,0,,就當是為了教育他吧
+Dialogue: 0,0:46:06.97,0:46:08.67,eng_1 - 1080,,0,0,0,,If he tells Aunt Lysa...
+Dialogue: 0,0:46:06.97,0:46:08.67,chs_2 - 1080,,0,0,0,,要是他告訴了萊莎阿姨…
+Dialogue: 0,0:46:08.71,0:46:11.07,eng_1 - 1080,,0,0,0,,Let me worry about Aunt Lysa.
+Dialogue: 0,0:46:08.71,0:46:11.07,chs_2 - 1080,,0,0,0,,讓我來解決萊莎阿姨
+Dialogue: 0,0:46:12.48,0:46:15.21,eng_1 - 1080,,0,0,0,,I was trying to remember what everything looked like.
+Dialogue: 0,0:46:12.48,0:46:15.21,chs_2 - 1080,,0,0,0,,我只想記下臨冬城的模樣
+Dialogue: 0,0:46:16.48,0:46:18.52,eng_1 - 1080,,0,0,0,,I'll never see it again.
+Dialogue: 0,0:46:16.48,0:46:18.52,chs_2 - 1080,,0,0,0,,我永遠也見不到了
+Dialogue: 0,0:46:20.25,0:46:23.32,eng_1 - 1080,,0,0,0,,A lot can happen between now and never.
+Dialogue: 0,0:46:20.25,0:46:23.32,chs_2 - 1080,,0,0,0,,在現在與永遠之間，有無數可能
+Dialogue: 0,0:46:25.46,0:46:27.62,eng_1 - 1080,,0,0,0,,If you want to build a better home,
+Dialogue: 0,0:46:25.46,0:46:27.62,chs_2 - 1080,,0,0,0,,要是你想建一個更好的家
+Dialogue: 0,0:46:27.66,0:46:30.49,eng_1 - 1080,,0,0,0,,first you must demolish the old one.
+Dialogue: 0,0:46:27.66,0:46:30.49,chs_2 - 1080,,0,0,0,,首先你必須拆毀舊的家
+Dialogue: 0,0:46:32.46,0:46:35.53,eng_1 - 1080,,0,0,0,,Why did you really kill Joffrey?
+Dialogue: 0,0:46:32.46,0:46:35.53,chs_2 - 1080,,0,0,0,,你究竟為什麼要殺喬佛裏？
+Dialogue: 0,0:46:39.64,0:46:41.74,eng_1 - 1080,,0,0,0,,Tell me why.
+Dialogue: 0,0:46:39.64,0:46:41.74,chs_2 - 1080,,0,0,0,,告訴我
+Dialogue: 0,0:46:46.01,0:46:49.58,eng_1 - 1080,,0,0,0,,I loved your mother more than you could ever know.
+Dialogue: 0,0:46:46.01,0:46:49.58,chs_2 - 1080,,0,0,0,,我對你母親的愛，遠超你所想
+Dialogue: 0,0:46:52.22,0:46:54.92,eng_1 - 1080,,0,0,0,,Given the opportunity, what do we do to those
+Dialogue: 0,0:46:52.22,0:46:54.92,chs_2 - 1080,,0,0,0,,如果有機會，我們該怎樣對待
+Dialogue: 0,0:46:54.99,0:46:56.99,eng_1 - 1080,,0,0,0,,who've hurt the ones we love?
+Dialogue: 0,0:46:54.99,0:46:56.99,chs_2 - 1080,,0,0,0,,傷害了我們心愛之人的人？
+Dialogue: 0,0:47:04.80,0:47:06.73,eng_1 - 1080,,0,0,0,,In a better world,
+Dialogue: 0,0:47:04.80,0:47:06.73,chs_2 - 1080,,0,0,0,,假如有一個更美好的世界
+Dialogue: 0,0:47:06.76,0:47:09.13,eng_1 - 1080,,0,0,0,,one where love
+Dialogue: 0,0:47:06.76,0:47:09.13,chs_2 - 1080,,0,0,0,,在那裏愛能夠克服
+Dialogue: 0,0:47:09.17,0:47:13.10,eng_1 - 1080,,0,0,0,,could overcome strength and duty,
+Dialogue: 0,0:47:09.17,0:47:13.10,chs_2 - 1080,,0,0,0,,力量和責任
+Dialogue: 0,0:47:13.14,0:47:16.87,eng_1 - 1080,,0,0,0,,you might have been my child.
+Dialogue: 0,0:47:13.14,0:47:16.87,chs_2 - 1080,,0,0,0,,你本可能會是我的孩子
+Dialogue: 0,0:47:19.88,0:47:22.41,eng_1 - 1080,,0,0,0,,But we don't live in that world.
+Dialogue: 0,0:47:19.88,0:47:22.41,chs_2 - 1080,,0,0,0,,但我們沒生活在那個世界
+Dialogue: 0,0:47:33.42,0:47:36.43,eng_1 - 1080,,0,0,0,,You're more beautiful than she ever was.
+Dialogue: 0,0:47:33.42,0:47:36.43,chs_2 - 1080,,0,0,0,,你比她還美
+Dialogue: 0,0:47:38.26,0:47:39.83,eng_1 - 1080,,0,0,0,,Lord Baelish...
+Dialogue: 0,0:47:38.26,0:47:39.83,chs_2 - 1080,,0,0,0,,貝裏席大人…
+Dialogue: 0,0:47:39.86,0:47:41.83,eng_1 - 1080,,0,0,0,,Call me Petyr.
+Dialogue: 0,0:47:39.86,0:47:41.83,chs_2 - 1080,,0,0,0,,叫我培提爾
+Dialogue: 0,0:48:08.76,0:48:11.23,eng_1 - 1080,,0,0,0,,You wanted to see me, Aunt Lysa?
+Dialogue: 0,0:48:08.76,0:48:11.23,chs_2 - 1080,,0,0,0,,<i>你想見我，萊莎阿姨？</i>
+Dialogue: 0,0:48:12.73,0:48:14.83,eng_1 - 1080,,0,0,0,,Come here, Sansa.
+Dialogue: 0,0:48:12.73,0:48:14.83,chs_2 - 1080,,0,0,0,,過來，珊莎
+Dialogue: 0,0:48:28.88,0:48:31.35,eng_1 - 1080,,0,0,0,,Do you know how far the fall is?
+Dialogue: 0,0:48:28.88,0:48:31.35,chs_2 - 1080,,0,0,0,,你知道這有多高嗎？
+Dialogue: 0,0:48:33.22,0:48:34.35,eng_1 - 1080,,0,0,0,,No.
+Dialogue: 0,0:48:33.22,0:48:34.35,chs_2 - 1080,,0,0,0,,不知道
+Dialogue: 0,0:48:34.39,0:48:36.59,eng_1 - 1080,,0,0,0,,Neither do I, precisely.
+Dialogue: 0,0:48:34.39,0:48:36.59,chs_2 - 1080,,0,0,0,,<i>我也不知道精確高度</i>
+Dialogue: 0,0:48:36.62,0:48:39.16,eng_1 - 1080,,0,0,0,,Hundreds of feet.
+Dialogue: 0,0:48:36.62,0:48:39.16,chs_2 - 1080,,0,0,0,,<i>幾百尺吧</i>
+Dialogue: 0,0:48:39.19,0:48:41.32,eng_1 - 1080,,0,0,0,,It's fascinating
+Dialogue: 0,0:48:39.19,0:48:41.32,chs_2 - 1080,,0,0,0,,很有意思
+Dialogue: 0,0:48:41.36,0:48:45.23,eng_1 - 1080,,0,0,0,,what happens to bodies when they hit the rocks from such a height.
+Dialogue: 0,0:48:41.36,0:48:45.23,chs_2 - 1080,,0,0,0,,從這麼高掉下去摔在石頭上
+Dialogue: 0,0:48:45.26,0:48:47.30,eng_1 - 1080,,0,0,0,,The impact breaks them right apart.
+Dialogue: 0,0:48:45.26,0:48:47.30,chs_2 - 1080,,0,0,0,,身體會馬上撞碎
+Dialogue: 0,0:48:47.33,0:48:50.77,eng_1 - 1080,,0,0,0,,Like eggs dropped on the floor.
+Dialogue: 0,0:48:47.33,0:48:50.77,chs_2 - 1080,,0,0,0,,就像雞蛋掉在地板上一樣
+Dialogue: 0,0:48:50.80,0:48:53.20,eng_1 - 1080,,0,0,0,,Sometimes pieces remain intact.
+Dialogue: 0,0:48:50.80,0:48:53.20,chs_2 - 1080,,0,0,0,,有時有幾片完整的
+Dialogue: 0,0:48:53.27,0:48:55.91,eng_1 - 1080,,0,0,0,,You'll find the head sitting on its own.
+Dialogue: 0,0:48:53.27,0:48:55.91,chs_2 - 1080,,0,0,0,,頭落在了一邊
+Dialogue: 0,0:48:55.94,0:48:58.04,eng_1 - 1080,,0,0,0,,Every hair in place.
+Dialogue: 0,0:48:55.94,0:48:58.04,chs_2 - 1080,,0,0,0,,頭髮都還在
+Dialogue: 0,0:48:58.08,0:49:00.98,eng_1 - 1080,,0,0,0,,Blue eyes staring at nothing.
+Dialogue: 0,0:48:58.08,0:49:00.98,chs_2 - 1080,,0,0,0,,藍眼睛空洞無物
+Dialogue: 0,0:49:09.79,0:49:12.52,eng_1 - 1080,,0,0,0,,I know what you did.
+Dialogue: 0,0:49:09.79,0:49:12.52,chs_2 - 1080,,0,0,0,,我知道你幹了什麼
+Dialogue: 0,0:49:14.73,0:49:16.53,eng_1 - 1080,,0,0,0,,I'm so sorry, Aunt Lysa.
+Dialogue: 0,0:49:14.73,0:49:16.53,chs_2 - 1080,,0,0,0,,我很抱歉，萊莎阿姨
+Dialogue: 0,0:49:16.56,0:49:19.40,eng_1 - 1080,,0,0,0,,I never should have hit Robin, I know it. I promise it won't happen--
+Dialogue: 0,0:49:16.56,0:49:19.40,chs_2 - 1080,,0,0,0,,我不該打羅賓，我懂，我保證不會再…
+Dialogue: 0,0:49:19.43,0:49:21.16,eng_1 - 1080,,0,0,0,,Don't be coy with me, you little whore.
+Dialogue: 0,0:49:19.43,0:49:21.16,chs_2 - 1080,,0,0,0,,別跟我忸怩作態，你個小賤人
+Dialogue: 0,0:49:21.20,0:49:23.63,eng_1 - 1080,,0,0,0,,You kissed him. You kissed Petyr.
+Dialogue: 0,0:49:21.20,0:49:23.63,chs_2 - 1080,,0,0,0,,你親了他，你親了培提爾
+Dialogue: 0,0:49:23.67,0:49:25.87,eng_1 - 1080,,0,0,0,,- I didn't. You don't understand. - I saw you.
+Dialogue: 0,0:49:23.67,0:49:25.87,chs_2 - 1080,,0,0,0,,- 我沒有，你不知道\N- 我看見你們了
+Dialogue: 0,0:49:25.90,0:49:29.21,eng_1 - 1080,,0,0,0,,You can't lie to me because I saw it with my own eyes.
+Dialogue: 0,0:49:25.90,0:49:29.21,chs_2 - 1080,,0,0,0,,你騙不了我，因為我親眼看見了
+Dialogue: 0,0:49:29.24,0:49:31.07,eng_1 - 1080,,0,0,0,,- He kissed me. I pulled away. - Liar!
+Dialogue: 0,0:49:29.24,0:49:31.07,chs_2 - 1080,,0,0,0,,- 是他親我，我推開了\N- 騙子！
+Dialogue: 0,0:49:31.11,0:49:34.01,eng_1 - 1080,,0,0,0,,Whore! He is mine!
+Dialogue: 0,0:49:31.11,0:49:34.01,chs_2 - 1080,,0,0,0,,賤人！他是我的！
+Dialogue: 0,0:49:34.05,0:49:36.55,eng_1 - 1080,,0,0,0,,My father, my husband, my sister,
+Dialogue: 0,0:49:34.05,0:49:36.55,chs_2 - 1080,,0,0,0,,我父親，我丈夫，我姐姐
+Dialogue: 0,0:49:36.58,0:49:38.72,eng_1 - 1080,,0,0,0,,they all stood between us and now they're all dead.
+Dialogue: 0,0:49:36.58,0:49:38.72,chs_2 - 1080,,0,0,0,,都阻礙著我們，但現在他們都死了
+Dialogue: 0,0:49:38.75,0:49:42.82,eng_1 - 1080,,0,0,0,,That's what happens to people who stand between Petyr and me.
+Dialogue: 0,0:49:38.75,0:49:42.82,chs_2 - 1080,,0,0,0,,阻礙我和培提爾就是這個下場
+Dialogue: 0,0:49:42.85,0:49:44.52,eng_1 - 1080,,0,0,0,,Look down!
+Dialogue: 0,0:49:42.85,0:49:44.52,chs_2 - 1080,,0,0,0,,低頭看！
+Dialogue: 0,0:49:44.56,0:49:46.96,eng_1 - 1080,,0,0,0,,Look down! Look down! Look down!
+Dialogue: 0,0:49:44.56,0:49:46.96,chs_2 - 1080,,0,0,0,,低頭看！低頭看！低頭看！
+Dialogue: 0,0:49:46.99,0:49:49.86,eng_1 - 1080,,0,0,0,,Lysa!
+Dialogue: 0,0:49:46.99,0:49:49.86,chs_2 - 1080,,0,0,0,,<i>萊莎！</i>
+Dialogue: 0,0:49:49.89,0:49:52.53,eng_1 - 1080,,0,0,0,,Let her go.
+Dialogue: 0,0:49:49.89,0:49:52.53,chs_2 - 1080,,0,0,0,,放開她
+Dialogue: 0,0:49:55.43,0:49:57.57,eng_1 - 1080,,0,0,0,,You want her?
+Dialogue: 0,0:49:55.43,0:49:57.57,chs_2 - 1080,,0,0,0,,你想要她？
+Dialogue: 0,0:49:57.60,0:50:01.24,eng_1 - 1080,,0,0,0,,This empty-headed child?
+Dialogue: 0,0:49:57.60,0:50:01.24,chs_2 - 1080,,0,0,0,,這個愚蠢的小孩？
+Dialogue: 0,0:50:01.27,0:50:02.77,eng_1 - 1080,,0,0,0,,Let her go.
+Dialogue: 0,0:50:01.27,0:50:02.77,chs_2 - 1080,,0,0,0,,放開她
+Dialogue: 0,0:50:02.81,0:50:05.61,eng_1 - 1080,,0,0,0,,She's just like her mother. She'll never love you.
+Dialogue: 0,0:50:02.81,0:50:05.61,chs_2 - 1080,,0,0,0,,她跟她媽一樣，她絕不會愛你
+Dialogue: 0,0:50:05.64,0:50:08.18,eng_1 - 1080,,0,0,0,,I lied for you.
+Dialogue: 0,0:50:05.64,0:50:08.18,chs_2 - 1080,,0,0,0,,我為你撒謊
+Dialogue: 0,0:50:08.21,0:50:10.21,eng_1 - 1080,,0,0,0,,I killed for you.
+Dialogue: 0,0:50:08.21,0:50:10.21,chs_2 - 1080,,0,0,0,,<i>我為你殺人</i>
+Dialogue: 0,0:50:10.25,0:50:12.58,eng_1 - 1080,,0,0,0,,Why did you bring her here? Why?
+Dialogue: 0,0:50:10.25,0:50:12.58,chs_2 - 1080,,0,0,0,,為什麼你要帶她來？為什麼？
+Dialogue: 0,0:50:12.62,0:50:14.55,eng_1 - 1080,,0,0,0,,I'll send her away.
+Dialogue: 0,0:50:12.62,0:50:14.55,chs_2 - 1080,,0,0,0,,我會把她送走的
+Dialogue: 0,0:50:15.85,0:50:18.42,eng_1 - 1080,,0,0,0,,I swear on my life.
+Dialogue: 0,0:50:15.85,0:50:18.42,chs_2 - 1080,,0,0,0,,我以生命發誓
+Dialogue: 0,0:50:19.39,0:50:21.93,eng_1 - 1080,,0,0,0,,I swear to all the gods.
+Dialogue: 0,0:50:19.39,0:50:21.93,chs_2 - 1080,,0,0,0,,我向所有神發誓
+Dialogue: 0,0:50:23.29,0:50:24.83,eng_1 - 1080,,0,0,0,,Let her go, Lysa.
+Dialogue: 0,0:50:23.29,0:50:24.83,chs_2 - 1080,,0,0,0,,放開她，萊莎
+Dialogue: 0,0:50:42.65,0:50:45.25,eng_1 - 1080,,0,0,0,,Oh, my sweet wife.
+Dialogue: 0,0:50:42.65,0:50:45.25,chs_2 - 1080,,0,0,0,,噢，我親愛的妻子
+Dialogue: 0,0:50:47.52,0:50:50.99,eng_1 - 1080,,0,0,0,,My sweet, silly wife.
+Dialogue: 0,0:50:47.52,0:50:50.99,chs_2 - 1080,,0,0,0,,我親愛的傻妻子
+Dialogue: 0,0:50:58.40,0:51:00.76,eng_1 - 1080,,0,0,0,,I have only loved one woman...
+Dialogue: 0,0:50:58.40,0:51:00.76,chs_2 - 1080,,0,0,0,,我這一生中
+Dialogue: 0,0:51:01.70,0:51:03.53,eng_1 - 1080,,0,0,0,,only one,
+Dialogue: 0,0:51:01.70,0:51:03.53,chs_2 - 1080,,0,0,0,,只愛過一個女人…
+Dialogue: 0,0:51:03.57,0:51:05.97,eng_1 - 1080,,0,0,0,,my entire life.
+Dialogue: 0,0:51:03.57,0:51:05.97,chs_2 - 1080,,0,0,0,,只有一個
+Dialogue: 0,0:51:11.24,0:51:12.74,eng_1 - 1080,,0,0,0,,Your sister.
+Dialogue: 0,0:51:11.24,0:51:12.74,chs_2 - 1080,,0,0,0,,就是你姐姐
+

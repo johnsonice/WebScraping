@@ -1,0 +1,1528 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: RIO2 狸猫 特效蓝光原盘双语-终稿
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ch,楷体,17,&H00FFFFFF,&H0300FFFF,&H00A95807,&H02000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,7,1
+Style: music,黑体,15,&H00FFFFFF,&H0300FFFF,&H00FF8000,&H02000000,0,0,0,0,100,100,0,0,1,0,0,8,10,10,10,1
+Style: white,华文细黑,16,&H00FFFFFF,&H0300FFFF,&H00FFB824,&H02000000,0,1,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: ali,幼圆,19,&H008000FF,&H0300FFFF,&H00C08000,&H02000000,1,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: Eng,微软雅黑,13,&H00FFFFFF,&H0300FFFF,&H00FFFFFF,&H02000000,1,0,0,0,100,100,0,0,1,0,1,2,10,10,10,1
+Style: geci,Times New Roman,19,&H00FFFFFF,&H0300FFFF,&H00A95807,&H02000000,0,1,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: music2,华文细黑,14,&H00FFFFFF,&H0300FFFF,&H00FF8000,&H02000000,0,0,0,0,100,100,0,0,1,0,0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.80,0:00:10.80,ch,,0,0,0,,{\1c&H00FFFF\fs23\fn华文琥珀\fade(255,0,255,10,1000,4500,5000)\alpha&H2a\move(168,280,138,280,10,700)\fry360\t(0,700,\fry0)}狸
+Dialogue: 0,0:00:03.00,0:00:11.00,ch,,0,0,0,,{\1c&H00FFFF\fs23\fn华文琥珀\fade(255,0,255,10,1000,4500,5000)\alpha&H2a\move(203,280,173,280,10,700)\fry360\t(0,700,\fry0)}猫
+Dialogue: 0,0:00:03.50,0:00:11.50,ch,,0,0,0,,{\1c&H00FFFF\fs23\fn华文琥珀\fade(255,0,255,10,1000,4500,5000)\alpha&H2a\move(235,280,205,280,10,700)\fry360\t(0,700,\fry0)}作
+Dialogue: 0,0:00:04.00,0:00:12.00,ch,,0,0,0,,{\1c&H00FFFF\fs23\fn华文琥珀\fade(255,0,255,10,1000,4500,5000)\alpha&H2a\move(270,280,240,280,10,700)\fry360\t(0,700,\fry0)}品
+Dialogue: 0,0:00:09.89,0:00:17.54,ch,,0,0,0,,字幕来源：公映国语听译 & 蓝光原盘校订{\fade(255,0,255,100,1000,7000,7650)}
+Dialogue: 0,0:00:17.89,0:00:25.84,ch,,0,0,0,,中文翻译：狸猫  英文整理：狸猫{\fade(255,0,255,100,1000,7300,7950)}
+Dialogue: 0,0:00:25.84,0:00:32.19,ch,,0,0,0,,时间轴：狸猫  校对：狸猫  后期特效：狸猫{\fade(255,0,255,100,1000,5400,6350)}
+Dialogue: 0,0:00:32.41,0:00:35.91,ch,,0,0,0,,仅供学习交流 勿做商业用途 如需转压引用请保留作者信息{\fade(255,0,255,100,400,3800,4200)}
+Dialogue: 0,0:00:36.00,0:00:42.04,ch,,0,0,0,,蓝天工作室{\fade(255,0,255,100,400,4400,6000)}
+Dialogue: 0,0:00:48.43,0:00:54.47,music,,0,0,0,,《What Is Love》
+Dialogue: 0,0:00:49.38,0:00:52.80,geci,,0,0,0,,What is love if it's not with you?
+Dialogue: 0,0:00:53.30,0:00:57.22,geci,,0,0,0,,I know when you're alone You feel it too
+Dialogue: 0,0:00:57.39,0:01:00.72,geci,,0,0,0,,In your arms is where I long to be
+Dialogue: 0,0:01:01.10,0:01:03.27,geci,,0,0,0,,'Cause being with you gives me sanity
+Dialogue: 0,0:01:03.43,0:01:05.27,geci,,0,0,0,,Welcome to Rio!
+Dialogue: 0,0:01:07.31,0:01:09.10,geci,,0,0,0,,Listen to me, darling
+Dialogue: 0,0:01:09.27,0:01:12.73,geci,,0,0,0,,I wake up every morning thinking about the way you feel
+Dialogue: 0,0:01:15.36,0:01:17.15,geci,,0,0,0,,I wonder if you know it
+Dialogue: 0,0:01:17.32,0:01:20.28,geci,,0,0,0,,And what good is the party If you're not around?
+Dialogue: 0,0:01:20.45,0:01:21.45,geci,,0,0,0,,But listen to me now
+Dialogue: 0,0:01:21.91,0:01:24.62,geci,,0,0,0,,What good is love?
+Dialogue: 0,0:01:25.54,0:01:29.17,geci,,0,0,0,,If it's not your love
+Dialogue: 0,0:01:29.67,0:01:31.84,geci,,0,0,0,,What good is love?
+Dialogue: 0,0:01:32.00,0:01:33.30,geci,,0,0,0,,Am I your baby love?
+Dialogue: 0,0:01:33.46,0:01:35.96,geci,,0,0,0,,If it's not your love
+Dialogue: 0,0:01:36.13,0:01:37.34,geci,,0,0,0,,Is it a crazy love?
+Dialogue: 0,0:01:37.51,0:01:40.84,geci,,0,0,0,,This is a crazy party I'm so glad I'm here with everybody
+Dialogue: 0,0:01:41.01,0:01:42.85,geci,,0,0,0,,Baby, move your body Shake it to the ground
+Dialogue: 0,0:01:43.01,0:01:45.22,geci,,0,0,0,,Break it, break it, break it down, Blu
+Dialogue: 0,0:01:45.52,0:01:46.81,geci,,0,0,0,,Me?
+Dialogue: 0,0:01:46.98,0:01:49.81,geci,,0,0,0,,What's a song if you can't hear it too?
+Dialogue: 0,0:01:51.52,0:01:55.03,geci,,0,0,0,,Can't imagine dancing without you
+Dialogue: 0,0:01:55.32,0:01:57.90,geci,,0,0,0,,A shooting star Ain't really nothing to see
+Dialogue: 0,0:01:59.41,0:02:03.37,geci,,0,0,0,,If you're not right here Standing next to me
+Dialogue: 0,0:02:05.54,0:02:07.20,geci,,0,0,0,,Listen to me, darling
+Dialogue: 0,0:02:07.37,0:02:09.04,geci,,0,0,0,,I wake up every morning
+Dialogue: 0,0:02:09.21,0:02:11.58,geci,,0,0,0,,Thinking about the way you feel
+Dialogue: 0,0:02:13.55,0:02:15.09,geci,,0,0,0,,I wonder if you know it
+Dialogue: 0,0:02:15.51,0:02:18.38,geci,,0,0,0,,What good is the party if you're not around?
+Dialogue: 0,0:02:18.55,0:02:20.01,geci,,0,0,0,,Listen to me now
+Dialogue: 0,0:02:20.18,0:02:22.22,geci,,0,0,0,,What good is love?
+Dialogue: 0,0:02:23.56,0:02:26.85,geci,,0,0,0,,If it's not your love
+Dialogue: 0,0:02:30.06,0:02:32.90,ch,,0,0,0,,明尼苏达州来的鸟还有自己的舞步\N{\rEng}For a bird from Minnesota, you've got some moves.
+Dialogue: 0,0:02:33.06,0:02:34.90,ch,,0,0,0,,这不是舞步 这是事故\N{\rEng}That wasn't a move. That was an accident.
+Dialogue: 0,0:02:35.07,0:02:36.40,ch,,0,0,0,,不过我接受你的恭维\N{\rEng}But I accept the compliment.
+Dialogue: 0,0:02:36.61,0:02:38.94,ch,,0,0,0,,多亏拉斐尔能帮我们照顾孩子\N{\rEng}It's great Rafael could watch the kids.
+Dialogue: 0,0:02:39.11,0:02:42.07,ch,,0,0,0,,是啊，这样今天你得和我在一起..一整晚\N{\rEng}Yeah, it looks like you're stuck with me...all night.
+Dialogue: 0,0:02:42.24,0:02:43.91,ch,,0,0,0,,你是我的唯一 布鲁\N{\rEng}You're my one and only, Blu.
+Dialogue: 0,0:02:44.08,0:02:47.62,ch,,0,0,0,,那太好了，因为公的就剩我一个了（...汗!!!）\N{\rEng}That's a good thing, since I'm the only other one.
+Dialogue: 0,0:02:47.79,0:02:50.25,ch,,0,0,0,,比翼鸟 新年快乐\N{\rEng}Hey, you lovebirds! Happy New Year!
+Dialogue: 0,0:02:50.42,0:02:51.46,ch,,0,0,0,,拉斐尔 他们在哪？\N{\rEng}Rafi? Where are the--
+Dialogue: 0,0:02:51.54,0:02:54.21,ch,,0,0,0,,孩子们和路易兹在一起 不用担心！\N{\rEng}The kids are with Luiz. No worries!
+Dialogue: 0,0:02:54.38,0:02:56.38,ch,,0,0,0,,担心？我们很担心\N{\rEng}Worries. Right here.
+Dialogue: 0,0:02:59.47,0:03:00.88,ch,,0,0,0,,路易兹 孩子们呢？\N{\rEng}Luiz? Where are the kids?
+Dialogue: 0,0:03:01.05,0:03:02.93,ch,,0,0,0,,什么？我又没有孩子\N{\rEng}What? I don't have any kids.
+Dialogue: 0,0:03:03.09,0:03:04.05,ch,,0,0,0,,Jewel & blu - 我们的孩子\N{\rEng}Our kids!
+Dialogue: 0,0:03:04.22,0:03:06.43,ch,,0,0,0,,哦 对了 我交给小不点了\N{\rEng}-Oh, right. I left them with Tiny.
+Dialogue: 0,0:03:06.60,0:03:07.43,ch,,0,0,0,,小不点？\N{\rEng}Tiny?
+Dialogue: 0,0:03:07.60,0:03:10.52,ch,,0,0,0,,干嘛 她可是这里最棒的保姆\N{\rEng}What? She's an excellent babysitter.
+Dialogue: 0,0:03:10.85,0:03:12.60,ch,,0,0,0,,我是这里最差劲的保姆\N{\rEng}I'm a horrible babysitter!
+Dialogue: 0,0:03:12.77,0:03:14.61,ch,,0,0,0,,这一定会很炫的\N{\rEng}This is gonna be awesome!
+Dialogue: 0,0:03:14.77,0:03:16.77,ch,,0,0,0,,行了 我已经计算过了\N{\rEng}All right, I've done all the calculations...
+Dialogue: 0,0:03:16.94,0:03:19.53,ch,,0,0,0,, 每次爆炸都会完美的踩在节奏点上\N{\rEng}and each explosion will be perfectly synced to the beat.
+Dialogue: 0,0:03:19.69,0:03:22.24,ch,,0,0,0,,除非我没有算上这个...\N{\rEng}Unless I didn't carry the one.
+Dialogue: 0,0:03:22.41,0:03:23.24,ch,,0,0,0,,我们这里会有...\N{\rEng}Here's my vision.
+Dialogue: 0,0:03:23.41,0:03:26.20,ch,,0,0,0,,红色 蓝色 绿色 黄色...紫色\N{\rEng}Red, blue, green, yellow, yellow! Purple.
+Dialogue: 0,0:03:26.37,0:03:30.20,ch,,0,0,0,,我觉得应该是...\N{\rEng}Here's my vision. Boom! Crash! Bang! Kapow!
+Dialogue: 0,0:03:30.37,0:03:32.79,ch,,0,0,0,,我觉得你们爸妈不会想看到这个的\N{\rEng}I don't think your parents would like this very much.
+Dialogue: 0,0:03:33.37,0:03:35.04,ch,,0,0,0,,那我们开始吧\N{\rEng}Here we go.
+Dialogue: 0,0:03:36.42,0:03:37.63,ch,,0,0,0,,你这是要去哪儿啊小鸟\N{\rEng}Where are you going, little bird?
+Dialogue: 0,0:03:37.80,0:03:39.38,ch,,0,0,0,,-这是什么？ -哦 爸爸\N{\rEng}-Hey, what is this? -Oh, Dad.
+Dialogue: 0,0:03:39.55,0:03:40.46,ch,,0,0,0,,你们知道规矩的\N{\rEng}Guys, you know the rules.
+Dialogue: 0,0:03:40.63,0:03:42.76,ch,,0,0,0,,没有大人的监督 不能放烟花\N{\rEng}No pyrotechnics without adult supervision.
+Dialogue: 0,0:03:42.93,0:03:44.09,ch,,0,0,0,,我们问过小不点了\N{\rEng}We asked Tiny.
+Dialogue: 0,0:03:44.26,0:03:45.64,ch,,0,0,0,,这就更糟了 抱歉小不点\N{\rEng}That's even worse. Sorry, Tiny.
+Dialogue: 0,0:03:45.80,0:03:47.97,ch,,0,0,0,,工钱我不要了 布鲁先生\N{\rEng}You don't have to pay me, Senhor Blu.
+Dialogue: 0,0:03:48.14,0:03:49.60,ch,,0,0,0,,下次玩 一定要先问我\N{\rEng}Kids, next time, ask me.
+Dialogue: 0,0:03:49.77,0:03:51.31,ch,,0,0,0,,可你每次都说不\N{\rEng}But you always say "no."
+Dialogue: 0,0:03:51.48,0:03:52.31,ch,,0,0,0,,不 我没有\N{\rEng}No, I don't.
+Dialogue: 0,0:03:52.48,0:03:54.23,ch,,0,0,0,,爸爸 你在否认现实\N{\rEng}Dad, you're in denial.
+Dialogue: 0,0:03:54.40,0:03:56.06,ch,,0,0,0,,好吧 亲爱的 我经常说不嚒\N{\rEng}Honey, do I always say "no"?
+Dialogue: 0,0:03:56.23,0:03:59.65,ch,,0,0,0,,-是的 我是说...不... -太好了\N{\rEng}-Yes. I mean, no. -Great.
+Dialogue: 0,0:03:59.82,0:04:01.57,ch,,0,0,0,,现在妈妈也在说不了\N{\rEng}Now Mom's saying it, too.
+Dialogue: 0,0:04:03.82,0:04:06.78,ch,,0,0,0,,听着 我们是地球上最后的蓝皮克斯金刚鹦鹉\N{\rEng}Listen, we are the last blue Spix's Macaws left on the planet.
+Dialogue: 0,0:04:06.95,0:04:09.62,ch,,0,0,0,,我们得注意安全 有蓝色羽毛的鸟\N{\rEng}We have to stay safe. Birds of blue feathers...
+Dialogue: 0,0:04:09.79,0:04:12.91,ch,,0,0,0,,要团结在一起\N{\rEng}Have to stick together.
+Dialogue: 0,0:04:13.08,0:04:14.16,ch,,0,0,0,,我闻到烤鸡味了\N{\rEng}I smell chicken.
+Dialogue: 0,0:04:16.92,0:04:20.00,ch,,0,0,0,,啊 不不不....\N{\rEng}No, no, no!
+Dialogue: 0,0:04:20.92,0:04:21.76,ch,,0,0,0,,啊 不不不....\N{\rEng}No, no, no!
+Dialogue: 0,0:04:22.30,0:04:25.63,ch,,0,0,0,,根据我的计算 这是他今天说的第27个不了\N{\rEng}By my calculations, that's his twenty-seventh "no" today.
+Dialogue: 0,0:04:30.68,0:04:31.52,ch,,0,0,0,,救命 啊...\N{\rEng}Help!
+Dialogue: 0,0:04:34.14,0:04:39.36,ch,,0,0,0,,-5..4..3..2..1.. -大家伙 快跑\N{\rEng}-Five, four, three, two, one! -Everybody, fly!
+Dialogue: 0,0:04:39.52,0:04:40.98,ch,,0,0,0,,新年快乐\N{\rEng}Happy New Year!
+Dialogue: 0,0:04:50.20,0:04:53.95,ch,,0,0,0,,这不公平 凭什么只有爸爸玩的这么爽\N{\rEng}Oh, man. How come Dad gets to have all the fun?
+Dialogue: 0,0:04:54.12,0:04:56.87,ch,,0,0,0,,看啊 成功了\N{\rEng}Look! It worked!
+Dialogue: 0,0:04:57.04,0:05:00.79,ch,,0,0,0,,看来今年开了个好头\N{\rEng}Well, this year is off to a great start.
+Dialogue: 0,0:05:05.12,0:05:10.60,ch,,0,0,0,,{\fade(255,0,255,10,800,4500,5480)}里约大冒险 2\N{\rEng}RIO 2
+Dialogue: 0,0:05:06.12,0:05:09.60,music2,,0,0,0,,蓝天工作室继《冰河世纪》后第二部系列长篇动画
+Dialogue: 0,0:05:20.31,0:05:23.44,ch,,0,0,0,,亚马逊之行 第七天\N{\rEng}Amazon Expedition, day seven.
+Dialogue: 0,0:05:23.65,0:05:25.24,ch,,0,0,0,,距里约热内卢 2000英里\N{\rEng}Two thousand miles from Rio...
+Dialogue: 0,0:05:25.40,0:05:26.95,ch,,0,0,0,,我们到达热带雨林的中心\N{\rEng}we've reached the center of the rainforest.
+Dialogue: 0,0:05:28.82,0:05:31.24,ch,,0,0,0,,当我们沿着河流毫不费力的向前划行的时候\N{\rEng}We are surrounded by plants and animals...
+Dialogue: 0,0:05:31.41,0:05:33.66,ch,,0,0,0,,到处都是...\N{\rEng}struggling for survival...
+Dialogue: 0,0:05:33.83,0:05:36.62,ch,,0,0,0,,挣扎求生的植物和动物\N{\rEng}as we glide effortlessly down the river.
+Dialogue: 0,0:05:36.79,0:05:39.00,ch,,0,0,0,,毫不费力的是你\N{\rEng}Effortless for you.
+Dialogue: 0,0:05:39.67,0:05:41.17,ch,,0,0,0,,哇哦 好漂亮\N{\rEng}How pretty.
+Dialogue: 0,0:05:41.96,0:05:43.84,ch,,0,0,0,,吐出来 快吐出来\N{\rEng}Spit it out, spit it out!
+Dialogue: 0,0:05:45.38,0:05:48.72,ch,,0,0,0,,我们已经接近亚马逊树林鹌鹑的栖息地\N{\rEng}We are near the nesting grounds of the Amazonian Wood Quail.
+Dialogue: 0,0:05:50.97,0:05:54.77,ch,,0,0,0,,六个月前我们从走私者手中救下这只小鸟 \N{\rEng}Six months ago, werescued this little bird... from smugglers.
+Dialogue: 0,0:05:54.93,0:05:56.77,ch,,0,0,0,,那时候它生着病，营养不良\N{\rEng}It was sick, malnourished...
+Dialogue: 0,0:05:56.93,0:05:59.19,ch,,0,0,0,,还断了一条腿 而现在...\N{\rEng}with a broken leg, but now...
+Dialogue: 0,0:05:59.35,0:06:00.77,ch,,0,0,0,,我可靠的助手..\N{\rEng}my trusty assistant--
+Dialogue: 0,0:06:02.48,0:06:06.23,ch,,0,0,0,,我是说我的妻子兼同事 将要把它..\N{\rEng}I mean, loving wife and colleague, will release her...
+Dialogue: 0,0:06:06.40,0:06:08.24,ch,,0,0,0,,放归回丛林\N{\rEng}back to her natural habitat.
+Dialogue: 0,0:06:08.40,0:06:12.82,ch,,0,0,0,,都没事了 你可以走的 就像这样\N {\rEng}It's okay. You can go now. Just like this.
+Dialogue: 0,0:06:13.03,0:06:14.20,ch,,0,0,0,,还是让我跟他说吧\N{\rEng}Let me talk to her.
+Dialogue: 0,0:06:19.04,0:06:20.21,ch,,0,0,0,,走吧\N{\rEng}Go on.
+Dialogue: 0,0:06:23.34,0:06:24.63,ch,,0,0,0,,FREAKS!
+Dialogue: 0,0:06:27.88,0:06:29.88,ch,,0,0,0,,你觉得他会没事吗\N{\rEng}Do you think she's gonna be all right?
+Dialogue: 0,0:06:30.05,0:06:31.76,ch,,0,0,0,,给他一点时间\N{\rEng}Give it some time.
+Dialogue: 0,0:06:40.90,0:06:42.60,ch,,0,0,0,,欢迎回家\N{\rEng}Welcome home.
+Dialogue: 0,0:06:47.32,0:06:50.03,ch,,0,0,0,,等一下 它..好像在说什么 图里奥\N{\rEng}Wait a minute. What is she saying, Tulio?
+Dialogue: 0,0:06:50.61,0:06:52.78,ch,,0,0,0,,他是不舍得我们 在和我们说再见\N{\rEng}It's just hard for her to say goodbye.
+Dialogue: 0,0:06:53.57,0:06:54.57,ch,,0,0,0,,不\N{\rEng}No.
+Dialogue: 0,0:06:54.83,0:06:56.37,ch,,0,0,0,,我觉得他好像在警告我们\N{\rEng}I think she's trying to warn us.
+Dialogue: 0,0:06:56.79,0:06:58.79,ch,,0,0,0,,不不不 琳达\N{\rEng}No, no, no, Linda.
+Dialogue: 0,0:06:58.96,0:07:01.04,ch,,0,0,0,,这可能是吸引异性的舞蹈\N{\rEng}It might be some sort of mating dance.
+Dialogue: 0,0:07:09.13,0:07:10.97,ch,,0,0,0,,图里奥 看那\N{\rEng}Tulio! Look!
+Dialogue: 0,0:07:11.38,0:07:13.26,ch,,0,0,0,,快划 快啊\N{\rEng}Paddle! Now!
+Dialogue: 0,0:07:13.76,0:07:16.10,ch,,0,0,0,,好的 好的 划\N{\rEng}Okay, okay, okay. Paddle.
+Dialogue: 0,0:07:17.18,0:07:18.31,ch,,0,0,0,,小心！\N{\rEng}Watch out!
+Dialogue: 0,0:07:19.48,0:07:21.35,ch,,0,0,0,,快划 快划 往后 往后\N{\rEng}Paddle, paddle! Backward, backward!
+Dialogue: 0,0:07:21.52,0:07:23.90,ch,,0,0,0,,往右 不不 往左 向前 不！\N{\rEng}To the right! No, left! Forward, forward! No, no!
+Dialogue: 0,0:07:24.06,0:07:25.81,ch,,0,0,0,,你想清楚再说 图里奥\N{\rEng}Make up your mind, Tulio!
+Dialogue: 0,0:07:28.36,0:07:29.94,ch,,0,0,0,,这下可糟了\N{\rEng}Cheese and sprinkles!
+Dialogue: 0,0:07:40.08,0:07:41.41,ch,,0,0,0,,哦 不！\N{\rEng}Oh, no!
+Dialogue: 0,0:07:43.33,0:07:44.88,ch,,0,0,0,,划 快划啊 快点\N{\rEng}Paddle, paddle! Faster!
+Dialogue: 0,0:07:45.63,0:07:48.34,ch,,0,0,0,,图里奥\N{\rEng}Tulio!
+Dialogue: 0,0:07:58.35,0:08:00.64,ch,,0,0,0,,琳达 琳达\N{\rEng}Linda! Linda!
+Dialogue: 0,0:08:00.81,0:08:02.18,ch,,0,0,0,,图里奥\N{\rEng}Tulio!
+Dialogue: 0,0:08:07.98,0:08:10.61,ch,,0,0,0,,感谢上帝 你没有事\N{\rEng}Thank heavens you're okay.
+Dialogue: 0,0:08:17.24,0:08:18.95,ch,,0,0,0,,图里奥 这是..\N{\rEng}Tulio, is that a--
+Dialogue: 0,0:08:41.68,0:08:44.39,ch,,0,0,0,,啊 琳达 真难以置信\N{\rEng}Linda! This is incredible!
+Dialogue: 0,0:08:54.15,0:08:58.22,music,,0,0,0,,《Breakfast in Rio》
+Dialogue: 0,0:09:12.88,0:09:14.26,ch,,0,0,0,,早上好 珠儿\N{\rEng}Good morning, Jewel!
+Dialogue: 0,0:09:23.77,0:09:26.56,ch,,0,0,0,,嘿 你们看我找到了什么\N{\rEng}Hey! Everyone, look what I found.
+Dialogue: 0,0:09:26.73,0:09:27.81,ch,,0,0,0,,布鲁？\N{\rEng}Blu?
+Dialogue: 0,0:09:28.65,0:09:29.90,ch,,0,0,0,,孩子们？\N{\rEng}Kids?
+Dialogue: 0,0:09:30.06,0:09:30.90,ch,,0,0,0,,大家都去哪儿了...？\N{\rEng}Where did everybody...?
+Dialogue: 0,0:09:31.07,0:09:34.40,ch,,0,0,0,,好了 谁肚子饿了想吃早饭\N{\rEng}Okay, who's ready for some breakfast?
+Dialogue: 0,0:09:34.57,0:09:35.90,ch,,0,0,0,,难以置信\N{\rEng}Unbelievable.
+Dialogue: 0,0:09:38.49,0:09:39.49,ch,,0,0,0,,你知道么\N{\rEng}Did you know...
+Dialogue: 0,0:09:39.66,0:09:42.08,ch,,0,0,0,,那些全麦煎饼所含的维生素矿物质\N{\rEng}that these whole wheat pancakes have twice the vitamins and minerals...
+Dialogue: 0,0:09:42.24,0:09:43.24,ch,,0,0,0,,是普通煎饼的两倍\N{\rEng}of regular pancakes?
+Dialogue: 0,0:09:43.41,0:09:46.66,ch,,0,0,0,,而且加上蓝莓后味道会好上4倍\N{\rEng}And with the blueberries, it's four times as tasty.
+Dialogue: 0,0:09:48.83,0:09:50.67,ch,,0,0,0,,嘿 蓝莓都哪去了\N{\rEng}Hey, where are the blueberries?
+Dialogue: 0,0:09:50.84,0:09:52.13,ch,,0,0,0,,哦 爸爸\N{\rEng}Oh, Dad!
+Dialogue: 0,0:09:52.30,0:09:53.75,ch,,0,0,0,,在找这个吗？\N{\rEng}Looking for this?
+Dialogue: 0,0:09:54.17,0:09:55.01,ch,,0,0,0,,给我吧\N{\rEng}Bring it.
+Dialogue: 0,0:09:55.80,0:09:58.05,ch,,0,0,0,,已经到了最后关头 他的脚仿佛有魔力一样\N{\rEng}It's down to the final minutes. He's got magic in his feet!
+Dialogue: 0,0:09:58.22,0:09:59.05,ch,,0,0,0,,他射门了\N{\rEng}He shoots!
+Dialogue: 0,0:09:59.22,0:10:00.84,ch,,0,0,0,,得分了 球进了！\N{\rEng}-He scores! Goal! -Goal!
+Dialogue: 0,0:10:01.68,0:10:03.39,ch,,0,0,0,,噢耶 我接到了 我真是太棒了\N{\rEng}Yeah, I got it. I'm good.
+Dialogue: 0,0:10:03.56,0:10:05.47,ch,,0,0,0,,爸爸 注意了\N{\rEng}Heads up, Dad!
+Dialogue: 0,0:10:08.02,0:10:09.31,ch,,0,0,0,,啊哦\N{\rEng}No.
+Dialogue: 0,0:10:16.82,0:10:18.19,ch,,0,0,0,,帅呆了\N{\rEng}Awesome.
+Dialogue: 0,0:10:21.74,0:10:23.20,ch,,0,0,0,,嗨  妈妈\N{\rEng}Hi, Mom.
+Dialogue: 0,0:10:24.33,0:10:25.33,ch,,0,0,0,,这下惨了\N{\rEng}Busted.
+Dialogue: 0,0:10:25.49,0:10:26.75,ch,,0,0,0,,该走了\N{\rEng}Time to go.
+Dialogue: 0,0:10:27.58,0:10:29.21,ch,,0,0,0,,亲爱的 你饿了吗\N{\rEng}Hey, honey. Hey. You hungry?
+Dialogue: 0,0:10:29.37,0:10:31.42,ch,,0,0,0,,布鲁 我跟你说过的\N{\rEng}Blu, we talked about this.
+Dialogue: 0,0:10:31.58,0:10:32.54,ch,,0,0,0,,是吗 我不记得了\N{\rEng}Did we? I don't--
+Dialogue: 0,0:10:32.71,0:10:34.38,ch,,0,0,0,,哦 对的 你拿的是什么\N{\rEng}Yeah, so, what do you got there?
+Dialogue: 0,0:10:34.55,0:10:35.38,ch,,0,0,0,,早饭\N{\rEng}Breakfast.
+Dialogue: 0,0:10:35.55,0:10:37.51,ch,,0,0,0,,很好笑 不过 说真的 这是什么\N{\rEng}That's funny. But seriously, what is that?
+Dialogue: 0,0:10:37.67,0:10:39.22,ch,,0,0,0,,这是个巴西栗\N{\rEng}It's a Brazil nut.
+Dialogue: 0,0:10:39.38,0:10:41.43,ch,,0,0,0,,没想过离城市这么近的地方居然也有\N{\rEng}I never thought I would find one this close to the city.
+Dialogue: 0,0:10:41.59,0:10:42.89,ch,,0,0,0,,我要教孩子们怎么打开\N{\rEng}I wanna show the kids how to open one.
+Dialogue: 0,0:10:43.05,0:10:44.05,ch,,0,0,0,,你是说打开这个吗\N{\rEng}You mean like this?
+Dialogue: 0,0:10:45.18,0:10:46.60,ch,,0,0,0,,爸爸已经教过我们了\N{\rEng}Dad already showed us.
+Dialogue: 0,0:10:47.56,0:10:49.35,ch,,0,0,0,,等等 来了\N{\rEng}Wait. Wait, go back.
+Dialogue: 0,0:10:49.52,0:10:50.56,ch,,0,0,0,,爸爸妈妈\N{\rEng}Mom! Dad!
+Dialogue: 0,0:10:50.73,0:10:51.73,ch,,0,0,0,,你们上电视了\N{\rEng}You're on TV!
+Dialogue: 0,0:10:51.90,0:10:53.86,ch,,0,0,0,,巴西鸟类学家图里奥蒙泰罗博士\N{\rEng}Doctor Tulio Monteiro, the Bird Man of Brazil...
+Dialogue: 0,0:10:54.02,0:10:56.23,ch,,0,0,0,,今天宣布了一项重大发现\N{\rEng}announced an important discovery today.
+Dialogue: 0,0:10:56.40,0:10:59.86,ch,,0,0,0,,我们相信 我们在亚马逊丛林深处找到了野生的\N{\rEng}We believe we have encountered a wild blue Spix's Macaw...
+Dialogue: 0,0:11:00.03,0:11:01.61,ch,,0,0,0,,蓝色金刚鹦鹉\N{\rEng}deep in the Amazon jungle.
+Dialogue: 0,0:11:02.03,0:11:05.99,ch,,0,0,0,,蓝色金刚鹦鹉之前被认为在野外全部灭绝了\N{\rEng}The blue Spix's Macaw was thought to be practically extinct...
+Dialogue: 0,0:11:06.16,0:11:08.12,ch,,0,0,0,,仅存的一家鹦鹉\N{\rEng}with the last remaining family living under protection...
+Dialogue: 0,0:11:08.29,0:11:10.25,ch,,0,0,0,,目前居住在里约的布鲁鸟类保护区\N{\rEng}at the Blu Bird Sanctuary in Rio de Janeiro.
+Dialogue: 0,0:11:10.46,0:11:11.75,ch,,0,0,0,,我们出名了\N{\rEng}We're famous!
+Dialogue: 0,0:11:11.92,0:11:15.46,ch,,0,0,0,,如果找到这些野生鹦鹉 他们的家园将受到保护\N{\rEng}If these birds can be found, their home will be saved.
+Dialogue: 0,0:11:15.63,0:11:17.63,ch,,0,0,0,,那里可能有很多这种鹦鹉\N{\rEng}There may be a whole flock out there.
+Dialogue: 0,0:11:17.80,0:11:21.42,ch,,0,0,0,,如果真的有 我们会找到他们 并保护他们\N{\rEng}And if there is, we will find them and protect them.
+Dialogue: 0,0:11:21.59,0:11:22.68,ch,,0,0,0,,你好 布鲁\N{\rEng}Hi, Blu!
+Dialogue: 0,0:11:23.09,0:11:24.30,ch,,0,0,0,,你好 琳达\N{\rEng}Hi, Linda!
+Dialogue: 0,0:11:24.76,0:11:26.47,ch,,0,0,0,,我们不是唯一的\N{\rEng}We're not the only ones.
+Dialogue: 0,0:11:27.81,0:11:29.10,ch,,0,0,0,,我们还有活着的同类啊\N{\rEng}There are more of us out there.
+Dialogue: 0,0:11:29.27,0:11:30.60,ch,,0,0,0,,是啊 太好了 我相信...\N{\rEng}Yeah, that's great. I'm sure they're--
+Dialogue: 0,0:11:30.77,0:11:32.94,ch,,0,0,0,,这么长时间 我一直....\N{\rEng}All this time, I thought...
+Dialogue: 0,0:11:33.65,0:11:36.11,ch,,0,0,0,,我一直以为...我们是孤独的\N{\rEng}I thought we were alone.
+Dialogue: 0,0:11:36.27,0:11:38.27,ch,,0,0,0,,嘿 以前也没有那么糟糕\N{\rEng}Hey, it hasn't been all bad.
+Dialogue: 0,0:11:39.11,0:11:41.40,ch,,0,0,0,,是挺好的 可是...\N{\rEng}Of course not.
+Dialogue: 0,0:11:41.57,0:11:43.78,ch,,0,0,0,,可是想象一下 有一大群同类\N{\rEng}But just imagine if there was a whole flock of us.
+Dialogue: 0,0:11:45.28,0:11:46.78,ch,,0,0,0,,那该有多么美妙啊\N{\rEng}How amazing would that be?
+Dialogue: 0,0:11:49.79,0:11:51.25,ch,,0,0,0,,-我们得做点什么 -真的吗\N{\rEng}-We gotta do something. -We do?
+Dialogue: 0,0:11:51.41,0:11:54.79,ch,,0,0,0,,对 我们去亚马逊 去帮助琳达和图里奥找到他们\N{\rEng}Yeah, we have to fly to the Amazon and help Linda and Tulio find them!
+Dialogue: 0,0:11:54.96,0:11:57.46,ch,,0,0,0,,哦...我们不能说走就走\N{\rEng}Whoa, we can't just pack up and go.
+Dialogue: 0,0:11:57.63,0:11:58.34,ch,,0,0,0,,为什么不能\N{\rEng}Why not?
+Dialogue: 0,0:11:58.50,0:12:01.63,ch,,0,0,0,,现在正是时候出去让翅膀吹吹风了\N{\rEng}It's about time this family got a little air under our wings.
+Dialogue: 0,0:12:01.84,0:12:05.97,ch,,0,0,0,,看看我们 音乐播放器 电视 煎饼\N{\rEng}Look at us. iPods, TV. Pancakes?
+Dialogue: 0,0:12:06.14,0:12:09.68,ch,,0,0,0,,亲爱的 我们不是人类 我们可是鸟\N{\rEng}We're not people, we're birds.
+Dialogue: 0,0:12:09.85,0:12:12.31,ch,,0,0,0,,我们应该回到野外 做真正的鸟 布鲁\N{\rEng}We have to get out into the wild and be birds, Blu.
+Dialogue: 0,0:12:12.48,0:12:14.14,ch,,0,0,0,,让孩子们回到大自然吧\N{\rEng}Let the kids connect to their roots.
+Dialogue: 0,0:12:14.31,0:12:15.85,ch,,0,0,0,,看看我们从前的生活\N{\rEng}Show them what I had.
+Dialogue: 0,0:12:16.02,0:12:18.02,ch,,0,0,0,,他们需要这样 我们也需要\N{\rEng}They need this. We need this.
+Dialogue: 0,0:12:18.19,0:12:19.98,ch,,0,0,0,,来吧 布鲁！你说呢？\N{\rEng}Come on, Blu, what do you say?
+Dialogue: 0,0:12:20.61,0:12:21.99,ch,,0,0,0,,我不知道...\N{\rEng}I don't know.
+Dialogue: 0,0:12:22.15,0:12:23.15,ch,,0,0,0,,也许吧...\N{\rEng}Maybe.
+Dialogue: 0,0:12:23.32,0:12:24.36,ch,,0,0,0,,他没有说“不”\N{\rEng}He didn't say "no."
+Dialogue: 0,0:12:24.53,0:12:26.36,ch,,0,0,0,,这就意味着他说 行\N{\rEng}Which means he practically said "yes."
+Dialogue: 0,0:12:26.53,0:12:28.37,ch,,0,0,0,,-嘿 等一下 -亲爱的 一定会很好玩！\N{\rEng}-Hey, wait a sec-... -It's gonna be so much fun!
+Dialogue: 0,0:12:28.53,0:12:30.03,ch,,0,0,0,,耶...\N{\rEng}Yeah!
+Dialogue: 0,0:12:30.20,0:12:32.33,ch,,0,0,0,,我们要去亚马逊咯\N{\rEng}We're going to the Amazon!
+Dialogue: 0,0:12:32.50,0:12:35.12,ch,,0,0,0,,等一下，亚马逊是什么？\N{\rEng}Wait. What's the Amazon?
+Dialogue: 0,0:12:35.29,0:12:38.50,ch,,0,0,0,,亚马逊 目前世界上最濒危的生态系统之一\N{\rEng}The Amazon is one of Earth's most endangered ecosystems...
+Dialogue: 0,0:12:38.67,0:12:40.63,ch,,0,0,0,,由于非法砍伐和耕种\N{\rEng}due to illegal logging and farming.
+Dialogue: 0,0:12:40.80,0:12:42.80,ch,,0,0,0,,我们希望博士和他的团队\N{\rEng}Let's hope Doctor Monteiro and his team...
+Dialogue: 0,0:12:42.97,0:12:46.55,ch,,0,0,0,,能找到那些珍惜鸟类 让他们的家园得以保存\N{\rEng}can find these rare birds so their home can be saved.
+Dialogue: 0,0:12:46.72,0:12:48.85,ch,,0,0,0,,那里可能有很多这种鹦鹉\N{\rEng}There may be a whole flock out there.
+Dialogue: 0,0:12:49.01,0:12:52.52,ch,,0,0,0,,如果真的有 我们会找到它们并保护他们\N{\rEng}And if there is, we will find them and protect them.
+Dialogue: 0,0:12:55.02,0:12:56.69,ch,,0,0,0,,Ecochatos 把我的船准备好\N{\rEng}Ecochatos Get my boat ready.
+Dialogue: 0,0:12:56.85,0:13:00.02,ch,,0,0,0,,我要亲自去处理这件事情\N{\rEng}I need to deal with this personally.
+Dialogue: 0,0:13:06.95,0:13:07.66,ch,,0,0,0,,下一个\N{\rEng}Next!
+Dialogue: 0,0:13:07.82,0:13:10.37,ch,,0,0,0,,轮到我了 行了你们可以回家了\N{\rEng}That would be me. Okay, everybody can go home now.
+Dialogue: 0,0:13:10.53,0:13:14.04,ch,,0,0,0,,你们正在看着的下一位 狂欢之王\N{\rEng}You're looking at the next King of Carnival!
+Dialogue: 0,0:13:17.04,0:13:19.38,ch,,0,0,0,,嘿 大鸟 祝你好运\N{\rEng}Hey, big bird! Break a leg!
+Dialogue: 0,0:13:22.21,0:13:24.13,ch,,0,0,0,,走路小心点，别躺着进去！\N{\rEng}Walk it off, buddy!
+Dialogue: 0,0:13:24.30,0:13:27.18,geci,,0,0,0,,You can't see it coming
+Dialogue: 0,0:13:27.34,0:13:32.89,geci,,0,0,0,,You won't find it anywhere else
+Dialogue: 0,0:13:39.90,0:13:41.56,ch,,0,0,0,,太精彩了\N{\rEng}That was amazing!
+Dialogue: 0,0:13:41.73,0:13:45.90,ch,,0,0,0,,伊娃 我亲爱的 你一个音也没落下 伙计们？\N{\rEng}Eva, darling, you hit every note. Huh, guys?
+Dialogue: 0,0:13:46.07,0:13:49.41,ch,,0,0,0,,是啊 还多了很多我从来没听过的音\N{\rEng}Yeah, along with a bunch of notes I never heard of.
+Dialogue: 0,0:13:49.57,0:13:50.57,ch,,0,0,0,,拉斐尔\N{\rEng}Rafi!
+Dialogue: 0,0:13:50.74,0:13:52.91,ch,,0,0,0,,别 别担心 我会和他们说的\N{\rEng}Don't worry. I'll talk to them.
+Dialogue: 0,0:13:53.08,0:13:55.25,ch,,0,0,0,,我会为你找到完美的角色！\N{\rEng}We'll find the perfect spot for you.
+Dialogue: 0,0:13:55.58,0:13:56.75,ch,,0,0,0,,嗯...潜规则也没用（意为南极洲演出的角色）\N{\rEng}Antarctica, maybe.
+Dialogue: 0,0:13:56.91,0:13:58.08,ch,,0,0,0,,最好如此\N{\rEng}You better.
+Dialogue: 0,0:13:59.42,0:14:00.67,ch,,0,0,0,,回头见 孩子们！\N{\rEng}Bye, boys.
+Dialogue: 0,0:14:00.83,0:14:03.71,ch,,0,0,0,,我们家里见，我的美味小芒果\N{\rEng}See you back at home, my tasty mango!
+Dialogue: 0,0:14:04.51,0:14:07.76,ch,,0,0,0,,哎...这些表演一点都不好 我连一点灵感都没有\N{\rEng}None of these acts are inspiring. I'm just not inspired.
+Dialogue: 0,0:14:07.93,0:14:10.97,ch,,0,0,0,,狂欢节眼看就要到了 我们的名声会毁于一旦的\N{\rEng}Carnival is right around the corner, and our reputations are on the line.
+Dialogue: 0,0:14:11.14,0:14:11.89,ch,,0,0,0,,明白！\N{\rEng}Copy that.
+Dialogue: 0,0:14:12.05,0:14:14.72,ch,,0,0,0,,我们需要一些能让我们嗨起来的节奏\N{\rEng}We need something that can make us wiggle. Something that make us jiggle.
+Dialogue: 0,0:14:14.89,0:14:16.22,ch,,0,0,0,,我们需要 动感 火爆 激情\N{\rEng}We need something that pops.
+Dialogue: 0,0:14:17.69,0:14:19.64,ch,,0,0,0,,你知道火爆怎么说？\N{\rEng}You know what "pop" is backwards? Pop.
+Dialogue: 0,0:14:19.81,0:14:20.98,ch,,0,0,0,,啪...下一个...\N{\rEng}Next.
+Dialogue: 0,0:14:22.77,0:14:23.69,ch,,0,0,0,,布鲁\N{\rEng}Blu?
+Dialogue: 0,0:14:23.86,0:14:24.69,ch,,0,0,0,,对不起兄弟\N{\rEng}Sorry, bro!
+Dialogue: 0,0:14:24.86,0:14:28.32,ch,,0,0,0,,没关系 路易兹 我也很高兴见到你\N{\rEng}It's okay, Luiz. Good to see you, too.
+Dialogue: 0,0:14:28.99,0:14:30.70,ch,,0,0,0,,听着 布鲁 我们在寻找一位歌手\N{\rEng}Listen, Blu, we are looking for a singer...
+Dialogue: 0,0:14:30.86,0:14:32.32,ch,,0,0,0,,一个舞者 样样都会的\N{\rEng}a dancer, the whole package.
+Dialogue: 0,0:14:32.49,0:14:34.66,ch,,0,0,0,,不要唱歌跑调 跳舞摔跤的\N{\rEng}Yeah, and you're more of a mumbler-shuffler.
+Dialogue: 0,0:14:34.83,0:14:36.12,ch,,0,0,0,,你懂我的意思么？\N{\rEng}You catch my drift?
+Dialogue: 0,0:14:36.29,0:14:39.62,ch,,0,0,0,,我不是来面试的 我有事情要宣布\N{\rEng}No, I'm not here to audition. I've got news.
+Dialogue: 0,0:14:39.79,0:14:42.71,ch,,0,0,0,,我准备要去亚马逊了\N{\rEng}I am going to the Amazon.
+Dialogue: 0,0:14:45.05,0:14:48.21,ch,,0,0,0,,亚马逊 那可真够野的\N{\rEng}The Amazon? Wow, that's wild.
+Dialogue: 0,0:14:48.38,0:14:51.01,ch,,0,0,0,,是呀 珠儿觉得这对我们有好处\N{\rEng}Yeah, Jewel thinks it'll be good for us.
+Dialogue: 0,0:14:51.18,0:14:52.18,ch,,0,0,0,,有多野？\N{\rEng}How wild?
+Dialogue: 0,0:14:52.34,0:14:53.55,ch,,0,0,0,,超级宇宙无敌野\N{\rEng}Real wild.
+Dialogue: 0,0:14:53.72,0:14:56.51,ch,,0,0,0,,那里的蚊子能够一口吸干你的血\N{\rEng}They got mosquitoes that suck your blood like Slurpees.
+Dialogue: 0,0:14:56.68,0:14:59.06,ch,,0,0,0,,那里的蛇能一口将你整个吞下去\N{\rEng}Snakes that can swallow you whole.
+Dialogue: 0,0:14:59.23,0:15:03.69,ch,,0,0,0,,那里还有吃肉的食人鱼 会吃肉的！\N{\rEng}Flesh-eating piranhas that...eat flesh.
+Dialogue: 0,0:15:04.61,0:15:06.40,ch,,0,0,0,,哦！好极了 真不赖 我不去了\N{\rEng}Great, that sounds really nice. I'm not going.
+Dialogue: 0,0:15:06.57,0:15:07.53,ch,,0,0,0,,得了伙计们\N{\rEng}Guys, guys, guys.
+Dialogue: 0,0:15:07.69,0:15:09.69,ch,,0,0,0,,布鲁 你根本不用担心这些\N{\rEng}Blu, you have nothing to worry about.
+Dialogue: 0,0:15:09.86,0:15:11.99,ch,,0,0,0,,他们说的这些都有点夸张的过分了\N{\rEng}All those stories are highly exaggerated.
+Dialogue: 0,0:15:12.16,0:15:13.78,ch,,0,0,0,,-你真的这么想？ -当然了！\N{\rEng}-You think so? -Of course!
+Dialogue: 0,0:15:13.95,0:15:16.45,ch,,0,0,0,,如果这对珠儿很重要 那你就去吧\N{\rEng}If this is important to Jewel, just do it.
+Dialogue: 0,0:15:16.62,0:15:19.83,ch,,0,0,0,,老婆开心 日子舒心...一定要记住\N{\rEng}Happy wife, happy life. Remember that.
+Dialogue: 0,0:15:20.00,0:15:21.96,ch,,0,0,0,,好的 你说的对！\N{\rEng}Okay, yeah, you're right.
+Dialogue: 0,0:15:22.17,0:15:24.75,ch,,0,0,0,,就当全家一起去度个小假 一定很有趣\N{\rEng}A little family vacation might actually be fun.
+Dialogue: 0,0:15:24.92,0:15:26.38,ch,,0,0,0,,再说了 又不是定居在那里\N{\rEng}Plus, it's not like it's forever.
+Dialogue: 0,0:15:26.55,0:15:27.63,ch,,0,0,0,,这就对了\N{\rEng}That's the spirit.
+Dialogue: 0,0:15:27.80,0:15:29.55,ch,,0,0,0,,好的\N{\rEng}Yeah. Okay.
+Dialogue: 0,0:15:29.72,0:15:31.01,ch,,0,0,0,,谢谢伙计们\N{\rEng}Thanks, guys.
+Dialogue: 0,0:15:31.43,0:15:33.18,ch,,0,0,0,,过段时间见\N{\rEng}See you in a couple of weeks!
+Dialogue: 0,0:15:33.34,0:15:34.76,ch,,0,0,0,,一路顺风 布鲁\N{\rEng}Safe travels, Blu!
+Dialogue: 0,0:15:34.93,0:15:36.35,ch,,0,0,0,,记得带纪念品回来\N{\rEng}Bring me back a souvenir!
+Dialogue: 0,0:15:36.51,0:15:41.23,ch,,0,0,0,,得了 他不会回来了 他一定会挂在那里的\N{\rEng}Dawg, he ain't coming back. He is dead.
+Dialogue: 0,0:15:41.44,0:15:44.06,ch,,0,0,0,,亚马逊！\N{\rEng}Amazon!
+Dialogue: 0,0:15:44.23,0:15:46.15,ch,,0,0,0,,我们走 快点爸爸 快点\N{\rEng}Let's go! Come on, Dad! Come on!
+Dialogue: 0,0:15:46.32,0:15:50.61,ch,,0,0,0,,好的 驱虫剂 净水剂 还有创可贴\N{\rEng}Okay. Bug spray, check. Water purifier, check. Band-Aids.
+Dialogue: 0,0:15:50.78,0:15:52.82,ch,,0,0,0,,-哦 我好像忘了点什么 -酷！\N{\rEng}-I feel like I'm forgetting something. -Cool!
+Dialogue: 0,0:15:52.99,0:15:55.74,ch,,0,0,0,,是多功能探险小刀\N{\rEng}The all-in-one adventurer's knife!
+Dialogue: 0,0:15:55.91,0:15:57.66,ch,,0,0,0,,这个还是我来弄吧\N{\rEng}I'll be in charge of this.
+Dialogue: 0,0:15:57.83,0:15:58.87,ch,,0,0,0,,这不是给你准备的\N{\rEng}That's not for you.
+Dialogue: 0,0:15:59.04,0:15:59.99,ch,,0,0,0,,嘿 爸爸 来看我这个\N{\rEng}Hey, Dad, look at this.
+Dialogue: 0,0:16:00.16,0:16:02.91,ch,,0,0,0,,你知道亚马逊的蛇能一口把你吃掉吗？\N{\rEng}Did you know the Amazon has snakes that can swallow you whole?
+Dialogue: 0,0:16:03.08,0:16:06.25,ch,,0,0,0,,事实上这些故事写得太夸张了\N{\rEng}Actually, Bia, all those stories are highly exaggerated.
+Dialogue: 0,0:16:06.42,0:16:07.71,ch,,0,0,0,,不一定吧 你看看\N{\rEng}No, really. Look.
+Dialogue: 0,0:16:11.34,0:16:12.59,ch,,0,0,0,,哦 这个好恶心啊\N{\rEng}That's sick!
+Dialogue: 0,0:16:12.76,0:16:15.05,ch,,0,0,0,,准备好出发了吗？\N{\rEng}All right, are we ready to go?
+Dialogue: 0,0:16:15.22,0:16:16.43,ch,,0,0,0,,-你带了个腰包？ -是的\N{\rEng}-A fanny pack? -Yeah.
+Dialogue: 0,0:16:16.60,0:16:18.76,ch,,0,0,0,,琳达给我的 用来装GPS\N{\rEng}Linda gave it to me. I need it for the GPS.
+Dialogue: 0,0:16:18.93,0:16:20.10,ch,,0,0,0,,哦 我的GPS呢？\N{\rEng}Where's the GPS?
+Dialogue: 0,0:16:20.18,0:16:22.06,ch,,0,0,0,,卡拉 我们要走啦\N{\rEng}-Hey! -Carla, we're leaving.
+Dialogue: 0,0:16:22.31,0:16:25.19,ch,,0,0,0,,我才不去呢！肯定很无聊\N{\rEng}I'm not going. It's gonna be lame.
+Dialogue: 0,0:16:25.65,0:16:27.11,ch,,0,0,0,,行了 找到了\N{\rEng}Okay, here it is.
+Dialogue: 0,0:16:27.27,0:16:30.44,ch,,0,0,0,,它有语音识别功能 很好用的 你看着\N{\rEng}The voice recognition makes it totally foolproof. Here, watch this.
+Dialogue: 0,0:16:31.03,0:16:32.49,ch,,0,0,0,,给我找琳达和图里奥\N{\rEng}Find Linda and Tulio.
+Dialogue: 0,0:16:32.65,0:16:35.24,ch,,0,0,0,,正在搜索 去东京吃料理\N{\rEng}Searching for "Dinner in Tokyo."
+Dialogue: 0,0:16:35.41,0:16:38.03,ch,,0,0,0,,好的 额 事实上这个还真不错\N{\rEng}Okay. Actually, that does sound like a nice suggestion.
+Dialogue: 0,0:16:38.20,0:16:40.12,ch,,0,0,0,,-你相信这个女人？ -是的 我相信\N{\rEng}-You trust this woman? -Yes, I do.
+Dialogue: 0,0:16:40.29,0:16:41.74,ch,,0,0,0,,嘿 等下伙计们\N{\rEng}Hey, wait up, family!
+Dialogue: 0,0:16:42.00,0:16:43.87,ch,,0,0,0,,我们也要一起去\N{\rEng}I'm coming, too!
+Dialogue: 0,0:16:44.04,0:16:45.87,ch,,0,0,0,,别担心哥们 我们会罩着你的\N{\rEng}Don't worry, buddy. We got your back.
+Dialogue: 0,0:16:46.04,0:16:47.04,ch,,0,0,0,,你老婆让你去了吗？\N{\rEng}Eva let you come?
+Dialogue: 0,0:16:47.21,0:16:49.75,ch,,0,0,0,,当然！我答应她在狂欢演出里给他弄个角色\N{\rEng}Sure. I promised her a spot in the Carnival show.
+Dialogue: 0,0:16:49.92,0:16:51.80,ch,,0,0,0,,-答应他什么  -你们迟到了\N{\rEng}-You did what? -You guys are late.
+Dialogue: 0,0:16:51.96,0:16:54.76,ch,,0,0,0,,-是有点晚！-但我们可是音乐家\N{\rEng}-Clock-late. -But musician-early.
+Dialogue: 0,0:16:54.93,0:16:56.63,ch,,0,0,0,,等等 你们也要去吗？\N{\rEng}Wait, you guys are coming?
+Dialogue: 0,0:16:56.80,0:16:57.89,ch,,0,0,0,,我们当然不会错过\N{\rEng}We wouldn't miss it for the world.
+Dialogue: 0,0:16:58.05,0:17:00.68,ch,,0,0,0,,我们要去丛林寻找最棒的歌手\N{\rEng}We gonna scout the wildest, coolest talent in the jungle!
+Dialogue: 0,0:17:00.85,0:17:03.43,ch,,0,0,0,,这是我们今年狂欢节演出的创作灵感\N{\rEng}It's our inspiration for this year's Carnival show.
+Dialogue: 0,0:17:03.60,0:17:06.77,ch,,0,0,0,,狂野的...亚马逊\N{\rEng}"Amazon Untamed."
+Dialogue: 0,0:17:06.98,0:17:08.02,ch,,0,0,0,,酷\N{\rEng}Cool!
+Dialogue: 0,0:17:08.19,0:17:11.65,ch,,0,0,0,,我是说...好吧 我也会去的\N{\rEng}I mean, yeah. Okay. I guess I'll go.
+Dialogue: 0,0:17:11.82,0:17:13.44,ch,,0,0,0,,去亚马逊放手一搏\N{\rEng}Amazon jungle or bust, baby!
+Dialogue: 0,0:17:13.61,0:17:15.78,ch,,0,0,0,,都准备好去热带探险了么\N{\rEng}Who is ready for a tropical adventure?
+Dialogue: 0,0:17:16.95,0:17:18.66,ch,,0,0,0,,-一切准备就绪 -出发咯\N{\rEng}-All right! -Let's go, birds!
+Dialogue: 0,0:17:18.82,0:17:22.03,ch,,0,0,0,,等等 孩子们 还没有点名 等下\N{\rEng}Wait, we didn't do a head count. Hey, guys, wait up!
+Dialogue: 0,0:17:22.66,0:17:24.12,ch,,0,0,0,,重新规划路线\N{\rEng}Recalculating.
+Dialogue: 0,0:17:26.50,0:17:28.88,ch,,0,0,0,,嘿 小鸟 快回来\N{\rEng}Hey, birds! Come back!
+Dialogue: 0,0:17:29.38,0:17:32.30,ch,,0,0,0,,又是这样 丢下我自己走了！\N{\rEng}They left without me. Again!
+Dialogue: 0,0:17:33.13,0:17:34.88,ch,,0,0,0,,太让人伤心了！\N{\rEng}That's messed up.
+Dialogue: 0,0:17:36.06,0:17:39.26,music,,0,0,0,,《O Vida》
+Dialogue: 0,0:17:37.26,0:17:42.26,white,,0,0,0,,里约热内卢{\fade(255,0,255,100,500,4000,5000)}
+Dialogue: 0,0:17:43.51,0:17:48.51,white,,0,0,0,,欧鲁普雷图{\fade(255,0,255,100,500,4000,5000)}
+Dialogue: 0,0:17:57.83,0:18:02.83,white,,0,0,0,,巴西利亚{\fade(255,0,255,100,500,4000,5000)}
+Dialogue: 0,0:18:09.08,0:18:10.42,ch,,0,0,0,,前方道路 拥堵\N{\rEng}Heavy traffic ahead.
+Dialogue: 0,0:18:10.58,0:18:12.34,ch,,0,0,0,,多谢了 GPS小姐\N{\rEng}Great. Thanks a lot, GPS lady.
+Dialogue: 0,0:18:38.03,0:18:39.53,ch,,0,0,0,,快点 快点 快点\N{\rEng}Faster, faster, faster!
+Dialogue: 0,0:18:41.49,0:18:43.20,ch,,0,0,0,,慢点....\N{\rEng}Slower! Slower! Slower!
+Dialogue: 0,0:19:13.40,0:19:15.90,ch,,0,0,0,,我们到了孩子们，这里就是亚马逊的大门了\N{\rEng}Here we are, kids. The gateway to the Amazon.
+Dialogue: 0,0:19:19.74,0:19:21.61,ch,,0,0,0,,生存\N{\rEng}"To be...
+Dialogue: 0,0:19:22.07,0:19:25.41,ch,,0,0,0,,还是....毁灭\N{\rEng}"or not to be...
+Dialogue: 0,0:19:25.58,0:19:27.91,ch,,0,0,0,,这是个问题\N{\rEng}"that is the question.
+Dialogue: 0,0:19:28.08,0:19:30.08,ch,,0,0,0,,究竟哪一个更高贵 去忍受这命运\N{\rEng}"Whether 'tis nobler in the mind...
+Dialogue: 0,0:19:30.25,0:19:34.75,ch,,0,0,0,,还是去忍受着无尽的烦恼\N{\rEng}"to suffer the slings and arrows of outrageous fortune...
+Dialogue: 0,0:19:34.92,0:19:38.92,ch,,0,0,0,,经受无边的摧残\N{\rEng}"or to take arms against a sea of troubles...
+Dialogue: 0,0:19:39.09,0:19:42.97,ch,,0,0,0,,还是把它忘个干净\N{\rEng}"and, by opposing, end them."
+Dialogue: 0,0:19:43.93,0:19:46.39,ch,,0,0,0,,噢 真实太美妙了 奈杰尔\N{\rEng}That's beautiful, Nigel.
+Dialogue: 0,0:19:46.56,0:19:47.93,ch,,0,0,0,,这是什么意思\N{\rEng}What does it mean?
+Dialogue: 0,0:19:48.10,0:19:49.60,ch,,0,0,0,,死亡 噶比\N{\rEng}Death, Gabi.
+Dialogue: 0,0:19:49.77,0:19:51.93,ch,,0,0,0,,说的是死亡\N{\rEng}It's about death.
+Dialogue: 0,0:19:52.60,0:19:56.56,ch,,0,0,0,,哦 奈杰尔 我爱死你的阴沉忧郁了\N{\rEng}Nigel, I love it when you get all dark and brooding.
+Dialogue: 0,0:19:57.73,0:20:00.28,ch,,0,0,0,,嘿 笨鸟 该上场了\N{\rEng}Hey, bird. It's show time!
+Dialogue: 0,0:20:00.44,0:20:02.53,ch,,0,0,0,,我的观众正等着我呢\N{\rEng}My audience awaits.
+Dialogue: 0,0:20:06.12,0:20:08.74,ch,,0,0,0,,从里约的丛林 到亚马逊的街头\N{\rEng}From the streets of Rio, to the Amazon jungle...
+Dialogue: 0,0:20:08.91,0:20:10.75,ch,,0,0,0,,有请 神秘的大鸟\N{\rEng}the bird of mystery!
+Dialogue: 0,0:20:13.79,0:20:15.46,ch,,0,0,0,,-丛林火蚁 -别害羞\N{\rEng}-Fire ants! -Don't be shy!
+Dialogue: 0,0:20:15.63,0:20:17.63,ch,,0,0,0,,来了解下你的命运吧\N{\rEng}Learn your destiny!
+Dialogue: 0,0:20:23.80,0:20:27.47,ch,,0,0,0,,喂 别打蚂蚁的主意 干你的活去\N{\rEng}Hey! Get away from those! Back to work.
+Dialogue: 0,0:20:30.14,0:20:33.48,ch,,0,0,0,,妈妈 我要玩这个 占卜\N{\rEng}Mommy, Mommy, I want one! I want a fortune!
+Dialogue: 0,0:20:33.64,0:20:35.44,ch,,0,0,0,,欢迎光临 夫人\N{\rEng}Welcome, madame.
+Dialogue: 0,0:20:35.60,0:20:39.65,ch,,0,0,0,,这只神奇的鹦鹉 能够揭示你的未来\N{\rEng}This amazing cockatoo will reveal your future.
+Dialogue: 0,0:20:40.57,0:20:42.99,ch,,0,0,0,,好了小鸟 选一个吧\N{\rEng}All right, bird. Pick a fortune.
+Dialogue: 0,0:20:43.15,0:20:44.57,ch,,0,0,0,,快点 小鸟\N{\rEng}Come on, bird.
+Dialogue: 0,0:20:45.11,0:20:46.49,ch,,0,0,0,,你干的很好 奈杰尔\N{\rEng}You're doing great, Nigel.
+Dialogue: 0,0:20:48.16,0:20:49.28,ch,,0,0,0,,快一点\N{\rEng}Pick it already.
+Dialogue: 0,0:20:50.24,0:20:51.91,ch,,0,0,0,,加油 伙计们 就快到了\N{\rEng}Come on, gang. Almost there.
+Dialogue: 0,0:20:52.08,0:20:54.83,ch,,0,0,0,,今天不用再飞了 晚一点 我们能赶上一艘船\N{\rEng}No more flying today. We've got a boat to catch.
+Dialogue: 0,0:20:56.83,0:20:59.13,ch,,0,0,0,,根据GPS的计算 明天一早我们就能到\N{\rEng}According to my little friend here, this boat will get us there by morning.
+Dialogue: 0,0:21:05.47,0:21:08.97,ch,,0,0,0,,他能活下来 但永远也飞不起来了\N{\rEng}He'll live, but he'll never fly again.
+Dialogue: 0,0:21:11.47,0:21:14.85,ch,,0,0,0,,-快点 小鸟 -快给我算命\N{\rEng}-Come on, bird. -I want my fortune!
+Dialogue: 0,0:21:15.02,0:21:16.52,ch,,0,0,0,,很好奈杰尔\N{\rEng}You're doing great, Nigel.
+Dialogue: 0,0:21:16.69,0:21:18.31,ch,,0,0,0,,怎么要这么长时间\N{\rEng}What's taking so long?
+Dialogue: 0,0:21:19.52,0:21:22.69,ch,,0,0,0,,你这是怎么了\N{\rEng}What's the matter with you?
+Dialogue: 0,0:21:24.65,0:21:27.95,ch,,0,0,0,,我会这么惨 都是那只蓝色的鸟害的\N{\rEng}That blue bird caused my misery.
+Dialogue: 0,0:21:34.16,0:21:36.00,ch,,0,0,0,,小鸟乖\N{\rEng}Nice birdie?
+Dialogue: 0,0:21:40.04,0:21:42.21,ch,,0,0,0,,为什么要打自己 为什么要打自己\N{\rEng}Why are you hitting yourself? Why are you hitting yourself?
+Dialogue: 0,0:21:42.38,0:21:45.34,ch,,0,0,0,,哇哦 奈杰尔好有男子汉气概\N{\rEng}Wow. Nigel is muy macho.
+Dialogue: 0,0:21:49.30,0:21:50.55,ch,,0,0,0,,谢谢\N{\rEng}Thank you.
+Dialogue: 0,0:21:54.22,0:21:55.56,ch,,0,0,0,,我自由了\N{\rEng}I'm free!
+Dialogue: 0,0:21:57.06,0:21:58.73,ch,,0,0,0,,这里有只箭毒蛙\N{\rEng}Poison frog!
+Dialogue: 0,0:22:11.41,0:22:15.08,ch,,0,0,0,,嘎嘎叫的凤头鹦鹉 呐喊着要去复仇\N{\rEng}The croaking cockatoo doth bellow for revenge.
+Dialogue: 0,0:22:15.25,0:22:16.75,ch,,0,0,0,,这是莎士比亚写得\N{\rEng}That's Shakespeare, by the way.
+Dialogue: 0,0:22:16.91,0:22:19.50,ch,,0,0,0,,没有你的表演 他一文不值 \N{\rEng}Without your performance, it's nothing.
+Dialogue: 0,0:22:19.67,0:22:20.75,ch,,0,0,0,,说得好\N{\rEng}Fair point.
+Dialogue: 0,0:22:27.63,0:22:29.35,white,,0,0,0,,一个完成旧任务的好时机
+Dialogue: 0,0:22:44.19,0:22:48.36,ch,,0,0,0,,哦 这空气 又清新 又舒适\N{\rEng}This air! It's so fresh and full.
+Dialogue: 0,0:22:48.53,0:22:51.74,ch,,0,0,0,,再见了 城市里的雾霾\N{\rEng}Goodbye, stinky city air!
+Dialogue: 0,0:22:51.91,0:22:53.95,ch,,0,0,0,,对！再见！\N{\rEng}Yeah, bye.
+Dialogue: 0,0:22:56.79,0:22:59.79,ch,,0,0,0,,嘿 谢谢你能为我这样做\N{\rEng}Hey. Thank you for doing this.
+Dialogue: 0,0:22:59.96,0:23:01.58,ch,,0,0,0,,真的很谢谢你\N{\rEng}I really appreciate it.
+Dialogue: 0,0:23:01.75,0:23:04.38,ch,,0,0,0,,为了你 我愿意做任何事情 你知道的 对吗？\N{\rEng}I would do anything for you. You know that, right?
+Dialogue: 0,0:23:04.54,0:23:06.63,ch,,0,0,0,,我当然知道\N{\rEng}Of course I do.
+Dialogue: 0,0:23:21.90,0:23:25.73,ch,,0,0,0,,我们不是来这吃点心的 我们是来复仇的\N{\rEng}We aren't here to snack. We are here to avenge.
+Dialogue: 0,0:23:25.90,0:23:28.57,ch,,0,0,0,,等那些讨厌的乘客一睡着\N{\rEng}Once these pesky passengers fall asleep...
+Dialogue: 0,0:23:28.74,0:23:32.32,ch,,0,0,0,,我们就好好关爱下我的蓝色朋友们 给他们一点..\N{\rEng}we'll show our blue friends some love. Some...
+Dialogue: 0,0:23:32.66,0:23:35.07,ch,,0,0,0,,毒爱\N{\rEng}poisonous love.
+Dialogue: 0,0:23:35.24,0:23:37.33,ch,,0,0,0,,哦 这个我最拿手了\N{\rEng}That's my specialty.
+Dialogue: 0,0:23:37.53,0:23:41.15,ch,,0,0,0,,我们在午夜发动攻击\N{\rEng}We attack at the midnight hour...
+Dialogue: 0,0:23:41.15,0:23:42.31,ch,,0,0,0,,这样显得更加邪恶\N{\rEng}because it's more evil.
+Dialogue: 0,0:23:42.33,0:23:44.17,ch,,0,0,0,,保持警惕\N{\rEng}Stay alert.
+Dialogue: 0,0:23:49.84,0:23:52.76,ch,,0,0,0,,午夜！袭击的时间\N{\rEng}Midnight! Time to attack.
+Dialogue: 0,0:23:53.47,0:23:56.01,ch,,0,0,0,,奈杰尔 奈杰尔\N{\rEng}Nigel! Nigel?
+Dialogue: 0,0:23:58.52,0:24:01.43,ch,,0,0,0,,看看我们两个另类的生物\N{\rEng}Look at us. Misfits.
+Dialogue: 0,0:24:02.19,0:24:06.44,ch,,0,0,0,,一只剧毒的青蛙 一只不会飞的怪鸟\N{\rEng}A toxic frog, and a flightless freak.
+Dialogue: 0,0:24:06.69,0:24:10.99,ch,,0,0,0,,我们如此的不同 又如此的相同\N{\rEng}So different, and yet, the same.
+Dialogue: 0,0:24:11.32,0:24:13.15,ch,,0,0,0,,亲爱的 当你睡着了 我们是朋友 那样很好\N{\rEng}My darling, while you sleep All is well
+Dialogue: 0,0:24:13.32,0:24:17.49,ch,,0,0,0,,可是有个秘密一定要告诉你....\N{\rEng}We are friends, and that's swell But the truth is that I have a secret to tell
+Dialogue: 0,0:24:17.66,0:24:21.45,ch,,0,0,0,,我爱你\N{\rEng}I love you
+Dialogue: 0,0:24:23.65,0:24:30.22,music,,0,0,0,,《Poisonous Love》
+Dialogue: 0,0:24:24.17,0:24:25.67,ch,,0,0,0,,人们说这不对 很可笑\N{\rEng}People say it's wrong It's absurd
+Dialogue: 0,0:24:25.83,0:24:28.67,ch,,0,0,0,,一只青蛙怎么和鸟恋爱 可我心里知道\N{\rEng}That a frog and a bird are in love But I know in my heart
+Dialogue: 0,0:24:28.84,0:24:33.22,ch,,0,0,0,,这是命中注定的\N{\rEng}This was so meant to be
+Dialogue: 0,0:24:34.01,0:24:36.97,ch,,0,0,0,,如果我们能拥抱亲吻 那真是天堂般的幸福\N{\rEng}If only we could hug and could kiss It'd be heavenly bliss
+Dialogue: 0,0:24:37.14,0:24:39.35,ch,,0,0,0,,可你的肺会烂掉 就像这样\N{\rEng}But your lungs would explode And you'd lookjust like this
+Dialogue: 0,0:24:39.51,0:24:42.18,ch,,0,0,0,,你会窒息 脸涨成蓝色\N{\rEng}And you'd gag With your face turning blue
+Dialogue: 0,0:24:42.35,0:24:43.68,ch,,0,0,0,,哦...\N{\rEng}Eww
+Dialogue: 0,0:24:44.02,0:24:46.90,ch,,0,0,0,,不过亲爱的 我会照顾你 我会的 你尽管放松\N{\rEng}But, darling, I'll protect you I will, don't worry, just chill
+Dialogue: 0,0:24:47.06,0:24:49.86,ch,,0,0,0,,因为我能杀掉任何鸟 只要是为了你\N{\rEng}'Cause there isn't a bird That I wouldn't kill
+Dialogue: 0,0:24:50.03,0:24:54.99,ch,,0,0,0,,你看不出来吗\N{\rEng}For you Can't you see
+Dialogue: 0,0:24:56.41,0:24:59.07,ch,,0,0,0,,我们注定要在一起\N{\rEng}We were destined to be?
+Dialogue: 0,0:24:59.24,0:25:03.75,ch,,0,0,0,,因为我们的爱\N{\rEng}-For we have love -Love
+Dialogue: 0,0:25:03.91,0:25:07.21,ch,,0,0,0,,有毒的爱...-爱...  \N{\rEng}-Poisonous love -Love
+Dialogue: 0,0:25:07.38,0:25:11.05,ch,,0,0,0,,虽然 是的\N{\rEng}And although, yes
+Dialogue: 0,0:25:11.25,0:25:16.55,ch,,0,0,0,,我知道你没法拥抱我\N{\rEng}I know that you can't hold me
+Dialogue: 0,0:25:16.72,0:25:18.68,ch,,0,0,0,,投入我的怀抱吧\N{\rEng}Feel me close now.
+Dialogue: 0,0:25:18.85,0:25:23.77,ch,,0,0,0,,你爱的翅膀 围绕着我\N{\rEng}Your loving wings enfold me
+Dialogue: 0,0:25:24.39,0:25:27.02,ch,,0,0,0,,命运告诉我\N{\rEng}Fate told me
+Dialogue: 0,0:25:27.19,0:25:28.77,ch,,0,0,0,,爱...\N{\rEng}Love
+Dialogue: 0,0:25:28.94,0:25:31.27,ch,,0,0,0,,有毒的爱...\N{\rEng}-Poisonous love -Love
+Dialogue: 0,0:25:32.15,0:25:34.78,ch,,0,0,0,,站在这里\N{\rEng}Standing here
+Dialogue: 0,0:25:34.95,0:25:38.41,ch,,0,0,0,,你离我是如此的近 可是\N{\rEng}You're so near And yet
+Dialogue: 0,0:25:39.41,0:25:40.99,ch,,0,0,0,,又那么远\N{\rEng}So far
+Dialogue: 0,0:25:41.24,0:25:42.74,ch,,0,0,0,,就像一颗星星\N{\rEng}Like a star.
+Dialogue: 0,0:25:42.91,0:25:44.91,ch,,0,0,0,,我们到了\N{\rEng}Here we are
+Dialogue: 0,0:25:45.08,0:25:46.79,ch,,0,0,0,,哪儿？\N{\rEng}Where?
+Dialogue: 0,0:25:46.96,0:25:49.50,ch,,0,0,0,,该怎么办\N{\rEng}What to do?
+Dialogue: 0,0:25:49.67,0:25:52.25,ch,,0,0,0,,怎么办\N{\rEng}To do
+Dialogue: 0,0:25:52.63,0:25:54.46,ch,,0,0,0,,噢..\N{\rEng}Oh, pooh.
+Dialogue: 0,0:25:55.51,0:25:59.30,ch,,0,0,0,,你是我的罗密欧 我是你的朱丽叶\N{\rEng}You're my Romeo I'm Juliet
+Dialogue: 0,0:25:59.47,0:26:01.64,ch,,0,0,0,,我们天生一对 可是\N{\rEng}We're so perfect, and yet
+Dialogue: 0,0:26:01.81,0:26:03.97,ch,,0,0,0,,如果我们触碰哪怕一点点\N{\rEng}If we touch, not by much
+Dialogue: 0,0:26:04.14,0:26:06.14,ch,,0,0,0,,可以确信一点\N{\rEng}Still on all you can bet
+Dialogue: 0,0:26:06.31,0:26:09.14,ch,,0,0,0,,那就是 永别\N{\rEng}It's goodbye
+Dialogue: 0,0:26:09.31,0:26:12.98,ch,,0,0,0,,我会哭泣\N{\rEng}And I'll cry
+Dialogue: 0,0:26:13.94,0:26:18.86,ch,,0,0,0,,因为你已不再\N{\rEng}As you die
+Dialogue: 0,0:26:19.16,0:26:24.99,ch,,0,0,0,,死于我们有毒的 爱...\N{\rEng}From our poisonous love
+Dialogue: 0,0:26:38.68,0:26:40.51,ch,,0,0,0,,好可怕的梦\N{\rEng}What a nightmare.
+Dialogue: 0,0:26:41.47,0:26:45.18,ch,,0,0,0,,查理 你应该把我叫醒的\N{\rEng}Charlie! You were supposed to wake me!
+Dialogue: 0,0:26:45.52,0:26:47.52,ch,,0,0,0,,要行动了\N{\rEng}It's time.
+Dialogue: 0,0:26:55.86,0:26:58.40,ch,,0,0,0,,能做奈杰尔的搭档真好\N{\rEng}I love being on Team Nigel!
+Dialogue: 0,0:28:03.26,0:28:08.47,ch,,0,0,0,,我想不出什么比在夜晚下 给乘客下毒更浪漫的事情了\N{\rEng}I can't think of anything more romantic than poisoning passengers on a moonlight cruise.
+Dialogue: 0,0:28:08.64,0:28:09.47,ch,,0,0,0,,住手\N{\rEng}Stop.
+Dialogue: 0,0:28:10.89,0:28:13.06,ch,,0,0,0,,那家伙是我的\N{\rEng}That one is mine.
+Dialogue: 0,0:28:13.23,0:28:15.44,ch,,0,0,0,,一闪一闪小布鲁...\N{\rEng}Twinkle, twinkle little Blu.
+Dialogue: 0,0:28:15.61,0:28:18.11,ch,,0,0,0,,找你找得好辛苦...\N{\rEng}How I wondered, where were you?
+Dialogue: 0,0:28:18.27,0:28:21.15,ch,,0,0,0,,高高挂在天空中...\N{\rEng}Up above the world so high...
+Dialogue: 0,0:28:21.32,0:28:23.28,ch,,0,0,0,,今天让你..\N{\rEng}are you ready...
+Dialogue: 0,0:28:23.45,0:28:25.57,ch,,0,0,0,,一命呜呼\N{\rEng}to die?
+Dialogue: 0,0:28:25.74,0:28:27.41,ch,,0,0,0,,你应该吃块绿箭薄荷糖\N{\rEng}You need a breath mint.
+Dialogue: 0,0:28:27.58,0:28:30.33,ch,,0,0,0,,你睡着了都要嘲笑我！\N{\rEng}Even in sleep, you mock me.
+Dialogue: 0,0:28:46.80,0:28:48.43,ch,,0,0,0,,等等我\N{\rEng}Wait for me!
+Dialogue: 0,0:28:49.26,0:28:51.10,ch,,0,0,0,,别丢下我\N{\rEng}Don't leave me!
+Dialogue: 0,0:28:51.85,0:28:53.64,ch,,0,0,0,,迪耶戈 别到处乱跑\N{\rEng}Tiago! Stop fooling around.
+Dialogue: 0,0:28:53.81,0:28:55.27,ch,,0,0,0,,我什么也没干啊\N{\rEng}I didn't do anything.
+Dialogue: 0,0:28:55.44,0:28:57.19,ch,,0,0,0,,孩子 听你妈妈的话\N{\rEng}Tiago Gunderson, listen to your mother.
+Dialogue: 0,0:28:57.36,0:28:59.31,ch,,0,0,0,,哦 天啊\N{\rEng}Man.
+Dialogue: 0,0:29:00.32,0:29:02.15,ch,,0,0,0,,我们快到了\N{\rEng}We're almost there, right?
+Dialogue: 0,0:29:02.32,0:29:03.86,ch,,0,0,0,,-等一下伙计们 -跟上 布鲁\N{\rEng}-Hey, guys. Wait up. -Come on, Blu.
+Dialogue: 0,0:29:04.03,0:29:05.53,ch,,0,0,0,,记住 有蓝色羽毛...\N{\rEng}Remember, birds of a...
+Dialogue: 0,0:29:06.20,0:29:07.82,ch,,0,0,0,,算了...\N{\rEng}Nevermind.
+Dialogue: 0,0:29:11.49,0:29:12.87,ch,,0,0,0,,他们都跑了\N{\rEng}They're getting away!
+Dialogue: 0,0:29:13.16,0:29:16.33,ch,,0,0,0,,快醒醒 你这个吃蚂蚁的笨蛋 快跟上他们\N{\rEng}Wake up, you insect-eating idiot. Follow them.
+Dialogue: 0,0:29:18.50,0:29:21.17,ch,,0,0,0,,好多了 现在给我快一点\N{\rEng}Better. Now go ten times faster.
+Dialogue: 0,0:29:23.30,0:29:25.01,ch,,0,0,0,,这个笨蛋！\N{\rEng}River hogs!
+Dialogue: 0,0:30:04.76,0:30:05.71,ch,,0,0,0,,你！\N{\rEng}You!
+Dialogue: 0,0:30:05.88,0:30:09.22,ch,,0,0,0,,我一直在想你是不是比猴子还笨\N{\rEng}I always suspected you were dumber than a monkey.
+Dialogue: 0,0:30:09.39,0:30:10.93,ch,,0,0,0,,现在我懂了\N{\rEng}And now, I know.
+Dialogue: 0,0:30:11.72,0:30:14.26,ch,,0,0,0,,老板 您来丛林里干什么？\N{\rEng}Boss! What are you doing in the jungle?
+Dialogue: 0,0:30:14.43,0:30:16.23,ch,,0,0,0,,你应该问..\N{\rEng}Perhaps the better question is...
+Dialogue: 0,0:30:16.60,0:30:17.98,ch,,0,0,0,,他们来这里干什么\N{\rEng}what are they doing?
+Dialogue: 0,0:30:18.73,0:30:20.48,ch,,0,0,0,,那些环保狂\N{\rEng}Nature freaks.
+Dialogue: 0,0:30:23.11,0:30:25.48,ch,,0,0,0,,这里有几百万平方英里的丛林\N{\rEng}Two million square miles of jungle...
+Dialogue: 0,0:30:25.74,0:30:28.90,ch,,0,0,0,,可他们偏偏跑到这里来\N{\rEng}and they're playing in my backyard?
+Dialogue: 0,0:30:30.07,0:30:31.95,ch,,0,0,0,,我可不是好惹的家伙\N{\rEng}I don't think so.
+Dialogue: 0,0:30:32.12,0:30:35.95,ch,,0,0,0,,你也知道 朋友 我们的伐木作业稍微有一点...\N{\rEng}As you know, my friends, this logging operation is a little...
+Dialogue: 0,0:30:36.75,0:30:37.91,ch,,0,0,0,,违法\N{\rEng}illegal.
+Dialogue: 0,0:30:38.08,0:30:41.75,ch,,0,0,0,,如果这些人找到那些鸟 我们的生意就完了\N{\rEng}If those two nuts find those birds, we're out of business.
+Dialogue: 0,0:30:41.92,0:30:42.92,ch,,0,0,0,,所以你现在要...\N{\rEng}And that's why you...
+Dialogue: 0,0:30:43.34,0:30:47.13,ch,,0,0,0,,尽快结束他们的寻鸟丛林探险\N{\rEng}must put an end to their little bird-watching expedition.
+Dialogue: 0,0:30:47.30,0:30:50.68,ch,,0,0,0,,找到他们 赶走他们\N{\rEng}Find them and get rid of them.
+Dialogue: 0,0:30:50.84,0:30:53.85,ch,,0,0,0,,其余的人 都给我砍树去\N{\rEng}The rest of you, go cut some trees.
+Dialogue: 0,0:30:56.10,0:30:58.98,ch,,0,0,0,,谁在乎一群什么破鸟\N{\rEng}Who cares about a bunch of birds?
+Dialogue: 0,0:30:59.85,0:31:03.02,ch,,0,0,0,,鹦鹉会把鸟巢筑在巴西栗树附近\N{\rEng}The macaws should be nesting near the Brazil nut trees.
+Dialogue: 0,0:31:03.19,0:31:05.27,ch,,0,0,0,,所以我觉得我们应该...\N{\rEng}So, I think that we should continue with go--
+Dialogue: 0,0:31:06.03,0:31:09.15,ch,,0,0,0,,图里奥 你在听我说话吗\N{\rEng}Tulio! Are you listening to me?
+Dialogue: 0,0:31:09.53,0:31:11.53,ch,,0,0,0,,你已到达目的地\N{\rEng}You have reached your destination.
+Dialogue: 0,0:31:11.70,0:31:14.87,ch,,0,0,0,,看！是不是很管用 我们到了\N{\rEng}You see? It works like a charm. Here we are.
+Dialogue: 0,0:31:16.54,0:31:17.62,ch,,0,0,0,,这是哪？\N{\rEng}Where?
+Dialogue: 0,0:31:17.95,0:31:19.62,ch,,0,0,0,,嗯 这东西稍微有点误差\N{\rEng}These things have a margin of error.
+Dialogue: 0,0:31:19.79,0:31:22.12,ch,,0,0,0,,我跟你说过别相信那个女人\N{\rEng}I told you not to trust that woman.
+Dialogue: 0,0:31:23.04,0:31:26.80,ch,,0,0,0,,这是一个幼虫 他就要进入变蛹的阶段了\N{\rEng}That's a Heliconious larva. It's about to enter the pupa stage.
+Dialogue: 0,0:31:26.96,0:31:28.63,ch,,0,0,0,,哈 你说桶\N{\rEng}You said "poop!"
+Dialogue: 0,0:31:28.80,0:31:30.72,ch,,0,0,0,,嘿 孩子们跟紧了\N{\rEng}Hey, kids. Stay close.
+Dialogue: 0,0:31:31.13,0:31:32.13,ch,,0,0,0,,我去找孩子\N{\rEng}I'll get them.
+Dialogue: 0,0:31:32.30,0:31:35.64,ch,,0,0,0,,好吧 你们留在这里别动 我去周围看看\N{\rEng}Okay, you guys stay put. I'll look around.
+Dialogue: 0,0:31:35.81,0:31:39.31,ch,,0,0,0,,别担心 我们就在这 我们哪儿都不去\N{\rEng}No worries. We'll be here. We're not going anywhere.
+Dialogue: 0,0:31:39.48,0:31:41.48,ch,,0,0,0,,我后背的羽毛都竖起来了\N{\rEng}My feathers is popping up on the back of my neck.
+Dialogue: 0,0:31:41.64,0:31:42.98,ch,,0,0,0,,我可不喜欢这个感觉\N{\rEng}I don't like this.
+Dialogue: 0,0:31:43.48,0:31:44.81,ch,,0,0,0,,我们掉头吧\N{\rEng}Let's back it up.
+Dialogue: 0,0:31:47.82,0:31:49.99,ch,,0,0,0,,比亚 迪耶戈\N{\rEng}Bia? Tiago?
+Dialogue: 0,0:31:53.74,0:31:54.91,ch,,0,0,0,,拜托 小姐\N{\rEng}Come on, lady.
+Dialogue: 0,0:31:55.83,0:31:58.74,ch,,0,0,0,,别让我失望 规划前往...秀场的路线\N{\rEng}-Don't let me down. -Calculating route to "Funky Town."
+Dialogue: 0,0:31:58.91,0:31:59.75,ch,,0,0,0,,好吧 太好了\N{\rEng}Oh, great.
+Dialogue: 0,0:32:07.17,0:32:08.67,ch,,0,0,0,,好的 伙计们\N{\rEng}Okay, guys!
+Dialogue: 0,0:32:10.55,0:32:12.22,ch,,0,0,0,,伙计们？\N{\rEng}Guys?
+Dialogue: 0,0:32:14.72,0:32:17.01,ch,,0,0,0,,呵呵 可以 这很好玩\N{\rEng}Good one, guys. Very funny.
+Dialogue: 0,0:32:17.18,0:32:19.06,ch,,0,0,0,,很好 很好 很聪明的玩笑\N{\rEng}Good, good. Very witty.
+Dialogue: 0,0:32:19.77,0:32:21.89,ch,,0,0,0,,珠儿 你在哪？\N{\rEng}Jewel, where are you?
+Dialogue: 0,0:32:22.35,0:32:24.94,ch,,0,0,0,,孩子们 老婆？\N{\rEng}Kids? Jewel?
+Dialogue: 0,0:32:27.57,0:32:28.69,ch,,0,0,0,,啊 蓝色金刚鹦鹉\N{\rEng}It's a Macaw!
+Dialogue: 0,0:32:28.86,0:32:30.03,ch,,0,0,0,,琳达\N{\rEng}Linda!
+Dialogue: 0,0:32:30.19,0:32:31.36,ch,,0,0,0,,放开我\N{\rEng}Let me go!
+Dialogue: 0,0:32:33.95,0:32:35.36,ch,,0,0,0,,放开我 你这个野蛮人\N{\rEng}Let me go, you heathens!
+Dialogue: 0,0:32:35.87,0:32:36.70,ch,,0,0,0,,布鲁？\N{\rEng}Blu?
+Dialogue: 0,0:32:41.41,0:32:43.71,ch,,0,0,0,,我发誓 这声音听起来像布鲁的\N{\rEng}I swear that sounded like Blu.
+Dialogue: 0,0:32:43.87,0:32:45.37,ch,,0,0,0,,不 不可能 琳达\N{\rEng}That's impossible, Linda.
+Dialogue: 0,0:32:45.54,0:32:48.21,ch,,0,0,0,,他在家里 既舒适又安全\N{\rEng}He's back home in Rio, safe and sound.
+Dialogue: 0,0:32:48.38,0:32:50.09,ch,,0,0,0,,我可是美国公民 你这个野蛮人\N{\rEng}I am an American citizen, you savage!
+Dialogue: 0,0:32:50.25,0:32:51.76,ch,,0,0,0,,我要求见美国大使\N{\rEng}I demand to see my ambassador!
+Dialogue: 0,0:32:51.92,0:32:53.72,ch,,0,0,0,,我知道我有这个权利\N{\rEng}I know my rights! I know my rights!
+Dialogue: 0,0:32:56.22,0:32:58.22,ch,,0,0,0,,退后 野蛮人\N{\rEng}Back. Back, you barbarian!
+Dialogue: 0,0:32:58.89,0:32:59.72,ch,,0,0,0,,对 没错 \N{\rEng}Yeah, that's right.
+Dialogue: 0,0:33:00.26,0:33:02.10,ch,,0,0,0,,这是个勺子 也是个叉子\N{\rEng}It's a spoon and a fork.
+Dialogue: 0,0:33:02.27,0:33:04.73,ch,,0,0,0,,害怕了吧 怕的发抖了吧\N{\rEng}Be afraid! Be very afraid.
+Dialogue: 0,0:33:04.89,0:33:08.65,ch,,0,0,0,,啊哦...把你的东西放下\N{\rEng}Whoa! Whoa, buddy. Put the spork down.
+Dialogue: 0,0:33:08.90,0:33:09.94,ch,,0,0,0,,放开我...有种来啊\N{\rEng}-Let me go! -Bring it!
+Dialogue: 0,0:33:10.11,0:33:12.07,ch,,0,0,0,,你应该感到幸运 我不是大个子\N{\rEng}Come on! You lucky I ain't big.
+Dialogue: 0,0:33:41.01,0:33:43.52,ch,,0,0,0,,真不敢相信 我们找到他们了\N{\rEng}I can't believe we found them!
+Dialogue: 0,0:33:43.68,0:33:46.23,ch,,0,0,0,,严格的说 是他们找到了我们\N{\rEng}Technically, they found us.
+Dialogue: 0,0:33:46.73,0:33:48.85,ch,,0,0,0,,好吧 得找点东西来写名字\N{\rEng}Okay, we're gonna need some nametags.
+Dialogue: 0,0:33:49.02,0:33:51.48,ch,,0,0,0,,你好呀\N{\rEng}Hello. Okay.
+Dialogue: 0,0:33:51.69,0:33:53.98,ch,,0,0,0,,哦 那是绿箭薄荷糖 你用不到它\N{\rEng}No, those are breath mints. Not that you need one.
+Dialogue: 0,0:33:54.15,0:33:56.19,ch,,0,0,0,,不过味道还不错...你可以试试\N{\rEng}But they're good. You eat them.
+Dialogue: 0,0:33:57.07,0:33:58.86,ch,,0,0,0,,不 别连盒都吞下去\N{\rEng}No, no, no! Not the whole box.
+Dialogue: 0,0:33:59.03,0:34:00.74,ch,,0,0,0,,赶快..把它..吐出来（还记得第一部里珠儿还有布鲁么？）\N{\rEng}Get that out of your mouth!
+Dialogue: 0,0:34:04.16,0:34:07.04,ch,,0,0,0,,出什么事情 怎么了？\N{\rEng}What is this doing here? What's going on?
+Dialogue: 0,0:34:07.21,0:34:09.12,ch,,0,0,0,,我们发现他们飞得离人类太近\N{\rEng}We found them flying too close to the humans.
+Dialogue: 0,0:34:09.29,0:34:11.04,ch,,0,0,0,,-什么 你是谁？ -额..\N{\rEng}-What? And who are you? -Uh...
+Dialogue: 0,0:34:11.21,0:34:12.96,ch,,0,0,0,,额 可不是一个合适的回答\N{\rEng}"Uh" is not an appropriate answer.
+Dialogue: 0,0:34:13.13,0:34:15.30,ch,,0,0,0,,我问你话呢 你们到底从哪来\N{\rEng}I asked you a question. Where did you come from?
+Dialogue: 0,0:34:15.47,0:34:16.42,ch,,0,0,0,,-嘿 退后 你干什么\N{\rEng}Hey! Back off!
+Dialogue: 0,0:34:16.59,0:34:18.59,ch,,0,0,0,,不好意思小姐...\N{\rEng}Hey, excuse me, young lady.
+Dialogue: 0,0:34:20.89,0:34:23.05,ch,,0,0,0,,真不敢相信\N{\rEng}I can't believe it.
+Dialogue: 0,0:34:23.93,0:34:25.60,ch,,0,0,0,,这...这怎么可能\N{\rEng}How is this...?
+Dialogue: 0,0:34:25.77,0:34:27.56,ch,,0,0,0,,伐木工来的时候\N{\rEng}When the loggers came...
+Dialogue: 0,0:34:27.73,0:34:32.02,ch,,0,0,0,,到处都是大火 浓烟\N{\rEng}there was fire, and so much smoke.
+Dialogue: 0,0:34:32.23,0:34:35.32,ch,,0,0,0,,我把你藏在翅膀下面 然后你就...\N{\rEng}I had you under my wing, and then you were...
+Dialogue: 0,0:34:35.49,0:34:36.28,ch,,0,0,0,,不见了\N{\rEng}Gone.
+Dialogue: 0,0:34:36.44,0:34:38.24,ch,,0,0,0,,我一直在找你\N{\rEng}I've looked everywhere for you.
+Dialogue: 0,0:34:38.40,0:34:40.45,ch,,0,0,0,,我在这\N{\rEng}I'm here.
+Dialogue: 0,0:34:40.62,0:34:42.03,ch,,0,0,0,,爸爸\N{\rEng}Daddy!
+Dialogue: 0,0:34:43.20,0:34:44.53,ch,,0,0,0,,爸爸？\N{\rEng}"Daddy"?
+Dialogue: 0,0:34:47.12,0:34:49.08,ch,,0,0,0,,我好想你\N{\rEng}I missed you.
+Dialogue: 0,0:34:50.33,0:34:52.58,ch,,0,0,0,,没事了 一切都过去了\N{\rEng}It's okay. It's okay, now.
+Dialogue: 0,0:34:52.75,0:34:55.13,ch,,0,0,0,,有爸爸在\N{\rEng}Daddy has you.
+Dialogue: 0,0:34:57.88,0:34:59.34,ch,,0,0,0,,看看你 我的小女儿\N{\rEng}Look at you.
+Dialogue: 0,0:34:59.51,0:35:03.01,ch,,0,0,0,,已经长大了\N{\rEng}It's my little girl, all grown up.
+Dialogue: 0,0:35:03.97,0:35:05.56,ch,,0,0,0,,长得这么漂亮\N{\rEng}You're so beautiful.
+Dialogue: 0,0:35:06.97,0:35:08.89,ch,,0,0,0,,就像你的妈妈一样\N{\rEng}Just like your mother.
+Dialogue: 0,0:35:11.31,0:35:13.06,ch,,0,0,0,,对不起 我把你弄丢了\N{\rEng}I'm so sorry I lost you.
+Dialogue: 0,0:35:13.69,0:35:17.19,ch,,0,0,0,,我无法想象这些年你一个人到底怎么过来的\N{\rEng}I can't imagine you alone, all this time.
+Dialogue: 0,0:35:17.36,0:35:20.99,ch,,0,0,0,,没什么 爸爸 我不孤单\N{\rEng}No, it's okay, Dad. I wasn't alone.
+Dialogue: 0,0:35:22.07,0:35:23.28,ch,,0,0,0,,布鲁找到我了\N{\rEng}Blu found me.
+Dialogue: 0,0:35:26.83,0:35:28.95,ch,,0,0,0,,很高兴见到你 先生\N{\rEng}Sure is nice to meet you, sir.
+Dialogue: 0,0:35:30.50,0:35:32.25,ch,,0,0,0,,把翅膀收起来 布图\N{\rEng}Tuck that wing away, Stu.
+Dialogue: 0,0:35:32.88,0:35:35.00,ch,,0,0,0,,-到我这里来 -当然 近一点\N{\rEng}-Now, come here. -Right, sure. Okay.
+Dialogue: 0,0:35:35.34,0:35:36.92,ch,,0,0,0,,-是吗？ -再近点\N{\rEng}-Closer. -Really?
+Dialogue: 0,0:35:37.09,0:35:38.21,ch,,0,0,0,,近一点\N{\rEng}Closer.
+Dialogue: 0,0:35:39.01,0:35:42.47,ch,,0,0,0,,你把我女儿带回来了 我谢谢你\N{\rEng}You brought my Jewel back to me. I thank you.
+Dialogue: 0,0:35:43.09,0:35:45.80,ch,,0,0,0,,-现在我要拥抱你 -额 好的\N{\rEng}-I'm gonna hug you now. -Okay.
+Dialogue: 0,0:35:47.35,0:35:49.56,ch,,0,0,0,,-行了 过来吧   -抱上了\N{\rEng}-Now, come here, you. -Okay. There we are.
+Dialogue: 0,0:35:49.73,0:35:50.81,ch,,0,0,0,,真是我的荣幸\N{\rEng}My pleasure.
+Dialogue: 0,0:35:50.98,0:35:52.64,ch,,0,0,0,,尼克 你在哭吗？\N{\rEng}Nico. You crying?
+Dialogue: 0,0:35:52.81,0:35:55.27,ch,,0,0,0,,看到这么感人的场面让我内心很脆弱啊\N{\rEng}It's a heavy moment, and I'm very vulnerable right now.
+Dialogue: 0,0:35:55.44,0:35:57.27,ch,,0,0,0,,过来 我们拥抱吧\N{\rEng}Come here. Let me get you a hug.
+Dialogue: 0,0:36:02.15,0:36:03.95,ch,,0,0,0,,妈妈 你没事吧\N{\rEng}Mom, are you okay?
+Dialogue: 0,0:36:04.12,0:36:05.20,ch,,0,0,0,,妈妈？我当外公了\N{\rEng}"Mom"?
+Dialogue: 0,0:36:05.37,0:36:08.33,ch,,0,0,0,,我当外公了\N{\rEng}I'm a grandpa? I'm a grandpa.
+Dialogue: 0,0:36:08.49,0:36:10.00,ch,,0,0,0,,看看 我是外公了\N{\rEng}Look at me, I'm a grandpa!
+Dialogue: 0,0:36:10.16,0:36:13.25,ch,,0,0,0,,爸爸 这是卡拉 比亚 迪耶戈\N{\rEng}Daddy, this is Carla, Bia and Tiago.
+Dialogue: 0,0:36:13.42,0:36:14.62,ch,,0,0,0,,你好呀 先生\N{\rEng}Nice to meet you, sir.
+Dialogue: 0,0:36:14.79,0:36:16.79,ch,,0,0,0,,不要叫我先生 我的小姐\N{\rEng}There is no "sir" around here, young lady.
+Dialogue: 0,0:36:16.96,0:36:19.13,ch,,0,0,0,,你应该叫我...怕怕    -怕怕\N{\rEng}-You will call me "Pop-Pop!" -Pop-Pop.
+Dialogue: 0,0:36:19.30,0:36:21.63,ch,,0,0,0,, 哦 我喜欢 我喜欢这么叫你\N{\rEng}I like that. It's got a nice ring to it.
+Dialogue: 0,0:36:21.80,0:36:25.01,ch,,0,0,0,,我是外公啦 太好啦  我是外公啦\N{\rEng}I am a Pop-Pop! Yeah, I'm the Pop-Pop-Pop.
+Dialogue: 0,0:36:25.18,0:36:28.26,ch,,0,0,0,,别把外公弄伤了 孩子们\N{\rEng}Kids, go easy on old Pop-Pop.
+Dialogue: 0,0:36:28.43,0:36:29.93,ch,,0,0,0,,你还叫我先生\N{\rEng}You can call me "sir."
+Dialogue: 0,0:36:30.77,0:36:33.31,ch,,0,0,0,,我女儿回来啦\N{\rEng}My daughter has returned!
+Dialogue: 0,0:36:38.69,0:36:40.57,ch,,0,0,0,,这些年我们东躲西藏 人类把我们逼往\N{\rEng}For years, we have been on the run...
+Dialogue: 0,0:36:40.74,0:36:42.78,ch,,0,0,0,,越来越深的丛林\N{\rEng}as the humans push us deeper into the jungle.
+Dialogue: 0,0:36:42.95,0:36:46.11,ch,,0,0,0,,不过你看 我们找到了一个避难所\N{\rEng}But as you can see, we have found sanctuary.
+Dialogue: 0,0:36:46.28,0:36:49.03,ch,,0,0,0,,我们终于可以在这里扎根了\N{\rEng}A place we can finally put down roots.
+Dialogue: 0,0:36:49.20,0:36:53.29,ch,,0,0,0,,大伙们 出来吧\N{\rEng}Everyone! Come on! Everyone, out of your nests!
+Dialogue: 0,0:36:55.21,0:36:57.46,ch,,0,0,0,,我女儿回来啦\N{\rEng}My daughter is home!
+Dialogue: 0,0:36:57.63,0:37:00.92,ch,,0,0,0,,出来吧小鸟们  我的珠儿回来啦\N{\rEng}Come on, birds. My Jewel is back!
+Dialogue: 0,0:37:03.84,0:37:05.43,ch,,0,0,0,,珠儿？\N{\rEng}Jewel?
+Dialogue: 0,0:37:05.97,0:37:08.60,ch,,0,0,0,,让开  让开 珠儿！\N{\rEng}Make way. Make way! Jewel!
+Dialogue: 0,0:37:08.76,0:37:10.10,ch,,0,0,0,,咪咪婶婶  咪咪婶婶\N{\rEng}Aunt Mimi? Aunt Mimi!
+Dialogue: 0,0:37:12.98,0:37:14.48,ch,,0,0,0,,哦 我想死你了\N{\rEng}I missed you so much!
+Dialogue: 0,0:37:14.64,0:37:17.56,ch,,0,0,0,,我的小野花终于回家了\N{\rEng}My little wildflower has returned!
+Dialogue: 0,0:37:17.86,0:37:21.86,ch,,0,0,0,,我就知道你会回来 我用鸟粪算过命了\N{\rEng}I knew you were coming back. I saw it in the droppings.
+Dialogue: 0,0:37:22.82,0:37:24.61,ch,,0,0,0,,看看这些小家伙们\N{\rEng}And look at the little ones!
+Dialogue: 0,0:37:26.57,0:37:29.57,ch,,0,0,0,,谁是可爱的小蓝皮克斯鹦鹉\N{\rEng}Aren't you the fluffiest, most delicious little macaws?
+Dialogue: 0,0:37:30.49,0:37:32.83,ch,,0,0,0,,-哦 你长得可有点着急啊 -哦 咪咪\N{\rEng}-You're big for your age. -Mimi...
+Dialogue: 0,0:37:33.00,0:37:33.91,ch,,0,0,0,,这是苏\N{\rEng}this is Sue.
+Dialogue: 0,0:37:34.08,0:37:37.08,ch,,0,0,0,,-事实上我叫布鲁 -难道我们不是吗？\N{\rEng}-Actually, I'm Blu. -Aren't we all?
+Dialogue: 0,0:37:37.25,0:37:38.83,ch,,0,0,0,,不..我是说..我的名字是Blu\N{\rEng}No, really, that's my name.
+Dialogue: 0,0:37:39.09,0:37:40.75,ch,,0,0,0,,金刚鹦鹉都是蓝色的\N{\rEng}That's why they call us "Blue Macaws."
+Dialogue: 0,0:37:41.09,0:37:42.05,ch,,0,0,0,,你就依着她吧\N{\rEng}Just go with it.
+Dialogue: 0,0:37:42.25,0:37:46.88,music,,0,0,0,,《Welcome Back》
+Dialogue: 0,0:37:48.68,0:37:51.35,ch,,0,0,0,,原来你在这种鸟里长得算是挫的\N{\rEng}So, that's what a Blue Macaw is supposed to look like?
+Dialogue: 0,0:37:56.44,0:37:58.85,ch,,0,0,0,,看她多耀眼\N{\rEng}Look at her shining
+Dialogue: 0,0:37:59.02,0:38:01.44,ch,,0,0,0,,她的羽毛闪闪发光\N{\rEng}Her feathers, they glow
+Dialogue: 0,0:38:01.61,0:38:04.36,ch,,0,0,0,,现在丛林都在欢笑\N{\rEng}Now the jungle is smiling
+Dialogue: 0,0:38:04.53,0:38:06.28,ch,,0,0,0,,因为我们的宝贝回来了\N{\rEng}'Cause our baby's home
+Dialogue: 0,0:38:06.45,0:38:09.24,ch,,0,0,0,,你是否和我一样的感受\N{\rEng}Can you feel what I feel?
+Dialogue: 0,0:38:09.41,0:38:11.41,ch,,0,0,0,,因为这一天终于来到\N{\rEng}The day has come at last
+Dialogue: 0,0:38:11.58,0:38:14.20,ch,,0,0,0,,我们心爱的珠珠回来了\N{\rEng}Our precious Jewel has returned
+Dialogue: 0,0:38:14.37,0:38:18.87,ch,,0,0,0,,我要第一个唱出来 欢迎回来\N{\rEng}I'll be the first to sing Welcome back
+Dialogue: 0,0:38:20.04,0:38:21.71,ch,,0,0,0,,罗伯特....我\N{\rEng}Roberto. I--
+Dialogue: 0,0:38:22.25,0:38:24.38,ch,,0,0,0,,欢迎回来\N{\rEng}Welcome back
+Dialogue: 0,0:38:26.13,0:38:30.14,ch,,0,0,0,,我是说 欢迎 欢迎 欢迎 欢迎\N{\rEng}I said welcome, welcome, welcome
+Dialogue: 0,0:38:34.06,0:38:37.89,ch,,0,0,0,,回来...\N{\rEng}back
+Dialogue: 0,0:38:38.94,0:38:40.10,ch,,0,0,0,,哇 你看上去棒极了\N{\rEng}Wow, you look great!
+Dialogue: 0,0:38:40.27,0:38:42.06,ch,,0,0,0,,你也是\N{\rEng}So do you.
+Dialogue: 0,0:38:42.23,0:38:45.98,ch,,0,0,0,,嗨 你好 我是珠儿...重要的那一位\N{\rEng}Hi, hey. Hi, there. I am Jewel's significant other.
+Dialogue: 0,0:38:46.90,0:38:50.24,ch,,0,0,0,,哦 你就是那个俘获了珠珠芳心的幸运鸟\N{\rEng}So, you're the lucky bird who swept Ju-Ju off her feet.
+Dialogue: 0,0:38:50.45,0:38:52.07,ch,,0,0,0,,-珠珠？  -是啊\N{\rEng}-"Ju-Ju"? -Yeah.
+Dialogue: 0,0:38:52.24,0:38:54.78,ch,,0,0,0,,我们小时候一直给对方起可爱的小名\N{\rEng}When we were kids, we always had the cutest nicknames for each other.
+Dialogue: 0,0:38:54.95,0:38:57.25,ch,,0,0,0,,是的 我叫他背头...呵呵\N{\rEng}We did. I called him "Beto."
+Dialogue: 0,0:38:57.41,0:38:59.29,ch,,0,0,0,,那真可爱 我也喜欢起小名\N{\rEng}That's adorable. I love doing the nicknames.
+Dialogue: 0,0:38:59.46,0:39:01.29,ch,,0,0,0,,你可从来没提起过什么罗伯特\N{\rEng}You never mentioned any "Roberto."
+Dialogue: 0,0:39:01.46,0:39:02.67,ch,,0,0,0,,那是他没有什么可提的啊\N{\rEng}There's nothing to mention.
+Dialogue: 0,0:39:02.84,0:39:03.92,ch,,0,0,0,,嘿\N{\rEng}Hey.
+Dialogue: 0,0:39:04.09,0:39:05.25,ch,,0,0,0,,我的搭档来了\N{\rEng}There's my wingman!
+Dialogue: 0,0:39:05.42,0:39:07.38,ch,,0,0,0,,有罗伯特放哨 我们都能安心睡觉了\N{\rEng}We can rest easy with Roberto on the lookout.
+Dialogue: 0,0:39:07.55,0:39:10.43,ch,,0,0,0,,多亏艾迪教会我一切 他是一只好鸟\N{\rEng}Eduardo taught me everything I know. He's the bird.
+Dialogue: 0,0:39:10.59,0:39:12.22,ch,,0,0,0,,-不 你才是好鸟...\N{\rEng}No. You're the bird.
+Dialogue: 0,0:39:12.39,0:39:14.05,ch,,0,0,0,,-不 你是好鸟 -你才是好鸟\N{\rEng}-No, you're the bird. -You're the bird!
+Dialogue: 0,0:39:14.22,0:39:16.06,ch,,0,0,0,,知道了 你们两个都是好鸟\N{\rEng}We get it. You're both "the bird."
+Dialogue: 0,0:39:16.22,0:39:18.73,ch,,0,0,0,,能不能别唧唧歪歪了 开始聚会吧\N{\rEng}Now, can we stop yakking and start partying?
+Dialogue: 0,0:39:20.90,0:39:22.94,ch,,0,0,0,,哇哦...我记得这首歌\N{\rEng}Wow! I remember this song.
+Dialogue: 0,0:39:23.15,0:39:25.77,ch,,0,0,0,,怎么可能忘记 它一直流淌在我们的血液里 宝贝\N{\rEng}How could you forget? It's in our blood, baby.
+Dialogue: 0,0:39:25.94,0:39:28.44,ch,,0,0,0,,这是只属于我们的歌\N{\rEng}It's who we are.
+Dialogue: 0,0:39:28.61,0:39:30.28,ch,,0,0,0,,不介意我借用她一会吧？嗯...\N{\rEng}You don't mind if I borrow her for a minute, do you?
+Dialogue: 0,0:39:30.45,0:39:31.99,ch,,0,0,0,,-额 事实上我... -来吧 珠珠\N{\rEng}-Actually... -Come on, Ju-Ju!
+Dialogue: 0,0:39:32.16,0:39:34.28,ch,,0,0,0,,开始了\N{\rEng}Let's go!
+Dialogue: 0,0:39:25.97,0:39:34.06,music,,0,0,0,,《Beautiful Creatures》
+Dialogue: 0,0:39:34.58,0:39:38.79,geci,,0,0,0,,Let's come together Singing love and harmonia
+Dialogue: 0,0:39:41.46,0:39:43.25,geci,,0,0,0,,We are so different
+Dialogue: 0,0:39:43.42,0:39:46.84,geci,,0,0,0,,But the same inside our hearts
+Dialogue: 0,0:39:48.84,0:39:49.92,geci,,0,0,0,,Blue-tiful colors
+Dialogue: 0,0:39:50.30,0:39:52.51,geci,,0,0,0,,As far as the eye can see
+Dialogue: 0,0:39:55.51,0:39:56.68,geci,,0,0,0,,Open your wings
+Dialogue: 0,0:39:56.85,0:40:01.02,geci,,0,0,0,,Fly when you hear the call
+Dialogue: 0,0:40:01.77,0:40:06.27,geci,,0,0,0,,Let's celebrate Calling all beautiful creatures
+Dialogue: 0,0:40:06.44,0:40:10.94,geci,,0,0,0,,Come spread your wings Dance and sing songs about freedom
+Dialogue: 0,0:40:11.11,0:40:12.65,geci,,0,0,0,,Like la-la-la, ooh-ooh
+Dialogue: 0,0:40:12.82,0:40:14.66,geci,,0,0,0,,-One for the jungle família -Come on, Blu!
+Dialogue: 0,0:40:15.83,0:40:17.62,geci,,0,0,0,,Like ba-ba-ba, boom-boom
+Dialogue: 0,0:40:17.79,0:40:22.12,geci,,0,0,0,,-Calling all beautiful creatures -Hey, Jewel? Jewel!
+Dialogue: 0,0:40:22.29,0:40:26.17,geci,,0,0,0,,Come this way, celebrate
+Dialogue: 0,0:40:26.88,0:40:29.50,geci,,0,0,0,,Laugh and dance all the way
+Dialogue: 0,0:40:31.63,0:40:36.01,ch,,0,0,0,,这个地方真是潜力无穷啊 我好喜欢他们这种歌\N{\rEng}Yo, this is untapped territory. I'm loving this sound.
+Dialogue: 0,0:40:49.94,0:40:51.99,geci,,0,0,0,,Pop-Pop! I am a Pop-Pop!
+Dialogue: 0,0:40:53.20,0:40:56.16,geci,,0,0,0,,I am your Pop-Pop! Yeah, I am the Pop-Pop
+Dialogue: 0,0:40:56.32,0:40:58.37,geci,,0,0,0,,Hey, the Pop-Pop!
+Dialogue: 0,0:40:59.83,0:41:04.54,geci,,0,0,0,,Let's celebrate Calling all beautiful creatures
+Dialogue: 0,0:41:04.71,0:41:09.21,geci,,0,0,0,,Come spread your wings Dance and sing songs about freedom
+Dialogue: 0,0:41:09.38,0:41:11.00,geci,,0,0,0,,Like la-la-la, ooh-ooh
+Dialogue: 0,0:41:11.17,0:41:14.01,geci,,0,0,0,,One for the jungle família
+Dialogue: 0,0:41:14.18,0:41:15.63,geci,,0,0,0,,Like ba-ba-ba, boom-boom
+Dialogue: 0,0:41:15.80,0:41:19.55,geci,,0,0,0,,Calling all beautiful creatures
+Dialogue: 0,0:41:32.82,0:41:35.70,ch,,0,0,0,,只有你能理解 孤苦伶仃是什么感觉\N{\rEng}You're the only one who knows what it feels like to be all alone.
+Dialogue: 0,0:41:35.86,0:41:37.57,ch,,0,0,0,,就这样\N{\rEng}Misunderstood.
+Dialogue: 0,0:41:37.74,0:41:40.16,ch,,0,0,0,,你邪恶 我狠毒\N{\rEng}You're the evil to my lethal.
+Dialogue: 0,0:41:40.33,0:41:42.58,ch,,0,0,0,,你应该改个名字叫话唠\N{\rEng}I can see why they call you "Gabi."
+Dialogue: 0,0:41:42.75,0:41:45.75,ch,,0,0,0,,在哪儿呢 你这个肮脏的家禽\N{\rEng}Where are you, you filthy fowl?
+Dialogue: 0,0:41:47.83,0:41:48.83,ch,,0,0,0,,站住\N{\rEng}Halt!
+Dialogue: 0,0:41:55.01,0:41:56.88,ch,,0,0,0,,我之前的行动战略不对\N{\rEng}I've been going about this all wrong.
+Dialogue: 0,0:41:57.05,0:41:59.59,ch,,0,0,0,,我应该去更高的地方找\N{\rEng}I need to search from higher ground.
+Dialogue: 0,0:42:03.52,0:42:06.52,ch,,0,0,0,,哦 你刚才腾空了将近整整一秒钟\N{\rEng}You stayed airborne for almost a full second that time.
+Dialogue: 0,0:42:09.61,0:42:12.44,ch,,0,0,0,,你看什么看 帮我上去\N{\rEng}What are you looking at? Get me up there.
+Dialogue: 0,0:42:13.61,0:42:14.94,ch,,0,0,0,,高点 高点\N{\rEng}Higher.
+Dialogue: 0,0:42:15.19,0:42:17.61,ch,,0,0,0,,再高点\N{\rEng}Higher! Even higher.
+Dialogue: 0,0:42:18.45,0:42:20.03,ch,,0,0,0,,稍微再高点\N{\rEng}Little bit higher.
+Dialogue: 0,0:42:21.37,0:42:22.95,ch,,0,0,0,,低点 现在低点\N{\rEng}Lower. Lower, now.
+Dialogue: 0,0:42:23.70,0:42:26.87,ch,,0,0,0,,很好 现在正好\N{\rEng}Yes. Perfect.
+Dialogue: 0,0:42:29.42,0:42:32.09,ch,,0,0,0,,哇哦 这么一大群祸害\N{\rEng}It's an infestation.
+Dialogue: 0,0:42:33.55,0:42:37.92,ch,,0,0,0,,呵呵 继续庆祝吧 你们很快就要高兴不起来了\N{\rEng}Keep celebrating. I'll be pooping on your party promptly.
+Dialogue: 0,0:42:41.89,0:42:44.39,ch,,0,0,0,,嗨 尼克  嗨 佩克罗\N{\rEng}Hi, Nico! Hi, Pedro!
+Dialogue: 0,0:42:46.10,0:42:47.31,ch,,0,0,0,,我们来对地方了\N{\rEng}We came to the right place.
+Dialogue: 0,0:42:47.48,0:42:49.64,ch,,0,0,0,,这就是火爆 亚马逊的火爆\N{\rEng}This is popping. It's popping in the Amazon.
+Dialogue: 0,0:42:49.81,0:42:51.52,ch,,0,0,0,,我们要把这些金刚鹦鹉带回里约\N{\rEng}We could bring these macaws back to Rio...
+Dialogue: 0,0:42:51.69,0:42:54.52,ch,,0,0,0,,参加有史以来最棒的狂欢节演出\N{\rEng}and have the best Carnival show ever.
+Dialogue: 0,0:42:54.69,0:42:57.49,ch,,0,0,0,,我现在灵感如泉涌\N{\rEng}I am inspired!
+Dialogue: 0,0:42:59.49,0:43:01.82,ch,,0,0,0,,抱歉 城里来的鸟\N{\rEng}Sorry to break it to you, city boys...
+Dialogue: 0,0:43:01.99,0:43:03.66,ch,,0,0,0,,我看你们还是去找别的明星吧\N{\rEng}but you'll have to find some other talent.
+Dialogue: 0,0:43:03.83,0:43:05.66,ch,,0,0,0,,谁也不许离开这里\N{\rEng}Nobody leaves the tribe.
+Dialogue: 0,0:43:07.12,0:43:10.16,ch,,0,0,0,,哦 还有 丛林里不许留下人类的东西 听懂了么\N{\rEng}And no human things in the jungle. Understood?
+Dialogue: 0,0:43:11.29,0:43:13.29,ch,,0,0,0,,什么 他什么毛病\N{\rEng}What? What's his problem?
+Dialogue: 0,0:43:13.46,0:43:15.00,ch,,0,0,0,,我被扒光了...\N{\rEng}I feel naked.
+Dialogue: 0,0:43:16.67,0:43:18.46,ch,,0,0,0,,差点就能流芳百世了\N{\rEng}We could have been legends.
+Dialogue: 0,0:43:18.63,0:43:21.05,ch,,0,0,0,,我们已经超级无敌了 可是...\N{\rEng}We already are super-mega-dope, but...
+Dialogue: 0,0:43:21.22,0:43:22.30,ch,,0,0,0,,你懂我的意思吗\N{\rEng}You know what I'm saying?
+Dialogue: 0,0:43:22.68,0:43:24.89,ch,,0,0,0,,我们什么都有 没被发掘的明星\N{\rEng}We had it all. The undiscovered talent...
+Dialogue: 0,0:43:25.06,0:43:26.97,ch,,0,0,0,,好的创意 灵感\N{\rEng}the big idea, the inspiration.
+Dialogue: 0,0:43:27.06,0:43:29.68,ch,,0,0,0,,可是没有办法把他们带回里约...\N{\rEng}But if we can't bring these guys to Rio...
+Dialogue: 0,0:43:29.85,0:43:30.81,ch,,0,0,0,,就什么都没有\N{\rEng}we got nothing.
+Dialogue: 0,0:43:30.98,0:43:31.89,ch,,0,0,0,,什么都没有？\N{\rEng}Nothing?
+Dialogue: 0,0:43:32.86,0:43:35.90,ch,,0,0,0,,别那么失落嘛 不是还有我老婆吗\N{\rEng}Hold your mangoes. We still have Eva.
+Dialogue: 0,0:43:37.65,0:43:38.74,ch,,0,0,0,,怎么\N{\rEng}What?
+Dialogue: 0,0:43:43.16,0:43:46.03,ch,,0,0,0,,哇哦 你跳的还是那么好 珠珠\N{\rEng}Wow! You still got the moves, Ju-Ju.
+Dialogue: 0,0:43:46.37,0:43:47.70,ch,,0,0,0,,-我快累死了 -是啊\N{\rEng}-I'm so exhausted. -Yeah.
+Dialogue: 0,0:43:47.87,0:43:51.16,ch,,0,0,0,,我们该去休息了 找个旅馆或者酒店\N{\rEng}We should get some rest. Find a local inn, or B and B nearby.
+Dialogue: 0,0:43:51.33,0:43:52.54,ch,,0,0,0,,你在胡说些什么啊\N{\rEng}What is this crazy talk?
+Dialogue: 0,0:43:52.71,0:43:54.71,ch,,0,0,0,,不 你们就住我家里\N{\rEng}No, you guys are staying in my nest.
+Dialogue: 0,0:43:54.88,0:43:56.21,ch,,0,0,0,,今晚我巡逻\N{\rEng}I'm on patrol tonight.
+Dialogue: 0,0:43:56.38,0:43:58.17,ch,,0,0,0,,我的家 就是你们的家\N{\rEng}Mi casa es su casa.
+Dialogue: 0,0:43:58.34,0:43:59.71,ch,,0,0,0,,你真是太好了 背头\N{\rEng}That's really nice, Beto.
+Dialogue: 0,0:43:59.88,0:44:01.22,ch,,0,0,0,,谢谢 但我觉得我们能搞定\N{\rEng}Thank you, but we're fine.
+Dialogue: 0,0:44:01.38,0:44:04.89,ch,,0,0,0,,再说我们一大家子 住单身公寓 挤不下\N{\rEng}Besides, our whole family couldn't possibly fit in your bachelor pad.
+Dialogue: 0,0:44:05.26,0:44:06.55,ch,,0,0,0,,哇哦\N{\rEng}Whoa.
+Dialogue: 0,0:44:07.68,0:44:09.47,ch,,0,0,0,,这里的房价一定非常低吧\N{\rEng}Real estate must be pretty cheap around here.
+Dialogue: 0,0:44:09.64,0:44:11.93,ch,,0,0,0,,哇哦 真是不可思议\N{\rEng}Wow. This is incredible.
+Dialogue: 0,0:44:12.73,0:44:16.27,ch,,0,0,0,,你说这家？这只是我最近随便弄的\N{\rEng}This old nest? It's just something I put together last minute.
+Dialogue: 0,0:44:16.44,0:44:18.73,ch,,0,0,0,,当然 用的是我的两只翅膀\N{\rEng}With my own two wings, of course.
+Dialogue: 0,0:44:18.90,0:44:20.44,ch,,0,0,0,,我的力气\N{\rEng}And my strength.
+Dialogue: 0,0:44:20.61,0:44:22.07,ch,,0,0,0,,还有我的肌肉（...）\N{\rEng}And my brawn.
+Dialogue: 0,0:44:23.82,0:44:26.49,ch,,0,0,0,,爸爸 这里好大 有六个卧室呢\N{\rEng}Dad, it's huge! It has six bedrooms!
+Dialogue: 0,0:44:26.78,0:44:29.41,ch,,0,0,0,,-我要最大的这间  -我是最大的\N{\rEng}-I get the big one! -No! I'm the oldest.
+Dialogue: 0,0:44:29.58,0:44:32.08,ch,,0,0,0,,就比我大3分钟外加2.5秒\N{\rEng}Only by 3 minutes, 2.5 seconds.
+Dialogue: 0,0:44:32.92,0:44:34.29,ch,,0,0,0,,我真希望有一天\N{\rEng}I had hoped to one day be blessed...
+Dialogue: 0,0:44:34.46,0:44:36.63,ch,,0,0,0,,我也有一群小鬼抢房间\N{\rEng}with a flock of little Robertos to call my own.
+Dialogue: 0,0:44:36.79,0:44:38.67,ch,,0,0,0,,-一定会的  -不会吧\N{\rEng}-I bet you did. -No way!
+Dialogue: 0,0:44:38.84,0:44:40.51,ch,,0,0,0,,这里有鸟浴盆\N{\rEng}A bird bath!
+Dialogue: 0,0:44:41.47,0:44:42.13,ch,,0,0,0,,迪耶戈 小...\N{\rEng}Tiago, caref-...
+Dialogue: 0,0:44:45.64,0:44:47.43,ch,,0,0,0,,还有按摩\N{\rEng}Jacuzzi.
+Dialogue: 0,0:44:49.68,0:44:51.85,ch,,0,0,0,,嘿 布鲁 跟你说点事\N{\rEng}Blu, let me tell you something.
+Dialogue: 0,0:44:52.02,0:44:56.60,ch,,0,0,0,,如果你出了任何事 任何...\N{\rEng}If anything, and I mean anything, ever happens to you...
+Dialogue: 0,0:44:56.77,0:44:58.69,ch,,0,0,0,,我会帮忙照顾好你的家人\N{\rEng}I will take care of your family.
+Dialogue: 0,0:44:59.32,0:45:01.11,ch,,0,0,0,,行了 睡个好觉\N{\rEng}All right, buddy. Sleep well.
+Dialogue: 0,0:45:01.28,0:45:03.95,ch,,0,0,0,,-晚安 珠珠   -晚安\N{\rEng}-Good night, Ju-Ju. -Good night.
+Dialogue: 0,0:45:18.13,0:45:19.75,ch,,0,0,0,,好了 一切都安全了\N{\rEng}Okay. All clear.
+Dialogue: 0,0:45:20.33,0:45:25.33,music,,0,0,0,,《Don't Go Away》
+Dialogue: 0,0:45:20.09,0:45:21.67,ch,,0,0,0,,Jewel：月光和星光\N{\rEng}Moon beams and starlight
+Dialogue: 0,0:45:23.51,0:45:26.38,ch,,0,0,0,,神奇的曙光\N{\rEng}Magical twilight
+Dialogue: 0,0:45:26.72,0:45:30.22,ch,,0,0,0,,最温暖的雨\N{\rEng}The warmest rain
+Dialogue: 0,0:45:30.68,0:45:34.81,ch,,0,0,0,,听他低吟你的名字\N{\rEng}Hear it whispering your names?
+Dialogue: 0,0:45:34.98,0:45:38.27,ch,,0,0,0,,午夜的彩虹\N{\rEng}Rainbows at midnight
+Dialogue: 0,0:45:38.44,0:45:41.32,ch,,0,0,0,,让星空闪耀\N{\rEng}Sparkling night skies
+Dialogue: 0,0:45:41.48,0:45:45.40,ch,,0,0,0,,不要远走\N{\rEng}Don't go away
+Dialogue: 0,0:45:45.57,0:45:49.49,ch,,0,0,0,,多停留一天\N{\rEng}Stay another day
+Dialogue: 0,0:45:50.91,0:45:53.24,ch,,0,0,0,,你能再唱一遍吗？\N{\rEng}Can you sing it again, please?
+Dialogue: 0,0:45:54.20,0:45:56.50,ch,,0,0,0,,该睡觉了\N{\rEng}Time for bed, now.
+Dialogue: 0,0:46:02.25,0:46:04.96,ch,,0,0,0,,多棒的一天啊\N{\rEng}What an amazing day.
+Dialogue: 0,0:46:05.13,0:46:07.55,ch,,0,0,0,,一直以来 我...\N{\rEng}All this time...
+Dialogue: 0,0:46:07.72,0:46:12.43,ch,,0,0,0,,我都没奢望过他们还活着\N{\rEng}I never let myself hope that they were alive.
+Dialogue: 0,0:46:13.64,0:46:15.10,ch,,0,0,0,,但是他们真的还都活着\N{\rEng}But they are.
+Dialogue: 0,0:46:16.60,0:46:19.23,ch,,0,0,0,,我们找到家人了 布鲁\N{\rEng}We found our family, Blu.
+Dialogue: 0,0:46:20.94,0:46:23.65,ch,,0,0,0,,这会改变一切的\N{\rEng}This changes everything.
+Dialogue: 0,0:46:23.82,0:46:25.19,ch,,0,0,0,,是的\N{\rEng}Yeah.
+Dialogue: 0,0:46:25.36,0:46:28.70,ch,,0,0,0,,等等 什么？ 改变什么？\N{\rEng}Wait. What? What's changing?
+Dialogue: 0,0:46:30.78,0:46:32.33,ch,,0,0,0,,珠儿\N{\rEng}Jewel?
+Dialogue: 0,0:47:07.95,0:47:10.28,ch,,0,0,0,,去 去  走开\N{\rEng}Shoo, shoo, shoo. Go on.
+Dialogue: 0,0:47:36.39,0:47:39.48,ch,,0,0,0,,亲爱的 别 别这样 很痒的\N{\rEng}Honey, stop. That tickles.
+Dialogue: 0,0:47:45.73,0:47:47.15,ch,,0,0,0,,哈哈 真有意思\N{\rEng}That was fun!
+Dialogue: 0,0:47:49.36,0:47:50.53,ch,,0,0,0,,迪耶戈\N{\rEng}Tiago!
+Dialogue: 0,0:47:51.41,0:47:53.07,ch,,0,0,0,,快走 迪耶戈 看我们走\N{\rEng}Come on, Tiago. Let's go.
+Dialogue: 0,0:48:03.17,0:48:04.38,ch,,0,0,0,,早上好\N{\rEng}Morning.
+Dialogue: 0,0:48:04.54,0:48:06.92,ch,,0,0,0,,或者我应该说 下午好\N{\rEng}Or should I say "afternoon"?
+Dialogue: 0,0:48:09.34,0:48:10.30,ch,,0,0,0,,早上好 先生\N{\rEng}Morning, sir.
+Dialogue: 0,0:48:10.47,0:48:12.88,ch,,0,0,0,,生活在这里得习惯早起\N{\rEng}Our days here in the jungle, they start early.
+Dialogue: 0,0:48:13.09,0:48:14.34,ch,,0,0,0,,早上好 爸爸\N{\rEng}Morning, Daddy.
+Dialogue: 0,0:48:14.51,0:48:17.14,ch,,0,0,0,,真是我的好女儿 她早就起来了\N{\rEng}That's my girl. See? Already up and at 'em.
+Dialogue: 0,0:48:17.31,0:48:18.35,ch,,0,0,0,,早上好 亲爱的\N{\rEng}Morning, sweetie.
+Dialogue: 0,0:48:19.35,0:48:20.73,ch,,0,0,0,,你干嘛让我睡懒觉\N{\rEng}Why did you let me sleep in?
+Dialogue: 0,0:48:20.89,0:48:23.27,ch,,0,0,0,,你说什么呢？你每天都睡懒觉\N{\rEng}What are you talking about? You sleep in every day.
+Dialogue: 0,0:48:23.44,0:48:24.85,ch,,0,0,0,,-是的 可是... -爸爸\N{\rEng}-Yeah, but... -Hey, Dad.
+Dialogue: 0,0:48:25.02,0:48:27.02,ch,,0,0,0,,咪咪阿姨说泥土对消化有好处\N{\rEng}Aunt Mimi says clay is good for your digestion.
+Dialogue: 0,0:48:27.19,0:48:28.90,ch,,0,0,0,,-试试啊  -不 宝贝儿 我刚刚刷...\N{\rEng}-Try some. -No, sweetie. I just brushed my--
+Dialogue: 0,0:48:29.07,0:48:31.44,ch,,0,0,0,,味道不错吧 我再去弄点\N{\rEng}It's good, right? I'm gonna go get some more.
+Dialogue: 0,0:48:31.86,0:48:33.20,ch,,0,0,0,,聪明的孩子\N{\rEng}Smart girl.
+Dialogue: 0,0:48:36.28,0:48:39.54,ch,,0,0,0,,我说要领格鲁转一转\N{\rEng}So, I thought I'd take Louie, here, for a little tour of the area.
+Dialogue: 0,0:48:39.70,0:48:40.87,ch,,0,0,0,,参观一下\N{\rEng}Show him around.
+Dialogue: 0,0:48:41.04,0:48:42.46,ch,,0,0,0,,-这主意太好了 -什么？\N{\rEng}-That's a great idea. -What?
+Dialogue: 0,0:48:42.62,0:48:46.00,ch,,0,0,0,,你跟爸爸出去转转 我带孩子们探探险\N{\rEng}You go have fun with Daddy, and I'll explore around here with the kids.
+Dialogue: 0,0:48:47.04,0:48:48.63,ch,,0,0,0,,-恩 好的 -你会喜欢的\N{\rEng}-Yeah, okay. Sure. -You'll love it.
+Dialogue: 0,0:48:48.80,0:48:51.09,ch,,0,0,0,,恩 好的 我只要...\N{\rEng}Yeah, great. I just gotta...
+Dialogue: 0,0:48:56.72,0:48:58.05,ch,,0,0,0,,行了 好了\N{\rEng}Okay, ready.
+Dialogue: 0,0:49:01.52,0:49:02.81,ch,,0,0,0,,这...\N{\rEng}Okay...
+Dialogue: 0,0:49:03.31,0:49:05.27,ch,,0,0,0,,鲁 靠近点\N{\rEng}Lou, come closer.
+Dialogue: 0,0:49:09.82,0:49:11.65,ch,,0,0,0,,-太近了 -好的\N{\rEng}-Not so close. -Okay.
+Dialogue: 0,0:49:11.82,0:49:13.32,ch,,0,0,0,,听着...\N{\rEng}Listen...
+Dialogue: 0,0:49:13.49,0:49:16.66,ch,,0,0,0,,我看不下去了 你把人类的口袋扔掉 行吗？\N{\rEng}I can barely look at it. You gotta lose that human pocket, okay?
+Dialogue: 0,0:49:16.91,0:49:18.37,ch,,0,0,0,,这只是个腰包\N{\rEng}This is a fanny pack.
+Dialogue: 0,0:49:18.53,0:49:20.99,ch,,0,0,0,,腰包嘛 很可爱\N{\rEng}"Fanny pack." Adorable.
+Dialogue: 0,0:49:21.16,0:49:22.37,ch,,0,0,0,,但这是人类的\N{\rEng}It's human.
+Dialogue: 0,0:49:22.54,0:49:26.04,ch,,0,0,0,,现在你已经是部落的一员了 你以后用不着它了\N{\rEng}And now that you're joining the tribe, you won't be needing it anymore.
+Dialogue: 0,0:49:26.21,0:49:28.54,ch,,0,0,0,,我们在河边泥岸上见\N{\rEng}I'll meet you by the clay banks.
+Dialogue: 0,0:49:29.09,0:49:30.17,ch,,0,0,0,,哦 不 加入部落？\N{\rEng}"Joining the tribe"?
+Dialogue: 0,0:49:30.34,0:49:32.71,ch,,0,0,0,,他不会以为我们真要搬到丛林里来吧\N{\rEng}He doesn't actually think we're moving to the jungle, does he?
+Dialogue: 0,0:49:32.88,0:49:36.18,ch,,0,0,0,,不 不 他是因为我们来了 太激动了\N{\rEng}No. He's just excited we're all here.
+Dialogue: 0,0:49:36.34,0:49:38.01,ch,,0,0,0,,别扫兴好么\N{\rEng}Let's not ruin the moment, okay?
+Dialogue: 0,0:49:38.18,0:49:42.10,ch,,0,0,0,,再说了 不带这个腰包去又不会要了你的命\N{\rEng}Besides, it won't kill you to leave behind the fanny pack.
+Dialogue: 0,0:49:42.27,0:49:46.02,ch,,0,0,0,,好吧 你赢了 我不带腰包就是了\N{\rEng}All right, you win. I will leave the fanny pack behind.
+Dialogue: 0,0:49:47.60,0:49:49.23,ch,,0,0,0,,老婆开心 日子舒心\N{\rEng}Happy wife, happy li--
+Dialogue: 0,0:49:49.40,0:49:50.23,ch,,0,0,0,,再见 亲爱的\N{\rEng}Bye, honey.
+Dialogue: 0,0:49:50.61,0:49:51.82,ch,,0,0,0,,玩的开心点\N{\rEng}Have fun.
+Dialogue: 0,0:49:52.07,0:49:55.40,ch,,0,0,0,,哦 当然 再见\N{\rEng}Yeah. Sure. Bye.
+Dialogue: 0,0:50:05.83,0:50:09.17,ch,,0,0,0,,各位 该起床了\N{\rEng}You guys. Wakey-wakey!
+Dialogue: 0,0:50:09.33,0:50:11.96,ch,,0,0,0,,-起床啦！ -伊娃 你有角色了\N{\rEng}-Wake up! -Eva! You got it!
+Dialogue: 0,0:50:12.13,0:50:14.67,ch,,0,0,0,,那个野性亚马逊怎么样了？\N{\rEng}What happened to "Amazon Untamed"?
+Dialogue: 0,0:50:14.84,0:50:16.76,ch,,0,0,0,,我订了计划 今天面试\N{\rEng}Here's the plan. Auditions today...
+Dialogue: 0,0:50:16.93,0:50:19.01,ch,,0,0,0,,然后明天预演一场\N{\rEng}and we preview the show tomorrow.
+Dialogue: 0,0:50:19.18,0:50:21.60,ch,,0,0,0,,我们？什么 你在说法语么？\N{\rEng}"We"? What you talking about, "we"? You speak French?
+Dialogue: 0,0:50:21.76,0:50:24.97,ch,,0,0,0,,行了 抓紧时间 我们开始吧\N{\rEng}Come on, chop-chop. Let's get started!
+Dialogue: 0,0:50:27.02,0:50:28.23,ch,,0,0,0,,哇哦 她动作可够快的\N{\rEng}Kid's been working.
+Dialogue: 0,0:50:30.36,0:50:32.40,geci,,0,0,0,,Tell me when to go Tell me when to go
+Dialogue: 0,0:50:32.57,0:50:34.23,geci,,0,0,0,,Tell me when to go Tell me when to go!
+Dialogue: 0,0:50:37.07,0:50:39.95,geci,,0,0,0,,'Cause shawty got low, low, low, low, low
+Dialogue: 0,0:50:42.20,0:50:43.70,ch,,0,0,0,,准备好了就可以开始了\N{\rEng}Any time you're ready.
+Dialogue: 0,0:50:44.58,0:50:45.66,ch,,0,0,0,,每次碰见个男的 我就想把他追到手\N{\rEng}Every time I come a fella gotta get it
+Dialogue: 0,0:50:45.83,0:50:47.46,ch,,0,0,0,,可是他们最后都逃走了 我就装傻 我就装酷\N{\rEng}Then I gotta go, and then I gotta get it Then they gotta blow
+Dialogue: 0,0:50:47.62,0:50:49.62,ch,,0,0,0,,管他们想什么 做什么\N{\rEng}And then I gotta show that any little thing A fella think that he be doing
+Dialogue: 0,0:50:49.79,0:50:51.33,ch,,0,0,0,,我不关心 到此结束\N{\rEng}'Cause it doesn't matter, I'm done
+Dialogue: 0,0:50:58.13,0:50:58.80,ch,,0,0,0,,下一个\N{\rEng}Next!
+Dialogue: 0,0:50:59.04,0:51:02.30,music2,,0,0,0,,原引巴西战舞卡波耶拉，一种艺术与武术之间的独特舞蹈
+Dialogue: 0,0:50:59.01,0:51:02.30,ch,,0,0,0,,我们是神奇的巴西战舞龟\N{\rEng}We are the amazing Capoeira Turtles.
+Dialogue: 0,0:51:11.90,0:51:13.15,ch,,0,0,0,,太精彩了 再来一个 再来一个\N{\rEng}-Bravo! Encore! Encore! -Encore!
+Dialogue: 0,0:51:13.90,0:51:15.94,ch,,0,0,0,,抱歉 伙计们 刚才谁表演\N{\rEng}Sorry, guys. Did I miss anything?
+Dialogue: 0,0:51:35.34,0:51:37.55,ch,,0,0,0,,嗨 我叫格兰纳 我是水豚\N{\rEng}Hi, my name is Claira the capybara...
+Dialogue: 0,0:51:37.71,0:51:40.38,ch,,0,0,0,,我要唱一首我最喜欢的歌\N{\rEng}and I will be singing my favorite song.
+Dialogue: 0,0:51:42.09,0:51:44.39,ch,,0,0,0,,回忆\N{\rEng}Memory
+Dialogue: 0,0:51:44.55,0:51:48.35,ch,,0,0,0,,孤零零的站在月光里\N{\rEng}All alone in the moonlight
+Dialogue: 0,0:51:54.56,0:51:56.73,ch,,0,0,0,,告诉我\N{\rEng}Touch me
+Dialogue: 0,0:51:56.90,0:52:00.69,ch,,0,0,0,,离开是如此的容易\N{\rEng}It's so easy to leave me
+Dialogue: 0,0:52:00.95,0:52:02.91,ch,,0,0,0,,再这么吃下去我们就没有演员了\N{\rEng}If they keep eating each other, we got no show.
+Dialogue: 0,0:52:03.07,0:52:05.12,ch,,0,0,0,,这里不是比谁吃的多\N{\rEng}This ain't an all-you-can-eat competition!
+Dialogue: 0,0:52:12.75,0:52:16.09,ch,,0,0,0,,嘿 你飞的好快 真的好快\N{\rEng}Hey. You are fast. You are really, really fast.
+Dialogue: 0,0:52:16.25,0:52:18.96,ch,,0,0,0,,我感觉我翅膀已经拉伤了 你这老鸟飞的还真快\N{\rEng}I think I pulled a wing or something. You are really fast for an old bird.
+Dialogue: 0,0:52:19.34,0:52:23.18,ch,,0,0,0,,我是说...你的智慧 拥有很多智慧的鸟\N{\rEng}For such a wise bird, is what I meant to say. Wise bird.
+Dialogue: 0,0:52:23.34,0:52:24.93,ch,,0,0,0,,智慧一般是随年龄一起增长的\N{\rEng}Which sometimes comes with age...
+Dialogue: 0,0:52:25.10,0:52:26.80,ch,,0,0,0,,不过年轻的时候也增长 比如像你 年轻又智慧\N{\rEng}but also can happen when you're young, like in your case.
+Dialogue: 0,0:52:26.97,0:52:29.22,ch,,0,0,0,,这种组合很少见 不过看到你这样..\N{\rEng}You could be wise and young, which is kind of a rare combination...
+Dialogue: 0,0:52:29.39,0:52:30.52,ch,,0,0,0,,真的好让人激动\N{\rEng}but thrilling when it happens.
+Dialogue: 0,0:52:30.68,0:52:32.10,ch,,0,0,0,,-安静点儿  -哦 谢谢\N{\rEng}-Be quiet. -Thank you, sir.
+Dialogue: 0,0:52:32.27,0:52:33.81,ch,,0,0,0,,你应该把城市的习惯丢掉了\N{\rEng}It's time to shake that city off of you.
+Dialogue: 0,0:52:33.98,0:52:36.56,ch,,0,0,0,,你要学习基本的...丛林生存要素\N{\rEng}You need to learn the basics of jungle survival.
+Dialogue: 0,0:52:36.73,0:52:38.23,ch,,0,0,0,,我们不是出来观光的吗？\N{\rEng}I thought we were going sightseeing.
+Dialogue: 0,0:52:39.32,0:52:41.15,ch,,0,0,0,,今天是训练日\N{\rEng}It's training day.
+Dialogue: 0,0:52:42.32,0:52:44.45,ch,,0,0,0,,来吧 泥土是你的朋友\N{\rEng}Come on! The mud is your friend.
+Dialogue: 0,0:52:44.61,0:52:47.49,ch,,0,0,0,,这是你的伪装 感觉他 品尝他\N{\rEng}This is your camouflage! Feel it. Taste it!
+Dialogue: 0,0:52:47.66,0:52:50.41,ch,,0,0,0,,如果没感觉 说明你的动作不对\N{\rEng}If you don't feel crusty, you're not doing it right!
+Dialogue: 0,0:52:51.66,0:52:53.96,ch,,0,0,0,,你不会想被人类看见的\N{\rEng}You don't wanna be seen by humans!
+Dialogue: 0,0:52:54.12,0:52:56.83,ch,,0,0,0,,快点儿 你是蓝皮克斯鹦鹉还是火鸡？\N{\rEng}Come on! Are you a macaw or a turkey?
+Dialogue: 0,0:53:03.59,0:53:05.30,ch,,0,0,0,,快点 再快点\N{\rEng}Faster. Faster.
+Dialogue: 0,0:53:05.59,0:53:08.43,ch,,0,0,0,,加油！你不想被吃掉吧\N{\rEng}Come on! You don't wanna be eaten!
+Dialogue: 0,0:53:10.52,0:53:13.98,ch,,0,0,0,,你独自一人在丛林里 你被陷阱抓住了\N{\rEng}You're alone in the jungle. You get caught in a trap.
+Dialogue: 0,0:53:14.14,0:53:15.77,ch,,0,0,0,,你会怎么办？\N{\rEng}What do you do?
+Dialogue: 0,0:53:15.94,0:53:17.15,ch,,0,0,0,,-如果我的腰包在的话  -不\N{\rEng}If I had my fanny pack--
+Dialogue: 0,0:53:17.31,0:53:18.81,ch,,0,0,0,,你要用你的嘴\N{\rEng}No! You use your beak.
+Dialogue: 0,0:53:18.98,0:53:20.61,ch,,0,0,0,,-我的嘴 -这是你最重要的工具\N{\rEng}-My beak. -It's your most important tool.
+Dialogue: 0,0:53:20.78,0:53:22.82,ch,,0,0,0,,好的 我用我的嘴\N{\rEng}Okay, okay. No, I use my beak.
+Dialogue: 0,0:53:23.45,0:53:25.49,ch,,0,0,0,,-就差一点了 -时间到\N{\rEng}-Almost. -Time's up!
+Dialogue: 0,0:53:25.66,0:53:27.28,ch,,0,0,0,,你挂了\N{\rEng}You're jaguar meat.
+Dialogue: 0,0:53:27.45,0:53:29.20,ch,,0,0,0,,罗伯特第一次就成功了\N{\rEng}Roberto got it on the first try.
+Dialogue: 0,0:53:29.83,0:53:31.12,ch,,0,0,0,,肯定的\N{\rEng}Of course he did.
+Dialogue: 0,0:53:31.49,0:53:34.62,ch,,0,0,0,,上 上 盘旋\N{\rEng}Up, up! And hover!
+Dialogue: 0,0:53:34.79,0:53:36.46,ch,,0,0,0,,-现在倒着飞 -什么 倒着飞\N{\rEng}-Now, backwards! -What, backwards?
+Dialogue: 0,0:53:36.63,0:53:38.50,ch,,0,0,0,,不 只有蜂鸟能倒着飞\N{\rEng}No, only hummingbirds can fly backwards.
+Dialogue: 0,0:53:38.67,0:53:40.21,ch,,0,0,0,,倒着飞\N{\rEng}Backwards.
+Dialogue: 0,0:53:40.55,0:53:44.63,ch,,0,0,0,,跳 飞起来 俯冲 在高点 \N{\rEng}Over! Under!Over!Under! Over!
+Dialogue: 0,0:53:44.80,0:53:46.47,ch,,0,0,0,,-干得好  -谢谢\N{\rEng}-Good job. -Thanks.
+Dialogue: 0,0:53:46.64,0:53:47.84,ch,,0,0,0,,没说你\N{\rEng}Not you.
+Dialogue: 0,0:53:48.85,0:53:49.97,ch,,0,0,0,,嗨！\N{\rEng}Hi.
+Dialogue: 0,0:53:51.60,0:53:53.14,ch,,0,0,0,,这是巴西栗树\N{\rEng}Brazil nut trees.
+Dialogue: 0,0:53:53.64,0:53:58.02,ch,,0,0,0,,这些树对我们的生存至关重要\N{\rEng}These trees are the key to our way of life.
+Dialogue: 0,0:53:58.81,0:54:01.07,ch,,0,0,0,,这些树为我们提供食物\N{\rEng}The trees feed us.
+Dialogue: 0,0:54:01.65,0:54:03.48,ch,,0,0,0,,它们供养我们 他们...\N{\rEng}They sustain us.
+Dialogue: 0,0:54:07.82,0:54:09.91,ch,,0,0,0,,-醒醒 -我醒着\N{\rEng}-Wake up! -I'm up.
+Dialogue: 0,0:54:10.08,0:54:11.99,ch,,0,0,0,,栗巴西...巴西栗树什么的\N{\rEng}Nutty Brazil... Brazil nut trees, something.
+Dialogue: 0,0:54:12.16,0:54:13.33,ch,,0,0,0,,是的 明白了\N{\rEng}Yeah, got it.
+Dialogue: 0,0:54:13.50,0:54:16.62,ch,,0,0,0,,这很重要 我们要保护这些树\N{\rEng}This is important. We have to protect these trees.
+Dialogue: 0,0:54:16.79,0:54:18.67,ch,,0,0,0,,我们的未来要依靠他们\N{\rEng}Our future depends on it.
+Dialogue: 0,0:54:18.83,0:54:21.34,ch,,0,0,0,,嗨 艾迪 这跟班是谁啊 \N{\rEng}Yo, Eddie. Who is your sidekick?
+Dialogue: 0,0:54:21.50,0:54:23.21,ch,,0,0,0,,你现在需要护士了？\N{\rEng}You got a nurse now?
+Dialogue: 0,0:54:24.17,0:54:24.84,ch,,0,0,0,,嗨 我是...\N{\rEng}Hi, I'm--
+Dialogue: 0,0:54:25.01,0:54:27.68,ch,,0,0,0,,你们是不是离我们的地盘太近了？\N{\rEng}Aren't you boys getting a little bit too close to our side?
+Dialogue: 0,0:54:27.84,0:54:29.05,ch,,0,0,0,,我们说好的 费利佩\N{\rEng}We have a deal, Felipe.
+Dialogue: 0,0:54:29.22,0:54:30.72,ch,,0,0,0,,嘿 别紧张\N{\rEng}Hey, relax.
+Dialogue: 0,0:54:30.89,0:54:33.06,ch,,0,0,0,,你知道我们对你满怀深情\N{\rEng}You know we got nothing but mad love for you.
+Dialogue: 0,0:54:33.22,0:54:34.97,ch,,0,0,0,,来吧 伙计们快飞吧\N{\rEng}Come on, boys, let's fly.
+Dialogue: 0,0:54:35.14,0:54:39.06,ch,,0,0,0,,给天空添些色彩吧 让他们去哭鼻子咯\N{\rEng}Paint the sky. Before they start to cry.
+Dialogue: 0,0:54:39.52,0:54:41.69,ch,,0,0,0,,-他们挺和气的   -树林那边是他们的\N{\rEng}-They seem nice. -They have their side of the grove...
+Dialogue: 0,0:54:41.86,0:54:42.98,ch,,0,0,0,,这边是我们的\N{\rEng}and we have ours.
+Dialogue: 0,0:54:43.19,0:54:45.23,ch,,0,0,0,,最近食物短缺\N{\rEng}Food is scarce these days.
+Dialogue: 0,0:54:55.87,0:54:58.16,ch,,0,0,0,,从没看见他们离我们的家园这么近\N{\rEng}Never seen them this close to the village before.
+Dialogue: 0,0:54:58.33,0:54:59.08,ch,,0,0,0,,啥？\N{\rEng}What?
+Dialogue: 0,0:54:59.25,0:55:01.92,ch,,0,0,0,,-别让他们看到你  -哦 对 抱歉\N{\rEng}-Don't let them see you! -Right, right. Sorry.
+Dialogue: 0,0:55:02.71,0:55:04.38,ch,,0,0,0,,也许我们应该去找琳达\N{\rEng}Maybe we should go find Linda.
+Dialogue: 0,0:55:04.55,0:55:07.67,ch,,0,0,0,,-那是什么？  -琳达是人 她把我养大\N{\rEng}-What's a Linda? -Linda is the person that raised me.
+Dialogue: 0,0:55:07.84,0:55:09.55,ch,,0,0,0,,-你是宠物？\N{\rEng}What? You're a pet?
+Dialogue: 0,0:55:09.72,0:55:13.22,ch,,0,0,0,,不是你想的那样 我们是朋友\N{\rEng}No, it wasn't anything like that. I was a companion.
+Dialogue: 0,0:55:13.39,0:55:16.18,ch,,0,0,0,,朋友？难怪你这幅样子\N{\rEng}You liked it? That explains everything.
+Dialogue: 0,0:55:16.35,0:55:18.52,ch,,0,0,0,,-琳达是我的家人  -家人？\N{\rEng}-Linda is family. -Family?
+Dialogue: 0,0:55:18.73,0:55:20.73,ch,,0,0,0,,人类不是我们的家人\N{\rEng}Humans aren't family.
+Dialogue: 0,0:55:20.90,0:55:22.56,ch,,0,0,0,,你没明白 他们是来帮忙的\N{\rEng}No, you don't understand. They're coming here to help.
+Dialogue: 0,0:55:22.73,0:55:23.52,ch,,0,0,0,,听着\N{\rEng}Listen to me.
+Dialogue: 0,0:55:23.69,0:55:26.40,ch,,0,0,0,,绝对不能带人类到我们的部落\N{\rEng}We do not bring humans into the tribe.
+Dialogue: 0,0:55:26.57,0:55:28.61,ch,,0,0,0,,远离人类我们才活到现在\N{\rEng}That is the only reason we're still alive.
+Dialogue: 0,0:55:28.78,0:55:31.91,ch,,0,0,0,,这你总应该明白吧\N{\rEng}You cannot be confused about this. Understood?
+Dialogue: 0,0:55:32.24,0:55:33.78,ch,,0,0,0,,是的 明白\N{\rEng}Yeah. Got it.
+Dialogue: 0,0:55:34.58,0:55:36.95,ch,,0,0,0,,现在 观光结束\N{\rEng}Sightseeing is over.
+Dialogue: 0,0:55:42.75,0:55:44.42,ch,,0,0,0,,你看见鸟巢了嚒？\N{\rEng}Do you see the nest?
+Dialogue: 0,0:55:48.17,0:55:49.72,ch,,0,0,0,,图里奥 你没事吧？\N{\rEng}Tulio, are you okay?
+Dialogue: 0,0:55:50.05,0:55:52.43,ch,,0,0,0,,我没事 我很好 我...\N{\rEng}I'm fine! I'm okay!
+Dialogue: 0,0:55:56.26,0:55:57.68,ch,,0,0,0,,我不太好\N{\rEng}Not okay.
+Dialogue: 0,0:56:02.10,0:56:04.44,ch,,0,0,0,,图里奥 他们在砍伐森林\N{\rEng}Tulio, they're cutting down the forest!
+Dialogue: 0,0:56:04.61,0:56:06.27,ch,,0,0,0,,琳达你要去哪？\N{\rEng}Linda, where are you going?
+Dialogue: 0,0:56:06.44,0:56:09.53,ch,,0,0,0,,去跟他们说 你去跟鸟说 我和人说\N{\rEng}To talk to them. You talk to birds, I talk to humans.
+Dialogue: 0,0:56:09.69,0:56:11.28,ch,,0,0,0,,不 等等\N{\rEng}No! Wait, don't!
+Dialogue: 0,0:56:12.78,0:56:14.95,ch,,0,0,0,,嘿 先生 你好\N{\rEng}Hey! Hey, mister!
+Dialogue: 0,0:56:15.12,0:56:16.87,ch,,0,0,0,,喂！\N{\rEng}Hello!
+Dialogue: 0,0:56:17.04,0:56:19.20,ch,,0,0,0,,我命令你把电锯关掉\N{\rEng}You take it easy with that chainsaw.
+Dialogue: 0,0:56:19.91,0:56:24.79,ch,,0,0,0,,有很珍贵的鸟类居住在这片丛林里 你不能把这些树都砍掉\N{\rEng}There are rare birds living around here. You can't cut down these trees!
+Dialogue: 0,0:56:25.13,0:56:27.75,ch,,0,0,0,,哦 亲爱的 你在这儿啊\N{\rEng}Sweetheart! There you are.
+Dialogue: 0,0:56:28.09,0:56:29.38,ch,,0,0,0,,我到处找你\N{\rEng}I was looking for you.
+Dialogue: 0,0:56:29.55,0:56:32.47,ch,,0,0,0,,嗨 你好 这儿真漂亮 对吗？\N{\rEng}Hi, there. Beautiful out here, isn't it?
+Dialogue: 0,0:56:33.47,0:56:34.59,ch,,0,0,0,,你们迷路了？\N{\rEng}You two lost?
+Dialogue: 0,0:56:36.26,0:56:37.93,ch,,0,0,0,,迷路？没有 呵呵\N{\rEng}Lost? No!
+Dialogue: 0,0:56:38.97,0:56:39.77,ch,,0,0,0,,迷路？\N{\rEng}Lost?
+Dialogue: 0,0:56:40.39,0:56:41.48,ch,,0,0,0,,不\N{\rEng}No.
+Dialogue: 0,0:56:41.64,0:56:44.31,ch,,0,0,0,,我们是来 来 来度蜜月的\N{\rEng}We're here on our honeymoon.
+Dialogue: 0,0:56:44.48,0:56:46.98,ch,,0,0,0,,我们正要回去和旅行团汇合呢\N{\rEng}We're actually just heading back to join the tour.
+Dialogue: 0,0:56:47.15,0:56:49.48,ch,,0,0,0,,今天是卡拉OK之夜\N{\rEng}It's karaoke night.
+Dialogue: 0,0:56:49.98,0:56:53.32,ch,,0,0,0,,走吧 亲爱的 人家还等着我们去唱..月亮河呢\N{\rEng}Come along, honey. Moon River isn't going to sing itself.
+Dialogue: 0,0:56:53.66,0:56:57.07,ch,,0,0,0,,琳达 这些人砍得可不止这些树\N{\rEng}Linda, logs aren't the only things these guys cut.
+Dialogue: 0,0:56:58.74,0:57:00.49,ch,,0,0,0,,快跑 琳达 我拖住他们 \N{\rEng}Run, Linda. I'll hold them off.
+Dialogue: 0,0:57:00.66,0:57:03.66,ch,,0,0,0,,走 走 走 快跑！\N{\rEng}-Go, go, go! Run! -Okay, okay, okay!
+Dialogue: 0,0:57:09.42,0:57:10.59,ch,,0,0,0,,请让一下 让一下\N{\rEng}Excuse me, excuse me!
+Dialogue: 0,0:57:15.97,0:57:16.97,ch,,0,0,0,,来吧 我们来比赛\N{\rEng}Come on, I'll race you.
+Dialogue: 0,0:57:17.93,0:57:20.72,ch,,0,0,0,,-真是太棒了  -好样的 迪耶戈\N{\rEng}-This is great! -All right, Tiago!
+Dialogue: 0,0:57:20.89,0:57:21.68,ch,,0,0,0,,哦 耶！\N{\rEng}Oh, yeah!
+Dialogue: 0,0:57:22.06,0:57:23.68,ch,,0,0,0,,迪耶戈\N{\rEng}Tiago!
+Dialogue: 0,0:57:30.86,0:57:32.23,ch,,0,0,0,,这真是太爽了\N{\rEng}That is so good.
+Dialogue: 0,0:57:32.40,0:57:33.86,ch,,0,0,0,,嘿 你们回来啦\N{\rEng}Hey, you're back.
+Dialogue: 0,0:57:34.82,0:57:36.70,ch,,0,0,0,,玩儿的怎么样啊？\N{\rEng}How did it go?
+Dialogue: 0,0:57:37.87,0:57:41.54,ch,,0,0,0,,我们玩的很开心 今天很有教育意义\N{\rEng}We had a great time. It was educational.
+Dialogue: 0,0:57:41.70,0:57:44.66,ch,,0,0,0,,爸爸 背头叔叔教了我一些很酷的飞行技巧\N{\rEng}Dad! Uncle Beto showed me some cool flying tricks.
+Dialogue: 0,0:57:44.83,0:57:45.75,ch,,0,0,0,,叔叔？\N{\rEng}"Uncle"?
+Dialogue: 0,0:57:45.92,0:57:48.13,ch,,0,0,0,,看 我会倒着飞啦\N{\rEng}Look, I can fly backwards.
+Dialogue: 0,0:57:48.29,0:57:50.21,ch,,0,0,0,,是啊 你很有天分\N{\rEng}Yeah, you're a natural, T-Bird.
+Dialogue: 0,0:57:53.34,0:57:56.05,ch,,0,0,0,,丛林的生活技巧要从小学起\N{\rEng}It's never too soon to learn the ways of the jungle, Tiago.
+Dialogue: 0,0:57:57.05,0:57:59.14,ch,,0,0,0,,可是有些家伙学不会\N{\rEng}Although, some may never learn.
+Dialogue: 0,0:58:00.93,0:58:03.27,ch,,0,0,0,,我要去..洗个澡（可怜的blu）\N{\rEng}I'm gonna go clean up.
+Dialogue: 0,0:58:05.19,0:58:08.19,ch,,0,0,0,,罗伯特 我看见人类在丛林附近\N{\rEng}Roberto, we saw humans near the grove.
+Dialogue: 0,0:58:08.35,0:58:10.61,ch,,0,0,0,,你要保持警惕\N{\rEng}I need you to stay alert.
+Dialogue: 0,0:58:11.98,0:58:13.07,ch,,0,0,0,,丛林的生活方法..\N{\rEng}"Ways of the jungle."
+Dialogue: 0,0:58:13.23,0:58:15.74,ch,,0,0,0,,我倒想学离开的方法\N{\rEng}I would like to learn a way out of this jungle.
+Dialogue: 0,0:58:21.91,0:58:24.79,ch,,0,0,0,,哦 他在那儿 我们的机会来啦\N{\rEng}There he is. Now is our chance.
+Dialogue: 0,0:58:24.95,0:58:26.16,ch,,0,0,0,,哦 我真是太激动了\N{\rEng}I'm so excited!
+Dialogue: 0,0:58:26.33,0:58:28.00,ch,,0,0,0,,准备舌头弹弓\N{\rEng}Prepare the tongue-a-pult.
+Dialogue: 0,0:58:32.21,0:58:35.38,ch,,0,0,0,,查理 让我重新飞起来\N{\rEng}Charlie, make me fly again.
+Dialogue: 0,0:58:36.47,0:58:37.93,ch,,0,0,0,,去干掉他们 老虎\N{\rEng}Go get them, tiger!
+Dialogue: 0,0:58:43.18,0:58:45.18,ch,,0,0,0,,快向征服你的凤头鹦鹉跪拜吧\N{\rEng}Bow before the conquering cockatoo.
+Dialogue: 0,0:58:45.73,0:58:47.43,ch,,0,0,0,,你是不是有病啊 伙计？\N{\rEng}What is your problem, dude?
+Dialogue: 0,0:58:47.98,0:58:49.90,ch,,0,0,0,,天哪 好变态啊\N{\rEng}Bird, that was sick!
+Dialogue: 0,0:58:50.06,0:58:52.23,ch,,0,0,0,,我说 面试的时候就该有这种镜头\N{\rEng}Now, that's the energy you bring into an audition.
+Dialogue: 0,0:58:52.61,0:58:53.48,ch,,0,0,0,,面试？\N{\rEng}Audition?
+Dialogue: 0,0:58:53.65,0:58:55.82,ch,,0,0,0,,是啊 我就是面试的\N{\rEng}Yeah, that's actually why I'm here.
+Dialogue: 0,0:58:55.99,0:58:57.44,ch,,0,0,0,, 我有一个很棒的....\N{\rEng}I've got a great little--
+Dialogue: 0,0:58:58.66,0:58:59.32,ch,,0,0,0,,您继续\N{\rEng}Go on.
+Dialogue: 0,0:58:59.49,0:59:01.66,ch,,0,0,0,,我们在寻找一个新的明星\N{\rEng}We're looking for a new star.
+Dialogue: 0,0:59:02.03,0:59:03.24,ch,,0,0,0,,明星？\N{\rEng}Star?
+Dialogue: 0,0:59:03.41,0:59:06.54,ch,,0,0,0,,你看上去很眼熟 我们是不是哪儿见过？\N{\rEng}You look familiar. Don't I know you from somewhere?
+Dialogue: 0,0:59:06.87,0:59:10.08,ch,,0,0,0,,不 不 不会的\N{\rEng}No, I don't think so. No. I'm...
+Dialogue: 0,0:59:10.92,0:59:14.92,ch,,0,0,0,,我叫...鲍勃 小鲍勃\N{\rEng}Bob. Yes. Bob, the bird.
+Dialogue: 0,0:59:16.13,0:59:18.38,ch,,0,0,0,,无所谓啦 展示才艺吧\N{\rEng}Okay, Bob, whatever. Show us what you got.
+Dialogue: 0,0:59:21.84,0:59:25.01,ch,,0,0,0,,恩 一开始我很害怕\N{\rEng}Well, at first I was afraid
+Dialogue: 0,0:59:25.18,0:59:26.93,ch,,0,0,0,,我惊得目瞪口呆\N{\rEng}I was petrified
+Dialogue: 0,0:59:27.60,0:59:30.52,ch,,0,0,0,,我一直以为我没法再活下去\N{\rEng}I kept thinking that I could never live
+Dialogue: 0,0:59:30.69,0:59:33.61,ch,,0,0,0,,没法再展翅飞翔\N{\rEng}I could barely fly
+Dialogue: 0,0:59:33.90,0:59:36.53,ch,,0,0,0,,我在无数个慢慢长夜里回想\N{\rEng}And I spent, oh, so many nights
+Dialogue: 0,0:59:36.69,0:59:39.24,ch,,0,0,0,,回想起他对我的残忍\N{\rEng}thinking how he did me wrong
+Dialogue: 0,0:59:39.40,0:59:41.49,ch,,0,0,0,,于是我变得坚强\N{\rEng}And I grew strong
+Dialogue: 0,0:59:41.66,0:59:45.66,ch,,0,0,0,,我学会了如何随遇而安\N{\rEng}And I learned how to get along
+Dialogue: 0,0:59:45.37,0:59:50.63,music,,0,0,0,,《I Will Survive》
+Dialogue: 0,0:59:45.83,0:59:48.83,ch,,0,0,0,,走吧 快滚 滚出这扇门\N{\rEng}Go on, now, go Walk out the door
+Dialogue: 0,0:59:49.96,0:59:51.62,ch,,0,0,0,,转身离开吧\N{\rEng}Just turn around now
+Dialogue: 0,0:59:52.21,0:59:54.04,ch,,0,0,0,,现在这里是我的了\N{\rEng}It is I who have the floor
+Dialogue: 0,0:59:54.96,0:59:57.84,ch,,0,0,0,,你不就是那个想用分手来伤害我的人吗？\N{\rEng}Weren't you the one who tried to hurt me with goodbye?
+Dialogue: 0,0:59:58.01,1:00:00.09,ch,,0,0,0,,-你以为我会垮掉  -哦 不\N{\rEng}-Did you think I'd crumble? -Oh, no!
+Dialogue: 0,1:00:00.26,1:00:02.13,ch,,0,0,0,,你以为我会躺在这儿死掉？\N{\rEng}Did you think I'd lay down and die?
+Dialogue: 0,1:00:02.30,1:00:03.18,ch,,0,0,0,,-不 奈杰尔你不会  -我会活下来\N{\rEng}Oh, no, not Nige
+Dialogue: 0,1:00:03.34,1:00:08.85,ch,,0,0,0,,只要我知道怎么去恨 我就会活下来\N {\rEng}I will survive As long as I know how to hate
+Dialogue: 0,1:00:09.02,1:00:14.10,ch,,0,0,0,,我会好好过这一生 \N{\rEng}I know I'll stay alive I've got all my life to live
+Dialogue: 0,1:00:14.27,1:00:15.90,ch,,0,0,0,,我又满腔的爱要付出\N{\rEng}And I've got all my love to give
+Dialogue: 0,1:00:16.07,1:00:17.98,ch,,0,0,0,,-我会活下来  -你会活下来\N{\rEng}-And I will survive -You will survive
+Dialogue: 0,1:00:18.15,1:00:20.28,ch,,0,0,0,,-我会活下来  -我们会活下来\N{\rEng}-I will survive -We will survive
+Dialogue: 0,1:00:20.45,1:00:22.74,ch,,0,0,0,,我是个幸存者 我的眼睛虎视眈眈\N{\rEng}I'm a survivor I've got the eye of a tiger
+Dialogue: 0,1:00:22.91,1:00:24.32,ch,,0,0,0,,加强修炼 多吃高纤\N{\rEng}Been training again And eating my fiber
+Dialogue: 0,1:00:24.49,1:00:26.87,ch,,0,0,0,,你只是活着 而我是鲜活的活着\N{\rEng}You been staying alive Well, I've been staying alive-er
+Dialogue: 0,1:00:27.04,1:00:29.41,ch,,0,0,0,,你要坐稳了 我吐口水的时候声音响彻云霄\N{\rEng}Watch where you sit when I spit my saliva, like boom
+Dialogue: 0,1:00:29.70,1:00:30.95,ch,,0,0,0,,你从来没见过一只凤头鹦鹉\N{\rEng}You've never seen a cockatoo
+Dialogue: 0,1:00:31.12,1:00:33.04,ch,,0,0,0,,随着摇滚的节奏 又唱又跳 尽情摇摆\N{\rEng}Rocking and shocking and dropping And popping and locking, too?
+Dialogue: 0,1:00:33.21,1:00:35.83,ch,,0,0,0,,看看我的本事 都用不着调音器\N{\rEng}Watch what I can do Without no Auto-Tune
+Dialogue: 0,1:00:36.00,1:00:36.84,ch,,0,0,0,,怎么样\N{\rEng}Say what?
+Dialogue: 0,1:00:40.05,1:00:40.84,ch,,0,0,0,,真的没有用哦\N{\rEng}Oh, no, he didn't.
+Dialogue: 0,1:00:41.01,1:00:42.80,ch,,0,0,0,,如果你你打压我\N{\rEng}If you try to keep me down
+Dialogue: 0,1:00:42.97,1:00:45.26,ch,,0,0,0,,只会让我变得更坚强\N{\rEng}I'll just come back stronger
+Dialogue: 0,1:00:45.43,1:00:46.97,ch,,0,0,0,,你想打断我\N{\rEng}You try to cut me short
+Dialogue: 0,1:00:47.10,1:00:49.35,ch,,0,0,0,,只会让我说的更多\N{\rEng}I'll just come back longer
+Dialogue: 0,1:00:49.52,1:00:53.52,ch,,0,0,0,,如果你想用乒乓球打败我 我会变成乒乓球健将\N{\rEng}If you beat me at ping pong I'll just play ping pong-er
+Dialogue: 0,1:00:53.69,1:00:55.44,ch,,0,0,0,,给我个王位 我准备好上位\N{\rEng}Give me my throne, I am ready to thrive
+Dialogue: 0,1:00:55.65,1:00:56.48,ch,,0,0,0,,我很清楚一件事\N{\rEng}One thing I know
+Dialogue: 0,1:00:57.32,1:00:58.98,ch,,0,0,0,,我会活下去\N{\rEng}I will survive
+Dialogue: 0,1:00:59.19,1:01:05.16,ch,,0,0,0,,我会...活下去\N{\rEng}I will survive
+Dialogue: 0,1:01:08.41,1:01:10.33,ch,,0,0,0,,谢谢 我是小鸟 鲍勃\N{\rEng}Yes, thank you. I've been Bob the bird.
+Dialogue: 0,1:01:12.08,1:01:14.00,ch,,0,0,0,,他真是太帅了\N{\rEng}He is so hot.
+Dialogue: 0,1:01:14.17,1:01:15.79,ch,,0,0,0,,好了 就是他 我要了\N{\rEng}Boom. That's it. You in.
+Dialogue: 0,1:01:15.96,1:01:18.13,ch,,0,0,0,,虽然不如伊娃 但是你很棒\N{\rEng}You're no Eva, but you're awesome.
+Dialogue: 0,1:01:18.29,1:01:20.42,ch,,0,0,0,,明天晚上狂欢节演出的时候见\N{\rEng}We'll see you at the performance tomorrow night.
+Dialogue: 0,1:01:20.59,1:01:24.13,ch,,0,0,0,,这里所有的鸟都会来看 你一定会红到发紫的\N{\rEng}Everyone from the village is coming. It's gonna be off the charts.
+Dialogue: 0,1:01:24.55,1:01:26.01,ch,,0,0,0,,所有鸟\N{\rEng}Everyone?
+Dialogue: 0,1:01:26.18,1:01:27.30,ch,,0,0,0,,所有鸟\N{\rEng}Everyone?
+Dialogue: 0,1:01:27.47,1:01:29.01,ch,,0,0,0,,这是个完美的计划\N{\rEng}It's the perfect plan.
+Dialogue: 0,1:01:29.93,1:01:32.77,ch,,0,0,0,,算你运气好 拔你几根刺 豪猪\N{\rEng}Be happy we're only plucking you, porcupine.
+Dialogue: 0,1:01:33.77,1:01:34.94,ch,,0,0,0,,滚吧\N{\rEng}Go away.
+Dialogue: 0,1:01:35.44,1:01:38.11,ch,,0,0,0,,与其满林子追那只鸟\N{\rEng}Instead of chasing that bird all over the jungle...
+Dialogue: 0,1:01:38.27,1:01:42.28,ch,,0,0,0,,不如让他演出的时候自己送上门\N{\rEng}we let him come to us, at the Carnival show.
+Dialogue: 0,1:01:42.44,1:01:46.15,ch,,0,0,0,,我会在舞台上迷住他们 而在观众席里...\N{\rEng}I'll mesmerize them from the stage, while in the audience...
+Dialogue: 0,1:01:46.32,1:01:48.12,ch,,0,0,0,,你 我的小噶比...\N{\rEng}you, my little Gabi...
+Dialogue: 0,1:01:48.95,1:01:53.12,ch,,0,0,0,,你会成为我的 迷你致命武器\N{\rEng}you'll be my petite weapon of mass destruction.
+Dialogue: 0,1:01:53.29,1:01:55.37,ch,,0,0,0,,这场演出将会是..\N{\rEng}It will be a performance...
+Dialogue: 0,1:01:56.83,1:01:58.21,ch,,0,0,0,,好看到死\N{\rEng}to die for.
+Dialogue: 0,1:02:04.97,1:02:06.55,ch,,0,0,0,,只有我才笑得出那种气场\N{\rEng}It only works when I do it.
+Dialogue: 0,1:02:06.72,1:02:08.84,ch,,0,0,0,,好的 爱你哦\N{\rEng}Okay. Love you.
+Dialogue: 0,1:02:18.31,1:02:20.15,ch,,0,0,0,,啊...舒服\N{\rEng}So minty.
+Dialogue: 0,1:02:25.65,1:02:26.53,ch,,0,0,0,,好耶\N{\rEng}Yes!
+Dialogue: 0,1:02:33.24,1:02:36.50,ch,,0,0,0,,哦 亲爱的 你在这儿 怎么这么长时间？\N{\rEng}Hey, sweetie, there you are. What's taking you so long?
+Dialogue: 0,1:02:36.66,1:02:38.42,ch,,0,0,0,,啊 别再弄那个GPS了\N{\rEng}Enough with that GPS, really.
+Dialogue: 0,1:02:38.58,1:02:40.67,ch,,0,0,0,,我们一起去看日落 快走吧\N{\rEng}The whole tribe's gathering to watch the sunset. Come on.
+Dialogue: 0,1:02:40.84,1:02:43.75,ch,,0,0,0,,等一下 我刚找到琳达和图里奥的坐标\N{\rEng}No, no. Hang on. I just found Linda and Tulio's coordinates.
+Dialogue: 0,1:02:43.92,1:02:45.34,ch,,0,0,0,,他们就在林子的另一半 瞧\N{\rEng}They are just on the other side of the grove.
+Dialogue: 0,1:02:45.51,1:02:46.84,ch,,0,0,0,,他们离得很近\N{\rEng}Look, they're really close.
+Dialogue: 0,1:02:47.55,1:02:48.34,ch,,0,0,0,,是呀\N{\rEng}Yeah.
+Dialogue: 0,1:02:48.51,1:02:50.26,ch,,0,0,0,,我知道你爸爸不相信人类\N{\rEng}Now, I know your dad doesn't totally trust humans...
+Dialogue: 0,1:02:50.43,1:02:52.60,ch,,0,0,0,,可他一旦见到了 他就会改变想法\N{\rEng}but I'm sure if he met them, he would change his mind.
+Dialogue: 0,1:02:52.76,1:02:54.22,ch,,0,0,0,,琳达他们能保护这里\N{\rEng}They can help keep this place safe.
+Dialogue: 0,1:02:54.39,1:02:55.43,ch,,0,0,0,,是的 布鲁..\N{\rEng}Yeah, Blu...
+Dialogue: 0,1:02:55.60,1:02:57.35,ch,,0,0,0,,我爸自己能解决\N{\rEng}my dad knows what he's doing.
+Dialogue: 0,1:02:58.90,1:03:02.77,ch,,0,0,0,,我说你能不能忘掉琳达和图里奥一会儿 好好享受日落？\N{\rEng}And can't you just forget Linda and Tulio for one minute and enjoy a sunset?
+Dialogue: 0,1:03:02.94,1:03:04.69,ch,,0,0,0,,但是这不是我们的计划吗？\N{\rEng}But I thought that was our plan.
+Dialogue: 0,1:03:04.86,1:03:06.57,ch,,0,0,0,,GPS:路线规划完成\N{\rEng}GPS: Route guidance complete.
+Dialogue: 0,1:03:08.70,1:03:12.70,ch,,0,0,0,,恩...我...你知道 有些地方也许不该被发现\N{\rEng}You know, maybe some places shouldn't be found.
+Dialogue: 0,1:03:13.28,1:03:16.04,ch,,0,0,0,,也许就应该与世隔绝\N{\rEng}Maybe they should just be left alone.
+Dialogue: 0,1:03:19.42,1:03:21.54,ch,,0,0,0,,她吃了一只虫子 一只虫子\N{\rEng}She ate a bug. A bug!
+Dialogue: 0,1:03:21.71,1:03:23.79,ch,,0,0,0,,布鲁 布鲁 冷静\N{\rEng}Blu, Blu, Blu! Calm down.
+Dialogue: 0,1:03:23.96,1:03:25.55,ch,,0,0,0,,冷静？我们有个计划\N{\rEng}Calm down? We had a plan.
+Dialogue: 0,1:03:25.71,1:03:27.88,ch,,0,0,0,,帮助琳达和图里奥找到鹦鹉 然后回家\N{\rEng}Help Linda and Tulio find the flock and get home.
+Dialogue: 0,1:03:28.05,1:03:30.22,ch,,0,0,0,,可是我提醒他 她根本就不理我\N{\rEng}But when I mentioned it to her, she completely shut me down.
+Dialogue: 0,1:03:31.80,1:03:33.89,ch,,0,0,0,,哦 还有他的爸爸 完全不开窍\N{\rEng}And her father? A total nut job.
+Dialogue: 0,1:03:34.06,1:03:35.72,ch,,0,0,0,,他对人类的看法很奇怪\N{\rEng}He's got this weird thing about humans.
+Dialogue: 0,1:03:35.89,1:03:37.89,ch,,0,0,0,,他对人类的看法很奇怪\N{\rEng}He's got this weird thing about humans!
+Dialogue: 0,1:03:38.06,1:03:40.10,ch,,0,0,0,,他爱人类 他是个宠物\N{\rEng}He loves them. He's a pet!
+Dialogue: 0,1:03:40.73,1:03:41.73,ch,,0,0,0,,宠物？\N{\rEng}A pet?
+Dialogue: 0,1:03:41.90,1:03:43.10,ch,,0,0,0,,他叫我宠物！\N{\rEng}He called me a pet.
+Dialogue: 0,1:03:43.27,1:03:45.57,ch,,0,0,0,,真不敢相信 他居然当我的面这么说\N{\rEng}I can't believe he used the "P" word to my face.
+Dialogue: 0,1:03:45.73,1:03:47.32,ch,,0,0,0,,像是把我当成敌人似的\N{\rEng}It's like he thinks I'm the enemy or something.
+Dialogue: 0,1:03:47.49,1:03:50.74,ch,,0,0,0,,他跟我们不是一路的 你要盯着点儿他\N{\rEng}He's not one of us, Roberto. Keep an eye on him.
+Dialogue: 0,1:03:50.91,1:03:53.16,ch,,0,0,0,,还有那个罗伯特 他在监视\N{\rEng}And that Roberto? He is always watching.
+Dialogue: 0,1:03:53.32,1:03:56.87,ch,,0,0,0,,总是在珠儿身边转 总是唱着什么歌\N{\rEng}He is always hovering around Jewel. He is always singing something.
+Dialogue: 0,1:03:57.04,1:03:58.25,ch,,0,0,0,,我根本比不上他\N{\rEng}I can't compete with that.
+Dialogue: 0,1:03:58.41,1:03:59.37,ch,,0,0,0,,你要拿出点鸟样来\N{\rEng}You gotta bird up, bird!
+Dialogue: 0,1:03:59.54,1:04:01.71,ch,,0,0,0,,从被驯养的状态中解放出来\N{\rEng}You gotta emancipate yourself from domestication.
+Dialogue: 0,1:04:01.87,1:04:03.79,ch,,0,0,0,,用珠儿的眼光看这里\N{\rEng}Try to see this place through her eyes.
+Dialogue: 0,1:04:03.96,1:04:06.80,ch,,0,0,0,,去尝尝珠儿品尝的那些味道\N{\rEng}Taste the flavors she's tasting.
+Dialogue: 0,1:04:06.96,1:04:08.26,ch,,0,0,0,,让我去吃虫子？\N{\rEng}So I should eat a bug?
+Dialogue: 0,1:04:08.42,1:04:09.46,ch,,0,0,0,,那太恶心了 再考虑一下\N{\rEng}That's just nasty, thinking about it.
+Dialogue: 0,1:04:09.63,1:04:11.55,ch,,0,0,0,,闪光片 我的闪光片在哪儿？\N{\rEng}Glitter. Where is my glitter?
+Dialogue: 0,1:04:11.72,1:04:12.63,ch,,0,0,0,,哦 对不起 对不起\N{\rEng}I'm sorry. Sorry.
+Dialogue: 0,1:04:12.80,1:04:15.60,ch,,0,0,0,,我不需要听道歉 我要闪光片\N{\rEng}I don't want apologies. I want glitter.
+Dialogue: 0,1:04:16.14,1:04:19.31,ch,,0,0,0,,充满魔力的表演最终要靠的就是闪光片\N{\rEng}Glitter is absolutely essential for a magical performance.
+Dialogue: 0,1:04:19.48,1:04:21.27,ch,,0,0,0,,-你怎么就不懂呢？ -伙计们\N{\rEng}-Do you know nothing? -Guys!
+Dialogue: 0,1:04:21.44,1:04:23.65,ch,,0,0,0,,快去彩排 明天是个大日子\N{\rEng}Rehearsals, big day tomorrow.
+Dialogue: 0,1:04:23.81,1:04:26.98,ch,,0,0,0,,想起来了吗？ 你回来的 对吗 爸爸？\N{\rEng}Ring a bell? Come on. You're coming, right, Dad?
+Dialogue: 0,1:04:27.15,1:04:28.44,ch,,0,0,0,,哦 当然了\N{\rEng}Oh, yeah, of course.
+Dialogue: 0,1:04:28.61,1:04:31.49,ch,,0,0,0,,那孩子把娱乐搞得像是交作业\N{\rEng}That girl put the "business" in "show business."
+Dialogue: 0,1:04:31.65,1:04:32.61,ch,,0,0,0,,-布鲁 记住\N{\rEng}Blu, remember--
+Dialogue: 0,1:04:32.78,1:04:36.16,ch,,0,0,0,,我知道 我知道了 老婆开心 日子舒心\N{\rEng}I know, I know. Happy wife, happy life.
+Dialogue: 0,1:04:40.62,1:04:43.46,ch,,0,0,0,,多么美好的晨曦啊！\N{\rEng}What a glorious morning!
+Dialogue: 0,1:04:46.84,1:04:50.30,ch,,0,0,0,,我都忘记了能够享受这样的早晨\N{\rEng}I forgot I could have mornings like this.
+Dialogue: 0,1:04:56.30,1:04:57.80,ch,,0,0,0,,耶\N{\rEng}Yeah.
+Dialogue: 0,1:05:01.77,1:05:02.98,ch,,0,0,0,,你最爱吃的\N{\rEng}Your favorite.
+Dialogue: 0,1:05:03.77,1:05:05.15,ch,,0,0,0,,哦 你记得这个\N{\rEng}You remembered.
+Dialogue: 0,1:05:05.31,1:05:07.77,ch,,0,0,0,,这真是太好了\N{\rEng}Isn't that nice?
+Dialogue: 0,1:05:11.65,1:05:14.15,ch,,0,0,0,,这感觉真是棒极了\N{\rEng}It's so crazy good.
+Dialogue: 0,1:05:14.32,1:05:16.53,ch,,0,0,0,,谢谢你 布鲁\N{\rEng}Thank you so much, Blu.
+Dialogue: 0,1:05:21.79,1:05:23.37,ch,,0,0,0,,对呀\N{\rEng}That's it!
+Dialogue: 0,1:05:28.50,1:05:30.50,ch,,0,0,0,,我要给珠儿一个惊喜\N{\rEng}I'll be the one to surprise her.
+Dialogue: 0,1:05:30.67,1:05:33.72,ch,,0,0,0,,给他送早餐 马上就来\N{\rEng}Breakfast in bed, coming up.
+Dialogue: 0,1:06:10.04,1:06:12.05,ch,,0,0,0,,巴西栗\N{\rEng}Brazil nuts.
+Dialogue: 0,1:06:12.21,1:06:14.21,ch,,0,0,0,,你们在哪儿？\N{\rEng}Where are you?
+Dialogue: 0,1:06:17.34,1:06:19.51,ch,,0,0,0,,我就知道你们在这附近\N{\rEng}I know you're around here somewhere.
+Dialogue: 0,1:06:22.93,1:06:24.72,ch,,0,0,0,,嘿 嘿 嘿\N{\rEng}Hey! Hey.
+Dialogue: 0,1:06:24.89,1:06:26.39,ch,,0,0,0,,不 快回来 等等\N{\rEng}No! Come back here. Wait!
+Dialogue: 0,1:06:26.56,1:06:27.85,ch,,0,0,0,,不！\N{\rEng}No!
+Dialogue: 0,1:06:28.02,1:06:28.94,ch,,0,0,0,,那不是玩具\N{\rEng}That's not a toy.
+Dialogue: 0,1:06:29.27,1:06:31.06,ch,,0,0,0,,GPS:违章驾驶 靠边停车\N{\rEng}GPS: Erratic driving. Pull over.
+Dialogue: 0,1:06:40.95,1:06:42.20,ch,,0,0,0,,不 不 不要\N{\rEng}No, no. Don't do it.
+Dialogue: 0,1:07:03.10,1:07:03.76,ch,,0,0,0,,抓到你了\N{\rEng}I got you!
+Dialogue: 0,1:07:04.47,1:07:06.22,ch,,0,0,0,,谢谢\N{\rEng}Thank you.
+Dialogue: 0,1:07:08.94,1:07:09.73,ch,,0,0,0,,总算找到了\N{\rEng}Finally!
+Dialogue: 0,1:07:10.23,1:07:11.60,ch,,0,0,0,,巴西栗\N{\rEng}Brazil nuts.
+Dialogue: 0,1:07:15.69,1:07:18.78,ch,,0,0,0,,这个才是我最重要的工具\N{\rEng}This is my most important tool.
+Dialogue: 0,1:07:35.38,1:07:39.38,ch,,0,0,0,,好啊 好啊 瞧瞧这是谁来了\N{\rEng}Well, well, well. What do we have here?
+Dialogue: 0,1:07:41.43,1:07:46.10,ch,,0,0,0,,看样子不是所有的鸟都遵守老艾迪的规矩\N{\rEng}I guess old Eddie's rules don't apply to everyone.
+Dialogue: 0,1:07:48.77,1:07:50.77,ch,,0,0,0,,这儿是我们的地盘\N{\rEng}You're on our side.
+Dialogue: 0,1:07:50.94,1:07:52.40,ch,,0,0,0,,哦 是吗？ 对不起 我的错\N{\rEng}Really? Okay, my bad.
+Dialogue: 0,1:07:52.56,1:07:53.94,ch,,0,0,0,,我没注意到 真抱歉\N{\rEng}I didn't know that. Sorry.
+Dialogue: 0,1:07:54.98,1:07:56.82,ch,,0,0,0,,对不起 对不起\N{\rEng}Sorry! Sorry.
+Dialogue: 0,1:07:58.15,1:08:00.99,ch,,0,0,0,,闯进我们的地盘 抢我们的食物\N{\rEng}You come over here, take our food...
+Dialogue: 0,1:08:01.16,1:08:03.16,ch,,0,0,0,,现在你还侮辱我？\N{\rEng}and now you insult me?
+Dialogue: 0,1:08:04.24,1:08:07.49,ch,,0,0,0,,不 不 不 这件事儿完全是个误会\N{\rEng}No, no, no. This is all just a big misunderstanding.
+Dialogue: 0,1:08:08.16,1:08:11.12,ch,,0,0,0,,知道吗 我非常想接受你的道歉\N{\rEng}You know, I wish I could accept your apology.
+Dialogue: 0,1:08:11.29,1:08:14.00,ch,,0,0,0,,你看上去像是只好鸟\N{\rEng}You seem like a nice bird.
+Dialogue: 0,1:08:14.17,1:08:15.59,ch,,0,0,0,,可是这代表战争！\N{\rEng}But this means war!
+Dialogue: 0,1:08:15.75,1:08:19.34,ch,,0,0,0,,什么？有必要吗？能代表点别的吗？\N{\rEng}What? Does it have to? Can it mean something else?
+Dialogue: 0,1:08:19.51,1:08:22.09,ch,,0,0,0,,今天 在死亡坑\N{\rEng}Today, in the Pit of Doom.
+Dialogue: 0,1:08:22.80,1:08:24.51,ch,,0,0,0,,对不起 死亡坑 真的吗？\N{\rEng}Sorry, the "Pit of Doom"? Really?
+Dialogue: 0,1:08:25.35,1:08:26.26,ch,,0,0,0,,真的么？\N{\rEng}Really?
+Dialogue: 0,1:08:26.43,1:08:29.85,ch,,0,0,0,,正午 我要腾出点地方来\N{\rEng}High noon. I'll make some room.
+Dialogue: 0,1:08:30.02,1:08:32.60,ch,,0,0,0,,像扫帚一样把你扫出这片林子\N{\rEng}Sweep you up like a broom.
+Dialogue: 0,1:08:40.19,1:08:41.19,ch,,0,0,0,,-你干了什么？\N{\rEng}You did what?
+Dialogue: 0,1:08:41.36,1:08:42.36,ch,,0,0,0,,那是个意外\N{\rEng}It was an accident.
+Dialogue: 0,1:08:42.49,1:08:44.36,ch,,0,0,0,,-意外  -嘿 出了什么事？\N{\rEng}-An accident? -Hey, what's going on?
+Dialogue: 0,1:08:44.53,1:08:47.33,ch,,0,0,0,,多谢布鲁 我们可能要失去这片林子了\N{\rEng}Thanks to Drew, here, we could lose our entire side of the grove.
+Dialogue: 0,1:08:47.49,1:08:49.79,ch,,0,0,0,,我只是想去摘个坚果  就一个\N{\rEng}I was just trying to get a nut. One nut!
+Dialogue: 0,1:08:49.95,1:08:52.87,ch,,0,0,0,,你都不喜欢吃坚果 这到底是怎么一回事 布鲁？\N{\rEng}You don't even like nuts! What's gotten into you, Blu?
+Dialogue: 0,1:08:53.04,1:08:54.71,ch,,0,0,0,,我想给你准备早点\N{\rEng}I was getting it for you.
+Dialogue: 0,1:08:54.88,1:08:56.67,ch,,0,0,0,,哦 真的吗？\N{\rEng}You were?
+Dialogue: 0,1:08:56.84,1:08:59.21,ch,,0,0,0,,罗伯特 你带上最棒的鸟去\N{\rEng}Roberto, I want your best birds on this.
+Dialogue: 0,1:08:59.38,1:09:01.05,ch,,0,0,0,,我们绝不能不战而降\N{\rEng}We are not giving up without a fight.
+Dialogue: 0,1:09:01.22,1:09:02.13,ch,,0,0,0,,明白\N{\rEng}Got it.
+Dialogue: 0,1:09:02.30,1:09:04.38,ch,,0,0,0,,你 别管这事儿了\N{\rEng}You. Stay out of it.
+Dialogue: 0,1:09:04.55,1:09:05.72,ch,,0,0,0,,净添麻烦\N{\rEng}You've done enough.
+Dialogue: 0,1:09:05.89,1:09:07.39,ch,,0,0,0,,-等等  -布鲁 他是对的\N{\rEng}-Wait! -Blu, he's right.
+Dialogue: 0,1:09:07.56,1:09:09.39,ch,,0,0,0,,就让爸爸和罗伯特去处理这件事吧\N{\rEng}Maybe you should just let Dad and Roberto handle it.
+Dialogue: 0,1:09:09.56,1:09:11.06,ch,,0,0,0,,你也觉得我处理不了？\N{\rEng}You don't think I can do this?
+Dialogue: 0,1:09:11.23,1:09:13.56,ch,,0,0,0,,不 我只是...\N{\rEng}No, I just don't know...
+Dialogue: 0,1:09:13.73,1:09:18.02,ch,,0,0,0,,只是不太确定 外交在不在你的专长范围内\N{\rEng}if it's your exact area of expertise.
+Dialogue: 0,1:09:18.48,1:09:21.73,ch,,0,0,0,,快走 快走 死亡坑\N{\rEng}Let's go, let's go, let's go! Pit of Doom, now!
+Dialogue: 0,1:09:40.59,1:09:42.09,ch,,0,0,0,,无线电！\N{\rEng}Radio!
+Dialogue: 0,1:09:45.76,1:09:47.89,ch,,0,0,0,,我希望你别介意\N{\rEng}I hope you don't mind.
+Dialogue: 0,1:09:48.68,1:09:50.43,ch,,0,0,0,, 我把这儿当自己家\N{\rEng}I made myself at home.
+Dialogue: 0,1:09:50.89,1:09:52.52,ch,,0,0,0,,棒棒糖？\N{\rEng}Lollipop?
+Dialogue: 0,1:10:00.61,1:10:05.40,ch,,0,0,0,,真是可惜啊 你们两位大老远跑来保护这片森林\N{\rEng}It's a shame, really. You came all this way to protect the jungle.
+Dialogue: 0,1:10:05.57,1:10:08.53,ch,,0,0,0,,我们看看它会不会报答你们\N{\rEng}Let's see if it will return the favor.
+Dialogue: 0,1:10:08.70,1:10:10.45,ch,,0,0,0,,两个疯子...\N{\rEng}Tree huggers.
+Dialogue: 0,1:10:21.55,1:10:22.96,ch,,0,0,0,,罗伯特\N{\rEng}Roberto.
+Dialogue: 0,1:10:23.13,1:10:24.88,ch,,0,0,0,,费利佩\N{\rEng}Felipe.
+Dialogue: 0,1:10:27.93,1:10:29.39,ch,,0,0,0,,给他点厉害瞧瞧\N{\rEng}No mercy!
+Dialogue: 0,1:10:29.55,1:10:30.60,ch,,0,0,0,,我得阻止他们\N{\rEng}I have to stop this.
+Dialogue: 0,1:10:30.76,1:10:31.72,ch,,0,0,0,,什么 布鲁？\N{\rEng}What? Blu!
+Dialogue: 0,1:10:31.89,1:10:33.43,ch,,0,0,0,,停下 停下\N{\rEng}Stop! Stop!
+Dialogue: 0,1:10:33.60,1:10:34.89,ch,,0,0,0,,艾迪 这太疯狂了\N{\rEng}Eduardo, this is crazy.
+Dialogue: 0,1:10:35.06,1:10:37.94,ch,,0,0,0,,我们是高等物种 我们能更好的解决问题\N{\rEng}We are an intelligent species with advanced problem-solving capabilities.
+Dialogue: 0,1:10:38.10,1:10:40.65,ch,,0,0,0,,这是你挑起来的 等着瞧吧\N{\rEng}You brought this on us. Now, watch.
+Dialogue: 0,1:10:54.33,1:10:55.16,ch,,0,0,0,,头冲上\N{\rEng}Heads.
+Dialogue: 0,1:10:55.33,1:10:56.29,ch,,0,0,0,,尾巴冲上\N{\rEng}Tails.
+Dialogue: 0,1:10:57.71,1:10:59.29,ch,,0,0,0,,我讨厌这个工作\N{\rEng}I hate this job.
+Dialogue: 0,1:11:05.63,1:11:07.34,ch,,0,0,0,,这是比赛？ 这是比赛！\N{\rEng}It's a game. It's a game!
+Dialogue: 0,1:11:07.51,1:11:10.34,ch,,0,0,0,,这不是比赛 这是战争\N{\rEng}It's not a game! It's war.
+Dialogue: 0,1:11:12.68,1:11:14.68,ch,,0,0,0,,今天死亡坑天气不错\N{\rEng}It's a beautiful day in the Pit of Doom!
+Dialogue: 0,1:11:14.85,1:11:16.81,ch,,0,0,0,,这是胜者为王的比赛\N{\rEng}It's winner take all!
+Dialogue: 0,1:11:16.98,1:11:18.35,ch,,0,0,0,,七局四胜\N{\rEng}It's the best of seven.
+Dialogue: 0,1:11:18.52,1:11:22.65,ch,,0,0,0,,获胜者将得到整片巴西栗子林\N{\rEng}The winner will take control of the entire Brazil nut grove!
+Dialogue: 0,1:11:22.86,1:11:24.57,ch,,0,0,0,,这就像足球 这我会玩\N{\rEng}It's just like soccer. I can do this.
+Dialogue: 0,1:11:24.73,1:11:26.03,ch,,0,0,0,,好的 有什么特别战术吗？\N{\rEng}All right, any special strategies?
+Dialogue: 0,1:11:26.19,1:11:27.99,ch,,0,0,0,,打算怎么踢？4-4-2 还是 5-4-1\N{\rEng}What are we running at, 4-4-2 or a 5-4-1?
+Dialogue: 0,1:11:28.15,1:11:30.03,ch,,0,0,0,,准备好了 教练 我踢什么位置\N{\rEng}What are we doing here, coach? What position do I play?
+Dialogue: 0,1:11:30.20,1:11:32.57,ch,,0,0,0,,事实上我给你准备了一个合适的位置\N{\rEng}Actually, I do have a perfect spot for you.
+Dialogue: 0,1:11:33.03,1:11:36.20,ch,,0,0,0,,水 这儿有水 来喝水吧\N{\rEng}Water. Water here. Get your water.
+Dialogue: 0,1:11:36.37,1:11:37.25,ch,,0,0,0,,好的 谢谢\N{\rEng}Okay, thanks.
+Dialogue: 0,1:11:37.41,1:11:41.92,ch,,0,0,0,,罗伯特 他所向披靡势不可挡 到处都是他的身影\N{\rEng}Roberto is unstoppable! He's incredible! He's everywhere!
+Dialogue: 0,1:11:42.08,1:11:43.42,ch,,0,0,0,,加油罗伯特\N{\rEng}Go, Roberto!
+Dialogue: 0,1:11:43.59,1:11:44.71,ch,,0,0,0,,哼 这我也能行\N{\rEng}I could have done that.
+Dialogue: 0,1:11:44.88,1:11:46.09,ch,,0,0,0,,罗伯特和对手保持距离\N{\rEng}Roberto springs free!
+Dialogue: 0,1:11:46.26,1:11:48.38,ch,,0,0,0,,他正在向前冲 向前冲 射门了\N{\rEng}There he goes, there he goes, there he goes! He shoots!
+Dialogue: 0,1:11:49.93,1:11:50.93,ch,,0,0,0,,球进了！\N{\rEng}Goal!
+Dialogue: 0,1:11:51.09,1:11:51.93,ch,,0,0,0,,进啦！\N{\rEng}Goal!
+Dialogue: 0,1:12:00.94,1:12:02.94,ch,,0,0,0,,哦 费利佩抢到了球\N{\rEng}Felipe has the ball. The Red Macaws...
+Dialogue: 0,1:12:03.11,1:12:04.23,ch,,0,0,0,,红金刚鹦鹉要扭转局面\N{\rEng}are making a comeback.
+Dialogue: 0,1:12:04.40,1:12:06.11,ch,,0,0,0,,费利佩传给提科 提科传给马里奥\N{\rEng}Felipe pass to Tito. Tito with Mario.
+Dialogue: 0,1:12:06.28,1:12:08.40,ch,,0,0,0,,马里奥传给凯撒 凯撒传给安东尼\N{\rEng}Mario with Cesar. Cesar to Antonio.
+Dialogue: 0,1:12:08.57,1:12:10.24,ch,,0,0,0,,费利佩射门得分！\N{\rEng}Felipe scores!
+Dialogue: 0,1:12:10.57,1:12:13.03,ch,,0,0,0,,嘿 去你的吧\N{\rEng}Yes! In your face!
+Dialogue: 0,1:12:13.20,1:12:16.24,ch,,0,0,0,,费利佩 罗伯特 费利佩 罗伯特...\N{\rEng}Felipe, Roberto. Roberto, Felipe. Roberto, Felipe. Felipe, Roberto!
+Dialogue: 0,1:12:20.75,1:12:22.04,ch,,0,0,0,,进球了\N{\rEng}Goal!
+Dialogue: 0,1:12:24.13,1:12:25.08,ch,,0,0,0,,这一定很疼\N{\rEng}That has got to hurt.
+Dialogue: 0,1:12:25.25,1:12:26.59,ch,,0,0,0,,上 上\N{\rEng}Go, go!
+Dialogue: 0,1:12:27.63,1:12:31.42,ch,,0,0,0,,费利佩 利佩 利佩\N{\rEng}Felipe-lipe-lipe!
+Dialogue: 0,1:12:32.76,1:12:33.76,ch,,0,0,0,,嘿\N{\rEng}Hey!
+Dialogue: 0,1:12:33.93,1:12:34.76,ch,,0,0,0,,犯规\N{\rEng}Foul!
+Dialogue: 0,1:12:34.93,1:12:36.05,ch,,0,0,0,,得了吧 裁判\N{\rEng}Come on, ref!
+Dialogue: 0,1:12:37.60,1:12:38.60,ch,,0,0,0,,好吧 你上\N{\rEng}Okay, you're in.
+Dialogue: 0,1:12:38.77,1:12:39.39,ch,,0,0,0,,真的?\N{\rEng}Really?
+Dialogue: 0,1:12:39.56,1:12:40.93,ch,,0,0,0,,没说你 你\N{\rEng}Not you. You.
+Dialogue: 0,1:12:41.89,1:12:44.44,ch,,0,0,0,,学着点吧..送水小子\N{\rEng}Watch and learn...water boy
+Dialogue: 0,1:12:45.81,1:12:47.57,ch,,0,0,0,,好吧  你  你上吧\N{\rEng}All right, just get in there.
+Dialogue: 0,1:12:47.78,1:12:48.48,ch,,0,0,0,,好的\N{\rEng}Yes!
+Dialogue: 0,1:12:49.57,1:12:51.11,ch,,0,0,0,,开始吧 教练\N{\rEng}Okay. Here we go, coach.
+Dialogue: 0,1:12:51.28,1:12:52.11,ch,,0,0,0,,嘿 爸爸\N{\rEng}Yeah, Dad!
+Dialogue: 0,1:12:52.28,1:12:55.82,ch,,0,0,0,,现在有位替补队员上场了 他会是秘密武器吗？\N{\rEng}A new player is coming off the bench. Is he a secret weapon?
+Dialogue: 0,1:12:57.24,1:12:58.74,ch,,0,0,0,,他不就是那个送水的吗\N{\rEng}I think it's the water boy.
+Dialogue: 0,1:12:58.91,1:12:59.91,ch,,0,0,0,,没人防我\N{\rEng}Hey, I'm open!
+Dialogue: 0,1:13:00.08,1:13:01.45,ch,,0,0,0,,没人防我 把球传给我啊\N{\rEng}I'm open, toss it to me!
+Dialogue: 0,1:13:01.62,1:13:04.25,ch,,0,0,0,,传给我 我这儿没人防守 快传给我啊\N{\rEng}Hey, pass to me, I'm open. I'm wide open!
+Dialogue: 0,1:13:04.42,1:13:06.46,ch,,0,0,0,,把球传给我\N{\rEng}Pass the ball to me!
+Dialogue: 0,1:13:08.84,1:13:10.25,ch,,0,0,0,,谢谢你把球传给我\N{\rEng}Thanks for the pass, Blu!
+Dialogue: 0,1:13:10.42,1:13:11.30,ch,,0,0,0,,借用一下\N{\rEng}Mind if I borrow this?
+Dialogue: 0,1:13:11.59,1:13:13.47,ch,,0,0,0,,罗伯特向前挺进 他避开一个防守\N{\rEng}Roberto moves in. He shakes one...
+Dialogue: 0,1:13:13.63,1:13:14.51,ch,,0,0,0,,又避开一个\N{\rEng}then another!
+Dialogue: 0,1:13:14.68,1:13:15.64,ch,,0,0,0,,罗伯特\N{\rEng}Roberto!
+Dialogue: 0,1:13:15.80,1:13:17.14,ch,,0,0,0,,进啦\N{\rEng}Goal!
+Dialogue: 0,1:13:17.30,1:13:20.14,ch,,0,0,0,,噢耶! 噢耶\N{\rEng}Oh, yeah! Oh, yeah!
+Dialogue: 0,1:13:28.32,1:13:29.98,ch,,0,0,0,,目前的比分 3比3\N{\rEng}We are tied in the Pit of Doom.
+Dialogue: 0,1:13:30.15,1:13:31.82,ch,,0,0,0,,接下来谁先进球\N{\rEng}Whoever scores next...
+Dialogue: 0,1:13:31.99,1:13:33.19,ch,,0,0,0,,谁就赢得比赛\N{\rEng}wins it all!
+Dialogue: 0,1:13:33.49,1:13:34.99,ch,,0,0,0,,我来接 我来接\N{\rEng}I got it, I got it!
+Dialogue: 0,1:13:37.28,1:13:38.28,ch,,0,0,0,,加油 布鲁\N{\rEng}Come on, Blu.
+Dialogue: 0,1:13:43.46,1:13:46.87,ch,,0,0,0,,哇 送水小子突然表现出了专业水准\N{\rEng}Wow! The water boy is suddenly playing like a pro!
+Dialogue: 0,1:13:54.17,1:13:55.51,ch,,0,0,0,,把球传给罗伯特\N{\rEng}Pass the ball to Roberto!
+Dialogue: 0,1:13:57.97,1:13:59.68,ch,,0,0,0,,快传球  快传球！\N{\rEng}Pass the ball! Pass the ball!
+Dialogue: 0,1:13:59.85,1:14:02.35,ch,,0,0,0,,-布鲁 等等  -我自己能搞定\N{\rEng}-Blu, wait! -No, this bird's got it covered.
+Dialogue: 0,1:14:18.57,1:14:20.41,ch,,0,0,0,,球进了!\N{\rEng}Goal!
+Dialogue: 0,1:14:27.54,1:14:30.54,ch,,0,0,0,,看上去这个秘密武器 突然走火了\N{\rEng}It looks like the secret weapon just backfired!
+Dialogue: 0,1:14:30.71,1:14:33.21,ch,,0,0,0,,我们来看看艾迪现在的反应\N{\rEng}Let's go to Eduardo for his reaction.
+Dialogue: 0,1:14:34.72,1:14:38.01,ch,,0,0,0,,我要杀了这只该死的宠物\N{\rEng}I'm gonna kill you, fanny pack!
+Dialogue: 0,1:14:47.90,1:14:49.19,ch,,0,0,0,,哦 老艾迪\N{\rEng}Check it out, old Eddie.
+Dialogue: 0,1:14:49.35,1:14:53.07,ch,,0,0,0,,看样子你们没有坚果吃了 只能减肥了\N{\rEng}Looks like you guys are going to have to start a nut-free diet.
+Dialogue: 0,1:14:54.69,1:14:57.40,ch,,0,0,0,,这场比赛在我们那儿会传为佳话的\N{\rEng}We're gonna be talking about that for a long time.
+Dialogue: 0,1:15:01.53,1:15:05.12,ch,,0,0,0,,我真不该对人类的宠物报抱什么希望\N{\rEng}I should never have expected more from a human's pet.
+Dialogue: 0,1:15:20.93,1:15:22.30,ch,,0,0,0,,嘿\N{\rEng}Hey.
+Dialogue: 0,1:15:23.93,1:15:26.60,ch,,0,0,0,,嘿 刚才你怎么回事儿啊？\N{\rEng}What happened back there?
+Dialogue: 0,1:15:26.77,1:15:28.98,ch,,0,0,0,,我太想融入这个大家庭了\N{\rEng}I was trying to be one of the tribe.
+Dialogue: 0,1:15:29.14,1:15:32.31,ch,,0,0,0,,但我可能永远都不能成为你爸爸希望的那样了\N{\rEng}But I guess I'm never gonna be "the bird" like your dad wants me to be.
+Dialogue: 0,1:15:32.48,1:15:35.65,ch,,0,0,0,,-你..说什么？ -我想我们该回家了\N{\rEng}-What? -I think it's time to go home.
+Dialogue: 0,1:15:35.82,1:15:37.57,ch,,0,0,0,,-我正要跟你说呢\N{\rEng}We should talk about this.
+Dialogue: 0,1:15:37.74,1:15:39.28,ch,,0,0,0,,说什么？\N{\rEng}Talk about what?
+Dialogue: 0,1:15:39.45,1:15:40.78,ch,,0,0,0,,布鲁 看看周围\N{\rEng}Blu, look around.
+Dialogue: 0,1:15:40.95,1:15:45.45,ch,,0,0,0,,孩子们这里 在野外玩的这么的开心\N{\rEng}The kids are thriving. They love being in the wild.
+Dialogue: 0,1:15:46.29,1:15:48.12,ch,,0,0,0,,也许这里就是我们的家\N{\rEng}Maybe this place is home.
+Dialogue: 0,1:15:48.29,1:15:50.58,ch,,0,0,0,,我们的家？ 这里是我们的家？\N{\rEng}Home? How could this be home?
+Dialogue: 0,1:15:50.75,1:15:52.79,ch,,0,0,0,,我尽全力适应这里 帮助他们..\N{\rEng}I have done everything I can to fit in and help out...
+Dialogue: 0,1:15:52.96,1:15:54.50,ch,,0,0,0,,可我做什么都不对\N{\rEng}but no matter what I do, it's wrong.
+Dialogue: 0,1:15:54.67,1:15:56.13,ch,,0,0,0,,这不是我们的家 珠儿\N{\rEng}That's not home, Jewel.
+Dialogue: 0,1:15:56.30,1:15:59.13,ch,,0,0,0,,也许属于你 但不是我的\N{\rEng}Maybe for you, but not for me.
+Dialogue: 0,1:15:59.30,1:16:02.13,ch,,0,0,0,,知道吗？你应该清楚你到底需要什么\N{\rEng}You know what? You need to figure out what you want.
+Dialogue: 0,1:16:02.30,1:16:07.31,ch,,0,0,0,,而且 别老想着你自己 也为我们想想吧\N{\rEng}And maybe, stop thinking about just yourself and start thinking about us.
+Dialogue: 0,1:16:46.85,1:16:48.31,ch,,0,0,0,,出发 出发 快点\N{\rEng}Move out! Let's go!
+Dialogue: 0,1:16:53.98,1:16:55.73,ch,,0,0,0,,太美妙了\N{\rEng}Beautiful.
+Dialogue: 0,1:17:11.33,1:17:13.87,ch,,0,0,0,,琳达 图里奥\N{\rEng}Linda! Tulio!
+Dialogue: 0,1:17:22.34,1:17:24.22,ch,,0,0,0,,再见 琳达\N{\rEng}Goodbye, Linda.
+Dialogue: 0,1:17:29.85,1:17:31.39,ch,,0,0,0,,再见 小腰包\N{\rEng}Goodbye, fanny pack.
+Dialogue: 0,1:17:31.56,1:17:33.73,ch,,0,0,0,,请在能拐弯的时候拐弯\N{\rEng}Turn around when possible.
+Dialogue: 0,1:17:33.89,1:17:37.73,ch,,0,0,0,,抱歉 GPS小姐 不是你的错 是我的不对\N{\rEng}Sorry, GPS lady. It's not you. It's me.
+Dialogue: 0,1:17:38.23,1:17:41.90,ch,,0,0,0,,再见 煎饼 再见 咖啡\N{\rEng}Goodbye, pancakes. Goodbye, coffee.
+Dialogue: 0,1:17:43.15,1:17:45.32,ch,,0,0,0,,再见 咖啡\N{\rEng}Goodbye, coffee.
+Dialogue: 0,1:17:49.08,1:17:50.58,ch,,0,0,0,,琳达？\N{\rEng}Linda?
+Dialogue: 0,1:17:51.75,1:17:52.75,ch,,0,0,0,,琳达\N{\rEng}Linda!
+Dialogue: 0,1:17:57.96,1:17:59.00,ch,,0,0,0,,艾迪说的对\N{\rEng}Eduardo was right!
+Dialogue: 0,1:17:59.17,1:18:00.67,ch,,0,0,0,,-你是个叛徒 -等等 你不明白\N{\rEng}-Traitor! -Wait, you don't understand.
+Dialogue: 0,1:18:00.84,1:18:03.09,ch,,0,0,0,,我有什么不明白的 与人类为伍？\N{\rEng}What don't I understand? Siding with humans?
+Dialogue: 0,1:18:03.26,1:18:04.59,ch,,0,0,0,,你对人类了解多少？\N{\rEng}What do you even know about humans?
+Dialogue: 0,1:18:05.18,1:18:08.76,ch,,0,0,0,,哦 我很了解他们 他们引诱你 把你抓起来\N{\rEng}I know everything. They lure you in, they trap you.
+Dialogue: 0,1:18:08.93,1:18:10.60,ch,,0,0,0,,他们还给你洗脑！\N{\rEng}They destroy your mind!
+Dialogue: 0,1:18:10.76,1:18:12.68,ch,,0,0,0,,鹦鹉要吃饼干吗 要吃饼干吗？\N{\rEng}Polly want a cracker? Polly want a cracker?
+Dialogue: 0,1:18:12.85,1:18:14.68,ch,,0,0,0,,不 我受够饼干了\N{\rEng}No! Enough crackers!
+Dialogue: 0,1:18:14.85,1:18:16.35,ch,,0,0,0,,我讨厌饼干\N{\rEng}I hate crackers!
+Dialogue: 0,1:18:20.27,1:18:21.15,ch,,0,0,0,,快走 罗伯特\N{\rEng}Come on, Roberto!
+Dialogue: 0,1:18:21.32,1:18:22.61,ch,,0,0,0,,是他们 是他们\N{\rEng}It's them. It's them!
+Dialogue: 0,1:18:22.69,1:18:23.78,ch,,0,0,0,,是他们！\N{\rEng}It's them!
+Dialogue: 0,1:18:24.78,1:18:25.61,ch,,0,0,0,,罗伯特 让开！\N{\rEng}Roberto, get out of--
+Dialogue: 0,1:18:29.12,1:18:31.78,ch,,0,0,0,,不要 不要 我不要饼干\N{\rEng}Not again! Not again! No more crackers!
+Dialogue: 0,1:18:32.62,1:18:33.54,ch,,0,0,0,,你冷静点\N{\rEng}Snap out of it!
+Dialogue: 0,1:18:34.79,1:18:37.21,ch,,0,0,0,,听好 我们有个机会阻止这一切\N{\rEng}Look...we've got one chance to stop this, okay?
+Dialogue: 0,1:18:37.37,1:18:38.29,ch,,0,0,0,,我去找到我的朋友\N{\rEng}I have to find my friends.
+Dialogue: 0,1:18:38.38,1:18:40.21,ch,,0,0,0,,你飞回去警告大家 明白吗？\NYou fly back and warn the others. You got it?
+Dialogue: 0,1:18:40.38,1:18:41.46,ch,,0,0,0,,好 明白\N{\rEng}Yeah. I got it.
+Dialogue: 0,1:18:41.63,1:18:42.96,ch,,0,0,0,,-那好 快去 -好的\N{\rEng}-Okay. Go! -Okay!
+Dialogue: 0,1:18:46.13,1:18:48.47,ch,,0,0,0,,人类 人类\N{\rEng}Humans, humans!
+Dialogue: 0,1:18:52.31,1:18:53.81,ch,,0,0,0,,-往你的左边 不右边 右边  -我的左边？\N{\rEng}-Your left! Your right! -My left?
+Dialogue: 0,1:18:53.97,1:18:55.31,ch,,0,0,0,,左边还是右边？\N{\rEng}Left or right?
+Dialogue: 0,1:18:58.23,1:19:00.06,ch,,0,0,0,,你的右腿 我的左腿\N{\rEng}-Your right leg, my left leg. -Okay.
+Dialogue: 0,1:19:00.23,1:19:02.31,ch,,0,0,0,,很好 很好\N{\rEng}Good! Good! Good!
+Dialogue: 0,1:19:02.48,1:19:04.32,ch,,0,0,0,,-现在往上爬 -加油\N{\rEng}-Now, go up. -Go up.
+Dialogue: 0,1:19:05.99,1:19:06.65,ch,,0,0,0,,使劲\N{\rEng}Reach!
+Dialogue: 0,1:19:06.99,1:19:08.36,ch,,0,0,0,,差一点了 就快到了\N{\rEng}Almost there!
+Dialogue: 0,1:19:10.99,1:19:11.99,ch,,0,0,0,,琳达\N{\rEng}Linda...
+Dialogue: 0,1:19:12.49,1:19:13.99,ch,,0,0,0,,我真的很抱歉\N{\rEng}I'm so sorry.
+Dialogue: 0,1:19:14.16,1:19:15.95,ch,,0,0,0,,虽然情况很糟糕\N{\rEng}As bad as this is...
+Dialogue: 0,1:19:16.12,1:19:20.67,ch,,0,0,0,,但是我全世界哪儿也不想去 只想和你在一起\N{\rEng}there is no place I would rather be in the whole world than with you.
+Dialogue: 0,1:19:20.83,1:19:23.34,ch,,0,0,0,,哪怕是被拴在一棵树上 （第一部里Jewel和blu）\N{\rEng}Even if it is tied to a tree.
+Dialogue: 0,1:19:29.51,1:19:30.84,ch,,0,0,0,,哦 琳达\N{\rEng}Linda!
+Dialogue: 0,1:19:32.35,1:19:33.05,ch,,0,0,0,,布鲁！\N{\rEng}Blu!
+Dialogue: 0,1:19:33.64,1:19:34.47,ch,,0,0,0,,布鲁！\N{\rEng}Blu!
+Dialogue: 0,1:19:34.81,1:19:36.14,ch,,0,0,0,,-琳达？  -下面！\N{\rEng}-Linda? -Down here!
+Dialogue: 0,1:19:37.98,1:19:39.35,ch,,0,0,0,,啊 布鲁\N{\rEng}What? Blu!
+Dialogue: 0,1:19:39.52,1:19:42.19,ch,,0,0,0,,你怎么在这儿 这儿很危险\N{\rEng}What are you doing here? This is dangerous!
+Dialogue: 0,1:19:42.36,1:19:44.86,ch,,0,0,0,,真难以置信 里约飞到这儿有2000英里\N{\rEng}That's incredible! It's a 2,000-mile flight!
+Dialogue: 0,1:19:45.03,1:19:46.36,ch,,0,0,0,,-我们跟着他  -太神奇了\N{\rEng}-Let's follow him! -It's amazing!
+Dialogue: 0,1:19:47.82,1:19:49.65,ch,,0,0,0,,我就说我听到他的声音了\N{\rEng}I told you I heard him.
+Dialogue: 0,1:20:06.21,1:20:07.76,ch,,0,0,0,,钥匙归我了\N{\rEng}I'll take those.
+Dialogue: 0,1:20:19.41,1:20:23.91,music2,,0,0,0,,ps：好有Avatar的感觉
+Dialogue: 0,1:20:39.91,1:20:41.66,ch,,0,0,0,,一切都完了\N{\rEng}Game over! It's over!
+Dialogue: 0,1:20:41.83,1:20:43.92,ch,,0,0,0,,人类 那些光 不...\N{\rEng}Humans! The lights!
+Dialogue: 0,1:20:45.04,1:20:46.34,ch,,0,0,0,,全完了\N{\rEng}It's over!
+Dialogue: 0,1:20:46.50,1:20:48.50,ch,,0,0,0,,自从我们找到他 他就不停的说胡话\N{\rEng}He's been blabbering like this since we found him.
+Dialogue: 0,1:20:48.67,1:20:50.71,ch,,0,0,0,,伐木工来了 布鲁和他们在一起\N{\rEng}The loggers are coming! And Blu is with them!
+Dialogue: 0,1:20:50.88,1:20:51.84,ch,,0,0,0,,-他是个叛徒  -不\N{\rEng}-Traitor! -No!
+Dialogue: 0,1:20:52.01,1:20:53.43,ch,,0,0,0,,不 布鲁想帮助我们\N{\rEng}No, Blu is trying to help us.
+Dialogue: 0,1:20:53.59,1:20:54.84,ch,,0,0,0,,什么？ 就他自己？\N{\rEng}What? By himself?
+Dialogue: 0,1:20:55.01,1:20:56.60,ch,,0,0,0,,我们快撤 离开这里\N{\rEng}Let's evacuate! We're leaving.
+Dialogue: 0,1:20:56.76,1:20:57.93,ch,,0,0,0,,撤退 所有的鸟立刻出发\N{\rEng}Let's go. Everyone move out.
+Dialogue: 0,1:20:58.10,1:20:59.27,ch,,0,0,0,,-快快快 -爸爸？\N{\rEng}-Go, go, go! -Dad?
+Dialogue: 0,1:20:59.43,1:21:01.23,ch,,0,0,0,,这次不行 我不能和你一起走\N{\rEng}No, not this time. I'm not going with you.
+Dialogue: 0,1:21:01.39,1:21:04.19,ch,,0,0,0,,你必须和我一起走 我不能再让家人面临危险\N{\rEng}You have to go with me! I will not put my family in danger again.
+Dialogue: 0,1:21:04.35,1:21:07.02,ch,,0,0,0,,布鲁也是我的家人 我不会丢下他的\N{\rEng}Blu is my family, and I'm not leaving him behind.
+Dialogue: 0,1:21:07.19,1:21:08.94,ch,,0,0,0,,不用担心\N{\rEng}You don't have to.
+Dialogue: 0,1:21:11.19,1:21:12.78,ch,,0,0,0,,你没事吧\N{\rEng}Are you okay?
+Dialogue: 0,1:21:14.78,1:21:18.20,ch,,0,0,0,,听着 埃德沃德 也许我不是这里最有鸟样的鸟\N{\rEng}Look, Eduardo, I might not be the birdliest bird in the flock...
+Dialogue: 0,1:21:18.37,1:21:20.29,ch,,0,0,0,,就现在来说 这是好事\N{\rEng}but, for once, that's actually a good thing.
+Dialogue: 0,1:21:20.62,1:21:21.79,ch,,0,0,0,,你了解丛林\N{\rEng}You know the jungle...
+Dialogue: 0,1:21:21.96,1:21:23.46,ch,,0,0,0,,我了解人类\N{\rEng}I know humans.
+Dialogue: 0,1:21:23.62,1:21:25.71,ch,,0,0,0,,我们合作就能阻止伐木工\N{\rEng}And I know that, together, we can stop them.
+Dialogue: 0,1:21:26.42,1:21:28.46,ch,,0,0,0,,不能让他们夺走我们的家园\N{\rEng}We can't let them take our home.
+Dialogue: 0,1:21:28.63,1:21:31.71,ch,,0,0,0,,虽然这里又热又吵 到处是恐怖的虫子\N{\rEng}Sure, it's hot and loud and filled with creepy bugs...
+Dialogue: 0,1:21:31.97,1:21:33.42,ch,,0,0,0,,可这是属于我们的\N{\rEng}but it's ours.
+Dialogue: 0,1:21:33.59,1:21:35.80,ch,,0,0,0,,我们要为他而战 谁跟我去？\N{\rEng}Let's fight for it. Who's with me?
+Dialogue: 0,1:21:35.97,1:21:37.26,ch,,0,0,0,,我跟你..\N{\rEng}I'm with you!
+Dialogue: 0,1:21:39.60,1:21:40.64,ch,,0,0,0,,还有别人吗？\N{\rEng}Anybody else?
+Dialogue: 0,1:21:49.11,1:21:50.82,ch,,0,0,0,,停下 停下\N{\rEng}Stop! Stop!
+Dialogue: 0,1:21:52.44,1:21:53.82,ch,,0,0,0,,停下！\N{\rEng}Stop!
+Dialogue: 0,1:21:57.16,1:22:00.16,ch,,0,0,0,,停下！{\rEng}Stop!
+Dialogue: 0,1:22:06.12,1:22:09.08,ch,,0,0,0,,哦 这就对了 请尊重热带雨林\N{\rEng}Yeah. Respect the rainforest!
+Dialogue: 0,1:22:25.44,1:22:27.90,ch,,0,0,0,,我就知道  我就知道 我就...\N{\rEng}I knew it! I knew it!
+Dialogue: 0,1:22:31.86,1:22:34.15,ch,,0,0,0,,你这是要去哪儿？\N{\rEng}Hey. Where do you think you're going?
+Dialogue: 0,1:22:34.32,1:22:37.20,ch,,0,0,0,,那只不过是一群该死的鸽子\N{\rEng}It's just a bunch of pigeons.
+Dialogue: 0,1:22:37.36,1:22:38.82,ch,,0,0,0,,给我回去干活\N{\rEng}Get back to work!
+Dialogue: 0,1:22:42.66,1:22:44.24,ch,,0,0,0,,你带头 布鲁\N{\rEng}Lead the way, Blu.
+Dialogue: 0,1:22:44.41,1:22:46.29,ch,,0,0,0,,终于叫对了 你叫我布鲁\N{\rEng}That's my name! Yes! You called me Blu.
+Dialogue: 0,1:22:46.46,1:22:48.12,ch,,0,0,0,,对 我叫布鲁！\N{\rEng}Yes, I am Blu!
+Dialogue: 0,1:22:48.29,1:22:50.21,ch,,0,0,0,,哦 对的\N{\rEng}What? Right.
+Dialogue: 0,1:22:50.38,1:22:51.84,ch,,0,0,0,,有蓝色羽毛的鸟\N{\rEng}Birds of blue feathers...
+Dialogue: 0,1:22:52.00,1:22:54.09,ch,,0,0,0,,要团结在一起\N{\rEng}Have to stick together!
+Dialogue: 0,1:23:06.18,1:23:08.89,ch,,0,0,0,,准备好了吗？ 现在往下\N{\rEng}Everybody ready? And under!
+Dialogue: 0,1:23:11.48,1:23:12.02,ch,,0,0,0,,往上\N{\rEng}Over!
+Dialogue: 0,1:23:15.57,1:23:16.32,ch,,0,0,0,,倒飞！\N{\rEng}Backwards!
+Dialogue: 0,1:23:22.03,1:23:25.66,ch,,0,0,0,,我会活下去 我会活下去\N{\rEng}I will survive I will survive
+Dialogue: 0,1:23:29.25,1:23:31.46,ch,,0,0,0,,-抓到了   -哇 好准\N{\rEng}-Got him! -Wow, precise.
+Dialogue: 0,1:23:32.09,1:23:34.80,ch,,0,0,0,,我才不怕什么鸟呢\N{\rEng}I ain't afraid of no birds.
+Dialogue: 0,1:23:38.38,1:23:40.05,ch,,0,0,0,,进攻\N{\rEng}Attack!
+Dialogue: 0,1:23:40.22,1:23:41.80,ch,,0,0,0,,亚马逊保卫战现在开始\N{\rEng}It's on in the Amazon.
+Dialogue: 0,1:23:41.97,1:23:43.72,ch,,0,0,0,,预备 扔\N{\rEng}All right, hit it!
+Dialogue: 0,1:23:46.39,1:23:47.60,ch,,0,0,0,,击掌\N{\rEng}High-five!
+Dialogue: 0,1:23:53.19,1:23:55.07,ch,,0,0,0,,为什么？为什么？\N{\rEng}Why? Why?
+Dialogue: 0,1:23:55.23,1:23:56.61,ch,,0,0,0,,给我振作起来\N{\rEng}Get a grip!
+Dialogue: 0,1:24:00.66,1:24:02.53,ch,,0,0,0,,炮弹来了\N{\rEng}Incoming!
+Dialogue: 0,1:24:06.37,1:24:07.91,ch,,0,0,0,,停下\N{\rEng}Halt!
+Dialogue: 0,1:24:09.00,1:24:10.37,ch,,0,0,0,,他在那儿\N{\rEng}There he is.
+Dialogue: 0,1:24:10.54,1:24:13.46,ch,,0,0,0,,查理 给我准备鼻射炮\N{\rEng}Charlie, prepare the nose-zooka.
+Dialogue: 0,1:24:14.21,1:24:15.34,ch,,0,0,0,,迪耶戈\N{\rEng}Tiago!
+Dialogue: 0,1:24:15.50,1:24:16.92,ch,,0,0,0,,这才对嘛\N{\rEng}Now we're talking.
+Dialogue: 0,1:24:17.09,1:24:19.21,ch,,0,0,0,,准备 瞄准\N{\rEng}Ready...aim...
+Dialogue: 0,1:24:19.38,1:24:20.30,ch,,0,0,0,,开火\N{\rEng}fire!
+Dialogue: 0,1:24:24.39,1:24:26.10,ch,,0,0,0,,又失手了\N{\rEng}Foiled again.
+Dialogue: 0,1:24:27.97,1:24:30.14,ch,,0,0,0,,-干得好 迪耶戈  -我们是最棒的团队\N{\rEng}-Good job, Tiago. -We're a great team, Dad!
+Dialogue: 0,1:24:30.31,1:24:31.77,ch,,0,0,0,,-嘿 老艾迪？ -费利佩\N{\rEng}-Hey, old Eddie. -Felipe.
+Dialogue: 0,1:24:31.94,1:24:34.90,ch,,0,0,0,,你觉得我会错过这个好机会吗？比赛开始！\N{\rEng}You think I would miss this party? Game on!
+Dialogue: 0,1:24:39.15,1:24:40.82,ch,,0,0,0,,嘿 快回来\N{\rEng}Hey! Come back!
+Dialogue: 0,1:24:41.07,1:24:42.99,ch,,0,0,0,,一群饭桶 没用的东西\N{\rEng}You're useless, all of you!
+Dialogue: 0,1:24:43.62,1:24:44.62,ch,,0,0,0,,小心\N{\rEng}Look out!
+Dialogue: 0,1:24:48.66,1:24:51.33,ch,,0,0,0,,要打架 找个个子和你一样大的\N{\rEng}Pick on someone your own size.
+Dialogue: 0,1:24:59.17,1:25:00.13,ch,,0,0,0,,不 不\N{\rEng}No! No!
+Dialogue: 0,1:25:00.30,1:25:04.80,ch,,0,0,0,,接住你了 我接住你了 没事了 你安全了\N{\rEng}I got you, I got you. It's okay, you're safe now.
+Dialogue: 0,1:25:11.52,1:25:13.52,ch,,0,0,0,,那就是琳达\N{\rEng}That's a Linda.
+Dialogue: 0,1:25:20.28,1:25:21.03,ch,,0,0,0,,耶！\N{\rEng}Yeah!
+Dialogue: 0,1:25:24.78,1:25:26.57,ch,,0,0,0,,还是这么默契 布鲁\N{\rEng}We still got it, Blu!
+Dialogue: 0,1:25:36.63,1:25:39.55,ch,,0,0,0,,真是的 什么事都得我亲自干\N{\rEng}I have to do everything myself.
+Dialogue: 0,1:25:44.47,1:25:46.13,ch,,0,0,0,,给我滚开\N{\rEng}Hey! Get away from that!
+Dialogue: 0,1:25:46.30,1:25:49.22,ch,,0,0,0,,不 没有人可以抢我的戏\N{\rEng}No! No one steals my scene.
+Dialogue: 0,1:25:55.35,1:25:56.90,ch,,0,0,0,,棒棒糖？\N{\rEng}Lollipop?
+Dialogue: 0,1:26:03.24,1:26:03.90,ch,,0,0,0,,什么？\N{\rEng}What?
+Dialogue: 0,1:26:06.03,1:26:07.61,ch,,0,0,0,,你在干嘛？ 快走\N{\rEng}What are you doing? Let go!
+Dialogue: 0,1:26:07.78,1:26:08.74,ch,,0,0,0,,快逃命吧\N{\rEng}Save yourself!
+Dialogue: 0,1:26:10.74,1:26:11.91,ch,,0,0,0,,快点 放手！\N{\rEng}Come on, let go!
+Dialogue: 0,1:26:12.20,1:26:14.08,ch,,0,0,0,,-我就不！ -你疯了吗？\N{\rEng}-Never! -Are you crazy?
+Dialogue: 0,1:26:14.25,1:26:16.04,ch,,0,0,0,,你会把我们两个都害死的\N{\rEng}You'll bring both of us down! Let go!
+Dialogue: 0,1:26:17.58,1:26:18.42,ch,,0,0,0,,飞呀！\N{\rEng}Fly!
+Dialogue: 0,1:26:19.21,1:26:20.79,ch,,0,0,0,,似曾相识吧 布鲁（法语）\N{\rEng}Déjà vu, Blu.
+Dialogue: 0,1:26:20.96,1:26:21.71,ch,,0,0,0,,奈杰尔\N{\rEng}Nigel!
+Dialogue: 0,1:26:23.46,1:26:24.46,ch,,0,0,0,,布鲁\N{\rEng}Blu!
+Dialogue: 0,1:26:25.93,1:26:27.47,ch,,0,0,0,,奈杰尔\N{\rEng}Nigel!
+Dialogue: 0,1:26:49.62,1:26:50.62,ch,,0,0,0,,你\N{\rEng}You.
+Dialogue: 0,1:26:51.58,1:26:55.83,ch,,0,0,0,,你要为你的罪恶付出最惨痛的代价\N{\rEng}You will pay a painful price for your pestilence!
+Dialogue: 0,1:26:56.00,1:26:57.79,ch,,0,0,0,,住手 别过来\N{\rEng}Hey, stop that! Get off of me!
+Dialogue: 0,1:26:57.96,1:27:00.46,ch,,0,0,0,,用我愤怒的羽毛 扇肿你的脸\N{\rEng}A flurry of furious feathers in your face!
+Dialogue: 0,1:27:00.63,1:27:02.17,ch,,0,0,0,,你没必要 没必要这么做\N{\rEng}You don't have to do this!
+Dialogue: 0,1:27:02.34,1:27:04.42,ch,,0,0,0,,我就是想这么做\N{\rEng}No, I just want to.
+Dialogue: 0,1:27:04.59,1:27:05.63,ch,,0,0,0,,嘿 停下来\N{\rEng}Hey, stop! Stop!
+Dialogue: 0,1:27:05.80,1:27:08.63,ch,,0,0,0,,哦 天哪 查理 机会来了\N{\rEng}Oh, my goodness. Charlie! This is it. This is it!
+Dialogue: 0,1:27:08.80,1:27:10.59,ch,,0,0,0,,稳住 稳住\N{\rEng}Steady. Steady.
+Dialogue: 0,1:27:10.76,1:27:12.01,ch,,0,0,0,,扇耳光比赛\N{\rEng}Slap fight!
+Dialogue: 0,1:27:14.93,1:27:16.14,ch,,0,0,0,,就是现在 发射！\N{\rEng}Shoot! Shoot!
+Dialogue: 0,1:27:24.82,1:27:25.65,ch,,0,0,0,,奈杰尔\N{\rEng}Nigel!
+Dialogue: 0,1:27:37.83,1:27:39.87,ch,,0,0,0,,我就要死了吗？\N{\rEng}Is this the end?
+Dialogue: 0,1:27:40.04,1:27:41.50,ch,,0,0,0,,我太年轻...\N{\rEng}I was too young...
+Dialogue: 0,1:27:41.67,1:27:44.38,ch,,0,0,0,,又太英俊 天妒英才\N{\rEng}too beautiful to live.
+Dialogue: 0,1:27:47.84,1:27:50.01,ch,,0,0,0,,-鲍勃  -等下 那不是鲍勃\N{\rEng}-Bob? -Hold up! That ain't Bob!
+Dialogue: 0,1:27:50.18,1:27:52.05,ch,,0,0,0,,我就说我见过他\N{\rEng}I told you I knew him from somewhere.
+Dialogue: 0,1:27:52.22,1:27:54.26,ch,,0,0,0,,这是我最后的谢幕\N{\rEng}My final curtain call.
+Dialogue: 0,1:27:55.01,1:27:57.68,ch,,0,0,0,,现在只剩下站票了\N{\rEng}And it's standing room only.
+Dialogue: 0,1:27:58.73,1:28:00.35,ch,,0,0,0,,再见\N{\rEng}Goodbye.
+Dialogue: 0,1:28:15.20,1:28:16.45,ch,,0,0,0,,不！\N{\rEng}No!
+Dialogue: 0,1:28:16.62,1:28:18.45,ch,,0,0,0,,不！！我干了些什么啊\N{\rEng}No! What have I done?
+Dialogue: 0,1:28:18.62,1:28:20.54,ch,,0,0,0,,如果不能与汝同生\N{\rEng}If I cannot liveth with thee...
+Dialogue: 0,1:28:20.71,1:28:23.38,ch,,0,0,0,,那我不如死了算了\Nthen I shall not liveth at all.
+Dialogue: 0,1:28:47.23,1:28:48.98,ch,,0,0,0,,那只青蛙它没有毒\N{\rEng}That frog is not poisonous.
+Dialogue: 0,1:28:49.15,1:28:50.40,ch,,0,0,0,,什么？\N{\rEng}What?
+Dialogue: 0,1:28:50.57,1:28:51.82,ch,,0,0,0,,我们没有死？\N{\rEng}We're not dead?
+Dialogue: 0,1:28:51.99,1:28:55.16,ch,,0,0,0,,这个品种经常被搞错 它是只假的箭毒蛙\N{\rEng}It's a very common mistake. But she's a harmless pseudo-dendrobates.
+Dialogue: 0,1:28:55.32,1:28:56.78,ch,,0,0,0,,从它粉色的斑点就能看出来\N{\rEng}You can tell by the pink spots.
+Dialogue: 0,1:28:56.95,1:29:01.08,ch,,0,0,0,,可我父母从小告诉我说 我有剧毒 叫我别碰任何人\N{\rEng}But my parents always told me I was poisonous and shouldn't touch anyone.
+Dialogue: 0,1:29:01.50,1:29:03.58,ch,,0,0,0,,你是你爸妈充话费送的吧？\N{\rEng}You just had really mean parents.
+Dialogue: 0,1:29:03.92,1:29:05.25,ch,,0,0,0,,哇哦\N{\rEng}Oh, wow.
+Dialogue: 0,1:29:05.42,1:29:06.75,ch,,0,0,0,,那么现在...{\rEng}So, now...
+Dialogue: 0,1:29:07.63,1:29:09.00,ch,,0,0,0,,我们可以在一起啦\N{\rEng}we can be together!
+Dialogue: 0,1:29:14.59,1:29:17.85,ch,,0,0,0,,-奈杰尔 奈杰尔 我的维克多  -不\N{\rEng}-Nigel! Nigel-Wigel-Wigglepuss! -No!
+Dialogue: 0,1:29:18.01,1:29:20.93,ch,,0,0,0,,-谁来救救我！ -再也不会让你离开了\N{\rEng}-Somebody, help me! -I'm going to never let you go.
+Dialogue: 0,1:29:21.10,1:29:22.77,ch,,0,0,0,,-我绝对不会放你走的  -不 不 我会学好的\N{\rEng}-I'm sorry, I'll be nicer. No! -Never gonna let you go!
+Dialogue: 0,1:29:22.94,1:29:24.19,ch,,0,0,0,,不 查理\N{\rEng}No, Charlie!
+Dialogue: 0,1:29:24.77,1:29:26.77,ch,,0,0,0,,查理\N{\rEng}Charlie!
+Dialogue: 0,1:29:27.69,1:29:29.98,ch,,0,0,0,,这是违反自然法则的\N{\rEng}This is unnatural!
+Dialogue: 0,1:29:43.79,1:29:45.62,ch,,0,0,0,,嘿 伙计们 嗨\N{\rEng}Hey, guys! Hi!
+Dialogue: 0,1:29:46.75,1:29:48.46,ch,,0,0,0,,头发没弄脏吧？好的\N{\rEng}There's nothing in my hair, right? Okay.
+Dialogue: 0,1:29:49.00,1:29:51.34,ch,,0,0,0,,我们从亚马逊的腹地...\N{\rEng}Directly from the heart of the Amazon rainforest...
+Dialogue: 0,1:29:51.51,1:29:53.22,ch,,0,0,0,,为你带来特大新闻\N{\rEng}we have some breaking news.
+Dialogue: 0,1:29:53.38,1:29:55.34,ch,,0,0,0,,多亏了图里奥博士和他的团队\N{\rEng}Thanks to Dr. Monteiro and his team...
+Dialogue: 0,1:29:55.51,1:30:00.01,ch,,0,0,0,,这里的整片区域都将会划定为 国家野生鸟类保护区\N{\rEng}the entire area will be designated as a National Wildlife Refuge.
+Dialogue: 0,1:30:00.18,1:30:03.18,ch,,0,0,0,,我们大家会一起确保这里的安全\N{\rEng}And together, we'll make sure this place stays safe.
+Dialogue: 0,1:30:03.35,1:30:04.35,ch,,0,0,0,,对吗？布鲁？\N{\rEng}Right, Blu?
+Dialogue: 0,1:30:05.81,1:30:07.90,ch,,0,0,0,,好消息还不止这一个\N{\rEng}But that's not the only good news.
+Dialogue: 0,1:30:08.06,1:30:10.19,ch,,0,0,0,,我们在丛林深处找到这只凤头鹦鹉\N{\rEng}We found this cockatoo deep in the Amazon...
+Dialogue: 0,1:30:10.36,1:30:12.90,ch,,0,0,0,,他好像和一只树蛙黏在一起\N{\rEng}and he seems to have bonded with a tree frog.
+Dialogue: 0,1:30:13.07,1:30:16.99,ch,,0,0,0,,我们会把它带回里约 进行持续的观察\N{\rEng}We are bringing them back to Rio for continuing observation.
+Dialogue: 0,1:30:18.07,1:30:21.54,ch,,0,0,0,,哦 奈杰尔 我们要去里约度蜜月啦\N{\rEng}Oh, Nigel! Wow! A honeymoon in Rio!
+Dialogue: 0,1:30:24.50,1:30:26.54,ch,,0,0,0,,大家一起来 拍手 拍手 摇尾巴...\N{\rEng}Put your paws, talons and tails together...
+Dialogue: 0,1:30:26.71,1:30:29.58,ch,,0,0,0,,这是丛林有史以来最强大的明星阵容\N{\rEng}for the most amazing talent ever gathered in one jungle.
+Dialogue: 0,1:30:29.75,1:30:33.38,ch,,0,0,0,,下面请看--野性亚马逊\N{\rEng}It's "Amazon Untamed!"
+Dialogue: 0,1:30:33.61,1:30:38.91,music,,0,0,0,,《Batucada Familia》
+Dialogue: 0,1:30:33.55,1:30:35.38,ch,,0,0,0,,来 动起来\N{\rEng}Come on! Get up!
+Dialogue: 0,1:30:36.68,1:30:39.85,ch,,0,0,0,,嘿 嘿 别咬我 别咬我\N{\rEng}What's up? Don't bite it What's up? Don't bite it
+Dialogue: 0,1:30:42.56,1:30:43.72,ch,,0,0,0,,我的鸟儿朋友们\N{\rEng}Where my birds at?
+Dialogue: 0,1:30:43.89,1:30:47.19,ch,,0,0,0,,无论去哪儿我们都在一起\N{\rEng}We're together no matter Where we might go
+Dialogue: 0,1:30:49.94,1:30:51.02,ch,,0,0,0,,翅膀挥舞起来\N{\rEng}Flap your wings!
+Dialogue: 0,1:30:51.19,1:30:53.11,ch,,0,0,0,,团结让我们走的更远\N{\rEng}If we're not all together We can't go far
+Dialogue: 0,1:30:53.28,1:30:54.40,ch,,0,0,0,,亚马逊\N{\rEng}Amazon!
+Dialogue: 0,1:30:55.19,1:30:58.70,ch,,0,0,0,,这是我们最爱的绿宝石\N{\rEng}It's an emerald we treasure
+Dialogue: 0,1:30:58.87,1:31:00.87,ch,,0,0,0,,从密林来到你的面前\N{\rEng}Coming from the jungle to you
+Dialogue: 0,1:31:02.58,1:31:06.37,ch,,0,0,0,,拍打的是心跳的节奏\N{\rEng}Beating like its heart beats
+Dialogue: 0,1:31:06.54,1:31:09.37,ch,,0,0,0,,演绎的是自由的音符\N{\rEng}Playing rhythms we've grown to
+Dialogue: 0,1:31:10.04,1:31:13.71,ch,,0,0,0,,这是我们最美的绿宝石\N{\rEng}It's the emerald we treasure
+Dialogue: 0,1:31:13.88,1:31:17.42,ch,,0,0,0,,来自我们生活的地方\N{\rEng}-Coming from the place where we live -The place where we live
+Dialogue: 0,1:31:17.59,1:31:20.05,ch,,0,0,0,,充满自由和欢乐的家园\N{\rEng}-The home of freedom and happiness -Happiness
+Dialogue: 0,1:31:20.22,1:31:22.55,ch,,0,0,0,,时光不停飞逝 丛林就像一阵清风 一个奇迹\N{\rEng}Time flies forever The jungle's like a breeze, it's a wonder
+Dialogue: 0,1:31:22.72,1:31:25.06,ch,,0,0,0,,快穿上舞裙 随时有人叫你跳舞\N{\rEng}Now get out your tutu In case someone wants you to dance
+Dialogue: 0,1:31:25.89,1:31:28.89,ch,,0,0,0,,-你好 亚马逊 -嘿 路易兹\N{\rEng}-Hello, Amazon! -Hey, Luiz!
+Dialogue: 0,1:31:29.06,1:31:32.77,ch,,0,0,0,,-嘿 小鸟们 我来了 -欢迎来到雨林 狗哥\N{\rEng}-Hey birds, I made it! -Welcome to the jungle, dawg!
+Dialogue: 0,1:31:38.11,1:31:41.24,ch,,0,0,0,,战舞龟 巴西战舞龟\N{\rEng}All my turtles! Hardcore turtles!
+Dialogue: 0,1:31:48.92,1:31:50.33,ch,,0,0,0,,唱吧 宝贝儿\N{\rEng}Sing it, baby!
+Dialogue: 0,1:31:53.42,1:31:54.59,ch,,0,0,0,,拉斐尔！\N{\rEng}Rafi!
+Dialogue: 0,1:31:58.88,1:32:00.88,ch,,0,0,0,,你确定要在亚马逊安家吗？\N{\rEng}Are you sure you can make the Amazon our home...
+Dialogue: 0,1:32:01.05,1:32:03.26,ch,,0,0,0,,这里有热又有恐怖的虫子\N{\rEng}with the heat and the creepy bugs?
+Dialogue: 0,1:32:03.43,1:32:05.39,ch,,0,0,0,,开什么玩笑 我可是丛林先生\N{\rEng}Are you kidding? I am Mr. Jungle.
+Dialogue: 0,1:32:05.56,1:32:08.18,ch,,0,0,0,,充满野性而且还很有鸟样\N{\rEng}Totally wild, and very birdly.
+Dialogue: 0,1:32:10.10,1:32:12.15,ch,,0,0,0,,夏天还是去里约避暑吧\N{\rEng}Maybe we can do summers in Rio.
+Dialogue: 0,1:32:12.31,1:32:13.94,ch,,0,0,0,,你是我的唯一 珠儿\N{\rEng}You're my one and only, Jewel.
+Dialogue: 0,1:32:15.82,1:32:19.02,ali,,0,0,0,,---狸猫制作 谢谢观赏---
+Dialogue: 0,1:32:26.58,1:32:28.62,ch,,0,0,0,,结束了吗？\N{\rEng}That's the end?
+Dialogue: 0,1:32:30.41,1:32:36.45,music,,0,0,0,,《Rio Rio (feat. B.o.B)》
