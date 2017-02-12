@@ -10,9 +10,12 @@ Created on Thu Feb  9 22:15:11 2017
 import ass
 import re
 import os 
-from mafan import simplify
+import chardet
+from hanziconv import HanziConv
 from guess_language import guess_language
 from itertools import compress
+from functools import partial
+from multiprocessing import Pool 
 
 os.chdir('/Users/huang/Dev/projects/WebScraping/3_renren/')
 #%%
@@ -37,6 +40,7 @@ def check_dir(folder):
     
 ## use either gbk or big5 or utf-8
 def open_ass(file):
+
     try:
         with open(file, "r",encoding="gbk") as f:
              doc = ass.parse(f)
@@ -56,6 +60,19 @@ def open_ass(file):
     except:
         pass
     
+    try:
+        with open(file, 'rb') as f:
+            input_bytes = f.read()
+            result = chardet.detect(input_bytes)
+            conf = result['confidence']
+            res_encoding = result['encoding']
+        if conf > 0.95:
+            with open(file, "r",encoding=res_encoding) as f:
+                doc = ass.parse(f)
+            return doc
+    except:
+        pass
+    
     return None
 
 def process_language(ele):
@@ -72,7 +89,9 @@ def process_language(ele):
         en_text = ' '.join(en_lines)
         if len(check_chinese(en_text)) > 0:
             return None 
-        zh_text = simplify(' '.join(zh_lines))
+        #zh_text = simplify(' '.join(zh_lines))
+        zh_text = HanziConv.toSimplified(' '.join(zh_lines))
+        #zh_text = ' '.join(zh_lines)
         if len(check_english(zh_text))>0:
             return None
         text_line = en_text + ' | ' + zh_text
@@ -90,27 +109,10 @@ def validate_ass(file):
     else:
         #print('Can not decode.')
         return None
-#%%
-
-# set up folder path 
-data_folder = 'data/'
-data_ass = data_folder + 'data_ass/'
-results_raw = data_folder + 'data_results_ass/'
-folders = [data_folder,data_ass,results_raw]
-[check_dir(x) for x in folders]
-
-# get all ass files 
-file_ass = [data_ass + f for f in os.listdir(data_ass)]
-print(len(file_ass))
-
-# process all ass files 
-
-## search for srts with both chinese and english in it
-## and transform them into txt, seperated by |, dump to results raw
-file_ass = file_ass[:200]
-counter=0
-for index,ass_file in enumerate(file_ass):
-    if index%20 == 0:
+    
+def process_ass(file_ass,results_raw):
+    index,ass_file = file_ass
+    if index%500 == 0:
         print(index)
     res = validate_ass(ass_file)
     if res is not None: 
@@ -124,11 +126,35 @@ for index,ass_file in enumerate(file_ass):
             else:
                 res_short = res[5:-5]
                 res_short = [x for x in res_short if x is not None]
-                counter+=1
                 filename, file_extension = os.path.splitext(ass_file)
                 fname = filename.split('/')[-1]
                 fname = results_raw +fname+'.txt'
                 with open(fname, mode='wt', encoding='utf-8') as myfile:
                     myfile.write('\n'.join(res_short))
-                if index%20 == 0:
-                    print(index)
+
+#%%
+if __name__ == '__main__':
+    # set up folder path 
+    data_folder = 'data/'
+    data_ass = data_folder + 'ass/'
+    results_raw = data_folder + 'data_results_ass/'
+    folders = [data_folder,data_ass,results_raw]
+    [check_dir(x) for x in folders]
+    
+    # get all ass files 
+    file_ass = [data_ass + f for f in os.listdir(data_ass)]
+    print(len(file_ass))
+    
+    # process all ass files 
+    ## search for srts with both chinese and english in it
+    ## and transform them into txt, seperated by |, dump to results raw
+    #file_ass = file_ass[:500]
+
+    p = Pool(10)
+    partial_ass = partial(process_ass, results_raw = results_raw)
+    process_mp = p.map(partial_ass,enumerate(file_ass))
+    p.close()
+    p.join()
+    print('finish')
+    
+        
